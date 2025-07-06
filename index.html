@@ -7,22 +7,26 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>KICKR BIKE ERG Mode Control</h1>
-    <div id="dashboard" style="margin-bottom: 1em">
-      <strong>Puissance:</strong> <span id="powerValue">-</span> W &nbsp;|
-      <strong>Cadence:</strong> <span id="cadenceValue">-</span> rpm
+    <div id="connectContainer">
+      <button id="connectBtn">Connecter au vélo</button>
     </div>
-    <button id="connectBtn">Connect</button>
-    <input id="powerInput" type="number" min="0" max="1500" value="150" />
-    <button id="setPowerBtn" disabled>Set Power</button>
-    <br />
-    <input id="zwoFileInput" type="file" accept=".zwo,.xml" />
-    <div id="workoutSvg" style="margin-bottom: 1em"></div>
-    <div id="workoutPhases"></div>
-
-    <h2>Logs</h2>
-    <div id="log"></div>
-
-    <script src="script.js"></script>
+    <div id="workoutContainer" style="display: none">
+      <input id="zwoFileInput" type="file" accept=".zwo,.xml" />
+      <div id="workoutSvg" style="display: none; margin-top: 2em"></div>
+      <div
+        id="dashboard"
+        style="
+          display: none;
+          margin-top: 2em;
+          color: white;
+          font-size: 2rem;
+          text-align: center;
+        "
+      >
+        <strong>Puissance:</strong> <span id="powerValue">-</span> W &nbsp;|
+        <strong>Cadence:</strong> <span id="cadenceValue">-</span> rpm
+      </div>
+    </div>
+    <script type="module" src="js/main.js"></script>
   </body>
 </html>
