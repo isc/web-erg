@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>KICKR BIKE ERG Control</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        padding: 1em;
+        max-width: 600px;
+        margin: auto;
+      }
+      button,
+      input {
+        padding: 0.5em 1em;
+        margin: 0.5em 0;
+        font-size: 1rem;
+      }
+      #log {
+        white-space: pre-wrap;
+        background: #eee;
+        padding: 1em;
+        height: 300px;
+        overflow-y: auto;
+        font-family: monospace;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>KICKR BIKE ERG Mode Control</h1>
+    <button id="connectBtn">Connect to KICKR BIKE</button><br />
+    <label for="powerInput">Set ERG Power (watts): </label>
+    <input type="number" id="powerInput" min="0" max="1500" value="200" />
+    <button id="setPowerBtn" disabled>Send Power</button>
+
+    <h2>Logs</h2>
+    <div id="log"></div>
+
+    <script>
+      let device, server
+      let controlCharacteristic
+
+      const logEl = document.getElementById('log')
+      const connectBtn = document.getElementById('connectBtn')
+      const setPowerBtn = document.getElementById('setPowerBtn')
+      const powerInput = document.getElementById('powerInput')
+
+      function log(msg) {
+        logEl.textContent += msg + '\n'
+        logEl.scrollTop = logEl.scrollHeight
+      }
+
+      async function connect() {
+        log('Requesting Bluetooth device...')
+        try {
+          device = await navigator.bluetooth.requestDevice({
+            filters: [{ namePrefix: 'KICKR' }],
+            optionalServices: ['fitness_machine', 'cycling_power']
+          })
+
+          log(`Connecting to ${device.name}...`)
+          server = await device.gatt.connect()
+
+          log('Getting Fitness Machine Service...')
+          const service = await server.getPrimaryService(
+            '00001826-0000-1000-8000-00805f9b34fb'
+          )
+
+          log('Getting Control Point Characteristic...')
+          controlCharacteristic = await service.getCharacteristic(
+            '00002ad9-0000-1000-8000-00805f9b34fb'
+          )
+
+          log('✅ Connected and ready.')
+          setPowerBtn.disabled = false
+
+          device.addEventListener('gattserverdisconnected', () => {
+            log('⚠️ Device disconnected.')
+            setPowerBtn.disabled = true
+          })
+        } catch (error) {
+          log('⚠️ ' + error)
+        }
+      }
+
+      async function setErgPower(watts) {
+        if (!controlCharacteristic) {
+          log('⚠️ Not connected or characteristic missing.')
+          return
+        }
+
+        try {
+          // Opcode 0x05 = Set Target Power
+          const data = new Uint8Array(3)
+          data[0] = 0x05
+          data[1] = watts & 0xff
+          data[2] = (watts >> 8) & 0xff
+
+          await controlCharacteristic.writeValue(data)
+          log(`➡️ Power set to ${watts} watts.`)
+        } catch (error) {
+          log('⚠️ Failed to send power command: ' + error)
+        }
+      }
+
+      connectBtn.addEventListener('click', connect)
+      setPowerBtn.addEventListener('click', () => {
+        const watts = parseInt(powerInput.value)
+        if (watts >= 0 && watts <= 1500) {
+          setErgPower(watts)
+        } else {
+          log('⚠️ Power value must be between 0 and 1500.')
+        }
+      })
+    </script>
+  </body>
+</html>
