@@ -12,10 +12,13 @@
       <strong>Puissance:</strong> <span id="powerValue">-</span> W &nbsp;|
       <strong>Cadence:</strong> <span id="cadenceValue">-</span> rpm
     </div>
-    <button id="connectBtn">Connect to KICKR BIKE</button><br />
-    <label for="powerInput">Set ERG Power (watts): </label>
-    <input type="number" id="powerInput" min="0" max="1500" value="200" />
-    <button id="setPowerBtn" disabled>Send Power</button>
+    <button id="connectBtn">Connect</button>
+    <input id="powerInput" type="number" min="0" max="1500" value="150" />
+    <button id="setPowerBtn" disabled>Set Power</button>
+    <br />
+    <input id="zwoFileInput" type="file" accept=".zwo,.xml" />
+    <div id="workoutSvg" style="margin-bottom: 1em"></div>
+    <div id="workoutPhases"></div>
 
     <h2>Logs</h2>
     <div id="log"></div>

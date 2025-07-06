@@ -7,6 +7,8 @@ const setPowerBtn = document.getElementById('setPowerBtn')
 const powerInput = document.getElementById('powerInput')
 const powerValueEl = document.getElementById('powerValue')
 const cadenceValueEl = document.getElementById('cadenceValue')
+const zwoFileInput = document.getElementById('zwoFileInput')
+const workoutPhasesEl = document.getElementById('workoutPhases')
 
 let cyclingPowerChar
 let prevCrankRevs = null
@@ -156,3 +158,168 @@ setPowerBtn.addEventListener('click', () => {
     log('⚠️ Power value must be between 0 and 1500.')
   }
 })
+
+zwoFileInput.addEventListener('change', handleZwoFile, false)
+
+function handleZwoFile(e) {
+  const file = e.target.files[0]
+  if (!file) return
+  const reader = new FileReader()
+  reader.onload = function (event) {
+    const xml = event.target.result
+    parseAndDisplayZwo(xml)
+  }
+  reader.readAsText(file)
+}
+
+function getZoneColor(power) {
+  // power = fraction FTP (ex: 0.75)
+  if (power < 0.56) return '#888' // Z1
+  if (power < 0.76) return '#2196f3' // Z2
+  if (power < 0.9) return '#4caf50' // Z3
+  if (power < 1.05) return '#ffeb3b' // Z4
+  if (power < 1.2) return '#ff9800' // Z5
+  return '#f44336' // Z6+
+}
+
+function renderWorkoutSvg(phases) {
+  const svgWidth = 800,
+    svgHeight = 200,
+    margin = 20
+  const minBarHeight = 40,
+    maxBarHeight = 140,
+    barRadius = 18
+  let expanded = []
+  for (const p of phases) {
+    if (p.type === 'IntervalsT') {
+      const repeat = parseInt(p.repeat) || 1
+      for (let i = 0; i < repeat; i++) {
+        expanded.push({ type: 'On', duration: p.onDuration, power: p.onPower })
+        expanded.push({
+          type: 'Off',
+          duration: p.offDuration,
+          power: p.offPower
+        })
+      }
+    } else {
+      expanded.push(p)
+    }
+  }
+  const totalDuration = expanded.reduce(
+    (sum, p) => sum + (parseFloat(p.duration) || 0),
+    0
+  )
+  let x = margin
+  let svg = `<svg width="100%" viewBox="0 0 ${svgWidth} ${svgHeight}" style="background:#222;border-radius:40px;display:block;max-width:100%;height:auto;">`
+  let gradCount = 0
+  for (const phase of expanded) {
+    const duration = parseFloat(phase.duration) || 0
+    const width = (duration / totalDuration) * (svgWidth - 2 * margin)
+    let color = '#ccc'
+    let barH = minBarHeight
+    if (phase.power) {
+      const pwr = parseFloat(phase.power)
+      color = getZoneColor(pwr)
+      barH = minBarHeight + (maxBarHeight - minBarHeight) * Math.min(pwr, 1.5)
+    }
+    if (phase.powerLow && phase.powerHigh) {
+      // Ramp: gradient + interpolate height
+      const pLow = parseFloat(phase.powerLow),
+        pHigh = parseFloat(phase.powerHigh)
+      const color1 = getZoneColor(pLow),
+        color2 = getZoneColor(pHigh)
+      const h1 =
+        minBarHeight + (maxBarHeight - minBarHeight) * Math.min(pLow, 1.5)
+      const h2 =
+        minBarHeight + (maxBarHeight - minBarHeight) * Math.min(pHigh, 1.5)
+      svg += `<defs>
+        <linearGradient id="grad${gradCount}" x1="0%" y1="100%" x2="0%" y2="0%">
+          <stop offset="0%" stop-color="${color1}"/>
+          <stop offset="100%" stop-color="${color2}"/>
+        </linearGradient>
+      </defs>`
+      // Trapezoid effect for ramp
+      svg += `<polygon points="${x},${svgHeight - margin} ${x + width},${
+        svgHeight - margin
+      } ${x + width},${svgHeight - h2 - margin} ${x},${
+        svgHeight - h1 - margin
+      }" fill="url(#grad${gradCount})"/>`
+      x += width
+      gradCount++
+      continue
+    }
+    svg += `<rect x="${x}" y="${
+      svgHeight - barH - margin
+    }" width="${width}" height="${barH}" rx="${barRadius}" fill="${color}" />`
+    x += width
+  }
+  svg += '</svg>'
+  document.getElementById('workoutSvg').innerHTML = svg
+}
+
+function parseAndDisplayZwo(xmlText) {
+  let parser = new DOMParser()
+  let xmlDoc = parser.parseFromString(xmlText, 'application/xml')
+  let workout = xmlDoc.querySelector('workout')
+  if (!workout) {
+    workoutPhasesEl.innerHTML = '<p>Workout non trouvé dans le fichier.</p>'
+    document.getElementById('workoutSvg').innerHTML = ''
+    return
+  }
+  let phases = []
+  for (let node of workout.children) {
+    let tag = node.tagName
+    let phase = { type: tag }
+    switch (tag) {
+      case 'Warmup':
+      case 'Cooldown':
+        phase.duration = node.getAttribute('Duration')
+        phase.powerLow = node.getAttribute('PowerLow')
+        phase.powerHigh = node.getAttribute('PowerHigh')
+        break
+      case 'SteadyState':
+        phase.duration = node.getAttribute('Duration')
+        phase.power = node.getAttribute('Power')
+        break
+      case 'IntervalsT':
+        phase.repeat = node.getAttribute('Repeat')
+        phase.onDuration = node.getAttribute('OnDuration')
+        phase.onPower = node.getAttribute('OnPower')
+        phase.offDuration = node.getAttribute('OffDuration')
+        phase.offPower = node.getAttribute('OffPower')
+        break
+      case 'FreeRide':
+        phase.duration = node.getAttribute('Duration')
+        break
+      case 'Ramp':
+        phase.duration = node.getAttribute('Duration')
+        phase.powerLow = node.getAttribute('PowerLow')
+        phase.powerHigh = node.getAttribute('PowerHigh')
+        break
+      default:
+        continue // ignore textevent etc.
+    }
+    phases.push(phase)
+  }
+  // Affichage SVG
+  renderWorkoutSvg(phases)
+  // Affichage texte
+  if (phases.length === 0) {
+    workoutPhasesEl.innerHTML = '<p>Aucune phase trouvée.</p>'
+    return
+  }
+  let html = '<h3>Phases du workout :</h3><ol>'
+  for (let p of phases) {
+    html += `<li><strong>${p.type}</strong> - `
+    if (p.duration) html += `Durée: ${p.duration}s `
+    if (p.power) html += `Puissance: ${p.power} `
+    if (p.powerLow) html += `Puissance début: ${p.powerLow} `
+    if (p.powerHigh) html += `Puissance fin: ${p.powerHigh} `
+    if (p.repeat) html += `Répéter: ${p.repeat}x `
+    if (p.onDuration) html += `On: ${p.onDuration}s @ ${p.onPower} `
+    if (p.offDuration) html += `Off: ${p.offDuration}s @ ${p.offPower} `
+    html += '</li>'
+  }
+  html += '</ol>'
+  workoutPhasesEl.innerHTML = html
+}
