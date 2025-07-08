@@ -143,18 +143,9 @@ export class WorkoutRunner {
         const powerLow = p.powerLow ? parseFloat(p.powerLow) : 0
         const powerHigh = p.powerHigh ? parseFloat(p.powerHigh) : powerLow
         if (powerLow !== powerHigh) {
-          expanded.push({
-            type: 'Ramp',
-            duration,
-            powerLow,
-            powerHigh
-          })
+          expanded.push({ type: 'Ramp', duration, powerLow, powerHigh })
         } else {
-          expanded.push({
-            type: p.type,
-            duration,
-            power: powerLow
-          })
+          expanded.push({ type: p.type, duration, power: powerLow })
         }
       } else if (p.type === 'Ramp') {
         expanded.push({

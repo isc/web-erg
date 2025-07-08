@@ -13,6 +13,7 @@ function log(msg) {
 // Callbacks à setter depuis main.js
 let onPowerUpdate = () => {}
 let onCadenceUpdate = () => {}
+let onHeartRateUpdate = () => {}
 
 export function setOnPowerUpdate(cb) {
   onPowerUpdate = cb
@@ -21,12 +22,15 @@ export function setOnCadenceUpdate(cb) {
   onCadenceUpdate = cb
 }
 
+export function setOnHeartRateUpdate(cb) {
+  onHeartRateUpdate = cb
+}
+
 export async function connect() {
   log('Requesting Bluetooth device...')
   try {
     device = await navigator.bluetooth.requestDevice({
-      filters: [{ namePrefix: 'KICKR' }],
-      optionalServices: ['fitness_machine', 'cycling_power']
+      filters: [{ services: ['fitness_machine', 'cycling_power'] }]
     })
     log(`Connecting to ${device.name}...`)
     server = await device.gatt.connect()
@@ -82,6 +86,35 @@ export async function setErgPower(watts) {
   }
 }
 
+export async function connectHrm() {
+  log('Requesting Bluetooth HRM device...')
+  let hrmDevice, hrmServer, hrmChar
+  try {
+    hrmDevice = await navigator.bluetooth.requestDevice({
+      filters: [{ services: ['heart_rate'] }],
+      optionalServices: ['battery_service']
+    })
+    log(`Connecting to HRM ${hrmDevice.name}...`)
+    hrmServer = await hrmDevice.gatt.connect()
+    const hrmService = await hrmServer.getPrimaryService('heart_rate')
+    hrmChar = await hrmService.getCharacteristic('heart_rate_measurement')
+    await hrmChar.startNotifications()
+    hrmChar.addEventListener(
+      'characteristicvaluechanged',
+      handleHeartRateNotification
+    )
+    log('✅ Subscribed to Heart Rate notifications.')
+    hrmDevice.addEventListener('gattserverdisconnected', () => {
+      log('⚠️ HRM device disconnected.')
+      onHeartRateUpdate('-')
+    })
+    return true
+  } catch (error) {
+    log('⚠️ HRM: ' + error)
+    return false
+  }
+}
+
 function handleCyclingPowerNotification(event) {
   const value = event.target.value
   let offset = 0
@@ -123,4 +156,20 @@ function handleCyclingPowerNotification(event) {
     lastCadence = null
     onCadenceUpdate('-')
   }, 2000)
+}
+
+function handleHeartRateNotification(event) {
+  const value = event.target.value
+  let offset = 0
+  const flags = value.getUint8(offset)
+  offset += 1
+  let hr
+  if ((flags & 0x01) === 0) {
+    hr = value.getUint8(offset)
+    offset += 1
+  } else {
+    hr = value.getUint16(offset, true)
+    offset += 2
+  }
+  onHeartRateUpdate(hr)
 }

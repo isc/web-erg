@@ -3,12 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>KICKR BIKE ERG Control</title>
+    <title>Web ERG Trainer</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div id="connectContainer">
-      <button id="connectBtn">Connecter au vélo</button>
+      <button id="connectBtn">
+        <span style="font-size: 5em; display: block; text-align: center"
+          >🚴</span
+        >
+      </button>
+      <button id="connectHrmBtn">
+        <span style="font-size: 5em; display: block; text-align: center"
+          >❤️</span
+        >
+      </button>
     </div>
     <div id="workoutContainer" style="display: none">
       <input id="zwoFileInput" type="file" accept=".zwo,.xml" />
@@ -24,7 +33,8 @@
         "
       >
         <strong>Puissance:</strong> <span id="powerValue">-</span> W &nbsp;|
-        <strong>Cadence:</strong> <span id="cadenceValue">-</span> rpm
+        <strong>Cadence:</strong> <span id="cadenceValue">-</span> rpm &nbsp;|
+        <strong>Cardio:</strong> <span id="hrValue">-</span> bpm
         <br />
         <strong>Temps:</strong> <span id="timerValue">0:00</span>
       </div>
