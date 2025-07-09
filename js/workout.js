@@ -264,3 +264,15 @@ export function parseZwoPhases(xmlText) {
   }
   return phases
 }
+
+export function parseZwoMeta(xmlText) {
+  let parser = new DOMParser()
+  let xmlDoc = parser.parseFromString(xmlText, 'application/xml')
+  let name = ''
+  let description = ''
+  const nameNode = xmlDoc.querySelector('name')
+  if (nameNode) name = nameNode.textContent.trim()
+  const descNode = xmlDoc.querySelector('description')
+  if (descNode) description = descNode.textContent.trim()
+  return { name, description }
+}

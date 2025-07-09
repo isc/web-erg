@@ -1,0 +1,7 @@
+---
+globs: *.js
+alwaysApply: false
+---
+
+- Use no braces for single-line control blocks.
+- Do not generate comments unless the code is not self-explanatory, and always write comments in English.

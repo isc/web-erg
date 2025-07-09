@@ -1,16 +1,12 @@
-let device, server
 let controlCharacteristic
-let cyclingPowerChar
 let prevCrankRevs = null
 let prevCrankEventTime = null
 let lastCadence = null
-let cadenceTimeout = null
 
 function log(msg) {
   console.log(msg)
 }
 
-// Callbacks à setter depuis main.js
 let onPowerUpdate = () => {}
 let onCadenceUpdate = () => {}
 let onHeartRateUpdate = () => {}
@@ -21,19 +17,18 @@ export function setOnPowerUpdate(cb) {
 export function setOnCadenceUpdate(cb) {
   onCadenceUpdate = cb
 }
-
 export function setOnHeartRateUpdate(cb) {
   onHeartRateUpdate = cb
 }
 
-export async function connect() {
+export async function connectErgometer() {
   log('Requesting Bluetooth device...')
   try {
-    device = await navigator.bluetooth.requestDevice({
+    const device = await navigator.bluetooth.requestDevice({
       filters: [{ services: ['fitness_machine', 'cycling_power'] }]
     })
     log(`Connecting to ${device.name}...`)
-    server = await device.gatt.connect()
+    const server = await device.gatt.connect()
     log('Getting Fitness Machine Service...')
     const service = await server.getPrimaryService(
       '00001826-0000-1000-8000-00805f9b34fb'
@@ -47,7 +42,7 @@ export async function connect() {
       '00001818-0000-1000-8000-00805f9b34fb'
     )
     log('Getting Cycling Power Measurement Characteristic...')
-    cyclingPowerChar = await cyclingService.getCharacteristic(
+    const cyclingPowerChar = await cyclingService.getCharacteristic(
       '00002a63-0000-1000-8000-00805f9b34fb'
     )
     await cyclingPowerChar.startNotifications()
@@ -86,25 +81,24 @@ export async function setErgPower(watts) {
   }
 }
 
-export async function connectHrm() {
+export async function connectHeartRateMonitor() {
   log('Requesting Bluetooth HRM device...')
-  let hrmDevice, hrmServer, hrmChar
+  let device, server, characteristic
   try {
-    hrmDevice = await navigator.bluetooth.requestDevice({
+    device = await navigator.bluetooth.requestDevice({
       filters: [{ services: ['heart_rate'] }],
       optionalServices: ['battery_service']
     })
-    log(`Connecting to HRM ${hrmDevice.name}...`)
-    hrmServer = await hrmDevice.gatt.connect()
-    const hrmService = await hrmServer.getPrimaryService('heart_rate')
-    hrmChar = await hrmService.getCharacteristic('heart_rate_measurement')
-    await hrmChar.startNotifications()
-    hrmChar.addEventListener(
+    server = await device.gatt.connect()
+    const service = await server.getPrimaryService('heart_rate')
+    characteristic = await service.getCharacteristic('heart_rate_measurement')
+    await characteristic.startNotifications()
+    characteristic.addEventListener(
       'characteristicvaluechanged',
       handleHeartRateNotification
     )
     log('✅ Subscribed to Heart Rate notifications.')
-    hrmDevice.addEventListener('gattserverdisconnected', () => {
+    device.addEventListener('gattserverdisconnected', () => {
       log('⚠️ HRM device disconnected.')
       onHeartRateUpdate('-')
     })
@@ -131,7 +125,6 @@ function handleCyclingPowerNotification(event) {
     const crankRevs = value.getUint16(offset, true)
     offset += 2
     const crankEventTime = value.getUint16(offset, true)
-    offset += 2
     let revsDiff = null,
       timeDiff = null,
       cadenceRaw = null
@@ -151,11 +144,6 @@ function handleCyclingPowerNotification(event) {
   }
   onPowerUpdate(instantaneousPower)
   onCadenceUpdate(instantaneousPower === 0 ? '-' : cadence)
-  if (cadenceTimeout) clearTimeout(cadenceTimeout)
-  cadenceTimeout = setTimeout(() => {
-    lastCadence = null
-    onCadenceUpdate('-')
-  }, 2000)
 }
 
 function handleHeartRateNotification(event) {
@@ -163,13 +151,9 @@ function handleHeartRateNotification(event) {
   let offset = 0
   const flags = value.getUint8(offset)
   offset += 1
-  let hr
-  if ((flags & 0x01) === 0) {
-    hr = value.getUint8(offset)
-    offset += 1
-  } else {
-    hr = value.getUint16(offset, true)
-    offset += 2
-  }
+  const hr =
+    (flags & 0x01) === 0
+      ? value.getUint8(offset)
+      : value.getUint16(offset, true)
   onHeartRateUpdate(hr)
 }

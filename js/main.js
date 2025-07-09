@@ -1,12 +1,18 @@
-import { WorkoutRunner, parseAndDisplayZwo, parseZwoPhases } from './workout.js'
 import {
-  connect,
-  connectHrm,
+  WorkoutRunner,
+  parseAndDisplayZwo,
+  parseZwoMeta,
+  parseZwoPhases
+} from './workout.js'
+import {
+  connectErgometer,
+  connectHeartRateMonitor,
   setErgPower,
   setOnCadenceUpdate,
   setOnHeartRateUpdate,
   setOnPowerUpdate
 } from './bluetooth.js'
+import { downloadTcx, generateTcx } from './tcx-export.js'
 
 const connectBtn = document.getElementById('connectBtn')
 const connectHrmBtn = document.getElementById('connectHrmBtn')
@@ -20,31 +26,38 @@ const dashboardEl = document.getElementById('dashboard')
 const timerValueEl = document.getElementById('timerValue')
 const hrValueEl = document.getElementById('hrValue')
 
-let isConnected = false
+let isErgoConnected = false
+let isHrmConnected = false
 let workoutRunner = null
 let timerInterval = null
+let workoutSamples = []
+let lastSampleTime = null
+let workoutName = ''
+let workoutDescription = ''
 
 function updateUI() {
-  if (!isConnected) {
+  if (!isErgoConnected || !isHrmConnected) {
     connectContainer.style.display = 'flex'
     workoutContainer.style.display = 'none'
+    zwoFileInput.disabled = true
   } else {
     connectContainer.style.display = 'none'
     workoutContainer.style.display = 'flex'
+    zwoFileInput.disabled = false
   }
 }
 
 updateUI()
 
 connectBtn.addEventListener('click', async () => {
-  const ok = await connect()
-  isConnected = ok
+  const ok = await connectErgometer()
+  isErgoConnected = ok
   updateUI()
 })
 
 connectHrmBtn.addEventListener('click', async () => {
-  const ok = await connectHrm()
-  isConnected = ok
+  const ok = await connectHeartRateMonitor()
+  isHrmConnected = ok
   updateUI()
 })
 
@@ -57,7 +70,7 @@ function startTimerUI() {
   resetTimerUI()
   if (timerInterval) clearInterval(timerInterval)
   timerInterval = setInterval(() => {
-    if (!workoutRunner || !workoutRunner.isRunning()) return
+    if (!workoutRunner?.isRunning()) return
     const elapsed = Math.floor((Date.now() - start) / 1000)
     const min = Math.floor(elapsed / 60)
     const sec = elapsed % 60
@@ -77,13 +90,27 @@ setOnPowerUpdate(val => {
     workoutRunner.start()
     startTimerUI()
   }
+  if (workoutRunner?.isRunning()) addOrUpdateSample({ power: val })
 })
 setOnCadenceUpdate(val => {
   cadenceValueEl.textContent = val
+  if (workoutRunner?.isRunning()) addOrUpdateSample({ cadence: val })
 })
 setOnHeartRateUpdate(val => {
   hrValueEl.textContent = val
+  if (workoutRunner?.isRunning()) addOrUpdateSample({ heartRate: val })
 })
+
+function addOrUpdateSample(sample) {
+  const now = new Date()
+  const iso = now.toISOString()
+  if (!lastSampleTime || now - lastSampleTime > 1500) {
+    workoutSamples.push({ time: iso })
+    lastSampleTime = now
+  }
+  const last = workoutSamples[workoutSamples.length - 1]
+  Object.assign(last, sample)
+}
 
 zwoFileInput.addEventListener(
   'change',
@@ -94,6 +121,9 @@ zwoFileInput.addEventListener(
     reader.onload = function (event) {
       const xml = event.target.result
       const phases = parseZwoPhases(xml)
+      const meta = parseZwoMeta(xml)
+      workoutName = meta.name
+      workoutDescription = meta.description
       if (workoutRunner) workoutRunner.stop()
       workoutRunner = new WorkoutRunner(phases, setErgPower, onWorkoutEnd)
       parseAndDisplayZwo(xml, null, workoutSvgEl)
@@ -109,4 +139,16 @@ zwoFileInput.addEventListener(
 
 function onWorkoutEnd() {
   stopTimerUI()
+  let notes = ''
+  if (workoutName) notes += workoutName
+  if (workoutDescription) notes += (notes ? ' - ' : '') + workoutDescription
+  let exportBtn = document.getElementById('exportTcxBtn')
+  if (!exportBtn) {
+    exportBtn = document.createElement('button')
+    exportBtn.id = 'exportTcxBtn'
+    exportBtn.textContent = 'Exporter TCX'
+    exportBtn.style.margin = '1em'
+    dashboardEl.appendChild(exportBtn)
+  }
+  exportBtn.onclick = () => downloadTcx(generateTcx(workoutSamples, notes))
 }
