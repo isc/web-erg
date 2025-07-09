@@ -4,41 +4,65 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Web ERG Trainer</title>
-    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.cyan.min.css"
+    />
   </head>
   <body>
-    <div id="connectContainer">
-      <button id="connectBtn">
-        <span style="font-size: 5em; display: block; text-align: center"
-          >🚴</span
+    <style>
+      html,
+      body {
+        height: 100%;
+      }
+      main.container {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+    <main class="container" x-data="workoutApp()">
+      <div x-show="!isErgoConnected || !isHrmConnected" id="connectContainer">
+        <button
+          class="outline"
+          @click="connectErgo"
+          :disabled="isErgoConnected"
         >
-      </button>
-      <button id="connectHrmBtn">
-        <span style="font-size: 5em; display: block; text-align: center"
-          >❤️</span
-        >
-      </button>
-    </div>
-    <div id="workoutContainer" style="display: none">
-      <input id="zwoFileInput" type="file" accept=".zwo,.xml" />
-      <div id="workoutSvg" style="display: none; margin-top: 2em"></div>
-      <div
-        id="dashboard"
-        style="
-          display: none;
-          margin-top: 2em;
-          color: white;
-          font-size: 2rem;
-          text-align: center;
-        "
-      >
-        <strong>Puissance:</strong> <span id="powerValue">-</span> W &nbsp;|
-        <strong>Cadence:</strong> <span id="cadenceValue">-</span> rpm &nbsp;|
-        <strong>Cardio:</strong> <span id="hrValue">-</span> bpm
-        <br />
-        <strong>Temps:</strong> <span id="timerValue">0:00</span>
+          🚴 Connect bike
+        </button>
+        <button class="outline" @click="connectHrm" :disabled="isHrmConnected">
+          ❤️ Connect heart rate monitor
+        </button>
       </div>
-    </div>
+      <div x-show="isErgoConnected && isHrmConnected" id="workoutContainer">
+        <input
+          type="file"
+          accept=".zwo,.xml"
+          x-ref="zwoInput"
+          @change="onZwoFileChange"
+          :disabled="!isErgoConnected || !isHrmConnected"
+          x-show="showZwoInput"
+        />
+        <div x-ref="workoutSvg" x-show="showWorkoutSvg"></div>
+        <article x-show="showDashboard" id="dashboard">
+          <strong>Puissance:</strong> <span x-text="power">-</span> W &nbsp;|
+          <strong>Cadence:</strong> <span x-text="cadence">-</span> rpm &nbsp;|
+          <strong>Cardio:</strong> <span x-text="heartRate">-</span> bpm
+          <br />
+          <strong>Temps:</strong> <span x-text="timer">0:00</span>
+          <div x-show="workoutFinished">Workout terminé !</div>
+          <button x-show="workoutFinished" @click="exportTcx">
+            Exporter TCX
+          </button>
+        </article>
+      </div>
+    </main>
     <script type="module" src="js/main.js"></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"
+    ></script>
   </body>
 </html>
