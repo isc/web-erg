@@ -34,6 +34,7 @@ let workoutSamples = []
 let lastSampleTime = null
 let workoutName = ''
 let workoutDescription = ''
+let workoutFinished = false
 
 function updateUI() {
   if (!isErgoConnected || !isHrmConnected) {
@@ -86,7 +87,12 @@ function stopTimerUI() {
 
 setOnPowerUpdate(val => {
   powerValueEl.textContent = val
-  if (workoutRunner && !workoutRunner.isRunning() && Number(val) > 0) {
+  if (
+    workoutRunner &&
+    !workoutRunner.isRunning() &&
+    Number(val) > 0 &&
+    !workoutFinished
+  ) {
     workoutRunner.start()
     startTimerUI()
   }
@@ -131,6 +137,7 @@ zwoFileInput.addEventListener(
       workoutSvgEl.style.display = 'block'
       dashboardEl.style.display = 'block'
       stopTimerUI()
+      workoutFinished = false
     }
     reader.readAsText(file)
   },
@@ -139,10 +146,21 @@ zwoFileInput.addEventListener(
 
 function onWorkoutEnd() {
   stopTimerUI()
+  workoutFinished = true
   let notes = ''
   if (workoutName) notes += workoutName
   if (workoutDescription) notes += (notes ? ' - ' : '') + workoutDescription
   let exportBtn = document.getElementById('exportTcxBtn')
+  let endMsg = document.getElementById('workoutEndMsg')
+  if (!endMsg) {
+    endMsg = document.createElement('div')
+    endMsg.id = 'workoutEndMsg'
+    endMsg.textContent = 'Workout terminé !'
+    endMsg.style.fontSize = '1.3em'
+    endMsg.style.margin = '1em 0 0.5em 0'
+    endMsg.style.color = '#4caf50'
+    dashboardEl.appendChild(endMsg)
+  }
   if (!exportBtn) {
     exportBtn = document.createElement('button')
     exportBtn.id = 'exportTcxBtn'
