@@ -24,40 +24,53 @@
       }
     </style>
     <main class="container" x-data="workoutApp()">
-      <div x-show="!isErgoConnected || !isHrmConnected" id="connectContainer">
-        <button
-          class="outline"
-          @click="connectErgo"
-          :disabled="isErgoConnected"
-        >
-          🚴 Connect bike
-        </button>
-        <button class="outline" @click="connectHrm" :disabled="isHrmConnected">
-          ❤️ Connect heart rate monitor
-        </button>
-      </div>
-      <div x-show="isErgoConnected && isHrmConnected" id="workoutContainer">
-        <input
-          type="file"
-          accept=".zwo,.xml"
-          x-ref="zwoInput"
-          @change="onZwoFileChange"
-          :disabled="!isErgoConnected || !isHrmConnected"
-          x-show="showZwoInput"
-        />
-        <div x-ref="workoutSvg" x-show="showWorkoutSvg"></div>
-        <article x-show="showDashboard" id="dashboard">
-          <strong>Puissance:</strong> <span x-text="power">-</span> W &nbsp;|
-          <strong>Cadence:</strong> <span x-text="cadence">-</span> rpm &nbsp;|
-          <strong>Cardio:</strong> <span x-text="heartRate">-</span> bpm
-          <br />
-          <strong>Temps:</strong> <span x-text="timer">0:00</span>
-          <div x-show="workoutFinished">Workout terminé !</div>
-          <button x-show="workoutFinished" @click="exportTcx">
-            Exporter TCX
+      <form id="workoutForm" @submit.prevent x-data x-show="showForm">
+        <fieldset>
+          <label for="connectErgo">Vélo</label>
+          <input
+            id="connectErgo"
+            type="button"
+            @click="connectErgo"
+            :disabled="isErgoConnected"
+            x-bind:value="isErgoConnected ? 'Connecté' : 'Connecter'"
+          />
+          <label for="connectHrm">Cardio</label>
+          <input
+            id="connectHrm"
+            type="button"
+            @click="connectHrm"
+            :disabled="isHrmConnected"
+            x-bind:value="isHrmConnected ? 'Connecté' : 'Connecter'"
+          />
+          <label for="zwoInput">Workout</label>
+          <input
+            id="zwoInput"
+            type="file"
+            accept=".zwo,.xml"
+            x-ref="zwoInput"
+            @change="onZwoFileChange"
+          />
+          <button
+            type="button"
+            @click="startWorkout"
+            :disabled="!canStartWorkout"
+          >
+            Démarrer
           </button>
-        </article>
-      </div>
+        </fieldset>
+      </form>
+      <div x-show="showWorkoutSvg" x-ref="workoutSvg"></div>
+      <article x-show="showDashboard" id="dashboard">
+        <strong>Puissance:</strong> <span x-text="power">-</span> W &nbsp;|
+        <strong>Cadence:</strong> <span x-text="cadence">-</span> rpm &nbsp;|
+        <strong>Cardio:</strong> <span x-text="heartRate">-</span> bpm
+        <br />
+        <strong>Temps:</strong> <span x-text="timer">0:00</span>
+        <div x-show="workoutFinished">Workout terminé !</div>
+        <button x-show="workoutFinished" @click="exportTcx">
+          Exporter TCX
+        </button>
+      </article>
     </main>
     <script type="module" src="js/main.js"></script>
     <script

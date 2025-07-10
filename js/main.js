@@ -32,18 +32,24 @@ window.workoutApp = function () {
     cadence: '-',
     heartRate: '-',
     timer: '0:00',
-
+    workoutSelected: false,
+    showForm: true,
+    get canStartWorkout() {
+      return this.isErgoConnected && this.isHrmConnected && this.workoutSelected
+    },
     async connectErgo() {
-      const ok = await connectErgometer()
-      if (ok) this.isErgoConnected = true
+      this.isErgoConnected = await connectErgometer()
     },
     async connectHrm() {
-      const ok = await connectHeartRateMonitor()
-      if (ok) this.isHrmConnected = true
+      this.isHrmConnected = await connectHeartRateMonitor()
     },
     onZwoFileChange(e) {
       const file = e.target.files[0]
-      if (!file) return
+      if (!file) {
+        this.workoutSelected = false
+        return
+      }
+      this.workoutSelected = true
       const reader = new FileReader()
       reader.onload = event => {
         const xml = event.target.result
@@ -59,12 +65,14 @@ window.workoutApp = function () {
         )
         parseAndDisplayZwo(xml, null, this.$refs.workoutSvg)
         this.showZwoInput = false
-        this.showWorkoutSvg = true
-        this.showDashboard = true
-        this.stopTimerUI()
         this.workoutFinished = false
       }
       reader.readAsText(file)
+    },
+    startWorkout() {
+      this.showWorkoutSvg = true
+      this.showDashboard = true
+      this.showForm = false
     },
     startTimerUI() {
       let start = Date.now()
@@ -85,6 +93,7 @@ window.workoutApp = function () {
     },
     resetTimerUI() {
       this.timer = '0:00'
+      this.workoutSelected = false
     },
     addOrUpdateSample(sample) {
       const now = new Date()
