@@ -101,14 +101,13 @@ export function parseAndDisplayZwo(xmlText, workoutPhasesEl, workoutSvgEl) {
   }
 }
 
-const FTP = 150
-
 export class WorkoutRunner {
-  constructor(phases, setErgPower, onWorkoutEnd) {
+  constructor(phases, setErgPower, onWorkoutEnd, ftp = 150) {
     this.originalPhases = phases
     this.expandedPhases = this.expandPhases(phases)
     this.setErgPower = setErgPower
     this.onWorkoutEnd = onWorkoutEnd
+    this.ftp = ftp
     this.currentPhaseIndex = 0
     this.currentPhaseElapsed = 0
     this.timer = null
@@ -198,7 +197,7 @@ export class WorkoutRunner {
       targetPower = phase.power
     }
     if (phase.type !== 'FreeRide') {
-      this.setErgPower(Math.round(targetPower * FTP))
+      this.setErgPower(Math.round(targetPower * this.ftp))
     }
   }
 

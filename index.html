@@ -42,6 +42,36 @@
             :disabled="isHrmConnected"
             x-bind:value="isHrmConnected ? 'Connecté' : 'Connecter'"
           />
+          <label for="ftpInput">FTP (watts)</label>
+          <input
+            id="ftpInput"
+            type="number"
+            min="50"
+            max="500"
+            step="5"
+            x-model="ftp"
+            placeholder="150"
+            aria-describedby="ftp-helper"
+          />
+          <small id="ftp-helper">
+            Functional Threshold Power - utilisé pour calculer les intensités du
+            workout
+          </small>
+          <label for="weightInput">Poids (kg)</label>
+          <input
+            id="weightInput"
+            type="number"
+            min="40"
+            max="150"
+            step="1"
+            x-model="weight"
+            placeholder="70"
+            aria-describedby="weight-helper"
+          />
+          <small id="weight-helper">
+            Poids du cycliste - utilisé pour calculer la vitesse virtuelle
+            (+10kg pour le vélo)
+          </small>
           <label for="zwoInput">Workout</label>
           <input
             id="zwoInput"

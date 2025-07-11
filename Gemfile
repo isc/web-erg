@@ -8,4 +8,4 @@ gem 'puma'
 gem 'rack'
 gem 'rubocop', require: false
 gem 'syntax_tree', require: false
-gem 'test-unit'
+gem 'minitest'

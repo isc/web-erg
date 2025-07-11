@@ -29,6 +29,7 @@ GEM
     matrix (0.4.2)
     mini_mime (1.1.5)
     mini_portile2 (2.8.9)
+    minitest (5.25.5)
     nio4r (2.7.0)
     nokogiri (1.16.6)
       mini_portile2 (~> 2.8.2)
@@ -39,7 +40,6 @@ GEM
     parser (3.3.3.0)
       ast (~> 2.4.1)
       racc
-    power_assert (2.0.3)
     prettier_print (1.2.1)
     public_suffix (5.0.4)
     puma (6.4.2)
@@ -69,8 +69,6 @@ GEM
     strscan (3.1.0)
     syntax_tree (6.2.0)
       prettier_print (>= 1.2.0)
-    test-unit (3.6.1)
-      power_assert
     unicode-display_width (2.5.0)
     webrick (1.9.1)
     websocket-driver (0.8.0)
@@ -87,11 +85,11 @@ PLATFORMS
 DEPENDENCIES
   capybara
   cuprite
+  minitest
   puma
   rack
   rubocop
   syntax_tree
-  test-unit
 
 BUNDLED WITH
    2.5.3

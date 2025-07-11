@@ -1,29 +1,29 @@
 function virtualSpeedFromPower(powerWatts, options = {}) {
-  // Constantes physiques
-  const g = 9.81 // gravité (m/s²)
-  const airDensity = 1.225 // kg/m³ (air standard)
+  // Physical constants
+  const g = 9.81 // gravity (m/s²)
+  const airDensity = 1.225 // kg/m³ (standard air)
 
-  // Paramètres du cycliste / vélo (valeurs par défaut)
-  const mass = options.mass ?? 80 // masse totale en kg
-  const cda = options.cda ?? 0.3 // coefficient aérodynamique frontal (m²)
-  const cr = options.cr ?? 0.005 // coefficient de roulement
-  const slope = options.slope ?? 0 // pente (rad) - ici 0 rad = plat
+  // Cyclist / bike parameters (default values)
+  const mass = options.mass ?? 80 // total mass in kg
+  const cda = options.cda ?? 0.3 // frontal aerodynamic coefficient (m²)
+  const cr = options.cr ?? 0.005 // rolling resistance coefficient
+  const slope = options.slope ?? 0 // slope (rad) - here 0 rad = flat
 
-  // Résolution numérique : recherche dichotomique sur la vitesse
-  let vMin = 0 // vitesse minimale (m/s)
-  let vMax = 50 // vitesse maximale (m/s) => 180 km/h, largement suffisant
+  // Numerical resolution: binary search on speed
+  let vMin = 0 // minimum speed (m/s)
+  let vMax = 50 // maximum speed (m/s) => 180 km/h, more than enough
   let v = 0
 
-  const tolerance = 0.01 // tolérance sur la puissance (W)
+  const tolerance = 0.01 // tolerance on power (W)
   const maxIterations = 100
 
   for (let i = 0; i < maxIterations; i++) {
     v = (vMin + vMax) / 2
 
-    // Forces résistantes
+    // Resistance forces
     const rollingResistance = cr * mass * g
     const aerodynamicDrag = 0.5 * airDensity * cda * v * v
-    const gravityResistance = mass * g * Math.sin(slope) // ici = 0 si route plate
+    const gravityResistance = mass * g * Math.sin(slope) // here = 0 if flat road
 
     const totalResistance =
       rollingResistance + aerodynamicDrag + gravityResistance
@@ -41,7 +41,7 @@ function virtualSpeedFromPower(powerWatts, options = {}) {
     }
   }
 
-  return v // en m/s pour le TCX
+  return v // in m/s for TCX
 }
 
 function tag(name, content = '', attrs = {}) {
@@ -51,7 +51,7 @@ function tag(name, content = '', attrs = {}) {
   return `<${name}${attrStr}>${content}</${name}>`
 }
 
-export function generateTcx(samples, name = '') {
+export function generateTcx(samples, name = '', weight = 70) {
   if (!samples || samples.length === 0) return ''
   let totalDistance = 0
   const activityId = samples[0].time
@@ -61,7 +61,7 @@ export function generateTcx(samples, name = '') {
     const s = samples[i]
     let speed = undefined
     if (s.power !== undefined && s.power !== '-')
-      speed = virtualSpeedFromPower(Number(s.power))
+      speed = virtualSpeedFromPower(Number(s.power), { mass: weight + 10 })
     let dist = 0
     if (speed !== undefined && i > 0) dist = speed * 1
     totalDistance += dist

@@ -34,6 +34,8 @@ window.workoutApp = function () {
     timer: '0:00',
     workoutSelected: false,
     showForm: true,
+    ftp: 150,
+    weight: 70,
     get canStartWorkout() {
       return this.isErgoConnected && this.isHrmConnected && this.workoutSelected
     },
@@ -61,7 +63,8 @@ window.workoutApp = function () {
         this.workoutRunner = new WorkoutRunner(
           phases,
           setErgPower,
-          this.onWorkoutEnd.bind(this)
+          this.onWorkoutEnd.bind(this),
+          this.ftp
         )
         parseAndDisplayZwo(xml, null, this.$refs.workoutSvg)
         this.showZwoInput = false
@@ -70,6 +73,8 @@ window.workoutApp = function () {
       reader.readAsText(file)
     },
     startWorkout() {
+      localStorage.setItem('ftp', this.ftp)
+      localStorage.setItem('weight', this.weight)
       this.showWorkoutSvg = true
       this.showDashboard = true
       this.showForm = false
@@ -114,9 +119,14 @@ window.workoutApp = function () {
       if (this.workoutName) notes += this.workoutName
       if (this.workoutDescription)
         notes += (notes ? ' - ' : '') + this.workoutDescription
-      downloadTcx(generateTcx(this.workoutSamples, notes))
+      downloadTcx(generateTcx(this.workoutSamples, notes, this.weight))
     },
     init() {
+      const savedFtp = localStorage.getItem('ftp')
+      if (savedFtp) this.ftp = parseInt(savedFtp)
+      const savedWeight = localStorage.getItem('weight')
+      if (savedWeight) this.weight = parseInt(savedWeight)
+
       setOnPowerUpdate(val => {
         this.power = val
         if (
