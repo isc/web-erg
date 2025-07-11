@@ -1,7 +1,12 @@
+import mockBluetooth from './bluetooth_mock.js'
 let controlCharacteristic
 let prevCrankRevs = null
 let prevCrankEventTime = null
 let lastCadence = null
+
+const bluetoothApi = document.cookie.includes('test-env')
+  ? mockBluetooth
+  : navigator.bluetooth
 
 function log(msg) {
   console.log(msg)
@@ -24,7 +29,7 @@ export function setOnHeartRateUpdate(cb) {
 export async function connectErgometer() {
   log('Requesting Bluetooth device...')
   try {
-    const device = await navigator.bluetooth.requestDevice({
+    const device = await bluetoothApi.requestDevice({
       filters: [{ services: ['fitness_machine', 'cycling_power'] }]
     })
     log(`Connecting to ${device.name}...`)
@@ -85,7 +90,7 @@ export async function connectHeartRateMonitor() {
   log('Requesting Bluetooth HRM device...')
   let device, server, characteristic
   try {
-    device = await navigator.bluetooth.requestDevice({
+    device = await bluetoothApi.requestDevice({
       filters: [{ services: ['heart_rate'] }],
       optionalServices: ['battery_service']
     })

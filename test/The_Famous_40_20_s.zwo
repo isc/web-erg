@@ -1,0 +1,16 @@
+<workout_file>
+    <author>M.De Jode (TK.be)</author>
+    <name>The Famous 40/20's</name>
+    <description>According to the cannondale coach this is a classic and famous interval training.</description>
+    <sportType>bike</sportType>
+    <tags/>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.24982758" PowerHigh="0.72568965" pace="0"/>
+        <IntervalsT Repeat="12" OnDuration="40" OffDuration="20" OnPower="1.2045" OffPower="0.55327582" pace="0"/>
+        <SteadyState Duration="300" Power="0.65672415" pace="0"/>
+        <IntervalsT Repeat="12" OnDuration="40" OffDuration="20" OnPower="1.2045" OffPower="0.55449998" pace="0"/>
+        <SteadyState Duration="300" Power="0.65672415" pace="0"/>
+        <IntervalsT Repeat="6" OnDuration="40" OffDuration="20" OnPower="1.2045" OffPower="0.55327582" pace="0"/>
+        <Cooldown Duration="600" PowerLow="0.55327582" PowerHigh="0.24982758" pace="0"/>
+    </workout>
+</workout_file>

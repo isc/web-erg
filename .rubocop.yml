@@ -1,0 +1,7 @@
+AllCops:
+  NewCops: enable
+Style/StringLiterals:
+  Enabled: true
+  EnforcedStyle: single_quotes
+Layout/LineLength:
+  Max: 120
