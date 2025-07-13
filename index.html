@@ -24,62 +24,98 @@
       }
     </style>
     <main class="container" x-data="workoutApp()">
-      <form id="workoutForm" @submit.prevent x-data x-show="showForm">
+      <form @submit.prevent x-data x-show="showForm">
         <fieldset>
-          <label for="connectErgo">Vélo</label>
-          <input
-            id="connectErgo"
-            type="button"
-            @click="connectErgo"
-            :disabled="isErgoConnected"
-            x-bind:value="isErgoConnected ? 'Connecté' : 'Connecter'"
-          />
-          <label for="connectHrm">Cardio</label>
-          <input
-            id="connectHrm"
-            type="button"
-            @click="connectHrm"
-            :disabled="isHrmConnected"
-            x-bind:value="isHrmConnected ? 'Connecté' : 'Connecter'"
-          />
-          <label for="ftpInput">FTP (watts)</label>
-          <input
-            id="ftpInput"
-            type="number"
-            min="50"
-            max="500"
-            step="5"
-            x-model="ftp"
-            placeholder="150"
-            aria-describedby="ftp-helper"
-          />
-          <small id="ftp-helper">
-            Functional Threshold Power - utilisé pour calculer les intensités du
-            workout
-          </small>
-          <label for="weightInput">Poids (kg)</label>
-          <input
-            id="weightInput"
-            type="number"
-            min="40"
-            max="150"
-            step="1"
-            x-model="weight"
-            placeholder="70"
-            aria-describedby="weight-helper"
-          />
-          <small id="weight-helper">
-            Poids du cycliste - utilisé pour calculer la vitesse virtuelle
-            (+10kg pour le vélo)
-          </small>
-          <label for="zwoInput">Workout</label>
-          <input
-            id="zwoInput"
-            type="file"
-            accept=".zwo,.xml"
-            x-ref="zwoInput"
-            @change="onZwoFileChange"
-          />
+          <label
+            >Vélo
+            <input
+              type="button"
+              @click="connectErgo"
+              :disabled="isErgoConnected"
+              x-bind:value="isErgoConnected ? 'Connecté' : 'Connecter'"
+            />
+          </label>
+          <label
+            >Cardio
+            <input
+              type="button"
+              @click="connectHrm"
+              :disabled="isHrmConnected"
+              x-bind:value="isHrmConnected ? 'Connecté' : 'Connecter'"
+            />
+          </label>
+          <label
+            >FTP (watts)
+            <input
+              type="number"
+              min="50"
+              max="500"
+              step="5"
+              x-model="ftp"
+              placeholder="150"
+            />
+            <small>
+              Functional Threshold Power - utilisé pour calculer les intensités
+              du workout
+            </small>
+          </label>
+          <label
+            >Poids (kg)
+            <input
+              type="number"
+              min="40"
+              max="150"
+              step="1"
+              x-model="weight"
+              placeholder="70"
+            />
+            <small>
+              Poids du cycliste - utilisé pour calculer la vitesse virtuelle
+              (+10kg pour le vélo)
+            </small>
+          </label>
+          <label
+            >Workout
+            <input type="file" accept=".zwo,.xml" @change="onZwoFileChange" />
+            <small
+              >Fichier de workout au format ZWO
+              <a class="secondary" href="#" onclick="zwoModal.showModal()"
+                >ⓘ More info</a
+              ></small
+            >
+          </label>
+
+          <dialog id="zwoModal">
+            <article>
+              <header>
+                <h3>Qu'est-ce qu'un fichier ZWO ?</h3>
+              </header>
+              <p>
+                Un fichier <strong>ZWO</strong> est un format XML utilisé pour
+                décrire des entraînements structurés pour le cyclisme, notamment
+                sur Zwift et d'autres plateformes d'entraînement. Il contient la
+                séquence des intervalles, leur durée et leur intensité.
+              </p>
+              <ul>
+                <li>
+                  Tu peux en trouver sur
+                  <a href="https://whatsonzwift.com/workouts/" target="_blank"
+                    >whatsonzwift.com</a
+                  >
+                  ou
+                  <a href="https://zwofactory.com/" target="_blank"
+                    >zwofactory.com</a
+                  >.
+                </li>
+                <li>
+                  Tu peux aussi créer les tiens avec des éditeurs en ligne.
+                </li>
+              </ul>
+              <footer>
+                <button onclick="zwoModal.close()">Fermer</button>
+              </footer>
+            </article>
+          </dialog>
           <button
             type="button"
             @click="startWorkout"
@@ -89,18 +125,31 @@
           </button>
         </fieldset>
       </form>
-      <div x-show="showWorkoutSvg" x-ref="workoutSvg"></div>
-      <article x-show="showDashboard" id="dashboard">
-        <strong>Puissance:</strong> <span x-text="power">-</span> W &nbsp;|
-        <strong>Cadence:</strong> <span x-text="cadence">-</span> rpm &nbsp;|
-        <strong>Cardio:</strong> <span x-text="heartRate">-</span> bpm
-        <br />
-        <strong>Temps:</strong> <span x-text="timer">0:00</span>
+      <div x-show="showWorkout">
+        <div x-ref="workoutSvg" style="width: 90vw"></div>
+        <table>
+          <thead>
+            <tr>
+              <th>Temps</th>
+              <th>Puissance</th>
+              <th>Cadence</th>
+              <th>Cardio</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td x-text="timer">0:00</td>
+              <td><span x-text="power">-</span> W</td>
+              <td><span x-text="cadence">-</span> rpm</td>
+              <td><span x-text="heartRate">-</span> bpm</td>
+            </tr>
+          </tbody>
+        </table>
         <div x-show="workoutFinished">Workout terminé !</div>
         <button x-show="workoutFinished" @click="exportTcx">
           Exporter TCX
         </button>
-      </article>
+      </div>
     </main>
     <script type="module" src="js/main.js"></script>
     <script

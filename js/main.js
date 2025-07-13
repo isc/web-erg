@@ -26,8 +26,7 @@ window.workoutApp = function () {
     workoutDescription: '',
     workoutFinished: false,
     showZwoInput: true,
-    showWorkoutSvg: false,
-    showDashboard: false,
+    showWorkout: false,
     power: '-',
     cadence: '-',
     heartRate: '-',
@@ -75,8 +74,7 @@ window.workoutApp = function () {
     startWorkout() {
       localStorage.setItem('ftp', this.ftp)
       localStorage.setItem('weight', this.weight)
-      this.showWorkoutSvg = true
-      this.showDashboard = true
+      this.showWorkout = true
       this.showForm = false
     },
     startTimerUI() {

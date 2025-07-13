@@ -7,12 +7,63 @@ function getZoneColor(power) {
   return '#f44336'
 }
 
+function svgRampUp(x, width, h1, h2, svgHeight, margin, barRadius, gradId) {
+  const yTopLeft = svgHeight - h1 - margin
+  const yTopRight = svgHeight - h2 - margin
+  const controlLeftX = x
+  const controlLeftY = yTopLeft + barRadius * 0.5
+  const rightArrondiStartX = x + width - barRadius
+  return `<path d="
+    M${x + barRadius},${yTopLeft}
+    Q${controlLeftX},${controlLeftY} ${x},${yTopLeft + barRadius}
+    L${x},${svgHeight - margin - barRadius}
+    Q${x},${svgHeight - margin} ${x + barRadius},${svgHeight - margin}
+    L${rightArrondiStartX},${svgHeight - margin}
+    Q${x + width},${svgHeight - margin} ${x + width},${
+    svgHeight - margin - barRadius
+  }
+    L${x + width},${yTopRight + barRadius}
+    Q${x + width},${yTopRight} ${rightArrondiStartX},${yTopRight}
+    L${x + barRadius},${yTopLeft}
+    Z
+  " fill="url(#${gradId})"/>`
+}
+
+function svgRampDown(x, width, h1, h2, svgHeight, margin, barRadius, gradId) {
+  const yTopLeft = svgHeight - h1 - margin
+  const yTopRight = svgHeight - h2 - margin
+  const leftArrondiStartX = x + barRadius
+  const controlRightX = x + width
+  const controlRightY = yTopRight + barRadius * 0.5
+  return `<path d="
+    M${leftArrondiStartX},${yTopLeft}
+    Q${x},${yTopLeft} ${x},${yTopLeft + barRadius}
+    L${x},${svgHeight - margin - barRadius}
+    Q${x},${svgHeight - margin} ${x + barRadius},${svgHeight - margin}
+    L${x + width - barRadius},${svgHeight - margin}
+    Q${x + width},${svgHeight - margin} ${x + width},${
+    svgHeight - margin - barRadius
+  }
+    L${x + width},${yTopRight + barRadius}
+    Q${controlRightX},${controlRightY} ${x + width - barRadius},${yTopRight}
+    L${leftArrondiStartX},${yTopLeft}
+    Z
+  " fill="url(#${gradId})"/>`
+}
+
+function svgSteadyState(x, width, barH, svgHeight, margin, barRadius, color) {
+  return `<rect x="${x}" y="${
+    svgHeight - barH - margin
+  }" width="${width}" height="${barH}" rx="${barRadius}" fill="${color}" />`
+}
+
 export function renderWorkoutSvg(phases, svgEl) {
-  const svgWidth = 1800,
-    svgHeight = 300,
-    margin = 20
-  const minBarHeight = 40,
-    maxBarHeight = 140,
+  const svgWidth = 2400,
+    svgHeight = 340,
+    margin = 20,
+    phaseGap = 15
+  const minBarHeight = 80,
+    maxBarHeight = 250,
     barRadius = 18
   let expanded = []
   for (const p of phases) {
@@ -35,11 +86,16 @@ export function renderWorkoutSvg(phases, svgEl) {
     0
   )
   let x = margin
-  let svg = `<svg width="100%" viewBox="0 0 ${svgWidth} ${svgHeight}" style="background:#222;border-radius:40px;display:block;height:auto;">`
+  let svg = `<svg width="100%" viewBox="0 0 ${svgWidth} ${svgHeight}" style="background:transparent;display:block;height:auto;">`
   let gradCount = 0
-  for (const phase of expanded) {
+  let gradients = ''
+  let paths = ''
+  for (let i = 0; i < expanded.length; i++) {
+    const phase = expanded[i]
     const duration = parseFloat(phase.duration) || 0
-    const width = (duration / totalDuration) * (svgWidth - 2 * margin)
+    const width =
+      (duration / totalDuration) *
+      (svgWidth - 2 * margin - phaseGap * (expanded.length - 1))
     let color = '#ccc'
     let barH = minBarHeight
     if (phase.power) {
@@ -56,21 +112,39 @@ export function renderWorkoutSvg(phases, svgEl) {
         minBarHeight + (maxBarHeight - minBarHeight) * Math.min(pLow, 1.5)
       const h2 =
         minBarHeight + (maxBarHeight - minBarHeight) * Math.min(pHigh, 1.5)
-      svg += `<defs><linearGradient id="grad${gradCount}" x1="0%" y1="100%" x2="0%" y2="0%"><stop offset="0%" stop-color="${color1}"/><stop offset="100%" stop-color="${color2}"/></linearGradient></defs>`
-      svg += `<polygon points="${x},${svgHeight - margin} ${x + width},${
-        svgHeight - margin
-      } ${x + width},${svgHeight - h2 - margin} ${x},${
-        svgHeight - h1 - margin
-      }" fill="url(#grad${gradCount})"/>`
-      x += width
+      gradients += `<linearGradient id="grad${gradCount}" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="${color1}"/><stop offset="100%" stop-color="${color2}"/></linearGradient>`
+      if (h1 <= h2) {
+        paths += svgRampUp(
+          x,
+          width,
+          h1,
+          h2,
+          svgHeight,
+          margin,
+          barRadius,
+          `grad${gradCount}`
+        )
+      } else {
+        paths += svgRampDown(
+          x,
+          width,
+          h1,
+          h2,
+          svgHeight,
+          margin,
+          barRadius,
+          `grad${gradCount}`
+        )
+      }
+      x += width + phaseGap
       gradCount++
       continue
     }
-    svg += `<rect x="${x}" y="${
-      svgHeight - barH - margin
-    }" width="${width}" height="${barH}" rx="${barRadius}" fill="${color}" />`
-    x += width
+    paths += svgSteadyState(x, width, barH, svgHeight, margin, barRadius, color)
+    x += width + phaseGap
   }
+  if (gradients) svg += `<defs>${gradients}</defs>`
+  svg += paths
   svg += '</svg>'
   svgEl.innerHTML = svg
 }
