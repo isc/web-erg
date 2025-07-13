@@ -35,6 +35,8 @@ window.workoutApp = function () {
     showForm: true,
     ftp: 150,
     weight: 70,
+    phaseProgress: 0,
+    phaseColor: '#ccc',
     async connectErgo() {
       this.isErgoConnected = await connectErgometer()
     },
@@ -60,7 +62,8 @@ window.workoutApp = function () {
           phases,
           setErgPower,
           this.onWorkoutEnd.bind(this),
-          this.ftp
+          this.ftp,
+          this
         )
         parseAndDisplayZwo(xml, null, this.$refs.workoutSvg)
         this.showZwoInput = false
@@ -74,6 +77,8 @@ window.workoutApp = function () {
       localStorage.setItem('weight', this.weight)
       this.showWorkout = true
       this.showForm = false
+      this.workoutRunner.start()
+      this.startTimerUI()
     },
     startTimerUI() {
       let start = Date.now()

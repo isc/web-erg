@@ -176,7 +176,13 @@ export function parseAndDisplayZwo(xmlText, workoutPhasesEl, workoutSvgEl) {
 }
 
 export class WorkoutRunner {
-  constructor(phases, setErgPower, onWorkoutEnd, ftp = 150) {
+  constructor(
+    phases,
+    setErgPower,
+    onWorkoutEnd,
+    ftp = 150,
+    alpineInstance = null
+  ) {
     this.originalPhases = phases
     this.expandedPhases = this.expandPhases(phases)
     this.setErgPower = setErgPower
@@ -186,6 +192,7 @@ export class WorkoutRunner {
     this.currentPhaseElapsed = 0
     this.timer = null
     this.running = false
+    this.alpineInstance = alpineInstance
   }
 
   expandPhases(phases) {
@@ -238,12 +245,29 @@ export class WorkoutRunner {
     return expanded
   }
 
+  updatePhaseProgressBar() {
+    if (!this.alpineInstance) return
+    const phase = this.expandedPhases[this.currentPhaseIndex]
+    if (!phase || !phase.duration) {
+      this.alpineInstance.phaseProgress = 0
+      this.alpineInstance.phaseColor = '#ccc'
+      return
+    }
+    const percent = Math.min(this.currentPhaseElapsed / phase.duration, 1) * 100
+    let color = '#ccc'
+    if (phase.power) color = getZoneColor(phase.power)
+    if (phase.powerLow) color = getZoneColor(phase.powerLow)
+    this.alpineInstance.phaseProgress = isNaN(percent) ? 0 : percent
+    this.alpineInstance.phaseColor = color
+  }
+
   start() {
     if (this.running || this.expandedPhases.length === 0) return
     this.running = true
     this.currentPhaseIndex = 0
     this.currentPhaseElapsed = 0
     this.sendCurrentErg()
+    this.updatePhaseProgressBar()
     this.timer = setInterval(() => this.tick(), 1000)
   }
 
@@ -292,6 +316,7 @@ export class WorkoutRunner {
       }
     }
     this.sendCurrentErg()
+    this.updatePhaseProgressBar()
   }
 }
 

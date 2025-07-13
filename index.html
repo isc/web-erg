@@ -125,7 +125,6 @@
         </fieldset>
       </form>
       <div x-show="showWorkout">
-        <div x-ref="workoutSvg" style="width: 90vw"></div>
         <table>
           <thead>
             <tr>
@@ -144,6 +143,14 @@
             </tr>
           </tbody>
         </table>
+        <progress
+          id="phase-progress-bar"
+          x-bind:value="phaseProgress"
+          max="100"
+          x-bind:style="'accent-color:' + phaseColor"
+          style="width: 100%"
+        ></progress>
+        <div x-ref="workoutSvg" style="width: 90vw"></div>
         <div x-show="workoutFinished">Workout terminé !</div>
         <button x-show="workoutFinished" @click="exportTcx">
           Exporter TCX
