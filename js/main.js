@@ -37,6 +37,17 @@ window.workoutApp = function () {
     weight: 70,
     phaseProgress: 0,
     phaseColor: '#ccc',
+    wakeLock: null,
+    async requestWakeLock() {
+      if ('wakeLock' in navigator)
+        this.wakeLock = await navigator.wakeLock.request('screen')
+    },
+    async releaseWakeLock() {
+      if (this.wakeLock) {
+        await this.wakeLock.release()
+        this.wakeLock = null
+      }
+    },
     async connectErgo() {
       this.isErgoConnected = await connectErgometer()
     },
@@ -79,6 +90,7 @@ window.workoutApp = function () {
       this.showForm = false
       this.workoutRunner.start()
       this.startTimerUI()
+      this.requestWakeLock()
     },
     startTimerUI() {
       let start = Date.now()
@@ -113,6 +125,7 @@ window.workoutApp = function () {
     onWorkoutEnd() {
       this.stopTimerUI()
       this.workoutFinished = true
+      this.releaseWakeLock()
     },
     exportTcx() {
       let notes = ''
