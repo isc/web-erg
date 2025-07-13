@@ -24,7 +24,7 @@
       }
     </style>
     <main class="container" x-data="workoutApp()">
-      <form @submit.prevent x-data x-show="showForm">
+      <form @submit.prevent="startWorkout" x-data x-show="showForm">
         <fieldset>
           <label
             >Vélo
@@ -76,7 +76,12 @@
           </label>
           <label
             >Workout
-            <input type="file" accept=".zwo,.xml" @change="onZwoFileChange" />
+            <input
+              required
+              type="file"
+              accept=".zwo,.xml"
+              @change="onZwoFileChange"
+            />
             <small
               >Fichier de workout au format ZWO
               <a class="secondary" href="#" onclick="zwoModal.showModal()"
@@ -116,13 +121,7 @@
               </footer>
             </article>
           </dialog>
-          <button
-            type="button"
-            @click="startWorkout"
-            :disabled="!canStartWorkout"
-          >
-            Démarrer
-          </button>
+          <button type="submit">Démarrer</button>
         </fieldset>
       </form>
       <div x-show="showWorkout">

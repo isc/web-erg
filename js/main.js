@@ -35,9 +35,6 @@ window.workoutApp = function () {
     showForm: true,
     ftp: 150,
     weight: 70,
-    get canStartWorkout() {
-      return this.isErgoConnected && this.isHrmConnected && this.workoutSelected
-    },
     async connectErgo() {
       this.isErgoConnected = await connectErgometer()
     },
@@ -72,6 +69,7 @@ window.workoutApp = function () {
       reader.readAsText(file)
     },
     startWorkout() {
+      if (!this.isErgoConnected || !this.isHrmConnected) return
       localStorage.setItem('ftp', this.ftp)
       localStorage.setItem('weight', this.weight)
       this.showWorkout = true
@@ -96,7 +94,6 @@ window.workoutApp = function () {
     },
     resetTimerUI() {
       this.timer = '0:00'
-      this.workoutSelected = false
     },
     addOrUpdateSample(sample) {
       const now = new Date()
