@@ -64,17 +64,17 @@ window.workoutApp = function () {
       reader.onload = event => {
         const xml = event.target.result
         const phases = parseZwoPhases(xml)
-        const meta = parseZwoMeta(xml)
-        this.workoutMeta = meta
+        this.workoutMeta = parseZwoMeta(xml)
         if (this.workoutRunner) this.workoutRunner.stop()
         this.workoutRunner = new WorkoutRunner(
           phases,
           setErgPower,
           this.onWorkoutEnd.bind(this),
           this.ftp,
-          this
+          this,
+          this.$refs.workoutSvg
         )
-        parseAndDisplayZwo(xml, null, this.$refs.workoutSvg)
+        parseAndDisplayZwo(xml, this.$refs.workoutSvg)
         this.showZwoInput = false
         this.workoutFinished = false
       }

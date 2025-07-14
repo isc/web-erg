@@ -57,7 +57,7 @@ function svgSteadyState(x, width, barH, svgHeight, margin, barRadius, color) {
   }" width="${width}" height="${barH}" rx="${barRadius}" fill="${color}" />`
 }
 
-export function renderWorkoutSvg(phases, svgEl) {
+export function renderWorkoutSvg(phases, svgEl, currentPhaseIndex = null) {
   const svgWidth = 2400,
     svgHeight = 340,
     margin = 20,
@@ -86,7 +86,7 @@ export function renderWorkoutSvg(phases, svgEl) {
     0
   )
   let x = margin
-  let svg = `<svg width="100%" viewBox="0 0 ${svgWidth} ${svgHeight}" style="background:transparent;display:block;height:auto;">`
+  let svg = `<svg class="workout-svg" width="100%" viewBox="0 0 ${svgWidth} ${svgHeight}">`
   let gradCount = 0
   let gradients = ''
   let paths = ''
@@ -103,6 +103,7 @@ export function renderWorkoutSvg(phases, svgEl) {
       color = getZoneColor(pwr)
       barH = minBarHeight + (maxBarHeight - minBarHeight) * Math.min(pwr, 1.5)
     }
+    let dataAttr = `data-phase-index=\"${i}\"`
     if (phase.powerLow && phase.powerHigh) {
       const pLow = parseFloat(phase.powerLow),
         pHigh = parseFloat(phase.powerHigh)
@@ -113,8 +114,9 @@ export function renderWorkoutSvg(phases, svgEl) {
       const h2 =
         minBarHeight + (maxBarHeight - minBarHeight) * Math.min(pHigh, 1.5)
       gradients += `<linearGradient id="grad${gradCount}" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="${color1}"/><stop offset="100%" stop-color="${color2}"/></linearGradient>`
+      let rampPath = ''
       if (h1 <= h2) {
-        paths += svgRampUp(
+        rampPath = svgRampUp(
           x,
           width,
           h1,
@@ -125,7 +127,7 @@ export function renderWorkoutSvg(phases, svgEl) {
           `grad${gradCount}`
         )
       } else {
-        paths += svgRampDown(
+        rampPath = svgRampDown(
           x,
           width,
           h1,
@@ -136,11 +138,23 @@ export function renderWorkoutSvg(phases, svgEl) {
           `grad${gradCount}`
         )
       }
+      rampPath = rampPath.replace('<path ', `<path ${dataAttr} `)
+      paths += rampPath
       x += width + phaseGap
       gradCount++
       continue
     }
-    paths += svgSteadyState(x, width, barH, svgHeight, margin, barRadius, color)
+    let rect = svgSteadyState(
+      x,
+      width,
+      barH,
+      svgHeight,
+      margin,
+      barRadius,
+      color
+    )
+    rect = rect.replace('<rect ', `<rect ${dataAttr} `)
+    paths += rect
     x += width + phaseGap
   }
   if (gradients) svg += `<defs>${gradients}</defs>`
@@ -149,30 +163,8 @@ export function renderWorkoutSvg(phases, svgEl) {
   svgEl.innerHTML = svg
 }
 
-export function parseAndDisplayZwo(xmlText, workoutPhasesEl, workoutSvgEl) {
-  const phases = parseZwoPhases(xmlText)
-  renderWorkoutSvg(phases, workoutSvgEl)
-  if (phases.length === 0) {
-    if (workoutPhasesEl)
-      workoutPhasesEl.innerHTML = '<p>Aucune phase trouvée.</p>'
-    return
-  }
-  if (workoutPhasesEl) {
-    let html = '<h3>Phases du workout :</h3><ol>'
-    for (let p of phases) {
-      html += `<li><strong>${p.type}</strong> - `
-      if (p.duration) html += `Durée: ${p.duration}s `
-      if (p.power) html += `Puissance: ${p.power} `
-      if (p.powerLow) html += `Puissance début: ${p.powerLow} `
-      if (p.powerHigh) html += `Puissance fin: ${p.powerHigh} `
-      if (p.repeat) html += `Répéter: ${p.repeat}x `
-      if (p.onDuration) html += `On: ${p.onDuration}s @ ${p.onPower} `
-      if (p.offDuration) html += `Off: ${p.offDuration}s @ ${p.offPower} `
-      html += '</li>'
-    }
-    html += '</ol>'
-    workoutPhasesEl.innerHTML = html
-  }
+export function parseAndDisplayZwo(xmlText, workoutSvgEl) {
+  renderWorkoutSvg(parseZwoPhases(xmlText), workoutSvgEl)
 }
 
 export class WorkoutRunner {
@@ -181,7 +173,8 @@ export class WorkoutRunner {
     setErgPower,
     onWorkoutEnd,
     ftp = 150,
-    alpineInstance = null
+    alpineInstance = null,
+    workoutSvgEl = null
   ) {
     this.originalPhases = phases
     this.expandedPhases = this.expandPhases(phases)
@@ -193,6 +186,7 @@ export class WorkoutRunner {
     this.timer = null
     this.running = false
     this.alpineInstance = alpineInstance
+    this.workoutSvgEl = workoutSvgEl
   }
 
   expandPhases(phases) {
@@ -261,6 +255,16 @@ export class WorkoutRunner {
     this.alpineInstance.phaseColor = color
   }
 
+  updatePhaseClasses() {
+    const svg = this.workoutSvgEl.querySelector('svg')
+    svg.querySelectorAll('[data-phase-index]').forEach((el, i) => {
+      el.classList.remove('phase-completed', 'phase-current', 'phase-upcoming')
+      if (i < this.currentPhaseIndex) el.classList.add('phase-completed')
+      else if (i === this.currentPhaseIndex) el.classList.add('phase-current')
+      else el.classList.add('phase-upcoming')
+    })
+  }
+
   start() {
     if (this.running || this.expandedPhases.length === 0) return
     this.running = true
@@ -268,6 +272,7 @@ export class WorkoutRunner {
     this.currentPhaseElapsed = 0
     this.sendCurrentErg()
     this.updatePhaseProgressBar()
+    this.updatePhaseClasses()
     this.timer = setInterval(() => this.tick(), 1000)
   }
 
@@ -276,6 +281,7 @@ export class WorkoutRunner {
     if (this.timer) clearInterval(this.timer)
     this.timer = null
     if (this.onWorkoutEnd) this.onWorkoutEnd()
+    this.updatePhaseClasses()
   }
 
   isRunning() {
@@ -317,6 +323,7 @@ export class WorkoutRunner {
     }
     this.sendCurrentErg()
     this.updatePhaseProgressBar()
+    this.updatePhaseClasses()
   }
 }
 
@@ -389,6 +396,5 @@ export function parseZwoMeta(xmlText) {
         totalDuration += repeat * (onDuration + offDuration)
       }
     }
-
-  return { name, description, totalDuration: totalDuration / 60 }
+  return { name, description, totalDuration: (totalDuration / 60).toFixed(2) }
 }
