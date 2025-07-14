@@ -176,7 +176,7 @@ window.workoutApp = function () {
       })
       setOnCadenceUpdate(val => {
         this.cadence = val
-        Number(val) === 0 ? this.pauseWorkout() : this.resumeWorkout()
+        val === '-' ? this.pauseWorkout() : this.resumeWorkout()
         this.addOrUpdateSample({ cadence: val })
       })
       setOnHeartRateUpdate(val => {
