@@ -396,5 +396,7 @@ export function parseZwoMeta(xmlText) {
         totalDuration += repeat * (onDuration + offDuration)
       }
     }
-  return { name, description, totalDuration: (totalDuration / 60).toFixed(2) }
+  totalDuration = totalDuration / 60
+  if (totalDuration % 1) totalDuration = totalDuration.toFixed(2)
+  return { name, description, totalDuration }
 }

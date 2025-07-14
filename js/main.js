@@ -82,6 +82,7 @@ window.workoutApp = function () {
     },
     startWorkout() {
       if (!this.isErgoConnected || !this.isHrmConnected) return
+      document.documentElement.requestFullscreen?.()
       localStorage.setItem('ftp', this.ftp)
       localStorage.setItem('weight', this.weight)
       this.showWorkout = true
