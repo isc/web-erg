@@ -16,8 +16,8 @@ import { downloadTcx, generateTcx } from './tcx-export.js'
 
 window.workoutApp = function () {
   return {
-    isErgoConnected: false,
-    isHrmConnected: false,
+    ergometerName: null,
+    heartRateMonitorName: null,
     workoutRunner: null,
     timerInterval: null,
     workoutSamples: [],
@@ -49,10 +49,16 @@ window.workoutApp = function () {
       }
     },
     async connectErgo() {
-      this.isErgoConnected = await connectErgometer()
+      this.ergometerName = await connectErgometer()
     },
-    async connectHrm() {
-      this.isHrmConnected = await connectHeartRateMonitor()
+    async connectHeartRateMonitor() {
+      const { name, batteryLevel } = await connectHeartRateMonitor()
+      this.heartRateMonitorName = name
+      this.heartRateMonitorBatteryLevel = batteryLevel
+    },
+    heartRateMonitorLabel() {
+      if (!this.heartRateMonitorName) return 'Connecter'
+      return `${this.heartRateMonitorName} - ${this.heartRateMonitorBatteryLevel}%`
     },
     onZwoFileChange(e) {
       const file = e.target.files[0]
@@ -82,7 +88,7 @@ window.workoutApp = function () {
       reader.readAsText(file)
     },
     startWorkout() {
-      if (!this.isErgoConnected || !this.isHrmConnected) return
+      if (!this.ergometerName || !this.heartRateMonitorName) return
       document.documentElement.requestFullscreen?.()
       localStorage.setItem('ftp', this.ftp)
       localStorage.setItem('weight', this.weight)

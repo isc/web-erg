@@ -32,7 +32,9 @@ const mockBluetooth = {
     FakeCharacteristic.prototype.writeValue = function (value) {
       return Promise.resolve()
     }
-
+    FakeCharacteristic.prototype.readValue = function () {
+      return Promise.resolve({ getUint8: () => 37 })
+    }
     function FakeService(type) {
       this.type = type
     }

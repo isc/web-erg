@@ -32,17 +32,17 @@
             <input
               type="button"
               @click="connectErgo"
-              :disabled="isErgoConnected"
-              x-bind:value="isErgoConnected ? 'Connecté' : 'Connecter'"
+              :disabled="ergometerName"
+              x-bind:value="ergometerName || 'Connecter'"
             />
           </label>
           <label
             >Cardio
             <input
               type="button"
-              @click="connectHrm"
-              :disabled="isHrmConnected"
-              x-bind:value="isHrmConnected ? 'Connecté' : 'Connecter'"
+              @click="connectHeartRateMonitor"
+              :disabled="heartRateMonitorName"
+              x-bind:value="heartRateMonitorLabel"
             />
           </label>
           <label
@@ -72,7 +72,6 @@
             />
             <small>
               Poids du cycliste - utilisé pour calculer la vitesse virtuelle
-              (+10kg pour le vélo)
             </small>
           </label>
           <label
@@ -86,7 +85,7 @@
             <small
               >Fichier de workout au format ZWO
               <a class="secondary" href="#" onclick="zwoModal.showModal()"
-                >ⓘ More info</a
+                >ⓘ En savoir plus</a
               ></small
             >
           </label>

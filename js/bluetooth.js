@@ -53,7 +53,7 @@ export async function connectErgometer() {
     await cyclingPowerChar.startNotifications()
     cyclingPowerChar.addEventListener(
       'characteristicvaluechanged',
-      handleCyclingPowerNotification
+      onCyclingPowerNotification
     )
     log('✅ Subscribed to Cycling Power notifications.')
     log('✅ Connected and ready.')
@@ -62,10 +62,10 @@ export async function connectErgometer() {
       onPowerUpdate('-')
       onCadenceUpdate('-')
     })
-    return true
+    return device.name
   } catch (error) {
     log('⚠️ ' + error)
-    return false
+    return null
   }
 }
 
@@ -100,21 +100,32 @@ export async function connectHeartRateMonitor() {
     await characteristic.startNotifications()
     characteristic.addEventListener(
       'characteristicvaluechanged',
-      handleHeartRateNotification
+      onHeartRateNotification
     )
     log('✅ Subscribed to Heart Rate notifications.')
     device.addEventListener('gattserverdisconnected', () => {
       log('⚠️ HRM device disconnected.')
       onHeartRateUpdate('-')
     })
-    return true
+    let batteryLevel = null
+    try {
+      const batteryService = await server.getPrimaryService('battery_service')
+      const batteryChar = await batteryService.getCharacteristic(
+        'battery_level'
+      )
+      const batteryValue = await batteryChar.readValue()
+      batteryLevel = batteryValue.getUint8(0)
+    } catch (e) {
+      log('⚠️ Could not read battery level: ' + e)
+    }
+    return { name: device.name, batteryLevel }
   } catch (error) {
     log('⚠️ HRM: ' + error)
-    return false
+    return null
   }
 }
 
-function handleCyclingPowerNotification(event) {
+function onCyclingPowerNotification(event) {
   const value = event.target.value
   let offset = 0
   const flags = value.getUint16(offset, true)
@@ -151,7 +162,7 @@ function handleCyclingPowerNotification(event) {
   onCadenceUpdate(instantaneousPower === 0 ? '-' : cadence)
 }
 
-function handleHeartRateNotification(event) {
+function onHeartRateNotification(event) {
   const value = event.target.value
   let offset = 0
   const flags = value.getUint8(offset)
