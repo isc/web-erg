@@ -22,8 +22,7 @@ window.workoutApp = function () {
     timerInterval: null,
     workoutSamples: [],
     lastSampleTime: null,
-    workoutName: '',
-    workoutDescription: '',
+    workoutMeta: null,
     workoutFinished: false,
     showZwoInput: true,
     showWorkout: false,
@@ -66,8 +65,7 @@ window.workoutApp = function () {
         const xml = event.target.result
         const phases = parseZwoPhases(xml)
         const meta = parseZwoMeta(xml)
-        this.workoutName = meta.name
-        this.workoutDescription = meta.description
+        this.workoutMeta = meta
         if (this.workoutRunner) this.workoutRunner.stop()
         this.workoutRunner = new WorkoutRunner(
           phases,
@@ -129,9 +127,9 @@ window.workoutApp = function () {
     },
     exportTcx() {
       let notes = ''
-      if (this.workoutName) notes += this.workoutName
-      if (this.workoutDescription)
-        notes += (notes ? ' - ' : '') + this.workoutDescription
+      if (this.workoutMeta?.name) notes += this.workoutMeta?.name
+      if (this.workoutMeta?.description)
+        notes += (notes ? ' - ' : '') + this.workoutMeta?.description
       downloadTcx(generateTcx(this.workoutSamples, notes, this.weight))
     },
     init() {

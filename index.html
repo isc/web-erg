@@ -125,6 +125,13 @@
         </fieldset>
       </form>
       <div x-show="showWorkout">
+        <hgroup>
+          <h2>
+            <span x-text="workoutMeta?.name"></span> -
+            <span x-text="workoutMeta?.totalDuration"></span> minutes
+          </h2>
+          <small x-text="workoutMeta?.description"></small>
+        </hgroup>
         <table>
           <thead>
             <tr>

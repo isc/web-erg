@@ -61,7 +61,7 @@ export function renderWorkoutSvg(phases, svgEl) {
   const svgWidth = 2400,
     svgHeight = 340,
     margin = 20,
-    phaseGap = 15
+    phaseGap = 6
   const minBarHeight = 80,
     maxBarHeight = 250,
     barRadius = 18
@@ -372,5 +372,23 @@ export function parseZwoMeta(xmlText) {
   if (nameNode) name = nameNode.textContent.trim()
   const descNode = xmlDoc.querySelector('description')
   if (descNode) description = descNode.textContent.trim()
-  return { name, description }
+
+  let totalDuration = 0
+  let workout = xmlDoc.querySelector('workout')
+  if (workout)
+    for (let node of workout.children) {
+      let tag = node.tagName
+      if (
+        ['Warmup', 'Cooldown', 'SteadyState', 'FreeRide', 'Ramp'].includes(tag)
+      )
+        totalDuration += parseFloat(node.getAttribute('Duration')) || 0
+      else if (tag === 'IntervalsT') {
+        const repeat = parseInt(node.getAttribute('Repeat')) || 1
+        const onDuration = parseFloat(node.getAttribute('OnDuration')) || 0
+        const offDuration = parseFloat(node.getAttribute('OffDuration')) || 0
+        totalDuration += repeat * (onDuration + offDuration)
+      }
+    }
+
+  return { name, description, totalDuration: totalDuration / 60 }
 }
