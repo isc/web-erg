@@ -37,6 +37,7 @@ window.workoutApp = function () {
     phaseProgress: 0,
     phaseColor: '#ccc',
     wakeLock: null,
+    isPaused: false,
     async requestWakeLock() {
       if ('wakeLock' in navigator)
         this.wakeLock = await navigator.wakeLock.request('screen')
@@ -111,7 +112,22 @@ window.workoutApp = function () {
     resetTimerUI() {
       this.timer = '0:00'
     },
+    pauseWorkout() {
+      if (!this.isPaused && this.workoutRunner?.isRunning()) {
+        this.isPaused = true
+        this.stopTimerUI()
+        this.workoutRunner.pause?.()
+      }
+    },
+    resumeWorkout() {
+      if (this.isPaused && this.workoutRunner?.isRunning()) {
+        this.isPaused = false
+        this.startTimerUI()
+        this.workoutRunner.resume?.()
+      }
+    },
     addOrUpdateSample(sample) {
+      if (!this.workoutRunner?.isRunning() || this.isPaused) return
       const now = new Date()
       const iso = now.toISOString()
       if (!this.lastSampleTime || now - this.lastSampleTime > 1500) {
@@ -150,18 +166,16 @@ window.workoutApp = function () {
           this.workoutRunner.start()
           this.startTimerUI()
         }
-        if (this.workoutRunner?.isRunning())
-          this.addOrUpdateSample({ power: val })
+        this.addOrUpdateSample({ power: val })
       })
       setOnCadenceUpdate(val => {
         this.cadence = val
-        if (this.workoutRunner?.isRunning())
-          this.addOrUpdateSample({ cadence: val })
+        Number(val) === 0 ? this.pauseWorkout() : this.resumeWorkout()
+        this.addOrUpdateSample({ cadence: val })
       })
       setOnHeartRateUpdate(val => {
         this.heartRate = val
-        if (this.workoutRunner?.isRunning())
-          this.addOrUpdateSample({ heartRate: val })
+        this.addOrUpdateSample({ heartRate: val })
       })
     }
   }

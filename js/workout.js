@@ -242,7 +242,7 @@ export class WorkoutRunner {
   updatePhaseProgressBar() {
     if (!this.alpineInstance) return
     const phase = this.expandedPhases[this.currentPhaseIndex]
-    if (!phase || !phase.duration) {
+    if (!phase?.duration) {
       this.alpineInstance.phaseProgress = 0
       this.alpineInstance.phaseColor = '#ccc'
       return
@@ -276,6 +276,18 @@ export class WorkoutRunner {
     this.timer = setInterval(() => this.tick(), 1000)
   }
 
+  pause() {
+    if (this.running && this.timer) {
+      clearInterval(this.timer)
+      this.timer = null
+    }
+  }
+
+  resume() {
+    if (this.running && !this.timer)
+      this.timer = setInterval(() => this.tick(), 1000)
+  }
+
   stop() {
     this.running = false
     if (this.timer) clearInterval(this.timer)
@@ -297,12 +309,9 @@ export class WorkoutRunner {
       const d = phase.duration
       targetPower =
         phase.powerLow + (phase.powerHigh - phase.powerLow) * (t / d)
-    } else {
-      targetPower = phase.power
-    }
-    if (phase.type !== 'FreeRide') {
+    } else targetPower = phase.power
+    if (phase.type !== 'FreeRide')
       this.setErgPower(Math.round(targetPower * this.ftp))
-    }
   }
 
   tick() {
