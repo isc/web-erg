@@ -1,0 +1,25 @@
+.workout-svg {
+  background: transparent;
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.phase-completed {
+  opacity: 0.3;
+}
+.phase-current {
+  animation: pulse 1.2s infinite alternate;
+}
+.phase-upcoming {
+  opacity: 1;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
