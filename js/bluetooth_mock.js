@@ -29,6 +29,9 @@ const mockBluetooth = {
         }, 100)
       }
     }
+    FakeCharacteristic.prototype.writeValue = function (value) {
+      return Promise.resolve()
+    }
 
     function FakeService(type) {
       this.type = type
@@ -64,9 +67,8 @@ const mockBluetooth = {
       this.addEventListener = function () {}
     }
 
-    if (opts.filters && opts.filters[0].services.includes('heart_rate')) {
+    if (opts.filters && opts.filters[0].services.includes('heart_rate'))
       return new FakeDevice('Fake HRM')
-    }
     return new FakeDevice('Fake Ergo')
   }
 }
