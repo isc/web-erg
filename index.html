@@ -44,7 +44,7 @@
             />
             <small>
               Functional Threshold Power - utilisé pour calculer les intensités
-              du workout
+              de l'entraînement
             </small>
           </label>
           <label
@@ -62,7 +62,7 @@
             </small>
           </label>
           <label
-            >Workout
+            >Entraînement
             <input
               required
               type="file"
@@ -70,12 +70,33 @@
               @change="onZwoFileChange"
             />
             <small
-              >Fichier de workout au format ZWO
+              >Fichier d'entraînement au format ZWO
               <a class="secondary" href="#" onclick="zwoModal.showModal()"
                 >ⓘ En savoir plus</a
               ></small
             >
           </label>
+
+          <dialog
+            id="noBluetoothModal"
+            x-init="if (!navigator.bluetooth) noBluetoothModal.showModal()"
+          >
+            <article>
+              <header>
+                <h3>Bluetooth non supporté</h3>
+              </header>
+              <p>
+                Ton navigateur ne supporte pas les connexions Bluetooth. Tu peux
+                essayer
+                <a href="https://caniuse.com/?search=bluetooth">
+                  avec un autre navigateur</a
+                >.
+              </p>
+              <footer>
+                <button onclick="noBluetoothModal.close()">Fermer</button>
+              </footer>
+            </article>
+          </dialog>
 
           <dialog id="zwoModal">
             <article>

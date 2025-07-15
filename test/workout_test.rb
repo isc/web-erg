@@ -33,7 +33,7 @@ class WorkoutTest < Minitest::Test
   def test_workout_full_flow
     find_field('Vélo').click
     find_field('Cardio').click
-    attach_file('Workout', File.expand_path('The_Famous_40_20_s.zwo', __dir__))
+    attach_file('Entraînement', File.expand_path('The_Famous_40_20_s.zwo', __dir__))
     click_on 'Démarrer'
     assert_selector '[x-ref="workoutSvg"]', visible: true
   end
@@ -43,7 +43,7 @@ class WorkoutTest < Minitest::Test
     find_field('Cardio').click
     fill_in 'FTP (watts)', with: '200'
     fill_in 'Poids (kg)', with: '75'
-    attach_file('Workout', File.expand_path('The_Famous_40_20_s.zwo', __dir__))
+    attach_file('Entraînement', File.expand_path('The_Famous_40_20_s.zwo', __dir__))
     click_on 'Démarrer'
     visit '/'
     assert_field 'FTP (watts)', with: '200'
