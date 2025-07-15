@@ -10,12 +10,31 @@ const mockBluetooth = {
     FakeCharacteristic.prototype.addEventListener = function (event, cb) {
       this._listeners[event] = cb
       if (event === 'characteristicvaluechanged') {
-        setTimeout(() => {
+        setInterval(() => {
           let value
+          const watts = localStorage.getItem('ergPower') || 0
           if (this.type === 'power') {
+            const now = Date.now()
+            const targetRPM = watts > 0 ? 60 : 0
+            let flags = 0x00
+            let crankRevs = 0
+            let crankEventTime = 0
+            if (targetRPM > 0) {
+              flags = 0x10 // Données de cadence disponibles
+              crankRevs = Math.floor((now / 1000) * (targetRPM / 60)) % 65536
+              crankEventTime = ((now / 1000) * 1024) % 65536
+            }
             value = {
-              getUint16: (offset, littleEndian) => (offset === 0 ? 0 : 150),
-              getInt16: () => 150,
+              getUint16: (offset, littleEndian) => {
+                if (offset === 0) return flags
+                if (offset === 4) return crankRevs
+                if (offset === 6) return crankEventTime
+                return 0
+              },
+              getInt16: (offset, littleEndian) => {
+                if (offset === 2) return watts // Instantaneous power
+                return 0
+              },
               byteLength: 8
             }
           } else if (this.type === 'hr') {
@@ -26,7 +45,7 @@ const mockBluetooth = {
             }
           }
           cb({ target: { value } })
-        }, 100)
+        }, 1000)
       }
     }
     FakeCharacteristic.prototype.writeValue = function (value) {

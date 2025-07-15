@@ -14,6 +14,8 @@ import {
 } from './bluetooth.js'
 import { downloadTcx, generateTcx } from './tcx-export.js'
 
+import { isTestEnv } from './utils.js'
+
 window.workoutApp = function () {
   return {
     ergometerName: null,
@@ -24,6 +26,8 @@ window.workoutApp = function () {
     lastSampleTime: null,
     workoutMeta: null,
     workoutFinished: false,
+    elapsedTime: 0,
+    timerStartTime: null,
     showZwoInput: true,
     showWorkout: false,
     power: '-',
@@ -55,6 +59,29 @@ window.workoutApp = function () {
       const { name, batteryLevel } = await connectHeartRateMonitor()
       this.heartRateMonitorName = name
       this.heartRateMonitorBatteryLevel = batteryLevel
+    },
+    setCallbacks() {
+      setOnPowerUpdate(val => {
+        this.power = val
+        if (
+          !this.workoutRunner.isRunning() &&
+          Number(val) > 0 &&
+          !this.workoutFinished
+        ) {
+          this.workoutRunner.start()
+          this.startTimerUI()
+        }
+        this.addOrUpdateSample({ power: val })
+      })
+      setOnCadenceUpdate(val => {
+        this.cadence = val
+        val === '-' ? this.pauseWorkout() : this.resumeWorkout()
+        this.addOrUpdateSample({ cadence: val })
+      })
+      setOnHeartRateUpdate(val => {
+        this.heartRate = val
+        this.addOrUpdateSample({ heartRate: val })
+      })
     },
     heartRateMonitorLabel() {
       if (!this.heartRateMonitorName) return 'Connecter'
@@ -89,40 +116,43 @@ window.workoutApp = function () {
     },
     startWorkout() {
       if (!this.ergometerName || !this.heartRateMonitorName) return
-      document.documentElement.requestFullscreen?.()
+      if (!isTestEnv()) document.documentElement.requestFullscreen?.()
       localStorage.setItem('ftp', this.ftp)
       localStorage.setItem('weight', this.weight)
       this.showWorkout = true
       this.showForm = false
-      this.workoutRunner.start()
-      this.startTimerUI()
       this.requestWakeLock()
+      this.setCallbacks()
     },
     startTimerUI() {
-      let start = Date.now()
-      this.resetTimerUI()
+      this.timerStartTime = Date.now()
       if (this.timerInterval) clearInterval(this.timerInterval)
       this.timerInterval = setInterval(() => {
         if (!this.workoutRunner?.isRunning()) return
-        const elapsed = Math.floor((Date.now() - start) / 1000)
-        const min = Math.floor(elapsed / 60)
-        const sec = elapsed % 60
+        const currentElapsed = Math.floor(
+          (Date.now() - this.timerStartTime) / 1000
+        )
+        const totalElapsed = this.elapsedTime + currentElapsed
+        const min = Math.floor(totalElapsed / 60)
+        const sec = totalElapsed % 60
         this.timer = `${min}:${sec.toString().padStart(2, '0')}`
       }, 1000)
     },
     stopTimerUI() {
       if (this.timerInterval) clearInterval(this.timerInterval)
       this.timerInterval = null
-      this.resetTimerUI()
-    },
-    resetTimerUI() {
-      this.timer = '0:00'
+      if (this.timerStartTime) {
+        this.elapsedTime += Math.floor(
+          (Date.now() - this.timerStartTime) / 1000
+        )
+        this.timerStartTime = null
+      }
     },
     pauseWorkout() {
       if (!this.isPaused && this.workoutRunner?.isRunning()) {
         this.isPaused = true
         this.stopTimerUI()
-        this.workoutRunner.pause?.()
+        this.workoutRunner.pause()
       }
     },
     resumeWorkout() {
@@ -160,29 +190,6 @@ window.workoutApp = function () {
       if (savedFtp) this.ftp = parseInt(savedFtp)
       const savedWeight = localStorage.getItem('weight')
       if (savedWeight) this.weight = parseInt(savedWeight)
-
-      setOnPowerUpdate(val => {
-        this.power = val
-        if (
-          this.workoutRunner &&
-          !this.workoutRunner.isRunning() &&
-          Number(val) > 0 &&
-          !this.workoutFinished
-        ) {
-          this.workoutRunner.start()
-          this.startTimerUI()
-        }
-        this.addOrUpdateSample({ power: val })
-      })
-      setOnCadenceUpdate(val => {
-        this.cadence = val
-        val === '-' ? this.pauseWorkout() : this.resumeWorkout()
-        this.addOrUpdateSample({ cadence: val })
-      })
-      setOnHeartRateUpdate(val => {
-        this.heartRate = val
-        this.addOrUpdateSample({ heartRate: val })
-      })
     }
   }
 }

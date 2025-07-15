@@ -1,12 +1,11 @@
+import { isTestEnv } from './utils.js'
 import mockBluetooth from './bluetooth_mock.js'
 let controlCharacteristic
 let prevCrankRevs = null
 let prevCrankEventTime = null
 let lastCadence = null
 
-const bluetoothApi = document.cookie.includes('test-env')
-  ? mockBluetooth
-  : navigator.bluetooth
+const bluetoothApi = isTestEnv() ? mockBluetooth : navigator.bluetooth
 
 function log(msg) {
   console.log(msg)
