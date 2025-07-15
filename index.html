@@ -20,7 +20,7 @@
               type="button"
               @click="connectErgo"
               :disabled="ergometerName"
-              x-bind:value="ergometerName || 'Connecter'"
+              x-bind:value="ergometerButtonLabel"
             />
           </label>
           <label
@@ -29,7 +29,7 @@
               type="button"
               @click="connectHeartRateMonitor"
               :disabled="heartRateMonitorName"
-              x-bind:value="heartRateMonitorLabel"
+              x-bind:value="heartRateMonitorButtonLabel"
             />
           </label>
           <label
@@ -77,13 +77,15 @@
             >
           </label>
 
-          <dialog
-            id="noBluetoothModal"
-            x-init="if (!navigator.bluetooth) noBluetoothModal.showModal()"
-          >
+          <dialog id="noBluetoothModal" x-bind:open="!navigator.bluetooth">
             <article>
               <header>
-                <h3>Bluetooth non supporté</h3>
+                <button
+                  aria-label="Close"
+                  rel="prev"
+                  onclick="noBluetoothModal.close()"
+                ></button>
+                <p><strong>Bluetooth non supporté</strong></p>
               </header>
               <p>
                 Ton navigateur ne supporte pas les connexions Bluetooth. Tu peux
@@ -92,9 +94,6 @@
                   avec un autre navigateur</a
                 >.
               </p>
-              <footer>
-                <button onclick="noBluetoothModal.close()">Fermer</button>
-              </footer>
             </article>
           </dialog>
 

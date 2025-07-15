@@ -41,6 +41,8 @@ window.workoutApp = function () {
     phaseTimeRemaining: '0:00',
     wakeLock: null,
     isPaused: false,
+    ergometerButtonLabel: 'Connecter',
+    heartRateMonitorButtonLabel: 'Connecter',
     async requestWakeLock() {
       if ('wakeLock' in navigator)
         this.wakeLock = await navigator.wakeLock.request('screen')
@@ -52,13 +54,20 @@ window.workoutApp = function () {
       }
     },
     async connectErgo() {
+      this.ergometerButtonLabel = 'Connexion...'
       this.ergometerName = await connectErgometer()
+      this.ergometerButtonLabel = this.ergometerName || 'Connecter'
     },
     async connectHeartRateMonitor() {
+      this.heartRateMonitorButtonLabel = 'Connexion...'
       const heartRateMonitor = await connectHeartRateMonitor()
-      if (!heartRateMonitor) return
+      if (!heartRateMonitor) {
+        this.heartRateMonitorButtonLabel = 'Connecter'
+        return
+      }
       this.heartRateMonitorName = heartRateMonitor.name
       this.heartRateMonitorBatteryLevel = heartRateMonitor.batteryLevel
+      this.heartRateMonitorButtonLabel = `${this.heartRateMonitorName} - ${this.heartRateMonitorBatteryLevel}%`
     },
     setCallbacks() {
       setOnPowerUpdate(val => {
@@ -82,10 +91,6 @@ window.workoutApp = function () {
         this.heartRate = val
         this.addOrUpdateSample({ heartRate: val })
       })
-    },
-    heartRateMonitorLabel() {
-      if (!this.heartRateMonitorName) return 'Connecter'
-      return `${this.heartRateMonitorName} - ${this.heartRateMonitorBatteryLevel}%`
     },
     onZwoFileChange(e) {
       const file = e.target.files[0]
