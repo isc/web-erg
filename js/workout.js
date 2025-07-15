@@ -378,15 +378,17 @@ export function parseZwoPhases(xmlText) {
   return phases
 }
 
+function getTagContent(xmlDoc, tagName) {
+  const node = xmlDoc.querySelector(tagName)
+  return node ? node.textContent.trim() : ''
+}
+
 export function parseZwoMeta(xmlText) {
   let parser = new DOMParser()
   let xmlDoc = parser.parseFromString(xmlText, 'application/xml')
-  let name = ''
-  let description = ''
-  const nameNode = xmlDoc.querySelector('name')
-  if (nameNode) name = nameNode.textContent.trim()
-  const descNode = xmlDoc.querySelector('description')
-  if (descNode) description = descNode.textContent.trim()
+  const name = getTagContent(xmlDoc, 'name')
+  const description = getTagContent(xmlDoc, 'description')
+  const author = getTagContent(xmlDoc, 'author')
 
   let totalDuration = 0
   let workout = xmlDoc.querySelector('workout')
@@ -406,5 +408,5 @@ export function parseZwoMeta(xmlText) {
     }
   totalDuration = totalDuration / 60
   if (totalDuration % 1) totalDuration = totalDuration.toFixed(2)
-  return { name, description, totalDuration }
+  return { name, description, author, totalDuration }
 }
