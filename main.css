@@ -11,9 +11,6 @@
 .phase-current {
   animation: pulse 1.2s infinite alternate;
 }
-.phase-upcoming {
-  opacity: 1;
-}
 
 @keyframes pulse {
   0% {
@@ -22,4 +19,12 @@
   100% {
     opacity: 1;
   }
+}
+
+.workout-description {
+  cursor: pointer;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
 }

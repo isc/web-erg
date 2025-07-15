@@ -258,10 +258,9 @@ export class WorkoutRunner {
   updatePhaseClasses() {
     const svg = this.workoutSvgEl.querySelector('svg')
     svg.querySelectorAll('[data-phase-index]').forEach((el, i) => {
-      el.classList.remove('phase-completed', 'phase-current', 'phase-upcoming')
+      el.classList.remove('phase-completed', 'phase-current')
       if (i < this.currentPhaseIndex) el.classList.add('phase-completed')
       else if (i === this.currentPhaseIndex) el.classList.add('phase-current')
-      else el.classList.add('phase-upcoming')
     })
   }
 
