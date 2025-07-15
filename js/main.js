@@ -13,8 +13,7 @@ import {
   setOnPowerUpdate
 } from './bluetooth.js'
 import { downloadTcx, generateTcx } from './tcx-export.js'
-
-import { isTestEnv } from './utils.js'
+import { formatForTimer, isTestEnv } from './utils.js'
 
 window.workoutApp = function () {
   return {
@@ -39,7 +38,7 @@ window.workoutApp = function () {
     ftp: 150,
     weight: 70,
     phaseProgress: 0,
-    phaseColor: '#ccc',
+    phaseTimeRemaining: '0:00',
     wakeLock: null,
     isPaused: false,
     async requestWakeLock() {
@@ -132,10 +131,7 @@ window.workoutApp = function () {
         const currentElapsed = Math.floor(
           (Date.now() - this.timerStartTime) / 1000
         )
-        const totalElapsed = this.elapsedTime + currentElapsed
-        const min = Math.floor(totalElapsed / 60)
-        const sec = totalElapsed % 60
-        this.timer = `${min}:${sec.toString().padStart(2, '0')}`
+        this.timer = formatForTimer(this.elapsedTime + currentElapsed)
       }, 1000)
     },
     stopTimerUI() {

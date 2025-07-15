@@ -1,4 +1,16 @@
-.workout-svg {
+main.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.workout-svg-container {
+  width: 90vw;
+}
+
+.workout-svg-container svg {
   background: transparent;
   display: block;
   height: auto;
@@ -27,4 +39,10 @@
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
   overflow: hidden;
+}
+
+.phase-progress-container {
+  display: flex;
+  gap: 1rem;
+  align-items: end;
 }

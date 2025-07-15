@@ -1,3 +1,5 @@
+import { formatForTimer } from './utils.js'
+
 function getZoneColor(power) {
   if (power < 0.56) return '#888'
   if (power < 0.76) return '#2196f3'
@@ -86,7 +88,7 @@ export function renderWorkoutSvg(phases, svgEl, currentPhaseIndex = null) {
     0
   )
   let x = margin
-  let svg = `<svg class="workout-svg" width="100%" viewBox="0 0 ${svgWidth} ${svgHeight}">`
+  let svg = `<svg viewBox="0 0 ${svgWidth} ${svgHeight}">`
   let gradCount = 0
   let gradients = ''
   let paths = ''
@@ -244,15 +246,17 @@ export class WorkoutRunner {
     const phase = this.expandedPhases[this.currentPhaseIndex]
     if (!phase?.duration) {
       this.alpineInstance.phaseProgress = 0
-      this.alpineInstance.phaseColor = '#ccc'
+      this.alpineInstance.phaseTimeRemaining = '0:00'
       return
     }
     const percent = Math.min(this.currentPhaseElapsed / phase.duration, 1) * 100
-    let color = '#ccc'
-    if (phase.power) color = getZoneColor(phase.power)
-    if (phase.powerLow) color = getZoneColor(phase.powerLow)
     this.alpineInstance.phaseProgress = isNaN(percent) ? 0 : percent
-    this.alpineInstance.phaseColor = color
+
+    const remainingSeconds = Math.max(
+      0,
+      phase.duration - this.currentPhaseElapsed
+    )
+    this.alpineInstance.phaseTimeRemaining = formatForTimer(remainingSeconds)
   }
 
   updatePhaseClasses() {
