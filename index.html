@@ -132,6 +132,17 @@
           </h2>
           <p x-text="workoutMeta?.description"></p>
         </hgroup>
+
+        <article x-show="isPaused" class="grid">
+          <h4>Entrainement en pause</h4>
+          <button class="outline" @click="stopWorkout">Arrêter</button>
+        </article>
+
+        <article x-show="workoutFinished" class="grid">
+          <h4>Entrainement terminé</h4>
+          <button @click="exportTcx">Exporter TCX</button>
+        </article>
+
         <table>
           <thead>
             <tr>
@@ -158,10 +169,6 @@
           style="width: 100%"
         ></progress>
         <div x-ref="workoutSvg" style="width: 90vw"></div>
-        <div x-show="workoutFinished">Workout terminé !</div>
-        <button x-show="workoutFinished" @click="exportTcx">
-          Exporter TCX
-        </button>
       </div>
     </main>
     <script type="module" src="js/main.js"></script>

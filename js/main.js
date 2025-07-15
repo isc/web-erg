@@ -173,9 +173,13 @@ window.workoutApp = function () {
       const last = this.workoutSamples[this.workoutSamples.length - 1]
       Object.assign(last, sample)
     },
+    stopWorkout() {
+      this.workoutRunner.stop()
+    },
     onWorkoutEnd() {
       this.stopTimerUI()
       this.workoutFinished = true
+      this.isPaused = false
       this.releaseWakeLock()
     },
     exportTcx() {
