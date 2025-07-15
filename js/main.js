@@ -55,9 +55,10 @@ window.workoutApp = function () {
       this.ergometerName = await connectErgometer()
     },
     async connectHeartRateMonitor() {
-      const { name, batteryLevel } = await connectHeartRateMonitor()
-      this.heartRateMonitorName = name
-      this.heartRateMonitorBatteryLevel = batteryLevel
+      const heartRateMonitor = await connectHeartRateMonitor()
+      if (!heartRateMonitor) return
+      this.heartRateMonitorName = heartRateMonitor.name
+      this.heartRateMonitorBatteryLevel = heartRateMonitor.batteryLevel
     },
     setCallbacks() {
       setOnPowerUpdate(val => {
