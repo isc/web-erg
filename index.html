@@ -89,9 +89,9 @@
               </header>
               <p>
                 Ton navigateur ne supporte pas les connexions Bluetooth. Tu peux
-                essayer
+                essayer avec
                 <a href="https://caniuse.com/?search=bluetooth">
-                  avec un autre navigateur</a
+                  un autre navigateur</a
                 >.
               </p>
             </article>
@@ -134,7 +134,7 @@
       <div x-show="showWorkout">
         <hgroup>
           <h2>
-            <span x-text="workoutMeta?.name"></span> -
+            <span x-text="workoutMeta?.name"></span> •
             <span x-text="workoutMeta?.totalDuration"></span> minutes
           </h2>
           <p
@@ -154,7 +154,16 @@
         </article>
 
         <article x-show="workoutFinished" class="grid">
-          <h4>Entrainement terminé</h4>
+          <div>
+            <h4>Entrainement terminé</h4>
+            <p>
+              Tu as terminé l'entraînement ! Tu peux maintenant exporter tes
+              données et les
+              <a href="https://www.strava.com/upload/select" target="_blank"
+                >partager sur Strava</a
+              >.
+            </p>
+          </div>
           <button @click="exportTcx">Exporter TCX</button>
         </article>
 
