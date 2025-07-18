@@ -1,0 +1,136 @@
+<workout_file>
+    <uniqueId>4b0e7fe4-3b58-4967-aba9-f2f43468c95d</uniqueId>
+    <legacyIdHash>2200413021</legacyIdHash>
+    <author>Shayne Gaffney</author>
+    <categoryOverride>Sprinting</categoryOverride>
+    <name>Nelson Vails - Sprint</name>
+    <description>Nelson Vails is the first, and only, African American Cyclist to win an Olympic medal. He took home the Silver medal in the sprint in the 1984 Olympics. Nicknamed “The Cheetah”, he is known for going from zero to 40+ MPH in the blink of an eye. The track sprint is an equal mental and physical challenge with competitors playing tricks and mind-games on one another before uncorking their sprint… Be prepared to launch yours when the time is right!</description>
+    <sportType>bike</sportType>
+    <tags />
+    <category>Athlete-Inspired</category>
+    <categoryIndex>6</categoryIndex>
+    <workout>
+        <Warmup Duration="300" PowerHigh="0.75" PowerLow="0.55">
+            <textevent timeoffset="10" message="Hello and welcome to a Nelson Vails inspired workout!" locIndex="1" />
+            <textevent timeoffset="20" message="We&apos;ll chat more about him and today&apos;s workout in just a moment. Let&apos;s focus on the warm up now." locIndex="2" />
+            <textevent timeoffset="120" message="Hopefully, the pedal stroke is starting to feel a bit more fluid. Keep easing into the day." locIndex="3" />
+            <textevent timeoffset="150" message="Awesome work so far! Let&apos;s take a moment to chat about the plan for today." locIndex="4" />
+            <textevent timeoffset="160" message="Nelson Vails took home the Silver medal in the sprint in the 1984 Olympics." locIndex="5" />
+            <textevent timeoffset="170" message="Nicknamed “The Cheetah”, he is known for going from zero to 40+ MPH in the blink of an eye." locIndex="6" />
+            <textevent timeoffset="190" message="The track sprint is an equal mental and physical challenge with competitors playing tricks and mind-games on one another before uncorking their sprint..." locIndex="7" />
+            <textevent timeoffset="200" message="Be prepared to launch yours when the time is right today!" locIndex="8" />
+            <textevent timeoffset="210" message="*The sprints today will be performed in a &apos;Free Ride&apos; block, so you&apos;ll be using your gears to decide the power.*" locIndex="9" />
+            <textevent timeoffset="220" message="Be prepared to get into a hard gear and sprint for the win from a low cadence!" locIndex="10" />
+            <textevent timeoffset="230" message="Let&apos;s carry on with today&apos;s warm up." locIndex="11" />
+            <textevent timeoffset="270" message="In 30sec, we&apos;ll move onto a few activation efforts." locIndex="12" />
+            <textevent timeoffset="280" message="These help to wake the legs up further and prepare them for the work ahead." locIndex="13" />
+            <textevent timeoffset="290" message="We&apos;ll start off at 90 RPM." locIndex="14" />
+        </Warmup>
+        <IntervalsT Repeat="1" OnDuration="15" OnPower="0.9" OffDuration="45" OffPower="0.65" Cadence="90" CadenceResting="85">
+            <textevent timeoffset="0" message="HIT IT!" locIndex="15" />
+            <textevent timeoffset="15" message="Nice. Lower the cadence and the power again." locIndex="16" />
+            <textevent timeoffset="50" message="Next up I want you to spin at 100 RPM!" locIndex="17" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="15" OnPower="1" OffDuration="45" OffPower="0.65" Cadence="100" CadenceResting="85">
+            <textevent timeoffset="0" message="Slightly quicker now!" locIndex="18" />
+            <textevent timeoffset="15" message="Awesome work! Rest again." locIndex="19" />
+            <textevent timeoffset="50" message="Okay, last one of these is going to be at 110 RPM!" locIndex="20" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="15" OnPower="1.1" OffDuration="45" OffPower="0.65" Cadence="110" CadenceResting="85">
+            <textevent timeoffset="0" message="GO GO GO!" locIndex="21" />
+            <textevent timeoffset="15" message="Way to go! Let&apos;s recover for a bit here before we finish the warm up with 1 more interval set." locIndex="22" />
+        </IntervalsT>
+        <SteadyState Duration="120" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="As you can probably tell, sprint workouts require some extra warm up, especially the muscle activation work." locIndex="23" />
+            <textevent timeoffset="10" message="Doing these sprint activation efforts before the workout will, you guessed it, activate more motor units during the sprint itself." locIndex="24" />
+            <textevent timeoffset="20" message="And the greater the number of motor units that are activated, the higher your sprint power goes :-)" locIndex="25" />
+            <textevent timeoffset="90" message="In 30sec we have our final activation set. Aim for 110+ RPM for these and expect a big surge in effort here!" locIndex="26" />
+        </SteadyState>
+        <IntervalsT Repeat="3" OnDuration="15" OnPower="1.5" OffDuration="45" OffPower="0.65" Cadence="110" CadenceResting="85">
+            <textevent timeoffset="0" message="GO GO GO! FAST FEET!" locIndex="27" />
+            <textevent timeoffset="15" message="Good! Bring the effort down again now and recover. We&apos;ll do that twice more." locIndex="28" />
+            <textevent timeoffset="60" message="BIG EFFORT!" locIndex="29" />
+            <textevent timeoffset="75" message="Excellent! The legs should feel nice and loose now. 1 more to go." locIndex="30" />
+            <textevent timeoffset="120" message="LAST ONE! UP UP!" locIndex="31" />
+            <textevent timeoffset="135" message="Great! That&apos;s it for today&apos;s warm up. Let&apos;s take it easy for a few minutes before we hit the track." locIndex="32" />
+        </IntervalsT>
+        <SteadyState Duration="180" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="Keep recovering here. Have a drink, shake things out, and get ready to put the work in next." locIndex="33" />
+            <textevent timeoffset="60" message="Track bikes are &apos;fixed gear&apos; bikes which means they only have a single gear, no flywheel, and no brakes." locIndex="34" />
+            <textevent timeoffset="70" message="Track sprinters are extremely strong and they run a massive gear ratio." locIndex="35" />
+            <textevent timeoffset="80" message="So, when we start these sprint efforts, I am going to ask you to start off at a VERY slow cadence." locIndex="36" />
+            <textevent timeoffset="90" message="This will mimic the demands of a true track sprint where they can have a cadence range of 0-150+ RPM during their sprint." locIndex="37" />
+            <textevent timeoffset="100" message="And, with a name like &apos;The Cheetah&apos;, you know Nelson could get that big gear spun up QUICK!" locIndex="38" />
+            <textevent timeoffset="120" message="1min to go..." locIndex="39" />
+            <textevent timeoffset="150" message="Okay, ready? We&apos;re going to start off at 50 RPM here and relatively easy intensity. If you have any knee pain during, increase your cadence, please." locIndex="40" />
+            <textevent timeoffset="160" message="During a track sprint, this is the time where the competitors stare each other down and play mind games..." locIndex="41" />
+            <textevent timeoffset="170" message="before cracking their sprint. Here we go!" locIndex="42" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.65" Cadence="50">
+            <textevent timeoffset="0" message="You&apos;re on the track now, just out of the blocks, watching your competitor..." locIndex="43" />
+            <textevent timeoffset="10" message="Watch for any early movements here. Sprinters are gone in the blink of an eye, and you want to catch their slipstream." locIndex="44" />
+            <textevent timeoffset="50" message="We&apos;re starting to accelerate a bit now..." locIndex="45" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.9" Cadence="75">
+            <textevent timeoffset="0" message="Let&apos;s lift the cadence to around 75 RPM." locIndex="46" />
+            <textevent timeoffset="30" message="2 laps to go... Get ready for someone to attack first." locIndex="47" />
+            <textevent timeoffset="59" message="There they go! Chase them down!" locIndex="48" />
+        </SteadyState>
+        <FreeRide Duration="30" FlatRoad="1" show_avg="1">
+            <textevent timeoffset="10" message="SHIFT IF YOU NEED TO! FULL GAS." locIndex="49" />
+            <textevent timeoffset="20" message="GET TO THE LINE!" locIndex="50" />
+        </FreeRide>
+        <SteadyState Duration="300" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="And across the line! Great work! You took that first one, but it&apos;s a best of 3 event." locIndex="51" />
+            <textevent timeoffset="10" message="Let&apos;s take a nice 5min long recovery and recharge before round 2." locIndex="52" />
+            <textevent timeoffset="120" message="Nelson is a one of a kind: the first, and only, African American Cyclist to win an Olympic medal!" locIndex="53" />
+            <textevent timeoffset="180" message="Another interesting factoid about Nelson: he was seen as a New York bicycle messenger in the film Quicksilver!" locIndex="54" />
+            <textevent timeoffset="240" message="Okay, 1min to go and we&apos;re on the track again for round 2." locIndex="55" />
+            <textevent timeoffset="290" message="Get ready to leave the blocks." locIndex="56" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.65" Cadence="50">
+            <textevent timeoffset="0" message="SLOW cadence again here as we see who will lead who out in round 2." locIndex="57" />
+            <textevent timeoffset="50" message="Let&apos;s up the pace a bit here and see how your competitor responds." locIndex="58" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.9" Cadence="75">
+            <textevent timeoffset="0" message="Good, steady as you go here. Stay focused and under control." locIndex="59" />
+            <textevent timeoffset="30" message="Coming up on the bell lap, let&apos;s lead it out and see if we can beat them to the line." locIndex="60" />
+            <textevent timeoffset="59" message="There&apos;s the bell! TIME TO GO!" locIndex="61" />
+        </SteadyState>
+        <FreeRide Duration="30" FlatRoad="1" show_avg="1">
+            <textevent timeoffset="10" message="MORE POWER! YOU&apos;RE NOT DROPPING THEM!" locIndex="62" />
+            <textevent timeoffset="20" message="THEY&apos;RE COMING OVER THE TOP! UP UP UP!" locIndex="63" />
+        </FreeRide>
+        <SteadyState Duration="300" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="Pipped at the line, bummer! It&apos;s all tied up 1 to 1... Round 3 will be the decider!" locIndex="64" />
+            <textevent timeoffset="10" message="Let&apos;s take it easy again here for 5min and come back ready to win!" locIndex="65" />
+            <textevent timeoffset="120" message="Did you notice your avg sprint power being higher, or lower, in round 2?" locIndex="66" />
+            <textevent timeoffset="130" message="Try to beat them both for this final round!" locIndex="67" />
+            <textevent timeoffset="240" message="1min to go! Take a few deep breaths and get ready to put in 1 last effort." locIndex="68" />
+            <textevent timeoffset="290" message="Here we go! Listen for the beeps..." locIndex="69" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.65" Cadence="50">
+            <textevent timeoffset="0" message="Get out of the blocks here and let your competitor lead it out." locIndex="70" />
+            <textevent timeoffset="10" message="Let&apos;s try to come around them during the sprint." locIndex="71" />
+            <textevent timeoffset="50" message="They&apos;re starting to accelerate a bit, stay with them!" locIndex="72" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.9" Cadence="75">
+            <textevent timeoffset="0" message="3 laps to go!" locIndex="73" />
+            <textevent timeoffset="30" message="2 laps to go! it&apos;s all going to come down to the bell lap again!" locIndex="74" />
+            <textevent timeoffset="45" message="Get ready to go FULL GAS!" locIndex="75" />
+            <textevent timeoffset="59" message="BELL LAP! UP UP UP!" locIndex="76" />
+        </SteadyState>
+        <FreeRide Duration="30" FlatRoad="1" show_avg="1">
+            <textevent timeoffset="10" message="YOU&apos;RE COMING AROUND! KEEP THE PRESSURE ON!" locIndex="77" />
+            <textevent timeoffset="20" message="YOU HAVE THIS! PUSH ALL THE WAY TO THE LINE!" locIndex="78" />
+        </FreeRide>
+        <Cooldown Duration="300" PowerHigh="0.35" PowerLow="0.55">
+            <textevent timeoffset="0" message="Amazing! Way to take that 3rd round and win! I think Nelson would be proud of that effort for sure." locIndex="79" />
+            <textevent timeoffset="10" message="Let&apos;s take 5min and cool down now. Way to CRUSH the day!" locIndex="80" />
+            <textevent timeoffset="60" message="Slowly bring your cadence down, take some nice deep breaths." locIndex="81" />
+            <textevent timeoffset="120" message="Thank you for working so hard today!" locIndex="82" />
+            <textevent timeoffset="240" message="Make sure you refuel and rehydrate before your next workout." locIndex="83" />
+            <textevent timeoffset="290" message="Ride On!" locIndex="84" />
+        </Cooldown>
+    </workout>
+</workout_file>

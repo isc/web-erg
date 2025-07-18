@@ -1,0 +1,39 @@
+<workout_file>
+    <uniqueId>00852c37-a91f-48c3-9d9d-18599d71d192</uniqueId>
+    <legacyIdHash>4239123921</legacyIdHash>
+    <author>Zwift</author>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>4wk PRL Prep</category>
+    <subcategory>Week 1</subcategory>
+    <name>Week 1.2 - Mitochondria #2</name>
+    <description>After warming up you will complete the main set of 15 x 30sec @ 113%FTP with 2.5min recovery. These are controlled accelerations, NOT max sprints.
+
+Today the endurance part comes at the end. </description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS" />
+        <tag name="PRL" />
+    </tags>
+    <workout>
+        <SteadyState Duration="180" Power="0.50449997" Cadence="85" />
+        <SteadyState Duration="60" Power="0.6045" Cadence="90" />
+        <SteadyState Duration="60" Power="0.65449995" Cadence="90" />
+        <SteadyState Duration="60" Power="0.81449997" Cadence="95" />
+        <SteadyState Duration="60" Power="1.0944999" Cadence="95" />
+        <SteadyState Duration="120" Power="0.50449997" Cadence="85" />
+        <SteadyState Duration="240" Power="0.90449995" Cadence="90" />
+        <SteadyState Duration="180" Power="0.50449997" Cadence="85">
+            <textevent timeoffset="80" message="Remember these are NOT max" locIndex="1" />
+            <textevent timeoffset="90" message="Controlled accelerations." locIndex="2" />
+        </SteadyState>
+        <IntervalsT Repeat="15" OnDuration="30" OffDuration="150" OnPower="1.1344999" OffPower="0.50449997" Cadence="100" CadenceResting="80">
+            <textevent timeoffset="784.99988" message="5 down, 10 to go!" locIndex="3" />
+            <textevent timeoffset="1746.0001" message="5 to go!" locIndex="4" />
+        </IntervalsT>
+        <FreeRide Duration="1500" FlatRoad="1">
+            <textevent timeoffset="33" message="Aim to keep HR 69-83" locIndex="5" />
+            <textevent timeoffset="789" message="If short on time today..." locIndex="6" />
+            <textevent timeoffset="799" message="this section can be cut short." locIndex="7" />
+        </FreeRide>
+    </workout>
+</workout_file>

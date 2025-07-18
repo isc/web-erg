@@ -1,0 +1,30 @@
+<workout_file>
+    <uniqueId>13464739-7c2f-4f59-abe1-e293324c01a8</uniqueId>
+    <legacyIdHash>3723841822</legacyIdHash>
+    <author>Jon Sharples</author>
+    <name>Month 2.3 - Hill Reps</name>
+    <category>Zwift Academy 2016</category>
+    <subcategory>Month 2</subcategory>
+    <WorkoutPlan>1</WorkoutPlan>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/trainSharp_Logo.tga</authorIcon>
+    <description>This session will feel like a gym workout on the bike as you work your cycling specific leg strength. Focus on keeping your upper body still and letting your legs and glutes do all the work.
+
+Cadence during the efforts should be 60 to 70 RPM and 90+ during recovery.
+
+This workout builds POWER!</description>
+    <tags>
+        <tag name="INTERVALS" />
+    </tags>
+    <workout>
+        <Warmup Duration="1200" PowerLow="0.3545" PowerHigh="0.85449994" Cadence="85" CadenceResting="65" />
+        <SteadyState Duration="300" Power="0.40450001" Cadence="65" />
+        <SteadyState Duration="300" Power="0.92449993" Cadence="65" />
+        <SteadyState Duration="300" Power="0.40450001" Cadence="95" />
+        <SteadyState Duration="300" Power="0.92449993" Cadence="65" />
+        <SteadyState Duration="300" Power="0.40450001" Cadence="95" />
+        <SteadyState Duration="300" Power="0.92449993" Cadence="65" />
+        <SteadyState Duration="300" Power="0.40450001" Cadence="95" />
+        <SteadyState Duration="300" Power="0.92449993" Cadence="65" />
+        <SteadyState Duration="300" Power="0.40450001" Cadence="85" />
+    </workout>
+</workout_file>

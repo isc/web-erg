@@ -1,0 +1,16 @@
+<workout_file>
+    <uniqueId>0b351dad-ab67-4272-b3c1-6104c049dbdc</uniqueId>
+    <legacyIdHash>610269271</legacyIdHash>
+    <name>Week 9.6 - Endurance &amp; FTP</name>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <category>Active Offseason</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 9</subcategory>
+    <description>Building Endurance today! Once warmed up, ride in your ENDURANCE zone. Focus on staying relaxed on the bike and spinning circles while keeping cadence between 90-100. During the last hour of the ride complete 5 FORCE reps of 3-5 minutes each (5 minutes rest in-between) at Threshold Power. Force Reps are a big gear, low cadence effort targeting a cadence of 55-65 RPM.</description>
+    <workout>
+        <Warmup Duration="900" PowerLow="0.24976191" PowerHigh="0.74976188" />
+        <SteadyState Duration="3900" PowerLow="0.70449996" PowerHigh="0.70449996" />
+        <IntervalsT Repeat="5" OnDuration="240" OffDuration="300" PowerOnLow="1.0083336" PowerOnHigh="1.0083336" PowerOffLow="0.5" PowerOffHigh="0.5" />
+        <Cooldown Duration="600" PowerLow="0.74976188" PowerHigh="0.24976191" />
+    </workout>
+</workout_file>

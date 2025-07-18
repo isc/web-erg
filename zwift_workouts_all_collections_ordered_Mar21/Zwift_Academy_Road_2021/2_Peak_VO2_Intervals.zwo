@@ -1,0 +1,202 @@
+<workout_file>
+    <uniqueId>9571be75-3a28-4e9a-8c39-ee85906f8a1e</uniqueId>
+    <legacyIdHash>3595560661</legacyIdHash>
+    <author>Stephen Gallagher</author>
+    <categoryOverride>Best of Zwift Academy</categoryOverride>
+    <subcategoryOverride>ZA 2021</subcategoryOverride>
+    <name>Peak VO2 Intervals</name>
+    <activitySaveName>Zwift Academy Road: Workout 2 | Peak VO2 Intervals</activitySaveName>
+    <description>If you&apos;ve ever seen a rider attack hard in the last leg of a race or explode over short steep climbs, they&apos;re using the efforts learned in this workout. Let&apos;s get after it.  
+
+    This session is focused on stressing your peak VO2 early in each interval, then maintaining that level of oxygen consumption before continuing at a level that really works your aerobic system. Performing six reps will stress your aerobic capacity along with your lactate clearance abilities, something that&apos;s crucial for recovering between segments.
+    
+    Coach&apos;s Tip: Zwift Academy Road was developed with structure in mind. For best results, complete the workouts in order.
+    
+    This training program was designed by Stephen Gallagher and Dan Fleeman from Dig Deep Coaching. Their complete coaching approach ensures every Zwift Academy athlete learns the building blocks for successful training.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="Zwift Academy" />
+    </tags>
+    <category>Zwift Academy 2021</category>
+    <categoryIndex>2</categoryIndex>
+    <visibleAfterTime>1630339200</visibleAfterTime>
+    <overrideHash>3595560661</overrideHash>
+    <workout>
+        <Warmup Duration="600" PowerLow=".5" PowerHigh=".8">
+            <textevent timeoffset="0" message="Welcome to the Peak VO2 Intervals workout of the 2021 Zwift Academy!" locIndex="1" />
+            <textevent timeoffset="10" message="Let&apos;s get started with a 10min progressive interval to warm up." locIndex="2" />
+            <textevent timeoffset="20" message="Keep your cadence comfortable here." locIndex="3" />
+            <textevent timeoffset="30" message="Everyone has a goal, Zwift Academy will help you Get After It!" locIndex="4" />
+            <textevent timeoffset="120" message="Keep easing in here. Stay relaxed as you continue to loosen up." locIndex="5" />
+            <textevent timeoffset="240" message="Nice work so far! Hopefully you feel like your pedal stroke is becoming more fluid." locIndex="6" />
+            <textevent timeoffset="300" message="Alright, let&apos;s take a moment to chat about the plan for today." locIndex="7" />
+            <textevent timeoffset="310" message="This session is focused on stressing your peak VO2 early in each interval..." locIndex="8" />
+            <textevent timeoffset="320" message="...then maintaining this high level of oxygen consumption as we continue at a challenging intensity." locIndex="9" />
+            <textevent timeoffset="330" message="When I say VO2, I am referring to your VO2 Max, or your aerobic ceiling." locIndex="10" />
+            <textevent timeoffset="340" message="The way the intervals are structured will result in a quick increase in oxygen consumption (breathing rate)..." locIndex="11" />
+            <textevent timeoffset="350" message="...and the step-down efforts afterward will keep your breathing very heavy." locIndex="12" />
+            <textevent timeoffset="360" message="However, if you feel like the efforts are too challenging, feel free to reduce the FTP bias." locIndex="13" />
+            <textevent timeoffset="370" message="Your breathing rate is a great indicator of your oxygen consumption." locIndex="14" />
+            <textevent timeoffset="380" message="So as long as you&apos;re breathing heavily, you&apos;re doing these correctly :-)" locIndex="15" />
+            <textevent timeoffset="390" message="Performing 6 reps will stress your aerobic capacity along with your lactate clearance capability..." locIndex="16" />
+            <textevent timeoffset="400" message="...which is crucial if you wish to recover between segments." locIndex="17" />
+            <textevent timeoffset="410" message="Make sense? Breathing heavily and feeling like you&apos;re challenging yourself are the keys for today." locIndex="18" />
+            <textevent timeoffset="420" message="Let&apos;s carry on with the warm-up." locIndex="19" />
+            <textevent timeoffset="540" message="1min to go here, then we&apos;ll finish the warm-up with a ramp effort." locIndex="20" />
+            <textevent timeoffset="590" message="Lift your cadence a bit higher..." locIndex="21" />
+        </Warmup>
+        <Ramp Duration="60" PowerLow=".8" PowerHigh=".95">
+            <textevent timeoffset="0" message="...and let&apos;s push a bit harder for this last minute." locIndex="22" />
+            <textevent timeoffset="20" message="Keep your cadence high as the intensity continues to ramp up." locIndex="23" />
+            <textevent timeoffset="50" message="10sec!" locIndex="24" />
+        </Ramp>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="0" message="Great work! That&apos;s it for the warm-up." locIndex="25" />
+            <textevent timeoffset="10" message="We&apos;ll take 3min easy now before the main set." locIndex="26" />
+            <textevent timeoffset="20" message="Have a drink and start focusing on the task at hand." locIndex="27" />
+            <textevent timeoffset="60" message="Let go of the tension in your shoulders." locIndex="28" />
+            <textevent timeoffset="120" message="In 1min, we&apos;re on!" locIndex="29" />
+            <textevent timeoffset="140" message="Remember, we have a VERY hard 30sec opening effort, which will drive your oxygen use up quickly." locIndex="30" />
+            <textevent timeoffset="150" message="Then we&apos;ll gradually step the intensity down in 1min segments, but your breathing should stay elevated." locIndex="31" />
+            <textevent timeoffset="160" message="And, as always, you can adjust the FTP bias if things feel too hard or too easy." locIndex="32" />
+            <textevent timeoffset="170" message="Get ready for a BIG surge in effort!" locIndex="33" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.5">
+            <textevent timeoffset="0" message="GO GO GO!" locIndex="34" />
+            <textevent timeoffset="20" message="KEEP THE POWER UP!" locIndex="35" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.2">
+            <textevent timeoffset="0" message="WE&apos;RE NOT DONE YET!" locIndex="36" />
+            <textevent timeoffset="20" message="C&apos;mon! Don&apos;t let off the gas yet!" locIndex="37" />
+            <textevent timeoffset="50" message="PUSH IT!" locIndex="38" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.95">
+            <textevent timeoffset="0" message="FINAL MINUTE! Don&apos;t let up!" locIndex="39" />
+            <textevent timeoffset="30" message="Grit those teeth! Get stronger here!" locIndex="40" />
+            <textevent timeoffset="50" message="GET AFTER IT!" locIndex="41" />
+        </SteadyState>
+        <SteadyState Duration="150" Power="0.55">
+            <textevent timeoffset="0" message="Yes! Amazing work there, my friend!" locIndex="42" />
+            <textevent timeoffset="10" message="We&apos;ll take 2.5min easy between efforts." locIndex="43" />
+            <textevent timeoffset="20" message="Deep breaths here—get your breathing under control." locIndex="44" />
+            <textevent timeoffset="60" message="Steady...learn to recover." locIndex="45" />
+            <textevent timeoffset="90" message="See what I mean by saying that the opening effort really increases your oxygen use?" locIndex="46" />
+            <textevent timeoffset="100" message="That&apos;s a really tough way to start off, but it&apos;s also a great aerobic capacity stressor, especially by the 6th interval." locIndex="47" />
+            <textevent timeoffset="100" message="We&apos;re progressing to 75sec steady after the opening effort next, then 90sec steady for the last effort :-)" locIndex="48" />
+            <textevent timeoffset="150" message="Here we go with the next rep! Get ready!" locIndex="49" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.5">
+            <textevent timeoffset="0" message="UP UP UP!" locIndex="50" />
+            <textevent timeoffset="20" message="C&apos;MON! POWER!" locIndex="51" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.2">
+            <textevent timeoffset="0" message="KEEP DRIVING IT!" locIndex="52" />
+            <textevent timeoffset="20" message="WORK! THIS SHOULD BE HARD!" locIndex="53" />
+            <textevent timeoffset="50" message="STAY ON THE GAS!" locIndex="54" />
+        </SteadyState>
+        <SteadyState Duration="75" Power="0.95">
+            <textevent timeoffset="0" message="Keep your cadence up!" locIndex="55" />
+            <textevent timeoffset="30" message="Quit looking at the clock! BURY THIS!" locIndex="56" />
+            <textevent timeoffset="45" message="ALMOST HOME! KEEP GOING!" locIndex="57" />
+            <textevent timeoffset="65" message="HOME STRETCH!" locIndex="58" />
+        </SteadyState>
+        <SteadyState Duration="150" Power="0.55">
+            <textevent timeoffset="0" message="Phew! Let&apos;s bring it down easy again and recover." locIndex="59" />
+            <textevent timeoffset="30" message="Make sure you&apos;re sipping fluids today." locIndex="60" />
+            <textevent timeoffset="60" message="Deep breaths. Breathe in through the nose and out through your mouth." locIndex="61" />
+            <textevent timeoffset="120" message="30sec and we&apos;re back on again! Shake it out a bit and refocus." locIndex="62" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.5">
+            <textevent timeoffset="0" message="POWER!" locIndex="63" />
+            <textevent timeoffset="20" message="C&apos;MON! DRIVE IT!" locIndex="64" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.2">
+            <textevent timeoffset="0" message="Hang on here! Don&apos;t let off the gas!" locIndex="65" />
+            <textevent timeoffset="20" message="PUSH IT!" locIndex="66" />
+            <textevent timeoffset="50" message="Just a bit longer!" locIndex="67" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="0.95">
+            <textevent timeoffset="0" message="Nice! We&apos;ll extend this final effort just a bit longer here—you can do this!" locIndex="68" />
+            <textevent timeoffset="30" message="Keep pushing! Don&apos;t let your cadence drop off now." locIndex="69" />
+            <textevent timeoffset="60" message="Just 30sec left! YOU CAN DO IT!" locIndex="70" />
+            <textevent timeoffset="80" message="GET AFTER IT!" locIndex="71" />
+        </SteadyState>
+        <SteadyState Duration="360" Power="0.55">
+            <textevent timeoffset="0" message="That was awesome! You&apos;re putting in a lot of great work so far today!" locIndex="72" />
+            <textevent timeoffset="10" message="We&apos;ll take a nice, long recovery now and then repeat that interval set once more." locIndex="73" />
+            <textevent timeoffset="60" message="Focus on your breathing, and get it under control." locIndex="74" />
+            <textevent timeoffset="120" message="Keep bringing your heart rate down." locIndex="75" />
+            <textevent timeoffset="180" message="Make sure you&apos;re sipping fluids throughout this recovery block." locIndex="76" />
+            <textevent timeoffset="240" message="Relax your shoulders. Release the tension in your body." locIndex="77" />
+            <textevent timeoffset="300" message="In 1min, we&apos;re back on again! You&apos;ve done this once already—time to do it again!" locIndex="78" />
+            <textevent timeoffset="350" message="Get ready to bring the effort WAY up!" locIndex="79" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.5">
+            <textevent timeoffset="0" message="LET&apos;S GO!" locIndex="80" />
+            <textevent timeoffset="20" message="KEEP GOING!" locIndex="81" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.2">
+            <textevent timeoffset="0" message="KEEP THE EFFORT UP HERE!" locIndex="82" />
+            <textevent timeoffset="30" message="HALFWAY!" locIndex="83" />
+            <textevent timeoffset="50" message="WE&apos;RE NOT DONE YET!" locIndex="84" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.95">
+            <textevent timeoffset="0" message="Hang on!" locIndex="85" />
+            <textevent timeoffset="30" message="30sec to go, and you&apos;re done! Make it happen!" locIndex="86" />
+            <textevent timeoffset="50" message="HOME STRETCH!" locIndex="87" />
+        </SteadyState>
+        <SteadyState Duration="150" Power="0.55">
+            <textevent timeoffset="0" message="Well done! Let&apos;s bring it down and recover for a bit now." locIndex="88" />
+            <textevent timeoffset="60" message="You&apos;re doing really well today! Great to see it!" locIndex="89" />
+            <textevent timeoffset="120" message="In 30sec, we&apos;re back on for round 2! Start to focus." locIndex="90" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.5">
+            <textevent timeoffset="0" message="GET GOING!" locIndex="91" />
+            <textevent timeoffset="20" message="KEEP THE EFFORT UP!" locIndex="92" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.2">
+            <textevent timeoffset="0" message="YOU&apos;RE DOING GREAT!" locIndex="93" />
+            <textevent timeoffset="30" message="30SEC TO GO! PUSH!" locIndex="94" />
+            <textevent timeoffset="50" message="ALMOST THERE NOW!" locIndex="95" />
+        </SteadyState>
+        <SteadyState Duration="75" Power="0.95">
+            <textevent timeoffset="0" message="Nice work! Hang on here now for a bit longer than last time." locIndex="96" />
+            <textevent timeoffset="30" message="Don&apos;t let your cadence drop off!" locIndex="97" />
+            <textevent timeoffset="60" message="Stay relaxed. Don&apos;t get sloppy as fatigue sets in." locIndex="98" />
+        </SteadyState>
+        <SteadyState Duration="150" Power="0.55">
+            <textevent timeoffset="0" message="That was your best one yet! Awesome work!" locIndex="99" />
+            <textevent timeoffset="10" message="Let&apos;s use this recovery block well and get ready for the finale!" locIndex="100" />
+            <textevent timeoffset="60" message="Deep breaths here." locIndex="101" />
+            <textevent timeoffset="120" message="Have 1 more sip of fluids and get ready to CRUSH this last rep!" locIndex="102" />
+            <textevent timeoffset="140" message="Here we go!" locIndex="103" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.5">
+            <textevent timeoffset="0" message="GET GOING!" locIndex="104" />
+            <textevent timeoffset="20" message="CRUSH THIS!" locIndex="105" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.2">
+            <textevent timeoffset="0" message="KEEP THE POWER UP!" locIndex="106" />
+            <textevent timeoffset="30" message="AWESOME WORK! DON&apos;T GIVE UP!" locIndex="107" />
+            <textevent timeoffset="50" message="SO CLOSE NOW!" locIndex="108" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="0.95">
+            <textevent timeoffset="0" message="Last bit of work for today! How much do you want this?" locIndex="109" />
+            <textevent timeoffset="30" message="Keep it going here! DIG!" locIndex="110" />
+            <textevent timeoffset="60" message="Just 30sec and we&apos;re DONE for today!" locIndex="111" />
+            <textevent timeoffset="80" message="GET AFTER IT!" locIndex="112" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow="0.55" PowerHigh="0.35">
+            <textevent timeoffset="0" message="Incredible work today!" locIndex="113" />
+            <textevent timeoffset="10" message="You showed that you&apos;re in this to win it, and are really putting your work ethic on full display." locIndex="114" />
+            <textevent timeoffset="20" message="We&apos;ll take 5min to cool down now, then check this one off the list." locIndex="115" />
+            <textevent timeoffset="120" message="Keep easing off the gas here." locIndex="116" />
+            <textevent timeoffset="240" message="Thank you for showing up, working hard, and putting the effort in today." locIndex="117" />
+            <textevent timeoffset="250" message="Your FTP will thank you :-)" locIndex="118" />
+            <textevent timeoffset="260" message="Be sure to refuel and rehydrate well between sessions." locIndex="119" />
+            <textevent timeoffset="270" message="And good luck with your remaining Zwift Academy workouts and group rides." locIndex="120" />
+            <textevent timeoffset="280" message="You&apos;re one step closer to the Finish Line!" locIndex="121" />
+            <textevent timeoffset="290" message="Ride On!" locIndex="122" />
+        </Cooldown>
+    </workout>
+</workout_file>

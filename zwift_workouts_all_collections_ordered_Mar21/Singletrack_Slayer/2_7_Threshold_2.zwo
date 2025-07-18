@@ -1,0 +1,130 @@
+<workout_file>
+    <uniqueId>2fef283b-cc2e-4c0d-afd4-8dc16227ee6a</uniqueId>
+    <legacyIdHash>1172130938</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <categoryOverride>Threshold</categoryOverride>
+    <name>Threshold #2</name>
+    <description>One aspect of performance that can be improved the most through correct application of interval training is the lactate threshold. Training to improve threshold power is typically performed either just below or ideally, just above threshold for extended periods. Today we break the work up into 2 x 20min block of work.</description>
+    <sportType>bike</sportType>
+    <category>Singletrack Slayer</category>
+    <subcategory>Week 2</subcategory>
+    <WorkoutPlan>1</WorkoutPlan>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <tags>
+    </tags>
+    <workout>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="30" message="Another big day of threshold work ahead of you." locIndex="1" />
+            <textevent timeoffset="50" message="Prime yourself mentally for what&apos;s ahead." locIndex="2" />
+            <textevent timeoffset="70" message="This is a day to be &apos;switched on&apos; and motivated!" locIndex="3" />
+            <textevent timeoffset="100" message="We are going to step through 2 x 20min blocks of threshold work." locIndex="4" />
+            <textevent timeoffset="140" message="But first we need to warm up." locIndex="5" />
+            <textevent timeoffset="160" message="Starting with some sprints." locIndex="6" />
+        </SteadyState>
+        <IntervalsT Repeat="2" OnDuration="10" OffDuration="50" OnPower="1.75" OffPower="0.5">
+            <textevent timeoffset="30" message="Really spin the legs out in these efforts." locIndex="7" />
+        </IntervalsT>
+        <SteadyState Duration="180" Power="0.7">
+            <textevent timeoffset="60" message="Keep some pressure on the pedals to get you ready for the work ahead." locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="110" message="We complete the warmup with a steady state zone 3 effort." locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.85">
+            <textevent timeoffset="30" message="The threshold intervals ahead move around within zone 4." locIndex="10" />
+            <textevent timeoffset="60" message="The power will ramp up to it&apos;s peak." locIndex="11" />
+            <textevent timeoffset="80" message="Before descending down. All within zone 4." locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="100" message="Self select your cadence during these efforts. " locIndex="13" />
+            <textevent timeoffset="170" message="Let&apos;s jump into the 1st 20min block!" locIndex="14" />
+        </SteadyState>
+        <Ramp Duration="180" PowerLow="0.91" PowerHigh="1.05">
+            <textevent timeoffset="30" message="We start at the lower end of zone 4 and build our way up." locIndex="15" />
+            <textevent timeoffset="90" message="This is a good session to spend in your racing position." locIndex="16" />
+            <textevent timeoffset="150" message="As the power changes, aim to keep the same cadence." locIndex="17" />
+            <textevent timeoffset="170" message="Here we are at the peak power for the session. Hold it for 1min!" locIndex="18" />
+        </Ramp>
+        <SteadyState Duration="60" Power="1.05" />
+        <Ramp Duration="180" PowerLow="1.05" PowerHigh="0.91">
+            <textevent timeoffset="20" message="Now we can start bring the power down slowly." locIndex="19" />
+            <textevent timeoffset="80" message="You&apos;re doing a great job today." locIndex="20" />
+            <textevent timeoffset="140" message="This a tough session. But you&apos;ve got this!" locIndex="21" />
+        </Ramp>
+        <SteadyState Duration="180" Power="0.91">
+            <textevent timeoffset="20" message="Let&apos;s spend a little time at the bottom end of zone 4 to catch our breath." locIndex="22" />
+            <textevent timeoffset="80" message="You can lower your cadence a little through this interval if you feel you need to increase recovery." locIndex="23" />
+            <textevent timeoffset="160" message="Now we repeat the process of ramping up the power to top end zone 4." locIndex="24" />
+        </SteadyState>
+        <Ramp Duration="180" PowerLow="0.91" PowerHigh="1.05">
+            <textevent timeoffset="20" message="We are just over halfway in this 1st threshold block." locIndex="25" />
+            <textevent timeoffset="80" message="Keep your breathing controlled and think about spinning the legs." locIndex="26" />
+            <textevent timeoffset="140" message="Picture yourself on a long climb." locIndex="27" />
+            <textevent timeoffset="160" message="Ramping up the power to follow the wheels." locIndex="28" />
+        </Ramp>
+        <SteadyState Duration="60" Power="1.05">
+            <textevent timeoffset="10" message="Sustained effort at the peak of zone 4 now." locIndex="29" />
+            <textevent timeoffset="30" message="It&apos;s only for a minute!" locIndex="30" />
+        </SteadyState>
+        <Ramp Duration="180" PowerLow="1.05" PowerHigh="0.91">
+            <textevent timeoffset="30" message="You&apos;re doing great!" locIndex="31" />
+            <textevent timeoffset="90" message="We can bring the power down now." locIndex="32" />
+        </Ramp>
+        <SteadyState Duration="180" Power="0.91">
+            <textevent timeoffset="20" message="This is almost like the recovery section!" locIndex="33" />
+            <textevent timeoffset="40" message="But you&apos;re still at zone 4... Strong!" locIndex="34" />
+            <textevent timeoffset="140" message="Keep the pressure on right to the end." locIndex="35" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.5">
+            <textevent timeoffset="30" message="Wow!... That was a great set." locIndex="36" />
+            <textevent timeoffset="90" message="Grab a drink and have a good recovery spin here." locIndex="37" />
+            <textevent timeoffset="150" message="We are going to repeat that 20min effort once more." locIndex="38" />
+            <textevent timeoffset="170" message="You know what you&apos;re in for now." locIndex="39" />
+            <textevent timeoffset="200" message="You did it once, no reason why you can&apos;t do it again!" locIndex="40" />
+            <textevent timeoffset="280" message="Let&apos;s get into it!" locIndex="41" />
+        </SteadyState>
+        <Ramp Duration="180" PowerLow="0.91" PowerHigh="1.05">
+            <textevent timeoffset="30" message="We start at the lower end of zone 4 and build our way up." locIndex="42" />
+            <textevent timeoffset="90" message="This is a good session to spend in your racing position." locIndex="43" />
+            <textevent timeoffset="150" message="As the power changes, aim to keep the same cadence." locIndex="44" />
+            <textevent timeoffset="170" message="Here we are at the peak power for the session. Hold it for 1min!" locIndex="45" />
+        </Ramp>
+        <SteadyState Duration="60" Power="1.05" />
+        <Ramp Duration="180" PowerLow="1.05" PowerHigh="0.91">
+            <textevent timeoffset="20" message="Now we can start bring the power down slowly." locIndex="46" />
+            <textevent timeoffset="80" message="You&apos;re doing a great job today." locIndex="47" />
+            <textevent timeoffset="140" message="This a tough session. But you&apos;ve got this!" locIndex="48" />
+        </Ramp>
+        <SteadyState Duration="180" Power="0.91">
+            <textevent timeoffset="20" message="Let&apos;s spend a little time at the bottom end of zone 4 to catch our breath." locIndex="49" />
+            <textevent timeoffset="80" message="You can lower your cadence a little through this interval if you feel you need to increase recovery." locIndex="50" />
+            <textevent timeoffset="160" message="Now we repeat the process of ramping up the power to top end zone 4." locIndex="51" />
+        </SteadyState>
+        <Ramp Duration="180" PowerLow="0.91" PowerHigh="1.05">
+            <textevent timeoffset="20" message="We are just over halfway in this 1st threshold block." locIndex="52" />
+            <textevent timeoffset="80" message="Keep your breathing controlled and think about spinning the legs." locIndex="53" />
+            <textevent timeoffset="140" message="Picture yourself on a long climb." locIndex="54" />
+            <textevent timeoffset="160" message="Ramping up the power to follow the wheels." locIndex="55" />
+        </Ramp>
+        <SteadyState Duration="60" Power="1.05">
+            <textevent timeoffset="10" message="Sustained effort at the peak of zone 4 now." locIndex="56" />
+            <textevent timeoffset="30" message="It&apos;s only for a minute!" locIndex="57" />
+        </SteadyState>
+        <Ramp Duration="180" PowerLow="1.05" PowerHigh="0.91">
+            <textevent timeoffset="30" message="You&apos;re doing great!" locIndex="58" />
+            <textevent timeoffset="90" message="We can bring the power down now." locIndex="59" />
+        </Ramp>
+        <SteadyState Duration="180" Power="0.91">
+            <textevent timeoffset="20" message="This is almost like the recovery section!" locIndex="60" />
+            <textevent timeoffset="40" message="But you&apos;re still at zone 4... Strong!" locIndex="61" />
+            <textevent timeoffset="140" message="Keep the pressure on right to the end." locIndex="62" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.5">
+            <textevent timeoffset="30" message="What can I say, that was awesome!" locIndex="63" />
+            <textevent timeoffset="60" message="40min of threshold work!" locIndex="64" />
+            <textevent timeoffset="80" message="It doesn&apos;t get much better than that." locIndex="65" />
+            <textevent timeoffset="200" message="Have a good drink and start refuelling straight after this session." locIndex="66" />
+            <textevent timeoffset="240" message="Give yourself an easy ride tomorrow before hitting your next session with intensity." locIndex="67" />
+        </SteadyState>
+    </workout>
+</workout_file>

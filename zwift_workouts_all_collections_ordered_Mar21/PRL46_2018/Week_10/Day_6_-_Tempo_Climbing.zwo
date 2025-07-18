@@ -1,0 +1,53 @@
+<workout_file>
+    <uniqueId>bed5f57e-d5cd-4d61-87e7-c7e7bcb380a6</uniqueId>
+    <legacyIdHash>1468883203</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <categoryOverride>Sweet Spot</categoryOverride>
+    <name>Week 10.6 - Tempo Climbing</name>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>2018 PRL46 Prep</category>
+    <subcategory>Week 10</subcategory>
+    <description>Simulating long climbs that require an increase in power as the effort goes on.
+
+But each tempo interval finishes with an above threshold effort.
+
+The target cadence throughout the tempo portion decreases. Position yourself on the bike as if climbing, sitting on the back of the seat. </description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow="0.50196981" PowerHigh="0.75" pace="0" />
+        <SteadyState Duration="240" Power="0.75999999" pace="0">
+            <textevent timeoffset="34" message="Today you&apos;re riding a long climb, where it gets steeper towards the summit." locIndex="1" />
+            <textevent timeoffset="102" message="The power will increase, while the cadence will decrease." locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.79449993" pace="0" Cadence="85">
+            <textevent timeoffset="6" message="Target cadence 85rpm." locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.83449996" pace="0" Cadence="80">
+            <textevent timeoffset="5" message="Target cadence 80rpm." locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.86449993" pace="0" Cadence="75">
+            <textevent timeoffset="8" message="Target cadence 75rpm." locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.90449995" pace="0" Cadence="70">
+            <textevent timeoffset="3" message="Target cadence 70rpm." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.5" pace="0" />
+        <SteadyState Duration="300" Power="0.55000001" pace="0" />
+        <SteadyState Duration="180" Power="0.75999999" pace="0" />
+        <SteadyState Duration="180" Power="0.79449993" pace="0" Cadence="85">
+            <textevent timeoffset="1" message="Target cadence 85rpm." locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.83449996" pace="0" Cadence="80">
+            <textevent timeoffset="5" message="Target cadence 80rpm." locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.86449993" pace="0" Cadence="75">
+            <textevent timeoffset="6" message="Target cadence 75rpm." locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.90449995" pace="0" Cadence="70">
+            <textevent timeoffset="8" message="Target cadence 70rpm." locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="1.0445" pace="0" />
+        <Cooldown Duration="300" PowerLow="0.75449997" PowerHigh="0.50449997" pace="0" />
+    </workout>
+</workout_file>

@@ -1,0 +1,88 @@
+<workout_file>
+    <uniqueId>fd8dcdcb-3eb2-439d-8b30-c86f604e86f8</uniqueId>
+    <legacyIdHash>3564168174</legacyIdHash>
+    <author>Zwift</author>
+    <name>Cadence Pyramid</name>
+    <description>Work your pedal stroke and rpm&apos;s today while spinning those legs out for a bit of recovery. Gravel riding and racing is ALL about having good variability of RPM&apos;s so workouts like this are very important. High RPM to low, low to high, this workout will help us get used to all of these scenarios while waking up the legs with some lower cadence riding alot of us arent used to doing.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Gravel Grinder</category>
+    <subcategory>Week 5</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="480" PowerLow="0.45" PowerHigh="0.65">
+            <textevent timeoffset="0" message="An easy one today for the most part but definitely &quot;active&quot; with alot of change of cadence going on. Last chance to turn your head off is now, so enjoy these smooth &quot;choice&quot; RPM minutes. " locIndex="1" />
+        </Warmup>
+        <SteadyState Duration="120" Power="0.7" Cadence="60">
+            <textevent timeoffset="0" message="They call them gravel &quot;grinders&quot; for a reason right? In most of these events we&apos;ll find climbs that are much steeper than what we would in a normal &quot;drop bar-red&quot; race" locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.7" Cadence="75">
+            <textevent timeoffset="0" message="Nice and smooth, feel all of the parts of the pedal stroke.  " />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.7" Cadence="90">
+            <textevent timeoffset="0" message="Up a little bit into a more comfortable and more often used RPM.  " />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.7" Cadence="100">
+            <textevent timeoffset="0" message="We want to remember what the entirety of that stroke feels like and accomplish the same while at these higher less manageable RPM&apos;s" locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.7" Cadence="90">
+            <textevent timeoffset="0" message=" Ok back down to a more reasonable number here at 90. " locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.7" Cadence="75">
+            <textevent timeoffset="0" message="As we feel more of the resistance at these lower RPM&apos;s be as relaxed as we can. " locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.7" Cadence="60">
+            <textevent timeoffset="0" message="Just 2 more minutes at this low low RPM." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.55">
+		</SteadyState>
+        <SteadyState Duration="120" Power="0.7">
+            <textevent timeoffset="0" message="Be as smooth as you can here. Full pedal strokes! " locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.7" Cadence="75">
+            <textevent timeoffset="0" message=" We&apos;ll often find ourselves forced into a lot of &quot;over gear&quot; riding at different parts of the race.  " />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.7" Cadence="90">
+            <textevent timeoffset="0" message="It&apos;s quite frequent though that you&apos;ll find a forced &quot;over-gear&quot; section followed by a fast paced decent so being able to comfortably switch from low to high is a valuable skill" locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.7" Cadence="100">
+            <textevent timeoffset="0" message="Steep on one side is often steep on the other, and unless we have the perfect gear ratio (which is most often not the case) you&apos;ll be over-geared and then under geared or &quot;spun out&quot;. " locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.7" Cadence="90">
+            <textevent timeoffset="0" message="Planning your gear selection appropriately is obviously a big focus and should be a priority and course dependant." locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.7" Cadence="75">
+            <textevent timeoffset="0" message="But training yourself to be ready for those changes is absolutely integral to a successful &quot;gravel grinder&quot;bid. " locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.7" Cadence="60">
+            <textevent timeoffset="0" message="So, moral of the story is- learn to love riding with variable RPM&apos;s" locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.55">
+		</SteadyState>
+        <SteadyState Duration="120" Power="0.7" Cadence="60">
+            <textevent timeoffset="0" message="last round through, focus on the &quot;feel&quot; as you move through the gears and up and down on the RPMs. " locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.7" Cadence="75">
+            <textevent timeoffset="0" message="We&apos;ll often find ourselves forced into a lot of &quot;over gear&quot; riding at different parts of the race.  " />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.7" Cadence="90">
+            <textevent timeoffset="0" message="Are you starting to feel where your efficiency breaking point is?" locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.7" Cadence="100">
+            <textevent timeoffset="0" message="It&apos;s good to know either on the low end or the high end and work on it during recovery rides and workouts like this. " locIndex="15" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.7" Cadence="90">
+            <textevent timeoffset="0" message="Being efficient especially over long distances and tough courses often found in gravel races" locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.7" Cadence="75">
+            <textevent timeoffset="0" message="and tough courses often found in gravel races, last time back down stay smooth and don&apos;t &quot;muscle&quot; it. " locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.7" Cadence="60">
+            <textevent timeoffset="0" message="This was a recovery ride right? " locIndex="18" />
+        </SteadyState>
+        <Cooldown Duration="360" PowerLow="0.55" PowerHigh="0.45">
+            <textevent timeoffset="0" message="Nice work, not easy if you haven&apos;t done it before, but I think valuable and a good way to make the trainer time go quickly." locIndex="19" />
+            <textevent timeoffset="30" message="Enjoy this recovery, but also head over for another 15-30 minutes of free ride if you have the time. Keep it under 75% though. Not a hard day here. " locIndex="20" />
+        </Cooldown>
+    </workout>
+</workout_file>

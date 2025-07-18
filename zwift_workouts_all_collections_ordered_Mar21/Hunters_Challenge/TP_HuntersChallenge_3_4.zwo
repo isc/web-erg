@@ -1,0 +1,20 @@
+<workout_file>
+    <uniqueId>96814213-8fdc-4479-b73e-26baec7966c9</uniqueId>
+    <legacyIdHash>2606381327</legacyIdHash>
+    <category>Hunter&apos;s Challenge</category>
+    <categoryOverride>VO2 Max</categoryOverride>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 3</subcategory>
+    <name>Week 3.4 - Microbursts</name>
+    <description>Microbursts are great to do on a regular basis to make sure that you can change speeds anytime in the season and be ready for that group ride. They are annoying, but great for you!</description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <workout>
+        <Warmup PowerLow="0.55" PowerHigh="0.72" Duration="600" />
+        <IntervalsT OnDuration="15" OffDuration="15" OnPower="1.60" OffPower="0.55" Repeat="20" />
+        <SteadyState Duration="300" Power="0.72" />
+        <IntervalsT OnDuration="15" OffDuration="15" OnPower="1.60" OffPower="0.55" Repeat="20" />
+        <SteadyState Duration="300" Power="0.72" />
+        <IntervalsT OnDuration="15" OffDuration="15" OnPower="1.60" OffPower="0.55" Repeat="20" />
+        <Cooldown PowerLow="0.72" PowerHigh=".55" Duration="600" />
+    </workout>
+</workout_file>

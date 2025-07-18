@@ -1,0 +1,29 @@
+<workout_file>
+    <uniqueId>065d7510-60af-49d8-b2d7-83979fa22927</uniqueId>
+    <legacyIdHash>2511860334</legacyIdHash>
+    <category>Active Offseason</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 6</subcategory>
+    <name>Week 6.5 - Endurance &amp; FTP</name>
+    <description>We&apos;re building endurance today! Warmup followed by 3 sets of fast pedals (as fast as you can pedal without bouncing in the saddle) to open up the legs, followed by a long endurance ride. Focus on staying relaxed on the bike while keeping your cadence between 85 - 105 rpm. During the ride, you will complete 2 x 20 minute intervals at FTP. The last half hour of the ride keeps it at Tempo pace. This will help boost your stamina and late race performance!</description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.25" PowerHigh="0.75" />
+        <SteadyState Duration="360" PowerLow="0.5" PowerHigh="0.5">
+            <textevent timeoffset="60" message="90 - 100 rpm" locIndex="1" />
+            <textevent timeoffset="120" message="Fast pedal!" locIndex="2" />
+            <textevent timeoffset="180" message="90 - 100 rpm" locIndex="3" />
+            <textevent timeoffset="240" message="Fast pedal!" locIndex="4" />
+            <textevent timeoffset="300" message="90 - 100 rpm" locIndex="5" />
+            <textevent timeoffset="0" message="Fast pedal!" locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="1800" PowerLow="0.64999998" PowerHigh="0.64999998" />
+        <SteadyState Duration="1200" PowerLow="1" PowerHigh="1" />
+        <SteadyState Duration="600" PowerLow="0.5" PowerHigh="0.5" />
+        <SteadyState Duration="1800" PowerLow="0.64999998" PowerHigh="0.64999998" />
+        <SteadyState Duration="1200" PowerLow="1" PowerHigh="1" />
+        <SteadyState Duration="600" PowerLow="0.5" PowerHigh="0.5" />
+        <SteadyState Duration="1800" PowerLow="0.76576352" PowerHigh="0.76576352" />
+        <Cooldown Duration="840" PowerLow="0.75" PowerHigh="0.25" />
+    </workout>
+</workout_file>

@@ -1,0 +1,295 @@
+<workout_file>
+    <uniqueId>d9d7091f-cb70-4908-a72a-065975b30430</uniqueId>
+    <legacyIdHash>44503623</legacyIdHash>
+    <author>Zwift</author>
+    <categoryOverride>Daily Fit</categoryOverride>
+    <name>Week 4.5 - Crit City Downtown Dolphin</name>
+    <description>A race simulation on Crit City Downtown Dolphin where you&apos;ll tackle 10 laps of the course.</description>
+    <sportType>bike</sportType>
+    <category>Z Racing</category>
+    <subcategory>Week 4</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="420" PowerHigh="0.55" PowerLow="0.35">
+            <textevent timeoffset="0" message="Welcome to the Crit City Downtown Dolphin race simulation!" locIndex="1" />
+            <textevent timeoffset="10" message="Let&apos;s get started with a warmup, keep your cadence comfortable here." locIndex="2" />
+            <textevent timeoffset="210" message="Hopefully the legs are starting to warm up a bit, let&apos;s chat about the plan for today." locIndex="3" />
+            <textevent timeoffset="220" message="As you know, we&apos;re tackling 10 laps of Crit City Downtown Dolphin." locIndex="4" />
+            <textevent timeoffset="230" message="And like a crit, today will feature many short efforts of various intensities." locIndex="5" />
+            <textevent timeoffset="240" message="With the main feature of this course being the very short, but steep climb halfway through each lap." locIndex="6" />
+            <textevent timeoffset="250" message="Fortunately, these races are on the shorter side as Zwift races go, but still plenty of fun and hard work." locIndex="7" />
+            <textevent timeoffset="260" message="I highly suggest having ERG mode off for today since the efforts are so short and frequent." locIndex="8" />
+            <textevent timeoffset="270" message="Let&apos;s carry on with the warmup." locIndex="9" />
+            <textevent timeoffset="390" message="Next up, we&apos;ll do a few high cadence efforts, aim for 110+ RPM here.." locIndex="10" />
+        </Warmup>
+        <IntervalsT Repeat="2" OnDuration="30" OnPower="1.1" OffDuration="30" OffPower="0.55">
+            <textevent timeoffset="0" message="GO GO GO!" locIndex="11" />
+            <textevent timeoffset="30" message="Back to a comfortable cadence." locIndex="12" />
+            <textevent timeoffset="60" message="PUSH IT!" locIndex="13" />
+        </IntervalsT>
+        <SteadyState Duration="60" Power="0.55">
+            <textevent timeoffset="0" message="Excellent! Let&apos;s take another minute easy and prepare for the start." locIndex="14" />
+            <textevent timeoffset="20" message="Remember, ERG off ideally here." locIndex="15" />
+            <textevent timeoffset="40" message="All right, get ready for a hard surge off the line." locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.5">
+            <textevent timeoffset="0" message="GO GO GO!" locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1">
+            <textevent timeoffset="0" message="Left turn onto the flat here." locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="1.1">
+            <textevent timeoffset="0" message="Right turn up the short climb." locIndex="19" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="0.65">
+            <textevent timeoffset="0" message="Another right down the quick descent." locIndex="20" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.9">
+            <textevent timeoffset="0" message="Quick left through the chicane, get ready to climb!" locIndex="21" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="1.4">
+            <textevent timeoffset="0" message="DIG DIG DIG!" locIndex="22" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.65">
+            <textevent timeoffset="0" message="Another right hand turn as we descend." locIndex="23" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.1">
+            <textevent timeoffset="0" message="Now through the short risers section." locIndex="24" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="0.65">
+		</SteadyState>
+        <SteadyState Duration="10" Power="1.1">
+		</SteadyState>
+        <SteadyState Duration="10" Power="0.65">
+		</SteadyState>
+        <SteadyState Duration="20" Power="1">
+            <textevent timeoffset="0" message="Final right turn through the hairpin and towards the finish line." locIndex="25" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="1.1">
+            <textevent timeoffset="0" message="And onto lap #2! Nicely done." locIndex="26" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="0.65">
+            <textevent timeoffset="0" message="Use the short descents to breathe and drink." locIndex="27" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.9">
+		</SteadyState>
+        <SteadyState Duration="15" Power="1.4">
+            <textevent timeoffset="0" message="PUSH PUSH PUSH!" locIndex="28" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.65">
+            <textevent timeoffset="0" message="Quick recovery now, breathe." locIndex="29" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.1">
+            <textevent timeoffset="0" message="Look down the road here to see if any breaks are gone." locIndex="30" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="0.65">
+		</SteadyState>
+        <SteadyState Duration="10" Power="1.1">
+		</SteadyState>
+        <SteadyState Duration="10" Power="0.65">
+		</SteadyState>
+        <SteadyState Duration="20" Power="1">
+		</SteadyState>
+        <SteadyState Duration="15" Power="1.1">
+            <textevent timeoffset="0" message="Onto lap #3! Great work so far!" locIndex="31" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="0.65">
+		</SteadyState>
+        <SteadyState Duration="20" Power="0.9">
+            <textevent timeoffset="0" message="Work up to the front on this section." locIndex="32" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="1.4">
+            <textevent timeoffset="0" message="And PUSH PUSH PUSH!" locIndex="33" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.65">
+            <textevent timeoffset="0" message="Recover, stay relaxed through the rollers next." locIndex="34" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.1">
+		</SteadyState>
+        <SteadyState Duration="10" Power="0.65">
+		</SteadyState>
+        <SteadyState Duration="10" Power="1.1">
+		</SteadyState>
+        <SteadyState Duration="10" Power="0.65">
+		</SteadyState>
+        <SteadyState Duration="20" Power="1">
+		</SteadyState>
+        <SteadyState Duration="15" Power="1.1">
+            <textevent timeoffset="0" message="Lap #4! Things usually mellow out just a bit on this lap." locIndex="35" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="0.65">
+		</SteadyState>
+        <SteadyState Duration="20" Power="0.9">
+            <textevent timeoffset="0" message="Work towards the front again through here." locIndex="36" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="1.4">
+            <textevent timeoffset="0" message="GO GO GO!" locIndex="37" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.65">
+            <textevent timeoffset="0" message="Great work! Take a couple sips of fluid." locIndex="38" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.1">
+            <textevent timeoffset="0" message="Stay in contact through the rollers." locIndex="39" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="0.65">
+		</SteadyState>
+        <SteadyState Duration="10" Power="1.1">
+		</SteadyState>
+        <SteadyState Duration="10" Power="0.65">
+		</SteadyState>
+        <SteadyState Duration="20" Power="1">
+		</SteadyState>
+        <SteadyState Duration="15" Power="1.1">
+            <textevent timeoffset="0" message="Halfway through here! Keep the pressure on!" locIndex="40" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="0.65">
+		</SteadyState>
+        <SteadyState Duration="20" Power="0.9">
+		</SteadyState>
+        <SteadyState Duration="15" Power="1.4">
+            <textevent timeoffset="0" message="HIT IT!" locIndex="41" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.65">
+            <textevent timeoffset="0" message="Those will start to wear on your after a while, shake it out here." locIndex="42" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.1">
+		</SteadyState>
+        <SteadyState Duration="10" Power="0.65">
+		</SteadyState>
+        <SteadyState Duration="10" Power="1.1">
+		</SteadyState>
+        <SteadyState Duration="10" Power="0.65">
+		</SteadyState>
+        <SteadyState Duration="20" Power="1">
+            <textevent timeoffset="0" message="This flat section is great to chase back on if needed before the next lap starts." locIndex="43" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="1.1">
+            <textevent timeoffset="0" message="Lap #6! We&apos;re getting there now :-)" locIndex="44" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="0.65">
+		</SteadyState>
+        <SteadyState Duration="20" Power="0.9">
+            <textevent timeoffset="0" message="You can do this, just keep the pressure on and keep going!" locIndex="45" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="1.4">
+            <textevent timeoffset="0" message="LIFT OFF!" locIndex="46" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.65">
+            <textevent timeoffset="0" message="Phew! Relax here." locIndex="47" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.1">
+            <textevent timeoffset="0" message="Check up the road again at the top of the rollers." locIndex="48" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="0.65">
+            <textevent timeoffset="0" message="If a break goes, it will be over that climb." locIndex="49" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.1">
+		</SteadyState>
+        <SteadyState Duration="10" Power="0.65">
+		</SteadyState>
+        <SteadyState Duration="20" Power="1">
+		</SteadyState>
+        <SteadyState Duration="15" Power="1.1">
+            <textevent timeoffset="0" message="Here we go with lap #7!" locIndex="50" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="0.65">
+		</SteadyState>
+        <SteadyState Duration="20" Power="0.9">
+		</SteadyState>
+        <SteadyState Duration="15" Power="1.4">
+            <textevent timeoffset="0" message="DIG DIG DIG!" locIndex="51" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.65">
+            <textevent timeoffset="0" message="Just 3 more of those big surges left, you got this!" locIndex="52" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.1">
+		</SteadyState>
+        <SteadyState Duration="10" Power="0.65">
+		</SteadyState>
+        <SteadyState Duration="10" Power="1.1">
+		</SteadyState>
+        <SteadyState Duration="10" Power="0.65">
+		</SteadyState>
+        <SteadyState Duration="20" Power="1">
+            <textevent timeoffset="0" message="Power through the 180 degree turn!" locIndex="53" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="1.1">
+            <textevent timeoffset="0" message="And onto lap #8!" locIndex="54" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="0.65">
+		</SteadyState>
+        <SteadyState Duration="20" Power="0.9">
+		</SteadyState>
+        <SteadyState Duration="15" Power="1.4">
+            <textevent timeoffset="0" message="Stand up if you need to, WORK!" locIndex="55" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.65">
+            <textevent timeoffset="0" message="Great work! Just breathe and recover now." locIndex="56" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.1">
+            <textevent timeoffset="0" message="And power up again through the rollers." locIndex="57" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="0.65">
+		</SteadyState>
+        <SteadyState Duration="10" Power="1.1">
+		</SteadyState>
+        <SteadyState Duration="10" Power="0.65">
+		</SteadyState>
+        <SteadyState Duration="20" Power="1">
+		</SteadyState>
+        <SteadyState Duration="15" Power="1.1">
+            <textevent timeoffset="0" message="All right, 2nd to last lap here! Let&apos;s make it happen!" locIndex="58" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="0.65">
+		</SteadyState>
+        <SteadyState Duration="20" Power="0.9">
+		</SteadyState>
+        <SteadyState Duration="15" Power="1.4">
+            <textevent timeoffset="0" message="C&apos;MON! PUSH YOURSELF!" locIndex="59" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.65">
+            <textevent timeoffset="0" message="Nice and easy recovery now." locIndex="60" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.1">
+		</SteadyState>
+        <SteadyState Duration="10" Power="0.65">
+		</SteadyState>
+        <SteadyState Duration="10" Power="1.1">
+		</SteadyState>
+        <SteadyState Duration="10" Power="0.65">
+		</SteadyState>
+        <SteadyState Duration="20" Power="1">
+		</SteadyState>
+        <SteadyState Duration="15" Power="1.1">
+            <textevent timeoffset="0" message="This is it! FINAL LAP! Keep the pressure on!" locIndex="61" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="0.65">
+		</SteadyState>
+        <SteadyState Duration="20" Power="0.9">
+            <textevent timeoffset="0" message="Get up the front here, get ready to keep the pressure on right to the finish now." locIndex="62" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="1.5">
+            <textevent timeoffset="0" message="GO GO GO!" locIndex="63" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.65">
+		</SteadyState>
+        <SteadyState Duration="10" Power="1.3">
+            <textevent timeoffset="0" message="Big power through these rollers now." locIndex="64" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="0.65">
+		</SteadyState>
+        <SteadyState Duration="10" Power="1.3">
+		</SteadyState>
+        <SteadyState Duration="10" Power="0.65">
+            <textevent timeoffset="0" message="Get ready for the finish sprint!" locIndex="65" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="2">
+            <textevent timeoffset="0" message="HIT IT!" locIndex="66" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerHigh="0.35" PowerLow="0.55">
+            <textevent timeoffset="0" message="Incredible effort today, my friend! That&apos;s a tough course, no doubt." locIndex="67" />
+            <textevent timeoffset="10" message="We&apos;ll take 5min to cooldown now, then we&apos;re DONE :-)" locIndex="68" />
+            <textevent timeoffset="20" message="See you next time!" locIndex="69" />
+        </Cooldown>
+    </workout>
+</workout_file>

@@ -1,0 +1,34 @@
+<workout_file>
+    <uniqueId>cde069e9-6aa6-4da5-976b-60803ff2576d</uniqueId>
+    <legacyIdHash>2984677390</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Week 9.6 - 20min varied cadence</name>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>2018 PRL46 Prep</category>
+    <subcategory>Week 9</subcategory>
+    <description>After warming up you will complete 2 x 20min efforts that vary in cadence and power.
+
+5min higher power / lower cadence
+5min lower power / higher cadence
+
+Take note of your heart rate at the beginning and end of each 30min interval.</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <SteadyState Duration="180.00002" Power="0.50449997" pace="0">
+            <textevent timeoffset="129" message="High rpm in warm up sprints" locIndex="1" />
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="10" OffDuration="50" OnPower="1.8132023" OffPower="0.50449997" pace="0" />
+        <SteadyState Duration="180" Power="0.70449996" pace="0">
+            <textevent timeoffset="32" message="A lower level aerobic effort to prepare for the 20min efforts." locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="120.00001" Power="0.50449997" pace="0" />
+        <IntervalsT Repeat="2" OnDuration="300" OffDuration="300" OnPower="0.95449996" OffPower="0.81449997" pace="0" OverUnder="1" Cadence="100" CadenceResting="80">
+            <textevent timeoffset="80" message="Observe your HR as the target power changes but cadence remains the same." locIndex="3" />
+            <textevent timeoffset="397" message="Has your HR come down?" locIndex="4" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.50449997" pace="0" />
+        <IntervalsT Repeat="2" OnDuration="300" OffDuration="300" OnPower="0.95449996" OffPower="0.81449997" pace="0" OverUnder="1" Cadence="100" CadenceResting="80" />
+        <Cooldown Duration="300" PowerLow="0.75449997" PowerHigh="0.50449997" pace="0" />
+    </workout>
+</workout_file>

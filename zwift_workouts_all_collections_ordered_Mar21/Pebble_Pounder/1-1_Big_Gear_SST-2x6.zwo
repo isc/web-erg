@@ -1,0 +1,96 @@
+<workout_file>
+    <uniqueId>477a675a-5663-4452-8718-ef4074405781</uniqueId>
+    <legacyIdHash>3840543276</legacyIdHash>
+    <author>Shayne Gaffney</author>
+    <name>Week 1.2 - Big Gear SST - 2 x 6</name>
+    <description>Welcome to the Pebble Pounder! I am stoked to have you partake in it, and start your journey into the World of &apos;gravel grinding&apos;. Today&apos;s workout begins our plan, and features 2 very important aspects of completing a gravel event - being able to hold power close to threshold (aka sweet spot, or SST), and also being able to maintain this power at a lower than normal cadence (aka big gear).</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Pebble Pounder</category>
+    <subcategory>Week 1</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="300" PowerLow=".4" PowerHigh=".75">
+            <textevent timeoffset="0" message="Welcome to the Pebble Pounder - Zwift&apos;s beginner gravel training plan :-)" locIndex="1" />
+            <textevent timeoffset="10" message="All of the workouts in this plan will start off with a gradual warmup, so let&apos;s get that started now." locIndex="2" />
+            <textevent timeoffset="20" message="For the warmups, aim for a comfortable cadence. Most cyclists feel comfortable between 85-95 RPM." locIndex="3" />
+            <textevent timeoffset="30" message="But, do what feels best to you! We&apos;ll get into more specific cadence work over the course of this workout." locIndex="4" />
+            <textevent timeoffset="40" message="Also, for any Zwift workouts, it&apos;s very important to have fluids to drink, a fan, and ideally a towel." locIndex="5" />
+            <textevent timeoffset="50" message="Training indoors is great for efficiency and effectiveness, but you can become overheated a lot easier." locIndex="6" />
+            <textevent timeoffset="60" message="This is due to the decreased air circulation relative to outdoor riding, so having a fan is a MUST." locIndex="7" />
+            <textevent timeoffset="70" message="Your body dissipates heat from evaporative cooling, so make sure the fan is hitting a large portion of your body." locIndex="8" />
+            <textevent timeoffset="80" message="And, having a towel just helps with keeping your area clean and also protects your bike frame from sweat." locIndex="9" />
+            <textevent timeoffset="90" message="Got it? Good! So every workout: fluids, fan, towel!" locIndex="10" />
+            <textevent timeoffset="120" message="2mins into the warmup here, just keep on easing into the day today and get the legs loosened up." locIndex="11" />
+            <textevent timeoffset="180" message="Let&apos;s chat a bit about what&apos;s in store today: We&apos;re going to be working at Sweet Spot (SST), but at a lower then comfortable cadence." locIndex="12" />
+            <textevent timeoffset="190" message="SST is some of the best bang for your buck for improving aerobic capacity, and will be a common trend of this plan." locIndex="13" />
+            <textevent timeoffset="200" message="Plus, SST is a common intensity you&apos;ll be at for climbs over the course of a gravel event." locIndex="14" />
+            <textevent timeoffset="210" message="So, being comfortable at this intensity, and progressively lengthening the time at which you spend here is important." locIndex="15" />
+            <textevent timeoffset="220" message="And, the lower cadence component (big gear) is another common thing you&apos;ll experience in a gravel event." locIndex="16" />
+            <textevent timeoffset="230" message="Gravel, as you know, is a lot more loose and unstable relative to asphalt and requires a different pedaling technique." locIndex="17" />
+            <textevent timeoffset="240" message="This pedaling technique involves slowing the cadence down and increasing torque through the pedals, which prevents the rear wheel from slipping." locIndex="18" />
+            <textevent timeoffset="250" message="So, Big Gear SST is a great use of time in preparing for the specific demands of a gravel event." locIndex="19" />
+            <textevent timeoffset="290" message="Okay, next up let&apos;s do a few high cadence efforts to wake the legs up a little more." locIndex="20" />
+        </Warmup>
+        <IntervalsT Repeat="3" OnDuration="30" OffDuration="30" OnPower="1.05" OffPower=".65" Cadence="105" CadenceResting="85">
+            <textevent timeoffset="0" message="Let&apos;s bring that power and cadence up here! I want you to aim for a smooth pedal stroke during the fast cadence work." locIndex="21" />
+            <textevent timeoffset="10" message="So, no bouncing in the saddle, or lurching back and forth! Just power to the pedals." locIndex="22" />
+            <textevent timeoffset="30" message="Great work, now bring the cadence and power way down and let&apos;s recover for 30sec, we do that 2 more times." locIndex="23" />
+            <textevent timeoffset="60" message="Power and cadence back up again! Keep it silky smooth again here." locIndex="24" />
+            <textevent timeoffset="90" message="Beautiful! Bring it back down again - 1 more to go :-)" locIndex="25" />
+            <textevent timeoffset="120" message="Last one! Push that cadence!" locIndex="26" />
+            <textevent timeoffset="150" message="Excellent work! Now, let&apos;s bring the pace down again and recover for a couple of minutes before starting our main set." locIndex="27" />
+        </IntervalsT>
+        <SteadyState Duration="120" Power=".50" Cadence="85">
+            <textevent timeoffset="0" message="All right, let&apos;s take some deep breaths here and get ready for our main set." locIndex="28" />
+            <textevent timeoffset="30" message="Remember to take frequent sips of fluid throughout these workouts too. That&apos;s important to success!" locIndex="29" />
+            <textevent timeoffset="90" message="Okay, next up is our main set. Remember, we&apos;re aiming for 2 intervals, of 6min at SST, in a big gear." locIndex="30" />
+            <textevent timeoffset="100" message="We&apos;re going to be taking 3min between intervals to rest." locIndex="31" />
+            <textevent timeoffset="110" message="Okay, ready? Here we go with our first interval. Aim for 75 RPM here." locIndex="32" />
+        </SteadyState>
+        <SteadyState Duration="360" Power=".90" Cadence="75">
+            <textevent timeoffset="0" message="Just ease into it here. Focus on the cadence target first and foremost, and let the trainer adjust the resistance." locIndex="33" />
+            <textevent timeoffset="10" message="If you do not have a smart trainer, hit the cadence, then do your best to keep the power steady close to target." locIndex="34" />
+            <textevent timeoffset="30" message="Okay, you should be done fine tuning things, now just settle down into this intensity and keep steady." locIndex="35" />
+            <textevent timeoffset="60" message="During a climb over loose terrain, ideally keep your weight back and closer to the rear wheel by pushing your hips back." locIndex="36" />
+            <textevent timeoffset="70" message="This will decrease the chance of your wheel slipping during the climb itself." locIndex="37" />
+            <textevent timeoffset="80" message="Most also feel best holding onto their bars when climbing, as opposed to their hoods or drops." locIndex="38" />
+            <textevent timeoffset="120" message="So far so good? That&apos;s 2min down and 4min to go! Keep that form rock solid!" locIndex="39" />
+            <textevent timeoffset="180" message="Halfway through this first interval! This should still feel comfortable, but if the legs are starting to burn that&apos;s okay." locIndex="40" />
+            <textevent timeoffset="300" message="Okay, last minute! Has your pedaling form changed at all over the course of the interval?" locIndex="41" />
+            <textevent timeoffset="310" message="Ideally, you would like the exact same as when you first started, but if you&apos;re starting to fatigue that&apos;s okay!" locIndex="42" />
+            <textevent timeoffset="320" message="We&apos;ll be improving your fatigue resistance over the course of this plan :-)" locIndex="43" />
+            <textevent timeoffset="350" message="Okay, 10sec left! Hit that arch!" locIndex="44" />
+        </SteadyState>
+        <SteadyState Duration="180" Power=".65" Cadence="85">
+            <textevent timeoffset="0" message="Great work! Now, bring the cadence up and power down, and let&apos;s recover for a few minutes before the next interval." locIndex="45" />
+            <textevent timeoffset="60" message="You should have taken at least a few sips of fluid by now. If not, here&apos;s your reminder! Make it a habit to drink frequently." locIndex="46" />
+            <textevent timeoffset="120" message="Take a few more deep breaths here and get ready to repeat that first interval again. You got this!" locIndex="47" />
+            <textevent timeoffset="160" message="Okay, up next we have our 2nd interval today, we&apos;re going to repeat that same process as before, 6min at SST in a big gear." locIndex="48" />
+            <textevent timeoffset="170" message="Ready? Get yourself ready to grind the gear just a bit again." locIndex="49" />
+        </SteadyState>
+        <SteadyState Duration="360" Power=".90" Cadence="75">
+            <textevent timeoffset="0" message="Okay, here we go! Get that power back up, and lower the cadence to around 75 RPM again." locIndex="50" />
+            <textevent timeoffset="10" message="Also, assume that familiar climbing position and slide your hips back in the saddle, and grab your bars." locIndex="51" />
+            <textevent timeoffset="60" message="Good work so far! Work on keeping your chest open when climbing too and breathing from your belly." locIndex="52" />
+            <textevent timeoffset="70" message="Gravel events usually aren&apos;t fast, so comfort will trump aerodynamic position typically." locIndex="53" />
+            <textevent timeoffset="120" message="That&apos;s 2min down! How does this 2nd interval feel compared to the first? Feeling more muscle fatigue is okay." locIndex="54" />
+            <textevent timeoffset="180" message="Halfway again, my friend! You&apos;re looking awesome here. Keep those shoulders relaxed, and keep your upper body still." locIndex="55" />
+            <textevent timeoffset="190" message="Direct all the power straight to the pedals!" locIndex="56" />
+            <textevent timeoffset="300" message="Final minute! Keep driving it home here!" locIndex="57" />
+            <textevent timeoffset="330" message="30sec left! Almost to the arch now!" locIndex="58" />
+            <textevent timeoffset="350" message="Push it all the way to the arch! C&apos;mon now!" locIndex="59" />
+        </SteadyState>
+        <SteadyState Duration="180" Power=".65" Cadence="85">
+            <textevent timeoffset="0" message="Excellent! Now, bring the cadence up and power down, and let&apos;s recover for a few minutes again, then move onto the cool down." locIndex="60" />
+            <textevent timeoffset="120" message="Take a few more deep breaths here. Those are hard work and this portion helps starts the cool down process." locIndex="61" />
+        </SteadyState>
+        <Cooldown Duration="120" PowerLow=".40" PowerHigh=".65">
+            <textevent timeoffset="0" message="Woo-hoo! Nice work today! That&apos;s the first workout of this plan, DONE and dusted." locIndex="62" />
+            <textevent timeoffset="10" message="All of our workouts will finish with a cool down where we slowly lower the intensity." locIndex="63" />
+            <textevent timeoffset="20" message="In between workouts, aim to refuel and rehydrate yourself well." locIndex="64" />
+            <textevent timeoffset="30" message="And aim to take around 24hrs between workouts to allow your body to recover before hitting it hard again." locIndex="65" />
+            <textevent timeoffset="60" message="Great job today! See you next time :-)" locIndex="66" />
+        </Cooldown>
+    </workout>
+</workout_file>

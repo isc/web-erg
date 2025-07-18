@@ -1,0 +1,69 @@
+<workout_file>
+    <uniqueId>e5cdad98-6851-42cc-85f7-a948a94444cc</uniqueId>
+    <legacyIdHash>4061393955</legacyIdHash>
+    <author>Annika Langvad</author>
+    <name>Annika Langvad Series.6 - Workout 6</name>
+    <category>Mountain Bike</category>
+    <subcategory>Annika Langvad Series</subcategory>
+    <description>This workout is a key workout that Annika uses as preparation for key events. In mountain biking, to get up a short steep climb, or to get through some mud or over roots, the best way is to do it quickly - lots of power for a short period of time.
+
+This session gets our anaerobic energy systems firing, as we make repeated 30 second efforts at 170% of FTP, simulating those short spikes in effort to get up a steep bank or through a technical part of the course. 
+
+Don&apos;t be discouraged if your power drops throughout the blocks. You&apos;ll burn a lot of matches as you progress through the session, so just try and hold on as long as you can as you will still benefit from the effort.
+
+In the same fashion - don&apos;t go out too hard! This is a fairly long session, so in the first block, just do what you need to do. 170% of FTP - no more.</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <Warmup Duration="420" PowerLow="0.43673912" PowerHigh="0.74978262" pace="8268">
+            <textevent timeoffset="10" message="Welcome to another workout curated by Annika Langvad" locIndex="1" />
+            <textevent timeoffset="25" message="Today&apos;s session is all about stressing your anaerobic energy systems in making repeated short, sharp efforts - critical for mountain bikers" locIndex="2" />
+            <textevent timeoffset="38" message="Today&apos;s we will complete 3 blocks of 8 efforts of 30 seconds at 170% of FTP with 30 seconds recovery between each effort" locIndex="3" />
+            <textevent timeoffset="46" message="There is a 10 minute rest between each block to ensure we recover enough to give it our all in each block" locIndex="4" />
+            <textevent timeoffset="63" message="We have a nice progressive warm up to start, with some 30second activation efforts to get us ready for the session. " locIndex="5" />
+            <textevent timeoffset="106" message="All mountain bike events will contain some technical parts, which you will need to navigate through technically but also produce a lot of power to get over." locIndex="7" />
+            <textevent timeoffset="116" message="For example - if you hit some boggy mud, you need to power through it, producing a real spike in power - as we will train today." locIndex="8" />
+            <textevent timeoffset="390" message="You should be feeling pretty warmed up now. Do you have a sweat on?" locIndex="9" />
+            <textevent timeoffset="401" message="Here comes the first activation effort - notice its 30 seconds, very different to a road sprint. More of a capacity effort." locIndex="10" />
+        </Warmup>
+        <SteadyState Duration="30" Power="1.0944999" pace="8268" />
+        <SteadyState Duration="180" Power="0.50449997" pace="8268">
+            <textevent timeoffset="10" message="How was that?" locIndex="11" />
+            <textevent timeoffset="31" message="Now focus on your cadence - try and find a nice smooth rhythm" locIndex="12" />
+            <textevent timeoffset="150" message="Another sprint incoming!" locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.0944999" pace="8268" />
+        <SteadyState Duration="300" Power="0.50449997" pace="8268">
+            <textevent timeoffset="9.9999313" message="Good effort - we should be pretty warm now, with a nice sweat on?" locIndex="14" />
+            <textevent timeoffset="269" message="Are you ready for the first block of 8 x 30 second efforts?" locIndex="15" />
+            <textevent timeoffset="281" message="Aim for 70-80rpm, which is a nice efficient cadence but also a cadence that you ride at a lot in mountain biking, especially when going through a technical part of the course." locIndex="16" />
+        </SteadyState>
+        <IntervalsT Repeat="8" OnDuration="30" OffDuration="30" OnPower="1.7045" OffPower="0.50449997" pace="8268">
+            <textevent timeoffset="65" message="Commit to these efforts - let&apos;s really hit them hard" locIndex="17" />
+            <textevent timeoffset="310" message="Explode up this muddy bank - nice smooth power transfer to avoid wheels slipping" locIndex="18" />
+        </IntervalsT>
+        <SteadyState Duration="570" Power="0.50449997" pace="8268">
+            <textevent timeoffset="444.99982" message="Second set coming!" locIndex="19" />
+            <textevent timeoffset="519.99994" message="This one will burn more..." locIndex="20" />
+        </SteadyState>
+        <IntervalsT Repeat="8" OnDuration="30.000002" OffDuration="30.000001" OnPower="1.7045" OffPower="0.50449997" pace="8268">
+            <textevent timeoffset="245" message="These efforts will hurt - but they are hugely rewarding! Stick with it." locIndex="21" />
+        </IntervalsT>
+        <SteadyState Duration="570" Power="0.50449997" pace="8268">
+            <textevent timeoffset="325" message="Final set on it&apos;s way!" locIndex="22" />
+            <textevent timeoffset="382" message="This could get hard!" locIndex="23" />
+            <textevent timeoffset="419.99994" message="Stay with it though" locIndex="24" />
+            <textevent timeoffset="489" message="Even if power drops..." locIndex="25" />
+            <textevent timeoffset="542" message="... you&apos;ll still benefit!" locIndex="26" />
+        </SteadyState>
+        <IntervalsT Repeat="8" OnDuration="30.000002" OffDuration="30.000001" OnPower="1.7045" OffPower="0.50449997" pace="8268">
+            <textevent timeoffset="215" message="Make the most of the recovery periods - take a drink and try recycle that lactate." locIndex="27" />
+            <textevent timeoffset="400" message="Almost there... one more effort to go!" locIndex="28" />
+        </IntervalsT>
+        <SteadyState Duration="600" Power="0.50449997" pace="8268">
+            <textevent timeoffset="62.000053" message="Good job - workout 6 complete! Make sure you recover well - carbs and protein for recovery." locIndex="29" />
+            <textevent timeoffset="82" message="We have done a lot of muscle damage during this session, so expect some sore legs tomorrow!" locIndex="30" />
+            <textevent timeoffset="355" message="See you on workout 7 - it will be fun!" locIndex="31" />
+        </SteadyState>
+    </workout>
+</workout_file>

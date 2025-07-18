@@ -1,0 +1,47 @@
+<workout_file>
+    <uniqueId>20240219-5e81-4573-bb27-6bf8b4cd2882</uniqueId>
+    <legacyIdHash>1294509605</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <categoryOverride>Sweet Spot</categoryOverride>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>2018 PRL46 Prep</category>
+    <subcategory>Week 3</subcategory>
+    <name>Week 3.2 - 15min varied tempo #2</name>
+    <description>Working in your Tempo zone, today we are varying the cadence and power. 
+
+Observe your HR during the 15min intervals and look for changes in heart rate when your cadence changes.</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <SteadyState Duration="180" Power="0.50449997" pace="0">
+            <textevent timeoffset="130" message="High rpm in warm up sprints" locIndex="1" />
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="10" OffDuration="50" OnPower="1.80481" OffPower="0.50449997" pace="0" />
+        <SteadyState Duration="180" Power="0.70449996" pace="0">
+            <textevent timeoffset="20" message="A little more intensity now" locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.50449997" pace="0" />
+        <SteadyState Duration="300" Power="0.90449995" pace="0">
+            <textevent timeoffset="20" message="Close to threshold this time." locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.50449997" pace="0">
+            <textevent timeoffset="139" message="Changing cadence every 5min" locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.89449996" pace="0" Cadence="95">
+            <textevent timeoffset="42" message="We are going to vary the power and cadence for each 5min block. " locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.77449995" pace="0" Cadence="90">
+            <textevent timeoffset="6" message="Lower cadence and power this time" locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.89449996" pace="0" Cadence="95">
+            <textevent timeoffset="25" message="Same as the 1st effort this time." locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.50449997" pace="0" />
+        <SteadyState Duration="300" Power="0.77449995" pace="0" Cadence="95">
+            <textevent timeoffset="21" message="This time we increase the power in each 5min block." locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.82449996" pace="0" Cadence="90" />
+        <SteadyState Duration="300" Power="0.89449996" pace="0" Cadence="95" />
+        <Cooldown Duration="300" PowerLow="0.75449997" PowerHigh="0.50449997" pace="0" />
+    </workout>
+</workout_file>

@@ -1,0 +1,53 @@
+<workout_file>
+    <uniqueId>e6bafc53-3fb6-4070-b710-ff5bafced502</uniqueId>
+    <legacyIdHash>2547733135</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Endurance #3</name>
+    <description>Endurance sessions are the ideal time to focus on improving your pedaling. Power is not the focus in this session. Throughout today&apos;s endurance ride we will be increasing the focus on your cardiovascular endurance, by challenging your ability to pedal at a high cadence. A fun session that includes a range of high RPM intervals.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>TT Tune Up</category>
+    <subcategory>Week 6</subcategory>
+    <tags>
+    </tags>
+    <workout>
+        <Warmup Duration="180" PowerLow="0.45" PowerHigh="0.6">
+            <textevent timeoffset="30" message="Our warm up gradually ramps up to a 1min Zone 5 effort." locIndex="1" />
+        </Warmup>
+        <SteadyState Duration="60" Power="0.6" />
+        <SteadyState Duration="60" Power="0.65" />
+        <SteadyState Duration="60" Power="0.81">
+            <textevent timeoffset="50" message="Ready for the 1min Zone 5 effort." locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.09" />
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="100" message="To complete the warm up we now perform a 3min threshold effort." locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.9" />
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="100" message="Endurance sessions are the ideal time to focus on improving your pedaling." locIndex="4" />
+            <textevent timeoffset="120" message="The focus on your cardiovascular endurance, by challenging your ability to pedal at a high cadence" locIndex="5" />
+            <textevent timeoffset="130" message="The opening set consists of high cadence, low power efforts." locIndex="6" />
+            <textevent timeoffset="170" message="Remember to aim for the target RPM and let the smart trainer adjust the power." locIndex="7" />
+        </SteadyState>
+        <IntervalsT Repeat="6" OnDuration="60" OffDuration="60" OnPower="0.85" OffPower="0.5" Cadence="110" CadenceResting="85">
+            <textevent timeoffset="150" message="How does 110RPM feel for you? Challenging?" locIndex="8" />
+        </IntervalsT>
+        <Ramp Duration="300" PowerLow="0.6" PowerHigh="0.75">
+            <textevent timeoffset="60" message="A longer endurance effort now, with a high power surge midway." locIndex="9" />
+            <textevent timeoffset="290" message="Ready to accelerate." locIndex="10" />
+        </Ramp>
+        <SteadyState Duration="20" Power="1.1" />
+        <Ramp Duration="300" PowerLow="0.75" PowerHigh="0.6">
+            <textevent timeoffset="260" message="Again we have target RPM for the efforts." locIndex="11" />
+            <textevent timeoffset="280" message="But the power is higher this time and the efforts longer." locIndex="12" />
+        </Ramp>
+        <IntervalsT Repeat="2" OnDuration="300" OffDuration="300" OnPower="0.9" OffPower="0.6" Cadence="100" CadenceResting="90">
+            <textevent timeoffset="1400" message="We finish with low power, high cadence efforts." locIndex="13" />
+        </IntervalsT>
+        <IntervalsT Repeat="2" OnDuration="60" OffDuration="60" OnPower="0.85" OffPower="0.5" Cadence="110" CadenceResting="85">
+            <textevent timeoffset="70" message="How does the high cadence feel compared to the earlier set?" locIndex="14" />
+        </IntervalsT>
+        <Cooldown Duration="300" PowerLow="0.75" PowerHigh="0.45" />
+    </workout>
+</workout_file>

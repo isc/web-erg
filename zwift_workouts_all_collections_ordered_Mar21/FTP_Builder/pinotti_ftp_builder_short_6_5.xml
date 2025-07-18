@@ -1,0 +1,14 @@
+<workout_file>
+    <uniqueId>4cfd1c1f-d53f-40da-bae4-588eec9a2c95</uniqueId>
+    <legacyIdHash>592731203</legacyIdHash>
+    <description>Ride as you feel. No intervals. Go hard if you feel to.</description>
+    <category>FTP Builder</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 6</subcategory>
+    <name>Week 6.5 - Flexible Free Ride</name>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/MarcoPinotti_Logo.tga</authorIcon>
+    <sportType>bike</sportType>
+    <workout>
+        <FreeRide Duration="2700" />
+    </workout>
+</workout_file>

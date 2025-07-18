@@ -1,0 +1,13 @@
+<workout_file>
+    <uniqueId>0f11ca8c-f995-420c-8a43-3cb02192419c</uniqueId>
+    <legacyIdHash>723459411</legacyIdHash>
+    <category>Active Offseason</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 5</subcategory>
+    <name>Week 5.3 - Active Recovery</name>
+    <description>Today is an Active Recovery day targeting ONLY Active Recovery. Focus on relaxing on the bike and enjoying the ride.</description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <workout>
+        <SteadyState Duration="5400" Zone="1" />
+    </workout>
+</workout_file>

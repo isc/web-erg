@@ -1,0 +1,25 @@
+<workout_file>
+    <uniqueId>352a65d7-ab3a-431a-b857-dfd53f42160d</uniqueId>
+    <legacyIdHash>2749347493</legacyIdHash>
+    <author>British Cycling</author>
+    <name>Week 4.4 - Free Ride</name>
+    <description>This is a chance to get out for your local Club Run, hit the trails or to join a group ride on Zwift. The focus should be on steady paced endurance. Take care not to overdo this session though as you don&apos;t want it to impact on the quality of your other workouts.
+
+Aim to ride predominately in Zone 2 (55% - 75% FTP) and, after you feel warmed up, try to include 3-5 1 min Zone 6 (120%+ FTP) efforts during the first hour. In the final hour put in a 20 sec maximal sprint every 10 min.</description>
+    <category>British Cycling eRacing Championship</category>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/HSBC_Logo.tga</authorIcon>
+    <subcategory>Week 4</subcategory>
+    <entid>436</entid>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout>
+        <FreeRide Duration="7200" FlatRoad="0">
+            <textevent timeoffset="1200" message="Don&apos;t forget to include a 1 min effort in Z6 (120%+). The workout graph at the bottom should be red during these efforts if you are in the right zone." locIndex="1" />
+            <textevent timeoffset="2400" message="Don&apos;t forget to include a 1 min effort in Z6 (120%+). The workout graph at the bottom should be red during these efforts if you are in the right zone." locIndex="2" />
+            <textevent timeoffset="3600" message="Don&apos;t forget to include a 1 min effort in Z6 (120%+). The workout graph at the bottom should be red during these efforts if you are in the right zone." locIndex="3" />
+            <textevent timeoffset="4800" message="Don&apos;t forget to include a 1 min effort in Z6 (120%+). The workout graph at the bottom should be red during these efforts if you are in the right zone." locIndex="4" />
+            <textevent timeoffset="6000" message="Don&apos;t forget to include a 1 min effort in Z6 (120%+). The workout graph at the bottom should be red during these efforts if you are in the right zone." locIndex="5" />
+        </FreeRide>
+    </workout>
+</workout_file>

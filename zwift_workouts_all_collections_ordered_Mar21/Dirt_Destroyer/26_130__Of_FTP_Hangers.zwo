@@ -1,0 +1,114 @@
+<workout_file>
+    <uniqueId>fd8cffc7-3473-4c55-9403-01d6607d063d</uniqueId>
+    <legacyIdHash>4127786498</legacyIdHash>
+    <author>M.Rowe (Rowe &amp; King)</author>
+    <categoryOverride>VO2 Max</categoryOverride>
+    <name>Week 6.5 - 130% of FTP Hangers</name>
+    <description>Congratulations on reaching the final workout in the Dirt Destroyer. 
+
+This sessions aims to develop your Anaerobic Capacity - your ability to produce a lot of power for a short period of time. We complete efforts at 135% of FTP, whilst reducing the amount of rest we get between each effort - meaning each effort will get progressively harder.
+
+If you look at the demands of Mountain Biking, you are frequently making efforts up around 135%+ of your FTP, to tackle obstacles and get up steep climbs. The effort durations vary significantly, which is what we are looking to train today - your ability to produce big power, once already fatigued, on limited recovery!
+ </description>
+    <sportType>bike</sportType>
+    <category>Dirt Destroyer</category>
+    <subcategory>Week 6</subcategory>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow="0.25450003" PowerHigh="0.85449994" pace="0">
+            <textevent timeoffset="5" message="The final Session of the Dirt Destroyer has arrived! !" locIndex="1" />
+            <textevent timeoffset="24" message="We have a 42 Minute session today, working on developing your Anaerobic Capacity" locIndex="2" />
+            <textevent timeoffset="32" message="which is your ability to produce a high power for relatively short periods of time." locIndex="3" />
+            <textevent timeoffset="45" message="Be prepared to go all in today. You&apos;ve been building strength well, time to put it to the test" locIndex="4" />
+            <textevent timeoffset="100" message="A 10 minute progressive warm up to start - nothing too explosive." locIndex="5" />
+            <textevent timeoffset="150" message="We will complete 3 blocks - each with 5 efforts, from 10s up to a minute all at 135% of your FTP." locIndex="6" />
+            <textevent timeoffset="160" message="As each effort gets longer, the rest gets shorter." locIndex="7" />
+            <textevent timeoffset="170" message="The first effort of 20 seconds will feel easy... but it gets harder as by the end you will do 50s @ 135% of your FTP followed by only 10 seconds rest." locIndex="8" />
+            <textevent timeoffset="300" message="Keep sipping to stay hydrated through the warm up." locIndex="9" />
+            <textevent timeoffset="400" message="We will really stress your two anaerobic energy systems during this session - forcing them to provide energy, when heavily depleted." locIndex="10" />
+            <textevent timeoffset="500" message="Starting to sweat? Thats a good sign that the blood is warm and you are ready for the session." locIndex="11" />
+            <textevent timeoffset="500" message="This session could easily be regarded as an &apos;advanced workout&apos;, but what better time to really push yourself than the final workout of the series?" locIndex="12" />
+        </Warmup>
+        <SteadyState Duration="120.00001" Power="0.40450001" pace="0" />
+        <SteadyState Duration="20" Power="1.3045" pace="0">
+            <textevent timeoffset="5" message="20 seconds at 135% of FTP to start - this shouldn&apos;t be too tough!" locIndex="13" />
+            <textevent timeoffset="15" message="Stay relaxed, body still and look ahead!" locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="40" Power="0.30450001" pace="0" />
+        <SteadyState Duration="30.000002" Power="1.3045" pace="0">
+            <textevent timeoffset="15" message="Pump those legs! Focus on a nice smooth pedaling stroke - nothing eratic!" locIndex="15" />
+        </SteadyState>
+        <SteadyState Duration="30.000002" Power="0.30450001" pace="0" />
+        <SteadyState Duration="40" Power="1.3045" pace="0">
+            <textevent timeoffset="20" message="This will start to bite now as the efforts get longer, and the recovery shorter! Great effort." locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.30450001" pace="0" />
+        <SteadyState Duration="50.000004" Power="1.3045" pace="0">
+            <textevent timeoffset="16" message="Great work guys - dig in now, this is where it really starts to hurt and the magic happens." locIndex="17" />
+            <textevent timeoffset="26" message="Don&apos;t get ragged - keep your composure." locIndex="18" />
+            <textevent timeoffset="39" message="You only have 10 seconds rest next, so don&apos;t relax too much..." locIndex="19" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="0.30450001" pace="0" />
+        <SteadyState Duration="60" Power="1.3045" pace="0">
+            <textevent timeoffset="14" message="This is the toughest part - producing big power on already tired legs! YOU CAN DO IT!" locIndex="20" />
+            <textevent timeoffset="44" message="Fantastic effort - keep it up!" locIndex="21" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.40450001" pace="0">
+            <textevent timeoffset="31" message="Recovery time - keep drinking. 2 more blocks to go. How was the first block?" locIndex="22" />
+            <textevent timeoffset="280" message="Ready for the second block? Get ready... it&apos;s show time!" locIndex="23" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.3045" pace="0">
+            <textevent timeoffset="15" message="20 seconds to start - try and preserve as much energy as you can, which means a nice smooth pedaling style, and a still upper body." locIndex="24" />
+        </SteadyState>
+        <SteadyState Duration="40" Power="0.30450001" pace="0" />
+        <SteadyState Duration="30.000002" Power="1.3045" pace="0">
+            <textevent timeoffset="8" message="30 seconds - the rest is getting shorter, and the efforts longer. Good work." locIndex="25" />
+        </SteadyState>
+        <SteadyState Duration="30.000002" Power="0.30450001" pace="0" />
+        <SteadyState Duration="40" Power="1.3045" pace="0">
+            <textevent timeoffset="8" message="You will not be recovering fully between efforts now, as we are producing most of our energy anaerobically." locIndex="26" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.30450001" pace="0" />
+        <SteadyState Duration="50.000004" Power="1.3045" pace="0">
+            <textevent timeoffset="16.999714" message="This is where it really starts to hurt, where the damage is done you earn those gains!" locIndex="27" />
+            <textevent timeoffset="37" message="Keep it up - right the way to the last second!" locIndex="28" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="0.30450001" pace="0" />
+        <SteadyState Duration="60.000004" Power="1.3045" pace="0">
+            <textevent timeoffset="16" message="1 minute at 135% of FTP - you can see the top of the climb! Dig in deep to get there with the leaders of your group!" locIndex="29" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.40450001" pace="0">
+            <textevent timeoffset="32.000454" message="It&apos;s recovery time - keep drinking. 1 more block to go." locIndex="30" />
+            <textevent timeoffset="150.00003" message="This session trains you to be able to produce high power, really stressing you&apos;re two anaerobic energy systems." locIndex="31" />
+            <textevent timeoffset="280" message="Ready for the final block? Let&apos;s do this!" locIndex="32" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.3045" pace="0">
+            <textevent timeoffset="9" message="As I&apos;m sure you appreciate - this session creeps up on you pretty quickly! Being able to make repeated efforts at a high power is important in mountain biking." locIndex="33" />
+        </SteadyState>
+        <SteadyState Duration="40" Power="0.30450001" pace="0" />
+        <SteadyState Duration="30.000002" Power="1.3045" pace="0">
+            <textevent timeoffset="13" message="It&apos;s important to be able to lay the power down in those tough sections, to get through them quickly!" locIndex="34" />
+        </SteadyState>
+        <SteadyState Duration="30.000002" Power="0.30450001" pace="0" />
+        <SteadyState Duration="40" Power="1.3045" pace="0">
+            <textevent timeoffset="17" message="We are deep in to the final block here - only a few minutes remaining of the final workout! Get your game face on!" locIndex="35" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.30450001" pace="0" />
+        <SteadyState Duration="50.000004" Power="1.3045" pace="0">
+            <textevent timeoffset="16" message="Don&apos;t let your form go as you get more fatigued. Good form is critical - hold a strong, still body." locIndex="36" />
+            <textevent timeoffset="39" message="Keep your head up! Don&apos;t train yourself to allow your head to drop when it hurts." locIndex="37" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="0.30450001" pace="0" />
+        <SteadyState Duration="60.000004" Power="1.3045" pace="0">
+            <textevent timeoffset="13" message="UP UP UP!" locIndex="38" />
+            <textevent timeoffset="43" message="This is it - the grand finale! Go for it!" locIndex="39" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow="0.3545" PowerHigh="0.20450002" pace="0">
+            <textevent timeoffset="33" message="Cool down - top efforts everyone! Over the last 6 weeks we have SMASHED IT!" locIndex="40" />
+            <textevent timeoffset="140" message="That concludes the IDirt Destroyer Training Plan!" locIndex="41" />
+            <textevent timeoffset="240" message="For your next target, why not try the Advanced Singletrack Slayer Training Plan?" locIndex="42" />
+            <textevent timeoffset="289" message="Thanks for joining over the last 6 weeks! Ride On!" locIndex="43" />
+        </Cooldown>
+    </workout>
+</workout_file>

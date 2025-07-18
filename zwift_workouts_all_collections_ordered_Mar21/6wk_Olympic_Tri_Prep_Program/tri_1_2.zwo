@@ -1,0 +1,20 @@
+<workout_file>
+    <uniqueId>63ea18e0-c1f3-465e-a196-2f2d82658172</uniqueId>
+    <legacyIdHash>2283989800</legacyIdHash>
+    <author>QT2</author>
+    <category>Olympic Tri Prep Plan</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 1</subcategory>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/QT2Systems_Logo.tga</authorIcon>
+    <name>Day 2 - Bike</name>
+    <description>Bike - 60 min.
+-10 min. warm up
+-30 min. big gear 70 rpm @ 88% FTP
+-20 min. cool @ 60% FTP</description>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow="0.50449997" PowerHigh="0.75449997" />
+        <SteadyState Duration="1800" Power="0.88449997" />
+        <SteadyState Duration="1200" Power="0.6045" />
+    </workout>
+</workout_file>

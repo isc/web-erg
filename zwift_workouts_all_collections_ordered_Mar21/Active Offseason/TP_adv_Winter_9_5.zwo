@@ -1,0 +1,13 @@
+<workout_file>
+    <uniqueId>375b10b1-00de-4d09-b323-24b9c22da48f</uniqueId>
+    <legacyIdHash>1677689479</legacyIdHash>
+    <name>Week 9.5 - Active Recovery</name>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <category>Active Offseason</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 9</subcategory>
+    <description>Active Recovery - you get faster when you are resting and recovering, not when you are working hard!! Rest days are about going easy enough to really allow your legs to recover, so no efforts over Zone 1 today. Take it easy and lookat the scenery.</description>
+    <workout>
+        <SteadyState Duration="2700" PowerLow="0.50450003" PowerHigh="0.50450003" />
+    </workout>
+</workout_file>

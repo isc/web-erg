@@ -1,0 +1,20 @@
+<workout_file>
+    <uniqueId>a7f1bcc6-7822-4590-aef9-c436450c1a6b</uniqueId>
+    <legacyIdHash>4123901387</legacyIdHash>
+    <category>Hunter&apos;s Challenge</category>
+    <subcategory>Week 2</subcategory>
+    <name>Week 2.1 - The Quick Fix</name>
+    <description>Threshold and Vo2 Max! Just to make sure you are being honest and getting in your threshold and Vo2 Max work.</description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.55" PowerHigh="0.87" CadenceLow="80" CadenceHigh="100" />
+        <IntervalsT Repeat="6" OnPower="1.14" Cadence="115" OnDuration="60" OffPower="0.95" CadenceResting="80" OffDuration="60" OverUnder="1" />
+        <SteadyState Duration="300" Power="0.72" />
+        <IntervalsT Repeat="5" OnPower="0.95" OnDuration="120" OffPower="1.15" OffDuration="30" OverUnder="1" />
+        <SteadyState Duration="300" Power="0.72" />
+        <IntervalsT Repeat="5" OnPower="0.95" OnDuration="120" OffPower="1.15" OffDuration="30" OverUnder="1" />
+        <SteadyState Duration="300" Power="0.72" />
+        <IntervalsT Repeat="2" OnPower="1.14" OnDuration="300" OffPower="0.72" OffDuration="300" />
+        <Cooldown Duration="600" PowerLow="0.87" PowerHigh="0.72" />
+    </workout>
+</workout_file>

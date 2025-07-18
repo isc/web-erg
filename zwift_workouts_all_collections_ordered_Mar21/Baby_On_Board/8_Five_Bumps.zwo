@@ -1,0 +1,91 @@
+<workout_file>
+    <uniqueId>dc630784-25a5-4605-ac3e-5faeda145a80</uniqueId>
+    <legacyIdHash>3550022276</legacyIdHash>
+    <author>D.Rowe (Rowe&amp;King)</author>
+    <name>Five Bumps</name>
+    <description>This session includes 5 x 2 minute progressive intervals, with 2 minutes recovery between each effort. 
+
+You should always be able to talk throughout and remember to listen to your body.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS" />
+        <tag name="Prenatal" />
+    </tags>
+    <category>Baby On Board</category>
+    <categoryIndex>8</categoryIndex>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.25" PowerHigh="0.7">
+            <textevent timeoffset="10" message="Welcome to Five Bumps! We&apos;ll start today with a 5min warmup to get the legs ready to work" locIndex="1" />
+            <textevent timeoffset="20" message="This workout is part of Baby on Board, designed by Dani Rowe and Kristin Armstrong" locIndex="2" />
+            <textevent timeoffset="30" message="This series is designed to keep you active throughout pregnancy" locIndex="3" />
+            <textevent timeoffset="40" message="by providing you with 12 weeks of 30-40 minute structured workouts" locIndex="4" />
+            <textevent timeoffset="150" message="Nice work so far, let&apos;s take a moment and chat about the plan for today." locIndex="5" />
+            <textevent timeoffset="160" message="This session includes 5 x 2 minute progressive intervals, with 2 minutes recovery between each effort." locIndex="6" />
+            <textevent timeoffset="170" message="The intervals will start off fairly &apos;easy&apos; but may start to bite towards the end as the intensity ramps up." locIndex="7" />
+            <textevent timeoffset="180" message="You are strong though and can do it!." locIndex="8" />
+            <textevent timeoffset="190" message="The key to training during pregnancy is consistency - little and often" locIndex="9" />
+            <textevent timeoffset="200" message="As a guide - you should always be able to hold a conversation during these workouts" locIndex="10" />
+            <textevent timeoffset="210" message="Keep an eye on your heart rate - you should not be anywhere near your max" locIndex="11" />
+            <textevent timeoffset="220" message="It is vital that your core body temperature doesn&apos;t get too high. Make sure you have a fan blasting and keep hydrated" locIndex="12" />
+            <textevent timeoffset="230" message="Listen to your body, and don&apos;t worry if you need to lower the bias during these workouts to complete" locIndex="13" />
+            <textevent timeoffset="240" message="Most importantly - enjoy!" locIndex="14" />
+            <textevent timeoffset="250" message="Less than 1min and we&apos;ll take a short rest before starting the interval set." locIndex="15" />
+        </Warmup>
+        <SteadyState Duration="120" Power="0.51">
+            <textevent timeoffset="20" message="Sit up, relax and take a drink before we get stuck in to today&apos;s efforts" locIndex="16" />
+            <textevent timeoffset="60" message="We are going to complete 5 x 2 minute ramped efforts up to 95% of FTP" locIndex="17" />
+            <textevent timeoffset="80" message="Ramped efforts are great because they only get tough towards the end, and not for long!" locIndex="18" />
+            <textevent timeoffset="115" message="Here we go - time to start the first ramp!" locIndex="19" />
+        </SteadyState>
+        <Ramp Duration="120" PowerLow="0.75" PowerHigh="0.95">
+            <textevent timeoffset="20" message="Settle in to the effort and find a cadence you are comfortable with" locIndex="20" />
+            <textevent timeoffset="90" message="Nice work - as the effort increases, it&apos;s important to stay composed" locIndex="21" />
+        </Ramp>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="10" message="2 minutes easy - you should see your heart rate drop nicely during this period?" locIndex="22" />
+            <textevent timeoffset="110" message="Ready for the second ramp? Here we go..." locIndex="23" />
+        </SteadyState>
+        <Ramp Duration="120" PowerLow="0.75" PowerHigh="0.95">
+            <textevent timeoffset="40" message="These ramps should feel like a solid effort, but nothing too lung busting?" locIndex="24" />
+            <textevent timeoffset="60" message="If you are struggling, reduce the bias to make the workout work for you!" locIndex="25" />
+        </Ramp>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="20" message="Time to rest again - keep drinking!" locIndex="26" />
+            <textevent timeoffset="90" message="During pregnancy, your body will be experiencing all sorts of changes" locIndex="27" />
+            <textevent timeoffset="100" message="Make sure you listen to your body - keep cool and stay away from any near max heart rate exercise" locIndex="28" />
+        </SteadyState>
+        <Ramp Duration="120" PowerLow="0.75" PowerHigh="0.95">
+            <textevent timeoffset="20" message="Your fan should be blasting - it&apos;s important not to get too hot during pregnancy" locIndex="29" />
+            <textevent timeoffset="60" message="As the effort increases, keep your body as still as possible" locIndex="30" />
+            <textevent timeoffset="90" message="A nice smooth pedaling stroke is what we are aiming for - drag the pedals up as well as pushing down" locIndex="31" />
+        </Ramp>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="20" message="Good work - we are over half way now!" locIndex="32" />
+            <textevent timeoffset="80" message="This shouldn&apos;t feel too hard but means you will keep your heart and lungs working throughout pregnancy " locIndex="33" />
+        </SteadyState>
+        <Ramp Duration="120" PowerLow="0.76" PowerHigh="0.96">
+            <textevent timeoffset="20" message="Block 4 - find your chosen cadence and settle in. 80-90rpm is generally regarded as an efficient cadence" locIndex="34" />
+            <textevent timeoffset="90" message="The final 30 seconds get slightly tougher but keep squeezing on" locIndex="35" />
+        </Ramp>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="20" message="Final rest period - we are almost there" locIndex="36" />
+            <textevent timeoffset="100" message="You can crack a smile out now - in to the home straight" locIndex="37" />
+        </SteadyState>
+        <Ramp Duration="120" PowerLow="0.75" PowerHigh="0.95">
+            <textevent timeoffset="20" message="Final ramped effort - stay composed" locIndex="38" />
+            <textevent timeoffset="60" message="Focus on the power required - not too much, not too little" locIndex="39" />
+            <textevent timeoffset="100" message="Almost there - final push now. Fantastic!" locIndex="40" />
+        </Ramp>
+        <Cooldown Duration="300" PowerLow="0.65" PowerHigh="0.35">
+            <textevent timeoffset="20" message="Good work - that&apos;s Five Bumps complete!" locIndex="41" />
+            <textevent timeoffset="90" message="Remember, the key to fitness is consistency - little and often" locIndex="42" />
+            <textevent timeoffset="140" message="How do you feel on your bike at the moment? Comfortable?" locIndex="43" />
+            <textevent timeoffset="155" message="As your body changes through pregnancy, you may need to tweak your position by flipping your stem" locIndex="44" />
+            <textevent timeoffset="170" message="Flip your stem upside down, to raise your handlebars which should give your bump more space" locIndex="45" />
+            <textevent timeoffset="185" message="This is something that we (Dani and Kristin) both did, which helped massively" locIndex="46" />
+            <textevent timeoffset="220" message="You should not have felt excessively hot during today&apos;s workout" locIndex="47" />
+            <textevent timeoffset="240" message="It&apos;s vital that your core body temperature doesn&apos;t get too high during pregnancy" locIndex="48" />
+            <textevent timeoffset="290" message="See you on the next Workout - Dani and Kristin" locIndex="49" />
+        </Cooldown>
+    </workout>
+</workout_file>

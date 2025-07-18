@@ -1,0 +1,83 @@
+<workout_file>
+    <uniqueId>3cba6472-7168-453d-a18c-80ebb3cab7f5</uniqueId>
+    <legacyIdHash>1374931575</legacyIdHash>
+    <author>Kristin Armstrong</author>
+    <categoryOverride>Sprinting</categoryOverride>
+    <name>Week 11.2 - Microbursts 30&apos;s</name>
+    <description>Microbursts are great to do on a regular basis to make sure that you can change speeds anytime no matter the activity you are doing as well as handle power fluctuations on the bike. Each set consists of 10x 30 seconds on (120-130% of FTP) and :15 seconds off (40-50% of FTP). These will definitely be entertaining for the mind yet very challenging for everyone. The great thing about this workout is you will see improvement from the first time doing this to the 2nd and beyond.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <tags />
+    <category>Back to Fitness</category>
+    <subcategory>Week 11</subcategory>
+    <workout>
+        <Warmup Duration="600" PowerHigh=".7" PowerLow=".4">
+            <textevent message="Hello and welcome to Microbursts 30&apos;s." locIndex="1" timeoffset="0" />
+            <textevent message="Let&apos;s get the legs turning over and start warming up." locIndex="2" timeoffset="10" />
+            <textevent message="Keep your cadence comfortable and stay relaxed here." locIndex="3" timeoffset="20" />
+            <textevent message="So far so good? Keep on easing into the day here." locIndex="4" timeoffset="180" />
+            <textevent message="All right, that&apos;s halfway through today&apos;s warm up. Let&apos;s chat about what&apos;s on tap for today." locIndex="5" timeoffset="300" />
+            <textevent message="Today, we have 2 sets of microburst intervals which consist of 30sec of work, with 15sec of rest." locIndex="6" timeoffset="310" />
+            <textevent message="These will be a challenge for you, especially as the interval set progresses." locIndex="7" timeoffset="320" />
+            <textevent message="Microbursts are great to do on a regular basis to make sure that you can change speeds anytime no matter the activity you are doing as well as handle power fluctuations on the bike." locIndex="8" timeoffset="330" />
+            <textevent message="The great thing about this workout is you will see improvement from the first time doing this to the 2nd and beyond." locIndex="9" timeoffset="340" />
+            <textevent message="Let&apos;s carry on with the warm up." locIndex="10" timeoffset="350" />
+            <textevent message="1 minute to get, then we&apos;ll take it easy for a couple of minutes before tackling the main set." locIndex="11" timeoffset="540" />
+        </Warmup>
+        <SteadyState Duration="120" Power="0.6">
+            <textevent message="Great work! Let&apos;s take some deep breaths here now and freshen up for the main set." locIndex="12" timeoffset="0" />
+            <textevent message="Make sure you&apos;re sipping fluids frequently today too." locIndex="13" timeoffset="60" />
+            <textevent message="Okay in 30sec, we&apos;re on. Get ready for a hard surge in effort with short rest." locIndex="14" timeoffset="90" />
+            <textevent message="Here we go!" locIndex="15" timeoffset="110" />
+        </SteadyState>
+        <IntervalsT OffDuration="15" OffPower="0.35" OnDuration="30" OnPower="1.25" Repeat="12">
+            <textevent message="Pace yourself for these, they&apos;ll add up after 6 or so!" locIndex="16" timeoffset="0" />
+            <textevent message="Good work. Quick rest now and then we&apos;re right back up again." locIndex="17" timeoffset="30" />
+            <textevent message="GO GO GO!" locIndex="18" timeoffset="45" />
+            <textevent message="Stay relaxed, we still have a lot more to go." locIndex="19" timeoffset="75" />
+            <textevent message="UP UP UP!" locIndex="20" timeoffset="90" />
+            <textevent message="Excellent! You get the idea for these now." locIndex="21" timeoffset="120" />
+            <textevent message="PUSH YOURSELF!" locIndex="22" timeoffset="135" />
+            <textevent message="AGAIN! GO GO!" locIndex="23" timeoffset="180" />
+            <textevent message="Keep the pressure on! DIG!" locIndex="24" timeoffset="225" />
+            <textevent message="Keep your cadence up! Don&apos;t let it drop." locIndex="25" timeoffset="270" />
+            <textevent message="HIT IT!" locIndex="26" timeoffset="315" />
+            <textevent message="We&apos;re almost there, stay with me!" locIndex="27" timeoffset="360" />
+            <textevent message="POWER UP!" locIndex="28" timeoffset="405" />
+            <textevent message="C&apos;mon! You can do this!" locIndex="29" timeoffset="450" />
+            <textevent message="ALmost there now, PUSH PUSH!" locIndex="30" timeoffset="495" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.55">
+            <textevent message="Great work!  Let&apos;s hydrate, spin easy and conquer our next and final set!" locIndex="31" timeoffset="0" />
+            <textevent message="Use this time to really relax and recollect yourself." locIndex="32" timeoffset="10" />
+            <textevent message="We&apos;ll catch up with 1min to go." locIndex="33" timeoffset="20" />
+            <textevent message="All right, hopefully you&apos;re feeling relaxed, recovered, and ready!" locIndex="34" timeoffset="240" />
+            <textevent message="We&apos;ll repeat that same interval set as before next." locIndex="35" timeoffset="250" />
+            <textevent message="But, expect this time to feel a little more difficult due to residual fatigue from the 1st set." locIndex="36" timeoffset="260" />
+            <textevent message="Here we go again!" locIndex="37" timeoffset="290" />
+        </SteadyState>
+        <IntervalsT OffDuration="15" OffPower="0.35" OnDuration="30" OnPower="1.25" Repeat="12">
+            <textevent message="Pace yourself for these, they&apos;ll add up after 6 or so!" locIndex="38" timeoffset="0" />
+            <textevent message="Good work. Quick rest now and then we&apos;re right back up again." locIndex="39" timeoffset="30" />
+            <textevent message="GO GO GO!" locIndex="40" timeoffset="45" />
+            <textevent message="Stay relaxed, we still have a lot more to go." locIndex="41" timeoffset="75" />
+            <textevent message="UP UP UP!" locIndex="42" timeoffset="90" />
+            <textevent message="Excellent! You get the idea for these now." locIndex="43" timeoffset="120" />
+            <textevent message="PUSH YOURSELF!" locIndex="44" timeoffset="135" />
+            <textevent message="AGAIN! GO GO!" locIndex="45" timeoffset="180" />
+            <textevent message="Keep the pressure on! DIG!" locIndex="46" timeoffset="225" />
+            <textevent message="Keep your cadence up! Don&apos;t let it drop." locIndex="47" timeoffset="270" />
+            <textevent message="HIT IT!" locIndex="48" timeoffset="315" />
+            <textevent message="We&apos;re almost there, stay with me!" locIndex="49" timeoffset="360" />
+            <textevent message="POWER UP!" locIndex="50" timeoffset="405" />
+            <textevent message="C&apos;mon! You can do this!" locIndex="51" timeoffset="450" />
+            <textevent message="ALmost there now, PUSH PUSH!" locIndex="52" timeoffset="495" />
+        </IntervalsT>
+        <SteadyState Duration="180" Power="0.55">
+            <textevent message="Great work!  And congratulations on completing your intro to Microbursts!" locIndex="53" timeoffset="0" />
+            <textevent message="Take care of yourself by hydrating and refueling so you feel recovered and ready to go again for your next session!" locIndex="54" timeoffset="60" />
+            <textevent message="Take a few more deep breaths here as we continue to return to baseline." locIndex="55" timeoffset="90" />
+            <textevent message="See you on the next workout - Dani and Kristin." locIndex="56" timeoffset="110" />
+        </SteadyState>
+    </workout>
+</workout_file>

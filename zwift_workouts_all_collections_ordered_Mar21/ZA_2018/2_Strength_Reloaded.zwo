@@ -1,0 +1,98 @@
+<workout_file>
+    <uniqueId>95618834-6e85-497d-8715-71d5a74f317c</uniqueId>
+    <legacyIdHash>2478308244</legacyIdHash>
+    <author>Zwift Academy Coaches</author>
+    <categoryOverride>Best of Zwift Academy</categoryOverride>
+    <subcategoryOverride>ZA 2018</subcategoryOverride>
+    <name>Strength Reloaded</name>
+    <activitySaveName>Zwift Academy 2018 Workout #2: Strength Reloaded</activitySaveName>
+    <description>This session was a favorite from Zwift Academy 2017! This time with a little twist...
+
+The first part is designed to squeeze you. Working your strength and ability to generate power through high-torque efforts. 
+
+Finishing the session with some 1 x 1 minute efforts, these simulate rolling through in a group, pushing hard on the front and having to maintain the power for the &apos;recovery&apos; element.</description>
+    <sportType>bike</sportType>
+    <visibleAfterTime>1533538860</visibleAfterTime>
+    <overrideHash>2478308244</overrideHash>
+    <category>Zwift Academy 2018</category>
+    <categoryIndex>2</categoryIndex>
+    <tags>
+        <tag name="Zwift Academy" />
+    </tags>
+    <workout>
+        <Warmup Duration="180" PowerLow="0.45" PowerHigh=".6">
+            <textevent timeoffset="0" message="Welcome to the second 2018 Zwift Academy workout." locIndex="1" />
+            <textevent timeoffset="30" message="We&apos;ll start the warm up nice and gradually, ramping up the power each step." locIndex="2" />
+        </Warmup>
+        <SteadyState Duration="180" Power="0.7" />
+        <SteadyState Duration="180" Power="0.8" />
+        <SteadyState Duration="180" Power="0.9" />
+        <SteadyState Duration="180" Power="0.55">
+            <textevent timeoffset="0" message="Take it easy for a few minutes before we get into the core of the session. " locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.85" Cadence="65">
+            <textevent timeoffset="0" message="Now we&apos;ll start the low cadence, seated efforts." locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.55">
+            <textevent timeoffset="0" message="Spin your cadence back up to normal here." locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.85" Cadence="65">
+            <textevent timeoffset="0" message="This is another low cadence, seated effort. " locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.55">
+            <textevent timeoffset="0" message="Bring your cadence back up to normal again." locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.85" Cadence="65">
+            <textevent timeoffset="0" message="Another low cadence, seated efforts. You should be getting into a rhythm now." locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.55">
+            <textevent timeoffset="0" message="Back up to high cadence for this rest period" locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.85" Cadence="65">
+            <textevent timeoffset="0" message="One more low cadence, seated effort. Focus on pushing from your glutes." locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.55">
+            <textevent timeoffset="0" message="and another high cadence rest period. Then straight into the next section." locIndex="11" />
+            <textevent timeoffset="240" message="Next up are the 1mins on/off. These will feel progressively tougher as the recovery is limited." locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.38">
+            <textevent timeoffset="0" message="1 minute max effort! Stay seated and keep the power smooth." locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.69">
+            <textevent timeoffset="0" message="The &apos;recovery&apos; is still tough and will get progressively harder towards the end." locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.38">
+            <textevent timeoffset="0" message="Another 1 minute effort! Remain seated and focus on smooth power" locIndex="15" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.69">
+            <textevent timeoffset="0" message="Try to quickly get into a rhythm during the recovery period, as hard as that feels." locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.38">
+            <textevent timeoffset="0" message="Stay seated and try to keep composed on the bike" locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.69">
+            <textevent timeoffset="0" message="Try to catch your breath here. That&apos;s half the set done." locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.38">
+            <textevent timeoffset="0" message="Keep your breathing under control and remain seated." locIndex="19" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.69">
+            <textevent timeoffset="0" message="Two efforts left now. The end is in sight." locIndex="20" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.38">
+            <textevent timeoffset="0" message="This is the penultimate minute of hard effort. Make it count. You got this. " locIndex="21" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.69">
+            <textevent timeoffset="0" message="One more hard effort and this workout is done. Grab a quick drink and get ready to nail it. " locIndex="22" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.38">
+            <textevent timeoffset="0" message="Last one. This will be the toughest yet. Crush it." locIndex="23" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.69">
+            <textevent timeoffset="0" message="That&apos;s the hard work out of the way. Tick off this last minute and then it&apos;s straight into the cool down." locIndex="24" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow="0.7" PowerHigh=".45">
+            <textevent timeoffset="0" message="Nice and easy to cool down. Well done! " locIndex="25" />
+        </Cooldown>
+    </workout>
+</workout_file>

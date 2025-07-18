@@ -1,0 +1,93 @@
+<workout_file>
+    <uniqueId>20a6a0c2-50f7-4c10-9526-a283539de7b8</uniqueId>
+    <legacyIdHash>2750873968</legacyIdHash>
+    <author>Zwift</author>
+    <categoryOverride>Endurance</categoryOverride>
+    <name>Endurance Building Blocks</name>
+    <description>Today we&apos;ve got a nice &quot;easy&quot; aerobic effort for you today. The last 3 blocks will go up to 90% but just for a bit. Goal of today is to just get on the bike and put a little bit of pressure on the pedals, but not too much. 
+
+If you&apos;d like to visualize these builds as hills and smooth and steady climbing, please do. In fact, do! Good aerobic effort is all I&apos;m looking for, so please don&apos;t go above what is prescribed for today. More hard stuff this week to focus on.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Gravel Grinder</category>
+    <subcategory>Week 2</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow="0.45" PowerHigh="0.65">
+            <textevent timeoffset="0" message="We&apos;ll start our day of builds with a build!" locIndex="1" />
+        </Warmup>
+        <SteadyState Duration="120" Power="0.7">
+            <textevent timeoffset="0" message="Another build coming, but not too hard, just a slight grade if you&apos;re doing that visualization. " locIndex="2" />
+            <textevent timeoffset="10" message="As we build the intensity, you can lower your cadence, but keep 70 RPM at minimum. " locIndex="23" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.75">
+            <textevent timeoffset="0" message="Another 2 minutes build but just to 75%. " locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.8">
+            <textevent timeoffset="0" message="When we are doing these builds focus on keeping the same &quot;form&quot; throughout! Stay smooth!" locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.85">
+            <textevent timeoffset="0" message="Keep the arms loose and shoulders relaxed as we build the effort. " locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.55">
+            <textevent timeoffset="0" message="Real easy between these blocks as if on an easy descent. " locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.7">
+            <textevent timeoffset="0" message="Do this same build again. Nice and smooth. " locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.75">
+            <textevent timeoffset="0" message="How are your RPM&apos;s? Are you staying smooth throughout your pedal stroke?" locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.8">
+            <textevent timeoffset="0" message="When training for gravel it&apos;s ok to let your RPM&apos;s slow a little when we hit steeper climbs. " locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.85">
+            <textevent timeoffset="0" message="The course will MAKE us ride lower RPM&apos;s in many races, so prepare when you can!" locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.55">
+            <textevent timeoffset="0" message="But find nice and high RPM&apos;s always during your recovery!" locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.55">
+            <textevent timeoffset="0" message="A little extended recovery on this one so that we can be ready for the next blocks that are a little but tougher. " locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.75">
+            <textevent timeoffset="0" message="Are you hydrating well today?  Still important to hydrate well on easier rides. " locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.85">
+            <textevent timeoffset="0" message="Keep things smooth as you build up here. " locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.9">
+            <textevent timeoffset="0" message="Last few minutes a little tougher on this one. " locIndex="15" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.55">
+            <textevent timeoffset="0" message="Real easy days. " locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.75">
+            <textevent timeoffset="0" message="Easy days on these builds. " locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.85">
+            <textevent timeoffset="0" message="Keep the upper body relaxed and calm as the effort increases. " locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.9">
+            <textevent timeoffset="0" message="Important to keep your &quot;core&quot; engaged still, but we want to be relaxed in shoulders, arms, and neck. " locIndex="19" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.55">
+            <textevent timeoffset="0" message="Last recovery block during this workout. ENJOY!" locIndex="20" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.75">
+            <textevent timeoffset="0" message="Get the RPM&apos;s moving here especially on the &quot;lower&quot; sections of this climb. " locIndex="21" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.85">
+            <textevent timeoffset="0" message="Good work so far here." />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.9">
+            <textevent timeoffset="0" message="Almost done! Keep it up." locIndex="23" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.55">
+            <textevent timeoffset="0" message="And...DONE. " locIndex="24" />
+        </SteadyState>
+        <Cooldown Duration="600" PowerLow="0.55" PowerHigh="0.45">
+            <textevent timeoffset="0" message="Except for this cool down. " locIndex="25" />
+        </Cooldown>
+    </workout>
+</workout_file>

@@ -1,0 +1,69 @@
+<workout_file>
+    <uniqueId>c1415022-cbfa-47e3-b48a-043dababd5a5</uniqueId>
+    <legacyIdHash>3644281360</legacyIdHash>
+    <author>Zwift</author>
+    <categoryOverride>Threshold</categoryOverride>
+    <name>Over-Unders &amp; Over-ATS</name>
+    <description>Today we are doing a workout type that you&apos;ve likely heard of before the &quot;Over Under&quot;. Technically, this one isn&apos;t as it doesn&apos;t go &quot;over&quot; threshold, but just getting you warmed up as this plan moves forward. This workout will give you a fair amount of threshold time combined with some good zone 3 time as well. 
+
+Find your rhythm inside of these 3 blocks and use good cadence to get through the 100% sections. 
+
+This type of workout is great for gravel as it works that 80-85% FTP zone that I feel is often ridden in during these events. Of course the terrain will cause you to ride above that zone frequently and this workout will mimmic that delightful experiance.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Gravel Grinder</category>
+    <subcategory>Week 2</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="720" PowerLow="0.45" PowerHigh="0.70">
+            <textevent timeoffset="0" message="Nice and easy to start today as usual. " locIndex="1" />
+            <textevent timeoffset="360" message="Get comfortable as we roll through these easy days. " locIndex="2" />
+        </Warmup>
+        <IntervalsT Repeat="3" OnDuration="120" OffDuration="120" OnPower="0.80" OffPower="0.6">
+            <textevent timeoffset="0" message="I would LOVE to see a little higher RPM&apos;s to get those legs moving and make these slightly elevated watts a little easier. " locIndex="3" />
+            <textevent timeoffset="120" message="Find a cadence that is comfortable for you in this recovery. " locIndex="4" />
+            <textevent timeoffset="240" message="Pick up that cadence now. " locIndex="5" />
+            <textevent timeoffset="360" message="Easy times for you. " locIndex="6" />
+            <textevent timeoffset="480" message="Last little bit of the warm up now, tick em over! " locIndex="7" />
+            <textevent timeoffset="600" message="Last rest before the work. Enjoy " locIndex="8" />
+        </IntervalsT>
+        <IntervalsT Repeat="3" OnDuration="120" OffDuration="60" OnPower="0.85" OffPower="1">
+            <textevent timeoffset="0" message="Now into the actual work for today, find your rhythm. " locIndex="9" />
+            <textevent timeoffset="120" message="Now bumped up to 100% of FTP. Use those efficient RPM&apos;s. " locIndex="10" />
+            <textevent timeoffset="180" message="Find comfort coming back down to this effort. " locIndex="11" />
+            <textevent timeoffset="300" message="Right back into FTP, be smooth, be smooth! " locIndex="12" />
+            <textevent timeoffset="360" message="Is this effort starting to feel like recovery yet? " locIndex="13" />
+            <textevent timeoffset="480" message="One more minute to go, great work! " locIndex="14" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.55">
+            <textevent timeoffset="0" message="Nice and long recovery on this one folks. Easy days. " locIndex="15" />
+            <textevent timeoffset="111" message="Were you super smooth in the transfers between 85-100%? Try to make that transition seamless! " locIndex="16" />
+        </SteadyState>
+        <IntervalsT Repeat="3" OnDuration="120" OffDuration="60" OnPower="0.85" OffPower="1">
+            <textevent timeoffset="0" message="And... you are right back at it! Smooth and comfortable pedal strokes!" locIndex="17" />
+            <textevent timeoffset="120" message="More pressure on the pedals but be &quot;light&quot; on them! Smooth. " locIndex="18" />
+            <textevent timeoffset="180" message="Ahhh, feels easy now, right? " locIndex="19" />
+            <textevent timeoffset="300" message="Remember that part about being seamless? " locIndex="20" />
+            <textevent timeoffset="360" message="When I say seamless, I mean if someone was to walk in on you, they wouldn&apos;t know you changed your effort. " locIndex="21" />
+            <textevent timeoffset="480" message="Smooth.Seamless. " locIndex="22" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.55">
+            <textevent timeoffset="0" message="Rest time already again? Sweet!" locIndex="23" />
+            <textevent timeoffset="200" message="Getting some good recovery in? How about hydration? " locIndex="24" />
+        </SteadyState>
+        <IntervalsT Repeat="3" OnDuration="120" OffDuration="60" OnPower="0.85" OffPower="1">
+            <textevent timeoffset="0" message="Last main block here. Let&apos;s make it as good as the first. " locIndex="25" />
+            <textevent timeoffset="120" message="These minutes starting to get to you?  Maybe just a little, but I promise they will get easier!" locIndex="26" />
+            <textevent timeoffset="180" message="When I say they will get easier, I didn&apos;t mean today, next time through though! " locIndex="27" />
+            <textevent timeoffset="300" message="Come on now, let&apos;s go! Keep these as smooth as the first time. " locIndex="28" />
+            <textevent timeoffset="320" message="Who am I kidding? It&apos;s never as good as the first time.  " locIndex="29" />
+            <textevent timeoffset="360" message="Last round, let&apos;s make it the smoothest! " locIndex="30" />
+            <textevent timeoffset="480" message="Nice smooth power! " locIndex="31" />
+            <textevent timeoffset="512" message="Almost there now. " locIndex="32" />
+        </IntervalsT>
+        <Cooldown Duration="300" PowerLow="0.55" PowerHigh="0.45">
+            <textevent timeoffset="0" message="Good work! Easy cool down and you&apos;re done!" locIndex="33" />
+            <textevent timeoffset="60" message="Nice stuff today. Did you feel like you stayed smooth? If not let&apos;s focus on that the next workout! " locIndex="34" />
+        </Cooldown>
+    </workout>
+</workout_file>

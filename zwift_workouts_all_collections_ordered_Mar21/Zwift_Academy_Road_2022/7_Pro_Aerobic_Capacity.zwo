@@ -1,0 +1,152 @@
+<workout_file>
+    <uniqueId>0e6686c8-1b74-42f3-910d-3032f8885312</uniqueId>
+    <legacyIdHash>3554357076</legacyIdHash>
+    <author>Dig Deep Coaching and Shayne Gaffney</author>
+    <name>Pro Contender.1 - Aerobic Capacity</name>
+    <activitySaveName>Zwift Academy Road: Aerobic Capacity</activitySaveName>
+    <description>Are you ready to dig deep today and prove yourself? I knew it! Riders going for the Pro Contender selection must hit a designated w/kg during the 4min AND 12min effort. We&apos;ll start with a warm-up that includes x3 2:30min priming sessions that should not negatively impact your aerobic capacity if you&apos;re at a good level of fitness. Then we&apos;ll do a 4min Free ride to act as a good indication of your max aerobic power (MAP) in a fresh state. Because I&apos;m so nice, we&apos;ll take a 10min recovery before the next phase. Riders with inadequate lactate clearance may struggle to recover fully from the 12min capacity effort, and this workout is designed to see this in athletes with poor aerobic capabilities. The 10min sub-threshold attempt will be set at a target power below FTP. This is to induce some muscular fatigue before the 12min capacity and stress those riders with poor recovery capabilities, leaving riders with a better aerobic engine to hit higher powers in the 12min capacity.</description>
+    <sportType>bike</sportType>
+    <category>Zwift Academy 2022</category>
+    <subcategory>Pro Contender</subcategory>
+    <visibleAfterTime>1662994800</visibleAfterTime>
+    <hiddenAfterTime>1664150340</hiddenAfterTime>
+    <overrideHash>3554357076</overrideHash>
+    <tags>
+        <tag name="Zwift Academy" />
+        <tag name="zar2022" />
+    </tags>
+    <workout>
+        <SteadyState Duration="300" Power="0.6">
+            <textevent timeoffset="0" message="Welcome to the Aerobic Capacity workout of the 2022 Zwift Academy Road!" locIndex="1" />
+            <textevent timeoffset="10" message="We&apos;ll start off with a progressive warm up - keep your cadence comfortable." locIndex="2" />
+            <textevent timeoffset="60" message="Keep your cadence steady as the power ramps up." locIndex="3" />
+            <textevent timeoffset="120" message="So far so good? Hopefully you&apos;re starting to loosen up a bit." locIndex="4" />
+            <textevent timeoffset="180" message="Okay, you should be settled in by now - let&apos;s chat about today&apos;s workout." locIndex="5" />
+            <textevent timeoffset="190" message="First things first, this session is aimed at those who wish to be considered for a pro contract." locIndex="6" />
+            <textevent timeoffset="200" message="Because of that, today will be EXTREMELY challenging." locIndex="7" />
+            <textevent timeoffset="210" message="This isn&apos;t to say it&apos;s not for everyone though, but definitely expect to be pushed VERY hard today." locIndex="8" />
+            <textevent timeoffset="220" message="We have a few testing efforts in store for today, including 4min and 12min efforts." locIndex="9" />
+            <textevent timeoffset="230" message="The 4min effort will be a good indication of your max aerobic power (MAP) in a fresh state." locIndex="10" />
+            <textevent timeoffset="240" message="Then, the real &apos;fun&apos; begins with the longer efforts." locIndex="11" />
+            <textevent timeoffset="250" message="Riders with in-adequate lactate clearance may struggle to recover fully for 12min capacity." locIndex="12" />
+            <textevent timeoffset="260" message="the workout is designed to see this in athletes with poor aerobic capabilities." locIndex="13" />
+            <textevent timeoffset="270" message="The 10min sub-threshold effort will be set at a target power just below FTP." locIndex="14" />
+            <textevent timeoffset="280" message="This is to induce some muscular fatigue prior to the 12min capacity efforts, but also to stress those riders with poor recovery capabilities..." locIndex="15" />
+            <textevent timeoffset="290" message="leaving riders with a better aerobic engine to hit higher powers in the 12min capacity effort (hint hint)." locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.7">
+            <textevent timeoffset="0" message="Okay, let&apos;s pick it up just a bit more here." locIndex="17" />
+            <textevent timeoffset="120" message="In 1min, we&apos;ll pick it up a bit higher, keep easing into the day here, no pressure." locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.8">
+            <textevent timeoffset="0" message="Alright, little bit more here, keep yourself focused and calm." locIndex="19" />
+            <textevent timeoffset="60" message="Final minute." locIndex="20" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.55">
+            <textevent timeoffset="0" message="Great work! Let&apos;s take it easy for a few here, then we&apos;ll do a few priming efforts." locIndex="21" />
+            <textevent timeoffset="120" message="Alright, in 1min we&apos;ll do 3 priming efforts. These ensure the legs are fully ready to put the work in." locIndex="22" />
+            <textevent timeoffset="130" message="These priming efforts should not have a negative impact on capacity work if you&apos;re at a good level of fitness." locIndex="23" />
+            <textevent timeoffset="170" message="Okay, ready? Prepare yourself for a big surge in effort." locIndex="24" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.02">
+            <textevent timeoffset="0" message="Pick it up a bit higher now, but you&apos;re in total control still." locIndex="25" />
+            <textevent timeoffset="90" message="Up next, we&apos;ll surge well over FTP for 30sec, get ready to dig deep." locIndex="26" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.3">
+            <textevent timeoffset="0" message="PUSH IT!" locIndex="27" />
+            <textevent timeoffset="20" message="TO THE LINE!" locIndex="28" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.65">
+            <textevent timeoffset="0" message="Very nice! Let&apos;s take it down again and recover for a moment, we&apos;ll do that twice more." locIndex="29" />
+            <textevent timeoffset="120" message="Take a few more deep breath here and get yourself ready to go again." locIndex="30" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.02">
+            <textevent timeoffset="0" message="Let&apos;s go!" locIndex="31" />
+            <textevent timeoffset="90" message="30sec more and we&apos;ll push to the line again!" locIndex="32" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.3">
+            <textevent timeoffset="0" message="UP UP UP!" locIndex="33" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.65">
+            <textevent timeoffset="0" message="Phew! Nice job today! These are really helpful before doing a big effort." locIndex="34" />
+            <textevent timeoffset="150" message="Okay, final primer coming up in 30sec, ready or not..." locIndex="35" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.02">
+            <textevent timeoffset="0" message="GO GO GO! Last big push for the warm up." locIndex="36" />
+            <textevent timeoffset="90" message="30sec to go, stay with it!" locIndex="37" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.3">
+            <textevent timeoffset="0" message="Final push! ALL THE WAY!" locIndex="38" />
+            <textevent timeoffset="20" message="GO GO GO!" locIndex="39" />
+        </SteadyState>
+        <SteadyState Duration="600" Power="0.65">
+            <textevent timeoffset="0" message="Excellent! That&apos;s it for the warm up for today, you&apos;re ready!" locIndex="40" />
+            <textevent timeoffset="10" message="We&apos;ll take a full 10min recovery here now before we begin the testing efforts." locIndex="41" />
+            <textevent timeoffset="20" message="Use this time to prepare your mind to dig deep, but be confident in your abilities." locIndex="42" />
+            <textevent timeoffset="240" message="Relax your shoulders, bend your elbows slightly, and continue to clear your mind." locIndex="43" />
+            <textevent timeoffset="480" message="Coming up in 2min, we have our first testing effort today which is a 4min full gas effort." locIndex="44" />
+            <textevent timeoffset="490" message="This effort will be a good indication of your max aerobic power (MAP) in a fresh state." locIndex="45" />
+            <textevent timeoffset="500" message="MAP is the maximum rate at which oxygen can be used during a specified period." locIndex="46" />
+            <textevent timeoffset="570" message="30sec and we&apos;re on! Take a few last deep breaths here and get ready to really dig deep." locIndex="47" />
+            <textevent timeoffset="580" message="The effort will be done with ERG OFF, so you&apos;ll be using your gears to generate the power." locIndex="48" />
+            <textevent timeoffset="590" message="Let&apos;s do it!" locIndex="49" />
+        </SteadyState>
+        <FreeRide Duration="240" FlatRoad="1" show_avg="1">
+            <textevent timeoffset="0" message="Start off hard, but manageable here - remember this is a 4min effort." locIndex="50" />
+            <textevent timeoffset="60" message="KEEP GOING! 1min down." locIndex="51" />
+            <textevent timeoffset="120" message="HALFWAY! Turn it up higher if you can!" locIndex="52" />
+            <textevent timeoffset="180" message="Final minute! Don&apos;t let your power drop now!" locIndex="53" />
+            <textevent timeoffset="210" message="Get ready to push to the line!" locIndex="54" />
+            <textevent timeoffset="230" message="TO THE LINE!" locIndex="55" />
+        </FreeRide>
+        <SteadyState Duration="600" Power="0.55">
+            <textevent timeoffset="0" message="Phew! That was a great effort!" locIndex="56" />
+            <textevent timeoffset="10" message="Keep the pedals moving here and let&apos;s recover." locIndex="57" />
+            <textevent timeoffset="120" message="Deep breaths in through your nose and out through your mouth." locIndex="58" />
+            <textevent timeoffset="240" message="Have a few sips of fluid here too, don&apos;t forget to drink during these hard workouts." locIndex="59" />
+            <textevent timeoffset="360" message="Hopefully you&apos;re feeling a bit recovered now, we have 1 more big effort to get through." locIndex="60" />
+            <textevent timeoffset="480" message="Up next, we have a 10min sub-threshold effort to tackle." locIndex="61" />
+            <textevent timeoffset="480" message="This effort will be set at a target power just below FTP." locIndex="62" />
+            <textevent timeoffset="490" message="this is to induce some muscular fatigue prior to the 12min capacity effort..." locIndex="63" />
+            <textevent timeoffset="500" message="but also to stress those riders with poor recovery capabilities." locIndex="64" />
+            <textevent timeoffset="570" message="Alright, in 30sec we&apos;re on!" locIndex="65" />
+        </SteadyState>
+        <SteadyState Duration="600" Power="0.95">
+            <textevent timeoffset="0" message="Let&apos;s go! Keep your cadence consistent here and just get into a groove." locIndex="66" />
+            <textevent timeoffset="120" message="Settle down into this effort now, keep yourself focused and relaxed." locIndex="67" />
+            <textevent timeoffset="240" message="You can do this! Keep with it here." locIndex="68" />
+            <textevent timeoffset="360" message="Strong, steady, and smooth. Keep going!" locIndex="69" />
+            <textevent timeoffset="480" message="2min to go, Your cadence should be the same as it was during the first minute." locIndex="70" />
+            <textevent timeoffset="540" message="1min to go! PUSH YOURSELF!" locIndex="71" />
+            <textevent timeoffset="590" message="TO THE LINE!" locIndex="72" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.55">
+            <textevent timeoffset="0" message="Amazing work! Now, we&apos;ll take a few minutes recovery before we move onto the final test." locIndex="73" />
+            <textevent timeoffset="60" message="This upcoming 12min effort will also be done with ERG OFF, so you&apos;ll be using your gears to generate the power." locIndex="74" />
+            <textevent timeoffset="120" message="1min to go and we&apos;re on, shake things out and do a final mental prep." locIndex="75" />
+            <textevent timeoffset="170" message="Ready? Final big push for the day here!" locIndex="76" />
+        </SteadyState>
+        <FreeRide Duration="720" FlatRoad="1" show_avg="1">
+            <textevent timeoffset="0" message="Push yourself hard again here, but this is a long effort." locIndex="77" />
+            <textevent timeoffset="10" message="Pace yourself as best you can." locIndex="78" />
+            <textevent timeoffset="60" message="Settle down into this and DRIVE IT!" locIndex="79" />
+            <textevent timeoffset="180" message="The legs should feel fatigued here, but that&apos;s the idea." locIndex="80" />
+            <textevent timeoffset="190" message="We&apos;re really trying to stress those riders with poor recovery capabilities..." locIndex="81" />
+            <textevent timeoffset="200" message="leaving riders with a better aerobic engine to hit higher powers and rise to the top" locIndex="82" />
+            <textevent timeoffset="300" message="Keep at it here, PUSH!" locIndex="83" />
+            <textevent timeoffset="360" message="Halfway through here, let&apos;s keep this going! You&apos;re doing awesome!" locIndex="84" />
+            <textevent timeoffset="480" message="Stay with me here, now&apos;s the time to really focus and continue to keep the pressure on." locIndex="85" />
+            <textevent timeoffset="600" message="2min to go, UP UP UP." locIndex="86" />
+            <textevent timeoffset="660" message="Final minute! Don&apos;t leave anything on the table here!" locIndex="87" />
+            <textevent timeoffset="710" message="GET TO THE ARCH!" locIndex="88" />
+        </FreeRide>
+        <Cooldown Duration="300" PowerHigh="0.45" PowerLow="0.65">
+            <textevent timeoffset="0" message="Phew! Really nice effort there, my friend!" locIndex="89" />
+            <textevent timeoffset="10" message="We&apos;ll do a cool down now, then check this one off the list." locIndex="90" />
+            <textevent timeoffset="120" message="Keep easing off the gas here." locIndex="91" />
+            <textevent timeoffset="150" message="Be sure to refuel and rehydrate well between sessions." locIndex="92" />
+            <textevent timeoffset="180" message="You worked hard today and really showed you&apos;re commitment - awesome work!" locIndex="93" />
+            <textevent timeoffset="290" message="Ride On!" locIndex="94" />
+        </Cooldown>
+    </workout>
+</workout_file>

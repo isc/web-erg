@@ -1,0 +1,151 @@
+<workout_file>
+    <uniqueId>eb894389-c5d1-4ad9-a607-029194ecb2e1</uniqueId>
+    <legacyIdHash>2608870629</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <categoryOverride>Sprinting</categoryOverride>
+    <name>Accelerations</name>
+    <description>The ability to accelerate into corners and to be better placed for the start of a climb is an important factor in any MTB race. But quite often these accelerations occur from an already high, steady power.
+
+In this session, we replicate this demand by completing a series of sprints that are preceded by a steady state effort.
+
+</description>
+    <sportType>bike</sportType>
+    <category>Singletrack Slayer</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <subcategory>Week 1</subcategory>
+    <tags>
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.42" PowerHigh="0.7">
+            <textevent timeoffset="20" message="Accelerating multiple times is necessary to better position yourself before a climb or into the final corner." locIndex="1" />
+            <textevent timeoffset="80" message="In this session we train for this demand by completing some &quot;open&quot; accelerations." locIndex="2" />
+            <textevent timeoffset="140" message="Complete these sprints with a mix of standing and seated positioning." locIndex="3" />
+            <textevent timeoffset="180" message="The accelerations in this workout are performed as a free-ride, with no set target power." locIndex="4" />
+            <textevent timeoffset="200" message="This is because the aim is to repeat high cadence accelerations." locIndex="5" />
+            <textevent timeoffset="220" message="The power you hit is not important." locIndex="6" />
+            <textevent timeoffset="240" message="Everyone will have a different power achieved here, so the efforts are performed with no ceiling." locIndex="7" />
+            <textevent timeoffset="260" message="It&apos;s best to complete the session in ERG mode to automatically disengage/engage on the free-rides." locIndex="8" />
+        </Warmup>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="60" message="The main part of our warmup involves a steady effort leading into 4 accelerations in quick succession." locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.7">
+            <textevent timeoffset="40" message="Aim to hit a high cadence in these opening sprints." locIndex="10" />
+            <textevent timeoffset="100" message="Perform some seated and some standing." locIndex="11" />
+            <textevent timeoffset="170" message="ready for the 1st effort." locIndex="12" />
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="10" OffDuration="50" OnPower="1.75" OffPower="0.5">
+            <textevent timeoffset="20" message="Nice work." locIndex="13" />
+            <textevent timeoffset="50" message="Aim to hit a higher cadence in this next effort." locIndex="14" />
+            <textevent timeoffset="110" message="Mix up the efforts with standing and seated." locIndex="15" />
+        </IntervalsT>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="60" message="To complete the warmup we have a steady threshold effort." locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.9">
+            <textevent timeoffset="30" message="Settle into a nice rhythm here." locIndex="17" />
+            <textevent timeoffset="90" message="Spin a little faster than what is comfortable for you." locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="10" message="Coming up are 4 accelerations in quick succession." locIndex="19" />
+            <textevent timeoffset="30" message="You will need to change gears during the 20sec free-ride interval." locIndex="20" />
+            <textevent timeoffset="50" message="The resistance will be flat and consistent, regardless of virtual grade." locIndex="21" />
+            <textevent timeoffset="160" message="Here we go with the 1st effort." locIndex="22" />
+        </SteadyState>
+        <FreeRide Duration="20" show_avg="1" FlatRoad="1">
+            <textevent timeoffset="10" message="Spin as quick as you can!" locIndex="23" />
+        </FreeRide>
+        <SteadyState Duration="100" Power="0.65">
+            <textevent timeoffset="10" message="How did that go?" locIndex="24" />
+            <textevent timeoffset="30" message="The first few efforts take a little to get used to." locIndex="25" />
+            <textevent timeoffset="50" message="You will find a gear that suits your speed and power." locIndex="26" />
+            <textevent timeoffset="90" message="Recovery is short. Here we go with the next acceleration!" locIndex="27" />
+        </SteadyState>
+        <FreeRide Duration="20" show_avg="1" FlatRoad="1">
+            <textevent timeoffset="10" message="Spin as quick as you can!" locIndex="28" />
+        </FreeRide>
+        <SteadyState Duration="100" Power="0.65">
+            <textevent timeoffset="10" message="Nice work!" locIndex="29" />
+            <textevent timeoffset="30" message="Don&apos;t forget to mix up your position with standing and seated accelerations." locIndex="30" />
+            <textevent timeoffset="50" message="We aren&apos;t looking to break any power records in these efforts." locIndex="31" />
+            <textevent timeoffset="70" message="Just repeated fast legs." locIndex="32" />
+            <textevent timeoffset="90" message="Here&apos;s the next effort." locIndex="33" />
+        </SteadyState>
+        <FreeRide Duration="20" show_avg="1" FlatRoad="1">
+            <textevent timeoffset="10" message="Spin as quick as you can!" locIndex="34" />
+        </FreeRide>
+        <SteadyState Duration="100" Power="0.65">
+            <textevent timeoffset="10" message="Perfect!" locIndex="35" />
+            <textevent timeoffset="90" message="Quickly into the last effort of this set now." locIndex="36" />
+        </SteadyState>
+        <FreeRide Duration="20" show_avg="1" FlatRoad="1">
+            <textevent timeoffset="10" message="Spin as quick as you can!" locIndex="37" />
+        </FreeRide>
+        <SteadyState Duration="300" Power="0.6">
+            <textevent timeoffset="20" message="That was nice!" locIndex="38" />
+            <textevent timeoffset="50" message="We have a good recovery period here." locIndex="39" />
+            <textevent timeoffset="70" message="Catch your breath and think about what was good in that first set." locIndex="40" />
+            <textevent timeoffset="90" message="And what you can do better in the next set." locIndex="41" />
+            <textevent timeoffset="200" message="This time our accelerations are preceded by a 3min zone 3 effort." locIndex="42" />
+            <textevent timeoffset="230" message="We are putting in a sustained effort before completing the accelerations." locIndex="43" />
+            <textevent timeoffset="290" message="Here we go into zone 3." locIndex="44" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.8">
+            <textevent timeoffset="30" message="This is a comfortable effort for you." locIndex="45" />
+            <textevent timeoffset="50" message="But let&apos;s see how it affects your leg speed." locIndex="46" />
+            <textevent timeoffset="170" message="Let&apos;s get ready to accelerate!" locIndex="47" />
+        </SteadyState>
+        <FreeRide Duration="20" show_avg="1" FlatRoad="1">
+            <textevent timeoffset="10" message="Spin as quick as you can!" locIndex="48" />
+        </FreeRide>
+        <SteadyState Duration="100" Power="0.65">
+            <textevent timeoffset="10" message="Good work!" locIndex="49" />
+            <textevent timeoffset="50" message="How did that compare to the sprints from the 1st set?" locIndex="50" />
+            <textevent timeoffset="90" message="Next acceleration coming up!" locIndex="51" />
+        </SteadyState>
+        <FreeRide Duration="20" show_avg="1" FlatRoad="1">
+            <textevent timeoffset="10" message="Spin as quick as you can!" locIndex="52" />
+        </FreeRide>
+        <SteadyState Duration="100" Power="0.65">
+            <textevent timeoffset="10" message="Nice!" locIndex="53" />
+            <textevent timeoffset="50" message="Of these two sprints which was your best?" locIndex="54" />
+            <textevent timeoffset="70" message="Did the preceding zone 3 effort have any effect?" locIndex="55" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.6">
+            <textevent timeoffset="20" message="That was nice!" locIndex="56" />
+            <textevent timeoffset="50" message="We have a good recovery period here." locIndex="57" />
+            <textevent timeoffset="70" message="catch your breath and think about what was good in that first set." locIndex="58" />
+            <textevent timeoffset="90" message="And what you can do better in the next set." locIndex="59" />
+            <textevent timeoffset="200" message="This time our accelerations are preceded by a 3min zone 4 effort." locIndex="60" />
+            <textevent timeoffset="230" message="We are putting in a sustained effort before completing the accelerations." locIndex="61" />
+            <textevent timeoffset="290" message="Here we go into zone 4." locIndex="62" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.95">
+            <textevent timeoffset="30" message="A bit more power before we accelerate this time." locIndex="63" />
+            <textevent timeoffset="150" message="Straight into the accelerations." locIndex="64" />
+            <textevent timeoffset="170" message="Get ready to make these your best efforts!" locIndex="65" />
+        </SteadyState>
+        <FreeRide Duration="20" show_avg="1" FlatRoad="1">
+            <textevent timeoffset="10" message="Spin as quick as you can!" locIndex="66" />
+        </FreeRide>
+        <SteadyState Duration="100" Power="0.65">
+            <textevent timeoffset="10" message="Great work!" locIndex="67" />
+            <textevent timeoffset="50" message="How did the legs feel coming off that zone 4 effort?" locIndex="68" />
+            <textevent timeoffset="90" message="Last acceleration of the day coming up." locIndex="69" />
+        </SteadyState>
+        <FreeRide Duration="20" show_avg="1" FlatRoad="1">
+            <textevent timeoffset="10" message="Spin as quick as you can!" locIndex="70" />
+        </FreeRide>
+        <SteadyState Duration="100" Power="0.65">
+            <textevent timeoffset="10" message="Awesome!" locIndex="71" />
+            <textevent timeoffset="50" message="That completes some great work from you today." locIndex="72" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.5">
+            <textevent timeoffset="50" message="Today was all about completing multiple accelerations." locIndex="73" />
+            <textevent timeoffset="70" message="We aren&apos;t concerned with the power reached." locIndex="74" />
+            <textevent timeoffset="90" message="But have a look back at your session... " locIndex="75" />
+            <textevent timeoffset="110" message="...and see where you hit your peak cadence, and where you had the highest avg cadence for the 20sec." locIndex="76" />
+        </SteadyState>
+    </workout>
+</workout_file>

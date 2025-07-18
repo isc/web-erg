@@ -1,0 +1,20 @@
+<workout_file>
+    <uniqueId>0e23ae0c-48d1-4c5a-8349-55951a1852b3</uniqueId>
+    <legacyIdHash>3069945258</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Week 5.3 - Climbing - Free ride</name>
+    <description>Today is about endurance and climbing. 
+
+Zwift provides us with the perfect playground to experience long climbs. The aim today is to climb as many meters as your available time allows you. Try to make today your longest ride for the week. It doesn&apos;t have to be full of high intensity climbing. Go off your own sensations and ride as you feel.
+
+There are a range of hilly loops available. Choose the course suited to your climbing aims and time available. Enjoy your ride!</description>
+    <sportType>bike</sportType>
+    <entid>491</entid>
+    <category>Zwift Coast Ride</category>
+    <subcategory>Week 5</subcategory>
+    <tags>
+    </tags>
+    <workout>
+        <FreeRide Duration="7200" FlatRoad="0" />
+    </workout>
+</workout_file>

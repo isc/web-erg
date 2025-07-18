@@ -1,0 +1,36 @@
+<workout_file>
+    <uniqueId>8add4ce8-e321-4254-9960-8f7368b5a247</uniqueId>
+    <legacyIdHash>2448250713</legacyIdHash>
+    <author>TrainSharp Cycle Coaching</author>
+    <name>Month 1.1 - Zwift Academy FTP Test</name>
+    <WorkoutPlan>1</WorkoutPlan>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/trainSharp_Logo.tga</authorIcon>
+    <description>Prior to commencing the Zwift Academy 2017, we ask that you complete a threshold test on your indoor trainer. This test is intended to set your training zones for the duration of the academy and aid us in our selection process for the next stages of the competition. This test is best carried out with a power meter or smart trainer, however a heart rate monitor will suffice, if you do not have access to one. The test starts with a long, progressive warm up followed by some activation work, designed to prime you for the upcoming effort. The warm-up is a vital component to this test and will enable you to perform at the optimum capacity.  On completion of the warm up, it&apos;s time for the test! Simply, go as hard as you can for 20 minutes. ERG mode will turn off for the 20 min segment. You&apos;re on your own. Pace yourself throughout, trying not to go too hard, too soon but finish with an empty tank, all out. Ensure a good warm down after the test and put your feet up.</description>
+    <sportType>bike</sportType>
+    <visibleAfterTime>1504222780</visibleAfterTime>
+    <category>Zwift Academy 2017</category>
+    <subcategory>Month 1</subcategory>
+    <tags>
+        <tag name="Threshold" />
+    </tags>
+    <workout>
+        <Warmup Duration="900" PowerLow="0.49000001" PowerHigh="0.92000002" pace="0">
+            <textevent duration="20" timeoffset="0" message="Progressive Warm Up - This is a progressive ramp, starting off easy, in your zone 1 and ramping it up throughout the duration. By the end of the 15 minutes you should be just below your FTP, breathing harder, warming up and starting to sweat." locIndex="1" />
+        </Warmup>
+        <SteadyState Duration="180" Power="0.51499999">
+            <textevent timeoffset="0" message="Easy - Recovery, very easy no load, like an easy walk on the bike" locIndex="2" />
+        </SteadyState>
+        <IntervalsT Repeat="3" OnDuration="30" OffDuration="150" OnPower="1.23" OffPower="0.49000001" pace="0" Cadence="102" CadenceResting="100">
+            <textevent timeoffset="0" message="Activation - This part of the warm up (otherwise known as the acid-up) will increase muscle blood flow, muscle fibre recruitment and increased oxygen uptake." locIndex="3" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.52999997">
+            <textevent timeoffset="0" message="Recovery - Take it easy, spin out the legs, prepare some motivational music and make sure you have a full bottle and a good quality fan &amp; towel." locIndex="4" />
+        </SteadyState>
+        <FreeRide Duration="1200" FlatRoad="1" ftptest="1">
+            <textevent timeoffset="0" message="20 Minute Test - Ride as hard as you can for 20 minutes, with the aim of trying to produce the highest average power across the duration set - start steady and build into it." locIndex="5" />
+        </FreeRide>
+        <Cooldown Duration="900" PowerLow="0.56999999" PowerHigh="0.49000001" pace="0">
+            <textevent timeoffset="20" message="Cool Down - Finish the session with a 15 minute cool down, keep the legs spinning after the test as this will aid with recovery and stop the blood pooling in the legs. Refuel and re-hydrate after getting off the trainer!" locIndex="6" />
+        </Cooldown>
+    </workout>
+</workout_file>

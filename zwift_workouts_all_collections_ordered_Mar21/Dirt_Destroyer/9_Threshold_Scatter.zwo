@@ -1,0 +1,136 @@
+<workout_file>
+    <uniqueId>aede817e-64b2-4bcd-99f6-264d3c7f4a52</uniqueId>
+    <legacyIdHash>2770814982</legacyIdHash>
+    <author>Matt Rowe</author>
+    <name>Week 3.1 - Threshold Scatter</name>
+    <description>Today&apos;s session is centered around your developing your threshold and critically, your strength!
+
+We will spend plenty of time alternating between your chosen / go to cadence and a low cadence as we often end up riding at on a mountain bike. This is one of the key differences between road riding and mountain bike - the constant change in effort. Even riding up a steady gradient, on a mountain bike your power will vary significantly as you navigate over and around rocks, roots, and other obstacles!
+
+This session aims to further develop your ability to make these changes in effort more comfortably. </description>
+    <sportType>bike</sportType>
+    <category>Dirt Destroyer</category>
+    <subcategory>Week 3</subcategory>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <tags />
+    <workout>
+        <Warmup Duration="420.00003" PowerLow="0.43673915" PowerHigh="0.74978262" pace="0">
+            <textevent timeoffset="10" message="Welcome to Zwift&apos;s MTB Workout Series" locIndex="1" />
+            <textevent timeoffset="25" message="Todays session is a mountain bike specific workout, helping you get used to some of the demands of mountain biking, which vary a lot with the road!" locIndex="2" />
+            <textevent timeoffset="43" message="We have a nice progressive warm up to start, with some 30 second activation efforts to get us ready for the session. " locIndex="3" />
+            <textevent timeoffset="58" message="This is a fairly standard warm up - hitting all the right notes." locIndex="4" />
+            <textevent timeoffset="201" message="XCO Mountain Bike events are around 90 minutes in length, so plenty of aerobic conditioning is required" locIndex="5" />
+            <textevent timeoffset="111" message="During todays session, we ride just under and at threshold, where we realise similar aerobic benefits to a long endurance ride" locIndex="6" />
+            <textevent timeoffset="390" message="You should be feeling pretty warmed up now. Do you have a sweat on?" locIndex="7" />
+            <textevent timeoffset="401" message="Here comes the first activation effort - notice its 30 seconds, very different to a road sprint. More of a capacity effort." locIndex="8" />
+        </Warmup>
+        <SteadyState Duration="30.000002" Power="1.0944999" pace="0" />
+        <SteadyState Duration="180.00002" Power="0.50449997" pace="0">
+            <textevent timeoffset="10" message="How was that?" locIndex="9" />
+            <textevent timeoffset="31" message="Now focus on your cadence - try and find a nice smooth rhythm" locIndex="10" />
+            <textevent timeoffset="150" message="Another sprint incoming!" locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="30.000002" Power="1.0944999" pace="0" />
+        <SteadyState Duration="300" Power="0.50449997" pace="0">
+            <textevent timeoffset="9.9999313" message="Good effort - we should be pretty warm now, with a nice sweat on?" locIndex="12" />
+            <textevent timeoffset="269" message="Are you ready for the first block?" locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="60.000004" Power="0.90449995" pace="0" Cadence="65">
+            <textevent timeoffset="19" message="Find your rhythm. 8 minutes at 90% of your FTP to start, alternating between your chosen cadence and 65rpm." locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="60.000004" Power="0.90449995" pace="0" Cadence="65" />
+        <SteadyState Duration="60" Power="0.90449995" pace="0">
+            <textevent timeoffset="15" message="At 90% of your FTP, this part of the effort should feel comfortable." locIndex="15" />
+            <textevent timeoffset="25" message="Try and recover when you are pedaling quicker - there is much less strain on your muscles during these phases." locIndex="16" />
+            <textevent timeoffset="45" message="Think of the &apos;higher cadence&apos; sections like riding on harder, more stable surfaces where you can ride more freely." locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.90449995" pace="0" Cadence="65">
+            <textevent timeoffset="4" message="1 minute at 90% of your FTP, at that low cadence of 65rpm" locIndex="18" />
+            <textevent timeoffset="22" message="This is where we work - high muscle strain, high crank torque, uncomfortable sensations." locIndex="19" />
+            <textevent timeoffset="34" message="You need to be disciplined here. Stay focused and keep your body as still as possible." locIndex="20" />
+        </SteadyState>
+        <SteadyState Duration="60.000004" Power="0.90449995" pace="0" />
+        <SteadyState Duration="60" Power="0.90449995" pace="0" Cadence="65" />
+        <SteadyState Duration="60.000004" Power="0.90449995" pace="0" />
+        <SteadyState Duration="60" Power="0.90449995" pace="0" Cadence="65" />
+        <SteadyState Duration="90.000008" Power="0.50449997" pace="0" />
+        <textevent timeoffset="14" message="A short recovery as we cruise down some free flowing single track, before kicking the effort back up again!" locIndex="21" />
+        <SteadyState Duration="60" Power="0.90449995" pace="0" Cadence="65" />
+        <textevent timeoffset="34" message="Grind this effort out - 65rpm. Keep your head up to survey the path ahead." locIndex="22" />
+        <SteadyState Duration="60" Power="0.98449993" pace="0">
+            <textevent timeoffset="7" message="We make a surge in effort for a minute now, at 98% of your FTP." locIndex="23" />
+            <textevent timeoffset="54" message="You can ride in our out of the saddle - whatever you feel comfortable doing." locIndex="24" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.90449995" pace="0" Cadence="65" />
+        <SteadyState Duration="60" Power="0.98449993" pace="0" />
+        <SteadyState Duration="60" Power="0.90449995" pace="0" Cadence="65">
+            <textevent timeoffset="34" message="Your legs are likely burning! That&apos;s a good sign that we are really stressing our fast twitch muscle fibers!" locIndex="25" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.98449993" pace="0" />
+        <SteadyState Duration="90" Power="0.50449997" pace="0" />
+        <Ramp Duration="90" PowerLow="0.90449995" PowerHigh="1.0044999" pace="0">
+            <textevent timeoffset="27" message="We now ramp up in effort to 100% of FTP. Stay composed as the effort increases." locIndex="26" />
+        </Ramp>
+        <Ramp Duration="90" PowerLow="1.0044999" PowerHigh="0.90449995" pace="0" Cadence="65">
+            <textevent timeoffset="2" message="This is the tough part! High power, low cadence = huge crank torque and muscular demand! Ramp down from 100% at 65rpm" locIndex="27" />
+            <textevent timeoffset="12" message="The effort will ramp down now, so it will get easier over this 90 second block. - critically all at 65rpm" locIndex="28" />
+        </Ramp>
+        <SteadyState Duration="300" Power="0.50449997" pace="0" />
+        <textevent timeoffset="25" message="Top effort team! That was a very varied block, with plenty of low cadence / strength work!" locIndex="29" />
+        <textevent timeoffset="120" message="All this variation in effort types and intensities are designed to help you adapt to the specific nature of mountain biking." locIndex="30" />
+        <textevent timeoffset="190" message="It is so important to recover well now, before we launch in to another block!" locIndex="31" />
+        <SteadyState Duration="60.000004" Power="0.90449995" pace="0" Cadence="65">
+            <textevent timeoffset="19" message="Effort two - find your rhythm. 8 minutes, again at 90% of your FTP to start, alternating between your chosen cadence and 65rpm." locIndex="32" />
+        </SteadyState>
+        <SteadyState Duration="60.000004" Power="0.90449995" pace="0" Cadence="65" />
+        <SteadyState Duration="60" Power="0.90449995" pace="0">
+            <textevent timeoffset="15" message="At 90% of your FTP, this part of the effort should feel comfortable." locIndex="33" />
+            <textevent timeoffset="25" message="Try and recover when you are pedaling quicker - there is much less strain on your muscles during these phases." locIndex="34" />
+            <textevent timeoffset="45" message="Think of the &apos;higher cadence&apos; sections like riding on harder, more stable surfaces where you can ride more freely." locIndex="35" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.90449995" pace="0" Cadence="65">
+            <textevent timeoffset="4" message="1 minute at 90% of your FTP, at that low cadence of 65rpm" locIndex="36" />
+            <textevent timeoffset="22" message="We are in the pain cave for a reason - to train hard! High muscle strain and high crank torque is on the menu today." locIndex="37" />
+            <textevent timeoffset="34" message="Sit upright, stay focused and keep your body as still as possible." locIndex="38" />
+        </SteadyState>
+        <SteadyState Duration="60.000004" Power="0.90449995" pace="0" />
+        <SteadyState Duration="60" Power="0.90449995" pace="0" Cadence="65" />
+        <SteadyState Duration="60.000004" Power="0.90449995" pace="0" />
+        <SteadyState Duration="60" Power="0.90449995" pace="0" Cadence="65" />
+        <SteadyState Duration="90.000008" Power="0.50449997" pace="0" />
+        <textevent timeoffset="14" message="A short recovery - make the most of it!" locIndex="39" />
+        <textevent timeoffset="64" message="With so much time in mountain biking spent on technical terrain, when you do get a chance to take a drink and mentally switch off - take it!" locIndex="40" />
+        <SteadyState Duration="60" Power="0.90449995" pace="0" Cadence="65" />
+        <textevent timeoffset="34" message="Feel the burn! This should not feel comfortable, and should feel a pretty alien effort if you are a road rider." locIndex="41" />
+        <SteadyState Duration="60" Power="0.98449993" pace="0">
+            <textevent timeoffset="7" message="We will make a few repeated surges in effort now, up to 98% of your FTP, but again this is not the hard part!" locIndex="42" />
+            <textevent timeoffset="27" message="The lower power of 90% of FTP at 65rpm will likely be the harder effort!" locIndex="43" />
+            <textevent timeoffset="54" message="You can ride in our out of the saddle - whatever you feel comfortable doing." locIndex="44" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.90449995" pace="0" Cadence="65" />
+        <SteadyState Duration="60" Power="0.98449993" pace="0" />
+        <SteadyState Duration="60" Power="0.90449995" pace="0" Cadence="65">
+            <textevent timeoffset="14" message="Your legs are probably burning more than the first block now? That&apos;s a good sign that we are really stressing our fast twitch muscle fibres!" locIndex="45" />
+            <textevent timeoffset="29" message="If not, they should be with all this cumulative fatigue in the legs from todays session!" locIndex="46" />
+            <textevent timeoffset="39" message="That&apos;s a good sign that we are really stressing our fast twitch muscle fibers!" locIndex="47" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.98449993" pace="0" />
+        <SteadyState Duration="90" Power="0.50449997" pace="0" />
+        <Ramp Duration="90" PowerLow="0.90449995" PowerHigh="1.0044999" pace="0">
+            <textevent timeoffset="27" message="We now ramp up in effort to 100% of FTP. Stay composed as the effort increases, trying to keep your body still." locIndex="48" />
+            <textevent timeoffset="67" message="Settle in to your rhythm - find a cadence that you feel comfortable at and let the extra resistance apply itself." locIndex="49" />
+        </Ramp>
+        <Ramp Duration="90" PowerLow="1.0044999" PowerHigh="0.90449995" pace="0" Cadence="65">
+            <textevent timeoffset="2" message="This is the final effort of the session and likely the toughest!" locIndex="50" />
+            <textevent timeoffset="29" message="We are back producing high power at a low cadence, which gives us huge crank torque and a huge muscular demand!" locIndex="51" />
+            <textevent timeoffset="40" message="The effort will ramp down now, so it will get easier over this 90 second block. - critically all at 65rpm." locIndex="52" />
+            <textevent timeoffset="60" message="Almost there! Nice riding!" locIndex="53" />
+        </Ramp>
+        <SteadyState Duration="300" Power="0.50449997" pace="0" />
+        <textevent timeoffset="20" message="Good effort team! That was a really tough effort stressing your body in all sorts of ways!" locIndex="54" />
+        <textevent timeoffset="60" message="Make sure you recover well after this session, make sure you refuel." locIndex="55" />
+        <Cooldown Duration="300" PowerLow="0.55449998" PowerHigh="0.2545" pace="0" />
+        <textevent timeoffset="60" message="As always, make sure you are keeping up your IRL mountain bike riding to keep your bike handling skills sharp!" locIndex="56" />
+        <textevent timeoffset="60" message="See you on the next workout!" locIndex="57" />
+    </workout>
+</workout_file>

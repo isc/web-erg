@@ -1,0 +1,71 @@
+<workout_file>
+    <uniqueId>c8efadb6-1e7f-4890-b64a-80f4dced6de3</uniqueId>
+    <legacyIdHash>3325208414</legacyIdHash>
+    <author>Matt Rowe (Rowe and King)</author>
+    <name>RCC Training Camp Workout #9</name>
+    <categoryIndex>9</categoryIndex>
+    <category>RCC Training Camp 2018</category>
+    <entid>150</entid>
+    <description>Welcome back to the Rapha Cycling Club Training Camp for Workout 9 in the series. This session is an Over/Under session, where we ride above and below our threshold. For most Time Trials, climbs or any sort of effort longer than 10 Minutes, your Lactate Threshold / Functional Threshold Power (FTP) is closely correlated to performance. By riding a little bit over threshold, then a little bit below threshold, we train our body to be more efficient at riding with lactic acid in our legs, which importantly improves our Lactate Tolerance and our FTP. In this session we complete 2 x 15 minute blocks of 30 seconds Over @ 105%FTP - 1 minute Under @ 95% FTP. Make sure you are mentally prepared for this session as it is a tough one, but hugely rewarding! 
+
+Erg mode is recommended for this workout.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="TT" />
+        <tag name="Strength" />
+        <tag name="Endurance" />
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.25449997" PowerHigh="0.75449997" pace="0">
+            <textevent timeoffset="10" message="Welcome to the Rapha Cycling Club Training Camp Workout #9. ERG Mode is recommended." locIndex="1" />
+            <textevent timeoffset="20" message="Today&apos;s session is 62 minutes long and is focused on developing your Strength Endurance - a key attribute for all endurance cyclists." locIndex="2" />
+            <textevent timeoffset="30" message="You will complete 2 x 15 Minute Blocks of 30s Over @ 105%FTP - 1 Minute Under @ 95% FTP." locIndex="3" />
+            <textevent timeoffset="40" message="To start, it&apos;s a standard 10 minute progressive warm up to get us in the zone, both physically and mentally." locIndex="4" />
+            <textevent timeoffset="60" message="If your knees hurt at all in this session - do the efforts at a higher cadence. The low cadence work places more stress on your knees so be careful!" locIndex="5" />
+            <textevent timeoffset="400" message="A special welcome to todays session as an RCC Member - hope you have fun completing this RCC Individual workout, written specifically for RCC members. Let&apos;s get down to business." locIndex="6" />
+            <textevent timeoffset="500" message="You should be starting to feel sweaty by now and like you are ready to train?" locIndex="7" />
+            <textevent timeoffset="570" message="Nearing the end of the warm up now - your blood will be nice and warm, ready to supply our muscles with oxygen. " locIndex="8" />
+        </Warmup>
+        <SteadyState Duration="60.000004" Power="0.50449997" pace="0">
+            <textevent timeoffset="12" message="A minute to relax &amp; have a drink!" locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="60.000004" Power="0.30450001" pace="-1307163960">
+            <textevent timeoffset="53.000061" message="Activation surge coming up" locIndex="10" />
+            <textevent timeoffset="9" message="Easy Minute - time for a drink" locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.2544999" pace="-1307163960" />
+        <SteadyState Duration="120.00001" Power="0.30450001" pace="-1307163960">
+            <textevent timeoffset="85" message="30s Sec 105% FTP-1 Min 95% FTP" locIndex="12" />
+            <textevent timeoffset="60" message="Ready for block 1?" locIndex="13" />
+        </SteadyState>
+        <IntervalsT Repeat="10" OnDuration="30" OffDuration="60" OnPower="1.0545" OffPower="0.95449996" pace="-1307163960" OverUnder="1">
+            <textevent timeoffset="48.000023" message="Target cadence of around 90rpm, which is considered an efficient cadence for time trialling." locIndex="14" />
+            <textevent timeoffset="592" message="Smooth is fast" locIndex="15" />
+            <textevent timeoffset="391" message="Control the breathing let the body recycle the lactate acid - like a well oiled machine." locIndex="16" />
+            <textevent timeoffset="281.00003" message="Keep your body still - like you would in the real world. Body movements = air disruption = increased drag." locIndex="17" />
+            <textevent timeoffset="787.00006" message="Head tucked in = aero! But make sure you can see where you are going." locIndex="18" />
+            <textevent timeoffset="413.00009" message="Absorb the workload like a sponge. Sure it hurts... but don&apos;t show it. Focus on the pedaling and nothing else." locIndex="19" />
+            <textevent timeoffset="685.00006" message="Good work team! Keep it up" locIndex="20" />
+            <textevent timeoffset="700.00006" message="Picture yourself time trialling - hold good form. Nice and relaxed upper body." locIndex="21" />
+            <textevent timeoffset="869.00018" message="Almost there..." locIndex="22" />
+            <textevent timeoffset="460" message="Control the Overs - not too hard" locIndex="23" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.30450001" pace="-1307163960">
+            <textevent timeoffset="18.000074" message="Easy 5 mins full recovery - suggest you take a drink to stay hydrated" locIndex="24" />
+            <textevent timeoffset="239" message="Stay hydrated - keep drinking" locIndex="25" />
+            <textevent timeoffset="278" message="Block 2 - let&apos;s do it" locIndex="26" />
+            <textevent timeoffset="150" message="Half way... same block again. Get in that zone and focus on keeping the body still, letting all the power transfer come from the legs!" locIndex="27" />
+        </SteadyState>
+        <IntervalsT Repeat="10" OnDuration="30" OffDuration="60" OnPower="1.0545" OffPower="0.95449996" pace="-1307163960" OverUnder="1">
+            <textevent timeoffset="211.99997" message="95% FTP - don&apos;t back off too much. It is important to maintain the power during the Unders." locIndex="28" />
+            <textevent timeoffset="506.00027" message="Keep it smooth." locIndex="29" />
+            <textevent timeoffset="768" message="Hold it there - awesome effort." locIndex="30" />
+            <textevent timeoffset="289.00003" message="Control the Overs- not too hard." locIndex="31" />
+            <textevent timeoffset="672.99994" message="Keep your composure guys." locIndex="32" />
+            <textevent timeoffset="78.99987" message="Nail this 2nd and final block." locIndex="33" />
+            <textevent timeoffset="847" message="All the way... keep it going! It is important to maintain the focus right to the last second. Marginal gains. " locIndex="34" />
+        </IntervalsT>
+        <Cooldown Duration="300" PowerHigh="0.75" PowerLow="0.5" Pace="0">
+        </Cooldown>
+    </workout>
+</workout_file>

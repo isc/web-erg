@@ -1,0 +1,45 @@
+<workout_file>
+    <uniqueId>0a20afb3-3ff6-4de5-80ea-821e844745fa</uniqueId>
+    <legacyIdHash>725892030</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <categoryOverride>30-60 minutes to burn</categoryOverride>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>2018 PRL46 Prep</category>
+    <subcategory>Week 8</subcategory>
+    <name>Week 8.4 - Through the Zones #1</name>
+    <description>;Opening with a 10 minute Tempo effort, you will then complete 2 x 10min Intervals that progress through Zones 3, 4 and 6.
+
+Focusing on a higher cadence today with the target rpm increasing across the 3 intervals. </description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow="0.5065524" PowerHigh="0.75" pace="0">
+            <textevent timeoffset="60" message="A little harder in the warm up today. We go straight into a 10min tempo effort." locIndex="1" />
+            <textevent timeoffset="590" message="Straight into your tempo effort." locIndex="2" />
+        </Warmup>
+        <SteadyState Duration="600" Power="0.88449997" pace="0" Cadence="95" />
+        <SteadyState Duration="300" Power="0.55000001" pace="0">
+            <textevent timeoffset="179" message="Target cadence of 90rpm for the 1st set." locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="360" Power="0.88449997" pace="0" Cadence="90">
+            <textevent timeoffset="82.494781" message="The power increases through the effort, but the target cadence remains the same." locIndex="4" />
+            <textevent timeoffset="350" message="Increase in power now." locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="1.0445" pace="0" Cadence="90">
+            <textevent timeoffset="169" message="Finish off with 1min above threshold." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.2045" pace="0" Cadence="90" />
+        <SteadyState Duration="300" Power="0.55000001" pace="0">
+            <textevent timeoffset="199" message="Target cadence of 95rpm for the 2nd set." locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="360" Power="0.88449997" pace="0" Cadence="95">
+            <textevent timeoffset="39" message="Same again this set. Increasing the power, with cadence remaining steady." locIndex="8" />
+            <textevent timeoffset="350" message="Increase in power now." locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="1.0445" pace="0" Cadence="95">
+            <textevent timeoffset="170" message="Finish with a big, above threshold effort." locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.2045" pace="0" Cadence="95" />
+        <Cooldown Duration="300" PowerLow="0.75449997" PowerHigh="0.50449997" pace="0" />
+    </workout>
+</workout_file>

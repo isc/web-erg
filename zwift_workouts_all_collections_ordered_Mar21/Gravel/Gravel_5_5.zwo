@@ -1,0 +1,24 @@
+<workout_file>
+    <uniqueId>017a1425-a00b-4d8a-b90d-a4f015047b1b</uniqueId>
+    <legacyIdHash>3910191710</legacyIdHash>
+    <author>Zwift</author>
+    <name>Free Ride</name>
+    <description>Just an easy base ride on tap for you today. I&apos;m gonna leave you to your own devices but I want you to ride easy not going over zone 2 if the terrain allows. We need to mix our intensities in training and it cannot be hard all the time. So, today is that easy riding. Enjoy.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Gravel Grinder</category>
+    <subcategory>Week 5</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow="0.45" PowerHigh="0.65">
+            <textevent timeoffset="30" message="Easy rides mean easy warm ups too. Easy build until free ride. " locIndex="1" />
+        </Warmup>
+        <FreeRide Duration="5100" FlatRoad="0">
+            <textevent timeoffset="20" message="Have fun, I&apos;m going to leave you alone this time. Enjoy. " locIndex="2" />
+            <textevent timeoffset="1000" message="You are not going hard are you? Easy. " locIndex="3" />
+        </FreeRide>
+        <Cooldown Duration="600" PowerLow="0.55" PowerHigh="0.45">
+            <textevent timeoffset="77" message="Nice chill cool down. Easy riding is fun right? I think so. " locIndex="4" />
+        </Cooldown>
+    </workout>
+</workout_file>

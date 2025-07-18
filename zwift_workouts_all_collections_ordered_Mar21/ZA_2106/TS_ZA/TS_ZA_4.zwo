@@ -1,0 +1,20 @@
+<workout_file>
+    <uniqueId>c896438e-7c24-43ae-aa53-a907a1d43c48</uniqueId>
+    <legacyIdHash>894506876</legacyIdHash>
+    <name>Month 1.4 - Split Zone 2/3</name>
+    <description>This session is designed to get you used to delivering power at a range of cadences. The low cadence efforts put the onus on your leg strength (through the high torque effort), the higher cadence efforts work your cardiopulmonary (heart and lungs) system. By training the extremities of the cadence ranges, you will be better adapt at riding to your self-selected range. 
+  </description>
+    <author>trainSharp</author>
+    <category>Zwift Academy 2016</category>
+    <subcategory>Month 1</subcategory>
+    <WorkoutPlan>1</WorkoutPlan>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/trainSharp_Logo.tga</authorIcon>
+    <workout>
+        <Warmup Duration="1200" PowerLow="0.45" PowerHigh="0.65" />
+        <SteadyState Duration="1800" Zone="2" Cadence="100" />
+        <SteadyState Duration="300" Zone="1" />
+        <SteadyState Duration="600" Zone="3" Cadence="70" />
+        <SteadyState Duration="600" Zone="3" Cadence="95" />
+        <Cooldown Duration="600" PowerLow="0.45" PowerHigh="0.65" />
+    </workout>
+</workout_file>

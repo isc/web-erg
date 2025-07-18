@@ -1,0 +1,21 @@
+<workout_file>
+    <uniqueId>0a3f0c31-79b5-42d6-b17f-e06ec7a9616f</uniqueId>
+    <legacyIdHash>3767892142</legacyIdHash>
+    <author>Jon Sharples</author>
+    <name>Month 2.4 - Extended Zone 2-3</name>
+    <category>Zwift Academy 2016</category>
+    <subcategory>Month 2</subcategory>
+    <WorkoutPlan>1</WorkoutPlan>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/trainSharp_Logo.tga</authorIcon>
+    <description>This session is designed to get you used to delivering power at a range of cadences. The low cadence effortsput the onus on leg strength while the higher cadence efforts work your cardiopulmonary system. By training the extremities of the cadence ranges, you will be better adapted for riding in your natural range. These long steady efforts can be pretty monotonous but are a very good way to improve your cycling efficiency at the power you will spend most of your time riding.</description>
+    <tags>
+        <tag name="INTERVALS" />
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.2545" PowerHigh="0.6045" Cadence="90" CadenceResting="0" />
+        <SteadyState Duration="2400" Power="0.70449996" Cadence="95" />
+        <SteadyState Duration="600" Power="0.40450001" />
+        <SteadyState Duration="1800" Power="0.82449996" Cadence="65" />
+        <Cooldown Duration="600" PowerLow="0.75" PowerHigh="0.25" />
+    </workout>
+</workout_file>

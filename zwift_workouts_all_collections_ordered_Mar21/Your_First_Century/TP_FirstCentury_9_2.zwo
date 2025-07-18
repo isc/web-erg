@@ -1,0 +1,18 @@
+<workout_file>
+    <uniqueId>519e5db1-df75-40f8-9b97-bb03f40582eb</uniqueId>
+    <legacyIdHash>3620664530</legacyIdHash>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <category>Your First Century</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 9</subcategory>
+    <name>Week 9.2 - Day 2</name>
+    <description>Hill Power Builders!</description>
+    <tags />
+    <workout>
+        <Warmup Duration="900" PowerLow="0.2545" PowerHigh="0.75449997" />
+        <SteadyState Duration="2250" Power="0.65449995" />
+        <IntervalsT Repeat="5" OnDuration="90" OffDuration="180" OnPower="1.1044999" OffPower="0.50450003" />
+        <SteadyState Duration="1800" Power="0.65000004" />
+        <Cooldown Duration="900" PowerLow="0.75449997" PowerHigh="0.2545" />
+    </workout>
+</workout_file>

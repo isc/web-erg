@@ -1,0 +1,83 @@
+<workout_file>
+    <uniqueId>adb730b0-cc50-4768-a994-039683eeba76</uniqueId>
+    <legacyIdHash>942016552</legacyIdHash>
+    <author>Matt Rowe</author>
+    <name>Week 5.2 - 6 Bombs to Drop</name>
+    <categoryOverride>VO2 Max</categoryOverride>
+    <description>This workout can be likened to a mountain bike race with a hard start - a steady middle and a hard finish as we complete 2 blocks of efforts at 110% of FTP (Zone 5 - Vo2 Max), with an 8 minute block of Zone 3 (80% of FTP) in the middle. 
+
+We are going to complete the first block of the Zone 5 efforts at a low cadence (65rpm) to simulate being stuck on a really steep section, where you are having to navigate around rocks.
+
+We will complete the second block of efforts at your chosen cadence, which should feel a lot easier, and certainly less demanding of your muscular strength!
+</description>
+    <sportType>bike</sportType>
+    <category>Dirt Destroyer</category>
+    <subcategory>Week 5</subcategory>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <tags />
+    <workout>
+        <Warmup Duration="420.00003" PowerLow="0.43673915" PowerHigh="0.74978262" pace="0">
+            <textevent timeoffset="10" message="Welcome back to the Dirt Destroyer, how are you feeling after that last session?" locIndex="1" />
+            <textevent timeoffset="29" message="Todays session is similar to a short mountain bike race, with a hard start, steady middle and tough finish." locIndex="2" />
+            <textevent timeoffset="39" message="6 Bombs will be dropped - Watt Bombs that is." locIndex="3" />
+            <textevent timeoffset="55" message="We have our standard warm up to start - a progressive ramp with some 30second activation efforts to get us ready for the session. " locIndex="4" />
+            <textevent timeoffset="70" message="Are you able to &apos;Manual&apos;? Being able to do so is a pretty advanced mountain bike skill, but a key one! Handy for drop offs." locIndex="5" />
+            <textevent timeoffset="111" message="In mountain biking, it is important to be able to make big efforts at the end of the race, when really tired." locIndex="6" />
+            <textevent timeoffset="129" message="The real gains from this session come in the second block of 3 x Zone 5 efforts - we will have tired legs by then!" locIndex="7" />
+            <textevent timeoffset="370" message="You should be feeling pretty warmed up now. Do you have a sweat on?" locIndex="8" />
+            <textevent timeoffset="401" message="Here comes the first activation effort" locIndex="9" />
+        </Warmup>
+        <SteadyState Duration="30.000002" Power="1.0944999" pace="0" />
+        <SteadyState Duration="180.00002" Power="0.50449997" pace="0">
+            <textevent timeoffset="10" message="How was that?" locIndex="10" />
+            <textevent timeoffset="70" message="Now focus on your cadence - try and find a nice smooth rhythm" locIndex="11" />
+            <textevent timeoffset="150.00005" message="Another sprint incoming!" locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="30.000002" Power="1.0944999" pace="0" />
+        <SteadyState Duration="180.00002" Power="0.50449997" pace="0">
+            <textevent timeoffset="8.9999676" message="Good effort - we should be pretty warm now, with a nice sweat on?" locIndex="13" />
+            <textevent timeoffset="148" message="Make sure you commit to the Zone 5 efforts." locIndex="14" />
+            <textevent timeoffset="158" message="They are real lung busters, but a very similar effort to what you make going up some steep single track." locIndex="15" />
+            <textevent timeoffset="172" message="Target cadence is 65rpm to replicate picking your way around some rocks" locIndex="16" />
+            <textevent timeoffset="121" message="During technical parts of the course, your cadence may drop to around 65rpm like in our efforts" locIndex="17" />
+            <textevent timeoffset="90" message="When riding along fast roads, your target cadence should be 80-90rpm just like on the road." locIndex="18" />
+        </SteadyState>
+        <IntervalsT Repeat="3" OnDuration="150" OffDuration="150" OnPower="1.1044999" OffPower="0.30450001" pace="0" Cadence="65" CadenceResting="90">
+            <textevent timeoffset="12.99997" message="Effort 1 - 65rpm as we climb this single track. Grind it out as we produce huge crank torque which will really make us strong!" locIndex="19" />
+            <textevent timeoffset="362.00006" message="Effort 2 - same as the first effort. Just sit there and produce the power." locIndex="20" />
+            <textevent timeoffset="375" message="nice and upright to really open your hip flexors and engage your hamstrings and glutes." locIndex="21" />
+            <textevent timeoffset="201.00003" message="A short rest as we briefly descend before another steep, rocky single track." locIndex="22" />
+            <textevent timeoffset="663.55804" message="Effort 3 - you will feel like you are grinding away, which you are, and that&apos;s what we want! Great work." locIndex="23" />
+        </IntervalsT>
+        <SteadyState Duration="480" Power="0.80449992" pace="0">
+            <textevent timeoffset="68" message="An aerobic block now - it should feel somewhat comfortable, but not easy. " locIndex="24" />
+            <textevent timeoffset="168" message="Ride at whatever cadence feels comfortable for you - hopefully somewhere around 80-90rpm?" locIndex="25" />
+            <textevent timeoffset="200" message="XCO Mountain Bike events are around 90 minutes, so you don&apos;t need to train your endurance that much" locIndex="26" />
+            <textevent timeoffset="215" message="But some steady state riding (Zone 2 &amp; 3) is still beneficial." locIndex="27" />
+            <textevent timeoffset="230" message="Sweet Spot and Zone 3 riding really helps develop your aerobic efficiency in a smart way" locIndex="28" />
+            <textevent timeoffset="240" message="without having to spend hours and hours riding in Zone 2." locIndex="29" />
+            <textevent timeoffset="320" message="Train smart, not hard." locIndex="30" />
+            <textevent timeoffset="335" message="Race even smarter... and race Full Gas!" locIndex="31" />
+            <textevent timeoffset="350" message="By racing Full Gas, that doesn&apos;t mean going 100% from the start" locIndex="32" />
+            <textevent timeoffset="365" message="It means emptying your tank, smartly throughout the race so you finish with nothing left!" locIndex="33" />
+            <textevent timeoffset="375" message="Which is different in training, where not every session you want to be left legless!" locIndex="34" />
+            <textevent timeoffset="390" message="Some sessions are steadier than others - it&apos;s about the cumulative training load, not those huge efforts on any one given day that counts." locIndex="35" />
+            <textevent timeoffset="470" message="We are going straight in to a Zone 5 effort from here, so get ready to drop that cadence and really grind the effort out! This will suck!" locIndex="36" />
+        </SteadyState>
+        <IntervalsT Repeat="3" OnDuration="150" OffDuration="150" OnPower="1.1044999" OffPower="0.30450001" pace="0">
+            <textevent timeoffset="8" message="Get stuck in to this block - the toughest part of the session is done in the first block at a low cadence!" locIndex="37" />
+            <textevent timeoffset="68" message="Imaging yourself smashing it through the woods, nipping between trees, throwing your bike from side to side through a technical single track." locIndex="38" />
+            <textevent timeoffset="128" message="Even on the technical sections, you still need to lay down big power to travel fast!" locIndex="39" />
+            <textevent timeoffset="160.00005" message="Short recovery now - good job. Take a drink and keep hydrated." locIndex="40" />
+            <textevent timeoffset="642.00012" message="Good work - keep digging in. Our work here is not done yet." locIndex="41" />
+            <textevent timeoffset="386" message="Effort 2 in block 2 - keep your head up, as if you were surveying the route ahead. Vision and anticipation is key." locIndex="42" />
+            <textevent timeoffset="397" message="If there is a drop off around the corner, you need to know about it! Riding head down is a disaster waiting to happen on a mountain bike." locIndex="43" />
+        </IntervalsT>
+        <SteadyState Duration="360.00003" Power="0.40450001" pace="0">
+            <textevent timeoffset="45" message="Cool down time" locIndex="44" />
+            <textevent timeoffset="201.99994" message="Try and give yourself some relaxation time after this session to allow your body to recover." locIndex="45" />
+            <textevent timeoffset="295" message="Great session that - plenty of top end effort, with some low cadence work thrown in there to ensure plenty of Type II fibre recruitment." locIndex="46" />
+            <textevent timeoffset="310" message="Your legs should be flushed now as the recovery process has already started! Make sure you re-hydrate and take on some carbs and protein for recovery." locIndex="47" />
+        </SteadyState>
+    </workout>
+</workout_file>

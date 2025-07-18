@@ -1,0 +1,56 @@
+<workout_file>
+    <uniqueId>be0f9b1d-c1de-4b25-91a2-b0fbb3cb3360</uniqueId>
+    <legacyIdHash>4075221398</legacyIdHash>
+    <author>Matt Rowe</author>
+    <name>Week 1.3 - Unstructured Structure - Free Ride</name>
+    <description>Welcome to another session of the Dirt Destroyer! Today, you should get out and ride IRL to practice your technical skills. 
+
+Mountain biking requires a huge amount of skill, and you can make significant improvements in your overall MTB ability without getting fitter and stronger, but by getting more skilful! 
+
+If you are unable to get out IRL - you can complete this Zwift &apos;Free Ride&apos;. Within the session, you should have ERG Mode on and let the terrain dictate your effort. 
+
+On the climbs, reduce your cadence to 60rpm to work on strength, and go for all the sprints in game.
+
+IF riding IRL, aim to ride for over 2 hours.</description>
+    <sportType>bike</sportType>
+    <category>Dirt Destroyer</category>
+    <subcategory>Week 1</subcategory>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <tags />
+    <workout>
+        <Warmup Duration="420.00003" PowerLow="0.43673915" PowerHigh="0.74978262" pace="0">
+            <textevent timeoffset="10" message="Welcome to another session of the Dirt Destroyer - this is a Free Ride but with a goal!" locIndex="1" />
+            <textevent timeoffset="25" message="Todays session would ideally be done IRL - out on the trails to improve your technical skills." locIndex="2" />
+            <textevent timeoffset="43" message="If you are on Zwift - we can try and develop you physically, by getting in a &apos;general ride&apos;." locIndex="3" />
+            <textevent timeoffset="58" message="Ensure ERG Mode is on and let the terrain dictate todays efforts. On the climbs - target a low cadence of around 60rpm to work on your strength." locIndex="4" />
+            <textevent timeoffset="58" message="Hunt that green jersey down in all the sprint sections - whatever distance they are and whenever they come - go for it!" locIndex="5" />
+            <textevent timeoffset="201" message="XCO Mountain Bike events are around 90 minutes in length, so plenty of aerobic conditioning is required" locIndex="6" />
+            <textevent timeoffset="381" message="After this initial ramped section of the warm up, we will complete two short activation sprints to really get you warmed up. Then its over to you..." locIndex="7" />
+            <textevent timeoffset="390" message="You should be feeling pretty warmed up now. Do you have a sweat on?" locIndex="8" />
+            <textevent timeoffset="401" message="Here comes the first activation effort - notice its 30 seconds, very different to a road sprint. More of a capacity effort." locIndex="9" />
+        </Warmup>
+        <SteadyState Duration="30.000002" Power="1.0944999" pace="0" />
+        <SteadyState Duration="180.00002" Power="0.50449997" pace="0">
+            <textevent timeoffset="10" message="How are you feeling? Motivated? Fresh? Tired? Reflect and let these feelings determine when you train and when you rest." locIndex="10" />
+            <textevent timeoffset="31" message="Nice and easy now before the second activation effort" locIndex="11" />
+            <textevent timeoffset="150" message="Another sprint incoming!" locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="30.000002" Power="1.0944999" pace="0" />
+        <textevent timeoffset="10" message="Let&apos;s go!" locIndex="13" />
+        <FreeRide Duration="4200" FlatRoad="0">
+            <textevent timeoffset="593" message="We are trying to replicate an IRL mountain bike ride today, hence the long session!" locIndex="14" />
+            <textevent timeoffset="1253" message="Endurance is important to train. Whilst you can train your aerobic base smartly, without doing huge hours, we still need some volume in your training." locIndex="15" />
+            <textevent timeoffset="1503" message="We need to get your body used to being able to support itself for the duration of your event. Both your legs, and upper body (back, arms, neck muscles etc)." locIndex="16" />
+            <textevent timeoffset="2043" message="It is important to fuel during longer efforts too. Whilst &apos;training low&apos; (low carbohydrates) can be an effective way to train, we shouldn&apos;t try it at this stage." locIndex="17" />
+            <textevent timeoffset="2143" message="Let&apos;s make sure we fuel well for every ride, so we can make solid efforts and really get fit and strong." locIndex="18" />
+            <textevent timeoffset="2852" message="Bike handling skills are essential in mountain biking, which is where IRL riding comes in. As you. Can&apos;t get outside today - try and get outside next week for some technical practice!" locIndex="19" />
+            <textevent timeoffset="2892" message="As you can&apos;t get outside today - try and get outside next week for some technical practice!" locIndex="20" />
+            <textevent timeoffset="3833" message="Mountain biking is a whole body effort - your neck, arms, back and shoulders are all stressed!" locIndex="21" />
+            <textevent timeoffset="3933" message="IRL mountain biking helps you to strengthen those upper body muscles - as does a little gym work." locIndex="22" />
+            <textevent timeoffset="4133" message="Even playing around in the street doing some wheelies or an endo is good practice and will help you you improve your bike handling skills." locIndex="23" />
+        </FreeRide>
+        <SteadyState Duration="600" Power="0.50449997" pace="0">
+            <textevent timeoffset="420" message="Good work team - make sure you recover well from today, especially if you have gone hard." locIndex="24" />
+        </SteadyState>
+    </workout>
+</workout_file>

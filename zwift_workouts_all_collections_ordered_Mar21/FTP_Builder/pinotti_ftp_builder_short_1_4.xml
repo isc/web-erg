@@ -1,0 +1,119 @@
+<workout_file>
+    <uniqueId>e45de01d-84e0-4700-80bc-65e7d4d487d4</uniqueId>
+    <legacyIdHash>3683863421</legacyIdHash>
+    <description>Tempo training: The goal of this training is to spend time in Zone 3, an intensity where the use of sugar and fats as fuel is equal. Time spent in this zone increases muscle glycogen storages.</description>
+    <category>FTP Builder</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 1</subcategory>
+    <name>Week 1.4 - Tempo</name>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/MarcoPinotti_Logo.tga</authorIcon>
+    <sportType>bike</sportType>
+    <workout>
+        <Warmup Duration="600" PowerLow=".4" PowerHigh=".73" Cadence="85">
+            <textevent timeoffset="0" message="Welcome back to the final and longest workout of the first week! I hope you&apos;ve enjoyed this first week so far." locIndex="1" />
+            <textevent timeoffset="10" message="We&apos;ll start today with our usual 10min warm-up at a comfortable cadence." locIndex="2" />
+            <textevent timeoffset="20" message="Make sure you have your fluids, fan, and towel at the ready, of course." locIndex="3" />
+            <textevent timeoffset="180" message="Today&apos;s warm-up will take us a bit higher than the others since we have some Tempo work planned for today..." locIndex="4" />
+            <textevent timeoffset="190" message="Tempo, AKA zone 3, or the &apos;green&apos; zone in Zwift, is the zone where your sugar and fat utilization are equal." locIndex="5" />
+            <textevent timeoffset="200" message="One of the primary goals of spending time in this zone is to increase muscle glycogen storage." locIndex="6" />
+            <textevent timeoffset="210" message="Glycogen is a form of stored sugar (glucose) that the body can readily use when needed." locIndex="7" />
+            <textevent timeoffset="300" message="That&apos;s halfway through today&apos;s warm-up. Let&apos;s chat about what we have planned for the last workout of this week..." locIndex="8" />
+            <textevent timeoffset="310" message="Today, we have 6 tempo intervals of 4-6min in duration, and a finale of 10min at zone 2." locIndex="9" />
+            <textevent timeoffset="320" message="We&apos;re going to accumulate a total of 30min at tempo today, so expect this workout to feel harder relative to the others.is week." locIndex="10" />
+            <textevent timeoffset="330" message="Also, the rest breaks between intervals are relatively short at only 2-3min, so expect to keep the pressure on today." locIndex="11" />
+            <textevent timeoffset="340" message="Let&apos;s keep warming up, and we&apos;ll catch up with 30sec to go." locIndex="12" />
+            <textevent timeoffset="570" message="Okay, just a little bit longer until our first intervals. We&apos;re starting with 3, 4min tempo intervals, with 2min rest between." locIndex="13" />
+            <textevent timeoffset="580" message="We&apos;ll be mixing up the cadence with these, so pay attention to these prompts." locIndex="14" />
+            <textevent timeoffset="590" message="Ready? We&apos;re going to start with a comfortable cadence." locIndex="15" />
+        </Warmup>
+        <IntervalsT Repeat="3" OnDuration="240" OnPower=".88" OffDuration="120" OffPower=".53">
+            <textevent timeoffset="0" message="Here we go with the first interval today. Let&apos;s get into it and use this first minute to adjust to the workload." locIndex="16" />
+            <textevent timeoffset="60" message="Great work! Keep your cadence comfortable still here, but let&apos;s do some quadrant drills for the rest of this interval." locIndex="17" />
+            <textevent timeoffset="70" message="A pedal stroke consists of 4 quadrants: push, pull, scrape, and kick." locIndex="18" />
+            <textevent timeoffset="80" message="Let&apos;s use this next minute to focus on the &apos;pull&apos; portion of the stroke." locIndex="19" />
+            <textevent timeoffset="90" message="This shouldn&apos;t be anything extreme, just focusing on pulling the pedals up at the bottom of the stroke." locIndex="20" />
+            <textevent timeoffset="150" message="Great work! Keep on pulling those pedals up for another minute. You should feel your hamstrings working more with these." locIndex="21" />
+            <textevent timeoffset="210" message="Excellent! Now, let&apos;s finish these final 30sec at a normal pedal stroke." locIndex="22" />
+            <textevent timeoffset="240" message="Perfect! That&apos;s 1 down and 2 to go. Let&apos;s rest up for a couple of minutes now." locIndex="23" />
+            <textevent timeoffset="330" message="Okay, coming up next, we&apos;re going to keep the cadence comfortable again but focus on the &apos;scrape&apos; and &apos;kick&apos; portions." locIndex="24" />
+            <textevent timeoffset="340" message="I like to think of scraping mud off the bottom of my cleat, then trying to kick a ball afterward." locIndex="25" />
+            <textevent timeoffset="350" message="This is going to feel very strange if you&apos;re not used to it, so do your best to separate those quadrants." locIndex="26" />
+            <textevent timeoffset="360" message="Here we go. Bring the power back up again, keep your cadence comfortable, and focus on the scrape and kick now." locIndex="27" />
+            <textevent timeoffset="420" message="Do you best here. Remember this should feel awkward if you&apos;ve never tried it before, practice will make perfect." locIndex="28" />
+            <textevent timeoffset="540" message="1min to go! Hopefully, you are starting to feel a bit more confident with separating that phase of the pedal stroke." locIndex="29" />
+            <textevent timeoffset="590" message="There&apos;s the arch ahead! Keep up with this pedal drill until we get there." locIndex="30" />
+            <textevent timeoffset="600" message="Awesome! Now back to a regular pedal stroke again. Let&apos;s take 2min easy again here." locIndex="31" />
+            <textevent timeoffset="690" message="All right, 1 last interval rep left. This time we&apos;re going to do the easiest (hopefully) quadrant: the &apos;push&apos;." locIndex="32" />
+            <textevent timeoffset="700" message="The &apos;push&apos; phase is where we generate the majority of our power and usually where most everyone feels the most comfortable." locIndex="33" />
+            <textevent timeoffset="710" message="So, this should feel like a somewhat &apos;normal&apos; stroke, just with an emphasis on pushing the pedals down more." locIndex="34" />
+            <textevent timeoffset="720" message="Let the power come back up again and then start to focus on applying the bulk of your force to the downstroke." locIndex="35" />
+            <textevent timeoffset="780" message="Push left, push right, push left, push right. If you need to, focus on just 1 leg at a time." locIndex="36" />
+            <textevent timeoffset="900" message="Excellent work again here! Just 1min to go, and we&apos;re through with another rep :-)" locIndex="37" />
+            <textevent timeoffset="950" message="Keep the power up right to the arch." locIndex="38" />
+            <textevent timeoffset="960" message="Great job! Let&apos;s take a short rest again and get ready for a slightly longer interval next (6min)." locIndex="39" />
+            <textevent timeoffset="1050" message="Okay, coming up next, we have a ramp-up effort at 70 RPM." locIndex="40" />
+            <textevent timeoffset="1060" message="Slow cadence work is an excellent opportunity to practice your pedal stroke again and separate the phases." locIndex="41" />
+            <textevent timeoffset="1070" message="So, over these next 6min, try to put all of those pieces together to equal a silky smooth pedal stroke." locIndex="42" />
+        </IntervalsT>
+        <Ramp Duration="360" PowerLow=".86" PowerHigh=".89" Cadence="70" pace="">
+            <textevent timeoffset="0" message="Here we go again! Get that power back up again, and start to slow the cadence down to around 70 RPM." locIndex="43" />
+            <textevent timeoffset="60" message="Do you notice a phase where you struggle applying force in? Typically this is in the &apos;kick&apos; phase." locIndex="44" />
+            <textevent timeoffset="70" message="If you do feel like that&apos;s a struggle, spend a little more time focusing on that portion." locIndex="45" />
+            <textevent timeoffset="80" message="Remember, though, the majority of the power will come during the downstroke." locIndex="46" />
+            <textevent timeoffset="180" message="Great job so far! That&apos;s halfway! Keep on gradually increasing the power while keeping your cadence low." locIndex="47" />
+            <textevent timeoffset="240" message="Form check: Shoulders relaxed, elbows bent, light grip on the bars." locIndex="48" />
+            <textevent timeoffset="300" message="A final-minute here. Hopefully, your pedal stroke is feeling more &apos;full&apos; now." locIndex="49" />
+            <textevent timeoffset="330" message="Keep the pressure on!" locIndex="50" />
+        </Ramp>
+        <SteadyState Duration="180" Power=".53" Cadence="85">
+            <textevent timeoffset="0" message="Nice work! Now, let&apos;s take a slightly longer break (3min) and get ready for another ramp next." locIndex="51" />
+            <textevent timeoffset="10" message="Take some deep breaths and a few sips of water here." locIndex="52" />
+            <textevent timeoffset="150" message="Coming up next, we&apos;re doing a ramp down at a comfortable cadence, and again focusing on a complete pedal stroke." locIndex="53" />
+        </SteadyState>
+        <Ramp Duration="360" PowerLow=".89" PowerHigh=".86" Cadence="85" pace="">
+            <textevent timeoffset="0" message="Bring the power up again here, and this time keep your cadence comfortable." locIndex="54" />
+            <textevent timeoffset="60" message="Do you notice it feeling harder to separate each phase of the pedal stroke at this slightly higher cadence?" locIndex="55" />
+            <textevent timeoffset="70" message="This is normal if you do, and something that will improve with practice." locIndex="56" />
+            <textevent timeoffset="120" message="Keep it going here. That&apos;s 2min down and 4 to go. Keep focusing on your pedal stroke." locIndex="57" />
+            <textevent timeoffset="180" message="Shake out the tension in your shoulders, loosen your grip on the bar a bit." locIndex="58" />
+            <textevent timeoffset="300" message="Last minute! Excellent job with this interval, my friend!" locIndex="59" />
+            <textevent timeoffset="330" message="Get to that arch!" locIndex="60" />
+        </Ramp>
+        <SteadyState Duration="180" Power=".53" Cadence="85">
+            <textevent timeoffset="0" message="Awesome work! Let&apos;s take another 3min rest and prepare for our last interval today :-)" locIndex="61" />
+            <textevent timeoffset="150" message="Coming up, we&apos;re going to do a ramp down from tempo, then hold it at zone 2 for 10min afterward." locIndex="62" />
+            <textevent timeoffset="160" message="I want your cadence to be quick during the ramp down portion at 100 RPM!" locIndex="63" />
+        </SteadyState>
+        <Ramp Duration="360" PowerLow=".89" PowerHigh=".72" Cadence="100" pace="">
+            <textevent timeoffset="0" message="Here we go! Get that leg speed way up now and bring the power up to match it." locIndex="64" />
+            <textevent timeoffset="60" message="Good! Now, continue to work on all 4 quadrants and making the transition smooth through each one." locIndex="65" />
+            <textevent timeoffset="70" message="You may notice again that this is even more difficult now, which is entirely reasonable." locIndex="66" />
+            <textevent timeoffset="80" message="Practice, practice, and practice some more :-)" locIndex="67" />
+            <textevent timeoffset="180" message="That&apos;s halfway through here. The power will drop down much lower than the previous intervals, but keep the cadence up!" locIndex="68" />
+            <textevent timeoffset="300" message="Last minute! Don&apos;t let your cadence drop off now." locIndex="69" />
+            <textevent timeoffset="350" message="In 10 sec, we&apos;re going to a steady-state interval for 10min, at a comfortable cadence." locIndex="70" />
+        </Ramp>
+        <IntervalsT Repeat="5" OnDuration="90" OffDuration="30" OnPower=".73" OffPower=".73" Cadence="85" CadenceResting="65" pace="">
+            <textevent timeoffset="0" message="Good work! Bring your cadence down to something more comfortable, and let&apos;s keep the power steady now." locIndex="71" />
+            <textevent timeoffset="10" message="For this final interval, we&apos;ll be alternating between sitting for 90sec and standing for 30sec." locIndex="72" />
+            <textevent timeoffset="80" message="In 10sec, I want you to drop the cadence down to 65 RPM and come up to standing." locIndex="73" />
+            <textevent timeoffset="90" message="Stand up here. Make the transition smooth and keep that pedal stroke as quiet as possible." locIndex="74" />
+            <textevent timeoffset="120" message="Great work! Sit back down again and bring the cadence back up." locIndex="75" />
+            <textevent timeoffset="200" message="Get ready to stand up again. You can click into a harder gear to slow your legs down and make the transition easier." locIndex="76" />
+            <textevent timeoffset="210" message="Stand up again here." locIndex="77" />
+            <textevent timeoffset="240" message="And back down again. Now click into a more comfortable gear to get your leg speed up quicker." locIndex="78" />
+            <textevent timeoffset="250" message="Even while using ERG mode, you can still use your gears to make those transitions easier." locIndex="79" />
+            <textevent timeoffset="320" message="Ready to stand up again? 2nd to last rep here!" locIndex="80" />
+            <textevent timeoffset="330" message="Back up for another 30sec!" locIndex="81" />
+            <textevent timeoffset="360" message="And back down again. Just 1 more to go :-)" locIndex="82" />
+            <textevent timeoffset="440" message="Okay, ready for the final standing effort? Click into a harder gear here." locIndex="83" />
+            <textevent timeoffset="450" message="And stand up for the last time! Keep that pedal stroke as smooth as you can." locIndex="84" />
+        </IntervalsT>
+        <Cooldown Duration="300" PowerLow=".6" PowerHigh=".4" Cadence="85">
+            <textevent timeoffset="0" message="Awesome job today!! Sit back down again and bring your cadence back up to something comfortable." locIndex="85" />
+            <textevent timeoffset="10" message="We&apos;ll spend 5min cooling down today, then hop off the bike :-)" locIndex="86" />
+            <textevent timeoffset="20" message="I hope you enjoyed the first week, and are motivated to start the 2nd week soon." locIndex="87" />
+            <textevent timeoffset="30" message="See you next time!" locIndex="88" />
+        </Cooldown>
+    </workout>
+</workout_file>

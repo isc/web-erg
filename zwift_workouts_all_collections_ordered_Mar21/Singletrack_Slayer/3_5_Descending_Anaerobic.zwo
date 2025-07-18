@@ -1,0 +1,126 @@
+<workout_file>
+    <uniqueId>52c3f1af-38e2-4845-be82-3777af7c0982</uniqueId>
+    <legacyIdHash>2713757426</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <categoryOverride>VO2 Max</categoryOverride>
+    <name>Descending Anaerobic</name>
+    <description>High power and high leg speed. This is an important characteristic to possess in MTB riding, along with the ability to repeat these high intensity efforts multiple times.
+
+With a short recovery between intervals today, we are replicating the demands of a high speed performance.</description>
+    <sportType>bike</sportType>
+    <category>Singletrack Slayer</category>
+    <subcategory>Week 3</subcategory>
+    <WorkoutPlan>1</WorkoutPlan>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <tags>
+    </tags>
+    <workout>
+        <Warmup Duration="420" PowerLow="0.5" PowerHigh="0.75">
+            <textevent timeoffset="30" message="Big power and high speed is the goal today." locIndex="1" />
+            <textevent timeoffset="60" message="We start the set with the longest effort and gradually reduce the interval." locIndex="2" />
+            <textevent timeoffset="90" message="But along the target cadence is high." locIndex="3" />
+            <textevent timeoffset="120" message="Just like in MTB riding where you will often need to produce bursts of high power and high cadence." locIndex="4" />
+        </Warmup>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="20" message="We continue the warmup with some 1min on/off&apos;s." locIndex="5" />
+        </SteadyState>
+        <IntervalsT Repeat="5" OnDuration="60" OffDuration="60" OnPower="0.9" OffPower="0.7">
+            <textevent timeoffset="20" message="Try to hit a high cadence for the &quot;on&quot; interval." locIndex="6" />
+            <textevent timeoffset="200" message="As you warmup you should be able to comfortably reach a higher cadence." locIndex="7" />
+            <textevent timeoffset="300" message="Stay seated for these efforts." locIndex="8" />
+            <textevent timeoffset="400" message="How is your cadence going? Is it increasing?" locIndex="9" />
+        </IntervalsT>
+        <SteadyState Duration="60" Power="0.5" />
+        <SteadyState Duration="180" Power="0.88">
+            <textevent timeoffset="30" message="A steady zone 3 effort effort to complete the warmup." locIndex="10" />
+            <textevent timeoffset="60" message="Again, try to pedal at a cadence that is a little higher than normal for you." locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="20" message="Let&apos;s prepare for the main set now." locIndex="12" />
+            <textevent timeoffset="40" message="You have 4 efforts that decrease in duration from 2min down to 30sec." locIndex="13" />
+            <textevent timeoffset="60" message="The power is high at 107%FTP." locIndex="14" />
+            <textevent timeoffset="80" message="But the challenging part is the target cadence..." locIndex="15" />
+            <textevent timeoffset="100" message="You need to be spinning at 100rpm for the efforts." locIndex="16" />
+            <textevent timeoffset="140" message="Remain seated for the efforts." locIndex="17" />
+            <textevent timeoffset="170" message="Here we go with the 1st and longest effort!" locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.07" Cadence="100">
+            <textevent timeoffset="10" message="Hit that target cadence of 100rpm" locIndex="19" />
+            <textevent timeoffset="40" message="Remain seated and spin the legs." locIndex="20" />
+            <textevent timeoffset="100" message="Into the final 20sec!" locIndex="21" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="10" message="The recovery period is the same as the interval period." locIndex="22" />
+            <textevent timeoffset="40" message="Spin at your self selected cadence here." locIndex="23" />
+            <textevent timeoffset="110" message="Ready to go again!" locIndex="24" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="1.07" Cadence="100">
+            <textevent timeoffset="10" message="Back to 100rpm" locIndex="25" />
+            <textevent timeoffset="40" message="Keep your upper body still." locIndex="26" />
+            <textevent timeoffset="70" message="You&apos;re strong all the way to the line!" locIndex="27" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="0.5">
+            <textevent timeoffset="10" message="Great work." locIndex="28" />
+            <textevent timeoffset="40" message="How well are you recovering?" locIndex="29" />
+            <textevent timeoffset="80" message="Here we go again!" locIndex="30" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.07" Cadence="100">
+            <textevent timeoffset="10" message="Hit that 100rpm." locIndex="31" />
+            <textevent timeoffset="40" message="Just a short effort this time." locIndex="32" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="10" message="And a short recovery." locIndex="33" />
+            <textevent timeoffset="50" message="You&apos;re good to go!" locIndex="34" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.07" Cadence="100">
+            <textevent timeoffset="10" message="This will be over before you know it!" locIndex="35" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.5">
+            <textevent timeoffset="20" message="Awesome work!" locIndex="36" />
+            <textevent timeoffset="60" message="That was some fast pedaling from you." locIndex="37" />
+            <textevent timeoffset="120" message="We have an extended recovery here." locIndex="38" />
+            <textevent timeoffset="200" message="Did you find the cadence challenging?" locIndex="39" />
+            <textevent timeoffset="220" message="Or the power challenging?" locIndex="40" />
+            <textevent timeoffset="260" message="Let&apos;s repeat that block of work." locIndex="41" />
+            <textevent timeoffset="280" message="Here we go!" locIndex="42" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.07" Cadence="100">
+            <textevent timeoffset="10" message="Hit that target cadence of 100rpm" locIndex="43" />
+            <textevent timeoffset="40" message="Remain seated and spin the legs." locIndex="44" />
+            <textevent timeoffset="100" message="Into the final 20sec!" locIndex="45" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="10" message="The recovery period is the same as the interval period." locIndex="46" />
+            <textevent timeoffset="40" message="Spin at your self selected cadence here." locIndex="47" />
+            <textevent timeoffset="110" message="Ready to go again!" locIndex="48" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="1.07" Cadence="100">
+            <textevent timeoffset="10" message="Back to 100rpm" locIndex="49" />
+            <textevent timeoffset="40" message="Keep your upper body still." locIndex="50" />
+            <textevent timeoffset="70" message="You&apos;re strong all the way to the line!" locIndex="51" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="0.5">
+            <textevent timeoffset="10" message="Great work." locIndex="52" />
+            <textevent timeoffset="40" message="How well are you recovering?" locIndex="53" />
+            <textevent timeoffset="80" message="Here we go again!" locIndex="54" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.07" Cadence="100">
+            <textevent timeoffset="10" message="Hit that 100rpm." locIndex="55" />
+            <textevent timeoffset="40" message="Just a short effort this time." locIndex="56" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="10" message="And a short recovery." locIndex="57" />
+            <textevent timeoffset="50" message="You&apos;re good to go!" locIndex="58" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.07" Cadence="100">
+            <textevent timeoffset="10" message="This will be over before you know it!" locIndex="59" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.5">
+            <textevent timeoffset="30" message="Fantastic!" locIndex="60" />
+            <textevent timeoffset="60" message="That&apos;s 10min of high cadence, high power work you just completed!" locIndex="61" />
+            <textevent timeoffset="90" message="Have a really good spin down now." locIndex="62" />
+            <textevent timeoffset="110" message="And start hydrating and refuelling." locIndex="63" />
+            <textevent timeoffset="200" message="Aim to give yourself an easier day tomorrow or a day off if you feel you need it." locIndex="64" />
+        </SteadyState>
+    </workout>
+</workout_file>

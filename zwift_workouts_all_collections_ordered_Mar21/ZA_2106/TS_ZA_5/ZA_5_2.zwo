@@ -1,0 +1,44 @@
+<workout_file>
+    <uniqueId>b69cbcd1-583c-4a55-8ab6-04ec85f3451d</uniqueId>
+    <legacyIdHash>1843477379</legacyIdHash>
+    <author>Zwift Academy</author>
+    <category>Zwift Academy 2016</category>
+    <subcategory>Month 5 - Semifinals</subcategory>
+    <name>Month 5 - Semifinals.2 - Threshold Pulling</name>
+    <description>Begin with a good warmup (this is a tough session, so ensure you warm up well). Ensure you are fuelled and hydrated throughout with a good airflow. Don&apos;t bail! It gets mentally easier as the efforts get shorter!</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <Warmup Duration="1200" PowerLow="0.25" PowerHigh="0.89707994" />
+        <SteadyState Duration="300" Power="0.65000004" />
+        <SteadyState Duration="240" Power="1.0999999" />
+        <SteadyState Duration="240" Power="0.65000004" />
+        <SteadyState Duration="240" Power="1.0999999" />
+        <SteadyState Duration="240" Power="0.65000004" />
+        <SteadyState Duration="180" Power="1.0999999" />
+        <SteadyState Duration="180" Power="0.65000004" />
+        <SteadyState Duration="180" Power="1.0999999" />
+        <SteadyState Duration="180" Power="0.65000004" />
+        <SteadyState Duration="180" Power="1.0999999" />
+        <SteadyState Duration="180" Power="0.65000004" />
+        <SteadyState Duration="120" Power="1.0999999" />
+        <SteadyState Duration="120" Power="0.65000004" />
+        <SteadyState Duration="120" Power="1.0999999" />
+        <SteadyState Duration="120" Power="0.65000004" />
+        <SteadyState Duration="120" Power="1.0999999" />
+        <SteadyState Duration="120" Power="0.65000004" />
+        <SteadyState Duration="120" Power="1.0999999" />
+        <SteadyState Duration="120" Power="0.65000004" />
+        <SteadyState Duration="60" Power="1.0999999" />
+        <SteadyState Duration="60" Power="0.65000004" />
+        <SteadyState Duration="60" Power="1.0999999" />
+        <SteadyState Duration="60" Power="0.65000004" />
+        <SteadyState Duration="60" Power="1.0999999" />
+        <SteadyState Duration="60" Power="0.65000004" />
+        <SteadyState Duration="60" Power="1.0999999" />
+        <SteadyState Duration="60" Power="0.65000004" />
+        <SteadyState Duration="60" Power="1.0999999" />
+        <SteadyState Duration="60" Power="0.65000004" />
+        <Cooldown Duration="600" PowerLow="0.85814691" PowerHigh="0.25" />
+    </workout>
+</workout_file>

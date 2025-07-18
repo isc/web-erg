@@ -1,0 +1,40 @@
+<workout_file>
+    <uniqueId>7441a909-3bd9-4eaf-8631-df5959e0238a</uniqueId>
+    <legacyIdHash>3577769287</legacyIdHash>
+    <name>TT#4 Training for the 1st 5 min</name>
+    <categoryOverride>30-60 minutes to burn</categoryOverride>
+    <description>This workout has the goal to help the cardio-respiratory system reach the maximum efficiency without an excessive lactic acid accumulation at the start of a Time Trial, helping raise the Vo2 max (directly correlated to heart rate) as fast as possible.</description>
+    <author>Marco Pinotti</author>
+    <category>TimeTrials specific</category>
+    <categoryIndex>4</categoryIndex>
+    <painIndex>5</painIndex>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/MarcoPinotti_Logo.tga</authorIcon>
+    <workout>
+        <Warmup Duration="900" PowerLow="0.40" PowerHigh="0.75" />
+        <SteadyState Duration="120" PowerLow="0.5" PowerHigh="0.52" />
+        <Ramp Duration="30" PowerLow="0.55" PowerHigh="1.0" />
+        <SteadyState Duration="90" PowerLow="0.95" PowerHigh="1.05" />
+        <SteadyState Duration="120" PowerLow="0" PowerHigh="0.55" />
+        <Ramp Duration="30" PowerLow="0.55" PowerHigh="1.0" />
+        <SteadyState Duration="90" PowerLow="0.95" PowerHigh="1.05" />
+        <SteadyState Duration="120" PowerLow="0" PowerHigh="0.55" />
+        <Ramp Duration="30" PowerLow="0.55" PowerHigh="1.0" />
+        <SteadyState Duration="90" PowerLow="0.95" PowerHigh="1.05" />
+        <SteadyState Duration="120" PowerLow="0" PowerHigh="0.55" />
+        <Ramp Duration="30" PowerLow="0.55" PowerHigh="1.0" />
+        <SteadyState Duration="90" PowerLow="0.95" PowerHigh="1.05" />
+        <SteadyState Duration="120" PowerLow="0" PowerHigh="0.55" />
+        <Ramp Duration="30" PowerLow="0.55" PowerHigh="1.0" />
+        <SteadyState Duration="90" PowerLow="0.95" PowerHigh="1.05" />
+        <SteadyState Duration="120" PowerLow="0" PowerHigh="0.55" />
+        <Ramp Duration="30" PowerLow="0.55" PowerHigh="1.0" />
+        <SteadyState Duration="90" PowerLow="0.95" PowerHigh="1.05" />
+        <SteadyState Duration="120" PowerLow="0" PowerHigh="0.55" />
+        <Ramp Duration="30" PowerLow="0.55" PowerHigh="1.0" />
+        <SteadyState Duration="90" PowerLow="0.95" PowerHigh="1.05" />
+        <SteadyState Duration="120" PowerLow="0" PowerHigh="0.55" />
+        <Ramp Duration="30" PowerLow="0.55" PowerHigh="1.0" />
+        <SteadyState Duration="90" PowerLow="0.95" PowerHigh="1.05" />
+        <SteadyState Duration="120" PowerLow="0" PowerHigh="0.55" />
+    </workout>
+</workout_file>

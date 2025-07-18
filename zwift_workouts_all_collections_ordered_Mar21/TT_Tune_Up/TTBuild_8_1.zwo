@@ -1,0 +1,77 @@
+<workout_file>
+    <uniqueId>8c7d19ce-3ee8-49b6-8bf8-769cfb15c40a</uniqueId>
+    <legacyIdHash>3173284530</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>AC Intervals #1</name>
+    <description>This is a very high level of intensity that requires mental and physical perseverance. Not only is it important to increase your ability to produce short, high powered efforts, so to is the importance of being able to repeat these efforts with little recovery. In today&apos;s session the efforts get shorter, but the power increases.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>TT Tune Up</category>
+    <subcategory>Week 8</subcategory>
+    <tags>
+    </tags>
+    <workout>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="129" message="High RPM in warm up sprints. Aiming for 110RPM." locIndex="1" />
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="10" OffDuration="50" OnPower="2" OffPower="0.5">
+            <textevent timeoffset="35" message="Accelerate in or out of the seat." locIndex="2" />
+        </IntervalsT>
+        <Ramp Duration="180" PowerLow="0.6" PowerHigh="0.75">
+            <textevent timeoffset="20" message="To help warm up we now ramp up the power through Zone 2." locIndex="3" />
+        </Ramp>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="110" message="To help prepare for the main set, we now ramp up through your threshold power." locIndex="4" />
+        </SteadyState>
+        <Ramp Duration="300" PowerLow="0.9" PowerHigh="1.04" />
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="20" message="This is a hard set today." locIndex="5" />
+            <textevent timeoffset="30" message="By themselves the efforts would be fine." locIndex="6" />
+            <textevent timeoffset="40" message="But the short recovery, and increased power adds to the difficulty" locIndex="7" />
+            <textevent timeoffset="50" message="Over the 3 intervals, the duration decreases, but the required power increases." locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.21" />
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="20" message="Just a short recovery." locIndex="9" />
+            <textevent timeoffset="50" message="A little more power this time. " locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.31" />
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="50" message="Great work.... onto the last effort in this set." locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.4" />
+        <SteadyState Duration="300" Power="0.5">
+            <textevent timeoffset="20" message="How did you find that?" locIndex="12" />
+            <textevent timeoffset="40" message="Big gains in your ability to produce high power from today&apos;s session." locIndex="13" />
+            <textevent timeoffset="280" message="Onto the next set...." locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.21">
+            <textevent timeoffset="110" message="Is your HR responding the same as the first set?" locIndex="15" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.5" />
+        <SteadyState Duration="60" Power="1.31" />
+        <SteadyState Duration="60" Power="0.5" />
+        <SteadyState Duration="30" Power="1.4">
+            <textevent timeoffset="25" message="Take note of your peak HR and compare to the 1st set." locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.5">
+            <textevent timeoffset="30" message="A good rest period now." locIndex="17" />
+            <textevent timeoffset="280" message="Onto the last set. Think of the big gains you are making today!" locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.21">
+            <textevent timeoffset="40" message="Focus on controlled breathing." locIndex="19" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="50" message="More power again." locIndex="20" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.31" />
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="50" message="Last hard effort for the day!" locIndex="21" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.4" />
+        <SteadyState Duration="300" Power="0.5">
+            <textevent timeoffset="60" message="A long recovery required after that session. " locIndex="22" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow="0.75" PowerHigh="0.45" />
+    </workout>
+</workout_file>

@@ -1,0 +1,24 @@
+<workout_file>
+    <uniqueId>4e7e970b-b375-4138-8c09-800afc6fdcad</uniqueId>
+    <legacyIdHash>1661874229</legacyIdHash>
+    <author>British Cycling</author>
+    <name>Week 2.4 - Free Ride</name>
+    <description>This is a chance to get out for your local Club Run, hit the trails or to join a group ride on Zwift. The focus should be on steady paced endurance. Take care not to overdo this session though as you don&apos;t want it to impact on the quality of your other workouts.
+
+Aim to ride predominately in Zone 2 (55% - 75% FTP) and try to include 3-4 5 min Zone 4 (90%-105% FTP) efforts during the ride.</description>
+    <category>British Cycling eRacing Championship</category>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/HSBC_Logo.tga</authorIcon>
+    <subcategory>Week 2</subcategory>
+    <entid>436</entid>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout>
+        <FreeRide Duration="5400" FlatRoad="0">
+            <textevent timeoffset="1200" message="Don&apos;t forget to include a 5 min effort in Z4 (90-105%). The workout graph at the bottom should be yellow during these efforts if you are in the right zone." locIndex="1" />
+            <textevent timeoffset="2400" message="Don&apos;t forget to include a 5 min effort in Z4 (90-105%). The workout graph at the bottom should be yellow during these efforts if you are in the right zone." locIndex="2" />
+            <textevent timeoffset="3600" message="Don&apos;t forget to include a 5 min effort in Z4 (90-105%). The workout graph at the bottom should be yellow during these efforts if you are in the right zone." locIndex="3" />
+            <textevent timeoffset="4800" message="Don&apos;t forget to include a 5 min effort in Z4 (90-105%). The workout graph at the bottom should be yellow during these efforts if you are in the right zone." locIndex="4" />
+        </FreeRide>
+    </workout>
+</workout_file>

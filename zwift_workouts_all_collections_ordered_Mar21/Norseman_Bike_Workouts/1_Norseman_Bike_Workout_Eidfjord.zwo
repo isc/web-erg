@@ -1,0 +1,102 @@
+<workout_file>
+    <uniqueId>6f0e6c61-0160-4b9b-9565-46f22dadcd7e</uniqueId>
+    <legacyIdHash>2708147033</legacyIdHash>
+    <author>Martin Bonnevie-Svendsen</author>
+    <name>Norseman workout: Eidfjord</name>
+    <description>So you think you have what it takes to take on the Norseman Workout Series? 
+Eidfjord is where it all begins. It will still be dark when you jump off the back of a car ferry into an icy fjord, you now just need to swim 2.5 miles towards the fire on shore, jump on your bike and start climbing immediately. How hard can this be?
+This is the first in a series of Norseman workouts and is a classic threshold session with a twist. Each 9 minute threshold effort includes a 45 second burst at high intensity at the start and 4.5 minute mark. This session should be moderately strenuous and work your muscular endurance without costing you too much in terms of recovery time.
+	Think you have what it takes? Check out all of the Norseman Run and Bike workouts to help you prepare for the Norseman Festival of Climbing July 27th - August 2nd. 
+</description>
+    <category>The Norseman</category>
+    <categoryOverride>Threshold</categoryOverride>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="Norseman" />
+    </tags>
+    <workout>
+        <Ramp Duration="600" PowerLow="0.50449997" PowerHigh="0.72449994" pace="0">
+            <textevent timeoffset="15" message="Welcome to the first in this series of Norseman workouts." locIndex="1" />
+            <textevent timeoffset="30" message="Ease into the session with a 10 minute warm up at low intensity." locIndex="2" />
+            <textevent timeoffset="60" message="Choose your preferred cadence for the entire workout." locIndex="3" />
+            <textevent timeoffset="100" message="Eidfjord is where it all begins." locIndex="4" />
+            <textevent timeoffset="120" message="It will still be dark when you jump off the back of a car ferry into an icy fjord." locIndex="5" />
+            <textevent timeoffset="140" message="You now just need to swim 2.5 miles towards the fire on shore, jump on your bike and start climbing immediately." locIndex="6" />
+            <textevent timeoffset="160" message="How hard can this be?" locIndex="7" />
+            <textevent timeoffset="240" message="Aim for the initial two 9 minute sets to be quite tolerable." locIndex="8" />
+            <textevent timeoffset="270" message="The last two 9 minute sets should start feeling more strenuous." locIndex="9" />
+            <textevent timeoffset="360" message="Now increase your cadence by 5 to 10 rpm to get your heart rate up a little. Hold for 2 minutes." locIndex="10" />
+            <textevent timeoffset="540" message="You should be feeling warmed up. A short effort coming up at sub threshold." locIndex="11" />
+        </Ramp>
+        <SteadyState Duration="120" Power="0.90" pace="0">
+            <textevent timeoffset="10" message="Test your interval power here for 2 minutes at 90% FTP." locIndex="12" />
+            <textevent timeoffset="90" message="You should feel that you could hold this power for 4 x 9 minutes without being close to blowing up. Especially as we are going to add some 45 second surges within your 9 minute efforts." locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.50" pace="0">
+            <textevent timeoffset="0" message="Relax for 60 seconds before we test some 45 second power surges." locIndex="14" />
+            <textevent timeoffset="30" message="Coming up in 30 seconds are two bursts of 45 seconds at 115% FTP. This is the final effort of your warmup." locIndex="15" />
+        </SteadyState>
+        <SteadyState Duration="45" Power="1.15" pace="0">
+            <textevent timeoffset="0" message="Spin your power up and hold for 45 seconds." locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.50" pace="0">
+            <textevent timeoffset="0" message="Good job! Now pedal gently for 30 seconds before the final power surge of your warmup." locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="45" Power="1.15" pace="0">
+            <textevent timeoffset="0" message="Keep the power smooth." locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.5" pace="0">
+            <textevent timeoffset="0" message="Well done on completing your warmup. Pedal softly for 3 minutes before we get stuck into the main set of this workout." locIndex="19" />
+            <textevent timeoffset="60" message="The main set coming up is 4 x 9 minute intervals at 90% FTP." locIndex="20" />
+            <textevent timeoffset="70" message="However, at the start and 4.5 minute mark of each interval, you have 45 seconds at 115% FTP." locIndex="21" />
+            <textevent timeoffset="120" message="60 seconds until we get started. Have a sip of water and get ready." locIndex="22" />
+            <textevent timeoffset="170" message="Start spinning your cadence up towards what you will be holding for the initial fast 45 seconds." locIndex="23" />
+        </SteadyState>
+        <IntervalsT Repeat="2" OnDuration="45" OffDuration="225" OnPower="1.15" OffPower="0.90" pace="0">
+            <textevent timeoffset="0" message="Keep the cadence smooth in these hard efforts." locIndex="24" />
+            <textevent timeoffset="55" message="Now settle into a good rhythm for the 3.45 minute effort just below FTP." locIndex="25" />
+            <textevent timeoffset="280" message="Focus!" locIndex="26" />
+            <textevent timeoffset="325" message="And back down to a sub threshold effort." locIndex="27" />
+            <textevent timeoffset="510" message="3 minute rest coming up, so plenty of time to recover." locIndex="28" />
+        </IntervalsT>
+        <SteadyState Duration="180" Power="0.5" pace="0">
+            <textevent timeoffset="160" message="Ready to go again?" locIndex="29" />
+        </SteadyState>
+        <IntervalsT Repeat="2" OnDuration="45" OffDuration="225" OnPower="1.15" OffPower="0.90" pace="0">
+            <textevent timeoffset="0" message="Round 2, spin up the cadence." locIndex="30" />
+            <textevent timeoffset="55" message="Now focus on a sustained and smooth effort." locIndex="31" />0
+		    <textevent timeoffset="280" message="Imagine you are on a short, sharp climb." locIndex="32" />
+            <textevent timeoffset="325" message="Settle back into the aero position for these longer reps." locIndex="33" />
+            <textevent timeoffset="510" message="Nearly there, good work." locIndex="34" />
+        </IntervalsT>
+        <SteadyState Duration="180" Power="0.5" pace="0">
+            <textevent timeoffset="160" message="Third set about to start" locIndex="35" />
+        </SteadyState>
+        <IntervalsT Repeat="2" OnDuration="45" OffDuration="225" OnPower="1.15" OffPower="0.90" pace="0">
+            <textevent timeoffset="0" message="Strong rhythm, strong cadence." locIndex="36" />
+            <textevent timeoffset="55" message="Focus on keeping smooth, how are these feeling?" locIndex="37" />
+            <textevent timeoffset="280" message="Attack the short efforts." locIndex="38" />
+            <textevent timeoffset="325" message="Time flies when you are having fun!" locIndex="39" />
+            <textevent timeoffset="510" message="Another good rest and then the final block." locIndex="40" />
+        </IntervalsT>
+        <SteadyState Duration="180" Power="0.5" pace="0">
+            <textevent timeoffset="160" message="This is where the magic happens." locIndex="41" />
+        </SteadyState>
+        <IntervalsT Repeat="2" OnDuration="45" OffDuration="225" OnPower="1.15" OffPower="0.90" pace="0">
+            <textevent timeoffset="0" message="Do not let that cadence drop." locIndex="42" />
+            <textevent timeoffset="55" message="Make these last reps the best ones." locIndex="43" />
+            <textevent timeoffset="280" message="Final hard effort." locIndex="44" />
+            <textevent timeoffset="325" message="This should be hurting by now." locIndex="45" />
+            <textevent timeoffset="510" message="Almost there!" locIndex="46" />
+        </IntervalsT>
+        <SteadyState Duration="120" Power="0.5" pace="0">
+            <textevent timeoffset="20" message="And take it down." locIndex="47" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow="0.6045" PowerHigh="0.50449997" pace="0">
+            <textevent timeoffset="0" message="Great work, those are solid intervals and you did great." locIndex="48" />
+            <textevent timeoffset="20" message="The 45 second bursts really sting after a while." locIndex="49" />
+            <textevent timeoffset="200" message="Thank you for joining this Norseman workout." locIndex="50" />
+            <textevent timeoffset="230" message="Keep an eye out for another workout in the Norseman series next week." locIndex="51" />
+        </Cooldown>
+    </workout>
+</workout_file>

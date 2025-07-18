@@ -1,0 +1,75 @@
+<workout_file>
+    <uniqueId>10e0550e-75fa-4a12-bccc-7c1fb22f4419</uniqueId>
+    <legacyIdHash>112892592</legacyIdHash>
+    <author>Matt Rowe</author>
+    <categoryOverride>Sweet Spot</categoryOverride>
+    <name>Free Ride Sandwich</name>
+    <description>In today&apos;s workout, you will complete 3 x 10 minute blocks of effort. The first and third block are at 88% of FTP (top-end of Zone 3), with the middle block a Free Ride, so you can ride as hard or easy as you like (target being to complete another Zone 3 block).
+
+This is another purist way to develop your endurance - no free wheeling and consistent muscle tension. </description>
+    <sportType>bike</sportType>
+    <category>2020 Rapha Festive 500</category>
+    <tags>
+        <tag name="RaphaFestive500" />
+    </tags>
+    <workout>
+        <Warmup Duration="480" PowerHigh="0.95" PowerLow="0.35">
+            <textevent message="Welcome to Free Ride Sandwich - the third of six workouts within Rapha&apos;s Festive 500 Workout Series" locIndex="1" timeoffset="15" />
+            <textevent message="Todays session aims to help develop your endurance - a fundamental attributes for completing Rapha&apos;s Festive 500 - 500km in 8 days" locIndex="2" timeoffset="40" />
+            <textevent message="Today, we will complete 3 x 10 minute blocks of effort. Two blocks of Tempo, and one Free Ride block" locIndex="3" timeoffset="90" />
+            <textevent message="The Free Ride block is down to you as to how hard you ride - depending on your current level of fitness / how you feel today?" locIndex="4" timeoffset="105" />
+            <textevent message="We start with a warm up - a progressive ramped effort from 35-95% of your FTP" locIndex="5" timeoffset="150" />
+            <textevent message="A progressive ramp is all you need to warm you up for a session like today&apos;s, with a gradual easing in to the efforts" locIndex="6" timeoffset="200" />
+            <textevent message="Consistency is key to getting fit - try ride your bike as often as possible, incorporating structure like today, but also some general road riding" locIndex="7" timeoffset="280" />
+            <textevent message="Combining specificity indoors on Zwift with more relaxed general group riding IRL is the magic formula!" locIndex="8" timeoffset="320" />
+            <textevent message="You should be feeling pretty warmed up now. Do you have a sweat on?" locIndex="9" timeoffset="410" />
+            <textevent message="Coming to the end of the ramped warm up - hopefully you have a sweat on, and are feeling ready for some efforts?" locIndex="10" timeoffset="460" />
+        </Warmup>
+        <SteadyState Duration="120" Power="0.45">
+            <textevent message="How do your legs feel after the warm up?" locIndex="11" timeoffset="10" />
+            <textevent message="By completing a consistent warm up - you will get used to your body&apos;s sensations, helping you to understand when you are on a good and bad day" locIndex="12" timeoffset="40" />
+            <textevent message="Get your fan cranked up - it&apos;s important to keep cool when on Zwift as you don&apos;t have the air flow like on the road" locIndex="13" timeoffset="70" />
+            <textevent message="Here we go let&apos;s get stuck in to todays efforts" locIndex="14" timeoffset="110" />
+        </SteadyState>
+        <SteadyState Duration="600" Power="0.88">
+            <textevent message="We will now settle in to the first block - 10 minutes of SweetSpot (88% of FTP)" locIndex="15" timeoffset="10" />
+            <textevent message="This effort should feel similar to the effort you may make on the front of a group ride?" locIndex="16" timeoffset="200" />
+            <textevent message="Your heart rate may creep up throughout the block of effort?" locIndex="17" timeoffset="300" />
+            <textevent message="Sweet Spot is an efficient way to train your endurance - not too tough which enables you to do a lot of it!" locIndex="18" timeoffset="400" />
+            <textevent message="Good work - keep it up!" locIndex="19" timeoffset="500" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.5">
+            <textevent message="4 minutes easy - a chance to take a drink" locIndex="20" timeoffset="10" />
+            <textevent message="How does your heart rate respond to the rest? The quicker it drops the better" locIndex="21" timeoffset="140" />
+            <textevent message="One last stretch before we hit the Free Ride - how are you going to ride it?" locIndex="22" timeoffset="200" />
+        </SteadyState>
+        <FreeRide Duration="600" FlatRoad="1">
+            <textevent message="Here we go - Free Ride time!" locIndex="23" timeoffset="1" />
+            <textevent message="Depending on how you are feeling, you can either cruise this or go full gas. Your choice?" locIndex="24" timeoffset="30" />
+            <textevent message="If you are a fit rider, I would encourage you to ride around your threshold power for maximum endurance gain" locIndex="25" timeoffset="100" />
+            <textevent message="You could stick a few surges in effort in if you feel up to it?" locIndex="26" timeoffset="300" />
+            <textevent message="How about a big minute of power? Up for smashing the next 60 second max effort?" locIndex="27" timeoffset="420" />
+            <textevent message="All the way to the end - great work!" locIndex="28" timeoffset="570" />
+            <textevent message="Good riding - squeeze on a little if you can?" locIndex="29" timeoffset="500" />
+        </FreeRide>
+        <SteadyState Duration="240" Power="0.5">
+            <textevent message="Another 4 minutes easy before the 3rd block of effort" locIndex="30" timeoffset="20" />
+            <textevent message="You may notice your heart rate is higher than the last recovery block if you went hard in the Free Ride?" locIndex="31" timeoffset="100" />
+            <textevent message="One more block of effort to go! Get ready" locIndex="32" timeoffset="220" />
+        </SteadyState>
+        <SteadyState Duration="600" Power="0.88">
+            <textevent message="Final block of effort - 10 minutes at Sweet Spot (88% of FTP)" locIndex="33" timeoffset="10" />
+            <textevent message="Settle in to your rhythm and try to focus on producing a nice smooth pedalling stroke" locIndex="34" timeoffset="200" />
+            <textevent message="This third block may start to hurt a little, especially if you went hard in the Free Ride?" locIndex="35" timeoffset="300" />
+            <textevent message="How do the legs feel? Keep on battling to the end of the block" locIndex="36" timeoffset="400" />
+            <textevent message="Nice work - almost there!" locIndex="37" timeoffset="500" />
+            <textevent message="You are going to cruise Rapha&apos;s Festive 500 training like this!" locIndex="38" timeoffset="550" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerHigh="0.35" PowerLow="0.6">
+            <textevent message="Great workout - well done!" locIndex="39" timeoffset="20" />
+            <textevent message="The training we complete now will really benefit you come Rapha&apos;s Festive 500 Challenge!" locIndex="40" timeoffset="100" />
+            <textevent message="Make sure you supplement this training plan with some IRL riding, for some added volume" locIndex="41" timeoffset="200" />
+            <textevent message="Thanks for joining - see you on the next workout!" locIndex="42" timeoffset="285" />
+        </Cooldown>
+    </workout>
+</workout_file>

@@ -1,0 +1,95 @@
+<workout_file>
+    <uniqueId>ee2ffab1-c7c8-47df-93dc-db25bc0a4121</uniqueId>
+    <legacyIdHash>248940798</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Week 4.2 - Power Surges #2</name>
+    <category>2018 PRL100 Prep</category>
+    <subcategory>Week 4</subcategory>
+    <description>Steady endurance work trains your body to utilize oxygen to metabolise fat as its fuel source. By incorporating sprint efforts into a steady state effort, you will recruit additional muscle fibres and extend their ability to work aerobically.</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <Warmup Duration="180" PowerLow="0.50449997" PowerHigh="0.50449997" pace="0" />
+        <IntervalsT Repeat="2" OnDuration="60" OffDuration="60" OnPower="0.93449992" OffPower="0.6045" pace="0" />
+        <textevent timeoffset="60" message="A big session today!" locIndex="1" />
+        <textevent timeoffset="149" message="Lot&apos;s of changes in cadence and power during the session." locIndex="2" />
+        <SteadyState Duration="60" Power="0.70449996" pace="0" />
+        <SteadyState Duration="120" Power="0.75837272" pace="0" />
+        <textevent timeoffset="48" message="It&apos;s important to hit your target cadence before the interval begins." locIndex="3" />
+        <textevent timeoffset="112" message="The key to performing short efforts on Zwift is to hold a steady cadence." locIndex="4" />
+        <SteadyState Duration="15" Power="1.21" pace="0" />
+        <SteadyState Duration="45" Power="0.55000001" pace="0" />
+        <textevent timeoffset="17" message="Aim for a cadence of about 105 for the surges." locIndex="5" />
+        <SteadyState Duration="15" Power="1.21" pace="0" />
+        <SteadyState Duration="45" Power="0.55000001" pace="0" />
+        <SteadyState Duration="15" Power="1.21" pace="0" />
+        <SteadyState Duration="45" Power="0.55000001" pace="0" />
+        <SteadyState Duration="15" Power="1.21" pace="0" />
+        <SteadyState Duration="45" Power="0.55000001" pace="0" />
+        <SteadyState Duration="15" Power="1.21" pace="0" />
+        <SteadyState Duration="45" Power="0.55000001" pace="0" />
+        <SteadyState Duration="15" Power="1.21" pace="0" />
+        <SteadyState Duration="45" Power="0.55000001" pace="0" />
+        <SteadyState Duration="15" Power="1.21" pace="0" />
+        <SteadyState Duration="45" Power="0.55000001" pace="0" />
+        <SteadyState Duration="15" Power="1.21" pace="0" />
+        <SteadyState Duration="45" Power="0.55000001" pace="0" />
+        <SteadyState Duration="15" Power="1.21" pace="0" />
+        <SteadyState Duration="45" Power="0.55000001" pace="0" />
+        <SteadyState Duration="15" Power="1.21" pace="0" />
+        <SteadyState Duration="45" Power="0.55000001" pace="0" />
+        <SteadyState Duration="300" Power="0.55449998" pace="0" />
+        <textevent timeoffset="25" message="That&apos;s the 1st set finished." locIndex="6" />
+        <textevent timeoffset="125" message="Did your HR increase throughout" locIndex="7" />
+        <textevent timeoffset="254" message="Ready for the next set." locIndex="8" />
+        <SteadyState Duration="15" Power="1.21" pace="0" />
+        <SteadyState Duration="45" Power="0.55000001" pace="0" />
+        <SteadyState Duration="15" Power="1.21" pace="0" />
+        <SteadyState Duration="45" Power="0.55000001" pace="0" />
+        <SteadyState Duration="15" Power="1.21" pace="0" />
+        <SteadyState Duration="45" Power="0.55000001" pace="0" />
+        <SteadyState Duration="15" Power="1.21" pace="0" />
+        <SteadyState Duration="45" Power="0.55000001" pace="0" />
+        <SteadyState Duration="15" Power="1.21" pace="0" />
+        <SteadyState Duration="45" Power="0.55000001" pace="0" />
+        <SteadyState Duration="15" Power="1.21" pace="0" />
+        <SteadyState Duration="45" Power="0.55000001" pace="0" />
+        <SteadyState Duration="15" Power="1.21" pace="0" />
+        <SteadyState Duration="45" Power="0.55000001" pace="0" />
+        <SteadyState Duration="15" Power="1.21" pace="0" />
+        <SteadyState Duration="45" Power="0.55000001" pace="0" />
+        <SteadyState Duration="15" Power="1.21" pace="0" />
+        <SteadyState Duration="45" Power="0.55000001" pace="0" />
+        <SteadyState Duration="15" Power="1.21" pace="0" />
+        <SteadyState Duration="45" Power="0.55000001" pace="0" />
+        <SteadyState Duration="300" Power="0.55000001" pace="0" />
+        <textevent timeoffset="19" message="Is the fatigue building up?" locIndex="9" />
+        <textevent timeoffset="235" message="Last set now." locIndex="10" />
+        <SteadyState Duration="15" Power="1.21" pace="0" />
+        <SteadyState Duration="45" Power="0.55000001" pace="0" />
+        <SteadyState Duration="15" Power="1.21" pace="0" />
+        <SteadyState Duration="45" Power="0.55000001" pace="0" />
+        <SteadyState Duration="15" Power="1.21" pace="0" />
+        <SteadyState Duration="45" Power="0.55000001" pace="0" />
+        <SteadyState Duration="15" Power="1.21" pace="0" />
+        <SteadyState Duration="45" Power="0.55000001" pace="0" />
+        <SteadyState Duration="15" Power="1.21" pace="0" />
+        <SteadyState Duration="45" Power="0.55000001" pace="0" />
+        <SteadyState Duration="15" Power="1.21" pace="0" />
+        <SteadyState Duration="45" Power="0.55000001" pace="0" />
+        <SteadyState Duration="15" Power="1.21" pace="0" />
+        <SteadyState Duration="45" Power="0.55000001" pace="0" />
+        <SteadyState Duration="15" Power="1.21" pace="0" />
+        <SteadyState Duration="45" Power="0.55000001" pace="0" />
+        <SteadyState Duration="15" Power="1.21" pace="0" />
+        <SteadyState Duration="45" Power="0.55000001" pace="0" />
+        <SteadyState Duration="15" Power="1.21" pace="0" />
+        <SteadyState Duration="45" Power="0.55000001" pace="0" />
+        <SteadyState Duration="300" Power="0.55449998" pace="0" />
+        <SteadyState Duration="600" Power="0.65449995" pace="0">
+            <textevent timeoffset="10" message="Complete 4 x 10sec max sprints." locIndex="11" />
+            <textevent timeoffset="20" message="With approx 2min recovery" locIndex="12" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow="0.75449997" PowerHigh="0.50449997" pace="0" />
+    </workout>
+</workout_file>

@@ -1,0 +1,56 @@
+<workout_file>
+    <uniqueId>acaaccb9-d8d3-4302-bb5a-deaae7fe6150</uniqueId>
+    <legacyIdHash>1619773867</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <categoryOverride>VO2 Max</categoryOverride>
+    <name>Week 10.5 - High Intensity/5min</name>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>2018 PRL46 Prep</category>
+    <subcategory>Week 10</subcategory>
+    <description>High intensity efforts focusing on the ability to produce anaerobic power, from an already threshold power.
+
+The intervals simulate the demands of flat, fast efforts, as well as climbing efforts with a lower cadence.</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow="0.50449997" PowerHigh="0.75449997" pace="0">
+            <textevent timeoffset="104" message="Today&apos;s warm up ramps up into a threshold effort." locIndex="1" />
+        </Warmup>
+        <SteadyState Duration="300" Power="1.0445" pace="0" Cadence="80">
+            <textevent timeoffset="5" message="Target 80rpm" locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="1.2145" pace="0" Cadence="75">
+            <textevent timeoffset="2" message="Target 75rpm" locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.55449998" pace="0" />
+        <SteadyState Duration="20" Power="1.4044999" pace="0" />
+        <SteadyState Duration="40" Power="0.94999999" pace="0" />
+        <SteadyState Duration="20" Power="1.4044999" pace="0" />
+        <SteadyState Duration="40" Power="0.94999999" pace="0" />
+        <SteadyState Duration="20" Power="1.4" pace="0" />
+        <SteadyState Duration="40" Power="0.94999999" pace="0" />
+        <SteadyState Duration="20" Power="1.4" pace="0" />
+        <SteadyState Duration="40" Power="0.94999999" pace="0" />
+        <SteadyState Duration="20" Power="1.4" pace="0" />
+        <SteadyState Duration="40" Power="0.95449996" pace="0" />
+        <SteadyState Duration="300" Power="0.55449998" pace="0" />
+        <SteadyState Duration="300" Power="1.0445" pace="0" Cadence="80">
+            <textevent timeoffset="1" message="Target 80rpm" locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="1.2145" pace="0" Cadence="75">
+            <textevent timeoffset="1" message="Target 75rpm" locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.55000001" pace="0" />
+        <SteadyState Duration="20" Power="1.4" pace="0" />
+        <SteadyState Duration="40" Power="0.95449996" pace="0" />
+        <SteadyState Duration="20" Power="1.4" pace="0" />
+        <SteadyState Duration="40" Power="0.94999999" pace="0" />
+        <SteadyState Duration="20" Power="1.4" pace="0" />
+        <SteadyState Duration="40" Power="0.94999999" pace="0" />
+        <SteadyState Duration="20" Power="1.4" pace="0" />
+        <SteadyState Duration="40" Power="0.94999999" pace="0" />
+        <SteadyState Duration="20" Power="1.4" pace="0" />
+        <SteadyState Duration="40" Power="0.94999999" pace="0" />
+        <Cooldown Duration="300" PowerLow="0.75" PowerHigh="0.50187975" pace="0" />
+    </workout>
+</workout_file>

@@ -1,0 +1,89 @@
+<workout_file>
+    <uniqueId>8cfb1233-4b54-480a-b49f-278524e1c8cb</uniqueId>
+    <legacyIdHash>896914942</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <categoryOverride>30 to 60 minutes to burn</categoryOverride>
+    <name>Pre-Race</name>
+    <description>This workout aims to activate the fast twitch muscles and prepare body and mind for race-pace efforts. Commonly referred to as &quot;opening up the legs” to avoid feeling stale on race day.
+
+This session is generally performed the day before race-day, and after having an easy day or two.</description>
+    <sportType>bike</sportType>
+    <category>Singletrack Slayer</category>
+    <subcategory>Week 10</subcategory>
+    <WorkoutPlan>1</WorkoutPlan>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <tags>
+    </tags>
+    <workout>
+        <Warmup Duration="420" PowerLow="0.5" PowerHigh="0.75">
+            <textevent timeoffset="30" message="When tapering for your key event, it&apos;s important to have an adequate amount of rest and light training days." locIndex="1" />
+            <textevent timeoffset="60" message="However, this can result in the legs feeling lethargic and unresponsive." locIndex="2" />
+            <textevent timeoffset="90" message="This pre-race session is the ideal workout to &quot;wake&quot; the legs up and prepare for racing the next day." locIndex="3" />
+        </Warmup>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="30" message="Some low intensity on/off&apos;s to build the warmup." locIndex="4" />
+        </SteadyState>
+        <IntervalsT Repeat="3" OnDuration="60" OffDuration="60" OnPower="0.9" OffPower="0.7">
+            <textevent timeoffset="30" message="Hit a nice high cadence through these efforts." locIndex="5" />
+            <textevent timeoffset="90" message="You should be starting to build a good sweat up now." locIndex="6" />
+        </IntervalsT>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="30" message="This is a low intensity day, so our warmup reflects this." locIndex="7" />
+            <textevent timeoffset="100" message="The next step is a steady state effort at zone 3." locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.8">
+            <textevent timeoffset="30" message="This is the longest effort of the workout today!" locIndex="9" />
+            <textevent timeoffset="60" message="A very easy day!" locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="90" message="Here comes the 1st &quot;activation&quot; effort." locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.1">
+            <textevent timeoffset="0" message="Hit that high power." locIndex="12" />
+            <textevent timeoffset="30" message="It&apos;s only briefly at this level." locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.6">
+            <textevent timeoffset="30" message="We allow for plenty of easy spinning today." locIndex="14" />
+            <textevent timeoffset="60" message="This is a good chance to think about your race tomorrow." locIndex="15" />
+            <textevent timeoffset="90" message="What are your goals for the event?" locIndex="16" />
+            <textevent timeoffset="120" message="How will you make this happen?" locIndex="17" />
+            <textevent timeoffset="150" message="What else do you need to do to prepare for tomorrow?" locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.8">
+            <textevent timeoffset="0" message="Now we step up the power slowly." locIndex="19" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.85">
+            <textevent timeoffset="0" message="But still at a comfortable level." locIndex="20" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.9" />
+        <SteadyState Duration="60" Power="0.95">
+            <textevent timeoffset="0" message="We just touch on threshold power for a moment." locIndex="21" />
+        </SteadyState>
+        <SteadyState Duration="600" Power="0.6">
+            <textevent timeoffset="30" message="Again, another long recovery period." locIndex="22" />
+            <textevent timeoffset="550" message="To finish off the session, we have a couple of efforts leading into a sprint." locIndex="23" />
+            <textevent timeoffset="580" message="Let&apos;s go with the 1st one!" locIndex="24" />
+        </SteadyState>
+        <IntervalsT Repeat="1" OnDuration="120" OffDuration="10" OnPower="0.95" OffPower="1.2">
+            <textevent timeoffset="0" message="Hit the target power." locIndex="25" />
+            <textevent timeoffset="30" message="Find a nice rhythm and spin the pedals." locIndex="26" />
+            <textevent timeoffset="100" message="Now get ready for a short acceleration." locIndex="27" />
+        </IntervalsT>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="30" message="Just a very short recovery." locIndex="28" />
+        </SteadyState>
+        <IntervalsT Repeat="1" OnDuration="120" OffDuration="10" OnPower="0.95" OffPower="1.2">
+            <textevent timeoffset="0" message="Hit the target power." locIndex="29" />
+            <textevent timeoffset="30" message="Find a nice rhythm and spin the pedals." locIndex="30" />
+            <textevent timeoffset="100" message="Now, get ready for a short acceleration." locIndex="31" />
+        </IntervalsT>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="20" message="Again, a quick low intensity period." locIndex="32" />
+        </SteadyState>
+        <SteadyState Duration="600" Power="0.6">
+            <textevent timeoffset="30" message="That&apos;s the activation complete." locIndex="33" />
+            <textevent timeoffset="60" message="Now we can just spin the legs out and cool down." locIndex="34" />
+            <textevent timeoffset="90" message="Good luck in your event!" locIndex="35" />
+        </SteadyState>
+    </workout>
+</workout_file>

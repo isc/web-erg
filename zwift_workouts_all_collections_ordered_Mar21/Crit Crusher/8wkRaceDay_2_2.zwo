@@ -1,0 +1,16 @@
+<workout_file>
+    <uniqueId>dfa79cb4-0b5e-4c5f-beb4-605d81e84474</uniqueId>
+    <legacyIdHash>1676993304</legacyIdHash>
+    <author>trainSharp</author>
+    <category>Crit Crusher</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 2</subcategory>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/trainSharp_Logo.tga</authorIcon>
+    <name>Week 2.2 - Zone 1 Ride</name>
+    <description>This is predominantly a fat burning ride - low efforts which will build and create a far greater mitochondrial density. Which carries more oxygen to the working muscles later... more easy riding will support the hard workouts nicely.
+High Cadence! Up Up Up! - LOW POWER - FAST BREATHING
+</description>
+    <workout>
+        <SteadyState Duration="3600" Power="0.50450003" />
+    </workout>
+</workout_file>

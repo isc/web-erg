@@ -1,0 +1,215 @@
+<workout_file>
+    <uniqueId>60aba421-2b07-427d-848e-698799adb1cd</uniqueId>
+    <legacyIdHash>2154439224</legacyIdHash>
+    <author>British Cycling</author>
+    <name>Week 5.1 -  Under/Over with Surges</name>
+    <description>Try to schedule this as early in the week as possible to maximise recovery. It&apos;s your final tough workout of the plan and another race specific session. Float just below threshold, push above it and then deliver a group shattering surge. Recovering from the surge at near threshold intensity takes real mental and physical toughness but it&apos;ll prepare you for whatever race day throws at you.</description>
+    <category>British Cycling eRacing Championship</category>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/HSBC_Logo.tga</authorIcon>
+    <subcategory>Week 5</subcategory>
+    <entid>436</entid>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <Warmup Duration="300" PowerHigh="0.55" PowerLow="0.35" Cadence="90">
+            <textevent timeoffset="0" message="Welcome to Session 13 of the British Cycling 6-Week Training Plan." locIndex="1" />
+            <textevent timeoffset="30" message="This is a development of the Under/Over session from Week 3 but adds more race specific pace variations." locIndex="2" />
+            <textevent timeoffset="45" message="It&apos;s comprised of three 10 min blocks." locIndex="3" />
+            <textevent timeoffset="55" message="In each block are 2 min cycles of 90 sec under, 20 sec over and a 10 sec surge." locIndex="4" />
+            <textevent timeoffset="60" message="First though is the British Cycling 20 min warm-up." locIndex="5" />
+            <textevent timeoffset="90" message="Like all of our riders, you&apos;ll use it before every session." locIndex="6" />
+            <textevent timeoffset="120" message="It&apos;ll prepare you physically and mentally for the workout." locIndex="7" />
+            <textevent timeoffset="180" message="Really focus on hitting the cadence targets." locIndex="8" />
+        </Warmup>
+        <SteadyState Duration="120" Power="0.55" Cadence="95">
+            <textevent timeoffset="0" message="Up your cadence slightly." locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.65" Cadence="100">
+            <textevent timeoffset="0" message="Up it again." locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.75" Cadence="105">
+            <textevent timeoffset="0" message="Another notch up." locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="0.85" Cadence="110">
+            <textevent timeoffset="0" message="Keep it smooth." locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.9" Cadence="125">
+            <textevent timeoffset="0" message="Hold that high cadence, no bouncing in the saddle." locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.45" Cadence="90">
+            <textevent timeoffset="0" message="Spin easy, grab a drink and get ready for some rev outs." locIndex="14" />
+            <textevent timeoffset="60" message="First rev out in 60 sec. It&apos;s 6 sec of maximum spinning." locIndex="15" />
+            <textevent timeoffset="110" message="Ready in 10 sec, keep it fast and fluid." locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="6" Power="1.05" Cadence="150">
+            <textevent timeoffset="0" message="Max Rev Out!" locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.45" Cadence="90">
+            <textevent timeoffset="0" message="Ease up!" locIndex="18" />
+            <textevent timeoffset="50" message="Rev out number two in 10 sec." locIndex="19" />
+        </SteadyState>
+        <SteadyState Duration="6" Power="1.05" Cadence="150">
+            <textevent timeoffset="0" message="Max Rev Out!" locIndex="20" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.45" Cadence="90">
+            <textevent timeoffset="0" message="Ease up!" locIndex="21" />
+            <textevent timeoffset="50" message="Final Rev Out in 10 sec. See if you can set a high cadence PB." locIndex="22" />
+        </SteadyState>
+        <SteadyState Duration="6" Power="1.05" Cadence="150">
+            <textevent timeoffset="0" message="Max Rev Out!" locIndex="23" />
+        </SteadyState>
+        <SteadyState Duration="162" Power="0.45" Cadence="90">
+            <textevent timeoffset="0" message="Ease up!" locIndex="24" />
+            <textevent timeoffset="12" message="Spin easy, grab a drink, towel off and get ready for your first effort." locIndex="25" />
+            <textevent timeoffset="132" message="Get ready for your first block of efforts." locIndex="26" />
+            <textevent timeoffset="147" message="Solid pace just below threshold." locIndex="27" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="0.95" Cadence="95">
+            <textevent timeoffset="0" message="Solid pace just below threshold." locIndex="28" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.05" Cadence="100">
+            <textevent timeoffset="0" message="Turn it up a notch." locIndex="29" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.2" Cadence="110">
+            <textevent timeoffset="0" message="Out of the saddle surge." locIndex="30" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="0.95" Cadence="95">
+            <textevent timeoffset="0" message="Solid pace just below threshold." locIndex="31" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.05" Cadence="100">
+            <textevent timeoffset="0" message="Turn it up a notch." locIndex="32" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.2" Cadence="110">
+            <textevent timeoffset="0" message="Out of the saddle surge." locIndex="33" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="0.95" Cadence="95">
+            <textevent timeoffset="0" message="Solid pace just below threshold." locIndex="34" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.05" Cadence="100">
+            <textevent timeoffset="0" message="Turn it up a notch." locIndex="35" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.2" Cadence="110">
+            <textevent timeoffset="0" message="Out of the saddle surge." locIndex="36" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="0.95" Cadence="95">
+            <textevent timeoffset="0" message="Solid pace just below threshold." locIndex="37" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.05" Cadence="100">
+            <textevent timeoffset="0" message="Turn it up a notch." locIndex="38" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.2" Cadence="110">
+            <textevent timeoffset="0" message="Out of the saddle surge." locIndex="39" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="0.95" Cadence="95">
+            <textevent timeoffset="0" message="Solid pace just below threshold." locIndex="40" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.05" Cadence="100">
+            <textevent timeoffset="0" message="Turn it up a notch." locIndex="41" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.2" Cadence="110">
+            <textevent timeoffset="0" message="Out of the saddle surge." locIndex="42" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.45" Cadence="90">
+            <textevent timeoffset="0" message="Spin easy and have a drink." locIndex="43" />
+            <textevent timeoffset="290" message="Getting set to go again." locIndex="44" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="0.95" Cadence="95">
+            <textevent timeoffset="0" message="Solid pace just below threshold." locIndex="45" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.05" Cadence="100">
+            <textevent timeoffset="0" message="Turn it up a notch." locIndex="46" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.2" Cadence="110">
+            <textevent timeoffset="0" message="Out of the saddle surge." locIndex="47" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="0.95" Cadence="95">
+            <textevent timeoffset="0" message="Solid pace just below threshold." locIndex="48" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.05" Cadence="100">
+            <textevent timeoffset="0" message="Turn it up a notch." locIndex="49" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.2" Cadence="110">
+            <textevent timeoffset="0" message="Out of the saddle surge." locIndex="50" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="0.95" Cadence="95">
+            <textevent timeoffset="0" message="Solid pace just below threshold." locIndex="51" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.05" Cadence="100">
+            <textevent timeoffset="0" message="Turn it up a notch." locIndex="52" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.2" Cadence="110">
+            <textevent timeoffset="0" message="Out of the saddle surge." locIndex="53" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="0.95" Cadence="95">
+            <textevent timeoffset="0" message="Solid pace just below threshold." locIndex="54" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.05" Cadence="100">
+            <textevent timeoffset="0" message="Turn it up a notch." locIndex="55" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.2" Cadence="110">
+            <textevent timeoffset="0" message="Out of the saddle surge." locIndex="56" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="0.95" Cadence="95">
+            <textevent timeoffset="0" message="Solid pace just below threshold." locIndex="57" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.05" Cadence="100">
+            <textevent timeoffset="0" message="Turn it up a notch." locIndex="58" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.2" Cadence="110">
+            <textevent timeoffset="0" message="Out of the saddle surge." locIndex="59" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.45" Cadence="90">
+            <textevent timeoffset="0" message="Relax and recover." locIndex="60" />
+            <textevent timeoffset="290" message="Ready for your final block?" locIndex="61" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="0.95" Cadence="95">
+            <textevent timeoffset="0" message="Solid pace just below threshold." locIndex="62" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.05" Cadence="100">
+            <textevent timeoffset="0" message="Turn it up a notch." locIndex="63" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.2" Cadence="110">
+            <textevent timeoffset="0" message="Out of the saddle surge." locIndex="64" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="0.95" Cadence="95">
+            <textevent timeoffset="0" message="Solid pace just below threshold." locIndex="65" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.05" Cadence="100">
+            <textevent timeoffset="0" message="Turn it up a notch." locIndex="66" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.2" Cadence="110">
+            <textevent timeoffset="0" message="Out of the saddle surge." locIndex="67" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="0.95" Cadence="95">
+            <textevent timeoffset="0" message="Solid pace just below threshold." locIndex="68" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.05" Cadence="100">
+            <textevent timeoffset="0" message="Turn it up a notch." locIndex="69" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.2" Cadence="110">
+            <textevent timeoffset="0" message="Out of the saddle surge." locIndex="70" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="0.95" Cadence="95">
+            <textevent timeoffset="0" message="Solid pace just below threshold." locIndex="71" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.05" Cadence="100">
+            <textevent timeoffset="0" message="Turn it up a notch." locIndex="72" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.2" Cadence="110">
+            <textevent timeoffset="0" message="Out of the saddle surge." locIndex="73" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="0.95" Cadence="95">
+            <textevent timeoffset="0" message="Solid pace just below threshold." locIndex="74" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.05" Cadence="100">
+            <textevent timeoffset="0" message="Turn it up a notch." locIndex="75" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.2" Cadence="110">
+            <textevent timeoffset="0" message="Out of the saddle surge, last one." locIndex="76" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerHigh="0.35" PowerLow="0.55" Cadence="80">
+            <textevent timeoffset="0" message="Chapeau!" locIndex="77" />
+            <textevent timeoffset="10" message="That&apos;s your last hard session done. Congratulations on completing the plan!" locIndex="78" />
+        </Cooldown>
+    </workout>
+</workout_file>

@@ -1,0 +1,76 @@
+<workout_file>
+    <uniqueId>32b9f616-5c30-4ca6-800b-c85b9ab55972</uniqueId>
+    <legacyIdHash>4205758409</legacyIdHash>
+    <author>Shayne Gaffney</author>
+    <categoryOverride>Endurance</categoryOverride>
+    <name>Cafe Ride</name>
+    <activitySaveName>INEOS Grenadiers Virtual Training Camp | The Cafe Ride</activitySaveName>
+    <description>It&apos;s important to have balance to your training and have easy days to let your body respond to the training you&apos;ve done. Today&apos;s workout is a favorite for any rider: the cafe ride! Enjoy today and just take it easy :-)</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="ineos2021" />
+    </tags>
+    <category>INEOS Grenadiers Virtual Training Camp</category>
+    <categoryIndex>12</categoryIndex>
+    <overrideHash>4205758409</overrideHash>
+    <visibleAfterTime>1642982460</visibleAfterTime>
+    <workout>
+        <Warmup Duration="300" PowerHigh="0.75" PowerLow="0.5">
+            <textevent timeoffset="0" message="Welcome to the INEOS Grenadiers Virtual Training Camp!" />
+            <textevent timeoffset="10" message="Let&apos;s get started with an easy warm-up. Keep your cadence comfortable." />
+            <textevent timeoffset="60" message="The INEOS Grenadiers is one of the world&apos;s most successful cycling teams." />
+            <textevent timeoffset="70" message="The team has a thirst for a good challenge and a pioneering spirit that allows them to keep pushing themselves and the wider sport of cycling forward." />
+            <textevent timeoffset="120" message="The INEOS Grenadiers Virtual Training Camp gives Zwifters a taste of the training these riders undertake in preparation for their season." />
+            <textevent timeoffset="130" message="Each workout features a team rider and is tailored to what they would do in their own training." />
+            <textevent timeoffset="140" message="Today&apos;s workout is a favorite for any rider: the cafe ride!" />
+            <textevent timeoffset="150" message="Hard training creates a stimulus for the body to respond to." />
+            <textevent timeoffset="160" message="But taking rest days and having easy weeks, included in your training, allows the body to actually improve." />
+            <textevent timeoffset="170" message="Strategically resting and recovering is the key to unlocking greater fitness, not necessarily training harder or longer." />
+            <textevent timeoffset="180" message="And, with the best coaches on Earth, you know any INEOS training camp will feature just that." />
+            <textevent timeoffset="190" message="So today won&apos;t be anything challenging. The focus should just be on enjoying the day." />
+            <textevent timeoffset="200" message="Maybe go explore a new route on Zwift, make some new friends, give extra Ride Ons, whatever makes you happy!" />
+            <textevent timeoffset="210" message="Let&apos;s keep easing into things." />
+            <textevent timeoffset="270" message="Alright, up next we&apos;ll do a couple efforts at higher cadence just to make sure the legs are awake." />
+            <textevent timeoffset="280" message="Let&apos;s aim for 95+ RPM for these." />
+            <textevent timeoffset="290" message="Ready? Start to bring your cadence up." />
+        </Warmup>
+        <IntervalsT Repeat="2" OnDuration="60" OnPower="0.8" OffDuration="60" OffPower="0.55">
+            <textevent timeoffset="0" message="Fast feet here, but don&apos;t bounce in the saddle." />
+            <textevent timeoffset="30" message="Halfway!" />
+            <textevent timeoffset="60" message="Nice one! Bring your cadence back down and keep turning the legs over." />
+            <textevent timeoffset="110" message="Bring your cadence back up again." />
+            <textevent timeoffset="120" message="Go go go!" />
+            <textevent timeoffset="180" message="Nicely done! Let&apos;s take it easy for another minute, then start today&apos;s main set." />
+            <textevent timeoffset="190" message="We&apos;ll alternate 1min of Zone 3 with 3min of Zone 2, and keep the effort easy from start to finish." />
+            <textevent timeoffset="230" message="Okay, we&apos;re starting with the 1min Zone 3 effort, keep your cadence comfortable." />
+        </IntervalsT>
+        <IntervalsT Repeat="5" OnDuration="60" OnPower="0.9" OffDuration="180" OffPower="0.65">
+            <textevent timeoffset="0" message="Just a little pressure on the pedals now, nothing crazy." />
+            <textevent timeoffset="60" message="Great work! Keep your cadence comfortable still and let&apos;s settle down into a block of Zone 2." />
+            <textevent timeoffset="120" message="Your heart rate and perceived exertion should be low today." />
+            <textevent timeoffset="130" message="If you feel like you&apos;re working harder than you should be, bring your FTP bias down a bit." />
+            <textevent timeoffset="240" message="Increase the intensity a bit again, just some pressure on the pedals here." />
+            <textevent timeoffset="300" message="Nice one! Your heart rate should increase a bit after that, but also come down quickly." />
+            <textevent timeoffset="310" message="Seeing your heart rate respond slower than normal is a sign of fatigue and is a good thing to track." />
+            <textevent timeoffset="420" message="You are looking smooth and hopefully feeling really good at this point." />
+            <textevent timeoffset="480" message="Let&apos;s put a little pressure on the pedals again here." />
+            <textevent timeoffset="540" message="Nice one! We&apos;re getting closer to that cafe now (what kind of coffee or tea are you going to get?)" />
+            <textevent timeoffset="600" message="We also can&apos;t forget about the pastries! Croissant for me with my coffee!" />
+            <textevent timeoffset="720" message="Bring it back up again, my friend. You&apos;re doing awesome today!" />
+            <textevent timeoffset="780" message="And back to Zone 2. Really feel those legs recovering here." />
+            <textevent timeoffset="960" message="Last time up to Zone 3 today!" />
+            <textevent timeoffset="1020" message="Nice one! Let&apos;s finish out this last bit of Zone 2, then we&apos;ll move onto the cool down." />
+            <textevent timeoffset="1170" message="30sec, and you&apos;re there!" />
+        </IntervalsT>
+        <Cooldown Duration="300" PowerHigh="0.3" PowerLow="0.5">
+            <textevent timeoffset="0" message="We made it to the cafe! Croissant and coffee, here I come! :-)" />
+            <textevent timeoffset="10" message="We&apos;ll take some time to cool down now—you&apos;ve earned it!" />
+            <textevent timeoffset="60" message="Deep breaths here. Get yourself back to baseline again." />
+            <textevent timeoffset="120" message="Be sure to check out the other INEOS Grenadiers Training Camp Workouts." />
+            <textevent timeoffset="130" message="They&apos;re all available on-demand and will fit any intensity you&apos;re looking for." />
+            <textevent timeoffset="240" message="Final minute of the day here, thanks for all your hard work!" />
+            <textevent timeoffset="250" message="I hope you enjoyed the workout and will come back for more soon." />
+            <textevent timeoffset="290" message="Until next time, Ride On!" />
+        </Cooldown>
+    </workout>
+</workout_file>

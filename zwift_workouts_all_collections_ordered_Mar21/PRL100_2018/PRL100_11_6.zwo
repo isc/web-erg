@@ -1,0 +1,98 @@
+<workout_file>
+    <uniqueId>60fd8e78-5778-4ada-a9e9-e32fad393484</uniqueId>
+    <legacyIdHash>3444751652</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Week 11.6 - XX SST 2 x 20min</name>
+    <category>2018 PRL100 Prep</category>
+    <subcategory>Week 11</subcategory>
+    <description>Warm up then complete 2 x 20min SST efforts @ 90%. Every 90sec increase power to 110% for 30sec. 10min recovery between intervals. Cool down.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout>
+        <SteadyState Duration="60" Power="0.5" />
+        <SteadyState Duration="60" Power="0.53" />
+        <SteadyState Duration="60" Power="0.56" />
+        <SteadyState Duration="60" Power="0.59" />
+        <SteadyState Duration="60" Power="0.62">
+            <textevent timeoffset="30" message="Just 2 x 20min intervals today, but the constant surging adds an extra stimulus." locIndex="1" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.64" />
+        <SteadyState Duration="60" Power="0.67" />
+        <SteadyState Duration="60" Power="0.7" />
+        <SteadyState Duration="60" Power="0.73" />
+        <SteadyState Duration="60" Power="0.76" />
+        <SteadyState Duration="180" Power="0.55">
+            <textevent timeoffset="60" message="The baseline power for the interval is 90%." locIndex="2" />
+            <textevent timeoffset="70" message="But every 90sec, you will surge up to 110%" locIndex="3" />
+            <textevent timeoffset="170" message="Ready to start." locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="0.9">
+            <textevent timeoffset="30" message="Start with a cadence you feel you can maintain throughout the 20min" locIndex="5" />
+            <textevent timeoffset="80" message="Up a gear or 2 for the 30sec surge." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.1" />
+        <SteadyState Duration="90" Power="0.9" />
+        <SteadyState Duration="30" Power="1.1" />
+        <SteadyState Duration="90" Power="0.9">
+            <textevent timeoffset="10" message="Observe your HR after each 30sec surge. Is it returning the to same value, or steadily increasing?" locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.1" />
+        <SteadyState Duration="90" Power="0.9" />
+        <SteadyState Duration="30" Power="1.1" />
+        <SteadyState Duration="90" Power="0.9" />
+        <SteadyState Duration="30" Power="1.1" />
+        <SteadyState Duration="90" Power="0.9">
+            <textevent timeoffset="45" message="Halfway. Just 5 to go!" locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.1" />
+        <SteadyState Duration="90" Power="0.9" />
+        <SteadyState Duration="30" Power="1.1" />
+        <SteadyState Duration="90" Power="0.9" />
+        <SteadyState Duration="30" Power="1.1" />
+        <SteadyState Duration="90" Power="0.9" />
+        <SteadyState Duration="30" Power="1.1" />
+        <SteadyState Duration="90" Power="0.9">
+            <textevent timeoffset="45" message="1 more, than a recovery period." locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.1" />
+        <SteadyState Duration="600" Power="0.55">
+            <textevent timeoffset="540" message="Ready for the 2nd set." locIndex="10" />
+            <textevent timeoffset="580" message="Again, observe your HR throughout the interval." locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="0.9" />
+        <SteadyState Duration="30" Power="1.1" />
+        <SteadyState Duration="90" Power="0.9" />
+        <SteadyState Duration="30" Power="1.1" />
+        <SteadyState Duration="90" Power="0.9">
+            <textevent timeoffset="10" message="How are the legs?" locIndex="12" />
+            <textevent timeoffset="40" message="Just 7 more efforts!" locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.1" />
+        <SteadyState Duration="90" Power="0.9" />
+        <SteadyState Duration="30" Power="1.1" />
+        <SteadyState Duration="90" Power="0.9" />
+        <SteadyState Duration="30" Power="1.1" />
+        <SteadyState Duration="90" Power="0.9" />
+        <SteadyState Duration="30" Power="1.1" />
+        <SteadyState Duration="90" Power="0.9" />
+        <SteadyState Duration="30" Power="1.1" />
+        <SteadyState Duration="90" Power="0.9" />
+        <SteadyState Duration="30" Power="1.1" />
+        <SteadyState Duration="90" Power="0.9" />
+        <SteadyState Duration="30" Power="1.1" />
+        <SteadyState Duration="90" Power="0.9" />
+        <SteadyState Duration="30" Power="1.1" />
+        <SteadyState Duration="180" Power="0.55" />
+        <SteadyState Duration="60" Power="0.76" />
+        <SteadyState Duration="60" Power="0.73" />
+        <SteadyState Duration="60" Power="0.7" />
+        <SteadyState Duration="60" Power="0.67" />
+        <SteadyState Duration="60" Power="0.64" />
+        <SteadyState Duration="60" Power="0.62" />
+        <SteadyState Duration="60" Power="0.59" />
+        <SteadyState Duration="60" Power="0.56" />
+        <SteadyState Duration="60" Power="0.53" />
+        <SteadyState Duration="60" Power="0.5" />
+    </workout>
+</workout_file>

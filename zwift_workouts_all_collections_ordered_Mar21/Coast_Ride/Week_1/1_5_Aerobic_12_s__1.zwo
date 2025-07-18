@@ -1,0 +1,52 @@
+<workout_file>
+    <uniqueId>cc1550dd-8588-4f01-99ef-6587c7517b8a</uniqueId>
+    <legacyIdHash>3264479011</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Week 1.5 - Aerobic 12&apos;s #1</name>
+    <description>Aerobic Endurance workouts are aimed at improving your efficiency at lower intensity levels. 
+Training your muscles to access fat as its main fuel source and preserve your precious glycogen stores for the finale.
+
+After warming up, you will be completing 3 x 12min aerobic efforts with 3min recovery. 
+
+Keep an eye on your heart rate response to the sustained power. Are you achieving the same heart rate in the third effort as the first?
+ </description>
+    <sportType>bike</sportType>
+    <entid>491</entid>
+    <category>Zwift Coast Ride</category>
+    <subcategory>Week 1</subcategory>
+    <tags>
+    </tags>
+    <workout>
+        <SteadyState Duration="300" Power="0.5">
+            <textevent timeoffset="254" message="Hydrate for the efforts ahead." locIndex="1" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.7" />
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="110" message="Now we have a 3min threshold effort to prepare for the work ahead." locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.9" />
+        <SteadyState Duration="180" Power="0.5" />
+        <IntervalsT Repeat="3" OnDuration="30" OffDuration="210" OnPower="0.9" OffPower="0.75">
+            <textevent timeoffset="60" message="Aerobic Endurance workouts are aimed at improving your efficiency at lower intensity levels. " locIndex="3" />
+            <textevent timeoffset="80" message="Training your muscles to access fat as its main fuel source." locIndex="4" />
+            <textevent timeoffset="100" message="Preserving your precious glycogen stores for the finale." locIndex="5" />
+        </IntervalsT>
+        <SteadyState Duration="180" Power="0.5" />
+        <IntervalsT Repeat="3" OnDuration="30" OffDuration="210" OnPower="0.9" OffPower="0.75">
+            <textevent timeoffset="60" message="To add an extra stimulus to the session we include a 30sec surge every 2.5min" locIndex="6" />
+            <textevent timeoffset="90" message="Your HR should not rise too much during this aerobic effort." locIndex="7" />
+            <textevent timeoffset="200" message="Is your cadence remaining the same throughout the effort?" locIndex="8" />
+        </IntervalsT>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="30" message="Today should be a &apos;comfortable&apos; day for you." locIndex="9" />
+            <textevent timeoffset="100" message="There are good gains to make with effective lower power sessions." locIndex="10" />
+        </SteadyState>
+        <IntervalsT Repeat="3" OnDuration="30" OffDuration="210" OnPower="0.9" OffPower="0.75">
+            <textevent timeoffset="50" message="Again in this set, observe your cadence and HR." locIndex="11" />
+            <textevent timeoffset="70" message="A good sign of aerobic fitness is to have the same HR response as the 1st set." locIndex="12" />
+            <textevent timeoffset="200" message="This is the type of session that can be repeated each week." locIndex="13" />
+            <textevent timeoffset="300" message="A good session to get some volume in without any accumulated fatigue." locIndex="14" />
+        </IntervalsT>
+        <Cooldown Duration="300" PowerLow="0.75" PowerHigh="0.45" />
+    </workout>
+</workout_file>

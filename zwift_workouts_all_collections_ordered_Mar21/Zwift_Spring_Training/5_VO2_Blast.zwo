@@ -1,0 +1,109 @@
+<workout_file>
+    <uniqueId>fb910f9c-0414-4ffc-98d4-65652db47ec4</uniqueId>
+    <legacyIdHash>3240130619</legacyIdHash>
+    <author>Zwift</author>
+    <name>VO2 Blast</name>
+    <categoryOverride>VO2 Max</categoryOverride>
+    <activitySaveName>VO2 Blast</activitySaveName>
+    <description>Push it to the limits, these 2 min VO2max intervals will help increase the maximum amount of oxygen your body can use and improve your efficiency with which it can use that oxygen. This can lead to improved endurance performance and the ability to sustain higher power outputs for longer periods of time. Additionally, VO2 max intervals also help to increase the body&apos;s anaerobic capacity, which is the body&apos;s ability to produce energy without oxygen. This can help to delay fatigue and improve overall performance. </description>
+    <sportType>bike</sportType>
+    <durationType>time</durationType>
+    <category>Zwift Spring Training</category>
+    <categoryIndex>5</categoryIndex>
+    <visibleAfterTime>1681743660</visibleAfterTime>
+    <overrideHash>3240130619</overrideHash>
+    <tags>
+        <tag name="ZST23" />
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.5" PowerHigh="0.8">
+            <textevent timeoffset="0" message="Welcome to Zwift Spring Training! Let&apos;s start with an easy warm up." locIndex="1" />
+            <textevent timeoffset="10" message="This series features workouts designed to build fitness and prepare you for outdoor riding." locIndex="2" />
+            <textevent timeoffset="20" message="Each workout focuses on a different training zone or works on a specific type of riding, all of which will make your outdoor riding more enjoyable." locIndex="3" />
+            <textevent timeoffset="30" message="Today&apos;s session is a classic VO2max session of 6 x 2 minute efforts between 105% and 118% of FTP." locIndex="4" />
+            <textevent timeoffset="40" message="This is a difficult session, so if you are holding onto any fatigue in your legs use the workout bias to drop the intensity." locIndex="5" />
+            <textevent timeoffset="50" message="The workout intensity bias can be changed by up to 25%." locIndex="6" />
+            <textevent timeoffset="70" message="Use this 10min warm up to ease into the day and mentally prepare for the work ahead." locIndex="7" />
+            <textevent timeoffset="120" message="Do you have your fluids, fan, and towel all handy?" locIndex="8" />
+            <textevent timeoffset="240" message="Nice work so far here! Keep slowly bringing the effort up as we continue the warm up." locIndex="9" />
+            <textevent timeoffset="300" message="There&apos;s halfway! Let&apos;s chat a little bit about what&apos;s in store for today." locIndex="10" />
+            <textevent timeoffset="310" message="We have a set of VO2 Max intervals for today&apos;s main set." locIndex="11" />
+            <textevent timeoffset="320" message="If you don&apos;t know, VO2 Max is your aerobic ceiling, so these intervals should leave you breathing quite heavily." locIndex="12" />
+            <textevent timeoffset="330" message="The actual work set will be 2min on, 3min rest, 6 times." locIndex="13" />
+            <textevent timeoffset="440" message="This session is a bread and butter VO2max session that you can come back to time and time again." locIndex="14" />
+            <textevent timeoffset="450" message="VO2max sessions help increase the maximum amount of oxygen the body can use and improve the efficiency with which it can use it." locIndex="15" />
+            <textevent timeoffset="520" message="With that, let&apos;s get ready for the main set by taking 3 minutes of really easy spinning." locIndex="16" />
+        </Warmup>
+        <SteadyState Duration="180" Power=".6">
+            <textevent timeoffset="0" message="Bring the power down and shake out your legs." locIndex="17" />
+            <textevent timeoffset="10" message="Grab a bottle and keep it close by." locIndex="18" />
+            <textevent timeoffset="20" message="It&apos;s going to get intense." locIndex="19" />
+            <textevent timeoffset="150" message="In 30sec, get ready for a big surge in effort! Keep your cadence high for the work intervals." locIndex="20" />
+            <textevent timeoffset="170" message="Here we go!" locIndex="21" />
+        </SteadyState>
+        <Ramp Duration="120" PowerLow="1" PowerHigh="1.08">
+            <textevent timeoffset="0" message="Pick up the pace here!" locIndex="22" />
+            <textevent timeoffset="50" message="Great work! The effort is going to build over this 2 minute interval." locIndex="23" />
+            <textevent timeoffset="60" message="1 min to go and we check this one off!" locIndex="24" />
+        </Ramp>
+        <SteadyState Duration="180" Power="0.65">
+            <textevent timeoffset="0" message="Excellent work! Bring down the power and leg speed a bit here and let&apos;s recover." locIndex="25" />
+            <textevent timeoffset="10" message="It&apos;s important to take small sips of water between these efforts." locIndex="26" />
+            <textevent timeoffset="20" message="It will help keep you from getting dehydrated and losing power in the later intervals." locIndex="27" />
+            <textevent timeoffset="120" message="1min to go and we&apos;re back up again. Take a couple of deep breaths here." locIndex="28" />
+        </SteadyState>
+        <Ramp Duration="120" PowerLow="1.02" PowerHigh="1.1">
+            <textevent timeoffset="0" message="Let&apos;s go!" locIndex="29" />
+            <textevent timeoffset="60" message="Stay focused, relax your shoulders, smooth pedal stroke." locIndex="30" />
+            <textevent timeoffset="100" message="Almost there now! Hold this all the way to the line!" locIndex="31" />
+        </Ramp>
+        <SteadyState Duration="180" Power="0.65">
+            <textevent timeoffset="0" message="Nice one! Grab a sip of fluids here and let&apos;s recover again." locIndex="32" />
+            <textevent timeoffset="120" message="How are you doing? Get ready to go again in 1min." locIndex="33" />
+        </SteadyState>
+        <Ramp Duration="120" PowerLow="1.04" PowerHigh="1.12">
+            <textevent timeoffset="0" message="C&apos;mon! Pick it up!" locIndex="34" />
+            <textevent timeoffset="60" message="Aim for a consistent cadence as the effort builds." locIndex="35" />
+            <textevent timeoffset="100" message="Keep the leg speed up now!" locIndex="36" />
+        </Ramp>
+        <SteadyState Duration="180" Power="0.65">
+            <textevent timeoffset="0" message="Superb! You&apos;re making it through these intervals now! Let&apos;s recover again." locIndex="37" />
+            <textevent timeoffset="30" message="Small sip of fluids." locIndex="38" />
+            <textevent timeoffset="120" message="Start to refocus again, we&apos;re off in 1min!" locIndex="39" />
+        </SteadyState>
+        <Ramp Duration="120" PowerLow="1.06" PowerHigh="1.14">
+            <textevent timeoffset="0" message="GO GO GO!" locIndex="40" />
+            <textevent timeoffset="60" message="Stay with it now! This is when these start to become challenging." locIndex="41" />
+            <textevent timeoffset="90" message="30 more seconds - you can do this!" locIndex="42" />
+        </Ramp>
+        <SteadyState Duration="180" Power="0.65">
+            <textevent timeoffset="0" message="Nice! That was your best one yet! Let&apos;s recover again here." locIndex="43" />
+            <textevent timeoffset="120" message="Alright, 2nd to last effort coming up, stay focused!" locIndex="44" />
+        </SteadyState>
+        <Ramp Duration="120" PowerLow="1.08" PowerHigh="1.16">
+            <textevent timeoffset="0" message="Push it!" locIndex="45" />
+            <textevent timeoffset="60" message="Don&apos;t let the power slip away now! You are SO CLOSE!" locIndex="46" />
+            <textevent timeoffset="90" message="Final 30 seconds! Push yourself all the way to the line." locIndex="47" />
+        </Ramp>
+        <SteadyState Duration="180" Power="0.65">
+            <textevent timeoffset="0" message="Yes! Just 1 more to go! Let&apos;s recover and get ready for 1 more push." locIndex="48" />
+            <textevent timeoffset="120" message="Take 1 last sip of fluids and get ready to rock in 1min!" locIndex="49" />
+        </SteadyState>
+        <Ramp Duration="120" PowerLow="1.1" PowerHigh="1.18">
+            <textevent timeoffset="0" message="Last one is the best one! Let&apos;s go!" locIndex="50" />
+            <textevent timeoffset="60" message="Keep turning those pedals, you got this!" locIndex="51" />
+            <textevent timeoffset="90" message="On the homestretch now! C&apos;mon!" locIndex="52" />
+        </Ramp>
+        <Cooldown Duration="300" PowerHigh="0.65" PowerLow="0.5">
+            <textevent timeoffset="0" message="Yeah! Incredible work today! VO2max efforts like this are hard, but really important for improving your oxygen uptake." locIndex="53" />
+            <textevent timeoffset="10" message="Take a few minutes to softly spin the legs and begin to cool down." locIndex="54" />
+            <textevent timeoffset="30" message="This workout will leave you hurting for a few days. It&apos;s important to focus on good recovery before attempting another hard session." locIndex="55" />
+            <textevent timeoffset="40" message="Quality sleep, good hydration and nutrition over the next 3 days will do the trick." locIndex="56" />
+            <textevent timeoffset="60" message="Thanks for joining Zwift Spring Training, you&apos;re going to have an incredible summer!" locIndex="57" />
+            <textevent timeoffset="120" message="As I mentioned before this is a bread and butter VO2max session." locIndex="58" />
+            <textevent timeoffset="130" message="A good progression of this workout is to increase the interval duration up to 3 minutes or add another 2 reps." locIndex="59" />
+            <textevent timeoffset="270" message="Happy training and see you on the next one!" locIndex="60" />
+            <textevent timeoffset="290" message="Ride On!" locIndex="61" />
+        </Cooldown>
+    </workout>
+</workout_file>

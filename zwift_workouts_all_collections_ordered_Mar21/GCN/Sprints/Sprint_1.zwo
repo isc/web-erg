@@ -1,0 +1,26 @@
+<workout_file>
+    <uniqueId>6ec8293f-39d6-4215-a340-a39eb4c09c44</uniqueId>
+    <legacyIdHash>746033506</legacyIdHash>
+    <author>GCN</author>
+    <categoryOverride>Sprinting</categoryOverride>
+    <category>GCN</category>
+    <subcategory>Tom Last&apos;s GCN Sprint Plan</subcategory>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/GCN_Logo.tga</authorIcon>
+    <name>Power</name>
+    <description>Warm-up ramping up to the top of Z2 at 10 minutes.
+ Then do 3x1 minute fast pedaling drills.  The goal here is to increase your cadence to 110-120 rpm and hold it there for the full minute, normal cadence of 80rpm between each one.  The wattages are low for both the fast pedaing and recovery. 
+Now ride for 5minutes at tempo pace, and prepare for your first sprint.  You are going to do 10 sprints for 20 seconds each to start.  These aren&apos;t all out sprints, but the top of Zone 6. Ride at 90 rpm between each in Zone 2. 
+Cool-down for remaining time </description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS" />
+        <tag name="Sprint" />
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.25150001" PowerHigh="0.75150001" />
+        <IntervalsT Repeat="3" OnDuration="60" OffDuration="60" OnPower="0.75449997" OffPower="0.50449997" Cadence="110" CadenceResting="80" />
+        <SteadyState Duration="300" Power="0.81449997" />
+        <IntervalsT Repeat="10" OnDuration="20" OffDuration="180" OnPower="2.0044999" OffPower="0.75449997" Cadence="100" CadenceResting="90" />
+        <Cooldown Duration="340.00003" PowerLow="0.75449997" PowerHigh="0.25449997" />
+    </workout>
+</workout_file>

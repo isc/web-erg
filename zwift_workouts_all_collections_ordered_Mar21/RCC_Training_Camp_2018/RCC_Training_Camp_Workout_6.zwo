@@ -1,0 +1,59 @@
+<workout_file>
+    <uniqueId>ef359b78-611f-44ce-8332-2ef6dc2763be</uniqueId>
+    <legacyIdHash>1147285647</legacyIdHash>
+    <author>M.Rowe (Rowe and King)</author>
+    <name>RCC Training Camp Workout #6</name>
+    <categoryIndex>6</categoryIndex>
+    <category>RCC Training Camp 2018</category>
+    <entid>150</entid>
+    <description>Welcome to The Rapha Cycling Club Training Camp Workout 6. This session helps to develop your Aerobic Base by completing 3 x 15 minute blocks of Sweet Spot. By doing this session, behind the scenes, your body will be increasing its mitochondrial density as you become more efficient at utilizing oxygen and converting it in to energy. The real world benefits to you as a bike rider are an increased sense of fitness which you can train harder with and and increase in your threshold power - even without riding at it! This session is a great one to complete at any point of your season - whether it is to develop or maintain your Aerobic Base.
+
+ERG mode is recommended.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="FTP" />
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.2545" PowerHigh="0.95449996" pace="0">
+            <textevent timeoffset="5" message="Welcome to the Rapha Cycling Club Training Camp Workout #6. ERG Mode is recommended." locIndex="1" />
+            <textevent timeoffset="12" message="Today&apos;s session is 72 minutes long and is focused on developing your Aerobic Base - a key attribute for all endurance cyclists." locIndex="2" />
+            <textevent timeoffset="20" message="You will complete 3 x 15 Minute blocks of Sweet Spot" locIndex="3" />
+            <textevent timeoffset="30" message="This session aims to stress the body similarly to a long endurance or group ride - a perfect base builder." locIndex="4" />
+            <textevent timeoffset="40" message="To start, it&apos;s a standard 10 minute progressive warm up to get us in the zone, both physically and mentally." locIndex="5" />
+            <textevent timeoffset="400" message="A special welcome to today&apos;s session to RCC Members - hope you have fun completing this RCC Individual workout, available only to RCC members. Let&apos;s get down to business." locIndex="6" />
+            <textevent timeoffset="500" message="You should be starting to feel sweaty by now and like you are ready to train?" locIndex="7" />
+            <textevent timeoffset="570" message="Nearing the end of the warm up now - your blood will be nice and warm, ready to supply our muscles with oxygen. " locIndex="8" />
+        </Warmup>
+        <SteadyState Duration="120" Power="0.50449997" pace="0">
+            <textevent timeoffset="80.000069" message="15 Minutes Sweet Spot coming up" locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="900" Power="0.88449997" pace="0">
+            <textevent timeoffset="51.000008" message="Settle in to your rhythm - this should feel nice and controlled. 2 more blocks after this." locIndex="10" />
+            <textevent timeoffset="250.00005" message="Keep your body still - let all the power come from your waist down." locIndex="11" />
+            <textevent timeoffset="553.00006" message="Good riding-soak the effort up!" locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.50449997" pace="0">
+            <textevent timeoffset="61.999569" message="Nice and easy - take a drink" locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="900" Power="0.88449997" pace="0" />
+        <textevent timeoffset="51.000008" message="Get in your zone and just tap the power out. Nice high cadence - around 90rpm is ideal." locIndex="14" />
+        <textevent timeoffset="250.00005" message="90rpm is considered an efficient cadence - however, it is very personal, so anywhere from 80-95rpm is cool." locIndex="15" />
+        <textevent timeoffset="450.00006" message="Good effort - half way!" locIndex="16" />
+        <textevent timeoffset="870.00006" message="Keep it going - all the way!" locIndex="17" />
+        <SteadyState Duration="300" Power="0.50449997" pace="0" />
+        <textevent timeoffset="450.00006" message="Enjoy this rest... it&apos;s vital so you can commit to the final block." locIndex="18" />
+        <textevent timeoffset="280.00006" message="Get ready... it&apos;s show time! Block 3 about to start..." locIndex="19" />
+        <SteadyState Duration="900" Power="0.88449997" pace="0" />
+        <textevent timeoffset="51.000008" message="This is the block where the magic happens." locIndex="20" />
+        <textevent timeoffset="250.00005" message="Your legs will be hurting now - but the end is in sight." locIndex="21" />
+        <textevent timeoffset="450.00006" message="Top effort - keep fighting!" locIndex="22" />
+        <textevent timeoffset="670.00006" message="Grit those teeth - we are almost done." locIndex="23" />
+        <textevent timeoffset="870.00006" message="Yeeee haaa - you must be sweating a lot by now!" locIndex="24" />
+        <Cooldown Duration="300" PowerLow="0.65449995" PowerHigh="0.25449997" pace="0">
+            <textevent timeoffset="15" message="Good work - 5 minutes cool down now." locIndex="25" />
+            <textevent timeoffset="100" message="That&apos;s RCC Training Camp Workout 6 Complete - great work. That&apos;s a really smart way to train -  time efficient." locIndex="26" />
+            <textevent timeoffset="250" message="Important to refuel after this session - carbs, protein and hydrate!" locIndex="27" />
+            <textevent timeoffset="280" message="See you on the next RCC Training Camp Workout" locIndex="28" />
+        </Cooldown>
+    </workout>
+</workout_file>

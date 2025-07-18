@@ -1,0 +1,50 @@
+<workout_file>
+    <uniqueId>87fb5f3a-f26d-4b16-867c-70fbdd539079</uniqueId>
+    <legacyIdHash>3796256868</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Week 2.4 - AC Maintenance #2</name>
+    <category>2018 PRL100 Prep</category>
+    <subcategory>Week 2</subcategory>
+    <description>This is a very high level of intensity that requires mental and physical perseverance. As well as improving your ability to produce sustained power above threshold, AC training will also improve your ability to recover from high intensity efforts and repeat them again and again. You will need to stay focused today!</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow="0.50449997" PowerHigh="0.75449997" pace="0">
+            <textevent timeoffset="33" message="Perform 3x6sec high cadence surges during the warm up." locIndex="1" />
+            <textevent timeoffset="559" message="The AC intervals are hard but achievable." locIndex="2" />
+        </Warmup>
+        <SteadyState Duration="60" Power="1.21" pace="0" />
+        <SteadyState Duration="75" Power="0.55000001" pace="0">
+            <textevent timeoffset="27" message="Try to maintain the same cadence throughout the 1min interval." locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.21" pace="0" />
+        <SteadyState Duration="75" Power="0.55000001" pace="0" />
+        <SteadyState Duration="60" Power="1.21" pace="0" />
+        <SteadyState Duration="75" Power="0.55000001" pace="0">
+            <textevent timeoffset="26" message="Is your HR  returning to the same level after each interval?" locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.21" pace="0" />
+        <SteadyState Duration="75" Power="0.55000001" pace="0" />
+        <SteadyState Duration="60" Power="1.21" pace="0" />
+        <SteadyState Duration="75" Power="0.55000001" pace="0">
+            <textevent timeoffset="30" message="Half way. 5 to go!" locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.21" pace="0" />
+        <SteadyState Duration="75" Power="0.55000001" pace="0" />
+        <SteadyState Duration="60" Power="1.21" pace="0" />
+        <SteadyState Duration="75" Power="0.55000001" pace="0" />
+        <SteadyState Duration="60" Power="1.21" pace="0" />
+        <SteadyState Duration="75" Power="0.55000001" pace="0" />
+        <SteadyState Duration="60" Power="1.21" pace="0" />
+        <SteadyState Duration="75" Power="0.55000001" pace="0" />
+        <SteadyState Duration="60" Power="1.21" pace="0" />
+        <SteadyState Duration="75" Power="0.55000001" pace="0" />
+        <SteadyState Duration="1200" Power="0.77449995" pace="0">
+            <textevent timeoffset="48" message="Observe how much your HR rises during the tempo interval." locIndex="6" />
+            <textevent timeoffset="156" message="Change your cadence every 5min by +or- 5rpm." locIndex="7" />
+            <textevent timeoffset="600" message="Half way. Great work." locIndex="8" />
+            <textevent timeoffset="800" message="Is your HR affected by the change in cadence?" locIndex="9" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow="0.75449997" PowerHigh="0.50449997" pace="0" />
+    </workout>
+</workout_file>

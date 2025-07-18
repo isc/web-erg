@@ -1,0 +1,77 @@
+<workout_file>
+    <uniqueId>2c6efa36-6009-46a2-9ed6-82f98d3e6521</uniqueId>
+    <legacyIdHash>3380011658</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Week 8.2 - Cruise 4 x 10min</name>
+    <category>2018 PRL100 Prep</category>
+    <subcategory>Week 8</subcategory>
+    <description>Warm up 10min followed by 4 x 10min efforts @ 98%, 96%, 94% and 92% respectively with 2min recovery. Remaining ride completed as Endurance Free Ride. Cool down 10-20min.</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <SteadyState Duration="60" Power="0.5" pace="0" />
+        <SteadyState Duration="60" Power="0.52999997" pace="0" />
+        <SteadyState Duration="60" Power="0.56" pace="0" />
+        <SteadyState Duration="60" Power="0.58999997" pace="0" />
+        <SteadyState Duration="60" Power="0.62" pace="0">
+            <textevent timeoffset="30" message="Today we are looking to complete 4 threshold efforts, with the 1st being the hardest." locIndex="1" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.63999999" pace="0">
+            <textevent timeoffset="30" message="Then we reduce the intensity slightly for the next 3 efforts." locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.67000002" pace="0" />
+        <SteadyState Duration="60" Power="0.69999999" pace="0" />
+        <SteadyState Duration="60" Power="0.73000002" pace="0" />
+        <SteadyState Duration="60" Power="0.75999999" pace="0" />
+        <SteadyState Duration="180" Power="0.55000001" pace="0">
+            <textevent timeoffset="150" message="Ready for the 1st effort." locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="600" Power="0.98000002" pace="0">
+            <textevent timeoffset="20" message="This is the hardest effort." locIndex="4" />
+            <textevent timeoffset="500" message="Observe your HR at the end of the interval." locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.55000001" pace="0">
+            <textevent timeoffset="100" message="A little easier this time. It&apos;s still a threshold effort though." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="600" Power="0.97000003" pace="0">
+            <textevent timeoffset="500" message="Again observe your HR at the end of the effort." locIndex="7" />
+            <textevent timeoffset="520" message="Is it lower than the 1st effort?" locIndex="8" />
+            <textevent timeoffset="300" message="Is your HR responding to the lower intensity" locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.55000001" pace="0">
+            <textevent timeoffset="100" message="A little easier this time. It&apos;s still a threshold effort though." locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="600" Power="0.94999999" pace="0">
+            <textevent timeoffset="500" message="Again observe your HR at the end of the effort." locIndex="11" />
+            <textevent timeoffset="520" message="Is it lower than the 1st 2 efforts?" locIndex="12" />
+            <textevent timeoffset="300" message="Is your HR responding to the lower intesnity" locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.55000001" pace="0">
+            <textevent timeoffset="100" message="A little easier this time. It&apos;s still a threshold effort though." locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="600" Power="0.92000002" pace="0">
+            <textevent timeoffset="500" message="Again observe your HR at the end of the effort." locIndex="15" />
+            <textevent timeoffset="520" message="Is it lower than the 1st 3 efforts?" locIndex="16" />
+            <textevent timeoffset="300" message="Is your HR responding to the lower intesnity" locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.55000001" pace="0">
+            <textevent timeoffset="10" message="Note your finishing HR" locIndex="18" />
+            <textevent timeoffset="20" message="A sign of good fitness is a decrease in HR along with the decrease in intensity." locIndex="19" />
+        </SteadyState>
+        <FreeRide Duration="2400" FlatRoad="0">
+            <textevent timeoffset="100" message="Now we build some endurance with free riding." locIndex="20" />
+            <textevent timeoffset="130" message="Aim to keep your power within zones 2 and 3." locIndex="21" />
+            <textevent timeoffset="300" message="If you are short on time today, it&apos;s fine to cut this portion short." locIndex="22" />
+        </FreeRide>
+        <SteadyState Duration="60" Power="0.75999999" pace="0" />
+        <SteadyState Duration="60" Power="0.73000002" pace="0" />
+        <SteadyState Duration="60" Power="0.69999999" pace="0" />
+        <SteadyState Duration="60" Power="0.67000002" pace="0" />
+        <SteadyState Duration="60" Power="0.63999999" pace="0" />
+        <SteadyState Duration="60" Power="0.62" pace="0" />
+        <SteadyState Duration="60" Power="0.58999997" pace="0" />
+        <SteadyState Duration="60" Power="0.56" pace="0" />
+        <SteadyState Duration="60" Power="0.52999997" pace="0" />
+        <SteadyState Duration="60" Power="0.5" pace="0" />
+    </workout>
+</workout_file>

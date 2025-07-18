@@ -1,0 +1,68 @@
+<workout_file>
+    <uniqueId>9b641054-412a-4bd9-a3db-4cc9eb7dfb44</uniqueId>
+    <legacyIdHash>1025796630</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Anaerobic Capacity Hills #2</name>
+    <description>Increasing your anaerobic capacity will help you become a stronger cyclist. Anaerobic energy can be used for a short burst at a higher power output than your FTP. To improve your anaerobic capacity we need to produce high power efforts between 30sec and 3min. In this session we replicate AC intervals performed on a climb by adding a target RPM. The climb starts out steady enough, before ramping up to the finish with high power.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>TT Tune Up</category>
+    <subcategory>Week 4</subcategory>
+    <tags>
+    </tags>
+    <workout>
+        <Warmup Duration="180" PowerLow="0.45" PowerHigh="0.6">
+            <textevent timeoffset="30" message="Our warm up gradually ramps up to a 1min Zone 5 effort." locIndex="1" />
+        </Warmup>
+        <SteadyState Duration="60" Power="0.6" />
+        <SteadyState Duration="60" Power="0.65" />
+        <SteadyState Duration="60" Power="0.81">
+            <textevent timeoffset="50" message="Ready for the 1min Zone 5 effort." locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.09" />
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="100" message="To complete the warm up we now perform a 4min threshold effort." locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.9" />
+        <SteadyState Duration="180" Power="0.5" />
+        <SteadyState Duration="300" Power="0.6">
+            <textevent timeoffset="100" message="Increasing your anaerobic capacity will help you become a stronger cyclist" locIndex="4" />
+            <textevent timeoffset="190" message="In this session we replicate AC intervals performed on a climb by adding a target RPM." locIndex="5" />
+            <textevent timeoffset="210" message="Note the target cadence for each step." locIndex="6" />
+            <textevent timeoffset="220" message="Remember to aim for the target RPM and let the smart trainer adjust the power." locIndex="7" />
+        </SteadyState>
+        <Ramp Duration="180" PowerLow="0.6" PowerHigh="0.75" Cadence="75">
+            <textevent timeoffset="20" message="In this session we replicate AC intervals performed on a climb by adding a target RPM." locIndex="8" />
+            <textevent timeoffset="30" message="The climb starts out steady enough, before ramping up to the finish with high power." locIndex="9" />
+        </Ramp>
+        <SteadyState Duration="30" Power="1.4" Cadence="75" />
+        <Ramp Duration="120" PowerLow="0.75" PowerHigh="0.6">
+            <textevent timeoffset="10" message="Self select your cadence for the recovery period, before the next climb." locIndex="10" />
+        </Ramp>
+        <SteadyState Duration="120" Power="0.6" />
+        <Ramp Duration="180" PowerLow="0.6" PowerHigh="0.75" Cadence="80">
+            <textevent timeoffset="30" message="On to the next climb now. A little longer at the top this time!" locIndex="11" />
+        </Ramp>
+        <SteadyState Duration="60" Power="1.3" Cadence="80" />
+        <Ramp Duration="120" PowerLow="0.75" PowerHigh="0.6" />
+        <SteadyState Duration="120" Power="0.6" />
+        <Ramp Duration="180" PowerLow="0.6" PowerHigh="0.75" Cadence="85">
+            <textevent timeoffset="20" message="This is the hardest effort of the day. " locIndex="12" />
+            <textevent timeoffset="30" message="2min at high power at the top of the climb." locIndex="13" />
+        </Ramp>
+        <SteadyState Duration="120" Power="1.21" Cadence="85" />
+        <Ramp Duration="120" PowerLow="0.75" PowerHigh="0.6" />
+        <SteadyState Duration="120" Power="0.6" />
+        <Ramp Duration="180" PowerLow="0.6" PowerHigh="0.75" Cadence="75">
+            <textevent timeoffset="30" message="Just 2 more efforts to go." locIndex="14" />
+        </Ramp>
+        <SteadyState Duration="30" Power="1.5" Cadence="75" />
+        <Ramp Duration="120" PowerLow="0.75" PowerHigh="0.6">
+            <textevent timeoffset="30" message="Great work. Onto the last climb of the day." locIndex="15" />
+            <textevent timeoffset="40" message="Finish with a strong effort!" locIndex="16" />
+        </Ramp>
+        <Ramp Duration="180" PowerLow="0.6" PowerHigh="0.75" Cadence="85" />
+        <SteadyState Duration="60" Power="1.3" Cadence="85" />
+        <Cooldown Duration="300" PowerLow="0.7" PowerHigh="0.45" />
+    </workout>
+</workout_file>

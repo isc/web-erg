@@ -1,0 +1,70 @@
+<workout_file>
+    <uniqueId>5b33b96f-a9d6-4645-9d92-9b9a1dbde386</uniqueId>
+    <legacyIdHash>1218763890</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Power Intervals #4</name>
+    <description>The focus of today&apos;s session is to improve your ability to produce power. To be able to turn a big gear faster. By completing high power intervals with slightly less cadence, we increase the torque applied to the crank, boosting muscular endurance power. 
+    
+    Two different sets of work today. The first set involves shorter intervals that finish with surges of high power / low RPM effort. The second set involves shorter intervals decreasing in power across the intervals.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>TT Tune Up</category>
+    <subcategory>Week 8</subcategory>
+    <tags>
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.45" PowerHigh="0.75">
+            <textevent timeoffset="200" message="Today&apos;s warm up takes you through some low power, 1min efforts." locIndex="1" />
+        </Warmup>
+        <IntervalsT Repeat="2" OnDuration="60" OffDuration="60" OnPower="0.8" OffPower="0.5" />
+        <IntervalsT Repeat="2" OnDuration="60" OffDuration="60" OnPower="0.98" OffPower="0.5" />
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="40" message="For these intervals the power starts high and drops slightly." locIndex="2" />
+            <textevent timeoffset="50" message="Before finishing with a high power, low cadence surge." locIndex="3" />
+        </SteadyState>
+        <Ramp Duration="120" PowerLow="1.5" PowerHigh="1.21">
+            <textevent timeoffset="110" message="Now to finish with 20sec at 85RPM" locIndex="4" />
+        </Ramp>
+        <SteadyState Duration="20" Power="1.3" Cadence="85" />
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="20" message="How did the drop in cadence affect the legs?" locIndex="5" />
+        </SteadyState>
+        <Ramp Duration="120" PowerLow="1.5" PowerHigh="1.21">
+            <textevent timeoffset="110" message="Now to finish with 20sec at 85RPM" locIndex="6" />
+        </Ramp>
+        <SteadyState Duration="20" Power="1.3" Cadence="85" />
+        <SteadyState Duration="120" Power="0.5" />
+        <Ramp Duration="120" PowerLow="1.5" PowerHigh="1.21">
+            <textevent timeoffset="110" message="Now to finish with 20sec at 85RPM" locIndex="7" />
+        </Ramp>
+        <SteadyState Duration="20" Power="1.3" Cadence="85" />
+        <SteadyState Duration="120" Power="0.5" />
+        <Ramp Duration="120" PowerLow="1.5" PowerHigh="1.21">
+            <textevent timeoffset="110" message="Now to finish with 20sec at 85RPM" locIndex="8" />
+        </Ramp>
+        <SteadyState Duration="20" Power="1.3" Cadence="85" />
+        <SteadyState Duration="120" Power="0.5" />
+        <SteadyState Duration="300" Power="0.5">
+            <textevent timeoffset="200" message="To finish the session we have 4 x 2min high power intervals." locIndex="9" />
+            <textevent timeoffset="210" message="The good news is the hardest effort is 1st." locIndex="10" />
+            <textevent timeoffset="220" message="Then the power drops for each subsequent interval." locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.5">
+            <textevent timeoffset="110" message="Take note of your peak HR for the interval." locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.5" />
+        <SteadyState Duration="120" Power="1.41">
+            <textevent timeoffset="20" message="The power is a little less this time." locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="60" message="Just 2 intervals to go!" locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.32" />
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="100" message="Last one.... How is your HR responding?" locIndex="15" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.24" />
+        <SteadyState Duration="120" Power="0.5" />
+        <Cooldown Duration="300" PowerLow="0.75" PowerHigh="0.45" />
+    </workout>
+</workout_file>

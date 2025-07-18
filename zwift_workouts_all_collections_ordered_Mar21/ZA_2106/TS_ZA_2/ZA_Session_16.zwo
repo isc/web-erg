@@ -1,0 +1,28 @@
+<workout_file>
+    <uniqueId>cbe771ca-ca3e-42e8-96eb-bee77a9688f4</uniqueId>
+    <legacyIdHash>678819806</legacyIdHash>
+    <author>Jon Sharples</author>
+    <name>Month 2.7 - Threshold Pushing #2</name>
+    <category>Zwift Academy 2016</category>
+    <subcategory>Month 2</subcategory>
+    <WorkoutPlan>1</WorkoutPlan>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/trainSharp_Logo.tga</authorIcon>
+    <description>This session is designed to increase your FTP from below, working predominately on your aerobic metabolism. In time, your body will become more comfortable at these powers and your FTP will increase. Note: Don&apos;t be tempted to over do it on these efforts. You&apos;ll want to push the power and may feel as though you&apos;re in no-man&apos;s land, not easy, not hard but this is exactly what we want. This isn&apos;t supposed to be an "eyeballs out" session as those are still to come!
+</description>
+    <tags>
+        <tag name="INTERVALS" />
+    </tags>
+    <workout>
+        <Warmup Duration="1200" PowerLow="0.3545" PowerHigh="0.85449994" />
+        <SteadyState Duration="300" Power="0.40450001" />
+        <SteadyState Duration="960" Power="1.0044999" Cadence="90">
+            <textevent timeoffset="490" message="Don&apos;t be tempted to go harder!" locIndex="1" />
+        </SteadyState>
+        <SteadyState Duration="600" Power="0.40450001" />
+        <SteadyState Duration="960" Power="1.00125" Cadence="90">
+            <textevent timeoffset="166" message="Stay focused and disciplined" locIndex="2" />
+            <textevent timeoffset="669" message="Finish in the zone" locIndex="3" />
+        </SteadyState>
+        <Cooldown Duration="900" PowerLow="0.75449997" PowerHigh="0.2545" />
+    </workout>
+</workout_file>

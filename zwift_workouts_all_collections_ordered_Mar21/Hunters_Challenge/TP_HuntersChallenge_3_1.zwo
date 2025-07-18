@@ -1,0 +1,17 @@
+<workout_file>
+    <uniqueId>17772686-65c1-4a0b-8c56-b9af0d107eda</uniqueId>
+    <legacyIdHash>1404745343</legacyIdHash>
+    <category>Hunter&apos;s Challenge</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 3</subcategory>
+    <name>Week 3.1 - Cadence drills</name>
+    <description>Don&apos;t worry too much with watts or HR in this one. Just make it a fun and challenging trainer ride.</description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <workout>
+        <Warmup PowerLow="0.55" PowerHigh="0.72" Duration="600" />
+        <IntervalsT OnDuration="60" OffDuration="60" OnPower="0.72" OffPower="0.72" Repeat="10" Cadence="105" CadenceResting="85" />
+        <SteadyState Duration="1200" Power="0.87" />
+        <IntervalsT OnDuration="60" OffDuration="60" OnPower="0.87" OffPower="0.87" Repeat="10" Cadence="105" CadenceResting="85" />
+        <Cooldown PowerLow="0.72" PowerHigh=".55" Duration="600" />
+    </workout>
+</workout_file>

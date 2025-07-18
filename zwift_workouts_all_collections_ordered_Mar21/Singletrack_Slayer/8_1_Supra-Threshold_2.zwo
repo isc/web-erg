@@ -1,0 +1,142 @@
+<workout_file>
+    <uniqueId>0433dd97-a892-4405-9f7b-d99a91bdebd9</uniqueId>
+    <legacyIdHash>1157279049</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Supra-Threshold #2</name>
+    <description>For a MTB rider, raising the power you can produce at threshold is of paramount importance.
+
+This supra-threshold session of 4x 5 minutes will have you working at just above your anaerobic threshold power. But be prepared for the sting in the tail! The effort is completed with a low cadence, high power burst. This is just like what you would experience when powering over a steep dirt hill.</description>
+    <sportType>bike</sportType>
+    <category>Singletrack Slayer</category>
+    <subcategory>Week 8</subcategory>
+    <WorkoutPlan>1</WorkoutPlan>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <tags>
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.42" PowerHigh="0.7">
+            <textevent timeoffset="30" message="Working above threshold today in these Supra-Threshold intervals." locIndex="1" />
+            <textevent timeoffset="60" message="Above your threshold, lactate is accumulated quickly and you soon fatigue." locIndex="2" />
+            <textevent timeoffset="90" message="The higher your threshold, the deeper you can go." locIndex="3" />
+            <textevent timeoffset="120" message="This is a challenging session today with 20min spent above threshold." locIndex="4" />
+            <textevent timeoffset="150" message="But it&apos;s well within your capabilities." locIndex="5" />
+            <textevent timeoffset="200" message="Let&apos;s get warmed up for the work ahead." locIndex="6" />
+        </Warmup>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="30" message="A nice low level steady state effort before we sprint." locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.7">
+            <textevent timeoffset="30" message="At an intensity like this, you are still producing lactate." locIndex="8" />
+            <textevent timeoffset="60" message="But your body is able to clear this lactate much faster than it is produced." locIndex="9" />
+            <textevent timeoffset="90" message="When we go above threshold, your body can no longer clear lactate as fast as it is produced." locIndex="10" />
+            <textevent timeoffset="160" message="Ready for some sprints in quick succession." locIndex="11" />
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="10" OffDuration="50" OnPower="1.75" OffPower="0.5">
+            <textevent timeoffset="30" message="Spin up as fast as you can here." locIndex="12" />
+            <textevent timeoffset="90" message="You should be able to hit a higher cadence in each sprint as you warm up." locIndex="13" />
+        </IntervalsT>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="90" message="To complete the warm up we have a steady state effort just under threshold" locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.9">
+            <textevent timeoffset="30" message="Settle into a nice rhythm here." locIndex="15" />
+            <textevent timeoffset="60" message="At this point you are producing higher levels of lactate." locIndex="16" />
+            <textevent timeoffset="90" message="But your body is able to clear is faster than it&apos;s produced." locIndex="17" />
+            <textevent timeoffset="150" message="Raising threshold power is a hugely important aspect for MTB riders." locIndex="18" />
+            <textevent timeoffset="190" message="Try to pedal with a nice high cadence here." locIndex="19" />
+            <textevent timeoffset="210" message="keep the legs nice and supple." locIndex="20" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="30" message="The intervals ahead are challenging." locIndex="21" />
+            <textevent timeoffset="50" message="We are going to start hard and get harder!" locIndex="22" />
+            <textevent timeoffset="110" message="Then finish it off with a 40sec grind over a hill." locIndex="23" />
+            <textevent timeoffset="170" message="Let&apos;s get into the 1st effort." locIndex="24" />
+        </SteadyState>
+        <Ramp Duration="300" PowerLow="1.03" PowerHigh="1.08">
+            <textevent timeoffset="20" message="Bring your cadence up to a comfortable high rpm." locIndex="25" />
+            <textevent timeoffset="40" message="We don&apos;t want to get bogged down and make this a muscular endurance effort." locIndex="26" />
+            <textevent timeoffset="60" message="We are really looking for 90+rpm." locIndex="27" />
+            <textevent timeoffset="80" message="Find your rhythm here and focus on controlled breathing." locIndex="28" />
+            <textevent timeoffset="120" message="This is a hard effort, but you&apos;re doing great!" locIndex="29" />
+            <textevent timeoffset="250" message="Get prepared for the final 40 sec kick." locIndex="30" />
+            <textevent timeoffset="270" message="Keep in mind there is a target cadence of 60rpm for this final surge." locIndex="31" />
+            <textevent timeoffset="290" message="Out of the seat for this final effort!" locIndex="32" />
+        </Ramp>
+        <SteadyState Duration="40" Power="1.2" Cadence="60">
+            <textevent timeoffset="10" message="Hit that target cadence of 60rpm!" locIndex="33" />
+            <textevent timeoffset="30" message="Out of the saddle and grind over the climb." locIndex="34" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.55">
+            <textevent timeoffset="20" message="Fantastic effort!" locIndex="35" />
+            <textevent timeoffset="80" message="We have a good recovery period after an effort like that." locIndex="36" />
+            <textevent timeoffset="140" message="Catch your breath here and bring your heart rate down." locIndex="37" />
+            <textevent timeoffset="200" message="How did you find that final kick?" locIndex="38" />
+            <textevent timeoffset="280" message="Ready for the next effort." locIndex="39" />
+            <textevent timeoffset="220" message="Big lactate produced there!" locIndex="40" />
+        </SteadyState>
+        <Ramp Duration="300" PowerLow="1.03" PowerHigh="1.08">
+            <textevent timeoffset="20" message="Bring your cadence up to a comfortable high rpm." locIndex="41" />
+            <textevent timeoffset="40" message="Fast pedaling just as you would in a flat dirt section." locIndex="42" />
+            <textevent timeoffset="60" message="We are really looking for 90+rpm." locIndex="43" />
+            <textevent timeoffset="120" message="Find your rhythm here and focus on controlled breathing." locIndex="44" />
+            <textevent timeoffset="180" message="Big gains are made from hard work like this." locIndex="45" />
+            <textevent timeoffset="220" message="We are getting up into VO2max levels here now." locIndex="46" />
+            <textevent timeoffset="250" message="Get prepared for the final 40 sec kick." locIndex="47" />
+            <textevent timeoffset="270" message="Keep in mind there is a target cadence of 60rpm for this final surge." locIndex="48" />
+            <textevent timeoffset="290" message="Out of the seat for this final effort!" locIndex="49" />
+        </Ramp>
+        <SteadyState Duration="40" Power="1.2" Cadence="60">
+            <textevent timeoffset="10" message="Hit that target cadence of 60rpm!" locIndex="50" />
+            <textevent timeoffset="30" message="Out of the saddle and grind over the climb." locIndex="51" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.55">
+            <textevent timeoffset="20" message="Perfect!" locIndex="52" />
+            <textevent timeoffset="80" message="We have a good recovery period after an effort like that." locIndex="53" />
+            <textevent timeoffset="140" message="Catch your breath here and bring your heart rate down." locIndex="54" />
+            <textevent timeoffset="200" message="That&apos;s 10min of interval work completed." locIndex="55" />
+            <textevent timeoffset="280" message="Ready for the next effort." locIndex="56" />
+        </SteadyState>
+        <Ramp Duration="300" PowerLow="1.03" PowerHigh="1.08">
+            <textevent timeoffset="20" message="Bring your cadence up to a comfortable high rpm." locIndex="57" />
+            <textevent timeoffset="40" message="We don&apos;t want to get bogged down and make this a muscular endurance effort." locIndex="58" />
+            <textevent timeoffset="60" message="We are really looking for 90+rpm." locIndex="59" />
+            <textevent timeoffset="120" message="Find your rhythm here and focus on controlled breathing." locIndex="60" />
+            <textevent timeoffset="180" message="This is a hard effort, but you&apos;re doing great!" locIndex="61" />
+            <textevent timeoffset="240" message="We are getting up into VO2max levels here now." locIndex="62" />
+            <textevent timeoffset="270" message="You are strong today!" locIndex="63" />
+            <textevent timeoffset="290" message="Here we go with another grind over a climb." locIndex="64" />
+        </Ramp>
+        <SteadyState Duration="40" Power="1.2" Cadence="60">
+            <textevent timeoffset="10" message="Hit that target cadence of 60rpm!" locIndex="65" />
+            <textevent timeoffset="30" message="Out of the saddle and grind over the climb." locIndex="66" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.55">
+            <textevent timeoffset="20" message="Fantastic effort!" locIndex="67" />
+            <textevent timeoffset="80" message="We have a good recovery period after an effort like that." locIndex="68" />
+            <textevent timeoffset="140" message="Catch your breath here and bring your heart rate down." locIndex="69" />
+            <textevent timeoffset="200" message="You are smashing this session!" locIndex="70" />
+            <textevent timeoffset="280" message="Into the final effort now." locIndex="71" />
+        </SteadyState>
+        <Ramp Duration="300" PowerLow="1.03" PowerHigh="1.08">
+            <textevent timeoffset="20" message="Bring your cadence up to a comfortable high rpm." locIndex="72" />
+            <textevent timeoffset="40" message="Let&apos;s get this final effort done." locIndex="73" />
+            <textevent timeoffset="60" message="Aiming for 90+rpm." locIndex="74" />
+            <textevent timeoffset="120" message="Find your rhythm here and focus on controlled breathing." locIndex="75" />
+            <textevent timeoffset="180" message="Big gains are made from hard work like this." locIndex="76" />
+            <textevent timeoffset="240" message="We are getting up into VO2max levels here now." locIndex="77" />
+            <textevent timeoffset="270" message="Strong all the way to the top.!" locIndex="78" />
+            <textevent timeoffset="290" message="Now power away from your rivals!" locIndex="79" />
+        </Ramp>
+        <SteadyState Duration="40" Power="1.2" Cadence="60">
+            <textevent timeoffset="10" message="Hit that target cadence of 60rpm!" locIndex="80" />
+            <textevent timeoffset="30" message="Out of the saddle and grind over the climb." locIndex="81" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.5">
+            <textevent timeoffset="30" message="That was great! Well done." locIndex="82" />
+            <textevent timeoffset="60" message="You have just completed 20min above threshold!" locIndex="83" />
+            <textevent timeoffset="90" message="That&apos;s a quality workout." locIndex="84" />
+            <textevent timeoffset="120" message="Be sure to refuel and hydrate after this session." locIndex="85" />
+            <textevent timeoffset="150" message="Try to give yourself a recovery day or two before your next high intensity session." locIndex="86" />
+        </SteadyState>
+    </workout>
+</workout_file>

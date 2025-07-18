@@ -1,0 +1,47 @@
+<workout_file>
+    <uniqueId>e85bed5e-411a-49d6-a428-7740375e0144</uniqueId>
+    <legacyIdHash>1896760620</legacyIdHash>
+    <author>Zwift</author>
+    <name>Steady &amp; Surges</name>
+    <description>A similar workout to one of the early ones from this plan - only this time we punctuate the steady intervals with some short, high intensity surges.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Gran Fondo</category>
+    <subcategory>Week 7</subcategory>
+    <tags>
+        <tag name="fondo" />
+    </tags>
+    <workout>
+        <Warmup Duration="240" PowerLow="0.55449998" PowerHigh="0.75449997" pace="-1307163960" />
+        <SteadyState Duration="180" Power="0.75449997" pace="-1307163960" />
+        <SteadyState Duration="90.000008" Power="0.66449994" pace="-1307163960" />
+        <SteadyState Duration="10" Power="1.2544999" pace="0" />
+        <SteadyState Duration="210.00002" Power="0.85449994" pace="-1307163960" />
+        <SteadyState Duration="10" Power="1.2544999" pace="0" />
+        <SteadyState Duration="90.000008" Power="0.65449995" pace="-1307163960" />
+        <SteadyState Duration="10" Power="1.2544999" pace="0" />
+        <SteadyState Duration="180.00002" Power="0.95449996" pace="-1307163960" />
+        <SteadyState Duration="10" Power="1.2544999" pace="0" />
+        <SteadyState Duration="90.000008" Power="0.65449995" pace="-1307163960" />
+        <SteadyState Duration="10" Power="1.2544999" pace="0" />
+        <SteadyState Duration="210.00002" Power="0.85449994" pace="-1307163960" />
+        <SteadyState Duration="10" Power="1.2544999" pace="0" />
+        <SteadyState Duration="90.000008" Power="0.65449995" pace="-1307163960" />
+        <SteadyState Duration="240.00002" Power="0.75449997" pace="-1307163960" />
+        <SteadyState Duration="90" Power="0.65449995" pace="-1307163960" />
+        <SteadyState Duration="10" Power="1.2544999" pace="0" />
+        <SteadyState Duration="210.00002" Power="0.85449994" pace="-1307163960" />
+        <SteadyState Duration="10" Power="1.2544999" pace="0" />
+        <SteadyState Duration="90.000008" Power="0.65449995" pace="-1307163960" />
+        <SteadyState Duration="10" Power="1.2544999" pace="0" />
+        <SteadyState Duration="180.00002" Power="0.95449996" pace="-1307163960" />
+        <SteadyState Duration="10" Power="1.2544999" pace="0" />
+        <SteadyState Duration="90.000008" Power="0.65449995" pace="-1307163960" />
+        <SteadyState Duration="10" Power="1.2544999" pace="0" />
+        <SteadyState Duration="210.00002" Power="0.85449994" pace="-1307163960" />
+        <SteadyState Duration="10" Power="1.25" pace="0" />
+        <SteadyState Duration="90.000008" Power="0.65449995" pace="-1307163960" />
+        <SteadyState Duration="180" Power="0.75449997" pace="-1307163960" />
+        <Cooldown Duration="120" PowerLow="0.65449995" PowerHigh="0.45449999" pace="-1307163960" />
+    </workout>
+</workout_file>

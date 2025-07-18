@@ -27,7 +27,6 @@ window.workoutApp = function () {
     workoutFinished: false,
     elapsedTime: 0,
     timerStartTime: null,
-    showZwoInput: true,
     showWorkout: false,
     power: '-',
     cadence: '-',
@@ -43,6 +42,8 @@ window.workoutApp = function () {
     isPaused: false,
     ergometerButtonLabel: 'Connecter',
     heartRateMonitorButtonLabel: 'Connecter',
+    selectedWorkout: null,
+
     async requestWakeLock() {
       if ('wakeLock' in navigator)
         this.wakeLock = await navigator.wakeLock.request('screen')
@@ -92,30 +93,31 @@ window.workoutApp = function () {
         this.addOrUpdateSample({ heartRate: val })
       })
     },
+    loadWorkoutFromXml(xml) {
+      const phases = parseZwoPhases(xml)
+      this.workoutMeta = parseZwoMeta(xml)
+      if (this.workoutRunner) this.workoutRunner.stop()
+      this.workoutRunner = new WorkoutRunner(
+        phases,
+        setErgPower,
+        this.onWorkoutEnd.bind(this),
+        this.ftp,
+        this,
+        this.$refs.workoutSvg
+      )
+      parseAndDisplayZwo(xml, this.$refs.workoutSvg)
+      this.workoutFinished = false
+      this.workoutSelected = true
+    },
     onZwoFileChange(e) {
       const file = e.target.files[0]
       if (!file) {
         this.workoutSelected = false
         return
       }
-      this.workoutSelected = true
       const reader = new FileReader()
       reader.onload = event => {
-        const xml = event.target.result
-        const phases = parseZwoPhases(xml)
-        this.workoutMeta = parseZwoMeta(xml)
-        if (this.workoutRunner) this.workoutRunner.stop()
-        this.workoutRunner = new WorkoutRunner(
-          phases,
-          setErgPower,
-          this.onWorkoutEnd.bind(this),
-          this.ftp,
-          this,
-          this.$refs.workoutSvg
-        )
-        parseAndDisplayZwo(xml, this.$refs.workoutSvg)
-        this.showZwoInput = false
-        this.workoutFinished = false
+        this.loadWorkoutFromXml(event.target.result)
       }
       reader.readAsText(file)
     },
@@ -190,6 +192,22 @@ window.workoutApp = function () {
       if (this.workoutMeta?.description)
         notes += (notes ? ' - ' : '') + this.workoutMeta?.description
       downloadTcx(generateTcx(this.workoutSamples, notes, this.weight))
+    },
+    async loadWorkoutFromLibrary(workoutUrl) {
+      try {
+        const workoutPath = `zwift_workouts_all_collections_ordered_Mar21/${workoutUrl}`
+        const response = await fetch(workoutPath)
+        if (!response.ok)
+          throw new Error(`Failed to load workout: ${response.status}`)
+
+        const xml = await response.text()
+        this.loadWorkoutFromXml(xml)
+        return true
+      } catch (error) {
+        console.error('Error loading workout:', error)
+        alert("Erreur lors du chargement de l'entraînement")
+        return false
+      }
     },
     init() {
       const savedFtp = localStorage.getItem('ftp')

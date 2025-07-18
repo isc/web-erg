@@ -1,0 +1,105 @@
+<workout_file>
+    <uniqueId>cf5aa12e-3706-4220-9241-38d99efc6603</uniqueId>
+    <legacyIdHash>264946641</legacyIdHash>
+    <author>Annika Langvad</author>
+    <categoryOverride>Endurance</categoryOverride>
+    <name>Annika Langvad Series.16 - Workout 16</name>
+    <category>Mountain Bike</category>
+    <subcategory>Annika Langvad Series</subcategory>
+    <description>This is a pyramid style workout, which is an all round session which will help to boost your endurance, but also your strength as we hit the peak of the pyramid. Here we complete a 2 minute effort at 109% of FTP, critically at 70rpm which really draws on your strength and is what really makes this part of the pyramid a challenge.
+
+Metabolic waste will build up throughout this session, and you will be forced to continue producing power with lactate present - this is known as your lactate tolerance, which we are trying to improve. 
+
+This workout keeps things interesting by changing the intensity and the monotony of a steady state workout. Real life racing is often more comparable to this type of workout than a very steady state type of workout. The changes in cadence also try and mimic the conditions of real world riding.</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <Warmup Duration="420" PowerLow="0.43673912" PowerHigh="0.74978262" pace="8268">
+            <textevent timeoffset="10" message="Welcome to another workout curated by Annika Langvad" locIndex="1" />
+            <textevent timeoffset="25" message="We have come a long way since workout 1, so let&apos;s finish with a bang!" locIndex="2" />
+            <textevent timeoffset="43" message="Today is a fun session, where we complete a wide variety of effort types in a pyramid style session" locIndex="3" />
+            <textevent timeoffset="51" message="A variety of intensities, durations and cadences make this session very much like a mountain bike ride or race" locIndex="4" />
+            <textevent timeoffset="101" message="Today, we bring all the attributes that we have developed over the last 15 sessions together" locIndex="5" />
+            <textevent timeoffset="121" message="We complete two pyramids today - let&apos;s do it. As always - maintain a still upper body." locIndex="6" />
+            <textevent timeoffset="188" message="Stay composed, be efficient and and aim for that fluid pedalling style." locIndex="7" />
+            <textevent timeoffset="198" message="Turn your fan up for this one - it&apos;s going to get hot!" locIndex="8" />
+            <textevent timeoffset="390" message="You should be feeling pretty warmed up now. Do you have a sweat on?" locIndex="9" />
+            <textevent timeoffset="401" message="Here comes the first activation effort - notice its 30 seconds, very different to a road sprint. More of a capacity effort." locIndex="10" />
+        </Warmup>
+        <SteadyState Duration="30" Power="1.0944999" pace="8268" />
+        <SteadyState Duration="180" Power="0.50449997" pace="8268">
+            <textevent timeoffset="10" message="How did that effort feel? Your blood will be warming up nicely now" locIndex="11" />
+            <textevent timeoffset="25" message="I hope your fan is on full speed?" locIndex="12" />
+            <textevent timeoffset="150" message="Another sprint incoming - but time for a back flip..." locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.0944999" pace="8268" />
+        <SteadyState Duration="300" Power="0.50449997" pace="8268">
+            <textevent timeoffset="9.9999313" message="How did the back flip go? Better not ask? Ok..." locIndex="14" />
+            <textevent timeoffset="269" message="Let&apos;s do some efforts instead. Are you ready?" locIndex="15" />
+            <textevent timeoffset="285" message="A measured effort is required for this session, as we build up and back down through the pyramids." locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.75449997" pace="0" Cadence="65">
+            <textevent timeoffset="56.00013" message="Settle into this first effort, which is at 65rpm, so quite a slow cadence." locIndex="17" />
+            <textevent timeoffset="129.00005" message="Work on grinding the effort out - really working on your strength." locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.81449997" pace="0" Cadence="110">
+            <textevent timeoffset="10" message="OK, this effort is completely the opposite now as we aim for 110rpm" locIndex="19" />
+            <textevent timeoffset="29.999962" message="Get those legs spinning - your heart and lungs will get a good workout here too" locIndex="20" />
+        </SteadyState>
+        <SteadyState Duration="180.00002" Power="0.95449996" pace="0">
+            <textevent timeoffset="20" message="95% of FTP here, so just below threshold. This should be well managable. " locIndex="21" />
+        </SteadyState>
+        <SteadyState Duration="120.00001" Power="1.0944999" pace="0" Cadence="70">
+            <textevent timeoffset="13" message="This is the peak of the 1st pyramid - the hardest part. A bit of a grind, at high power." locIndex="22" />
+            <textevent timeoffset="83" message="Can you feel your legs throbbing!? Great feeling hey!" locIndex="23" />
+        </SteadyState>
+        <SteadyState Duration="180.00002" Power="0.95449996" pace="0">
+            <textevent timeoffset="13" message="We work our way back down now, so sub-threshold again." locIndex="24" />
+            <textevent timeoffset="83" message="We are training our body here to recycle that lactate efficiently" locIndex="25" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.81449997" pace="0">
+            <textevent timeoffset="23" message="5 Minutes Zone 3 - no heroics here." locIndex="26" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.75449997" pace="0">
+            <textevent timeoffset="23" message="Just a few minutes of Zone 2 here to round off the block" locIndex="27" />
+            <textevent timeoffset="183" message="With the efforts already completed in this pyramid, this Z2 block is great training" locIndex="28" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.50449997" pace="0">
+            <textevent timeoffset="60" message="One block done - we go again 4 minutes. Good job." locIndex="29" />
+            <textevent timeoffset="83" message="One more block to go in our final session... it&apos;s been a great workout series!" locIndex="30" />
+            <textevent timeoffset="289" message="2nd pyramid coming = make sure you take a drink" locIndex="31" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.75449997" pace="0" Cadence="65">
+            <textevent timeoffset="15" message="Find the grind again!" locIndex="32" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.81449997" pace="0" Cadence="110">
+            <textevent timeoffset="83" message="A nice high cadence again, giving you a nice cardiovascular training stress!" locIndex="33" />
+        </SteadyState>
+        <SteadyState Duration="180.00002" Power="0.95449996" pace="0">
+            <textevent timeoffset="83" message="Sub threshold here - but only just. 95% of FTP, with fatigue already in our legs. Not easy." locIndex="34" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.0944999" pace="0" Cadence="70">
+            <textevent timeoffset="33" message="This is the money shot - big effort here! Squeeze it out and feel your legs burn!" locIndex="35" />
+            <textevent timeoffset="83" message="That is progress you can feel right there!" locIndex="36" />
+        </SteadyState>
+        <SteadyState Duration="180.00002" Power="0.95449996" pace="0">
+            <textevent timeoffset="43" message="Working our way down now - the hard stuff is done" locIndex="37" />
+            <textevent timeoffset="83" message="Your body is frantically trying to deal with the burn in your legs - flushing it away" locIndex="38" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.81449997" pace="0">
+            <textevent timeoffset="83" message="See the pyramid out now. Awesome work." locIndex="39" />
+            <textevent timeoffset="183" message="This session has hit all the right notes for mountain biking." locIndex="40" />
+            <textevent timeoffset="203" message="Zone 3,4,5! High and low cadences - a real all round quality session. Great work." locIndex="41" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.75449997" pace="0">
+            <textevent timeoffset="83" message="Stay composed and stick with the effort right to the end. We have been through 16 workouts... almost done" locIndex="42" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.50449997" pace="8268">
+            <textevent timeoffset="22" message="Fantastic riding! That is the Workout Series complete! 16 / 16 done." locIndex="43" />
+            <textevent timeoffset="125" message="Wishing you all the very best for whatever your next mountain bike challenge is." locIndex="44" />
+            <textevent timeoffset="190" message="The hard work is done - now its important to stay healthy." locIndex="45" />
+            <textevent timeoffset="215" message="It has been great training with you!" locIndex="46" />
+            <textevent timeoffset="255" message="Ride On!" locIndex="47" />
+        </SteadyState>
+    </workout>
+</workout_file>

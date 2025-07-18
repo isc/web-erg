@@ -1,0 +1,117 @@
+<workout_file>
+    <uniqueId>cf2b8385-faed-403a-b1d9-699f2415f425</uniqueId>
+    <legacyIdHash>3320095483</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <categoryOverride>Threshold</categoryOverride>
+    <name>Hard Starts #1</name>
+    <description>Another threshold focused session that adds an element of MTB specificity. 
+
+The main set of intervals consist of 7min descending threshold efforts that are preceded by a high intensity 30sec effort. This session closely reflects the demands you will face in a cross country race, with a hard start or surge at the beginning of a long, sustained effort.</description>
+    <sportType>bike</sportType>
+    <category>Singletrack Slayer</category>
+    <subcategory>Week 5</subcategory>
+    <WorkoutPlan>1</WorkoutPlan>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <tags>
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.45" PowerHigh="0.7">
+            <textevent timeoffset="30" message="The start of any MTB race will involve going well above your threshold to fight for position into the 1st corner." locIndex="1" />
+            <textevent timeoffset="50" message="Or during the race when you need to be the first into the single track." locIndex="2" />
+            <textevent timeoffset="80" message="Today&apos;s session replicates this specific demand of MTB riding." locIndex="3" />
+            <textevent timeoffset="270" message="First we need to warm up those fast twitch fibers." locIndex="4" />
+            <textevent timeoffset="290" message="Fast cadence in these warmup sprints" locIndex="5" />
+        </Warmup>
+        <IntervalsT Repeat="2" OnDuration="10" OffDuration="50" OnPower="1.75" OffPower="0.5">
+            <textevent timeoffset="40" message="Higher cadence again in this next sprint." locIndex="6" />
+        </IntervalsT>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="30" message="Steady state zone 3 to continue the warm up." locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.8">
+            <textevent timeoffset="30" message="Spin with a cadence that is a little higher than what you are comfortable with." locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="50" message="Now we go above threshold for a brief period." locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.09">
+            <textevent timeoffset="20" message="Spin the legs out!" locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="100" message="To complete the warmup we spend some time at threshold." locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="1">
+            <textevent timeoffset="30" message="This is just a short block and won&apos;t be a problem for you." locIndex="12" />
+            <textevent timeoffset="60" message="Find a nice rhythm and spin all the way to the end." locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="20" message="That completes the warmup." locIndex="14" />
+            <textevent timeoffset="50" message="The main set requires you to hit out with an explosive 40sec effort..." locIndex="15" />
+            <textevent timeoffset="70" message="...then settling into a threshold effort." locIndex="16" />
+            <textevent timeoffset="100" message="Self select your cadence throughout the intervals." locIndex="17" />
+            <textevent timeoffset="140" message="Be prepared for a hard start!" locIndex="18" />
+            <textevent timeoffset="160" message="Just like in a MTB race!" locIndex="19" />
+            <textevent timeoffset="180" message="Here we go!" locIndex="20" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.4">
+            <textevent timeoffset="10" message="Hit that high power!" locIndex="21" />
+        </SteadyState>
+        <Ramp Duration="420" PowerLow="1.05" PowerHigh="0.91">
+            <textevent timeoffset="30" message="Great start from you!" locIndex="22" />
+            <textevent timeoffset="90" message="You&apos;ve positioned yourself well from the start..." locIndex="23" />
+            <textevent timeoffset="110" message="...now you need to keep the pressure on the pedals to maintain position." locIndex="24" />
+            <textevent timeoffset="200" message="We are starting with high threshold power and gradually reducing." locIndex="25" />
+            <textevent timeoffset="260" message="Quite often MTB riding requires you to go deep..." locIndex="26" />
+            <textevent timeoffset="280" message="...then the power fades away a little." locIndex="27" />
+            <textevent timeoffset="360" message="This is a long effort, so keep the cadence nice and high." locIndex="28" />
+            <textevent timeoffset="390" message="Into the final 30sec now!" locIndex="29" />
+        </Ramp>
+        <SteadyState Duration="300" Power="0.55">
+            <textevent timeoffset="30" message="That was a great start from you!" locIndex="30" />
+            <textevent timeoffset="90" message="We have a good recovery period here before the next race effort." locIndex="31" />
+            <textevent timeoffset="200" message="Everyone is good for the 1st effort..." locIndex="32" />
+            <textevent timeoffset="220" message="...it&apos;s the 2nd and 3rd efforts that separates the competition." locIndex="33" />
+            <textevent timeoffset="260" message="Same start again. Big power!" locIndex="34" />
+            <textevent timeoffset="280" message="Here we go!" locIndex="35" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.4">
+            <textevent timeoffset="10" message="High power to get to the single track 1st!" locIndex="36" />
+        </SteadyState>
+        <Ramp Duration="420" PowerLow="1.05" PowerHigh="0.91">
+            <textevent timeoffset="30" message="You&apos;re first into the single track!" locIndex="37" />
+            <textevent timeoffset="90" message="You&apos;ve positioned yourself well." locIndex="38" />
+            <textevent timeoffset="110" message="Now you need to keep the pressure on the pedals to maintain position." locIndex="39" />
+            <textevent timeoffset="200" message="We are starting with high threshold power and gradually reducing." locIndex="40" />
+            <textevent timeoffset="260" message="Quite often MTB riding requires you to go deep..." locIndex="41" />
+            <textevent timeoffset="280" message="...then the power fades away a little." locIndex="42" />
+            <textevent timeoffset="360" message="This is a long effort, so keep the cadence nice and high." locIndex="43" />
+            <textevent timeoffset="390" message="Into the final 30sec now!" locIndex="44" />
+        </Ramp>
+        <SteadyState Duration="300" Power="0.55">
+            <textevent timeoffset="30" message="That was a great effort from you!" locIndex="45" />
+            <textevent timeoffset="90" message="We have a good recovery period here before the next race effort." locIndex="46" />
+            <textevent timeoffset="220" message="That&apos;s 2 down, 1 to go!" locIndex="47" />
+            <textevent timeoffset="260" message="Same start again. Big power!" locIndex="48" />
+            <textevent timeoffset="280" message="Here we go!" locIndex="49" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.4">
+            <textevent timeoffset="10" message="Hit that high power!" locIndex="50" />
+        </SteadyState>
+        <Ramp Duration="420" PowerLow="1.05" PowerHigh="0.91">
+            <textevent timeoffset="30" message="Great start from you!" locIndex="51" />
+            <textevent timeoffset="90" message="You&apos;ve positioned yourself well from the start..." locIndex="52" />
+            <textevent timeoffset="110" message="...now you need to keep the pressure on the pedals to maintain position." locIndex="53" />
+            <textevent timeoffset="200" message="We are starting with high threshold power and gradually reducing." locIndex="54" />
+            <textevent timeoffset="260" message="Quite often MTB riding requires you to go deep..." locIndex="55" />
+            <textevent timeoffset="280" message="...then the power fades away a little." locIndex="56" />
+            <textevent timeoffset="360" message="This is a long effort, so keep the cadence nice and high." locIndex="57" />
+            <textevent timeoffset="390" message="Into the final 30sec now!" locIndex="58" />
+        </Ramp>
+        <SteadyState Duration="300" Power="0.5">
+            <textevent timeoffset="30" message="That was a big session from you!" locIndex="59" />
+            <textevent timeoffset="50" message="Great effort." locIndex="60" />
+            <textevent timeoffset="100" message="We can really train specifically indoors for the demands of racing outdoors." locIndex="61" />
+            <textevent timeoffset="200" message="Have a good spin down and start to refuel for your next session." locIndex="62" />
+        </SteadyState>
+    </workout>
+</workout_file>

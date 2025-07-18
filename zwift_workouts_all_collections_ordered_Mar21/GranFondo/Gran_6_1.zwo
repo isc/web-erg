@@ -1,0 +1,85 @@
+<workout_file>
+    <uniqueId>c0ef3d27-1fea-4009-ab3f-4db8efc143b0</uniqueId>
+    <legacyIdHash>3615051416</legacyIdHash>
+    <author>Zwift</author>
+    <name>Progressive Ramps</name>
+    <description>A series of three three-step ramps. Each ramp is progressively harder than the last, and each block is then progressively harder than the one that came before it. This workout is designed to challenge your ability to make small pace changes to respond to terrain or race-day pressure.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Gran Fondo</category>
+    <subcategory>Week 6</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="240" PowerLow="0.55449998" PowerHigh="0.75449997" pace="0">
+            <textevent timeoffset="65" message="This workout is made up of a series of three blocks each of which is made up of three progressive ramps" locIndex="1" />
+            <textevent timeoffset="120.00001" message="Each block is made up of shorter and shorter ramps. The ramps get harder each time. And each block is also harder than the last." locIndex="2" />
+            <textevent timeoffset="180.00002" message="This is a challenging workout that pushes up over FTP near the end and challenges your ability to change pace." locIndex="3" />
+            <textevent timeoffset="300" message="Cadence for the workout is whatever is comfortable and natural." locIndex="4" />
+            <textevent timeoffset="400.00003" message="Let&apos;s do a bit of a ladder here to loosen up and get ready for the main set." locIndex="5" />
+        </Warmup>
+        <SteadyState Duration="60" Power="0.55449998" pace="0">
+            <textevent timeoffset="5" message="Alright let&apos;s step it back down for a bit now. A bit more warm-up before we start the ramps." locIndex="6" />
+            <textevent timeoffset="65" message="Nice and light. Sit up and drink. Turn on your fan. Turn up your music." locIndex="7" />
+            <textevent timeoffset="105.00001" message="And now we are into the main block. Three ramps of five minutes each here." locIndex="8" />
+        </SteadyState>
+        <Ramp Duration="300" PowerLow="0.75449997" PowerHigh="0.90449995" pace="0">
+            <textevent timeoffset="5" message="Starting low at 75%. Nothing crazy but we will build from here to 90%" locIndex="9" />
+            <textevent timeoffset="150" message="Ramping it up steady over time. Up and up. Very nice work." locIndex="10" />
+            <textevent timeoffset="250.00002" message="Next ramp drops down but only to 80%." locIndex="11" />
+        </Ramp>
+        <Ramp Duration="300" PowerLow="0.80449986" PowerHigh="0.95449996" pace="0">
+            <textevent timeoffset="5" message="Easing off, but not quite to where we started." locIndex="12" />
+            <textevent timeoffset="150" message="Ramping up here to 95% FTP." locIndex="13" />
+            <textevent timeoffset="250.00002" message="And getting ready to come down one more time in just under a minute." locIndex="14" />
+        </Ramp>
+        <Ramp Duration="300" PowerLow="0.85449994" PowerHigh="1.0044999" pace="0">
+            <textevent timeoffset="5" message="And down to 85% here. But ramping to FTP." locIndex="15" />
+            <textevent timeoffset="150" message="Great work on these builds. How is your HR doing? How is your cadence?" locIndex="16" />
+            <textevent timeoffset="250.00002" message="And almost to the end. Some real recovery after this." locIndex="17" />
+        </Ramp>
+        <SteadyState Duration="240.00002" Power="0.55449998" pace="0">
+            <textevent timeoffset="5" message="Nice and easy here for four minutes. Did we mention there is also less rest between each round?" locIndex="18" />
+            <textevent timeoffset="120.00001" message="Easy and relaxed here. Lots of work still to be done." locIndex="19" />
+            <textevent timeoffset="180.00002" message="And getting ready to bring it up again. Four minutes per ramp this time. Starting higher though." locIndex="20" />
+        </SteadyState>
+        <Ramp Duration="240.00002" PowerLow="0.80000001" PowerHigh="0.94999999" pace="0">
+            <textevent timeoffset="5" message="80% effort to start. And building to 95%." locIndex="21" />
+            <textevent timeoffset="150" message="Up up up!! More powerrrrrrrrrrr!!!" locIndex="22" />
+            <textevent timeoffset="220.00002" message="Almost time to step back down..." locIndex="23" />
+        </Ramp>
+        <Ramp Duration="240.00002" PowerLow="0.85000002" PowerHigh="1" pace="0">
+            <textevent timeoffset="5" message="But only to 85%. Nice and strong here." locIndex="24" />
+            <textevent timeoffset="150" message="Past halfway. Both in this ramp and in the block." locIndex="25" />
+            <textevent timeoffset="220.00002" message="Almost through this ramp. Ready to step down again." locIndex="26" />
+        </Ramp>
+        <Ramp Duration="240.00002" PowerLow="0.89999998" PowerHigh="1.05" pace="0">
+            <textevent timeoffset="5" message="And 90% here. But building to up over threshold - 105!" locIndex="27" />
+            <textevent timeoffset="150" message="Almost in that homestretch. Great work everyone!" locIndex="28" />
+            <textevent timeoffset="220.00002" message="And the last little bit here. Just a few more seconds to push through." locIndex="29" />
+        </Ramp>
+        <SteadyState Duration="180.00002" Power="0.55449998" pace="0">
+            <textevent timeoffset="5" message="Only three minutes now. Are you seeing the pattern??" locIndex="30" />
+            <textevent timeoffset="100.00001" message="Relax here. Sit up and drink. Towel off. Crank that music for the final round." locIndex="31" />
+            <textevent timeoffset="150" message="Alright. Knuckle down for this last round. 3x3min ramps." locIndex="32" />
+        </SteadyState>
+        <Ramp Duration="180.00002" PowerLow="0.85000002" PowerHigh="1" pace="0">
+            <textevent timeoffset="5" message="85% here to start. But building to FTP right in this first ramp." locIndex="33" />
+            <textevent timeoffset="90.000008" message="Halfway. But only on this ramp. Still two more after this." locIndex="34" />
+            <textevent timeoffset="150" message="Up at threshold now. Getting tough?" locIndex="35" />
+        </Ramp>
+        <Ramp Duration="180.00002" PowerLow="0.89999998" PowerHigh="1.05" pace="0">
+            <textevent timeoffset="5" message="Down now. But only to 90%. Get ready to cross the threshold. Literally." locIndex="36" />
+            <textevent timeoffset="90.000008" message="Halfway. And halfway. Great work." locIndex="37" />
+            <textevent timeoffset="150" message="And push this last little bit and then a bit of a break." locIndex="38" />
+        </Ramp>
+        <Ramp Duration="180.00002" PowerLow="0.94999993" PowerHigh="1.1" pace="0">
+            <textevent timeoffset="5" message="And down again. Last ramp up here. Final 3 minutes. You are crushing it." locIndex="39" />
+            <textevent timeoffset="90.000008" message="Halfway here. But also well past halfway overall. Awesome work." locIndex="40" />
+            <textevent timeoffset="150" message="And the last. tiny. little. bit. of. work..." locIndex="41" />
+        </Ramp>
+        <Cooldown Duration="120.00001" PowerLow="0.55449998" PowerHigh="0.45449996" pace="0">
+            <textevent timeoffset="5" message="And cooling down..." locIndex="42" />
+            <textevent timeoffset="90.000008" message="Great work. This was a tough session!" locIndex="43" />
+        </Cooldown>
+    </workout>
+</workout_file>

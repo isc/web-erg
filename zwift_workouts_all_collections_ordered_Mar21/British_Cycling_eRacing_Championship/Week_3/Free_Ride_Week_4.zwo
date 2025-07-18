@@ -1,0 +1,23 @@
+<workout_file>
+    <uniqueId>48b4e04f-732f-4ad5-9d81-70257b0cb495</uniqueId>
+    <legacyIdHash>4217807189</legacyIdHash>
+    <author>British Cycling</author>
+    <name>Week 3.4 - Free Ride</name>
+    <description>This is a chance to get out for your local Club Run, hit the trails or to join a group ride on Zwift. The focus should be on steady paced endurance. Take care not to overdo this session though as you don&apos;t want it to impact on the quality of your other workouts.
+
+Aim to ride predominately in Zone 2 (55% - 75% FTP) but try to include 2-3 10 min "Sweet-Spot" (85%-95% FTP) efforts during the ride. </description>
+    <category>British Cycling eRacing Championship</category>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/HSBC_Logo.tga</authorIcon>
+    <subcategory>Week 3</subcategory>
+    <entid>436</entid>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout>
+        <FreeRide Duration="7200" FlatRoad="0">
+            <textevent timeoffset="1200" message="Don&apos;t forget to include a 10 min effort in the Sweetspot (85-95%). The workout graph at the bottom should be green to yellow during these efforts if you are in the right zone." locIndex="1" />
+            <textevent timeoffset="2400" message="Don&apos;t forget to include a 10 min effort in the Sweetspot (85-95%). The workout graph at the bottom should be green to yellow during these efforts if you are in the right zone." locIndex="2" />
+            <textevent timeoffset="3600" message="Don&apos;t forget to include a 10 min effort in the Sweetspot (85-95%). The workout graph at the bottom should be green to yellow during these efforts if you are in the right zone." locIndex="3" />
+        </FreeRide>
+    </workout>
+</workout_file>

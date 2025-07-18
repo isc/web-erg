@@ -1,0 +1,28 @@
+<workout_file>
+    <uniqueId>7cc29c60-ddc3-4c3a-a76d-a4fdec68b0b9</uniqueId>
+    <legacyIdHash>2183721955</legacyIdHash>
+    <name>Week 8.6 - FTP Test</name>
+    <description>This is your 8 week test. Warm up well and really CRUSH IT!</description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <category>Active Offseason</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 8</subcategory>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.2545" PowerHigh="0.80449998" />
+        <SteadyState Duration="300" PowerLow="1.0545" PowerHigh="1.0545">
+            <textevent timeoffset="255" message="Hammer it!" locIndex="1" />
+        </SteadyState>
+        <SteadyState Duration="900" PowerLow="0.65000004" PowerHigh="0.65000004">
+            <textevent timeoffset="840" message="About to begin 20 minute FTP test!" locIndex="2" />
+            <textevent timeoffset="911" message="Try to keep a steady pace that you can maintain for 20 minutes" locIndex="3" />
+        </SteadyState>
+        <FreeRide Duration="1200" FlatRoad="1" ftptest="1">
+            <textevent timeoffset="30" message="Don&apos;t start too hard!" locIndex="4" />
+            <textevent timeoffset="600" message="Half way done... pick up the power!" locIndex="5" />
+            <textevent timeoffset="900" message="5 minutes left! Push it!" locIndex="6" />
+            <textevent timeoffset="1140" message="One minute left! Finish strong!" locIndex="7" />
+        </FreeRide>
+        <SteadyState Duration="600" PowerLow="0.65449995" PowerHigh="0.65449995" />
+        <Cooldown Duration="600" PowerLow="0.65450025" PowerHigh="0.2545" />
+    </workout>
+</workout_file>

@@ -1,0 +1,73 @@
+<workout_file>
+    <uniqueId>0187bd0c-c691-45ca-8edd-619dec3d3065</uniqueId>
+    <legacyIdHash>3617481305</legacyIdHash>
+    <author>Matt Rowe</author>
+    <name>Week 1.2 - 70rpm Strength Ramps</name>
+    <description>Welcome to another session of the Dirt Destroyer, which contains two ramped efforts, at a low cadence. Each ramp starts at 65% of your FTP and ramps up, so get ready to grit your teeth a little towards the end of each ramp.
+
+The low cadence provides a strength element to the session, which is fundamental to mountain biking. Just think about all the times you are caught at a low speed, having to get over a rocky or muddy section, which really draws upon your strength. 
+ </description>
+    <sportType>bike</sportType>
+    <category>Dirt Destroyer</category>
+    <subcategory>Week 1</subcategory>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <tags />
+    <workout>
+        <Warmup Duration="420.00003" PowerLow="0.43673915" PowerHigh="0.74978262" pace="0">
+            <textevent timeoffset="10" message="Welcome back to the Dirt Destroyer training plan!" locIndex="1" />
+            <textevent timeoffset="35" message="Todays 70rpm Strength Ramps session is all about developing your aerobic base and strength." locIndex="2" />
+            <textevent timeoffset="43" message="We have a nice progressive warm up to start, with some 30 second activation efforts to get us ready for the session. " locIndex="3" />
+            <textevent timeoffset="68" message="This is a fairly standard warm up - hitting all the right notes." locIndex="4" />
+            <textevent timeoffset="201" message="XCO Mountain Bike events are around 90 minutes in length, so plenty of aerobic conditioning is required" locIndex="5" />
+            <textevent timeoffset="111" message="During todays session, we complete two ramped effort, similar to riding up a climb on a mountain bike." locIndex="6" />
+            <textevent timeoffset="131" message="The ramps aim to simulate riding up a climb that gets steeper and more technical." locIndex="7" />
+            <textevent timeoffset="390" message="You should be feeling pretty warmed up now. Do you have a sweat on?" locIndex="8" />
+            <textevent timeoffset="401" message="Here comes the first activation effort - notice its 30 seconds, very different to a road sprint. More of a capacity effort." locIndex="9" />
+        </Warmup>
+        <SteadyState Duration="30.000002" Power="1.0944999" pace="0" />
+        <SteadyState Duration="180.00002" Power="0.50449997" pace="0">
+            <textevent timeoffset="10" message="How was that?" locIndex="10" />
+            <textevent timeoffset="31" message="Now focus on your cadence - try and find a nice smooth rhythm" locIndex="11" />
+            <textevent timeoffset="150" message="Another sprint incoming!" locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="30.000002" Power="1.0944999" pace="0" />
+        <SteadyState Duration="300" Power="0.50449997" pace="0">
+            <textevent timeoffset="9.9999409" message="Good effort - we should be pretty warm now, with a nice sweat on?" locIndex="13" />
+            <textevent timeoffset="269" message="Remember to keep drinking throughout the session, and try to sit nice and upright like you do on a MTB." locIndex="14" />
+        </SteadyState>
+        <Ramp Duration="900" PowerLow="0.65449995" PowerHigh="0.92449993" pace="0" Cadence="70">
+            <textevent timeoffset="10" message="Block 1, here we go! It&apos;s a 15 minute ramped effort at 70rpm" locIndex="15" />
+            <textevent timeoffset="25" message="Feel free to stand up to grind through these low cadence efforts anytime through out the Dirt Destroyer" locIndex="16" />
+            <textevent timeoffset="30" message="But remember, out on the trails, this change of weight distribution could mean a loss of rear wheel traction" locIndex="17" />
+            <textevent timeoffset="50" message="On a steep climb, this is the difference between getting to the top or stalling out from a wheel slip" locIndex="18" />
+            <textevent timeoffset="65" message="You&apos;ll very likely come to a complete stop, put foot down, and maybe have to push to the top" locIndex="19" />
+            <textevent timeoffset="70" message="Maintaining momentum is really important off road. Only look to stand up if you know it&apos;s not energy wasted" locIndex="20" />
+            <textevent timeoffset="90" message="Try to complete these low cadence efforts seated. This is where you will make the most strength gains" locIndex="21" />
+            <textevent timeoffset="100" message="This shouldn&apos;t feel to tough to start, but we are ramping up from 65% to 92% of FTP" locIndex="22" />
+            <textevent timeoffset="1150" message="The increase in power, aims to replicate making your way from a fire road, off on to a single track and finally some tougher technical terrain" locIndex="23" />
+            <textevent timeoffset="130" message="As the road gets steeper / more technical, you will have to produce more power!" locIndex="24" />
+            <textevent timeoffset="370" message="Keep digging in. Sit upright for vision and to replicate your mountain bike position." locIndex="25" />
+            <textevent timeoffset="670" message="When it gets really tough, make sure you stay seated as otherwise you may wheel-spin and lose traction." locIndex="26" />
+        </Ramp>
+        <SteadyState Duration="300" Power="0.40450001" pace="0">
+            <textevent timeoffset="89" message="5 Minutes recovery. Super easy... " locIndex="27" />
+        </SteadyState>
+        <Ramp Duration="900" PowerLow="0.65449995" PowerHigh="0.92449993" pace="0" Cadence="70">
+            <textevent timeoffset="1" message="Ramp 2 - lets climb!" locIndex="28" />
+            <textevent timeoffset="44" message="Here we go - 70rpm throughout the block means you create a lot of crank torque, which draws upon your strength." locIndex="29" />
+            <textevent timeoffset="144" message="Even though the power isn&apos;t high to start, the muscular demand is high due to the low cadence." locIndex="30" />
+            <textevent timeoffset="184" message="We will be using both your Type I (Slow twitch) and Type II (Fast twitch) muscle fibers today." locIndex="31" />
+            <textevent timeoffset="224" message="When riding at this low cadence, it creates the perfect opportunity to improve your pedaling style." locIndex="32" />
+            <textevent timeoffset="259" message="&apos;Stomping&apos; on the pedals, i.e. applying a lot of force on the downstroke only will result in being inefficient and wheel spin" locIndex="33" />
+            <textevent timeoffset="284" message="Pedaling 360&apos; of the stroke - dragging the pedals up on the upstroke helps you to be efficient and avoid wheel spin on the steep climbs" locIndex="34" />
+            <textevent timeoffset="504" message="Sit upright, and look ahead - you need to keep an eye on the upcoming terrain." locIndex="35" />
+            <textevent timeoffset="624" message="Good work - this effort should be starting to bite now. Dig in." locIndex="36" />
+            <textevent timeoffset="700" message="You can try jumping out the saddle for a few minutes if you fancy it? We ride out of the saddle a lot in mountain biking, but just be careful of wheel spin" locIndex="37" />
+            <textevent timeoffset="820" message="Hold it right their - absorb the effort like a sponge. Proud of you!" locIndex="38" />
+        </Ramp>
+        <SteadyState Duration="600" Power="0.50449997" pace="0">
+            <textevent timeoffset="62" message="Good job! Make sure you recover well - carbs and protein for recovery to ensure we can train again tomorrow." locIndex="39" />
+            <textevent timeoffset="355" message="It&apos;s worth planning each week when you will complete each session within this workout - planning is key!" locIndex="40" />
+        </SteadyState>
+    </workout>
+</workout_file>

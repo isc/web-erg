@@ -1,0 +1,115 @@
+<workout_file>
+    <uniqueId>384511a7-feea-46bd-b857-359d349b7c53</uniqueId>
+    <legacyIdHash>1044843499</legacyIdHash>
+    <author>Kristin Armstrong</author>
+    <categoryOverride>Sprinting</categoryOverride>
+    <name>Week 12.2 - Microbursts 10-20-30</name>
+    <description>It&apos;s a Microburst kind of day! Today&apos;s ride consist of 3 sets of 8 efforts building from 10 second to 20 second to 30 second intervals, each separated by 2:30 minutes recovery. The number of repetitions will be 8 for all three sets, expect fatigue to accumulated over each set. The effects made in this workout are tremendous, although time spent in upper zones are short you are allowing more capacity in your anaerobic box meaning over time you will be able to spend more and more time in the higher intensity prior to fatiguing.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <tags />
+    <category>Back to Fitness</category>
+    <subcategory>Week 12</subcategory>
+    <workout>
+        <SteadyState Duration="180" Power="0.6">
+            <textevent message="YES!! It&apos;s a Microburst kind of day! Let&apos;s get started with a warm up." locIndex="1" timeoffset="0" />
+            <textevent message="Keep your cadence comfortable here, nice and steady." locIndex="2" timeoffset="60" />
+            <textevent message="Today&apos;s ride consist of 3 sets of 8 efforts building from 10 second to 20 second to 30 second intervals, each separated by 2:30 minutes recovery." locIndex="3" timeoffset="120" />
+            <textevent message="The number of repetitions will be 8 for all three sets, expect fatigue to accumulate over each set." locIndex="4" timeoffset="130" />
+            <textevent message="The effects made in this workout are tremendous, although time spent in upper zones are short..." locIndex="5" timeoffset="140" />
+            <textevent message="...allowing more capacity in your anaerobic box meaning over time you will be able to spend more and more time in the higher intensity prior to fatiguing." locIndex="6" timeoffset="150" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.7">
+            <textevent message="Let&apos;s lift things up a little bit more here." locIndex="7" timeoffset="0" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.8">
+            <textevent message="First things first.. its a double &quot;ramp up&quot; style warm up kind of day. " locIndex="8" timeoffset="0" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.9">
+            <textevent message="Even more effort now, really get those legs warmed up!" locIndex="9" timeoffset="0" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.6">
+            <textevent message="Let&apos;s build up 1-minute at a time again!" locIndex="10" timeoffset="0" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.7">
+		</SteadyState>
+        <SteadyState Duration="60" Power="0.8">
+            <textevent message="How are you feeling?  Getting ready to crush this ride?" locIndex="11" timeoffset="0" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.9">
+            <textevent message="Final minute, PUSH IT!" locIndex="12" timeoffset="0" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent message="Quick breather here! Let&apos;s get these last 3x 30 second efforts in our legs, heart and lungs so we make sure we are ready to go. " locIndex="13" timeoffset="0" />
+        </SteadyState>
+        <IntervalsT OffDuration="30" OffPower="0.5" OnDuration="30" OnPower="1.1" Repeat="3">
+            <textevent message="Aim for fast cadence during the work portions!" locIndex="14" timeoffset="0" />
+            <textevent message="Good work! Bring it down nice and easy again now." locIndex="15" timeoffset="30" />
+            <textevent message="GO GO GO!" locIndex="16" timeoffset="60" />
+            <textevent message="Last one, make it count!" locIndex="17" timeoffset="120" />
+        </IntervalsT>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent message="A few minutes before blast off -- 8x 10 second efforts!" locIndex="18" timeoffset="0" />
+            <textevent message="Deep breaths here, this will take a lot of focus and effort, but you can do it!" locIndex="19" timeoffset="60" />
+            <textevent message="All right, get ready to rock this!" locIndex="20" timeoffset="110" />
+        </SteadyState>
+        <IntervalsT OffDuration="20" OffPower="0.5" OnDuration="10" OnPower="1.5" Repeat="8">
+            <textevent message="GO!" locIndex="21" timeoffset="0" />
+            <textevent message="Good, quick rest now." locIndex="22" timeoffset="10" />
+            <textevent message="PUSH PUSH PUSH!" locIndex="23" timeoffset="30" />
+            <textevent message="Deep breath." locIndex="24" timeoffset="40" />
+            <textevent message="These come quick, UP UP UP!" locIndex="25" timeoffset="60" />
+            <textevent message="Excellent work, almost halfway done." locIndex="26" timeoffset="70" />
+            <textevent message="HALFWAY!" locIndex="27" timeoffset="90" />
+            <textevent message="Breathe, recovery becomes very important now." locIndex="28" timeoffset="100" />
+            <textevent message="DIG DIG DIG!" locIndex="29" timeoffset="120" />
+            <textevent message="Stick with it here, short efforts." locIndex="30" timeoffset="150" />
+            <textevent message="LAST ONE! GO GO GO!" locIndex="31" timeoffset="210" />
+        </IntervalsT>
+        <SteadyState Duration="150" Power="0.5">
+            <textevent message="Great effort! That&apos;s 1 down and 2 to go." locIndex="32" timeoffset="0" />
+            <textevent message="Let&apos;s take a longer break here now, then we&apos;ll move onto the next interval set." locIndex="33" timeoffset="10" />
+            <textevent message="Which features 20sec efforts :-)" locIndex="34" timeoffset="20" />
+            <textevent message="Hopefully you&apos;re feeling a bit recovered here and ready to rock the next one." locIndex="35" timeoffset="120" />
+            <textevent message="Take another deep breath and have a drink and get ready!" locIndex="36" timeoffset="130" />
+            <textevent message="Next up 8x 20 second efforts!" locIndex="37" timeoffset="140" />
+        </SteadyState>
+        <IntervalsT OffDuration="40" OffPower="0.5" OnDuration="20" OnPower="1.4" Repeat="8">
+            <textevent message="GO GO GO! This is going to be a longer effort, but a bit less intense." locIndex="38" timeoffset="0" />
+            <textevent message="Nice! Now we take 40 seconds easy between." locIndex="39" timeoffset="20" />
+            <textevent message="Here we go again!" locIndex="40" timeoffset="60" />
+            <textevent message="Breathe...Relax." locIndex="41" timeoffset="80" />
+            <textevent message="UP UP UP!" locIndex="42" timeoffset="120" />
+            <textevent message="PUSH PUSH!" locIndex="43" timeoffset="180" />
+            <textevent message="Stay with it now, you can do this! We&apos;re halfway!" locIndex="44" timeoffset="240" />
+            <textevent message="Keep pushing yourself, earn the fitness!" locIndex="45" timeoffset="300" />
+            <textevent message="DIG DIG!" locIndex="46" timeoffset="360" />
+            <textevent message="LAST ONE!" locIndex="47" timeoffset="420" />
+        </IntervalsT>
+        <SteadyState Duration="150" Power="0.5">
+            <textevent message="That was a solid set out of you, nice work!" locIndex="48" timeoffset="0" />
+            <textevent message="Let&apos;s take a couple of minutes nice and easy again here, then move onto the finale." locIndex="49" timeoffset="10" />
+            <textevent message="Last set of the day IS JUST ahead. 8x :30 second efforts." locIndex="50" timeoffset="120" />
+            <textevent message="You are going to CRUSH them!" locIndex="51" timeoffset="130" />
+        </SteadyState>
+        <IntervalsT OffDuration="60" OffPower="0.5" OnDuration="30" OnPower="1.3" Repeat="8">
+            <textevent message="GO!" locIndex="52" timeoffset="0" />
+            <textevent message="Good, quick rest now." locIndex="53" timeoffset="30" />
+            <textevent message="PUSH PUSH PUSH!" locIndex="54" timeoffset="90" />
+            <textevent message="Deep breath." locIndex="55" timeoffset="120" />
+            <textevent message="These come quick, UP UP UP!" locIndex="56" timeoffset="180" />
+            <textevent message="Excellent work, almost halfway done." locIndex="57" timeoffset="210" />
+            <textevent message="HALFWAY!" locIndex="58" timeoffset="270" />
+            <textevent message="Breathe, recovery becomes very important now." locIndex="59" timeoffset="300" />
+            <textevent message="DIG DIG DIG!" locIndex="60" timeoffset="360" />
+            <textevent message="Stick with it here, short efforts." locIndex="61" timeoffset="390" />
+            <textevent message="LAST ONE! GO GO GO!" locIndex="62" timeoffset="450" />
+        </IntervalsT>
+        <SteadyState Duration="120" Power="0.55">
+            <textevent message="PHEW!  You did it, nice riding.  Change has been made by forcing your body to adapt.  You are stronger for it.  Now make sure you get yourself recovered!" locIndex="63" timeoffset="0" />
+            <textevent message="Take care of yourself by hydrating and refueling so you feel recovered and ready to go again for your next session!" locIndex="64" timeoffset="60" />
+            <textevent message="Take a few more deep breaths here as we continue to return to baseline." locIndex="65" timeoffset="90" />
+            <textevent message="See you on the next workout - Dani and Kristin." locIndex="66" timeoffset="110" />
+        </SteadyState>
+    </workout>
+</workout_file>

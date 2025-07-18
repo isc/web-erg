@@ -1,0 +1,100 @@
+<workout_file>
+    <uniqueId>7e807d85-664f-421f-9c0a-d1a88f22d258</uniqueId>
+    <legacyIdHash>1606757541</legacyIdHash>
+    <author>Zwift Academy Coaches</author>
+    <categoryOverride>Best of Zwift Academy</categoryOverride>
+    <subcategoryOverride>ZA 2018</subcategoryOverride>
+    <name>Lactate Shuttling</name>
+    <activitySaveName>Zwift Academy 2018 Workout #8: Lactate Shuttling</activitySaveName>
+    <description>Lactate is a fuel source for your body. Using this knowledge we can add an additional trigger to your lactate shuttling system.
+
+By first raising lactate levels to a high concentration in the opening effort, we can then maintain this level for an extended period with balanced interval training.
+
+This is achieved by exercising at a level that represents a balance between lactate accumulation and lactate combustion.</description>
+    <sportType>bike</sportType>
+    <visibleAfterTime>1533538860</visibleAfterTime>
+    <overrideHash>1606757541</overrideHash>
+    <category>Zwift Academy 2018</category>
+    <categoryIndex>8</categoryIndex>
+    <tags>
+        <tag name="Zwift Academy" />
+    </tags>
+    <workout>
+        <Warmup Duration="180.00002" PowerLow="0.44999999" PowerHigh="0.55000001" pace="32766">
+            <textevent timeoffset="0" message="Welcome to workout 8 of the Zwift Academy" locIndex="1" />
+            <textevent timeoffset="30" message="A gentle warm up that gradually increases in power." locIndex="2" />
+            <textevent timeoffset="50" message="However, we include a few accelerations along the way." locIndex="3" />
+            <textevent timeoffset="150" message="Aim for a high cadence in these sprints." locIndex="4" />
+            <textevent timeoffset="170" message="Ready for the 1st sprint." locIndex="5" />
+        </Warmup>
+        <SteadyState Duration="20" Power="1.25" pace="32766">
+            <textevent timeoffset="10" message="Keep your cadence high!" locIndex="6" />
+        </SteadyState>
+        <Ramp Duration="180.00002" PowerLow="0.56000006" PowerHigh="0.64999998" pace="32766">
+            <textevent timeoffset="10" message="We keep ramping up the power during the warm up." locIndex="7" />
+            <textevent timeoffset="170" message="Now for another 20sec surge." locIndex="8" />
+        </Ramp>
+        <SteadyState Duration="20" Power="1.25" pace="32766">
+            <textevent timeoffset="10" message="high cadence!" locIndex="9" />
+        </SteadyState>
+        <Ramp Duration="180.00002" PowerLow="0.66000009" PowerHigh="0.75" pace="32766">
+            <textevent timeoffset="10" message="The power keeps increasing until we reach the final 20sec surge." locIndex="10" />
+            <textevent timeoffset="170" message="Now for the last warm up surge." locIndex="11" />
+        </Ramp>
+        <SteadyState Duration="20" Power="1.2544999" pace="32766">
+            <textevent timeoffset="10" message="Keep your cadence high!" locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.55449998" pace="32766">
+            <textevent timeoffset="30" message="A short recovery period before we hit the opening intervals." locIndex="13" />
+            <textevent timeoffset="50" message="The focus of this session is to raise lactate to an above threshold level." locIndex="14" />
+            <textevent timeoffset="70" message="Then maintain this level for an extended period." locIndex="15" />
+            <textevent timeoffset="90" message="This is achieved by &apos;shuttling&apos; between clearing and accumulating lactate." locIndex="16" />
+            <textevent timeoffset="110" message="But first, you need to build some lactate." locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.95449996" pace="32766">
+            <textevent timeoffset="30" message="This opening interval will bring lactate up, well above resting levels." locIndex="18" />
+            <textevent timeoffset="90" message="This is a near threshold effort. Focus on controlled breathing." locIndex="19" />
+            <textevent timeoffset="150" message="At this point your body would be able to clear lactate as fast as it produces it." locIndex="20" />
+            <textevent timeoffset="180" message="However, the goal of today&apos;s session is to maintain high concentrations of lactate." locIndex="21" />
+            <textevent timeoffset="240" message="This effort is part of the process of achieving high lactate levels." locIndex="22" />
+            <textevent timeoffset="270" message="You should be nice and warmed up now. Ready for the main set." locIndex="23" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.50449997" pace="32766">
+            <textevent timeoffset="30" message="A short recovery period, then the opening effort that brings the lactate up." locIndex="24" />
+            <textevent timeoffset="50" message="To do this, we need a high intensity aerobic effort." locIndex="25" />
+            <textevent timeoffset="160" message="Here we go. This is the effort to build lactate levels." locIndex="26" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="1.1544999" pace="32766">
+            <textevent timeoffset="30" message="Control your breathing and find your own rhythm." locIndex="27" />
+            <textevent timeoffset="90" message="Halfway... Aim to maintain your cadence." locIndex="28" />
+            <textevent timeoffset="150" message="Almost there. Your effort here impacts on the rest of the session." locIndex="29" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.50449997" pace="32766">
+            <textevent timeoffset="30" message="Just a short recovery, then we begin the lactate shuttling efforts." locIndex="30" />
+        </SteadyState>
+        <IntervalsT Repeat="10" OnDuration="60" OffDuration="60" OnPower="1.0044999" OffPower="0.77449995" pace="32766">
+            <textevent timeoffset="20" message="Lactate concentration levels are high." locIndex="31" />
+            <textevent timeoffset="30" message="This portion maintains those levels by accumulating a little lactate." locIndex="32" />
+            <textevent timeoffset="80" message="This portion balances the high lactate levels by clearing a little." locIndex="33" />
+            <textevent timeoffset="90" message="We can now maintain a high level of lactate for an extended period with this process." locIndex="34" />
+            <textevent timeoffset="200" message="Keep in mind that lactate isn&apos;t the bad guy here." locIndex="35" />
+            <textevent timeoffset="320" message="Our bodies reuse lactate as a source of energy for our muscles, heart and brain." locIndex="36" />
+            <textevent timeoffset="440" message="When we exercise, our bodies require quite a lot of energy to fuel muscle contraction." locIndex="37" />
+            <textevent timeoffset="560" message="As exercise intensity increases, our bodies rely on glucose to keep up with the demand for energy." locIndex="38" />
+            <textevent timeoffset="680" message="One of the end products of the break down of glucose is hydrogen ions." locIndex="39" />
+            <textevent timeoffset="800" message="Scientists have been confused because lactate and hydrogen ions are present together in the muscle when you exercise intensely." locIndex="40" />
+            <textevent timeoffset="920.00006" message="It’s actually the accumulation of hydrogen ions that causes our muscles to burn." locIndex="41" />
+            <textevent timeoffset="1040" message="Lactate doesn’t cause the acidic environment, it tries to minimize it." locIndex="42" />
+            <textevent timeoffset="1159.9999" message="That concludes today&apos;s science lesson!" locIndex="43" />
+        </IntervalsT>
+        <SteadyState Duration="120" Power="0.50449997" pace="32766">
+            <textevent timeoffset="30" message="How did you find that?" locIndex="44" />
+            <textevent timeoffset="90" message="That is very effective training." locIndex="45" />
+            <textevent timeoffset="100" message="The opening high intensity interval changes the stimulus of the entire session." locIndex="46" />
+        </SteadyState>
+        <Cooldown Duration="600" PowerLow="0.75449997" PowerHigh="0.50237" pace="32766">
+            <textevent timeoffset="100" message="To clear the accumulated lactate we need a long cool down." locIndex="47" />
+            <textevent timeoffset="200" message="Be sure to continue to hydrate adequately after the session." locIndex="48" />
+        </Cooldown>
+    </workout>
+</workout_file>

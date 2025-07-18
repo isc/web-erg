@@ -1,0 +1,70 @@
+<workout_file>
+    <uniqueId>19eae295-9f16-4dbc-b4fc-eb4294aa2671</uniqueId>
+    <legacyIdHash>1405710056</legacyIdHash>
+    <author>Zwift</author>
+    <categoryOverride>Threshold</categoryOverride>
+    <name>Week 3.2 - Low-Cadence Intervals</name>
+    <category>Fondo</category>
+    <subcategory>Week 3</subcategory>
+    <description>Focused low-cadence 3min intervals bracketing goal 90% FTP power. Build all while holding a good low cadence down in the 50s. Recovery with high cadence and still reasonable aerobic power. The power here shouldn&apos;t be a challenge... except for the cadence. If you can get comfortable generating your target race power with a firm cadence cap, it becomes a lot easier on race day when you can ride whatever cadence you choose. The cadence caps on the hard work are critical, so make sure not to cheat up and spin a bit faster to make it easier. 
+</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS" />
+    </tags>
+    <workout>
+        <Warmup Duration="480" PowerLow="0.55449998" PowerHigh="0.75449997" pace="-1307163960">
+            <textevent timeoffset="45.000004" message="We have a great workout on tap for you here today." locIndex="1" />
+            <textevent timeoffset="75.000004" message="It&apos;s two rounds of low cadence 3min intervals in the sweet spot." locIndex="2" />
+            <textevent timeoffset="100" message="The power here shouldn&apos;t be a challenge... except for the cadence." locIndex="3" />
+            <textevent timeoffset="120" message=" If you can get comfortable generating your target race power with a firm cadence cap, it becomes a lot easier on race day when you can ride whatever cadence you choose." locIndex="4" />
+            <textevent timeoffset="133" message="Start out easy. Just get loose." locIndex="5" />
+            <textevent timeoffset="425" message="HR and power should be up now" locIndex="6" />
+        </Warmup>
+        <SteadyState Duration="180.00002" Power="0.85523421" pace="-1307163960" Cadence="55">
+            <textevent timeoffset="23.000002" message="First interval is nothing crazy" locIndex="7" />
+            <textevent timeoffset="60.000004" message="Just find a rhythm at low rpms" locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="120.00001" Power="0.49986225" pace="-1307163960" Cadence="85">
+            <textevent timeoffset="14.000001" message="Spin the legs back up now" locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="180.00002" Power="0.8827824" pace="-1307163960" Cadence="55">
+            <textevent timeoffset="16" message="little bit more power now" locIndex="10" />
+            <textevent timeoffset="55.000004" message="and keeping the cadence down" locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="120.00001" Power="0.49986225" pace="-1307163960" Cadence="85">
+            <textevent timeoffset="30.000002" message="Spin it out but keep some power" locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="180.00002" Power="0.91033059" pace="-1307163960" Cadence="55">
+            <textevent timeoffset="18" message="Now we&apos;re up right at race pace" locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="120.00001" Power="0.49986225" pace="-1307163960" Cadence="85" />
+        <SteadyState Duration="180.00002" Power="0.93787885" pace="-1307163960" Cadence="55">
+            <textevent timeoffset="25.000002" message="Don&apos;t let your cadence drift up" locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="120.00001" Power="0.49986225" pace="-1307163960" Cadence="85" />
+        <SteadyState Duration="180.00002" Power="0.8827824" pace="-1307163960" Cadence="55">
+            <textevent timeoffset="20" message="Back down for #5. Halfway done" locIndex="15" />
+        </SteadyState>
+        <SteadyState Duration="120.00001" Power="0.49986225" pace="-1307163960" Cadence="85" />
+        <SteadyState Duration="180.00002" Power="0.91033059" pace="-1307163960" Cadence="55">
+            <textevent timeoffset="31.000002" message="Back at race power &amp; low rpms" locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="120.00001" Power="0.49986225" pace="-1307163960" Cadence="85">
+            <textevent timeoffset="23.000002" message="Keep the cadence up here" locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="180.00002" Power="0.93787885" pace="-1307163960" Cadence="55">
+            <textevent timeoffset="34" message="#7. Power up and cadence down." locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="120.00001" Power="0.49986225" pace="-1307163960" Cadence="85">
+            <textevent timeoffset="10" message="almost done. Just one more left" locIndex="19" />
+        </SteadyState>
+        <SteadyState Duration="180.00002" Power="0.96542704" pace="-1307163960" Cadence="55">
+            <textevent timeoffset="12.000001" message="Final rep. Best power. Same rpm" locIndex="20" />
+        </SteadyState>
+        <FreeRide Duration="240" FlatRoad="1">
+            <textevent timeoffset="28.999924" message="Great job. Nice and light now" locIndex="21" />
+            <textevent timeoffset="112" message="Easy to finish. Spin it out" locIndex="22" />
+        </FreeRide>
+    </workout>
+</workout_file>

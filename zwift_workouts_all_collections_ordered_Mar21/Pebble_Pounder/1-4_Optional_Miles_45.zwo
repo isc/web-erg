@@ -1,0 +1,15 @@
+<workout_file>
+    <uniqueId>57a1a8f6-71d8-4946-b508-d06dd9bad008</uniqueId>
+    <legacyIdHash>2180497743</legacyIdHash>
+    <author>Shayne Gaffney</author>
+    <name>Week 1.4 - Optional Miles (45min)</name>
+    <description>Today should ideally be done outdoors on your gravel bike. Aim to practice your bike handling skills, navigating around and over obstacles, and getting a feel for how different surfaces react. Otherwise, doing this ride on Zwift in the form of an unstructured endurance ride, or joining a group ride is perfect!.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Pebble Pounder</category>
+    <subcategory>Week 1</subcategory>
+    <tags />
+    <workout>
+        <FreeRide Duration="2700" FlatRoad="0" />
+    </workout>
+</workout_file>

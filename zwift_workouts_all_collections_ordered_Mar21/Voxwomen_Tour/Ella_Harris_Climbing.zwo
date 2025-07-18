@@ -1,0 +1,110 @@
+<workout_file>
+    <uniqueId>71ef50a2-572b-4d0b-8dd7-c139051ffa41</uniqueId>
+    <legacyIdHash>709671721</legacyIdHash>
+    <author>Ella Harris</author>
+    <categoryOverride>Climbing</categoryOverride>
+    <name>Ella Harris - Climbing Power</name>
+    <description>We have a climbing-focused workout planned for today. Ella Harris says: "This workout develops my ability to climb and recover over different gradients. Over the 10 minute intervals, we&apos;ll switch between 4 min efforts at a moderate cadence just below FTP, to 1 min low cadence work above FTP to mimic a steep section."</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <category>Voxwomen Tour 2021</category>
+    <categoryIndex>1</categoryIndex>
+    <workout>
+        <Warmup Duration="420" PowerLow=".6" PowerHigh=".9">
+            <textevent timeoffset="0" message="Hello and welcome to Climbing Power, by Ella Harris!" locIndex="1" />
+            <textevent timeoffset="10" message="This year&apos;s tour is all about tapping into the power of the women&apos;s pro peloton top get strong and have FUN while doing it!" locIndex="2" />
+            <textevent timeoffset="20" message="The Tour is 4 stages total - featuring 3 workouts and a fun social recovery ride." locIndex="3" />
+            <textevent timeoffset="30" message="Each of the 3 workouts has been provided by a world class woman pro!" locIndex="4" />
+            <textevent timeoffset="40" message="With today&apos;s workout provided by Ella Harris!" locIndex="5" />
+            <textevent timeoffset="50" message="Let&apos;s continue on with the warm up and we&apos;ll chat about what&apos;s in store for today in just a moment." locIndex="6" />
+            <textevent timeoffset="180" message="You&apos;re looking good so far! Keep your cadence comfortable and stay loose." locIndex="7" />
+            <textevent timeoffset="210" message="Okay great work! We&apos;re halfway through today&apos;s warm up. Let&apos;s chat a bit about today&apos;s main set." locIndex="8" />
+            <textevent timeoffset="220" message="We are going to put our climbing shoes on today!" locIndex="9" />
+            <textevent timeoffset="230" message="Ella says - &apos;We break down the intervals into 10min blocks where we ride either just below our FTP at a moderate cadence..." locIndex="10" />
+            <textevent timeoffset="240" message="or over our FTP for short durations of 1min at a low cadence when we increase the force to mimic steeper gradients when climbing.&apos;" locIndex="11" />
+            <textevent timeoffset="250" message="Thanks, Ella! So, for today, get ready for sustained efforts as well as some low-cadence work." locIndex="12" />
+            <textevent timeoffset="260" message="The perfect combination for improving your ability to fly up the side of a mountain - just like Ella!" locIndex="13" />
+            <textevent timeoffset="270" message="Let&apos;s continue on with today&apos;s warm up." locIndex="14" />
+            <textevent timeoffset="390" message="In 30sec, we&apos;ll bring it down easy to recover before the main set." locIndex="15" />
+        </Warmup>
+        <SteadyState Duration="120" Power="0.55">
+            <textevent timeoffset="0" message="Great work! Use these next 2min to have a drink, shake things out, and get into the right headspace." locIndex="16" />
+            <textevent timeoffset="10" message="Today is a challenging workout, but YOU CAN DO IT!" locIndex="17" />
+            <textevent timeoffset="60" message="In 1min our main set begins! Remember, we have 3 sets of 10min blocks where we ride either just below our FTP at a moderate cadence..." locIndex="18" />
+            <textevent timeoffset="70" message="or over our FTP for short durations of 1min at a low cadence when we increase the force to mimic steeper gradients when climbing." locIndex="19" />
+            <textevent timeoffset="110" message="Here we go! We&apos;re starting off at 90 RPM." locIndex="20" />
+        </SteadyState>
+        <IntervalsT Repeat="2" OnDuration="240" OffDuration="60" OnPower="0.95" OffPower="1.1" Cadence="90" CadenceResting="60">
+            <textevent timeoffset="0" message="Bring the effort up right below FTP and let&apos;s settle in." locIndex="21" />
+            <textevent timeoffset="60" message="Settle down now, you should have found your rhythm, tap it out." locIndex="22" />
+            <textevent timeoffset="180" message="In 1min we have our 1st low-cadence surge." locIndex="23" />
+            <textevent timeoffset="190" message="This will be done at 60 RPM and will push us over FTP, get ready!" locIndex="24" />
+            <textevent timeoffset="230" message="Start bringing your cadence down..." locIndex="25" />
+            <textevent timeoffset="240" message="Grind it out! Focus on your pedal stroke - push, scrape, pull." locIndex="26" />
+            <textevent timeoffset="300" message="Lift the cadence again and let&apos;s recover from that initial surge." locIndex="27" />
+            <textevent timeoffset="310" message="This is where pure climbers earn their money - they have an uncanny ability to surge and recover." locIndex="28" />
+            <textevent timeoffset="360" message="Breathe...Stay under control. You should feel like you&apos;re recovering." locIndex="29" />
+            <textevent timeoffset="480" message="1min left, then we&apos;re going to surge again - YOU GOT THIS!" locIndex="30" />
+            <textevent timeoffset="540" message="Lower the cadence down again and grind it out!" locIndex="31" />
+            <textevent timeoffset="570" message="C&apos;MON! DIG!" locIndex="32" />
+            <textevent timeoffset="590" message="GET TO THE ARCH!" locIndex="33" />
+        </IntervalsT>
+        <SteadyState Duration="240" Power="0.55">
+            <textevent timeoffset="0" message="Amazing! Check that 1st interval set off! 2 remain for today." locIndex="34" />
+            <textevent timeoffset="10" message="We&apos;ll take 4min nice and easy to recover." locIndex="35" />
+            <textevent timeoffset="20" message="Have a drink, catch your breath, and shake things out a bit." locIndex="36" />
+            <textevent timeoffset="60" message="Let&apos;s learn a bit about the pro who gifted us her workout, Ella Harris." locIndex="37" />
+            <textevent timeoffset="70" message="Ella is 22 years old and from Dunedin, New Zealand, but lives in Girona, Spain during the cycling season." locIndex="38" />
+            <textevent timeoffset="80" message="She won the Zwift Academy in 2018 and has been riding for CANYON//SRAM Racing since." locIndex="39" />
+            <textevent timeoffset="90" message="Aside from bikes, she likes to study at university, travel to new places, and explore coffee possibilities wherever she happens to be." locIndex="40" />
+            <textevent timeoffset="100" message="She also like to cook or bake... then eat said food." locIndex="41" />
+            <textevent timeoffset="110" message="That makes 2 of us, Ella! :-)" locIndex="42" />
+            <textevent timeoffset="120" message="Ella&apos;s favorite races are: Tour Down Under, the UCI World Championships, and Tour de Yorkshire." locIndex="43" />
+            <textevent timeoffset="120" message="Let&apos;s enjoy these last 2min of recovery." locIndex="44" />
+            <textevent timeoffset="210" message="Okay, in 30sec we&apos;re back on again. We&apos;ll start off at 90 RPM." locIndex="45" />
+        </SteadyState>
+        <IntervalsT Repeat="2" OnDuration="240" OffDuration="60" OnPower="0.95" OffPower="1.1" Cadence="90" CadenceResting="60">
+            <textevent timeoffset="0" message="Let&apos;s GO! Bring your effort back up again and get into that same rhythm as before." locIndex="46" />
+            <textevent timeoffset="60" message="This type of workout is ideal when leading into stage races to help build climbing ability plus fatigue resistance." locIndex="47" />
+            <textevent timeoffset="70" message="And, as you learned from the 1st interval, also teaching you how to recover under pressure." locIndex="48" />
+            <textevent timeoffset="180" message="Superb work so far! We&apos;re going to surge up and over FTP again in 1min." locIndex="49" />
+            <textevent timeoffset="240" message="Okay, let&apos;s hit it! Grind those pedals over!" locIndex="50" />
+            <textevent timeoffset="300" message="Excellent! Let&apos;s bring the cadence up again and recover. Breathe..." locIndex="51" />
+            <textevent timeoffset="360" message="Focus on your recovery still. You can do this, believe in yourself!" locIndex="52" />
+            <textevent timeoffset="420" message="This is an excellent workout to do when you already have an optimal level in your FTP development..." locIndex="53" />
+            <textevent timeoffset="430" message="and you&apos;re putting the final touches in your training." locIndex="54" />
+            <textevent timeoffset="510" message="Let&apos;s take 1 more deep breath and refocus for the final surge." locIndex="55" />
+            <textevent timeoffset="540" message="GO GO GO! Get through this and earn the rest block!" locIndex="56" />
+            <textevent timeoffset="590" message="PUSH ALL THE WAY!" locIndex="57" />
+        </IntervalsT>
+        <SteadyState Duration="240" Power="0.55">
+            <textevent timeoffset="0" message="YES! That&apos;s 2 down and just 1 more remaining - you are doing amazing!" locIndex="58" />
+            <textevent timeoffset="10" message="We&apos;ll take another 4min recovery before we tackle the final interval set." locIndex="59" />
+            <textevent timeoffset="60" message="Breathe... Make sure you&apos;re sipping those fluids too." locIndex="60" />
+            <textevent timeoffset="180" message="Okay, in 1min we&apos;re back on for our FINALE." locIndex="61" />
+            <textevent timeoffset="190" message="This one should be executed just as well as the 1st.. if not BETTER!" locIndex="62" />
+            <textevent timeoffset="230" message="Let&apos;s do it!" locIndex="63" />
+        </SteadyState>
+        <IntervalsT Repeat="2" OnDuration="240" OffDuration="60" OnPower="0.95" OffPower="1.1" Cadence="90" CadenceResting="60">
+            <textevent timeoffset="0" message="Bring the effort up right below FTP and let&apos;s CRUSH THIS!" locIndex="64" />
+            <textevent timeoffset="60" message="Tap out that rhythm. Stay comfortable and under control." locIndex="65" />
+            <textevent timeoffset="180" message="Get ready to bring it over FTP again in 1min!" locIndex="66" />
+            <textevent timeoffset="230" message="Start bringing your cadence down..." locIndex="67" />
+            <textevent timeoffset="240" message="Grind it out. Focus on your pedal stroke - push, scrape, pull." locIndex="68" />
+            <textevent timeoffset="300" message="YES! Just 1 more hard surge left for today, you can do this!" locIndex="69" />
+            <textevent timeoffset="360" message="Keep controlled. This should be a real challenge, but also doable." locIndex="70" />
+            <textevent timeoffset="480" message="1min left then we&apos;re going to surge again for the LAST TIME." locIndex="71" />
+            <textevent timeoffset="540" message="Lower the cadence down again and grind it out!" locIndex="72" />
+            <textevent timeoffset="570" message="C&apos;MON! DIG!" locIndex="73" />
+            <textevent timeoffset="590" message="GET TO THE ARCH!" locIndex="74" />
+        </IntervalsT>
+        <Cooldown Duration="300" PowerLow="0.6" PowerHigh="0.4">
+            <textevent timeoffset="0" message="Great job! You just trained like a pro!" locIndex="75" />
+            <textevent timeoffset="10" message="We&apos;re going to take 5min and cool down." locIndex="76" />
+            <textevent timeoffset="60" message="Zwift has partnered with Voxwomen to support their mission to inspire and motivate women who ride." locIndex="77" />
+            <textevent timeoffset="180" message="Check out Voxwomen.com to follow the latest with the women&apos;s pro peloton and sign up for the Monday Briefing powered by Zwift to get the inside line!" locIndex="78" />
+            <textevent timeoffset="290" message="Ride On!" locIndex="79" />
+        </Cooldown>
+    </workout>
+</workout_file>

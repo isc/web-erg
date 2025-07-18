@@ -1,0 +1,17 @@
+<workout_file>
+    <uniqueId>bebc3363-1e2e-454d-8a3c-0d0fac19149b</uniqueId>
+    <legacyIdHash>3518886433</legacyIdHash>
+    <category>Hunter&apos;s Challenge</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 4</subcategory>
+    <name>Week 4.2 - FTP Builder</name>
+    <description>Just to make sure you are being honest and getting in your threshold and Vo2 Max work.</description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <workout>
+        <Warmup PowerLow="0.55" PowerHigh="0.72" Duration="240" />
+        <IntervalsT Repeat="3" OnDuration="60" OffDuration="60" Cadence="105" CadenceResting="85" OnPower="0.72" OffPower="0.72" />
+        <IntervalsT OnDuration="600" OffDuration="600" OnPower="0.95" OffPower="0.72" Repeat="3" />
+        <IntervalsT OnDuration="180" OffDuration="180" OnPower="1.14" OffPower="0.72" Repeat="2" />
+        <Cooldown PowerLow="0.72" PowerHigh=".55" Duration="600" />
+    </workout>
+</workout_file>

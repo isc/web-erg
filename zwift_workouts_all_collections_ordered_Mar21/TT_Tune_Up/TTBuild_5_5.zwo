@@ -1,0 +1,59 @@
+<workout_file>
+    <uniqueId>66ee3cfd-2a77-4c59-9036-b641d45100f7</uniqueId>
+    <legacyIdHash>695451058</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Sub Threshold #2</name>
+    <description>To build endurance and aerobic efficiency we need to perform long steady efforts. Today&apos;s session comprises of a series of sub-threshold efforts. After opening the interval with a Zone 5 surge, the remaining minutes will gradually increase in power over the duration of the effort. Observe how much this increase in power affects your heart rate.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>TT Tune Up</category>
+    <subcategory>Week 5</subcategory>
+    <tags>
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.45" PowerHigh="0.75">
+            <textevent timeoffset="60" message="Today&apos;s session should be comforatble for you." locIndex="1" />
+            <textevent timeoffset="80" message="Sub threshold efforts should be able to be repeated without too much trouble." locIndex="2" />
+            <textevent timeoffset="270" message="To help prepare for the main set, we have some low level 1min efforts to begin with." locIndex="3" />
+        </Warmup>
+        <IntervalsT Repeat="2" OnDuration="60" OffDuration="60" OnPower="0.8" OffPower="0.5" />
+        <IntervalsT Repeat="2" OnDuration="60" OffDuration="60" OnPower="0.98" OffPower="0.5" />
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="110" message="To complete the warm up we now perform a 5min threshold effort." locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.95" />
+        <SteadyState Duration="300" Power="0.5">
+            <textevent timeoffset="270" message="The Sub Threshold effort begins with a 30sec surge." locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.1" />
+        <Ramp Duration="450" PowerLow="0.88" PowerHigh="0.94">
+            <textevent timeoffset="20" message="Settle into your effort now." locIndex="6" />
+            <textevent timeoffset="40" message="Focus on a good positon on the bike, and relaxed breathing." locIndex="7" />
+            <textevent timeoffset="60" message="Target power increases slightly during the effort." locIndex="8" />
+            <textevent timeoffset="430" message="Observe your finishing HR." locIndex="9" />
+        </Ramp>
+        <SteadyState Duration="300" Power="0.5">
+            <textevent timeoffset="100" message="To build endurance and aerobic efficiency we need to perform long steady efforts." locIndex="10" />
+            <textevent timeoffset="110" message="Beginning the effort with a strong surge adds to the stimulus." locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.1" />
+        <Ramp Duration="450" PowerLow="0.88" PowerHigh="0.94">
+            <textevent timeoffset="20" message="Settle into your effort now." locIndex="12" />
+            <textevent timeoffset="40" message="Focus on a good positon on the bike, and relaxed breathing." locIndex="13" />
+            <textevent timeoffset="60" message="Target power increases slightly during the effort." locIndex="14" />
+            <textevent timeoffset="430" message="Observe your finishing HR. How does it compare to the 1st effort?" locIndex="15" />
+        </Ramp>
+        <SteadyState Duration="300" Power="0.5">
+            <textevent timeoffset="80" message="Are you recovering sufficently after each effort?" locIndex="16" />
+            <textevent timeoffset="280" message="Ready to begin the final effort with a 30sec surge." locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.1" />
+        <Ramp Duration="450" PowerLow="0.88" PowerHigh="0.94">
+            <textevent timeoffset="20" message="Settle into your effort now." locIndex="18" />
+            <textevent timeoffset="40" message="Focus on a good positon on the bike, and relaxed breathing." locIndex="19" />
+            <textevent timeoffset="60" message="Target power increases slightly during the effort." locIndex="20" />
+            <textevent timeoffset="430" message="Observe your finishing HR. How does it compare to the previous efforts?" locIndex="21" />
+        </Ramp>
+        <Cooldown Duration="300" PowerLow="0.75" PowerHigh="0.45" />
+    </workout>
+</workout_file>

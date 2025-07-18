@@ -1,0 +1,45 @@
+<workout_file>
+    <uniqueId>f52e0f54-5e08-4ebf-91bb-c4ea6d6fc4c6</uniqueId>
+    <legacyIdHash>1745832862</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Week 7.2 - Extensive Anaerobic #1</name>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>2018 PRL46 Prep</category>
+    <subcategory>Week 7</subcategory>
+    <description>After warming up, the focus is on completing quality &apos;Extensive Anaerobic&apos; intervals.
+
+3 x 2.5min extensive anaerobic intervals will be hard but achievable for you.
+
+However, just like on a long climb, these will be performed from an already tempo-like effort. </description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow="0.50449997" PowerHigh="0.75449997" pace="0">
+            <textevent timeoffset="68" message="Complete 3 x 6sec high cadence surges during your warm up." locIndex="1" />
+        </Warmup>
+        <SteadyState Duration="120" Power="0.55000001" pace="0">
+            <textevent timeoffset="66" message="Ready to start?" locIndex="2" />
+            <textevent timeoffset="98" message="Remember, hard but achievable!" locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="150" Power="1.2244999" pace="0">
+            <textevent timeoffset="90" message="1 minute to go!" locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="600" Power="0.75449997" pace="0">
+            <textevent timeoffset="80" message="Keep some pressure on the pedals during the recovery period." locIndex="5" />
+            <textevent timeoffset="560" message="Ready for the next effort." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="150" Power="1.2262175" pace="0">
+            <textevent timeoffset="90" message="1 minute to go!" locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="600" Power="0.75449997" pace="0">
+            <textevent timeoffset="480" message="Last effort coming up." locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="150" Power="1.2244999" pace="0">
+            <textevent timeoffset="90" message="1 minute to go!" locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="600" Power="0.75449997" pace="0">
+            <textevent timeoffset="90" message="Some more aerobic work to finish the session." locIndex="10" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow="0.75449997" PowerHigh="0.50449997" pace="0" />
+    </workout>
+</workout_file>

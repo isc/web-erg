@@ -1,0 +1,165 @@
+<workout_file>
+    <uniqueId>a7f66f39-efe9-4125-8c10-86709d97c7eb</uniqueId>
+    <legacyIdHash>2237439861</legacyIdHash>
+    <author>Zwift</author>
+    <categoryOverride>Daily Fit</categoryOverride>
+    <name>Week 5.4 - New York Grand Central Circuit</name>
+    <description>A race simulation on New York Grand Central Circuit where you&apos;ll tackle 3 laps of the course.</description>
+    <sportType>bike</sportType>
+    <category>Z Racing</category>
+    <subcategory>Week 5</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="420" PowerHigh="0.55" PowerLow="0.35">
+            <textevent timeoffset="0" message="Welcome to another race simulation workout!" locIndex="1" />
+            <textevent timeoffset="10" message="We&apos;re going to be tackling New York Grand Central Circuit today." locIndex="2" />
+            <textevent timeoffset="20" message="1st though, let&apos;s start off with a warmup, keep your cadence comfortable here." locIndex="3" />
+            <textevent timeoffset="210" message="All right, that&apos;s halfway through the warmup. Let&apos;s chat about what&apos;s in store for you today." locIndex="4" />
+            <textevent timeoffset="220" message="As you know, we&apos;re going to simulating Grand Central Circuit which is defined by the long KOM climb." locIndex="5" />
+            <textevent timeoffset="230" message="The climb is also interesting since it&apos;s not just 1 consistent grade." locIndex="6" />
+            <textevent timeoffset="240" message="Rather it has many steps of different grades which finishes VERY steep." locIndex="7" />
+            <textevent timeoffset="250" message="Which is of course followed by a nice long decent, and quick flat section before the climb repeats again." locIndex="8" />
+            <textevent timeoffset="260" message="Overall, this is one of the more challenging race courses on Zwift." locIndex="9" />
+            <textevent timeoffset="270" message="Let&apos;s carry on with the warmup." locIndex="10" />
+            <textevent timeoffset="390" message="Up next, we&apos;ll do a couple of high cadence efforts to wake the legs up a bit more." locIndex="11" />
+            <textevent timeoffset="400" message="Aim for 110+ RPM next." locIndex="12" />
+        </Warmup>
+        <IntervalsT Repeat="2" OnDuration="30" OnPower="1.1" OffDuration="30" OffPower="0.55" Cadence="110" CadenceResting="85">
+            <textevent timeoffset="0" message="GO GO GO! FAST FEET!" locIndex="13" />
+            <textevent timeoffset="30" message="Good work, back to a comfortable cadence again." locIndex="14" />
+            <textevent timeoffset="60" message="Let&apos;s go! Get those legs spinning quick!" locIndex="15" />
+            <textevent timeoffset="90" message="Excellent work! Now we&apos;ll take a moment and spin easy." locIndex="16" />
+        </IntervalsT>
+        <SteadyState Duration="60" Power="0.55">
+            <textevent timeoffset="0" message="Take a few deep breaths here and sip some fluids before the race start." locIndex="17" />
+            <textevent timeoffset="30" message="We&apos;re starting off with a hard effort to get up to speed, then hitting the climb very soon after." locIndex="18" />
+            <textevent timeoffset="40" message="So, get ready to put the work in today!" locIndex="19" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.5">
+            <textevent timeoffset="0" message="GO GO GO!" locIndex="20" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.9">
+            <textevent timeoffset="0" message="Good work getting into the lead group! Just a short bit before we hit the climb." locIndex="21" />
+            <textevent timeoffset="40" message="The climb starts next, get ready to really ramp up the pace." locIndex="22" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.1">
+            <textevent timeoffset="0" message="Push hard at the bottom to stay with the group. Splits will form over the climb." locIndex="23" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.65">
+            <textevent timeoffset="0" message="Quick flat section, catch your breath before the next step." locIndex="24" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.2">
+            <textevent timeoffset="0" message="This step is slightly steeper, keep digging!" locIndex="25" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.65">
+            <textevent timeoffset="0" message="Another quick flat section here." locIndex="26" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.1">
+            <textevent timeoffset="0" message="The 3rd step is slightly less steep, keep working now!" locIndex="27" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.65">
+            <textevent timeoffset="0" message="Breathe...The final 2 steps are the most steep!" locIndex="28" />
+        </SteadyState>
+        <SteadyState Duration="45" Power="1.2">
+            <textevent timeoffset="0" message="DIG DIG DIG!" locIndex="29" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="0.65">
+            <textevent timeoffset="0" message="Get ready to really push yourself to the top!" locIndex="30" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.4">
+            <textevent timeoffset="0" message="GO GO GO!" locIndex="31" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.65">
+            <textevent timeoffset="0" message="Excellent work! That&apos;s 1 climb down and 2 more to go." locIndex="32" />
+            <textevent timeoffset="10" message="Focus on recovery now and shake the upper body out if you&apos;re tense." locIndex="33" />
+            <textevent timeoffset="120" message="Remember to use the super tuck when you can on these long descents." locIndex="34" />
+            <textevent timeoffset="210" message="ALl right, almost to the bottom here. We have a short flat section, then we&apos;re climbing again!" locIndex="35" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.95">
+            <textevent timeoffset="0" message="Stay relaxed through this section and just stay in the group, save your energy for the climb." locIndex="36" />
+            <textevent timeoffset="120" message="An attack might try and go early before the climb starts, so pay attention here." locIndex="37" />
+            <textevent timeoffset="150" message="Almost to the climb again, take a deep breath and get ready to WORK!" locIndex="38" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.1">
+            <textevent timeoffset="0" message="Back onto the lower slopes again, push yourself and stay near the front." locIndex="39" />
+            <textevent timeoffset="30" message="Watch for splits on this climb, they&apos;ll be some tired legs the 2nd time up." locIndex="40" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.65">
+            <textevent timeoffset="0" message="Another very quick flat section to catch your breath." locIndex="41" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.2">
+            <textevent timeoffset="0" message="The slightly steeper 2nd step! Hang on now." locIndex="42" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.65">
+            <textevent timeoffset="0" message="Breathe..." locIndex="43" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.1">
+            <textevent timeoffset="0" message="The 2nd selection group will have formed by now, just hang in the wheels here." locIndex="44" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.65">
+            <textevent timeoffset="0" message="Get ready for the steepest parts of the climb." locIndex="45" />
+        </SteadyState>
+        <SteadyState Duration="45" Power="1.2">
+            <textevent timeoffset="0" message="GO GO GO!" locIndex="46" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="0.65">
+            <textevent timeoffset="0" message="Quick breather here, then get ready to push for the summit!" locIndex="47" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.4">
+            <textevent timeoffset="0" message="LET&apos;S GO!" locIndex="48" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.65">
+            <textevent timeoffset="0" message="Great effort! That&apos;s 2 climbs down and just 1 more to go. Use this descent to rest up and recover." locIndex="49" />
+            <textevent timeoffset="120" message="Make sure you&apos;re drinking here, keep yourself hydrated and topped up with fluids." locIndex="50" />
+            <textevent timeoffset="210" message="We have that short flat section up next, stay relaxed here." locIndex="51" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.95">
+            <textevent timeoffset="0" message="The group will likely be quite small now, just stay in the wheels and let them make the moves." locIndex="52" />
+            <textevent timeoffset="150" message="All right, the final climb is just ahead. You can do this!" locIndex="53" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.1">
+            <textevent timeoffset="0" message="Start strong!" locIndex="54" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.65">
+            <textevent timeoffset="0" message="Quick breather...Relax." locIndex="55" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.2">
+            <textevent timeoffset="0" message="Stomp those pedals! Stay with the group here!" locIndex="56" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.65">
+            <textevent timeoffset="0" message="Great work! Nice and easy here." locIndex="57" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.1">
+            <textevent timeoffset="0" message="Just a few more steps left and we&apos;ve made it!" locIndex="58" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.65">
+            <textevent timeoffset="0" message="Breathe..." locIndex="59" />
+        </SteadyState>
+        <SteadyState Duration="45" Power="1.2">
+            <textevent timeoffset="0" message="UP UP UP!" locIndex="60" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="0.65">
+            <textevent timeoffset="0" message="Easy now...Finish climb is just ahead." locIndex="61" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.4">
+            <textevent timeoffset="0" message="GO GO GO!" locIndex="62" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.65">
+            <textevent timeoffset="0" message="Phew! Nicely done! Let&apos;s recover down this descent." locIndex="63" />
+            <textevent timeoffset="60" message="Breathe, shake things out, and get ready for the close of this race." locIndex="64" />
+            <textevent timeoffset="210" message="Almost to the bottom, get ready for some effort again." locIndex="65" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.95">
+            <textevent timeoffset="0" message="Homestretch before the sprint! Stay calm and cool here, and watch for attacks." locIndex="66" />
+            <textevent timeoffset="150" message="Get ready to sprint for the line! DIG DEEP!" locIndex="67" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="2">
+            <textevent timeoffset="0" message="GO GO GO!" locIndex="68" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerHigh="0.35" PowerLow="0.55">
+            <textevent timeoffset="0" message="Grand Central Circuit, OUCH! Great work today, my friend!" locIndex="69" />
+            <textevent timeoffset="10" message="Let&apos;s cooldown for a few minutes here, then hop off the bike" locIndex="70" />
+            <textevent timeoffset="20" message="See you next time :-)" locIndex="71" />
+        </Cooldown>
+    </workout>
+</workout_file>

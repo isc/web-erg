@@ -1,0 +1,117 @@
+<workout_file>
+    <uniqueId>c3578b5c-2ae0-4ed6-8061-3cc4ec18d7a3</uniqueId>
+    <legacyIdHash>1213818798</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Phase 1.7 - Endurance + 3x1min</name>
+    <description>With all of the hard work you are completing in your preparation for L&apos;Etape du Tour, it&apos;s important to also give yourself an adequate amount of recovery. Today&apos;s session is part of your recovery week, but we still have some structure to it.
+
+After being guided through the warmup, the remaining session is largely performed as a free ride. However, you will be prompted to perform 3 x 1min &apos;hard&apos; intervals throughout the ride.
+
+Choose a course today that doesn&apos;t include a large amount of elevation gain.</description>
+    <sportType>bike</sportType>
+    <category>L&apos;Etape du Tour Training Club</category>
+    <subcategory>Phase 1</subcategory>
+    <visibleAfterTime>1553472000</visibleAfterTime>
+    <tags>
+        <tag name="INTERVALS" />
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.5" PowerHigh="0.69999999" pace="0">
+            <textevent timeoffset="20" message="Today&apos;s session forms part of your recovery week." locIndex="1" />
+            <textevent timeoffset="40" message="However, during a recovery week we still include some intervals." locIndex="2" />
+            <textevent timeoffset="50" message="While also decreasing the weekly volume." locIndex="3" />
+            <textevent timeoffset="70" message="It&apos;s during the recovery periods that you gain the fitness." locIndex="4" />
+            <textevent timeoffset="90" message="Today you will be guided through a structured warmup." locIndex="5" />
+            <textevent timeoffset="110" message="Then the session is performed as a free ride, where you will experience the varying gradients." locIndex="6" />
+            <textevent timeoffset="120" message="But for the 1min intervals you won&apos;t experience the gradient." locIndex="7" />
+        </Warmup>
+        <SteadyState Duration="60" Power="0.56" pace="0">
+            <textevent timeoffset="40" message="1min above threshold to help you warmup" locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.09" pace="0" />
+        <SteadyState Duration="120" Power="0.56999999" pace="0">
+            <textevent timeoffset="20" message="To complete the warmup we perform 3min at Zone 3." locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.80" pace="0">
+            <textevent timeoffset="20" message="Focus on nice controlled breathing during this effort." locIndex="10" />
+            <textevent timeoffset="40" message="Think about how this effort feels based on a scale of 1 to 10." locIndex="11" />
+            <textevent timeoffset="60" message="Is it a 6 or 7?" locIndex="12" />
+            <textevent timeoffset="80" message="Today&apos;s intervals are based on your sensations, rather than a target power." locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.56999999" pace="0">
+            <textevent timeoffset="20" message="Aim to ride within zones 1 and 2 for the majority of the ride." locIndex="14" />
+            <textevent timeoffset="40" message="Even if you are feeling good today, hold back a little and save your energy for the 1min efforts." locIndex="15" />
+            <textevent timeoffset="60" message="You will be prompted when to perform the 1min efforts." locIndex="16" />
+            <textevent timeoffset="160" message="Into the free ride portion now. You will feel the gradient come into play now." locIndex="17" />
+        </SteadyState>
+        <FreeRide Duration="480" FlatRoad="0">
+            <textevent timeoffset="20" message="This is a low intensity day. Aim to keep the power within zones 1 and 2." locIndex="18" />
+            <textevent timeoffset="60" message="For the 1min efforts today there is no set power to reach." locIndex="19" />
+            <textevent timeoffset="80" message="Today, we want you to ride according to your RPE." locIndex="20" />
+            <textevent timeoffset="90" message="RPE is your Rate of Perceived Exertion." locIndex="21" />
+            <textevent timeoffset="110" message="On a scale of 1 to 10, with 10 being the hardest." locIndex="22" />
+            <textevent timeoffset="130" message="We want your 1min efforts to feel like a 8." locIndex="23" />
+            <textevent timeoffset="150" message="We use RPE today, because it allows you to exercise according to how you feel after the previous weeks of training." locIndex="24" />
+            <textevent timeoffset="170" message="Whereas, the structured training is based on what you can do." locIndex="25" />
+            <textevent timeoffset="420" message="1min until the first interval." locIndex="26" />
+            <textevent timeoffset="450" message="Remember, we want this effort to feel like a 8 out of 10." locIndex="27" />
+            <textevent timeoffset="460" message="20sec." locIndex="28" />
+            <textevent timeoffset="470" message="10sec." locIndex="29" />
+        </FreeRide>
+        <FreeRide Duration="60" FlatRoad="1" show_avg="1">
+            <textevent timeoffset="10" message="Aim to hold a steady power throughout the effort." locIndex="30" />
+            <textevent timeoffset="30" message="Halfway... great work!" locIndex="31" />
+            <textevent timeoffset="50" message="10sec." locIndex="32" />
+        </FreeRide>
+        <FreeRide Duration="480" FlatRoad="0">
+            <textevent timeoffset="20" message="How did that feel?" locIndex="33" />
+            <textevent timeoffset="40" message="Like a 8 out of 10?" locIndex="34" />
+            <textevent timeoffset="60" message="Back to zone 1 and 2 now." locIndex="35" />
+            <textevent timeoffset="90" message="This free ride portion is largely recovery riding." locIndex="36" />
+            <textevent timeoffset="110" message="It&apos;s beneficial to touch on some high intensity work, even during recovery weeks." locIndex="37" />
+            <textevent timeoffset="130" message="Did you take note of your avg power from the 1st 1min effort?" locIndex="38" />
+            <textevent timeoffset="150" message="Again, go off RPE for the next 1min effort." locIndex="39" />
+            <textevent timeoffset="170" message="Take note of the avg power compared to the 1st effort." locIndex="40" />
+            <textevent timeoffset="420" message="1min until the next interval." locIndex="41" />
+            <textevent timeoffset="450" message="Remember, we want this effort to feel like a 8 out of 10." locIndex="42" />
+            <textevent timeoffset="460" message="20sec." locIndex="43" />
+            <textevent timeoffset="470" message="10sec." locIndex="44" />
+        </FreeRide>
+        <FreeRide Duration="60" FlatRoad="1" show_avg="1">
+            <textevent timeoffset="10" message="Aim to hold a steady power throughout the effort." locIndex="45" />
+            <textevent timeoffset="30" message="Getting Close... great work!" locIndex="46" />
+            <textevent timeoffset="50" message="10sec." locIndex="47" />
+        </FreeRide>
+        <FreeRide Duration="480" FlatRoad="0">
+            <textevent timeoffset="20" message="How did that feel?" locIndex="48" />
+            <textevent timeoffset="40" message="Like a 8 out of 10?" locIndex="49" />
+            <textevent timeoffset="60" message="Now ease back to zone 1 and 2." locIndex="50" />
+            <textevent timeoffset="90" message="This is all about recovery now." locIndex="51" />
+            <textevent timeoffset="110" message="It&apos;s beneficial to touch on some high intensity work, even during recovery weeks." locIndex="52" />
+            <textevent timeoffset="130" message="Did you take note of your avg power from the previous efforts?" locIndex="53" />
+            <textevent timeoffset="150" message="Again, go off RPE for the next 1min effort." locIndex="54" />
+            <textevent timeoffset="170" message="Take note of the avg power compared to the 1st effort." locIndex="55" />
+            <textevent timeoffset="420" message="1min until the next interval." locIndex="56" />
+            <textevent timeoffset="450" message="Remember, we want this effort to feel like a 8 out of 10." locIndex="57" />
+            <textevent timeoffset="460" message="20sec." locIndex="58" />
+            <textevent timeoffset="470" message="10sec." locIndex="59" />
+        </FreeRide>
+        <FreeRide Duration="60" FlatRoad="1" show_avg="1">
+            <textevent timeoffset="10" message="Aim to hold a steady power throughout the effort." locIndex="60" />
+            <textevent timeoffset="30" message="Halfway... great work!" locIndex="61" />
+            <textevent timeoffset="50" message="10sec." locIndex="62" />
+        </FreeRide>
+        <FreeRide Duration="300" FlatRoad="0">
+            <textevent timeoffset="20" message="That completes 3 good intervals from you." locIndex="63" />
+            <textevent timeoffset="40" message="Did the avg power vary much across the 3 efforts?." locIndex="64" />
+            <textevent timeoffset="60" message="Back to zone 1 and 2 for the remainder of the ride." locIndex="65" />
+            <textevent timeoffset="280" message="We finish today&apos;s session with a controlled cool down." locIndex="66" />
+        </FreeRide>
+        <Cooldown Duration="240" PowerLow="0.65" PowerHigh="0.5" pace="0">
+            <textevent timeoffset="10" message="Remember to check your Zwift email inbox for updates on the L&apos;Etape du Tour Training Club Schedule." locIndex="67" />
+            <textevent timeoffset="25" message="There is more than just structured workouts that will increase your fitness." locIndex="68" />
+            <textevent timeoffset="40" message="We&apos;ve sprinkled in Zwift races and endurance rides to round out the training and keep things fun." locIndex="69" />
+            <textevent timeoffset="70" message="Phase 2 - Late Base, of the training plan is coming up. Look out for the email with more details." locIndex="70" />
+        </Cooldown>
+    </workout>
+</workout_file>

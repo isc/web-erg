@@ -1,0 +1,92 @@
+<workout_file>
+    <uniqueId>860d187f-59b7-430e-b9f7-fd5bca144981</uniqueId>
+    <legacyIdHash>3640185027</legacyIdHash>
+    <author>Zwift</author>
+    <name>5x8 Building Base</name>
+    <description>Base effort riding! Longer ride for you today with some smooth builds to keep it interesting. Nothing crazy at all but just 1 minute blocks at 85% being the hardest you&apos;ll have. Today iss a good day for an outside ride in Z1-2 if you are so inclined, but also a free-ride on the Zwift optional day as well.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Gravel Grinder</category>
+    <subcategory>Week 6</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="840" PowerLow="0.45" PowerHigh="0.65">
+            <textevent timeoffset="0" message="Easy warm up for you, before the other easy. " locIndex="1" />
+        </Warmup>
+        <IntervalsT Repeat="5" OnDuration="60" OffDuration="120" OnPower="0.85" OffPower="0.6">
+            <textevent timeoffset="0" message="We&apos;re going to start by getting those legs moving with some RPM builds. Please build throughout the minute with a goal of being over 100 cadence by minutes end. " locIndex="2" />
+            <textevent timeoffset="60" message="Smooth now.  " locIndex="3" />
+            <textevent timeoffset="180" message="Build that cadence! " locIndex="4" />
+            <textevent timeoffset="480" message="Easy now. " locIndex="5" />
+            <textevent timeoffset="600" message="Spin em up! " locIndex="6" />
+            <textevent timeoffset="660" message="Get into a comfortable zone for you. " locIndex="7" />
+            <textevent timeoffset="780" message="More faster legs! " locIndex="8" />
+        </IntervalsT>
+        <SteadyState Duration="240" Power="0.75">
+            <textevent timeoffset="0" message="Right back to it! Just a little bump up here to mid aerobic. This should be a very comfortable place for you to be in any endurance ride, but definitely for your gravel race!" locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.8">
+            <textevent timeoffset="0" message="Don&apos;t forget when we move through these efforts to keep relaxed and maintain good core stability on the bike. Don&apos;t get all sloppy!" locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.85">
+            <textevent timeoffset="0" message="Last minute of this block, back up to 85%! Keep it smooth as we go!" locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.65">
+            <textevent timeoffset="0" message="Back down to easy &quot;re-group&quot; effort here for 5 minutes." locIndex="12" />
+            <textevent timeoffset="180" message="Important to remember and to visualize for your race that the intensity will eventually end, and in most cases there will be a &quot;re-group&quot; to let things settle again before the next bit of pain." locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.75">
+            <textevent timeoffset="0" message="No pain coming today, just more of that slow burn. Back into smooth riding at 75%." locIndex="14" />
+            <textevent timeoffset="60" message="Did you remember to eat that snack?" locIndex="15" />
+            <textevent timeoffset="90" message="How you doing on those two bottles? Get it in you!" locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.8">
+            <textevent timeoffset="0" message="A little step up again, just 3 minutes here. Make em count!" locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.85">
+            <textevent timeoffset="0" message="Remember good smooth efficient RPM&apos;s as you move up in effort. If someone was watching you ride right now they shoudln&apos;t be able to tell your effort has changed! Stay smooth!" locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.65">
+            <textevent timeoffset="0" message="Easy days, and last recovery block to get in that nutrition. " locIndex="19" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.75">
+            <textevent timeoffset="0" message="No pain coming today, just more of that slow burn. Back into smooth riding at 75%. Did you remember to eat that snack? How you doing on those two bottles? Get it in you!" locIndex="20" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.8">
+            <textevent timeoffset="0" message="Up to 80% now. " locIndex="21" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.85">
+            <textevent timeoffset="0" message="Are your shoulders relaxed?" locIndex="22" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.65">
+            <textevent timeoffset="0" message="Easy now. " locIndex="23" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.75">
+            <textevent timeoffset="0" message="Last time up to 75% now, remember just as smooth as the first round. Quiet upper body, strong core, and good posture!" locIndex="24" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.8">
+            <textevent timeoffset="0" message="Visualize that crest of the hill coming up over that next sandy ridge! You&apos;ll be able to settle in soon enough!" locIndex="25" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.85">
+            <textevent timeoffset="0" message="Not yet, though! One more minute of steady riding before you get to spin to win. " locIndex="26" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.65">
+            <textevent timeoffset="0" message="There you go! Did you feel the slow burn on that one? Nothing overtly challenging there, but I promise a worth while deposit!" locIndex="27" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.75">
+            <textevent timeoffset="0" message=" Quiet upper body, strong core, and good posture!" locIndex="28" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.8">
+            <textevent timeoffset="0" message="The top of the hill is coming!" locIndex="29" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.85">
+            <textevent timeoffset="0" message="Be as smooth as you can! " locIndex="30" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.65">
+            <textevent timeoffset="0" message="Good job!" locIndex="31" />
+        </SteadyState>
+        <Cooldown Duration="660" PowerLow="0.7" PowerHigh="0.45">
+            <textevent timeoffset="0" message="Use this time to flush the legs out with good high RPM&apos;s and feel free to get in a little free ride in if you have time, but don&apos;t go hard, 55-60% is plenty good for the remainder of your ride!" locIndex="32" />
+        </Cooldown>
+    </workout>
+</workout_file>

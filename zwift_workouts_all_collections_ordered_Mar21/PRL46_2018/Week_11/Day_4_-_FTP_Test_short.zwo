@@ -1,0 +1,49 @@
+<workout_file>
+    <uniqueId>4804f1da-e0f5-46a3-9822-be3162359902</uniqueId>
+    <legacyIdHash>671411810</legacyIdHash>
+    <author>Zwift</author>
+    <name>Week 11.4 - FTP Test (short)</name>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>2018 PRL46 Prep</category>
+    <subcategory>Week 11</subcategory>
+    <description>Let&apos;s see how much you have improved over the last 10 weeks!
+
+The short variation of the standard FTP test starts off with a short warmup, a quick leg opening ramp, and a 5 minute hard effort to get the legs pumping.  After a brief rest it&apos;s time to give it your all and go as hard as you can for 20 solid minutes.  Pace yourself and try to go as hard as you can sustain for the entire 20 minutes - you will be scored on the final 20 minute segment.  
+
+Upon saving your ride, you will be notified if your FTP improved.</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <Warmup Duration="300" PowerLow="0.30000001" PowerHigh="0.69999999" pace="0">
+            <textevent timeoffset="20" message="Welcome to the FTP test" locIndex="18" />
+            <textevent timeoffset="34" message="Time to get warmed up and" locIndex="19" />
+            <textevent timeoffset="35" message="get your cadence up to 90-100rpm" locIndex="20" y="270" />
+        </Warmup>
+        <SteadyState Duration="20" Power="0.89999998" pace="0" />
+        <SteadyState Duration="20" Power="1.1" pace="0" />
+        <SteadyState Duration="20" Power="1.3" pace="0" />
+        <SteadyState Duration="180.00002" Power="0.60000002" pace="0" />
+        <SteadyState Duration="180.00002" Power="1.1" pace="0" />
+        <SteadyState Duration="120.00001" Power="1.2" pace="0" />
+        <SteadyState Duration="360.00003" Power="0.55000001" pace="0">
+            <textevent timeoffset="10.000068" message="In 6 minutes the FTP test begins" locIndex="21" />
+            <textevent timeoffset="580" message="Prepare for your max 20 minute effort" locIndex="22" duration="19" />
+        </SteadyState>
+        <FreeRide Duration="1200" FlatRoad="1">
+            <textevent timeoffset="10" message="Bring your power up to what you think" locIndex="23" duration="20" />
+            <textevent timeoffset="10" message="you can hold for 20 minutes" locIndex="24" duration="20" y="270" />
+            <textevent timeoffset="300" message="How ya doin?" locIndex="25" />
+            <textevent timeoffset="600" message="Half way done! If it&apos;s feeling easy" locIndex="26" />
+            <textevent timeoffset="600" message="now might be time to add 10 watts." locIndex="27" y="270" />
+            <textevent timeoffset="900" message="5 minutes left!" locIndex="28" />
+            <textevent timeoffset="960.00006" message="4 minutes left. Increase your" locIndex="29" />
+            <textevent timeoffset="960.00006" message="power if you&apos;re feeling strong." locIndex="30" y="270" />
+            <textevent timeoffset="1019" message="3 minutes left" locIndex="31" />
+            <textevent timeoffset="1080" message="2 minutes left" locIndex="32" />
+            <textevent timeoffset="1140" message="1 minute left. Go all in!" locIndex="33" />
+            <textevent timeoffset="1170" message="30 sec. Go for it." locIndex="34" />
+            <textevent timeoffset="1190" message="10 seconds." locIndex="35" />
+        </FreeRide>
+        <Cooldown Duration="300" PowerLow="0.5" PowerHigh="0.30000001" pace="0" />
+    </workout>
+</workout_file>

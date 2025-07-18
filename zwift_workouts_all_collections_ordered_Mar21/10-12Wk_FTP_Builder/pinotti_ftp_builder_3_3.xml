@@ -1,0 +1,17 @@
+<workout_file>
+    <uniqueId>4cfbf394-5d43-4036-90ca-da1978985a62</uniqueId>
+    <legacyIdHash>1485713536</legacyIdHash>
+    <name>Week 3.3 - Day 3</name>
+    <description>Foundation</description>
+    <author>Marco Pinotti</author>
+    <category>10-12wk FTP Builder</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 3</subcategory>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/MarcoPinotti_Logo.tga</authorIcon>
+    <sportType>bike</sportType>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.45" PowerHigh="0.65" />
+        <IntervalsT Repeat="6" OnDuration="420" OffDuration="60" OffPower="0.52" OnPower="0.72" />
+        <Cooldown Duration="360" PowerLow="0.5" PowerHigh="0.65" />
+    </workout>
+</workout_file>

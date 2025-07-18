@@ -1,0 +1,24 @@
+<workout_file>
+    <uniqueId>02116f22-f14f-4731-86f9-c18a9a35709e</uniqueId>
+    <legacyIdHash>3374513385</legacyIdHash>
+    <author>GCN</author>
+    <categoryOverride>Climbing</categoryOverride>
+    <category>GCN</category>
+    <subcategory>Matt Stephens&apos; GCN Power Climbs Plan</subcategory>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/GCN_Logo.tga</authorIcon>
+    <name>Hill Attacks</name>
+    <description>Prepare the mind and body for hill attacks.  You are attacking up the hill at the front of the peloton and inflicting devastation upon the peloton.  Attack after attack, the peloton is getting blown apart by your relentless attacks.  
+Warm-up for 10minutes and do 3 x 1minute fast pedaling drills&gt;110rpm. A nice tempo pace for 5minutes and then do (10) x 1minute hill attacks.   Rest for 2 minutes between each.  Cool-down. </description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS" />
+        <tag name="hillattacks" />
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.2545" PowerHigh="0.75449997" />
+        <IntervalsT Repeat="3" OnDuration="60" OffDuration="60" OnPower="0.75449997" OffPower="0.50449997" Cadence="110" CadenceResting="80" />
+        <SteadyState Duration="300" Power="0.81449997" />
+        <IntervalsT Repeat="10" OnDuration="60" OffDuration="120" OnPower="1.4044999" OffPower="0.50449997" Cadence="90" CadenceResting="80" />
+        <Cooldown Duration="600" PowerLow="0.75449997" PowerHigh="0.2545" />
+    </workout>
+</workout_file>

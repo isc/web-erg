@@ -1,0 +1,30 @@
+<workout_file>
+    <uniqueId>64d7cab4-8eed-4a2d-b772-bbf82c463155</uniqueId>
+    <legacyIdHash>1068739265</legacyIdHash>
+    <author>Zwift</author>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>4wk PRL Prep</category>
+    <subcategory>Week 2</subcategory>
+    <name>Week 2.6 - Tempo #4</name>
+    <description>After first completing a solid 20min high end tempo effort, the session finishes with 2 x 5min sub-threshold efforts.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS" />
+        <tag name="PRL" />
+    </tags>
+    <workout>
+        <SteadyState Duration="300" Power="0.50449997" Cadence="85">
+            <textevent timeoffset="240.00003" message="Varying cadence during warm up." locIndex="1" />
+        </SteadyState>
+        <IntervalsT Repeat="5" OnDuration="30" OffDuration="30" OnPower="0.65449995" OffPower="0.80449992" OverUnder="1" Cadence="85" CadenceResting="95" />
+        <SteadyState Duration="180.00002" Power="0.50449997" />
+        <SteadyState Duration="1200" Power="0.81449997" Cadence="90">
+            <textevent timeoffset="101.00001" message="Settle into a nice tempo" locIndex="2" />
+            <textevent timeoffset="1200" message="5min to go." locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.50449997" Cadence="85">
+            <textevent timeoffset="218" message="Ready for the threshold work!" locIndex="4" />
+        </SteadyState>
+        <IntervalsT Repeat="2" OnDuration="300" OffDuration="180" OnPower="0.96449995" OffPower="0.56449997" Cadence="95" CadenceResting="80" />
+    </workout>
+</workout_file>

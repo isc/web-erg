@@ -1,0 +1,18 @@
+<workout_file>
+    <uniqueId>ec53c4d1-0164-426f-82c1-ff0967cc1b87</uniqueId>
+    <legacyIdHash>1886800967</legacyIdHash>
+    <name>Week 6.1 - Day 1</name>
+    <description>Foundation</description>
+    <author>Marco Pinotti</author>
+    <category>10-12wk FTP Builder</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 6</subcategory>
+    <painIndex>1</painIndex>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/MarcoPinotti_Logo.tga</authorIcon>
+    <sportType>bike</sportType>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.5" PowerHigh="0.65" />
+        <IntervalsT Repeat="4" OnDuration="600" OnPower=".65" OffDuration="120" OffPower=".5" />
+        <Cooldown Duration="420" PowerLow="0.55" PowerHigh="0.45" />
+    </workout>
+</workout_file>

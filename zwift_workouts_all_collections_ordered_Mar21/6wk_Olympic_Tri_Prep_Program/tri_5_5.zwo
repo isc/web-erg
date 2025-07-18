@@ -1,0 +1,19 @@
+<workout_file>
+    <uniqueId>75d5bc65-4726-4c9e-943d-bcd0da518fda</uniqueId>
+    <legacyIdHash>3461157675</legacyIdHash>
+    <name>Day 5 - Swim</name>
+    <description>Swim - 1800-2000 yds. 
+-400-500 yds of steady swimming and mixed drills to warm up. 
+-8x 100 freestyle all out (on interval that leaves 1:30 min. rest) 
+-20x 25 pull all out (on interval that leaves 1 min. rest) 
+Finish with a short 100-200 yd cool down.</description>
+    <author>QT2</author>
+    <category>Olympic Tri Prep Plan</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 5</subcategory>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/QT2Systems_Logo.tga</authorIcon>
+    <sportType>swim</sportType>
+    <workoutLength>1800</workoutLength>
+    <workout> 
+  </workout>
+</workout_file>

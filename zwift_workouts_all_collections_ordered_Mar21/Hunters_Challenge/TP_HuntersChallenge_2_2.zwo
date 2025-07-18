@@ -1,0 +1,55 @@
+<workout_file>
+    <uniqueId>ec55154f-1353-418c-94c6-9930a093187c</uniqueId>
+    <legacyIdHash>2993538843</legacyIdHash>
+    <category>Hunter&apos;s Challenge</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 2</subcategory>
+    <name>Week 2.2 - Peaks Pedal Drills</name>
+    <description>This workout is to help you improve your pedal stroke.  Follow the instructions throughout the workout closely!</description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.5" PowerHigh="0.65" />
+        <IntervalsT OnDuration="60" OffDuration="120" OnPower="0.95" OffPower="0.72" Repeat="6" Cadence="65" CadenceResting="85">
+            <TextEvent timeoffset="0" message="STAND!" locIndex="1" />
+            <TextEvent timeoffset="10" message="FOCUS on your UPSTROKE!" locIndex="2" />
+            <TextEvent timeoffset="180" message="STAND!" locIndex="3" />
+            <TextEvent timeoffset="190" message="FOCUS on your UPSTROKE!" locIndex="4" />
+            <TextEvent timeoffset="360" message="STAND!" locIndex="5" />
+            <TextEvent timeoffset="370" message="FOCUS on your UPSTROKE!" locIndex="6" />
+            <TextEvent timeoffset="540" message="STAND!" locIndex="7" />
+            <TextEvent timeoffset="550" message="FOCUS on your UPSTROKE!" locIndex="8" />
+            <TextEvent timeoffset="720" message="STAND!" locIndex="9" />
+            <TextEvent timeoffset="730" message="FOCUS on your UPSTROKE!" locIndex="10" />
+            <TextEvent timeoffset="900" message="STAND!" locIndex="11" />
+            <TextEvent timeoffset="910" message="FOCUS on your UPSTROKE!" locIndex="12" />
+            <TextEvent timeoffset="1080" message="STAND!" locIndex="13" />
+            <TextEvent timeoffset="1090" message="FOCUS on your UPSTROKE!" locIndex="14" />
+        </IntervalsT>
+        <IntervalsT OnDuration="60" OffDuration="120" OnPower="0.95" OffPower="0.72" Repeat="6" Cadence="65" CadenceResting="85">
+            <TextEvent timeoffset="0" message="STAY SEATED!" locIndex="15" />
+            <TextEvent timeoffset="10" message="FOCUS on your DOWNSTROKE!" locIndex="16" />
+            <TextEvent timeoffset="20" message="PUSH with your HAMSTRINGS!" locIndex="17" />
+            <TextEvent timeoffset="180" message="STAY SEATED!" locIndex="18" />
+            <TextEvent timeoffset="190" message="FOCUS on your DOWNSTROKE!" locIndex="19" />
+            <TextEvent timeoffset="200" message="PUSH with your HAMSTRINGS!" locIndex="20" />
+            <TextEvent timeoffset="360" message="STAY SEATED!" locIndex="21" />
+            <TextEvent timeoffset="370" message="FOCUS on your DOWNSTROKE!" locIndex="22" />
+            <TextEvent timeoffset="380" message="PUSH with your HAMSTRINGS!" locIndex="23" />
+            <TextEvent timeoffset="540" message="STAY SEATED!" locIndex="24" />
+            <TextEvent timeoffset="550" message="FOCUS on your DOWNSTROKE!" locIndex="25" />
+            <TextEvent timeoffset="560" message="PUSH with your HAMSTRINGS!" locIndex="26" />
+            <TextEvent timeoffset="720" message="STAY SEATED!" locIndex="27" />
+            <TextEvent timeoffset="730" message="FOCUS on your DOWNSTROKE!" locIndex="28" />
+            <TextEvent timeoffset="740" message="PUSH with your HAMSTRINGS!" locIndex="29" />
+            <TextEvent timeoffset="900" message="STAY SEATED!" locIndex="30" />
+            <TextEvent timeoffset="910" message="FOCUS on your DOWNSTROKE!" locIndex="31" />
+            <TextEvent timeoffset="920" message="PUSH with your HAMSTRINGS!" locIndex="32" />
+            <TextEvent timeoffset="1080" message="STAY SEATED!" locIndex="33" />
+            <TextEvent timeoffset="1090" message="FOCUS on your DOWNSTROKE!" locIndex="34" />
+            <TextEvent timeoffset="1100" message="PUSH with your HAMSTRINGS!" locIndex="35" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.72" />
+        <IntervalsT OnDuration="60" OffDuration="60" OnPower="0.95" OffPower="0.72" Repeat="8" Cadence="120" CadenceResting="85" />
+        <Cooldown PowerLow="0.72" PowerHigh=".55" Duration="600" />
+    </workout>
+</workout_file>

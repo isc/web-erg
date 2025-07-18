@@ -1,0 +1,20 @@
+<workout_file>
+    <uniqueId>d0bc7c5a-1fa6-4b28-bb8b-68133f6967d4</uniqueId>
+    <legacyIdHash>4256274444</legacyIdHash>
+    <name>Month 1.1 - Pre-Test Day Ride</name>
+    <description>This session is best done the day before your FTP test, however is optional. To get the best out of yourself in tomorrow&apos;s test, it is important that you ride today. You need to give the body some training stimulus without depleting your glycogen stores. The total ride time should be around 90 minutes, but you can shorten or extend as you wish.
+  </description>
+    <author>trainSharp</author>
+    <category>Zwift Academy 2016</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Month 1</subcategory>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/trainSharp_Logo.tga</authorIcon>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.45" PowerHigh="0.65" />
+        <IntervalsT Repeat="2" OnDuration="300" OffDuration="300" PowerOffZone="1" PowerOnZone="3" />
+        <SteadyState Duration="1200" Zone="1" />
+        <IntervalsT Repeat="3" OnDuration="10" OffDuration="290" PowerOffZone="1" PowerOnZone="6" />
+        <SteadyState Duration="1200" Zone="1" />
+        <Cooldown Duration="600" PowerLow="0.45" PowerHigh="0.65" />
+    </workout>
+</workout_file>

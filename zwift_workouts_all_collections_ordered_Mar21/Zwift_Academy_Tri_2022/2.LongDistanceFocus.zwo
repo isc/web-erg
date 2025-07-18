@@ -1,0 +1,130 @@
+<workout_file>
+    <uniqueId>6bab0426-2c40-408a-94b1-835635273b2e</uniqueId>
+    <legacyIdHash>3370595901</legacyIdHash>
+    <author>Daniel Plews</author>
+    <categoryOverride>Best of Zwift Academy</categoryOverride>
+    <subcategoryOverride>ZA 2022</subcategoryOverride>
+    <name>Full-Distance Build</name>
+    <activitySaveName>Zwift Academy Tri: Bike Workout 2 | Full-Distance Build</activitySaveName>
+    <description>This session is designed to improve the aerobic threshold, which for most people is around full-distance pace. However, to make this session as specific to long-distance triathlon as possible, there are some specific higher intensity efforts meant to induce extra fatigue before settling back into full-distance pace. This session also aims to make you more proficient at removing lactate and using it as a fuel during lower intensity efforts, as well as improving your gross efficiency.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="zatri2022" />
+    </tags>
+    <category>Zwift Academy Tri 2022</category>
+    <categoryIndex>2</categoryIndex>
+    <visibleAfterTime>1666623600</visibleAfterTime>
+    <overrideHash>3370595901</overrideHash>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.3" PowerHigh="0.691667">
+            <textevent timeoffset="0" message="Welcome to Zwift Academy Tri 2022." locIndex="1" />
+            <textevent timeoffset="10" message="You&apos;re back with Coach Dan a.k.a. the Plews for another cracker of a session." locIndex="2" />
+            <textevent timeoffset="20" message="Today we&apos;re focusing on full-distance power, around 78% of FTP." locIndex="3" />
+            <textevent timeoffset="30" message="However, to give this a little more context, we&apos;ve got some higher intensity before settling into full-distance power." locIndex="4" />
+            <textevent timeoffset="40" message="First off we have a 6 minute block of 60 seconds at 112%, 2 minutes at 100% and 3 minutes at 95% of FTP." locIndex="5" />
+            <textevent timeoffset="50" message="Then after a short break we will settle into full-distance power. And we do all of this twice!" locIndex="6" />
+            <textevent timeoffset="60" message="No one said this was going to be easy, right???" locIndex="7" />
+            <textevent timeoffset="150" message="If your legs are feeling a little tight and sore, don&apos;t worry. We still have more to the warm-up plus a short prep set." locIndex="8" />
+            <textevent timeoffset="220" message="The prep set consists 3 x 30 seconds at 100% of FTP with 30 seconds of recovery." locIndex="9" />
+            <textevent timeoffset="230" message="This will ensure that we&apos;re ready for the main set." locIndex="10" />
+            <textevent timeoffset="290" message="Prep set is coming up. Let&apos;s get the legs ready." locIndex="11" />
+        </Warmup>
+        <IntervalsT Repeat="3" OnDuration="30" OffDuration="30" OnPower="0.979381" OffPower="0.563574">
+            <textevent timeoffset="0" message="Let&apos;s take it up." locIndex="12" />
+            <textevent timeoffset="10" message="Find that power." locIndex="13" />
+            <textevent timeoffset="30" message="Ease it down there. Keep your cadence up!" locIndex="14" />
+            <textevent timeoffset="50" message="Let&apos;s get ready for rep two!" locIndex="15" />
+            <textevent timeoffset="60" message="Here we go, find that same power." locIndex="16" />
+            <textevent timeoffset="80" message="Push right to the arch!" locIndex="17" />
+            <textevent timeoffset="90" message="Well done! Another 30 seconds easy here." locIndex="18" />
+            <textevent timeoffset="110" message="Deep breaths. Get ready for this final 30-second rep." locIndex="19" />
+            <textevent timeoffset="120" message="Last one now. Push it up!" locIndex="20" />
+            <textevent timeoffset="135" message="Hold it there." locIndex="21" />
+            <textevent timeoffset="150" message="And easy!" locIndex="22" />
+            <textevent timeoffset="160" message="Feeling ready for more?" locIndex="23" />
+            <textevent timeoffset="180" message="That&apos;s good, because there is a lot more coming up!" locIndex="24" />
+        </IntervalsT>
+        <SteadyState Duration="60" Power="0.458333">
+            <textevent timeoffset="0" message="Before we get into the main work though, let&apos;s just take a minute to settle our breathing and heart rate." locIndex="25" />
+            <textevent timeoffset="30" message="Take a drink if you need it. Remember we&apos;re starting off with 60 seconds above threshold." locIndex="26" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.091667">
+            <textevent timeoffset="0" message="Let&apos;s go! 110% of FTP for 1 minute." locIndex="27" />
+            <textevent timeoffset="30" message="Halfway, focus on higher rpms aiming for 95+, with higher power." locIndex="28" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.0">
+            <textevent timeoffset="10" message="Keep the pressure on as you find the correct power." locIndex="29" />
+            <textevent timeoffset="60" message="Nice! Looks like you&apos;re cruising!" locIndex="30" />
+            <textevent timeoffset="90" message="Taking the pressure off a little more in 30 seconds." locIndex="31" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.897222">
+            <textevent timeoffset="0" message="Nice work! Keep the pressure on." locIndex="32" />
+            <textevent timeoffset="15" message="We&apos;re here for 3 minutes." locIndex="33" />
+            <textevent timeoffset="90" message="Halfway, you&apos;ve got this." locIndex="34" />
+            <textevent timeoffset="160" message="Get to the arch!" locIndex="35" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.458333">
+            <textevent timeoffset="0" message="Annnnnnnd, easy!" locIndex="36" />
+            <textevent timeoffset="15" message="1 minute nice and easy here before the next 10-minute rep." locIndex="37" />
+            <textevent timeoffset="35" message="That should have elevated your heart rate nicely before this next 10 minute block." locIndex="38" />
+        </SteadyState>
+        <SteadyState Duration="600" Power="0.763889">
+            <textevent timeoffset="0" message="Find the power, 76% of FTP." locIndex="39" />
+            <textevent timeoffset="20" message="It&apos;s fine to come out of the aero position for the higher intensity efforts, but try stay in aero position for the 10 minute efforts." locIndex="40" />
+            <textevent timeoffset="100" message="For this longer effort we&apos;re targeting an optimal cadence of 80-90 rpm which should be comfortable for most." locIndex="41" />
+            <textevent timeoffset="300" message="Halfway, keep the cadence consistent here." locIndex="42" />
+            <textevent timeoffset="400" message="You&apos;re doing great! How does the cadence feel? Are you staying smooth and consistent?" locIndex="43" />
+            <textevent timeoffset="570" message="30 more seconds, then some well-earned recovery!" locIndex="44" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.458333">
+            <textevent timeoffset="0" message="PHEW! Easy there, taking it down." locIndex="45" />
+            <textevent timeoffset="15" message="Keep the cadence high during the recovery periods. The frequency of the pumping actions of the muscles helps with recovery and the return of blood to the heart." locIndex="46" />
+            <textevent timeoffset="200" message="Feeling good? Grab a quick drink and start mentally preparing for the next round." locIndex="47" />
+            <textevent timeoffset="240" message="Ok, let&apos;s wipe that sweat away and get ready to rip into another one." locIndex="48" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.091667">
+            <textevent timeoffset="0" message="Let&apos;s make the magic happen!" locIndex="49" />
+            <textevent timeoffset="30" message="Remember, more power = more rpm." locIndex="50" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.0">
+            <textevent timeoffset="0" message="Ease the pressure off slightly, but keep it controlled." locIndex="51" />
+            <textevent timeoffset="60" message="Halfway there. Keep it smooth, with your upper body as still as possible." locIndex="52" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.897222">
+            <textevent timeoffset="0" message="Taking the power down one more time to 90%" locIndex="53" />
+            <textevent timeoffset="15" message="EPIC!" locIndex="54" />
+            <textevent timeoffset="60" message="Find your power and settle in." locIndex="55" />
+            <textevent timeoffset="90" message="Nice, looking strong!" locIndex="56" />
+            <textevent timeoffset="160" message="Let&apos;s finish it off." locIndex="57" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.458333">
+            <textevent timeoffset="0" message="Easy now!" locIndex="58" />
+            <textevent timeoffset="15" message="Well done, those are the intensive reps in the bag!" locIndex="59" />
+            <textevent timeoffset="35" message="Remember to keep your cadence a little higher during recovery periods." locIndex="60" />
+            <textevent timeoffset="45" message="How good is this? I know you love it!" locIndex="61" />
+            <textevent timeoffset="50" message="Ok, last 10 minute rep coming up. Let&apos;s really make it count." locIndex="62" />
+        </SteadyState>
+        <SteadyState Duration="600" Power="0.763889">
+            <textevent timeoffset="0" message="Here we go then!" locIndex="63" />
+            <textevent timeoffset="10" message="If you can, back into aero position and bring the cadence to 80-90rpm." locIndex="64" />
+            <textevent timeoffset="30" message="Try to relax, focus on your breathing and bring the heart rate back down." locIndex="65" />
+            <textevent timeoffset="40" message="This session gradually gets harder as fatigue sets in." locIndex="66" />
+            <textevent timeoffset="60" message="I&apos;m sure this rep is feeling more challenging than the first." locIndex="67" />
+            <textevent timeoffset="300" message="Remember to keep aero - tuck in your head. The trainer is the perfect place to perfect your position." locIndex="68" />
+            <textevent timeoffset="400" message="Looking smooth and strong." locIndex="69" />
+            <textevent timeoffset="450" message="How does your heart rate compare from the first rep to now?" locIndex="70" />
+            <textevent timeoffset="470" message="As you get fitter, the same power will feel more manageable and your heart rate will come down as well." locIndex="71" />
+            <textevent timeoffset="490" message="This is a great sign that you&apos;ve made some positive training adaptations." locIndex="72" />
+            <textevent timeoffset="570" message="Last 30 seconds, let&apos;s finish this off with QUALITY." locIndex="73" />
+        </SteadyState>
+        <cooldown Duration="420" PowerLow="0.6" PowerHigh="0.3">
+            <textevent timeoffset="0" message="Way to go! Really great job." locIndex="74" />
+            <textevent timeoffset="10" message="Remember, being good at full-distance events isn&apos;t about being faster. It&apos;s about doing things easier." locIndex="75" />
+            <textevent timeoffset="30" message="A good progression for this session is to add more blocks." locIndex="76" />
+            <textevent timeoffset="60" message="We only did 2 today, but 4-6 should be quite manageable if you&apos;re training for an Ironman." locIndex="77" />
+            <textevent timeoffset="120" message="Remember to get your running workouts done too for this year&apos;s Zwift Academy Tri!" locIndex="78" />
+            <textevent timeoffset="130" message="I expect to see you all graduate the 2022 Zwift Academy Tri Program!" locIndex="79" />
+            <textevent timeoffset="170" message="See you for the next session!" locIndex="80" />
+        </cooldown>
+    </workout>
+</workout_file>

@@ -1,0 +1,117 @@
+<workout_file>
+    <uniqueId>2ece4aaf-0fb5-4cc5-a9f3-f0b1202e0968</uniqueId>
+    <legacyIdHash>2645635620</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <categoryOverride>Sweet Spot</categoryOverride>
+    <name>Tempo #1</name>
+    <description>Tempo work is the basis of many training programs and is an area of great necessity. The key benefit to completing tempo work indoors is the lack of interruptions to the effort and ERG mode makes things much simpler.
+
+Tempo intervals build a foundation of endurance and fatigue resistance.</description>
+    <sportType>bike</sportType>
+    <category>Singletrack Slayer</category>
+    <subcategory>Week 2</subcategory>
+    <WorkoutPlan>1</WorkoutPlan>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <tags>
+    </tags>
+    <workout>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="30" message="Today we are looking to spend a large period of time within zone 3 tempo." locIndex="1" />
+            <textevent timeoffset="50" message="This type of training can be a little monotonous, but the gains are big." locIndex="2" />
+            <textevent timeoffset="70" message="To spice things up a little today we change the target cadence in each effort." locIndex="3" />
+            <textevent timeoffset="160" message="To continue the warmup we complete some 1min on/off intervals." locIndex="4" />
+        </SteadyState>
+        <IntervalsT Repeat="2" OnDuration="60" OffDuration="60" OnPower="0.75" OffPower="0.5">
+            <textevent timeoffset="10" message="These are low level intensity and short." locIndex="5" />
+            <textevent timeoffset="70" message="Aim to spin a little higher than usual for these efforts." locIndex="6" />
+            <textevent timeoffset="230" message="We step up into zone 4 briefly now." locIndex="7" />
+        </IntervalsT>
+        <IntervalsT Repeat="2" OnDuration="60" OffDuration="60" OnPower="0.9" OffPower="0.5">
+            <textevent timeoffset="20" message="The power is higher, but the effort is short." locIndex="8" />
+            <textevent timeoffset="100" message="Spin those legs away for the next effort." locIndex="9" />
+        </IntervalsT>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="40" message="This is a low intensity day, so our warmup reflects this." locIndex="10" />
+            <textevent timeoffset="160" message="The next step is a steady state effort at zone 3." locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.8">
+            <textevent timeoffset="30" message="This is around the target power you will be completing your main set." locIndex="12" />
+            <textevent timeoffset="50" message="The only difference is that there will be a set cadence for the efforts." locIndex="13" />
+            <textevent timeoffset="100" message="Take note of what your chosen cadence is for this effort." locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="10" message="Just a quick recovery and then we are into the main set." locIndex="15" />
+            <textevent timeoffset="30" message="Remember there is a set cadence for the intervals.e" locIndex="16" />
+            <textevent timeoffset="50" message="Here we go!" locIndex="17" />
+        </SteadyState>
+        <Ramp Duration="360" PowerLow="0.75" PowerHigh="0.88" Cadence="80">
+            <textevent timeoffset="10" message="Hit that target cadence of 80rpm." locIndex="18" />
+            <textevent timeoffset="80" message="These efforts will feel comfortable for you." locIndex="19" />
+            <textevent timeoffset="100" message="This is all about getting zone 3 volume in today." locIndex="20" />
+            <textevent timeoffset="150" message="In many ways, there is nothing exciting about tempo work." locIndex="21" />
+            <textevent timeoffset="170" message="But there are good gains to make by completing work in this area." locIndex="22" />
+            <textevent timeoffset="180" message="Long sustained intervals train the ability to tolerate elevated levels of blood lactate." locIndex="23" />
+            <textevent timeoffset="200" message="And sustained high intensity muscle load for long periods of time." locIndex="24" />
+            <textevent timeoffset="220" message="Tempo work also increases your ability to build resistance to fatigue." locIndex="25" />
+            <textevent timeoffset="300" message="As the power steadily increases and the cadence remains constant, your crank torque is increasing." locIndex="26" />
+        </Ramp>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="20" message="Nice work." locIndex="27" />
+            <textevent timeoffset="100" message="Let&apos;s continue to build volume in this area." locIndex="28" />
+        </SteadyState>
+        <Ramp Duration="360" PowerLow="0.75" PowerHigh="0.88" Cadence="90">
+            <textevent timeoffset="10" message="This time we are targeting 90rpm." locIndex="29" />
+            <textevent timeoffset="30" message="Hit the target rpm and let the trainer adjust the power." locIndex="30" />
+            <textevent timeoffset="200" message="How does the change in cadence feel for you?" locIndex="31" />
+            <textevent timeoffset="240" message="Not every session indoors has to be eye watering high intensity." locIndex="32" />
+            <textevent timeoffset="260" message="Tempo days might feel much easier, but you are making performance gains today." locIndex="33" />
+            <textevent timeoffset="300" message="Spending time in zone 3 is going to improve your of road performance." locIndex="34" />
+            <textevent timeoffset="320" message="Your ability to complete anaerobic work is increased with a good base of zone 3." locIndex="35" />
+        </Ramp>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="10" message="Nice one." locIndex="36" />
+            <textevent timeoffset="70" message="That&apos;s 2 efforts down, two to go." locIndex="37" />
+        </SteadyState>
+        <Ramp Duration="360" PowerLow="0.75" PowerHigh="0.88" Cadence="80">
+            <textevent timeoffset="10" message="Here we are back at a target cadence of 80rpm." locIndex="38" />
+            <textevent timeoffset="80" message="These efforts will feel comfortable for you." locIndex="39" />
+            <textevent timeoffset="100" message="This is all about getting zone 3 volume in today." locIndex="40" />
+            <textevent timeoffset="150" message="In many ways, there is nothing exciting about tempo work." locIndex="41" />
+            <textevent timeoffset="170" message="But there are good gains to make by completing work in this area." locIndex="42" />
+            <textevent timeoffset="180" message="Long sustained intervals train the ability to tolerate elevated levels of blood lactate." locIndex="43" />
+            <textevent timeoffset="200" message="And sustained high intensity muscle load for long periods of time." locIndex="44" />
+            <textevent timeoffset="220" message="Tempo work also increases your ability to build resistance to fatigue." locIndex="45" />
+            <textevent timeoffset="300" message="As the power steadily increases and the cadence remains constant, your Crank torque is increasing." locIndex="46" />
+        </Ramp>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="20" message="That&apos;s 18min of tempo work completed so far." locIndex="47" />
+            <textevent timeoffset="40" message="All quality work." locIndex="48" />
+            <textevent timeoffset="100" message="Into the last structured effort now." locIndex="49" />
+        </SteadyState>
+        <Ramp Duration="360" PowerLow="0.75" PowerHigh="0.88" Cadence="90">
+            <textevent timeoffset="10" message="This time we are targeting 90rpm." locIndex="50" />
+            <textevent timeoffset="30" message="Hit the target rpm and let the trainer adjust the power." locIndex="51" />
+            <textevent timeoffset="200" message="How does the change in cadence feel for you?" locIndex="52" />
+            <textevent timeoffset="240" message="Not every session indoors has to be eye watering high intensity." locIndex="53" />
+            <textevent timeoffset="260" message="Tempo days might feel much easier, but you are making performance gains today." locIndex="54" />
+            <textevent timeoffset="300" message="Spending time in zone 3 is going to improve your of road performance." locIndex="55" />
+            <textevent timeoffset="320" message="Your ability to complete anaerobic work is increased with a good base of zone 3." locIndex="56" />
+        </Ramp>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="10" message="Perfect!" locIndex="57" />
+            <textevent timeoffset="40" message="That completes the structured cadence set." locIndex="58" />
+            <textevent timeoffset="80" message="Next we have another zone 3 effort like you completed earlier." locIndex="59" />
+            <textevent timeoffset="100" message="But with no set cadence, let&apos;s see if your preferred cadence has changed." locIndex="60" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.8">
+            <textevent timeoffset="20" message="Hit the target power and ride at your own cadence." locIndex="61" />
+            <textevent timeoffset="50" message="Has your comfortable cadence changed from the beginning of this session." locIndex="62" />
+            <textevent timeoffset="80" message="As we fatigue, our natural cadence drops." locIndex="63" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.5">
+            <textevent timeoffset="20" message="That completes a great day of tempo work." locIndex="64" />
+            <textevent timeoffset="40" message="Nothing really fancy about it." locIndex="65" />
+            <textevent timeoffset="60" message="Just good quality work." locIndex="66" />
+        </SteadyState>
+    </workout>
+</workout_file>

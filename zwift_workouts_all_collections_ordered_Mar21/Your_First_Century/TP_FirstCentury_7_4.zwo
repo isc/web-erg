@@ -1,0 +1,16 @@
+<workout_file>
+    <uniqueId>7d859f1f-95d1-421e-b56c-85ff97446c0b</uniqueId>
+    <legacyIdHash>145848879</legacyIdHash>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <category>Your First Century</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 7</subcategory>
+    <name>Week 7.4 - Day 4</name>
+    <description>SST Intervals. On the trainer, out on the road, or in a group, SST intervals are part of our continued effort to build and maintain base. </description>
+    <workout>
+        <Warmup Duration="900" PowerLow="0.2545" PowerHigh="0.75449997" />
+        <IntervalsT Repeat="2" OnDuration="1020" OffDuration="300" PowerOnLow="0.89449996" PowerOnHigh="0.89449996" PowerOffLow="0.50450003" PowerOffHigh="0.50450003" />
+        <SteadyState Duration="2160" PowerLow="0.65000004" PowerHigh="0.65000004" />
+        <Cooldown Duration="600" PowerLow="0.6645" PowerHigh="0.2545" />
+    </workout>
+</workout_file>

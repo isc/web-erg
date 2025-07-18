@@ -1,0 +1,95 @@
+<workout_file>
+    <uniqueId>26ff5a50-e6a2-450a-ac3d-e18fa3c2ec21</uniqueId>
+    <legacyIdHash>2846995927</legacyIdHash>
+    <author>Kristin Armstrong</author>
+    <name>Beep! Beep! Beep!</name>
+    <description>This workout is focused on gaining strength through pedaling at a lower RPM&apos;s 60-70 (cadence) for 3-minutes at a time. At the end of each set there will be a :30 second rev up where you will try and increase power by increasing your RPM&apos;s.
+
+Let&apos;s think of each set as &quot;stuck in the mud&quot; and rev&apos;ing up your cadence to get out each time.
+
+We will go through each set 4 times.</description>
+    <sportType>bike</sportType>
+    <tags />
+    <category>Baby On Board</category>
+    <categoryIndex>21</categoryIndex>
+    <workout>
+        <SteadyState Duration="30" Power="0.35">
+            <textevent timeoffset="0" message="Welcome to Beep! Beep! Beep!. Let&apos;s start the warm up, keep your cadence comfortable here." locIndex="1" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.4">
+            <textevent timeoffset="0" message="This workout is part of Baby on Board, designed by Dani Rowe and Kristin Armstrong." locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.45">
+            <textevent timeoffset="0" message="This series is designed to keep you active throughout pregnancy by providing you 12 weeks of 30-40 minute structured workouts. " locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.5" Cadence="85">
+            <textevent timeoffset="0" message="The key to training during pregnancy is consistency." locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="45" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="As a guide - you should always be able to hold a conversation during these workouts. " locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="45" Power="0.6" Cadence="85">
+            <textevent timeoffset="0" message="Keep an eye on your heart rate - you should not be anywhere near your max." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.65" Cadence="85">
+            <textevent timeoffset="0" message="It is vital that your core body temperature doesn&apos;t get too high. Make sure you have a fan blasting and keep hydrated." locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.7" Cadence="85">
+            <textevent timeoffset="0" message="Listen to your body, and don&apos;t worry if you need to lower the bias during these workouts to complete." locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="Todays ride is focused on gaining strength through pedaling at 60-70 RPMs" locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.8" Cadence="65">
+            <textevent timeoffset="0" message="Let&apos;s do this! The first part of each effort will be longer in duration." locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.05" Cadence="85">
+            <textevent timeoffset="0" message="Keep the resistance the same (or click up a gear if needed) and REV up your cadence for :30 seconds. " locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="Nice Work!" locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.8" Cadence="65">
+            <textevent timeoffset="0" message="The goal is muscular strength during this session rather than a high power and cardio output." locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.05" Cadence="85">
+            <textevent timeoffset="0" message="REV REV REV" locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="2nd set complete which means we are 1/2 way there!" locIndex="15" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.8" Cadence="65">
+            <textevent timeoffset="0" message="During these efforts you want to focus on having a smooth pedal stroke vs. choppy in style." locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.05" Cadence="85">
+            <textevent timeoffset="0" message="What can you get your RPM&apos;s up to in :30 seconds?" locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="Remember to hydrate." locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.8" Cadence="65">
+            <textevent timeoffset="0" message="An important note, during strength workouts you want to stay seated the entire duration of each effort. " locIndex="19" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.05" Cadence="85">
+            <textevent timeoffset="0" message="Go Go Go! Staying seated forces recruitment of glute, quad, and hamstring muscles." locIndex="20" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.55">
+            <textevent timeoffset="0" message="Way to finish strong. " locIndex="21" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.6" Cadence="85">
+            <textevent timeoffset="0" message="Good work! Beep! Beep! Beep! complete." locIndex="22" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="Remember, the key to fitness is consistency - little and often." locIndex="23" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.5" Cadence="85">
+            <textevent timeoffset="0" message="You should not have felt excessively hot during today&apos;s workout. " locIndex="24" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.45" Cadence="85">
+            <textevent timeoffset="0" message="It&apos;s vital that your core body temperature doesn&apos;t get too high during pregnancy. " locIndex="25" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.4" Cadence="85">
+            <textevent timeoffset="0" message="See you on the next workout - Dani and Kristin " locIndex="26" />
+        </SteadyState>
+    </workout>
+</workout_file>

@@ -1,0 +1,49 @@
+<workout_file>
+    <uniqueId>225c6074-d41a-4e6a-b06b-902f6c28dac3</uniqueId>
+    <legacyIdHash>444686170</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <categoryOverride>Climbing</categoryOverride>
+    <name>Week 5.5 - Strength into FTP #1</name>
+    <category>2018 PRL100 Prep</category>
+    <subcategory>Week 5</subcategory>
+    <description>Short, high-power, low-cadence intervals help to boost fitness in a variety of ways. Focus on keeping the cadence in the prescribed range. The power here should not be a challenge... except for at the cadence specified.</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow="0.50449997" PowerHigh="0.75449997" pace="0">
+            <textevent timeoffset="29" message="Include 3x10sec low cadence/high power efforts to help prepare for the Pure Strength efforts." locIndex="1" />
+            <textevent timeoffset="205" message="The 1st 3 efforts begin with a low cadence Pure Strength effort." locIndex="2" />
+            <textevent timeoffset="305" message="Remember to aim for the target cadence." locIndex="3" />
+            <textevent timeoffset="367" message="Let the smart trainer adjust the power." locIndex="4" />
+        </Warmup>
+        <SteadyState Duration="60" Power="0.50449997" pace="0">
+            <textevent timeoffset="27" message="Pure Strength effort first." locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="45" Power="0.90449995" pace="0" Cadence="50" />
+        <SteadyState Duration="240" Power="1.0044999" pace="0">
+            <textevent timeoffset="17" message="Self select your cadence." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.55449998" pace="0" Cadence="85" />
+        <SteadyState Duration="45" Power="0.90449995" pace="0" Cadence="50" />
+        <SteadyState Duration="240" Power="1.0039356" pace="0" />
+        <SteadyState Duration="300" Power="0.55449998" pace="0">
+            <textevent timeoffset="240" message="Last Pure Strength interval." locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="45" Power="0.90449995" pace="0" Cadence="50" />
+        <SteadyState Duration="240" Power="1.0044999" pace="0" />
+        <SteadyState Duration="300" Power="0.55449998" pace="0">
+            <textevent timeoffset="138" message="The next 3 intervals are straight out threshold efforts." locIndex="8" />
+            <textevent timeoffset="203" message="Self select your cadence." locIndex="9" />
+            <textevent timeoffset="30" message="How did the Pure Strength efforts affect your legs for the threshold portion?" locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.98449993" pace="0" />
+        <SteadyState Duration="240" Power="0.55449998" pace="0" />
+        <SteadyState Duration="300" Power="0.98000002" pace="0" />
+        <SteadyState Duration="240" Power="0.55000001" pace="0">
+            <textevent timeoffset="175" message="Last threshold interval. How are the legs!" locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.98000002" pace="0" />
+        <SteadyState Duration="240" Power="0.55449998" pace="0" />
+        <Cooldown Duration="300" PowerLow="0.75449997" PowerHigh="0.50449997" pace="0" />
+    </workout>
+</workout_file>

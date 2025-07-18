@@ -1,0 +1,17 @@
+<workout_file>
+    <uniqueId>0adedd0a-d3be-4b1d-947b-9e38cac1c87e</uniqueId>
+    <legacyIdHash>2149893766</legacyIdHash>
+    <author>trainSharp</author>
+    <category>Crit Crusher</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 8</subcategory>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/trainSharp_Logo.tga</authorIcon>
+    <name>Week 8.1 - Taper Intervals</name>
+    <description>15 min easy warm up. Taper intervals are to be 90 sec in duration. Not too hard, but slightly above 10 mile TT power. Recover @ Z1 for 3 min.</description>
+    <tags />
+    <workout>
+        <Warmup Duration="900" PowerLow="0.2545" PowerHigh="0.75449997" />
+        <IntervalsT Repeat="5" OnDuration="90" OffDuration="180" OnPower="1.05" OffPower="0.5" />
+        <Cooldown Duration="600" PowerLow="0.75449997" PowerHigh="0.2545" />
+    </workout>
+</workout_file>

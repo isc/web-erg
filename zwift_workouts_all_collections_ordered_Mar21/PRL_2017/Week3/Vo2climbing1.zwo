@@ -1,0 +1,49 @@
+<workout_file>
+    <uniqueId>8ed53123-22d4-4098-ae03-8d6c1fe9bb9c</uniqueId>
+    <legacyIdHash>4225390560</legacyIdHash>
+    <author>Zwift</author>
+    <name>Week 3.3 - Vo2 climbing #1</name>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>4wk PRL Prep</category>
+    <subcategory>Week 3</subcategory>
+    <description>Simulating the demands of climbing at a Vo2 Max intensity, today you will complete 5 x 3min intervals, followed by 3 x 2min intervals.
+
+However, the target cadence is reduced from 85rpm in the 3min intervals to 70rpm in the 2min intervals. Complete the 3min intervals seated and the 2min intervals standing if possible. </description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS" />
+        <tag name="PRL" />
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.50948805" PowerHigh="0.75" />
+        <SteadyState Duration="300" Power="1.05" />
+        <SteadyState Duration="300" Power="0.55000001">
+            <textevent timeoffset="150" message="Remember the target cadence is" locIndex="1" y="270" />
+            <textevent timeoffset="150" message="85rpm for the 3min intervals." locIndex="2" y="290" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="1.0609769" Cadence="85" />
+        <SteadyState Duration="180" Power="0.55000001" />
+        <SteadyState Duration="180" Power="1.0632416" Cadence="85" />
+        <SteadyState Duration="180" Power="0.55000001" />
+        <SteadyState Duration="180" Power="1.0634673" Cadence="85" />
+        <SteadyState Duration="180" Power="0.55000001" />
+        <SteadyState Duration="180" Power="1.061452" Cadence="85" />
+        <SteadyState Duration="180" Power="0.55000001" />
+        <SteadyState Duration="180" Power="1.0605913" Cadence="85" />
+        <SteadyState Duration="180" Power="0.55000001">
+            <textevent timeoffset="80" message="Targeting 70rpm" locIndex="3" y="270" />
+            <textevent timeoffset="80" message="for the 2min intervals" locIndex="4" y="290" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.55000001">
+            <textevent timeoffset="20" message="Try to complete these intervals" locIndex="5" y="270" />
+            <textevent timeoffset="20" message="standing, as if climbing." locIndex="6" y="290" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.0645" Cadence="70" />
+        <SteadyState Duration="240" Power="0.55000001" Cadence="85" />
+        <SteadyState Duration="120" Power="1.0627657" Cadence="70" />
+        <SteadyState Duration="240" Power="0.55000001" />
+        <SteadyState Duration="120" Power="1.0645" Cadence="70" />
+        <SteadyState Duration="240" Power="0.55000001" />
+        <Cooldown Duration="600" PowerLow="0.75449997" PowerHigh="0.50449997" />
+    </workout>
+</workout_file>

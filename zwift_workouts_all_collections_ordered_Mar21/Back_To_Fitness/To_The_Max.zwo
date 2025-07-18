@@ -1,0 +1,87 @@
+<workout_file>
+    <uniqueId>e6390521-9c26-4e4a-9528-5327e67be513</uniqueId>
+    <legacyIdHash>192405370</legacyIdHash>
+    <author>D.Rowe (Rowe&amp;King)</author>
+    <categoryOverride>Daily Fit</categoryOverride>
+    <name>Week 6.2 - To The Max</name>
+    <description>This workout takes you to the max, by completing 3 x Capacity Efforts; 5, 3 and 1 minute! Being able to produce more power for these relatively short durations translates to a much more enjoyable cycling experience - just think of those short hills that you could smash up! The key to these efforts is to be well rested and psychologically up for it - it&apos;s time to go deep!</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <tags />
+    <category>Back to Fitness</category>
+    <subcategory>Week 6</subcategory>
+    <workout>
+        <Warmup Duration="300" PowerHigh="1.05" PowerLow="0.4">
+            <textevent message="Welcome to To The Max" locIndex="1" timeoffset="10" />
+            <textevent message="This workout is part of the PowerUp Prep series designed by Dani Rowe and Kristin Armstrong" locIndex="2" timeoffset="25" />
+            <textevent message="This series is designed to build your fitness and prepare you for a more intense training program" locIndex="3" timeoffset="40" />
+            <textevent message="by providing you with 12 weeks of 30-45 minute structured workouts" locIndex="4" timeoffset="50" />
+            <textevent message="This workout series assumes a low level of current fitness - maybe you are starting out training, getting back on your bike after giving birth or maybe it&apos;s your return from injury" locIndex="5" timeoffset="80" />
+            <textevent message="The key to training and improving is consistency - 30 minutes is infinitely better than nothing" locIndex="6" timeoffset="160" />
+            <textevent message="It&apos;s helpful if you have a heart rate monitor, to keep track of how your heart rate responds to efforts week to week" locIndex="7" timeoffset="210" />
+            <textevent message="Following a structured training plan like this keeps you accountable and hopefully helps you remain focused on your goals" locIndex="8" timeoffset="230" />
+            <textevent message="Listen to your body, and don&apos;t worry if you need to lower the bias during todays workout to complete" locIndex="9" timeoffset="250" />
+            <textevent message="Most importantly - enjoy!" locIndex="10" timeoffset="280" />
+        </Warmup>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent message="2 minutes easy before we get started" locIndex="11" timeoffset="13" />
+            <textevent message="We have 3 x Capacity Efforts today, which means full gas efforts! " locIndex="12" timeoffset="60" />
+            <textevent message="The first Capacity Effort is 5 minutes - starting in 30 seconds! Go hard from the start" locIndex="13" timeoffset="90" />
+        </SteadyState>
+        <FreeRide Duration="300" FlatRoad="0">
+            <textevent message="This is a real test and chance to test yourself after 5 weeks of structured training " locIndex="14" timeoffset="1" />
+            <textevent message="Settle into this first 5 minute capacity effort " locIndex="15" timeoffset="30" />
+            <textevent message="Don&apos;t go too hard too early, this effort is all about measuring yourself over 5 minutes" locIndex="16" timeoffset="60" />
+            <textevent message="You have put the work in - you can do this!!" locIndex="17" timeoffset="120" />
+            <textevent message="Over half way now, remember to focus on your technique! " locIndex="18" timeoffset="180" />
+            <textevent message="Keep your upper body still and pull up as well as pushing down on the pedals" locIndex="19" timeoffset="210" />
+            <textevent message="60 seconds to go - finish strong!" locIndex="20" timeoffset="240" />
+            <textevent message="Don&apos;t give up! Drive all the way to the arch" locIndex="21" timeoffset="270" />
+        </FreeRide>
+        <SteadyState Duration="300" Power="0.5">
+            <textevent message="Fantastic effort!" locIndex="22" timeoffset="10" />
+            <textevent message="A nice long rest now to ensure you are recovered before the next effort" locIndex="23" timeoffset="30" />
+            <textevent message="Don&apos;t forget to keep drinking throughout this workout " locIndex="24" timeoffset="100" />
+            <textevent message="How did you find the 5 minute effort?" locIndex="25" timeoffset="150" />
+            <textevent message="Did you pace it well or did your power drop towards the end?" locIndex="26" timeoffset="180" />
+            <textevent message="In this next effort try to finish strong! " locIndex="27" timeoffset="220" />
+        </SteadyState>
+        <FreeRide Duration="180" FlatRoad="0">
+            <textevent message="3 minute Capacity Effort = 3 minutes of 100% effort starts now! " locIndex="28" timeoffset="1" />
+            <textevent message="Stay composed and focused - you&apos;ve got this!" locIndex="29" timeoffset="30" />
+            <textevent message="If you need to get out the saddle to produce more power, that&apos;s fine!" locIndex="30" timeoffset="90" />
+            <textevent message="45 seconds to go, try to build now" locIndex="31" timeoffset="135" />
+            <textevent message="10 seconds! SPRINT!" locIndex="32" timeoffset="170" />
+        </FreeRide>
+        <SteadyState Duration="300" Power="0.5">
+            <textevent message="WOW - that was epic! " locIndex="33" timeoffset="1" />
+            <textevent message="Only one effort to go now and it&apos;s only a minute long!" locIndex="34" timeoffset="40" />
+            <textevent message="Even though it&apos;s short, you still need to pace yourself" locIndex="35" timeoffset="70" />
+            <textevent message="Start at around 90% of your perceived max effort and try to keep building!" locIndex="36" timeoffset="120" />
+            <textevent message="You may want to start and finish this effort out of the saddle" locIndex="37" timeoffset="180" />
+            <textevent message="Do whatever it takes to get the most power out!" locIndex="38" timeoffset="220" />
+            <textevent message="Last drink before show time - let&apos;s go!" locIndex="39" timeoffset="270" />
+        </SteadyState>
+        <FreeRide Duration="60" FlatRoad="0">
+            <textevent message="GO GO GO!!!!!" locIndex="40" timeoffset="1" />
+            <textevent message="Come on - you can do this!" locIndex="41" timeoffset="20" />
+            <textevent message="Over half way - only 20 seconds to left" locIndex="42" timeoffset="40" />
+            <textevent message="Keep sprinting all the way to the arch!" locIndex="43" timeoffset="50" />
+        </FreeRide>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent message="Brilliant work!" locIndex="44" timeoffset="10" />
+            <textevent message="How did you find it? " locIndex="45" timeoffset="30" />
+            <textevent message="Capacity efforts are a bit of an art to master, especially with the pacing!" locIndex="46" timeoffset="90" />
+            <textevent message="Just the cool down to go!" locIndex="47" timeoffset="100" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerHigh="0.4" PowerLow="0.7">
+            <textevent message="Good work - that&apos;s To The Max complete!" locIndex="48" timeoffset="20" />
+            <textevent message="Remember, the key to fitness is consistency - try and ride your bike often" locIndex="49" timeoffset="90" />
+            <textevent message="If you cruised through today&apos;s workout, you may fancy doing a little extra riding?" locIndex="50" timeoffset="140" />
+            <textevent message="Some extra volume on top of these short, but structured workouts can help improve your endurance and fitness" locIndex="51" timeoffset="155" />
+            <textevent message="If you struggled with today&apos;s workout - I suggest you think about adjusting the bias slightly?" locIndex="52" timeoffset="220" />
+            <textevent message="A 2 or 3% adjustment can make all the difference - we are looking for these workouts to be &#8216;tough but achievable&apos;" locIndex="53" timeoffset="240" />
+            <textevent message="See you on the next Workout - Dani and Kristin" locIndex="54" timeoffset="290" />
+        </Cooldown>
+    </workout>
+</workout_file>

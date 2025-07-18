@@ -1,0 +1,18 @@
+<workout_file>
+    <uniqueId>81850183-69ff-4d02-9d31-cf4f360e8f0e</uniqueId>
+    <legacyIdHash>1908014950</legacyIdHash>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <category>Your First Century</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 8</subcategory>
+    <name>Week 8.2 - Day 2</name>
+    <description>Hill Power Builders!</description>
+    <tags />
+    <workout>
+        <Warmup Duration="900" PowerLow="0.2545" PowerHigh="0.69449997" />
+        <SteadyState Duration="900" PowerLow="0.72449994" PowerHigh="0.72449994" />
+        <IntervalsT Repeat="5" OnDuration="90" OffDuration="180" PowerOnLow="2.0044999" PowerOnHigh="2.0044999" PowerOffLow="0.50450003" PowerOffHigh="0.50450003" />
+        <SteadyState Duration="900" PowerLow="0.75449997" PowerHigh="0.75449997" />
+        <Cooldown Duration="900" PowerLow="0.75" PowerHigh="0.25" />
+    </workout>
+</workout_file>

@@ -1,0 +1,93 @@
+<workout_file>
+    <uniqueId>9ea7b1b1-c88c-4d92-93d5-0d06131dd7a4</uniqueId>
+    <legacyIdHash>3023412426</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Phase 4.5 - Intensive Aerobic</name>
+    <description>The upper region of Aerobic training can be quite demanding. Today&apos;s session begins with the longest and hardest effort, before the intervals reduce in duration and intensity.
+
+But will your legs recover enough before the next effort to feel the decline in workload?</description>
+    <sportType>bike</sportType>
+    <category>L&apos;Etape du Tour Training Club</category>
+    <subcategory>Phase 4</subcategory>
+    <visibleAfterTime>1560470400</visibleAfterTime>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.45449999" PowerHigh="0.75449997" pace="0">
+            <textevent timeoffset="10" message="Today is all about quality aerobic work." locIndex="1" />
+            <textevent timeoffset="120" message="But we also get a good volume of work in." locIndex="2" />
+            <textevent timeoffset="180" message="28min of quality aerobic work today." locIndex="3" />
+        </Warmup>
+        <IntervalsT Repeat="2" OnDuration="60.000004" OffDuration="60.000004" OnPower="0.80000001" OffPower="0.5" pace="0">
+            <textevent timeoffset="10" message="To help warmup we complete some low intensity 1min efforts." locIndex="4" />
+            <textevent timeoffset="40" message="Zone 3 won&apos;t trouble you." locIndex="5" />
+            <textevent timeoffset="100" message="Another minute at zone 3." locIndex="6" />
+            <textevent timeoffset="220" message="Into zone 4 for the 1min efforts this time." locIndex="7" />
+        </IntervalsT>
+        <IntervalsT Repeat="2" OnDuration="60.000004" OffDuration="60.000004" OnPower="0.98000002" OffPower="0.5" pace="0">
+            <textevent timeoffset="10" message="No problem at all for you!" locIndex="8" />
+            <textevent timeoffset="100" message="Another minute at zone 4." locIndex="9" />
+        </IntervalsT>
+        <SteadyState Duration="120.00001" Power="0.5" pace="0">
+            <textevent timeoffset="10" message="Today we start with the hardest work first." locIndex="10" />
+            <textevent timeoffset="60" message="The opening effort is 10min in duration." locIndex="11" />
+            <textevent timeoffset="80" message="But we also start with high zone 4 power and gradually reduce the target power over the 10min." locIndex="12" />
+            <textevent timeoffset="100" message="Here we go." locIndex="13" />
+        </SteadyState>
+        <Ramp Duration="600" PowerLow="1.0044999" PowerHigh="0.91449994" pace="0">
+            <textevent timeoffset="07" message="Self select your cadence for these efforts." locIndex="14" />
+            <textevent timeoffset="120" message="Settle into a nice rhythm." locIndex="15" />
+            <textevent timeoffset="180" message="Remember, it&apos;s getting easier with every passing second!" locIndex="16" />
+            <textevent timeoffset="240" message="L&apos;Etape du Tour de France will require some long, high powered efforts." locIndex="17" />
+            <textevent timeoffset="300" message="But it&apos;s important to avoid a big decline in power." locIndex="18" />
+            <textevent timeoffset="360" message="If you find yourself working too hard early, bring the power back slowly." locIndex="19" />
+            <textevent timeoffset="420" message="After this interval, the efforts get a little easier." locIndex="20" />
+            <textevent timeoffset="500" message="This session will also test your recovery." locIndex="21" />
+            <textevent timeoffset="540" message="Into the final minute now. The worst is almost out of the way!" locIndex="22" />
+        </Ramp>
+        <SteadyState Duration="300" Power="0.50449997" pace="0">
+            <textevent timeoffset="09" message="Great work. That was a big effort." locIndex="23" />
+            <textevent timeoffset="100" message="Now we are looking for good recovery." locIndex="24" />
+            <textevent timeoffset="120" message="Take some deep, controlled breaths and bring that HR down.." locIndex="25" />
+            <textevent timeoffset="160" message="If your fitness is good, then the next effort should feel easier." locIndex="26" />
+            <textevent timeoffset="260" message="Just 8min of work this time." locIndex="27" />
+            <textevent timeoffset="280" message="And the starting intensity is a little easier." locIndex="28" />
+        </SteadyState>
+        <Ramp Duration="480" PowerLow="0.94449997" PowerHigh="0.85449994" pace="0">
+            <textevent timeoffset="10" message="How was your recovery?" locIndex="29" />
+            <textevent timeoffset="120" message="Have you noticed the decrease in target power?" locIndex="30" />
+            <textevent timeoffset="180" message="Remember, it&apos;s getting easier with every passing second!" locIndex="31" />
+            <textevent timeoffset="240" message="This is another good block of aerobic work." locIndex="32" />
+            <textevent timeoffset="300" message="Into zone 3 as the the effort continues." locIndex="33" />
+            <textevent timeoffset="420" message="Into the final minute now. The worst is almost out of the way!" locIndex="34" />
+        </Ramp>
+        <SteadyState Duration="240" Power="0.50449997" pace="0">
+            <textevent timeoffset="06" message="With the reduced work period, we also reduce the recovery period." locIndex="35" />
+            <textevent timeoffset="150" message="Again, we start with a lower target power." locIndex="36" />
+            <textevent timeoffset="170" message="And just 6min of work this time." locIndex="37" />
+        </SteadyState>
+        <Ramp Duration="360" PowerLow="0.88449997" PowerHigh="0.79449993" pace="0">
+            <textevent timeoffset="10" message="How are the legs feeling?" locIndex="38" />
+            <textevent timeoffset="120" message="This should almost feel &apos;comfortable&apos; now?" locIndex="39" />
+            <textevent timeoffset="180" message="Halfway. Just 3min to go." locIndex="40" />
+            <textevent timeoffset="240" message="Low zone 3 power now. Easy for you!" locIndex="41" />
+            <textevent timeoffset="300" message="Despite the target power in each interval reducing. This is quality training." locIndex="42" />
+            <textevent timeoffset="320" message="You may find that your power in the L&apos;Etape du Tour de France reduces substantially from the 1st to the last climb." locIndex="43" />
+        </Ramp>
+        <SteadyState Duration="180" Power="0.50449997" pace="0">
+            <textevent timeoffset="10" message="The hard work is done now." locIndex="44" />
+            <textevent timeoffset="150" message="Just a short 4min zone 3 effort to go." locIndex="45" />
+        </SteadyState>
+        <Ramp Duration="240" PowerLow="0.82449996" PowerHigh="0.73449993" pace="0">
+            <textevent timeoffset="10" message="This might even feel like the cool down for you?" locIndex="46" />
+            <textevent timeoffset="120" message="It&apos;s still a big block of aerobic work completed." locIndex="47" />
+            <textevent timeoffset="160" message="28min of quality aerobic work." locIndex="48" />
+            <textevent timeoffset="180" message="Into upper zone 2 for the final minute." locIndex="49" />
+        </Ramp>
+        <SteadyState Duration="300" Power="0.50449997" pace="0">
+            <textevent timeoffset="07" message="Great session today." locIndex="50" />
+            <textevent timeoffset="26" message="How did your legs feel with each interval?" locIndex="51" />
+            <textevent timeoffset="40" message="Could you feel the reduced intensity?" locIndex="52" />
+            <textevent timeoffset="220" message="Today&apos;s session will serve you well on long climbs so you don&apos;t overdo it." locIndex="53" />
+            <textevent timeoffset="240" message="Recovery should be quick after today allowing you to crush some Zwift racing" locIndex="54" />
+        </SteadyState>
+    </workout>
+</workout_file>

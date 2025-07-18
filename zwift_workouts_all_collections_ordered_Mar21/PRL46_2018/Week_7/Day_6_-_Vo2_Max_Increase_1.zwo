@@ -1,0 +1,57 @@
+<workout_file>
+    <uniqueId>31baab85-0f01-49b7-9083-01aeac71e9a4</uniqueId>
+    <legacyIdHash>1467555021</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>2018 PRL46 Prep</category>
+    <subcategory>Week 7</subcategory>
+    <name>Week 7.6 - Vo2 Max Increase #1</name>
+    <description>Today&apos;s session simulates the demands of climbing at a Vo2 Max intensity, by targeting a lower cadence.
+
+5 intervals at Lower Zone 5. However, each interval is extended by 30sec.
+
+The 1st effort is 4 minutes then extend each effort by 30 seconds (last effort is 6 minutes).</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <Warmup Duration="420" PowerLow="0.50449997" PowerHigh="0.75449997" pace="0">
+            <textevent timeoffset="91.264275" message="Today the warm up ramps straight into a 5min threshold effort." locIndex="1" />
+        </Warmup>
+        <SteadyState Duration="300" Power="0.95449996" pace="0" />
+        <SteadyState Duration="300" Power="0.55449998" pace="0">
+            <textevent timeoffset="54.612301" message="The aim today is to produce VO2max power at a climbing cadence" locIndex="2" />
+            <textevent timeoffset="154" message="But, we are also aiming to extend the duration of VO2 power." locIndex="3" />
+            <textevent timeoffset="290" message="Ready for the 1st effort." locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="1.0645" pace="0" Cadence="85">
+            <textevent timeoffset="120" message="2min to go!" locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.55449998" pace="0">
+            <textevent timeoffset="170" message="A little longer this time." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="270" Power="1.0645" pace="0" Cadence="85">
+            <textevent timeoffset="150" message="2min to go!" locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.55000001" pace="0">
+            <textevent timeoffset="170" message="Longer again. 5min this time." locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="1.0645" pace="0" Cadence="85">
+            <textevent timeoffset="180" message="2min to go!" locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.55000001" pace="0">
+            <textevent timeoffset="143" message="5:30 this time! How are you feeling?" locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="330" Power="1.0645" pace="0" Cadence="85">
+            <textevent timeoffset="116" message="You can do this." locIndex="11" />
+            <textevent timeoffset="210" message="2min to go!" locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.55000001" pace="0">
+            <textevent timeoffset="119" message="Last interval coming up." locIndex="13" />
+            <textevent timeoffset="148" message="It&apos;s the longest one!" locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="360" Power="1.0645" pace="0" Cadence="85">
+            <textevent timeoffset="240" message="2min to go. Hang in there!" locIndex="15" />
+        </SteadyState>
+        <Cooldown Duration="360" PowerLow="0.75449997" PowerHigh="0.50449997" pace="0" />
+    </workout>
+</workout_file>

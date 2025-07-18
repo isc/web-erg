@@ -1,0 +1,17 @@
+<workout_file>
+    <uniqueId>e6bf0d0c-dfc4-4b7f-9703-1c4596f3ef9c</uniqueId>
+    <legacyIdHash>1485701490</legacyIdHash>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <category>Your First Century</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 9</subcategory>
+    <name>Week 9.4 - Day 4</name>
+    <description>VO2max Intervals. Complete 4 x 5-minute intervals at VO2Max with 5 minutes of rest between intervals. Ride at Endurance all other times.</description>
+    <tags />
+    <workout>
+        <Warmup Duration="1200" PowerLow="0.2545" PowerHigh="0.75449997" />
+        <IntervalsT Repeat="4" OnDuration="300" OffDuration="300" OnPower="1.1044999" OffPower="0.50450003" />
+        <SteadyState Duration="2700" Power="0.65449995" />
+        <Cooldown Duration="900" PowerLow="0.75449997" PowerHigh="0.2545" />
+    </workout>
+</workout_file>

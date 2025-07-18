@@ -1,0 +1,107 @@
+<workout_file>
+    <uniqueId>d7d02dff-d939-45ae-8199-818c5506be74</uniqueId>
+    <legacyIdHash>2689775270</legacyIdHash>
+    <author>Shayne Gaffney</author>
+    <name>Week 4.3 - VO2 Max - 3x5 Tabata Style</name>
+    <description>Time for another VO2 Max workout! We&apos;re going to be using a micro-interval again today, and more specifically 20sec on, 10 sec off, AKA Tabata Intervals. Get ready to put the work in today! REMINDER: You can always adjust the FTP bias via the arrow keys on your keyboard, or the Zwift Companion app. Once you get over threshold, using a %FTP for workout prescription can get murky, so always adjust as needed.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Pebble Pounder</category>
+    <subcategory>Week 4</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="300" PowerLow=".4" PowerHigh=".75">
+            <textevent timeoffset="0" message="Here we go again with some more focused VO2 Max work! Tabata style again today, my favorite flavor of VO2 Max work :-)" locIndex="1" />
+            <textevent timeoffset="10" message="Let&apos;s get going with a warmup and make sure you have your fluids, fan, and towel all handy." locIndex="2" />
+            <textevent timeoffset="150" message="All right, let&apos;s chat a bit about what&apos;s in store today..." locIndex="3" />
+            <textevent timeoffset="160" message="As you know, we&apos;re going to be doing some Tabata style VO2 Max intervals today, but the kicker is we&apos;re going for an extra minute today." locIndex="4" />
+            <textevent timeoffset="170" message="So today we&apos;re after 3x5min, with the goal of raising that aerobic ceiling again." locIndex="5" />
+            <textevent timeoffset="180" message="REMINDER: You can always adjust the FTP bias via the arrow keys on your keyboard, or the Zwift Companion app." locIndex="6" />
+            <textevent timeoffset="190" message="Once you get over threshold, using a %FTP for workout prescription can get murky, so always adjust as needed." locIndex="7" />
+            <textevent timeoffset="200" message="We&apos;re going to be targeting the high end of the VO2 range for the work portion, and taking it really easy between reps." locIndex="8" />
+            <textevent timeoffset="210" message="In between sets, we&apos;ll take 5min easy to allow for recovery. Sound good!?" locIndex="9" />
+            <textevent timeoffset="270" message="30 sec, then we&apos;re going to do our usual fast cadence, then sprint efforts to put the final prep in the legs." locIndex="10" />
+        </Warmup>
+        <IntervalsT Repeat="3" OnDuration="30" OffDuration="30" OnPower="1.05" OffPower=".65" Cadence="105" CadenceResting="85">
+            <textevent timeoffset="0" message="Let&apos;s go with our first one! Get your cadence up, but keep your form here." locIndex="11" />
+            <textevent timeoffset="30" message="Great work, let&apos;s take 30sec easy and get ready to repeat." locIndex="12" />
+            <textevent timeoffset="60" message="Fast feet again here!" locIndex="13" />
+            <textevent timeoffset="90" message="Just 1 more to go, take it easy again now." locIndex="14" />
+            <textevent timeoffset="120" message="Last one! Spin those pedals!" locIndex="15" />
+        </IntervalsT>
+        <SteadyState Duration="120" Power=".5" Cadence="85">
+            <textevent timeoffset="0" message="Okay, perfect! Now, let&apos;s take 2min easy and recover a bit from those." locIndex="16" />
+            <textevent timeoffset="30" message="Next up, we&apos;re going to continue our warmup with a couple of sprint efforts." locIndex="17" />
+            <textevent timeoffset="40" message="Since training at VO2 Max is so intense, it&apos;s always a good idea to have a longer and harder warmup." locIndex="18" />
+            <textevent timeoffset="90" message="30sec, then we&apos;re doing a couple of 10sec sprint efforts. I want you to aim for 110+ RPM again for these!" locIndex="19" />
+            <textevent timeoffset="110" message="Ready? Start spinning the legs up now and don&apos;t let the trainer get bogged down in you&apos;re using ERG." locIndex="20" />
+        </SteadyState>
+        <IntervalsT Repeat="2" OnDuration="10" OffDuration="50" OnPower="1.5" OffPower=".65" Cadence="110" CadenceResting="85">
+            <textevent timeoffset="0" message="GO GO GO!! FAST FEET!!" locIndex="21" />
+            <textevent timeoffset="10" message="Excellent work! Now, bring it down easy for 50sec, and get ready to repeat that again." locIndex="22" />
+            <textevent timeoffset="50" message="Ready? Start spinning the legs up again and prepare for a big surge in effort." locIndex="23" />
+            <textevent timeoffset="60" message="GO GO GO!" locIndex="24" />
+            <textevent timeoffset="70" message="Great work! Now let&apos;s recover a bit more and prepare for the main set today." locIndex="25" />
+        </IntervalsT>
+        <SteadyState Duration="180" Power=".5" Cadence="85">
+            <textevent timeoffset="0" message="Bring it down to something really easy now and relax and recover." locIndex="26" />
+            <textevent timeoffset="10" message="Today is going to be a challenge, but be confident in your training that you can rise up to meet it!" locIndex="27" />
+            <textevent timeoffset="120" message="1min easy, then we&apos;re starting our first intervals...Get in &apos;the zone&apos; now." locIndex="28" />
+            <textevent timeoffset="150" message="Okay, just 30sec to go. I want you to aim for 100 RPM during the work interval, and a comfortable cadence for the rest." locIndex="29" />
+            <textevent timeoffset="160" message="And rememeber, we&apos;re going for 10 reps today! Expect these to tickle a little bit :-)" locIndex="30" />
+            <textevent timeoffset="170" message="Okay, start spinning that gear up! Get ready for a big surge in effort!" locIndex="31" />
+        </SteadyState>
+        <IntervalsT Repeat="10" OnDuration="20" OffDuration="10" OnPower="1.19" OffPower=".5" Cadence="100" CadenceResting="85">
+            <textevent timeoffset="0" message="GO! Fast feet and high power here! Drive it!" locIndex="32" />
+            <textevent timeoffset="20" message="Great work! Now bring the effort way down and keep spinning at a comfortable cadence." locIndex="33" />
+            <textevent timeoffset="30" message="Back up again!! GO GO GO!" locIndex="34" />
+            <textevent timeoffset="50" message="Awesome! The first few always feel pretty easy...That won&apos;t last!" locIndex="35" />
+            <textevent timeoffset="60" message="HIT IT!!" locIndex="36" />
+            <textevent timeoffset="120" message="C&apos;mon!! Keep the cadence up for these!" locIndex="37" />
+            <textevent timeoffset="180" message="Awesome work so far! Now we&apos;re getting into the part where these feel like work - Keep it up!" locIndex="38" />
+            <textevent timeoffset="240" message="This is it! Final minute of work for this first interval, don&apos;t fall off the pace now!" locIndex="39" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power=".5" Cadence="85">
+            <textevent timeoffset="0" message="Yes! Way to get that done! Now, let&apos;s take a full 5min recovery." locIndex="40" />
+            <textevent timeoffset="10" message="That&apos;s 1 down, and 2 more to go :-)" locIndex="41" />
+            <textevent timeoffset="120" message="Deep breaths here...Relax and shake it out a bit." locIndex="42" />
+            <textevent timeoffset="240" message="1min left for this recovery interval, then we&apos;re repeating that same Tabata set, get psyched up again!" locIndex="43" />
+            <textevent timeoffset="290" message="Okay, start spinning up that gear again and get ready for a big surge in effort!" locIndex="44" />
+        </SteadyState>
+        <IntervalsT Repeat="10" OnDuration="20" OffDuration="10" OnPower="1.19" OffPower=".5" Cadence="100" CadenceResting="85">
+            <textevent timeoffset="0" message="Here we go again! Get that effort way up again and spin those legs!" locIndex="45" />
+            <textevent timeoffset="20" message="Okay, lower the cadence and effort back down again...Just 9 more to go :-)" locIndex="46" />
+            <textevent timeoffset="30" message="Back up again!! GO GO GO!" locIndex="47" />
+            <textevent timeoffset="50" message="Great work! You&apos;re back into the rhythm now." locIndex="48" />
+            <textevent timeoffset="60" message="UP UP UP!" locIndex="49" />
+            <textevent timeoffset="120" message="Keep going!! Make sure you keep your cadence up here, don&apos;t let it drop as you fatigue!" locIndex="50" />
+            <textevent timeoffset="180" message="C&apos;mon!! Just 4 more to go! You got this!" locIndex="51" />
+            <textevent timeoffset="240" message="2nd to last one! Make me proud for this last minute, DRIVE IT!" locIndex="52" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power=".5" Cadence="85">
+            <textevent timeoffset="0" message="Yeah! Awesome work, my friend! Way to CRUSH that 2nd set." locIndex="53" />
+            <textevent timeoffset="10" message="Let&apos;s bring it way down again and recover for another full 5min - you earned it!" locIndex="54" />
+            <textevent timeoffset="120" message="Breathe...You only have 1 more set to go and we&apos;re DONE!" locIndex="55" />
+            <textevent timeoffset="240" message="1min to go, get yourself amped up again!!" locIndex="56" />
+            <textevent timeoffset="290" message="Okay, start spinning that gear up and get ready for a big surge in effort!" locIndex="57" />
+        </SteadyState>
+        <IntervalsT Repeat="10" OnDuration="20" OffDuration="10" OnPower="1.19" OffPower=".5" Cadence="100" CadenceResting="85">
+            <textevent timeoffset="0" message="Last interval set for today!! Make it happen and make me proud!" locIndex="58" />
+            <textevent timeoffset="20" message="Lower your effort way down again...You got this." locIndex="59" />
+            <textevent timeoffset="30" message="Surge back up again! DRIVE IT!" locIndex="60" />
+            <textevent timeoffset="50" message="Easy peasy again...Make it happen the last 4min!" locIndex="61" />
+            <textevent timeoffset="60" message="GO GO GO! FAST FEET!" locIndex="62" />
+            <textevent timeoffset="120" message="3min to go! Keep that cadence up here! UP UP UP!!" locIndex="63" />
+            <textevent timeoffset="180" message="C&apos;mon!! We&apos;re down to 4 remaining! You got this!" locIndex="64" />
+            <textevent timeoffset="240" message="2nd to last one! Make me proud for this last minute, DRIVE IT!" locIndex="65" />
+        </IntervalsT>
+        <Cooldown Duration="300" PowerLow=".40" PowerHigh=".65">
+            <textevent timeoffset="0" message="Bingo! That&apos;s 15min of VO2 Max DONE! What a difference from the first week to now! You&apos;re doing so well!" locIndex="66" />
+            <textevent timeoffset="60" message="As always, between workouts aim to refuel and rehydrate yourself well." locIndex="67" />
+            <textevent timeoffset="70" message="And aim to take around 24hrs between workouts to allow your body to recover before hitting it hard again." locIndex="68" />
+            <textevent timeoffset="80" message="If you do want to ride extra this week, feel free to pick an easy Zwift group ride, or outdoor ride." locIndex="69" />
+            <textevent timeoffset="90" message="The goal with any extra work in this plan is to extend your ride time, but at mainly zone 2 intensity." locIndex="70" />
+            <textevent timeoffset="120" message="Great job today! See you next week!" locIndex="71" />
+        </Cooldown>
+    </workout>
+</workout_file>

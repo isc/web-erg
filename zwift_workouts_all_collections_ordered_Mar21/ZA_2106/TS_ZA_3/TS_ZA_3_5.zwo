@@ -1,0 +1,34 @@
+<workout_file>
+    <uniqueId>d83ff94a-850d-4625-a66e-c890e8167e93</uniqueId>
+    <legacyIdHash>3676406766</legacyIdHash>
+    <author>Jon Sharples</author>
+    <category>Zwift Academy 2016</category>
+    <subcategory>Month 3</subcategory>
+    <WorkoutPlan>1</WorkoutPlan>
+    <name>Month 3.5 - Extra-Extended OUs</name>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/trainSharp_Logo.tga</authorIcon>
+    <description>This is a very tough session and not many people are able to complete it on first attempt - so don&apos;t be disheartened if you cannot. It is designed to stretch you to your fullest - taking you to your upper limit of aerobic powers and forcing you to recover at your threshold. Ensure you have a good quality, powerful fan during this session, you WILL get hot and you will need good airflow on the indoor trainer.</description>
+    <tags />
+    <workout>
+        <Warmup Duration="900" PowerLow="0.2545" PowerHigh="0.85449994" />
+        <SteadyState Duration="300" Power="0.65000004" />
+        <SteadyState Duration="180" Power="0.95449996" />
+        <SteadyState Duration="180" Power="1.0944999" />
+        <SteadyState Duration="180" Power="0.95449996" />
+        <SteadyState Duration="180" Power="1.0944999" />
+        <SteadyState Duration="180" Power="0.95449996" />
+        <SteadyState Duration="120" Power="1.2544999" />
+        <SteadyState Duration="180" Power="0.95449996" />
+        <SteadyState Duration="120" Power="1.25" />
+        <SteadyState Duration="600" Power="0.65449995" />
+        <SteadyState Duration="180" Power="0.95449996" />
+        <SteadyState Duration="180" Power="1.0944999" />
+        <SteadyState Duration="180" Power="0.95449996" />
+        <SteadyState Duration="180" Power="1.0944999" />
+        <SteadyState Duration="180" Power="0.95449996" />
+        <SteadyState Duration="120" Power="1.2544999" />
+        <SteadyState Duration="180" Power="0.95449996" />
+        <SteadyState Duration="120" Power="1.25" />
+        <Cooldown Duration="900" PowerLow="0.85449994" PowerHigh="0.2545" />
+    </workout>
+</workout_file>

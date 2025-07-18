@@ -1,0 +1,39 @@
+<workout_file>
+    <uniqueId>738ef528-d44c-4797-be1b-0c5a06701c28</uniqueId>
+    <legacyIdHash>2063737081</legacyIdHash>
+    <category>GCN</category>
+    <categoryOverride>Climbing</categoryOverride>
+    <author>GCN</author>
+    <subcategory>Matt Stephens&apos; GCN Power Climbs Plan</subcategory>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/GCN_Logo.tga</authorIcon>
+    <name>Steeper &amp; Steeper</name>
+    <description>Sometimes the climbs get steeper and steeper as you get closer to the top.  This workout simulates the climbs of the spring classics that start out steep and get even steeper! 
+Warm-up for 10 minutes and then do (3) x 1 minute fast pedaling drills.  Then begin riding for 9minutes at sweet spot and then do (6) hill efforts , each is 2 minute 30seconds with the last 15seconds being very difficult!  Ride at endurance pace between each at 70% of FTP. Cool-down.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS" />
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.2545" PowerHigh="0.75449997" />
+        <IntervalsT Repeat="3" OnDuration="60" OffDuration="60" OnPower="0.75449997" OffPower="0.50449997" Cadence="110" CadenceResting="80" />
+        <SteadyState Duration="540" Power="0.90449995" />
+        <SteadyState Duration="135" Power="1.2544999" />
+        <SteadyState Duration="15" Power="1.5044999" />
+        <SteadyState Duration="120" Power="0.70449996" />
+        <SteadyState Duration="135" Power="1.2544999" />
+        <SteadyState Duration="15" Power="1.5044999" />
+        <SteadyState Duration="120" Power="0.70449996" />
+        <SteadyState Duration="135" Power="1.2544999" />
+        <SteadyState Duration="15" Power="1.5044999" />
+        <SteadyState Duration="120" Power="0.70449996" />
+        <SteadyState Duration="135" Power="1.2544999" />
+        <SteadyState Duration="15" Power="1.5044999" />
+        <SteadyState Duration="120" Power="0.70449996" />
+        <SteadyState Duration="135" Power="1.2544999" />
+        <SteadyState Duration="15" Power="1.5044999" />
+        <SteadyState Duration="120" Power="0.70449996" />
+        <SteadyState Duration="135" Power="1.2544999" />
+        <SteadyState Duration="15" Power="1.5044999" />
+        <Cooldown Duration="600" PowerLow="0.75" PowerHigh="0.25" />
+    </workout>
+</workout_file>

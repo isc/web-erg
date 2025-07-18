@@ -1,0 +1,55 @@
+<workout_file>
+    <uniqueId>a54b4772-a5d9-43f3-98a2-dd711b7bab29</uniqueId>
+    <legacyIdHash>1494079529</legacyIdHash>
+    <author>TrainSharp Cycle Coaching</author>
+    <categoryOverride>Best of Zwift Academy</categoryOverride>
+    <subcategoryOverride>ZA 2017</subcategoryOverride>
+    <name>Month 1.4 - Threshold Capacity</name>
+    <WorkoutPlan>1</WorkoutPlan>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/trainSharp_Logo.tga</authorIcon>
+    <description>This session is designed to progressively stretch you as you tick-off each interval. The main sets are 4 x 5 minutes, starting just above your FTP and reducing the power after a set duration to just below your FTP.  Start with a good warm up, followed by a Zone 3 low cadence block (60-70 rpm). This is a system priming section and should set you up nicely for the main intervals. Think of this block being comfortably hard, but hardly comfortable!  The 5 minutes are as follows, with "pulling" referring to your power above FTP, and "pushing" referring to power below FTP. Recovery periods are 3 minutes between each interval.  "Pulling"/"Pushing" : 1/4, 2/3, 3/2, 4/1.</description>
+    <sportType>bike</sportType>
+    <visibleAfterTime>1504222780</visibleAfterTime>
+    <category>Zwift Academy 2017</category>
+    <subcategory>Month 1</subcategory>
+    <tags> 
+    </tags>
+    <workout>
+        <Warmup Duration="900" PowerLow="0.49000001" PowerHigh="0.92000002" pace="0">
+            <textevent timeoffset="0" message="Warm Up - Progressive Warm up through the zones for the duration. Sip on your bottle and take a gel if you wish during the warm up." locIndex="1" />
+        </Warmup>
+        <SteadyState Duration="300" Power="0.51499999">
+            <textevent timeoffset="0" message="Easy - Recovery, very easy no load, like an easy walk on the bike" locIndex="2" />
+        </SteadyState>
+        <IntervalsT Repeat="1" OnDuration="900" OffDuration="600" OnPower="0.88368148" OffPower="0.48942557" pace="0" Cadence="65" CadenceResting="100">
+            <textevent timeoffset="0" duration="20" message="Zone 3 Primer - This is a low cadence block, and your HR should not climb too high during this effort. Remain seated, and feel the effort on your thighs and butt." locIndex="3" />
+        </IntervalsT>
+        <SteadyState Duration="60" Power="1.0700001">
+            <textevent timeoffset="0" duration="20" message="Pulling (1m) - Hold a power just above your FTP here, don&apos;t go out too hard, this is the shortest (and easiest) interval of the session. save your efforts for later on!" locIndex="4" />
+        </SteadyState>
+        <IntervalsT Repeat="1" OnDuration="240" OffDuration="180" OnPower="0.97500002" OffPower="0.49000001" pace="0">
+            <textevent timeoffset="0" duration="20" message="Pushing (4m) - Settle back to just bellow Threshold. At the end of this 4 min that&apos;s your first interval complete. 3 minutes easy then we go again.." locIndex="5" />
+        </IntervalsT>
+        <SteadyState Duration="120" Power="1.0700001">
+            <textevent timeoffset="0" duration="20" message="Pulling (2m) - Into the start of the second 5 minutes. Hold a solid position here, keep your upper body firm and let your legs do the work. Cadence selection is up to you." locIndex="6" />
+        </SteadyState>
+        <IntervalsT Repeat="1" OnDuration="180" OffDuration="180" OnPower="0.97500002" OffPower="0.49000001" pace="0">
+            <textevent timeoffset="0" duration="20" message="Pushing (3m) - You will be starting to feel the efforts now, at the end of this interval you are half-way through." locIndex="7" />
+        </IntervalsT>
+        <SteadyState Duration="180" Power="1.0700001">
+            <textevent timeoffset="0" duration="20" message="Pulling (3m) - 2 down, 2 more to go! This one will start to bite within the first minute, the 3 minute recovery will have felt like it went too quickly. Finish this effort strongly!" locIndex="8" />
+        </SteadyState>
+        <IntervalsT Repeat="1" OnDuration="120" OffDuration="180" OnPower="0.97500002" OffPower="0.49000001" pace="0">
+            <textevent timeoffset="0" duration="20" message="Pushing (2m) - This wont feel like much of a recovery, your Heart Rate will likely remain elevated. Keep it going, keep the cadence smooth and don&apos;t let off the power until the end of the effort." locIndex="9" />
+        </IntervalsT>
+        <SteadyState Duration="240" Power="1.0700001">
+            <textevent timeoffset="0" duration="20" message="Pulling (4m) - The finish line is in sight. This will feel like a long 4 minutes but keep it up, after this its a mere 60 seconds to go!" locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.97500002">
+            <textevent timeoffset="0" duration="20" message="Pushing (1m) - That&apos;s it, you are almost there. Last minute, keep it smooth and don&apos;t lose your form on the bike - you can slump over the bars at the end of this minute, not during!" locIndex="11" />
+        </SteadyState>
+        <Cooldown Duration="900" PowerLow="0.56999999" PowerHigh="0.49000001" pace="0">
+            <textevent timeoffset="0" message="Warm Down - Warm down and ensure you re-hydrate and refuel after this session." locIndex="12" />
+        </Cooldown>
+    </workout>
+</workout_file>

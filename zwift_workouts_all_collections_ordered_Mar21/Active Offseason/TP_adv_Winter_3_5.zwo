@@ -1,0 +1,15 @@
+<workout_file>
+    <uniqueId>a2fe0505-07b8-45f1-be4c-b60aa220d725</uniqueId>
+    <legacyIdHash>3348094409</legacyIdHash>
+    <category>Active Offseason</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 3</subcategory>
+    <name>Week 3.5 - Endurance</name>
+    <description>Endurance ride. Ride for 2.5 hours at an endurance pace. Vary cadence while focusing on riding smoothly and staying relaxed.</description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <workout>
+        <Warmup Duration="900" Zone="1" />
+        <SteadyState Duration="9000" Zone="2" />
+        <Cooldown Duration="900" Zone="1" />
+    </workout>
+</workout_file>

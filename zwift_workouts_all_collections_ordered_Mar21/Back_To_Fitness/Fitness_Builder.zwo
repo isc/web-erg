@@ -1,0 +1,133 @@
+<workout_file>
+    <uniqueId>d5b762a9-6437-45e8-94ac-ef5752f43304</uniqueId>
+    <legacyIdHash>723186289</legacyIdHash>
+    <author>Kristin Armstrong</author>
+    <categoryOverride>Daily Fit</categoryOverride>
+    <name>Week 7.1 - Fitness Builder</name>
+    <description>This session is a fitness builder. We will experience time in three different training zones - Threshold, Vo2 and our Anaerobic zone. Today&apos;s session consists of 3x 2 minutes at 100% of FTP (Threshold), 3x 1 minute at 110% of FTP (VO2), and 6x :30 seconds at 120% of FTP (Anaerobic). As we increase power, we will decrease time in each effort.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <tags />
+    <category>Back to Fitness</category>
+    <subcategory>Week 7</subcategory>
+    <workout>
+        <SteadyState Duration="210" Power="0.6">
+            <textevent message="Hello and welcome to Fitness Builder. Let&apos;s get started with a warm up at a comfortable cadence." locIndex="1" timeoffset="0" />
+            <textevent message="2 minutes in so far, nice work! Just keep easing into the day here." locIndex="2" timeoffset="120" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="0.68">
+            <textevent message="Get a fan, towel and water bottle at the ready! You&apos;ll need them today :-)" locIndex="3" timeoffset="0" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="0.75">
+            <textevent message="Pro tip: It&apos;s worth investing in a powerful fan. You&apos;ll be surprised just how hot and sweaty cycling indoors can be!" locIndex="4" timeoffset="0" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="0.83">
+            <textevent message="Also, having a smartphone for the Zwift Companion app within reach is always helpful too." locIndex="5" timeoffset="0" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="0.9">
+            <textevent message="Are we feeling warmed up and ready to roll? I hope so!" locIndex="6" timeoffset="0" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.55">
+            <textevent message="Quick drink of water leading in to the final part of our warm up! 3x 30second efforts." locIndex="7" timeoffset="0" />
+            <textevent message="All right, get ready for a big surge in effort next. You can do these :30 second efforts either seated or standing" locIndex="8" timeoffset="50" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.1">
+            <textevent message="GO GO GO!" locIndex="9" timeoffset="0" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.55">
+            <textevent message="Great work! We take 30 seconds easy between efforts." locIndex="10" timeoffset="0" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.1">
+            <textevent message="HIT IT! It&apos;s all about getting our bodies warmed up for todays ride." locIndex="11" timeoffset="0" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.55">
+		</SteadyState>
+        <SteadyState Duration="30" Power="1.1">
+            <textevent message="Last one!" locIndex="12" timeoffset="0" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="0.55">
+            <textevent message="Great effort! That&apos;s it for today&apos;s warm up. Let&apos;s take a moment to chat about the plan for today." locIndex="13" timeoffset="0" />
+            <textevent message="Today&apos;s ride is a fitness builder. We will experience time in three zones - Threshold - VO2 - Anaerobic" locIndex="14" timeoffset="10" />
+            <textevent message="Today&apos;s session consists of 3x 2 minutes at 100% of FTP (Threshold), 3x 1 minute at 110% of FTP (VO2)..." locIndex="15" timeoffset="20" />
+            <textevent message="...and 6x :30 seconds at 120% of FTP (Anaerobic)." locIndex="16" timeoffset="30" />
+            <textevent message="Fear not though, as the intensity increases for each effort, the duration will decrease accordingly." locIndex="17" timeoffset="40" />
+            <textevent message="We can&apos;t be mean all of the time after all :-)" locIndex="18" timeoffset="50" />
+            <textevent message="Okay, get ready for our 1st 2min threshold effort starting in 10sec." locIndex="19" timeoffset="80" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1">
+            <textevent message="Nice and steady here. Don&apos;t start off too hard and just get a feel for the output." locIndex="20" timeoffset="0" />
+            <textevent message="There&apos;s halfway, keep it steady and stay in control here." locIndex="21" timeoffset="60" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.53">
+            <textevent message="Excellent work! Be sure to hydrate in between intervals. 1min easy, then we&apos;ll start the next one" locIndex="22" timeoffset="0" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1">
+            <textevent message="Here we go, rep #2! Same as the 1st one, just aim for a steady effort." locIndex="23" timeoffset="0" />
+            <textevent message="Remember to use your bias arrows if you need to adjust difficulty up or down. These can be found on your companion app or by swiping up on screen." locIndex="24" timeoffset="60" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.53">
+            <textevent message="Nice work, deep breath as we head into our last 2 minute effort. " locIndex="25" timeoffset="0" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1">
+            <textevent message="Here we go! Get the power back up again and let&apos;s hit it!" locIndex="26" timeoffset="0" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.53">
+            <textevent message="Nice easy pedaling now. We&apos;ll take a 2min recovery before our next interval set." locIndex="27" timeoffset="0" />
+            <textevent message="We are going to decrease time and increase power output for the next set - 3 x 1 minute at 110% of our FTP (VO2 work)." locIndex="28" timeoffset="60" />
+            <textevent message="So, expect to feel these a little more compared to the FTP work, but you got it!" locIndex="29" timeoffset="70" />
+            <textevent message="All right, get ready to increase the power again next." locIndex="30" timeoffset="110" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.06">
+            <textevent message="Here we go! Just 1min, PUSH!" locIndex="31" timeoffset="0" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.53">
+            <textevent message="Super! Not too bad, right? We&apos;ll take 1 minute between these efforts as well." locIndex="32" timeoffset="0" />
+            <textevent message="Get ready to CRUSH IT!" locIndex="33" timeoffset="50" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.06">
+            <textevent message="2nd set of 3" locIndex="34" timeoffset="0" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.55">
+            <textevent message="Nice! Make sure you hydrate between these efforts. Just 1 more to go." locIndex="35" timeoffset="0" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.06">
+            <textevent message="UP UP UP! Make this one just as good as the 1st!" locIndex="36" timeoffset="0" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.55">
+            <textevent message="Boom! Interval set #2 done and dusted. Let&apos;s take a 2 minute rest again here before our finale." locIndex="37" timeoffset="0" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.55">
+            <textevent message="Last set of the day coming up next - 6x :30 seconds at 120% of our FTP (anaerobic zone here we come)!" locIndex="38" timeoffset="0" />
+            <textevent message="These are going to feel almost &apos;easy&apos; for the first couple, but will start to bite towards the end." locIndex="39" timeoffset="10" />
+            <textevent message="Deep breath and get ready to crush it!" locIndex="40" timeoffset="50" />
+        </SteadyState>
+        <IntervalsT OffDuration="30" OffPower="0.55" OnDuration="30" OnPower="1.2" Repeat="1">
+            <textevent message="Here we go! This is where the work begins." locIndex="41" timeoffset="0" />
+            <textevent message="Good! Quick 30 second rest in between efforts here." locIndex="42" timeoffset="30" />
+        </IntervalsT>
+        <IntervalsT OffDuration="30" OffPower="0.55" OnDuration="30" OnPower="1.2" Repeat="1">
+            <textevent message="BACK ON! GO GO GO!" locIndex="43" timeoffset="0" />
+            <textevent message="Excellent! You get the idea now.." locIndex="44" timeoffset="30" />
+        </IntervalsT>
+        <IntervalsT OffDuration="30" OffPower="0.55" OnDuration="30" OnPower="1.2" Repeat="1">
+            <textevent message="Keep the power up!" locIndex="45" timeoffset="0" />
+            <textevent message="Half way - great work!" locIndex="46" timeoffset="30" />
+        </IntervalsT>
+        <IntervalsT OffDuration="30" OffPower="0.55" OnDuration="30" OnPower="1.2" Repeat="1">
+            <textevent message="DIG DIG DIG!" locIndex="47" timeoffset="0" />
+        </IntervalsT>
+        <IntervalsT OffDuration="30" OffPower="0.55" OnDuration="30" OnPower="1.2" Repeat="1">
+            <textevent message="We have less than one-minute of work left in our session! C&apos;mon!" locIndex="48" timeoffset="0" />
+        </IntervalsT>
+        <IntervalsT OffDuration="30" OffPower="0.55" OnDuration="30" OnPower="1.2" Repeat="1">
+            <textevent message="Last One Best One!" locIndex="49" timeoffset="0" />
+            <textevent message="We did it! Way to go. " locIndex="50" timeoffset="30" />
+        </IntervalsT>
+        <Cooldown Duration="270" PowerHigh=".55" PowerLow=".3">
+            <textevent message="Great job today! We&apos;ll start our cool down now." locIndex="51" timeoffset="0" />
+            <textevent message="Take care of yourself by hydrating and refueling so you feel recovered and ready to go again for your next session!" locIndex="52" timeoffset="60" />
+            <textevent message="Take a few more deep breaths here as we continue to return to baseline." locIndex="53" timeoffset="120" />
+            <textevent message="See you on the next workout - Dani and Kristin." locIndex="54" timeoffset="240" />
+        </Cooldown>
+    </workout>
+</workout_file>

@@ -1,0 +1,103 @@
+<workout_file>
+    <uniqueId>b434568a-6b0f-4dca-b8b7-de68457b92f6</uniqueId>
+    <legacyIdHash>4264330820</legacyIdHash>
+    <description>Foundation training: Relatively low intensity ride with goal of spending a large proportion of the ride into Endurance Zone 2.</description>
+    <category>FTP Builder</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 3</subcategory>
+    <name>Week 3.3 - Foundation</name>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/MarcoPinotti_Logo.tga</authorIcon>
+    <sportType>bike</sportType>
+    <workout>
+        <Warmup Duration="480" PowerLow=".4" PowerHigh=".73" Cadence="85">
+            <textevent timeoffset="0" message="Another Foundation day for the 6 Week Beginner FTP Builder on tap for today!" locIndex="1" />
+            <textevent timeoffset="10" message="Let&apos;s get the legs turning over and start warming up here. We&apos;ll catch up in a few minutes once you&apos;re settled." locIndex="2" />
+            <textevent timeoffset="180" message="So, we&apos;ve done Foundation workouts a few times now in this plan, and today&apos;s goal will be no different." locIndex="3" />
+            <textevent timeoffset="190" message="We&apos;re after a relatively low intensity ride with the goal of spending a large proportion of the ride in Endurance Zone 2." locIndex="4" />
+            <textevent timeoffset="200" message="Today, we&apos;ll also respect our progressive overload plan cornerstone and reduce the rest between intervals by 1min." locIndex="5" />
+            <textevent timeoffset="210" message="This means our intervals will be 6 times, 6mins zone 2, with 1min rest between, as opposed to 2mins rest last week." locIndex="6" />
+            <textevent timeoffset="220" message="That should be more than doable for you still, considering the bulk of the day is low intensity at zone 2." locIndex="7" />
+            <textevent timeoffset="420" message="1min to go, then we&apos;re headed right into our main set." locIndex="8" />
+            <textevent timeoffset="450" message="Make sure you have your bottles, towel, and fan all good to go." locIndex="9" />
+            <textevent timeoffset="470" message="All right, let&apos;s start off between 90-100 RPM for this first interval." locIndex="10" />
+        </Warmup>
+        <SteadyState Duration="360" Power=".73" Cadence="95">
+            <textevent timeoffset="0" message="Steady the effort now, but lift your cadence up just a bit more, and let&apos;s find that familiar rhythm here." locIndex="11" />
+            <textevent timeoffset="60" message="Remember, using a faster cadence helps utilize more slow twitch muscle fibers, which is another goal for an FTP program." locIndex="12" />
+            <textevent timeoffset="180" message="That&apos;s halfway through! If you&apos;re at 90 RPM now, try to aim closer to 95-100 RPM for these last 3 mins." locIndex="13" />
+            <textevent timeoffset="190" message="Try to get out of your comfort zone a little bit :-)" locIndex="14" />
+            <textevent timeoffset="300" message="Final minute here! Keep that cadence up!" locIndex="15" />
+            <textevent timeoffset="350" message="In 10sec, we&apos;re taking a very short 1min recovery...Use it well!" locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="60" Power=".53" Cadence="85">
+            <textevent timeoffset="0" message="Great effort! Bring the cadence and effort down and let&apos;s take a very quick rest." locIndex="17" />
+            <textevent timeoffset="30" message="We&apos;re aiming for 100+ RPM next for the entire interval!" locIndex="18" />
+            <textevent timeoffset="40" message="Prepare to get those legs spinning next :-)" locIndex="19" />
+        </SteadyState>
+        <SteadyState Duration="360" Power=".73" pace="" Cadence="100">
+            <textevent timeoffset="0" message="Let&apos;s make it happen here! Bring the cadence way up, but prevent any bouncing in the saddle." locIndex="20" />
+            <textevent timeoffset="60" message="Is your backside planted in the saddle? Make sure you&apos;re not sacrificing form for cadence." locIndex="21" />
+            <textevent timeoffset="180" message="That&apos;s halfway through! Keep it up, and don&apos;t let your cadence drop off now." locIndex="22" />
+            <textevent timeoffset="300" message="Keep the leg speed high for this final minute, and if you can, bring it up another 2-3 RPM." locIndex="23" />
+        </SteadyState>
+        <SteadyState Duration="60" Power=".53" Cadence="85">
+            <textevent timeoffset="0" message="Great work! We&apos;ll take a very quick 60sec recovery again here." locIndex="24" />
+            <textevent timeoffset="30" message="Next up, we&apos;ll do a progressively faster cadence interval ranging from 90-100 RPM." locIndex="25" />
+            <textevent timeoffset="40" message="We&apos;ll keep the power steady throughout though :-)" locIndex="26" />
+        </SteadyState>
+        <SteadyState Duration="120" Power=".73" pace="" Cadence="90">
+            <textevent timeoffset="0" message="All right, let&apos;s start at 90 RPM for these first 2mins. Steady as you go here." locIndex="27" />
+            <textevent timeoffset="90" message="Next up, we&apos;re going to lift the cadence slightly to 95 RPM." locIndex="28" />
+        </SteadyState>
+        <SteadyState Duration="120" Power=".73" pace="" Cadence="95">
+            <textevent timeoffset="0" message="Give me a little more leg speed now, but keep your form solid here." locIndex="29" />
+            <textevent timeoffset="90" message="Our last step is going to be at 100 RPM, and we&apos;ll start that in 30sec." locIndex="30" />
+        </SteadyState>
+        <SteadyState Duration="120" Power=".73" pace="" Cadence="100">
+            <textevent timeoffset="0" message="Here we go, FAST FEET!" locIndex="31" />
+            <textevent timeoffset="30" message="Keep your hips planted on the saddle, no bouncing here." locIndex="32" />
+            <textevent timeoffset="90" message="30sec left! Keep that cadence up!" locIndex="33" />
+        </SteadyState>
+        <SteadyState Duration="60" Power=".53" Cadence="85">
+            <textevent timeoffset="0" message="You&apos;re doing great so far today! That&apos;s 3 down, and 3 to go. Let&apos;s take a quick break again here." locIndex="34" />
+            <textevent timeoffset="30" message="Next up, we&apos;ll do some alternating intervals with 1min at 90 RPM, and 1min at 100 RPM." locIndex="35" />
+            <textevent timeoffset="50" message="Ready? We&apos;re starting off at 90 RPM here." locIndex="36" />
+        </SteadyState>
+        <IntervalsT Repeat="3" OnDuration="60" OffDuration="60" OnPower=".73" OffPower=".73" Cadence="90" CadenceResting="100" pace="">
+            <textevent timeoffset="0" message="Leg speed up just a touch here. I want to alternate 90 RPM and 100 RPM each minute for this interval." locIndex="37" />
+            <textevent timeoffset="50" message="Get ready for 100 RPM in 10sec." locIndex="38" />
+            <textevent timeoffset="60" message="Even faster cadence now. Don&apos;t lose your form, though, or get sloppy here." locIndex="39" />
+            <textevent timeoffset="120" message="And back down to 90 RPM again, was that 100 RPM minute tough? If so, practice makes perfect!" locIndex="40" />
+            <textevent timeoffset="180" message="Back up to 100 RPM again! This is halfway through this 2nd interval." locIndex="41" />
+            <textevent timeoffset="240" message="Slowly bring the cadence down to 90 RPM again, 2mins to go!" locIndex="42" />
+            <textevent timeoffset="300" message="Fast feet for this final minute! Spin those legs!" locIndex="43" />
+            <textevent timeoffset="350" message="Keep the cadence up to the arch!" locIndex="44" />
+        </IntervalsT>
+        <SteadyState Duration="60" Power=".53" Cadence="85">
+            <textevent timeoffset="0" message="Beautiful! Quick rest again here. Just 2 intervals left today!" locIndex="45" />
+            <textevent timeoffset="30" message="Our next effort is going to be steady at 90-100 RPM again, nothing too fancy :-)" locIndex="46" />
+        </SteadyState>
+        <SteadyState Duration="360" Power=".73" Cadence="95">
+            <textevent timeoffset="0" message="Okay, lift your cadence up to 90-100 RPM and let&apos;s get into this 5th interval!" locIndex="47" />
+            <textevent timeoffset="60" message="Keep your cadence up here. Don&apos;t lose your form as you fatigue either." locIndex="48" />
+            <textevent timeoffset="180" message="That&apos;s halfway through! If you&apos;re at 90 RPM now, try to aim closer to 95-100 RPM for these last 3 mins." locIndex="49" />
+            <textevent timeoffset="300" message="Final minute here! Keep that cadence up!" locIndex="50" />
+        </SteadyState>
+        <SteadyState Duration="60" Power=".53" Cadence="85">
+            <textevent timeoffset="0" message="BOOM! Just 1 more interval left today, you&apos;re doing awesome here!" locIndex="51" />
+            <textevent timeoffset="30" message="This final effort is going to be a high cadence effort from start to finish!" locIndex="52" />
+            <textevent timeoffset="40" message="Aim for 100+ RPM here, then we&apos;ll put this workout to bed!" locIndex="53" />
+        </SteadyState>
+        <SteadyState Duration="360" Power=".73" pace="" Cadence="100">
+            <textevent timeoffset="0" message="Let&apos;s make it happen here! Bring the cadence way up, but prevent any bouncing in the saddle." locIndex="54" />
+            <textevent timeoffset="60" message="Now, aim for consistency in your cadence and form right to the end!" locIndex="55" />
+            <textevent timeoffset="180" message="That&apos;s halfway through! Keep it up, and don&apos;t let your cadence drop off now." locIndex="56" />
+            <textevent timeoffset="300" message="Keep the leg speed high for this final minute, and if you can, bring it up another 2-3 RPM." locIndex="57" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow=".4" PowerHigh=".53" Cadence="85">
+            <textevent timeoffset="0" message="Way to get it done today, my friend! That&apos;s a solid workout in under an hour." locIndex="58" />
+            <textevent timeoffset="60" message="We&apos;ll spend a few more minutes cooling down, then do your best recovering and refueling for the next workout!" locIndex="59" />
+            <textevent timeoffset="70" message="See you next time :-)" locIndex="60" />
+        </Cooldown>
+    </workout>
+</workout_file>

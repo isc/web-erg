@@ -1,0 +1,34 @@
+<workout_file>
+    <uniqueId>195c13b1-0828-44aa-ac2d-8a0e0a815aa8</uniqueId>
+    <legacyIdHash>425557329</legacyIdHash>
+    <category>Hunter&apos;s Challenge</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 4</subcategory>
+    <name>Week 4.7 - THE. MEGA.</name>
+    <description>Are you ready punk? Think you can do THE. MEGA? I doubt it.</description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <workout>
+        <Warmup PowerLow="0.55" PowerHigh="0.72" Duration="2100" />
+        <IntervalsT Repeat="10" OnDuration="60" OffDuration="60" Cadence="105" CadenceResting="85" OnPower="0.87" OffPower="0.83" />
+        <SteadyState Duration="300" Power="0.72" />
+        <SteadyState Duration="300" Power="0.95" />
+        <SteadyState Duration="180" Power="0.72" />
+        <SteadyState Duration="300" Power="0.95" />
+        <IntervalsT Repeat="6" OnDuration="60" OffDuration="60" Cadence="105" CadenceResting="85" OnPower=".87" OffPower=".83" />
+        <SteadyState Duration="300" Power="1.14" />
+        <SteadyState Duration="300" Power="0.72" />
+        <SteadyState Duration="720" Power="0.87" />
+        <SteadyState Duration="600" Power="0.72" />
+        <SteadyState Duration="720" Power="0.87" />
+        <SteadyState Duration="600" Power="0.72" />
+        <SteadyState Duration="1080" Power="0.95" />
+        <SteadyState Duration="600" Power="0.72" />
+        <SteadyState Duration="30" Power="1.60" />
+        <SteadyState Duration="300" Power="0.72" />
+        <SteadyState Duration="30" Power="1.60" />
+        <SteadyState Duration="300" Power="0.72" />
+        <SteadyState Duration="30" Power="1.60" />
+        <SteadyState Duration="300" Power="0.72" />
+        <Cooldown PowerLow="0.72" PowerHigh=".55" Duration="900" />
+    </workout>
+</workout_file>

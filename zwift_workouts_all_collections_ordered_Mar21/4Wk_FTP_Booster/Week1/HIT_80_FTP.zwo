@@ -1,0 +1,42 @@
+<workout_file>
+    <uniqueId>b56a6dc0-d952-4358-b7d1-0363591275ad</uniqueId>
+    <legacyIdHash>2876865607</legacyIdHash>
+    <author>Zwift</author>
+    <categoryOverride>Threshold</categoryOverride>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>4wk FTP Booster</category>
+    <subcategory>Week 1</subcategory>
+    <name>Week 1.1 - HIT 80% FTP #1</name>
+    <description>A short session to get you started on your FTP journey.
+        With 4 x 5min moderate intensity intervals, you will be introducing yourself to the duration of the final test session in 4 weeks time.
+        Training at the top end of your tempo range will improve aerobic capabilities by increasing muscle glycogen stores.
+    </description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS" />
+        <tag name="4weekftp" />
+    </tags>
+    <overrideHash>2876865607</overrideHash>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.42449999" PowerHigh="0.70449996" />
+        <SteadyState Duration="120" Power="0.50449997" />
+        <SteadyState Duration="180" Power="0.70449996">
+            <textevent timeoffset="170" message="High RPM in sprints." locIndex="1" />
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="10" OffDuration="50" OnPower="1.7544999" OffPower="0.50449997" Cadence="110" CadenceResting="80" />
+        <SteadyState Duration="120" Power="0.50449997" />
+        <SteadyState Duration="300" Power="0.90449995" Cadence="95" />
+        <SteadyState Duration="180" Power="0.50449997" Cadence="85">
+            <textevent timeoffset="134" message="Steady power in the intervals" locIndex="2" />
+            <textevent timeoffset="40" message="Observe your starting and" locIndex="3" y="240" />
+            <textevent timeoffset="40" message="finishing HR for each interval." locIndex="4" y="270" />
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="300" OffDuration="60" OnPower="0.80449992" OffPower="0.61449999">
+            <textevent timeoffset="683" message="2 down, 2 to go" locIndex="5" />
+        </IntervalsT>
+        <SteadyState Duration="240" Power="0.50449997" Cadence="85">
+            <textevent timeoffset="30" message="Did your HR response change" locIndex="6" y="240" />
+            <textevent timeoffset="30" message="much for each interval?" locIndex="7" y="270" />
+        </SteadyState>
+    </workout>
+</workout_file>

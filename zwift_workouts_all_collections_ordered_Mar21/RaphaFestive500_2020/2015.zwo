@@ -1,0 +1,105 @@
+<workout_file>
+    <uniqueId>54a95189-034e-463b-8db1-1d1947e50153</uniqueId>
+    <legacyIdHash>300159063</legacyIdHash>
+    <author>Matt Rowe (Rowe &amp; King)</author>
+    <categoryOverride>60 to 90 minutes to burn</categoryOverride>
+    <name>2015</name>
+    <description>In today&apos;s workout, you will complete a 15 minute &apos;Free Ride&apos;, 5 x short blocks of Threshold (Zone 4) before finishing with a ramped effort right up to Zone 6. 
+
+Rapha Cycling Club (RCC) was founded in 2015.
+
+This is a really varied workout to keep your mind engaged and body working hard. The key block is the 15 minute free ride - will you push hard, or take it steady? Your answer should depend on how much you want the Festive 500? If you want it - go hard, to give yourself a big training stress in this final workout.</description>
+    <sportType>bike</sportType>
+    <category>2020 Rapha Festive 500</category>
+    <tags>
+        <tag name="RCCFestive500" />
+    </tags>
+    <workout>
+        <Warmup Duration="480" PowerHigh="0.95" PowerLow="0.35">
+            <textevent message="Welcome to 2015 - the final workout within Rapha&apos;s Festive 500 6 part Workout Series" locIndex="1" timeoffset="15" />
+            <textevent message="Todays session is a varied workout that aims to keep you focused for the longest workout of the training series" locIndex="2" timeoffset="40" />
+            <textevent message="This workout will help develop your endurance - a fundamental attribute for completing RCC&apos;s Festive 500 - 500km in 8 days" locIndex="3" timeoffset="52" />
+            <textevent message="Todays first effort is a 15 minute Free Ride - get stuck in and keep the chain tight. Spend as much time in Zone 3 and above as possible" locIndex="4" timeoffset="90" />
+            <textevent message="Did you know - Rapha Cycling Club (RCC) was founded in 2015?" locIndex="5" timeoffset="130" />
+            <textevent message="We start with a warm up - a progressive ramped effort from 35-95% of your FTP" locIndex="6" timeoffset="170" />
+            <textevent message="A progressive ramp is all you need to warm you up for a session like today&apos;s, with a gradual easing in to the efforts" locIndex="7" timeoffset="200" />
+            <textevent message="Consistency is key to getting fit - try ride your bike as often as possible, incorporating structure like today, but also some general road riding" locIndex="8" timeoffset="280" />
+            <textevent message="Combining specificity indoors on Zwift with more relaxed general group riding IRL is the magic formula!" locIndex="9" timeoffset="320" />
+            <textevent message="You should be feeling pretty warmed up now. Do you have a sweat on?" locIndex="10" timeoffset="410" />
+            <textevent message="Coming to the end of the ramped warm up - hopefully you have a sweat on, and are feeling ready for some efforts?" locIndex="11" timeoffset="460" />
+        </Warmup>
+        <SteadyState Duration="120" Power="0.45">
+            <textevent message="How do your legs feel after the warm up?" locIndex="12" timeoffset="10" />
+            <textevent message="By completing a consistent warm up - you will get used to your body&apos;s sensations, helping you to understand when you are on a good and bad day" locIndex="13" timeoffset="40" />
+            <textevent message="Get your fan cranked up - it&apos;s important to keep cool when on Zwift as you don&apos;t have the air flow like on the road" locIndex="14" timeoffset="70" />
+            <textevent message="Here we go let&apos;s get stuck in to todays efforts" locIndex="15" timeoffset="110" />
+        </SteadyState>
+        <FreeRide Duration="1800" FlatRoad="1">
+            <textevent message="How about we hit Zone 3 for the next 6 Minutes?" locIndex="16" timeoffset="1303" />
+            <textevent message="How about we hit Zone 5 for the next 1 Minute?" locIndex="17" timeoffset="858" />
+            <textevent message="How about you try not to let anyone overtake you for the next minute?" locIndex="18" timeoffset="603" />
+            <textevent message="Fartlek provides us with &apos;unstructured structure&apos; - a great way to train hard, but keeping it mentally relaxing. Just going with the flow..." locIndex="19" timeoffset="200" />
+            <textevent message="How about we do a 15 second sprint? Go!" locIndex="20" timeoffset="352" />
+            <textevent message="How about we do a 15 second sprint? Go!" locIndex="21" timeoffset="200" />
+            <textevent message="How about we do a 15 second sprint? Go!" locIndex="22" timeoffset="1021" />
+            <textevent message="How about we do a 15 second sprint? Go!" locIndex="23" timeoffset="94" />
+            <textevent message="Good work team - solid effort so far." locIndex="24" timeoffset="444" />
+            <textevent message="Now for a little structure..." locIndex="25" timeoffset="1749" />
+            <textevent message="This Free Ride section is a chance to go with the flow - ride hard at times, easy easy at times and throw a few sprints in there too" locIndex="26" timeoffset="20" />
+            <textevent message="We call this type of training &apos;Fartlek&apos; - a mix of efforts to keep it fun, engaging and help get you fit!" locIndex="27" timeoffset="40" />
+        </FreeRide>
+        <IntervalsT OffDuration="180" OffPower="0.75" OnDuration="180" OnPower="1" Repeat="5">
+            <textevent message="Now for some Zone 4 spikes - we will ride at your threshold for 3 minutes at a time" locIndex="28" timeoffset="5" />
+            <textevent message="Good work - settle in to these Zone 4 efforts - nice and controlled" locIndex="29" timeoffset="460" />
+            <textevent message="Pump those legs, like pistons in a well oiled machine" locIndex="30" timeoffset="680" />
+            <textevent message="The Zone 4 spikes may hurt a little, but should be manageable?" locIndex="31" timeoffset="60" />
+            <textevent message="In the Zone 2 (Endurance Zone) phases, it&apos;s a chance for you to catch your breath and recover" locIndex="32" timeoffset="200" />
+            <textevent message="Remember - we are trying to train your endurance. As the volume goes down - the intensity must go up!" locIndex="33" timeoffset="350" />
+            <textevent message="Keep your body still - nice and relaxed" locIndex="34" timeoffset="500" />
+            <textevent message="This is the longest workout of the Rapha Festive 500 Workout Series - an efficient way to train" locIndex="35" timeoffset="750" />
+            <textevent message="Whilst less than 1.5 hours of training time, this is worth over 2 hours of road riding training " locIndex="36" timeoffset="800" />
+            <textevent message="The effectiveness is due to Muscle Tension" locIndex="37" timeoffset="850" />
+            <textevent message="Hold it right there - great work" locIndex="38" timeoffset="920" />
+            <textevent message="Do you find your position more comfortable on Indoors or IRL?" locIndex="39" timeoffset="1100" />
+            <textevent message="Even if you use the same bike indoors and outdoors, there can be a difference in how you feel?" locIndex="40" timeoffset="1130" />
+            <textevent message="More often or not, it&apos;s the lack of being able to move indoors that causes a little discomfort?" locIndex="41" timeoffset="1160" />
+            <textevent message="Make sure you sit up, stretch and relieve your back every now and then" locIndex="42" timeoffset="1190" />
+            <textevent message="Keep an eye on your cadence - when riders get tired, there is often a tendency to start pedalling slower" locIndex="43" timeoffset="1300" />
+            <textevent message="But that slower cadence increases the muscular demand on your tired muscles" locIndex="44" timeoffset="1330" />
+            <textevent message="A wise man once said &apos;You can&apos;t push your way out of trouble - you can only pedal your way&apos;" locIndex="45" timeoffset="1360" />
+            <textevent message="Meaning when you are tired - keep your cadence high. You can&apos;t grind your way home" locIndex="46" timeoffset="1390" />
+            <textevent message="Keep it up - one more Zone 4 block to go" locIndex="47" timeoffset="1440" />
+            <textevent message="You are going to cruise Rapha&apos;s Festive 500 training like this!" locIndex="48" timeoffset="1500" />
+            <textevent message="Hold your cadence steady, and let ERG mode do the hard work for you!" locIndex="49" timeoffset="130" />
+            <textevent message="Fatigue will be setting in now, but try to ignore it. Switch off and think about how strong you will be next month!" locIndex="50" timeoffset="1550" />
+            <textevent message="Top effort - cruise it home now to round off this block " locIndex="51" timeoffset="1700" />
+        </IntervalsT>
+        <SteadyState Duration="240" Power="0.4">
+            <textevent message="Easy 4 minutes recovery" locIndex="52" timeoffset="24" />
+            <textevent message="Sit up, take a drink and stretch your back out a little" locIndex="53" timeoffset="120" />
+            <textevent message="How are the legs feeling? One more ramped effort to go... you&apos;ve got this!" locIndex="54" timeoffset="200" />
+        </SteadyState>
+        <Ramp Duration="360" PowerHigh="1.3" PowerLow="0.5">
+            <textevent message="Last effort of the day - a 6 minute ramped effort, topping out at 130% of FTP!" locIndex="55" timeoffset="10" />
+            <textevent message="This is a tough effort, coming at the end of a long workout. Do your best" locIndex="56" timeoffset="60" />
+            <textevent message="As the intensity increases, you are edging closer to the end of the session" locIndex="57" timeoffset="120" />
+            <textevent message="Keep your cadence consistent - 80rpm + as a guide" locIndex="58" timeoffset="180" />
+            <textevent message="Keep it up - good work!" locIndex="59" timeoffset="240" />
+            <textevent message="Dig in now - this is where it really hurts!" locIndex="60" timeoffset="280" />
+            <textevent message="1 minute left! Hang on in there, champ!" locIndex="61" timeoffset="300" />
+            <textevent message="Keep going - great effort!" locIndex="62" timeoffset="320" />
+            <textevent message="All the way - you can do it!" locIndex="63" timeoffset="340" />
+            <textevent message="WHAT A SHIFT! GOOD JOB" locIndex="64" timeoffset="355" />
+        </Ramp>
+        <SteadyState Duration="60" Power="0.25">
+            <textevent message="60 seconds to catch your breath before we cool down" locIndex="65" timeoffset="10" />
+            <textevent message="Well done - that was a huge workout! You did yourself proud by getting this far" locIndex="66" timeoffset="30" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerHigh="0.35" PowerLow="0.6">
+            <textevent message="Great workout - well done!" locIndex="67" timeoffset="20" />
+            <textevent message="The training we complete now will really benefit you come Rapha&apos;s Festive 500 Challenge!" locIndex="68" timeoffset="100" />
+            <textevent message="Make sure you supplement this training plan with some IRL riding, for some added volume" locIndex="69" timeoffset="200" />
+            <textevent message="Thanks for joining - see you on the next workout!" locIndex="70" timeoffset="285" />
+        </Cooldown>
+    </workout>
+</workout_file>

@@ -1,0 +1,30 @@
+<workout_file>
+    <uniqueId>1445aac8-b5d4-48c7-9db2-8a191e364483</uniqueId>
+    <legacyIdHash>2689148862</legacyIdHash>
+    <name>Week 4.2 - Day 2</name>
+    <description>SFR/Tempo</description>
+    <author>Marco Pinotti</author>
+    <category>10-12wk FTP Builder</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 4</subcategory>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/MarcoPinotti_Logo.tga</authorIcon>
+    <sportType>bike</sportType>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.5" PowerHigh="0.65" />
+        <Ramp Duration="300" PowerLow="0.8" PowerHigh="0.95" />
+        <Ramp Duration="120" PowerLow="0.45" PowerHigh="0.65" />
+        <Ramp Duration="300" PowerLow="0.8" PowerHigh="0.95" />
+        <Ramp Duration="120" PowerLow="0.45" PowerHigh="0.65" />
+        <IntervalsT Repeat="4" OnDuration="180" OffDuration="180" OffPower="0.52" OnPower="0.89">
+            <TextNotification timeOffset="0" duration="10" font_size="0.5" x="400" y="500" text="60 RPM CADENCE" />
+            <TextNotification timeOffset="180" duration="10" font_size="0.5" x="400" y="500" text="100 RPM CADENCE" />
+            <TextNotification timeOffset="360" duration="10" font_size="0.5" x="400" y="500" text="60 RPM CADENCE" />
+            <TextNotification timeOffset="540" duration="10" font_size="0.5" x="400" y="500" text="100 RPM CADENCE" />
+            <TextNotification timeOffset="720" duration="10" font_size="0.5" x="400" y="500" text="60 RPM CADENCE" />
+            <TextNotification timeOffset="900" duration="10" font_size="0.5" x="400" y="500" text="100 RPM CADENCE" />
+            <TextNotification timeOffset="1080" duration="10" font_size="0.5" x="400" y="500" text="60 RPM CADENCE" />
+            <TextNotification timeOffset="1260" duration="10" font_size="0.5" x="400" y="500" text="100 RPM CADENCE" />
+        </IntervalsT>
+        <Cooldown Duration="600" PowerLow="0.5" PowerHigh="0.65" />
+    </workout>
+</workout_file>

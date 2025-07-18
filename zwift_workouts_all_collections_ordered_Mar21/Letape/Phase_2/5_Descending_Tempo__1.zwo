@@ -1,0 +1,101 @@
+<workout_file>
+    <uniqueId>b90386b2-cbc8-41d5-89a3-4aa9fd0a8110</uniqueId>
+    <legacyIdHash>956817869</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Phase 2.5 - Descending Tempo #1</name>
+    <description>In this session we are focusing on your ability to ride at a tempo effort after first producing a short, high powered acceleration.
+
+However, the target power of the tempo interval descends over the course of the effort.</description>
+    <sportType>bike</sportType>
+    <category>L&apos;Etape du Tour Training Club</category>
+    <subcategory>Phase 2</subcategory>
+    <visibleAfterTime>1555632060</visibleAfterTime>
+    <tags />
+    <workout>
+        <Warmup Duration="300" PowerLow="0.45000002" PowerHigh="0.75" pace="1">
+            <textevent timeoffset="40" message="The focus of today&apos;s session during this &apos;late base&apos; training phase," locIndex="1" />
+            <textevent timeoffset="60" message="...is to complete extended tempo efforts after first completing a high intensity effort." locIndex="2" />
+            <textevent timeoffset="130" message="During this training phase we are looking to improve our aerobic efficiency at a sub-threshold intensity." locIndex="3" />
+            <textevent timeoffset="200" message="The main set of today&apos;s workout consists of 3 descending tempo intervals." locIndex="4" />
+            <textevent timeoffset="220" message="However, each tempo effort is proceeded with a 20sec high power surge." locIndex="5" />
+            <textevent timeoffset="280" message="But first we need to complete our warmup." locIndex="6" />
+        </Warmup>
+        <IntervalsT Repeat="2" OnDuration="60" OffDuration="60.000004" OnPower="0.80000001" OffPower="0.5552085" pace="1">
+            <textevent timeoffset="20" message="Our warmup works it&apos;s way through some 1min efforts." locIndex="7" />
+            <textevent timeoffset="90" message="These are low intensity efforts. No problem for you." locIndex="8" />
+            <textevent timeoffset="220" message="Next, we increase the target power to a threshold level." locIndex="9" />
+        </IntervalsT>
+        <IntervalsT Repeat="2" OnDuration="60" OffDuration="60" OnPower="0.95449996" OffPower="0.55449998" pace="1">
+            <textevent timeoffset="40" message="Just 1min in length, these will not accumulate any fatigue." locIndex="10" />
+            <textevent timeoffset="200" message="You should be ready for a longer threshold effort now." locIndex="11" />
+        </IntervalsT>
+        <SteadyState Duration="120" Power="0.55449998" pace="1">
+            <textevent timeoffset="20" message="A chance to catch your breath now, before we complete the warmup with a 5min threshold effort." locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.95449996" pace="0">
+            <textevent timeoffset="30" message="Find your rhythm early and settle into the effort." locIndex="13" />
+            <textevent timeoffset="92" message="A short threshold effort is ideal to prepare the body for the main set ahead." locIndex="14" />
+            <textevent timeoffset="150" message="Halfway now." locIndex="15" />
+            <textevent timeoffset="200" message="You should be working up a good sweat now." locIndex="16" />
+            <textevent timeoffset="250" message="A little hard work now, will make the opening efforts in the main set a little easier." locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.50449997" pace="0">
+            <textevent timeoffset="30" message="Now for a recovery period before the main set." locIndex="18" />
+            <textevent timeoffset="92" message="Be sure to hydrate during these longer efforts." locIndex="19" />
+            <textevent timeoffset="130" message="Tempo work is the type of training that all riders will respond to." locIndex="20" />
+            <textevent timeoffset="150" message="A good block of tempo work will prepare you for the high intensity work in the next training phase." locIndex="21" />
+            <textevent timeoffset="200" message="In today&apos;s session, each tempo block is completed after first performing a 20sec hard acceleration." locIndex="22" />
+            <textevent timeoffset="220" message="But we are decreasing the target power this time." locIndex="23" />
+            <textevent timeoffset="240" message="As if you have hit the bottom of the climb with the intensity too high and it is gradually reduced." locIndex="24" />
+            <textevent timeoffset="280" message="Ready for the first 20sec acceleration." locIndex="25" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.6044999" pace="0" />
+        <Ramp Duration="300" PowerLow="0.90449995" PowerHigh="0.76449996" pace="0">
+            <textevent timeoffset="30" message="Now settle into your tempo effort." locIndex="26" />
+            <textevent timeoffset="50" message="The legs should feel a little pain from the opening effort." locIndex="27" />
+            <textevent timeoffset="100" message="The hard work comes first today." locIndex="28" />
+            <textevent timeoffset="120" message="The target power gradually decreases." locIndex="29" />
+            <textevent timeoffset="150" message="That&apos;s halfway. great work." locIndex="30" />
+            <textevent timeoffset="200" message="You will be spending a large part of the L&apos;Etape du Tour de France event at this intensity." locIndex="31" />
+            <textevent timeoffset="220" message="It&apos;s not overly hard... but you know you&apos;re working." locIndex="32" />
+            <textevent timeoffset="240" message="Into the last minute now." locIndex="33" />
+        </Ramp>
+        <SteadyState Duration="180" Power="0.50449997" pace="0">
+            <textevent timeoffset="60" message="A brief recovery period before we repeat the effort." locIndex="34" />
+            <textevent timeoffset="90" message="However, this time we are extending the tempo effort out to 6min." locIndex="35" />
+            <textevent timeoffset="170" message="Ready for the 20sec acceleration." locIndex="36" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.6047943" pace="0" />
+        <Ramp Duration="360" PowerLow="0.90449995" PowerHigh="0.76449996" pace="0">
+            <textevent timeoffset="30" message="Now settle into your tempo effort." locIndex="37" />
+            <textevent timeoffset="50" message="Tempo intensity is just above pure aerobic training and just below working at lactate threshold." locIndex="38" />
+            <textevent timeoffset="100" message="It would be difficult to sustain this intensity for hours on end." locIndex="39" />
+            <textevent timeoffset="120" message="But with the right training you will be able to complete many blocks of tempo effort." locIndex="40" />
+            <textevent timeoffset="150" message="We are going for 7min this time." locIndex="41" />
+            <textevent timeoffset="330" message="That&apos;s halfway now." locIndex="42" />
+            <textevent timeoffset="200" message="Tempo training also helps to maintain your lactate threshold level." locIndex="43" />
+            <textevent timeoffset="220" message="It&apos;s not overly hard... but you know you&apos;re working." locIndex="44" />
+            <textevent timeoffset="300" message="Into the last minute now." locIndex="45" />
+        </Ramp>
+        <SteadyState Duration="180" Power="0.5" pace="0">
+            <textevent timeoffset="60" message="A brief recovery period before we repeat the effort." locIndex="46" />
+            <textevent timeoffset="90" message="However, this time we are extending the tempo effort out to 7min." locIndex="47" />
+            <textevent timeoffset="170" message="Ready for the 20sec acceleration." locIndex="48" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.6044999" pace="0" />
+        <Ramp Duration="420" PowerLow="0.90449995" PowerHigh="0.76449996" pace="0">
+            <textevent timeoffset="30" message="Now settle into your tempo effort." locIndex="49" />
+            <textevent timeoffset="50" message="This last effort is 7min in duration." locIndex="50" />
+            <textevent timeoffset="100" message="This will be 18min of tempo work today." locIndex="51" />
+            <textevent timeoffset="120" message="That&apos;s a great amount of quality intensity today." locIndex="52" />
+            <textevent timeoffset="210" message="That&apos;s halfway. great work." locIndex="53" />
+            <textevent timeoffset="300" message="You will be spending a large part of the L&apos;Etape du Tour de France event at this intensity." locIndex="54" />
+            <textevent timeoffset="320" message="It&apos;s not overly hard... but you know you&apos;re working." locIndex="55" />
+            <textevent timeoffset="360" message="Into the last minute now." locIndex="56" />
+        </Ramp>
+        <SteadyState Duration="300" Power="0.50449997" pace="0">
+            <textevent timeoffset="80" message="That was a very good workout effort today." locIndex="57" />
+            <textevent timeoffset="200" message="Ensure you have rehydrated adequately after the workout." locIndex="58" />
+        </SteadyState>
+    </workout>
+</workout_file>

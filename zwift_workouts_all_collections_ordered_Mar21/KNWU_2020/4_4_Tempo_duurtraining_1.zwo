@@ -1,0 +1,39 @@
+<workout_file>
+    <uniqueId>f46e89df-db4a-45d1-8ac5-de5df033b6ee</uniqueId>
+    <legacyIdHash>154258622</legacyIdHash>
+    <author>KNWU Fondo</author>
+    <name>Week 4.4 - Tempo-duurtraining (1u)</name>
+    <category>KNWU Fondo Wintertraining</category>
+    <subcategory>Week 4</subcategory>
+    <description>Met deze training verhoog je je basissnelheid.</description>
+    <sportType>bike</sportType>
+    <tags />
+    <entid>487</entid>
+    <workout>
+        <Warmup Duration="1200" PowerHigh="0.65" PowerLow="0.25">
+            <textevent timeoffset="5" message="Welkom bij het KNWU Fondo Wintertrainingsprogramma" locIndex="1" />
+            <textevent timeoffset="10" message="Vandaag staat er een tempo-duurtraining op het programma." locIndex="2" />
+            <textevent timeoffset="15" message="Met deze training verhoog je je basissnelheid." locIndex="3" />
+            <textevent timeoffset="20" message="In deze training doen we 2 blokken: 10 min actief, 5 min herstel." locIndex="4" />
+            <textevent timeoffset="25" message="Eerst even opwarmen." locIndex="5" />
+            <textevent timeoffset="1180" message="Maak jezelf klaar voor de kern" locIndex="6" />
+        </Warmup>
+        <IntervalsT Repeat="2" OnDuration="600" OnPower="0.83" OffDuration="300" OffPower="0.65" CadenceHigh="100" CadenceLow="80">
+            <textevent timeoffset="19" message="Blok één!" locIndex="7" />
+            <textevent timeoffset="23" message="Kies een cadans tussen de 80-100rpm. Hoger is beter." locIndex="8" />
+            <textevent timeoffset="30" message="Let wel op je houding" locIndex="9" />
+            <textevent timeoffset="605" message="Tijd voor wat herstel" locIndex="10" />
+            <textevent timeoffset="865" message="Klaar voor het tweede blok?" locIndex="11" />
+            <textevent timeoffset="902" message="Zelfde recept!" locIndex="12" />
+            <textevent timeoffset="914" message="Hou je romp goed stil" locIndex="13" />
+            <textevent timeoffset="923" message="Kies een cadans tussen de 80-100rpm. Hoger is beter." locIndex="14" />
+            <textevent timeoffset="1430" message="Laatste minuut, hou vol!" locIndex="15" />
+        </IntervalsT>
+        <Cooldown Duration="900" PowerHigh="0.25" PowerLow="0.65">
+            <textevent timeoffset="16" message="Tijd voor de cooling down" locIndex="16" />
+            <textevent timeoffset="869" message="Bedankt voor je inzet vandaag." locIndex="17" />
+            <textevent timeoffset="875" message="We hopen je weer terug te zien!" locIndex="18" />
+        </Cooldown>
+    </workout>
+    <activitySaveName>Tempo-duurtraining - KNWU Fondo Wintertraining</activitySaveName>
+</workout_file>

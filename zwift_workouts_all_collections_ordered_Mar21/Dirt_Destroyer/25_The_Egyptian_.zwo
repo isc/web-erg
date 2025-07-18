@@ -1,0 +1,110 @@
+<workout_file>
+    <uniqueId>25acbc09-a443-40e7-bda5-8250357371c7</uniqueId>
+    <legacyIdHash>35690091</legacyIdHash>
+    <author>Matt Rowe</author>
+    <categoryOverride>60 to 90 minutes to burn</categoryOverride>
+    <name>Week 6.4 - The Egyptian</name>
+    <description>This is one of the final workouts within the Dirt Destroyer which is a pyramid style workout, hence "The Egyptian".
+
+This is an all round session which will help to boost your endurance, but also your strength as we hit the peak of the pyramid. Here we complete a 1 minute effort at 109% of FTP, critically at 70rpm which really draws on your strength and is what really makes this part of the pyramid a challenge. 
+
+This workout keeps things interesting by changing the intensity and the monotony of a steady state effort.</description>
+    <sportType>bike</sportType>
+    <category>Dirt Destroyer</category>
+    <subcategory>Week 6</subcategory>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <tags />
+    <workout>
+        <Warmup Duration="420.00003" PowerLow="0.43673915" PowerHigh="0.74978262" pace="0">
+            <textevent timeoffset="5" message="Welcome to the 2nd to last workout of the Dirt Destroyer!" locIndex="1" />
+            <textevent timeoffset="20" message="Todays session is 1 hour 10 minutes long and aims to replicate some of the physical demands of mountain biking." locIndex="2" />
+            <textevent timeoffset="43" message="The Egyptian is a fun session, where we complete a wide variety of effort types in a pyramid style" locIndex="3" />
+            <textevent timeoffset="51" message="A variety of intensities, durations and cadences make this session very much like a mountain bike ride or race" locIndex="4" />
+            <textevent timeoffset="101" message="Today, we bring together the attributes that we have developed over the last few weeks." locIndex="5" />
+            <textevent timeoffset="121" message="We complete two pyramids today - let&apos;s do it. As always - maintain a still upper body." locIndex="6" />
+            <textevent timeoffset="188" message="Stay composed, be efficient and and aim for that fluid pedaling style." locIndex="7" />
+            <textevent timeoffset="198" message="Turn your fan up for this one - it&apos;s going to get hot!" locIndex="8" />
+            <textevent timeoffset="390" message="You should be feeling pretty warmed up now. Do you have a sweat on?" locIndex="9" />
+            <textevent timeoffset="401" message="Here comes the first activation effort" locIndex="10" />
+        </Warmup>
+        <SteadyState Duration="30.000002" Power="1.0944999" pace="0" />
+        <SteadyState Duration="180.00002" Power="0.50449997" pace="0">
+            <textevent timeoffset="10" message="How did that effort feel? Your blood will be warming up nicely now" locIndex="11" />
+            <textevent timeoffset="25" message="I hope your fan is on full speed?" locIndex="12" />
+            <textevent timeoffset="150" message="Another sprint incoming - but time for a simple back flip..." locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="30.000002" Power="1.0944999" pace="0" />
+        <SteadyState Duration="240" Power="0.50449997" pace="0">
+            <textevent timeoffset="9.9999313" message="How did the back flip go? Better not ask? Ok..." locIndex="14" />
+            <textevent timeoffset="148" message="Let&apos;s do some efforts instead. Are you ready?" locIndex="15" />
+            <textevent timeoffset="285" message="A measured effort is required for this session, as we build up and back down through the pyramids." locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.75449997" pace="0" Cadence="65">
+            <textevent timeoffset="56.00013" message="Settle into this first effort, which is at 65rpm, so quite a slow cadence." locIndex="17" />
+            <textevent timeoffset="129.00005" message="Work on grinding the effort out, which really draws on your strength." locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.81449997" pace="0" Cadence="110">
+            <textevent timeoffset="10" message="This effort is completely the opposite of the last 4 minutes, as we aim for 110rpm." locIndex="19" />
+            <textevent timeoffset="30" message="Get those legs spinning - your heart and lungs will get a good workout here too." locIndex="20" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.95449996" pace="0">
+            <textevent timeoffset="84" message="We take it up a notch again to Zone 4 - ride at your chosen cadence." locIndex="21" />
+            <textevent timeoffset="144" message="This is the calm before the storm... ahead is really technical uphill section that we need to get through." locIndex="22" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.0944999" pace="0" Cadence="70">
+            <textevent timeoffset="12.000086" message="This is the peak of the 1st pyramid - the hardest part. A bit of a grind riding at a low cadence, whilst producing high power." locIndex="23" />
+            <textevent timeoffset="43" message="Can you feel your legs throbbing!? Great feeling hey!" locIndex="24" />
+        </SteadyState>
+        <SteadyState Duration="180.00002" Power="0.95449996" pace="0">
+            <textevent timeoffset="12" message="This is a real test of recovery! We are still riding at Zone 4, so recovering after the last minute is difficult!" locIndex="25" />
+            <textevent timeoffset="82" message="The more composed you can be, the quicker you will recover. Focus on your breathing and try to control it." locIndex="26" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.81449997" pace="0">
+            <textevent timeoffset="58" message="Settle in to this effort at 81% of FTP as we round off this first block." locIndex="27" />
+            <textevent timeoffset="158" message="The aim of todays session is simply to get you used to riding at differing intensities - just like the demands of mountain biking!" locIndex="28" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.75449997" pace="0">
+            <textevent timeoffset="71" message="No heroics here - as we step it down to 75% of your FTP for the final effort of the first block." locIndex="29" />
+            <textevent timeoffset="151" message="It is not sustainable to complete top end efforts every session. Both physically and mentally." locIndex="30" />
+            <textevent timeoffset="191" message="Sessions like today should be engaging, whilst not being too physically or mentally challenging - compared with some of the other sessions in this workout series." locIndex="31" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.50449997" pace="0">
+            <textevent timeoffset="60" message="One block done - we go again in 3 minutes. Good job team." locIndex="32" />
+            <textevent timeoffset="83" message="You should see your heart rate dropping here, as you recover?" locIndex="33" />
+            <textevent timeoffset="289" message="2nd pyramid coming up, so make sure you take a drink and have your fan on!" locIndex="34" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.75449997" pace="0" Cadence="65">
+            <textevent timeoffset="15" message="Find the grind again! Back to riding at a low cadence, which really recruits your Type II muscle fibers, which are glycogen hungry!" locIndex="35" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.81449997" pace="0" Cadence="110">
+            <textevent timeoffset="61" message="Try and keep your upper body still during this high cadence effort. We want to avoid &apos;bouncing&apos; on the saddle." locIndex="36" />
+            <textevent timeoffset="101" message="The goal here is for your legs to be firing like pistons, whilst your upper body is solid as rock." locIndex="37" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.95449996" pace="0">
+            <textevent timeoffset="41.00021" message="We ramp the session up to a block of Zone 4 now - feel free to jump out of the saddle if you like?" locIndex="38" />
+            <textevent timeoffset="102" message="In mountain biking, we spend a lot of time in and out of the saddle, making little spikes in effort to overcome obstacles." locIndex="39" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.0944999" pace="0" Cadence="70">
+            <textevent timeoffset="5" message="Big effort to get up this steep bank! 109% of FTP at a cadence of 70rpm" locIndex="40" />
+            <textevent timeoffset="45" message="Keep it up - good work!" locIndex="41" />
+        </SteadyState>
+        <SteadyState Duration="180.00002" Power="0.95449996" pace="0">
+            <textevent timeoffset="19" message="Let&apos;s settle back in to Zone 4, as we try to recover whilst still producing high power!" locIndex="42" />
+            <textevent timeoffset="100" message="You should notice your heart rate dropping a few bpm through this Zone 4 effort, as you recover?" locIndex="43" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.81449997" pace="0">
+            <textevent timeoffset="114" message="Zone 3 now, as the intensity drops a little further. Top effort so far!" locIndex="44" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.75449997" pace="0">
+            <textevent timeoffset="132" message="Today&apos;s session is a great way to train your aerobic base / endurance whilst keeping it fun and engaging!" locIndex="45" />
+            <textevent timeoffset="152" message="Plus, we touched upon your all important strength!" locIndex="46" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.50449997" pace="0">
+            <textevent timeoffset="22" message="Fantastic riding guys!" locIndex="47" />
+            <textevent timeoffset="52" message="It&apos;s a fine line between getting enough rest and getting too much / not training enough. My advice is to use motivation as your guide." locIndex="48" />
+            <textevent timeoffset="72" message="If you are not motivated for a particular session, chances are you won&apos;t apply yourself properly and will not get the best out of your workout." locIndex="49" />
+            <textevent timeoffset="92" message="It may be worth delaying the session until the following day, when you are more &apos;up for it&apos;? Quality over quantity!" locIndex="50" />
+            <textevent timeoffset="255" message="Ride On!" locIndex="51" />
+        </SteadyState>
+    </workout>
+</workout_file>

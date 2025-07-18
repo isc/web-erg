@@ -1,0 +1,50 @@
+<workout_file>
+    <uniqueId>ed210df7-fb23-49a1-86aa-3ae22feef104</uniqueId>
+    <legacyIdHash>369716343</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <categoryOverride>Sweet Spot</categoryOverride>
+    <name>Week 6.4 - Tempo into VO2 Max #1</name>
+    <category>2018 PRL100 Prep</category>
+    <subcategory>Week 6</subcategory>
+    <description>After a long tempo effort to deplete your energy reserves, take on a series of sustained VO2max intervals. VO2max is a hard zone to work in any time, but it is that much harder for the tempo work that preceded it.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout>
+        <Warmup Duration="180" PowerLow="0.5" PowerHigh="0.5">
+            <textevent timeoffset="20" message="A big endurance day, where we complete a long tempo effort." locIndex="1" />
+            <textevent timeoffset="30" message="There&apos;s no getting away from the benefits of completing long steady efforts." locIndex="2" />
+            <textevent timeoffset="40" message="It&apos;s the staple session of many professionals." locIndex="3" />
+            <textevent timeoffset="100" message="To warm up, we complete some 1min threshold efforts." locIndex="4" />
+        </Warmup>
+        <IntervalsT Repeat="3" OnDuration="30" OffDuration="60" OnPower="0.9" OffPower="0.6" />
+        <SteadyState Duration="150" Power="0.72">
+            <textevent timeoffset="10" message="Now to increase the effort a little, leading into the tempo effort." locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="1800" Power="0.82">
+            <textevent timeoffset="30" message="There are many positives to this long effort." locIndex="6" />
+            <textevent timeoffset="50" message="It will improve your response to the VO2 efforts at the end, by first depleting your carb stores." locIndex="7" />
+            <textevent timeoffset="60" message="It trains your working muscles to utilise your carbs aerobically." locIndex="8" />
+            <textevent timeoffset="70" message="And, it pushes your threshold up." locIndex="9" />
+            <textevent timeoffset="120" message="To help the time pass, adjust your cadence by + or - 5rpm every 5min." locIndex="10" />
+            <textevent timeoffset="900" message="How are you feeling? Is your HR still climbing?" locIndex="11" />
+            <textevent timeoffset="1700" message="Not long to go now. Start thinking about the VO2 efforts coming up." locIndex="12" />
+            <textevent timeoffset="1750" message="There&apos;s no recovery before the VO2 efforts. Straight into it!" locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.17">
+            <textevent timeoffset="20" message="Try to maintain the same cadence throughout the effort." locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.55">
+            <textevent timeoffset="150" message="2 to go!" locIndex="15" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.17" />
+        <SteadyState Duration="180" Power="0.55">
+            <textevent timeoffset="150" message="Last effort. This has been a big day!" locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.17" />
+        <SteadyState Duration="180" Power="0.55">
+            <textevent timeoffset="160" message="Great work. You need a good cool down after that!" locIndex="17" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow="0.75" PowerHigh="0.5" />
+    </workout>
+</workout_file>

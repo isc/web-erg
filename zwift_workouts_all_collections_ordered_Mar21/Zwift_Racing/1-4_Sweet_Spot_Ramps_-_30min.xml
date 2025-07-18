@@ -1,0 +1,91 @@
+<workout_file>
+    <uniqueId>70ff6bae-3400-4ee5-adb5-63db4776ac71</uniqueId>
+    <legacyIdHash>2433976741</legacyIdHash>
+    <author>Zwift</author>
+    <categoryOverride>Sweet Spot</categoryOverride>
+    <name>Week 1.4 - Sweet Spot Ramps - 30min</name>
+    <description>A sweet spot focused workout where you&apos;ll accumulate 30min in total at that intensity.</description>
+    <sportType>bike</sportType>
+    <category>Z Racing</category>
+    <subcategory>Week 1</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="480" PowerLow=".5" PowerHigh=".8">
+            <textevent timeoffset="0" message="Welcome to a sweet spot focused workout today!" locIndex="1" />
+            <textevent timeoffset="10" message="We&apos;re going to start off with an 8min warmup at a comfortable cadence." locIndex="2" />
+            <textevent timeoffset="20" message="And we&apos;ll catch up soon once you&apos;re settled in." locIndex="3" />
+            <textevent timeoffset="180" message="Do you have your fluids, fan, and towel all set?" locIndex="4" />
+            <textevent timeoffset="240" message="All right, let&apos;s rundown the plan for today." locIndex="5" />
+            <textevent timeoffset="250" message="We&apos;ll be tackling 3, 10min sweet spot (SST) ramp intervals today." locIndex="6" />
+            <textevent timeoffset="260" message="With a 5min recovery in between each." locIndex="7" />
+            <textevent timeoffset="270" message="SST work is a favorite of mine since it provides great training stimulus." locIndex="8" />
+            <textevent timeoffset="280" message="But, doesn&apos;t require a ton of time to achieve, and can be repeated frequently." locIndex="9" />
+            <textevent timeoffset="290" message="SST is also a common intensity you&apos;ll be working at in Zwift races on the flats." locIndex="10" />
+            <textevent timeoffset="300" message="So, even more appropriate to include in this plan :-)" locIndex="11" />
+            <textevent timeoffset="310" message="Let&apos;s carry on with the warmup today." locIndex="12" />
+            <textevent timeoffset="420" message="Final minute of the warmup, then we&apos;ll take a couple of minutes easy." locIndex="13" />
+        </Warmup>
+        <SteadyState Duration="120" Power=".50" pace="" Cadence="85">
+            <textevent timeoffset="0" message="Great work! Now, let&apos;s bring it down really easy for a couple of minutes at a comfortable cadence." locIndex="14" />
+            <textevent timeoffset="30" message="Take few deep breaths and recover." locIndex="15" />
+            <textevent timeoffset="60" message="The main set is just around the bend, remember we&apos;re aiming for 3, 10min ramp intervals at SST." locIndex="16" />
+            <textevent timeoffset="70" message="The ramp will start at 85% FTP, and finish at 95% FTP." locIndex="17" />
+            <textevent timeoffset="80" message="With a target cadence of 90-100 RPM." locIndex="18" />
+            <textevent timeoffset="110" message="Ready? Bring your cadence up just a bit now." locIndex="19" />
+        </SteadyState>
+        <Ramp Duration="600" PowerLow=".85" PowerHigh=".95" Cadence="95" pace="">
+            <textevent timeoffset="0" message="Let&apos;s get into it today! Use this 1st minute to just ease into things and find your rhythm." locIndex="20" />
+            <textevent timeoffset="10" message="If you don&apos;t have a cadence sensor, just spin at a comfortable cadence." locIndex="21" />
+            <textevent timeoffset="60" message="Okay awesome work! Now, settle down and tap out the rhythm." locIndex="22" />
+            <textevent timeoffset="180" message="How are you doing so far? You should feel like you&apos;re more than able to match this interval." locIndex="23" />
+            <textevent timeoffset="300" message="That&apos;s halfway! Remember to be taking frequent sips of fluid during these workouts and wipe that sweat away." locIndex="24" />
+            <textevent timeoffset="480" message="You should see a steady increase in your heart rate over these intervals as well." locIndex="25" />
+            <textevent timeoffset="490" message="And ideally equal spacing between power and heart rate if you have the graph at the bottom of your screen." locIndex="26" />
+            <textevent timeoffset="500" message="This is also called power to heart rate &apos;coupling&apos;." locIndex="27" />
+            <textevent timeoffset="540" message="Final minute!" locIndex="28" />
+            <textevent timeoffset="590" message="Push yourself all the way to the arch!" locIndex="29" />
+        </Ramp>
+        <SteadyState Duration="300" Power=".65" pace="" Cadence="85">
+            <textevent timeoffset="0" message="Beautiful work! Now, let&apos;s take the effort down and recover here. We have 2 more of those to do." locIndex="30" />
+            <textevent timeoffset="10" message="Breathe...We&apos;ll catch up with 1min to go." locIndex="31" />
+            <textevent timeoffset="240" message="1min to go. We&apos;re going to be repeating that same interval again next." locIndex="32" />
+            <textevent timeoffset="290" message="Ready? Bring your cadence up a bit again now." locIndex="33" />
+        </SteadyState>
+        <Ramp Duration="600" PowerLow=".88" PowerHigh=".95" Cadence="95" pace="">
+            <textevent timeoffset="0" message="Okay, here we go with the 2nd SST interval!" locIndex="34" />
+            <textevent timeoffset="10" message="It&apos;s normal and okay for this one to feel more challenging compared to the 1st." locIndex="35" />
+            <textevent timeoffset="20" message="This is because your legs have some work in them and the muscles are a little fatigued." locIndex="36" />
+            <textevent timeoffset="60" message="1min into things again. Settle down now and tap out that familiar rhythm." locIndex="37" />
+            <textevent timeoffset="180" message="So far so good? You can always change the FTP bias if things are feeling too easy/hard." locIndex="38" />
+            <textevent timeoffset="190" message="Use your arrow keys, or the Zwift Companion app." locIndex="39" />
+            <textevent timeoffset="300" message="That&apos;s halfway! Remember to be taking frequent sips of fluid during these workouts and wipe that sweat away." locIndex="40" />
+            <textevent timeoffset="480" message="Just 2min remain for the 2nd interval today, you&apos;re looking GREAT!" locIndex="41" />
+            <textevent timeoffset="540" message="C&apos;mon! Dig now. You&apos;re almost done with this!" locIndex="42" />
+            <textevent timeoffset="590" message="Push yourself all the way to the arch!!" locIndex="43" />
+        </Ramp>
+        <SteadyState Duration="300" Power=".65" pace="" Cadence="85">
+            <textevent timeoffset="0" message="Done! Let&apos;s recover again here and get ready for the finale." locIndex="44" />
+            <textevent timeoffset="10" message="We&apos;ll catch up again with 1min to go." locIndex="45" />
+            <textevent timeoffset="240" message="Ready for the finale? I want the same effort and cadence again next." locIndex="46" />
+            <textevent timeoffset="290" message="Bring your cadence up a bit again now." locIndex="47" />
+        </SteadyState>
+        <Ramp Duration="600" PowerLow=".88" PowerHigh=".95" Cadence="95" pace="">
+            <textevent timeoffset="0" message="Let&apos;s make it happen here! Make this finale just as good as the 1st interval." locIndex="48" />
+            <textevent timeoffset="120" message="You should ideally a similar heart rate trend for this 3rd interval." locIndex="49" />
+            <textevent timeoffset="130" message="However, it&apos;s okay if you notice a &apos;decoupling&apos; where the heart rate rises faster." locIndex="50" />
+            <textevent timeoffset="140" message="This is due to dehydration, overheating, and/or fatigue." locIndex="51" />
+            <textevent timeoffset="150" message="Most of the time, it&apos;s due to fatigue and your body using a greater number of motor units." locIndex="52" />
+            <textevent timeoffset="160" message="The greater the number of motor units being used, the greater the energy demand, and higher heart rate." locIndex="53" />
+            <textevent timeoffset="300" message="Halfway through this finale! You&apos;re looking awesome, my friend!" locIndex="54" />
+            <textevent timeoffset="420" message="Take a drink here and let&apos;s finish up these final 3mins!" locIndex="55" />
+            <textevent timeoffset="540" message="Last minute! DIG here!" locIndex="56" />
+            <textevent timeoffset="590" message="PUSH TO THE ARCH!" locIndex="57" />
+        </Ramp>
+        <Cooldown Duration="300" PowerLow=".3" PowerHigh=".5">
+            <textevent timeoffset="0" message="Way to go! Solid 30mins of SST work done by you today!" locIndex="58" />
+            <textevent timeoffset="10" message="Let&apos;s take 5min and cooldown here." locIndex="59" />
+            <textevent timeoffset="20" message="Then hop off the bike and start rehydrating and refueling for the next one." locIndex="60" />
+            <textevent timeoffset="30" message="See you next time :-)" locIndex="61" />
+        </Cooldown>
+    </workout>
+</workout_file>

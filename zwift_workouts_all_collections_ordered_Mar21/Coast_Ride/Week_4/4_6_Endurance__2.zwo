@@ -1,0 +1,74 @@
+<workout_file>
+    <uniqueId>99b8fbfe-b933-46a7-85db-bfcc262a36ff</uniqueId>
+    <legacyIdHash>656308078</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <categoryOverride>Endurance</categoryOverride>
+    <name>Week 4.6 - Endurance #2</name>
+    <description>Long, low intensity efforts aren&apos;t the only way to build endurance. By incorporating short surges into a steady effort you will increase your oxygen uptake and training stimulus.
+
+Completing a low intensity effort with a surge every 4 minutes should feel comfortable, but the constant change in power and surging, will provide you with big gains in endurance.
+
+</description>
+    <sportType>bike</sportType>
+    <entid>491</entid>
+    <category>Zwift Coast Ride</category>
+    <subcategory>Week 4</subcategory>
+    <tags>
+    </tags>
+    <workout>
+        <Warmup Duration="360" PowerLow="0.45" PowerHigh="0.75">
+            <textevent timeoffset="30" message="We begin the warm up with a gentle aerobic effort." locIndex="1" />
+        </Warmup>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="50" message="Now for a 1min high power, effort." locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.09" />
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="110" message="To prepare for the efforts we ramp up to a 4min threshold effort now." locIndex="3" />
+        </SteadyState>
+        <Ramp Duration="180" PowerLow="0.5" PowerHigh="0.9">
+            <textevent timeoffset="160" message="Nearly at threshold power now." locIndex="4" />
+            <textevent timeoffset="170" message="Time for the 4min threshold effort." locIndex="5" />
+        </Ramp>
+        <SteadyState Duration="240" Power="0.9" />
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="100" message="Long, low intensity efforts aren&apos;t the only way to build endurance." locIndex="6" />
+            <textevent timeoffset="120" message="Incorporating short surges into your effort will increase oxygen uptake and training stimulus." locIndex="7" />
+        </SteadyState>
+        <Ramp Duration="240" PowerLow="0.56" PowerHigh="0.75">
+            <textevent timeoffset="100" message="Completing a low intensity effort with a surge every 4 minutes should feel comfortable" locIndex="8" />
+            <textevent timeoffset="120" message="The constant change in power and surging, will provide you with big gains in endurance." locIndex="9" />
+            <textevent timeoffset="230" message="Ready for the 1st surge." locIndex="10" />
+        </Ramp>
+        <SteadyState Duration="10" Power="1.5" />
+        <Ramp Duration="240" PowerLow="0.56" PowerHigh="0.75">
+            <textevent timeoffset="10" message="Back to low aerobic power now." locIndex="11" />
+        </Ramp>
+        <SteadyState Duration="10" Power="1.5" />
+        <Ramp Duration="240" PowerLow="0.56" PowerHigh="0.75" />
+        <SteadyState Duration="10" Power="1.5" />
+        <Ramp Duration="240" PowerLow="0.56" PowerHigh="0.75" />
+        <SteadyState Duration="10" Power="1.5" />
+        <Ramp Duration="240" PowerLow="0.56" PowerHigh="0.75">
+            <textevent timeoffset="10" message="Observe your HR after each surge. Is it gradually increasing?" locIndex="12" />
+        </Ramp>
+        <SteadyState Duration="10" Power="1.5" />
+        <Ramp Duration="240" PowerLow="0.56" PowerHigh="0.75">
+            <textevent timeoffset="20" message="Just 4 more surges to go." locIndex="13" />
+            <textevent timeoffset="40" message="Still feel comfortable?" locIndex="14" />
+        </Ramp>
+        <SteadyState Duration="10" Power="1.5" />
+        <Ramp Duration="240" PowerLow="0.56" PowerHigh="0.75" />
+        <SteadyState Duration="10" Power="1.5" />
+        <Ramp Duration="240" PowerLow="0.56" PowerHigh="0.75">
+            <textevent timeoffset="30" message="This is a low intensity session that provides great aerobic gains." locIndex="15" />
+            <textevent timeoffset="40" message="The kind of session that could be used weekly as your endurance day." locIndex="16" />
+        </Ramp>
+        <SteadyState Duration="10" Power="1.5" />
+        <Ramp Duration="240" PowerLow="0.56" PowerHigh="0.75">
+            <textevent timeoffset="230" message="Into the last surge now, then we cool down." locIndex="17" />
+        </Ramp>
+        <SteadyState Duration="10" Power="1.5" />
+        <Cooldown Duration="300" PowerLow="0.75" PowerHigh="0.45" />
+    </workout>
+</workout_file>

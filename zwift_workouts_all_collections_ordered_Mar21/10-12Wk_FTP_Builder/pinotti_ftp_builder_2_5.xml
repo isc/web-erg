@@ -1,0 +1,28 @@
+<workout_file>
+    <uniqueId>33c21f02-268f-47e4-824d-65067fb43299</uniqueId>
+    <legacyIdHash>1908002452</legacyIdHash>
+    <name>Week 2 (Skip if you are in shape).5 - Day 5 - Optional</name>
+    <description>Optional</description>
+    <author>Marco Pinotti</author>
+    <category>10-12wk FTP Builder</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 2 (Skip if you are in shape)</subcategory>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/MarcoPinotti_Logo.tga</authorIcon>
+    <sportType>bike</sportType>
+    <workout>
+        <SteadyState Duration="300" PowerLow="0.5" PowerHigh="0.55" />
+        <SteadyState Duration="60" PowerLow="0.7" PowerHigh="0.75" />
+        <SteadyState Duration="300" PowerLow="0.5" PowerHigh="0.55" />
+        <SteadyState Duration="60" PowerLow="0.7" PowerHigh="0.75" />
+        <SteadyState Duration="300" PowerLow="0.5" PowerHigh="0.55" />
+        <SteadyState Duration="60" PowerLow="0.7" PowerHigh="0.75" />
+        <SteadyState Duration="300" PowerLow="0.5" PowerHigh="0.55" />
+        <SteadyState Duration="60" PowerLow="0.7" PowerHigh="0.75" />
+        <SteadyState Duration="300" PowerLow="0.5" PowerHigh="0.55" />
+        <SteadyState Duration="60" PowerLow="0.7" PowerHigh="0.75" />
+        <SteadyState Duration="300" PowerLow="0.5" PowerHigh="0.55" />
+        <SteadyState Duration="60" PowerLow="0.7" PowerHigh="0.75" />
+        <SteadyState Duration="300" PowerLow="0.5" PowerHigh="0.55" />
+        <SteadyState Duration="60" PowerLow="0.7" PowerHigh="0.75" />
+    </workout>
+</workout_file>

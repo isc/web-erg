@@ -1,0 +1,80 @@
+<workout_file>
+    <uniqueId>0a8ecf58-934c-4406-98c0-ce9b5e1eba05</uniqueId>
+    <legacyIdHash>747694229</legacyIdHash>
+    <author>Matt Rowe (Rowe &amp; King)</author>
+    <categoryOverride>Daily Fit</categoryOverride>
+    <name>Week 4.1 - The &apos;Grind&apos; Finale</name>
+    <description>This session aims to replicate the demands of a mountain bike ride / event. 
+
+Mountain biking generally involves far more variations in effort compared with road riding - so plenty of surges and time spent being over geared! We also spend a lot of time &apos;on and off&apos; the power, so short spells going  hard to get over an obstacle, followed by a freewheel or very low power on a descent or little dip.
+
+We touch upon all of these aspects in todays session, as we start off alternating every 30 seconds between riding hard at a low cadence, and riding easy - as if we are riding through an undulating single track. Then we make a ramp in effort, which finishes with a 30 second near max effort up a steep, rocky banking! </description>
+    <sportType>bike</sportType>
+    <category>Dirt Destroyer</category>
+    <subcategory>Week 4</subcategory>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow="0.25449997" PowerHigh="0.75449997" pace="0">
+            <textevent timeoffset="5" message="Hello there, Mountain Bikers and welcome once again to another session within Zwift&apos;s MTB Workout Series! ERG Mode is not recommended for this session." locIndex="1" />
+            <textevent timeoffset="80" message="Todays session is 50 minutes long and aims to replicate some of the physical demands of mountain biking." locIndex="2" />
+            <textevent timeoffset="120" message="We start by alternating between a hard effort and riding easy, as if we were riding on underrating and technical terrain." locIndex="3" />
+            <textevent timeoffset="150" message="The we complete a ramped effort, before finishing with a near max effort in the saddle!" locIndex="4" />
+            <textevent timeoffset="240" message="To start, it’s a standard 10 minute progressive warm up and 10 second activation sprint to get us in the zone, both physically and mentally." locIndex="5" />
+            <textevent timeoffset="500" message="You should be starting to feel sweaty by now and like you are ready to train?" locIndex="6" />
+            <textevent timeoffset="570" message="Nearing the end of the warm up now - your blood will be nice and warm, ready to supply our muscles with oxygen. " locIndex="7" />
+        </Warmup>
+        <SteadyState Duration="60.000004" Power="0.50449997" pace="0">
+            <textevent timeoffset="12" message="A minute to relax &amp; have drink before a &apos;10 second activation sprint&apos;" locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.0944999" pace="0" />
+        <SteadyState Duration="120.00001" Power="0.50449997" pace="0">
+            <textevent timeoffset="13" message="2 minutes easy before effort 1" locIndex="9" />
+        </SteadyState>
+        <IntervalsT Repeat="10" OnDuration="30" OffDuration="30" OnPower="0.90449995" OffPower="0.40450001" pace="0" Cadence="65" CadenceResting="100">
+            <textevent timeoffset="13" message="This first 10 minutes alternates every 30 seconds between a hard effort at a low cadence, and an easy effort at a high cadence of 100rpm" locIndex="10" />
+            <textevent timeoffset="130" message="Grind the low cadence efforts out - they are real leg burning efforts as we recruit plenty of &apos;glycogen hungry&apos; fast twitch muscle fibres" locIndex="11" />
+            <textevent timeoffset="200" message="Stay focused, especially in the low cadence parts. There are few opportunities to switch off in mountain biking!" locIndex="12" />
+            <textevent timeoffset="230" message="The easy parts of this block however are times where you can switch off, to try and recover." locIndex="13" />
+            <textevent timeoffset="270" message="When riding hard, think of the effort as having to navigate some technical terrain. IRL, form and composure are key. Keep your head up for good vision" locIndex="14" />
+        </IntervalsT>
+        <Ramp Duration="180" PowerLow="0.40450001" PowerHigh="1.0545" pace="0">
+            <textevent timeoffset="31" message="This ramped effort starts easy, but ramps up quickly - as always, being focused is key." locIndex="15" />
+            <textevent timeoffset="61" message="Sit upright, for good vision, a strong frame, and maximum power!" locIndex="16" />
+            <textevent timeoffset="91" message="Don&apos;t think about being aero - it&apos;s a much less important factor compared with road riding and time trialling." locIndex="17" />
+            <textevent timeoffset="171" message="Good work team - hang in there, and get ready before arguably the hardest effort of the whole MTB workout series..." locIndex="18" />
+        </Ramp>
+        <SteadyState Duration="30" Power="1.1544999" pace="0" Cadence="65">
+            <textevent timeoffset="2" message="Let&apos;s go - potentially the hardest effort of the MTB workout series!" locIndex="19" />
+            <textevent timeoffset="12" message="Big power at a low cadence = HUGE crank torque and strength demand! Just like riding up a steep, technical climb." locIndex="20" />
+            <textevent timeoffset="23" message="The only way to get over steep technical climbs is to do it quick - big effort, get the job done." locIndex="21" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.40450001" pace="0">
+            <textevent timeoffset="103" message="Time to recover before we repeat the first half of the session in block 2! Who has sore legs?" locIndex="22" />
+        </SteadyState>
+        <IntervalsT Repeat="10" OnDuration="30" OffDuration="30" OnPower="0.90449995" OffPower="0.40450001" pace="0" Cadence="65" CadenceResting="100">
+            <textevent timeoffset="13" message="We go again - try and anticipate the increase in effort every 30seconds so you don&apos;t get bogged down at a crazy low cadence!" locIndex="23" />
+            <textevent timeoffset="33" message="Increase your power a second or two ahead of the effort starting to negate the slight lag in game." locIndex="24" />
+            <textevent timeoffset="130" message="Keep squeezing, and try to make the most of the short 30 second recovery phases" locIndex="25" />
+            <textevent timeoffset="200" message="Stay focused, especially in the low cadence parts. There are few opportunities to switch off in mountain biking!" locIndex="26" />
+            <textevent timeoffset="230" message="The easy parts of this block however are times where you can switch off, to try and recover." locIndex="27" />
+            <textevent timeoffset="270" message="As always, keep your head up for good vision. You can try riding a few of these efforts out of the saddle if you like? Added variety." locIndex="28" />
+        </IntervalsT>
+        <Ramp Duration="180" PowerLow="0.40450001" PowerHigh="1.0545" pace="0">
+            <textevent timeoffset="24" message="Ramp  2 - soak the effort up as the power required increases." locIndex="29" />
+            <textevent timeoffset="144" message="When it gets tough, don&apos;t let your form go. Keep your upper body still. Working on your core will help!" locIndex="30" />
+            <textevent timeoffset="64" message="You can complete this ramped effort at whatever cadence you feel comfortable at, but 80-90rpm is generally considered efficient." locIndex="31" />
+        </Ramp>
+        <SteadyState Duration="30" Power="1.1544999" pace="0" Cadence="65">
+            <textevent timeoffset="8" message="This is a seated effort so your wheel doesn&apos;t spin. This may feel really difficult, but it&apos;s important to be able to produce high power, whilst seated." locIndex="32" />
+            <textevent timeoffset="22" message="Hold on tight - this is a monumental effort!" locIndex="33" />
+        </SteadyState>
+        <Cooldown Duration="350" PowerLow="0.55449998" PowerHigh="0.2545" pace="0">
+            <textevent timeoffset="15.000085" message="Fantastic - 5 minutes cool down now." locIndex="34" />
+            <textevent timeoffset="130" message="Sessions like today really help with your ability to navigate and get over tough technical sections." locIndex="35" />
+            <textevent timeoffset="190" message="You naturally pedal slower on tough sections, which you need to train for as it&apos;s an alien sensation for most road riders." locIndex="36" />
+            <textevent timeoffset="250" message="Important to refuel after this session - carbs, protein and hydrate!" locIndex="37" />
+            <textevent timeoffset="280" message="Make sure you are getting your IRL Mountain Biking in - those skills are not going to to learn themselves." locIndex="38" />
+        </Cooldown>
+    </workout>
+</workout_file>

@@ -1,0 +1,127 @@
+<workout_file>
+    <uniqueId>fc387abb-5547-4f4d-92c1-952f648d547a</uniqueId>
+    <legacyIdHash>354594763</legacyIdHash>
+    <author>Shayne Gaffney</author>
+    <categoryOverride>Sprinting</categoryOverride>
+    <name>Anna Meares - Team Sprint</name>
+    <description>Anna Meares, OAM, is the most decorated female track cyclist of all time, including 6 Olympic medals. The team sprint is one of the most intense things you can do on a bicycle, and this workout will take you through what it feels like to participate in one!</description>
+    <sportType>bike</sportType>
+    <tags />
+    <category>Athlete-Inspired</category>
+    <categoryIndex>1</categoryIndex>
+    <workout>
+        <Warmup Duration="300" PowerHigh="0.75" PowerLow="0.55">
+            <textevent timeoffset="10" message="Hello and welcome to an Anna Meares inspired workout!" locIndex="1" />
+            <textevent timeoffset="20" message="We&apos;ll chat more about her and today&apos;s workout in just a moment. Let&apos;s focus on the warm up now." locIndex="2" />
+            <textevent timeoffset="120" message="Hopefully, the pedal stroke is starting to feel a bit more fluid. Keep easing into the day." locIndex="3" />
+            <textevent timeoffset="150" message="Awesome work so far! Let&apos;s take a moment to chat about the plan for today." locIndex="4" />
+            <textevent timeoffset="160" message="Anna Meares, is the most decorated female track cyclist of all time, including 6 Olympic medals." locIndex="5" />
+            <textevent timeoffset="170" message="The Australian Team took home the bronze medal in the team sprint in 2012." locIndex="6" />
+            <textevent timeoffset="180" message="The team sprint is one of the most intense things you can do on a bicycle, and this workout will take you through what it feels like to do one!" locIndex="7" />
+            <textevent timeoffset="190" message="After the warm up, the main intervals today will be short, but VERY intense." locIndex="8" />
+            <textevent timeoffset="200" message="The women&apos;s team sprint is a 2-woman event held over 2 laps of the track." locIndex="9" />
+            <textevent timeoffset="210" message="Your teammate will get you flying up to speed in the first lap, then it&apos;s up to you to sprint to the line for the final lap." locIndex="10" />
+            <textevent timeoffset="220" message="Your sprint will be done in &apos;Free Ride&apos; mode, so you&apos;ll be using your gears to decide the power." locIndex="11" />
+            <textevent timeoffset="230" message="We&apos;ll do 3 rounds and take a 5min rest in between to allow you to recharge." locIndex="12" />
+            <textevent timeoffset="240" message="Today should be very challenging for you and will require you to dig deep." locIndex="13" />
+            <textevent timeoffset="250" message="But, this is exactly what Anna is known for! Time to embrace it!" locIndex="14" />
+            <textevent timeoffset="260" message="Let&apos;s carry on with the warm up." locIndex="15" />
+            <textevent timeoffset="290" message="In 10sec, get ready for a little more effort. Aim for a quick cadence." locIndex="16" />
+        </Warmup>
+        <IntervalsT Repeat="1" OnDuration="15" OnPower="1" OffDuration="45" OffPower="0.65">
+            <textevent timeoffset="0" message="Lift your cadence here!" locIndex="17" />
+            <textevent timeoffset="15" message="Nice work! Let&apos;s recover a bit now and we&apos;ll repeat that twice more." locIndex="18" />
+            <textevent timeoffset="50" message="We&apos;re pushing over threshold next! Get those legs ready to work today!" locIndex="19" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="15" OnPower="1.1" OffDuration="45" OffPower="0.65">
+            <textevent timeoffset="0" message="GO GO GO!" locIndex="20" />
+            <textevent timeoffset="15" message="Beauty! These help wake the legs up a bit more in preparation for today&apos;s intense sprint efforts." locIndex="21" />
+            <textevent timeoffset="50" message="Okay, last one of these coming up!" locIndex="22" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="15" OnPower="1.2" OffDuration="45" OffPower="0.65">
+            <textevent timeoffset="0" message="PUSH IT!" locIndex="23" />
+            <textevent timeoffset="15" message="Well done! We have 1 more effort to finish today&apos;s warm up next." locIndex="24" />
+            <textevent timeoffset="25" message="This is a 3min ramp effort which will put the final warm up in the legs before we hit the track." locIndex="25" />
+            <textevent timeoffset="50" message="Keep your cadence comfortable next." locIndex="26" />
+        </IntervalsT>
+        <Ramp Duration="180" PowerLow=".9" PowerHigh="1.05">
+            <textevent timeoffset="0" message="Here we go! You will have a nice sweat going by the end of this one :-)" locIndex="27" />
+            <textevent timeoffset="60" message="Keep your cadence steady as we continue to ramp it up." locIndex="28" />
+            <textevent timeoffset="120" message="Last minute here! Great work!" locIndex="29" />
+        </Ramp>
+        <SteadyState Duration="180" Power="0.55">
+            <textevent timeoffset="0" message="Awesome! That&apos;s it for today&apos;s warm up." locIndex="30" />
+            <textevent timeoffset="10" message="We&apos;ll take 3min easy now, then move onto today&apos;s main set." locIndex="31" />
+            <textevent timeoffset="20" message="Use this time to have a drink, relax, and mentally prepare." locIndex="32" />
+            <textevent timeoffset="90" message="Coming up, we have 3 rounds of women&apos;s team-sprint simulations." locIndex="33" />
+            <textevent timeoffset="100" message="Your teammate will lead you out for the 1st lap..." locIndex="34" />
+            <textevent timeoffset="110" message="Then, it&apos;s up to you to sprint to the finish line!" locIndex="35" />
+            <textevent timeoffset="120" message="And remember, the sprint effort will be done in &apos;Free Ride&apos;, so you&apos;ll be using your gears to decide the power." locIndex="36" />
+            <textevent timeoffset="150" message="Take a few more deep breaths here and get ready!" locIndex="37" />
+            <textevent timeoffset="170" message="Here we go! Get ready for a big surge in effort." locIndex="38" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.2">
+            <textevent timeoffset="0" message="GO GO GO!" locIndex="39" />
+            <textevent timeoffset="10" message="Stay on her wheel! The speed will continue to ramp up!" locIndex="40" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="1.3">
+            <textevent timeoffset="0" message="MORE SPEED!" locIndex="41" />
+        </SteadyState>
+        <FreeRide Duration="30" FlatRoad="1" show_avg="1">
+            <textevent timeoffset="0" message="YOUR TURN! SPRINT TO THE LINE!" locIndex="42" />
+            <textevent timeoffset="10" message="DON&apos;T LET UP!" locIndex="43" />
+            <textevent timeoffset="20" message="GET TO THE ARCH!" locIndex="44" />
+        </FreeRide>
+        <SteadyState Duration="300" Power="0.4">
+            <textevent timeoffset="0" message="Phew! Nice work with that opening round!" locIndex="45" />
+            <textevent timeoffset="10" message="We&apos;ll take 5min easy between, you earned it :-)" locIndex="46" />
+            <textevent timeoffset="60" message="Deep breaths here - get your breathing under control." locIndex="47" />
+            <textevent timeoffset="120" message="Lower that heart rate." locIndex="48" />
+            <textevent timeoffset="180" message="Anna is the 1st Aussie to win individual medals in 4 consecutive Olympics!" locIndex="49" />
+            <textevent timeoffset="190" message="She is such an inspiring athlete!" locIndex="50" />
+            <textevent timeoffset="240" message="In 1min, we&apos;re back on the track again for round #2." locIndex="51" />
+            <textevent timeoffset="250" message="We&apos;ll repeat the same process as before, get ready!" locIndex="52" />
+            <textevent timeoffset="290" message="Prepare for another big surge in effort!" locIndex="53" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.2">
+            <textevent timeoffset="0" message="PICK IT UP!" locIndex="54" />
+            <textevent timeoffset="10" message="STAY WITH HER!" locIndex="55" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="1.3">
+            <textevent timeoffset="0" message="FASTER! C&apos;MON!" locIndex="56" />
+        </SteadyState>
+        <FreeRide Duration="30" FlatRoad="1" show_avg="1">
+            <textevent timeoffset="0" message="ALL YOU HERE! SPRINT!" locIndex="57" />
+            <textevent timeoffset="10" message="DIG DIG DIG!" locIndex="58" />
+            <textevent timeoffset="20" message="REACH FOR THE ARCH!" locIndex="59" />
+        </FreeRide>
+        <SteadyState Duration="300" Power="0.4">
+            <textevent timeoffset="0" message="Nice one! That&apos;s 2 rounds down and just 1 to go." locIndex="60" />
+            <textevent timeoffset="10" message="Let&apos;s rest and recover again here." locIndex="61" />
+            <textevent timeoffset="60" message="Deep breaths again here." locIndex="62" />
+            <textevent timeoffset="120" message="Not many people can claim they have a velodrome named after them..." locIndex="63" />
+            <textevent timeoffset="130" message="but, Anna has exactly that in Brisbane, Australia - how cool!" locIndex="64" />
+            <textevent timeoffset="270" message="30sec, and we&apos;re on! Get ready for one more flash of speed!" locIndex="65" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.2">
+            <textevent timeoffset="0" message="LET&apos;S CRUSH THIS FINALE!" locIndex="66" />
+            <textevent timeoffset="10" message="KEEP YOUR CADENCE UP!" locIndex="67" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="1.3">
+            <textevent timeoffset="0" message="MORE POWER!" locIndex="68" />
+        </SteadyState>
+        <FreeRide Duration="30" FlatRoad="1" show_avg="1">
+            <textevent timeoffset="0" message="EVERYTHING HERE!" locIndex="69" />
+            <textevent timeoffset="10" message="DIG DEEPER!" locIndex="70" />
+            <textevent timeoffset="20" message="BLAST TO THE FINISH LINE!" locIndex="71" />
+        </FreeRide>
+        <Cooldown Duration="300" PowerHigh="0.35" PowerLow="0.55">
+            <textevent timeoffset="0" message="Amazing! I think Anna would be proud of that effort for sure." locIndex="72" />
+            <textevent timeoffset="10" message="Let&apos;s take 5min and cool down now. Way to CRUSH the day!" locIndex="73" />
+            <textevent timeoffset="60" message="Slowly bring your cadence down, take some nice deep breaths." locIndex="74" />
+            <textevent timeoffset="120" message="Thank you for working so hard today!" locIndex="75" />
+            <textevent timeoffset="240" message="Make sure you refuel and rehydrate before your next workout." locIndex="76" />
+            <textevent timeoffset="290" message="Ride On!" locIndex="77" />
+        </Cooldown>
+    </workout>
+</workout_file>

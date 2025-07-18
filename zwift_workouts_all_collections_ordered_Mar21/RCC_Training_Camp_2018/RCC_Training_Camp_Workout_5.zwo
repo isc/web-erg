@@ -1,0 +1,54 @@
+<workout_file>
+    <uniqueId>0500dc55-629b-447e-a290-5ebd3d4e6caa</uniqueId>
+    <legacyIdHash>63064671</legacyIdHash>
+    <author>Matt Rowe (Rowe and King)</author>
+    <name>RCC Training Camp Workout #5</name>
+    <categoryIndex>5</categoryIndex>
+    <category>RCC Training Camp 2018</category>
+    <entid>150</entid>
+    <description>Welcome to the Rapha Cycling Club Training Camp workout 5. This session is called 20-40s and involves pushing in to Zone 5 for 20 seconds, before taking 40 seconds to recover and going again. This session stresses your system similar to that of a long, steady endurance ride - it&apos;s a great workout to replicate a 3 hour club run or group ride, in half the time. The real training benefit comes via the cumulative training effect of the two blocks - so it&apos;s important you maintain focus and commit to every single surge in effort. 
+
+ERG mode is recommended.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="Strength" />
+        <tag name="Endurance" />
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.2545" PowerHigh="0.95449996" pace="0">
+            <textevent timeoffset="5" message="Welcome to the Rapha Cycling Club Training Camp Workout #5. ERG Mode is recommended." locIndex="1" />
+            <textevent timeoffset="12" message="Today&apos;s session is 62 minutes long and is focused on developing your Aerobic Base - a key attribute for all endurance cyclists." locIndex="2" />
+            <textevent timeoffset="20" message="You will complete 2 x 20 Minute blocks of &apos;20-40s&apos; - 20seconds at 115% FTP followed by 40seconds of 60% FTP." locIndex="3" />
+            <textevent timeoffset="30" message="This session aims to stress the body similar to that of a long endurance or group ride - a perfect base builder." locIndex="4" />
+            <textevent timeoffset="40" message="To start, it&apos;s a standard 10 minute progressive warm up to get us in the zone, both physically and mentally." locIndex="5" />
+            <textevent timeoffset="400" message="A special welcome to today&apos;s session to RCC Members - hope you have fun completing this RCC Individual workout, available only to RCC members. Let&apos;s get down to business." locIndex="6" />
+            <textevent timeoffset="500" message="You should be starting to feel sweaty by now and like you are ready to train?" locIndex="7" />
+            <textevent timeoffset="570" message="Nearing the end of the warm up now - your blood will be nice and warm, ready to supply our muscles with oxygen. " locIndex="8" />
+        </Warmup>
+        <SteadyState Duration="60.000004" Power="0.50449997" pace="0">
+            <textevent timeoffset="12" message="A minute to relax &amp; have a drink!" locIndex="9" />
+        </SteadyState>
+        <IntervalsT Repeat="20" OnDuration="20" OffDuration="40" OnPower="1.1544999" OffPower="0.6045" pace="0">
+            <textevent timeoffset="10" message="Right let&apos;s settle in to these efforts - 20 minutes coming up. " locIndex="10" />
+            <textevent timeoffset="500" message="Keep your body still and stay relaxed. Find your zone, and squeeze in to each 20second spike. " locIndex="11" />
+            <textevent timeoffset="1100" message="Good work - stick with it, almost done. " locIndex="12" />
+        </IntervalsT>
+        <SteadyState Duration="600" Power="0.55449998" pace="0">
+            <textevent timeoffset="25" message="10 Minutes recovery - take a drink and chill for a moment. We will be going again in 10 minutes for the final block." locIndex="13" />
+            <textevent timeoffset="235" message="Recovery blocks are vital to ensuring you can complete the whole session properly. Don&apos;t be tempted to press on during recovery phases. It&apos;s a false economy." locIndex="14" />
+            <textevent timeoffset="573" message="Let&apos;s go again - last block" locIndex="15" />
+        </SteadyState>
+        <IntervalsT Repeat="20" OnDuration="10" OffDuration="40" OnPower="1.1544999" OffPower="0.6045" pace="0">
+            <textevent timeoffset="16" message="Let&apos;s nail these efforts - final block." locIndex="16" />
+            <textevent timeoffset="100" message="Right let&apos;s settle in to these efforts - smooth is fast." locIndex="17" />
+            <textevent timeoffset="500" message="Keep your body still and stay relaxed. Find your zone, and squeeze in to each 20second spike. " locIndex="18" />
+            <textevent timeoffset="1100" message="Good work - stick with it, almost done. " locIndex="19" />
+        </IntervalsT>
+        <Cooldown Duration="300" PowerLow="0.65449995" PowerHigh="0.25449997" pace="0">
+            <textevent timeoffset="15" message="Good work - 5 minutes cool down now." locIndex="20" />
+            <textevent timeoffset="100" message="That&apos;s RCC Training Camp Workout 5 Complete - great work. Pain is gain remember." locIndex="21" />
+            <textevent timeoffset="250" message="Important to refuel after this session - carbs, protein and hydrate!" locIndex="22" />
+            <textevent timeoffset="280" message="See you on the next RCC Training Camp Workout" locIndex="23" />
+        </Cooldown>
+    </workout>
+</workout_file>

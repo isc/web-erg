@@ -1,0 +1,18 @@
+<workout_file>
+    <uniqueId>fe7c75fa-5152-478a-abc3-5f83b9edd02c</uniqueId>
+    <legacyIdHash>4277734086</legacyIdHash>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <category>Your First Century</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 8</subcategory>
+    <name>Week 8.4 - Day 4</name>
+    <description>This is hard, but you gotta commit! PUSH IT!</description>
+    <tags />
+    <workout>
+        <Warmup Duration="1200" PowerLow="0.2545" PowerHigh="0.75449997" />
+        <SteadyState Duration="900" PowerLow="0.65449995" PowerHigh="0.65449995" />
+        <IntervalsT Repeat="4" OnDuration="300" OffDuration="300" PowerOnLow="1.2045" PowerOnHigh="1.2045" PowerOffLow="0.50450003" PowerOffHigh="0.50450003" />
+        <SteadyState Duration="1800" PowerLow="0.65000004" PowerHigh="0.65000004" />
+        <Cooldown Duration="900" PowerLow="0.65449995" PowerHigh="0.2545" />
+    </workout>
+</workout_file>

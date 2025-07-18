@@ -1,0 +1,28 @@
+<workout_file>
+    <uniqueId>1e306e51-9820-47c1-a581-0c7a630df5ce</uniqueId>
+    <legacyIdHash>2178950602</legacyIdHash>
+    <category>Active Offseason</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 7</subcategory>
+    <name>Week 7.2 - Cadence Into Over-Unders</name>
+    <description>Spend 10 minutes warming up in Zone 2. Follow with 15 minutes of cadence drills, ending with some hard intervals and a 10 minute cool down.</description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <workout>
+        <Warmup Duration="600" Zone="2" />
+        <FreeRide FlatRoad="1" Duration="900">
+            <TextEvent message="53:15 - 50-60 rpm: PUSH the gear!" locIndex="1" timeoffset="0" />
+            <TextEvent message="39:15 - 90 rpm" locIndex="2" timeoffset="60" />
+            <TextEvent message="53:16 - 50-60 rpm: Resistance training on the bike." locIndex="3" timeoffset="120" />
+            <TextEvent message="39:16 - 90 rpm" locIndex="4" timeoffset="180" />
+            <TextEvent message="53:15 - 50-60 rpm - GRIND!" locIndex="5" timeoffset="240" />
+            <TextEvent message="39:15 - 100 rpm" locIndex="6" timeoffset="300" />
+            <TextEvent message="53:14 - 50-60 rpm - PEDAL SMOOTHLY" locIndex="7" timeoffset="360" />
+            <TextEvent message="39:14 - 110 rpm" locIndex="8" timeoffset="420" />
+            <TextEvent message="53:13 - 50-60 rpm" locIndex="9" timeoffset="480" />
+            <TextEvent message="39:13 - 110 rpm" locIndex="10" timeoffset="540" />
+            <TextEvent message="53:19 - 90 rpm" locIndex="11" timeoffset="600" />
+        </FreeRide>
+        <IntervalsT Repeat="6" OnDuration="30" PowerOnZone="5" OffDuration="60" PowerOffZone="3" />
+        <Cooldown Duration="600" Zone="2" />
+    </workout>
+</workout_file>

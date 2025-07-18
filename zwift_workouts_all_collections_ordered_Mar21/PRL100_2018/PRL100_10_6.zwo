@@ -1,0 +1,65 @@
+<workout_file>
+    <uniqueId>d73ee231-0306-4975-808b-6e6f2beb1636</uniqueId>
+    <legacyIdHash>1797633680</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Week 10.6 - Tempo 1 x 60min</name>
+    <category>2018 PRL100 Prep</category>
+    <subcategory>Week 10</subcategory>
+    <description>Warm up 10min, then complete. 1 x 60min tempo effort @ 85%. However, vary your cadence by + or - 5rpm every 5min. Cool down 10min.</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <SteadyState Duration="60" Power="0.5" pace="0" />
+        <SteadyState Duration="60" Power="0.52999997" pace="0" />
+        <SteadyState Duration="60" Power="0.56" pace="0" />
+        <SteadyState Duration="60" Power="0.58999997" pace="0">
+            <textevent timeoffset="30" message="A tough session mentally, more than physically today." locIndex="1" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.62" pace="0">
+            <textevent timeoffset="30" message="Long steady tempo efforts provide a fantastic stimulus for your body." locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.63999999" pace="0">
+            <textevent timeoffset="30" message="To force your body to adapt, we need to find it&apos;s limit in certain areas." locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.67000002" pace="0">
+            <textevent timeoffset="30" message="Because tempo efforts are lower in intensity, to place this system under stress, we need to go long!" locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.69999999" pace="0">
+            <textevent timeoffset="30" message="To help the time pass, alternate your cadence from 5rpm above your self selected cadence, to 5rpm below." locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.73000002" pace="0">
+            <textevent timeoffset="30" message="Also, adjust your position on the bike from race position to climbing position." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.75999999" pace="0" />
+        <SteadyState Duration="180" Power="0.55000001" pace="0" />
+        <SteadyState Duration="3600" Power="0.85000002" pace="0">
+            <textevent timeoffset="60" message="Ride the 1st 5min at your self selected cadence." locIndex="7" />
+            <textevent timeoffset="300" message="Now increase your cadence by 5rpm and move into your race position." locIndex="8" />
+            <textevent timeoffset="600" message="Now decrease your cadence by 10rpm and move into your climbing position." locIndex="9" />
+            <textevent timeoffset="900" message="Now increase your cadence by 10rpm and move into your race position." locIndex="10" />
+            <textevent timeoffset="1200" message="Now decrease your cadence by 5rpm and move into your climbing position." locIndex="11" />
+            <textevent timeoffset="1500" message="Now increase your cadence by 5rpm and move into your race position." locIndex="12" />
+            <textevent timeoffset="1800" message="Now decrease your cadence by 10rpm and move into your climbing position." locIndex="13" />
+            <textevent timeoffset="2100" message="Now increase your cadence by 5rpm and move into your race position." locIndex="14" />
+            <textevent timeoffset="2400" message="Now decrease your cadence by 10rpm and move into your climbing position." locIndex="15" />
+            <textevent timeoffset="1100" message="How is your HR responding to the change in cadence?" locIndex="16" />
+            <textevent timeoffset="2700" message="Now increase your cadence by 5rpm and move into your race position." locIndex="17" />
+            <textevent timeoffset="3000" message="Now decrease your cadence by 10rpm and move into your climbing position." locIndex="18" />
+            <textevent timeoffset="3300" message="Now increase your cadence by 5rpm and move into your race position." locIndex="19" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.55000001" pace="0">
+            <textevent timeoffset="30" message="That was a huge effort!" locIndex="20" />
+            <textevent timeoffset="60" message="There are big gains in fitness from a session like this." locIndex="21" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.75999999" pace="0" />
+        <SteadyState Duration="60" Power="0.73000002" pace="0" />
+        <SteadyState Duration="60" Power="0.69999999" pace="0" />
+        <SteadyState Duration="60" Power="0.67000002" pace="0" />
+        <SteadyState Duration="60" Power="0.63999999" pace="0" />
+        <SteadyState Duration="60" Power="0.62" pace="0" />
+        <SteadyState Duration="60" Power="0.58999997" pace="0" />
+        <SteadyState Duration="60" Power="0.56" pace="0" />
+        <SteadyState Duration="60" Power="0.52999997" pace="0" />
+        <SteadyState Duration="60" Power="0.5" pace="0" />
+    </workout>
+</workout_file>

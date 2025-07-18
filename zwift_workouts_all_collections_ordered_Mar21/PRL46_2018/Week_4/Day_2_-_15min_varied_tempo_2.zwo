@@ -1,0 +1,54 @@
+<workout_file>
+    <uniqueId>e8253700-1ff7-4d0a-85df-98a7aed8a704</uniqueId>
+    <legacyIdHash>2997293479</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Week 4.2 - 15min varied tempo #2</name>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>2018 PRL46 Prep</category>
+    <subcategory>Week 4</subcategory>
+    <description>Working in your Tempo zone, today we are varying the cadence and power. 
+
+However, start each 15min effort with a &apos;slow starting speed sprint&apos;. Out of the saddle for the sprint, then straight into tempo effort.
+
+Observe your HR during the 15min intervals and look for changes in heart rate when your cadence changes.
+
+Finish the session with some endurance in &apos;free ride&apos; mode.</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <SteadyState Duration="180" Power="0.50449997" pace="0">
+            <textevent timeoffset="130" message="High rpm in warm up sprints" locIndex="9" />
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="10" OffDuration="50" OnPower="1.8026037" OffPower="0.50449997" pace="0" />
+        <SteadyState Duration="180" Power="0.70449996" pace="0" />
+        <SteadyState Duration="120" Power="0.50449997" pace="0" />
+        <SteadyState Duration="300" Power="0.90449995" pace="0">
+            <textevent timeoffset="20" message="This threshold effort will prepare you for the 15min tempo efforts." locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.50449997" pace="0">
+            <textevent timeoffset="140" message="Starting bring your speed down to begin your sprint. " locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="2" pace="0" />
+        <SteadyState Duration="300" Power="0.89449996" pace="0" Cadence="95">
+            <textevent timeoffset="97" message="Changing cadence every 5min during this set." locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.77449995" pace="0" Cadence="90">
+            <textevent timeoffset="9" message="Lowering the target cadence and power for this block." locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.89449996" pace="0" Cadence="95">
+            <textevent timeoffset="10" message="Back up to a higher cadence." locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.50449997" pace="0" Cadence="85">
+            <textevent timeoffset="213.46814" message="Start bringing your speed down to begin your sprint." locIndex="15" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="2" pace="0" />
+        <SteadyState Duration="300" Power="0.77449995" pace="0" Cadence="95">
+            <textevent timeoffset="20" message="This time we increase the intensity throughout the set, along with different rpm." locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.82449996" pace="0" Cadence="90" />
+        <SteadyState Duration="300" Power="0.89449996" pace="0" Cadence="95" />
+        <FreeRide Duration="870" FlatRoad="0">
+            <textevent timeoffset="30" message="Time to build endurance." locIndex="17" />
+        </FreeRide>
+    </workout>
+</workout_file>

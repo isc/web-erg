@@ -1,0 +1,96 @@
+<workout_file>
+    <uniqueId>f69691e1-c7f1-42e0-9a16-119c5d009265</uniqueId>
+    <legacyIdHash>865764930</legacyIdHash>
+    <author>Marco Pinotti</author>
+    <name>Women&apos;s Team Workout</name>
+    <activitySaveName>Zwift Pro Training Camp: Team BikeExchange-Jayco | Women&apos;s Team Workout</activitySaveName>
+    <description>Team BikeExchange-Jayco is Australia&apos;s first a men and women&apos;s UCI WorldTour cycling team, with the 2022 season marking GreenEDGE Cycling&apos;s second decade at the highest level of the sport. This workout, designed by Team BikeExchange-Jayco coaches is a blend of tempo and threshold riding. The main set is 2 x 5 min at 85% of FTP with 60 seconds rest, followed by 5 x 3 min at 93% of FTP with 60 seconds rest. Come well hydrated and with fresh legs, this workout will surely raise your fitness to another level.</description>
+    <sportType>bike</sportType>
+    <category>Pro Training Camp | Team BikeExchange-Jayco</category>
+    <categoryIndex>5</categoryIndex>
+    <visibleAfterTime>1672617660</visibleAfterTime>
+    <overrideHash>865764930</overrideHash>
+    <tags>
+        <tag name="zprotraining" />
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow=".5" PowerHigh=".6">
+            <textevent timeoffset="0" message="Welcome to Zwift&apos;s Pro Training Camp! Today we&apos;ve got a great workout from Women&apos;s UCI WorldTeam Team BikeExchange-Jayco." locIndex="1" />
+            <textevent timeoffset="10" message="If you&apos;re looking for a workout to take your cycling ability to the next level, you&apos;re in the right place!" locIndex="2" />
+            <textevent timeoffset="30" message="Today&apos;s workout is a staple session for the team. It starts with some zone 3 tempo efforts and finishes with zone 4 threshold efforts." locIndex="3" />
+            <textevent timeoffset="40" message="This is a bread and butter workout, great for all types of riders as it adds valuable aerobic capacity to your cycling toolkit." locIndex="4" />
+            <textevent timeoffset="60" message="Let&apos;s explore the main set, first up is 2 x 5 min efforts at 85% of FTP." locIndex="5" />
+            <textevent timeoffset="70" message="85% of FTP is right at the top of zone 3, the point just before you start accumulating lactate acid." locIndex="6" />
+            <textevent timeoffset="80" message="This is a sustainable effort, an effort you can hold for 30 minutes up to a few hours if trained properly." locIndex="7" />
+            <textevent timeoffset="100" message="For the 2nd part of the main set you&apos;ve got threshold efforts, 5 of them to be exact." locIndex="8" />
+            <textevent timeoffset="110" message="Threshold or functional threshold power (FTP) is a major key to cycling success. So doing workouts to increase your FTP is crucial for leveling up." locIndex="9" />
+            <textevent timeoffset="120" message="Threshold workouts improve endurance at high intensity, help grow anaerobic capabilities and build muscular endurance." locIndex="10" />
+            <textevent timeoffset="130" message="Now thats out of the way let&apos;s finish off warm up." locIndex="11" />
+            <textevent timeoffset="240" message="The next block is an extension of today&apos;s warm up. It&apos;s a nice little ramp to get your aerobic engine running smoothly!" locIndex="12" />
+        </Warmup>
+        <Ramp Duration="300" PowerLow=".65" PowerHigh=".9">
+            <textevent timeoffset="0" message="Take this ramp nice and slow to start, follow along with the pace changes and try to keep up." locIndex="13" />
+            <textevent timeoffset="10" message="Keep your bottle and towel nearby, things will get sweaty once we get into the tempo efforts." locIndex="14" />
+            <textevent timeoffset="20" message="Go ahead and grab a drink now, let&apos;s front load your hydration." locIndex="15" />
+            <textevent timeoffset="60" message="Nice job, keep the effort smooth. It will start to build in the last few minutes." locIndex="16" />
+            <textevent timeoffset="180" message="2 more minutes, maintain a comfortably high cadence for the rest of this ramp." locIndex="17" />
+            <textevent timeoffset="240" message="Final minute, the effort should be feeling slightly uncomfortable, hang in there as it continues to build." locIndex="18" />
+            <textevent timeoffset="280" message="We&apos;ve got 2 minutes recovery coming up soon." locIndex="19" />
+        </Ramp>
+        <SteadyState Duration="120" Power=".55">
+            <textevent timeoffset="0" message="Nice work, take the next few minutes easy." locIndex="20" />
+            <textevent timeoffset="60" message="Grab a drink." locIndex="21" />
+            <textevent timeoffset="100" message="First block of 2 x 5 minute tempo efforts coming up next." locIndex="22" />
+            <textevent timeoffset="110" message="Let&apos;s jump into it." locIndex="23" />
+        </SteadyState>
+        <IntervalsT Repeat="2" OnDuration="300" OffDuration="60" OnPower=".85" OffPower=".5" Cadence="95">
+            <textevent timeoffset="0" message="Fire up your engine, we&apos;re aiming to hold a higher than normal cadence for this 5 min tempo effort." locIndex="24" />
+            <textevent timeoffset="10" message="Maintain solid connection all the way around your pedal stroke." locIndex="25" />
+            <textevent timeoffset="20" message="Smooth circles to minimize bouncing." locIndex="26" />
+            <textevent timeoffset="120" message="Keep ticking over those pedals, you&apos;re doing great!" locIndex="27" />
+            <textevent timeoffset="240" message="You&apos;re looking smooth and effortless! Keep it rolling." locIndex="28" />
+            <textevent timeoffset="300" message="60 seconds recovery." locIndex="29" />
+            <textevent timeoffset="310" message="Grab a quick drink before we get back to it." locIndex="30" />
+            <textevent timeoffset="360" message="Back on it!" locIndex="31" />
+            <textevent timeoffset="380" message="Right back to a smooth pedal stroke, no bobbing up and down on the saddle." locIndex="32" />
+            <textevent timeoffset="480" message="Nice work, reward yourself with a quick drink." locIndex="33" />
+            <textevent timeoffset="600" message="Final minute, keep the pressure on." locIndex="34" />
+            <textevent timeoffset="660" message="60 seconds recovery." locIndex="35" />
+            <textevent timeoffset="670" message="This is a short recovery before we start the next set." locIndex="36" />
+            <textevent timeoffset="690" message="Grab a drink, we are back on in 30 seconds." locIndex="37" />
+            <textevent timeoffset="710" message="Next round is 5 x 3 min at 93% effort. Let&apos;s go!" locIndex="38" />
+        </IntervalsT>
+        <IntervalsT Repeat="5" OnDuration="180" OffDuration="60" OnPower=".93" OffPower=".5" Cadence="95">
+            <textevent timeoffset="0" message="Power comes up and cadence remains at 95 rpms." locIndex="39" />
+            <textevent timeoffset="10" message="It&apos;s not too intense, just a good solid threshold effort." locIndex="40" />
+            <textevent timeoffset="180" message="We are staying with the 60 second recoveries from here on out." locIndex="41" />
+            <textevent timeoffset="190" message="Use them as a reminder to continue hydrating." locIndex="42" />
+            <textevent timeoffset="240" message="Let&apos;s push again!" locIndex="43" />
+            <textevent timeoffset="250" message="Focus on a relaxed upper body." locIndex="44" />
+            <textevent timeoffset="260" message="Soft grip on the handle bars, relaxed shoulders, looking straight ahead." locIndex="45" />
+            <textevent timeoffset="420" message="Nice little recovery here!" locIndex="46" />
+            <textevent timeoffset="450" message="Remember to drink." locIndex="47" />
+            <textevent timeoffset="480" message="Rep 3 of 5, now is the time to dig in." locIndex="48" />
+            <textevent timeoffset="490" message="Mentally these middle reps tend to be the hardest." locIndex="49" />
+            <textevent timeoffset="660" message="Way to crush that one." locIndex="50" />
+            <textevent timeoffset="680" message="What time is it? Yep, it&apos;s time to grab another drink." locIndex="51" />
+            <textevent timeoffset="720" message="Only 2 intervals left, you can do this!" locIndex="52" />
+            <textevent timeoffset="800" message="Way to go, you&apos;re making this look easy!" locIndex="53" />
+            <textevent timeoffset="900" message="Nice job, way to breez through that one." locIndex="54" />
+            <textevent timeoffset="930" message="Last effort coming up. Let&apos;s get it!" locIndex="55" />
+            <textevent timeoffset="960" message="Let&apos;s see those perfect circles and your upper body relaxed and still, like a statue." locIndex="56" />
+            <textevent timeoffset="1000" message="Soften those shoulders, don&apos;t let them creep up as you get tired." locIndex="57" />
+            <textevent timeoffset="1140" message="Nicely done, way to push through that last rep." locIndex="58" />
+            <textevent timeoffset="1200" message="Let&apos;s take a few minutes to cool down." locIndex="59" />
+        </IntervalsT>
+        <Cooldown Duration="300" PowerLow=".5" PowerHigh=".65">
+            <textevent timeoffset="0" message="So how was that? You looked great out there and took a great step forward with your aerobic fitness." locIndex="60" />
+            <textevent timeoffset="30" message="Take a few minutes here to let your heart rate come down and legs relax before hopping off the bike." locIndex="61" />
+            <textevent timeoffset="60" message="I hope you enjoyed today&apos;s workout. If you want to repeat it in the future you can always find it in the workouts folder under Pro Training Camp." locIndex="62" />
+            <textevent timeoffset="70" message="It&apos;s a goodie and one to keep in your back pocket for whenever you need a session to continue building fitness." locIndex="63" />
+            <textevent timeoffset="240" message="Thanks for joining!" locIndex="64" />
+            <textevent timeoffset="250" message="See you on the road again soon." locIndex="65" />
+            <textevent timeoffset="290" message="Ride On!" locIndex="66" />
+        </Cooldown>
+    </workout>
+</workout_file>

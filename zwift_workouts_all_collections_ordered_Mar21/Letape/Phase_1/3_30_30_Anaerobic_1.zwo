@@ -1,0 +1,97 @@
+<workout_file>
+    <uniqueId>8729978c-8310-42ac-857a-a833602ba53b</uniqueId>
+    <legacyIdHash>3135700873</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <categoryOverride>VO2 Max</categoryOverride>
+    <name>Phase 1.3 - 30/30 Anaerobic #1</name>
+    <description>During the &apos;Early Base&apos; training period, it&apos;s fine to spend time at intensities above your threshold. The key is in the duration spent above threshold for the interval.
+
+By completing short efforts above threshold you are able to accumulate more time in this area than if completed in longer efforts. Today&apos;s session will give you 8 minutes in Zone 5.
+
+The short recovery periods also increase oxygen uptake. Particularly towards the end of the set!</description>
+    <sportType>bike</sportType>
+    <category>L&apos;Etape du Tour Training Club</category>
+    <subcategory>Phase 1</subcategory>
+    <visibleAfterTime>1553472000</visibleAfterTime>
+    <tags>
+    </tags>
+    <workout>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="30" message="The key to today&apos;s session is in the time spent above threshold, along with the short recovery period." locIndex="1" />
+            <textevent timeoffset="50" message="Believe it or not, indoor training is the ideal setting to work on gaining endurance." locIndex="2" />
+            <textevent timeoffset="70" message="With structured workouts we can implement complicated intervals that would be difficult to complete outdoors. No cars, squirrels or traffic lights indoors" locIndex="3" />
+            <textevent timeoffset="90" message="To work on making gains in endurance capabilities when training indoors, one method is to briefly work above your threshold, then implement a short recovery period." locIndex="4" />
+            <textevent timeoffset="110" message="This short recoverr period has the effect of increasing oxygen uptake, which is where the endurance gains are made." locIndex="5" />
+            <textevent timeoffset="130" message="While the short work interval allows you to accumulate some time above threshold early in your &apos;Early Base&apos; training phase." locIndex="6" />
+            <textevent timeoffset="150" message="To help you prepare for the work ahead the warmup includes some high cadence sprints." locIndex="7" />
+            <textevent timeoffset="150" message="When performing short efforts indoors always be prepared for a 1-2sec lag in the power. Thats right, you&apos;re faster than technology." locIndex="8" />
+            <textevent timeoffset="170" message="The trick is to increase your cadence in the seconds before the intervals begins." locIndex="9" />
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="10" OffDuration="50" OnPower="2" OffPower="0.65" OverUnder="1">
+            <textevent timeoffset="30" message="The sprints come quickly." locIndex="10" />
+            <textevent timeoffset="90" message="Aim to hit the same high cadence for each sprint." locIndex="11" />
+            <textevent timeoffset="150" message="It&apos;s fine to get out of the seat for the sprints." locIndex="12" />
+        </IntervalsT>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="50" message="Now a little longer in the zone 2 effort." locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.75">
+            <textevent timeoffset="20" message="When performing Zone 2 work. Aim to ride with a cadence that is 5-10rpm higher than what is normally comfortable for you." locIndex="14" />
+            <textevent timeoffset="50" message="When we increase the cadence, the effort becomes more aerobic." locIndex="15" />
+            <textevent timeoffset="70" message="A good point to keep in mind during L&apos;Etape du Tour." locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.6">
+            <textevent timeoffset="100" message="To complete the warm up we slowly build up to a threshold effort." locIndex="17" />
+        </SteadyState>
+        <Ramp Duration="300" PowerLow="0.6" PowerHigh="0.85">
+            <textevent timeoffset="30" message="Like the previous Zone 2 effort. Aim to ride with a higher than normal cadence." locIndex="18" />
+            <textevent timeoffset="150" message="The threshold effort you&apos;re about to complete acts as a preload interval for the main set." locIndex="19" />
+            <textevent timeoffset="170" message="It works by completing the warmup and directing blood to the muscle fibers required for the target effort." locIndex="20" />
+            <textevent timeoffset="280" message="Here we go... 5min just below your threshold power!" locIndex="21" />
+        </Ramp>
+        <SteadyState Duration="300" Power="0.92">
+            <textevent timeoffset="30" message="Being just 5min, this should be comfortable for you." locIndex="22" />
+            <textevent timeoffset="50" message="Focus on relaxed breathing during the effort." locIndex="23" />
+            <textevent timeoffset="70" message="Also on maintaining the same cadence throughout the 5min." locIndex="24" />
+            <textevent timeoffset="150" message="Halfway there. You got this." locIndex="25" />
+            <textevent timeoffset="250" message="During L&apos;Etape du Tour you may find yourself performing short efforts at threshold to close a gap or power over a climb." locIndex="26" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="30" message="That completes the warm up. Feeling ready to tackle this workout?" locIndex="27" />
+            <textevent timeoffset="50" message="Now for the main sets of 8x30sec efforts." locIndex="28" />
+            <textevent timeoffset="80" message="Observe your cadence for each 30sec effort. Is it remaining the same for each effort?" locIndex="29" />
+            <textevent timeoffset="100" message="A sign of good fitness is being able to maintain the same cadence throughout the set." locIndex="30" />
+            <textevent timeoffset="140" message="The 30sec efforts will come quickly!" locIndex="31" />
+            <textevent timeoffset="160" message="Ready for the 1st set." locIndex="32" />
+        </SteadyState>
+        <IntervalsT Repeat="8" OnDuration="30" OffDuration="30" OnPower="1.15" OffPower="0.65" OverUnder="1">
+            <textevent timeoffset="40" message="That should have felt comfortable. It&apos;s the multiple efforts that cause the fatigue." locIndex="33" />
+            <textevent timeoffset="70" message="In the last 10-15sec of each effort, you should notice your breathing rate increase." locIndex="34" />
+            <textevent timeoffset="100" message="Keep focusing on controlled breathing." locIndex="35" />
+            <textevent timeoffset="150" message="It&apos;s the short recovery that really provides the training effect." locIndex="36" />
+            <textevent timeoffset="220" message="Halfway... 4 to go!" locIndex="37" />
+            <textevent timeoffset="270" message="The target recovery power of 65%FTP provides the fastest rate of lactate clearance." locIndex="38" />
+            <textevent timeoffset="410" message="Last effort. This has been a great block of work." locIndex="39" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.5">
+            <textevent timeoffset="30" message="A good recovery now before repeating the set." locIndex="40" />
+            <textevent timeoffset="60" message="This is very good training to build endurance." locIndex="41" />
+            <textevent timeoffset="280" message="Here we go... 2nd set." locIndex="42" />
+        </SteadyState>
+        <IntervalsT Repeat="8" OnDuration="30" OffDuration="30" OnPower="1.15" OffPower="0.65" OverUnder="1">
+            <textevent timeoffset="45" message="How do the legs feel? Any fatigue from the 1st set?" locIndex="43" />
+            <textevent timeoffset="160" message="Is your cadence the same as the 1st set" locIndex="44" />
+            <textevent timeoffset="170" message="If your cadence is decreasing, the effort is becoming more muscular endurance." locIndex="45" />
+            <textevent timeoffset="220" message="Halfway... 4 to go!" locIndex="46" />
+            <textevent timeoffset="410" message="Last effort!" locIndex="47" />
+        </IntervalsT>
+        <Cooldown Duration="300" PowerLow="0.7" PowerHigh="0.45">
+            <textevent timeoffset="30" message="Important to cool down appropriately from a session like this." locIndex="48" />
+            <textevent timeoffset="60" message="In terms of building base fitness for L&apos;Etape du Tour, this type of short interval training is very effective." locIndex="49" />
+            <textevent timeoffset="90" message="Remember to check your Zwift email inbox for updates on the L&apos;Etape du Tour Training Club Schedule." locIndex="50" />
+            <textevent timeoffset="110" message="There is more than just structured workouts that will increase your fitness." locIndex="51" />
+            <textevent timeoffset="110" message="We&apos;ve sprinkled in Zwift races and endurance rides to round out the training and keep things fun." locIndex="52" />
+            <textevent timeoffset="125" message="Make sure you&apos;ve read what is included in Phase 1 of the training plan so you don&apos;t miss a beat" locIndex="53" />
+        </Cooldown>
+    </workout>
+</workout_file>

@@ -1,0 +1,24 @@
+<workout_file>
+    <uniqueId>d5d2692c-5908-4bea-9e0a-8c29738ac21d</uniqueId>
+    <legacyIdHash>3929889985</legacyIdHash>
+    <author>QT2</author>
+    <category>Olympic Tri Prep Plan</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 3</subcategory>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/QT2Systems_Logo.tga</authorIcon>
+    <name>Day 6 - Bike</name>
+    <description>Bike - 110 min.
+-35 min. @ 65% FTP
+-30 min. @ 70% FTP
+-20 min. @ 75% FTP
+-15 min. @ 80% FTP
+-10 min. @ 84% FTP 
+  </description>
+    <workout>
+        <SteadyState Duration="2100" Power="0.65449995" />
+        <SteadyState Duration="1800" Power="0.70449996" />
+        <SteadyState Duration="1200" Power="0.75449997" />
+        <SteadyState Duration="900" Power="0.80449992" />
+        <SteadyState Duration="600" Power="0.84449995" />
+    </workout>
+</workout_file>

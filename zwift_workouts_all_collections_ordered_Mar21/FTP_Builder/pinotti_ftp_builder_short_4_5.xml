@@ -1,0 +1,96 @@
+<workout_file>
+    <uniqueId>fe02b81f-c911-452f-9c49-8f39403f0b67</uniqueId>
+    <legacyIdHash>3033222506</legacyIdHash>
+    <description>This optional training can be done in any other day of the week, not necessarily as last day. Also, open the possibility to it in a fasted state.</description>
+    <category>FTP Builder</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 4</subcategory>
+    <name>Week 4.5 - Active Recovery</name>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/MarcoPinotti_Logo.tga</authorIcon>
+    <sportType>bike</sportType>
+    <workout>
+        <SteadyState Duration="300" Power=".53" Cadence="85">
+            <textevent timeoffset="0" message="Welcome to the active recovery day of Week 4 in the 6 week Beginner FTP Builder." locIndex="1" />
+            <textevent timeoffset="10" message="Today is optional, and can be done any other day of the week, not necessarily the last day." locIndex="2" />
+            <textevent timeoffset="120" message="Today&apos;s workout consists of 7 times, 3min at zone 2, plus 3min at zone 1." locIndex="3" />
+            <textevent timeoffset="130" message="Today should be a VERY light day and is really serving to just allow you to spin your legs out." locIndex="4" />
+            <textevent timeoffset="140" message="So, this should not add any additional fatigue, and if you are feeling progressively more tired, cut the workout short." locIndex="5" />
+            <textevent timeoffset="150" message="Today should leave you feeling better than when you 1st got on the bike :-)" locIndex="6" />
+            <textevent timeoffset="240" message="I&apos;d advise using ERG today if possible to keep yourself from going too hard." locIndex="7" />
+            <textevent timeoffset="250" message="Chasing those &apos;carrots&apos; on Zwift is so easy, but it&apos;s crucial you respect the power targets today." locIndex="8" />
+            <textevent timeoffset="270" message="Coming up in 30sec, we&apos;re going to do 3min at zone 2, at 100 RPM." locIndex="9" />
+            <textevent timeoffset="280" message="The high cadence should help loosen the legs up as well as continue to work on your ability to spin the gear with good form." locIndex="10" />
+            <textevent timeoffset="290" message="Start bringing the cadence up now..." locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="180" Power=".73" Cadence="100">
+            <textevent timeoffset="0" message="Make sure you&apos;re keeping the power low here, but your leg speed nice and high." locIndex="12" />
+            <textevent timeoffset="90" message="That&apos;s halfway. Keep those legs spinning quick!" locIndex="13" />
+            <textevent timeoffset="170" message="In 10sec, we&apos;re going to reduce to 90 RPM and go back to zone 1." locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="120" Power=".53" Cadence="90">
+            <textevent timeoffset="0" message="Bring the cadence and power back down again in a controlled manner here." locIndex="15" />
+            <textevent timeoffset="10" message="And we&apos;ll continue to spin nice and easy for 2min." locIndex="16" />
+            <textevent timeoffset="110" message="Get ready for another 3min high cadence effort next. Aim for 100 RPM again!" locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="180" Power=".73" Cadence="100">
+            <textevent timeoffset="0" message="Bring the effort up again just slightly." locIndex="18" />
+            <textevent timeoffset="90" message="That&apos;s halfway. Keep those legs spinning quick!" locIndex="19" />
+            <textevent timeoffset="170" message="In 10sec, we&apos;re going to reduce to 90 RPM and go back to zone 1." locIndex="20" />
+        </SteadyState>
+        <SteadyState Duration="120" Power=".53" Cadence="90">
+            <textevent timeoffset="0" message="Great work respecting the power targets today. Sometimes going easy takes more mental effort than going hard." locIndex="21" />
+            <textevent timeoffset="10" message="We&apos;ll continue to spin nice and easy for 2min here." locIndex="22" />
+            <textevent timeoffset="110" message="Get ready for another 3min high cadence effort next. Aim for 100 RPM again!" locIndex="23" />
+        </SteadyState>
+        <SteadyState Duration="180" Power=".73" Cadence="100">
+            <textevent timeoffset="0" message="Spin those legs out now. They should hopefully be feeling nice and loose by now :-)" locIndex="24" />
+            <textevent timeoffset="90" message="That&apos;s halfway. Keep those legs spinning quick!" locIndex="25" />
+            <textevent timeoffset="170" message="In 10sec, we&apos;re going to reduce to 90 RPM and go back to zone 1." locIndex="26" />
+        </SteadyState>
+        <SteadyState Duration="120" Power=".53" Cadence="90">
+            <textevent timeoffset="0" message="Bring the effort back down again. Remember, feel free to cut this workout short at any time." locIndex="27" />
+            <textevent timeoffset="10" message="We&apos;ll continue to spin nice and easy for 2min here." locIndex="28" />
+            <textevent timeoffset="110" message="Get ready for another 3min high cadence effort next. Aim for 100 RPM again!" locIndex="29" />
+        </SteadyState>
+        <SteadyState Duration="180" Power=".73" Cadence="100">
+            <textevent timeoffset="0" message="Make sure you&apos;re keeping the power low here, but your leg speed nice and high." locIndex="30" />
+            <textevent timeoffset="90" message="That&apos;s halfway. Keep those legs spinning quick!" locIndex="31" />
+            <textevent timeoffset="170" message="In 10sec, we&apos;re going to reduce to 90 RPM and go back to zone 1." locIndex="32" />
+        </SteadyState>
+        <SteadyState Duration="120" Power=".53" Cadence="90">
+            <textevent timeoffset="0" message="Bring the cadence and power back down again in a controlled manner here." locIndex="33" />
+            <textevent timeoffset="10" message="And we&apos;ll continue to spin nice and easy for 2min." locIndex="34" />
+            <textevent timeoffset="110" message="Get ready for another 3min high cadence effort next. Aim for 100 RPM again!" locIndex="35" />
+        </SteadyState>
+        <SteadyState Duration="180" Power=".73" Cadence="100">
+            <textevent timeoffset="0" message="Bring the effort up again just slightly." locIndex="36" />
+            <textevent timeoffset="90" message="That&apos;s halfway. Keep those legs spinning quick!" locIndex="37" />
+            <textevent timeoffset="170" message="In 10sec, we&apos;re going to reduce to 90 RPM and go back to zone 1." locIndex="38" />
+        </SteadyState>
+        <SteadyState Duration="120" Power=".53" Cadence="90">
+            <textevent timeoffset="0" message="Bring the cadence and power back down again in a controlled manner here." locIndex="39" />
+            <textevent timeoffset="10" message="And we&apos;ll continue to spin nice and easy for 2min." locIndex="40" />
+            <textevent timeoffset="110" message="Get ready for another 3min high cadence effort next. Aim for 100 RPM again!" locIndex="41" />
+        </SteadyState>
+        <SteadyState Duration="180" Power=".73" Cadence="100">
+            <textevent timeoffset="0" message="Make sure you&apos;re keeping the power low here, but your leg speed nice and high." locIndex="42" />
+            <textevent timeoffset="90" message="That&apos;s halfway. Keep those legs spinning quick!" locIndex="43" />
+            <textevent timeoffset="170" message="In 10sec, we&apos;re going to reduce to 90 RPM and go back to zone 1." locIndex="44" />
+        </SteadyState>
+        <SteadyState Duration="120" Power=".53" Cadence="90">
+            <textevent timeoffset="0" message="Just 1 more high cadence effort to go :-)" locIndex="45" />
+            <textevent timeoffset="10" message="We&apos;ll continue to spin nice and easy for 2min here." locIndex="46" />
+            <textevent timeoffset="110" message="Get ready for another 3min high cadence effort next. Aim for 100 RPM again!" locIndex="47" />
+        </SteadyState>
+        <SteadyState Duration="180" Power=".73" Cadence="100">
+            <textevent timeoffset="0" message="All right, last little bit of effort today, spin &apos;em out!" locIndex="48" />
+            <textevent timeoffset="90" message="That&apos;s halfway. Keep those legs spinning quick!" locIndex="49" />
+            <textevent timeoffset="170" message="In 10sec, we&apos;re going to reduce to 90 RPM and go back to zone 1." locIndex="50" />
+        </SteadyState>
+        <SteadyState Duration="120" Power=".53" Cadence="85">
+            <textevent timeoffset="0" message="Great work today. That session was very easy, but just as important to the grand scheme of the plan." locIndex="51" />
+            <textevent timeoffset="30" message="We&apos;ll spend a little bit more time just spinning the legs easy, then wrap it up." locIndex="52" />
+            <textevent timeoffset="60" message="See you next time!" locIndex="53" />
+        </SteadyState>
+    </workout>
+</workout_file>

@@ -1,0 +1,66 @@
+<workout_file>
+    <uniqueId>779da6d2-7b30-4e20-979c-ac20f11ab2b3</uniqueId>
+    <legacyIdHash>3236318997</legacyIdHash>
+    <author>Zwift</author>
+    <name>Taper Steady</name>
+    <description>Keeping the rhythm flowing here. Some nice, light work just to keep things ticking over. Hold that rhythm right through to the Fondo!</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Gran Fondo</category>
+    <subcategory>Week 8</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow="0.55449998" PowerHigh="0.70449996" pace="0">
+            <textevent timeoffset="30" message="Race week taper continues today." locIndex="1" />
+            <textevent timeoffset="90" message="Another steady but light workout to keep things firing." locIndex="2" />
+            <textevent timeoffset="150" message="Some rolling steady here with three ramps." locIndex="3" />
+            <textevent timeoffset="210" message="Everything threshold or under to really let you come around." locIndex="4" />
+            <textevent timeoffset="270" message="Keep the blood flowing to the legs." locIndex="5" />
+            <textevent timeoffset="330" message="And just letting all that hard work you have done shine through." locIndex="6" />
+            <textevent timeoffset="400" message="Building up here for this first block." locIndex="7" />
+            <textevent timeoffset="450" message="Steady 5min at 65%. Then 5min @ 100%. And then 5min @ 80%." locIndex="8" />
+            <textevent timeoffset="510" message="All with nice steady ramp up and ramp down on either side." locIndex="9" />
+            <textevent timeoffset="580" message="And rolling into this first block here..." locIndex="10" />
+        </Warmup>
+        <SteadyState Duration="300" Power="0.70449996" pace="0">
+            <textevent timeoffset="15" message="Smooth and steady here for this one." locIndex="11" />
+            <textevent timeoffset="150" message="Keep the cadence up here and nice and crisp on the pedals." locIndex="12" />
+            <textevent timeoffset="280" message="And now let&apos;s get ready to ramp it down." locIndex="13" />
+        </SteadyState>
+        <Ramp Duration="300" PowerLow="0.70449996" PowerHigh="0.65449995" pace="0">
+            <textevent timeoffset="15" message="And rolling it down just a bit here over this block." locIndex="14" />
+            <textevent timeoffset="150" message="Stepping the power down just 5% here." locIndex="15" />
+            <textevent timeoffset="280" message="And now let&apos;s bring it back up." locIndex="16" />
+        </Ramp>
+        <Ramp Duration="300" PowerLow="0.65449995" PowerHigh="1.0044999" pace="0">
+            <textevent timeoffset="15" message="On the way back up now. Stepping up to threshold." locIndex="17" />
+            <textevent timeoffset="150" message="Build it up and then hold for 5min." locIndex="18" />
+            <textevent timeoffset="280" message="Should be a nice smooth and steady build here." locIndex="19" />
+        </Ramp>
+        <SteadyState Duration="300" Power="1.0044999" pace="0">
+            <textevent timeoffset="15" message="Alright now let&apos;s hold it here 5min." locIndex="20" />
+            <textevent timeoffset="150" message="Great work. We are just rolling through here." locIndex="21" />
+            <textevent timeoffset="280" message="Smooth power up and down. Great job." locIndex="22" />
+        </SteadyState>
+        <Ramp Duration="300" PowerLow="1.0044999" PowerHigh="0.65449995" pace="0">
+            <textevent timeoffset="15" message="And now let&apos;s step it down. Coming down to 65%." locIndex="23" />
+            <textevent timeoffset="150" message="Smooth and steady with the cadence, just letting the power off." locIndex="24" />
+            <textevent timeoffset="280" message="And now one more build. Up and up to 80% for this one." locIndex="25" />
+        </Ramp>
+        <Ramp Duration="300" PowerLow="0.65449995" PowerHigh="0.80449992" pace="0">
+            <textevent timeoffset="15" message="Ramping it up. Smooth cadence still just building." locIndex="26" />
+            <textevent timeoffset="150" message="On the way up now. Nice ramp up in power." locIndex="27" />
+            <textevent timeoffset="280" message="HR rising and breathing starting to shift a bit." locIndex="28" />
+        </Ramp>
+        <SteadyState Duration="300" Power="0.80449992" pace="0">
+            <textevent timeoffset="15" message="And let&apos;s hold it here 85% for 5min." locIndex="29" />
+            <textevent timeoffset="150" message="Smooth power. This is your all day pace. Right in the pack." locIndex="30" />
+            <textevent timeoffset="280" message="Great work on this. Almost done." locIndex="31" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow="0.80449992" PowerHigh="0.55449998" pace="0">
+            <textevent timeoffset="15" message="And now let&apos;s come down the backside. Step it down." locIndex="32" />
+            <textevent timeoffset="150" message="Coming down to really light now. Light!" locIndex="33" />
+            <textevent timeoffset="280" message="Great job. Feet up and rest, recover, refuel, and rehydrate!" locIndex="34" />
+        </Cooldown>
+    </workout>
+</workout_file>

@@ -1,0 +1,118 @@
+<workout_file>
+    <uniqueId>9bdf5411-7be3-4688-84ec-c5552f9d865a</uniqueId>
+    <legacyIdHash>1373589043</legacyIdHash>
+    <category>Active Offseason</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 5</subcategory>
+    <name>Week 5.1 - High-Cadence Into FTP</name>
+    <description>Begin with 20 one-leg pedaling efforts. Switch immediately from one leg to the other until you have completed all 20 efforts. Then ride at Endurance for the next 15 minutes. Complete 10 x 1-minute HIGH CADENCE FAST PEDALS targeting 135+ RPM, with 2-minute rests between intervals. Finish with 15 minutes at FTP. Focus on keeping your cadence between 85 and 95 RPM.</description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <workout>
+        <Warmup Duration="600" Zone="1" />
+        <SteadyState Duration="120" PowerLow=".40" PowerHigh=".4">
+            <textevent timeoffset="0" message="Left leg only!" locIndex="1" />
+            <textevent timeoffset="60" message="Right leg only!" locIndex="1" />
+        </SteadyState>
+        <SteadyState Duration="120" PowerLow=".40" PowerHigh=".4">
+            <textevent timeoffset="0" message="Left leg only!" locIndex="2" />
+            <textevent timeoffset="60" message="Right leg only!" locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="120" PowerLow=".40" PowerHigh=".4">
+            <textevent timeoffset="0" message="Left leg only!" locIndex="3" />
+            <textevent timeoffset="60" message="Right leg only!" locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="120" PowerLow=".40" PowerHigh=".4">
+            <textevent timeoffset="0" message="Left leg only!" locIndex="4" />
+            <textevent timeoffset="60" message="Right leg only!" locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="120" PowerLow=".40" PowerHigh=".4">
+            <textevent timeoffset="0" message="Left leg only!" locIndex="5" />
+            <textevent timeoffset="60" message="Right leg only!" locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="120" PowerLow=".40" PowerHigh=".4">
+            <textevent timeoffset="0" message="Left leg only!" locIndex="6" />
+            <textevent timeoffset="60" message="Right leg only!" locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="120" PowerLow=".40" PowerHigh=".4">
+            <textevent timeoffset="0" message="Left leg only!" locIndex="7" />
+            <textevent timeoffset="60" message="Right leg only!" locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="120" PowerLow=".40" PowerHigh=".4">
+            <textevent timeoffset="0" message="Left leg only!" locIndex="8" />
+            <textevent timeoffset="60" message="Right leg only!" locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="120" PowerLow=".40" PowerHigh=".4">
+            <textevent timeoffset="0" message="Left leg only!" locIndex="9" />
+            <textevent timeoffset="60" message="Right leg only!" locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="120" PowerLow=".40" PowerHigh=".4">
+            <textevent timeoffset="0" message="Left leg only!" locIndex="10" />
+            <textevent timeoffset="60" message="Right leg only!" locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="900" Zone="2" />
+        <SteadyState Duration="60" Zone="3">
+            <TextEvent message="135+ RPM HIGH CADENCE!" locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="120" Zone="2">
+            <TextEvent message="85+ RPM NORMAL CADENCE" locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="60" Zone="3">
+            <TextEvent message="135+ RPM HIGH CADENCE!" locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="120" Zone="2">
+            <TextEvent message="85+ RPM NORMAL CADENCE" locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="60" Zone="3">
+            <TextEvent message="135+ RPM HIGH CADENCE!" locIndex="15" />
+        </SteadyState>
+        <SteadyState Duration="120" Zone="2">
+            <TextEvent message="85+ RPM NORMAL CADENCE" locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="60" Zone="3">
+            <TextEvent message="135+ RPM HIGH CADENCE!" locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="120" Zone="2">
+            <TextEvent message="85+ RPM NORMAL CADENCE" locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="60" Zone="3">
+            <TextEvent message="135+ RPM HIGH CADENCE!" locIndex="19" />
+        </SteadyState>
+        <SteadyState Duration="120" Zone="2">
+            <TextEvent message="85+ RPM NORMAL CADENCE" locIndex="20" />
+        </SteadyState>
+        <SteadyState Duration="60" Zone="3">
+            <TextEvent message="135+ RPM HIGH CADENCE!" locIndex="21" />
+        </SteadyState>
+        <SteadyState Duration="120" Zone="2">
+            <TextEvent message="85+ RPM NORMAL CADENCE" locIndex="22" />
+        </SteadyState>
+        <SteadyState Duration="60" Zone="3">
+            <TextEvent message="135+ RPM HIGH CADENCE!" locIndex="23" />
+        </SteadyState>
+        <SteadyState Duration="120" Zone="2">
+            <TextEvent message="85+ RPM NORMAL CADENCE" locIndex="24" />
+        </SteadyState>
+        <SteadyState Duration="60" Zone="3">
+            <TextEvent message="135+ RPM HIGH CADENCE!" locIndex="25" />
+        </SteadyState>
+        <SteadyState Duration="120" Zone="2">
+            <TextEvent message="85+ RPM NORMAL CADENCE" locIndex="26" />
+        </SteadyState>
+        <SteadyState Duration="60" Zone="3">
+            <TextEvent message="135+ RPM HIGH CADENCE!" locIndex="27" />
+        </SteadyState>
+        <SteadyState Duration="120" Zone="2">
+            <TextEvent message="85+ RPM NORMAL CADENCE" locIndex="28" />
+        </SteadyState>
+        <SteadyState Duration="60" Zone="3">
+            <TextEvent message="135+ RPM HIGH CADENCE!" locIndex="29" />
+        </SteadyState>
+        <SteadyState Duration="120" Zone="2">
+            <TextEvent message="85+ RPM NORMAL CADENCE" locIndex="30" />
+        </SteadyState>
+        <SteadyState Duration="900" Zone="4">
+            <TextEvent message="85+ RPM NORMAL CADENCE" locIndex="31" />
+        </SteadyState>
+        <Cooldown Duration="900" Zone="1" />
+    </workout>
+</workout_file>

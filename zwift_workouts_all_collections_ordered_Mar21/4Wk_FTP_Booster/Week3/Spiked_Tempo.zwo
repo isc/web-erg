@@ -1,0 +1,51 @@
+<workout_file>
+    <uniqueId>96d5c82a-fc2c-4ee7-b189-9dcc2b4cad63</uniqueId>
+    <legacyIdHash>2722456606</legacyIdHash>
+    <author>Zwift</author>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>4wk FTP Booster</category>
+    <subcategory>Week 3</subcategory>
+    <name>Week 3.3 - Spiked Tempo</name>
+    <description>Looking to extend your time to exhaustion in this session, by extending the length of the interval and including some time spent near threshold.
+
+The intensity is low enough that the interval can be completed comfortably, yet still creating enough of a stress to improve aerobic capabilities.
+
+The aim is to record the same HR response for both intervals.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS" />
+        <tag name="4weekftp" />
+    </tags>
+    <workout>
+        <Warmup Duration="360" PowerLow="0.41971883" PowerHigh="0.70449996" />
+        <SteadyState Duration="60" Power="0.50449997">
+            <textevent timeoffset="40" message="High cadence in 1min effort." locIndex="1" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.0944999" Cadence="95" />
+        <SteadyState Duration="120" Power="0.50449997" />
+        <SteadyState Duration="240" Power="0.90449995" Cadence="90" />
+        <SteadyState Duration="180" Power="0.50449997">
+            <textevent timeoffset="100" message="Long 20min intervals..." locIndex="2" />
+            <textevent timeoffset="110" message="but intensity is comfortable." locIndex="3" />
+        </SteadyState>
+        <IntervalsT Repeat="2" OnDuration="420" OffDuration="180" OnPower="0.83449996" OffPower="0.95449996" OverUnder="1" Cadence="90" CadenceResting="95">
+            <textevent timeoffset="412" message="Lift cadence 5-10rpm" locIndex="4" />
+            <textevent timeoffset="44" message="Focus on breathing and cadence" locIndex="5" />
+            <textevent timeoffset="613" message="Bring cadence down a little." locIndex="6" />
+            <textevent timeoffset="1005" message="Lift cadence 5-10rpm." locIndex="7" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.50449997">
+            <textevent timeoffset="155" message="Time for a drink?" locIndex="8" />
+        </SteadyState>
+        <IntervalsT Repeat="2" OnDuration="420" OffDuration="180" OnPower="0.83449996" OffPower="0.95449996" OverUnder="1" Cadence="90" CadenceResting="95">
+            <textevent timeoffset="29" message="Comfortable opening effort" locIndex="9" />
+            <textevent timeoffset="75" message="Is HR similar to 1st effort?" locIndex="10" />
+            <textevent timeoffset="414" message="Lift cadence 5-10rpm" locIndex="11" />
+            <textevent timeoffset="611" message="Bring cadence down a little." locIndex="12" />
+            <textevent timeoffset="1005" message="Lift cadence 5-10rpm." locIndex="13" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.50449997">
+            <textevent timeoffset="10" message="How does HR compare?" locIndex="14" />
+        </SteadyState>
+    </workout>
+</workout_file>

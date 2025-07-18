@@ -1,0 +1,92 @@
+<workout_file>
+    <uniqueId>a4491b11-acd1-4321-8ae5-45d7d08eee52</uniqueId>
+    <legacyIdHash>2570798556</legacyIdHash>
+    <author>Zwift</author>
+    <categoryOverride>VO2 Max</categoryOverride>
+    <name>6x2 VO2 Max</name>
+    <description>Here we are again with some 2 minutes at upper VO2 zone. This is the hardest sustained efforts we&apos;ll complete for this plan, but I think you are ready. It&apos;s really important to mentally find a place to go where you can get through these efforts with a good attitude. No way around it, these hurt. Using those fast RPM&apos;s will absolutely help here as you just have to keep the trainer from bogging you down here. 
+A warm up, and then 6x&apos;s 2 minutes at 120% with 2 minutes break between. Be ready, these efforts will feel like they are coming FAST!</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Gravel Grinder</category>
+    <subcategory>Week 10</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="540" PowerLow="0.45" PowerHigh="0.65">
+		</Warmup>
+        <IntervalsT Repeat="3" OnDuration="60" OffDuration="60" OnPower="0.85" OffPower="0.55">
+            <textevent timeoffset="0" message="Just three times through 1 minute at 80% to spin up those legs! Guess what? High RPM&apos;s!!!" locIndex="1" />
+            <textevent timeoffset="60" message="Easy easy between here please. " locIndex="2" />
+            <textevent timeoffset="120" message="You know what to do here. Spin them pins!" locIndex="3" />
+            <textevent timeoffset="180" message="Easy easy. " locIndex="4" />
+            <textevent timeoffset="240" message="Last one, get it rolling!" locIndex="5" />
+            <textevent timeoffset="300" message="Now settle yourself. " locIndex="6" />
+        </IntervalsT>
+        <SteadyState Duration="40" Power="0.9">
+            <textevent timeoffset="0" message="Right into 3 builds up to 120% of FTP. GOGOGO!" locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="40" Power="1.05">
+            <textevent timeoffset="0" message="Up, Up, UP!!!" locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="40" Power="1.2">
+            <textevent timeoffset="0" message="This will hurt a little, keep those legs SPINNING!" locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.55">
+            <textevent timeoffset="0" message="Very easy here. Very. " locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="40" Power="0.9">
+            <textevent timeoffset="0" message="Back up to it. " locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="40" Power="1.05">
+            <textevent timeoffset="0" message="Smooth as we build!" locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="40" Power="1.2">
+            <textevent timeoffset="0" message="You&apos;ve got it! Just 40 seconds here!" locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.55">
+            <textevent timeoffset="0" message="Rest yourself!" locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="40" Power="0.9">
+            <textevent timeoffset="0" message="Nice and steady!" locIndex="15" />
+        </SteadyState>
+        <SteadyState Duration="40" Power="1.05">
+            <textevent timeoffset="0" message="This doesn&apos;t even feel hard, right?" locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="40" Power="1.2">
+            <textevent timeoffset="0" message="Come on, just 40 to go!" locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.55">
+            <textevent timeoffset="0" message="Real easy break for you here. Be smooth and settle into it. " locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.55">
+            <textevent timeoffset="0" message="Keep those RPM&apos;s up and get solid hydration and a snack in. Like, now!" locIndex="19" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.2">
+            <textevent timeoffset="0" message="Here it goes. You&apos;ve got it!" locIndex="20" />
+            <textevent timeoffset="80" message="Keep on top of that gearing!" locIndex="21" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="0" message="Nice stuff. Let yourself recovery here." locIndex="22" />
+            <textevent timeoffset="30" message="EASY!" locIndex="23" />
+        </SteadyState>
+        <IntervalsT Repeat="5" OnDuration="120" OffDuration="120" OnPower="1.2" OffPower="0.5">
+            <textevent timeoffset="0" message="Let&apos;s do this again! Good work!" locIndex="24" />
+            <textevent timeoffset="120" message="Easy now, recover as best as you can." locIndex="25" />
+            <textevent timeoffset="240" message="Make it as smooth as you can!" locIndex="26" />
+            <textevent timeoffset="360" message="Good work, settle that upper body and BREATHE." locIndex="27" />
+            <textevent timeoffset="480" message="Another one, just as smooth and calm as the first!" locIndex="28" />
+            <textevent timeoffset="540" message="Keep it going now!" locIndex="29" />
+            <textevent timeoffset="600" message="Easy days now!" locIndex="30" />
+            <textevent timeoffset="720" message="Again, Again!" locIndex="31" />
+            <textevent timeoffset="840" message="Getting tired yet?" locIndex="32" />
+            <textevent timeoffset="960" message="You got one more in you?" locIndex="33" />
+            <textevent timeoffset="1020" message="You are killing it! Good stuff! GO!" locIndex="34" />
+        </IntervalsT>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="0" message="Let yourself recover here." locIndex="35" />
+        </SteadyState>
+        <Cooldown Duration="360" PowerLow="0.55" PowerHigh="0.45">
+            <textevent timeoffset="0" message="Really, really good one today. Good news is you don&apos;t have to do that again!" locIndex="36" />
+        </Cooldown>
+    </workout>
+</workout_file>

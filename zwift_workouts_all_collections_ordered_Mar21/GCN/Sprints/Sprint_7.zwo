@@ -1,0 +1,23 @@
+<workout_file>
+    <uniqueId>7de7e8db-c775-4032-8cfd-d4aec9f44d07</uniqueId>
+    <legacyIdHash>2738316482</legacyIdHash>
+    <author>GCN</author>
+    <category>GCN</category>
+    <subcategory>Tom Last&apos;s GCN Sprint Plan</subcategory>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/GCN_Logo.tga</authorIcon>
+    <name>SweetSpot with bursts</name>
+    <description>This workout isn&apos;t only about improving your sprint, but it&apos;s about improving your ability to sprint after doing a nice solid pace at 88-93% of your FTP, or what is called sweetspot and then recovering after.Warm-up well with 3 x 1 minute fast pedals at &gt;110rpm, then 5minutes of tempo, followed by 35 minutes of riding at sweetspot, and doing a 20 second "burst" every two minutes.  The burst will be at 80% of your sprint effort, but still hard.  Be sure to recover back to your previous pace.   Cool-down </description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS" />
+        <tag name="Sweetspot" />
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.2545" PowerHigh="0.75449997" />
+        <IntervalsT Repeat="3" OnDuration="60" OffDuration="60" OnPower="0.75449997" OffPower="0.50449997" Cadence="110" CadenceResting="80" />
+        <SteadyState Duration="300" Power="0.81449997" />
+        <SteadyState Duration="120" Power="0.88449997" />
+        <IntervalsT Repeat="15" OnDuration="20" OffDuration="120" OnPower="1.2045" OffPower="0.88449997" Cadence="100" CadenceResting="87" />
+        <Cooldown Duration="480" PowerLow="0.75449997" PowerHigh="0.2545" />
+    </workout>
+</workout_file>

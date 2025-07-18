@@ -1,0 +1,119 @@
+<workout_file>
+    <uniqueId>97d34964-5d80-43b0-85d6-f72513662098</uniqueId>
+    <legacyIdHash>1423163101</legacyIdHash>
+    <description>Strength training: A certain repetition of short and maximal efforts with the goal to increase neuromuscular recruitment and maximum specific strength.</description>
+    <category>FTP Builder</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 1</subcategory>
+    <name>Week 1.2 - Strength</name>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/MarcoPinotti_Logo.tga</authorIcon>
+    <sportType>bike</sportType>
+    <workout>
+        <Warmup Duration="360" PowerLow=".4" PowerHigh=".6" Cadence="85">
+            <textevent timeoffset="0" message="Welcome back to the 2nd workout of the 6 week FTP Builder!" locIndex="1" />
+            <textevent timeoffset="10" message="We&apos;re going to start with another progressive warmup today. Make sure you have your towel, fluids, and fan ready." locIndex="2" />
+            <textevent timeoffset="120" message="Hopefully, you weren&apos;t too tired from our first workout, but if you were, that&apos;s okay." locIndex="3" />
+            <textevent timeoffset="130" message="Like we said before, you need to create an overload for your body to respond to." locIndex="4" />
+            <textevent timeoffset="300" message="1min to go here, then we&apos;re going to keep our ramp going at a slightly faster cadence." locIndex="5" />
+            <textevent timeoffset="350" message="In 10sec, let&apos;s continue the warmup, but at 90 RPM." locIndex="6" />
+        </Warmup>
+        <Ramp Duration="240" PowerLow=".6" PowerHigh=".75" Cadence="90" pace="">
+            <textevent timeoffset="0" message="Keep on warming up here, nice and steady as we go through the zones." locIndex="7" />
+            <textevent timeoffset="120" message="Let&apos;s take a moment now to chat about what we have in store for today&apos;s workout..." locIndex="8" />
+            <textevent timeoffset="130" message="Today is our first &apos;strength&apos; day and involves doing repeated short and FULL GAS efforts." locIndex="9" />
+            <textevent timeoffset="140" message="To increase our neuromuscular recruitment and maximum specific strength." locIndex="10" />
+            <textevent timeoffset="150" message="Improving our neuromuscular recruitment will result in enhanced contractile strength." locIndex="11" />
+            <textevent timeoffset="160" message="And since we&apos;re on a bike, it&apos;s specific strength." locIndex="12" />
+            <textevent timeoffset="170" message="Simply put, today&apos;s workout aims to improve the amount of force you can produce." locIndex="13" />
+            <textevent timeoffset="180" message="We&apos;ll be doing 2 sets of 5, 10sec FULL GAS sprints, with just under 2min rest between each sprint." locIndex="14" />
+            <textevent timeoffset="190" message="And, 10min between each interval set. So, only 100sec worth of actual work today, but don&apos;t be fooled by that :-)" locIndex="15" />
+            <textevent timeoffset="230" message="We&apos;re going to continue our ramp, but next up at 100 RPM!" locIndex="16" />
+        </Ramp>
+        <Ramp Duration="180" PowerLow=".75" PowerHigh=".85" Cadence="100" pace="">
+            <textevent timeoffset="0" message="Let&apos;s get those pedals turning even faster now!" locIndex="17" />
+            <textevent timeoffset="60" message="No bouncing or lurching in the saddle now. Aim for smoothness." locIndex="18" />
+            <textevent timeoffset="120" message="1min to go! You should be sweating nicely now, which means you&apos;re ready to work!" locIndex="19" />
+        </Ramp>
+        <SteadyState Duration="300" Power=".53" pace="" Cadence="85">
+            <textevent timeoffset="0" message="GREAT! That&apos;s it for today&apos;s warmup. Let&apos;s bring it down easy for a bit and get ready for the main set." locIndex="20" />
+            <textevent timeoffset="10" message="Take some deep breaths, and a few sips of fluid. We&apos;ll catch up with 1min to go." locIndex="21" />
+            <textevent timeoffset="240" message="All right in 1min, we have our first sprint effort. Ideally, these are best done with ERG off." locIndex="22" />
+            <textevent timeoffset="250" message="You can turn it off through the Zwift Companion app, or by pressing up on the keyboard." locIndex="23" />
+            <textevent timeoffset="260" message="This is ideal since ERG won&apos;t respond fast enough, and I want you to smash these!" locIndex="24" />
+            <textevent timeoffset="270" message="After the sprint, you may turn ERG back on again for the rest break." locIndex="25" />
+            <textevent timeoffset="280" message="Speaking of the sprint, aim to do these seated to engage maximum muscular engagement and get into a big gear now." locIndex="26" />
+            <textevent timeoffset="290" message="Okay, ready? In 10 sec, SMASH IT! Big gear, and fast cadence going for MAX POWER." locIndex="27" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.6" replacement_verb="FULL GAS" replacement_prescription="GO!" />
+        <SteadyState Duration="110" Power=".53" pace="" Cadence="85">
+            <textevent timeoffset="0" message="Great work! You can turn ERG back on now if you&apos;d like, but no worries if you do not want to." locIndex="28" />
+            <textevent timeoffset="10" message="We&apos;re going to take just under 2min of rest in between each sprint effort." locIndex="29" />
+            <textevent timeoffset="20" message="Use this time to take a few deep breaths, shake out the legs and upper body, and a sip of fluid." locIndex="30" />
+            <textevent timeoffset="100" message="All right, sprint effort #2 is coming up! ERG mode off again and get ready to PUSH." locIndex="31" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.6" replacement_verb="FULL GAS" replacement_prescription="GO!" />
+        <SteadyState Duration="110" Power=".53" pace="" Cadence="85">
+            <textevent timeoffset="0" message="Excellent! That&apos;s 2 down, 3 more to go. Doing these seated should feel a lot different." locIndex="32" />
+            <textevent timeoffset="10" message="And you should feel your hips and glutes working much more." locIndex="33" />
+            <textevent timeoffset="100" message="Get ready for another sprint!!" locIndex="34" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.6" replacement_verb="FULL GAS" replacement_prescription="GO!" />
+        <SteadyState Duration="110" Power=".53" pace="" Cadence="85">
+            <textevent timeoffset="0" message="Beautiful effort! Hopefully, you&apos;re able to produce a little more power with each interval." locIndex="35" />
+            <textevent timeoffset="10" message="Let&apos;s take a few deep breaths again now, and a sip of fluids. We have 2 more to go." locIndex="36" />
+            <textevent timeoffset="100" message="Get back into that big gear again, almost GO time!" locIndex="37" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.6" replacement_verb="FULL GAS" replacement_prescription="GO!" />
+        <SteadyState Duration="110" Power=".53" pace="" Cadence="85">
+            <textevent timeoffset="0" message="YES! That was a great one! Just 1 more to go, then we&apos;ll take a nice long rest." locIndex="38" />
+            <textevent timeoffset="10" message="Breathe, relax, and let go of the tension in your shoulders here." locIndex="39" />
+            <textevent timeoffset="100" message="Okay, ready? Grab those bars, grit those teeth, and CRUSH THIS!" locIndex="40" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.6" replacement_verb="FULL GAS" replacement_prescription="GO!" />
+        <SteadyState Duration="110" Power=".53" pace="" Cadence="85">
+            <textevent timeoffset="0" message="Awesome! That&apos;s it for the first set. Let&apos;s take a nice full recovery now." locIndex="41" />
+            <textevent timeoffset="10" message="10min is a long time, but necessary to fully recover from those sprint efforts!" locIndex="42" />
+        </SteadyState>
+        <SteadyState Duration="480" Power=".53" Cadence="85">
+            <textevent timeoffset="0" message="Let&apos;s continue to take it easy here, nothing substantial on the legs and a light spin." locIndex="43" />
+            <textevent timeoffset="10" message="We&apos;ll catch up with 1min to go." locIndex="44" />
+            <textevent timeoffset="420" message="All right! You should feel recovered by now and ready to get back to work!" locIndex="45" />
+            <textevent timeoffset="430" message="We have another set of 5, seated sprints coming up next." locIndex="46" />
+            <textevent timeoffset="440" message="And just under 2min of recovery between." locIndex="47" />
+            <textevent timeoffset="450" message="I want you to aim for absolute max power again with these, and DRIVE those pedals!" locIndex="48" />
+            <textevent timeoffset="470" message="Ready? ERG off again, please, unless it already is." locIndex="49" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.6" replacement_verb="FULL GAS" replacement_prescription="GO!" />
+        <SteadyState Duration="110" Power=".53" pace="" Cadence="85">
+            <textevent timeoffset="0" message="Great! Feeling like the legs are a bit more fatigued relative to the first set is typical and expected." locIndex="50" />
+            <textevent timeoffset="10" message="Just do your best and produce those watts!!" locIndex="51" />
+            <textevent timeoffset="100" message="Here we go again..." locIndex="52" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.6" replacement_verb="FULL GAS" replacement_prescription="GO!" />
+        <SteadyState Duration="110" Power=".53" pace="" Cadence="85">
+            <textevent timeoffset="0" message="Excellent effort! Only 3 more sprints to go, and we&apos;re done today!" locIndex="53" />
+            <textevent timeoffset="10" message="Breathe and relax again here. Make sure you&apos;re still drinking too." locIndex="54" />
+            <textevent timeoffset="100" message="Get back into that big gear...Get ready to GO!" locIndex="55" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.6" replacement_verb="FULL GAS" replacement_prescription="GO!" />
+        <SteadyState Duration="110" Power=".53" pace="" Cadence="85">
+            <textevent timeoffset="0" message="Way to go! That&apos;s 3 down, and just 2 more to go. You&apos;re crushing it today!" locIndex="56" />
+            <textevent timeoffset="60" message="Keep yourself focused on the task at hand today. Just 20sec of hard work left!" locIndex="57" />
+            <textevent timeoffset="100" message="Okay ready? Grab those bars and prepare to DIG!" locIndex="58" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.6" replacement_verb="FULL GAS" replacement_prescription="GO!" />
+        <SteadyState Duration="110" Power=".53" pace="" Cadence="85">
+            <textevent timeoffset="0" message="Phew! Only 1 more to go :-) Rest up and recover as best you can." locIndex="59" />
+            <textevent timeoffset="10" message="I want the last one to be the best!" locIndex="60" />
+            <textevent timeoffset="100" message="Okay, ready? Empty the tanks on this one!" locIndex="61" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.6" replacement_verb="FULL GAS" replacement_prescription="GO!" />
+        <Cooldown Duration="600" PowerLow=".4" PowerHigh=".6" Cadence="85">
+            <textevent timeoffset="0" message="NICE JOB!! That&apos;s it for the work today. Let&apos;s start to cool down now." locIndex="62" />
+            <textevent timeoffset="60" message="We&apos;ll get a nice and full 10min cool down in today to flush out the legs from those efforts" locIndex="63" />
+            <textevent timeoffset="120" message="You may experience some soreness tomorrow after a session like this, which is normal." locIndex="64" />
+            <textevent timeoffset="130" message="Do your best to get some extra sleep, and eat a well-balanced diet to aid in recovery." locIndex="65" />
+            <textevent timeoffset="180" message="Enjoy the last few minutes of the cool down, and we&apos;ll see you next time!" locIndex="66" />
+        </Cooldown>
+    </workout>
+</workout_file>

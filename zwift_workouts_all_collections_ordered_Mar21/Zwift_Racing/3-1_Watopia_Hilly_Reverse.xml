@@ -1,0 +1,195 @@
+<workout_file>
+    <uniqueId>da19fb76-d61f-4c06-8594-b6dab8ca2e02</uniqueId>
+    <legacyIdHash>4059631732</legacyIdHash>
+    <author>Zwift</author>
+    <categoryOverride>30-60 minutes to burn</categoryOverride>
+    <name>Week 3.1 - Watopia Hilly Reverse</name>
+    <description>A race simulation on Watopia Hilly Reverse where you&apos;ll tackle 3 laps of the course.</description>
+    <sportType>bike</sportType>
+    <category>Z Racing</category>
+    <subcategory>Week 3</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="420" PowerHigh="0.55" PowerLow="0.35">
+            <textevent timeoffset="0" message="Welcome to another race simulation workout!" locIndex="1" />
+            <textevent timeoffset="10" message="We&apos;ll tackle Watopia Hilly Reverse today, but 1st let&apos;s get warmed up." locIndex="2" />
+            <textevent timeoffset="20" message="Aim for a comfortable cadence here." locIndex="3" />
+            <textevent timeoffset="210" message="That&apos;s halfway through today&apos;s warmup. Let&apos;s chat about what&apos;s in store today." locIndex="4" />
+            <textevent timeoffset="220" message="As you know, today is a race simulation of Watopia Hilly Reverse." locIndex="5" />
+            <textevent timeoffset="230" message="And like other hilly courses on Zwift, when the road points up things get tough." locIndex="6" />
+            <textevent timeoffset="240" message="So, expect to work very hard at times today, and especially over the climb feature." locIndex="7" />
+            <textevent timeoffset="250" message="We&apos;ll also chat about how the course usually plays out in a race." locIndex="8" />
+            <textevent timeoffset="260" message="And provide some tips and tricks for success." locIndex="9" />
+            <textevent timeoffset="270" message="For now though, let&apos;s carry on with today&apos;s warmup." locIndex="10" />
+            <textevent timeoffset="390" message="In 30sec, we&apos;re going to do a couple high cadence efforts to ensure the legs are awake." locIndex="11" />
+            <textevent timeoffset="410" message="Spin those legs up, aim for 110+ RPM!" locIndex="12" />
+        </Warmup>
+        <IntervalsT Repeat="2" OnDuration="30" OnPower="1.1" OffDuration="30" OffPower="0.55" Cadence="110" CadenceResting="85">
+            <textevent timeoffset="0" message="GO GO GO! FAST FEET!" locIndex="13" />
+            <textevent timeoffset="30" message="Good work, back to a comfortable cadence again." locIndex="14" />
+            <textevent timeoffset="60" message="Let&apos;s go! Get those legs spinning quick!" locIndex="15" />
+            <textevent timeoffset="90" message="Excellent work! Now we&apos;ll take a moment and spin easy." locIndex="16" />
+        </IntervalsT>
+        <SteadyState Duration="60" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="Deep breaths here, we have the start coming up next :-)." locIndex="17" />
+            <textevent timeoffset="40" message="All right, get ready to BLAST off the line!" locIndex="18" />
+            <textevent timeoffset="50" message="Start spinning the legs up again, and make sure to make the lead group!" locIndex="19" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.5">
+            <textevent timeoffset="0" message="GO GO GO! Get up to speed quickly!" locIndex="20" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.75">
+            <textevent timeoffset="0" message="Good work! Just a short flat section now before we head up to the Esses." locIndex="21" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1">
+            <textevent timeoffset="0" message="Climbing up to the Esses now, just stay in the group here and keep in control." locIndex="22" />
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="10" OnPower="1.1" OffDuration="10" OffPower="0.65">
+            <textevent timeoffset="0" message="Surge over the Esses and ease off the gas going downhill." locIndex="23" />
+            <textevent timeoffset="20" message="Gaps will usually form here, so make sure you&apos;re staying in contact." locIndex="24" />
+            <textevent timeoffset="70" message="The final hill is the steepest, hang on!" locIndex="25" />
+        </IntervalsT>
+        <SteadyState Duration="30" Power="1.2">
+            <textevent timeoffset="0" message="GO GO GO! Stay with the group." locIndex="26" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.55">
+            <textevent timeoffset="0" message="Phew! This race starts tough! Easy down the hill towards the sprint banner." locIndex="27" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.9">
+            <textevent timeoffset="0" message="Things will settle down now as we wind through the village, but keep the pressure on!" locIndex="28" />
+            <textevent timeoffset="60" message="Breathe, use this time to take a sip of fluid and recover." locIndex="29" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.2">
+            <textevent timeoffset="0" message="Hard surge as we leave the village!" locIndex="30" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.55">
+            <textevent timeoffset="0" message="Recover on the downhill here. This is the last chance to before we start the climb." locIndex="31" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.9">
+            <textevent timeoffset="0" message="Onto the flats again leading up to the 1st time up the hill." locIndex="32" />
+            <textevent timeoffset="20" message="This climb starts VERY steep, but then levels out." locIndex="33" />
+            <textevent timeoffset="30" message="So, expect everyone to go wild on the 1st bit, then mellow out in the middle." locIndex="34" />
+            <textevent timeoffset="50" message="Here we go! Get ready to put some work in." locIndex="35" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.2">
+            <textevent timeoffset="0" message="GO GO GO! Start off hard and make the selection!" locIndex="36" />
+            <textevent timeoffset="60" message="C&apos;mon! Keep the pressure on! Things will flatten out soon." locIndex="37" />
+            <textevent timeoffset="90" message="Almost to the crest of the steep section!" locIndex="38" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.55">
+            <textevent timeoffset="0" message="Very quick descent now, breathe." locIndex="39" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.05">
+            <textevent timeoffset="0" message="Now the climb continues at a much less steep gradient. Keep the pressure on." locIndex="40" />
+            <textevent timeoffset="60" message="Stay in the draft in this section, the field is moving quickly enough to capitalize on it." locIndex="41" />
+            <textevent timeoffset="90" message="Almost to the banner, then we&apos;ll descend back into town again." locIndex="42" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.55">
+            <textevent timeoffset="0" message="Phew! That&apos;s the 1st climb done! Good work staying with the group." locIndex="43" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.9">
+            <textevent timeoffset="0" message="Steady as you go now through town towards the start banner." locIndex="44" />
+            <textevent timeoffset="60" message="This is another great section to relax and recover." locIndex="45" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1">
+            <textevent timeoffset="0" message="Back onto the climb towards the Esses, get ready to put some work in again." locIndex="46" />
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="10" OnPower="1.1" OffDuration="10" OffPower="0.65">
+            <textevent timeoffset="0" message="Stay with the group through the Esses and don&apos;t get gapped off the back!" locIndex="47" />
+        </IntervalsT>
+        <SteadyState Duration="30" Power="1.2">
+            <textevent timeoffset="0" message="BIG EFFORT over the last climb of the Esses. GO GO!" locIndex="48" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.55">
+            <textevent timeoffset="0" message="Nicely done! Let&apos;s recover through the sprint banner now." locIndex="49" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.9">
+            <textevent timeoffset="0" message="And back onto the flats winding through the village." locIndex="50" />
+            <textevent timeoffset="110" message="Get ready for a potential early move before the climb itself." locIndex="51" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.2">
+            <textevent timeoffset="0" message="GO GO GO! Short and sharp climb out of town." locIndex="52" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.55">
+            <textevent timeoffset="0" message="Great work! Everyone is still together. Recover a bit here before the climb." locIndex="53" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.9">
+            <textevent timeoffset="0" message="Steady here, don&apos;t get excited before the steep section and save your energy." locIndex="54" />
+            <textevent timeoffset="50" message="Once you pass Scotty&apos;s house on your right, you know things are about to get tough!" locIndex="55" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.2">
+            <textevent timeoffset="0" message="Here we go! Keep the pressure on over this steep section!" locIndex="56" />
+            <textevent timeoffset="60" message="Halfway through, keep the gaps closed and stay in the group!" locIndex="57" />
+            <textevent timeoffset="90" message="C&apos;mon! Get over this section and you can get to the top in the group!" locIndex="58" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.55">
+            <textevent timeoffset="0" message="Excellent! Take a couple breaths here over this short section." locIndex="59" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.05">
+            <textevent timeoffset="0" message="Back onto the climb again! Remember to stay in the wheels here and save your energy." locIndex="60" />
+            <textevent timeoffset="60" message="Some may try and attack before the banner, so stay vigilant here." locIndex="61" />
+            <textevent timeoffset="90" message="Almost to the top, then we&apos;ll coast down the hill again." locIndex="62" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.55">
+            <textevent timeoffset="0" message="Great work! That&apos;s 2 climbs down and just 1 more to go! Nice and easy now." locIndex="63" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.9">
+            <textevent timeoffset="0" message="Steady tempo now as we wind through town again towards the start banner." locIndex="64" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1">
+            <textevent timeoffset="0" message="Bell lap, my friend! Just stay with the group through the Esses again." locIndex="65" />
+            <textevent timeoffset="10" message="And save your energy for the final climb!" locIndex="66" />
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="10" OnPower="1.1" OffDuration="10" OffPower="0.65">
+            <textevent timeoffset="0" message="Back through the Esses again, power going up and easy going down." locIndex="67" />
+            <textevent timeoffset="70" message="Get ready to power up this final steep hill." locIndex="68" />
+        </IntervalsT>
+        <SteadyState Duration="30" Power="1.2">
+            <textevent timeoffset="0" message="HAMMER IT!" locIndex="69" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.55">
+            <textevent timeoffset="0" message="Nicely done! Take it easy now here." locIndex="70" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.9">
+            <textevent timeoffset="0" message="All right, back onto the flats once again through the village." locIndex="71" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.2">
+            <textevent timeoffset="0" message="Attacks will likely happen here as we exit the village, pay attention!" locIndex="72" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.55">
+            <textevent timeoffset="0" message="Easy...Take some deep breaths now." locIndex="73" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.9">
+            <textevent timeoffset="0" message="Okay, the final climb is just ahead. You got this!" locIndex="74" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="1.3">
+            <textevent timeoffset="0" message="Power up! This will get REALLY tough over this last climb, stay with it!" locIndex="75" />
+            <textevent timeoffset="30" message="UP UP UP!! C&apos;mon now!" locIndex="76" />
+            <textevent timeoffset="80" message="Almost to the top of the 1st part, great work!" locIndex="77" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.55">
+            <textevent timeoffset="0" message="Breathe...relax." locIndex="78" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="1.15">
+            <textevent timeoffset="0" message="Power on again! Things will be tough again here as people make their moves." locIndex="79" />
+            <textevent timeoffset="10" message="Don&apos;t get dropped!" locIndex="80" />
+            <textevent timeoffset="60" message="Keep the pressure on! Almost to the top!" locIndex="81" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.55">
+            <textevent timeoffset="0" message="Great! You&apos;ve made it over the top with the group! Recover now and get ready for the sprint!" locIndex="82" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1">
+            <textevent timeoffset="0" message="Here we go! Back on the gas again and get into position for the sprint." locIndex="83" />
+            <textevent timeoffset="40" message="You don&apos;t want to be on the front as the sprint starts, aim for 4th or 5th wheel." locIndex="84" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="2">
+            <textevent timeoffset="0" message="GO GO GO! WORK THROUGH EVERYONE!" locIndex="85" />
+            <textevent timeoffset="10" message="KEEP THE PRESSURE ON!" locIndex="86" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.55">
+            <textevent timeoffset="0" message="Incredible work today! Way to finish strong." locIndex="87" />
+            <textevent timeoffset="30" message="We&apos;re going to take a few minutes and cooldown now, you earned it!" locIndex="88" />
+            <textevent timeoffset="40" message="See you next time :-)" locIndex="89" />
+        </SteadyState>
+    </workout>
+</workout_file>

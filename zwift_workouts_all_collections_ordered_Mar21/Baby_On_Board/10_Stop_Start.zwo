@@ -1,0 +1,76 @@
+<workout_file>
+    <uniqueId>9e403b03-8b9e-4623-a601-907d8bf4e391</uniqueId>
+    <legacyIdHash>956227495</legacyIdHash>
+    <author>D.Rowe (Rowe&amp;King)</author>
+    <name>Stop-Start</name>
+    <description>This session is like walking with a 2 year old - constantly stopping and starting. You will complete 2 blocks of 5 x 45 second efforts with a good rest of 60 seconds between each effort. 
+
+While your heart rate and perceived effort will surge during the 45 seconds of effort, there is ample opportunity to recover well between each effort so a suitable workout for during pregnancy or starting slowly to gain fitness.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS" />
+        <tag name="Prenatal" />
+    </tags>
+    <category>Baby On Board</category>
+    <categoryIndex>10</categoryIndex>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.25" PowerHigh="0.7">
+            <textevent timeoffset="10" message="Welcome to Stop-Start! We&apos;ll start today with a 5min warm up to get you ready to go" locIndex="1" />
+            <textevent timeoffset="20" message="This workout is part of Baby on Board, designed by Dani Rowe and Kristin Armstrong" locIndex="2" />
+            <textevent timeoffset="30" message="This series is designed to keep you active throughout pregnancy" locIndex="3" />
+            <textevent timeoffset="40" message="by providing you with 12 weeks of 30-40 minute structured workouts" locIndex="4" />
+            <textevent timeoffset="150" message="Great effort so far, let&apos;s take a moment and chat about the plan for today." locIndex="5" />
+            <textevent timeoffset="160" message="This session is like walking with a 2 year old - constantly stopping and starting :-)" locIndex="6" />
+            <textevent timeoffset="170" message="You will complete 2 blocks of 5 x 45 second efforts with a good rest of 60 seconds between each effort." locIndex="7" />
+            <textevent timeoffset="180" message="While your heart rate and perceived effort will surge during the 45 seconds of effort..." locIndex="8" />
+            <textevent timeoffset="190" message="...there is ample opportunity to recover well between each effort so a suitable workout for during pregnancy or starting slowly to gain fitness." locIndex="9" />
+            <textevent timeoffset="200" message="The key to training during pregnancy is consistency - little and often" locIndex="10" />
+            <textevent timeoffset="210" message="As a guide - you should always be able to hold a conversation during these workouts" locIndex="11" />
+            <textevent timeoffset="220" message="Keep an eye on your heart rate - you should not be anywhere near your max" locIndex="12" />
+            <textevent timeoffset="230" message="It is vital that your core body temperature doesn&apos;t get too high. Make sure you have a fan blasting and keep hydrated" locIndex="13" />
+            <textevent timeoffset="250" message="Listen to your body, and don&apos;t worry if you need to lower the bias during these workouts to complete" locIndex="14" />
+            <textevent timeoffset="280" message="Most importantly - enjoy!" locIndex="15" />
+            <textevent timeoffset="290" message="Up next, we&apos;ll take a short rest before the first interval." locIndex="16" />
+        </Warmup>
+        <IntervalsT Repeat="5" OnDuration="60" OffDuration="45" OnPower="0.45" OffPower="1.01">
+            <textevent timeoffset="1" message="You should be feeling warm and ready to go for this workout" locIndex="17" />
+            <textevent timeoffset="60" message="First effort - focus on hitting the target powers throughout " locIndex="18" />
+            <textevent timeoffset="105" message="And rest! Each recovery period within the first block is 1 minute" locIndex="19" />
+            <textevent timeoffset="165" message="2nd effort - you will get dialled in to the required effort" locIndex="20" />
+            <textevent timeoffset="220" message="Don&apos;t forget to keep drinking - little and often " locIndex="21" />
+            <textevent timeoffset="300" message="You should never over heat in pregnancy so make sure you have the fan blasting " locIndex="22" />
+            <textevent timeoffset="470" message="Last effort coming up - this is when the gains are really made" locIndex="23" />
+            <textevent timeoffset="375" message="Focus on your breathing to try and control your heart rate" locIndex="24" />
+        </IntervalsT>
+        <SteadyState Duration="150" Power="0.46">
+            <textevent timeoffset="10" message="Enjoy this rest between blocks - a chance to stretch out a little maybe?" locIndex="25" />
+            <textevent timeoffset="100" message="Have a drink and get ready for the last 5 efforts - it&apos;s a repeat of what you have just done" locIndex="26" />
+            <textevent timeoffset="140" message="Your heart rate has hopefully dropped during this recovery phase?" locIndex="27" />
+        </SteadyState>
+        <IntervalsT Repeat="5" OnDuration="60" OffDuration="45" OnPower="0.45" OffPower="1">
+            <textevent timeoffset="10" message="Final push for the last set of efforts in this Start Stop workout " locIndex="28" />
+            <textevent timeoffset="60" message="Focus on keeping your upper body still " locIndex="29" />
+            <textevent timeoffset="90" message="You should be generating all the power through your legs. No rocking your shoulders!" locIndex="30" />
+            <textevent timeoffset="170" message="Nice work - don&apos;t worry if you have to lower your bias - this is about completing a structured workout, not working to your absolute max" locIndex="31" />
+            <textevent timeoffset="220" message="How are you feeling?" locIndex="32" />
+            <textevent timeoffset="250" message="Your body is very clever - listen to it!" locIndex="33" />
+            <textevent timeoffset="270" message="If you are finding this easy - you can nudge the bias up a little" locIndex="34" />
+            <textevent timeoffset="340" message="You are likely feeling then effects of from the cumulative fatigue of this workout by now?" locIndex="35" />
+            <textevent timeoffset="370" message="Penultimate effort - don&apos;t forget about your form - try to pedal in full circles. A nice smooth pedaling stroke " locIndex="36" />
+            <textevent timeoffset="425" message="Enjoy this last 1 minute of rest before our final 45 second effort" locIndex="37" />
+            <textevent timeoffset="480" message="Last 45 second effort - you have smashed this workout" locIndex="38" />
+            <textevent timeoffset="500" message="Nicely ridden - well done you!" locIndex="39" />
+        </IntervalsT>
+        <Cooldown Duration="300" PowerLow="0.65" PowerHigh="0.35">
+            <textevent timeoffset="20" message="Good work - that&apos;s Stop-Start complete!" locIndex="40" />
+            <textevent timeoffset="90" message="Remember, the key to fitness is consistency - little and often" locIndex="41" />
+            <textevent timeoffset="140" message="How do you feel on your bike at the moment? Comfortable?" locIndex="42" />
+            <textevent timeoffset="155" message="As your body changes through pregnancy, you may need to tweak your position by flipping your stem" locIndex="43" />
+            <textevent timeoffset="170" message="Flip your stem upside down, to raise your handlebars which should give your bump more space" locIndex="44" />
+            <textevent timeoffset="185" message="This is something that we (Dani and Kristin) both did, which helped massively" locIndex="45" />
+            <textevent timeoffset="220" message="You should not have felt excessively hot during today&apos;s workout" locIndex="46" />
+            <textevent timeoffset="240" message="It&apos;s vital that your core body temperature doesn&apos;t get too high during pregnancy" locIndex="47" />
+            <textevent timeoffset="290" message="See you on the next Workout - Dani and Kristin" locIndex="48" />
+        </Cooldown>
+    </workout>
+</workout_file>

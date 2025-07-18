@@ -1,0 +1,17 @@
+<workout_file>
+    <uniqueId>0ea52cab-95b6-42a3-a891-fa8205ec0314</uniqueId>
+    <legacyIdHash>523140002</legacyIdHash>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <category>Your First Century</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 9</subcategory>
+    <name>Week 9.7 - Day 7</name>
+    <description>Building Endurance today! Once warmed up, ride in your Endurance zone. Focus on staying relaxed on the bike and spinning circles while keeping your cadence between 90-100. During the last hour of the ride complete 1 x 30-minute TEMPO effort.</description>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow="0.2545" PowerHigh="0.75449997" />
+        <SteadyState Duration="6000" PowerLow="0.75449997" PowerHigh="0.75449997" />
+        <SteadyState Duration="1800" PowerLow="0.94999999" PowerHigh="0.94999999" />
+        <Cooldown Duration="600" PowerLow="0.75449997" PowerHigh="0.2545" />
+    </workout>
+</workout_file>

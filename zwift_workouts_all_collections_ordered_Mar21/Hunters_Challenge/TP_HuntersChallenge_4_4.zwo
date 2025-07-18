@@ -1,0 +1,17 @@
+<workout_file>
+    <uniqueId>15213155-92e7-4b9a-926a-709c72c0fa85</uniqueId>
+    <legacyIdHash>1593640833</legacyIdHash>
+    <category>Hunter&apos;s Challenge</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 4</subcategory>
+    <name>Week 4.4 - FTP work - Short and Sweet</name>
+    <description>Groundhog day. Yes, you did this yesterday, but today just focus on consistency. </description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <workout>
+        <Warmup PowerLow="0.55" PowerHigh="0.72" Duration="600" />
+        <IntervalsT OnDuration="600" OffDuration="600" OnPower="1.14" OffPower="0.72" Repeat="4" />
+        <SteadyState Duration="600" Power="0.72" />
+        <IntervalsT OnDuration="60" OffDuration="60" OnPower="1.60" OffPower="0.72" Repeat="4" />
+        <Cooldown PowerLow="0.72" PowerHigh=".55" Duration="300" />
+    </workout>
+</workout_file>

@@ -1,0 +1,51 @@
+<workout_file>
+    <uniqueId>353abaf2-dd0b-48ca-9a3d-28a8076aa438</uniqueId>
+    <legacyIdHash>875488262</legacyIdHash>
+    <author>Zwift</author>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>4wk FTP Booster</category>
+    <subcategory>Week 3</subcategory>
+    <name>Week 3.1 - Progressive 11&apos;s</name>
+    <description>After warming up you will be completing 2 x 11min &apos;progressive&apos; intervals. Starting out with a comfortable sub-threshold effort, you will finish with a 1min above threshold effort.
+
+Finally the session is completed with a 10min steady threshold effort.
+
+After completing 2 progressive intervals, the final effort should feel relatively comfortable. </description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="4weekftp" />
+    </tags>
+    <workout>
+        <SteadyState Duration="180" Power="0.50449997" />
+        <IntervalsT Repeat="2" OnDuration="60" OffDuration="60" OnPower="0.75449997" OffPower="0.50449997" Cadence="90" CadenceResting="80" />
+        <IntervalsT Repeat="2" OnDuration="60" OffDuration="60" OnPower="0.90449995" OffPower="0.50449997" Cadence="95" CadenceResting="80" />
+        <SteadyState Duration="180" Power="0.50449997" />
+        <SteadyState Duration="360" Power="0.83449996" Cadence="95">
+            <textevent timeoffset="22" message="Starting at a comfortable level" locIndex="1" />
+            <textevent timeoffset="345" message="Ready to increase the power." locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.98449993" Cadence="90">
+            <textevent timeoffset="225" message="Lift once more to finish." locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.0944999" Cadence="90" />
+        <SteadyState Duration="300" Power="0.50449997">
+            <textevent timeoffset="259" message="Same steps again." locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="360" Power="0.83449996" Cadence="95">
+            <textevent timeoffset="345" message="Ready to lift power." locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.98449993" Cadence="90">
+            <textevent timeoffset="225" message="Into the final minute." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.0944999" Cadence="90" />
+        <SteadyState Duration="300" Power="0.50449997">
+            <textevent timeoffset="280" message="Finishing with a" locIndex="7" y="240" />
+            <textevent timeoffset="280" message="sub-threshold effort." locIndex="8" y="270" />
+        </SteadyState>
+        <SteadyState Duration="600" Power="0.95449996" Cadence="90">
+            <textevent timeoffset="40" message="Find your rhythm early." locIndex="9" />
+            <textevent timeoffset="480" message="2min to go!" locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.50449997" />
+    </workout>
+</workout_file>

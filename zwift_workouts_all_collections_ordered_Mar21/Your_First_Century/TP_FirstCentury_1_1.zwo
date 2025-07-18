@@ -1,0 +1,15 @@
+<workout_file>
+    <uniqueId>cdfa52d6-8f76-445d-a15e-de48bf60f4e8</uniqueId>
+    <legacyIdHash>2743189605</legacyIdHash>
+    <category>Your First Century</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 1</subcategory>
+    <name>Week 1.1 - Day 1</name>
+    <description>Today is simple, ride the prescribed time your Endurance Zone (Power Z2, HR Z2, RPE 2-3). Vary your cadence throughout ride and work on pedaling form. Practice "coming over the top" and "pulling through the bottom" of the pedal (pretend there is glass in shoes). Enjoy the day!! Terrain: Flat to Rolling; Cadence: 85 - 105.</description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.5" PowerHigh="0.7" />
+        <SteadyState Duration="5400" Zone="2" CadenceHigh="105" CadenceLow="85" />
+        <Cooldown Duration="600" PowerLow="0.7" PowerHigh="0.5" />
+    </workout>
+</workout_file>

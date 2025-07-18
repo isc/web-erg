@@ -1,0 +1,62 @@
+<workout_file>
+    <uniqueId>51487d8f-0c60-4aa6-b42d-e715e9439d5e</uniqueId>
+    <legacyIdHash>728319431</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <categoryOverride>30-60 minutes to burn</categoryOverride>
+    <name>Week 6.5 - 40/20&apos;s into FTP #1</name>
+    <category>2018 PRL100 Prep</category>
+    <subcategory>Week 6</subcategory>
+    <description>After a series of short, hard intervals, take on a sustained block of FTP. Opposite of some of the previous workouts where a sustained sub-threshold effort was followed by high-power intervals, in this workout we build some fatigue with the intervals before tackling the sustained threshold effort.
+</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout>
+        <Warmup Duration="180" PowerLow="0.5" PowerHigh="0.5">
+            <textevent timeoffset="20" message="After warming up we hit some high intensity 40/20&apos;s leading into a threshold effort." locIndex="1" />
+            <textevent timeoffset="150" message="First some 1min threshold efforts to warm up." locIndex="2" />
+        </Warmup>
+        <IntervalsT Repeat="3" OnDuration="30" OffDuration="60" OnPower="0.94" OffPower="0.61" />
+        <SteadyState Duration="150" Power="0.71">
+            <textevent timeoffset="20" message="A little aerobic effort to complete the warm up." locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="10" message="Stay seated for the 40sec efforts." locIndex="4" />
+            <textevent timeoffset="20" message="And try to maintain an even cadence throughout the 40sec." locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="40" Power="1.21" />
+        <SteadyState Duration="20" Power="0.55" />
+        <SteadyState Duration="40" Power="1.21" />
+        <SteadyState Duration="20" Power="0.55" />
+        <SteadyState Duration="40" Power="1.21" />
+        <SteadyState Duration="20" Power="0.55" />
+        <SteadyState Duration="40" Power="1.21" />
+        <SteadyState Duration="20" Power="0.55">
+            <textevent timeoffset="10" message="Straight into the threshold effort now." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="600" Power="0.95">
+            <textevent timeoffset="30" message="Your HR should already be elevated. Observe if it continues to rise throughout the effort" locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="600" Power="0.55">
+            <textevent timeoffset="30" message="You need a good recovery after that!" locIndex="8" />
+            <textevent timeoffset="580" message="Same as the 1st set. Back into the 40/20&apos;s." locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="40" Power="1.21" />
+        <SteadyState Duration="20" Power="0.55" />
+        <SteadyState Duration="40" Power="1.21" />
+        <SteadyState Duration="20" Power="0.55" />
+        <SteadyState Duration="40" Power="1.21" />
+        <SteadyState Duration="20" Power="0.55" />
+        <SteadyState Duration="40" Power="1.21" />
+        <SteadyState Duration="20" Power="0.55" />
+        <SteadyState Duration="600" Power="0.95">
+            <textevent timeoffset="60" message="Aim to maintain the same cadence throughout the threshold effort." locIndex="10" />
+            <textevent timeoffset="300" message="Is your Hr still rising? " locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="30" message="Very good today. That was a hard session!" locIndex="12" />
+            <textevent timeoffset="50" message="Now to cool down." locIndex="13" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow="0.75" PowerHigh="0.5" />
+    </workout>
+</workout_file>

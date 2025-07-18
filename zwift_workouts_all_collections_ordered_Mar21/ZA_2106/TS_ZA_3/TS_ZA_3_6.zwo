@@ -1,0 +1,18 @@
+<workout_file>
+    <uniqueId>f457f064-58fb-4956-9850-6d4214aad678</uniqueId>
+    <legacyIdHash>2625763646</legacyIdHash>
+    <author>Jon Sharples</author>
+    <category>Zwift Academy 2016</category>
+    <subcategory>Month 3</subcategory>
+    <WorkoutPlan>1</WorkoutPlan>
+    <name>Month 3.6 - Threshold Pulling</name>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/trainSharp_Logo.tga</authorIcon>
+    <description>Recovery period is only short, so make sure you make the most of it, keep the legs spinning (but back off the power as much as possible), try not to slump over the bars, remain upright and ensure you have a good airflow and full bottle of drink for this one!</description>
+    <tags />
+    <workout>
+        <Warmup Duration="900" PowerLow="0.2545" PowerHigh="0.85449994" />
+        <SteadyState Duration="300" Power="0.65449995" />
+        <IntervalsT Repeat="6" OnDuration="240" OffDuration="240" OnPower="1.0545" OffPower="0.50449997" />
+        <Cooldown Duration="900" PowerLow="0.75" PowerHigh="0.25" />
+    </workout>
+</workout_file>

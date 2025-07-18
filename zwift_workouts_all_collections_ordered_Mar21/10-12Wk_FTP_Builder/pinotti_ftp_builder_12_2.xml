@@ -1,0 +1,28 @@
+<workout_file>
+    <uniqueId>e6e631f5-f9ff-4a2a-969c-ebfd1c52c94d</uniqueId>
+    <legacyIdHash>2135482182</legacyIdHash>
+    <name>Week 12.2 - Day 2</name>
+    <description>Threshold Dev</description>
+    <author>Marco Pinotti</author>
+    <category>10-12wk FTP Builder</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 12</subcategory>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/MarcoPinotti_Logo.tga</authorIcon>
+    <sportType>bike</sportType>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.5" PowerHigh="0.65" />
+        <SteadyState Duration="300" Power="0.81" />
+        <SteadyState Duration="120" Power="0.5" />
+        <SteadyState Duration="120" Power="0.65" />
+        <SteadyState Duration="120" Power="0.81" />
+        <SteadyState Duration="60" Power="0.95" />
+        <SteadyState Duration="300" Power="0.5" />
+        <IntervalsT Repeat="6" OnDuration="20" OnPower=".95" OffDuration="40" OffPower=".81" OverUnder="1" />
+        <SteadyState Duration="360" Power="0.5" />
+        <IntervalsT Repeat="6" OnDuration="20" OnPower=".95" OffDuration="40" OffPower=".81" OverUnder="1" />
+        <SteadyState Duration="360" Power="0.5" />
+        <IntervalsT Repeat="6" OnDuration="20" OnPower=".95" OffDuration="40" OffPower=".81" OverUnder="1" />
+        <SteadyState Duration="360" Power="0.5" />
+        <Cooldown Duration="300" PowerHigh="0.65" PowerLow="0.5" />
+    </workout>
+</workout_file>

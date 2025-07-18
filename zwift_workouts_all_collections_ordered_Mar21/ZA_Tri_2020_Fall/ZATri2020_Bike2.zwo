@@ -1,0 +1,129 @@
+<workout_file>
+    <uniqueId>e33ada78-bed4-4cf7-9f92-8b6ac491eead</uniqueId>
+    <legacyIdHash>1795646587</legacyIdHash>
+    <author>Daniel Plews</author>
+    <categoryOverride>Best of Zwift Academy</categoryOverride>
+    <subcategoryOverride>ZA 2020</subcategoryOverride>
+    <name>Aerobic Threshold Development</name>
+    <activitySaveName>Zwift Academy Tri:  Bike Workout 2 | Aerobic Threshold Development</activitySaveName>
+    <description>This session is designed to improve your aerobic threshold, which, for most people, is around long course pace. As such, the intensity is kept lower, but the duration of each rep is longer (15–16min in length). We call these sessions up-and-unders, going up above and then under your long course power threshold. This session is just 1 hour 15 min in length, but can be much longer in total duration due to the relatively low intensity. Sometimes, these sessions can build up to nearly 3 hours of total work for the big timers!
+    
+    For WHOOP users — This workout is good to do on a Yellow or Green Recovery day. These up-and-under intervals have great training impacts with a lower level of strain, which is ideal for days that you haven’t had decent recovery.</description>
+    <tags>
+        <tag name="ZA TRI" />
+    </tags>
+    <sportType>ride</sportType>
+    <category>Zwift Academy Tri 2020</category>
+    <categoryIndex>2</categoryIndex>
+    <visibleAfterTime>1603929600</visibleAfterTime>
+    <overrideHash>416579445</overrideHash>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.45" PowerHigh="0.80">
+            <textevent timeoffset="0" message="Welcome to another session of Zwift Academy Tri!" locIndex="1" />
+            <textevent timeoffset="10" message="We&apos;re back for another epic session with me - Coach Dan Plews." locIndex="2" />
+            <textevent timeoffset="20" message="And I have to say, this session is one of my personal favorites!" locIndex="3" />
+            <textevent timeoffset="40" message="Today we&apos;re going to do long course tri specific work." locIndex="4" />
+            <textevent timeoffset="50" message="This means working around your long distance power, focusing just above and below your long course effort." locIndex="5" />
+            <textevent timeoffset="60" message="To accomplish this we&apos;re going to be doing longer reps of 16, 15, and 16 minutes. The intensity will change throughout each rep and are known as up and under efforts." locIndex="6" />
+            <textevent timeoffset="70" message="Before we get to the fun stuff, we&apos;ve got the rest of our 10 minute warm up." locIndex="7" />
+            <textevent timeoffset="300" message="Are your legs feeling a little tight and sore? Don&apos;t worry, we still have another 5 min of warm up." locIndex="8" />
+            <textevent timeoffset="540" message="Ok in 1 minute we&apos;ve got the first 16 minute rep." locIndex="9" />
+            <textevent timeoffset="550" message="It consists of 2 min at close to 70.3 effort, and then 2 min at long course effort." locIndex="10" />
+            <textevent timeoffset="560" message="Workouts like these aren&apos;t typically too strenuous and can be described as somewhat hard :)" locIndex="11" />
+            <textevent timeoffset="590" message="Here we go! Let&apos;s get ready for this first set." locIndex="12" />
+        </Warmup>
+        <IntervalsT Repeat="4" OnDuration="120" OffDuration="120" OnPower="0.82" OffPower="0.75">
+            <textevent timeoffset="0" message="We&apos;re starting with an UP - 2 mins at 70.3 effort." locIndex="13" />
+            <textevent timeoffset="10" message="For all these reps, try to keep in the aero position as much as possible. It&apos;s important to work the correct muscles." locIndex="14" />
+            <textevent timeoffset="60" message="Changing the intensity every 2 minutes is a great way to break up these longer sets." locIndex="15" />
+            <textevent timeoffset="70" message="1 more minute then we are going to reduce the power to long course effort." locIndex="16" />
+            <textevent timeoffset="110" message="Well done, taking it down to your long course effort in 10 seconds." locIndex="17" />
+            <textevent timeoffset="120" message="Keep the pressure on as you find the correct power. It&apos;s just a subtle change, so settle in gently." locIndex="18" />
+            <textevent timeoffset="180" message="Nice! Looks like you&apos;re crushing it!" locIndex="19" />
+            <textevent timeoffset="230" message="As before, back to 70.3 effort in 10 seconds." locIndex="20" />
+            <textevent timeoffset="240" message="Here we go, find the same power as before." locIndex="21" />
+            <textevent timeoffset="300" message="Remember stay aero as much as you can." locIndex="22" />
+            <textevent timeoffset="310" message="You will find it harder to stay aero when the intensity is higher, but this session should be manageable." locIndex="23" />
+            <textevent timeoffset="350" message="Back down in 10 seconds." locIndex="24" />
+            <textevent timeoffset="360" message="That&apos;s great! Smooth transition." locIndex="25" />
+            <textevent timeoffset="460" message="You should be getting the hang of this now. Coming towards the end of this 2 minutes." locIndex="26" />
+            <textevent timeoffset="480" message="Moving back to long course for 2 minutes." locIndex="27" />
+            <textevent timeoffset="510" message="This is at 82% of FTP which is pretty close to 70.3 race pace." locIndex="28" />
+            <textevent timeoffset="520" message="70.3 intensity generally falls somewhere between 80-85% of FTP." locIndex="29" />
+            <textevent timeoffset="590" message="Nice! Take it back to your long course effort in 10 seconds." locIndex="30" />
+            <textevent timeoffset="600" message="Settle in now" locIndex="31" />
+            <textevent timeoffset="700" message="Really nice! I can see you&apos;re settling into this session now. Back up to 70.3 effort shortly." locIndex="32" />
+            <textevent timeoffset="720" message="Nice, last 2 minutes for this 16 minute rep." locIndex="33" />
+            <textevent timeoffset="780" message="1 more minute to go. Keep it smooth, with the upper body as still as possible." locIndex="34" />
+            <textevent timeoffset="840" message="GREAT, back down again to finish off this rep." locIndex="35" />
+            <textevent timeoffset="900" message="Final 60 seconds. Get it done!" locIndex="36" />
+        </IntervalsT>
+        <SteadyState Duration="180" Power="0.55">
+            <textevent timeoffset="0" message="Annnnnnnd, easy!" locIndex="37" />
+            <textevent timeoffset="10" message="3 minutes nice and easy here before the next 16 minute rep." locIndex="38" />
+            <textevent timeoffset="30" message="Keep your cadence high during the recovery periods." locIndex="39" />
+            <textevent timeoffset="40" message="The frequency of the pumping actions help with muscle recovery and to return blood to the heart." locIndex="40" />
+            <textevent timeoffset="60" message="The next 15 minute interval comes with a bit of a twist." locIndex="41" />
+            <textevent timeoffset="70" message="The intensity is the same, but this time we&apos;re doing 3 minutes up and then 2 minutes under." locIndex="42" />
+            <textevent timeoffset="160" message="Feeling recovered and ready for more???" locIndex="43" />
+            <textevent timeoffset="170" message="Good news because the next rep is just 10 seconds away. :)" locIndex="44" />
+        </SteadyState>
+        <IntervalsT Repeat="3" OnDuration="180" OffDuration="120" OnPower="0.82" OffPower="0.75">
+            <textevent timeoffset="0" message="As before, we&apos;re starting with an UP! 3 minutes at 70.3 effort." locIndex="45" />
+            <textevent timeoffset="90" message="Halfway through this first 3 mins. You&apos;re cruising!" />
+            <textevent timeoffset="180" message="Good, back UNDER for 2 minutes." locIndex="46" />
+            <textevent timeoffset="240" message="Focus on the recovery and efficiency during these unders." locIndex="47" />
+            <textevent timeoffset="250" message="Can you bring your heart rate down?" locIndex="48" />
+            <textevent timeoffset="260" message="Settle the breathing and the heart rate will follow." locIndex="49" />
+            <textevent timeoffset="300" message="Back up! Unlock that power!" locIndex="50" />
+            <textevent timeoffset="390" message="Halfway, keep the cadence consistent here." locIndex="51" />
+            <textevent timeoffset="480" message="There we go. Once again, try and recover a bit here." locIndex="52" />
+            <textevent timeoffset="590" message="You got this!" locIndex="53" />
+            <textevent timeoffset="600" message="You&apos;re looking great." locIndex="54" />
+            <textevent timeoffset="690" message="Last 90 seconds then back down as before." locIndex="55" />
+            <textevent timeoffset="780" message="Wow, that was a good 3 minutes." locIndex="56" />
+            <textevent timeoffset="790" message="Now let&apos;s finish off this rep." locIndex="57" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.55">
+            <textevent timeoffset="0" message="Great job! Take the pressure off and enjoy your recovery." locIndex="58" />
+            <textevent timeoffset="10" message="We have 3 minutes to recover here, grab a drink if you need it." locIndex="59" />
+            <textevent timeoffset="150" message="This last rep is 16 minutes long." locIndex="60" />
+            <textevent timeoffset="160" message="This time we&apos;re going to do 4 minutes up and 4 minutes under." locIndex="61" />
+            <textevent timeoffset="170" message="The intensity is the same as the previous two reps." locIndex="62" />
+            <textevent timeoffset="290" message="Ok, let&apos;s finish off this session! 10 seconds until the final rep." locIndex="63" />
+        </SteadyState>
+        <IntervalsT Repeat="2" OnDuration="240" OffDuration="240" OnPower="0.82" OffPower="0.75">
+            <textevent timeoffset="0" message="Back to 70.3 effort for 4 minutes." locIndex="64" />
+            <textevent timeoffset="10" message="As fatigue sets in focus on maintaining good pedalling technique and staying in aero position." locIndex="65" />
+            <textevent timeoffset="20" message="This is great practice and training for longer distance triathlons." locIndex="66" />
+            <textevent timeoffset="120" message="Halfway through, you&apos;re doing GREAT!" locIndex="67" />
+            <textevent timeoffset="230" message="Nearly there!! Focus on your transition as the power comes down." locIndex="68" />
+            <textevent timeoffset="240" message="PHEW! I know, 4 minutes is a long time. This will be the hardest rep." locIndex="69" />
+            <textevent timeoffset="250" message="Once again, really try and bring the heart rate down during this under!" locIndex="70" />
+            <textevent timeoffset="360" message="Halfway through this 4 minute block." locIndex="71" />
+            <textevent timeoffset="470" message="10 seconds to go..." locIndex="72" />
+            <textevent timeoffset="480" message="Ok! Last time we&apos;re going to be hitting the higher power today." locIndex="73" />
+            <textevent timeoffset="490" message="Let&apos;s do this!!" locIndex="74" />
+            <textevent timeoffset="540" message="Stay aero, keep it smooth, and stay efficient. Long distance is all about staying as efficient as possible even under fatigue." locIndex="75" />
+            <textevent timeoffset="600" message="WOW! You&apos;re rocking this one. Halfway!" locIndex="76" />
+            <textevent timeoffset="660" message="Yeah, last minute! Hold that cadence. " locIndex="77" />
+            <textevent timeoffset="690" message="30 seconds to go, all the way through." locIndex="78" />
+            <textevent timeoffset="710" message="Finishing this 4 minute section in 10 seconds! Get to the arch!!" locIndex="79" />
+            <textevent timeoffset="720" message="That&apos;s the way, settle back to long course effort." locIndex="80" />
+            <textevent timeoffset="750" message="A great test for these up and under sessions is to monitor how your heart rate recovers during the unders." locIndex="81" />
+            <textevent timeoffset="760" message="As you get fitter, you should start to see more substantial drops in heart rate while still riding at long course effort." locIndex="82" />
+            <textevent timeoffset="840" message="Halfway! We&apos;re nearly there and you are still looking great." locIndex="83" />
+            <textevent timeoffset="930" message="30 seconds to go. You&apos;re still cruising!" locIndex="84" />
+            <textevent timeoffset="950" message="10 seconds and we&apos;re there!" locIndex="85" />
+        </IntervalsT>
+        <Cooldown Duration="300" PowerHigh="0.75" PowerLow="0.55">
+            <textevent timeoffset="0" message="Way to go! Great job." locIndex="86" />
+            <textevent timeoffset="10" message="Remember, being good at long course racing isn&apos;t about being faster. It&apos;s about doing things easier." locIndex="87" />
+            <textevent timeoffset="30" message="A great progression of this session is to either add more reps, or increase the duration of each rep." locIndex="88" />
+            <textevent timeoffset="45" message="You can even work towards doing 3 hours of this type of work. Today you completed 46 minutes." locIndex="89" />
+            <textevent timeoffset="200" message="Be sure to join us for the next Zwift Academy Tri workout. We&apos;ve got a fun one dialed up for you." locIndex="90" />
+            <textevent timeoffset="240" message="Great work today! This is the longest workout of the program and you smashed it! " locIndex="91" />
+            <textevent timeoffset="280" message="See you next time!" locIndex="92" />
+        </Cooldown>
+    </workout>
+</workout_file>

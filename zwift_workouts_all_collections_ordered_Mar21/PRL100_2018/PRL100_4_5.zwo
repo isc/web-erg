@@ -1,0 +1,75 @@
+<workout_file>
+    <uniqueId>272171e6-c8c8-4fac-926e-73439db1806e</uniqueId>
+    <legacyIdHash>3170260206</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Week 4.5 - AC Maintenance #4</name>
+    <category>2018 PRL100 Prep</category>
+    <subcategory>Week 4</subcategory>
+    <description>This is a very high level of intensity that requires mental and physical perseverance. As well as improving your ability to produce sustained power above threshold, AC training will also improve your ability to recover from high intensity efforts and repeat them again and again. You will need to stay focused today!</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow="0.50449997" PowerHigh="0.75449997" pace="0">
+            <textevent timeoffset="66" message="Include 3x6sec high cadence surges during your warm up." locIndex="1" />
+            <textevent timeoffset="488" message="The AC intervals are hard but achievable." locIndex="2" />
+        </Warmup>
+        <SteadyState Duration="60" Power="1.21" pace="0" />
+        <SteadyState Duration="75" Power="0.55000001" pace="0">
+            <textevent timeoffset="28" message="Hold your race position on the bike during the intervals." locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.21" pace="0" />
+        <SteadyState Duration="75" Power="0.55000001" pace="0" />
+        <SteadyState Duration="60" Power="1.21" pace="0" />
+        <SteadyState Duration="75" Power="0.55000001" pace="0">
+            <textevent timeoffset="31" message="Aim to hold the same cadence throughout the effort." locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.21" pace="0" />
+        <SteadyState Duration="75" Power="0.55000001" pace="0">
+            <textevent timeoffset="33" message="Halfway. 4 to go!" locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.21" pace="0" />
+        <SteadyState Duration="75" Power="0.55000001" pace="0" />
+        <SteadyState Duration="60" Power="1.21" pace="0" />
+        <SteadyState Duration="75" Power="0.55000001" pace="0" />
+        <SteadyState Duration="60" Power="1.21" pace="0" />
+        <SteadyState Duration="75" Power="0.55000001" pace="0">
+            <textevent timeoffset="31" message="Has your peak HR been increasing? Or remaining stable?" locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.21" pace="0" />
+        <SteadyState Duration="75" Power="0.55000001" pace="0" />
+        <SteadyState Duration="600" Power="0.55000001" pace="0">
+            <textevent timeoffset="57" message="Great work. Have a short rest then we do it again!" locIndex="7" />
+            <textevent timeoffset="554" message="As in the 1st set, aim  to hold the same cadence throughout the interval." locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.21" pace="0" />
+        <SteadyState Duration="75" Power="0.55000001" pace="0" />
+        <SteadyState Duration="60" Power="1.21" pace="0" />
+        <SteadyState Duration="75" Power="0.55000001" pace="0">
+            <textevent timeoffset="28" message="Feeling comfortable still?" locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.21" pace="0" />
+        <SteadyState Duration="75" Power="0.55000001" pace="0" />
+        <SteadyState Duration="60" Power="1.21" pace="0" />
+        <SteadyState Duration="75" Power="0.55000001" pace="0">
+            <textevent timeoffset="38" message="Just 4 to go!" locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.21" pace="0" />
+        <SteadyState Duration="75" Power="0.55000001" pace="0" />
+        <SteadyState Duration="60" Power="1.21" pace="0" />
+        <SteadyState Duration="75" Power="0.55000001" pace="0">
+            <textevent timeoffset="27" message="How does your HR compare to the 1st set?" locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.21" pace="0" />
+        <SteadyState Duration="75" Power="0.55000001" pace="0" />
+        <SteadyState Duration="60" Power="1.21" pace="0" />
+        <SteadyState Duration="75" Power="0.55000001" pace="0">
+            <textevent timeoffset="34" message="It&apos;s not over yet. We finish the session with 10min Tempo." locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="600" Power="0.85449994" pace="0">
+            <textevent timeoffset="301" message="Just 5min to go. " locIndex="13" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow="0.75449997" PowerHigh="0.50449997" pace="0">
+            <textevent timeoffset="111" message="That was a big session today. Well done." locIndex="14" />
+        </Cooldown>
+    </workout>
+</workout_file>

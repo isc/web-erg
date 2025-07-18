@@ -1,0 +1,36 @@
+<workout_file>
+    <uniqueId>9c83e844-17e3-4f10-b111-93bb86b354db</uniqueId>
+    <legacyIdHash>4201305980</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Week 6.4 - Sprints #2</name>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>2018 PRL46 Prep</category>
+    <subcategory>Week 6</subcategory>
+    <description>After warming up the session is a &apos;free ride&apos;, but during the session complete 6 x 12sec max sprints starting from low speed (10km/h).
+
+Begin sprint in a big gear that allows you to reach ~100rpm after 12sec. No gear changes during sprint.
+
+Grip bars tightly.</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <SteadyState Duration="180" Power="0.50449997" pace="0">
+            <textevent timeoffset="130" message="High rpm in warm up sprints" locIndex="1" />
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="10" OffDuration="50" OnPower="1.8050373" OffPower="0.50449997" pace="0" />
+        <SteadyState Duration="180" Power="0.70449996" pace="0" />
+        <SteadyState Duration="120" Power="0.50449997" pace="0" />
+        <SteadyState Duration="300" Power="0.90449995" pace="0" />
+        <SteadyState Duration="180" Power="0.50449997" pace="0" />
+        <FreeRide Duration="2100" FlatRoad="0">
+            <textevent timeoffset="40" message="starting from 10km/h/" locIndex="2" />
+            <textevent timeoffset="30" message="5 big gear sprints..." locIndex="3" />
+            <textevent timeoffset="79" message="Allow plenty of recovery &gt;5min" locIndex="4" />
+            <textevent timeoffset="424" message="Ready for a max sprint?" locIndex="5" />
+            <textevent timeoffset="766" message="Ready for a max sprint?" locIndex="6" />
+            <textevent timeoffset="1126" message="Ready for a max sprint?" locIndex="7" />
+            <textevent timeoffset="1463" message="Ready for a max sprint?" locIndex="8" />
+            <textevent timeoffset="1789" message="Ready for a max sprint?" locIndex="9" />
+        </FreeRide>
+    </workout>
+</workout_file>

@@ -1,0 +1,40 @@
+<workout_file>
+    <uniqueId>f8b2a051-ca10-46c1-af19-863c24df16b7</uniqueId>
+    <legacyIdHash>637243039</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <categoryOverride>60-90 minutes to burn</categoryOverride>
+    <name>Neuromuscular + AC #1</name>
+    <description>An effective way to build your aerobic endurance is to perform repeated, short, high power efforts throughout a steady state effort. After building some fatigue with the opening endurance interval, the session finishes with three anaerobic capacity intervals. The more efficient you are in the endurance effort, the stronger you will be for the AC efforts.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>TT Tune Up</category>
+    <subcategory>Week 6</subcategory>
+    <tags>
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.45" PowerHigh="0.75">
+            <textevent timeoffset="30" message="A challenging session today. " locIndex="1" />
+            <textevent timeoffset="270" message="To help prepare for the main set, we have some low level 1min efforts to begin with." locIndex="2" />
+        </Warmup>
+        <IntervalsT Repeat="2" OnDuration="60" OffDuration="60" OnPower="0.8" OffPower="0.5" />
+        <IntervalsT Repeat="2" OnDuration="60" OffDuration="60" OnPower="0.98" OffPower="0.5" />
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="80" message="By punctuating a steady state effort with short, high power surges, we increase your aerobic fitness." locIndex="3" />
+            <textevent timeoffset="100" message="In the steady state effort we have a 15sec surge every 3min." locIndex="4" />
+        </SteadyState>
+        <IntervalsT Repeat="8" OnDuration="15" OffDuration="180" OnPower="1.5" OffPower="0.88">
+            <textevent timeoffset="100" message="Observe your cadence and HR throughout the effort." locIndex="5" />
+            <textevent timeoffset="110" message="Does your cadence drop as the effort goes on?" locIndex="6" />
+            <textevent timeoffset="120" message="Does your HR return to the same value after each surge?" locIndex="7" />
+            <textevent timeoffset="400" message="An effective way to build your aerobic endurance is to perform repeated..." locIndex="8" />
+            <textevent timeoffset="410" message="short, high power efforts throughout a steady state effort." locIndex="9" />
+            <textevent timeoffset="1400" message="The more efficient you are in the endurance effort...." locIndex="10" />
+            <textevent timeoffset="1410" message="the stronger you will be for the AC efforts." locIndex="11" />
+        </IntervalsT>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="40" message="Now that you have built some fatigue with the steady effort, we finish with 3 Anaerobic Capacity efforts." locIndex="12" />
+        </SteadyState>
+        <IntervalsT Repeat="3" OnDuration="120" OffDuration="120" OnPower="1.2" OffPower="0.5" />
+        <Cooldown Duration="300" PowerLow="0.75" PowerHigh="0.45" />
+    </workout>
+</workout_file>

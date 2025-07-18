@@ -1,0 +1,145 @@
+<workout_file>
+    <uniqueId>d06106b0-312e-4cf2-9c2f-3efc47339467</uniqueId>
+    <legacyIdHash>541456488</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <categoryOverride>Climbing</categoryOverride>
+    <name>High Torque Hills</name>
+    <description>Not every course is made up of gentle long climbs. Sometimes a course consists of rolling, punchy climbs that require large changes in cadence and power. 
+
+Generally, the 1st effort is comfortable. But come the 4th and 5th effort, the legs have fatigued. Today we train for the demands of these repeated rolling hills.</description>
+    <sportType>bike</sportType>
+    <category>Singletrack Slayer</category>
+    <subcategory>Week 2</subcategory>
+    <WorkoutPlan>1</WorkoutPlan>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <tags>
+    </tags>
+    <workout>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="30" message="Today is all about training to attack multiple rolling hills." locIndex="1" />
+            <textevent timeoffset="50" message="Off road riding quite often has you climbing a short hill with some speed before having to power over the crest." locIndex="2" />
+            <textevent timeoffset="140" message="These efforts will involve high crank torque and high power." locIndex="3" />
+            <textevent timeoffset="160" message="Let&apos;s warm up for the work ahead." locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.6">
+            <textevent timeoffset="10" message="We are going to step the power up each minute." locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.65" />
+        <SteadyState Duration="60" Power="0.81">
+            <textevent timeoffset="10" message="This level of effort is fine for you!" locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.09">
+            <textevent timeoffset="10" message="Just a short challenging effort above threshold." locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="80" message="To complete the warmup we have a steady state threshold effort." locIndex="8" />
+            <textevent timeoffset="100" message="But it&apos;s only 4min, so no problem for you." locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.9">
+            <textevent timeoffset="30" message="Settle into a nice rhythm here." locIndex="10" />
+            <textevent timeoffset="60" message="Spin a little higher than what is comfortable for you here." locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="20" message="Now we are ready for the main set." locIndex="12" />
+            <textevent timeoffset="40" message="The intervals consist of 2 steps." locIndex="13" />
+            <textevent timeoffset="60" message="But we have a target cadence for each step to replicate the demands of punchy hills." locIndex="14" />
+            <textevent timeoffset="80" message="The opening effort is 4min at zone 3 with cadence 70rpm." locIndex="15" />
+            <textevent timeoffset="100" message="This should be a comfortable effort for you." locIndex="16" />
+            <textevent timeoffset="120" message="Then we punch over the top of the climb with power into zone 5 with cadence 60rpm!" locIndex="17" />
+            <textevent timeoffset="140" message="Always hit the target cadence and let the trainer adjust the power." locIndex="18" />
+            <textevent timeoffset="160" message="Here we go with the 1st effort." locIndex="19" />
+        </SteadyState>
+        <IntervalsT Repeat="1" OnDuration="240" OffDuration="60" OnPower="0.8" OffPower="1.1" Cadence="70" CadenceResting="60">
+            <textevent timeoffset="10" message="Hit that target cadence of 70rpm." locIndex="20" />
+            <textevent timeoffset="30" message="Position yourself on the bike as you would outdoors climbing." locIndex="21" />
+            <textevent timeoffset="50" message="On the back of the seat with hands on top of the bars." locIndex="22" />
+            <textevent timeoffset="140" message="Drive the power from your core and glutes." locIndex="23" />
+            <textevent timeoffset="180" message="This should be a comfortable effort you." locIndex="24" />
+            <textevent timeoffset="200" message="In a moment we punch over the crest." locIndex="25" />
+            <textevent timeoffset="220" message="The target rpm drops and the power increases." locIndex="26" />
+            <textevent timeoffset="250" message="Hit that target cadence of 60rpm." locIndex="27" />
+            <textevent timeoffset="270" message="Stay seated and drive the power from your core and glutes." locIndex="28" />
+            <textevent timeoffset="290" message="Coming over the crest now. Power all the way to the top!" locIndex="29" />
+        </IntervalsT>
+        <SteadyState Duration="120" Power="0.55">
+            <textevent timeoffset="20" message="Great work." locIndex="30" />
+            <textevent timeoffset="50" message="How did you find the low cadence?" locIndex="31" />
+            <textevent timeoffset="70" message="The first step should be comfortable." locIndex="32" />
+            <textevent timeoffset="90" message="The second step should be challenging." locIndex="33" />
+            <textevent timeoffset="110" message="Here we go again!" locIndex="34" />
+        </SteadyState>
+        <IntervalsT Repeat="1" OnDuration="240" OffDuration="60" OnPower="0.8" OffPower="1.1" Cadence="70" CadenceResting="60">
+            <textevent timeoffset="10" message="Hit that target cadence of 70rpm." locIndex="35" />
+            <textevent timeoffset="30" message="Position yourself on the bike as you would outdoors climbing." locIndex="36" />
+            <textevent timeoffset="50" message="On the back of the seat with hands on top of the bars." locIndex="37" />
+            <textevent timeoffset="140" message="Drive the power from your core and glutes." locIndex="38" />
+            <textevent timeoffset="180" message="This should be a comfortable effort you." locIndex="39" />
+            <textevent timeoffset="200" message="In a moment we punch over the crest." locIndex="40" />
+            <textevent timeoffset="220" message="The target rpm drops and the power increases." locIndex="41" />
+            <textevent timeoffset="250" message="Hit that target cadence of 60rpm." locIndex="42" />
+            <textevent timeoffset="270" message="Stay seated and drive the power from your core and glutes." locIndex="43" />
+            <textevent timeoffset="290" message="Coming over the crest now. Power all the way to the top!" locIndex="44" />
+        </IntervalsT>
+        <SteadyState Duration="120" Power="0.55">
+            <textevent timeoffset="20" message="Nice work!" locIndex="45" />
+            <textevent timeoffset="50" message="Was that a little more comfortable for you?" locIndex="46" />
+            <textevent timeoffset="70" message="Sometimes it takes some &quot;learning&quot; of the intervals and they become a little easier." locIndex="47" />
+            <textevent timeoffset="110" message="Let&apos;s step into the next one." locIndex="48" />
+        </SteadyState>
+        <IntervalsT Repeat="1" OnDuration="240" OffDuration="60" OnPower="0.8" OffPower="1.1" Cadence="70" CadenceResting="60">
+            <textevent timeoffset="10" message="Hit that target cadence of 70rpm." locIndex="49" />
+            <textevent timeoffset="30" message="Position yourself on the bike as you would outdoors climbing." locIndex="50" />
+            <textevent timeoffset="50" message="On the back of the seat with hands on top of the bars." locIndex="51" />
+            <textevent timeoffset="140" message="Drive the power from your core and glutes." locIndex="52" />
+            <textevent timeoffset="180" message="This should be a comfortable effort you." locIndex="53" />
+            <textevent timeoffset="200" message="In a moment we punch over the crest." locIndex="54" />
+            <textevent timeoffset="220" message="The target rpm drops and the power increases." locIndex="55" />
+            <textevent timeoffset="250" message="Hit that target cadence of 60rpm." locIndex="56" />
+            <textevent timeoffset="270" message="Stay seated and drive the power from your core and glutes." locIndex="57" />
+            <textevent timeoffset="290" message="Coming over the crest now. Power all the way to the top!" locIndex="58" />
+        </IntervalsT>
+        <SteadyState Duration="120" Power="0.55">
+            <textevent timeoffset="20" message="Great work." locIndex="59" />
+            <textevent timeoffset="80" message="Just one more punchy hill to go." locIndex="60" />
+            <textevent timeoffset="110" message="Here we go!" locIndex="61" />
+        </SteadyState>
+        <IntervalsT Repeat="1" OnDuration="240" OffDuration="60" OnPower="0.8" OffPower="1.1" Cadence="70" CadenceResting="60">
+            <textevent timeoffset="10" message="Hit that target cadence of 70rpm." locIndex="62" />
+            <textevent timeoffset="30" message="Position yourself on the bike as you would outdoors climbing." locIndex="63" />
+            <textevent timeoffset="50" message="On the back of the seat with hands on top of the bars." locIndex="64" />
+            <textevent timeoffset="140" message="Drive the power from your core and glutes." locIndex="65" />
+            <textevent timeoffset="180" message="This should be a comfortable effort you." locIndex="66" />
+            <textevent timeoffset="200" message="In a moment we punch over the crest." locIndex="67" />
+            <textevent timeoffset="220" message="The target rpm drops and the power increases." locIndex="68" />
+            <textevent timeoffset="250" message="Hit that target cadence of 60rpm." locIndex="69" />
+            <textevent timeoffset="270" message="Stay seated and drive the power from your core and glutes." locIndex="70" />
+            <textevent timeoffset="290" message="Coming over the crest now. Power all the way to the top!" locIndex="71" />
+        </IntervalsT>
+        <SteadyState Duration="120" Power="0.55">
+            <textevent timeoffset="30" message="Just a short rest and then we are into the fast part of the course." locIndex="72" />
+            <textevent timeoffset="60" message="For the remaining intervals you can self select your cadence." locIndex="73" />
+            <textevent timeoffset="100" message="here we go with a fast 4min threshold effort." locIndex="74" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.9">
+            <textevent timeoffset="20" message="Settle into a nice rhythm." locIndex="75" />
+            <textevent timeoffset="60" message="Have the earlier low cadence efforts affected your cadence here?" locIndex="76" />
+            <textevent timeoffset="200" message="Bring this effort home now." locIndex="77" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.55">
+            <textevent timeoffset="20" message="The last climb of the day is the same as the earlier effort." locIndex="78" />
+            <textevent timeoffset="40" message="But you are free to choose your cadence." locIndex="79" />
+            <textevent timeoffset="100" message="Let&apos;s see what your natural cadence is for this power." locIndex="80" />
+        </SteadyState>
+        <IntervalsT Repeat="1" OnDuration="240" OffDuration="60" OnPower="0.8" OffPower="1.1">
+            <textevent timeoffset="20" message="The first step is a comfortable zone 3." locIndex="81" />
+            <textevent timeoffset="40" message="Have the earlier efforts created some fatigue?" locIndex="82" />
+            <textevent timeoffset="220" message="Racing into the final part of the climb." locIndex="83" />
+            <textevent timeoffset="250" message="Here we go. Punch over the top to the line!" locIndex="84" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.5">
+            <textevent timeoffset="20" message="That was a fantastic session." locIndex="85" />
+            <textevent timeoffset="50" message="It&apos;s important we train to meet the demands of off road riding." locIndex="86" />
+            <textevent timeoffset="100" message="Be sure to hydrate and refuel for the next workout." locIndex="87" />
+        </SteadyState>
+    </workout>
+</workout_file>

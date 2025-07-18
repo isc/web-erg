@@ -1,0 +1,122 @@
+<workout_file>
+    <uniqueId>d69952dd-5754-4df1-9e84-87e6195b986d</uniqueId>
+    <legacyIdHash>762869251</legacyIdHash>
+    <author>Zwift</author>
+    <categoryOverride>Threshold</categoryOverride>
+    <name>8/6/4min Threshold</name>
+    <description>In gravel racing I find there is often much more time above the 80-85% of FTP zone than road racing, and with that also a lot of time at or above threshold. Steeper climbs, softer road surface, and more time spent riding alone are all reasons your watts may sneak up into this zone. 
+
+This workout will give us some good solid work in that zone and help us find some comfort inside the pain that is found at your &quot;FTP&quot;. A total of near 30 minutes there today, so take care of yourself with lots of good hydration and snacks if necessary.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Gravel Grinder</category>
+    <subcategory>Week 6</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="420" PowerLow="0.45" PowerHigh="0.65">
+            <textevent timeoffset="0" message="Let&apos;s get started with an easy ramp to easy. Yes, easy up to easy. " locIndex="1" />
+        </Warmup>
+        <SteadyState Duration="60" Power="0.7">
+            <textevent timeoffset="0" message="3, 3 minute ramps coming now to open up them legs. " locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.8">
+            <textevent timeoffset="0" message="Smooth and steady. " locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.9">
+            <textevent timeoffset="0" message="Wake up legs!" locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="0" message="Easy now. " locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.7">
+            <textevent timeoffset="0" message="Again!" locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.8">
+		</SteadyState>
+        <SteadyState Duration="60" Power="0.9">
+            <textevent timeoffset="0" message="One more minute then chill. " locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="0" message="Chill. " locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.7">
+            <textevent timeoffset="0" message="Last one, just like those other ones!" locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.8">
+		</SteadyState>
+        <SteadyState Duration="60" Power="0.9">
+            <textevent timeoffset="0" message="Nice high RPM&apos;s if you can!" locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="0" message="Recover well, some spicier little builds coming up. " locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.8">
+            <textevent timeoffset="0" message="Really stay on top of the gears on these!" locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.9">
+            <textevent timeoffset="0" message="The builds come a little quicker. " locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1">
+            <textevent timeoffset="0" message="In the grand scheme of things not hard, just a little waking up. " locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="0" message="Smooooooth. " locIndex="15" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.9">
+            <textevent timeoffset="0" message="Stay smooth, " locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1">
+            <textevent timeoffset="0" message="stay fresh," locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.1">
+            <textevent timeoffset="0" message="stay clean. " locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="0" message="Almost done! With the warm up ;)" locIndex="19" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1">
+            <textevent timeoffset="0" message="Last one now. " locIndex="20" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.1">
+            <textevent timeoffset="0" message="Take advantage of this warm up. " locIndex="21" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.2">
+            <textevent timeoffset="0" message="Work it. " locIndex="22" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="0" message="Nice work. " locIndex="23" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.55">
+            <textevent timeoffset="0" message="Easy days. ////Get in your comfortable RPM&apos;s." locIndex="24" />
+            <textevent timeoffset="100" message="Hydrate and get ready for some real work " locIndex="25" />
+        </SteadyState>
+        <SteadyState Duration="480" Power="0.95">
+            <textevent timeoffset="0" message="Here we go." locIndex="26" />
+            <textevent timeoffset="60" message="Settle yourself into it." locIndex="27" />
+            <textevent timeoffset="120" message="Be smooth" locIndex="28" />
+            <textevent timeoffset="220" message="Be comfortable in this effort, relaxed shoulders, arms, and neck. " locIndex="29" />
+            <textevent timeoffset="380" message="Great work keep it up now!" locIndex="30" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.55">
+            <textevent timeoffset="0" message="Nice job. Way to keep it rolling." locIndex="31" />
+            <textevent timeoffset="120" message="Rest easy and save some for the next block!" locIndex="32" />
+        </SteadyState>
+        <SteadyState Duration="360" Power="1">
+            <textevent timeoffset="0" message="This one is juuuuuuust a little bit harder than the last one but should feel fairly similar." locIndex="33" />
+            <textevent timeoffset="100" message="This effort should be repeatable and if it doesn&apos;t feel that way you likely have your FTP set a little too high" locIndex="34" />
+            <textevent timeoffset="220" message="Keep it rolling now. Great stuff!" locIndex="35" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.55">
+            <textevent timeoffset="0" message="There ya go! Good stuff. Now if this doesn&apos;t feel at least 8/10 on the RPE scale you should maybe up your FTP just a tad. " locIndex="36" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="1.05">
+            <textevent timeoffset="0" message="Ok, this one is hard, but pretty short today so no stress. Well, a fair amount of stress but you can do it!" locIndex="37" />
+            <textevent timeoffset="55" message="RPM&apos;s up and roll, roll, roll!!!" locIndex="38" />
+            <textevent timeoffset="140" message="Hup, hup, hup!!!" locIndex="39" />
+            <textevent timeoffset="200" message="Last minute now!!! GO!!!!" locIndex="40" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow="0.55" PowerHigh="0.45">
+            <textevent timeoffset="0" message="Great work! Not an easy block inside that workout but as I said a VERY important zone to work for success in the gravel. Rest yourself. " locIndex="41" />
+        </Cooldown>
+    </workout>
+</workout_file>

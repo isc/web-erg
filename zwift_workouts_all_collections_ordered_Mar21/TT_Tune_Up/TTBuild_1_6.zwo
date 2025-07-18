@@ -1,0 +1,65 @@
+<workout_file>
+    <uniqueId>5b251e08-497c-4e50-92d2-ffaf4edb2a9d</uniqueId>
+    <legacyIdHash>2593973105</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Tempo 15min / Target RPM #1</name>
+    <description>Tempo riding is a great way to improve your aerobic efficiency. Today&apos;s session consists of a pair of long tempo efforts. However, to focus more on muscular endurance, the target cadence starts at 75RPM and increases by 5RPM every 5min.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>TT Tune Up</category>
+    <subcategory>Week 1</subcategory>
+    <tags>
+    </tags>
+    <workout>
+        <Warmup Duration="180" PowerLow="0.45" PowerHigh="0.6">
+            <textevent timeoffset="30" message="Our warm up gradually ramps up to a 1min Zone 5 effort." locIndex="1" />
+        </Warmup>
+        <SteadyState Duration="60" Power="0.6" />
+        <SteadyState Duration="60" Power="0.65" />
+        <SteadyState Duration="60" Power="0.81">
+            <textevent timeoffset="50" message="Ready for the 1min Zone 5 effort." locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.09" />
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="100" message="To complete the warm up we now perform a 4min threshold effort." locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.9" />
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="60" message="Tempo riding is a great way to improve your aerobic efficiency." locIndex="4" />
+            <textevent timeoffset="80" message="To focus on muscular endurance, target RPM starts at 75RPM..." locIndex="5" />
+            <textevent timeoffset="160" message="Remember to aim for the target RPM and let the smart trainer adjust the power." locIndex="6" />
+        </SteadyState>
+        <Ramp Duration="300" PowerLow="0.76" PowerHigh="0.89" Cadence="75">
+            <textevent timeoffset="30" message="Settle into a good position on the bike." locIndex="7" />
+            <textevent timeoffset="50" message="Driving the pedals, while relaxing your hands." locIndex="8" />
+            <textevent timeoffset="70" message="The power slowly ramps up over the 5min." locIndex="9" />
+        </Ramp>
+        <Ramp Duration="300" PowerLow="0.76" PowerHigh="0.89" Cadence="80">
+            <textevent timeoffset="10" message="Targeting 80RPM this time." locIndex="10" />
+            <textevent timeoffset="150" message="Has the change in RPM affected your HR response?" locIndex="11" />
+        </Ramp>
+        <Ramp Duration="300" PowerLow="0.76" PowerHigh="0.89" Cadence="85">
+            <textevent timeoffset="10" message="Targeting 85RPM this time." locIndex="12" />
+            <textevent timeoffset="280" message="Note your finishing HR." locIndex="13" />
+        </Ramp>
+        <SteadyState Duration="300" Power="0.5">
+            <textevent timeoffset="30" message="A good recovery and then we repeat the effort." locIndex="14" />
+        </SteadyState>
+        <Ramp Duration="300" PowerLow="0.76" PowerHigh="0.89" Cadence="75">
+            <textevent timeoffset="10" message="Target RPM of 75" locIndex="15" />
+            <textevent timeoffset="40" message="Settle into a good position on the bike." locIndex="16" />
+            <textevent timeoffset="50" message="Driving the pedals, while relaxing your hands." locIndex="17" />
+            <textevent timeoffset="60" message="It should feel like pushing a weight." locIndex="18" />
+        </Ramp>
+        <Ramp Duration="300" PowerLow="0.76" PowerHigh="0.89" Cadence="80">
+            <textevent timeoffset="10" message="Targeting 80RPM this time." locIndex="19" />
+            <textevent timeoffset="150" message="Has the change in RPM affected your HR response?" locIndex="20" />
+        </Ramp>
+        <Ramp Duration="300" PowerLow="0.76" PowerHigh="0.89" Cadence="85">
+            <textevent timeoffset="10" message="Targeting 85RPM this time." locIndex="21" />
+            <textevent timeoffset="280" message="Note your finishing HR." locIndex="22" />
+            <textevent timeoffset="290" message="How does it compare to the 1st set?" locIndex="23" />
+        </Ramp>
+        <Cooldown Duration="300" PowerLow="0.75" PowerHigh="0.45" />
+    </workout>
+</workout_file>

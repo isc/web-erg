@@ -1,0 +1,56 @@
+<workout_file>
+    <uniqueId>2b80829c-7df8-49a1-a544-0324a6f22095</uniqueId>
+    <legacyIdHash>1793733699</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Week 14.2 - Anaerobic Intensive</name>
+    <category>2018 PRL100 Prep</category>
+    <subcategory>Week 14</subcategory>
+    <description>Warm up well, including 3 x 6 second accelerations during the 10 minute warm up. Followed by 2 sets of 3 x 30sec @ Z6 power with 2min recovery. Riding between sets is Free Ride. Cool down.</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <SteadyState Duration="300" Power="0.5" pace="0">
+            <textevent timeoffset="30" message="Include 3 x 6sec high cadence surges in your warm up." locIndex="1" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.56999999" pace="0">
+            <textevent timeoffset="30" message="The aim today is to complete 2 sets of 3 x 30sec anaerobic efforts. " locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.63" pace="0">
+            <textevent timeoffset="30" message="Looking for quality efforts, so we have full recovery between intervals." locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.69999999" pace="0" />
+        <SteadyState Duration="60" Power="0.75999999" pace="0" />
+        <SteadyState Duration="180" Power="0.55000001" pace="0">
+            <textevent timeoffset="30" message="Aim to hold the same cadence throughout the 30sec. No drop off." locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.21" pace="0" />
+        <SteadyState Duration="120" Power="0.55000001" pace="0" />
+        <SteadyState Duration="30" Power="1.2" pace="0" />
+        <SteadyState Duration="120" Power="0.55000001" pace="0" />
+        <SteadyState Duration="30" Power="1.2" pace="0" />
+        <SteadyState Duration="120" Power="0.55000001" pace="0" />
+        <FreeRide Duration="1800" FlatRoad="0">
+            <textevent timeoffset="30" message="Enjoy some stress free endurance riding now." locIndex="5" />
+            <textevent timeoffset="50" message="Aim to keep power within zones 2 and 3." locIndex="6" />
+        </FreeRide>
+        <SteadyState Duration="120" Power="0.55000001" pace="0">
+            <textevent timeoffset="60" message="Now to hit the same 30sec peak power as earlier." locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.2" pace="0" />
+        <SteadyState Duration="120" Power="0.55000001" pace="0" />
+        <SteadyState Duration="30" Power="1.2" pace="0" />
+        <SteadyState Duration="120" Power="0.55000001" pace="0" />
+        <SteadyState Duration="30" Power="1.2" pace="0" />
+        <SteadyState Duration="120" Power="0.55000001" pace="0" />
+        <SteadyState Duration="60" Power="0.75999999" pace="0" />
+        <SteadyState Duration="60" Power="0.73000002" pace="0" />
+        <SteadyState Duration="60" Power="0.69999999" pace="0" />
+        <SteadyState Duration="60" Power="0.67000002" pace="0" />
+        <SteadyState Duration="60" Power="0.63999999" pace="0" />
+        <SteadyState Duration="60" Power="0.62" pace="0" />
+        <SteadyState Duration="60" Power="0.58999997" pace="0" />
+        <SteadyState Duration="60" Power="0.56" pace="0" />
+        <SteadyState Duration="60" Power="0.52999997" pace="0" />
+        <SteadyState Duration="60" Power="0.5" pace="0" />
+    </workout>
+</workout_file>

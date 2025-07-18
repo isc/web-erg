@@ -1,0 +1,70 @@
+<workout_file>
+    <uniqueId>4fd2a18b-6c04-45fd-929b-f481670482fc</uniqueId>
+    <legacyIdHash>2961074115</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Week 7.4 - Explosive SST #1</name>
+    <category>2018 PRL100 Prep</category>
+    <subcategory>Week 7</subcategory>
+    <description>Warm up then complete 2 x 15min SST efforts @ 90%/ Start each interval with 3 x 15sec surges with 30sec recovery. Following the 3rd surge, do not rest. Go straight into the SST effort. 10min recovery between intervals. Remaining ride completed as Endurance Free Ride. Then cool down.</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <SteadyState Duration="60" Power="0.5" pace="0" />
+        <SteadyState Duration="60" Power="0.52999997" pace="0" />
+        <SteadyState Duration="60" Power="0.56" pace="0" />
+        <SteadyState Duration="60" Power="0.58999997" pace="0">
+            <textevent timeoffset="30" message="Another session focussed on endurance today." locIndex="1" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.62" pace="0" />
+        <SteadyState Duration="60" Power="0.63999999" pace="0">
+            <textevent timeoffset="30" message="To improve your aerobic efficiency, we proceed the sweet spot efforts with some high intensity efforts." locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.67000002" pace="0" />
+        <SteadyState Duration="60" Power="0.69999999" pace="0" />
+        <SteadyState Duration="60" Power="0.73000002" pace="0" />
+        <SteadyState Duration="60" Power="0.75999999" pace="0" />
+        <SteadyState Duration="180" Power="0.55000001" pace="0">
+            <textevent timeoffset="150" message="Ready for the high intensity efforts." locIndex="3" />
+            <textevent timeoffset="170" message="Then it&apos;s straight into the sweet spot interval." locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="1.4" pace="0" />
+        <SteadyState Duration="30" Power="0.55000001" pace="0" />
+        <SteadyState Duration="15" Power="1.4" pace="0" />
+        <SteadyState Duration="30" Power="0.55000001" pace="0" />
+        <SteadyState Duration="15" Power="1.4" pace="0" />
+        <SteadyState Duration="900" Power="0.89999998" pace="0">
+            <textevent timeoffset="450" message="Is your HR increasing as the interval goes on?" locIndex="5" />
+            <textevent timeoffset="840" message="Take note of your finishing HR." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="600" Power="0.55000001" pace="0">
+            <textevent timeoffset="300" message="A good rest period after that." locIndex="7" />
+            <textevent timeoffset="560" message="Now for the 2nd set. Same again... high intensity efforts, leading into a sweet spot effort." locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="1.4" pace="0" />
+        <SteadyState Duration="30" Power="0.55000001" pace="0" />
+        <SteadyState Duration="15" Power="1.4" pace="0" />
+        <SteadyState Duration="30" Power="0.55000001" pace="0" />
+        <SteadyState Duration="15" Power="1.4" pace="0" />
+        <SteadyState Duration="900" Power="0.89999998" pace="0">
+            <textevent timeoffset="60" message="Take note of any changes in your HR as the effort goes on." locIndex="9" />
+            <textevent timeoffset="840" message="What&apos;s your HR? Is is higher than the first effort?" locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.55000001" pace="0">
+            <textevent timeoffset="280" message="Now we complete the session with some free riding." locIndex="11" />
+        </SteadyState>
+        <FreeRide Duration="2400" FlatRoad="0">
+            <textevent timeoffset="30" message="Aim to keep your power within zones 2 and 3." locIndex="12" />
+            <textevent timeoffset="300" message="If you are short on time today, it&apos;s fine to cut this portion short." locIndex="13" />
+        </FreeRide>
+        <SteadyState Duration="60" Power="0.75999999" pace="0" />
+        <SteadyState Duration="60" Power="0.73000002" pace="0" />
+        <SteadyState Duration="60" Power="0.69999999" pace="0" />
+        <SteadyState Duration="60" Power="0.67000002" pace="0" />
+        <SteadyState Duration="60" Power="0.63999999" pace="0" />
+        <SteadyState Duration="60" Power="0.62" pace="0" />
+        <SteadyState Duration="60" Power="0.58999997" pace="0" />
+        <SteadyState Duration="60" Power="0.56" pace="0" />
+        <SteadyState Duration="60" Power="0.52999997" pace="0" />
+        <SteadyState Duration="60" Power="0.5" pace="0" />
+    </workout>
+</workout_file>

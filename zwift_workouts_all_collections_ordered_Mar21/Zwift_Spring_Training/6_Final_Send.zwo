@@ -1,0 +1,107 @@
+<workout_file>
+    <uniqueId>53ddde2b-86c2-4141-9945-97288bdce36d</uniqueId>
+    <legacyIdHash>2743365567</legacyIdHash>
+    <author>Zwift</author>
+    <name>Final Send</name>
+    <activitySaveName>Zwift Spring Training | Final Send</activitySaveName>
+    <description>Anaerobic intervals improve the body&apos;s ability to produce energy without oxygen, which is critical for high-intensity efforts such as sprinting. By training the body to produce energy anaerobically, cyclists can improve their power output and overall speed.
+ 
+	</description>
+    <sportType>bike</sportType>
+    <category>Zwift Spring Training</category>
+    <categoryIndex>6</categoryIndex>
+    <visibleAfterTime>1681743660</visibleAfterTime>
+    <overrideHash>2743365567</overrideHash>
+    <tags>
+        <tag name="ZST23" />
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow=".5" PowerHigh=".75">
+            <textevent timeoffset="0" message="Hello and welcome to the final workout of Zwift Spring Training." locIndex="1" />
+            <textevent timeoffset="40" message="Let&apos;s begin with a progressive warm up." locIndex="2" />
+            <textevent timeoffset="50" message="Keep your cadence comfortable and make sure you have your fan, fluids, and towel handy!" locIndex="3" />
+            <textevent timeoffset="120" message="Relax your shoulders, bend your elbows slightly, and loosen the grip on your bars." locIndex="4" />
+            <textevent timeoffset="180" message="Hopefully the pedal stroke is starting to feel more fluid." locIndex="5" />
+            <textevent timeoffset="300" message="Great work so far! Let&apos;s take a moment and chat about what the plan is for today." locIndex="6" />
+            <textevent timeoffset="350" message="Today we want to work on your ability to accelerate and keep extreme pressure on to break your competitors." locIndex="7" />
+            <textevent timeoffset="360" message="This ability is called anaerobic capacity, and is what today&apos;s workout will be focused on improving." locIndex="8" />
+            <textevent timeoffset="370" message="Anaerobic capacity is your ability to perform work above threshold, with each of us having a different amount." locIndex="9" />
+            <textevent timeoffset="380" message="The amount of work can be measured in kilojoules (kj), and ranges from 6kj to 35+kj!" locIndex="10" />
+            <textevent timeoffset="390" message="The greater your anaerobic capacity is, the higher, or longer, you can sustain power above threshold." locIndex="11" />
+            <textevent timeoffset="400" message="To improve anaerobic capacity, we must drain the &apos;anaerobic battery&apos; which creates an anaerobic stimulus." locIndex="12" />
+            <textevent timeoffset="410" message="We will create that stimulus today with 2 sets of anaerobic intervals." locIndex="13" />
+            <textevent timeoffset="420" message="And more specifically, 4 reps of 30sec very hard with 60sec easy in between." locIndex="14" />
+            <textevent timeoffset="430" message="As mentioned above, everyone has different sized &apos;batteries&apos;, so please increase or decrease your FTP bias accordingly." locIndex="15" />
+            <textevent timeoffset="440" message="Or, if you are totally spent after 2-3 intervals, spin easy for the remainder of the working set." locIndex="16" />
+            <textevent timeoffset="450" message="We&apos;ll take 10min in between efforts at zone 2 to allow the battery to recharge fully before repeating the 2nd set." locIndex="17" />
+            <textevent timeoffset="460" message="Let&apos;s carry on with today&apos;s warm up." locIndex="18" />
+            <textevent timeoffset="540" message="In 1min, we&apos;ll move onto some higher intensity efforts. These will help to further wake up the legs." locIndex="19" />
+        </Warmup>
+        <IntervalsT Repeat="2" OnDuration="60" OnPower="1" OffDuration="60" OffPower="0.8" Cadence="90" CadenceResting="85">
+            <textevent timeoffset="0" message="Right at FTP here! Bring your cadence up to ~90 RPM." locIndex="20" />
+            <textevent timeoffset="60" message="Nicely done! Let&apos;s bring it down and recover for 1min here." locIndex="21" />
+            <textevent timeoffset="120" message="Back up again!" locIndex="22" />
+            <textevent timeoffset="180" message="Excellent! Next up, we have a couple of higher intensity 30sec efforts." locIndex="23" />
+            <textevent timeoffset="230" message="Cadence up to 100 RPM next!" locIndex="24" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="30" OnPower="1.1" OffDuration="30" OffPower="0.5" Cadence="100" CadenceResting="85">
+            <textevent timeoffset="0" message="Get going!" locIndex="25" />
+            <textevent timeoffset="30" message="Beauty! 30sec easy here, then we&apos;ll hit it 1 more time to finish the warm up." locIndex="26" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="30" OnPower="1.2" OffDuration="30" OffPower="0.5" Cadence="105" CadenceResting="85">
+            <textevent timeoffset="0" message="Even quicker cadence now! GO GO GO!" locIndex="27" />
+            <textevent timeoffset="30" message="Nice work! That&apos;s it for today&apos;s warm up. Let&apos;s recover before the main set." locIndex="28" />
+        </IntervalsT>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="0" message="Deep breaths here and make sure you&apos;re mentally ready." locIndex="29" />
+            <textevent timeoffset="10" message="Today will require &apos;suffering&apos; a bit and should feel VERY intense." locIndex="30" />
+            <textevent timeoffset="60" message="Okay, in 1min, we&apos;re on. Remember, we have 4 reps of 30sec on, 60sec off." locIndex="31" />
+            <textevent timeoffset="70" message="The 30sec on intervals should feel VERY hard and will be done at 110 RPM." locIndex="32" />
+            <textevent timeoffset="80" message="The 60sec off will be done at 85 RPM." locIndex="33" />
+            <textevent timeoffset="90" message="Please adjust your FTP bias if this feels too difficult/easy and skip intervals if needed." locIndex="34" />
+            <textevent timeoffset="110" message="Here we go! Get ready for a big surge in effort." locIndex="35" />
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="30" OnPower="1.63" OffDuration="60" OffPower="0.3" Cadence="110" CadenceResting="85">
+            <textevent timeoffset="0" message="GO GO GO!" locIndex="36" />
+            <textevent timeoffset="30" message="Great effort! Bring your effort way down now and let&apos;s recover." locIndex="37" />
+            <textevent timeoffset="90" message="AGAIN! UP UP UP!" locIndex="38" />
+            <textevent timeoffset="120" message="Amazing! That&apos;s 2 down and 2 to go." locIndex="39" />
+            <textevent timeoffset="150" message="Feeling some burn in your lungs and legs is typical for this kind of training :-)" locIndex="40" />
+            <textevent timeoffset="180" message="FULL GAS!" locIndex="41" />
+            <textevent timeoffset="210" message="Phew! Just 1 more to go. You can do this!" locIndex="42" />
+            <textevent timeoffset="270" message="SEND IT!" locIndex="43" />
+            <textevent timeoffset="300" message="Really nice work there! Those are brutally difficult." locIndex="44" />
+            <textevent timeoffset="310" message="Let&apos;s spin really easy now, then we&apos;ll lift it up to zone 2." locIndex="45" />
+        </IntervalsT>
+        <SteadyState Duration="600" Power="0.65" Cadence="85">
+            <textevent timeoffset="0" message="Okay, bring the effort up to zone 2 and let&apos;s settle in at a comfortable cadence." locIndex="46" />
+            <textevent timeoffset="120" message="You&apos;re probably wondering why we&apos;re recovering at zone 2 here..." locIndex="47" />
+            <textevent timeoffset="130" message="The reason is because ~65% FTP is the peak lactate combustion rate for most people." locIndex="48" />
+            <textevent timeoffset="140" message="Anaerobic capacity training creates a LOT of lactate, and ideally we start the 2nd interval set back at baseline." locIndex="49" />
+            <textevent timeoffset="150" message="So, 65% FTP for 10min should be enough time for that to occur." locIndex="50" />
+            <textevent timeoffset="540" message="In 1min, we&apos;re back on again! Get ready to dig deep!" locIndex="51" />
+            <textevent timeoffset="590" message="Here we go!" locIndex="52" />
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="30" OnPower="1.63" OffDuration="60" OffPower="0.3" Cadence="110" CadenceResting="85">
+            <textevent timeoffset="0" message="GO GO GO!" locIndex="53" />
+            <textevent timeoffset="30" message="Phew! Those are just as hard as I remember :-)" locIndex="54" />
+            <textevent timeoffset="90" message="AGAIN! UP UP UP!" locIndex="55" />
+            <textevent timeoffset="120" message="Halfway! Breathe..." locIndex="56" />
+            <textevent timeoffset="180" message="FULL GAS!" locIndex="57" />
+            <textevent timeoffset="210" message="Phew! Just 1 more to go. You can do this!" locIndex="58" />
+            <textevent timeoffset="270" message="C&apos;MON! GET THIS DONE!" locIndex="59" />
+            <textevent timeoffset="290" message="FINAL SEND!" locIndex="60" />
+            <textevent timeoffset="300" message="Incredible work today!" locIndex="61" />
+            <textevent timeoffset="310" message="Let&apos;s spin really easy here, then we&apos;ll begin the cool down." locIndex="62" />
+        </IntervalsT>
+        <Cooldown Duration="300" PowerHigh="0.35" PowerLow="0.55">
+            <textevent timeoffset="0" message="We&apos;ll gradually lower the intensity down now. Keep your cadence comfortable." locIndex="63" />
+            <textevent timeoffset="60" message="Thank you so much for working hard today and digging deep." locIndex="64" />
+            <textevent timeoffset="70" message="These type of anaerobic efforts are needed occasionally to improve your top end power." locIndex="65" />
+            <textevent timeoffset="80" message="They aren&apos;t always fun, but they will have you sprinting with confidence this summer." locIndex="66" />
+            <textevent timeoffset="240" message="Last minute here and we&apos;re DONE!" locIndex="67" />
+            <textevent timeoffset="250" message="Great effort again today, you should be proud of it!" locIndex="68" />
+            <textevent timeoffset="290" message="Ride On!" locIndex="69" />
+        </Cooldown>
+    </workout>
+</workout_file>

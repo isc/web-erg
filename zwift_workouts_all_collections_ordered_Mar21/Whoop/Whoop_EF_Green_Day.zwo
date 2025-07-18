@@ -1,0 +1,119 @@
+<workout_file>
+    <uniqueId>05db2303-b1b9-4444-acc4-fad547a01d98</uniqueId>
+    <legacyIdHash>4154682435</legacyIdHash>
+    <author>Shayne Gaffney</author>
+    <name>EF Pro Cycling&apos;s Green Day Workout</name>
+    <categoryOverride>Climbing</categoryOverride>
+    <description>EF Pro Cycling&apos;s Alex Howes says &apos;Racing generally follows an annoying but predictable pattern: we go way to hard right from the get go, most people blow up, and we all suffer to the end. This workout is great because it helps the body adapt to that rhythm while also helping us learn what our bodies are capable of in a dynamic race situation. The transition into torque is not necessarily the best for everyone (a more natural cadence might be better for you) but for me, living at 8500ft, I&apos;m always looking for ways to add torque and strength efforts into my routine.&apos;</description>
+    <sportType>bike</sportType>
+    <tags />
+    <category>Whoop Workout Series | Bike</category>
+    <subcategory>Green Day</subcategory>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.45449999" PowerHigh="0.75449997">
+            <textevent timeoffset="0" message="Welcome to the WHOOP Workout Series! Let&apos;s start to warm up." />
+            <textevent timeoffset="10" message="This series features workouts inspired by Lionel Sanders, EF Pro Cycling, and Tinman Elite Coaching." />
+            <textevent timeoffset="20" message="Each workout is designed to correspond to your WHOOP Recovery score." />
+            <textevent timeoffset="30" message="Green day = means you&apos;ve had a high recovery score and are ready for a hard workout." />
+            <textevent timeoffset="40" message="Yellow day = means you&apos;ve had an ok recovery score and are ready for a moderate workout." />
+            <textevent timeoffset="50" message="Red day = means you&apos;ve had a low recovery score ready for an easy recovery workout." />
+            <textevent timeoffset="60" message="Today we are doing the favorite Green day workout of EF Pro Cycling&apos;s Alex Howes." />
+            <textevent timeoffset="70" message="Use this 10min warm up to ease into the day and mentally prepare for the work ahead." />
+            <textevent timeoffset="120" message="Do you have your fluids, fan, and towel all handy?" />
+            <textevent timeoffset="240" message="Nice work so far here! Keep slowly bringing the effort up as we continue the warm up." />
+            <textevent timeoffset="300" message="There&apos;s halfway! Let&apos;s learn why Alex likes this workout on his Green days." />
+            <textevent timeoffset="310" message="Racing generally follows an annoying but predicable pattern:" />
+            <textevent timeoffset="320" message="We go way too hard from the get go, most people blow up, and we all suffer to the end." />
+            <textevent timeoffset="330" message="This workout is great because it helps the body adapt to that rhythm…." />
+            <textevent timeoffset="340" message="while also helping us learn what our bodies are capable of in a dynamic race situation." />
+            <textevent timeoffset="350" message="The transition into torque is not necessarily the best for everyone..." />
+            <textevent timeoffset="360" message="But for me, living at 8500ft, I&apos;m always looking for ways to add torque and strength to my routine." />
+            <textevent timeoffset="420" message="Today is a tough session that consists of 30sec all out to start, before settling into 5.5min at threshold at a low cadence." />
+            <textevent timeoffset="430" message="This is a great session to build your threshold as well as ability to produce torque." />
+            <textevent timeoffset="440" message="This session will help with torque production since we&apos;ll be doing the threshold portions at 75 RPM." />
+            <textevent timeoffset="450" message="Low enough to create a decent strength and torque stimulus for sure." />
+            <textevent timeoffset="540" message="1min and we&apos;re on!" />
+            <textevent timeoffset="550" message="Remember, each interval opens with 30sec ALL OUT in &apos;free ride&apos; which means you&apos;ll use your gears to generate the power." />
+            <textevent timeoffset="590" message="Okay, get ready to push ALL OUT for the first minute." />
+        </Warmup>
+        <FreeRide Duration="30" FlatRoad="1">
+            <textevent timeoffset="0" message="ALL OUT HERE!" />
+            <textevent timeoffset="10" message="Keep at it, really get those legs going!" />
+            <textevent timeoffset="20" message="In 10sec, get ready to settle down into threshold." />
+        </FreeRide>
+        <SteadyState Duration="330" Power=".95" Cadence="70">
+            <textevent timeoffset="0" message="Let&apos;s go! Focus on your cadence for this first little bit - bring it down." />
+            <textevent timeoffset="10" message="If you don&apos;t have a cadence sensor, count on 1 leg, and aim for just over 1 downstroke per second." />
+            <textevent timeoffset="60" message="So far so good? Keep settling down into this and find that rhythm." />
+            <textevent timeoffset="120" message="Okay, you should be comfortable now and just tapping out the rhythm." />
+            <textevent timeoffset="240" message="How is your form? Shoulders relaxed? Elbow bent slightly? Nice work!" />
+            <textevent timeoffset="300" message="30sec to go and we&apos;re checking this 1st interval off, keep at it!" />\
+        </SteadyState>
+        <SteadyState Duration="210" Power=".4">
+            <textevent timeoffset="0" message="Nicely done! That&apos;s 1 down with 3 more to go." />
+            <textevent timeoffset="10" message="We&apos;ll take a brief rest here before moving on." />
+            <textevent timeoffset="20" message="Use this time to have a stretch, shake things out, and have a drink." />
+            <textevent timeoffset="150" message="1 more minute easy here - take a few deep breaths." />
+            <textevent timeoffset="200" message="Okay, here comes rep 2! Get ready for another ALL OUT push!" />
+        </SteadyState>
+        <FreeRide Duration="30" FlatRoad="1">
+            <textevent timeoffset="0" message="PUSH IT!" />
+            <textevent timeoffset="10" message="C&apos;mon! Stay with it now." />
+            <textevent timeoffset="20" message="In 10sec, get ready to settle down into threshold." />
+        </FreeRide>
+        <SteadyState Duration="330" Power=".95" Cadence="70">
+            <textevent timeoffset="0" message="Okay, start to lower your cadence back down again to ~75 RPM." />
+            <textevent timeoffset="60" message="Keep the power back up, my friend!" />
+            <textevent timeoffset="120" message="At this slow of a cadence, it becomes possible to separate all 4 quadrants of the pedal stroke." />
+            <textevent timeoffset="130" message="I like to think &apos;push, scrape, pull, and kick&apos; when I do this." />
+            <textevent timeoffset="140" message="Try to emphasize each quadrant and see where you feel the least comfortable." />
+            <textevent timeoffset="270" message="Awesome work so far today! Where do you feel the least comfortable in that pedal quadrant?" />
+        </SteadyState>
+        <SteadyState Duration="210" Power=".4">
+            <textevent timeoffset="0" message="Woot woot! There&apos;s 2 down! How are you doing?" />
+            <textevent timeoffset="10" message="This workout is not easy, that&apos;s for sure." />
+            <textevent timeoffset="20" message="Deep breaths here and make sure to sip those fluids." />
+            <textevent timeoffset="120" message="How are you doing? We&apos;re counting down the reps now :-)" />
+            <textevent timeoffset="200" message="Buckle up again! Get ready to PUSH for 30sec!" />
+        </SteadyState>
+        <FreeRide Duration="30" FlatRoad="1">
+            <textevent timeoffset="0" message="ALL OUT HERE!" />
+            <textevent timeoffset="10" message="Keep at it, really get those legs going!" />
+            <textevent timeoffset="20" message="In 10sec, get ready to settle down into threshold." />
+        </FreeRide>
+        <SteadyState Duration="330" Power=".95" Cadence="70">
+            <textevent timeoffset="0" message="Nice one! Lower that cadence down again." />
+            <textevent timeoffset="30" message="Breathe it out here, push through the burn in those legs." />
+            <textevent timeoffset="90" message="Well done today! You&apos;re definitely using this Green day well!" />
+            <textevent timeoffset="240" message="Keep tapping out the rhythm here, you&apos;re almost to that next recovery block!" />
+            <textevent timeoffset="300" message="30sec left, push it all the way to the arch!" />
+        </SteadyState>
+        <SteadyState Duration="210" Power=".4">
+            <textevent timeoffset="0" message="Phew! Another interval in the books." />
+            <textevent timeoffset="10" message="Use this recovery block well - just 1 more rep to go today!" />
+            <textevent timeoffset="60" message="Shake out the upper body and let go of any tension." />
+            <textevent timeoffset="180" message="Almost go time! You know the rules - last rep is the best rep!" />
+        </SteadyState>
+        <FreeRide Duration="30" FlatRoad="1">
+            <textevent timeoffset="0" message="LAST BIG PUSH!" />
+            <textevent timeoffset="10" message="Keep your cadence up!" />
+            <textevent timeoffset="20" message="In 10sec, get ready to settle down into threshold." />
+        </FreeRide>
+        <SteadyState Duration="330" Power=".95" Cadence="70">
+            <textevent timeoffset="0" message="Okay, you can do this! Push yourself and get to the end of the day." />
+            <textevent timeoffset="60" message="C&apos;mon! These days in your training when you really push yourself make a big difference!" />
+            <textevent timeoffset="180" message="Stay focused here! Push, scrape, pull, kick." />
+            <textevent timeoffset="270" message="Just 1min to go and you&apos;re DONE!" />
+            <textevent timeoffset="300" message="Stay with me!" />
+            <textevent timeoffset="320" message="GET TO THE ARCH!" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow="0.65449995" PowerHigh="0.45449999">
+            <textevent timeoffset="0" message="Holy cow! What a day out of you today! You should be proud of that effort." />
+            <textevent timeoffset="60" message="Thanks for joining the WHOOP Green Day Workout with Alex Howes of EF Pro Cycling!" />
+            <textevent timeoffset="120" message="If your WHOOP is telling you that your recovery is in the Yellow or Red, be sure to check out Alex&apos;s workouts for those days." />
+            <textevent timeoffset="180" message="Don&apos;t forget, there are also running workouts from Tinman Elite Coaching." />
+            <textevent timeoffset="270" message="Happy training and see you on the next one!" />
+            <textevent timeoffset="290" message="Ride On!" />
+        </Cooldown>
+    </workout>
+</workout_file>

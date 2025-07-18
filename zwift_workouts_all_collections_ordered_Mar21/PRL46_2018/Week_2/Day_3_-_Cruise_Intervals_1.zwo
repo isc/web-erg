@@ -1,0 +1,42 @@
+<workout_file>
+    <uniqueId>e1e11e3c-5e7f-4aed-8018-445fd4a88caf</uniqueId>
+    <legacyIdHash>3983987071</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>2018 PRL46 Prep</category>
+    <subcategory>Week 2</subcategory>
+    <name>Week 2.3 - Cruise Intervals #1</name>
+    <description>Warm up followed by;
+3 x 6 minute efforts @ 98%, 95% and 91% FTP respectively with 2min recovery.
+Observe your Heart Rate response to each interval. Is it decreasing with the reduction of target power in each interval?
+</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <Warmup Duration="300" PowerLow="0.5" PowerHigh="0.75" pace="0">
+            <textevent timeoffset="10" message="Include 3 x 6sec high cadence surges during your warm up." locIndex="1" />
+        </Warmup>
+        <SteadyState Duration="60" Power="0.55000001" pace="0">
+            <textevent timeoffset="50" message="The 5min tempo effort will get you ready for the threshold efforts." locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.81" pace="0" />
+        <SteadyState Duration="180" Power="0.5" pace="0" />
+        <SteadyState Duration="360" Power="0.98000002" pace="0">
+            <textevent timeoffset="10" message="The 1st 6min effort is the hardest. It gets easier after this!" locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.55000001" pace="0" />
+        <SteadyState Duration="360" Power="0.94999999" pace="0">
+            <textevent timeoffset="10" message="A little less intensity this time. Still a threshold effort though." locIndex="4" />
+            <textevent timeoffset="60" message="Observe your HR. Is it a lower then the 1st effort?" locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.55000001" pace="0" />
+        <SteadyState Duration="360" Power="0.91000003" pace="0">
+            <textevent timeoffset="10" message="Last effort. A little less intensity again." locIndex="6" />
+            <textevent timeoffset="60" message="Again, observe your HR. How does it compare to the first 2 efforts?" locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.55000001" pace="0" />
+        <Cooldown Duration="600" PowerLow="0.75" PowerHigh="0.5" pace="0">
+            <textevent timeoffset="60" message="That was a hard session today. A longer cool down today." locIndex="8" />
+        </Cooldown>
+    </workout>
+</workout_file>

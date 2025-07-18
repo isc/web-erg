@@ -1,0 +1,51 @@
+<workout_file>
+    <uniqueId>713051f2-b8ac-4aea-b583-2cf80d6685c4</uniqueId>
+    <legacyIdHash>3401462947</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Week 7.6 - Tempo 2 x 20min</name>
+    <category>2018 PRL100 Prep</category>
+    <subcategory>Week 7</subcategory>
+    <description>Warm up 10min, then complete 2 x 20min efforts @ 84%. However, vary your cadence by + or - 5rpm every 5min. Remaining ride completed as Endurance Free Ride. Cool down 10-20min.</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <SteadyState Duration="60" Power="0.5" pace="0" />
+        <SteadyState Duration="60" Power="0.52999997" pace="0" />
+        <SteadyState Duration="60" Power="0.56" pace="0" />
+        <SteadyState Duration="60" Power="0.58999997" pace="0" />
+        <SteadyState Duration="60" Power="0.62" pace="0">
+            <textevent timeoffset="10" message="Focussing on endurance again today." locIndex="1" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.63999999" pace="0">
+            <textevent timeoffset="10" message="The efforts may look simple enough, but the change in cadence every 5min adds a different stress." locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.67000002" pace="0" />
+        <SteadyState Duration="60" Power="0.69999999" pace="0" />
+        <SteadyState Duration="60" Power="0.73000002" pace="0" />
+        <SteadyState Duration="60" Power="0.75999999" pace="0" />
+        <SteadyState Duration="180" Power="0.55000001" pace="0">
+            <textevent timeoffset="120" message="2 long tempo efforts. Observe how your HR changes with the change in cadence." locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="1200" Power="0.85000002" pace="0">
+            <textevent timeoffset="20" message="Choose your own comfortable cadence for the first 5min" locIndex="4" />
+            <textevent timeoffset="300" message="Now increase your cadence by 5rpm." locIndex="5" />
+            <textevent timeoffset="600" message="Now decrease your cadence by 10rpm." locIndex="6" />
+            <textevent timeoffset="900" message="Now increase your cadence by 5rpm." locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.55000001" pace="0" />
+        <SteadyState Duration="1200" Power="0.85000002" pace="0">
+            <textevent timeoffset="20" message="Choose your own comfortable cadence for the first 5min" locIndex="8" />
+            <textevent timeoffset="300" message="Now increase your cadence by 5rpm." locIndex="9" />
+            <textevent timeoffset="600" message="Now decrease your cadence by 10rpm." locIndex="10" />
+            <textevent timeoffset="900" message="Now increase your cadence by 5rpm." locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.55000001" pace="0">
+            <textevent timeoffset="200" message="If time allows, complete the session with some free riding." locIndex="12" />
+        </SteadyState>
+        <FreeRide Duration="2400" FlatRoad="0">
+            <textevent timeoffset="60" message="Aim to keep power within zone 2 and 3 power." locIndex="13" />
+            <textevent timeoffset="300" message="If pushed for time, it&apos;s fine to cut this portion short." locIndex="14" />
+        </FreeRide>
+        <Ramp Duration="600" PowerLow="0.40000001" PowerHigh="0.40000001" pace="0" />
+    </workout>
+</workout_file>

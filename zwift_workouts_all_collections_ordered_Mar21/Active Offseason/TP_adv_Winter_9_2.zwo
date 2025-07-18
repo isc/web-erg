@@ -1,0 +1,15 @@
+<workout_file>
+    <uniqueId>9842798a-f00e-49b1-9c8d-08b4b6698a67</uniqueId>
+    <legacyIdHash>3521076887</legacyIdHash>
+    <name>Week 9.2 - 3x10min FTP</name>
+    <description>Classic FTP Intervals, 3 x 10 minutes</description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <category>Active Offseason</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 9</subcategory>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.2545" PowerHigh="0.75449997" />
+        <IntervalsT Repeat="3" OnDuration="600" OffDuration="300" PowerOnLow="1.0044999" PowerOnHigh="1.0044999" PowerOffLow="0.65833384" PowerOffHigh="0.65833384" />
+        <Cooldown Duration="600" PowerLow="0.65449995" PowerHigh="0.2545" />
+    </workout>
+</workout_file>

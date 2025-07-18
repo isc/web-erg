@@ -1,0 +1,47 @@
+<workout_file>
+    <uniqueId>7903cb10-0f1a-4d7c-98cc-64b740f39a9b</uniqueId>
+    <legacyIdHash>1684926873</legacyIdHash>
+    <author>TrainSharp Cycle Coaching</author>
+    <categoryOverride>Best of Zwift Academy</categoryOverride>
+    <subcategoryOverride>ZA 2017</subcategoryOverride>
+    <name>Month 1.5 - Race Prep Session</name>
+    <WorkoutPlan>1</WorkoutPlan>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/trainSharp_Logo.tga</authorIcon>
+    <description>This session is designed to both test you and prepare you for the demands of a road race or criterium race. You&apos;ll work various energy systems and find it a challenging session on the body and mind.  The session comprises of 3 main intervals: Over / Under Interval - This is to be ridden at a power just below your FTP, however for the first 30 seconds of the interval (and after every 2 minutes) you are required to spike the power closer to your 20-minute power. This interval is often referred to as a redline session, where you literally &apos;push&apos; your FTP up from below, and &apos;pull&apos; it up from above.  30 / 30 Interval These are 30 second on and 30 seconds off. The "on" element is to be ridden at your Maximal Aerobic Power (MAP) or the power at your VO2max. Whilst the "off" element isn&apos;t a full recovery, aiming for mid-zone 2. You will find that perhaps the hardest part of this interval is the "off" periods towards the end of the 12 minutes. Micro-Burst Interval  To finish the session, this interval is 15-seconds all-out followed by 30-seconds of recovery. The sprints are seated and high cadence try and maintain a maximal effort from the first 10 seconds to the last 10 seconds of the interval. Note- Some smart-trainers in their ERG mode will be too slow to react to the changes in powers required for this session and you may find it easier to turn the erg. function off.</description>
+    <sportType>bike</sportType>
+    <visibleAfterTime>1504222780</visibleAfterTime>
+    <category>Zwift Academy 2017</category>
+    <subcategory>Month 1</subcategory>
+    <tags> 
+    </tags>
+    <workout>
+        <Warmup Duration="900" PowerLow="0.49000001" PowerHigh="0.92000002" pace="0">
+            <textevent duration="20" timeoffset="0" message="Warm Up. - Progressive Warm up through the zones for the duration. Sip on your bottle and take a gel if you wish during the warm up." locIndex="1" />
+        </Warmup>
+        <SteadyState Duration="180" Power="0.505">
+            <textevent duration="20" timeoffset="0" message="Easy - Recovery, very easy no load, like an easy walk on the bike" locIndex="2" />
+        </SteadyState>
+        <IntervalsT Repeat="1" OnDuration="30" OffDuration="150" OnPower="1.23" OffPower="0.49000001" pace="0" Cadence="100" CadenceResting="100">
+            <textevent duration="20" timeoffset="0" message="Spin Ups - High cadence (seated) spin ups. Nice high cadence with high power for the duration of the effort." locIndex="3" />
+        </IntervalsT>
+        <IntervalsT Repeat="5" OnDuration="30" OffDuration="120" OnPower="1.15" OffPower="0.92023504" pace="0">
+            <textevent duration="20" timeoffset="0" message="Over / Under Interval - Start with an above FTP effort for 30 seconds, then settle into a power just below FTP. repeat the cycle. So this is a 12 and a half minute effort at powers &quot;over&quot; and &quot;under&quot; your FTP." locIndex="4" />
+        </IntervalsT>
+        <SteadyState Duration="600" Power="0.51499999">
+            <textevent duration="20" timeoffset="0" message="Recovery - Try and keep the legs spinning immediately after the interval. If you need to go and re-fill your bottles and get an emergency gel, now is the time!" locIndex="5" />
+        </SteadyState>
+        <IntervalsT Repeat="12" OnDuration="30" OffDuration="30" OnPower="1.255" OffPower="0.69999999" pace="0" Cadence="100" CadenceResting="100">
+            <textevent duration="20" timeoffset="0" message="30/30 Interval - This is tough! the first half will feel manageable, easy even. However you will start to struggle to maintain power in the &apos;recovery&apos; 30 seconds. Really dig deep during this interval." locIndex="6" />
+        </IntervalsT>
+        <SteadyState Duration="600" Power="0.51499999">
+            <textevent duration="20" timeoffset="0" message="Recovery - Again, keep the legs turning, during this recovery period - the finish line is in sight, just one last interval to go!" locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.49000001" />
+        <IntervalsT Repeat="24" OnDuration="15" OffDuration="30" OnPower="3.0" OffPower="0.49000001" pace="0" Cadence="107" CadenceResting="100">
+            <textevent duration="20" timeoffset="0" message="Micro-Burst Interval - Seated sprints, all out effort, ignore the power target here - if you are looking for a power target, you&apos;re not going hard enough! Soft pedal in the 20 seconds of recovery and go again!" locIndex="8" />
+        </IntervalsT>
+        <Cooldown Duration="900" PowerLow="0.54000002" PowerHigh="0.49000001" pace="0">
+            <textevent duration="20" timeoffset="0" message="Warm Down. - Ensure you have a good warm down after this session. have a recovery meal/drink including ~20g of protein and 70-80g of carbohydrates within the next 4 hours." locIndex="9" />
+        </Cooldown>
+    </workout>
+</workout_file>

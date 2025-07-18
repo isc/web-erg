@@ -1,0 +1,81 @@
+<workout_file>
+    <uniqueId>caa5083d-fd82-4f49-9e86-f0946e39e572</uniqueId>
+    <legacyIdHash>465133528</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Phase 1.5 - Mitochondria #1</name>
+    <description>One of the main aims of our &apos;Early Base&apos; training phase is to increase your mitochondrial density. In basic terms, these are the power stations in your muscles. 
+
+Recent studies have shown that the right amount of High Intensity training can provide the same benefits as traditional Long Slow Distance training.
+
+With the demands of the L&apos;Etape du Tour event requiring a high proportion of aerobic endurance, this increases the importance of focusing on quality work that increases this Mitochondria.</description>
+    <sportType>bike</sportType>
+    <category>L&apos;Etape du Tour Training Club</category>
+    <subcategory>Phase 1</subcategory>
+    <visibleAfterTime>1553472000</visibleAfterTime>
+    <tags>
+        <tag name="INTERVALS" />
+    </tags>
+    <workout>
+        <SteadyState Duration="180" Power="0.50449997" pace="8268">
+            <textevent timeoffset="50" message="By implementing structured intervals of high intensity power, coupled with the right amount of recovery time, we can boost the density of mitochondria." locIndex="1" />
+            <textevent timeoffset="70" message="Today&apos;s main set will have you touching on Zone 5 power for 1min intervals." locIndex="2" />
+            <textevent timeoffset="90" message="However, with the intervals being just 1min in duration, the build up of fatigue is minimal." locIndex="3" />
+            <textevent timeoffset="110" message="But with the short recovery period, the gains to mitochondrial density are maximized." locIndex="4" />
+            <textevent timeoffset="130" message="First we need to complete a good warmup." locIndex="5" />
+            <textevent timeoffset="150" message="We achieve this by stepping up through the increasing power zones." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.6045" pace="8268">
+            <textevent timeoffset="10" message="Nice and gentle to begin with." locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.65449995" pace="8268" />
+        <SteadyState Duration="60" Power="0.81449997" pace="8268">
+            <textevent timeoffset="10" message="Into zone 3 now. Definitely a comfortable effort for you." locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.0944999" pace="8268">
+            <textevent timeoffset="10" message="Just the 1min above threshold here." locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.50449997" pace="8268">
+            <textevent timeoffset="20" message="To complete the warmup we have 4min at threshold power." locIndex="10" />
+            <textevent timeoffset="50" message="It&apos;s long enough to build a sweat, which indicates your readiness to complete some hard work and deposit some good training into the legs." locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.90449995" pace="8268">
+            <textevent timeoffset="30" message="Focus on controlled breathing for this effort." locIndex="12" />
+            <textevent timeoffset="60" message="This effort moves the blood into the muscle fibers required for the high intensity work." locIndex="13" />
+            <textevent timeoffset="180" message="Just 1min to go." locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.50449997" pace="8268">
+            <textevent timeoffset="20" message="Ensure you hydrate during this effort." locIndex="15" />
+            <textevent timeoffset="40" message="Ahead of you the session requires 10 x 1min intervals @ 113%FTP." locIndex="16" />
+            <textevent timeoffset="60" message="With the focus today being on improving your aerobic capacity through building mitochondrial density..." locIndex="17" />
+            <textevent timeoffset="70" message="the intervals are long enough to trigger this response from the body, then repeated after a short recovery." locIndex="18" />
+            <textevent timeoffset="100" message="By breaking the workload into smaller pieces we are also able to achieve a higher volume." locIndex="19" />
+            <textevent timeoffset="120" message="For this &apos;Early Base&apos; phase of training, short intervals are ideal for eliciting the desired response to the training." locIndex="20" />
+            <textevent timeoffset="140" message="Keep in mind that these are controlled efforts. Not full gas." locIndex="21" />
+            <textevent timeoffset="160" message="here we go with the main set of work." locIndex="22" />
+        </SteadyState>
+        <IntervalsT Repeat="10" OnDuration="60" OffDuration="180" OnPower="1.1344999" OffPower="0.65488493" pace="8268">
+            <textevent timeoffset="20" message="The early intervals will feel &apos;comfortable&apos;." locIndex="23" />
+            <textevent timeoffset="40" message="It&apos;s the short recovery that provides the majority of the training effect." locIndex="24" />
+            <textevent timeoffset="70" message="How was that 1st effort? Just 9 to go. You can do it!" locIndex="25" />
+            <textevent timeoffset="260" message="Aim to hold the same cadence for each effort." locIndex="26" />
+            <textevent timeoffset="630" message="There are 2 ways in which we can improve Mitochondria." locIndex="27" />
+            <textevent timeoffset="650" message="We can increase the number of mitochondria and also their function." locIndex="28" />
+            <textevent timeoffset="670" message="The intensity of your training will influence the function of mitochondria." locIndex="29" />
+            <textevent timeoffset="690" message="While training volume will increase the number of mitochondria." locIndex="30" />
+            <textevent timeoffset="830" message="With this training you will be making big gains in your aerobic abilities for L&apos;Etape du Tour." locIndex="31" />
+            <textevent timeoffset="849" message="This is the type of training that can be completed in place of a steady state zone 2 ride." locIndex="32" />
+            <textevent timeoffset="1100" message="Your breathing rate should be increasing in the later part of the 1min interval." locIndex="33" />
+            <textevent timeoffset="1120" message="This indicates the body is asking for more oxygen to process the required energy." locIndex="34" />
+            <textevent timeoffset="1140" message="This is the training effect." locIndex="35" />
+            <textevent timeoffset="1378" message="Just 4 more intervals to go." locIndex="36" />
+            <textevent timeoffset="1110" message="How do the intervals feel now compared to the first few?" locIndex="37" />
+            <textevent timeoffset="1848" message="It&apos;s normal for some fatigue to be building now." locIndex="38" />
+            <textevent timeoffset="2100" message="Into the last interval now. This has been a great session." locIndex="39" />
+            <textevent timeoffset="2338" message="Well done super star, you are well on your way. Straight into your recovery effort." locIndex="40" />
+        </IntervalsT>
+        <SteadyState Duration="240" Power="0.50449997" pace="8268">
+            <textevent timeoffset="63" message="Today&apos;s session is very good use of your available training time." locIndex="41" />
+            <textevent timeoffset="90" message="With limited time to train, indoor training provides the ideal environment to work on building endurance." locIndex="42" />
+        </SteadyState>
+    </workout>
+</workout_file>

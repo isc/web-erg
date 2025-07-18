@@ -1,0 +1,45 @@
+<workout_file>
+    <uniqueId>fef0872d-e8bf-4f54-8c65-950127c09fe2</uniqueId>
+    <legacyIdHash>669087466</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Week 5.4 - Tempo into Sprints #1</name>
+    <category>2018 PRL100 Prep</category>
+    <subcategory>Week 5</subcategory>
+    <description>After a sustained tempo effort to build some fatigue, crank out some high effort sprints. These are relatively long, high power efforts that will be that much harder to the tempo work that preceded them.</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow="0.50449997" PowerHigh="0.75449997" pace="0">
+            <textevent timeoffset="131" message="Today we build fatigue with an opening tempo effort." locIndex="1" />
+            <textevent timeoffset="258" message="Then we ramp up the intensity in the sprints." locIndex="2" />
+        </Warmup>
+        <SteadyState Duration="60" Power="0.50449997" pace="0" />
+        <SteadyState Duration="600" Power="0.85449994" pace="0">
+            <textevent timeoffset="522" message="The up coming sprint efforts get shorter, but higher in power." locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.2045" pace="0" />
+        <SteadyState Duration="60" Power="0.55000001" pace="0">
+            <textevent timeoffset="17" message="Sprint out of the seat if you prefer to." locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.6" pace="0" />
+        <SteadyState Duration="30" Power="0.55000001" pace="0" />
+        <SteadyState Duration="15" Power="1.8" pace="0" />
+        <SteadyState Duration="45" Power="0.55000001" pace="0" />
+        <SteadyState Duration="10" Power="2.0044999" pace="0" />
+        <SteadyState Duration="600" Power="0.55449998" pace="0">
+            <textevent timeoffset="45" message="A good recovery is needed after that effort." locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="600" Power="0.85162616" pace="0">
+            <textevent timeoffset="62" message="Again, we build fatigue before completing the sprint efforts." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.2073815" pace="0" />
+        <SteadyState Duration="60" Power="0.55000001" pace="0" />
+        <SteadyState Duration="30" Power="1.6" pace="0" />
+        <SteadyState Duration="30" Power="0.55000001" pace="0" />
+        <SteadyState Duration="15" Power="1.8" pace="0" />
+        <SteadyState Duration="45" Power="0.55000001" pace="0" />
+        <SteadyState Duration="10" Power="2" pace="0" />
+        <SteadyState Duration="180" Power="0.50449997" pace="0" />
+        <Cooldown Duration="300" PowerLow="0.75449997" PowerHigh="0.50449997" pace="0" />
+    </workout>
+</workout_file>

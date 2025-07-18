@@ -1,0 +1,105 @@
+<workout_file>
+    <uniqueId>0351fe95-dda9-442f-8199-c567e49a6f4d</uniqueId>
+    <legacyIdHash>269315504</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Phase 2.4 - Explosive Power Into Z3</name>
+    <description>The focus today, is on your ability to produce a steady Zone 3 effort after first completing some high intensity accelerations.
+
+However, across the course of the session, the intensity and duration of the Zone 3 interval will increase. </description>
+    <sportType>bike</sportType>
+    <category>L&apos;Etape du Tour Training Club</category>
+    <subcategory>Phase 2</subcategory>
+    <visibleAfterTime>1555632060</visibleAfterTime>
+    <tags />
+    <workout>
+        <Warmup Duration="240" PowerLow="0.45449999" PowerHigh="0.70449996" pace="0">
+            <textevent timeoffset="60" message="Continuing our &apos;late base&apos; focus on extended Zone 3 efforts." locIndex="1" />
+            <textevent timeoffset="80" message="Today&apos;s session incorporates short, high intensity intervals prior to the Zone 3 effort." locIndex="2" />
+            <textevent timeoffset="160" message="To warmup for the workout, we will touch briefly on some Zone 4 work" locIndex="3" />
+            <textevent timeoffset="180" message="Your ability to perform multiple surges above threshold, prior to a steady state effort will be important during L&apos;Etape du Tour de France." locIndex="4" />
+        </Warmup>
+        <SteadyState Duration="60.000004" Power="0.5" pace="0">
+            <textevent timeoffset="31" message="To get the blood flowing to the muscles we first complete 1min at threshold power." locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.95449996" pace="0">
+            <textevent timeoffset="20" message="This should be a short, comfortable effort for you." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="120.00001" Power="0.5" pace="0">
+            <textevent timeoffset="50" message="Some brief Zone 4 work during the warmup is ideal in preparing the body for a workout." locIndex="7" />
+            <textevent timeoffset="70" message="In this next interval, we gradually ramp up the power to a Zone 4 level." locIndex="8" />
+            <textevent timeoffset="90" message="Before completing a steady 3min at this intensity." locIndex="9" />
+        </SteadyState>
+        <Ramp Duration="180.00002" PowerLow="0.5" PowerHigh="0.89999998" pace="0">
+            <textevent timeoffset="50" message="As the target power increases, aim to maintain the same cadence throughout the effort." locIndex="10" />
+            <textevent timeoffset="150" message="Almost up to the target power." locIndex="11" />
+            <textevent timeoffset="170" message="Then we have 3min at threshold." locIndex="12" />
+        </Ramp>
+        <SteadyState Duration="180" Power="0.90449995" pace="0">
+            <textevent timeoffset="60" message="Being only a short effort, this should feel &apos;comfortable&apos;." locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.50449997" pace="0">
+            <textevent timeoffset="70" message="Before beginning the zone 3 effort you will first complete 3 x 15sec accelerations with 30sec recovery." locIndex="14" />
+            <textevent timeoffset="90" message="Aim for a high cadence above 100rpm for the accelerations." locIndex="15" />
+            <textevent timeoffset="160" message="Ready for the 1st set." locIndex="16" />
+        </SteadyState>
+        <IntervalsT Repeat="3" OnDuration="15" OffDuration="30" OnPower="1.7045" OffPower="0.65449995" pace="0">
+            <textevent timeoffset="20" message="Great start. Just a brief recovery now." locIndex="17" />
+            <textevent timeoffset="40" message="Aim for the same high cadence." locIndex="18" />
+            <textevent timeoffset="115" message="Straight into the steady state Zone 3 effort now." locIndex="19" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.80611694" pace="0">
+            <textevent timeoffset="30" message="From the previous sprints you would have some lactate accumulated." locIndex="20" />
+            <textevent timeoffset="50" message="This does affect the fuel used by the body in the early phase of this Zone 3 effort." locIndex="21" />
+            <textevent timeoffset="70" message="When we go above threshold, it pushes fat aside as the preferred fuel source." locIndex="22" />
+            <textevent timeoffset="90" message="The accumulated lactate is first converted into glucose which is used as a fuel." locIndex="23" />
+            <textevent timeoffset="150" message="Halfway through the effort now. How do you feel?" locIndex="24" />
+            <textevent timeoffset="170" message="Control your breathing and focus on your cadence." locIndex="25" />
+            <textevent timeoffset="200" message="The aim today is to spend a large portion of time within Zone 3." locIndex="26" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.50449997" pace="0">
+            <textevent timeoffset="50" message="Great work in that first interval." locIndex="27" />
+            <textevent timeoffset="70" message="In this next effort, we are increasing the target power of the Zone 3 effort up to 85% of FTP." locIndex="28" />
+            <textevent timeoffset="200" message="Again we begin the work period with 3 high power accelerations." locIndex="29" />
+            <textevent timeoffset="220" message="Here we go." locIndex="30" />
+        </SteadyState>
+        <IntervalsT Repeat="3" OnDuration="15" OffDuration="30" OnPower="1.7045" OffPower="0.65449995" pace="0">
+            <textevent timeoffset="20" message="Great start. Just a brief recovery now." locIndex="31" />
+            <textevent timeoffset="40" message="Aim for the same high cadence." locIndex="32" />
+            <textevent timeoffset="115" message="Straight into the steady state Zone 3 effort now." locIndex="33" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.85847217" pace="0">
+            <textevent timeoffset="50" message="Settle into your rhythm early." locIndex="34" />
+            <textevent timeoffset="80" message="Remember, we are looking for long Zone 3 efforts today." locIndex="35" />
+            <textevent timeoffset="140" message="Aim for the same cadence as you reached in the first interval." locIndex="36" />
+            <textevent timeoffset="240" message="Into the final minute now." locIndex="37" />
+            <textevent timeoffset="260" message="Have you noticed the increased power much?" locIndex="38" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.50449997" pace="0">
+            <textevent timeoffset="50" message="Great work in that second interval." locIndex="39" />
+            <textevent timeoffset="70" message="In this next effort, we are going to increase the length of the Zone 3 interval." locIndex="40" />
+            <textevent timeoffset="90" message="And we will also ramp up the target power during the effort." locIndex="41" />
+            <textevent timeoffset="120" message="Think of this effort as replicating the accelerations you might complete at the bottom of a climb to gain good position." locIndex="42" />
+            <textevent timeoffset="140" message="And then as the climb continues, you are ramping up the power." locIndex="43" />
+            <textevent timeoffset="200" message="First, we have the 3 high power accelerations." locIndex="44" />
+            <textevent timeoffset="220" message="Here we go." locIndex="45" />
+        </SteadyState>
+        <IntervalsT Repeat="3" OnDuration="15" OffDuration="30" OnPower="1.7045" OffPower="0.65449995" pace="0">
+            <textevent timeoffset="20" message="Great start. Just a brief recovery now." locIndex="46" />
+            <textevent timeoffset="40" message="Aim for the same high cadence." locIndex="47" />
+            <textevent timeoffset="115" message="Straight into the steady state Zone 3 effort now." locIndex="48" />
+        </IntervalsT>
+        <Ramp Duration="600" PowerLow="0.76449996" PowerHigh="0.89449996" pace="0">
+            <textevent timeoffset="30" message="Settle into your rhythm." locIndex="49" />
+            <textevent timeoffset="60" message="Picture yourself on a climb in L&apos;Etape du Tour de France." locIndex="50" />
+            <textevent timeoffset="80" message="As the climb continues, you are able to increase the power." locIndex="51" />
+            <textevent timeoffset="300" message="Halfway through the interval now." locIndex="52" />
+            <textevent timeoffset="400" message="Today&apos;s session will give you 20min total within Zone 3." locIndex="53" />
+            <textevent timeoffset="500" message="We are going to complete this effort with the highest Zone 3 power for the day." locIndex="54" />
+            <textevent timeoffset="540" message="Into the last minute now." locIndex="55" />
+        </Ramp>
+        <SteadyState Duration="300" Power="0.50449997" pace="0">
+            <textevent timeoffset="80" message="That was a great workout effort from you." locIndex="56" />
+            <textevent timeoffset="200" message="Ensure you have rehydrated adequately after the workout." locIndex="57" />
+        </SteadyState>
+    </workout>
+</workout_file>

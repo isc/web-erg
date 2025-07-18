@@ -1,0 +1,84 @@
+<workout_file>
+    <uniqueId>9e847a2e-9663-4a01-8d28-1adaad940989</uniqueId>
+    <legacyIdHash>62837931</legacyIdHash>
+    <author>M.Rowe (Rowe &amp; King)</author>
+    <name>Twelve Spikes</name>
+    <categoryOverride>Endurance</categoryOverride>
+    <description>In today&apos;s workout, you will complete 3 x 12 minute blocks of Zone 3, with some surges thrown in for good measure! The Zone 3 riding should feel nice and comfortable, however the surges may sting a little. The surges in each block increase in intensity, but decrease in duration; 
+Block 1 - 100% of FTP for 30 seconds, 
+Block 2 - 110% of FTP for 20 seconds, 
+Block 3 - 115% of FTP for 15 seconds. 
+
+At the end of each 12 minute block, there is a 1 minute &apos;Free Ride&apos; - depending on your current level of fitness, you can either drop the hammer and give it your max effort, or take some extra recovery. The significant volume of Tempo riding, coupled with the surges will help develop your endurance. </description>
+    <sportType>bike</sportType>
+    <category>2020 Rapha Festive 500</category>
+    <tags>
+        <tag name="RaphaFestive500" />
+    </tags>
+    <workout>
+        <Warmup Duration="480" PowerHigh="0.95" PowerLow="0.35">
+            <textevent message="Welcome to Twelve Spikes - the fourth of six workouts within Rapha&apos;s Festive 500 Workout Series" locIndex="1" timeoffset="15" />
+            <textevent message="Todays session aims to help develop your endurance - a fundamental attributes for completing Rapha&apos;s Festive 500 - 500km in 8 days" locIndex="2" timeoffset="40" />
+            <textevent message="Today, we will complete 3 x 12 minute blocks of Tempo, with some surges thrown in. The surges increase in intensity throughout the blocks" locIndex="3" timeoffset="90" />
+            <textevent message="We start with a warm up - a progressive ramped effort from 35-95% of your FTP" locIndex="4" timeoffset="150" />
+            <textevent message="A progressive ramp is all you need to warm you up for a session like today&apos;s, with a gradual easing in to the efforts" locIndex="5" timeoffset="200" />
+            <textevent message="Consistency is key to getting fit - try ride your bike as often as possible, incorporating structure like today, but also some general road riding" locIndex="6" timeoffset="280" />
+            <textevent message="Combining specificity indoors on Zwift with more relaxed general group riding IRL is the magic formula!" locIndex="7" timeoffset="320" />
+            <textevent message="You should be feeling pretty warmed up now. Do you have a sweat on?" locIndex="8" timeoffset="410" />
+            <textevent message="Coming to the end of the ramped warm up - hopefully you have a sweat on, and are feeling ready for some efforts?" locIndex="9" timeoffset="460" />
+        </Warmup>
+        <SteadyState Duration="120" Power="0.45">
+            <textevent message="How do your legs feel after the warm up?" locIndex="10" timeoffset="10" />
+            <textevent message="By completing a consistent warm up - you will get used to your body&apos;s sensations, helping you to understand when you are on a good and bad day" locIndex="11" timeoffset="40" />
+            <textevent message="Get your fan cranked up - it&apos;s important to keep cool when on Zwift as you don&apos;t have the air flow like on the road" locIndex="12" timeoffset="70" />
+            <textevent message="Here we go let&apos;s get stuck in to todays efforts" locIndex="13" timeoffset="110" />
+        </SteadyState>
+        <IntervalsT OffDuration="150" OffPower="0.7" OnDuration="30" OnPower="1" Repeat="4">
+            <textevent message="The first 12 minute block starts now - get stuck in to the 30 second surges!" locIndex="14" timeoffset="20" />
+            <textevent message="The trick is not to panic when the surges come" locIndex="15" timeoffset="150" />
+            <textevent message="Out on the road, you have to vary your power for slight changes in elevation / pace of the group" locIndex="16" timeoffset="163" />
+            <textevent message="Try and keep your upper body still - solid as a rock!" locIndex="17" timeoffset="300" />
+            <textevent message="The key to getting fitter and stronger on the bike is to include some specificity to your training" locIndex="18" timeoffset="500" />
+            <textevent message="Including some efforts in to a steady ride is an efficient way to improve your fitness and endurance" locIndex="19" timeoffset="650" />
+            <textevent message="Here we go - 60 seconds of free ride coming up... get stuck in!" locIndex="20" timeoffset="710" />
+        </IntervalsT>
+        <FreeRide Duration="60" FlatRoad="0">
+            <textevent message="Free ride - go big or go home!" locIndex="21" timeoffset="1" />
+        </FreeRide>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent message="3 minutes recovery - take a drink" locIndex="22" timeoffset="1" />
+        </SteadyState>
+        <IntervalsT OffDuration="160" OffPower="0.7" OnDuration="20" OnPower="1.1" Repeat="4">
+            <textevent message="Now we head in to the second 12 minute block - the surges are more intense!" locIndex="23" timeoffset="1" />
+            <textevent message="Stay composed, keep your body still and let all the power transfer come from your waist down" locIndex="24" timeoffset="100" />
+            <textevent message="The 20 second surges stimulate the onset of lactate" locIndex="25" timeoffset="360" />
+            <textevent message="Which forces your body to recover more efficiently" locIndex="26" timeoffset="375" />
+            <textevent message="Stick with it - great job so far!" locIndex="27" timeoffset="500" />
+            <textevent message="Your fan should be blasting to help keep you cool" locIndex="28" timeoffset="600" />
+            <textevent message="Here we go - 60 seconds of free ride coming up... go hard!" locIndex="29" timeoffset="710" />
+        </IntervalsT>
+        <FreeRide Duration="60" FlatRoad="0">
+            <textevent message="Free ride time - how are you going to ride it? " locIndex="30" timeoffset="1" />
+        </FreeRide>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent message="3 minutes easy - your chance to stretch out a little?" locIndex="31" timeoffset="1" />
+        </SteadyState>
+        <IntervalsT OffDuration="165" OffPower="0.7" OnDuration="15" OnPower="1.15" Repeat="4">
+            <textevent message="Final 12 minute block - how are your legs?" locIndex="32" timeoffset="1" />
+            <textevent message="Hopefully this final block of surges is manageable - 115% of FTP, so a lot of power but only for 15 seconds" locIndex="33" timeoffset="40" />
+            <textevent message="Anticipate the surges - especially if you are using ERG mode. You don&apos;t want to experience the &apos;Spiral of Death&apos;" locIndex="34" timeoffset="170" />
+            <textevent message="The cumulative fatigue of the first two blocks will be kicking in now - giving you a really good training stress" locIndex="35" timeoffset="400" />
+            <textevent message="Your heart rate will likely surge a few beats with the surges in power?" locIndex="36" timeoffset="580" />
+            <textevent message="Final 60 seconds of free ride coming up - make it count! Max effort!" locIndex="37" timeoffset="710" />
+        </IntervalsT>
+        <FreeRide Duration="60" FlatRoad="0">
+            <textevent message="The final free ride - are you going to smash this one? YES!!!" locIndex="38" timeoffset="1" />
+        </FreeRide>
+        <Cooldown Duration="300" PowerHigh="0.35" PowerLow="0.6">
+            <textevent message="Great workout - well done!" locIndex="39" timeoffset="20" />
+            <textevent message="The training we complete now will really benefit you come Rapha&apos;s Festive 500 Challenge!" locIndex="40" timeoffset="100" />
+            <textevent message="Make sure you supplement this training plan with some IRL riding, for some added volume" locIndex="41" timeoffset="200" />
+            <textevent message="Thanks for joining - see you on the next workout!" locIndex="42" timeoffset="285" />
+        </Cooldown>
+    </workout>
+</workout_file>

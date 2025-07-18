@@ -1,0 +1,17 @@
+<workout_file>
+    <uniqueId>1ee6c6c0-0a6a-4988-9d3d-7a7a1411db1b</uniqueId>
+    <legacyIdHash>3557171963</legacyIdHash>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <category>Your First Century</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 6</subcategory>
+    <name>Week 6.6 - Day 6</name>
+    <description>Building Endurance today! Once warmed up, ride in your Endurance zone. Focus on staying relaxed on the bike and spinning circles while keeping your cadence between 90-100. During the last hour of the ride complete 1 x 30-minute TEMPO effort in a cadence of 75-85.</description>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow="0.2545" PowerHigh="0.75449997" />
+        <SteadyState Duration="4200" PowerLow="0.65449995" PowerHigh="0.65449995" />
+        <SteadyState Duration="1800" PowerLow="0.94999999" PowerHigh="0.94999999" />
+        <Cooldown Duration="600" PowerLow="0.75449997" PowerHigh="0.2545" />
+    </workout>
+</workout_file>

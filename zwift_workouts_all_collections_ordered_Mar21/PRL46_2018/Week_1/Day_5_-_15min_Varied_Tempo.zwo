@@ -1,0 +1,47 @@
+<workout_file>
+    <uniqueId>96e5a8ae-a92f-4623-a033-d618270c5aa7</uniqueId>
+    <legacyIdHash>1071836038</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>2018 PRL46 Prep</category>
+    <subcategory>Week 1</subcategory>
+    <name>Week 1.5 - 15min Varied Tempo</name>
+    <description>Working in your Tempo zone, today we are varying the cadence and power. 
+
+Observe your Heart Rate during the 15 minute interval and look for changes in Heart Rate when your cadence change</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <SteadyState Duration="180" Power="0.5" pace="0">
+            <textevent timeoffset="160" message="High rpm in warm up sprints" locIndex="1" />
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="10" OffDuration="50" OnPower="1.8099999" OffPower="0.5" pace="0" />
+        <SteadyState Duration="180" Power="0.69999999" pace="0">
+            <textevent timeoffset="10" message="A steady aerobic effort now to help prepare you for the tempo efforts" locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.56999999" pace="0" />
+        <SteadyState Duration="300" Power="0.89999998" pace="0">
+            <textevent timeoffset="10" message="Self select cadence for this effort." locIndex="3" />
+            <textevent timeoffset="30" message="Take note of your preferred cadence for this intensity. You will have a prescribed cadence for the 15min tempo effort." locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.56" pace="0">
+            <textevent timeoffset="139" message="Changing cadence every 5min" locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.88999999" pace="0" Cadence="90">
+            <textevent timeoffset="10" message="Observe your HR during the 15min effort." locIndex="6" />
+            <textevent timeoffset="20" message="Does HR respond to the different cadence?" locIndex="7" />
+            <textevent timeoffset="290" message="Ready to lift cadence to 95rpm." locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.89449996" pace="0" Cadence="95">
+            <textevent timeoffset="290" message="Ready to lift cadence to 100rpm" locIndex="9" />
+            <textevent timeoffset="97" message="How does 95rpm feel?" locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.88999999" pace="0" Cadence="100">
+            <textevent timeoffset="114" message="How does 100rpm feel? " locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.56" pace="0">
+            <textevent timeoffset="280" message="Good session today. Now to cool down." locIndex="12" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow="0.75" PowerHigh="0.50999999" pace="0" />
+    </workout>
+</workout_file>

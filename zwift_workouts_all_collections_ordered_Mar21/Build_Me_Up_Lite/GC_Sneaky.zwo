@@ -1,0 +1,74 @@
+<workout_file>
+    <uniqueId>f7940bd0-f1cb-434c-b59b-0b82eaad3563</uniqueId>
+    <legacyIdHash>1740455446</legacyIdHash>
+    <author>Shayne Gaffney | GC Coaching</author>
+    <name>Sneaky Lite</name>
+    <description>Sneaky, as the name would imply, is the kind of workout that 'sneaks' up on you, especially that last interval when the legs are a bit fatigued already. Today, after the warm up, we'll do 4 intervals consisting of 3min moderate, and 1 min hard, then cool down.</description>
+    <sportType>bike</sportType>
+    <category>Build Me Up Lite</category>
+    <subcategory>Week 4</subcategory>
+    <tags>
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.4" PowerHigh="0.6">
+            <textevent timeoffset="0" message="Welcome, friend!  Let&apos;s start with a 5 minute warm-up.  Ideal cadence is 85-95 RPM here." locIndex="1" />
+            <textevent timeoffset="120" message="Bring up that cadence closer to 95 RPM if you&apos;re not already there." locIndex="2" />
+            <textevent timeoffset="180" message="3 minutes into the warm-up.  Let&apos;s talk a bit about today&apos;s workout..." locIndex="3" />
+            <textevent timeoffset="190" message="...We are going to be doing 4x (3 minutes Z3, 1 minute Z4, and 1 minute Z1)..." locIndex="4" />
+            <textevent timeoffset="200" message="...The cadence is also going to alternate between 90 RPM and 60 RPM..." locIndex="5" />
+            <textevent timeoffset="210" message="...Having these changes in cadence will help you become a more well-rounded cyclist!" locIndex="6" />
+            <textevent timeoffset="220" message="...For now though, let&apos;s continue to warm those legs up!" locIndex="7" />
+            <textevent timeoffset="240" message="1  more minute to go..." locIndex="8" />
+            <textevent timeoffset="250" message="...We are going to start off @90 RPM for the entire interval rep (not just the 3 minute portion)..." locIndex="9" />
+            <textevent timeoffset="290" message="Ready?" locIndex="10" />
+        </Warmup>
+        <SteadyState Duration="180" Power="0.8" Cadence="90">
+            <textevent timeoffset="0" message="Alrighty, settle into this effort here, keep the cadence around 90 RPM.  Nice and steady for this workout." locIndex="11" />
+            <textevent timeoffset="170" message="In 10 seconds, we&apos;re going up to just below FTP, but keeping the same cadence." locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.95" Cadence="90">
+            <textevent timeoffset="0" message="Bring up the effort a bit more now, same cadence." locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="Good work!  Now, bring it down for a minute easy." locIndex="14" />
+            <textevent timeoffset="50" message="This next one is going to be at 60 RPM...Push, scrape, pull those pedals!" locIndex="15" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.8" Cadence="60">
+            <textevent timeoffset="0" message="Focus on the push down phase here and really using those quads and glutes.  This is where you develop the most power while pedaling." locIndex="16" />
+            <textevent timeoffset="170" message="Increasing the effort again in 10 seconds, keep that cadence low!" locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.95" Cadence="60">
+            <textevent timeoffset="0" message="Little more effort here..." locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="Great work!  Rest again for another minute.  6 more of those to go :-)" locIndex="19" />
+            <textevent timeoffset="50" message="Back up to 90 RPM for this next rep." locIndex="20" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.8" Cadence="90">
+            <textevent timeoffset="0" message="Bring up the effort and the cadence again here..." locIndex="21" />
+            <textevent timeoffset="10" message="...Notice how your heart rate changes based on your cadence..." locIndex="22" />
+            <textevent timeoffset="20" message="...Pedaling with a faster cadence results in greater metabolic demand, and thus increased heart rate :-)" locIndex="23" />
+            <textevent timeoffset="170" message="In 10 seconds, we&apos;re going up to Z4 again." locIndex="24" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.95" Cadence="90">
+            <textevent timeoffset="0" message="Hit it!  Keep that cadence steady ~90." locIndex="25" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="3 down, 5 to go.  We&apos;re getting there!" locIndex="26" />
+            <textevent timeoffset="50" message="60 RPM for this next rep..." locIndex="27" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.8" Cadence="60">
+            <textevent timeoffset="0" message="Push, scrape, pull..." locIndex="28" />
+            <textevent timeoffset="10" message="...Where is most of your power coming from?  Focus on the &quot;push&quot; phase here!" locIndex="29" />
+            <textevent timeoffset="170" message="Get ready to increase the effort a bit more again..." locIndex="30" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.95" Cadence="60">
+            <textevent timeoffset="0" message="Bring it up!  Remember, focus on that &quot;push&quot; of the pedal stroke phase here." locIndex="31" />
+        </SteadyState>
+        <Cooldown Duration="180" PowerLow="0.6" PowerHigh="0.4">
+            <textevent timeoffset="0" message="WOOT WOOT!  Another one in the books :-) ..." locIndex="63" />
+            <textevent timeoffset="10" message="...Great work today!  Take the next few minutes and cool down..." locIndex="64" />
+            <textevent timeoffset="20" message="...See you next time!" locIndex="65" />
+        </Cooldown>
+    </workout>
+</workout_file>

@@ -1,0 +1,16 @@
+<workout_file>
+    <uniqueId>e8fae286-0ef2-43eb-8c1d-8b2d4b68ea41</uniqueId>
+    <legacyIdHash>2218351014</legacyIdHash>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <category>Your First Century</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 8</subcategory>
+    <name>Week 8.6 - Day 6</name>
+    <description>Today is simple, ride the prescribed time in your Endurance Zone. Vary your cadence throughout ride and work on pedaling form. Practice "coming over the top" and "pulling through the bottom" of the pedal. Enjoy the day</description>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow="0.2545" PowerHigh="0.65449995" />
+        <SteadyState Duration="13200" PowerLow="0.65449995" PowerHigh="0.65449995" />
+        <Cooldown Duration="600" PowerLow="0.65449995" PowerHigh="0.2545" />
+    </workout>
+</workout_file>

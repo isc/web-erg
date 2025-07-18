@@ -1,0 +1,81 @@
+<workout_file>
+    <uniqueId>3aef0ff2-b778-4e32-8538-81a3006e0f5a</uniqueId>
+    <legacyIdHash>1471685987</legacyIdHash>
+    <author>Zwift</author>
+    <categoryOverride>Threshold</categoryOverride>
+    <name>Hill Pyramid At Threshold</name>
+    <description>4-3-2-1 hill pyramid is up today. These will all be done at the same effort but we will be varying cadence to simulate steepness of the climb. The shorter they are the steeper they are. Sometimes in gravel racing you don&apos;t have an easier gear and you are stuck grinding away at whatever cadence your easiest gear gives you. Today we practice that!</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Gravel Grinder</category>
+    <subcategory>Week 6</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="900" PowerLow="0.45" PowerHigh="0.85">
+            <textevent timeoffset="0" message="Today is all about pyramids!" locIndex="1" />
+            <textevent timeoffset="360" message="Ramping it up gradually" locIndex="2" />
+        </Warmup>
+        <SteadyState Duration="60" Power="0.55">
+            <textevent timeoffset="0" message="Nice and easy before we start a little primer set" locIndex="3" />
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="30" OffDuration="60" OnPower="1" OffPower="0.5">
+            <textevent timeoffset="0" message="Work high rpms on these before we start all the climbing." locIndex="4" />
+            <textevent timeoffset="30" message="Easy, your choice cadence." locIndex="5" />
+            <textevent timeoffset="90" message="Another one!" locIndex="6" />
+            <textevent timeoffset="120" message="Easy now. " locIndex="7" />
+            <textevent timeoffset="180" message="Keep the legs turning over quickly!" locIndex="8" />
+            <textevent timeoffset="210" message="Relax into another." locIndex="9" />
+            <textevent timeoffset="270" message="Smooth and fast!" locIndex="10" />
+            <textevent timeoffset="300" message="Easy, Now into some more." locIndex="11" />
+        </IntervalsT>
+        <SteadyState Duration="240" Power="1" Cadence="90">
+            <textevent timeoffset="0" message="Threshold climbing at 90 rpms" locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="0" message="easy down the back side" locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="1" Cadence="85">
+            <textevent timeoffset="0" message=" 85 rpms. This hill&apos;s a little shorter but a little steeper." locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="0" message="If you&apos;re feeling good, you can work your cadence down the backside as if you&apos;re pedaling quick on the descent." locIndex="15" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1" Cadence="80">
+            <textevent timeoffset="0" message="80 rpms" locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="0" message="Nice and easy before the short and steep one." locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1" Cadence="75">
+            <textevent timeoffset="0" message="75 rpms, steepest one, but only for 1 minute!" locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.5">
+            <textevent timeoffset="0" message="This one&apos;s twice as long and then we go back down this pyramid." locIndex="19" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1">
+            <textevent timeoffset="0" message="75 rpms, same thing, but back down now" locIndex="20" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.5">
+		</SteadyState>
+        <SteadyState Duration="120" Power="1" Cadence="80">
+            <textevent timeoffset="0" message="80 rpms" locIndex="21" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.5">
+		</SteadyState>
+        <SteadyState Duration="180" Power="1" Cadence="85">
+            <textevent timeoffset="0" message=" 85 rpms. " locIndex="22" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="0" message="Heading into the last hard effort of the set!" locIndex="23" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="1" Cadence="90">
+            <textevent timeoffset="0" message="Threshold climbing at 90 rpms, this is it!" locIndex="24" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.55">
+		</SteadyState>
+        <Cooldown Duration="900" PowerLow="0.85" PowerHigh="0.45">
+            <textevent timeoffset="0" message="This is the reverse of your Warmup." locIndex="25" />
+            <textevent timeoffset="0" message="Super easy, well done!" locIndex="26" />
+        </Cooldown>
+    </workout>
+</workout_file>

@@ -1,0 +1,107 @@
+<workout_file>
+    <uniqueId>5c2956ff-3674-439a-8272-0a5a996f357f</uniqueId>
+    <legacyIdHash>1528605</legacyIdHash>
+    <author>Matt Rowe</author>
+    <categoryOverride>Endurance</categoryOverride>
+    <name>Week 4.5 - Saw Legs</name>
+    <description>This session aims to develop your endurance by completing 3 blocks of 15 minutes around Zone 3, made up of short ramps to add in the constant variation in effort involved in mountain biking! There are also a few sprints thrown in there too, to simulate navigating across a technical uphill section. 
+
+Additionally, the middle ramp within each block is to be completed at a low cadence, of 65rpm. </description>
+    <sportType>bike</sportType>
+    <category>Dirt Destroyer</category>
+    <subcategory>Week 4</subcategory>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <tags />
+    <workout>
+        <Warmup Duration="420.00003" PowerLow="0.43673915" PowerHigh="0.74978262" pace="0">
+            <textevent timeoffset="10" message="Welcome to a Saw Legs edition of the Dirt Destroyer!" locIndex="1" />
+            <textevent timeoffset="25" message="Todays session is an endurance focused session, where complete 3 blocks of ramped efforts." locIndex="2" />
+            <textevent timeoffset="43" message="We start with a progressive ramp before going in to some 30 second activation efforts to get us ready for the session." locIndex="3" />
+            <textevent timeoffset="51" message="A progressive ramp followed by some sprints ticks all the boxes for a warm up and will leave you ready to get the most out of efforts in this session" locIndex="4" />
+            <textevent timeoffset="188" message="XCO Mountain Bike events are not short - so we need to focus on developing our endurance in training" locIndex="5" />
+            <textevent timeoffset="390" message="You should be feeling pretty warmed up now. Do you have a sweat on?" locIndex="6" />
+            <textevent timeoffset="401" message="Here comes the first activation effort - notice its 30 seconds, very different to a road sprint. More of a capacity effort." locIndex="7" />
+            <textevent timeoffset="0" message="Settle in to this effort - stay composed and focus on your pedaling stroke - pedaling 360&apos; of the stroke." locIndex="8" />
+        </Warmup>
+        <SteadyState Duration="30.000002" Power="1.0944999" pace="0" />
+        <SteadyState Duration="180.00002" Power="0.50449997" pace="0">
+            <textevent timeoffset="10" message="How did that effort feel? Your blood will be warming up nicely now" locIndex="9" />
+            <textevent timeoffset="25" message="I hope your fan is on full speed?" locIndex="10" />
+            <textevent timeoffset="150" message="Another sprint incoming - but time for a quick wheelie if you can do one?" locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="30.000002" Power="1.0944999" pace="0" />
+        <SteadyState Duration="300" Power="0.50449997" pace="0">
+            <textevent timeoffset="9.9999313" message="How did the wheelie go?" locIndex="12" />
+            <textevent timeoffset="209" message="Are you ready for the first block? 15 minutes made up of 3 ramped efforts." locIndex="13" />
+            <textevent timeoffset="285" message="The middle 5 minutes of each 15 minute block is to be ridden at a low cadence, to provide a strength element to the session." locIndex="14" />
+        </SteadyState>
+        <Ramp Duration="300" PowerLow="0.75449997" PowerHigh="0.90449995" pace="0">
+            <textevent timeoffset="34" message="Ramp 1 - ride at any cadence you feel comfortable." locIndex="15" />
+            <textevent timeoffset="134" message="Todays session shouldn&apos;t be too tough. Sure we will work hard, but it&apos;s not a killer!" locIndex="16" />
+        </Ramp>
+        <Ramp Duration="300" PowerLow="0.75449997" PowerHigh="0.90449995" pace="0" Cadence="65">
+            <textevent timeoffset="85" message="Ramp 2, where we move to riding at a low cadence (65rpm)." locIndex="17" />
+            <textevent timeoffset="185" message="This will be the hardest 5 minutes of each block - more of a grind in effort, like riding through mud!" locIndex="18" />
+            <textevent timeoffset="285" message="Big 10 second effort coming up as round the corner is a steep banking we need to get up!" locIndex="19" />
+        </Ramp>
+        <SteadyState Duration="10" Power="1.2045" pace="0">
+            <textevent timeoffset="9" message="Let&apos;s go!! UP UP!" locIndex="20" />
+        </SteadyState>
+        <Ramp Duration="300" PowerLow="0.75449997" PowerHigh="0.90449995" pace="0">
+            <textevent timeoffset="33" message="Ramp 3 - back to your chosen cadence here. You should start to recover as the effort progresses." locIndex="21" />
+            <textevent timeoffset="295" message="Spike in effort coming up again - this time, we are going really big! 10 seconds - 150% FTP. FULL GAS!" locIndex="22" />
+        </Ramp>
+        <SteadyState Duration="10" Power="1.5044999" pace="0">
+            <textevent timeoffset="2" message="UP UP UP!" locIndex="23" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.40450001" pace="0">
+            <textevent timeoffset="39" message="Recovery time - relax, sit up and take a drink." locIndex="24" />
+        </SteadyState>
+        <Ramp Duration="300" PowerLow="0.75449997" PowerHigh="0.90449995" pace="0">
+            <textevent timeoffset="34" message="Ride at any cadence you feel comfortable, no heroics to start." locIndex="25" />
+            <textevent timeoffset="134" message="Pacing is key - if climbing a hill IRL you set off too hard and &apos;crack&apos; - you&apos;ll get to the top not only much slower but far less efficiently too." locIndex="26" />
+        </Ramp>
+        <Ramp Duration="300" PowerLow="0.75449997" PowerHigh="0.90449995" pace="0" Cadence="65">
+            <textevent timeoffset="85" message="We are back at that low cadence, riding through the mud." locIndex="27" />
+            <textevent timeoffset="185" message="Don&apos;t let your cadence drop too low during the low cadence parts... if you dip below 50rpm it&apos;s really tough to get back up to speed!" locIndex="28" />
+            <textevent timeoffset="285" message="Big 10 second effort coming up as round the corner is a steep banking we need to get up!" locIndex="29" />
+        </Ramp>
+        <SteadyState Duration="10" Power="1.2045" pace="0">
+            <textevent timeoffset="2" message="UP UP UP!" locIndex="30" />
+        </SteadyState>
+        <Ramp Duration="300" PowerLow="0.75449997" PowerHigh="0.90449995" pace="0">
+            <textevent timeoffset="33" message="Ramp 3 - back to your chosen cadence here. You should start to recover as the effort progresses." locIndex="31" />
+            <textevent timeoffset="295" message="Spike in effort coming up - 10 seconds - 150% FTP. FULL GAS!" locIndex="32" />
+        </Ramp>
+        <SteadyState Duration="10" Power="1.5044999" pace="0">
+            <textevent timeoffset="2" message="UP UP UP!" locIndex="33" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.40450001" pace="0">
+            <textevent timeoffset="103" message="Recovery block again - keep drinking!" locIndex="34" />
+        </SteadyState>
+        <Ramp Duration="300" PowerLow="0.75449997" PowerHigh="0.90449995" pace="0">
+            <textevent timeoffset="34" message="Final block of the day - let&apos;s make it count." locIndex="35" />
+            <textevent timeoffset="134" message="If you are noting your heart rate, it&apos;s likely you will see a higher heart rate in response to block 3 vs 1 and 2." locIndex="36" />
+            <textevent timeoffset="184" message="The closer to your heart rate in block 1, the fitter you are." locIndex="37" />
+            <textevent timeoffset="234" message="Heart rate is a response to workload. Bigger effort requires more blood to the muscles." locIndex="38" />
+        </Ramp>
+        <Ramp Duration="300" PowerLow="0.75449997" PowerHigh="0.90449995" pace="0" Cadence="65">
+            <textevent timeoffset="85" message="Nail this low cadence effort which is the last one of the day! Try and pedal smoothly, producing power 360&apos; of the stroke!" locIndex="39" />
+            <textevent timeoffset="285" message="Big 10 second incoming... smash it!" locIndex="40" />
+        </Ramp>
+        <SteadyState Duration="10" Power="1.2045" pace="0">
+            <textevent timeoffset="2" message="UP UP UP!" locIndex="41" />
+        </SteadyState>
+        <Ramp Duration="300" PowerLow="0.75449997" PowerHigh="0.90449995" pace="0">
+            <textevent timeoffset="33" message="Final ramp - try and focus on your heart rate, bringing it down a few beats after that 10 second effort." locIndex="42" />
+            <textevent timeoffset="103" message="Ramp 3 - back to your chosen cadence here. You should start to recover as the effort progresses." locIndex="43" />
+        </Ramp>
+        <SteadyState Duration="10" Power="1.5044999" pace="0">
+            <textevent timeoffset="2" message="UP UP UP!" locIndex="44" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow="0.55449998" PowerHigh="0.2545" pace="0">
+            <textevent timeoffset="48" message="Cool down time - good work. That was a top quality workout." locIndex="45" />
+            <textevent timeoffset="248" message="Another session ticked off - see you on the next workout." locIndex="46" />
+        </Cooldown>
+    </workout>
+</workout_file>

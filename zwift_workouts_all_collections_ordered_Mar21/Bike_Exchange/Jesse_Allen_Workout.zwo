@@ -1,0 +1,117 @@
+<workout_file>
+    <uniqueId>4587e133-6a68-4492-b1e7-d90d6bd6e479</uniqueId>
+    <legacyIdHash>2605613965</legacyIdHash>
+    <author>Marco Pinotti</author>
+    <categoryOverride>Climbing</categoryOverride>
+    <name>Jesse Allen: Domestique</name>
+    <activitySaveName>Zwift Pro Training Camp: Team BikeExchange-Jayco | Jesse Allen</activitySaveName>
+    <description>Jessica Allen is a strong and loyal domestique, Allen is an important teammate for the Team BikeExchange leaders, on-and-off the bike, helping them to multiple major victories in one-day races and stage races. This session is 3 rounds of 5 x 20 seconds &apos;over&apos; FTP at 110% and 40 seconds &apos;under&apos; FTP at 90%. If you complete this workout you will be ready to roll in your next event.</description>
+    <sportType>bike</sportType>
+    <category>Pro Training Camp | Team BikeExchange-Jayco</category>
+    <categoryIndex>2</categoryIndex>
+    <visibleAfterTime>1672617660</visibleAfterTime>
+    <overrideHash>2605613965</overrideHash>
+    <tags>
+        <tag name="zprotraining" />
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow=".5" PowerHigh=".6">
+            <textevent timeoffset="0" message="Welcome to Zwift&apos;s Pro Training Camo with Team BikeExchange-Jayco." locIndex="1" />
+            <textevent timeoffset="10" message="As we get started find a comfortable cadence and take the next few minutes to gradually warm up." locIndex="2" />
+            <textevent timeoffset="20" message="Today&apos;s workout is provided by Jessica Allen, &apos;Jesse&apos; is a domestique for Team BikeExchange-Jayco and an important part of their teams success." locIndex="3" />
+            <textevent timeoffset="30" message="She is a leader on and off the bike and her support has contributed to multiple major victories in one-day races and stage wins." locIndex="4" />
+            <textevent timeoffset="60" message="Let&apos;s talk about today&apos;s workout. It&apos;s a fun one that she uses to develop her ability to ride over and under FTP." locIndex="5" />
+            <textevent timeoffset="70" message="After a progressive warm up, we are doing 3 x 5 min over/under FTP efforts." locIndex="6" />
+            <textevent timeoffset="80" message="The over&apos;s will be 20 seconds at 110% of FTP and the under&apos;s will be at 90% of FTP." locIndex="7" />
+            <textevent timeoffset="90" message="It&apos;s a challenging workout that will get you race ready!" locIndex="8" />
+            <textevent timeoffset="290" message="Let&apos;s continue warming up with a 5 minute progressive effort." locIndex="9" />
+        </Warmup>
+        <Ramp Duration="300" PowerLow=".65" PowerHigh=".9">
+            <textevent timeoffset="0" message="We&apos;re starting this progressive ramp effort very easy to slowly get your engine warmed up." locIndex="10" />
+            <textevent timeoffset="10" message="Find a cadence that feels comfortable and maintain it as the effort builds." locIndex="11" />
+            <textevent timeoffset="60" message="Grab a sip of water and keep it handy for this workout, you&apos;re gonna need it." locIndex="12" />
+            <textevent timeoffset="70" message="I will remind you to drink during the recovery portions of this workout." locIndex="13" />
+            <textevent timeoffset="180" message="As this effort continues to build try and maintain a still upper body, let your legs smoothly produce power." locIndex="14" />
+            <textevent timeoffset="280" message="Almost there! We&apos;ve got 60 seconds recovery soon." locIndex="15" />
+        </Ramp>
+        <SteadyState Duration="60" Power=".55">
+            <textevent timeoffset="0" message="Nice work. Take the next 60 seconds very easy." locIndex="16" />
+            <textevent timeoffset="20" message="Grab a drink as you continue your recovery." locIndex="17" />
+            <textevent timeoffset="30" message="Up next we&apos;ve got our 1st 5 minute block of 20 seconds over, 40 seconds under FTP." locIndex="18" />
+            <textevent timeoffset="40" message="I want this done at a high cadence, your target is 95 rpms throughout." locIndex="19" />
+            <textevent timeoffset="50" message="Ready? Here we go!" locIndex="20" />
+        </SteadyState>
+        <IntervalsT Repeat="5" OnDuration="20" OffDuration="40" OnPower="1.1" OffPower=".9" Cadence="95">
+            <textevent timeoffset="0" message="Push! Up and over FTP." locIndex="21" />
+            <textevent timeoffset="20" message="Slightly off the gas, this is NOT a recovery." locIndex="22" />
+            <textevent timeoffset="30" message="Settle in here and relax as much as possible, I know it&apos;s not easy." locIndex="23" />
+            <textevent timeoffset="60" message="Back on it! Control the effort up to target power, no need to sprint up to it." locIndex="24" />
+            <textevent timeoffset="80" message="Nice job, lightly pull back the power." locIndex="25" />
+            <textevent timeoffset="90" message="Try and stay as controlled and steady with your power as possible. No big spikes or drops during this block." locIndex="26" />
+            <textevent timeoffset="100" message="You&apos;re doing great, keep your upper body nice and calm." locIndex="27" />
+            <textevent timeoffset="120" message="Let&apos;s go, gradually add a little more pressure." locIndex="28" />
+            <textevent timeoffset="140" message="Small reprieve, try and find a few beats of recovery here." locIndex="29" />
+            <textevent timeoffset="180" message="Back on it!" locIndex="30" />
+            <textevent timeoffset="200" message="Nicely done! Stay with it we are almost there." locIndex="31" />
+            <textevent timeoffset="240" message="Let&apos;s Go! Last effort in this block." locIndex="32" />
+            <textevent timeoffset="260" message="The hard part is done, just gotta hang on now!" locIndex="33" />
+            <textevent timeoffset="250" message="All the way through the arch, don&apos;t let the power slip!" locIndex="34" />
+        </IntervalsT>
+        <SteadyState Duration="240" Power=".55" Cadence="80">
+            <textevent timeoffset="0" message="Well done on the 1st block, bring your cadence down to 80 and take the next few minutes to recover." locIndex="35" />
+            <textevent timeoffset="20" message="Grab a drink." locIndex="36" />
+            <textevent timeoffset="60" message="Now that you&apos;ve been through one block let&apos;s talk about some helpful tips for round 2." locIndex="37" />
+            <textevent timeoffset="70" message="Stay controlled with your power, try and reduce big surges or drops in power to start and end intervals." locIndex="38" />
+            <textevent timeoffset="80" message="How you transition into and out of each interval is really important. Stay focused for the entire 5 min block, especially around the edges." locIndex="39" />
+            <textevent timeoffset="200" message="Another quick sip of water, round 2 is coming up shortly." locIndex="40" />
+            <textevent timeoffset="230" message="Here we go." locIndex="41" />
+        </SteadyState>
+        <IntervalsT Repeat="5" OnDuration="20" OffDuration="40" OnPower="1.1" OffPower=".9" Cadence="95">
+            <textevent timeoffset="0" message="We&apos;re starting above FTP. Slowly build up to target power." locIndex="42" />
+            <textevent timeoffset="20" message="Nice job, with control slowly bring the power down." locIndex="43" />
+            <textevent timeoffset="30" message="Now hold it." locIndex="44" />
+            <textevent timeoffset="50" message="Remember to slowly bring it back up, try not to surge." locIndex="45" />
+            <textevent timeoffset="60" message="Back on it! Control, control, control." locIndex="46" />
+            <textevent timeoffset="80" message="Fantastic, now slowly back off." locIndex="47" />
+            <textevent timeoffset="100" message="Great job so far, 3rd rep coming up." locIndex="48" />
+            <textevent timeoffset="120" message="We&apos;re on again!" locIndex="49" />
+            <textevent timeoffset="140" message="Back to just below threshold. Pretend this is recovery, make it as easy as possible while still holding your numbers." locIndex="50" />
+            <textevent timeoffset="180" message="Here we go, push it up and over!" locIndex="51" />
+            <textevent timeoffset="200" message="Well done! Last round coming up. You&apos;ve got this." locIndex="52" />
+            <textevent timeoffset="240" message="Last effort, finish strong." locIndex="53" />
+            <textevent timeoffset="260" message="Stay with it! Hold onto this effort right through the arch." locIndex="54" />
+        </IntervalsT>
+        <SteadyState Duration="240" Power=".55" Cadence="80">
+            <textevent timeoffset="0" message="Nice work, settle down and recover." locIndex="55" />
+            <textevent timeoffset="30" message="2 rounds down, 1 round to go! Grab a drink of water." locIndex="56" />
+            <textevent timeoffset="120" message="How did that round feel? Were you able to control the power a little more?" locIndex="57" />
+            <textevent timeoffset="130" message="It&apos;s important to continually improve how you use your power. When you&apos;re riding in a pack and swapping turns being able to smoothly increase power and decrease power is important." locIndex="58" />
+            <textevent timeoffset="140" message="It reduces the amount of surging that takes place and keeps the overall tempo of the group steady." locIndex="59" />
+            <textevent timeoffset="150" message="No one likes riders that make unnecessary surges while in a pace-line." locIndex="60" />
+            <textevent timeoffset="200" message="Last quick sip of water. Remember, controlled and steady, especially at the start." locIndex="61" />
+            <textevent timeoffset="230" message="Let&apos;s go!" locIndex="62" />
+        </SteadyState>
+        <IntervalsT Repeat="5" OnDuration="20" OffDuration="40" OnPower="1.1" OffPower=".9" Cadence="95">
+            <textevent timeoffset="0" message="Push, push, push!" locIndex="63" />
+            <textevent timeoffset="20" message="Settle down, nice and smooth." locIndex="64" />
+            <textevent timeoffset="40" message="Stay focused here." locIndex="65" />
+            <textevent timeoffset="60" message="Let&apos;s roll, we&apos;re back on it!" locIndex="66" />
+            <textevent timeoffset="80" message="Ease off slowly." locIndex="67" />
+            <textevent timeoffset="100" message="Keep up the good work." locIndex="68" />
+            <textevent timeoffset="120" message="Up, Up, Up!" locIndex="69" />
+            <textevent timeoffset="140" message="Awesome, you&apos;re cruising. Keep it up!" locIndex="70" />
+            <textevent timeoffset="180" message="Let&apos;s get it!" locIndex="71" />
+            <textevent timeoffset="200" message="Hang on, this is the toughest part. Don&apos;t let that power drop off." locIndex="72" />
+            <textevent timeoffset="240" message="Lift it!" locIndex="73" />
+            <textevent timeoffset="260" message="Now bring it home, you&apos;ve got this. Stay with it!" locIndex="74" />
+        </IntervalsT>
+        <Cooldown Duration="300" PowerLow=".5" PowerHigh=".65">
+            <textevent timeoffset="0" message="Great job! Way to hang in there when the going got tough." locIndex="75" />
+            <textevent timeoffset="10" message="Over/under&apos;s are one of the best ways to simulate bunch riding. Add these to your training program when you need to prepare for pace-line efforts." locIndex="76" />
+            <textevent timeoffset="120" message="I hope you enjoyed today&apos;s workout. It&apos;s always great to have you train with us." locIndex="77" />
+            <textevent timeoffset="130" message="Make sure to join the rest of the Team BikeExchange-Jayco and Zwift&apos;s pro training camp for more great workouts." locIndex="78" />
+            <textevent timeoffset="250" message="See you again soon!" locIndex="79" />
+            <textevent timeoffset="260" message="Ride On!" locIndex="80" />
+        </Cooldown>
+    </workout>
+</workout_file>

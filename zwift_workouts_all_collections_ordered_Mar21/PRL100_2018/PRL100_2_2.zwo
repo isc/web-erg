@@ -1,0 +1,41 @@
+<workout_file>
+    <uniqueId>8249f1d5-3cf5-4e39-b102-2fa16d365a05</uniqueId>
+    <legacyIdHash>1829158340</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <categoryOverride>Threshold</categoryOverride>
+    <name>Week 2.2 - Season Base #1</name>
+    <category>2018 PRL100 Prep</category>
+    <subcategory>Week 2</subcategory>
+    <description>A set of long intervals focused on endurance across a range of zones. Nothing fancy here, just long bouts of solid work here.
+</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <SteadyState Duration="60" Power="0.50449997" pace="0" />
+        <IntervalsT Repeat="2" OnDuration="60" OffDuration="60" OnPower="0.50449997" OffPower="0.91449994" pace="0">
+            <textevent timeoffset="25" message="Completing some 1min efforts in zone 4 and 5 during the warm up." locIndex="1" />
+        </IntervalsT>
+        <IntervalsT Repeat="2" OnDuration="60" OffDuration="60" OnPower="0.50449997" OffPower="1.0745" pace="0" />
+        <SteadyState Duration="60" Power="0.50449997" pace="0">
+            <textevent timeoffset="26" message="Now for threshold efforts." locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="360" Power="0.98000002" pace="0">
+            <textevent timeoffset="51" message="Hold your racing position on the bike for the threshold efforts." locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.55000001" pace="0" />
+        <SteadyState Duration="360" Power="0.98449993" pace="0" />
+        <SteadyState Duration="120" Power="0.55000001" pace="0">
+            <textevent timeoffset="64" message="Last one coming up." locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="360" Power="0.98000002" pace="0" />
+        <SteadyState Duration="120" Power="0.55000001" pace="0">
+            <textevent timeoffset="66" message="Now we perform a steady tempo effort." locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="1200" Power="0.78449994" pace="0">
+            <textevent timeoffset="62" message="This is where the adaptation occurs." locIndex="6" />
+            <textevent timeoffset="637" message="Great work. Half way there!" locIndex="7" />
+            <textevent timeoffset="761" message="Is your HR remaining steady? Or is it increasing still?" locIndex="8" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow="0.75449997" PowerHigh="0.50449997" pace="0" />
+    </workout>
+</workout_file>

@@ -1,0 +1,48 @@
+<workout_file>
+    <uniqueId>72194e72-d888-4829-a093-ca737d1aac81</uniqueId>
+    <legacyIdHash>1061213432</legacyIdHash>
+    <author>Shayne Gaffney</author>
+    <name>Lionel Sanders&apos; Red Day Workout</name>
+    <description>Lionel Sanders says &apos;A Red day likely means that I didn&apos;t sleep very much or the quality of the sleep was quite low. On these days, I try to not cancel my workout which is why I like to do roller riding. The reason I don&apos;t cancel is doing something that is progressing you as an athlete, and you can do successfully, allows you to not put any unnecessary stress into the body on that day. This in turn let&apos;s you make sure you get to bed at a decent time and get a good quality sleep to set yourself up for success next day, for the interval work you potentially missed on the red day.&apos;</description>
+    <sportType>bike</sportType>
+    <tags />
+    <category>Whoop Workout Series | Bike</category>
+    <subcategory>Red Day</subcategory>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.2545" PowerHigh="0.75449997">
+            <textevent timeoffset="0" message="Welcome to the WHOOP Workout Series! Let&apos;s start to warm up." />
+            <textevent timeoffset="10" message="This series features workouts inspired by Lionel Sanders, EF Pro Cycling, and Tinman Elite Coaching." />
+            <textevent timeoffset="20" message="Each workout is designed to correspond to your WHOOP Recovery score." />
+            <textevent timeoffset="30" message="Green day = means you&apos;ve had a high recovery score and are ready for a hard workout." />
+            <textevent timeoffset="40" message="Yellow day = means you&apos;ve had an ok recovery score and are ready for a moderate workout." />
+            <textevent timeoffset="50" message="Red day = means you&apos;ve had a low recovery score ready for an easy recovery workout." />
+            <textevent timeoffset="60" message="Today we are doing one of Lionel Sanders&apos; favorite workouts when his WHOOP tells him it&apos;s a Red day." />
+            <textevent timeoffset="70" message="Use this 10min warm up to ease into the day and mentally prepare for the work ahead." />
+            <textevent timeoffset="120" message="Do you have your fluids, fan, and towel all handy?" />
+            <textevent timeoffset="240" message="Nice work so far here! Keep slowly bringing the effort up as we continue the warm up." />
+            <textevent timeoffset="300" message="There&apos;s halfway! Let&apos;s chat a little bit about what&apos;s in store for today." />
+            <textevent timeoffset="310" message="Today is a day to enjoy yourself and spin at whatever intensity you&apos;d like to." />
+            <textevent timeoffset="320" message="Red days should be focused on recovery, both physically and mentally." />
+            <textevent timeoffset="330" message="So, for the main set, it&apos;s all up to you :-)" />
+            <textevent timeoffset="340" message="The only goal is to end the day feeling better than when you started." />
+            <textevent timeoffset="480" message="Today&apos;s main set will be done as a &apos;Free Ride&apos; block." />
+            <textevent timeoffset="490" message="This means you&apos;ll be using your gears to self-select the intensity." />
+            <textevent timeoffset="500" message="Learn what Lionel has to say about today&apos;s session." />
+            <textevent timeoffset="510" message="When my WHOOP score is in the red, it likely means that I didn&apos;t either sleep very much…" />
+            <textevent timeoffset="520" message="Or I did something really hard the previous day." />
+            <textevent timeoffset="530" message="Definitely don&apos;t wanna get in the habit of that, so best to do something fairly low intensity and technical in nature." />
+            <textevent timeoffset="540" message="I like to do a 30-60min super chill ride on my road bike on Red days." />
+            <textevent timeoffset="550" message="Today we&apos;ll be doing an easy 30min ride. Just enjoy the sights and sound of Zwift here." />
+            <textevent timeoffset="590" message="With that, let&apos;s get into it." />
+        </Warmup>
+        <FreeRide Duration="1500" FlatRoad="0" />
+        <Cooldown Duration="300" PowerLow="0.75449997" PowerHigh="0.2545">
+            <textevent timeoffset="0" message="Yeah! Incredible work today, my friend! Lionel would be stoked with that effort." />
+            <textevent timeoffset="60" message="Thanks for joining the WHOOP Red Day Workout with Lionel Sanders!" />
+            <textevent timeoffset="120" message="If your WHOOP is telling you that your recovery is in the Yellow or Green, be sure to check out Lionel&apos;s workouts for those days." />
+            <textevent timeoffset="180" message="Don&apos;t forget, we have corresponding run workouts." />
+            <textevent timeoffset="270" message="Happy training and see you on the next one!" />
+            <textevent timeoffset="290" message="Ride On!" />
+        </Cooldown>
+    </workout>
+</workout_file>

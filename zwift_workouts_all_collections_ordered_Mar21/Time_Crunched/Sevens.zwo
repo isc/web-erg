@@ -1,0 +1,82 @@
+<workout_file>
+    <uniqueId>65d20bac-ef73-4ce0-8e0c-b8088e50141a</uniqueId>
+    <legacyIdHash>879422999</legacyIdHash>
+    <author>Shayne Gaffney | GC Coaching</author>
+    <categoryOverride>30 minutes to burn</categoryOverride>
+    <name>Sevens</name>
+    <description>Powerful and efficient, this high-intensity interval workout uses short bursts mixed with recovery periods to build up your energy and strength. In classic HIIT form, you&apos;ll do seven sets of 30 seconds of hard effort, and 1 minute of rest in between. Lucky you.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="RECOMMENDABLE" />
+    </tags>
+    <category>Less than 30 minutes to burn</category>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.25" PowerHigh="0.75" Cadence="85">
+            <textevent timeoffset="0" message="Hello and welcome to Sevens! Shayne Gaffney here, and I&apos;ll be CRUSHING YOU, er, guiding you today!" locIndex="1" />
+            <textevent timeoffset="10" message="Let&apos;s start off with a 5min progressive warm up at ~85 RPM to get the legs ready for the work ahead." locIndex="2" />
+            <textevent timeoffset="60" message="Do a quick check to ensure your fan, fluids, and towel are all handy." locIndex="3" />
+            <textevent timeoffset="120" message="Keep yourself relaxed and under control as the intensity gradually ramps up." locIndex="4" />
+            <textevent timeoffset="150" message="There&apos;s halfway through the warm up, let&apos;s run through the plan for today." locIndex="5" />
+            <textevent timeoffset="160" message="Today is a classic HIIT (high intensity interval training) style workout." locIndex="6" />
+            <textevent timeoffset="170" message="It features 2 interval sets, with 7, 30sec hard intervals, with 1min of rest in between." locIndex="7" />
+            <textevent timeoffset="180" message="HIIT-style training has been shown to be very beneficial when you don&apos;t have a ton of time to train." locIndex="8" />
+            <textevent timeoffset="190" message="And can mimic, to a point, the fitness adaptations you&apos;d receive from a longer ride." locIndex="9" />
+            <textevent timeoffset="200" message="So, HIIT is an ideal strategy to add to your training repertoire if you tend to be on the time-crunched side." locIndex="10" />
+            <textevent timeoffset="210" message="Let&apos;s carry on with the warm up and use the rest of the time to get into the right headspace." locIndex="11" />
+            <textevent timeoffset="270" message="Coming up in 30sec is our first set of &apos;sevens&apos;, we&apos;re doing the work effort at 110 RPM..." locIndex="12" />
+            <textevent timeoffset="280" message="and the recovery efforts at 85 RPM. Really focus on your cadence to further increase the training stimulus." locIndex="13" />
+            <textevent timeoffset="290" message="Here we go! Start bringing your cadence up now." locIndex="14" />
+        </Warmup>
+        <IntervalsT Repeat="7" OnDuration="30" OffDuration="60" OnPower="1.2" OffPower="0.65" Cadence="110" CadenceResting="85">
+            <textevent timeoffset="0" message="HIIT IT! (get it?)." locIndex="15" />
+            <textevent timeoffset="30" message="Excellent work! Now bring the effort and cadence down for 60sec." locIndex="16" />
+            <textevent timeoffset="40" message="The key here is to not allow for too much recovery so we keep the intensity high." locIndex="17" />
+            <textevent timeoffset="80" message="Okay, start to bring the cadence back up to 110 RPM." locIndex="18" />
+            <textevent timeoffset="90" message="CRUSH IT! GO GO GO!" locIndex="19" />
+            <textevent timeoffset="120" message="Nice work! Let&apos;s &apos;recover&apos; again here and have a quick drink." locIndex="20" />
+            <textevent timeoffset="170" message="Ready or not..." locIndex="21" />
+            <textevent timeoffset="180" message="UNLOCK YOUR STRONG!" locIndex="22" />
+            <textevent timeoffset="210" message="Yeah! 4 more to go, my friend! You&apos;re doing amazing." locIndex="23" />
+            <textevent timeoffset="270" message="POWER UP!" locIndex="24" />
+            <textevent timeoffset="300" message="Nice! We&apos;re more than halfway done now, chapeau!" locIndex="25" />
+            <textevent timeoffset="360" message="KEEP THE CADENCE UP! DON&apos;T GET SLOPPY!" locIndex="26" />
+            <textevent timeoffset="390" message="2 more! YOU GOT THIS!" locIndex="27" />
+            <textevent timeoffset="450" message="C&apos;MON! PUSH YOURSELF TODAY!" locIndex="28" />
+            <textevent timeoffset="480" message="Phew! Just 1 more to go and you&apos;ve done it!" locIndex="29" />
+            <textevent timeoffset="540" message="GIVE IT EVERYTHING!" locIndex="30" />
+            <textevent timeoffset="570" message="Yeah! Just hang on a little bit longer now!" locIndex="31" />
+        </IntervalsT>
+        <SteadyState Duration="120" Power="0.4" Cadence="85">
+            <textevent timeoffset="0" message="Okay, awesome! Let&apos;s bring it way down for a couple of minutes and recover." locIndex="32" />
+            <textevent timeoffset="10" message="That was an AWESOME opening set out of you! You just need to do it once more :-)" locIndex="33" />
+            <textevent timeoffset="60" message="Breathe... relax your shoulders." locIndex="34" />
+            <textevent timeoffset="90" message="Take a quick drink and let&apos;s refocus once more." locIndex="35" />
+            <textevent timeoffset="110" message="Okay, here we go again! Make me proud!" locIndex="36" />
+        </SteadyState>
+        <IntervalsT Repeat="7" OnDuration="30" OffDuration="60" OnPower="1.2" OffPower="0.65" Cadence="110" CadenceResting="85">
+            <textevent timeoffset="0" message="CADENCE! GET THOSE LEGS CHURNING!" locIndex="37" />
+            <textevent timeoffset="30" message="This set should feel a bit more fluid than the 1st." locIndex="38" />
+            <textevent timeoffset="80" message="Okay, start to bring the cadence back up again to 110 RPM." locIndex="39" />
+            <textevent timeoffset="90" message="FAST FEET!" locIndex="40" />
+            <textevent timeoffset="120" message="Grab a quick drink again and take a few deep breaths." locIndex="41" />
+            <textevent timeoffset="180" message="IT&apos;S TIME TO LEVEL UP!" locIndex="42" />
+            <textevent timeoffset="210" message="So great! You&apos;re destroying it today, keep going!" locIndex="43" />
+            <textevent timeoffset="270" message="POWER UP!" locIndex="44" />
+            <textevent timeoffset="300" message="Over the halfway mark again, stay STRONG!" locIndex="45" />
+            <textevent timeoffset="360" message="KEEP THE CADENCE UP! DON&apos;T GET SLOPPY!" locIndex="46" />
+            <textevent timeoffset="390" message="2 more! YOU GOT THIS!" locIndex="47" />
+            <textevent timeoffset="450" message="UP UP UP!" locIndex="48" />
+            <textevent timeoffset="480" message="1 MORE! Breathe..." locIndex="49" />
+            <textevent timeoffset="540" message="GIVE IT EVERYTHING!" locIndex="50" />
+            <textevent timeoffset="570" message="Yeah! Just hang on a little bit longer now!" locIndex="51" />
+        </IntervalsT>
+        <Cooldown Duration="120" PowerLow="0.5" PowerHigh="0.25">
+            <textevent timeoffset="0" message="Way to HIIT it hard today :-)" locIndex="52" />
+            <textevent timeoffset="10" message="Now, we&apos;ll gradually lower the power down." locIndex="53" />
+            <textevent timeoffset="20" message="That&apos;s a great workout to do when you have very little time to exercise." locIndex="54" />
+            <textevent timeoffset="90" message="Make sure you refuel and rehydrate well before your next session." locIndex="55" />
+            <textevent timeoffset="100" message="Thanks so much for showing up, working hard, and earning the results." locIndex="56" />
+            <textevent timeoffset="110" message="Until next time, Ride On!" locIndex="57" />
+        </Cooldown>
+    </workout>
+</workout_file>

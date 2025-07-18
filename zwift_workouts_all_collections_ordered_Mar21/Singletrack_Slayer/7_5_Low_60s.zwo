@@ -1,0 +1,71 @@
+<workout_file>
+    <uniqueId>93e4f5b9-0b2f-4905-bc68-1a7054146160</uniqueId>
+    <legacyIdHash>776990705</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Low 60&apos;s</name>
+    <description>When we complete short steep climbs, the lower cadence results in high crank torque, which in turn recruits more of your fast twitch fibers. With this in mind, it&apos;s important that our training meets the demands of this movement.
+
+Today we are performing lower cadence intervals but with power just above threshold.</description>
+    <sportType>bike</sportType>
+    <category>Singletrack Slayer</category>
+    <subcategory>Week 7</subcategory>
+    <WorkoutPlan>1</WorkoutPlan>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <tags />
+    <workout>
+        <SteadyState Duration="300" Power="0.5" pace="1481003871">
+            <textevent timeoffset="30" message="Generally, short climbs in MTB riding are performed with a lower than normal cadence." locIndex="1" />
+            <textevent timeoffset="60" message="This low rpm, along with high power, results in increased crank torque." locIndex="2" />
+            <textevent timeoffset="90" message="High crank torque recruits more of your fast twitch fibers." locIndex="3" />
+            <textevent timeoffset="120" message="It&apos;s important that we train these muscle fibers by replicating the demands of MTB climbing." locIndex="4" />
+            <textevent timeoffset="280" message="To continue the warmup, we now have a series of 30/30 medium intensity efforts." locIndex="5" />
+        </SteadyState>
+        <IntervalsT Repeat="5" OnDuration="30" OffDuration="30" OnPower="0.64999998" OffPower="0.80000001" pace="1481003871">
+            <textevent timeoffset="10" message="Target power ranges from 65 to 80% FTP." locIndex="6" />
+            <textevent timeoffset="40" message="These should be comfortable efforts." locIndex="7" />
+            <textevent timeoffset="70" message="Hit a high cadence for the &quot;on&quot; interval." locIndex="8" />
+            <textevent timeoffset="120" message="Keep turning the power and cadence on and off through these efforts." locIndex="9" />
+        </IntervalsT>
+        <SteadyState Duration="180" Power="0.5" pace="1481003871">
+            <textevent timeoffset="30" message="Quite often in MTB riding you will be forced out of your comfort zone and need to produce high power at a low cadence." locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.80000001" pace="1481003871">
+            <textevent timeoffset="20" message="This should be very comfortable for you." locIndex="11" />
+            <textevent timeoffset="80" message="These short high power, low cadence efforts should feel like pushing a weight." locIndex="12" />
+            <textevent timeoffset="140" message="As always when there is a target cadence to an interval, focus on hitting that cadence and let the trainer adjust the power." locIndex="13" />
+            <textevent timeoffset="200" message="Remain seated during the intervals and relax your hands on the bars." locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.5" pace="1481003871" />
+        <IntervalsT Repeat="10" OnDuration="120" OffDuration="60" OnPower="0.75449997" OffPower="1.0445" pace="1481003871" Cadence="85" CadenceResting="65">
+            <textevent timeoffset="100" message="Here we go with the 1st effort." locIndex="15" />
+            <textevent timeoffset="130" message="Hit the target cadence of 60rpm" locIndex="16" />
+            <textevent timeoffset="190" message="Recovery is short, with some power kept on the pedals." locIndex="17" />
+            <textevent timeoffset="280" message="The first effort is easy! It&apos;s the accumulated efforts that bite." locIndex="18" />
+            <textevent timeoffset="480" message="Remember to hold good form during the efforts. Upper body nice and still" locIndex="19" />
+            <textevent timeoffset="720" message="Drive the pedals from your core and hips." locIndex="20" />
+            <textevent timeoffset="960" message="Picture yourself laying the power down on the dirt." locIndex="21" />
+            <textevent timeoffset="1200" message="How is your recovery? Fresh for each effort?" locIndex="22" />
+            <textevent timeoffset="1380" message="Just 3 more efforts to go!" locIndex="23" />
+            <textevent timeoffset="1500" message="Make these last 2 efforts your best. Drive the pedals and keep your upper body still." locIndex="24" />
+            <textevent timeoffset="1740" message="This has been a great set from you. All quality!" locIndex="25" />
+        </IntervalsT>
+        <SteadyState Duration="120" Power="0.5" pace="1481003871">
+            <textevent timeoffset="30" message="Now, for the sting in the tail." locIndex="26" />
+            <textevent timeoffset="90" message="Just a quick 5min sub-threshold effort." locIndex="27" />
+            <textevent timeoffset="110" message="Let&apos;s get it done!" locIndex="28" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.80000001" pace="1481003871">
+            <textevent timeoffset="30" message="The interesting part here is your chosen cadence." locIndex="29" />
+            <textevent timeoffset="90" message="How much have the previous low cadence efforts influenced your cadence here?" locIndex="30" />
+            <textevent timeoffset="150" message="Try to spin a little higher than what is comfortable for you here." locIndex="31" />
+            <textevent timeoffset="210" message="This is easy for you. This is finishing off a quality workout." locIndex="32" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.5" pace="1481003871">
+            <textevent timeoffset="30" message="Great work today." locIndex="33" />
+            <textevent timeoffset="90" message="You may experience some muscle soreness in the coming days from this session." locIndex="34" />
+            <textevent timeoffset="110" message="Thats&apos;s a good thing..." locIndex="35" />
+            <textevent timeoffset="130" message="Muscle soreness means you have broken the muscle down, and it will come back stronger with the appropriate rest." locIndex="36" />
+            <textevent timeoffset="200" message="Hydrate and refuel for your next session, starting now." locIndex="37" />
+        </SteadyState>
+    </workout>
+</workout_file>

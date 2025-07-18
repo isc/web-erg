@@ -1,0 +1,102 @@
+<workout_file>
+    <uniqueId>5c975180-df2f-4071-8db9-66d0a32fce26</uniqueId>
+    <legacyIdHash>1110932992</legacyIdHash>
+    <author>Zwift </author>
+    <name>FTP Boosters</name>
+    <activitySaveName>Zwift Spring Training | FTP Boosters</activitySaveName>
+    <description>
+ This session is all about increasing your FTP by maintaining a sub FTP baseline intensity with brief surges up and over at Vo2 capacity. A popular and testing workout.
+ 
+ These workouts have been designed and tested by some of the best cyclists in the world.</description>
+    <sportType>bike</sportType>
+    <category>Zwift Spring Training</category>
+    <categoryIndex>2</categoryIndex>
+    <visibleAfterTime>1681743660</visibleAfterTime>
+    <overrideHash>1110932992</overrideHash>
+    <tags>
+        <tag name="ZST23" />
+    </tags>
+    <workout>
+        <Warmup Duration="480" PowerLow="0.35" PowerHigh="0.55">
+            <textevent timeoffset="0" message="Welcome to Zwift Spring Training! This campaign challenges you to complete one workout per week to help boost your performance and ride happier, healthier and faster outdoors." locIndex="1" />
+            <textevent timeoffset="10" message="Let&apos;s get started with an easy warm up to loosen your legs and get your lungs working properly." locIndex="2" />
+            <textevent timeoffset="20" message="Today&apos;s session is all about pushing up your FTP." locIndex="3" />
+            <textevent timeoffset="30" message="FTP is your Functional Threshold Power, one of the most important factors in cycling." locIndex="4" />
+            <textevent timeoffset="40" message="An improved FTP simply means you can ride harder for longer!" locIndex="5" />
+            <textevent timeoffset="50" message="Which comes in handy when you take your riding outdoors this summer." locIndex="6" />
+            <textevent timeoffset="60" message="To try and mimic outdoor riding we will toss in some 15 sec bursts to simulate small inclines, taking corners or rotating through a paceline." locIndex="7" />
+            <textevent timeoffset="70" message="These short bursts will help your body adapt to surges above FTP and improve efficiency with using lactate acid as a fuel source." locIndex="8" />
+            <textevent timeoffset="80" message="Master this workout and you will crush your weekend rides this summer." locIndex="9" />
+            <textevent timeoffset="240" message="Now that you&apos;re starting to sweat, let&apos;s begin preparing yourself for the efforts ahead." locIndex="10" />
+            <textevent timeoffset="250" message="Time for a few sips of your drink, tighten your shoes. Mentally prepare yourself to give everything today." locIndex="11" />
+            <textevent timeoffset="300" message="Short and sharp, this session is a great way to help lift your FTP." locIndex="12" />
+            <textevent timeoffset="310" message="Fan on? It&apos;s going to get warm." locIndex="13" />
+            <textevent timeoffset="360" message="Two minutes left until we get going. You can throw in a few spin ups now to help prep the legs." locIndex="14" />
+            <textevent timeoffset="370" message="6-8 seconds of high cadence and turnover will help prepare your legs without overly fatiguing them." locIndex="15" />
+            <textevent timeoffset="420" message="Final minute before we get going. Take one last sip of water and then it&apos;s time to dig in." locIndex="16" />
+        </Warmup>
+        <IntervalsT Repeat="1" OnDuration="105" OffDuration="15" OnPower="0.93" OffPower="1.48">
+            <textevent timeoffset="0" message="Straight into a sub FTP effort here." locIndex="17" />
+            <textevent timeoffset="10" message="This should be comfortable for now." locIndex="18" />
+            <textevent timeoffset="105" message="Lift the power now, up and over capacity, we want to increase the stress on our muscles here." locIndex="19" />
+            <textevent timeoffset="110" message="Don&apos;t worry about these red efforts, they&apos;re short. Really focus on the yellow! That&apos;s where we need the control!" locIndex="20" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="105" OffDuration="15" OnPower="0.93" OffPower="1.48">
+            <textevent timeoffset="0" message="Feel the effort reduce, keep your breathing controlled and focus on your cadence." locIndex="21" />
+            <textevent timeoffset="105" message="Squeeze the effort again, aim to keep your body still and the power coming from the legs only." locIndex="22" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="105" OffDuration="15" OnPower="0.93" OffPower="1.48">
+            <textevent timeoffset="0" message="Find that effort, really focus now on staying smooth and maintaining the sustained effort." locIndex="23" />
+            <textevent timeoffset="105" message="Surge 3 of 5, drive the power through your legs, relax your shoulders. " locIndex="24" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="105" OffDuration="15" OnPower="0.93" OffPower="1.48">
+            <textevent timeoffset="0" message="All of your energy should be going to the pedals and your breathing, don&apos;t waste it by rocking on the bike." locIndex="25" />
+            <textevent timeoffset="105" message="Dig in now, if it&apos;s starting to hurt that&apos;s ok. It&apos;s meant to be tough, it&apos;s meant to be challenging. Give this everything." locIndex="26" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="105" OffDuration="15" OnPower="0.93" OffPower="1.48">
+            <textevent timeoffset="0" message="Hold on now for this last section. There is a recovery on the way. " locIndex="27" />
+            <textevent timeoffset="105" message="15 seconds. Your well deserved recovery is just seconds away. Drive this one right to the end." locIndex="28" />
+        </IntervalsT>
+        <SteadyState Duration="360" Power="0.55">
+            <textevent timeoffset="0" message="Now is the time to drink, grab your towel, turn up your fan." locIndex="29" />
+            <textevent timeoffset="10" message="Move around on the bike and find a comfortable position for the next block. " locIndex="30" />
+            <textevent timeoffset="120" message="Use the next 4 minutes to refresh and recover as best you can for the final block." locIndex="31" />
+            <textevent timeoffset="130" message="The more you can recover, cool down and rehydrate now, the more beneficial this session will be." locIndex="32" />
+            <textevent timeoffset="140" message="There&apos;s no escaping the pain. Embrace it, it&apos;s not going away." locIndex="33" />
+            <textevent timeoffset="160" message="Cue up a few of your favorite songs to help get you through this next round, it makes a difference." locIndex="34" />
+            <textevent timeoffset="180" message="3 minutes until we go again! How is your heart rate? Feeling normal again?" locIndex="35" />
+            <textevent timeoffset="240" message="Keep sipping water, riding indoors produces a lot of heat and sweat. Staying well hydrated helps maintain performance." locIndex="36" />
+            <textevent timeoffset="300" message="Final minute, you know the drill. Stay smooth and controlled on the sub threshold efforts." locIndex="37" />
+            <textevent timeoffset="340" message="It&apos;s your time to shine! Let&apos;s see what you&apos;ve got for round 2." locIndex="38" />
+        </SteadyState>
+        <IntervalsT Repeat="1" OnDuration="105" OffDuration="15" OnPower="0.93" OffPower="1.4">
+            <textevent timeoffset="0" message="Find that sustainable effort, you should feel in control to start this 2nd round." locIndex="39" />
+            <textevent timeoffset="105" message="Let&apos;s count these down, 5 to go! Drive your legs, really dig in for these, this second block will be tough." locIndex="40" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="105" OffDuration="15" OnPower="0.93" OffPower="1.4">
+            <textevent timeoffset="0" message="Let your effort return, keep the pedals moving don&apos;t ease off too much." locIndex="41" />
+            <textevent timeoffset="105" message="4 to go. This is where it starts to count. This is where you can really make the difference." locIndex="42" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="105" OffDuration="15" OnPower="0.93" OffPower="1.4">
+            <textevent timeoffset="0" message="We&apos;re getting close to the end.  Your determination is going to pay off now." locIndex="43" />
+            <textevent timeoffset="105" message="3 to go. Only 2 after this one. Get that power up, force your legs around." locIndex="44" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="105" OffDuration="15" OnPower="0.93" OffPower="1.4">
+            <textevent timeoffset="0" message="We&apos;re back here in the uncomfortably comfortable zone." locIndex="45" />
+            <textevent timeoffset="105" message="Penultimate effort now. We are nearly done." locIndex="46" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="105" OffDuration="15" OnPower="0.93" OffPower="1.4">
+            <textevent timeoffset="0" message="Find the baseline effort one last time, maintain that pressure on the pedals as the power drops from the last surge." locIndex="47" />
+            <textevent timeoffset="105" message="This is it now. Our final surge to finish the session. Rev your legs out for this one, but stay smooth." locIndex="48" />
+        </IntervalsT>
+        <Cooldown Duration="240" PowerLow="0.55" PowerHigh="0.35">
+            <textevent timeoffset="0" message="Rehydrate now, enjoy your recovery." locIndex="49" />
+            <textevent timeoffset="10" message="That was a really good FTP boosting session. Great work. How many stars did you get?" locIndex="50" />
+            <textevent timeoffset="20" message="This session will help you ride harder for longer an important skill to bring with you outdoors." locIndex="51" />
+            <textevent timeoffset="30" message="Adding just 1 structured workout on Zwift during the week can significantly improve your overall fitness and make your weekend rides more enjoyable." locIndex="52" />
+            <textevent timeoffset="40" message="Join us next week to improve your hill climbing ability." locIndex="53" />
+            <textevent timeoffset="200" message="Thank you for joining today." locIndex="54" />
+            <textevent timeoffset="210" message="See you next week, recover well." locIndex="55" />
+        </Cooldown>
+    </workout>
+</workout_file>

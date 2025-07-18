@@ -1,0 +1,95 @@
+<workout_file>
+    <uniqueId>ddd84658-a975-4df6-a91f-4e96099241db</uniqueId>
+    <legacyIdHash>1026246551</legacyIdHash>
+    <author>Zwift</author>
+    <categoryOverride>Sweet Spot</categoryOverride>
+    <name>Week 4.3 - Sweet Spot Pyramid - 50min</name>
+    <description>A sweet spot focused workout where you&apos;ll accumulate 50min in total at that intensity.</description>
+    <sportType>bike</sportType>
+    <category>Z Racing</category>
+    <subcategory>Week 4</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow=".5" PowerHigh=".8" Cadence="85">
+            <textevent timeoffset="0" message="We have some sweet spot work on tap for today, my friend." locIndex="1" />
+            <textevent timeoffset="10" message="Let&apos;s get rolling here and start with a 10min warmup at ~85 RPM." locIndex="2" />
+            <textevent timeoffset="180" message="Keep easing into the day here. Hopefully the pedal stroke is feeling more fluid." locIndex="3" />
+            <textevent timeoffset="300" message="All right, let&apos;s chat about what&apos;s in store today." locIndex="4" />
+            <textevent timeoffset="310" message="We have a sweet spot pyramid today consisting of 5, 10min intervals." locIndex="5" />
+            <textevent timeoffset="320" message="With base of the pyramid being at 88% FTP, and the peak at 93% FTP." locIndex="6" />
+            <textevent timeoffset="330" message="And very short rest periods in between of only 2min." locIndex="7" />
+            <textevent timeoffset="340" message="Which is intentional to keep you working for in essence the entire main set :-)" locIndex="8" />
+            <textevent timeoffset="350" message="You can thank me later! Let&apos;s carry on with the warmup." locIndex="9" />
+            <textevent timeoffset="540" message="Another minute to go, then we&apos;ll take a quick breather before the main set." locIndex="10" />
+        </Warmup>
+        <SteadyState Duration="120" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="Nice and easy here. Take a drink and a few deep breaths." locIndex="11" />
+            <textevent timeoffset="60" message="In 1min our 1st interval starts. We&apos;re aiming for a comfortable cadence for these today." locIndex="12" />
+            <textevent timeoffset="110" message="All right, here we go! Lift the cadence just slightly to 90 RPM." locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="600" Power="0.88" Cadence="90">
+            <textevent timeoffset="0" message="Use these 1st couple of minutes to just settle down." locIndex="14" />
+            <textevent timeoffset="120" message="Good, now get into the groove and stay in control here." locIndex="15" />
+            <textevent timeoffset="300" message="Halfway through here! You should feel comfortable still." locIndex="16" />
+            <textevent timeoffset="480" message="2min to go. Keep your breathing from going ragged and stay steady." locIndex="17" />
+            <textevent timeoffset="570" message="Just a bit longer, then we&apos;ll take a quick 2min rest." locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="Nicely done. That&apos;s 1 down and 4 to go. Take a few deep breaths here." locIndex="19" />
+            <textevent timeoffset="60" message="Next up we&apos;re going just a bit higher in intensity, but still at 90 RPM." locIndex="20" />
+            <textevent timeoffset="110" message="Lift the cadence up again now." locIndex="21" />
+        </SteadyState>
+        <SteadyState Duration="600" Power="0.9" Cadence="90">
+            <textevent timeoffset="0" message="And let&apos;s settle into that same rhythm as before." locIndex="22" />
+            <textevent timeoffset="120" message="At this intensity, it should feel like work." locIndex="23" />
+            <textevent timeoffset="130" message="But, work you could perform for a long time if you wanted to." locIndex="24" />
+            <textevent timeoffset="300" message="Halfway through! Keep calm and under control still here." locIndex="25" />
+            <textevent timeoffset="480" message="Relax the shoulders, bend the elbows, and relax your hands." locIndex="26" />
+            <textevent timeoffset="570" message="Let&apos;s finish this last 30sec up!" locIndex="27" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="Way to go! That one looked awesome. Let&apos;s take a quick rest again here." locIndex="28" />
+            <textevent timeoffset="90" message="All right, we&apos;re at the peak of the pyramid next, get ready for a bit more intensity." locIndex="29" />
+        </SteadyState>
+        <SteadyState Duration="600" Power="0.93" Cadence="90">
+            <textevent timeoffset="0" message="Still at 90 RPM here, but now into low zone 4. Get into the groove." locIndex="30" />
+            <textevent timeoffset="180" message="Sweet spot is great training for the time crunched athlete." locIndex="31" />
+            <textevent timeoffset="190" message="Because it provides great training stimulus in a short amount of fatigue." locIndex="32" />
+            <textevent timeoffset="200" message="With minimal residual fatigue which leads to greater repeatability." locIndex="33" />
+            <textevent timeoffset="210" message="And why it is prevalent in this workout plan :-)" locIndex="34" />
+            <textevent timeoffset="360" message="More than halfway through here! Remember to keep drinking." locIndex="35" />
+            <textevent timeoffset="480" message="2min left for this peak interval, you&apos;re looking great!" locIndex="36" />
+            <textevent timeoffset="570" message="Just a little bit more, push all the way to the arch!" locIndex="37" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="Nice! Now we head back down the pyramid again :-)" locIndex="38" />
+            <textevent timeoffset="90" message="Okay, back to high zone 3 next at 90 RPM." locIndex="39" />
+        </SteadyState>
+        <SteadyState Duration="600" Power="0.9" Cadence="90">
+            <textevent timeoffset="0" message="Here we go! This is when you may start feeling some fatigue and ache in the legs." locIndex="40" />
+            <textevent timeoffset="10" message="Keep pushing yourself and get through this!" locIndex="41" />
+            <textevent timeoffset="180" message="We&apos;re aiming for 50min of sweet spot today in just 70min of workout." locIndex="42" />
+            <textevent timeoffset="190" message="This is a super high quality workout, and is something you can repeat each week." locIndex="43" />
+            <textevent timeoffset="200" message="To see steady improvement in your aerobic capacity." locIndex="44" />
+            <textevent timeoffset="360" message="More than halfway through again, you&apos;re doing awesome today!" locIndex="45" />
+            <textevent timeoffset="540" message="Final minute! Let&apos;s finish this one up strong!" locIndex="46" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="Just 1 more interval to go, and we&apos;re done! Rest up here." locIndex="47" />
+            <textevent timeoffset="90" message="Okay, back to the base of the pyramid next, at 90 RPM." locIndex="48" />
+        </SteadyState>
+        <SteadyState Duration="600" Power="0.88" Cadence="90">
+            <textevent timeoffset="0" message="Here we go! The final 10min of work today, let&apos;s make it happen!" locIndex="49" />
+            <textevent timeoffset="180" message="Steady as you go. Make sure your form is solid here, even though you&apos;re fatigued." locIndex="50" />
+            <textevent timeoffset="190" message="Shoulders relaxed, elbows bent, light grip on the bars." locIndex="51" />
+            <textevent timeoffset="360" message="Almost there now! Keep at it!" locIndex="52" />
+            <textevent timeoffset="540" message="Homestretch! Keep the pressure on right to the arch!" locIndex="53" />
+            <textevent timeoffset="590" message="Get there!" locIndex="54" />
+        </SteadyState>
+        <Cooldown Duration="120" PowerHigh="0.3" PowerLow="0.5">
+            <textevent timeoffset="0" message="Superb! Way to knock out 50min of sweet spot, my friend!" locIndex="55" />
+            <textevent timeoffset="10" message="We&apos;ll spend a few minutes cooling down now." locIndex="56" />
+            <textevent timeoffset="20" message="See you next time :-)" locIndex="57" />
+        </Cooldown>
+    </workout>
+</workout_file>

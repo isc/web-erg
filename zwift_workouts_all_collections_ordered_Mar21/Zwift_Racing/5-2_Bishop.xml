@@ -1,0 +1,70 @@
+<workout_file>
+    <uniqueId>9f0a300c-2e66-427b-b2bf-9c977dd42a9b</uniqueId>
+    <legacyIdHash>3835686022</legacyIdHash>
+    <author>Zwift</author>
+    <name>Week 5.2 - Bishop</name>
+    <description>A mainly zone 2 ride with some low cadence work at zone 3.</description>
+    <sportType>bike</sportType>
+    <category>Z Racing</category>
+    <subcategory>Week 5</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow=".5" PowerHigh=".8" Cadence="85">
+            <textevent timeoffset="0" message="Welcome to a nice and easy day today, my friend." locIndex="1" />
+            <textevent timeoffset="10" message="Let&apos;s get started with a 10min warmup, keep your cadence comfortable here." locIndex="2" />
+            <textevent timeoffset="180" message="Keep on easing into things here, hopefully the cadence is feeling more fluid." locIndex="3" />
+            <textevent timeoffset="300" message="All right, there&apos;s halfway through the warmup. Let&apos;s chat about the plan for today." locIndex="4" />
+            <textevent timeoffset="310" message="As you know, today is a low key day at zone 2 and 3 intensities." locIndex="5" />
+            <textevent timeoffset="320" message="Having low intensity days threaded in with high intensity training is important." locIndex="6" />
+            <textevent timeoffset="330" message="This training balance is key for maximum return on training." locIndex="7" />
+            <textevent timeoffset="340" message="And will allow you to dig even deeper during the high intensity training days." locIndex="8" />
+            <textevent timeoffset="350" message="So, today we&apos;ll be alternating 3min 30sec at zone 2 and 90sec zone 3." locIndex="9" />
+            <textevent timeoffset="360" message="As well as changing up the cadence between comfortable and low - 65 RPM." locIndex="10" />
+            <textevent timeoffset="370" message="We&apos;ll also be doing some standing work today during the low cadence efforts to change things up." locIndex="11" />
+            <textevent timeoffset="380" message="Let&apos;s carry on with the warmup." locIndex="12" />
+            <textevent timeoffset="540" message="1min to go, then we&apos;ll take a couple of minutes easy." locIndex="13" />
+        </Warmup>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="0" message="All right, that&apos;s it for today&apos;s warmup. Take it easy for a couple of minutes now." locIndex="14" />
+            <textevent timeoffset="60" message="Take a few deep breaths here and make sure you&apos;re drinking." locIndex="15" />
+            <textevent timeoffset="110" message="All right, we&apos;re starting at at comfortable cadence, and seated...Here we go!" locIndex="16" />
+        </SteadyState>
+        <IntervalsT Repeat="9" OnDuration="210" OnPower="0.7" OffDuration="90" OffPower="0.85" Cadence="90" CadenceResting="65">
+            <textevent timeoffset="0" message="Just find your rhythm for this 1st rep and settle into things." locIndex="17" />
+            <textevent timeoffset="180" message="30sec, then we&apos;ll drop the cadence and stand up." locIndex="18" />
+            <textevent timeoffset="210" message="Stand up for 90 seconds and drop the cadence." locIndex="19" />
+            <textevent timeoffset="240" message="If you experience any discomfort here, please sit down and increase your cadence again." locIndex="20" />
+            <textevent timeoffset="300" message="Great work! Sit back down again now and resume a comfortable cadence again." locIndex="21" />
+            <textevent timeoffset="480" message="Get ready to stand back up again in 30sec and repeat that process." locIndex="22" />
+            <textevent timeoffset="510" message="Stand up for 90 seconds and drop the cadence." locIndex="23" />
+            <textevent timeoffset="600" message="Perfect! Sit back down again now and keep spinning those legs comfortably." locIndex="24" />
+            <textevent timeoffset="660" message="Make sure you&apos;re sipping those fluids consistently today." locIndex="25" />
+            <textevent timeoffset="780" message="All right, 30sec and we&apos;re standing up again." locIndex="26" />
+            <textevent timeoffset="810" message="Stand up for 90 seconds and drop the cadence." locIndex="27" />
+            <textevent timeoffset="900" message="Great work! That&apos;s 3 reps down and 6 more to go." locIndex="28" />
+            <textevent timeoffset="1020" message="You should still feel well in control here, keep nice and steady." locIndex="29" />
+            <textevent timeoffset="1080" message="Get ready to stand up again, aim for a smooth transition to standing here." locIndex="30" />
+            <textevent timeoffset="1110" message="Stand up for 90 seconds and drop the cadence." locIndex="31" />
+            <textevent timeoffset="1200" message="Beautiful! Back to sitting again and comfortable cadence." locIndex="32" />
+            <textevent timeoffset="1260" message="How does the standing work feel? If you feel awkward during, that&apos;s a sign you need to practice more :-)" locIndex="33" />
+            <textevent timeoffset="1380" message="30sec, then we&apos;re standing up again, get ready here." locIndex="34" />
+            <textevent timeoffset="1410" message="Stand up for 90 seconds and drop the cadence." locIndex="35" />
+            <textevent timeoffset="1500" message="Way to go! Back in the saddle again and get those legs spinning." locIndex="36" />
+            <textevent timeoffset="1680" message="30sec and we&apos;re standing again, remember to make these transitions smooth." locIndex="37" />
+            <textevent timeoffset="1710" message="Stand up for 90 seconds and drop the cadence." locIndex="38" />
+            <textevent timeoffset="1800" message="Just 3 more reps to go and we&apos;re done! Keep it up nice and smooth here." locIndex="39" />
+            <textevent timeoffset="1980" message="Take a deep breath here and get ready to stand up in 30sec." locIndex="40" />
+            <textevent timeoffset="2010" message="Stand up for 90 seconds and drop the cadence." locIndex="41" />
+            <textevent timeoffset="2100" message="Nice effort! Just 2 more reps to go, take a couple sips of fluid here." locIndex="42" />
+            <textevent timeoffset="2280" message="Get ready to stand up again, 2nd to last time!" locIndex="43" />
+            <textevent timeoffset="2310" message="Stand up for 90 seconds and drop the cadence." locIndex="44" />
+            <textevent timeoffset="2400" message="Excellent! Just 1 more standing effort to go." locIndex="45" />
+            <textevent timeoffset="2610" message="Stand up for 90 seconds and drop the cadence." locIndex="46" />
+        </IntervalsT>
+        <Cooldown Duration="180" PowerHigh="0.35" PowerLow="0.55">
+            <textevent timeoffset="0" message="Way to go today, my friend! Hopefully the legs and mind are feeling great now." locIndex="47" />
+            <textevent timeoffset="10" message="We&apos;ll take 5min to cooldown, then we&apos;re DONE :-)" locIndex="48" />
+            <textevent timeoffset="20" message="See you next time!" locIndex="49" />
+        </Cooldown>
+    </workout>
+</workout_file>

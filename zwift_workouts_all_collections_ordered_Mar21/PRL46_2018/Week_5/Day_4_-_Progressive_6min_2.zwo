@@ -1,0 +1,35 @@
+<workout_file>
+    <uniqueId>9199ae66-2de8-4745-8115-3d5570f7eca8</uniqueId>
+    <legacyIdHash>2776885602</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <categoryOverride>Climbing</categoryOverride>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>2018 PRL46 Prep</category>
+    <subcategory>Week 5</subcategory>
+    <name>Week 5.4 - Progressive 6min #2</name>
+    <description>Strength endurance work, building up over 6min. Starting with a cadence of 60 for 2min, this is increased by 5rpm every 2min.
+
+After some endurance building &apos;free riding&apos;, you will complete a 5min sub-threshold effort with cadence self selected.</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <SteadyState Duration="180" Power="0.50449997" pace="0">
+            <textevent timeoffset="240.00003" message="Varying cadence during warm up." locIndex="1" />
+        </SteadyState>
+        <IntervalsT Repeat="5" OnDuration="30" OffDuration="30" OnPower="0.65449995" OffPower="0.80449992" pace="0" OverUnder="1" />
+        <SteadyState Duration="180" Power="0.50449997" pace="0" />
+        <SteadyState Duration="120" Power="0.92449993" pace="0" Cadence="60" />
+        <SteadyState Duration="120" Power="0.92449993" pace="0" Cadence="65" />
+        <SteadyState Duration="120" Power="0.92449993" pace="0" Cadence="70" />
+        <SteadyState Duration="300" Power="0.50449997" pace="0" Cadence="85" />
+        <SteadyState Duration="120" Power="0.92449993" pace="0" Cadence="60" />
+        <SteadyState Duration="120" Power="0.92449993" pace="0" Cadence="65" />
+        <SteadyState Duration="120" Power="0.92449993" pace="0" Cadence="70" />
+        <SteadyState Duration="300" Power="0.50449997" pace="0" />
+        <FreeRide Duration="600" FlatRoad="0">
+            <textevent timeoffset="1190" message="Self select rpm for 5min effort" locIndex="2" />
+        </FreeRide>
+        <SteadyState Duration="300" Power="0.95449996" pace="0" />
+        <Cooldown Duration="600" PowerLow="0.75449997" PowerHigh="0.50449997" pace="0" />
+    </workout>
+</workout_file>

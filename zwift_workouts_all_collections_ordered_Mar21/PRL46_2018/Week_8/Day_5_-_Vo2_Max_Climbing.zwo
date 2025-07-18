@@ -1,0 +1,41 @@
+<workout_file>
+    <uniqueId>b4e23e12-ff69-4bb9-96ca-94f318788d54</uniqueId>
+    <legacyIdHash>4066871861</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>2018 PRL46 Prep</category>
+    <subcategory>Week 8</subcategory>
+    <name>Week 8.5 - Vo2 Max Climbing</name>
+    <description>Simulating the demands of climbing at a Vo2 Max intensity, today you will complete 3 x 3min intervals, followed by 3 x 2min intervals.
+
+However, the target cadence is reduced from 85rpm in the 3min intervals to 70rpm in the 2min intervals. Complete the 3min intervals seated and the 2min intervals standing if possible. </description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <Warmup Duration="300" PowerLow="0.50948805" PowerHigh="0.75449997" pace="0">
+            <textevent timeoffset="76.115807" message="Today&apos;s warm up goes straight into a threshold effort." locIndex="1" />
+        </Warmup>
+        <SteadyState Duration="300" Power="1.05" pace="0" />
+        <SteadyState Duration="300" Power="0.55000001" pace="0">
+            <textevent timeoffset="150" message="Remember the target cadence is 85rpm for the 3min intervals." locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="1.0645" pace="0" Cadence="85" />
+        <SteadyState Duration="180" Power="0.55000001" pace="0" />
+        <SteadyState Duration="180" Power="1.0632416" pace="0" Cadence="85" />
+        <SteadyState Duration="180" Power="0.55000001" pace="0" />
+        <SteadyState Duration="180" Power="1.0645" pace="0" Cadence="85" />
+        <SteadyState Duration="180" Power="0.55000001" pace="0">
+            <textevent timeoffset="80" message="Targeting 70rpm for the 2min intervals." locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.55000001" pace="0">
+            <textevent timeoffset="19" message="Try to complete these intervals standing, as if climbing." locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.0645" pace="0" Cadence="70" />
+        <SteadyState Duration="240" Power="0.55449998" pace="0" Cadence="85" />
+        <SteadyState Duration="120" Power="1.0627657" pace="0" Cadence="70" />
+        <SteadyState Duration="240" Power="0.55000001" pace="0" />
+        <SteadyState Duration="120" Power="1.0645" pace="0" Cadence="70" />
+        <SteadyState Duration="240" Power="0.55000001" pace="0" />
+        <Cooldown Duration="420" PowerLow="0.75449997" PowerHigh="0.50449997" pace="0" />
+    </workout>
+</workout_file>

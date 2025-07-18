@@ -1,0 +1,42 @@
+<workout_file>
+    <uniqueId>ade47a82-fa33-4b80-83a6-678bd9d9ae1a</uniqueId>
+    <legacyIdHash>560460563</legacyIdHash>
+    <author>GCN</author>
+    <categoryOverride>Sprinting</categoryOverride>
+    <category>GCN</category>
+    <subcategory>Tom Last&apos;s GCN Sprint Plan</subcategory>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/GCN_Logo.tga</authorIcon>
+    <name>LOAD-UPs!</name>
+    <description>Designed to hone your after a higher load of work leading up to the sprint.  This is another great one that simulates sprints in racing. 
+Warm-up 10 minutes, and then 3 x 1 minute fast pedaling drills &gt;110rpm, then riding for 3 minutes at your sweetspot, then 2minutes at FTP, followed by a 15 second sprint and then recovery for 3 minutes and repeat.   
+Cool-down!</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS" />
+        <tag name="Sprint" />
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.2545" PowerHigh="0.75449997" />
+        <IntervalsT Repeat="3" OnDuration="60" OffDuration="60" OnPower="0.75449997" OffPower="0.50449997" Cadence="110" CadenceResting="80" />
+        <SteadyState Duration="180" Power="0.90449995" />
+        <SteadyState Duration="120" Power="1.0044999" />
+        <SteadyState Duration="15" Power="2.0044999" />
+        <SteadyState Duration="180" Power="0.65449995" />
+        <SteadyState Duration="180" Power="0.90449995" />
+        <SteadyState Duration="120" Power="1.0044999" />
+        <SteadyState Duration="15" Power="2.0044999" />
+        <SteadyState Duration="180" Power="0.65449995" />
+        <SteadyState Duration="180" Power="0.90449995" />
+        <SteadyState Duration="120" Power="1.0044999" />
+        <SteadyState Duration="15" Power="2.0044999" />
+        <SteadyState Duration="180" Power="0.65449995" />
+        <SteadyState Duration="180" Power="0.90449995" />
+        <SteadyState Duration="120" Power="1.0044999" />
+        <SteadyState Duration="15" Power="2.0044999" />
+        <SteadyState Duration="180" Power="0.65449995" />
+        <SteadyState Duration="180" Power="0.90449995" />
+        <SteadyState Duration="120" Power="1.0044999" />
+        <SteadyState Duration="15" Power="2.0044999" />
+        <Cooldown Duration="360" PowerLow="0.75449997" PowerHigh="0.2545" />
+    </workout>
+</workout_file>

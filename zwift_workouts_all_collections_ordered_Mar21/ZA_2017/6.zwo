@@ -1,0 +1,40 @@
+<workout_file>
+    <uniqueId>fd7c2c33-4375-4e11-aae9-76d1efe63c80</uniqueId>
+    <legacyIdHash>600673097</legacyIdHash>
+    <author>TrainSharp Cycle Coaching</author>
+    <categoryOverride>Best of Zwift Academy</categoryOverride>
+    <subcategoryOverride>ZA 2017</subcategoryOverride>
+    <name>Month 1.6 - Push / Pull / MAP</name>
+    <WorkoutPlan>1</WorkoutPlan>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/trainSharp_Logo.tga</authorIcon>
+    <description>This session is designed to work your upper aerobic capacity, via &apos;pushing&apos; up your FTP from below, &apos;pulling&apos; it up from powers just above (around your 20 minute pace) and some short, sharp efforts at your maximal aerobic power (MAP) or the power you can sustain at your VO2max.  Start with a good warm up, you will need to ensure you are suitably prepared for this session as it is a tough one and will require you to dig deep, to complete.  The main intervals are as follows.  1 x 20 minute effort at a power Just below your FTP - Keep it controlled during this effort. You will be fresh for the first interval and might be the tempted to lift the power closer to/above your FTP. Refrain from doing so, as this will only fatigue you going into the final two thirds of the session.  3 x 4 minute efforts at powers just above your FTP, or your 10 mile Time Trial power - The recovery during the efforts are short, be strict on the recovery times, you will find the effort becomes progressively tougher around the mid-way point of the second interval.  5 x 1 minute efforts at your MAP (Maximal Aerobic Power) - This is the power that you can sustain at the limit of your aerobic capacity, or your VO2max. The effort should not be a sprint and you should aim to hold a smooth power throughout the minute. The &apos;recovery&apos; intensities are designed to ensure that you keep on the power during the efforts, as with the Pulling intervals, this one will feel comfortable for the first one or two efforts but will start to bite!  Finish with a good warm down and rest up! </description>
+    <sportType>bike</sportType>
+    <visibleAfterTime>1504222780</visibleAfterTime>
+    <category>Zwift Academy 2017</category>
+    <subcategory>Month 1</subcategory>
+    <tags> 
+    </tags>
+    <workout>
+        <Warmup Duration="900" PowerLow="0.49000001" PowerHigh="0.92000002" pace="0">
+            <textevent duration="20" timeoffset="0" message="Warm Up - Progressive Warm up through the zones for the duration. Sip on your bottle and take a gel if you wish during the warm up." locIndex="1" />
+        </Warmup>
+        <SteadyState Duration="180" Power="0.51499999">
+            <textevent duration="20" timeoffset="0" message="Easy - Recovery, very easy no load, like an easy walk on the bike" locIndex="2" />
+        </SteadyState>
+        <IntervalsT Repeat="2" OnDuration="30" OffDuration="150" OnPower="1.23" OffPower="0.49000001" pace="0" Cadence="100" CadenceResting="100">
+            <textevent duration="20" timeoffset="0" message="Spin Ups - High cadence spin ups, otherwise known as &quot;acid-ups&quot;! Nice high cadence, seated efforts - not a full sprint." locIndex="3" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="1200" OffDuration="600" OnPower="0.95499998" OffPower="0.49000001" pace="0">
+            <textevent duration="20" timeoffset="0" message="Threshold Pushing - Hold a power just below your FTP - you should feel comfortable for the first half of this effort and only start to suffer towards the end of the interval." locIndex="4" />
+        </IntervalsT>
+        <IntervalsT Repeat="3" OnDuration="240" OffDuration="240" OnPower="1.105" OffPower="0.49000001" pace="0">
+            <textevent duration="20" timeoffset="0" message="Threshold Pulling - Aiming for your 10mile TT power, or 20 minute power - this will get tougher as you tick off each interval, keep the cadence up and focus on good form." locIndex="5" />
+        </IntervalsT>
+        <IntervalsT Repeat="5" OnDuration="60" OffDuration="60" OnPower="1.23" OffPower="0.68000001" pace="0">
+            <textevent duration="20" timeoffset="0" message="Maximal Aerobic Power - Remember to hold the power around your Zone 2 during the &apos;recovery&apos; - this wont feel much like a respite, but fight through the pain!" locIndex="6" />
+        </IntervalsT>
+        <Cooldown Duration="900" PowerLow="0.54000002" PowerHigh="0.49000001" pace="0">
+            <textevent timeoffset="0" message="Warm Down - Ensure a good cool down." locIndex="7" />
+        </Cooldown>
+    </workout>
+</workout_file>

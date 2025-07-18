@@ -1,0 +1,15 @@
+<workout_file>
+    <uniqueId>e0c75fe5-e022-431a-aae7-142268e53dfb</uniqueId>
+    <legacyIdHash>3446145878</legacyIdHash>
+    <name>Week 12.5 - Day 5</name>
+    <description>Optional</description>
+    <author>Marco Pinotti</author>
+    <category>10-12wk FTP Builder</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 12</subcategory>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/MarcoPinotti_Logo.tga</authorIcon>
+    <sportType>bike</sportType>
+    <workout>
+        <FreeRide Duration="2700" />
+    </workout>
+</workout_file>

@@ -1,0 +1,62 @@
+<workout_file>
+    <uniqueId>1515ed24-1972-4cd7-8c0e-6bb59ed2dc60</uniqueId>
+    <legacyIdHash>268609470</legacyIdHash>
+    <author>Kevin Poulton </author>
+    <name>Week 6.4 - Max Aerobic Climb #3</name>
+    <description>With these max Aerobic efforts we are looking to simulate climbing. This is achieved by riding with a lower cadence, out of the saddle.
+
+After warming up complete the following;
+3 x 3min @ 109% with 3min recovery
+10min recovery
+3 x 2min @ 115% with 4min recovery.
+
+During the intervals ride out of the saddle as much as possible. It&apos;s ok to sit occasionally for 10-20 at a time if needed.
+</description>
+    <sportType>bike</sportType>
+    <entid>491</entid>
+    <category>Zwift Coast Ride</category>
+    <subcategory>Week 6</subcategory>
+    <tags>
+        <tag name="INTERVALS" />
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.45" PowerHigh="0.75">
+            <textevent timeoffset="260" message="High rpm in warm up sprints aiming for 110rpm" locIndex="1" />
+            <textevent timeoffset="100" message="Big session today! Hard, but achievable." locIndex="2" />
+        </Warmup>
+        <IntervalsT Repeat="2" OnDuration="10" OffDuration="50" OnPower="2" OffPower="0.5" />
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="60" message="Self select your cadence for the warm up efforts." locIndex="3" />
+            <textevent timeoffset="80" message="Then the main intervals have a target rpm." locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.09" />
+        <SteadyState Duration="120" Power="0.5" />
+        <SteadyState Duration="180" Power="0.9" />
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="100" message="Normally the length and intensity of these efforts wouldn&apos;t hurt too much." locIndex="5" />
+            <textevent timeoffset="120" message="The lower rpm adds an extra stimulus to the session." locIndex="6" />
+            <textevent timeoffset="0" message="Here we go, first set!" locIndex="7" />
+            <textevent timeoffset="100" message="Out of the saddle if you have to." locIndex="8" />
+            <textevent timeoffset="200" message="How was that 1st one?" locIndex="9" />
+            <textevent timeoffset="300" message="Just 2 to go in this set." locIndex="10" />
+            <textevent timeoffset="600" message="Last one!" locIndex="11" />
+        </SteadyState>
+        <IntervalsT Repeat="3" OnDuration="180" OffDuration="180" OnPower="1.1" OffPower="0.5" Cadence="75" CadenceResting="90" />
+        <SteadyState Duration="300" Power="0.5">
+            <textevent timeoffset="20" message="A good recovery period now. I&apos;m sure you need it?" locIndex="12" />
+            <textevent timeoffset="150" message="In this set we go a little shorter. But a little harder also!" locIndex="13" />
+            <textevent timeoffset="280" message="Here we go. Last set for the day!" locIndex="14" />
+            <textevent timeoffset="170" message="The good news is the recovery period is longer." locIndex="15" />
+        </SteadyState>
+        <IntervalsT Repeat="3" OnDuration="120" OffDuration="240" OnPower="1.15" OffPower="0.5" Cadence="75" CadenceResting="90">
+            <textevent timeoffset="80" message="Push all the way to the finish." locIndex="16" />
+            <textevent timeoffset="90" message="Out of the saddle if you have to." locIndex="17" />
+            <textevent timeoffset="150" message="Great work! That&apos;s for 1st one complete." locIndex="18" />
+            <textevent timeoffset="320" message="Just 2 to go!" locIndex="19" />
+            <textevent timeoffset="680" message="Into the last effort now. How are you feeling?" locIndex="20" />
+        </IntervalsT>
+        <Cooldown Duration="300" PowerLow="0.75" PowerHigh="0.45">
+            <textevent timeoffset="50" message="Great effort. That was a tough session." locIndex="21" />
+        </Cooldown>
+    </workout>
+</workout_file>

@@ -1,0 +1,25 @@
+<workout_file>
+    <uniqueId>4dd9329e-4a86-42e6-bd39-c71f0c3410a6</uniqueId>
+    <legacyIdHash>3047653934</legacyIdHash>
+    <author>Zwift</author>
+    <name>Free Ride</name>
+    <description>Easy, easy , easy today. And short. Did I mention easy? Recovery weeks are important, so please remember to ride easy within them when prescribed!
+
+Nice Z1-Z2 effort today please. Great day for an easy outside ride including some skills practice or a free ride Zwift day. Whatever you choose, choose to ride easy!!!</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Gravel Grinder</category>
+    <subcategory>Week 8</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow="0.45" PowerHigh="0.65">
+            <textevent timeoffset="0" message="Easy days = Easier warm ups. So easy. " locIndex="1" />
+        </Warmup>
+        <FreeRide Duration="3300" FlatRoad="0">
+            <textevent timeoffset="0" message="Keep it light to make it fresh today please. Love the fact that you get to ride easy! Just as important as the hard!" locIndex="2" />
+        </FreeRide>
+        <Cooldown Duration="600" PowerLow="0.55" PowerHigh="0.45">
+            <textevent timeoffset="0" message="Cool it down yo. Easy as she goes. " locIndex="3" />
+        </Cooldown>
+    </workout>
+</workout_file>

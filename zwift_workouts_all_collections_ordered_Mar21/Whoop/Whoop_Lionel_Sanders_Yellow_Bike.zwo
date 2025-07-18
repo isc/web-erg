@@ -1,0 +1,78 @@
+<workout_file>
+    <uniqueId>d22eb5cc-b686-4f2b-aa63-638fb6bd267c</uniqueId>
+    <legacyIdHash>325788549</legacyIdHash>
+    <author>Shayne Gaffney</author>
+    <name>Lionel Sanders&apos; Yellow Day Workout</name>
+    <categoryOverride>Recovery</categoryOverride>
+    <description>Lionel Sanders says &apos;These days make up most of my days just because of my training volume. I would certainly not plan on a yellow day to do something crazy high intensity. You certainly can do a bit of your low intensity stuff, as well and your technical stuff, like you do on a red day - but you also have to work a bit, so it&apos;s a great day to do more of your race pace specific work, which isn&apos;t super crazy taxing but also isn&apos;t super easy. I think it&apos;s a good day to plan more sweet spot or mid type intensity workout if you have an intense workout plan for that week.&apos;</description>
+    <sportType>bike</sportType>
+    <tags />
+    <category>Whoop Workout Series | Bike</category>
+    <subcategory>Yellow Day</subcategory>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.2545" PowerHigh="0.75449997">
+            <textevent timeoffset="0" message="Welcome to the WHOOP Workout Series! Let&apos;s start to warm up." />
+            <textevent timeoffset="10" message="This series features workouts inspired by Lionel Sanders, EF Pro Cycling, and Tinman Elite Coaching." />
+            <textevent timeoffset="20" message="Each workout is designed to correspond to your WHOOP Recovery score." />
+            <textevent timeoffset="30" message="Green day = means you&apos;ve had a high recovery score and are ready for a hard workout." />
+            <textevent timeoffset="40" message="Yellow day = means you&apos;ve had an ok recovery score and are ready for a moderate workout." />
+            <textevent timeoffset="50" message="Red day = means you&apos;ve had a low recovery score ready for an easy recovery workout." />
+            <textevent timeoffset="60" message="Today we are doing one of Lionel Sanders&apos; favorite workouts when his WHOOP tells him it&apos;s a Yellow day." />
+            <textevent timeoffset="70" message="Use this 10min warm up to ease into the day and mentally prepare for the work ahead." />
+            <textevent timeoffset="120" message="Do you have your fluids, fan, and towel all handy?" />
+            <textevent timeoffset="240" message="Nice work so far here! Keep slowly bringing the effort up as we continue the warm up." />
+            <textevent timeoffset="300" message="There&apos;s halfway! Let&apos;s chat a little bit about what&apos;s in store for today." />
+            <textevent timeoffset="310" message="With today being a Yellow day, we have a lower intensity day ahead." />
+            <textevent timeoffset="320" message="Learn what Lionel has to say about today&apos;s session." />
+            <textevent timeoffset="330" message="This kind of workout makes up most of my days just because of the training volume and that sort of thing." />
+            <textevent timeoffset="340" message="Yellow days are good to plan for sweet spot or mid type intensity workouts." />
+            <textevent timeoffset="350" message="You can do your technical stuff like you do on a red day, but you also have to work a bit." />
+            <textevent timeoffset="360" message="My typical session is 3x30min at goal long-distance pace." />
+            <textevent timeoffset="370" message="But for this session, it&apos;s been modified to 3x10min." />
+            <textevent timeoffset="380" message="This should still be a good challenge for you on a Yellow day." />
+            <textevent timeoffset="480" message="2min to go here, then we&apos;ll start today&apos;s main set." />
+            <textevent timeoffset="570" message="In 30sec, we have 3x10min at long-distance pace, with 5min rest between. Aim for ~85 RPM for the working sets." />
+        </Warmup>
+        <SteadyState Duration="600" Power="0.75449994" Cadence="85">
+            <textevent timeoffset="0" message="Here we go! Keep your cadence around 85 RPM now." />
+            <textevent timeoffset="120" message="So far so good? You should feel nice and comfortable here." />
+            <textevent timeoffset="240" message="By now, your heart rate should have leveled off - keep an eye on what its average is." />
+            <textevent timeoffset="480" message="Great effort here! This is what Lionel would aim to hold for his long-distance events." />
+            <textevent timeoffset="570" message="30sec to go, then we&apos;ll take a rest break." />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.50449997">
+            <textevent timeoffset="0" message="Awesome job! 1 down. Let&apos;s take 5min nice and easy here." />
+            <textevent timeoffset="120" message="Deep breaths in and slowly breathe out - shake out the upper body if you need to." />
+            <textevent timeoffset="240" message="Alright, in 1min, we&apos;re back up again for rep #2!" />
+        </SteadyState>
+        <SteadyState Duration="600" Power="0.75449994" Cadence="85">
+            <textevent timeoffset="0" message="Here we go for rep #2! Same deal here with your cadence." />
+            <textevent timeoffset="120" message="Another good thing to practice during these long and easier intervals is your positioning." />
+            <textevent timeoffset="130" message="Can you stay in your aero position for the entire length of the interval?" />
+            <textevent timeoffset="240" message="How does your heart rate look compared to the first interval?" />
+            <textevent timeoffset="250" message="Is it the same? Higher? Ideally we&apos;d like it to be the same which shows good fatigue resistance." />
+            <textevent timeoffset="360" message="You are looking great here!" />
+            <textevent timeoffset="540" message="1min to go and you&apos;re done! Keep at it!" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.50449997">
+            <textevent timeoffset="0" message="Excellent work, my friend! Let&apos;s take another 5min easy here." />
+            <textevent timeoffset="120" message="Make sure you&apos;re sipping your fluids during these recoveries and stretching as needed." />
+            <textevent timeoffset="240" message="1min to go and we&apos;ll tackle the finale today!" />
+        </SteadyState>
+        <SteadyState Duration="600" Power="0.75449997" Cadence="85">
+            <textevent timeoffset="0" message="Last one is the best one!" />
+            <textevent timeoffset="120" message="How does your cadence look? Has it remained at the same level throughout today&apos;s workout?" />
+            <textevent timeoffset="240" message="How does your heart rate look now?" />
+            <textevent timeoffset="360" message="Almost there now! You can do this!" />
+            <textevent timeoffset="540" message="Power through for this final minute!" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow="0.75449997" PowerHigh="0.2545">
+            <textevent timeoffset="0" message="Yeah! Incredible work today, my friend! Lionel would be stoked with that effort." />
+            <textevent timeoffset="60" message="Thanks for joining the WHOOP Yellow Day Workout with Lionel Sanders!" />
+            <textevent timeoffset="120" message="If your WHOOP is telling you that your recovery is in the Yellow or Red, be sure to check out Lionel&apos;s workouts for those days." />
+            <textevent timeoffset="180" message="Don&apos;t forget, we have corresponding run workouts." />
+            <textevent timeoffset="270" message="Happy training and see you on the next one!" />
+            <textevent timeoffset="290" message="Ride On!" />
+        </Cooldown>
+    </workout>
+</workout_file>

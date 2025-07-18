@@ -1,0 +1,104 @@
+<workout_file>
+    <uniqueId>efcd8780-c7e5-4036-9bb3-c989044f0325</uniqueId>
+    <legacyIdHash>1793491494</legacyIdHash>
+    <author>Zwift</author>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>Multi-Sport Threshold Booster</category>
+    <visibleOutsidePlan>0</visibleOutsidePlan>
+    <name>Max Aerobic Declining</name>
+    <description>Working entirely in your Max Aerobic area, this session maintains the interval duration throughout all efforts, but decreases the intensity.
+
+With adequate recovery we are looking at your HR response to the effort.
+
+Power is decreasing. Is your HR decreasing along with the effort?</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS" />
+        <tag name="4weekftp" />
+    </tags>
+    <workout>
+        <Warmup Duration="360" PowerLow="0.41959631" PowerHigh="0.70449996">
+            <textevent timeoffset="0" message="Welcome friend, nice steady ramp-up for today.Cadence 85 to 95 RPM." locIndex="1" />
+            <textevent timeoffset="90" message="Let&apos;s talk a little bit about today&apos;s workout. We will be doing 4 intervals and working in your max aerobic area." locIndex="2" />
+            <textevent timeoffset="120" message="All interval durations will be the same, but the intensity will decrease." locIndex="3" />
+            <textevent timeoffset="130" message="We are looking at your heart rate response to the effort." locIndex="4" />
+            <textevent timeoffset="140" message="Ideally we want to see your heart rate decrease along with the power. This is a good sign of aerobic fitness." locIndex="5" />
+            <textevent timeoffset="150" message="This is going to be a challenging workout today, make sure you get yourself thoroughly warmed up both physically and mentally." locIndex="6" />
+            <textevent timeoffset="300" message="One more minute here then we&apos;ll take a short break." locIndex="7" />
+        </Warmup>
+        <SteadyState Duration="60" Power="0.50449997">
+            <textevent timeoffset="0" message="Okay, spin easy for one minute." locIndex="8" />
+            <textevent timeoffset="50" message="Next up we have one minute at 110% FTP at 95 RPM. Get ready!" locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.0944999" Cadence="95">
+            <textevent timeoffset="0" message="Okay bring the power and cadence up." locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.50449997">
+            <textevent timeoffset="0" message="Great work, now let&apos;s take a couple more minutes easy." locIndex="11" />
+            <textevent timeoffset="110" message="To finish our warm-up for today we will be doing 3 minutes at 90% FTP at 95 RPM. Get ready." locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.90449995" Cadence="95">
+            <textevent timeoffset="0" message="All right bring up the power and cadence again. We are here for 3 minutes." locIndex="13" />
+            <textevent timeoffset="120" message="One more minute to go, then we&apos;ll take a few minutes easy before starting our main set." locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.50449997">
+            <textevent timeoffset="0" message="Excellent, now take a few minutes really easy and get ready for our 1st interval." locIndex="15" />
+            <textevent timeoffset="120" message="Coming up, we have our 1st interval which will be 6 minutes at 105% FTP. This is going to be a challenge!." locIndex="16" />
+            <textevent timeoffset="130" message="But after the 1st interval, they all get &apos;easier&apos;, make this 1st one count!" locIndex="17" />
+            <textevent timeoffset="170" message="Okay, bring your cadence up to 90 RPM and get ready for the intensity to ramp up quite a bit!" locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="360" Power="1.0545" Cadence="90">
+            <textevent timeoffset="60" message="1 minute in here, start to settle down and find your rhythm." locIndex="19" />
+            <textevent timeoffset="180" message="Halfway done with this first rep, this is when it starts to show its teeth!." locIndex="20" />
+            <textevent timeoffset="190" message="Make sure you bite harder!" locIndex="21" />
+            <textevent timeoffset="300" message="Final minute, hang on! You are doing great!" locIndex="22" />
+            <textevent timeoffset="350" message="Final 10 seconds, make sure you record your finishing heart rate." locIndex="23" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.56449997">
+            <textevent timeoffset="0" message="Excellent work, now take a long rest." locIndex="24" />
+            <textevent timeoffset="120" message="Take some deep breaths here, really work on recovering efficiently and staying in the zone." locIndex="25" />
+            <textevent timeoffset="240" message="All right, in 1 minute we are back up again. This time we will be doing 6 minutes right at FTP." locIndex="26" />
+            <textevent timeoffset="250" message="Ideally we should see a similar rise in heart rate with a lower plateau." locIndex="27" />
+            <textevent timeoffset="290" message="Ready?" locIndex="28" />
+        </SteadyState>
+        <SteadyState Duration="360" Power="1.0044999" Cadence="90">
+            <textevent timeoffset="60" message="Start to settle down at this slightly lower intensity, your heart rate should continue to rise through the next minute or two" locIndex="29" />
+            <textevent timeoffset="180" message="Halfway done here, make sure you don&apos;t let your cadence drop as you become fatigued." locIndex="30" />
+            <textevent timeoffset="300" message=" Last minute, has your heart rate plateaued at a lower beats per minute?" locIndex="31" />
+            <textevent timeoffset="350" message=" Final 10 seconds, record your finishing heart rates again. Is it lower than the 1st interval?" locIndex="32" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.56652761">
+            <textevent timeoffset="0" message="Excellent work, now take a long rest." locIndex="33" />
+            <textevent timeoffset="120" message="Take some deep breaths here, really work on recovering efficiently and staying in the zone." locIndex="34" />
+            <textevent timeoffset="240" message="All right, in 1 minute we are back up again. This time we will be doing 6 minutes right below FTP at 95%." locIndex="35" />
+            <textevent timeoffset="290" message="Get yourself ready, we start in 10 seconds" locIndex="36" />
+        </SteadyState>
+        <SteadyState Duration="360" Power="0.95449996" Cadence="90">
+            <textevent timeoffset="120" message="This interval should feel easier relative to the 1st, but maybe not so due to built-up fatigue in your legs." locIndex="37" />
+            <textevent timeoffset="130" message="This is what we are after though, making your body work at its maximum aerobic area." locIndex="38" />
+            <textevent timeoffset="140" message="Do the work, get the results!" locIndex="39" />
+            <textevent timeoffset="180" message="Halfway done, you are looking great!" locIndex="40" />
+            <textevent timeoffset="300" message="Final minute to go!" locIndex="41" />
+            <textevent timeoffset="350" message="Record your heart rate again, does it continue to decrease?" locIndex="42" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.5661068">
+            <textevent timeoffset="0" message="Excellent work, now take a long rest." locIndex="43" />
+            <textevent timeoffset="120" message="Take some deep breaths here, really work on recovering efficiently and staying in the zone." locIndex="44" />
+            <textevent timeoffset="240" message="All right, in 1 minute we are back up again. This time we will be doing 6 minutes at 90% FTP." locIndex="45" />
+            <textevent timeoffset="280" message="Get yourself ready, we start in 10 seconds." locIndex="46" />
+            <textevent timeoffset="290" message="Final effort!" locIndex="47" />
+        </SteadyState>
+        <SteadyState Duration="360" Power="0.90449995" Cadence="90">
+            <textevent timeoffset="60" message="1 minute in here already, keep on taking away those minutes and stay strong!" locIndex="48" />
+            <textevent timeoffset="180" message="Halfway done, has your heart rate plateaued? This interval should feature the lowest peak heart rate ideally." locIndex="49" />
+            <textevent timeoffset="190" message="If your heart rate is higher, or continues to rise, this is a sign of fatigue," locIndex="50" />
+            <textevent timeoffset="200" message="Or becoming overheated, or lacking aerobic fitness." locIndex="51" />
+            <textevent timeoffset="210" message="Whatever is happening, keep on pushing yourself to finish this interval!" locIndex="52" />
+            <textevent timeoffset="240" message="Final 2 minutes here you are looking great!" locIndex="53" />
+            <textevent timeoffset="300" message="Last minute, finish this strong!" locIndex="54" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.56449997">
+            <textevent timeoffset="0" message="Well done today! We are going to take a few more minutes and cool down. See you next time!" locIndex="55" />
+        </SteadyState>
+    </workout>
+</workout_file>

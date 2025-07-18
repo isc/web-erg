@@ -1,0 +1,101 @@
+<workout_file>
+    <uniqueId>a60a1868-cfc2-4128-93d8-4f98891337ee</uniqueId>
+    <legacyIdHash>3350878436</legacyIdHash>
+    <author>D.Rowe (Rowe&amp;King)</author>
+    <categoryOverride>Daily Fit</categoryOverride>
+    <name>Week 5.1 - Rainbow</name>
+    <description>This workout is made up of 5 efforts - one in each power zone from 2 to 6. Perhaps unsurprisingly, as the power increases, the length of each effort decreases. The focus of this workout is the continuation of the high cadence work, where we complete the first 4 efforts at 105rpm. Remember - if you can train yourself to produce high power at a high cadence, you pedaling efficiency will improve at your &#8216;go-to&apos; cadence, which may even nudge up a little!</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <tags />
+    <category>Back to Fitness</category>
+    <subcategory>Week 5</subcategory>
+    <workout>
+        <Warmup Duration="300" PowerHigh="1.05" PowerLow="0.4">
+            <textevent message="Welcome to Rainbow" locIndex="1" timeoffset="10" />
+            <textevent message="This workout is part of the PowerUp Prep series designed by Dani Rowe and Kristin Armstrong" locIndex="2" timeoffset="25" />
+            <textevent message="This series is designed to build your fitness and prepare you for a more intense training program" locIndex="3" timeoffset="40" />
+            <textevent message="by providing you with 12 weeks of 30-45 minute structured workouts" locIndex="4" timeoffset="50" />
+            <textevent message="This workout series assumes a low level of current fitness - maybe you are starting out training, getting back on your bike after giving birth or maybe it&apos;s your return from injury" locIndex="5" timeoffset="80" />
+            <textevent message="The key to training and improving is consistency - 30 minutes is infinitely better than nothing" locIndex="6" timeoffset="160" />
+            <textevent message="It&apos;s helpful if you have a heart rate monitor, to keep track of how your heart rate responds to efforts week to week" locIndex="7" timeoffset="210" />
+            <textevent message="Following a structured training plan like this keeps you accountable and hopefully helps you remain focused on your goals" locIndex="8" timeoffset="230" />
+            <textevent message="Listen to your body, and don&apos;t worry if you need to lower the bias during todays workout to complete" locIndex="9" timeoffset="250" />
+            <textevent message="Most importantly - enjoy!" locIndex="10" timeoffset="280" />
+        </Warmup>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent message="2 minutes easy before we get started" locIndex="11" timeoffset="13" />
+        </SteadyState>
+        <SteadyState Cadence="105" Duration="300" Power="0.7">
+            <textevent message="Let&apos;s go! First block of high cadence work" locIndex="12" timeoffset="10" />
+            <textevent message="Each block of effort shortens by a minute but get more intense" locIndex="13" timeoffset="60" />
+            <textevent message="Stay focused on the target cadence and power to get the most out of this workout " locIndex="14" timeoffset="140" />
+            <textevent message="We are now into week 5 of this Power Up Prep Workout series - hopefully you are feeling stronger by now?" locIndex="15" timeoffset="180" />
+            <textevent message="Today&apos;s high cadence focus will help improve your pedaling style - making you more fluid" locIndex="16" timeoffset="240" />
+            <textevent message="pedaling is an art form - you need to put effort in to improving" locIndex="17" timeoffset="90" />
+            <textevent message="If you can conquer these 110rpm efforts, then pedaling smoothly at 80-90rpm will be easy!" locIndex="18" timeoffset="110" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent message="3 minutes of recovery to enjoy " locIndex="19" timeoffset="10" />
+            <textevent message="Keep drinking throughout - little and often to ensure you stay hydrated " locIndex="20" timeoffset="60" />
+            <textevent message="The next effort is 4 minutes but now we are into zone 3, so slightly more intense an effort" locIndex="21" timeoffset="120" />
+        </SteadyState>
+        <SteadyState Cadence="105" Duration="240" Power="0.8">
+            <textevent message="4 minutes at 110rpm - here we go!" locIndex="22" timeoffset="10" />
+            <textevent message="Think about your technique - try to keep your upper body as still as possible - only your legs should be moving" locIndex="23" timeoffset="50" />
+            <textevent message="Over half way now! Keep up the good work!" locIndex="24" timeoffset="140" />
+            <textevent message="30 seconds to go! Pedal pedal pedal!" locIndex="25" timeoffset="210" />
+            <textevent message="Remember the goal here is to improve your pedaling style and fluidity - whilst 110rpm is an inefficient cadence to cycle at, it&apos;s good cadence training" locIndex="26" timeoffset="100" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent message="Time to rest! Compose yourself!" locIndex="27" timeoffset="10" />
+            <textevent message="Try to get your heart rate down as soon as possible by taking a few deep breaths" locIndex="28" timeoffset="40" />
+            <textevent message="3 blocks to go! " locIndex="29" timeoffset="100" />
+            <textevent message="You might want to think about incorporating some core work into your weekly schedule to help you stay solid on the bike" locIndex="30" timeoffset="140" />
+        </SteadyState>
+        <SteadyState Cadence="105" Duration="180" Power="0.9">
+            <textevent message="Let&apos;s go again! Only 3 minutes of effort this block, but we are in Zone 4 - so requires focus!" locIndex="31" timeoffset="10" />
+            <textevent message="Tick each minute off in your head as you get closer to that finish line " locIndex="32" timeoffset="60" />
+            <textevent message="1 minute left - great work!" locIndex="33" timeoffset="120" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent message="And relax! Was that more uncomfortable than at a lower power?" locIndex="34" timeoffset="10" />
+            <textevent message="Another chance for a drink!" locIndex="35" timeoffset="60" />
+            <textevent message="These last 2 efforts are a lot more intense so stay focused" locIndex="36" timeoffset="90" />
+            <textevent message="They are only short - so will be over before you know it" locIndex="37" timeoffset="120" />
+            <textevent message="30 seconds until the next 2 minute effort! " locIndex="38" timeoffset="150" />
+        </SteadyState>
+        <SteadyState Cadence="105" Duration="120" Power="1.05">
+            <textevent message="2 minutes at 110rpm - smash this effort now!" locIndex="39" timeoffset="10" />
+            <textevent message="This will likely feel super uncomfortable - you are riding at an unnaturally high cadence, but it&apos;s great training!" locIndex="40" timeoffset="30" />
+            <textevent message="You have already completed 13 minutes of high cadence work so far in this session!" locIndex="41" timeoffset="90" />
+            <textevent message="The countdown is on! Only 15 seconds to push through!" locIndex="42" timeoffset="105" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent message="Last long rest - you will need it!" locIndex="43" timeoffset="10" />
+            <textevent message="Only 1 effort and 1 minute of hard work to go" locIndex="44" timeoffset="60" />
+            <textevent message="This will be intense but short! " locIndex="45" timeoffset="90" />
+            <textevent message="Make sure you hit your target power and cadence as soon as possible and don&apos;t stop until you reach the arch " locIndex="46" timeoffset="130" />
+            <textevent message="Here we go - make this your best effort yet!" locIndex="47" timeoffset="160" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.21">
+            <textevent message="50 seconds to go! " locIndex="48" timeoffset="10" />
+            <textevent message="Stay focused - this is it!" locIndex="49" timeoffset="38" />
+            <textevent message="GO GO GO!!! All the way to the arch!" locIndex="50" timeoffset="50" />
+            <textevent message="Keep that cadence up - it&apos;s tempting to change up a gear, but avoid that temptation!" locIndex="51" timeoffset="25" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent message="Fantastic effort! Just the regressive cool down to go! " locIndex="52" timeoffset="20" />
+            <textevent message="If you struggled with the higher cadence, think about incorporating a few blocks in to your day to day free riding" locIndex="53" timeoffset="40" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerHigh="0.4" PowerLow="0.7">
+            <textevent message="Good work - that&apos;s Rainbow complete!" locIndex="54" timeoffset="20" />
+            <textevent message="Remember, the key to fitness is consistency - try and ride your bike often" locIndex="55" timeoffset="90" />
+            <textevent message="If you cruised through today&apos;s workout, you may fancy doing a little extra riding?" locIndex="56" timeoffset="140" />
+            <textevent message="Some extra volume on top of these short, but structured workouts can help improve your endurance and fitness" locIndex="57" timeoffset="155" />
+            <textevent message="If you struggled with today&apos;s workout - I suggest you think about adjusting the bias slightly?" locIndex="58" timeoffset="220" />
+            <textevent message="A 2 or 3% adjustment can make all the difference - we are looking for these workouts to be &#8216;tough but achievable&apos;" locIndex="59" timeoffset="240" />
+            <textevent message="See you on the next Workout - Dani and Kristin" locIndex="60" timeoffset="290" />
+        </Cooldown>
+    </workout>
+</workout_file>

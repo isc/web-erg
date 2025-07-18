@@ -1,0 +1,53 @@
+<workout_file>
+    <uniqueId>ccf88bc6-9501-49a0-a9e3-37d69fc943e9</uniqueId>
+    <legacyIdHash>943026668</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>2018 PRL46 Prep</category>
+    <subcategory>Week 11</subcategory>
+    <name>Week 11.2 - 3min increasing VO2</name>
+    <description>After a good warm up and 15 minutes of Endurance Free Riding, complete the following.
+3 x 3min @ Z5 Vo2 with 3min recovery.
+The aim is to increase power with each effort, with the final effort being the best.</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <SteadyState Duration="60" Power="0.5" pace="0" />
+        <SteadyState Duration="60" Power="0.52999997" pace="0" />
+        <SteadyState Duration="60" Power="0.56" pace="0" />
+        <SteadyState Duration="60" Power="0.58999997" pace="0" />
+        <SteadyState Duration="60" Power="0.62" pace="0" />
+        <SteadyState Duration="60" Power="0.63999999" pace="0" />
+        <SteadyState Duration="60" Power="0.67000002" pace="0" />
+        <SteadyState Duration="60" Power="0.69999999" pace="0" />
+        <SteadyState Duration="60" Power="0.73000002" pace="0" />
+        <SteadyState Duration="60" Power="0.75999999" pace="0" />
+        <FreeRide Duration="900" FlatRoad="0">
+            <textevent timeoffset="59" message="Today we build some fatigue before completing high intensity efforts." locIndex="1" />
+            <textevent timeoffset="376" message="If you&apos;re pushed for time it&apos;s ok to cut this portion short." locIndex="2" />
+        </FreeRide>
+        <SteadyState Duration="180" Power="0.55449998" pace="0">
+            <textevent timeoffset="84" message="The intensity increases across the 3 intervals. " locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="1.0545" pace="0" />
+        <SteadyState Duration="180" Power="0.55000001" pace="0">
+            <textevent timeoffset="170" message="A little harder this time." locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="1.0739726" pace="0" />
+        <SteadyState Duration="180" Power="0.55000001" pace="0">
+            <textevent timeoffset="170" message="And harder again. But you can do it!" locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="1.0944999" pace="0" />
+        <SteadyState Duration="180" Power="0.55000001" pace="0" />
+        <SteadyState Duration="60" Power="0.75999999" pace="0" />
+        <SteadyState Duration="60" Power="0.73000002" pace="0" />
+        <SteadyState Duration="60" Power="0.69999999" pace="0" />
+        <SteadyState Duration="60" Power="0.67000002" pace="0" />
+        <SteadyState Duration="60" Power="0.63999999" pace="0" />
+        <SteadyState Duration="60" Power="0.62" pace="0" />
+        <SteadyState Duration="60" Power="0.58999997" pace="0" />
+        <SteadyState Duration="60" Power="0.56" pace="0" />
+        <SteadyState Duration="60" Power="0.52999997" pace="0" />
+        <SteadyState Duration="60" Power="0.5" pace="0" />
+    </workout>
+</workout_file>

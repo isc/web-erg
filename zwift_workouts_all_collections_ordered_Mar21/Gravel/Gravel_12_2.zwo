@@ -1,0 +1,69 @@
+<workout_file>
+    <uniqueId>bf5403b7-48a1-409a-826a-fc498b2a90b1</uniqueId>
+    <legacyIdHash>245650677</legacyIdHash>
+    <author>Zwift</author>
+    <categoryOverride>30 minutes to burn</categoryOverride>
+    <name>Openers</name>
+    <description>Look who get&apos;s to do some &quot;openers&quot; today! You do, I was talking to you. This is good stuff and I think you&apos;ll like it. These are not max effort &quot;sprints&quot; but rather building efforts from out of the saddle meant to &quot;open&quot; the legs. 
+
+3 rounds of 20 second efforts at 120% with a focus on good high RPM&apos;s. I&apos;d like you to start these efforts seated and &quot;sprint&quot; out of the saddle about 10 seconds in and finish standing. Not meant to be deeply difficult, but opening the legs up!</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Gravel Grinder</category>
+    <subcategory>Week 12</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="480" PowerLow="0.45" PowerHigh="0.65">
+            <textevent timeoffset="0" message="Easy warming up block for you please!" locIndex="1" />
+        </Warmup>
+        <IntervalsT Repeat="3" OnDuration="60" OffDuration="60" OnPower="0.8" OffPower="0.55">
+            <textevent timeoffset="0" message="Use some good RPM&apos;s in some 80% blocks to get you warmed!" locIndex="2" />
+            <textevent timeoffset="60" message="Real easy between these. " locIndex="3" />
+            <textevent timeoffset="120" message="Smooth and light please!" locIndex="4" />
+            <textevent timeoffset="240" message="This should feel easy but make you focus!" locIndex="5" />
+        </IntervalsT>
+        <IntervalsT Repeat="3" OnDuration="120" OffDuration="120" OnPower="0.9" OffPower="0.55">
+            <textevent timeoffset="0" message="Now into some longer efforts at 90. A little harder now. " locIndex="6" />
+            <textevent timeoffset="120" message="Equal rest now. Easy days. " locIndex="7" />
+            <textevent timeoffset="240" message="Get back into this 2 minute stretch. " locIndex="8" />
+            <textevent timeoffset="360" message="Nice and easy now. " locIndex="9" />
+            <textevent timeoffset="480" message="Again, shall we? " locIndex="10" />
+            <textevent timeoffset="500" message="Chill into the main stuff " locIndex="11" />
+        </IntervalsT>
+        <IntervalsT Repeat="4" OnDuration="20" OffDuration="100" OnPower="1.2" OffPower="0.55">
+            <textevent timeoffset="0" message="GO, GO, GO. Start this seated, then 10 seconds in stand and spin!" locIndex="12" />
+            <textevent timeoffset="10" message="STAND and SPIN!" locIndex="13" />
+            <textevent timeoffset="20" message="That feel good?  Should have felt pretty easy standing!  " locIndex="14" />
+            <textevent timeoffset="120" message="Again, again! Feel the power while seated." locIndex="15" />
+            <textevent timeoffset="130" message="UPUP!" locIndex="16" />
+            <textevent timeoffset="140" message="Rest it up. " locIndex="17" />
+            <textevent timeoffset="240" message="You&apos;ve got it now!" locIndex="18" />
+            <textevent timeoffset="360" message="One more this round!" locIndex="19" />
+            <textevent timeoffset="380" message="Nice work. Now easy into the next set. " locIndex="20" />
+        </IntervalsT>
+        <SteadyState Duration="210" Power="0.5">
+            <textevent timeoffset="0" message="You hydrating now?" locIndex="21" />
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="20" OffDuration="100" OnPower="1.2" OffPower="0.55">
+            <textevent timeoffset="0" message="Let&apos;s get right back at it!" locIndex="22" />
+            <textevent timeoffset="120" message="Keep it smooth!" locIndex="23" />
+            <textevent timeoffset="140" message="EZ. " locIndex="24" />
+            <textevent timeoffset="240" message="Up, Up, Up. " locIndex="25" />
+            <textevent timeoffset="360" message="Spin it up!" locIndex="26" />
+            <textevent timeoffset="460" message="There you go! One round left. " locIndex="27" />
+        </IntervalsT>
+        <SteadyState Duration="210" Power="0.5">
+            <textevent timeoffset="0" message="Remember this shouldn&apos;t feel &quot;hard&quot;, if it does, skip this last round. Our goal is to make you feel good, not tired!" locIndex="28" />
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="20" OffDuration="100" OnPower="1.2" OffPower="0.55">
+            <textevent timeoffset="0" message="Let&apos;s get it rolling again!" locIndex="29" />
+            <textevent timeoffset="20" message="Smooth and calm now. " locIndex="30" />
+            <textevent timeoffset="240" message="Just 2 more to go now!" locIndex="31" />
+            <textevent timeoffset="360" message="Last one!  Nice and smooth on this!" locIndex="32" />
+            <textevent timeoffset="380" message="That&apos;s it! No real &quot;work&quot; left to do. Just get ready for the big day now!" locIndex="33" />
+        </IntervalsT>
+        <Cooldown Duration="600" PowerLow="0.55" PowerHigh="0.45">
+            <textevent timeoffset="0" message="Free ride" locIndex="34" />
+        </Cooldown>
+    </workout>
+</workout_file>

@@ -1,0 +1,28 @@
+<workout_file>
+    <uniqueId>4c662f34-1e90-4f57-b916-415f103f46dc</uniqueId>
+    <legacyIdHash>4236253643</legacyIdHash>
+    <name>Week 11.5 - Day 5</name>
+    <description>Threshold Dev</description>
+    <author>Marco Pinotti</author>
+    <category>10-12wk FTP Builder</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 11</subcategory>
+    <painIndex>1</painIndex>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/MarcoPinotti_Logo.tga</authorIcon>
+    <sportType>bike</sportType>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.5" PowerHigh="0.65" />
+        <Warmup Duration="300" PowerLow="0.5" PowerHigh="1.0" />
+        <SteadyState Duration="120" Power="0.65" />
+        <SteadyState Duration="120" Power="0.81" />
+        <SteadyState Duration="60" Power="0.95" />
+        <SteadyState Duration="300" Power="0.5" />
+        <IntervalsT Repeat="3" OnDuration="180" OnPower=".95" OffDuration="120" OffPower=".81" OverUnder="1" />
+        <SteadyState Duration="360" Power="0.5" />
+        <IntervalsT Repeat="3" OnDuration="180" OnPower=".95" OffDuration="120" OffPower=".81" OverUnder="1" />
+        <SteadyState Duration="360" Power="0.5" />
+        <IntervalsT Repeat="3" OnDuration="180" OnPower=".95" OffDuration="120" OffPower=".81" OverUnder="1" />
+        <SteadyState Duration="360" Power="0.5" />
+        <Cooldown Duration="180" PowerHigh="0.65" PowerLow="0.5" />
+    </workout>
+</workout_file>

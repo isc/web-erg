@@ -1,0 +1,119 @@
+<workout_file>
+    <uniqueId>d1c9a7ea-26d0-4d25-bb43-8a2ff479cf2e</uniqueId>
+    <legacyIdHash>3487169487</legacyIdHash>
+    <author>Shayne Gaffney</author>
+    <categoryOverride>Daily Fit</categoryOverride>
+    <name>Georgia Simmerling - Team Pursuit</name>
+    <description>Georgia Simmerling won the bronze medal in the team pursuit in 2016 and is the first Canadian to compete in 3 different sports in 3 Olympic games (cycling, alpine skiing, and skicross). The team pursuit is a short and VERY intense event on the track which requires enormous wattage to be successful. This workout will take you through what it feels like to push yourself during a team pursuit event.</description>
+    <sportType>bike</sportType>
+    <tags />
+    <category>Athlete-Inspired</category>
+    <categoryIndex>4</categoryIndex>
+    <workout>
+        <Warmup Duration="300" PowerHigh="0.75" PowerLow="0.55">
+            <textevent timeoffset="10" message="Hello and welcome to a Georgia Simmerling inspired workout!" locIndex="1" />
+            <textevent timeoffset="20" message="We&apos;ll chat more about her and today&apos;s workout in just a moment. Let&apos;s focus on the warm up now." locIndex="2" />
+            <textevent timeoffset="120" message="Hopefully, the pedal stroke is starting to feel a bit more fluid. Keep easing into the day." locIndex="3" />
+            <textevent timeoffset="150" message="Nice work so far, my friend! Let&apos;s take a moment to chat about the plan for today." locIndex="4" />
+            <textevent timeoffset="160" message="As you know, today was inspired by Georgia Simmerling - the first Canadian to compete in 3 different sports in 3 Olympic games." locIndex="5" />
+            <textevent timeoffset="170" message="She won the bronze medal in the team pursuit in 2016." locIndex="6" />
+            <textevent timeoffset="180" message="The team pursuit is a short and VERY intense event on the track which requires enormous wattage to be successful." locIndex="7" />
+            <textevent timeoffset="190" message="This workout will take you through what it feels like to push yourself during a team pursuit event." locIndex="8" />
+            <textevent timeoffset="200" message="After a 5min progressive warm up, we&apos;ll move on to some more intense efforts to make sure the legs are ready." locIndex="9" />
+            <textevent timeoffset="210" message="Then, we&apos;ll begin the main set which consists of 2 team-pursuit simulation intervals..." locIndex="10" />
+            <textevent timeoffset="220" message="where you&apos;ll have to get up to speed quickly, take 3 pulls at the front, and sprint to the line!" locIndex="11" />
+            <textevent timeoffset="240" message="Let&apos;s carry on for another minute before adding in some more intensity." locIndex="12" />
+            <textevent timeoffset="290" message="All right, let&apos;s aim for 90+ RPM for this 1st effort." locIndex="13" />
+        </Warmup>
+        <IntervalsT Repeat="1" OnDuration="15" OnPower="0.9" OffDuration="45" OffPower="0.65" Cadence="90" CadenceResting="85">
+            <textevent timeoffset="0" message="Lift the power and cadence just a bit." locIndex="14" />
+            <textevent timeoffset="15" message="Nice! Let&apos;s lower it down to an easier effort now and get ready for the next one." locIndex="15" />
+            <textevent timeoffset="50" message="Next up, I want you to aim for 100+ RPM." locIndex="16" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="15" OnPower="1" OffDuration="45" OffPower="0.65" Cadence="100" CadenceResting="85">
+            <textevent timeoffset="0" message="Give me a little more effort here!" locIndex="17" />
+            <textevent timeoffset="15" message="Beauty! 1 more of those to go." locIndex="18" />
+            <textevent timeoffset="50" message="I want this last one to be at 110+ RPM!" locIndex="19" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="15" OnPower="1.1" OffDuration="45" OffPower="0.65" Cadence="110" CadenceResting="85">
+            <textevent timeoffset="0" message="FAST FEET!" locIndex="20" />
+            <textevent timeoffset="15" message="Yes! Way to get those legs turning over quickly - that&apos;s a key skill to have for any track rider." locIndex="21" />
+        </IntervalsT>
+        <SteadyState Duration="180" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="Okay, let&apos;s take it down easy for a few minutes before we do our activation sprints." locIndex="22" />
+            <textevent timeoffset="10" message="Use this time to have a drink, shake things out, and start getting into the right headspace." locIndex="23" />
+            <textevent timeoffset="20" message="Today&apos;s intervals are going to put you in the hurt locker for a bit, but YOU GOT IT!" locIndex="24" />
+            <textevent timeoffset="120" message="Coming up in 1min, we&apos;re doing 2 activation sprints." locIndex="25" />
+            <textevent timeoffset="130" message="These help to wake the legs up a bit more before we douse them in lactate :-)" locIndex="26" />
+            <textevent timeoffset="170" message="Ready? Aim for max cadence here, but keep yourself from bouncing on the saddle." locIndex="27" />
+        </SteadyState>
+        <IntervalsT Repeat="2" OnDuration="10" OnPower="1.5" OffDuration="50" OffPower="0.65" NeverFails="1">
+            <textevent timeoffset="0" message="GO GO GO!" locIndex="28" />
+            <textevent timeoffset="10" message="Nice! Bring your cadence back down slowly again. Take a few deep breaths." locIndex="29" />
+            <textevent timeoffset="60" message="CRUSH IT!" locIndex="30" />
+            <textevent timeoffset="70" message="You&apos;re ready now! Let&apos;s take a moment to recover again before we hit the track." locIndex="31" />
+        </IntervalsT>
+        <SteadyState Duration="120" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="2min until we begin the main set!" locIndex="32" />
+            <textevent timeoffset="10" message="Remember, the main set requires you to get up to speed quickly, take 3 pulls at the front, and sprint to the line!" locIndex="33" />
+            <textevent timeoffset="20" message="And, in an actual team pursuit event, stay as tightly bunched as possible with your teammates." locIndex="34" />
+            <textevent timeoffset="30" message="Aerodynamics and working as a team is key for this discipline." locIndex="35" />
+            <textevent timeoffset="60" message="In 60sec, we&apos;re on! We have a BIG effort to get out of the blocks and up to speed." locIndex="36" />
+            <textevent timeoffset="70" message="Track bikes are fixed gear which means you have to start off in a massive gear and whirl it up." locIndex="37" />
+            <textevent timeoffset="80" message="So, if you want the extra challenge and simulation, start off over-geared and at a slow cadence." locIndex="38" />
+            <textevent timeoffset="90" message="Don&apos;t feel like you have to though! I want you to get as much out of this workout as possible, and have FUN!" locIndex="39" />
+            <textevent timeoffset="100" message="Let&apos;s get ready now. Grab onto your drops, keep your wrists straight, and upper body solid." locIndex="40" />
+            <textevent timeoffset="110" message="Once we start, PULL the bars UP and DRIVE the pedals DOWN! Your call on if you&apos;d like to stand up." locIndex="41" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="1.5">
+            <textevent timeoffset="0" message="PULL UP AND DRIVE DOWN! GET UP TO SPEED!" locIndex="42" />
+        </SteadyState>
+        <IntervalsT Repeat="3" OnDuration="20" OnPower="1.3" OffDuration="40" OffPower="0.95" Cadence="110" CadenceResting="90">
+            <textevent timeoffset="0" message="Keep the power up! Time to sit back down and get into your aero position. You have the first pull at the front." locIndex="43" />
+            <textevent timeoffset="20" message="Excellent! Swing off the front and get onto the back of the train. CHOO CHOO!" locIndex="44" />
+            <textevent timeoffset="50" message="Get ready for your pull!" locIndex="45" />
+            <textevent timeoffset="60" message="UP UP UP!" locIndex="46" />
+            <textevent timeoffset="80" message="Hang on! Believe in yourself and don&apos;t let your teammates go!" locIndex="47" />
+            <textevent timeoffset="110" message="One more pull! You have it in you, believe!" locIndex="48" />
+            <textevent timeoffset="120" message="DIG DIG DIG!" locIndex="49" />
+            <textevent timeoffset="140" message="Nice! Keep your cadence up here and don&apos;t get sloppy for these last 2 laps of the track." locIndex="50" />
+            <textevent timeoffset="170" message="Get ready to sprint for the line!" locIndex="51" />
+        </IntervalsT>
+        <SteadyState Duration="15" Power="1.5">
+            <textevent timeoffset="0" message="TO THE LINE!" locIndex="52" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.55">
+            <textevent timeoffset="0" message="That was AWESOME! Let&apos;s take a well-deserved 5min rest here." locIndex="53" />
+            <textevent timeoffset="10" message="Catch your breath and have a drink." locIndex="54" />
+            <textevent timeoffset="120" message="How are you doing? Hopefully starting to recover?" locIndex="55" />
+            <textevent timeoffset="130" message="That is a really challenging interval set, but you handled the 1st one well!" locIndex="56" />
+            <textevent timeoffset="140" message="And I know you can it again :-)" locIndex="57" />
+            <textevent timeoffset="240" message="Okay, in 1min we&apos;re back on." locIndex="58" />
+            <textevent timeoffset="250" message="We&apos;re going to repeat the same interval set as before." locIndex="59" />
+            <textevent timeoffset="260" message="Starting off with a big effort to get up to speed again." locIndex="60" />
+            <textevent timeoffset="290" message="Ready? Make Georgia proud here!" locIndex="61" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="1.5" pace="" Cadence="">
+            <textevent timeoffset="0" message="GET OUT OF THE BLOCKS!" locIndex="62" />
+        </SteadyState>
+        <IntervalsT Repeat="3" OnDuration="20" OnPower="1.3" OffDuration="40" OffPower="0.95">
+            <textevent timeoffset="0" message="You have 1st pull again, keep the speed up!" locIndex="63" />
+            <textevent timeoffset="20" message="Swing off!" locIndex="64" />
+            <textevent timeoffset="60" message="UP UP UP! Don&apos;t let the team&apos;s avg speed drop!" locIndex="65" />
+            <textevent timeoffset="80" message="Steady... You can do this!" locIndex="66" />
+            <textevent timeoffset="120" message="PUSH IT! GRIT THOSE TEETH!" locIndex="67" />
+            <textevent timeoffset="140" message="Nice! Hang on here and get ready to sprint to the line!" locIndex="68" />
+        </IntervalsT>
+        <SteadyState Duration="15" Power="1.5">
+            <textevent timeoffset="0" message="POWER! GIVE IT EVERYTHING!" locIndex="69" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerHigh="0.35" PowerLow="0.55">
+            <textevent timeoffset="0" message="Amazing! I think Georgia would be proud of that effort for sure." locIndex="70" />
+            <textevent timeoffset="10" message="Let&apos;s take 5min and cool down now. Way to CRUSH the day!" locIndex="71" />
+            <textevent timeoffset="60" message="Slowly bring your cadence down, take some nice deep breaths." locIndex="72" />
+            <textevent timeoffset="120" message="Thank you for working so hard today!" locIndex="73" />
+            <textevent timeoffset="240" message="Make sure you refuel and rehydrate before your next workout." locIndex="74" />
+            <textevent timeoffset="290" message="Ride On!" locIndex="75" />
+        </Cooldown>
+    </workout>
+</workout_file>

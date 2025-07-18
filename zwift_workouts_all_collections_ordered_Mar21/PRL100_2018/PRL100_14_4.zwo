@@ -1,0 +1,56 @@
+<workout_file>
+    <uniqueId>d5257fef-8881-4630-a934-37fba0b367ec</uniqueId>
+    <legacyIdHash>3853173219</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <categoryOverride>VO2 Max</categoryOverride>
+    <name>Week 14.4 - Max Aerobic x 3</name>
+    <category>2018 PRL100 Prep</category>
+    <subcategory>Week 14</subcategory>
+    <description>Warm up well including 3 x 6 second accelerations during the 10 minute warm up. Followed by 2 sets of 3 x 5min @ 112%, 109% and 105% respectively, with 5min recovery. Riding between sets is Free Ride. Cool down.</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <SteadyState Duration="300" Power="0.5" pace="0">
+            <textevent timeoffset="30" message="Looking for quality Aerobic efforts today." locIndex="1" />
+            <textevent timeoffset="60" message="Also, testing your ability to produce the same power late in the ride, as in early." locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.56999999" pace="0" />
+        <SteadyState Duration="60" Power="0.63" pace="0" />
+        <SteadyState Duration="60" Power="0.69999999" pace="0" />
+        <SteadyState Duration="60" Power="0.75999999" pace="0" />
+        <SteadyState Duration="180" Power="0.55000001" pace="0">
+            <textevent timeoffset="30" message="The intensity decreases across the 3 intervals." locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="1.13" pace="0" />
+        <SteadyState Duration="300" Power="0.55000001" pace="0" />
+        <SteadyState Duration="300" Power="1.09" pace="0" />
+        <SteadyState Duration="300" Power="0.55000001" pace="0" />
+        <SteadyState Duration="300" Power="1.05" pace="0" />
+        <SteadyState Duration="300" Power="0.55000001" pace="0">
+            <textevent timeoffset="260" message="Build some fatigue with a little free riding." locIndex="4" />
+            <textevent timeoffset="280" message="Aim to keep power within zones 2 and 3 during the free ride portion." locIndex="5" />
+        </SteadyState>
+        <FreeRide Duration="900" FlatRoad="0">
+            <textevent timeoffset="840" message="Ready for the same Max Aerobic efforts." locIndex="6" />
+        </FreeRide>
+        <SteadyState Duration="300" Power="1.13" pace="0" />
+        <SteadyState Duration="300" Power="0.55000001" pace="0">
+            <textevent timeoffset="60" message="How do the legs feel this late in the session?" locIndex="7" />
+            <textevent timeoffset="280" message="2 efforts to go." locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="1.09" pace="0" />
+        <SteadyState Duration="300" Power="0.55000001" pace="0" />
+        <SteadyState Duration="300" Power="1.05" pace="0" />
+        <SteadyState Duration="300" Power="0.55000001" pace="0" />
+        <SteadyState Duration="60" Power="0.75999999" pace="0" />
+        <SteadyState Duration="60" Power="0.73000002" pace="0" />
+        <SteadyState Duration="60" Power="0.69999999" pace="0" />
+        <SteadyState Duration="60" Power="0.67000002" pace="0" />
+        <SteadyState Duration="60" Power="0.63999999" pace="0" />
+        <SteadyState Duration="60" Power="0.62" pace="0" />
+        <SteadyState Duration="60" Power="0.58999997" pace="0" />
+        <SteadyState Duration="60" Power="0.56" pace="0" />
+        <SteadyState Duration="60" Power="0.52999997" pace="0" />
+        <SteadyState Duration="60" Power="0.5" pace="0" />
+    </workout>
+</workout_file>

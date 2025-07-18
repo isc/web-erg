@@ -1,0 +1,64 @@
+<workout_file>
+    <uniqueId>6901b941-173a-471b-a5e4-aab3f935b011</uniqueId>
+    <legacyIdHash>4068330368</legacyIdHash>
+    <author>Matt Rowe</author>
+    <name>Week 5.3 - Unstructured Structure - Free Ride</name>
+    <description>Welcome to another session in the Dirt Destroyer Workout Series! Today, you should get out and ride IRL to practice your technical skills. 
+
+Mountain biking requires a huge amount of skill, and you can make significant improvements in your overall MTB ability without getting fitter and stronger, but by getting more skillful! 
+
+If you are unable to get out IRL - you can complete this Zwift &apos;Free Ride&apos;. Within the session, you should have ERG Mode on and let the terrain dictate your effort. 
+
+On the climbs, reduce your cadence to 60rpm to work on strength, and go for all the sprints in game.
+
+If riding IRL, aim to get over 2 hours of riding in.</description>
+    <sportType>bike</sportType>
+    <category>Dirt Destroyer</category>
+    <subcategory>Week 5</subcategory>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <tags />
+    <workout>
+        <Warmup Duration="420.00003" PowerLow="0.43673915" PowerHigh="0.74978262" pace="0">
+            <textevent timeoffset="10" message="Welcome back - this is a Free Ride!" locIndex="1" />
+            <textevent timeoffset="25" message="Todays session would ideally be done IRL - out on the trails to improve your technical skills." locIndex="2" />
+            <textevent timeoffset="43" message="If you are on Zwift - we can try and develop you physically, by getting in a &apos;general ride&apos;." locIndex="3" />
+            <textevent timeoffset="58" message="Ensure ERG Mode is on and let the terrain dictate todays efforts. On the climbs - target a low cadence of around 60rpm to work on your strength." locIndex="4" />
+            <textevent timeoffset="58" message="Hunt that green jersey down in all the sprint sections - whatever distance they are and whenever they come - go for it!" locIndex="5" />
+            <textevent timeoffset="201" message="XCO Mountain Bike events are around 90 minutes in length, so plenty of aerobic conditioning is required" locIndex="6" />
+            <textevent timeoffset="381" message="After this initial ramped section of the warm up, we will complete two short activation sprints to really get you warmed up. Then its over to you..." locIndex="7" />
+            <textevent timeoffset="390" message="You should be feeling pretty warmed up now. Do you have a sweat on?" locIndex="8" />
+            <textevent timeoffset="401" message="Here comes the first activation effort - notice its 30 seconds, very different to a road sprint. More of a capacity effort." locIndex="9" />
+        </Warmup>
+        <SteadyState Duration="30.000002" Power="1.0944999" pace="0" />
+        <SteadyState Duration="180.00002" Power="0.50449997" pace="0">
+            <textevent timeoffset="10" message="How are you feeling? Motivated? Fresh? Tired? Reflect and let these feelings determine when you train and when you rest." locIndex="10" />
+            <textevent timeoffset="31" message="Nice and easy now before the second activation effort" locIndex="11" />
+            <textevent timeoffset="150" message="Another sprint incoming!" locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="30.000002" Power="1.0944999" pace="2" />
+        <textevent timeoffset="10" message="Let&apos;s go!" locIndex="13" />
+        <FreeRide Duration="4200" FlatRoad="0" />
+        <textevent timeoffset="10" message="No mandated efforts today, so get your music pumping and go with the flow." locIndex="14" />
+        <textevent timeoffset="100" message="It&apos;s worth trying to get some varied efforts done today - just like you would inevitably end up doing IRL" locIndex="15" />
+        <textevent timeoffset="130" message="Let the terrain dictate todays efforts, so on the climbs - target a low cadence of around 60rpm to work on your strength and just ride hard." locIndex="16" />
+        <textevent timeoffset="180" message="Hunt that green jersey down in all the sprint sections - whatever distance they are and whenever they come - go for it!" locIndex="17" />
+        <textevent timeoffset="250" message="Spend some time riding out of the saddle - aim to get a few 1 minute blocks in." locIndex="18" />
+        <textevent timeoffset="900" message="Aerodynamics are much less of a factor on a mob due to the lower speed. Bike handling is far more important!" locIndex="19" />
+        <textevent timeoffset="1300" message="Sit upright and look ahead, forecasting the incoming terrain." locIndex="20" />
+        <textevent timeoffset="1320" message="Practice riding in this upright position on Zwift - just as you sit IRL." locIndex="21" />
+        <textevent timeoffset="2000" message="If you are up for it - get a 1 minute capacity effort completed! 60 seconds full gas - imaging you are going up a steep single track!" locIndex="22" />
+        <textevent timeoffset="2500" message="Always remember to focus on your pedaling style - pedaling 360&apos; of the stroke - drag the pedals around and up as well as stomping down." locIndex="23" />
+        <textevent timeoffset="3300" message="You could even try a standing start today. Up for it?" locIndex="24" />
+        <textevent timeoffset="3340" message="Select a fairly big gear - a gear you would ride along steady in. Then, from a stand still - max effort for 10 seconds." locIndex="25" />
+        <textevent timeoffset="3360" message="These standing starts are max efforts. 100%. 3 in a block with good rest would be fantastic." locIndex="26" />
+        <textevent timeoffset="3400" message="Standing starts help to increase your strength - beneficial when trying to exert maximum force at a low cadence!" locIndex="27" />
+        <textevent timeoffset="3500" message="Plus, standing starts are also fun! Keep an eye on the max power you hit - that&apos;s the next efforts target power!" locIndex="28" />
+        <textevent timeoffset="3600" message="Let&apos;s try and set a new peak power PB! There is a lot of technique involved in standing starts - you want to try and be fluid in your pedaling stroke." locIndex="29" />
+        <textevent timeoffset="3700" message="Strong upper body is key!" locIndex="30" />
+        <textevent timeoffset="4000" message="The more you put in to these sessions, the more you get out!" locIndex="31" />
+        <textevent timeoffset="4100" message="Not long left now - make it count and get one more effort of your choice in! Go for it!" locIndex="32" />
+        <SteadyState Duration="600" Power="0.50449997" pace="2">
+            <textevent timeoffset="420" message="Good work team - make sure you recover well from today, especially if you have gone hard." locIndex="33" />
+        </SteadyState>
+    </workout>
+</workout_file>

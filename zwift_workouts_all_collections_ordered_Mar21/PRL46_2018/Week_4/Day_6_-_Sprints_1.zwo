@@ -1,0 +1,40 @@
+<workout_file>
+    <uniqueId>53a8e9fc-21a6-40c0-8f3c-4f0e34cbdb93</uniqueId>
+    <legacyIdHash>2220945026</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Week 4.6 - Sprints #1</name>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>2018 PRL46 Prep</category>
+    <subcategory>Week 4</subcategory>
+    <description>After warming up the session is a &apos;free ride&apos;, but during the session complete 6 x 12sec max sprints starting from high speed (30km/h).
+
+Begin sprint in a gear that allows you to reach ~100rpm after 12sec. No gear changes during sprint.
+
+Grip bars tightly.</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <SteadyState Duration="180" Power="0.50449997" pace="0">
+            <textevent timeoffset="130" message="High rpm in warm up sprints" locIndex="1" />
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="10" OffDuration="50" OnPower="1.8007292" OffPower="0.50449997" pace="0" />
+        <SteadyState Duration="180" Power="0.70449996" pace="0" />
+        <SteadyState Duration="120" Power="0.50449997" pace="0" />
+        <SteadyState Duration="300" Power="0.90449995" pace="0">
+            <textevent timeoffset="32" message="Control your breathing during this threshold effort." locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.50449997" pace="0" />
+        <FreeRide Duration="2100" FlatRoad="0">
+            <textevent timeoffset="40" message="Complete 5 max 12sec sprints" locIndex="3" />
+            <textevent timeoffset="60" message="Allow plenty of recovery between sprints. About 5mins." locIndex="4" />
+            <textevent timeoffset="867" message="Are you hitting the same peak power for each sprint?" locIndex="5" />
+            <textevent timeoffset="1141" message="You should have completed 3 sprints by now." locIndex="6" />
+            <textevent timeoffset="120" message="Start your sprints out of the saddle, then seated to finish your effort." locIndex="7" />
+            <textevent timeoffset="359" message="Ready for a max sprint?" locIndex="8" />
+            <textevent timeoffset="659" message="Ready for a max sprint?" locIndex="9" />
+            <textevent timeoffset="959" message="Ready for a max sprint?" locIndex="10" />
+            <textevent timeoffset="1260" message="Ready for a max sprint?" locIndex="11" />
+        </FreeRide>
+        <Cooldown Duration="300" PowerLow="0.75449997" PowerHigh="0.50449997" pace="0" />
+    </workout>
+</workout_file>

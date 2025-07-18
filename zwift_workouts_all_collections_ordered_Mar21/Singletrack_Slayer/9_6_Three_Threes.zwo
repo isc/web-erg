@@ -1,0 +1,91 @@
+<workout_file>
+    <uniqueId>c04852b8-7f1c-4431-b78b-cc3927efe44b</uniqueId>
+    <legacyIdHash>86668599</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Three Three&apos;s</name>
+    <description>pedaling off-road is characterised by a lower cadence and a higher force production. Producing power efficiently in this high force, low cadence fashion puts specific demands on the muscles and neuromuscular recruitment. 
+
+In this session we hit this area by completing 3 sets of 3min efforts at a low rpm.</description>
+    <sportType>bike</sportType>
+    <category>Singletrack Slayer</category>
+    <subcategory>Week 9</subcategory>
+    <WorkoutPlan>1</WorkoutPlan>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <tags />
+    <workout>
+        <Warmup Duration="300" PowerLow="0.41999999" PowerHigh="0.69999999" pace="1481003871">
+            <textevent timeoffset="30" message="Here we go with another workout that hits high crank torque." locIndex="1" />
+            <textevent timeoffset="50" message="In MTB riding, we are going to be forced into situations of producing high power at low rpm." locIndex="2" />
+            <textevent timeoffset="70" message="It&apos;s important we train for these demands." locIndex="3" />
+            <textevent timeoffset="90" message="As well as training for these demands of riding, there are some very positive physiological benefits to be made." locIndex="4" />
+            <textevent timeoffset="200" message="But first we need to warm up adequately." locIndex="5" />
+        </Warmup>
+        <SteadyState Duration="120" Power="0.5" pace="1481003871">
+            <textevent timeoffset="30" message="We are going to gently increase the intensity here before completing some sprints." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.69999999" pace="1481003871">
+            <textevent timeoffset="20" message="This low zone 2 efforts won&apos;t trouble you..." locIndex="7" />
+            <textevent timeoffset="40" message="But this leads into the sprints..." locIndex="8" />
+            <textevent timeoffset="160" message="High cadence in these sprints." locIndex="9" />
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="10" OffDuration="50" OnPower="1.5" OffPower="0.5" pace="1481003871">
+            <textevent timeoffset="30" message="Aim to hit a higher cadence in the next sprint." locIndex="10" />
+            <textevent timeoffset="90" message="As you warmup, your leg speed will increase." locIndex="11" />
+            <textevent timeoffset="150" message="Spin it up again!" locIndex="12" />
+        </IntervalsT>
+        <SteadyState Duration="120" Power="0.5" pace="1481003871">
+            <textevent timeoffset="20" message="You should have a nice sweat up now." locIndex="13" />
+            <textevent timeoffset="50" message="To complete the warmup, we complete a steady state zone 4 effort." locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.89999998" pace="1481003871">
+            <textevent timeoffset="30" message="Settle into a nice rhythm here." locIndex="15" />
+            <textevent timeoffset="60" message="Aim to spin a little faster than what is comfortable for you you." locIndex="16" />
+            <textevent timeoffset="150" message="The main set of work today is at a lower intensity than this." locIndex="17" />
+            <textevent timeoffset="170" message="This is the hard work for the day!" locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.5" pace="1481003871">
+            <textevent timeoffset="20" message="The key to today&apos;s efforts is the low rpm." locIndex="19" />
+            <textevent timeoffset="40" message="But in this 1st set, we are going to let you self select your cadence." locIndex="20" />
+            <textevent timeoffset="90" message="Be sure to hold a good position on the bike." locIndex="21" />
+            <textevent timeoffset="110" message="Relax your grip on the bars, and keep your core nice and still." locIndex="22" />
+            <textevent timeoffset="150" message="This 1st block of work is only high zone 2" locIndex="23" />
+            <textevent timeoffset="170" message="Let&apos;s get into the day&apos;s work." locIndex="24" />
+        </SteadyState>
+        <IntervalsT Repeat="3" OnDuration="180" OffDuration="60" OnPower="0.75" OffPower="0.5" pace="1481003871">
+            <textevent timeoffset="20" message="Select your own cadence here." locIndex="25" />
+            <textevent timeoffset="40" message="This is more to get a feel of the intensity ahead." locIndex="26" />
+            <textevent timeoffset="190" message="Only a quick recovery here as the intensity is low." locIndex="27" />
+            <textevent timeoffset="260" message="Think of these as warmup efforts." locIndex="28" />
+            <textevent timeoffset="300" message="Play around with cadence a little, and see what it feels like to have a low rpm." locIndex="29" />
+            <textevent timeoffset="580" message="What&apos;s your preferred cadence for this power?" locIndex="30" />
+            <textevent timeoffset="700" message="In this next block, we have a target cadence of 70 for the 3 efforts." locIndex="31" />
+        </IntervalsT>
+        <IntervalsT Repeat="3" OnDuration="180" OffDuration="60" OnPower="0.78449994" OffPower="0.50449997" pace="1481003871" Cadence="70" CadenceResting="90">
+            <textevent timeoffset="10" message="Hit the target cadence first." locIndex="32" />
+            <textevent timeoffset="30" message="Let the smart trainer do the work and adjust the power." locIndex="33" />
+            <textevent timeoffset="50" message="Sit towards the back of the seat and drive through your core and glutes." locIndex="34" />
+            <textevent timeoffset="100" message="The intensity isn&apos;t overly high here." locIndex="35" />
+            <textevent timeoffset="120" message="The fatigue comes from recruiting more fast twitch fibers." locIndex="36" />
+            <textevent timeoffset="200" message="Again just a short recovery period." locIndex="37" />
+            <textevent timeoffset="300" message="These efforts are much like climbing outdoors in the gravel." locIndex="38" />
+            <textevent timeoffset="440" message="In this 3rd effort, you should be feeling a little fatigue." locIndex="39" />
+            <textevent timeoffset="460" message="This is normal... and good!" locIndex="40" />
+            <textevent timeoffset="680" message="It means you are placing your body under stress." locIndex="41" />
+            <textevent timeoffset="720" message="For this last block, we increase the target power a little." locIndex="42" />
+        </IntervalsT>
+        <IntervalsT Repeat="3" OnDuration="180" OffDuration="60" OnPower="0.81449997" OffPower="0.50449997" pace="1481003871" Cadence="70" CadenceResting="90">
+            <textevent timeoffset="20" message="Once again, hit the target cadence." locIndex="43" />
+            <textevent timeoffset="50" message="How does the increased power feel?" locIndex="44" />
+            <textevent timeoffset="70" message="Can you feel the increased crank torque?" locIndex="45" />
+            <textevent timeoffset="260" message="2nd last effort for the day." locIndex="46" />
+            <textevent timeoffset="300" message="Nice and steady on the bike." locIndex="47" />
+            <textevent timeoffset="500" message="Into the final effort now." locIndex="48" />
+            <textevent timeoffset="520" message="This has been a really good session from you." locIndex="49" />
+        </IntervalsT>
+        <SteadyState Duration="240" Power="0.5" pace="1481003871">
+            <textevent timeoffset="20" message="Fantastic!" locIndex="50" />
+            <textevent timeoffset="40" message="Quality workout with some very good gains made from this type of training." locIndex="51" />
+            <textevent timeoffset="80" message="Be sure you hydrate and start refuelling for your next session now." locIndex="52" />
+        </SteadyState>
+    </workout>
+</workout_file>

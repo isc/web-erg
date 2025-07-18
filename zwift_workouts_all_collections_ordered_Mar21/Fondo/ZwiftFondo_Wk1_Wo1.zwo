@@ -1,0 +1,71 @@
+<workout_file>
+    <uniqueId>932fbc40-3656-4b45-bd1e-5714c35e6230</uniqueId>
+    <legacyIdHash>983514302</legacyIdHash>
+    <author>Zwift</author>
+    <categoryOverride>Daily Fit</categoryOverride>
+    <name>Week 1.1 - Welcome Workout</name>
+    <category>Fondo</category>
+    <subcategory>Week 1</subcategory>
+    <description>Introductory workout for those joining Zwift&apos;s Bambino Fondo training plan. For the Bambino Fondo training plan, we will have three workouts a week: two interval workouts of about 50min each during the week and a long ride on the weekend.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="intro" />
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.25449997" PowerHigh="0.65449995" pace="0">
+            <textevent timeoffset="30" message="Hi there, this workout is designed to help evaluate how accurately you&apos;ve set your threshold (FTP) prior to starting a training plan." locIndex="1" />
+            <textevent timeoffset="90" message="Knowing your FTP will help you get the most of the workouts in preparation for the Zwift Fondo. But even if you&apos;re FTP is already set well, this is still a good workout." locIndex="2" />
+            <textevent timeoffset="210" message="This workout is designed to be done with erg mode turned *ON* (if you have a smart trainer), though it will still be helpful regardless." locIndex="3" />
+            <textevent timeoffset="350" message="The idea is that we&apos;ll build up intensity through each of the six distinct zones we use here at Zwift. After each block, we will automatically turn off erg mode and give some cues about how that should have felt." locIndex="4" />
+            <textevent timeoffset="500" message="The warm-up starts in Zone 1 - Active Recovery - which should be a really easy conversational pace" locIndex="5" />
+        </Warmup>
+        <SteadyState Duration="300" Power="0.65449995" pace="0">
+            <textevent timeoffset="0" message="And now we will do 5min in Zone 2 - which is the basic endurance zone - that should be your all day effort." locIndex="6" />
+            <textevent timeoffset="30" message="This is 65 percent effort, and it should feel like a 2 to 3 out of 10 for such a short period of time." locIndex="7" />
+            <textevent timeoffset="220" message="You should be sweating here, but your heart rate and breathing should be controlled." locIndex="8" />
+        </SteadyState>
+        <FreeRide Duration="120" FlatRoad="1">
+            <textevent timeoffset="30" message="If that was too easy, that is a sign your FTP is set too low. That is the sort of pace you should feel comfortable holding for almost any duration. You can adjust the intensity up using the arrows under the workout blocks to the left." locIndex="9" />
+            <textevent timeoffset="60" message="If that was a struggle, that is a good sign that you have over-estimated your FTP, and it is probably a good idea to back off using the power using those same arrow keys. If it was really hard, maybe exit out of the ride and adjust your FTP downward in your profile." locIndex="10" />
+        </FreeRide>
+        <SteadyState Duration="240" Power="0.80449992" pace="0">
+            <textevent timeoffset="30" message="This is Zone 3. We&apos;re at 80 percent of your FTP now, which should feel like a 4-5 for most of it and maybe a 6 by the end. This is often referred to as tempo work, and you should still have a good rhythm here." locIndex="11" />
+            <textevent timeoffset="150" message="Your breathing should have shifted a bit and this should not be conversational pace anymore. This is a good race pace for a longer race like your Zwift Fondo." locIndex="12" />
+        </SteadyState>
+        <FreeRide Duration="120" FlatRoad="1">
+            <textevent timeoffset="30" message="You should feel a distinct shift down here. Tempo is sustainable, but it should also feel quite good to back off. If that left you burning, ratchet your intensity - and FTP - down." locIndex="13" />
+            <textevent timeoffset="60" message="Likewise, if that was pretty ho-hum, considering bringing the intensity up and raising your FTP post-ride." locIndex="14" />
+        </FreeRide>
+        <SteadyState Duration="180" Power="0.95449996" pace="0">
+            <textevent timeoffset="30" message="Now we are in Zone 4 - Threshold. This is starting to get quite tough. This is 95 percent of threshold and should feel like an 7 out of 10 the whole. And you should be glad to stop." locIndex="15" />
+            <textevent timeoffset="100" message="Your breathing and HR really should have made a distinct shift. Still steady, but labored. This is hard work." locIndex="16" />
+        </SteadyState>
+        <FreeRide Duration="120" FlatRoad="1">
+            <textevent timeoffset="30" message="That pace was right at what you have your FTP set at. Just under. That should have felt like power you could have - but really would not want to - held for about 20 - 30min." locIndex="17" />
+            <textevent timeoffset="60" message="With a good warm-up, this interval should have given you the best sense of how close your FTP is to reality." locIndex="18" />
+        </FreeRide>
+        <SteadyState Duration="120" Power="1.0944999" pace="0">
+            <textevent timeoffset="30" message="Now we are into the really tough stuff. This is Zone 5 - VO2Max. You probably do not want to read this message. And you definitely do not want to talk to anyone." locIndex="19" />
+            <textevent timeoffset="60" message="This sort of power should be sustainable for about 5min, but that should be really unpleasant. 8-9 out of 10 here." locIndex="20" />
+        </SteadyState>
+        <FreeRide Duration="120" FlatRoad="1">
+            <textevent timeoffset="30" message="Two minutes of that should have been really hard. But you should have been able to find some rhythm and stay seated. If you really felt the need to stand or felt your cadence slipping, your FTP is likely set too high." locIndex="21" />
+            <textevent timeoffset="60" message="On the other hand, if you cruised through that, your FTP is certainly too low. 110 percent of FTP should always be tough." locIndex="22" />
+        </FreeRide>
+        <SteadyState Duration="60" Power="1.2544999" pace="0">
+            <textevent timeoffset="15" message="Now we are in Zone 6 - Maximal Aerobic Power. Mostly you should just want me to shut up... 10 out of 10." locIndex="23" />
+        </SteadyState>
+        <FreeRide Duration="120" FlatRoad="1">
+            <textevent timeoffset="30" message="So based off those intervals, you should have some sense of whether or not your FTP is in the ballpark. A Training Plan is much more effective when your FTP is set correctly, so be honest about how hard - or easy - those intervals felt." locIndex="24" />
+            <textevent timeoffset="60" message="You can always change your FTP between workouts if you find yourself gaining fitness more quickly than you expect, but a conservative estimate is always a better choice than an overly aggressive or optimistic one." locIndex="25" />
+        </FreeRide>
+        <SteadyState Duration="300" Power="0.75449997" pace="0">
+            <textevent timeoffset="30" message="Now let&apos;s get in some nice steady work at 75 percent here. All day pace." locIndex="26" />
+        </SteadyState>
+        <Cooldown Duration="600" PowerLow="0.75449997" PowerHigh="0.2545" pace="0">
+            <textevent timeoffset="30" message="And now let&apos;s cool-down. Starting at 75 percent, we will step down to 25 percent by the end." locIndex="27" />
+            <textevent timeoffset="180" message="And dropping down nice and easy. Letting the workout step you down here." locIndex="28" />
+            <textevent timeoffset="500" message="Thanks for joining us! See you later in the week!" locIndex="29" />
+        </Cooldown>
+    </workout>
+</workout_file>

@@ -1,0 +1,84 @@
+<workout_file>
+    <uniqueId>080dd55d-981a-412c-9fdc-e8f515ad714c</uniqueId>
+    <legacyIdHash>279119424</legacyIdHash>
+    <author>Shayne Gaffney | GC Coaching</author>
+    <categoryOverride>30 minutes to burn</categoryOverride>
+    <name>Lactate Shuttle Short</name>
+    <description>Ever heard of lactic acid? People associate it with burning muscles, but it&apos;s actually critical for performance during endurance sports. This workout improves your ability to use lactic acid as energy. In other words, if it burns, it&apos;s working!</description>
+    <sportType>bike</sportType>
+    <category>Less than 30 minutes to burn</category>
+    <tags>
+        <tag name="RECOMMENDABLE" />
+    </tags>
+    <overrideHash>279119424</overrideHash>
+    <workout>
+        <Warmup Duration="480" PowerLow="0.5" PowerHigh="0.75" Cadence="85">
+            <textevent timeoffset="0" message="Welcome to the Lactate Shuttle Short workout! Coach Shayne Gaffney here and I&apos;ll be your tour guide today :-)" locIndex="1" />
+            <textevent timeoffset="10" message="We&apos;ll get started with an 8min warmup." locIndex="2" />
+            <textevent timeoffset="20" message="Keep your cadence comfortable around 85 RPM to start." locIndex="3" />
+            <textevent timeoffset="120" message="Make sure you have your fan, fluids, and towel all set." locIndex="4" />
+            <textevent timeoffset="180" message="All right, let&apos;s chat a bit about the plan for today." locIndex="5" />
+            <textevent timeoffset="190" message="Today is focused on improving your ability to shuttle lactate." locIndex="6" />
+            <textevent timeoffset="200" message="Lactate shuttling is a way your body uses lactate to generate energy." locIndex="7" />
+            <textevent timeoffset="210" message="Lactate itself often gets a bad rap, but it&apos;s actually a necessary fuel source." locIndex="8" />
+            <textevent timeoffset="220" message="Especially when you&apos;re working above threshold AKA anaerobic metabolism." locIndex="9" />
+            <textevent timeoffset="230" message="So, today we&apos;ll do a very hard opening effort which will build lactate to a high level." locIndex="10" />
+            <textevent timeoffset="240" message="Then, we&apos;ll do an over/under to maintain the high level." locIndex="11" />
+            <textevent timeoffset="250" message="The opening interval of 3min above threshold might produce a level of 4-6mmol lactate." locIndex="12" />
+            <textevent timeoffset="260" message="By then shuttling your intensity with the over/under effort." locIndex="13" />
+            <textevent timeoffset="270" message="You can maintain this level of lactate for the full interval." locIndex="14" />
+            <textevent timeoffset="280" message="And maintaining the high levels of lactate are where the gains are made :-)" locIndex="15" />
+            <textevent timeoffset="290" message="Let&apos;s carry on with the warmup." locIndex="16" />
+            <textevent timeoffset="420" message="1min to go before our VERY hard opening effort." locIndex="17" />
+            <textevent timeoffset="430" message="Take a few deep breaths, and a sip of fluid here." locIndex="18" />
+            <textevent timeoffset="440" message="And mentally prepare yourself to suffer a bit here." locIndex="19" />
+            <textevent timeoffset="470" message="All right, target 100 RPM for this interval. Here we go!" locIndex="20" />
+        </Warmup>
+        <SteadyState Duration="180" Power="1.2" Cadence="100">
+            <textevent timeoffset="0" message="GO GO GO! Fast feet and very high power here!" locIndex="21" />
+            <textevent timeoffset="30" message="Settle down now and keep ticking those pedals over." locIndex="22" />
+            <textevent timeoffset="60" message="With each minute you generate more and more lactate." locIndex="23" />
+            <textevent timeoffset="70" message="Keep it going and push through the burn in your legs!" locIndex="24" />
+            <textevent timeoffset="90" message="Halfway done now, keep it up!" locIndex="25" />
+            <textevent timeoffset="120" message="Final minute! Don&apos;t let the leg speed drop off now, GO GO GO!" locIndex="26" />
+            <textevent timeoffset="150" message="PUSH IT! GO GO GO!" locIndex="27" />
+        </SteadyState>
+        <IntervalsT Repeat="8" OnDuration="60" OffDuration="60" OnPower="0.7" OffPower="1.1" Cadence="85" CadenceResting="95">
+            <textevent timeoffset="0" message="Okay, now we&apos;ll move into the over/under set." locIndex="28" />
+            <textevent timeoffset="10" message="We&apos;ll start off with the under 1st to let you recover a little bit from the opening effort." locIndex="29" />
+            <textevent timeoffset="20" message="Which will also lower your mmol of lactate." locIndex="30" />
+            <textevent timeoffset="30" message="As your body combusts the lactate and uses it for energy." locIndex="31" />
+            <textevent timeoffset="50" message="Next, we&apos;ll push over threshold to build the lactate levels again." locIndex="32" />
+            <textevent timeoffset="60" message="Slightly faster cadence again here." locIndex="33" />
+            <textevent timeoffset="90" message="Ideally we&apos;re building the lactate back up to the previous level now." locIndex="34" />
+            <textevent timeoffset="100" message="Which we&apos;d be able to actually measure with testing." locIndex="35" />
+            <textevent timeoffset="120" message="And back under threshold again. Breathe and relax as best you can here." locIndex="36" />
+            <textevent timeoffset="180" message="PUSH IT! Embrace the burn in the legs!" locIndex="37" />
+            <textevent timeoffset="240" message="Excellent work! Lower the effort again and breathe." locIndex="38" />
+            <textevent timeoffset="300" message="GO GO GO! C&apos;mon do the work today!" locIndex="39" />
+            <textevent timeoffset="460" message="Take it easy again here, you&apos;re doing GREAT today!" locIndex="40" />
+            <textevent timeoffset="420" message="UP UP UP! Keep those legs moving quick!" locIndex="41" />
+            <textevent timeoffset="480" message="You are doing some super high quality work today, nicely done!" locIndex="42" />
+            <textevent timeoffset="540" message="Bring those lactate levels back up again, GO GO!" locIndex="43" />
+            <textevent timeoffset="600" message="Breathe... Shake out the upper body a bit and release the tension in your shoulders." locIndex="44" />
+            <textevent timeoffset="660" message="UP UP UP! Make it happen today!" locIndex="45" />
+            <textevent timeoffset="720" message="Beautiful! Take it easy again here and rest up, just a little more to go!" locIndex="46" />
+            <textevent timeoffset="840" message="Get ready to finish this interval up with an over/over :-)" locIndex="47" />
+            <textevent timeoffset="900" message="PUSH IT! We&apos;re almost done today!" locIndex="48" />
+            <textevent timeoffset="930" message="We&apos;re heading to zone 6 to finish this workout off! Make me proud!" locIndex="49" />
+        </IntervalsT>
+        <SteadyState Duration="60" Power="1.2" Cadence="100">
+            <textevent timeoffset="0" message="GO GO GO! Grit those teeth and PUSH IT!" locIndex="50" />
+            <textevent timeoffset="30" message="Almost done!" locIndex="51" />
+            <textevent timeoffset="50" message="GET TO THE ARCH!" locIndex="52" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.5" Cadence="85">
+            <textevent timeoffset="0" message="Woot woot! Way to finish that workout STRONG!" locIndex="53" />
+            <textevent timeoffset="10" message="We&apos;re going to take a quick 2min to cooldown now." locIndex="54" />
+            <textevent timeoffset="20" message="But feel free to spin easier for longer if you need to." locIndex="55" />
+            <textevent timeoffset="30" message="Then, hop off the bike and start the recovery process." locIndex="56" />
+            <textevent timeoffset="40" message="Enjoy the rest of the cooldown." locIndex="57" />
+            <textevent timeoffset="50" message="And see you next time :-)" locIndex="58" />
+        </SteadyState>
+    </workout>
+</workout_file>

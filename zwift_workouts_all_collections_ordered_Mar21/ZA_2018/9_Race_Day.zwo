@@ -1,0 +1,119 @@
+<workout_file>
+    <uniqueId>e85baad6-c5e0-40f4-b914-7e1a57380926</uniqueId>
+    <legacyIdHash>1495203718</legacyIdHash>
+    <author>Zwift Academy Coaches</author>
+    <categoryOverride>Best of Zwift Academy</categoryOverride>
+    <subcategoryOverride>ZA 2018</subcategoryOverride>
+    <name>Race Day</name>
+    <activitySaveName>Zwift Academy 2018 Workout #9: Race Day</activitySaveName>
+    <description>Being able to produce short, high power efforts during a race improves your chances of winning.
+
+These efforts allow you to establish a break, or cross a gap to the breakaway. The riders that win races are the ones who can repeatedly produce these high power efforts.
+
+Today we simulate attacking in racing and going to the line!</description>
+    <sportType>bike</sportType>
+    <visibleAfterTime>1533538860</visibleAfterTime>
+    <overrideHash>1495203718</overrideHash>
+    <category>Zwift Academy 2018</category>
+    <categoryIndex>9</categoryIndex>
+    <tags>
+        <tag name="Zwift Academy" />
+    </tags>
+    <workout>
+        <Warmup Duration="360" PowerLow="0.45449999" PowerHigh="0.65449995" pace="0">
+            <textevent timeoffset="30" message="Our warmup begins with a gentle increase in power to 75%." locIndex="1" />
+            <textevent timeoffset="90" message="This will be a challenging session today." locIndex="2" />
+            <textevent timeoffset="150" message="Visualise yourself racing today." locIndex="3" />
+            <textevent timeoffset="210" message="You&apos;re attacking and making the race winning break." locIndex="4" />
+            <textevent timeoffset="340" message="To complete the warmup we perform some short, medium intensity intervals." locIndex="5" />
+        </Warmup>
+        <SteadyState Duration="60" Power="0.55000001" pace="0">
+            <textevent timeoffset="30" message="This 1st warmup effort is 1 min at medium intensity." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.80000001" pace="0">
+            <textevent timeoffset="30" message="This should be a comfortable effort for you." locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.55000001" pace="0">
+            <textevent timeoffset="30" message="A little harder for this next effort. But still well within yourself." locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.94999999" pace="0">
+            <textevent timeoffset="30" message="You should be starting to build a sweat up by now." locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.55000001" pace="0">
+            <textevent timeoffset="30" message="The legs should be starting to feel good now." locIndex="10" />
+            <textevent timeoffset="90" message="Onto the race efforts now." locIndex="11" />
+            <textevent timeoffset="140" message="Race winning moves start with a strong attack." locIndex="12" />
+            <textevent timeoffset="160" message="Here we go. 30sec attack." locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.2544999" pace="0">
+            <textevent timeoffset="20" message="This is where you establish the gap." locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.80449992" pace="0">
+            <textevent timeoffset="30" message="Now that you have a gap, you have to work to maintain it." locIndex="15" />
+            <textevent timeoffset="90" message="Quite often in racing several people follow the 1st attack." locIndex="16" />
+            <textevent timeoffset="150" message="This is where you work together at a steady tempo." locIndex="17" />
+            <textevent timeoffset="270" message="Now it&apos;s time to attack again and drop your breakaway partners." locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.4029589" pace="0">
+            <textevent timeoffset="20" message="Push hard to the line. No one on your wheel!" locIndex="19" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.95449996" pace="0">
+            <textevent timeoffset="30" message="Now it&apos;s time to work hard to stay away." locIndex="20" />
+            <textevent timeoffset="90" message="Solo to the line means you have to do all the work!" locIndex="21" />
+            <textevent timeoffset="150" message="Focus on controlled breathing." locIndex="22" />
+            <textevent timeoffset="210" message="Almost there. Keep the pressure on the pedals!" locIndex="23" />
+            <textevent timeoffset="280" message="All the way to the line." locIndex="24" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.50449997" pace="0">
+            <textevent timeoffset="30" message="Good recovery now." locIndex="25" />
+            <textevent timeoffset="120" message="The next race scenario is a little harder." locIndex="26" />
+            <textevent timeoffset="280" message="Here we go. 30sec attack." locIndex="27" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.2544999" pace="0">
+            <textevent timeoffset="20" message="This is where you establish the gap." locIndex="28" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.80449992" pace="0">
+            <textevent timeoffset="30" message="Now that you have a gap, you have to work to maintain it again." locIndex="29" />
+            <textevent timeoffset="140" message="Work together at a steady tempo." locIndex="30" />
+            <textevent timeoffset="160" message="Now it&apos;s time to attack again and drop your breakaway partners." locIndex="31" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.4021618" pace="0">
+            <textevent timeoffset="10" message="We attack with more power this time." locIndex="32" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="1.0944999" pace="0">
+            <textevent timeoffset="30" message="You&apos;re solo now! Work hard to stay away." locIndex="33" />
+            <textevent timeoffset="90" message="The power is higher, but you&apos;re close to the finish." locIndex="34" />
+            <textevent timeoffset="150" message="Just 30sec to go." locIndex="35" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.50449997" pace="0">
+            <textevent timeoffset="30" message="Good recovery now." locIndex="36" />
+            <textevent timeoffset="120" message="The next race scenario is harder again." locIndex="37" />
+            <textevent timeoffset="280" message="Here we go. 30sec attack." locIndex="38" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.2544999" pace="0">
+            <textevent timeoffset="20" message="This is where you establish the gap." locIndex="39" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.9108752" pace="0">
+            <textevent timeoffset="30" message="Now that you have a gap, you have to work to maintain it." locIndex="40" />
+            <textevent timeoffset="90" message="The pace is a little higher this time." locIndex="41" />
+            <textevent timeoffset="140" message="You feel stronger than your breakaway partners." locIndex="42" />
+            <textevent timeoffset="160" message="Now it&apos;s time to attack again and drop your breakaway partners." locIndex="43" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.4044999" pace="0">
+            <textevent timeoffset="10" message="We attack with more power this time." locIndex="44" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.1244999" pace="0">
+            <textevent timeoffset="30" message="You&apos;re solo now! Work hard to stay away." locIndex="45" />
+            <textevent timeoffset="60" message="The power is higher, but you&apos;re close to the finish." locIndex="46" />
+            <textevent timeoffset="100" message="Just 20sec to go." locIndex="47" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.50449997" pace="0">
+            <textevent timeoffset="60" message="Well done. That was a tough session today." locIndex="48" />
+            <textevent timeoffset="120" message="One of the most important aspects of racing being able to produce short, high power efforts." locIndex="49" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow="0.75449997" PowerHigh="0.45449999" pace="0">
+            <textevent timeoffset="60" message="Important to have a good cool down." locIndex="50" />
+            <textevent timeoffset="120" message="Continue to hydrate after the session and focus on recovery nutrition." locIndex="51" />
+        </Cooldown>
+    </workout>
+</workout_file>

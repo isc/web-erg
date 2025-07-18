@@ -1,0 +1,26 @@
+<workout_file>
+    <uniqueId>0ad4c0a3-06dc-44f4-88c6-dc02d2f26413</uniqueId>
+    <legacyIdHash>3096888119</legacyIdHash>
+    <name>Week 6.4 - Day 4</name>
+    <description>Threshold Dev</description>
+    <author>Marco Pinotti</author>
+    <category>10-12wk FTP Builder</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 6</subcategory>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/MarcoPinotti_Logo.tga</authorIcon>
+    <sportType>bike</sportType>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.5" PowerHigh="0.65" />
+        <Ramp Duration="300" PowerLow="0.5" PowerHigh="1.0" />
+        <SteadyState Duration="120" Power="0.65" />
+        <SteadyState Duration="120" Power="0.81" />
+        <SteadyState Duration="60" Power="0.95" />
+        <SteadyState Duration="300" Power="0.5" />
+        <SteadyState Duration="720" Power="0.81" />
+        <SteadyState Duration="480" Power="0.5" />
+        <SteadyState Duration="720" Power="0.81" />
+        <SteadyState Duration="480" Power="0.5" />
+        <IntervalsT Repeat="5" OnDuration="180" OnPower=".95" OffDuration="120" OffPower=".5" />
+        <Cooldown Duration="300" PowerHigh="0.65" PowerLow="0.5" />
+    </workout>
+</workout_file>

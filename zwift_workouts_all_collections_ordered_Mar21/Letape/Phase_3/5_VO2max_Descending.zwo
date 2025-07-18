@@ -1,0 +1,139 @@
+<workout_file>
+    <uniqueId>8ff3db0d-be8d-4205-a4ba-b967a2254c74</uniqueId>
+    <legacyIdHash>1336776463</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Phase 3.5 - VO2max Descending</name>
+    <description>VO2max training is one of the best ways to improve your climbing speed. These are high intensity intervals above threshold. The result is an increased ability of the body to utilise the oxygen it takes on board.
+
+Today is a hard day. But the rewards are big!</description>
+    <sportType>bike</sportType>
+    <category>L&apos;Etape du Tour Training Club</category>
+    <subcategory>Phase 3</subcategory>
+    <visibleAfterTime>1558051200</visibleAfterTime>
+    <tags />
+    <workout>
+        <SteadyState Duration="180.00002" Power="0.50449997" pace="8268">
+            <textevent timeoffset="30" message="VO2max intervals provide some of the best &apos;bang for your buck&apos; training." locIndex="1" />
+            <textevent timeoffset="50" message="The efforts are high in intensity and will challenge your aerobic abilities." locIndex="2" />
+            <textevent timeoffset="90" message="When an athlete is looking to come into their best form, VO2max training provides the stimulus needed to reach that next level." locIndex="3" />
+            <textevent timeoffset="110" message="But before we get to the hard work. Let&apos;s warm up first." locIndex="4" />
+            <textevent timeoffset="150" message="To get things started we have some 10sec accelerations." locIndex="5" />
+            <textevent timeoffset="170" message="Aim for a nice high cadence in the accelerations." locIndex="6" />
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="10" OffDuration="50.000004" OnPower="1.7002037" OffPower="0.50449997" pace="8268">
+            <textevent timeoffset="50" message="It&apos;s fine to perform these efforts out of the saddle." locIndex="7" />
+            <textevent timeoffset="80" message="Try to hit the same peak cadence in each effort." locIndex="8" />
+            <textevent timeoffset="170" message="Into the last acceleration now." locIndex="9" />
+            <textevent timeoffset="220" message="Then we go straight into a steady state effort." locIndex="10" />
+        </IntervalsT>
+        <SteadyState Duration="180.00002" Power="0.70449996" pace="8268">
+            <textevent timeoffset="30" message="After the sprints the level of intensity should be quite comfortable for you." locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="120.00001" Power="0.50449997" pace="8268">
+            <textevent timeoffset="55" message="A quick rest before we complete the warmup with a steady state tempo effort." locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.90449995" pace="8268">
+            <textevent timeoffset="30" message="Find a nice rhythm and settle into the effort." locIndex="13" />
+            <textevent timeoffset="90" message="A steady near threshold effort is the ideal way to prepare for the high intensity ahead." locIndex="14" />
+            <textevent timeoffset="150" message="That&apos;s halfway." locIndex="15" />
+            <textevent timeoffset="250" message="Should have a good sweat up by now." locIndex="16" />
+            <textevent timeoffset="280" message="This indicates you&apos;re ready for the main set." locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="180.00002" Power="0.50449997" pace="8268">
+            <textevent timeoffset="30" message="There&apos;s no getting away from the fact there is some hard work ahead." locIndex="18" />
+            <textevent timeoffset="50" message="But today is the day you make some big gains in fitness." locIndex="19" />
+            <textevent timeoffset="70" message="We start with the longest and hardest interval first." locIndex="20" />
+            <textevent timeoffset="90" message="1st interval is 5min in duration." locIndex="21" />
+            <textevent timeoffset="110" message="Then each interval decreases in duration by 30sec." locIndex="22" />
+            <textevent timeoffset="120" message="And in intensity slightly." locIndex="23" />
+            <textevent timeoffset="140" message="Here we go with the 1st effort." locIndex="24" />
+            <textevent timeoffset="160" message="Get this one completed and you know you can do the rest." locIndex="25" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="1.1544999" pace="8268">
+            <textevent timeoffset="30" message="Good start. Settle into a nice rhythm." locIndex="26" />
+            <textevent timeoffset="90" message="Control your breathing." locIndex="27" />
+            <textevent timeoffset="120" message="Maintain a nice high cadence." locIndex="28" />
+            <textevent timeoffset="150" message="That&apos;s halfway. You&apos;ve got this!" locIndex="29" />
+            <textevent timeoffset="200" message="It hurts... but think of the gains you&apos;re making." locIndex="30" />
+            <textevent timeoffset="240" message="Into the last minute now. All the way to the end!" locIndex="31" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.50449997" pace="0">
+            <textevent timeoffset="10" message="Catch your breath now." locIndex="32" />
+            <textevent timeoffset="30" message="But keep the legs turning over." locIndex="33" />
+            <textevent timeoffset="50" message="Now the real recovery period begins." locIndex="34" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.65449995" pace="0">
+            <textevent timeoffset="10" message="This level of intensity is the most efficient level to clear lactate." locIndex="35" />
+            <textevent timeoffset="30" message="When we work above anaerobic threshold, we accumulate large amounts of lactate." locIndex="36" />
+            <textevent timeoffset="50" message="It can take quite a long time to clear lactate sometimes." locIndex="37" />
+            <textevent timeoffset="160" message="Before we begin the next effort, let&apos;s take it back a notch and prepare mentally for the effort ahead." locIndex="38" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.50449997" pace="0">
+            <textevent timeoffset="10" message="Nice easy spinning now." locIndex="39" />
+            <textevent timeoffset="40" message="This time we have 4.5min with a little less intensity." locIndex="40" />
+        </SteadyState>
+        <SteadyState Duration="270" Power="1.1206598" pace="0">
+            <textevent timeoffset="30" message="Good start. Settle into a nice rhythm." locIndex="41" />
+            <textevent timeoffset="90" message="Control your breathing." locIndex="42" />
+            <textevent timeoffset="120" message="These efforts will see you climbing faster in L&apos;Etape du Tour de France de France." locIndex="43" />
+            <textevent timeoffset="135" message="That&apos;s halfway. You&apos;ve got this!" locIndex="44" />
+            <textevent timeoffset="200" message="Does it feel a little easier than the 1st effort?" locIndex="45" />
+            <textevent timeoffset="210" message="Into the last minute now. All the way to the end!" locIndex="46" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.50449997" pace="0">
+            <textevent timeoffset="10" message="Catch your breath now." locIndex="47" />
+            <textevent timeoffset="30" message="But keep the legs turning over." locIndex="48" />
+            <textevent timeoffset="50" message="Now the real recovery period begins." locIndex="49" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.65449995" pace="0">
+            <textevent timeoffset="10" message="This level of intensity is the most efficient level to clear lactate." locIndex="50" />
+            <textevent timeoffset="30" message="When we work above anaerobic threshold, we accumulate large amounts of lactate." locIndex="51" />
+            <textevent timeoffset="50" message="It can take quite a long time to clear lactate sometimes." locIndex="52" />
+            <textevent timeoffset="160" message="Before we begin the next effort, let&apos;s take it back a notch and prepare mentally for the effort ahead." locIndex="53" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.50449997" pace="0">
+            <textevent timeoffset="10" message="Nice easy spinning now." locIndex="54" />
+            <textevent timeoffset="40" message="This time we have 4min with a little less intensity." locIndex="55" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="1.0925978" pace="0">
+            <textevent timeoffset="30" message="Good start. Settle into a nice rhythm." locIndex="56" />
+            <textevent timeoffset="90" message="Control your breathing." locIndex="57" />
+            <textevent timeoffset="120" message="Big gains from this type of training." locIndex="58" />
+            <textevent timeoffset="135" message="That&apos;s halfway. You&apos;ve got this!" locIndex="59" />
+            <textevent timeoffset="200" message="Getting easier?" locIndex="60" />
+            <textevent timeoffset="210" message="Into the last minute now. All the way to the end!" locIndex="61" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.50449997" pace="0">
+            <textevent timeoffset="10" message="Catch your breath now." locIndex="62" />
+            <textevent timeoffset="30" message="But keep the legs turning over." locIndex="63" />
+            <textevent timeoffset="50" message="Now the real recovery period begins." locIndex="64" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.65449995" pace="0">
+            <textevent timeoffset="10" message="This level of intensity is the most efficient level to clear lactate." locIndex="65" />
+            <textevent timeoffset="30" message="When we work above anaerobic threshold, we accumulate large amounts of lactate." locIndex="66" />
+            <textevent timeoffset="50" message="It can take quite a long time to clear lactate sometimes." locIndex="67" />
+            <textevent timeoffset="160" message="Before we begin the next effort, let&apos;s take it back a notch and prepare mentally for the effort ahead." locIndex="68" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.50449997" pace="0">
+            <textevent timeoffset="10" message="Nice easy spinning now." locIndex="69" />
+            <textevent timeoffset="40" message="This time we have 3.5min with a little less intensity." locIndex="70" />
+        </SteadyState>
+        <SteadyState Duration="210" Power="1.0645" pace="0">
+            <textevent timeoffset="30" message="Last effort. Make it a good one." locIndex="71" />
+            <textevent timeoffset="90" message="Power through this effort." locIndex="72" />
+            <textevent timeoffset="120" message="This is quality training." locIndex="73" />
+            <textevent timeoffset="105" message="That&apos;s halfway. You&apos;ve got this!" locIndex="74" />
+            <textevent timeoffset="125" message="How does this effort compare to the 1st?" locIndex="75" />
+            <textevent timeoffset="150" message="Into the last minute now. All the way to the end!" locIndex="76" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.50449997" pace="0">
+            <textevent timeoffset="30" message="That is very good training from you today!" locIndex="77" />
+            <textevent timeoffset="60" message="How did the different efforts compare?" locIndex="78" />
+            <textevent timeoffset="80" message="Did they get easier as they became shorter and less intense?" locIndex="79" />
+            <textevent timeoffset="100" message="If they did, then that would indicate that you were able to clear the accumulated lactate in the recovery period." locIndex="80" />
+            <textevent timeoffset="120" message="If they became progressively harder, that would indicate that you weren&apos;t able to clear the lactate from the previous effort." locIndex="81" />
+            <textevent timeoffset="200" message="This is a good session to revisit in the future and compare the sensations across the different efforts." locIndex="82" />
+            <textevent timeoffset="250" message="Great work today." locIndex="83" />
+        </SteadyState>
+    </workout>
+</workout_file>

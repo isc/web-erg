@@ -1,0 +1,111 @@
+<workout_file>
+    <uniqueId>f5f234c8-ab61-4bf2-b350-774a5a1b0aab</uniqueId>
+    <legacyIdHash>2748323907</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Tempo #4</name>
+    <description>Tempo work is the basis of many training programs and is an area of great necessity. The key benefit to completing tempo work indoors is the lack of interruptions to the effort and ERG mode makes things much simpler.
+
+In this workout we move around tempo intensity, but with dramatic changes in target cadence.</description>
+    <sportType>bike</sportType>
+    <category>Singletrack Slayer</category>
+    <subcategory>Week 10</subcategory>
+    <WorkoutPlan>1</WorkoutPlan>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <tags>
+    </tags>
+    <workout>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="30" message="Another day for getting zone 3 volume in." locIndex="1" />
+            <textevent timeoffset="50" message="But this time, just like we experience when riding off road, we are forced into a cadence that might not be comfortable." locIndex="2" />
+            <textevent timeoffset="160" message="Let&apos;s get warmed up first." locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.6" />
+        <SteadyState Duration="60" Power="0.65">
+            <textevent timeoffset="10" message="Begin with stepping up through the zones." locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.81">
+            <textevent timeoffset="10" message="Self select your own cadence for these efforts." locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.09">
+            <textevent timeoffset="10" message="Dip the toes into a quick minute above threshold." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="100" message="4min at threshold is always a good idea!" locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.9">
+            <textevent timeoffset="20" message="Really spin your legs for this effort." locIndex="8" />
+            <textevent timeoffset="100" message="This serves as a &quot;primer&quot; for the work ahead." locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="20" message="The key to today is the dramatic change in target cadence." locIndex="10" />
+            <textevent timeoffset="50" message="The power is similar to what you expect on a long dirt climb." locIndex="11" />
+            <textevent timeoffset="70" message="But just like riding on the dirt, sometimes the surface will dictate the cadence we need to ride at." locIndex="12" />
+            <textevent timeoffset="100" message="There is a different target cadence for each tempo step." locIndex="13" />
+            <textevent timeoffset="120" message="Always hit the target cadence and let the trainer adjust the power." locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.76" Cadence="70">
+            <textevent timeoffset="10" message="Hit that target cadence of 70rpm." locIndex="15" />
+            <textevent timeoffset="100" message="This first step is low power and low cadence." locIndex="16" />
+            <textevent timeoffset="120" message="No problem at all for you." locIndex="17" />
+            <textevent timeoffset="260" message="get ready for a big change in target cadence." locIndex="18" />
+            <textevent timeoffset="280" message="We are going up to 100rpm." locIndex="19" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.85" Cadence="100">
+            <textevent timeoffset="10" message="Hit that 100rpm cadence." locIndex="20" />
+            <textevent timeoffset="100" message="The power has also increased a little." locIndex="21" />
+            <textevent timeoffset="160" message="Now you are flying along on the flat section of dirt." locIndex="22" />
+            <textevent timeoffset="240" message="For the final step we up the power..." locIndex="23" />
+            <textevent timeoffset="0" message="...but drop the cadence a little." locIndex="24" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.91" Cadence="90">
+            <textevent timeoffset="10" message="Straight to the target cadence of 90rpm." locIndex="25" />
+            <textevent timeoffset="100" message="Today is all about getting zone 3 volume in." locIndex="26" />
+            <textevent timeoffset="200" message="It doesn&apos;t have to be high intensity to be effective." locIndex="27" />
+            <textevent timeoffset="240" message="You&apos;re doing great!" locIndex="28" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="20" message="Perfect!" locIndex="29" />
+            <textevent timeoffset="80" message="That was a nice block of tempo work." locIndex="30" />
+            <textevent timeoffset="120" message="Quick recovery, then we repeat the interval block." locIndex="31" />
+            <textevent timeoffset="160" message="Let&apos;s go. Remember to hit the target cadence." locIndex="32" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.76" Cadence="70">
+            <textevent timeoffset="10" message="Hit that target cadence of 70rpm." locIndex="33" />
+            <textevent timeoffset="100" message="This first step is low power and low cadence." locIndex="34" />
+            <textevent timeoffset="120" message="No problem at all for you." locIndex="35" />
+            <textevent timeoffset="260" message="get ready for a big change in target cadence." locIndex="36" />
+            <textevent timeoffset="280" message="We are going up to 100rpm." locIndex="37" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.85" Cadence="100">
+            <textevent timeoffset="10" message="Hit that 100rpm cadence." locIndex="38" />
+            <textevent timeoffset="100" message="The power has also increased a little." locIndex="39" />
+            <textevent timeoffset="160" message="Now you are flying along on the flat section of dirt." locIndex="40" />
+            <textevent timeoffset="240" message="For the final step we up the power..." locIndex="41" />
+            <textevent timeoffset="0" message="...but drop the cadence a little." locIndex="42" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.91" Cadence="90">
+            <textevent timeoffset="10" message="Straight to the target cadence of 90rpm." locIndex="43" />
+            <textevent timeoffset="100" message="Today is all about getting zone 3 volume in." locIndex="44" />
+            <textevent timeoffset="200" message="It doesn&apos;t have to be high intensity to be effective." locIndex="45" />
+            <textevent timeoffset="240" message="You&apos;re doing great!" locIndex="46" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="20" message="Fantastic!" locIndex="47" />
+            <textevent timeoffset="80" message="That&apos;s 30min of tempo work so far." locIndex="48" />
+            <textevent timeoffset="100" message="Now, for the sting in the tail." locIndex="49" />
+            <textevent timeoffset="120" message="Next, we have a tempo effort but with no target cadence." locIndex="50" />
+            <textevent timeoffset="140" message="Let&apos;s see what your natural self selected cadence is." locIndex="51" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.85">
+            <textevent timeoffset="30" message="Settle into a nice comfortable pedal stroke for you." locIndex="52" />
+            <textevent timeoffset="60" message="What is your cadence?" locIndex="53" />
+            <textevent timeoffset="80" message="High or low?" locIndex="54" />
+            <textevent timeoffset="100" message="There really is no right or wrong." locIndex="55" />
+            <textevent timeoffset="120" message="We find our best cadence that fits our fitness and fatigue." locIndex="56" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.5">
+            <textevent timeoffset="30" message="That&apos;s a nice 35min of tempo work today." locIndex="57" />
+            <textevent timeoffset="60" message="You should be pleased with the work you completed today." locIndex="58" />
+        </SteadyState>
+    </workout>
+</workout_file>

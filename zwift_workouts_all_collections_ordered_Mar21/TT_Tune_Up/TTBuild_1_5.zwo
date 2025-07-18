@@ -1,0 +1,44 @@
+<workout_file>
+    <uniqueId>58688453-dc7f-4b7b-90cf-8aa19ca1501a</uniqueId>
+    <legacyIdHash>3711736225</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Endurance #1</name>
+    <description>After warming up, the focus is on improving your aerobic endurance. The main set consists of a steady aerobic effort. However, every few minutes you will perform a short surge at high power.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>TT Tune Up</category>
+    <subcategory>Week 1</subcategory>
+    <tags>
+    </tags>
+    <workout>
+        <Warmup Duration="360" PowerLow="0.45" PowerHigh="0.75">
+            <textevent timeoffset="30" message="We begin the warm up with a gentle aerobic effort." locIndex="1" />
+        </Warmup>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="50" message="Now for a 1min high power, effort." locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.09" />
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="110" message="To prepare for the efforts we ramp up to a 4min threshold effort now." locIndex="3" />
+        </SteadyState>
+        <Ramp Duration="180" PowerLow="0.5" PowerHigh="0.9">
+            <textevent timeoffset="160" message="Nearly at threshold power now." locIndex="4" />
+            <textevent timeoffset="170" message="Time for the 4min threshold effort." locIndex="5" />
+        </Ramp>
+        <SteadyState Duration="240" Power="0.9" />
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="110" message="Long, low intensity efforts aren&apos;t the only way to build endurance." locIndex="6" />
+            <textevent timeoffset="120" message="Incorporating short surges into your effort will increase oxygen uptake and training stimulus." locIndex="7" />
+            <textevent timeoffset="170" message="We begin the set with a 10sec surge." locIndex="8" />
+        </SteadyState>
+        <IntervalsT Repeat="7" OnDuration="10" OffDuration="290" OnPower="1.3" OffPower="0.7">
+            <textevent timeoffset="1600" message="This is the type of session that can be repeated each week." locIndex="9" />
+            <textevent timeoffset="1640" message="A good session to get some volume in without any accumulated fatigue." locIndex="10" />
+            <textevent timeoffset="60" message="A low level endurance session today..." locIndex="11" />
+            <textevent timeoffset="80" message="However, every 5 minutes you will perform a 10 second surge" locIndex="12" />
+            <textevent timeoffset="200" message="This is the type of session you can track your aerobic fitness." locIndex="13" />
+            <textevent timeoffset="220" message="At your peak fitness you should be completing this set with little HR increase." locIndex="14" />
+        </IntervalsT>
+        <Cooldown Duration="300" PowerLow="0.75" PowerHigh="0.45" />
+    </workout>
+</workout_file>

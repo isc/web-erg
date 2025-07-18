@@ -1,0 +1,85 @@
+<workout_file>
+    <uniqueId>49a5293d-f15c-4c8e-963e-ccc272985f20</uniqueId>
+    <legacyIdHash>4259044674</legacyIdHash>
+    <author>Lauren Kitchen</author>
+    <categoryOverride>Sprinting</categoryOverride>
+    <name>Lauren Kitchen - HIT Intervals</name>
+    <description>Today&apos;s workout features 2 sets of short and sharp intervals. Lauren describes it as: "I love power style workouts in order to prepare for hard one day races. This High intensity interval (HIT) session gets my blood pumping and legs burning and when I can complete it and not be &apos;dead&apos; then I know I&apos;m ready to race. This is a great work out for preparing for the classics and more sprint style races. My coach Cedric Barre is the brains behind the pain!".</description>
+    <sportType>bike</sportType>
+    <tags />
+    <category>Voxwomen Tour 2021</category>
+    <categoryIndex>2</categoryIndex>
+    <workout>
+        <Warmup Duration="600" PowerLow=".5" PowerHigh=".75">
+            <textevent timeoffset="0" message="Hello and welcome to Lauren Kitchen&apos;s HIT Interval!" locIndex="1" />
+            <textevent timeoffset="10" message="Let&apos;s start with a warm up and we&apos;ll chat about what&apos;s in store for today in just a moment." locIndex="2" />
+            <textevent timeoffset="180" message="You&apos;re looking good so far! Keep your cadence comfortable and stay loose." locIndex="3" />
+            <textevent timeoffset="240" message="Do you have your playlist set? You&apos;re going to need some upbeat tunes for the hard work planned today." locIndex="4" />
+            <textevent timeoffset="300" message="Okay great work! We&apos;re halfway through the warm up. Let&apos;s chat a bit about today&apos;s main set." locIndex="5" />
+            <textevent timeoffset="310" message="We have 2 sets of intervals planned - both being short and sharp!" locIndex="6" />
+            <textevent timeoffset="320" message="Our 1st set is 10 times, 30sec hard and 30 sec easy, with our 2nd set being 8 times, 45sec hard and 45sec easy." locIndex="7" />
+            <textevent timeoffset="330" message="Lauren says: &apos;I love power style workouts in order to prepare for hard one day races.&apos;" locIndex="8" />
+            <textevent timeoffset="340" message="&apos;This high intensity interval (HIT) session gets my blood pumping and legs burning, and when I can complete it and not be &apos;dead&apos; then I know I&apos;m ready to race.&apos;" locIndex="9" />
+            <textevent timeoffset="350" message="&apos;This is a great work out for preparing for the classics and more sprint style races.&apos;" locIndex="10" />
+            <textevent timeoffset="360" message="Thanks, Lauren! So, be prepared to put in the work today, but hard work will bring results." locIndex="11" />
+            <textevent timeoffset="480" message="2min left for today&apos;s warm up. You should feel nice and loose by now and ready to CRUSH the day." locIndex="12" />
+            <textevent timeoffset="540" message="Let&apos;s take a deep breath as we close out the warm up. In through the nose and out through pursed lips." locIndex="13" />
+            <textevent timeoffset="550" message="Doing this can help you stay relaxed and focused." locIndex="14" />
+        </Warmup>
+        <SteadyState Duration="120" Power=".5" pace="">
+            <textevent timeoffset="0" message="Nicely done! Now, we&apos;ll take 2min easy before beginning the main set." locIndex="15" />
+            <textevent timeoffset="10" message="Use this time to get in &apos;the zone&apos; and refocus." locIndex="16" />
+            <textevent timeoffset="20" message="Like Lauren who &apos;is constantly seeking mastery of my mind and body and finds happiness in empowering and inspiring others to achieve their goals.&apos;" locIndex="17" />
+            <textevent timeoffset="30" message="Focusing on &apos;mind over matter&apos; can make a big difference when it comes to intervals like today." locIndex="18" />
+            <textevent timeoffset="90" message="Okay, in 30sec we&apos;re getting to work! Remember, we have 10 reps of 30sec hard and 30 sec easy." locIndex="19" />
+            <textevent timeoffset="100" message="Aim for a 90 RPM+ on the intensity segments, and recover at a comfortable cadence for you." locIndex="20" />
+            <textevent timeoffset="110" message="Here we go! Get ready for a big surge in effort." locIndex="21" />
+        </SteadyState>
+        <IntervalsT Repeat="10" OnDuration="30" OffDuration="30" OnPower="1.2" OffPower=".4" pace="">
+            <textevent timeoffset="0" message="PUSH IT! Try to spin the legs quickly." locIndex="22" />
+            <textevent timeoffset="30" message="Nice! That 1st one will almost feel too easy, but that will change once we get into the later reps." locIndex="23" />
+            <textevent timeoffset="60" message="Spin the legs back up! Hammer!" locIndex="24" />
+            <textevent timeoffset="90" message="And recover again. You get the idea now." locIndex="25" />
+            <textevent timeoffset="240" message="DIG DIG DIG! This is when these start to bite back." locIndex="26" />
+            <textevent timeoffset="300" message="Halfway! Keep the effort high and don&apos;t slack on your cadence." locIndex="27" />
+            <textevent timeoffset="360" message="4 to go - make yourself proud!" locIndex="28" />
+            <textevent timeoffset="450" message="Recovery becomes so important now. Breathe deep, shake out the upper body, and stay focused." locIndex="29" />
+            <textevent timeoffset="480" message="2nd to last push! You can do this!" locIndex="30" />
+            <textevent timeoffset="510" message="Breathe...." locIndex="31" />
+            <textevent timeoffset="540" message="This is it! DIG!" locIndex="32" />
+            <textevent timeoffset="570" message="Excellent!!" locIndex="33" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power=".5" pace="">
+            <textevent timeoffset="0" message="Okay, that&apos;s 1 set down and 1 to go." locIndex="34" />
+            <textevent timeoffset="10" message="We&apos;re taking a 5min recovery now - spin the legs nice and easy and get your breathing under control." locIndex="35" />
+            <textevent timeoffset="20" message="You made that 1st set look easy :-)" locIndex="36" />
+            <textevent timeoffset="120" message="Hopefully, you&apos;re starting to feel a little better now. Keep spinning easy and shake the legs out." locIndex="37" />
+            <textevent timeoffset="150" message="Lauren Kitchen, the superstar who gave us this workout, rides for the UCI Women&apos;s World Team FDJ Nouvelle-Aquitaine Futuroscope." locIndex="38" />
+            <textevent timeoffset="160" message="Some of her favorite races are: Strade Bianche, the Women&apos;s Tour, and Cadel Evans&apos; Great Ocean Road Race." locIndex="39" />
+            <textevent timeoffset="170" message="All really tough races for sure! No wonder why she enjoys this type of training :-)" locIndex="40" />
+            <textevent timeoffset="240" message="1min to go, then we&apos;ll head into our 2nd interval set for today. Aim for the same cadence as before." locIndex="41" />
+            <textevent timeoffset="250" message="We&apos;ll work at the same intensity level as the 1st set, but this do 8 reps of 45sec hard, 45sec easy." locIndex="42" />
+            <textevent timeoffset="290" message="Ready? Let&apos;s get into it again!" locIndex="43" />
+        </SteadyState>
+        <IntervalsT Repeat="8" OnDuration="45" OffDuration="45" OnPower="1.2" OffPower=".4" pace="">
+            <textevent timeoffset="0" message="UP UP!" locIndex="44" />
+            <textevent timeoffset="30" message="Extra 15sec this time! Keep going!" locIndex="45" />
+            <textevent timeoffset="45" message="Nicely done! Since Lauren is so nice, she also made the recovery 15sec longer this time :-)" locIndex="46" />
+            <textevent timeoffset="90" message="PUSH IT!" locIndex="47" />
+            <textevent timeoffset="135" message="Phew! Those extra 15sec make a difference. Take a few deep breaths and recover." locIndex="48" />
+            <textevent timeoffset="180" message="Back at it again! GO GO!" locIndex="49" />
+            <textevent timeoffset="270" message="You&apos;re doing GREAT! Keep the cadence up." locIndex="50" />
+            <textevent timeoffset="360" message="Halfway through! This is when Lauren starts to shine, stay with her!" locIndex="51" />
+            <textevent timeoffset="450" message="Just 3 more reps remain! DIG DIG!" locIndex="52" />
+            <textevent timeoffset="540" message="2nd to last one! Keep your form, cadence high, and don&apos;t get sloppy!" locIndex="53" />
+            <textevent timeoffset="630" message="C&apos;mon! THIS IS IT! EMPTY THE TANKS!" locIndex="54" />
+        </IntervalsT>
+        <Cooldown Duration="300" PowerLow=".5" PowerHigh=".65">
+            <textevent timeoffset="0" message="Great job! You just trained like a pro!" locIndex="55" />
+            <textevent timeoffset="10" message="We&apos;re going to take 5min and cool down now." locIndex="56" />
+            <textevent timeoffset="60" message="Zwift has partnered with Voxwomen to support their mission to inspire and motivate women who ride." locIndex="57" />
+            <textevent timeoffset="180" message="Check out Voxwomen.com to follow the latest with the women&apos;s pro peloton and sign up for the Monday Briefing powered by Zwift to get the inside line!" locIndex="58" />
+            <textevent timeoffset="290" message="Ride On!" locIndex="59" />
+        </Cooldown>
+    </workout>
+</workout_file>

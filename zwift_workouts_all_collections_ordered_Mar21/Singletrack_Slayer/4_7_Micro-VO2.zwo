@@ -1,0 +1,126 @@
+<workout_file>
+    <uniqueId>aebc22b9-acd5-421d-88e0-4bdc93c9772d</uniqueId>
+    <legacyIdHash>2936019806</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Micro-VO2</name>
+    <description>Micro intervals are a staple workout for many athlete&apos;s. Despite being comprised of multiple, short, high-intensity efforts, micro intervals are a way to target VO2max development. There is a myriad amount of variations possible with micro intervals. In today&apos;s session we are performing 30/15&apos;s. 30sec hard, followed by 15sec recovery.</description>
+    <sportType>bike</sportType>
+    <category>Singletrack Slayer</category>
+    <subcategory>Week 4</subcategory>
+    <WorkoutPlan>1</WorkoutPlan>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <tags>
+    </tags>
+    <workout>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="30" message="Micro intervals are generally completed with a 2:1 ratio." locIndex="1" />
+            <textevent timeoffset="50" message="In today&apos;s session we are working for 30sec, then resting for 15sec." locIndex="2" />
+            <textevent timeoffset="70" message="Sounds easy right?" locIndex="3" />
+            <textevent timeoffset="90" message="After the first few comfortable intervals, the pressure starts to build and the hard work begins." locIndex="4" />
+            <textevent timeoffset="160" message="We step things up with some 1min efforts now." locIndex="5" />
+        </SteadyState>
+        <IntervalsT Repeat="2" OnDuration="60" OffDuration="60" OnPower="0.75" OffPower="0.5">
+            <textevent timeoffset="20" message="Try to spin a little faster than usual during these efforts." locIndex="6" />
+            <textevent timeoffset="80" message="As you warm up you should be able to reach a higher cadence more comfortably." locIndex="7" />
+            <textevent timeoffset="230" message="Now we step up into threshold intensity." locIndex="8" />
+        </IntervalsT>
+        <IntervalsT Repeat="2" OnDuration="60" OffDuration="60" OnPower="0.9" OffPower="0.5">
+            <textevent timeoffset="20" message="Again, really try to spin the legs out for these warmup intervals." locIndex="9" />
+            <textevent timeoffset="230" message="We are going straight into a steady state threshold interval now." locIndex="10" />
+        </IntervalsT>
+        <SteadyState Duration="240" Power="0.95">
+            <textevent timeoffset="30" message="This effort completes our warmup." locIndex="11" />
+            <textevent timeoffset="50" message="You should have a good sweat up by now." locIndex="12" />
+            <textevent timeoffset="70" message="As you warmup, your pedal stroke becomes more fluid." locIndex="13" />
+            <textevent timeoffset="100" message="Micro intervals are ideal to perform indoors." locIndex="14" />
+            <textevent timeoffset="120" message="It provides an uninterrupted environment. " locIndex="15" />
+            <textevent timeoffset="140" message="And allows you to focus on each interval." locIndex="16" />
+            <textevent timeoffset="160" message="But there are a few tricks to keep in mind when using a smart trainer." locIndex="17" />
+            <textevent timeoffset="180" message="I suggest using ERG mode." locIndex="18" />
+            <textevent timeoffset="200" message="This allows you to be more precise in your power delivery in the short period." locIndex="19" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="30" message="Let&apos;s get ready for the 1st block of efforts." locIndex="20" />
+            <textevent timeoffset="50" message="Just before the &quot;on&quot; interval begins..." locIndex="21" />
+            <textevent timeoffset="70" message="...start to bring your cadence and power up." locIndex="22" />
+            <textevent timeoffset="90" message="Aim to start the interval at the cadence you will finish the interval." locIndex="23" />
+            <textevent timeoffset="110" message="Smart trainers like the cadence to be stable." locIndex="24" />
+            <textevent timeoffset="170" message="Ready to get into the work!" locIndex="25" />
+        </SteadyState>
+        <IntervalsT Repeat="8" OnDuration="30" OffDuration="15" OnPower="1.2" OffPower="0.63">
+            <textevent timeoffset="10" message="Spin the legs up and hold a constant cadence." locIndex="26" />
+            <textevent timeoffset="20" message="The effort is only short." locIndex="27" />
+            <textevent timeoffset="40" message="But so is the rest period!" locIndex="28" />
+            <textevent timeoffset="90" message="The first few intervals will almost feel easy?" locIndex="29" />
+            <textevent timeoffset="120" message="It&apos;s the short recovery period that gradually increases the effort" locIndex="30" />
+            <textevent timeoffset="150" message="This is a VO2 session." locIndex="31" />
+            <textevent timeoffset="180" message="The constant power and short recovery keeps your HR high." locIndex="32" />
+            <textevent timeoffset="210" message="You should be feeling the effort increasing with each interval." locIndex="33" />
+            <textevent timeoffset="240" message="Keep hitting the same cadence for each interval." locIndex="34" />
+            <textevent timeoffset="270" message="If you are wearing a HR strap, that red line should be constantly rising!" locIndex="35" />
+            <textevent timeoffset="310" message="Into the last effort now!" locIndex="36" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.55">
+            <textevent timeoffset="30" message="That was a great effort." locIndex="37" />
+            <textevent timeoffset="90" message="The constant changes in power are also very similar to outdoor MTB riding." locIndex="38" />
+            <textevent timeoffset="150" message="We have a good recovery period before repeating the effort." locIndex="39" />
+            <textevent timeoffset="210" message="Then we do the same block of work" locIndex="40" />
+            <textevent timeoffset="240" message="It&apos;s funny how that 15sec recovery seems to get shorter and shorter with each interval!" locIndex="41" />
+            <textevent timeoffset="280" message="Here we go again!" locIndex="42" />
+        </SteadyState>
+        <IntervalsT Repeat="8" OnDuration="30" OffDuration="15" OnPower="1.2" OffPower="0.63">
+            <textevent timeoffset="10" message="Spin the legs up and hold a constant cadence." locIndex="43" />
+            <textevent timeoffset="20" message="The effort is only short." locIndex="44" />
+            <textevent timeoffset="40" message="But so is the rest period!" locIndex="45" />
+            <textevent timeoffset="90" message="The first few intervals will almost feel easy?" locIndex="46" />
+            <textevent timeoffset="120" message="It&apos;s the short recovery period that gradually increases the effort" locIndex="47" />
+            <textevent timeoffset="150" message="This is a VO2 session." locIndex="48" />
+            <textevent timeoffset="180" message="The constant power and short recovery keeps your HR high." locIndex="49" />
+            <textevent timeoffset="210" message="You should be feeling the effort increasing with each interval." locIndex="50" />
+            <textevent timeoffset="240" message="Keep hitting the same cadence for each interval." locIndex="51" />
+            <textevent timeoffset="270" message="If you are wearing a HR strap, that red line should be constantly rising!" locIndex="52" />
+            <textevent timeoffset="310" message="Into the last effort now!" locIndex="53" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.55">
+            <textevent timeoffset="30" message="That&apos;s 2 sets completed. Great work." locIndex="54" />
+            <textevent timeoffset="90" message="The constant changes in power are also very similar to outdoor MTB riding." locIndex="55" />
+            <textevent timeoffset="150" message="We have a good recovery period before repeating the effort." locIndex="56" />
+            <textevent timeoffset="210" message="Then we do the same block of work" locIndex="57" />
+            <textevent timeoffset="240" message="That&apos;s 8min of zone 6 completed so far." locIndex="58" />
+            <textevent timeoffset="280" message="Here we go again!" locIndex="59" />
+        </SteadyState>
+        <IntervalsT Repeat="8" OnDuration="30" OffDuration="15" OnPower="1.2" OffPower="0.63">
+            <textevent timeoffset="10" message="Spin the legs up and hold a constant cadence." locIndex="60" />
+            <textevent timeoffset="20" message="The effort is only short." locIndex="61" />
+            <textevent timeoffset="40" message="But so is the rest period!" locIndex="62" />
+            <textevent timeoffset="90" message="The first few intervals will almost feel easy?" locIndex="63" />
+            <textevent timeoffset="120" message="It&apos;s the short recovery period that gradually increases the effort" locIndex="64" />
+            <textevent timeoffset="150" message="This is a VO2 session." locIndex="65" />
+            <textevent timeoffset="180" message="The constant power and short recovery keeps your HR high." locIndex="66" />
+            <textevent timeoffset="210" message="You should be feeling the effort increasing with each interval." locIndex="67" />
+            <textevent timeoffset="240" message="Keep hitting the same cadence for each interval." locIndex="68" />
+            <textevent timeoffset="270" message="If you are wearing a HR strap, that red line should be constantly rising!" locIndex="69" />
+            <textevent timeoffset="310" message="Into the last effort now!" locIndex="70" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.55">
+            <textevent timeoffset="30" message="Awesome work!" locIndex="71" />
+            <textevent timeoffset="90" message="But it&apos;s not over yet!" locIndex="72" />
+            <textevent timeoffset="150" message="We have a good recovery period before the final effort." locIndex="73" />
+            <textevent timeoffset="210" message="Just a quick 4min at threshold to spin the legs out." locIndex="74" />
+            <textevent timeoffset="240" message="You have just completed 12min at zone 6!" locIndex="75" />
+            <textevent timeoffset="280" message="Here we go into threshold." locIndex="76" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.95">
+            <textevent timeoffset="20" message="Bring the cadence up to a comfortable level." locIndex="77" />
+            <textevent timeoffset="80" message="Settle into a nice rhythm." locIndex="78" />
+            <textevent timeoffset="140" message="How do the legs feel after the previous zone 6 work?" locIndex="79" />
+            <textevent timeoffset="200" message="With good fitness, this may even feel easy..." locIndex="80" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.5">
+            <textevent timeoffset="50" message="That is a great day&apos;s work from you." locIndex="81" />
+            <textevent timeoffset="70" message="And hugely effective." locIndex="82" />
+            <textevent timeoffset="100" message="The combination of threshold work, along with the micro-VO2 work is a big session." locIndex="83" />
+            <textevent timeoffset="200" message="Give yourself an easy day or two before your next high intensity workout." locIndex="84" />
+        </SteadyState>
+    </workout>
+</workout_file>

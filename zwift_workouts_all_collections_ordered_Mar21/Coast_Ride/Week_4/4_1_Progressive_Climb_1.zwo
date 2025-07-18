@@ -1,0 +1,90 @@
+<workout_file>
+    <uniqueId>7872d97c-df50-40de-a770-b73ba1d74ad8</uniqueId>
+    <legacyIdHash>1809622209</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Week 4.1 - Progressive Climb #1</name>
+    <description>3 climbs of 11 minutes in duration today, but each one is climbed using a different cadence.
+
+Just like a climb outdoors, the required power will increase throughout the 11min.
+</description>
+    <sportType>bike</sportType>
+    <entid>491</entid>
+    <category>Zwift Coast Ride</category>
+    <subcategory>Week 4</subcategory>
+    <tags>
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.5" PowerHigh="0.75">
+            <textevent timeoffset="30" message="Simulating 3 long climbs today." locIndex="1" />
+            <textevent timeoffset="50" message="Each climb is performed at a different cadence " locIndex="2" />
+        </Warmup>
+        <SteadyState Duration="60" Power="0.55">
+            <textevent timeoffset="50" message="1min at zone 5 to get the blood flowing to the working muscles." locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.1" />
+        <SteadyState Duration="60" Power="0.55">
+            <textevent timeoffset="50" message="Just a short threshold effort to complete the warm up." locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.95" />
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="50" message="Now we have 3 long climbs coming up." locIndex="5" />
+            <textevent timeoffset="60" message="Each climb has a set cadence." locIndex="6" />
+            <textevent timeoffset="70" message="Position yourself on the bike as would on a long climb." locIndex="7" />
+            <textevent timeoffset="80" message="Relaxed hands on the bars, sitting towards the back of the seat." locIndex="8" />
+        </SteadyState>
+        <Ramp Duration="360" PowerLow="0.76" PowerHigh="0.89" Cadence="85">
+            <textevent timeoffset="10" message="Remember to aim for the set rpm." locIndex="9" />
+            <textevent timeoffset="30" message="The climb starts out gentle enough." locIndex="10" />
+            <textevent timeoffset="50" message="But the power will ramp up as the climb continues." locIndex="11" />
+            <textevent timeoffset="150" message="How does 85rpm feel?" locIndex="12" />
+        </Ramp>
+        <Ramp Duration="240" PowerLow="0.91" PowerHigh="1.04" Cadence="85">
+            <textevent timeoffset="10" message="Onto the steeper portion now!" locIndex="13" />
+            <textevent timeoffset="30" message="More power required at the same rpm." locIndex="14" />
+            <textevent timeoffset="220" message="Now to race to the top!" locIndex="15" />
+        </Ramp>
+        <Ramp Duration="60" PowerLow="1.05" PowerHigh="1.18" Cadence="85">
+            <textevent timeoffset="20" message="Almost at the top! Out of the seat if you have to." locIndex="16" />
+        </Ramp>
+        <SteadyState Duration="300" Power="0.55">
+            <textevent timeoffset="250" message="This time we are targeting a cadence of 80rpm." locIndex="17" />
+            <textevent timeoffset="10" message="Well done. How was that?" locIndex="18" />
+            <textevent timeoffset="30" message="Long recovery before the next climb." locIndex="19" />
+        </SteadyState>
+        <Ramp Duration="360" PowerLow="0.76" PowerHigh="0.89" Cadence="80">
+            <textevent timeoffset="10" message="Remember to aim for the set rpm." locIndex="20" />
+            <textevent timeoffset="30" message="The climb starts out gentle enough." locIndex="21" />
+            <textevent timeoffset="50" message="But the power will ramp up as the climb continues." locIndex="22" />
+            <textevent timeoffset="150" message="How does 80rpm feel?" locIndex="23" />
+        </Ramp>
+        <Ramp Duration="240" PowerLow="0.91" PowerHigh="1.04" Cadence="80">
+            <textevent timeoffset="10" message="Onto the steeper portion now!" locIndex="24" />
+            <textevent timeoffset="30" message="More power required at the same rpm." locIndex="25" />
+            <textevent timeoffset="220" message="Now to race to the top!" locIndex="26" />
+        </Ramp>
+        <Ramp Duration="60" PowerLow="1.05" PowerHigh="1.18" Cadence="80">
+            <textevent timeoffset="20" message="Almost at the top! Out of the seat if you have to." locIndex="27" />
+        </Ramp>
+        <SteadyState Duration="300" Power="0.55">
+            <textevent timeoffset="250" message="This time we are targeting a cadence of 80rpm." locIndex="28" />
+            <textevent timeoffset="10" message="Well done. How was that?" locIndex="29" />
+            <textevent timeoffset="30" message="Long recovery before the next climb." locIndex="30" />
+        </SteadyState>
+        <Ramp Duration="360" PowerLow="0.76" PowerHigh="0.89" Cadence="75">
+            <textevent timeoffset="10" message="Remember to aim for the set rpm." locIndex="31" />
+            <textevent timeoffset="30" message="The climb starts out gentle enough." locIndex="32" />
+            <textevent timeoffset="50" message="But the power will ramp up as the climb continues." locIndex="33" />
+            <textevent timeoffset="150" message="How does 75rpm feel?" locIndex="34" />
+        </Ramp>
+        <Ramp Duration="240" PowerLow="0.91" PowerHigh="1.04" Cadence="75">
+            <textevent timeoffset="10" message="Onto the steeper portion now!" locIndex="35" />
+            <textevent timeoffset="30" message="More power required at the same rpm." locIndex="36" />
+            <textevent timeoffset="220" message="Now to race to the top!" locIndex="37" />
+        </Ramp>
+        <Ramp Duration="60" PowerLow="1.05" PowerHigh="1.18" Cadence="75">
+            <textevent timeoffset="20" message="Almost at the top! Out of the seat if you have to." locIndex="38" />
+        </Ramp>
+        <SteadyState Duration="120" Power="0.5" />
+        <Cooldown Duration="300" PowerLow="0.75" PowerHigh="0.45" />
+    </workout>
+</workout_file>

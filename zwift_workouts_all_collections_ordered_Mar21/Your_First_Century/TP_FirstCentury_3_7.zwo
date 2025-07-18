@@ -1,0 +1,13 @@
+<workout_file>
+    <uniqueId>f81f0494-cdb3-4f00-90e4-c8355335e86e</uniqueId>
+    <legacyIdHash>3143509228</legacyIdHash>
+    <category>Your First Century</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 3</subcategory>
+    <name>Week 3.7 - Day 7 - Rest</name>
+    <description>Relax. Watch TV. Take a walk. Stretch. Enjoy the day. WATCH your food intake today. Do not overeat. Eat a normal to small amount of food today. Your body will be craving tons of food today, but resist!</description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <workout>
+        <RestDay />
+    </workout>
+</workout_file>

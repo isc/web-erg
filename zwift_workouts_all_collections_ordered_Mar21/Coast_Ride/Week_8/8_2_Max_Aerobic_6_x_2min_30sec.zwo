@@ -1,0 +1,59 @@
+<workout_file>
+    <uniqueId>10b59c9d-e76b-4105-b418-cc35e75c54dc</uniqueId>
+    <legacyIdHash>762919361</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Week 8.2 - Max Aerobic 6 x 2min 30sec</name>
+    <description>Warm up well including 1min efforts in Zones 3,4 &amp; 6.
+Followed by;
+6 x 2min 30sec @ 113%, with 2min 30sec recovery.
+Cool down.</description>
+    <sportType>bike</sportType>
+    <entid>491</entid>
+    <category>Zwift Coast Ride</category>
+    <subcategory>Week 8</subcategory>
+    <tags>
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.45" PowerHigh="0.75">
+            <textevent timeoffset="50" message="Today is about repeating Max Aerobic efforts with little recovery." locIndex="1" />
+            <textevent timeoffset="70" message="It will be difficult. But an excellent way to challenge your fitness." locIndex="2" />
+        </Warmup>
+        <SteadyState Duration="60" Power="0.55">
+            <textevent timeoffset="30" message="A few gentle, 1 min efforts in the warm up." locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.8" />
+        <SteadyState Duration="60" Power="0.55" />
+        <SteadyState Duration="60" Power="0.95" />
+        <SteadyState Duration="60" Power="0.55" />
+        <SteadyState Duration="60" Power="1.25" />
+        <SteadyState Duration="180" Power="0.55">
+            <textevent timeoffset="100" message="During the Max Aerobic set, observe your cadence and HR." locIndex="4" />
+            <textevent timeoffset="110" message="Does your HR return to the same level after each interval?" locIndex="5" />
+            <textevent timeoffset="120" message="Or is your recovery HR gradually increasing?" locIndex="6" />
+            <textevent timeoffset="130" message="Does your cadence remain the same for each interval?" locIndex="7" />
+            <textevent timeoffset="140" message="Or is fatgue causing you to reduce your cadence?" locIndex="8" />
+            <textevent timeoffset="170" message="Let&apos;s find out! Here we go." locIndex="9" />
+        </SteadyState>
+        <IntervalsT Repeat="6" OnDuration="150" OffDuration="150" OnPower="1.13" OffPower="0.5">
+            <textevent timeoffset="90" message="The 1st effort should be comfortable." locIndex="10" />
+            <textevent timeoffset="200" message="Just a short recovery. Let&apos;s see how fast your HR drops." locIndex="11" />
+            <textevent timeoffset="420" message="Observe your HR and cadence during the interval." locIndex="12" />
+            <textevent timeoffset="580" message="Good start. Just 4 to go!" locIndex="13" />
+            <textevent timeoffset="1000" message="Are you pedaling with the same rpm as the 1st effort?" locIndex="14" />
+            <textevent timeoffset="1300" message="Is your peak HR increasing?" locIndex="15" />
+            <textevent timeoffset="1600" message="Note your finishing HR. How much higher is it than the 1st effort?" locIndex="16" />
+        </IntervalsT>
+        <SteadyState Duration="60" Power="0.76" />
+        <SteadyState Duration="60" Power="0.73">
+            <textevent timeoffset="20" message="Need a good cool down after that session." locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.7" />
+        <SteadyState Duration="60" Power="0.67" />
+        <SteadyState Duration="60" Power="0.64" />
+        <SteadyState Duration="60" Power="0.62" />
+        <SteadyState Duration="60" Power="0.59" />
+        <SteadyState Duration="60" Power="0.56" />
+        <SteadyState Duration="60" Power="0.53" />
+        <SteadyState Duration="60" Power="0.5" />
+    </workout>
+</workout_file>

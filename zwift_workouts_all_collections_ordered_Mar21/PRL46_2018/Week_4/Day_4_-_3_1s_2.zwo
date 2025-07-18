@@ -1,0 +1,40 @@
+<workout_file>
+    <uniqueId>b865d89d-7a45-4e58-8989-2d7cca7e4137</uniqueId>
+    <legacyIdHash>2402899575</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Week 4.4 - 3 &amp; 1&apos;s #2</name>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>2018 PRL46 Prep</category>
+    <subcategory>Week 4</subcategory>
+    <description>16min intervals consisting of 3min @ 98% / 1min 62%.
+
+With the recovery period requiring some pressure on the pedals, monitor your heart rate to see if you are able to bring it back to normal recovery levels over the course of the 16min.</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <SteadyState Duration="180" Power="0.50449997" pace="0">
+            <textevent timeoffset="160" message="The 1min efforts will prepare you for the longer efforts." locIndex="1" />
+        </SteadyState>
+        <IntervalsT Repeat="2" OnDuration="60" OffDuration="60" OnPower="0.75449997" OffPower="0.50449997" pace="0">
+            <textevent timeoffset="207" message="A little more intensity this time." locIndex="2" />
+        </IntervalsT>
+        <IntervalsT Repeat="2" OnDuration="60" OffDuration="60" OnPower="0.90449995" OffPower="0.50449997" pace="0" />
+        <SteadyState Duration="180" Power="0.50449997" pace="0">
+            <textevent timeoffset="133" message="16min at threshold with a brief 1min rest every 3min." locIndex="3" />
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="180" OffDuration="60" OnPower="0.98449993" OffPower="0.62449998" pace="0">
+            <textevent timeoffset="441" message="2 more to go!" locIndex="4" />
+            <textevent timeoffset="688" message="Last effort!" locIndex="5" />
+            <textevent timeoffset="49" message="Note your finishing HR at the end of the set." locIndex="6" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.56030869" pace="0">
+            <textevent timeoffset="239" message="Ready for the next set." locIndex="7" />
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="180" OffDuration="60" OnPower="0.98449993" OffPower="0.62449998" pace="0">
+            <textevent timeoffset="37" message="Again, observe your HR at the end of the set." locIndex="8" />
+            <textevent timeoffset="447" message="2 to go!" locIndex="9" />
+            <textevent timeoffset="683" message="Last one!" locIndex="10" />
+        </IntervalsT>
+        <Cooldown Duration="300" PowerLow="0.75449997" PowerHigh="0.50449997" pace="0" />
+    </workout>
+</workout_file>

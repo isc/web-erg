@@ -1,0 +1,145 @@
+<workout_file>
+    <uniqueId>ee992af9-9d5e-47f5-be63-71215e3fde8e</uniqueId>
+    <legacyIdHash>3483093764</legacyIdHash>
+    <author>ADRIÁN LÓPEZ</author>
+    <categoryOverride>Threshold</categoryOverride>
+    <name>Cameron Wurf: All-Rounder </name>
+    <activitySaveName>Zwift Pro Training Camp: INEOS Grenadiers | Cameron Wurf</activitySaveName>
+    <description>The world-record holder of the bike in the Ironman World Championships, Wurf stepped in to fill a vacant roster spot in 2020 and instantly impressed. The Aussie put in some towering support ride performances, with his return to road cycling culminating in a grand tour appearance at the Vuelta. He provides fantastic experience and is a great presence within the team.
+
+        Do you want to build a  big engine? Today we are here to teach you how Cam built his. This workout has a main set of 3 x 10 min threshold efforts, but to shake things up you will be doing the 1st and 10th minute at a higher effort.
+        </description>
+    <sportType>bike</sportType>
+    <category>Pro Training Camp | INEOS Grenadiers</category>
+    <categoryIndex>4</categoryIndex>
+    <visibleAfterTime>1668988860</visibleAfterTime>
+    <overrideHash>1604857073</overrideHash>
+    <tags>
+        <tag name="zprotraining" />
+    </tags>
+    <workout>
+        <Warmup Duration="480" PowerLow=".55" PowerHigh=".70">
+            <textevent timeoffset="0" message="Welcome to Zwift&apos;s Pro Training Camp." locIndex="1" />
+            <textevent timeoffset="10" message="Let&apos;s get started with an easy warm-up. Keep your cadence comfortable." locIndex="2" />
+            <textevent timeoffset="20" message="In this training series we&apos;ve got workouts provided by the world&apos;s best cyclists." locIndex="3" />
+            <textevent timeoffset="30" message="Giving YOU the chance to train like a pro." locIndex="4" />
+            <textevent timeoffset="40" message="Today&apos;s workout is from Cameron Wurf from the INEOS Grenadiers." locIndex="5" />
+            <textevent timeoffset="50" message="Cam&apos;s role with INEOS is as a Rouleur." locIndex="6" />
+            <textevent timeoffset="60" message="What is a Rouleur you may ask? In short he&apos;s a work horse for the team." locIndex="7" />
+            <textevent timeoffset="70" message="Cam spends lots of time at the front of the peloton keeping the pace high and protecting his teammates." locIndex="8" />
+            <textevent timeoffset="80" message="He is also a TT specialist and can sustain big power over long distances." locIndex="9" />
+            <textevent timeoffset="100" message="Today&apos;s workout focuses on zone 4 with 3 x 10 min threshold efforts." locIndex="10" />
+            <textevent timeoffset="110" message="These types of sessions are the building blocks for sustaining long, high, power." locIndex="11" />
+            <textevent timeoffset="130" message="Typically there are 7 training zones." locIndex="12" />
+            <textevent timeoffset="140" message="Zone is 1 active recovery, zone 2 is endurance, zone 3 is Tempo... " locIndex="13" />
+            <textevent timeoffset="150" message="Zone 4 is Threshold, zone 5 is VO2max, zone 6 is anaerobic capacity..." locIndex="14" />
+            <textevent timeoffset="160" message="And zone 7 is neuromuscular power." locIndex="15" />
+            <textevent timeoffset="170" message="Today&apos;s main set will be 3 x 10 min blocks of work with the 1st and last minute slightly harder." locIndex="16" />
+            <textevent timeoffset="190" message="Take the next few minutes to finish warming up." locIndex="17" />
+            <textevent timeoffset="450" message="You should be feeling pretty warm by now, but to make sure you are really ready we&apos;ve got a short V02 max set complete." locIndex="18" />
+            <textevent timeoffset="460" message="It&apos;s 3 x 60 seconds in zone 5, with very easy recovery." locIndex="19" />
+            <textevent timeoffset="470" message="Let&apos;s get into it." locIndex="20" />
+        </Warmup>
+        <IntervalsT Repeat="3" OnDuration="60" OffDuration="120" OnPower="1.1" OffPower=".55">
+            <textevent timeoffset="0" message="Let&apos;s go, first taste of power today." locIndex="21" />
+            <textevent timeoffset="10" message="Quickly get up to target power and maintain it." locIndex="22" />
+            <textevent timeoffset="40" message="Hold it!" locIndex="23" />
+            <textevent timeoffset="60" message="Nice work, easy spin between these reps." locIndex="24" />
+            <textevent timeoffset="180" message="Back on it." locIndex="25" />
+            <textevent timeoffset="210" message="You&apos;ve got it." locIndex="26" />
+            <textevent timeoffset="240" message="Back to recovery." locIndex="27" />
+            <textevent timeoffset="350" message="Last rep to finish off this little warm up set." locIndex="28" />
+            <textevent timeoffset="360" message="Let&apos;s go!" locIndex="29" />
+            <textevent timeoffset="390" message="Stay with it." locIndex="30" />
+            <textevent timeoffset="420" message="Great work." locIndex="31" />
+            <textevent timeoffset="480" message="You&apos;ve got 2 min of recovery up next." locIndex="32" />
+        </IntervalsT>
+        <SteadyState Duration="120" Power=".55">
+            <textevent timeoffset="0" message="Find a comfortable cadence and take the next few minutes easy." locIndex="33" />
+            <textevent timeoffset="10" message="Quick drink of water and let&apos;s discuss the main set." locIndex="34" />
+            <textevent timeoffset="20" message="Up next is our first, of 3, 10 minute blocks." locIndex="35" />
+            <textevent timeoffset="30" message="Each 10 minute block will start and finish with 1 minute at 90% of FTP." locIndex="36" />
+            <textevent timeoffset="40" message="The middle 8 minutes will be steady at 80% of FTP." locIndex="37" />
+            <textevent timeoffset="90" message="Another 30 seconds until we get started." locIndex="38" />
+            <textevent timeoffset="110" message="Here we go!." locIndex="39" />
+        </SteadyState>
+        <SteadyState Duration="60" Power=".90">
+            <textevent timeoffset="" message="Bring up the power." locIndex="40" />
+            <textevent timeoffset="" message="Settle into a comfortable rhythm." locIndex="41" />
+            <textevent timeoffset="" message="A slightly lower cadence may feel more comfortable here, 80-90 rpms." locIndex="42" />
+        </SteadyState>
+        <SteadyState Duration="480" Power=".80">
+            <textevent timeoffset="0" message="Bring the power down slightly." locIndex="43" />
+            <textevent timeoffset="10" message="Get comfortable, we are going to be here for a while." locIndex="44" />
+            <textevent timeoffset="60" message="Nice work, keep it up." locIndex="45" />
+            <textevent timeoffset="120" message="Grab a quick drink." locIndex="46" />
+            <textevent timeoffset="240" message="Halfway though, how are you feeling?" locIndex="47" />
+            <textevent timeoffset="300" message="Looking good so far." locIndex="48" />
+            <textevent timeoffset="460" message="Up next, we bring the effort back up for 1 min." locIndex="49" />
+        </SteadyState>
+        <SteadyState Duration="60" Power=".90">
+            <textevent timeoffset="0" message="Bring the power up just a touch." locIndex="50" />
+            <textevent timeoffset="20" message="Nice and steady." locIndex="51" />
+            <textevent timeoffset="50" message="Great job, 3 min recovery up next." locIndex="52" />
+        </SteadyState>
+        <SteadyState Duration="180" Power=".55">
+            <textevent timeoffset="0" message="Nice work on round 1." locIndex="53" />
+            <textevent timeoffset="10" message="Take the next few minutes of recovery to bring down your heart rate." locIndex="54" />
+            <textevent timeoffset="110" message="Take a few sips of water and if you need nutrition, now is a good time to take it." locIndex="55" />
+            <textevent timeoffset="120" message="Back on in 1 minute." locIndex="56" />
+            <textevent timeoffset="160" message="Same pattern for round 2." locIndex="57" />
+            <textevent timeoffset="170" message="Here we go!" locIndex="58" />
+        </SteadyState>
+        <SteadyState Duration="60" Power=".90">
+            <textevent timeoffset="0" message="Get on top of the power." locIndex="59" />
+            <textevent timeoffset="20" message="Focus on a smooth pedal stroke." locIndex="60" />
+        </SteadyState>
+        <SteadyState Duration="480" Power=".80">
+            <textevent timeoffset="0" message="Come off the power a little." locIndex="61" />
+            <textevent timeoffset="10" message="Keep it steady." locIndex="62" />
+            <textevent timeoffset="60" message="Looking really strong." locIndex="63" />
+            <textevent timeoffset="120" message="Keep sipping water." locIndex="64" />
+            <textevent timeoffset="240" message="Halfway point, keep ticking the pedals over." locIndex="65" />
+            <textevent timeoffset="450" message="We are bringing up the pace again soon." locIndex="66" />
+        </SteadyState>
+        <SteadyState Duration="60" Power=".90">
+            <textevent timeoffset="0" message="Add a little more pressure." locIndex="67" />
+            <textevent timeoffset="30" message="Final 30 seconds!" locIndex="68" />
+        </SteadyState>
+        <SteadyState Duration="180" Power=".55">
+            <textevent timeoffset="0" message="2 down, 1 to go." locIndex="69" />
+            <textevent timeoffset="10" message="Last chance to take in your nutrition." locIndex="70" />
+            <textevent timeoffset="30" message="Finish your bottle and toss it away." locIndex="71" />
+            <textevent timeoffset="40" message="We&apos;ve got one last effort." locIndex="72" />
+            <textevent timeoffset="160" message="Last effort of the day up next." locIndex="73" />
+            <textevent timeoffset="170" message="You can do it." locIndex="74" />
+        </SteadyState>
+        <SteadyState Duration="60" Power=".90">
+            <textevent timeoffset="0" message="Back on the pedals." locIndex="75" />
+            <textevent timeoffset="30" message="Stay on it, don&apos;t let the pace slip." locIndex="76" />
+        </SteadyState>
+        <SteadyState Duration="480" Power=".80">
+            <textevent timeoffset="0" message="Nice work, settle into this pace." locIndex="77" />
+            <textevent timeoffset="120" message="Keep the pressure on." locIndex="78" />
+            <textevent timeoffset="130" message="Nice smooth pedal stroke." locIndex="79" />
+            <textevent timeoffset="240" message="Halfway, this is a monster session." locIndex="80" />
+            <textevent timeoffset="450" message="You&apos;re into the final stretch, one last little push." locIndex="81" />
+        </SteadyState>
+        <SteadyState Duration="60" Power=".90">
+            <textevent timeoffset="0" message="Lift the pace." locIndex="82" />
+            <textevent timeoffset="30" message="One final push to the line." locIndex="83" />
+            <textevent timeoffset="50" message="Almost there!" locIndex="84" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow=".5" PowerHigh=".65">
+            <textevent timeoffset="0" message="Great session." locIndex="85" />
+            <textevent timeoffset="10" message="You&apos;ve made some serious gains today." locIndex="86" />
+            <textevent timeoffset="20" message="Threshold sessions can be a grind, but you made that look easy." locIndex="87" />
+            <textevent timeoffset="30" message="Building a higher threshold is one of the most important aspects of endurance sport." locIndex="88" />
+            <textevent timeoffset="60" message="Take the next few minutes to cool down." locIndex="89" />
+            <textevent timeoffset="260" message="Thanks for riding with us today." locIndex="90" />
+            <textevent timeoffset="270" message="Check out the other INEOS Grenadiers workouts..." locIndex="91" />
+            <textevent timeoffset="280" message="and enjoy the rest of training camp." locIndex="92" />
+            <textevent timeoffset="290" message="Ride On!" locIndex="93" />
+        </Cooldown>
+    </workout>
+</workout_file>

@@ -1,0 +1,16 @@
+<workout_file>
+    <uniqueId>ddee91d3-30d9-44b9-b0e3-c8639b60205e</uniqueId>
+    <legacyIdHash>1478328529</legacyIdHash>
+    <name>Day 1 - Swim</name>
+    <description>Swim - 1400-1800 yds. 
+300-400 yds of steady swimming and mixed drills to warm up. 1000-1200 yds swim at an easy pace working on consistent arm turnover and building endurance. Finish with a short 100-200 yd cool down.</description>
+    <author>QT2</author>
+    <category>Olympic Tri Prep Plan</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 3</subcategory>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/QT2Systems_Logo.tga</authorIcon>
+    <sportType>swim</sportType>
+    <workoutLength>1800</workoutLength>
+    <workout> 
+  </workout>
+</workout_file>

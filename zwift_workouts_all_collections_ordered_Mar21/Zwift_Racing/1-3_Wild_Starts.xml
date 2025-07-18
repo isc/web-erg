@@ -1,0 +1,106 @@
+<workout_file>
+    <uniqueId>812e8622-fffb-410b-beee-f3af6802e50b</uniqueId>
+    <legacyIdHash>2109801022</legacyIdHash>
+    <author>Zwift</author>
+    <name>Week 1.3 - Wild Starts</name>
+    <description>A Zwift race start simulation workout with an initial very hard effort followed by a sweet spot ramp.</description>
+    <sportType>bike</sportType>
+    <category>Z Racing</category>
+    <subcategory>Week 1</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="480" PowerLow=".5" PowerHigh=".8">
+            <textevent timeoffset="0" message="Welcome to today&apos;s workout, my friend! Let&apos;s get started with a warmup." locIndex="1" />
+            <textevent timeoffset="10" message="As always, keep your cadence comfortable here and ease into the day." locIndex="2" />
+            <textevent timeoffset="120" message="Take a quick look to make sure you have your fluids, fan, and towel handy." locIndex="3" />
+            <textevent timeoffset="180" message="As you feel warmer, increase your cadence steadily to aid in warming your muscles up." locIndex="4" />
+            <textevent timeoffset="240" message="Halfway through today&apos;s warmup, here&apos;s what&apos;s in store today..." locIndex="5" />
+            <textevent timeoffset="250" message="A very important part of Zwift racing is their start." locIndex="6" />
+            <textevent timeoffset="260" message="They can be compared to a cyclocross start, if you&apos;ve ever done cross." locIndex="7" />
+            <textevent timeoffset="270" message="In a nutshell, people go wild off the start and sprint for the 1st 10-30sec." locIndex="8" />
+            <textevent timeoffset="280" message="So, it&apos;s your job today to practice these wild starts." locIndex="9" />
+            <textevent timeoffset="290" message="And ideally improve your tolerance to &apos;suffer&apos; a bit at the start of a race." locIndex="10" />
+            <textevent timeoffset="300" message="More specifically, we&apos;ll tackle 3 intervals today." locIndex="11" />
+            <textevent timeoffset="310" message="Each start with a hard effort at 150% FTP, followed by a sweet spot ramp." locIndex="12" />
+            <textevent timeoffset="320" message="With 5min of recovery in between each one :-)" locIndex="13" />
+            <textevent timeoffset="330" message="Let&apos;s continue on with the warmup." locIndex="14" />
+            <textevent timeoffset="420" message="1min to go for today&apos;s warmup, then we&apos;ll take it easy for a couple minutes." locIndex="15" />
+        </Warmup>
+        <SteadyState Duration="120" Power="0.55">
+            <textevent timeoffset="0" message="Nicely done, let&apos;s take it nice and easy for a couple of minutes now." locIndex="16" />
+            <textevent timeoffset="60" message="Take a few deep breaths and sip some fluids here." locIndex="17" />
+            <textevent timeoffset="90" message="Our 1st interval is just ahead, we&apos;re start with 1min at 150% FTP." locIndex="18" />
+            <textevent timeoffset="110" message="Aim for 110+ RPM for these! LET&apos;s GO!" locIndex="19" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.5" pace="" Cadence="110">
+            <textevent timeoffset="0" message="GO GO GO! Get off the line quickly now!" locIndex="20" />
+            <textevent timeoffset="20" message="Don&apos;t let up here! Make the initial selection." locIndex="21" />
+            <textevent timeoffset="40" message="Just a little more to go before the group settles down!" locIndex="22" />
+        </SteadyState>
+        <Ramp Duration="540" PowerLow=".88" PowerHigh=".95" Cadence="85" pace="">
+            <textevent timeoffset="0" message="Great effort! Let&apos;s settle into a hard effort now at a more comfortable cadence." locIndex="23" />
+            <textevent timeoffset="30" message="This is your chance to learn to recover under pressure." locIndex="24" />
+            <textevent timeoffset="40" message="Deep breaths now and stay in the group to capitalize on the draft." locIndex="25" />
+            <textevent timeoffset="120" message="You should feel somewhat recovered by now, but keep breathing and drinking." locIndex="26" />
+            <textevent timeoffset="240" message="Great effort so far! These intervals are perfect training for Zwift races." locIndex="27" />
+            <textevent timeoffset="420" message="This should start to feel like work again...Stay with it!" locIndex="28" />
+            <textevent timeoffset="480" message="Final minute of this 1st interval, DIG!" locIndex="29" />
+        </Ramp>
+        <SteadyState Duration="300" Power=".55" pace="">
+            <textevent timeoffset="0" message="Way to go! That&apos;s 1 down with 2 to go." locIndex="30" />
+            <textevent timeoffset="10" message="We&apos;re going to take a 5min recovery now." locIndex="31" />
+            <textevent timeoffset="20" message="Make sure to towel off, take a drink, and breathe here. We&apos;ll catch up with 1min to go." locIndex="32" />
+            <textevent timeoffset="240" message="All right, interval #2 is just ahead." locIndex="33" />
+            <textevent timeoffset="250" message="This time we&apos;re going to reduce the start effort to 45sec." locIndex="34" />
+            <textevent timeoffset="260" message="But, still at 150% FTP, with a 9min 15sec sweet spot ramp to follow." locIndex="35" />
+            <textevent timeoffset="290" message="Bring your cadence up to 110+ RPM now..." locIndex="36" />
+        </SteadyState>
+        <SteadyState Duration="45" Power="1.5" pace="" Cadence="110">
+            <textevent timeoffset="0" message="UP UP UP!" locIndex="37" />
+            <textevent timeoffset="20" message="C&apos;mon! WORK!" locIndex="38" />
+        </SteadyState>
+        <Ramp Duration="555" PowerLow=".88" PowerHigh=".95" Cadence="85" pace="">
+            <textevent timeoffset="0" message="NICE! Now, settle into sweet spot quickly again and keep a steady cadence." locIndex="39" />
+            <textevent timeoffset="30" message="Breathe...Recover now - You&apos;re in control!" locIndex="40" />
+            <textevent timeoffset="60" message="Great work! Learning to &apos;suffer&apos; a little bit will improve your Zwift racing craft." locIndex="41" />
+            <textevent timeoffset="180" message="Make sure you&apos;re still drinking here." locIndex="42" />
+            <textevent timeoffset="190" message="It&apos;s easy to forget to drink while under pressure." locIndex="43" />
+            <textevent timeoffset="200" message="But, becoming dehydrated will decrease your performance substantially." locIndex="44" />
+            <textevent timeoffset="300" message="You&apos;re more than halfway done now, and looking GREAT!" locIndex="45" />
+            <textevent timeoffset="310" message="Keep on steadily increasing your effort over these final minutes." locIndex="46" />
+            <textevent timeoffset="420" message="Imagine yourself in a race scenario for these intervals and staying in the wheels." locIndex="47" />
+            <textevent timeoffset="430" message="Visualization can be really motivating and allow you to dig even deeper." locIndex="48" />
+            <textevent timeoffset="495" message="Final minute of our 2nd interval! Stay strong all the way to the arch!" locIndex="49" />
+        </Ramp>
+        <SteadyState Duration="300" Power=".55" pace="">
+            <textevent timeoffset="0" message="Great work so far today! We&apos;re going to take a nice recovery again here." locIndex="50" />
+            <textevent timeoffset="10" message="And we&apos;ll catch up again with 1min to go." locIndex="51" />
+            <textevent timeoffset="240" message="Ready to CRUSH this finale?" locIndex="52" />
+            <textevent timeoffset="250" message="The start effort will be 30sec this time, with a 9min 30sec ramp to follow." locIndex="53" />
+            <textevent timeoffset="260" message="You got this, my friend!" locIndex="54" />
+            <textevent timeoffset="290" message="Cadence up to 110+ RPM now." locIndex="55" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.5" pace="" Cadence="110">
+            <textevent timeoffset="0" message="LET&apos;S GO! UP UP UP!" locIndex="56" />
+        </SteadyState>
+        <Ramp Duration="570" PowerLow=".88" PowerHigh=".95" Cadence="85" pace="">
+            <textevent timeoffset="0" message="Nice! That may be the shortest hard start today." locIndex="57" />
+            <textevent timeoffset="10" message="But, the 3rd interval of the day will make it feel tough!" locIndex="58" />
+            <textevent timeoffset="60" message="Being okay with pushing yourself under fatigue is another important aspect of Zwift racing." locIndex="59" />
+            <textevent timeoffset="70" message="Since most can get through the 1st or 2nd lap of a race in a group." locIndex="60" />
+            <textevent timeoffset="80" message="But the final lap is where you separate the wheat from the chaff!" locIndex="61" />
+            <textevent timeoffset="180" message="Stay in control now, and grit your teeth to the finish line!" locIndex="62" />
+            <textevent timeoffset="300" message="More than halfway through our final interval today! Way to go!" locIndex="63" />
+            <textevent timeoffset="420" message="Take a couple sips of fluid here." locIndex="64" />
+            <textevent timeoffset="510" message="Final minute! Keep it up!" locIndex="65" />
+            <textevent timeoffset="560" message="Push all the way to the arch!" locIndex="66" />
+        </Ramp>
+        <Cooldown Duration="300" PowerHigh="0.3" PowerLow="0.5">
+            <textevent timeoffset="0" message="All right! Way to crush it today!" locIndex="67" />
+            <textevent timeoffset="10" message="That &apos;flavor&apos; of workout is something you&apos;ll see frequently over this plan." locIndex="68" />
+            <textevent timeoffset="20" message="Since it mimics the specificity of Zwift racing very well." locIndex="69" />
+            <textevent timeoffset="30" message="We&apos;re going to take 5mins and cooldown here, then we check another one off in the books." locIndex="70" />
+            <textevent timeoffset="40" message="See you next time :-)" locIndex="71" />
+        </Cooldown>
+    </workout>
+</workout_file>

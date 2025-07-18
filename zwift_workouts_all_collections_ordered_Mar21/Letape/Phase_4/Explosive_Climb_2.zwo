@@ -1,0 +1,79 @@
+<workout_file>
+    <uniqueId>b26d824e-f8ea-4e49-9e6f-ee2d5a82c250</uniqueId>
+    <legacyIdHash>2833389720</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Phase 4.4 - Explosive Climb #2</name>
+    <description>Attacking your way into the base of the long climbs today. By completing a high powered effort at the base of the climb, you will build up lactate which then becomes the predominant fuel source.
+
+But the main focus today is on completing very long, low cadence efforts. Much like you will in L&apos;Etape du Tour de France.</description>
+    <sportType>bike</sportType>
+    <category>L&apos;Etape du Tour Training Club</category>
+    <subcategory>Phase 4</subcategory>
+    <visibleAfterTime>1560470400</visibleAfterTime>
+    <workout>
+        <Warmup Duration="420.00003" PowerLow="0.45450002" PowerHigh="0.75449997" pace="-256">
+            <textevent timeoffset="20" message="A gradual warmup today as the intensity of the session isn&apos;t overly hard." locIndex="1" />
+            <textevent timeoffset="180" message="L&apos;Etape du Tour de France will consist of long periods of climbing." locIndex="2" />
+            <textevent timeoffset="240" message="This means sub-threshold power at a lower than normal cadence." locIndex="3" />
+            <textevent timeoffset="300" message="The only way to train for this is by completing long efforts." locIndex="4" />
+            <textevent timeoffset="360" message="But today we add to the training effect by completing some high intensity surges before the &apos;climbing&apos; efforts." locIndex="5" />
+            <textevent timeoffset="400" message="To complete the warmup we go straight into a threshold effort." locIndex="6" />
+        </Warmup>
+        <SteadyState Duration="180.00002" Power="0.95449996" pace="-256">
+            <textevent timeoffset="07" message="Self select your cadence for this effort." locIndex="7" />
+            <textevent timeoffset="120" message="The low cadence work is ahead." locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.50449997" pace="-256">
+            <textevent timeoffset="10" message="A good rest period now. The hard work is long today!" locIndex="9" />
+            <textevent timeoffset="240" message="To build some fatigue in the legs we open with 3 x 15sec high powered efforts." locIndex="10" />
+            <textevent timeoffset="260" message="Then straight into the low cadence work." locIndex="11" />
+            <textevent timeoffset="280" message="Here we go." locIndex="12" />
+        </SteadyState>
+        <IntervalsT Repeat="3" OnDuration="15" OffDuration="15" OnPower="1.5044999" OffPower="0.65449995" pace="-256" />
+        <Ramp Duration="900" PowerLow="0.80449992" PowerHigh="0.92449993" pace="-256" Cadence="75">
+            <textevent timeoffset="05" message="Go straight for the target cadence of 75rpm." locIndex="13" />
+            <textevent timeoffset="30" message="Settle in for a long effort." locIndex="14" />
+            <textevent timeoffset="130" message="The target power will gradually increase." locIndex="15" />
+            <textevent timeoffset="190" message="Just keep the revs at 75 and let the smart trainer adjust the power." locIndex="16" />
+            <textevent timeoffset="250" message="Visualise yourself on the big climbs of L&apos;Etape du Tour de France." locIndex="17" />
+            <textevent timeoffset="310" message="Relieve the pressure in your legs occasionally by getting out of the seat for a few pedal strokes." locIndex="18" />
+            <textevent timeoffset="370" message="Into the upper end of zone 3 now." locIndex="19" />
+            <textevent timeoffset="430" message="You&apos;re doing a great job." locIndex="20" />
+            <textevent timeoffset="490" message="Long intervals are just like long climbs." locIndex="21" />
+            <textevent timeoffset="510" message="They take good concentration." locIndex="22" />
+            <textevent timeoffset="570" message="You should be able to maintain the target cadence without watching the data on the screen." locIndex="23" />
+            <textevent timeoffset="630" message="This demonstrates a good &apos;feeling&apos; for the effort." locIndex="24" />
+            <textevent timeoffset="780" message="Just 2min to go. Almost at the top" locIndex="25" />
+            <textevent timeoffset="880" message="Great work. That completes the first long climb." locIndex="26" />
+        </Ramp>
+        <SteadyState Duration="300" Power="0.5" pace="-256">
+            <textevent timeoffset="10" message="Another good recovery period now." locIndex="27" />
+            <textevent timeoffset="160" message="Just like in L&apos;Etape du Tour de France, you may ride the valleys easy, and the climbs tempo." locIndex="28" />
+            <textevent timeoffset="220" message="In the next long effort we increase the target cadence to 80rpm." locIndex="29" />
+            <textevent timeoffset="280" message="But first we have the high intensity 15sec efforts!" locIndex="30" />
+        </SteadyState>
+        <IntervalsT Repeat="3" OnDuration="15" OffDuration="15" OnPower="1.5044999" OffPower="0.65449995" pace="-256" />
+        <Ramp Duration="900" PowerLow="0.92449993" PowerHigh="0.80449992" pace="-256" Cadence="80">
+            <textevent timeoffset="10" message="Settle in for this long effort." locIndex="31" />
+            <textevent timeoffset="130" message="The good news is this time we start with the high power and gradually reduce the target power." locIndex="32" />
+            <textevent timeoffset="190" message="Just keep the revs at 80 and let the smart trainer adjust the power." locIndex="33" />
+            <textevent timeoffset="250" message="Visualise yourself on the big climbs of L&apos;Etape du Tour de France." locIndex="34" />
+            <textevent timeoffset="310" message="Relieve the pressure in your legs occasionally by getting out of the seat for a few pedal strokes." locIndex="35" />
+            <textevent timeoffset="370" message="This effort simulates starting a long climb a little quick and having to back the power off." locIndex="36" />
+            <textevent timeoffset="430" message="You&apos;re doing a great job." locIndex="37" />
+            <textevent timeoffset="490" message="Long intervals simulate long climbs." locIndex="38" />
+            <textevent timeoffset="510" message="They take good concentration." locIndex="39" />
+            <textevent timeoffset="570" message="You should be able to maintain the target cadence without watching the data on the screen." locIndex="40" />
+            <textevent timeoffset="630" message="This demonstrates a good &apos;feeling&apos; for the effort." locIndex="41" />
+            <textevent timeoffset="780" message="Just 2min to go. Almost at the top" locIndex="42" />
+            <textevent timeoffset="880" message="Great work. That completes 2 long climbs and 30min of low cadence work." locIndex="43" />
+        </Ramp>
+        <SteadyState Duration="300" Power="0.50449997" pace="-256">
+            <textevent timeoffset="13" message="That&apos;s a great session from you today." locIndex="44" />
+            <textevent timeoffset="230" message="30min of low cadence work may give you some muscle soreness in the coming days." locIndex="45" />
+            <textevent timeoffset="260" message="Perhaps a recovery ride tomorrow if you&apos;re feeling overly sore?" locIndex="46" />
+            <textevent timeoffset="280" message="If a recovery ride is needed, move tomorrows planned effort back a day." locIndex="47" />
+            <textevent timeoffset="290" message="The important thing is don&apos;t overdo it and stay healthy." locIndex="48" />
+        </SteadyState>
+    </workout>
+</workout_file>

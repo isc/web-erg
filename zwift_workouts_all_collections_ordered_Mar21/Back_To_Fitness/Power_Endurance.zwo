@@ -1,0 +1,111 @@
+<workout_file>
+    <uniqueId>73c6980c-46ad-485a-8d1f-bdae5d1274cd</uniqueId>
+    <legacyIdHash>700195783</legacyIdHash>
+    <author>Kristin Armstrong</author>
+    <categoryOverride>Daily Fit</categoryOverride>
+    <name>Week 12.1 - Power + Endurance</name>
+    <description>This ride consists of an integration of POWER + Endurance. The power efforts will be shorter efforts 30 seconds or less in duration followed by a ramp-down style of climbing and endurance decreasing in intensity throughout 5 minutes. We will tap in to all of our energy systems today which keep sessions fun while at the same time challenging for all!</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <tags />
+    <category>Back to Fitness</category>
+    <subcategory>Week 12</subcategory>
+    <workout>
+        <SteadyState Duration="60" Power="0.6">
+            <textevent message="Welcome! Today&apos;s session will be focused on Power and Endurance. " locIndex="1" timeoffset="0" />
+            <textevent message="Let&apos;s get into things and start off with a progressive warm up." locIndex="2" timeoffset="10" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.68">
+            <textevent message="We are going to go through a 5-minute ramp up style of warm up increasing power each minute. " locIndex="3" timeoffset="0" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.75">
+            <textevent message="Keep your cadence comfortable here and stay relaxed." locIndex="4" timeoffset="0" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.83">
+            <textevent message="Do you have your fan, towel, and fluids handy?" locIndex="5" timeoffset="0" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.9">
+            <textevent message="Last step in our warm up, get yourself ready!" locIndex="6" timeoffset="0" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.55">
+            <textevent message="How are you feeling? Warmed up and ready to roll?  Let&apos;s do this! This ride consists of an integration of POWER + Endurance." locIndex="7" timeoffset="0" />
+            <textevent message="The power efforts will be shorter efforts 30 seconds or less in duration followed by a ramp-down style of climbing and endurance decreasing in intensity throughout 5 minutes." locIndex="8" timeoffset="10" />
+            <textevent message="We will tap in to all of our energy systems today which keep sessions fun while at the same time challenging for all." locIndex="9" timeoffset="20" />
+            <textevent message="Here we go! We&apos;re starting off with 4 hard efforts." locIndex="10" timeoffset="110" />
+        </SteadyState>
+        <IntervalsT OffDuration="60" OffPower="0.55" OnDuration="30" OnPower="1.51" Repeat="4">
+            <textevent message="POWER UP!" locIndex="11" timeoffset="0" />
+            <textevent message="Nicely done! We&apos;ll take 1min recovery between efforts." locIndex="12" timeoffset="30" />
+            <textevent message="GO GO GO!" locIndex="13" timeoffset="90" />
+            <textevent message="That one looked great!" locIndex="14" timeoffset="120" />
+            <textevent message="AGAIN! POWER UP!" locIndex="15" timeoffset="180" />
+            <textevent message="Nice and easy now, just 1 more to go." locIndex="16" timeoffset="210" />
+            <textevent message="UP UP UP!" locIndex="17" timeoffset="270" />
+        </IntervalsT>
+        <SteadyState Duration="60" Power="0.55">
+            <textevent message="Deep breath here!  Heading in to a 5-minute effort decreasing in intensity throughout. " locIndex="18" timeoffset="0" />
+            <textevent message="Here we go, stay focused now! We&apos;re starting off with a 30sec surge above FTP." locIndex="19" timeoffset="50" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.06">
+            <textevent message="Let&apos;s be strong on these next five minutes.  " locIndex="20" timeoffset="0" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.95">
+            <textevent message="Just under FTP now for 60sec, you got this!" locIndex="21" timeoffset="0" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="0.85">
+            <textevent message="Nice work, it&apos;s time to settle in. " locIndex="22" timeoffset="0" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.75">
+            <textevent message="Stay relaxed!" locIndex="23" timeoffset="0" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.58">
+            <textevent message="Amazing opening set! Nicely done." locIndex="24" timeoffset="0" />
+            <textevent message="Easy riding here. Make sure you are hydrating and preparing for our second portion of todays session." locIndex="25" timeoffset="10" />
+            <textevent message="We&apos;ll catch up with 1min to go." locIndex="26" timeoffset="20" />
+            <textevent message="Okay, in 1min we&apos;ll start our 2nd set, this time our opening efforts at 15sec long." locIndex="27" timeoffset="180" />
+            <textevent message="Here we go!" locIndex="28" timeoffset="230" />
+        </SteadyState>
+        <IntervalsT OffDuration="45" OffPower="0.55" OnDuration="15" OnPower="1.51" Repeat="4">
+            <textevent message="Let&apos;s hit it! In the saddle or out, you decide. " locIndex="29" timeoffset="0" />
+            <textevent message="POWER UP!" locIndex="30" timeoffset="60" />
+            <textevent message="GO GO GO! " locIndex="31" timeoffset="120" />
+            <textevent message="LAST ONE! " locIndex="32" timeoffset="180" />
+        </IntervalsT>
+        <SteadyState Duration="60" Power="0.55">
+            <textevent message="Quick recovery here prior to our ramp down endurance block." locIndex="33" timeoffset="0" />
+            <textevent message="We&apos;re starting off with a hard 30sec surge effort again, get ready!" locIndex="34" timeoffset="50" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.06">
+            <textevent message="GO GO!" locIndex="35" timeoffset="0" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.95">
+            <textevent message="Just under FTP again here, stay with me! " locIndex="36" timeoffset="0" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="0.85">
+            <textevent message="Stick with it! Push through the burn in your legs." locIndex="37" timeoffset="0" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.75">
+            <textevent message="Last 2-minutes of our block here. Great effort!" locIndex="38" timeoffset="0" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.58">
+            <textevent message="Easy spinning. Take advantage of this 3-minute block so you can put down the power as we finish up our session. " locIndex="39" timeoffset="0" />
+            <textevent message="60sec, and we&apos;re back to work again! We finish today with 4 more hard surge efforts." locIndex="40" timeoffset="120" />
+            <textevent message="Get ready to CRUSH THIS!" locIndex="41" timeoffset="170" />
+        </SteadyState>
+        <IntervalsT OffDuration="45" OffPower="0.55" OnDuration="15" OnPower="1.51" Repeat="4">
+            <textevent message="GO GO GO :15 seconds!" locIndex="42" timeoffset="0" />
+            <textevent message="Okay, deep breaths here." locIndex="43" timeoffset="15" />
+            <textevent message="PUSH YOURSELF!" locIndex="44" timeoffset="60" />
+            <textevent message="RECOVER" locIndex="45" timeoffset="75" />
+            <textevent message="POWER UP!" locIndex="46" timeoffset="120" />
+            <textevent message="RECOVER" locIndex="47" timeoffset="135" />
+            <textevent message="LAST ONE!" locIndex="48" timeoffset="180" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.58">
+            <textevent message="Nice work! Combining intense anaerobic efforts alongside endurance riding is difficult. The change of power requires your body to adapt!  " locIndex="49" timeoffset="0" />
+            <textevent message="Take care of yourself by hydrating and refueling so you feel recovered and ready to go again for your next session!" locIndex="50" timeoffset="60" />
+            <textevent message="Take a few more deep breaths here as we continue to return to baseline." locIndex="51" timeoffset="90" />
+            <textevent message="See you on the next workout - Dani and Kristin." locIndex="52" timeoffset="170" />
+        </SteadyState>
+    </workout>
+</workout_file>

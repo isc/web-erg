@@ -1,0 +1,51 @@
+<workout_file>
+    <uniqueId>bb2a9758-6a8c-46a4-98e0-ea904666fe87</uniqueId>
+    <legacyIdHash>2719738658</legacyIdHash>
+    <name>Week 12.3 - FTP Test</name>
+    <description>The standard FTP test starts off with a long easy warmup, a few ramps, and a 5 minute effort to get the legs pumping.  After that it&apos;s time to give it your all - and go as hard as you can for 20 solid minutes.  Pace yourself and try to go as hard as you can sustain for the entire 20 minutes - you will be scored on the final 20 minute segment.  
+
+Upon saving your ride, you will be notified if your FTP improved.</description>
+    <ShowCP20>1</ShowCP20>
+    <visibleOutsidePlan>0</visibleOutsidePlan>
+    <category>Build Me Up</category>
+    <subcategory>Week 12</subcategory>
+    <workout>
+        <Warmup Duration="1200" PowerLow="0.3" PowerHigh="0.7" Quantize="20">
+            <textevent timeoffset="20" message="Welcome to the FTP test" locIndex="1" />
+            <textevent timeoffset="35" y="240" message="Time to get warmed up and" locIndex="2" />
+            <textevent timeoffset="35" y="270" message="get your cadence up to 90-100rpm" locIndex="3" />
+        </Warmup>
+        <SteadyState Duration="20" PowerLow="0.8" PowerHigh="1.0" />
+        <SteadyState Duration="20" PowerLow="1.0" PowerHigh="1.2" />
+        <SteadyState Duration="20" PowerLow="1.2" PowerHigh="1.4" />
+        <SteadyState Duration="20" PowerLow="0.8" PowerHigh="1.0" />
+        <SteadyState Duration="20" PowerLow="1.0" PowerHigh="1.2" />
+        <SteadyState Duration="20" PowerLow="1.2" PowerHigh="1.4" />
+        <SteadyState Duration="20" PowerLow="0.8" PowerHigh="1.0" />
+        <SteadyState Duration="20" PowerLow="1.0" PowerHigh="1.2" />
+        <SteadyState Duration="20" PowerLow="1.2" PowerHigh="1.4" />
+        <SteadyState Duration="300" PowerLow="0.5" PowerHigh="0.7" />
+        <SteadyState Duration="300" PowerLow="1.1" PowerHigh="1.1" />
+        <SteadyState Duration="600" PowerLow="0.5" PowerHigh="0.7">
+            <textevent timeoffset="10" duration="10" message="In 10 minutes the FTP test begins" locIndex="4" />
+            <textevent timeoffset="580" duration="19" message="Prepare for your max 20 minute effort" locIndex="5" />
+        </SteadyState>
+        <Freeride Duration="1200" FlatRoad="1" ftptest="1" Target="1.1">
+            <textevent timeoffset="10" duration="20" y="240" message="Bring your power up to what you think" locIndex="6" />
+            <textevent timeoffset="10" duration="20" y="270" message="you can hold for 20 minutes" locIndex="7" />
+            <textevent timeoffset="300" duration="10" message="How ya doin?" locIndex="8" />
+            <textevent timeoffset="600" duration="10" y="240" message="Halfway done! If it&apos;s feeling easy" locIndex="9" />
+            <textevent timeoffset="600" duration="10" y="270" message="now might be time to add 10 watts." locIndex="10" />
+            <textevent timeoffset="900" duration="10" y="240" message="5 minutes left!" locIndex="11" />
+            <textevent timeoffset="960" duration="10" y="240" message="4 minutes left. Increase your" locIndex="12" />
+            <textevent timeoffset="960" duration="10" y="270" message="power if you&apos;re feeling strong." locIndex="13" />
+            <textevent timeoffset="1020" duration="10" y="240" message="3 minutes left" locIndex="14" />
+            <textevent timeoffset="1080" duration="10" y="240" message="2 minutes left" locIndex="15" />
+            <textevent timeoffset="1140" duration="10" y="240" message="1 minute left. Go all in!" locIndex="16" />
+            <textevent timeoffset="1170" duration="10" y="240" message="30 sec. Don&apos;t hold back" locIndex="17" />
+            <textevent timeoffset="1190" duration="10" y="240" message="10 seconds." locIndex="18" />
+        </Freeride>
+        <Cooldown Duration="600" PowerLow="0.7" PowerHigh="0.3">
+    </Cooldown>
+    </workout>
+</workout_file>

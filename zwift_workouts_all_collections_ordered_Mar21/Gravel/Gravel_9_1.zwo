@@ -1,0 +1,116 @@
+<workout_file>
+    <uniqueId>c19d6b83-7c0a-4435-84dd-99418e27ecbd</uniqueId>
+    <legacyIdHash>3677357802</legacyIdHash>
+    <author>Zwift</author>
+    <name>12/8/4min Threshold</name>
+    <description>In gravel racing I find there is often much more time above the 80-85% of FTP zone than road racing, and with that also a lot of time at or above threshold. Steeper climbs, softer road surface, and more time spent riding alone are all reasons your watts may sneak up into this zone. 
+
+This workout will give us some good solid work in that zone and help us find some comfort inside the pain that is found at your &quot;FTP&quot;. A total of near 30 minutes there today, so take care of yourself with lots of good hydration and snacks if necessary.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Gravel Grinder</category>
+    <subcategory>Week 9</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow="0.45" PowerHigh="0.65">
+            <textevent timeoffset="0" message="You ready for some hard riding today??? Yeah me too. " locIndex="1" />
+        </Warmup>
+        <SteadyState Duration="60" Power="0.7">
+            <textevent timeoffset="0" message="Let&apos;s start this thing with some reasonable builds first. " locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.8">
+            <textevent timeoffset="0" message="Any effort stings a little out of the gate, but you&apos;ll manage. I hope. " locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.9">
+            <textevent timeoffset="0" message="Look, almost done. " locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="0" message="Good job. I&apos;m proud of you!" locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.7">
+            <textevent timeoffset="0" message="Now that you&apos;ve proven this wasn&apos;t that hard, here&apos;s two more. " locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.8">
+		</SteadyState>
+        <SteadyState Duration="60" Power="0.9">
+            <textevent timeoffset="0" message="Come on, you&apos;re doing great!" locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="0" message="Find your smooth cadence in these rest bits today!" locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.7">
+            <textevent timeoffset="0" message="Up those RPM&apos;s!" locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.8">
+            <textevent timeoffset="0" message="Just two more little minute kickers!" locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.9">
+            <textevent timeoffset="0" message="Go on!" locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="0" message="Sweet. " locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.8">
+            <textevent timeoffset="0" message="No time lost now with some minutes building " locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.9">
+            <textevent timeoffset="0" message="and building" locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1">
+            <textevent timeoffset="0" message="and building!" locIndex="15" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="0" message="These minuter&apos;s will get harder as we go through. " locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.9">
+            <textevent timeoffset="0" message="Starting at 90 and going above threshold this round!" locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1">
+            <textevent timeoffset="0" message="But it&apos;s only 20 seconds a piece, so kinda easy. " locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.1">
+            <textevent timeoffset="0" message="I mean, not easy easy, but pretty easy?" locIndex="19" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="0" message="Are you annoyed with me yet? Well, you might hate me into the middle of this block then. " locIndex="20" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1">
+            <textevent timeoffset="0" message="Come on! Let&apos;s get on this last minute build!" locIndex="21" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.1">
+            <textevent timeoffset="0" message="Nice and smooth now." locIndex="22" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.2">
+            <textevent timeoffset="0" message="Come on! Stay on top of it!" locIndex="23" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="0" message="Ok, easy days now. " locIndex="24" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.55">
+            <textevent timeoffset="0" message="Really, seriously take it easy on these recovery blocks today." locIndex="25" />
+            <textevent timeoffset="120" message="Lots of hard work means the rest is super important. " locIndex="26" />
+        </SteadyState>
+        <SteadyState Duration="720" Power="0.95">
+            <textevent timeoffset="0" message="Here we go. Now find your smooth perfect pedal stroke as soon as you can." locIndex="27" />
+            <textevent timeoffset="220" message="Be smooth and settle in. It may not hurt yet, but it will. Promise. " locIndex="28" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.55">
+            <textevent timeoffset="0" message="That should have felt &quot;comfortably painful&quot; and an effort you could repeat several times. " locIndex="29" />
+        </SteadyState>
+        <SteadyState Duration="480" Power="1">
+            <textevent timeoffset="0" message="Block number 2 here is going to add a little sting with 5% more watts but still very manageable and this one&apos;s way shorter!" locIndex="30" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.55">
+            <textevent timeoffset="0" message="Easy now. Again that should be &quot;comfortably painful&quot; and if this effort doesn&apos;t feel repeatable than your FTP is likely set too high." locIndex="31" />
+            <textevent timeoffset="20" message="Conversely if it&apos;s les than an 8/10 on the pain scale you may have your FTP too low!" locIndex="32" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="1.05">
+            <textevent timeoffset="0" message="Ok, this one is likely gonna sting a bit. Up over FTP this effort would be the max watts you could hold over 20 minutes." locIndex="33" />
+            <textevent timeoffset="120" message="Only 4 minutes for you today, but after an hour of riding a little harder!" locIndex="34" />
+        </SteadyState>
+        <Cooldown Duration="240" PowerLow="0.55" PowerHigh="0.45">
+            <textevent timeoffset="0" message="Great work. Seriously." locIndex="35" />
+            <textevent timeoffset="120" message="Hard stuff, but you&apos;ll be better for it!" locIndex="36" />
+        </Cooldown>
+    </workout>
+</workout_file>

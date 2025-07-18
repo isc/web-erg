@@ -1,0 +1,23 @@
+<workout_file>
+    <uniqueId>79887cda-d8b7-4c10-856e-bcd0d2234c4d</uniqueId>
+    <legacyIdHash>3524757694</legacyIdHash>
+    <category>Active Offseason</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 6</subcategory>
+    <name>Week 6.6 - Endurance</name>
+    <description>We&apos;re building endurance today! Warmup followed by 3 sets of fast pedals (as fast as you can pedal without bouncing in the saddle) to open up the legs, followed by a long endurance ride. Focus on staying relaxed on the bike and vary your cadence.</description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <workout>
+        <Warmup Duration="900" PowerLow="0.25" PowerHigh="0.75" />
+        <SteadyState Duration="360" PowerLow="0.5" PowerHigh="0.5">
+            <textevent timeoffset="60" message="90 - 100 rpm" locIndex="1" />
+            <textevent timeoffset="120" message="Fast pedal!" locIndex="2" />
+            <textevent timeoffset="180" message="90 - 100 rpm" locIndex="3" />
+            <textevent timeoffset="240" message="Fast pedal!" locIndex="4" />
+            <textevent timeoffset="300" message="90 - 100 rpm" locIndex="5" />
+            <textevent timeoffset="0" message="Fast pedal!" locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="9000" Zone="2" />
+        <Cooldown Duration="900" PowerLow="0.75" PowerHigh="0.25" />
+    </workout>
+</workout_file>

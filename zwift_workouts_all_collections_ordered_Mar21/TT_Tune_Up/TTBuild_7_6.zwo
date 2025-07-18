@@ -1,0 +1,43 @@
+<workout_file>
+    <uniqueId>d2c20125-1f9b-4864-94fd-77ef9d8aea16</uniqueId>
+    <legacyIdHash>4182562379</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Sweet Spot 15min</name>
+    <description>There is no getting away from the benefit of longer steady efforts. To improve the stimulus of this type of training even further, these are the perfect prelude to finish with repeated, high power, short efforts. 
+
+Today we have a longer sweet spot effort finished with high cadence, threshold intervals.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>TT Tune Up</category>
+    <subcategory>Week 7</subcategory>
+    <tags>
+    </tags>
+    <workout>
+        <Warmup Duration="180" PowerLow="0.45" PowerHigh="0.6" />
+        <SteadyState Duration="60" Power="0.6" />
+        <SteadyState Duration="60" Power="0.65" />
+        <SteadyState Duration="60" Power="0.81" />
+        <SteadyState Duration="60" Power="1.09" />
+        <SteadyState Duration="120" Power="0.5" />
+        <SteadyState Duration="240" Power="0.95" />
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="40" message="Long steady efforts provide a great stimulus to improve fitness." locIndex="1" />
+            <textevent timeoffset="50" message="But to increase that stimulus we perform 1min, high cadence efforts at the completion of the steady effort." locIndex="2" />
+        </SteadyState>
+        <Ramp Duration="900" PowerLow="0.88" PowerHigh="0.94">
+            <textevent timeoffset="60" message="Long steady efforts are highly effective." locIndex="3" />
+            <textevent timeoffset="70" message="Observe changes to your HR and cadence throughout this 20min effort." locIndex="4" />
+            <textevent timeoffset="80" message="Are you able to maintain the same cadence throughout the effort?" locIndex="5" />
+            <textevent timeoffset="90" message="How much does the slight increase in power affect your HR?" locIndex="6" />
+        </Ramp>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="120" message="The target cadence for the 1min threshold efforts is 110RPM." locIndex="7" />
+            <textevent timeoffset="130" message="The high cadence challenges your aerobic system." locIndex="8" />
+            <textevent timeoffset="150" message="Remember to hit the target RPM and let the smart trainer adjust the power." locIndex="9" />
+        </SteadyState>
+        <IntervalsT Repeat="8" OnDuration="60" OffDuration="120" OnPower="0.98" OffPower="0.5" Cadence="110" CadenceResting="90">
+            <textevent timeoffset="50" message="How natural does 110RPM feel for you?" locIndex="10" />
+        </IntervalsT>
+        <Cooldown Duration="300" PowerLow="0.75" PowerHigh="0.45" />
+    </workout>
+</workout_file>

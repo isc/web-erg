@@ -1,0 +1,98 @@
+<workout_file>
+    <uniqueId>d57adeea-0f15-4181-a3aa-c8261ed60da3</uniqueId>
+    <legacyIdHash>3900907916</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Phase 1.6 - Strength Tempo #2</name>
+    <description>Continuing the focus on Early Base training, this session again incorporates high crank torque, interval work. However, this time we are increasing the power during the interval, while maintaining the same cadence.
+
+The session then includes some Zone 2 aerobic work with short high cadence surges.</description>
+    <sportType>bike</sportType>
+    <category>L&apos;Etape du Tour Training Club</category>
+    <subcategory>Phase 1</subcategory>
+    <visibleAfterTime>1553472000</visibleAfterTime>
+    <tags>
+        <tag name="INTERVALS" />
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.45000002" PowerHigh="0.75" pace="1">
+            <textevent timeoffset="30" message="To successfully complete L&apos;Etape du Tour, you will need to be at your best aerobically." locIndex="1" />
+            <textevent timeoffset="60" message="The majority of the event will be spent below your threshold power." locIndex="2" />
+            <textevent timeoffset="80" message="Indoor training provides you with the perfect environment to effectively train your aerobic abilities." locIndex="3" />
+            <textevent timeoffset="100" message="By targeting different intensities and cadence we can maximize your indoor training time." locIndex="4" />
+            <textevent timeoffset="120" message="By implementing some structured, short duration intensity into your Early Base training you can make some good gains in fitness." locIndex="5" />
+            <textevent timeoffset="260" message="Today our warmup takes us through some low level 1min efforts." locIndex="6" />
+            <textevent timeoffset="280" message="Starting out with 2 x 1min zone 3 efforts." locIndex="7" />
+        </Warmup>
+        <IntervalsT Repeat="2" OnDuration="60.000004" OffDuration="60.000004" OnPower="0.80000001" OffPower="0.5" pace="1">
+            <textevent timeoffset="20" message="This should be very comfortable for you." locIndex="8" />
+            <textevent timeoffset="210" message="Aim for a high cadence during the warmup efforts. About 5-10rpm higher than what is comfortable for you." locIndex="9" />
+        </IntervalsT>
+        <IntervalsT Repeat="2" OnDuration="60.000004" OffDuration="60.000004" OnPower="0.98000002" OffPower="0.5" pace="1">
+            <textevent timeoffset="30" message="Push a little more on the pedals for more power this time. But because the effort is short it shouldn&apos;t trouble you." locIndex="10" />
+            <textevent timeoffset="100" message="Just 1 more warmup effort, then you&apos;re ready for the main set." locIndex="11" />
+        </IntervalsT>
+        <SteadyState Duration="120.00001" Power="0.5" pace="1">
+            <textevent timeoffset="20" message="With today&apos;s low cadence efforts, we call these &apos;Tempo&apos; efforts because the cadence is a little higher than our &apos;Strength Endurance&apos; efforts." locIndex="12" />
+            <textevent timeoffset="40" message="Strength Endurance efforts should feel like pushing a weight." locIndex="13" />
+            <textevent timeoffset="60" message="Whereas, Strength Tempo efforts should feel like you are &apos;rolling&apos; the weight. Where you get some momentum going each pedal stroke." locIndex="14" />
+            <textevent timeoffset="80" message="As always, when there is a target cadence to an interval, focus on hitting that cadence and let the trainer adjust the power." locIndex="15" />
+            <textevent timeoffset="100" message="This is particularly important as these efforts involve the power ramping up." locIndex="16" />
+            <textevent timeoffset="260" message="Remain seated during the intervals and relax your hands on the bars." locIndex="17" />
+            <textevent timeoffset="280" message="Here we go with the 1st effort." locIndex="18" />
+        </SteadyState>
+        <Ramp Duration="480" PowerLow="0.75597185" PowerHigh="0.90522474" pace="0" Cadence="75">
+            <textevent timeoffset="10" message="Remember to focus on the target cadence." locIndex="19" />
+            <textevent timeoffset="20" message="The intensity starts out low level." locIndex="20" />
+            <textevent timeoffset="80" message="These efforts actually mimic how you can ride the climbs of L&apos;Etape du Tour." locIndex="21" />
+            <textevent timeoffset="100" message="By starting out controlled and ramping up the power over the course of the climb." locIndex="22" />
+            <textevent timeoffset="300" message="How are the legs responding to the increase in power?" locIndex="23" />
+            <textevent timeoffset="320" message="You should be feeling a little more &apos;strain&apos; on the legs. But still comfortable." locIndex="24" />
+            <textevent timeoffset="420" message="Into the last minute now." locIndex="25" />
+            <textevent timeoffset="460" message="Picture yourself cresting one of the climbs in L&apos;Etape du Tour!" locIndex="26" />
+        </Ramp>
+        <SteadyState Duration="60" Power="0.50449997" pace="0">
+            <textevent timeoffset="20" message="Great work." locIndex="27" />
+            <textevent timeoffset="40" message="Just a short recovery period then onto the next effort." locIndex="28" />
+        </SteadyState>
+        <Ramp Duration="480" PowerLow="0.75311816" PowerHigh="0.90463591" pace="0" Cadence="75">
+            <textevent timeoffset="10" message="Remember to focus on the target cadence." locIndex="29" />
+            <textevent timeoffset="30" message="It should feel like you are rolling the gear." locIndex="30" />
+            <textevent timeoffset="50" message="Relax your hands on the bars." locIndex="31" />
+            <textevent timeoffset="70" message="Sit towards the back of the saddle." locIndex="32" />
+            <textevent timeoffset="80" message="With these high crank torque intervals, you are engaging the muscle fibers that rarely get trained." locIndex="33" />
+            <textevent timeoffset="100" message="This is where the gains in endurance are made." locIndex="34" />
+            <textevent timeoffset="300" message="How are the legs responding to the increase in power?" locIndex="35" />
+            <textevent timeoffset="320" message="You should be feeling a little more &apos;strain&apos; on the legs. But still comfortable." locIndex="36" />
+            <textevent timeoffset="420" message="Into the last minute now." locIndex="37" />
+            <textevent timeoffset="460" message="Picture yourself making sure you stay in touch with a group over the top of a climb." locIndex="38" />
+        </Ramp>
+        <SteadyState Duration="60" Power="0.50449997" pace="0">
+            <textevent timeoffset="20" message="Great work." locIndex="39" />
+            <textevent timeoffset="40" message="Quick recovery then onto the next effort." locIndex="40" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.50449997" pace="0">
+            <textevent timeoffset="10" message="That was 2 very good efforts. Well done." locIndex="41" />
+            <textevent timeoffset="30" message="Now we are going to place a different kind of stress on the body." locIndex="42" />
+            <textevent timeoffset="50" message="Whilst riding at an aerobic intensity, we incorporate some high cadence surges into the effort." locIndex="43" />
+            <textevent timeoffset="70" message="These aren&apos;t maximal sprints. Think of them more as controlled accelerations." locIndex="44" />
+            <textevent timeoffset="90" message="It&apos;s fine to perform the accelerations out of the saddle if you prefer." locIndex="45" />
+            <textevent timeoffset="110" message="Ready to go. 18min of aerobic work ahead of you." locIndex="46" />
+        </SteadyState>
+        <IntervalsT Repeat="6" OnDuration="165" OffDuration="15" OnPower="0.75449997" OffPower="1.6044999" pace="0" OverUnder="1">
+            <textevent timeoffset="40" message="Being Zone 2 power, this effort should be comfortable for you." locIndex="47" />
+            <textevent timeoffset="60" message="However, the acceleration above your threshold does have a big impact on the work completed." locIndex="48" />
+            <textevent timeoffset="80" message="When we produce power above your lactate threshold, it pushes fat temporarily out of the energy production cycle." locIndex="49" />
+            <textevent timeoffset="100" message="This is why, when training is focused on fat burning, it&apos;s important to remain under your lactate threshold ." locIndex="50" />
+            <textevent timeoffset="280" message="Increase your cadence for the 15sec accelerations" locIndex="51" />
+            <textevent timeoffset="470" message="Again, this power is similar to what you may ride the climbs of L&apos;Etape du Tour." locIndex="52" />
+            <textevent timeoffset="490" message="Think of the accelerations as moments when you get out of the seat while climbing." locIndex="53" />
+            <textevent timeoffset="510" message="It&apos;s important to be able to change your rhythm while climbing." locIndex="54" />
+            <textevent timeoffset="670" message="Just 3 more accelerations to go." locIndex="55" />
+            <textevent timeoffset="883" message="Following on from the earlier &apos;Strength Tempo&apos; intervals, this is a good contrasting effort." locIndex="56" />
+            <textevent timeoffset="1078" message="Well done. That completes a nice long aerobic interval." locIndex="57" />
+        </IntervalsT>
+        <SteadyState Duration="180" Power="0.50449997" pace="0">
+            <textevent timeoffset="45" message="Be sure to hydrate adequately after the session." locIndex="58" />
+        </SteadyState>
+    </workout>
+</workout_file>

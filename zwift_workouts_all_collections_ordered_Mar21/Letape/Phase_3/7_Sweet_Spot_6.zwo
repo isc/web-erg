@@ -1,0 +1,120 @@
+<workout_file>
+    <uniqueId>fc6b9adb-0f84-4b2f-b85d-ab2381aac9e7</uniqueId>
+    <legacyIdHash>2235342829</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Phase 3.7 - Sweet Spot 6</name>
+    <description>Sweet spot work is a great way to put some stress on your body, without accumulating large amounts of fatigue. This type of work is ideal to maintain the gains in fitness you have made. It&apos;s medium intensity, but the efforts are short in duration with good recovery in between.</description>
+    <sportType>bike</sportType>
+    <category>L&apos;Etape du Tour Training Club</category>
+    <subcategory>Phase 3</subcategory>
+    <visibleAfterTime>1558051200</visibleAfterTime>
+    <tags />
+    <workout>
+        <SteadyState Duration="240.00002" Power="0.50449997" pace="3">
+            <textevent timeoffset="30" message="Today&apos;s session is more of a maintenance session." locIndex="1" />
+            <textevent timeoffset="50" message="It provides an effective workout, without the need for days of recovery." locIndex="2" />
+            <textevent timeoffset="70" message="You&apos;ve completed some great work recently." locIndex="3" />
+            <textevent timeoffset="90" message="Today is the day to do a little hard work, but without the fatigue." locIndex="4" />
+            <textevent timeoffset="130" message="The main set today consists of 6min sweet spot intervals." locIndex="5" />
+            <textevent timeoffset="200" message="But first, let&apos;s warmup." locIndex="6" />
+            <textevent timeoffset="220" message="Next we have some low intensity 30/30&apos;s." locIndex="7" />
+        </SteadyState>
+        <IntervalsT Repeat="5" OnDuration="30.000002" OffDuration="30.000002" OnPower="0.65449995" OffPower="0.85477173" pace="3">
+            <textevent timeoffset="20" message="The power fluctuates from zone 2, up to zone 3." locIndex="8" />
+            <textevent timeoffset="40" message="These efforts won&apos;t trouble you." locIndex="9" />
+            <textevent timeoffset="130" message="Aim for a nice high cadence in the efforts." locIndex="10" />
+        </IntervalsT>
+        <SteadyState Duration="60.000004" Power="0.50449997" pace="3">
+            <textevent timeoffset="20" message="Quick recovery before we complete a steady zone 3 effort." locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="180.00002" Power="0.85449994" pace="3">
+            <textevent timeoffset="60" message="You should be working up a good sweat now." locIndex="12" />
+            <textevent timeoffset="90" message="The power is high enough to assist the warmup, but without fatigue." locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="60.000004" Power="0.50449997" pace="3">
+            <textevent timeoffset="20" message="Another quick recovery, then we hit a short effort above threshold." locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="60.000004" Power="1.0244999" pace="3">
+            <textevent timeoffset="30" message="High power now, but it&apos;s only a short effort." locIndex="15" />
+        </SteadyState>
+        <SteadyState Duration="120.00001" Power="0.50449997" pace="3">
+            <textevent timeoffset="50" message="The main set today consists of 4 x 6min sweet spot efforts." locIndex="16" />
+            <textevent timeoffset="70" message="The target power either ramps up or down in each interval." locIndex="17" />
+            <textevent timeoffset="90" message="With good recovery between each effort, you will hit each interval nice and fresh." locIndex="18" />
+            <textevent timeoffset="110" message="The target power of these intervals is similar to what you can expect to be climbing at in L&apos;Etape du Tour de France." locIndex="19" />
+        </SteadyState>
+        <Ramp Duration="360" PowerLow="0.88449997" PowerHigh="0.95449996" pace="0">
+            <textevent timeoffset="20" message="In this effort we start low and work our way up." locIndex="20" />
+            <textevent timeoffset="50" message="These are quality efforts that target your aerobic engine." locIndex="21" />
+            <textevent timeoffset="80" message="Climbing in L&apos;Etape du Tour de France. Will be similar to these efforts." locIndex="22" />
+            <textevent timeoffset="100" message="Start comfortable, and work your way into more intensity." locIndex="23" />
+            <textevent timeoffset="180" message="That&apos;s halfway." locIndex="24" />
+            <textevent timeoffset="200" message="As the power increases, aim to hold the same high cadence throughout the interval." locIndex="25" />
+            <textevent timeoffset="240" message="Just 2min to go." locIndex="26" />
+            <textevent timeoffset="260" message="A big part of today&apos;s training adaptation is in repeating the effort." locIndex="27" />
+            <textevent timeoffset="280" message="It&apos;s about the volume of sweet spot work achieved in a session." locIndex="28" />
+            <textevent timeoffset="300" message="Into the last minute now." locIndex="29" />
+            <textevent timeoffset="320" message="We are getting up to near threshold now." locIndex="30" />
+            <textevent timeoffset="350" message="Great work. That&apos;s the 1st effort completed." locIndex="31" />
+        </Ramp>
+        <SteadyState Duration="180" Power="0.50449997" pace="0">
+            <textevent timeoffset="60" message="Because we are under threshold for the work interval, we don&apos;t need a long recovery period." locIndex="32" />
+            <textevent timeoffset="120" message="Grab a drink and start to prepare for the next effort." locIndex="33" />
+            <textevent timeoffset="160" message="This time we are working our way down from high to low power." locIndex="34" />
+        </SteadyState>
+        <Ramp Duration="360" PowerLow="0.95449996" PowerHigh="0.88449997" pace="0">
+            <textevent timeoffset="50" message="These are quality efforts but in reverse to the last block." locIndex="35" />
+            <textevent timeoffset="80" message="It is good to back off the power a little." locIndex="36" />
+            <textevent timeoffset="100" message="Sometimes we start a climb too quickly and need to bring the power down a little." locIndex="37" />
+            <textevent timeoffset="180" message="That&apos;s halfway." locIndex="38" />
+            <textevent timeoffset="200" message="As the power decreases, aim to hold the same high cadence throughout the interval." locIndex="39" />
+            <textevent timeoffset="240" message="Just 2min to go." locIndex="40" />
+            <textevent timeoffset="260" message="A big part of today&apos;s training adaptation is in repeating the effort." locIndex="41" />
+            <textevent timeoffset="280" message="It&apos;s about the volume of sweet spot work achieved in a session." locIndex="42" />
+            <textevent timeoffset="300" message="Into the last minute now." locIndex="43" />
+            <textevent timeoffset="320" message="Has your perceived rate of exertion decreased along with the decrease in power?" locIndex="44" />
+            <textevent timeoffset="350" message="Great work. That&apos;s the 2nd effort completed." locIndex="45" />
+        </Ramp>
+        <SteadyState Duration="180" Power="0.50449997" pace="0">
+            <textevent timeoffset="60" message="Sub-threshold work doesn&apos;t need a long recovery period." locIndex="46" />
+            <textevent timeoffset="120" message="Take on some water and a few deep breaths." locIndex="47" />
+            <textevent timeoffset="160" message="This time we are working our way up from low to high power." locIndex="48" />
+        </SteadyState>
+        <Ramp Duration="360" PowerLow="0.88449997" PowerHigh="0.95449996" pace="0">
+            <textevent timeoffset="20" message="Just like the first effort, we start low and work our way up." locIndex="49" />
+            <textevent timeoffset="50" message="You should be getting used to these aerobic efforts now." locIndex="50" />
+            <textevent timeoffset="80" message="You&apos;ll need good aerobic efficiency to tackle 15,000ft of climbing in L&apos;Etape du Tour de France." locIndex="51" />
+            <textevent timeoffset="100" message="Starting comfortable, we’ll work into more intensity." locIndex="52" />
+            <textevent timeoffset="180" message="That&apos;s halfway." locIndex="53" />
+            <textevent timeoffset="200" message="As the power increases, aim to hold the same high cadence throughout the interval." locIndex="54" />
+            <textevent timeoffset="240" message="Just 2min to go." locIndex="55" />
+            <textevent timeoffset="260" message="Repeating these efforts play a big role in adaptation." locIndex="56" />
+            <textevent timeoffset="280" message="Quality sweet spot work will help with aerobic efficiency gains." locIndex="57" />
+            <textevent timeoffset="300" message="Into the last minute now." locIndex="58" />
+            <textevent timeoffset="320" message="We are getting up to near threshold now." locIndex="59" />
+            <textevent timeoffset="350" message="Great work. That&apos;s the 3rd effort completed." locIndex="60" />
+        </Ramp>
+        <SteadyState Duration="180" Power="0.50449997" pace="0">
+            <textevent timeoffset="60" message="How is your recovery? Is it taking longer to recover from each effort?" locIndex="61" />
+            <textevent timeoffset="120" message="Last effort coming up. Have a quick drink." locIndex="62" />
+            <textevent timeoffset="160" message="We finish with a good one. Going from high to low power." locIndex="63" />
+        </SteadyState>
+        <Ramp Duration="360" PowerLow="0.95449996" PowerHigh="0.88449997" pace="0">
+            <textevent timeoffset="50" message="Today&apos;s session will give you 24min of sweet spot work." locIndex="64" />
+            <textevent timeoffset="80" message="Backing off the power a little will help in the long run." locIndex="65" />
+            <textevent timeoffset="100" message="We have all hit a climb a little too hard and paid for it later." locIndex="66" />
+            <textevent timeoffset="180" message="That&apos;s halfway. You should be getting a good feeling of pacing now." locIndex="67" />
+            <textevent timeoffset="200" message="As the power decreases, aim to hold the same high cadence throughout the interval." locIndex="68" />
+            <textevent timeoffset="240" message="Just 2min to go." locIndex="69" />
+            <textevent timeoffset="260" message="A big part of today&apos;s training adaptation is in repeating the effort." locIndex="70" />
+            <textevent timeoffset="280" message="It&apos;s about the volume of sweet spot work achieved in a session." locIndex="71" />
+            <textevent timeoffset="300" message="Into the last minute now." locIndex="72" />
+            <textevent timeoffset="320" message="L&apos;Etape du Tour de France will require long periods of work completed at this sweet spot level." locIndex="73" />
+            <textevent timeoffset="350" message="Great work. That&apos;s the last effort completed." locIndex="74" />
+        </Ramp>
+        <SteadyState Duration="300" Power="0.50449997" pace="0">
+            <textevent timeoffset="100" message="That&apos;s a good session today." locIndex="75" />
+            <textevent timeoffset="130" message="This is the type of session you could complete twice a week if you were looking to increase your volume." locIndex="76" />
+        </SteadyState>
+    </workout>
+</workout_file>

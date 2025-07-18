@@ -1,0 +1,92 @@
+<workout_file>
+    <uniqueId>c8cc5884-2952-4f02-be56-f685d3cc88f3</uniqueId>
+    <legacyIdHash>591604520</legacyIdHash>
+    <author>Shayne Gaffney | GC Coaching</author>
+    <categoryOverride>30 minutes to burn</categoryOverride>
+    <name>Knife-edge</name>
+    <description>You&apos;ll be right on the knife&apos;s edge from start to finish with this workout, which kicks things off with a very spicy 1-minute effort. The intervals back down from there, but you won&apos;t have much time to recover. Make it through to the finish, and you&apos;ll be well sharpened for your next ride!</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="RECOMMENDABLE" />
+    </tags>
+    <category>Less than 30 minutes to burn</category>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.25" PowerHigh="0.75" Cadence="85">
+            <textevent timeoffset="0" message="Hello and welcome to the Knife-edge workout! Shayne Gaffney here, and I&apos;ll be guiding you through today!" locIndex="1" />
+            <textevent timeoffset="10" message="Let&apos;s start off with a 5min progressive warm up at ~85 RPM to get the legs ready for the work ahead." locIndex="2" />
+            <textevent timeoffset="60" message="Do a quick check to ensure your fan, fluids, and towel are all handy." locIndex="3" />
+            <textevent timeoffset="120" message="Keep yourself relaxed and under control as the intensity gradually ramps up." locIndex="4" />
+            <textevent timeoffset="150" message="There&apos;s halfway through the warm up, let&apos;s run through the plan for today." locIndex="5" />
+            <textevent timeoffset="160" message="Today looks like a pretty messy workout with lots and lots of different zones being worked." locIndex="6" />
+            <textevent timeoffset="170" message="But, if you go a little deeper, there&apos;s a method to my madness." locIndex="7" />
+            <textevent timeoffset="180" message="The goal for this workout is to create as good of an aerobic stimulus as possible in the time we have today." locIndex="8" />
+            <textevent timeoffset="190" message="So, a key aspect is to ramp up your oxygen utilization with some hard efforts early on, then hang on for dear life afterward :-)" locIndex="9" />
+            <textevent timeoffset="200" message="The initial hard efforts also help deplete the anaerobic &apos;battery&apos; so you utilize a greater amount of your aerobic system." locIndex="10" />
+            <textevent timeoffset="210" message="Then, as the workout elapses, you&apos;ll gradually become more fatigued, so the overall intensity decreases accordingly." locIndex="11" />
+            <textevent timeoffset="220" message="In a nutshell, I&apos;m trying to match expected fatigue with prescribed intensity so you&apos;ll be able to squeeze everything out of your legs." locIndex="12" />
+            <textevent timeoffset="230" message="And feel like you&apos;re riding the &apos;knife-edge&apos; from start to finish!" locIndex="13" />
+            <textevent timeoffset="240" message="Let&apos;s keep warming up for another minute, then get into it." locIndex="14" />
+            <textevent timeoffset="270" message="We have a BIG effort coming up in 30sec! It&apos;s 1min at 125% FTP at 110 RPM!" locIndex="15" />
+            <textevent timeoffset="290" message="Start bringing your cadence up now." locIndex="16" />
+        </Warmup>
+        <SteadyState Duration="60" Power="1.25" Cadence="110">
+            <textevent timeoffset="0" message="GO GO GO! TIME TO UNLOCK YOUR STRONG!" locIndex="17" />
+            <textevent timeoffset="30" message="HALFWAY! DON&apos;T LET OFF THE GAS!" locIndex="18" />
+            <textevent timeoffset="50" message="GET TO THE ARCH!" locIndex="19" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1" Cadence="100">
+            <textevent timeoffset="0" message="Awesome! Keep the cadence nice and high here and bring the effort right to FTP." locIndex="20" />
+            <textevent timeoffset="10" message="We&apos;re here for 2min before our next hard effort." locIndex="21" />
+            <textevent timeoffset="60" message="Breathe, stay in control and try to recover as best you can from that opening effort." locIndex="22" />
+            <textevent timeoffset="90" message="In 30sec, we&apos;re on again! Slightly longer this time and at 105 RPM." locIndex="23" />
+            <textevent timeoffset="110" message="Bring the cadence back up again." locIndex="24" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="1.15" Cadence="105">
+            <textevent timeoffset="0" message="LET&apos;S GO!" locIndex="25" />
+            <textevent timeoffset="30" message="Settle down now. This should feel challenging, but doable." locIndex="26" />
+            <textevent timeoffset="60" message="30sec to go and you&apos;re there! C&apos;MON!" locIndex="27" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.98" Cadence="95">
+            <textevent timeoffset="0" message="Amazing! Bring it back down again right below FTP this time." locIndex="28" />
+            <textevent timeoffset="10" message="Make sure you&apos;re staying honest with the cadence here too." locIndex="29" />
+            <textevent timeoffset="60" message="Breathe... take a quick drink too." locIndex="30" />
+            <textevent timeoffset="90" message="Okay, coming up is usually the most challenging effort, but YOU CAN DO THIS!" locIndex="31" />
+            <textevent timeoffset="100" message="Have faith and Unlock your all!" locIndex="32" />
+            <textevent timeoffset="110" message="Bring the cadence up just slightly to 100 RPM." locIndex="33" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.08" Cadence="100">
+            <textevent timeoffset="0" message="CRUSH IT!" locIndex="34" />
+            <textevent timeoffset="30" message="Stay with it now, ignore that voice in your head." locIndex="35" />
+            <textevent timeoffset="60" message="HALFWAY!" locIndex="36" />
+            <textevent timeoffset="90" message="30sec and you&apos;re there!" locIndex="37" />
+            <textevent timeoffset="110" message="REACH FOR THE ARCH!" locIndex="38" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.95" Cadence="90">
+            <textevent timeoffset="0" message="Yeah! Really nice work there, my friend!" locIndex="39" />
+            <textevent timeoffset="10" message="Let&apos;s bring the effort down again, but we&apos;re not done yet!" locIndex="40" />
+            <textevent timeoffset="60" message="You can do this! Stay with me!" locIndex="41" />
+            <textevent timeoffset="90" message="In 30sec we&apos;re going to bring the effort down a little further." locIndex="42" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.92" Cadence="95">
+            <textevent timeoffset="0" message="Okay, down into sweet spot territory now." locIndex="43" />
+            <textevent timeoffset="10" message="The goal here is to allow for some &apos;recovery&apos; before we go FULL GAS for the final 30sec today." locIndex="44" />
+            <textevent timeoffset="20" message="You&apos;ll be doing that 30sec effort in free ride mode, so you&apos;ll be using your gears." locIndex="45" />
+            <textevent timeoffset="30" message="Just BLAST IT! for the finale, no watt target." locIndex="46" />
+            <textevent timeoffset="60" message="Breathe, shake it out and refocus for the upcoming 30sec effort." locIndex="47" />
+            <textevent timeoffset="110" message="Okay, GIVE IT YOUR ALL!" locIndex="48" />
+        </SteadyState>
+        <FreeRide Duration="30" FlatRoad="1" show_avg="1">
+            <textevent timeoffset="0" message="DIG DIG DIG! IT&apos;S TIME TO LEVEL UP!" locIndex="49" />
+            <textevent timeoffset="10" message="KEEP THE AVG POWER UP!" locIndex="50" />
+            <textevent timeoffset="20" message="GET TO THE ARCH!" locIndex="51" />
+        </FreeRide>
+        <Cooldown Duration="120" PowerLow="0.5" PowerHigh="0.25">
+            <textevent timeoffset="0" message="Holy cow! Way to annihilate the day!" locIndex="52" />
+            <textevent timeoffset="10" message="Now, we&apos;ll gradually lower the power down." locIndex="53" />
+            <textevent timeoffset="20" message="That&apos;s a great workout to improve your aerobic capacity when you have very little time." locIndex="54" />
+            <textevent timeoffset="90" message="Make sure you refuel and rehydrate well before your next session." locIndex="55" />
+            <textevent timeoffset="100" message="Thanks so much for showing up, working hard, and earning the results." locIndex="56" />
+            <textevent timeoffset="110" message="Until next time, Ride On!" locIndex="57" />
+        </Cooldown>
+    </workout>
+</workout_file>

@@ -1,0 +1,92 @@
+<workout_file>
+    <uniqueId>93bedb38-1948-441f-b30e-ef124d75c577</uniqueId>
+    <legacyIdHash>1804051343</legacyIdHash>
+    <author>Shayne Gaffney</author>
+    <name>Week 5.1 - SST Over / Under 2</name>
+    <description>Today we&apos;re aiming for a full 30min at SST wattages, and will again keep with the theme of incorporating some big gear efforts into the &apos;over&apos; portion.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Pebble Pounder</category>
+    <subcategory>Week 5</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="300" PowerLow=".4" PowerHigh=".75">
+            <textevent timeoffset="0" message="Welcome back to another week! Let&apos;s hit it hard this week." locIndex="1" />
+            <textevent timeoffset="10" message="As always, let&apos;s start with a gradual warmup and get the legs loosened up. Aiming for 85-95 RPM here." locIndex="2" />
+            <textevent timeoffset="120" message="Do you have your fluids, fan, and towel all handy? Perfect." locIndex="3" />
+            <textevent timeoffset="150" message="All right, let&apos;s chat about what&apos;s in store for today..." locIndex="4" />
+            <textevent timeoffset="160" message="We&apos;re going to continue to build our time spend at SST zone, and today are aiming for 30min." locIndex="5" />
+            <textevent timeoffset="170" message="We&apos;ll also be doing an &apos;over/under&apos; interval today." locIndex="6" />
+            <textevent timeoffset="180" message="With the &apos;under&apos; being at low SST zone at a comfortable cadence, and the &apos;over&apos; being at high SST in a big gear (75 RPM)." locIndex="7" />
+            <textevent timeoffset="190" message="You&apos;ve trained hard for this, let&apos;s make it happen today." locIndex="8" />
+            <textevent timeoffset="240" message="1min to go, then we&apos;ll do a few fast cadence efforts." locIndex="9" />
+            <textevent timeoffset="290" message="Okay, start spinning the legs up a bit, we&apos;re aiming for 105 RPM here." locIndex="10" />
+        </Warmup>
+        <IntervalsT Repeat="3" OnDuration="30" OffDuration="30" OnPower="1.05" OffPower=".65" Cadence="105" CadenceResting="85">
+            <textevent timeoffset="0" message="Let&apos;s bring that power and cadence up here! I want you to aim for a smooth pedal stroke during the fast cadence work." locIndex="11" />
+            <textevent timeoffset="10" message="So, no bouncing in the saddle, or lurching back and forth! Just power to the pedals." locIndex="12" />
+            <textevent timeoffset="30" message="Great work, now bring the cadence and power way down and let&apos;s recover for 30sec, we do that 2 more times." locIndex="13" />
+            <textevent timeoffset="60" message="Power and cadence back up again! Keep is silky smooth again here." locIndex="14" />
+            <textevent timeoffset="90" message="Beautiful! Bring it back down again - 1 more to go :-)" locIndex="15" />
+            <textevent timeoffset="120" message="last one! Push that cadence!" locIndex="16" />
+            <textevent timeoffset="150" message="Excellent work! Now, let&apos;s bring the pace down again and recover for a couple of minutes before starting our main set." locIndex="17" />
+        </IntervalsT>
+        <SteadyState Duration="120" Power=".50" Cadence="85">
+            <textevent timeoffset="0" message="All right, let&apos;s take some deep breaths here and get ready for our main set." locIndex="18" />
+            <textevent timeoffset="30" message="Remember to take frequent sips of fluid throughout these workouts." locIndex="19" />
+            <textevent timeoffset="90" message="Okay, next up is our main set. Remember, we&apos;re aiming for 30min total at SST with it being split up in 5min segments." locIndex="20" />
+            <textevent timeoffset="100" message="So, 3 times, 5min at 88% FTP at comfortable cadence, with 5min at 95% FTP in a big gear (75 RPM)." locIndex="21" />
+            <textevent timeoffset="110" message="Okay, ready? Here we go with our first interval. We&apos;re going to start with an over first, so 75 RPM." locIndex="22" />
+        </SteadyState>
+        <SteadyState Duration="300" Power=".95" Cadence="75">
+            <textevent timeoffset="0" message="Lower that cadence down in a controlled manner here. We&apos;re aiming to keep a nice and smooth pedal stroke again here." locIndex="23" />
+            <textevent timeoffset="10" message="And remember too, try and slide those hips back in the saddle a bit to mimic maintaining traction over a gravel climb." locIndex="24" />
+            <textevent timeoffset="60" message="Great work! You should feel like you&apos;re in a decent rhythm here now. Just steady as you go." locIndex="25" />
+            <textevent timeoffset="150" message="That&apos;s halfway! Great work so far! Remember to repeat &apos;push, scrape, pull&apos; if it helps keep your pedal stroke smooth." locIndex="26" />
+            <textevent timeoffset="270" message="Okay, in 30sec we&apos;re going to bring the power down and cadence up to 90 RPM." locIndex="27" />
+            <textevent timeoffset="290" message="Start brining your cadence up." locIndex="28" />
+        </SteadyState>
+        <SteadyState Duration="300" Power=".88" Cadence="90">
+            <textevent timeoffset="0" message="Excellent! Now, spin those legs out and try to recover a bit at this lower power." locIndex="29" />
+            <textevent timeoffset="60" message="You may notice your heart rate being higher at this power even though it&apos;s lower than the &apos;over&apos;." locIndex="30" />
+            <textevent timeoffset="70" message="This is due to the increased metabolic demand that spinning at a high cadence exhibits on the body." locIndex="31" />
+            <textevent timeoffset="80" message="Cool, right?." locIndex="32" />
+            <textevent timeoffset="150" message="Halfway here. How are you doing? You should feel well in control here, but definitely working." locIndex="33" />
+            <textevent timeoffset="290" message="Okay, get ready for a big gear effort and higher power. Start lowering your cadence now." locIndex="34" />
+        </SteadyState>
+        <SteadyState Duration="300" Power=".95" Cadence="75">
+            <textevent timeoffset="0" message="Here we get with rep #2 of this over/under. Bring that cadence back to 75 RPM again." locIndex="35" />
+            <textevent timeoffset="60" message="Push, scrape, pull. Try to not bounce in the saddle or lurch back and forth here." locIndex="36" />
+            <textevent timeoffset="150" message="Halfway done! Imagine this was the TOTAL amount of SST work we did during the first week - Look at you now! :-)" locIndex="37" />
+            <textevent timeoffset="270" message="30sec to go, then we&apos;re dropping power and increasing cadence again. Keep it up." locIndex="38" />
+        </SteadyState>
+        <SteadyState Duration="300" Power=".88" Cadence="90">
+            <textevent timeoffset="0" message="Spin those legs up again! This is halfway through the entire interval. You can do this." locIndex="39" />
+            <textevent timeoffset="60" message="What cadence do you feel more comfortable at? Hopefully this program has made you comfortable in both ranges." locIndex="40" />
+            <textevent timeoffset="70" message="Gravel grinders are special in that regard where they require a wide range of cadence to complete." locIndex="41" />
+            <textevent timeoffset="150" message="Halfway! You look awesome!" locIndex="42" />
+            <textevent timeoffset="290" message="Just a few more seconds and we&apos;re dropping the cadence back down to 75 RPM. Ready?" locIndex="43" />
+        </SteadyState>
+        <SteadyState Duration="300" Power=".95" Cadence="75">
+            <textevent timeoffset="0" message="This is the last rep of this interval! Just 10min of work to do, and we&apos;re DONE! Make me proud here." locIndex="44" />
+            <textevent timeoffset="90" message="C&apos;mon! Grind it out, my friend! Get to the top of this last climb today." locIndex="45" />
+            <textevent timeoffset="120" message="Remember, weight back in the saddle and keep sipping those fluids frequently." locIndex="46" />
+            <textevent timeoffset="150" message="Halfway." locIndex="47" />
+            <textevent timeoffset="240" message="Last minute here! Keep it up, you&apos;re doing awesome." locIndex="48" />
+            <textevent timeoffset="290" message="Okay, get ready to increase the cadence and drop the power yet again." locIndex="49" />
+        </SteadyState>
+        <SteadyState Duration="300" Power=".88" Cadence="90">
+            <textevent timeoffset="0" message="Final 5min of work today! Stay in control and nail this." locIndex="50" />
+            <textevent timeoffset="60" message="C&apos;mon, keep that cadence up! Fight the urge to slow down, you can do this." locIndex="51" />
+            <textevent timeoffset="150" message="Halfway! Just 2.5min of work left and we&apos;re cooling down. EARN the cool down." locIndex="52" />
+            <textevent timeoffset="240" message="Just 60sec between you and that finishing arch. DIG." locIndex="53" />
+            <textevent timeoffset="290" message="Push it all the way to the arch now, GO GO GO." locIndex="54" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow=".40" PowerHigh=".65">
+            <textevent timeoffset="0" message="That&apos;s 30min of SST work done and dusted! You should be super proud of that effort and how far you&apos;ve come with this plan." locIndex="55" />
+            <textevent timeoffset="60" message="As always, between workouts aim to refuel and rehydrate yourself well." locIndex="56" />
+            <textevent timeoffset="70" message="And aim to take around 24hrs between workouts to allow your body to recover before hitting it hard again." locIndex="57" />
+            <textevent timeoffset="120" message="Great job today! See you next time!" locIndex="58" />
+        </Cooldown>
+    </workout>
+</workout_file>

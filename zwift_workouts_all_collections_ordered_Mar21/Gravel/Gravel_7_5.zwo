@@ -1,0 +1,25 @@
+<workout_file>
+    <uniqueId>316526e8-cc77-49d1-84e6-53d74402d555</uniqueId>
+    <legacyIdHash>2123357047</legacyIdHash>
+    <author>Zwift</author>
+    <name>Free Ride</name>
+    <description>A long base type ride for you today. Aerobic work FTW. Seriously though, you definitely need aerobic fitness as well as hard riding fitness to win in gravel. So, this might not seem like as important of a type of ride to do, but I promise you it is!
+
+Today would be a good ride to do outside, or on the current Zwift course as you wish. BUT, please do not go into Z3 if you can help it. Just smooth, smooth riding in &quot;the zone&quot;.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Gravel Grinder</category>
+    <subcategory>Week 7</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow="0.45" PowerHigh="0.65">
+            <textevent timeoffset="0" message="Warming up or &quot;spinning out&quot; easy is still very important, even on easy rides!" locIndex="1" />
+        </Warmup>
+        <FreeRide Duration="6000" FlatRoad="0">
+            <textevent timeoffset="0" message="Ok, here&apos;s the block. You don&apos;t need to look or hit this wattage, I more don&apos;t want you to go over it! Hydration and good nutrition intake is still a must!" locIndex="2" />
+        </FreeRide>
+        <Cooldown Duration="600" PowerLow="0.55" PowerHigh="0.45">
+            <textevent timeoffset="0" message="Nice job. Maybe a bit more boring today, but necessary. Well done!" locIndex="3" />
+        </Cooldown>
+    </workout>
+</workout_file>

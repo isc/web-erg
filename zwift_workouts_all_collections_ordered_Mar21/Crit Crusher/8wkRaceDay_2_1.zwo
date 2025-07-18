@@ -1,0 +1,20 @@
+<workout_file>
+    <uniqueId>63415e8f-1787-4a0d-b86b-f7af88703dc9</uniqueId>
+    <legacyIdHash>609524168</legacyIdHash>
+    <author>J.Doe</author>
+    <name>Week 2.1 - Strength Training</name>
+    <description>Start with a good warm up. Then 4 x 5 mins at FTP with 5 mins recovery between efforts, spin your legs easily for 10 minutes then 6 x 1 minute Upper Z6 power efforts with 2 minutes recovery in between - spin your legs out for 10 minutes then finally 10 x 15 second max sprint efforts with 45 seconds rest inbetweeen efforts.</description>
+    <author>trainSharp</author>
+    <category>Crit Crusher</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 2</subcategory>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/trainSharp_Logo.tga</authorIcon>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow="0.2545" PowerHigh="0.75449997" />
+        <IntervalsT Repeat="4" OnDuration="300" OffDuration="300" OnPower="1.0044999" OffPower="0.50450003" />
+        <IntervalsT Repeat="6" OnDuration="60" OffDuration="300" OnPower="1.2544999" OffPower="0.50450003" />
+        <IntervalsT Repeat="10" OnDuration="15" OffDuration="45" OnPower="1.8045" OffPower="0.50450003" />
+        <Cooldown Duration="600" PowerLow="0.75449997" PowerHigh="0.2545" />
+    </workout>
+</workout_file>

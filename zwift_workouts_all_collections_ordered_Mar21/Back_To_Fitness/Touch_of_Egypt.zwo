@@ -1,0 +1,102 @@
+<workout_file>
+    <uniqueId>32e5ae76-0f6f-4a72-865d-49eb26bc3e2d</uniqueId>
+    <legacyIdHash>605202884</legacyIdHash>
+    <author>D.Rowe (Rowe&amp;King)</author>
+    <categoryOverride>Daily Fit</categoryOverride>
+    <name>Week 5.2 - Touch of Egypt</name>
+    <description>This workout contains 4 x pyramids - ramping up and down in each effort so, maxing out at 100% of your FTP. Whilst the power isn&apos;t excessively high - the challenge comes from having to produce varying power at a high cadence of 110rpm. Being able to maintain a high cadence whilst your power is constantly changing is a skill, and will help support a more efficient pedaling style when you revert back to your normal, lower cadence.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <tags />
+    <category>Back to Fitness</category>
+    <subcategory>Week 5</subcategory>
+    <workout>
+        <Warmup Duration="300" PowerHigh="1.05" PowerLow="0.4">
+            <textevent message="Welcome to Touch of Egypt" locIndex="1" timeoffset="10" />
+            <textevent message="This workout is part of the PowerUp Prep series designed by Dani Rowe and Kristin Armstrong" locIndex="2" timeoffset="25" />
+            <textevent message="This series is designed to build your fitness and prepare you for a more intense training program" locIndex="3" timeoffset="40" />
+            <textevent message="by providing you with 12 weeks of 30-45 minute structured workouts" locIndex="4" timeoffset="50" />
+            <textevent message="This workout series assumes a low level of current fitness - maybe you are starting out training, getting back on your bike after giving birth or maybe it&apos;s your return from injury" locIndex="5" timeoffset="80" />
+            <textevent message="The key to training and improving is consistency - 30 minutes is infinitely better than nothing" locIndex="6" timeoffset="160" />
+            <textevent message="It&apos;s helpful if you have a heart rate monitor, to keep track of how your heart rate responds to efforts week to week" locIndex="7" timeoffset="210" />
+            <textevent message="Following a structured training plan like this keeps you accountable and hopefully helps you remain focused on your goals" locIndex="8" timeoffset="230" />
+            <textevent message="Listen to your body, and don&apos;t worry if you need to lower the bias during todays workout to complete" locIndex="9" timeoffset="250" />
+            <textevent message="Most importantly - enjoy!" locIndex="10" timeoffset="280" />
+        </Warmup>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent message="2 minutes easy before we get started" locIndex="11" timeoffset="13" />
+        </SteadyState>
+        <Ramp Cadence="110" Duration="150" PowerHigh="1" PowerLow="0.6">
+            <textevent message="We are starting the first 5 minute pyramid of high cadence effort" locIndex="12" timeoffset="10" />
+            <textevent message="Your body should be more used to cycling at a high cadence now - this session should be achievable " locIndex="13" timeoffset="40" />
+            <textevent message="The intensity of the first half of the ramp increases for 2.5 minutes then decreases back down for another 2.5 minutes" locIndex="14" timeoffset="80" />
+            <textevent message="Being able to produce power at a high cadence will help to improve your pedaling efficiency" locIndex="15" timeoffset="30" />
+        </Ramp>
+        <Ramp Cadence="110" Duration="150" PowerHigh="0.6" PowerLow="1">
+            <textevent message="Good work - the remainder of this pyramid will only get easier as the power decreases" locIndex="16" timeoffset="10" />
+            <textevent message="Remember to keep thinking about your technique and keeping your upper body still " locIndex="17" timeoffset="50" />
+        </Ramp>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent message="3 minutes rest in between each block - try and control your breathing as quickly as you can for max recovery" locIndex="18" timeoffset="10" />
+            <textevent message="Keep drinking throughout the session - little and often to ensure you stay hydrated " locIndex="19" timeoffset="70" />
+            <textevent message="At 50% FTP this should give you a chance to get your heart rate back down significantly" locIndex="20" timeoffset="130" />
+        </SteadyState>
+        <Ramp Cadence="110" Duration="150" PowerHigh="1" PowerLow="0.6">
+            <textevent message="Let&apos;s go again - you know what is coming now so that should give you confidence that the session is achievable" locIndex="21" timeoffset="0" />
+            <textevent message="What is your cadence? It should be slightly quicker than session 1 of the week! " locIndex="22" timeoffset="30" />
+            <textevent message="Is your cadence something you can practice when doing free rides or riding IRL?" locIndex="23" timeoffset="90" />
+            <textevent message="Nearly at the pyramid&apos;s peak - it will start to get easier soon" locIndex="24" timeoffset="130" />
+        </Ramp>
+        <Ramp Cadence="110" Duration="150" PowerHigh="0.6" PowerLow="1">
+            <textevent message="Time to go back down, with a regressive ramp" locIndex="25" timeoffset="10" />
+            <textevent message="If you need to lower your bias to complete the session, that is fine!" locIndex="26" timeoffset="70" />
+            <textevent message="The key part to this workout is the high cadence - you may find your heart rate is higher than usual at this power " locIndex="27" timeoffset="100" />
+            <textevent message="This is because we are stressing your cardiovascular system extensively" locIndex="28" timeoffset="120" />
+            <textevent message="" timeoffset="0" />
+        </Ramp>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent message="Brilliant work!" locIndex="29" timeoffset="10" />
+            <textevent message="Half way through today&apos;s efforts" locIndex="30" timeoffset="40" />
+            <textevent message="This is where the workout starts to really count!" locIndex="31" timeoffset="120" />
+        </SteadyState>
+        <Ramp Cadence="110" Duration="150" PowerHigh="1" PowerLow="0.6">
+            <textevent message="You are smashing this - only 2 x pyramids to go" locIndex="32" timeoffset="10" />
+            <textevent message="Don&apos;t lose your focus - you&apos;ve got this!" locIndex="33" timeoffset="60" />
+            <textevent message="Keep pedaling in full circles - aim for a nice fluid pedaling style" locIndex="34" timeoffset="80" />
+            <textevent message="Think about pulling up as well as pushing down to reduce stomping and having a more efficient pedal stroke" locIndex="35" timeoffset="100" />
+            <textevent message="It&apos;s hard to really focus on your cadence at an unusually high cadence - but it becomes more natural with practice" locIndex="36" timeoffset="130" />
+        </Ramp>
+        <Ramp Cadence="110" Duration="150" PowerHigh="0.6" PowerLow="1">
+            <textevent message="Back down we go! " locIndex="37" timeoffset="10" />
+            <textevent message="Your heart rate might not reduce in this 2.5 minute effort because of the cumulative fatigue, however the effort should feel more manageable" locIndex="38" timeoffset="70" />
+            <textevent message="Very close now - make sure you are sustaining the effort all the way to the arch " locIndex="39" timeoffset="110" />
+        </Ramp>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent message="Fantastic work! " locIndex="40" timeoffset="10" />
+            <textevent message="Only 1 block to go now " locIndex="41" timeoffset="30" />
+            <textevent message="Don&apos;t give up, this is where the biggest gains are made" locIndex="42" timeoffset="70" />
+            <textevent message="30 seconds to go - take a drink and reset" locIndex="43" timeoffset="120" />
+        </SteadyState>
+        <Ramp Cadence="110" Duration="150" PowerHigh="1" PowerLow="0.6">
+            <textevent message="Let&apos;s do this! Last effort of the session " locIndex="44" timeoffset="10" />
+            <textevent message="This is now a test of mental strength as well as your physical ability" locIndex="45" timeoffset="70" />
+            <textevent message="So close to the peak of this final pyramid - it gets easier from here on in" locIndex="46" timeoffset="120" />
+        </Ramp>
+        <Ramp Cadence="110" Duration="150" PowerHigh="0.6" PowerLow="1">
+            <textevent message="Let&apos;s go champ! " locIndex="47" timeoffset="10" />
+            <textevent message="Last 2 minutes with only a cool down to follow" locIndex="48" timeoffset="30" />
+            <textevent message="These sessions don&apos;t get easier, you are just getting faster!" locIndex="49" timeoffset="70" />
+            <textevent message="You get out what you put in - keep pushing!" locIndex="50" timeoffset="120" />
+            <textevent message="All the way - last 10 seconds!" locIndex="51" timeoffset="140" />
+        </Ramp>
+        <Cooldown Duration="300" PowerHigh="0.4" PowerLow="0.7">
+            <textevent message="Good work - that&apos;s Touch of Egypt complete!" locIndex="52" timeoffset="20" />
+            <textevent message="Remember, the key to fitness is consistency - try and ride your bike often" locIndex="53" timeoffset="90" />
+            <textevent message="If you cruised through today&apos;s workout, you may fancy doing a little extra riding?" locIndex="54" timeoffset="140" />
+            <textevent message="Some extra volume on top of these short, but structured workouts can help improve your endurance and fitness" locIndex="55" timeoffset="155" />
+            <textevent message="If you struggled with today&apos;s workout - I suggest you think about adjusting the bias slightly?" locIndex="56" timeoffset="220" />
+            <textevent message="A 2 or 3% adjustment can make all the difference - we are looking for these workouts to be &#8216;tough but achievable&apos;" locIndex="57" timeoffset="240" />
+            <textevent message="See you on the next Workout - Dani and Kristin" locIndex="58" timeoffset="290" />
+        </Cooldown>
+    </workout>
+</workout_file>

@@ -1,0 +1,89 @@
+<workout_file>
+    <uniqueId>1c44174a-0553-44b6-9bea-241f2f36916e</uniqueId>
+    <legacyIdHash>2847240692</legacyIdHash>
+    <author>Shayne Gaffney</author>
+    <name>Week 1.1 - SST Bursts 6</name>
+    <description>Today&apos;s workout features loads of time at sweet spot (SST) again, but today we&apos;re increasing the intensity a bit by introducing some big gear surges into the steady state effort.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Pebble Pounder</category>
+    <subcategory>Week 1</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="300" PowerLow=".4" PowerHigh=".75">
+            <textevent timeoffset="0" message="Hello, and welcome back to another workout in the Pebble Pounder! Let&apos;s get started with a warmup again." locIndex="1" />
+            <textevent timeoffset="10" message="Just like the first workout, we&apos;re starting off with a 5min progressive warmup at a comfortable cadence." locIndex="2" />
+            <textevent timeoffset="20" message="Aim for somewhere in the 85-95 RPM range ideally, but do what&apos;s best for you!" locIndex="3" />
+            <textevent timeoffset="30" message="And, remember your fluids, fan, and towel! If you don&apos;t have those, hop off and grab them now." locIndex="4" />
+            <textevent timeoffset="120" message="2min into the warmup here. Let&apos;s keep on easing into the day today and getting the legs nice and loose." locIndex="5" />
+            <textevent timeoffset="150" message="Let&apos;s chat a bit about what&apos;s in store for you today." locIndex="6" />
+            <textevent timeoffset="160" message="We covered why sweet spot (SST) is important in the first workout, but today we&apos;re going to add in some big gear surge efforts." locIndex="7" />
+            <textevent timeoffset="170" message="The goal with these is to mimic a longer climb with changes in pitch that require you to grind the gear a bit." locIndex="8" />
+            <textevent timeoffset="180" message="Remember to focus on keeping weight through that rear wheel is important to keep traction, especially on gravel." locIndex="9" />
+            <textevent timeoffset="190" message="So, today we&apos;ll be continuing with that approach :-)" locIndex="10" />
+            <textevent timeoffset="240" message="1min to go here, then we&apos;ll continue the warmup with a few fast cadence efforts to wake the legs up a bit more." locIndex="11" />
+        </Warmup>
+        <IntervalsT Repeat="3" OnDuration="30" OffDuration="30" OnPower="1.05" OffPower=".65" Cadence="105" CadenceResting="85">
+            <textevent timeoffset="0" message="Let&apos;s bring that power and cadence up here! I want you to aim for a smooth pedal stroke during the fast cadence work." locIndex="12" />
+            <textevent timeoffset="10" message="So, no bouncing in the saddle, or lurching back and forth! Just power to the pedals." locIndex="13" />
+            <textevent timeoffset="30" message="Great work, now bring the cadence and power way down and let&apos;s recover for 30sec, we do that 2 more times." locIndex="14" />
+            <textevent timeoffset="60" message="Power and cadence back up again! Keep is silky smooth again here." locIndex="15" />
+            <textevent timeoffset="90" message="Beautiful! Bring it back down again - 1 more to go :-)" locIndex="16" />
+            <textevent timeoffset="120" message="Last one! Push that cadence!" locIndex="17" />
+            <textevent timeoffset="150" message="Excellent work! Now, let&apos;s bring the pace down again and recover for a couple of minutes before starting our main set." locIndex="18" />
+        </IntervalsT>
+        <SteadyState Duration="120" Power=".50" Cadence="85">
+            <textevent timeoffset="0" message="All right, that&apos;s it for the warmup today! Let&apos;s bring the intensity down easy for a few minutes and get ready for our main set." locIndex="19" />
+            <textevent timeoffset="30" message="Take a few deep breaths here, shake things out and get yourself into the &apos;zone&apos;." locIndex="20" />
+            <textevent timeoffset="60" message="1min to go before we start the main set today." locIndex="21" />
+            <textevent timeoffset="70" message="Remember, we&apos;re going to be doing an extensive SST interval today, but including some surges in a big gear." locIndex="22" />
+            <textevent timeoffset="80" message="So, we&apos;re aiming for 2min at SST at 90 RPM, with 30sec at Zone 5 at 75 RPM." locIndex="23" />
+            <textevent timeoffset="90" message="We&apos;ll also be gradually decreasing the intensity as we go, so this is going to be more than doable for you!" locIndex="24" />
+            <textevent timeoffset="110" message="All right, we&apos;re starting off with the SST effort at 90 RPM, get ready to rock!" locIndex="25" />
+        </SteadyState>
+        <IntervalsT Repeat="2" OnDuration="120" OffDuration="30" OnPower=".92" OffPower="1.15" Cadence="90" CadenceResting="75">
+            <textevent timeoffset="0" message="Okay, let&apos;s bring the effort up here and settle into 90 RPM." locIndex="26" />
+            <textevent timeoffset="60" message="This effort should feel slightly hard, but more than doable. However, always feel free to adjust the FTP bias if needed." locIndex="27" />
+            <textevent timeoffset="70" message="You can do that by pressing the up or down key on your keyboard, or from the Zwift Companion app." locIndex="28" />
+            <textevent timeoffset="110" message="In 10sec, get ready to drop your cadence to 75 RPM and grind the gear a bit." locIndex="29" />
+            <textevent timeoffset="120" message="Okay, drop your cadence down, slide your hips back, drive it!" locIndex="30" />
+            <textevent timeoffset="150" message="Excellent! Now, resume at 90 RPM again - We&apos;ll do that 1 more time." locIndex="31" />
+            <textevent timeoffset="180" message="You should be challenged in recovering from those efforts, which is normal and another goal of this workout." locIndex="32" />
+            <textevent timeoffset="190" message="Improving your ability to recover, but still maintain a decent power level is important for a gravel event." locIndex="33" />
+            <textevent timeoffset="200" message="Gravel events are usually quite challenging, and especially the climbing aspect, so training for them is a great thing!" locIndex="34" />
+            <textevent timeoffset="240" message="30sec, then we&apos;re going to surge again in a big gear. Keep yourself steady and in control here." locIndex="35" />
+            <textevent timeoffset="270" message="Okay, drop that cadence just a little bit here and surge the power higher." locIndex="36" />
+            <textevent timeoffset="290" message="10sec, then we&apos;re back down again, but this time just a touch lower than before." locIndex="37" />
+        </IntervalsT>
+        <IntervalsT Repeat="2" OnDuration="120" OffDuration="30" OnPower=".90" OffPower="1.15" Cadence="90" CadenceResting="75">
+            <textevent timeoffset="0" message="Great work! Now, settle back down into SST again and try to recover as best you can." locIndex="38" />
+            <textevent timeoffset="30" message="Breathe, relax, stay in control here." locIndex="39" />
+            <textevent timeoffset="60" message="1min to go, then we&apos;re heading back up for another big gear surge, you are doing GREAT!" locIndex="40" />
+            <textevent timeoffset="110" message="Okay, get ready to drop the cadence and surge the power upwards again! This is the 3rd of 6 surges, make it happen!" locIndex="41" />
+            <textevent timeoffset="120" message="Push it! Hips back, cadence down, you got this!" locIndex="42" />
+            <textevent timeoffset="150" message="Great work! We&apos;re halfway done now, my friend! Keep it up!" locIndex="43" />
+            <textevent timeoffset="180" message="Breathe...Recovery becomes very important the deeper we get into this interval. You can do this, just focus!" locIndex="44" />
+            <textevent timeoffset="240" message="30sec, then we&apos;re up for our 4th surge! We&apos;re getting close to the end now!" locIndex="45" />
+            <textevent timeoffset="270" message="PUSH IT! Drive those pedals and keep your cadence slow. Surge over this steep part of the climb!" locIndex="46" />
+            <textevent timeoffset="290" message="Beautiful! 10sec, then we&apos;re dropping down even lower than before. Hang on now!" locIndex="47" />
+        </IntervalsT>
+        <IntervalsT Repeat="2" OnDuration="120" OffDuration="30" OnPower=".88" OffPower="1.15" Cadence="90" CadenceResting="75">
+            <textevent timeoffset="0" message="This is it! Last 5min of work today! Make me proud now!" locIndex="48" />
+            <textevent timeoffset="60" message="Hopefully this slightly lower power is making recover &apos;easier&apos;, but this should still be challenging for you." locIndex="49" />
+            <textevent timeoffset="70" message="Being challenged is a great thing though as that&apos;s what makes you stronger! Keep it up!" locIndex="50" />
+            <textevent timeoffset="110" message="Ready for a surge? Let&apos;s HIT IT!" locIndex="51" />
+            <textevent timeoffset="120" message="Drop the cadence down and bring the power up! C&apos;mon this is the 2nd to last one!" locIndex="52" />
+            <textevent timeoffset="150" message="Awesome job! Bring it back to SST once more, we&apos;re close to being done now, keep it up!" locIndex="53" />
+            <textevent timeoffset="240" message="We&apos;re close to the last surge now, just 30sec to go!! Make this last effort just as good as the first!" locIndex="54" />
+            <textevent timeoffset="260" message="Ready? Final bit of work today, let&apos;s go!" locIndex="55" />
+            <textevent timeoffset="270" message="Okay, drop the cadence down again and drive those pedals! GO GO GO!" locIndex="56" />
+            <textevent timeoffset="290" message="Just 10sec left! PUSH IT! Get to the arch!" locIndex="57" />
+        </IntervalsT>
+        <Cooldown Duration="300" PowerLow=".40" PowerHigh=".65">
+            <textevent timeoffset="0" message="Phew! Nicely done today! That&apos;s a tough one, but you handled it well. Let&apos;s finish today with a cool down." locIndex="58" />
+            <textevent timeoffset="60" message="As always, between workouts aim to refuel and rehydrate yourself well." locIndex="59" />
+            <textevent timeoffset="70" message="And aim to take around 24hrs between workouts to allow your body to recover before hitting it hard again." locIndex="60" />
+            <textevent timeoffset="120" message="Great job today! See you next time!" locIndex="61" />
+        </Cooldown>
+    </workout>
+</workout_file>

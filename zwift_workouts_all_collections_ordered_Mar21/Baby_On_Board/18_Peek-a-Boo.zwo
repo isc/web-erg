@@ -1,0 +1,163 @@
+<workout_file>
+    <uniqueId>26b2a888-ace5-44d7-9540-852cac642fac</uniqueId>
+    <legacyIdHash>1677240608</legacyIdHash>
+    <author>Kristin Armstrong</author>
+    <name>Peek-a-Boo</name>
+    <description>This workout consists of 3 sets of 30-20-10 second build ups for a total duration of 5 minutes each set. The simplest way to approach this ride is :30 seconds at a basic endurance level, followed by :20 seconds taking it up a notch to a tempo level, and straight in to a :10 second mini-burst. Think of this as a &quot;Peek-a-Boo&quot;. A short reminder of &quot;Mom, I&apos;m here do you see me&quot;.</description>
+    <sportType>bike</sportType>
+    <tags />
+    <category>Baby On Board</category>
+    <categoryIndex>18</categoryIndex>
+    <workout>
+        <SteadyState Duration="30" Power="0.35">
+            <textevent timeoffset="0" message="Welcome to Peek-a-Boo" locIndex="1" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.4">
+            <textevent timeoffset="0" message="This workout is part of Baby on Board, designed by Dani Rowe and Kristin Armstrong." locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.45">
+            <textevent timeoffset="0" message="This series is designed to keep you active throughout pregnancy by providing you 12 weeks of 30-40 minute structured workouts. " locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.5">
+            <textevent timeoffset="0" message="The key to training during pregnancy is consistency." locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="45" Power="0.55">
+            <textevent timeoffset="0" message="As a guide - you should always be able to hold a conversation during these workouts. " locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="45" Power="0.6">
+            <textevent timeoffset="0" message="Keep an eye on your heart rate - you should not be anywhere near your max." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="45" Power="0.65">
+            <textevent timeoffset="0" message="It is vital that your core body temperature doesn&apos;t get too high. Make sure you have a fan blasting and keep hydrated." locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="45" Power="0.7">
+            <textevent timeoffset="0" message="Listen to your body, and don&apos;t worry if you need to lower the bias during these workouts to complete." locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.55">
+            <textevent timeoffset="0" message="Think of today&apos;s ride as a controlled &quot;Fartlek&quot;. Progressing through 30-20-10 second efforts and repeating for a total of 5 minutes. " locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.75">
+            <textevent timeoffset="0" message="The first 30 seconds should be at an endurance level staying within Zone 2 lower Zone 3." locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.85">
+            <textevent timeoffset="0" message="A slight increase in effort now for :20 seconds entering in to the Tempo and Sweet Spot zones" locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.2">
+            <textevent timeoffset="0" message="Our final :10 seconds is a burst of energy picking it up and touching the anaerobic zone for a short duration of time." locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.75">
+            <textevent timeoffset="0" message="Great work everyone!" locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.85">
+            <textevent timeoffset="0" message="Remember to listen to your body.  If needed, decrease or increase watt goals by using up or down arrow key." locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.2">
+            <textevent timeoffset="0" message="These 10 seconds can simply be a rev up getting to and touching the recommended zone for a few seconds and back down to an endurance pace again." locIndex="15" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.75">
+		</SteadyState>
+        <SteadyState Duration="20" Power="0.85">
+		</SteadyState>
+        <SteadyState Duration="10" Power="1.2">
+		</SteadyState>
+        <SteadyState Duration="30" Power="0.75">
+            <textevent timeoffset="0" message="Make sure you are staying well hydrated keeping the core temperature down." locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.85">
+		</SteadyState>
+        <SteadyState Duration="10" Power="1.2">
+		</SteadyState>
+        <SteadyState Duration="30" Power="0.75">
+            <textevent timeoffset="0" message="Last roller in our first set today." locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.85">
+		</SteadyState>
+        <SteadyState Duration="10" Power="1.2">
+		</SteadyState>
+        <SteadyState Duration="150" Power="0.55">
+            <textevent timeoffset="0" message="Way to go! 2 more sets to go. Its time to hydrate and spin easy." locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.75">
+            <textevent timeoffset="0" message="Here we go 2nd set - we got this!" locIndex="19" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.85">
+		</SteadyState>
+        <SteadyState Duration="10" Power="1.2">
+		</SteadyState>
+        <SteadyState Duration="30" Power="0.75">
+            <textevent timeoffset="0" message="Our goal throughout pregnancy is to keep healthy vs. to gain fitness!" locIndex="20" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.85">
+            <textevent timeoffset="0" message="Some of the benefits are improved sleep, circulation and mood." locIndex="21" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.2">
+		</SteadyState>
+        <SteadyState Duration="30" Power="0.75">
+		</SteadyState>
+        <SteadyState Duration="20" Power="0.85">
+		</SteadyState>
+        <SteadyState Duration="10" Power="1.2">
+		</SteadyState>
+        <SteadyState Duration="30" Power="0.75">
+            <textevent timeoffset="0" message="It is time to drink! " locIndex="22" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.85">
+		</SteadyState>
+        <SteadyState Duration="10" Power="1.2">
+		</SteadyState>
+        <SteadyState Duration="30" Power="0.75">
+            <textevent timeoffset="0" message="Great work!  Last roller in our 2nd of 3 sets today." locIndex="23" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.85">
+		</SteadyState>
+        <SteadyState Duration="10" Power="1.2">
+		</SteadyState>
+        <SteadyState Duration="150" Power="0.55">
+            <textevent timeoffset="0" message="Its recovery time! Nice easy spin. " locIndex="24" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.75">
+            <textevent timeoffset="0" message="Here we go." locIndex="25" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.85">
+		</SteadyState>
+        <SteadyState Duration="10" Power="1.2">
+		</SteadyState>
+        <SteadyState Duration="30" Power="0.75">
+            <textevent timeoffset="0" message="Just a reminder to do what feels good." locIndex="26" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.85">
+            <textevent timeoffset="0" message="Pay attention to what your body is telling you." locIndex="27" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.2">
+		</SteadyState>
+        <SteadyState Duration="30" Power="0.75">
+            <textevent timeoffset="0" message="Two rollers to go." locIndex="28" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.85">
+		</SteadyState>
+        <SteadyState Duration="10" Power="1.2">
+		</SteadyState>
+        <SteadyState Duration="30" Power="0.75">
+            <textevent timeoffset="0" message="Last one best one." locIndex="29" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.85">
+		</SteadyState>
+        <SteadyState Duration="10" Power="1.2">
+		</SteadyState>
+        <SteadyState Duration="60" Power="0.6">
+            <textevent timeoffset="0" message="Good work! That&apos;s Peek-a-Boo complete." locIndex="30" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.55">
+            <textevent timeoffset="0" message="Remember, the key to fitness is consistency - little and often." locIndex="31" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="0" message="You should not have felt excessively hot during today&apos;s workout. " locIndex="32" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.45">
+            <textevent timeoffset="0" message="It&apos;s vital that your core body temperature doesn&apos;t get too high during pregnancy. " locIndex="33" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.4">
+            <textevent timeoffset="0" message="See you on the next workout - Dani and Kristin " locIndex="34" />
+        </SteadyState>
+    </workout>
+</workout_file>

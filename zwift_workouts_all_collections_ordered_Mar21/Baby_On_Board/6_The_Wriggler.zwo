@@ -1,0 +1,105 @@
+<workout_file>
+    <uniqueId>a5943ec7-f98a-460e-a90a-eb8f02ef877b</uniqueId>
+    <legacyIdHash>1813347250</legacyIdHash>
+    <author>D.Rowe (Rowe&amp;King)</author>
+    <name>The Wriggler</name>
+    <description>The Wriggler is a little bit random - think of it as a Fartlek style workout, where you make efforts at a range of intensities and lengths.
+
+No specific cadence to target today, and similarly feel free to ride out of the saddle. Go with the flow and get stuck into this rollercoaster of a session - it&apos;s one to keep you occupied, just like a wriggling toddler!</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="Prenatal" />
+    </tags>
+    <category>Baby On Board</category>
+    <categoryIndex>6</categoryIndex>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.25450003" PowerHigh="0.70449996" pace="1481003871">
+            <textevent timeoffset="10" message="Welcome to The Wriggler! We&apos;ll start with a 5min warm up" locIndex="1" />
+            <textevent timeoffset="20" message="This workout is part of Baby on Board, designed by Dani Rowe and Kristin Armstrong" locIndex="2" />
+            <textevent timeoffset="30" message="This series is designed to keep you active throughout pregnancy" locIndex="3" />
+            <textevent timeoffset="40" message="by providing you with 12 weeks of 30-40 minute structured workouts" locIndex="4" />
+            <textevent timeoffset="150" message="All right, let&apos;s take a moment to chat about the plan for today." locIndex="5" />
+            <textevent timeoffset="160" message="The Wriggler is a little bit random - think of it as a Fartlek style workout, where you make efforts at a range of intensities and lengths." locIndex="6" />
+            <textevent timeoffset="170" message="No specific cadence to target today, and similarly feel free to ride out of the saddle." locIndex="7" />
+            <textevent timeoffset="180" message="Go with the flow and get stuck into this rollercoaster of a session - it&apos;s one to keep you occupied..." locIndex="8" />
+            <textevent timeoffset="190" message="... just like a wriggling toddler :-)" locIndex="9" />
+            <textevent timeoffset="200" message="Remember, the key to training during pregnancy is consistency - little and often" locIndex="10" />
+            <textevent timeoffset="210" message="As a guide - you should always be able to hold a conversation during these workouts" locIndex="11" />
+            <textevent timeoffset="220" message="Keep an eye on your heart rate - you should not be anywhere near your max" locIndex="12" />
+            <textevent timeoffset="230" message="It is vital that your core body temperature doesn&apos;t get too high. Make sure you have a fan blasting and keep hydrated" locIndex="13" />
+            <textevent timeoffset="240" message="Listen to your body, and don&apos;t worry if you need to lower the bias during these workouts to complete" locIndex="14" />
+            <textevent timeoffset="250" message="Most importantly - enjoy!" locIndex="15" />
+        </Warmup>
+        <SteadyState Duration="180" Power="0.4">
+            <textevent timeoffset="0" message="Nicely done! Let&apos;s take a few minutes nice and easy here." locIndex="16" />
+            <textevent timeoffset="20" message="You should be feeling warm and ready to go for The Wriggler" locIndex="17" />
+            <textevent timeoffset="100" message="Remember, this session includes 3 varied ramps and surges" locIndex="18" />
+            <textevent timeoffset="120" message="1min, then we&apos;ll begin the 1st effort" locIndex="19" />
+        </SteadyState>
+        <Ramp Duration="420" PowerLow="0.8" PowerHigh="0.6">
+            <textevent timeoffset="0" message="Here comes the first ramped effort - it&apos;s regressive" locIndex="20" />
+            <textevent timeoffset="10" message="Starting at 80% and working down to 60% FTP" locIndex="21" />
+            <textevent timeoffset="120" message="Stay focused throughout this effort - try to think about pulling up as well as pushing down on the pedals" locIndex="22" />
+            <textevent timeoffset="180" message="If you have to stand up out of the saddle that is fine - try to hold the target power" locIndex="23" />
+            <textevent timeoffset="210" message="Golden rule - listen to your body" locIndex="24" />
+            <textevent timeoffset="240" message="You should never get too hot when pregnant so make sure your fan is blasting" locIndex="25" />
+            <textevent timeoffset="280" message="As the intensity of this effort is decreasing, you should be feeling stronger now than in the first minute" locIndex="26" />
+            <textevent timeoffset="310" message="You are well over half way now in the longest effort in this workout " locIndex="27" />
+            <textevent timeoffset="340" message="Don&apos;t forget to keep drinking - little and often" locIndex="28" />
+            <textevent timeoffset="390" message="Last 30 seconds - keep pushing all the way to the line" locIndex="29" />
+            <textevent timeoffset="410" message="Get ready for a 15 second surge straight after this block" locIndex="30" />
+        </Ramp>
+        <SteadyState Duration="15" Power="1.05">
+            <textevent timeoffset="0" message="Squeeze this 15 seconds out - good work!" locIndex="31" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.4">
+            <textevent timeoffset="20" message="Recovery time - focus on your breathing in order to reduce your heart rate " locIndex="32" />
+            <textevent timeoffset="80" message="Take a sip of drink and get ready for the next effort" locIndex="33" />
+            <textevent timeoffset="150" message="30sec, and we&apos;re back to work again. This next one is a progressive effort." locIndex="34" />
+        </SteadyState>
+        <Ramp Duration="240" PowerLow="0.6" PowerHigh="0.85">
+            <textevent timeoffset="10" message="Here we go again" locIndex="35" />
+            <textevent timeoffset="40" message="We ramp from 60% to 85% of FTP " locIndex="36" />
+            <textevent timeoffset="120" message="You are half way through- keep pushing " locIndex="37" />
+            <textevent timeoffset="180" message="This effort finishes with a short squeeze so try to leave something in the tank " locIndex="38" />
+            <textevent timeoffset="200" message="You should still be drinking within these longer ramped efforts " locIndex="39" />
+            <textevent timeoffset="220" message="Last push before the 90 second squeeze " locIndex="40" />
+        </Ramp>
+        <SteadyState Duration="90" Power="0.9">
+            <textevent timeoffset="1" message="Last 90 seconds of effort before a long rest " locIndex="41" />
+            <textevent timeoffset="60" message="30 seconds to go - Don&apos;t give up " locIndex="42" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.4">
+            <textevent timeoffset="10" message="Great effort - now you&apos;ve got 3 minutes to relax" locIndex="43" />
+            <textevent timeoffset="60" message="One big effort to go in The Wriggler!" locIndex="44" />
+            <textevent timeoffset="100" message="This is where the big gains are made so stay focused on your power" locIndex="45" />
+        </SteadyState>
+        <Ramp Duration="300" PowerLow="0.6" PowerHigh="0.85">
+            <textevent timeoffset="10" message="Last effort - you can do this " locIndex="46" />
+            <textevent timeoffset="50" message="This is a progressive effort so should feel comfortable to start and then begin to bite towards the end " locIndex="47" />
+            <textevent timeoffset="120" message="Don&apos;t worry if you have to lower your bias - this is about completing a structured workout, not working to your absolute max" locIndex="48" />
+            <textevent timeoffset="160" message="Over half way through this final block, with just a 15 second squeeze after it " locIndex="49" />
+            <textevent timeoffset="210" message="The cumulative fatigue of the effort will be showing now - keep going, you are doing great" locIndex="50" />
+            <textevent timeoffset="270" message="Last 30 seconds- fantastic effort " locIndex="51" />
+        </Ramp>
+        <SteadyState Duration="15" Power="1.15">
+            <textevent timeoffset="1" message="15 seconds - GO GO GO" locIndex="52" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.4">
+            <textevent timeoffset="10" message="And relax" locIndex="53" />
+            <textevent timeoffset="60" message="3 minutes to really recover before a nice cool down " locIndex="54" />
+            <textevent timeoffset="120" message="Well done!!" locIndex="55" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow="0.65449995" PowerHigh="0.3545" pace="1481003871">
+            <textevent timeoffset="20" message="Good work - that&apos;s The Wriggler complete!" locIndex="56" />
+            <textevent timeoffset="90" message="Remember, the key to fitness is consistency - little and often" locIndex="57" />
+            <textevent timeoffset="140" message="How do you feel on your bike at the moment? Comfortable?" locIndex="58" />
+            <textevent timeoffset="155" message="As your body changes through pregnancy, you may need to tweak your position by flipping your stem" locIndex="59" />
+            <textevent timeoffset="170" message="Flip your stem upside down, to raise your handlebars which should give your bump more space" locIndex="60" />
+            <textevent timeoffset="185" message="This is something that we (Dani and Kristin) both did, which helped massively" locIndex="61" />
+            <textevent timeoffset="220" message="You should not have felt excessively hot during today&apos;s workout" locIndex="62" />
+            <textevent timeoffset="240" message="It&apos;s vital that your core body temperature doesn&apos;t get too high during pregnancy" locIndex="63" />
+            <textevent timeoffset="290" message="See you on the next Workout - Dani and Kristin" locIndex="64" />
+        </Cooldown>
+    </workout>
+</workout_file>

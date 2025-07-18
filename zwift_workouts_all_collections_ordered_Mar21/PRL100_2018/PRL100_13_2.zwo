@@ -1,0 +1,66 @@
+<workout_file>
+    <uniqueId>b25a0e16-12e5-47ca-97f4-343c256d2425</uniqueId>
+    <legacyIdHash>2941061837</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <categoryOverride>VO2 Max</categoryOverride>
+    <name>Week 13.2 - Extensive Anaerobic x 6</name>
+    <category>2018 PRL100 Prep</category>
+    <subcategory>Week 13</subcategory>
+    <description>Warm up well, including 3 x 6 second accelerations during the 10 minute warm up. Then complete 6 x 45sec @ lower Z6 with 5min recovery. Cool down.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout>
+        <SteadyState Duration="300" Power="0.5">
+            <textevent timeoffset="60" message="You will need a good warm up today." locIndex="1" />
+            <textevent timeoffset="70" message="Complete 3 x 6sec high cadence surges during your warm up." locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.5" />
+        <SteadyState Duration="60" Power="0.55" />
+        <SteadyState Duration="60" Power="0.6">
+            <textevent timeoffset="20" message="The aim today, is to produce 6 quality extensive anaerobic efforts." locIndex="3" />
+            <textevent timeoffset="40" message="We want full recovery between each effort." locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.65" />
+        <SteadyState Duration="60" Power="0.7" />
+        <SteadyState Duration="120" Power="0.55">
+            <textevent timeoffset="60" message="Self select your cadence for the 45sec effort." locIndex="5" />
+            <textevent timeoffset="70" message="But try to maintain the same cadence throughout the 45sec." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="45" Power="1.21" />
+        <SteadyState Duration="300" Power="0.55">
+            <textevent timeoffset="60" message="How was that? Do you have 5 more in the legs?" locIndex="7" />
+            <textevent timeoffset="70" message="Of course you do!" locIndex="8" />
+            <textevent timeoffset="280" message="Take note of your peak HR at the end of each effort." locIndex="9" />
+            <textevent timeoffset="150" message="1 or 2 gear changes for the efforts." locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="45" Power="1.2" />
+        <SteadyState Duration="300" Power="0.55" />
+        <SteadyState Duration="45" Power="1.21" />
+        <SteadyState Duration="300" Power="0.55">
+            <textevent timeoffset="60" message="Going well. Just 3 to go." locIndex="11" />
+            <textevent timeoffset="80" message="Do you feel fully recovered from each effort?" locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="45" Power="1.21" />
+        <SteadyState Duration="300" Power="0.55">
+            <textevent timeoffset="20" message="How is your peak HR? Increasing?" locIndex="13" />
+            <textevent timeoffset="280" message="2 to go!" locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="45" Power="1.21" />
+        <SteadyState Duration="300" Power="0.55">
+            <textevent timeoffset="280" message="Great work. Last one." locIndex="15" />
+        </SteadyState>
+        <SteadyState Duration="45" Power="1.2" />
+        <SteadyState Duration="180" Power="0.5" />
+        <SteadyState Duration="60" Power="0.76" />
+        <SteadyState Duration="60" Power="0.73" />
+        <SteadyState Duration="60" Power="0.7" />
+        <SteadyState Duration="60" Power="0.67" />
+        <SteadyState Duration="60" Power="0.64" />
+        <SteadyState Duration="60" Power="0.62" />
+        <SteadyState Duration="60" Power="0.59" />
+        <SteadyState Duration="60" Power="0.56" />
+        <SteadyState Duration="60" Power="0.53" />
+        <SteadyState Duration="60" Power="0.5" />
+    </workout>
+</workout_file>

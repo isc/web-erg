@@ -1,0 +1,62 @@
+<workout_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="">
+    <uniqueId>41db9c8f-99f9-4259-af10-38bd503509fd</uniqueId>
+    <legacyIdHash>3369749583</legacyIdHash>
+    <author>TrainSharp Cycle Coaching</author>
+    <categoryOverride>Best of Zwift Academy</categoryOverride>
+    <subcategoryOverride>ZA 2017</subcategoryOverride>
+    <name>VO2 Intermittent - Semi Finals</name>
+    <description>This VO2 session requires focus, a strong mindset and the ability to dig deep to complete the efforts. You may find this workout easier to complete out of ERG mode to ensure quick adjustment of the resistance. The main interval consists of 5 minutes at - or just below - your FTP, then straight into 5 minutes of seated sprints, repeated throughout the duration. Then to finish, 5 minutes of FTP again. Aim to hold the same power for this final 5 minutes as your first 5 minute effort. Aim to complete 3 of these 15 minute intervals, but we would rather you completed 2 really good ones than 3 intervals where you are barely hitting the power targets. Breathing during the efforts is strained and not rhythmic, you should feel as though you are on the brink of failure throughout the Intermittent intervals. Make sure you have enough fluids for this session, a good quality fan and even a gel to help you through it! </description>
+    <WorkoutPlan>1</WorkoutPlan>
+    <sportType>bike</sportType>
+    <visibleAfterTime>1508716801</visibleAfterTime>
+    <category>Zwift Academy 2017</category>
+    <subcategory>Semi Finals</subcategory>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/trainSharp_Logo.tga</authorIcon>
+    <tags>
+        <tag name="Today&apos;s Plan" />
+    </tags>
+    <workout>
+        <Warmup Duration="900" PowerLow="0.3" PowerHigh="0.9">
+            <textevent timeoffset="0" message="Warm Up - Progressive Warm up through the zones for the duration. Sip on your bottle and take a gel if you wish during the warm up." locIndex="1" />
+        </Warmup>
+        <SteadyState Duration="300" Power="0.35">
+            <textevent timeoffset="0" message="Easy - Take it nice and easy during this block, prepare mentally and physically for the main interval ahead." locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.9450000000000001">
+            <textevent timeoffset="0" message="Threshold - Hold a power just below your FTP - if you are feeling strong, lift this to your FTP." locIndex="3" />
+        </SteadyState>
+        <IntervalsT Repeat="10" OnDuration="15" OffDuration="25" OnPower="2.4" OffPower="0.6">
+            <textevent timeoffset="0" duration="30" message="Intermittent Intervals - 10 x 15 seconds seated sprint followed by 25 seconds recovery, repeated for the duration. Use the first 5 sec of each sprint to get up to speed" locIndex="4" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.9450000000000001">
+            <textevent timeoffset="0" message="Threshold - Final 5 minutes of this interval - try to keep the power consistent throughout - aiming for the same average as the first 5 minutes." locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.38" OffPower="0.0">
+            <textevent timeoffset="0" message="Recovery - Take it easy for 5 minutes - catch your breath - grab your drink and get ready to go again." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.9450000000000001">
+            <textevent timeoffset="0" message="Threshold - Back into FTP power for the duration - keep the effort controlled." locIndex="7" />
+        </SteadyState>
+        <IntervalsT Repeat="10" OnDuration="15" OffDuration="25" OnPower="2.4" OffPower="0.6">
+            <textevent timeoffset="0" message="Intermittent Intervals - Full-gas for the efforts, try and keep the powers close to where they were in your first interval." locIndex="8" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.9450000000000001">
+            <textevent timeoffset="0" message="Threshold - Finish the second FTP effort strongly." locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.38" OffPower="0.0">
+            <textevent timeoffset="0" message="Recovery - Compose yourself during the recovery period. One more 15 minute effort to go!" locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.9450000000000001">
+            <textevent timeoffset="0" message="Threshold - Maintain the power throughout this - aim for as close to FTP as you can." locIndex="11" />
+        </SteadyState>
+        <IntervalsT Repeat="10" OnDuration="15" OffDuration="25" OnPower="2.4" OffPower="0.6">
+            <textevent timeoffset="0" message="Intermittent Intervals - Final chance to nail these - Give it everything!" locIndex="12" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.9450000000000001">
+            <textevent timeoffset="0" message="Threshold - Last 5 minutes - keep on top of the gear during this, keep the cadence up." locIndex="13" />
+        </SteadyState>
+        <Cooldown Duration="600" PowerLow="0.46" PowerHigh="0.3">
+            <textevent timeoffset="0" message="Warm Down - Take it nice and easy for the final 5 minutes. Great Work Today!" locIndex="14" />
+        </Cooldown>
+    </workout>
+</workout_file>

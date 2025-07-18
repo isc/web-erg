@@ -1,0 +1,71 @@
+<workout_file>
+    <uniqueId>3b221a2a-31a5-472f-af3a-601484a827ba</uniqueId>
+    <legacyIdHash>4249296378</legacyIdHash>
+    <author>Zwift</author>
+    <name>Turn Up The AC (2x4x2min)</name>
+    <categoryOverride>VO2 Max</categoryOverride>
+    <description>Y&apos;all wanna do some anaerobic work? No? Well, you&apos;re gonna do it anyways. You would be correct to think this kind of effort isn&apos;t as important in gravel racing, but you&apos;d be wrong to think it still wont benefit you. And besides, it&apos;s fun. 
+
+This is possibly a higher watt than you are used to hitting on the trainer, so please set yourself up to be successful by being ready with high RPM&apos;s and a positive attitude!</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Gravel Grinder</category>
+    <subcategory>Week 4</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="480" PowerLow="0.45" PowerHigh="0.65">
+            <textevent timeoffset="0" message="Easy days to start, let it come to you today. " locIndex="1" />
+        </Warmup>
+        <SteadyState Duration="60" Power="0.8">
+            <textevent timeoffset="0" message="An 80% block here for some leg awakening. " locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.55">
+		</SteadyState>
+        <SteadyState Duration="60" Power="0.9">
+            <textevent timeoffset="0" message="A little higher now. Let it roll. " locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.55">
+		</SteadyState>
+        <SteadyState Duration="60" Power="1">
+            <textevent timeoffset="0" message="If the legs haven&apos;t woken yet, they likely will after this one. " locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.55">
+		</SteadyState>
+        <IntervalsT Repeat="3" OnDuration="120" OffDuration="120" OnPower="0.9" OffPower="0.55">
+            <textevent timeoffset="0" message="Now just a little more sustained effort here for you to find some rhythm. " locIndex="5" />
+            <textevent timeoffset="120" message="That&apos;s not so bad is it? Now rest yourself for 2 more. " locIndex="6" />
+            <textevent timeoffset="240" message="More of that sounds good, yeah? 2 minutes here. " locIndex="7" />
+            <textevent timeoffset="360" message="Rest up and get one more of these. " locIndex="8" />
+            <textevent timeoffset="480" message="Stay smooth. " locIndex="9" />
+            <textevent timeoffset="600" message="Rest yourself into the real stuff!. " locIndex="10" />
+            <textevent timeoffset="710" message="Here it comes, you in the right gear? Get ready. " locIndex="11" />
+        </IntervalsT>
+        <IntervalsT Repeat="4" OnDuration="30" OffDuration="90" OnPower="1.6" OffPower="0.5">
+            <textevent timeoffset="0" message="GO, GO, GO, GO!!!! " locIndex="12" />
+            <textevent timeoffset="120" message="Get that cadence up, come on!!! " locIndex="13" />
+            <textevent timeoffset="240" message="More fun! Hup, hup, hup!!!" locIndex="14" />
+            <textevent timeoffset="270" message="Use your rest" locIndex="15" />
+            <textevent timeoffset="360" message="Last one! (for this round)" locIndex="16" />
+            <textevent timeoffset="390" message="Nice!!! Good job. Now what did we learn on that round that we can do better on the next one?" locIndex="17" />
+        </IntervalsT>
+        <SteadyState Duration="210" Power="0.5">
+            <textevent timeoffset="0" message="Higher RPM&apos;s? Picking a better gear to start in? Now hydrate and get ready for 4 more. " locIndex="18" />
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="30" OffDuration="90" OnPower="1.6" OffPower="0.5">
+            <textevent timeoffset="0" message="GOGOGOGOGOGO!" locIndex="19" />
+            <textevent timeoffset="30" message="Easy now. " locIndex="20" />
+            <textevent timeoffset="120" message="Faster, faster, faster!" locIndex="21" />
+            <textevent timeoffset="150" message="Be smooth here, find your comfortable RPM&apos;s. " locIndex="22" />
+            <textevent timeoffset="240" message="Come on!!! You got it!" locIndex="23" />
+            <textevent timeoffset="270" message="Easy days, just one left!" locIndex="24" />
+            <textevent timeoffset="360" message="Go, go, go!!! Make this one your best!" locIndex="25" />
+            <textevent timeoffset="450" message="Whew. I don&apos;t know about you but that stuff hurts my soul. " locIndex="26" />
+        </IntervalsT>
+        <SteadyState Duration="210" Power="0.5">
+            <textevent timeoffset="0" message="But it is good for you, I promise. " locIndex="27" />
+        </SteadyState>
+        <Cooldown Duration="120" PowerLow="0.55" PowerHigh="0.45">
+            <textevent timeoffset="0" message="Easy days" locIndex="28" />
+        </Cooldown>
+    </workout>
+</workout_file>

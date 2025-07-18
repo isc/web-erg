@@ -1,0 +1,49 @@
+<workout_file>
+    <uniqueId>5e4501f3-d35e-4752-bc4d-c951dfee4adb</uniqueId>
+    <legacyIdHash>112838885</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Week 6.6 - Strength Endurance #3</name>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>2018 PRL46 Prep</category>
+    <subcategory>Week 6</subcategory>
+    <description>Focusing on strength endurance work by completing steady, low cadence intervals. Strength Endurance increases crank torque and therefore recruits more of your fast twitch muscle fibres.
+
+After warming up you will complete 2 x 15 min Strength endurance intervals. Target cadence varies from 65 to 60rpm during the effort.
+
+Finish the session with a high cadence 2min Max Aerobic effort.</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <Warmup Duration="360" PowerLow="0.50689983" PowerHigh="0.70449996" pace="0" />
+        <SteadyState Duration="60" Power="0.50449997" pace="0" />
+        <SteadyState Duration="60" Power="1.0944999" pace="0" />
+        <SteadyState Duration="120" Power="0.50449997" pace="0" />
+        <SteadyState Duration="240" Power="0.90449995" pace="0" />
+        <SteadyState Duration="180.00002" Power="0.50449997" pace="0" />
+        <SteadyState Duration="300" Power="0.80449992" pace="0" Cadence="65">
+            <textevent timeoffset="29" message="Target cadence 65" locIndex="1" />
+            <textevent timeoffset="110" message="Relax your hands on bars" locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.80449992" pace="0" Cadence="60">
+            <textevent timeoffset="50" message="Target cadence 60" locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.80449992" pace="0" Cadence="65">
+            <textevent timeoffset="54" message="Target cadence 65" locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.50449997" pace="0" />
+        <SteadyState Duration="300" Power="0.80449992" pace="0" Cadence="65">
+            <textevent timeoffset="37" message="Target cadence 65" locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.80449992" pace="0" Cadence="60">
+            <textevent timeoffset="59" message="Target cadence 60" locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.80449992" pace="0" Cadence="65">
+            <textevent timeoffset="33" message="Target cadence 65" locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.50449997" pace="0">
+            <textevent timeoffset="239.00002" message="Finish with high cadence effort" locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="120.00001" Power="1.0944999" pace="0" />
+        <Cooldown Duration="300" PowerLow="0.75449997" PowerHigh="0.50449997" pace="0" />
+    </workout>
+</workout_file>

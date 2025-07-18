@@ -1,0 +1,95 @@
+<workout_file>
+    <uniqueId>fb50bae0-1eb9-44b3-8893-e1bc087c2fd8</uniqueId>
+    <legacyIdHash>2324627495</legacyIdHash>
+    <author>Kristin Armstrong</author>
+    <name>Mom Fever</name>
+    <description>This ride has efficiency written all over it. Throughout this short 30-minute session you will spend time working between 70-90% of your FTP which is Basic Endurance to a Tempo zone. The time spent in each zone will vary, the ride is broken in to 3 sets of 5:30 minutes with a nice 2-minute recovery in between each.</description>
+    <sportType>bike</sportType>
+    <tags />
+    <category>Baby On Board</category>
+    <categoryIndex>17</categoryIndex>
+    <workout>
+        <SteadyState Duration="30" Power="0.35" Cadence="85">
+            <textevent timeoffset="0" message="Welcome to Mom Fever! Let&apos;s begin today with a warm up." locIndex="1" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.4" Cadence="85">
+            <textevent timeoffset="0" message="This workout is part of Baby on Board, designed by Dani Rowe and Kristin Armstrong." locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.45" Cadence="85">
+            <textevent timeoffset="0" message="This series is designed to keep you active throughout pregnancy by providing you 12 weeks of 30-40 minute structured workouts. " locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.5" Cadence="85">
+            <textevent timeoffset="0" message="The key to training during pregnancy is consistency." locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="45" Power="0.55">
+            <textevent timeoffset="0" message="As a guide - you should always be able to hold a conversation during these workouts. " locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="45" Power="0.6" Cadence="85">
+            <textevent timeoffset="0" message="Keep an eye on your heart rate - you should not be anywhere near your max." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="45" Power="0.65" Cadence="85">
+            <textevent timeoffset="0" message="It is vital that your core body temperature doesn&apos;t get too high. Make sure you have a fan blasting and keep hydrated." locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="45" Power="0.7" Cadence="85">
+            <textevent timeoffset="0" message="Listen to your body, and don&apos;t worry if you need to lower the bias during these workouts to complete." locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="During this session you will spend time working between 70-90% of your FTP which is the same as Basic Endurance to Tempo.  " locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.7" Cadence="85">
+            <textevent timeoffset="0" message="Efficiency is key both on and off the bike." locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.8" Cadence="85">
+            <textevent timeoffset="0" message="Kicking it up a notch for a minute. " locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.7" Cadence="85">
+            <textevent timeoffset="0" message="Settle back in here. " locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.9" Cadence="85">
+            <textevent timeoffset="0" message="Pick it up for :30 seconds. " locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="It&apos;s time to recovery, hydrate and get ready for our second set. " locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.8" Cadence="85">
+            <textevent timeoffset="0" message="Stepping it up on this one -- 2 minutes at 80%!" locIndex="15" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.7" Cadence="85">
+            <textevent timeoffset="0" message="Nice work, relax a bit and settle in. " locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.8" Cadence="85">
+		</SteadyState>
+        <SteadyState Duration="30" Power="0.9" Cadence="85">
+            <textevent timeoffset="0" message=":30 seconds!" locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.55">
+            <textevent timeoffset="0" message="Nice work. Take a breather here and spin nice and easy. " locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.85" Cadence="85">
+            <textevent timeoffset="0" message="Last set, let&apos;s focus! " locIndex="19" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.7" Cadence="85">
+            <textevent timeoffset="0" message="Settling in to a nice aerobic pace here for 2 minutes." locIndex="20" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.85" Cadence="85">
+		</SteadyState>
+        <SteadyState Duration="30" Power="0.9" Cadence="85">
+            <textevent timeoffset="0" message="This is the finale!" locIndex="21" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.6" Cadence="85">
+            <textevent timeoffset="0" message="Good work! That&apos;s Mom Fever complete." locIndex="22" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="Remember, the key to fitness is consistency - little and often." locIndex="23" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.5" Cadence="85">
+            <textevent timeoffset="0" message="You should not have felt excessively hot during today&apos;s workout. " locIndex="24" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.45" Cadence="85">
+            <textevent timeoffset="0" message="It&apos;s vital that your core body temperature doesn&apos;t get too high during pregnancy. " locIndex="25" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.4" Cadence="85">
+            <textevent timeoffset="0" message="See you on the next workout - Dani and Kristin " locIndex="26" />
+        </SteadyState>
+    </workout>
+</workout_file>

@@ -1,0 +1,118 @@
+<workout_file>
+    <uniqueId>206ce125-790d-4509-86df-935c49a2f5d1</uniqueId>
+    <legacyIdHash>134177574</legacyIdHash>
+    <author>Chris Opie </author>
+    <categoryOverride>Threshold</categoryOverride>
+    <name>Sir Bradley Wiggins.2 - FTP Boosters</name>
+    <description>
+This session is all about increasing your FTP by maintaining a sub FTP baseline intensity with brief surges up and over at Vo2 capacity. A popular and testing workout.
+
+These workouts have been designed and tested by some of the best cyclists in the world. Olympians and World Champions such as Sir Bradley Wiggins, Fabian Cancellara, Dame Sarah Storey and Kristin Armstrong.</description>
+    <sportType>bike</sportType>
+    <durationType>time</durationType>
+    <activitySaveName>Le Col - Training With Legends - Sir Bradley Wiggins - FTP Boosters</activitySaveName>
+    <category>Le Col - Training With Legends</category>
+    <subcategory>Sir Bradley Wiggins</subcategory>
+    <visibleAfterTime>1635724860</visibleAfterTime>
+    <tags>
+        <tag name="Intervals" />
+        <tag name="FTP" />
+        <tag name="TT" />
+    </tags>
+    <workout>
+        <Warmup Duration="180" PowerLow="0.35" PowerHigh="0.55" pace="0">
+            <textevent timeoffset="0" message="Welcome to Le Col Training With Legends. I&apos;m Bradley Wiggins and this is my FTP Booster session." locIndex="1" />
+            <textevent timeoffset="18" message="This session is all about riding under, then over your FTP" locIndex="2" />
+            <textevent timeoffset="30" message="And if you really want to get the most out of yourself and train with me, head over to lecol.cc to find my Training With Legends video." locIndex="3" />
+            <textevent timeoffset="75" message="Just 90 seconds to go. Start preparing yourself for the efforts ahead. Have you loaded that video yet?" locIndex="4" />
+            <textevent timeoffset="135" message="Time for a last sip of your drink, tighten your shoes. Let&apos;s give this everything today." locIndex="5" />
+            <textevent timeoffset="51" message="Short and sharp, this session is a great way to help lift your FTP." locIndex="6" />
+            <textevent timeoffset="108" message="Fans on? It&apos;s going to get warm." locIndex="7" />
+        </Warmup>
+        <IntervalsT Repeat="1" OnDuration="105" OffDuration="15" OnPower="0.93" OffPower="1.48" pace="0">
+            <textevent timeoffset="0" message="Straight into a sub FTP effort here. This should be comfortable for now." locIndex="8" />
+            <textevent timeoffset="105" message="Lift the power now, up and over capacity, we want to increase the stress on our muscles here." locIndex="9" />
+            <textevent timeoffset="24" message="The effort will find us later, no need to look for it! Find a smooth and comfortable cadence. I&apos;m choosing around 90 RPM for this session. " locIndex="10" />
+            <textevent timeoffset="84" message="Are you ready for the surge? Shoes tight? Just 20 seconds to go." locIndex="11" />
+            <textevent timeoffset="60" message="Don&apos;t worry about those red efforts, they&apos;re short. Really focus on the yellow! That&apos;s where we need the control!" locIndex="12" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="105" OffDuration="15" OnPower="0.93" OffPower="1.48" pace="0">
+            <textevent timeoffset="0" message="Feel the effort reduce, keep your breathing controlled and focus on your cadence. " locIndex="13" />
+            <textevent timeoffset="105" message="Squeeze the effort again, aim to keep your body still and the power coming from the legs only. " locIndex="14" />
+            <textevent timeoffset="21" message="As we drop back down into the sustainable power we are forcing our body to recover at a sustained effort. This will help to raise our FTP." locIndex="15" />
+            <textevent timeoffset="45" message="But it won&apos;t be easy. This is one of my favorite sessions from years ago! There&apos;s a lot going on, so your mind must not drift." locIndex="16" />
+            <textevent timeoffset="75" message="Staying relaxed and controlled is the secret here. Time to think of that next effort." locIndex="17" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="105" OffDuration="15" OnPower="0.93" OffPower="1.48" pace="0">
+            <textevent timeoffset="0" message="Find that effort, really focus now on staying smooth and maintaining the sustained effort." locIndex="18" />
+            <textevent timeoffset="105" message="Surge 3 of 5, drive the power through your legs, relax your shoulders. " locIndex="19" />
+            <textevent timeoffset="45" message="Control and focus is everything in this workout. " locIndex="20" />
+            <textevent timeoffset="75" message="It should be hard, we want to push ourselves. We need to push ourselves in order to progress." locIndex="21" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="105" OffDuration="15" OnPower="0.93" OffPower="1.48" pace="0">
+            <textevent timeoffset="0" message="All of your energy should be going to the pedals and your breathing, don&apos;t waste it by rocking on the bike. " locIndex="22" />
+            <textevent timeoffset="105" message="Dig in now, if it&apos;s starting to hurt that&apos;s ok. It&apos;s meant to be tough, it&apos;s meant to be challenging. Give this everything." locIndex="23" />
+            <textevent timeoffset="42" message="Getting closer to the end. This is the time to hone in that focus! Only this workout matters now." locIndex="24" />
+            <textevent timeoffset="15" message="Try and relax, smooth is fast, smooth is powerful." locIndex="25" />
+            <textevent timeoffset="75" message="Heading into the final section now. This is where you can make the difference." locIndex="26" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="105" OffDuration="15" OnPower="0.93" OffPower="1.48" pace="0">
+            <textevent timeoffset="0" message="Hold on now for this last section. There is a recovery on the way. " locIndex="27" />
+            <textevent timeoffset="105" message="15 seconds. Your well deserved recovery is just seconds away. Drive this one right to the end." locIndex="28" />
+            <textevent timeoffset="30" message="Focus on your breathing, focus on your pedaling. Embrace the effort, it deserves your full attention right now." locIndex="29" />
+            <textevent timeoffset="60" message="Just one surge to go and we&apos;re into a recovery period." locIndex="30" />
+            <textevent timeoffset="90" message="Get ready for this last effort." locIndex="31" />
+        </IntervalsT>
+        <SteadyState Duration="180" Power="0.55" pace="0">
+            <textevent timeoffset="0" message="Now is the time to drink, grab your towel, turn up your fan." locIndex="32" />
+            <textevent timeoffset="45" message="Are you watching the video? Are you looking better than I am?" locIndex="33" />
+            <textevent timeoffset="24" message="Move around on the bike and find a comfortable position for the next block. " locIndex="34" />
+            <textevent timeoffset="75" message="Use this 3 minutes to refresh and recover as best you can for the final block." locIndex="35" />
+            <textevent timeoffset="120" message="The more you can recover, cool down and rehydrate now, the more beneficial this session will be." locIndex="36" />
+            <textevent timeoffset="150" message="There&apos;s no escaping the pain. Embrace it, it&apos;s not going away." locIndex="37" />
+        </SteadyState>
+        <IntervalsT Repeat="1" OnDuration="105" OffDuration="15" OnPower="0.93" OffPower="1.4" pace="0">
+            <textevent timeoffset="0" message="Find that sustainable effort, it was only a short recovery, but it will be enough. " locIndex="38" />
+            <textevent timeoffset="105" message="Let&apos;s count these down, 5 to go! Drive your legs, really dig in for these, this second block will be tough." locIndex="39" />
+            <textevent timeoffset="24" message="Bring your concentration back to the effort here, find this baseline intensity and really focus on how it feels." locIndex="40" />
+            <textevent timeoffset="60" message="Feeling that first block? Good! You need to suffer to improve. Break the body down, adapt, come back stronger." locIndex="41" />
+            <textevent timeoffset="81" message="The surge is on the way." locIndex="42" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="105" OffDuration="15" OnPower="0.93" OffPower="1.4" pace="0">
+            <textevent timeoffset="0" message="Let your effort return, keep the pedals moving don&apos;t ease off too much. " locIndex="43" />
+            <textevent timeoffset="105" message="4 to go. This is where it starts to count. This is where you can really make the difference." locIndex="44" />
+            <textevent timeoffset="60" message="Time flies, doesn&apos;t it? No? Focus on something else. Think of your cadence, think of your breathing. " locIndex="45" />
+            <textevent timeoffset="21" message="This is where your concentration and effort control will really start to count. Relax your shoulders. Breathe!" locIndex="46" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="105" OffDuration="15" OnPower="0.93" OffPower="1.4" pace="0">
+            <textevent timeoffset="0" message="We&apos;re getting close to the end.  Your determination is going to pay off now. " locIndex="47" />
+            <textevent timeoffset="105" message="3 to go. Only 2 after this one. Get that power up, force your legs around." locIndex="48" />
+            <textevent timeoffset="21" message="This is where the adaptations are being forced, we need that to happen to improve our fitness." locIndex="49" />
+            <textevent timeoffset="60" message="Halfway through this final block now. " locIndex="50" />
+            <textevent timeoffset="81" message="Only 3 surges to go now. I&apos;m with you to the end." locIndex="51" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="105" OffDuration="15" OnPower="0.93" OffPower="1.4" pace="0">
+            <textevent timeoffset="0" message="We&apos;re back here in the uncomfortably comfortable zone. " locIndex="52" />
+            <textevent timeoffset="105" message="Penultimate effort now. We are nearly done." locIndex="53" />
+            <textevent timeoffset="24" message="Ignore any distractions around you now. Keep focused on the effort, control your breathing, keep a steady cadence. " locIndex="54" />
+            <textevent timeoffset="45" message="Max heart rate yet?" locIndex="55" />
+            <textevent timeoffset="72" message="The countdown is near. Do not neglect the importance of staying smooth." locIndex="56" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="105" OffDuration="15" OnPower="0.93" OffPower="1.4" pace="0">
+            <textevent timeoffset="0" message="Find the baseline effort one last time, maintain that pressure on the pedals as the power drops from the last surge. " locIndex="57" />
+            <textevent timeoffset="105" message="This is it now. Our final surge to finish the session. Rev your legs out for this one, but stay smooth." locIndex="58" />
+            <textevent timeoffset="18" message="Keep that control all the way to the end here. Just one surge remaining after this and we are done. " locIndex="59" />
+            <textevent timeoffset="45" message="Control is everything as we reach the end of this block. Breathing, pedaling, it all matters!" locIndex="60" />
+            <textevent timeoffset="75" message="This is the final minute. You can recover after that! This deserves your full effort to the end!" locIndex="61" />
+            <textevent timeoffset="93" message="Final surge is almost here." locIndex="62" />
+        </IntervalsT>
+        <Cooldown Duration="120" PowerLow="0.55" PowerHigh="0.35" pace="0">
+            <textevent timeoffset="0" message="Rehydrate now, enjoy your recovery. " locIndex="63" />
+            <textevent timeoffset="45" message="If you&apos;re in need of a little more training have a look in the Le Col Training With Legends workout folder for more sessions." locIndex="64" />
+            <textevent timeoffset="15" message="That was a really good FTP boosting session. Great work. How many stars?" locIndex="65" />
+            <textevent timeoffset="75" message="Did you load my Training With Legends video? More details at lecol.cc " locIndex="66" />
+            <textevent timeoffset="90" message="Thank you for joining me today. There are more Training With Legends sessions in the Le Col workout folder." locIndex="67" />
+            <textevent timeoffset="108" message="See you again, recover well." locIndex="68" />
+        </Cooldown>
+    </workout>
+</workout_file>

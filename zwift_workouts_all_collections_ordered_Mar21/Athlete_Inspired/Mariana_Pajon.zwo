@@ -1,0 +1,99 @@
+<workout_file>
+    <uniqueId>211a97dc-67a0-4988-a0bd-7f48e3da5e8d</uniqueId>
+    <legacyIdHash>1937191983</legacyIdHash>
+    <author>Shayne Gaffney</author>
+    <categoryOverride>Climbing</categoryOverride>
+    <name>Mariana Pajon - Force Development</name>
+    <description>With the nickname &apos;Queen of BMX&apos;, you know Mariana Pajón, ODB, is the real deal, and her 2 Olympic gold medals in BMX, multiple World Championships, and Pan American Games victories just back it up! An essential skill for BMX athletes is to generate massive force and torque to the pedals, especially when the gate drops. This workout features low cadence intervals, and pedal stroke work, which help develop pedaling force.</description>
+    <sportType>bike</sportType>
+    <tags />
+    <category>Athlete-Inspired</category>
+    <categoryIndex>5</categoryIndex>
+    <workout>
+        <Warmup Duration="300" PowerHigh="0.75" PowerLow="0.5">
+            <textevent timeoffset="10" message="Hello and welcome to a Mariana Pajon inspired workout!" locIndex="1" />
+            <textevent timeoffset="20" message="We&apos;ll chat more about her and today&apos;s workout in just a moment. Let&apos;s focus on the warm up now." locIndex="2" />
+            <textevent timeoffset="120" message="Hopefully, the pedal stroke is starting to feel a bit more fluid. Keep easing into the day." locIndex="3" />
+            <textevent timeoffset="150" message="Awesome work so far! Let&apos;s take a moment to chat about the plan for today." locIndex="4" />
+            <textevent timeoffset="160" message="Mariana Pajon took home the gold medal in the 2012 and 2016 Olympics in BMX, and has won multiple World Championships, and Pan American Games." locIndex="5" />
+            <textevent timeoffset="170" message="She is the first Colombian to win 2 Olympic gold medals and earned her nickname &apos;Queen of BMX&apos; accordingly." locIndex="6" />
+            <textevent timeoffset="180" message="BMX is all about being able to generate force to the pedals, especially when athletes leave the start gate." locIndex="7" />
+            <textevent timeoffset="190" message="Today&apos;s workout will improve your ability to generate force through the use of low-cadence intervals." locIndex="8" />
+            <textevent timeoffset="200" message="Some call this kind of workout &apos;strength training on the bike&apos;, so expect your leg muscles to feel a bit more worked than usual." locIndex="9" />
+            <textevent timeoffset="210" message="Low-cadence work is also a great opportunity to improve your pedal stroke..." locIndex="10" />
+            <textevent timeoffset="220" message="since the cadence is low enough where you can separate all of the different quadrants." locIndex="11" />
+            <textevent timeoffset="230" message="We&apos;ll also do some form work today during the intervals to give you an idea of what I am talking about :-)" locIndex="12" />
+            <textevent timeoffset="240" message="Let&apos;s carry on with the warm up for another minute." locIndex="13" />
+        </Warmup>
+        <SteadyState Duration="120" Power="0.55">
+            <textevent timeoffset="0" message="Great effort! Let&apos;s bring it down a notch and get the final preparation in before the main set." locIndex="14" />
+            <textevent timeoffset="10" message="Today shouldn&apos;t feel particularly challenging for you and is a nice balance for higher-intensity training." locIndex="15" />
+            <textevent timeoffset="60" message="In 1min, we will start our 1st interval." locIndex="16" />
+            <textevent timeoffset="70" message="We&apos;ll do 3, 5min intervals at a moderate intensity at ~70 RPM, with 3min recovery between at a comfortable cadence." locIndex="17" />
+            <textevent timeoffset="80" message="While doing some specific pedal form work throughout." locIndex="18" />
+            <textevent timeoffset="90" message="With the lower cadence focus, expect to see a lower heart rate, but increased &apos;stress&apos; on your legs." locIndex="19" />
+            <textevent timeoffset="100" message="This is all part of the plan though!" locIndex="20" />
+            <textevent timeoffset="110" message="Okay, start lowering your cadence down to ~70 RPM." locIndex="21" />
+        </SteadyState>
+        <SteadyState Duration="300" Power=".85" Cadence="70">
+            <textevent timeoffset="0" message="Let&apos;s get into it today!" locIndex="22" />
+            <textevent timeoffset="10" message="Just focus on settling into this intensity and cadence for now." locIndex="23" />
+            <textevent timeoffset="60" message="Good work so far! I want you to focus on the &apos;push&apos; of the pedal stroke." locIndex="24" />
+            <textevent timeoffset="70" message="Try to push the pedals down and stay stable up top." locIndex="25" />
+            <textevent timeoffset="80" message="This is called the &apos;down stroke&apos; and is where cyclists generate the majority of their power - like Mariana!" locIndex="26" />
+            <textevent timeoffset="180" message="Nice work! Now, let&apos;s switch it a bit. I want you to focus on pulling the pedals &apos;up&apos;." locIndex="27" />
+            <textevent timeoffset="190" message="This portion is called the &apos;up stroke&apos; and is typically a weaker area for cyclists in terms of power generation." locIndex="28" />
+            <textevent timeoffset="200" message="The importance for this phase is getting the opposing leg &apos;out of the way&apos; so you aren&apos;t absorbing power generated." locIndex="29" />
+            <textevent timeoffset="210" message="So, focus on pushing down on one side, and pulling up on the opposing side." locIndex="30" />
+            <textevent timeoffset="240" message="1min to go here." locIndex="31" />
+        </SteadyState>
+        <SteadyState Duration="180" Power=".65" Cadence="85">
+            <textevent timeoffset="0" message="Alright! That&apos;s 1 down and 2 more to go." locIndex="32" />
+            <textevent timeoffset="10" message="We&apos;ll take 3min between intervals at a more comfortable cadence, just spin naturally." locIndex="33" />
+            <textevent timeoffset="20" message="Let&apos;s also keep it in zone 2 to keep the work rate higher here." locIndex="34" />
+            <textevent timeoffset="60" message="Have a drink and shake things out if you&apos;re tight." locIndex="35" />
+            <textevent timeoffset="180" message="Mariana won her first national title at age of 5 and her first world title at 9! She&apos;s an incredible athlete!" locIndex="36" />
+            <textevent timeoffset="150" message="In 30sec, we&apos;re starting interval 2." locIndex="37" />
+            <textevent timeoffset="160" message="Same idea as before where the focus is on lower cadence." locIndex="38" />
+            <textevent timeoffset="170" message="Start bringing the cadence down again to ~70 RPM." locIndex="39" />
+        </SteadyState>
+        <SteadyState Duration="300" Power=".85" Cadence="70">
+            <textevent timeoffset="0" message="Let&apos;s use the 1st minute to settle down again." locIndex="40" />
+            <textevent timeoffset="60" message="Great work! For this interval, I want to focus on the &apos;kick&apos; and &apos;scrape&apos; portion of the pedal stroke." locIndex="41" />
+            <textevent timeoffset="70" message="Let&apos;s start with the kick. I want you to try to kick your feet forward coming over the top of the pedal stroke." locIndex="42" />
+            <textevent timeoffset="80" message="Like you&apos;re trying to kick a ball." locIndex="43" />
+            <textevent timeoffset="120" message="This portion always feels the most awkward to separate from the other 3 quadrants :-)" locIndex="44" />
+            <textevent timeoffset="180" message="Great work! Let&apos;s now focus on the &apos;scrape&apos; portion of the pedal stroke." locIndex="45" />
+            <textevent timeoffset="190" message="This time, as your leg starts coming back down again, imagine you&apos;re scraping mud off the bottom of your shoe." locIndex="46" />
+            <textevent timeoffset="200" message="This is the final part of the pedal quadrant :-)" locIndex="47" />
+            <textevent timeoffset="240" message="1min to go!" locIndex="48" />
+        </SteadyState>
+        <SteadyState Duration="180" Power=".65" Cadence="85">
+            <textevent timeoffset="0" message="Nice one! Just 1 more of those to go today :-)" locIndex="49" />
+            <textevent timeoffset="10" message="Let&apos;s take another 3min nice and easy before though." locIndex="50" />
+            <textevent timeoffset="60" message="Mariana is a pioneer for women&apos;s BMX. She was the only girl in her category for years." locIndex="51" />
+            <textevent timeoffset="70" message="She says &apos;I am a warrior. And I won’t stop even if it hurts. I am only satisfied when I give 100 percent, and everything comes out of me.&apos;" locIndex="52" />
+            <textevent timeoffset="80" message="I think we can all learn a lesson in that quote :-)" locIndex="53" />
+            <textevent timeoffset="120" message="1 more minute here, then we&apos;ll begin our finale! How are the legs feeling?" locIndex="54" />
+            <textevent timeoffset="130" message="A little more fatigued than usual? That&apos;s due to the lower cadence and subsequent higher force work we&apos;re doing today." locIndex="55" />
+        </SteadyState>
+        <SteadyState Duration="300" Power=".85" Cadence="70">
+            <textevent timeoffset="0" message="Final bit of work for today! Let&apos;s bring the cadence down 1 last time and settle into it." locIndex="56" />
+            <textevent timeoffset="30" message="Focus on the &apos;push&apos; portion of the pedal stroke quadrant for the next 30sec." locIndex="57" />
+            <textevent timeoffset="60" message="Now, focus on the &apos;scrape&apos; portion." locIndex="58" />
+            <textevent timeoffset="90" message="Let&apos;s focus on the &apos;pull&apos; portion." locIndex="59" />
+            <textevent timeoffset="120" message="And now the &apos;kick&apos;." locIndex="60" />
+            <textevent timeoffset="150" message="Put it all together now! Push, scrape, pull, and kick." locIndex="61" />
+            <textevent timeoffset="180" message="Does your pedal stroke feel different now? Better than before, hopefully?." locIndex="62" />
+            <textevent timeoffset="240" message="1 more minute working on that upgraded pedal stroke!" locIndex="63" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerHigh="0.35" PowerLow="0.55">
+            <textevent timeoffset="0" message="Way to go, my friend! You&apos;re pedaling like Mariana now :-)" locIndex="64" />
+            <textevent timeoffset="10" message="Let&apos;s take 5min and cool down now. Way to CRUSH the day!" locIndex="65" />
+            <textevent timeoffset="60" message="Slowly bring your cadence down, take some nice deep breaths." locIndex="66" />
+            <textevent timeoffset="120" message="Thank you for working so hard today!" locIndex="67" />
+            <textevent timeoffset="240" message="Make sure you refuel and rehydrate before your next workout." locIndex="68" />
+            <textevent timeoffset="290" message="Ride On!" locIndex="69" />
+        </Cooldown>
+    </workout>
+</workout_file>

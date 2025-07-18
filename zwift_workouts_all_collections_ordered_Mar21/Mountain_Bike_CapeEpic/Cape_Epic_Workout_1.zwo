@@ -1,0 +1,76 @@
+<workout_file>
+    <uniqueId>2f71fec4-aa3e-4bd2-a223-d9b0f3029668</uniqueId>
+    <legacyIdHash>1077094451</legacyIdHash>
+    <author>Annika Langvad</author>
+    <name>Annika Langvad Series.1 - Workout 1</name>
+    <category>Mountain Bike</category>
+    <subcategory>Annika Langvad Series</subcategory>
+    <description>This series of workouts have been curated by 4-time champion Annika Langvad. These workouts are tailored specifically for mountain bikers and will tackle areas of fitness that will dramatically aid you out on the trails.
+
+These workouts are designed to be done over a 6-8 week period (2-3 workouts per week) and supplemented with technical mountain biking outdoors if possible.
+
+In Denmark Annika often uses an indoor trainer and Zwift to give her an extra edge and get the most out of the time available to train. Her knowledge and expertise will be invaluable in your training during this series.
+
+This first workout of sixteen is a relatively easy start to break you in, with a focus on building endurance. Three blocks of increasing intensity until you have just reached Z4.</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <Warmup Duration="360" PowerLow="0.43673912" PowerHigh="0.6541304" pace="8268">
+            <textevent timeoffset="5" message="Welcome to the Annika Langvad Workout Series!" locIndex="1" />
+            <textevent timeoffset="16" message="This series of workouts have been curated by 4 time champion Annika Langvad" locIndex="2" />
+            <textevent timeoffset="38" message="These workouts are tailored specifically to help you train for a hardcore MTB event." locIndex="3" />
+            <textevent timeoffset="60" message="An easy start to get us warmed up" locIndex="4" />
+            <textevent timeoffset="71" message="Then we&apos;ll move on to some endurance intervals" locIndex="5" />
+            <textevent timeoffset="111" message="These challenges are different to road cycling" locIndex="7" />
+            <textevent timeoffset="122" message="So we must prepare differently" locIndex="8" />
+            <textevent timeoffset="133" message="Each of these workouts are designed to help you tackle these challenges effectively" locIndex="9" />
+            <textevent timeoffset="200" message="Today we have 3 blocks of increasing intensity peaking in Z4" locIndex="10" />
+            <textevent timeoffset="211" message="This is to start improving our endurance" locIndex="11" />
+            <textevent timeoffset="222" message="And will give you a great foundation for the rest of the series" locIndex="12" />
+            <textevent timeoffset="340" message="All warmed up?" locIndex="14" />
+            <textevent timeoffset="351" message="Let&apos;s get started on section 1" locIndex="15" />
+        </Warmup>
+        <SteadyState Duration="300" Power="0.6541304" pace="8268">
+            <textevent timeoffset="10" message="Easy start then We&apos;ll slowly ramp up" locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.76282609" pace="8268" />
+        <SteadyState Duration="180" Power="0.87152171" pace="8268">
+            <textevent timeoffset="160" message="A quick 2 minutes in Zone 4" locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.0019565" pace="8268" />
+        <SteadyState Duration="300" Power="0.5" pace="8268">
+            <textevent timeoffset="10" message="Great effort. A short recovery now" locIndex="18" />
+            <textevent timeoffset="22" message="Then back to it!" locIndex="19" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.6541304" pace="8268">
+            <textevent timeoffset="10" message="Round 2" locIndex="20" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.76282609" pace="8268">
+            <textevent timeoffset="10" message="It&apos;s key to focus on keeping a smooth pedal stroke and steady cadence during these efforts" locIndex="21" />
+            <textevent timeoffset="54" message="So we must try to conserve energy where we can by being as smooth as possible in our power delivery" locIndex="23" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.87152171" pace="8268">
+            <textevent timeoffset="150" message="30 secs then 2 mins In Zone 4" locIndex="24" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.0019565" pace="8268">
+            <textevent timeoffset="30" message="This interval is almost done" locIndex="25" />
+            <textevent timeoffset="41" message="Keep it up " locIndex="26" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.50449997" pace="8268">
+            <textevent timeoffset="10" message="Great job" locIndex="27" />
+            <textevent timeoffset="21" message="Over halfway now" locIndex="28" />
+            <textevent timeoffset="33" message="Let&apos;s bring it on home" locIndex="29" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.65449995" pace="8268">
+            <textevent timeoffset="10.000056" message="Last interval now" locIndex="30" />
+            <textevent timeoffset="21.00001" message="Lets finish strong!" locIndex="31" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.76282609" pace="8268" />
+        <SteadyState Duration="180" Power="0.87152171" pace="8268" />
+        <SteadyState Duration="120" Power="1.0019565" pace="8268" />
+        <SteadyState Duration="300" Power="0.50630432" pace="8268">
+            <textevent timeoffset="10" message="Time to warm down!" locIndex="32" />
+            <textevent timeoffset="100" message="Workout 2 will ramp up the effort to further improve your endurance and start targeting your V02 Max!" locIndex="34" />
+        </SteadyState>
+    </workout>
+</workout_file>

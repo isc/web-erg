@@ -1,0 +1,203 @@
+<workout_file>
+    <uniqueId>dc081bef-f017-43b2-9d65-1635ddbd4409</uniqueId>
+    <legacyIdHash>3899174864</legacyIdHash>
+    <author>Shayne Gaffney | GC Coaching</author>
+    <name>Spaded Sweetie</name>
+    <description>The Spaded Sweetie starts off with a 15 minute warm up to prime the engines and ready the mind.  Then, we move into a spade interval set starting off very hard, but short, and gradually reducing the intensity while upping the time... Only to go back up again!  From there, we will move into a progressive over/under sweet spot interval featuring changes in cadence and intensity that culminates in a 1min FULL GAS effort! This is a tough workout, but feautures a lot of quality time at VO2 and threshold.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Build Me Up</category>
+    <subcategory>Week 7</subcategory>
+    <tags>
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.25" PowerHigh="0.75">
+            <textevent timeoffset="5" message="Welcome, friend!" locIndex="1" />
+            <textevent timeoffset="15" message="I am glad you are here :-)" locIndex="2" />
+            <textevent timeoffset="30" message="Let&apos;s get started with a warmup" locIndex="3" />
+            <textevent timeoffset="45" message="Ideally, spin at 85-95 RPM" locIndex="4" />
+            <textevent timeoffset="60" message="But, of course do what&apos;s comfy" locIndex="5" />
+            <textevent timeoffset="75" message="Focus on pedaling circles..." locIndex="6" />
+            <textevent timeoffset="90" message="Breathing from the belly..." locIndex="7" />
+            <textevent timeoffset="105" message="Keeping the shoulders down..." locIndex="8" />
+            <textevent timeoffset="120" message="And, SMILE, of course..." locIndex="9" />
+            <textevent timeoffset="180" message="3 minutes in..." locIndex="10" />
+            <textevent timeoffset="195" message="Let&apos;s practice visualization..." locIndex="11" />
+            <textevent timeoffset="210" message="This is a skill that will..." locIndex="12" />
+            <textevent timeoffset="225" message="help decrease nervousness..." locIndex="13" />
+            <textevent timeoffset="240" message="on event day, or a hard day..." locIndex="14" />
+            <textevent timeoffset="254" message="Picture yourself accomplishing" locIndex="15" />
+            <textevent timeoffset="270" message="your goals..." locIndex="16" />
+            <textevent timeoffset="285" message="your dreams..." locIndex="17" />
+            <textevent timeoffset="300" message="your aspirations..." locIndex="18" />
+            <textevent timeoffset="315" message="and this very workout!" locIndex="19" />
+            <textevent timeoffset="360" message="Start to bring up that cadence." locIndex="20" />
+            <textevent timeoffset="375" message="If you aren&apos;t at 95 already" locIndex="21" />
+            <textevent timeoffset="420" message="Shoulders relaxed." locIndex="22" />
+            <textevent timeoffset="480" message="Visualize finishing this." locIndex="23" />
+            <textevent timeoffset="540" message="Last minute of warmup..." locIndex="24" />
+            <textevent timeoffset="555" message="We&apos;re going to do 3 efforts..." locIndex="25" />
+            <textevent timeoffset="585" message="To further ready the legs..." locIndex="26" />
+            <textevent timeoffset="600" message="A little more mustard..." locIndex="27" />
+        </Warmup>
+        <SteadyState Duration="30" Power="0.95" Cadence="95" />
+        <SteadyState Duration="30" Power="0.5" Cadence="85">
+            <textevent timeoffset="1" message="Take it down..." locIndex="28" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.05" Cadence="105">
+            <textevent timeoffset="1" message="A little more still..." locIndex="29" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.5" Cadence="85" />
+        <SteadyState Duration="30" Power="1.15" Cadence="115">
+            <textevent timeoffset="1" message="Get those legs moving!" locIndex="30" />
+        </SteadyState>
+        <SteadyState Duration="150" Power="0.5" Cadence="85">
+            <textevent timeoffset="1" message="Great job! Take it down..." locIndex="31" />
+            <textevent timeoffset="10" message="Next, we&apos;re doing a spade..." locIndex="32" />
+            <textevent timeoffset="25" message="It&apos;s going to start off hard..." locIndex="33" />
+            <textevent timeoffset="40" message="But short, then get &quot;easier&quot;..." locIndex="34" />
+            <textevent timeoffset="55" message="but for a longer duration..." locIndex="35" />
+            <textevent timeoffset="80" message="Goal RPM is 110+ here, WORKING!" locIndex="36" />
+            <textevent timeoffset="100" message="Rest at 85 RPM, easy..." locIndex="37" />
+            <textevent timeoffset="119" message="UP UP UP!" locIndex="38" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="1.5" Cadence="110" />
+        <SteadyState Duration="30" Power="0.5" Cadence="85">
+            <textevent timeoffset="29" message="UP UP UP!" locIndex="39" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.35" Cadence="110" />
+        <SteadyState Duration="60" Power="0.5" Cadence="85">
+            <textevent timeoffset="5" message="Settle down, slow the breathing" locIndex="40" />
+            <textevent timeoffset="55" message="You got this!" locIndex="41" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.2" Cadence="110" />
+        <SteadyState Duration="60" Power="0.5" Cadence="85">
+            <textevent timeoffset="5" message="Hardest one&apos;s over with..." locIndex="42" />
+            <textevent timeoffset="30" message="Slow the breathing, relax..." locIndex="43" />
+            <textevent timeoffset="59" message="UP UP UP!" locIndex="44" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.35" Cadence="110" />
+        <SteadyState Duration="60" Power="0.5" Cadence="85">
+            <textevent timeoffset="5" message="Last one coming up..." locIndex="45" />
+            <textevent timeoffset="55" message="UP UP UP!" locIndex="46" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="1.5" Cadence="110" />
+        <SteadyState Duration="120" Power="0.5" Cadence="85">
+            <textevent timeoffset="3" message="NICE JOB!!!" locIndex="47" />
+            <textevent timeoffset="14" message="Next up, some progressive..." locIndex="48" />
+            <textevent timeoffset="30" message="sweet spot, over/unders..." locIndex="49" />
+            <textevent timeoffset="45" message="These are all about raising FTP" locIndex="50" />
+            <textevent timeoffset="59" message="and improving your body&apos;s..." locIndex="51" />
+            <textevent timeoffset="75" message="ability to use lactate..." locIndex="52" />
+            <textevent timeoffset="104" message="Goal cadence is 95 RPM" locIndex="53" />
+            <textevent timeoffset="115" message="" />
+        </SteadyState>
+        <Ramp Duration="30" PowerLow="0.65" PowerHigh="0.88">
+            <textevent timeoffset="1" message="Start bringing it up..." locIndex="54" />
+        </Ramp>
+        <SteadyState Duration="240" Power="0.88" Cadence="95">
+            <textevent timeoffset="1" message="Settle into the effort..." locIndex="55" />
+            <textevent timeoffset="60" message="Shoulders down, fluid pedaling" locIndex="56" />
+            <textevent timeoffset="120" message="Halfway there!" locIndex="57" />
+            <textevent timeoffset="135" message="BIKE FACT!" locIndex="58" />
+            <textevent timeoffset="150" message="There are 1 billion..." locIndex="59" />
+            <textevent timeoffset="165" message="bicycles in the world!" locIndex="60" />
+            <textevent timeoffset="180" message="Last minute..." locIndex="61" />
+            <textevent timeoffset="230" message="Over coming up, 105 RPM" locIndex="62" />
+            <textevent timeoffset="201" message="I know this hurts, but..." locIndex="63" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.05" Cadence="105">
+            <textevent timeoffset="1" message="Spin the legs up!" locIndex="64" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="0.65" Cadence="85">
+            <textevent timeoffset="1" message="NICE!  Deep breaths..." locIndex="65" />
+        </SteadyState>
+        <Ramp Duration="30" PowerLow="0.65" PowerHigh="0.92">
+            <textevent timeoffset="1" message="Ramp it back up again" locIndex="66" />
+        </Ramp>
+        <SteadyState Duration="240" Power="0.92" Cadence="95">
+            <textevent timeoffset="1" message="Back on!  Settle in!" locIndex="67" />
+            <textevent timeoffset="60" message="Stay solid, upper body relaxed" locIndex="68" />
+            <textevent timeoffset="119" message="Ha;lf way through this one" locIndex="69" />
+            <textevent timeoffset="150" message="BIKE FACT!" locIndex="70" />
+            <textevent timeoffset="165" message="Mountain bikes weren&apos;t..." locIndex="71" />
+            <textevent timeoffset="179" message="developed until 1977." locIndex="72" />
+            <textevent timeoffset="230" message="Over coming up again, 105 RPM!" locIndex="73" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.05" Cadence="105">
+            <textevent timeoffset="1" message="Spin &apos;em up!" locIndex="74" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.65" Cadence="85">
+            <textevent timeoffset="1" message="Settle down...Breathe..." locIndex="75" />
+        </SteadyState>
+        <Ramp Duration="30" PowerLow="0.65" PowerHigh="0.96">
+            <textevent timeoffset="1" message="Ramp it up a bit more..." locIndex="76" />
+        </Ramp>
+        <SteadyState Duration="240" Power="0.96" Cadence="95">
+            <textevent timeoffset="1" message="Just shy of FTP now, settle in" locIndex="77" />
+            <textevent timeoffset="60" message="Visualize completing this..." locIndex="78" />
+            <textevent timeoffset="75" message="You can do this!" locIndex="79" />
+            <textevent timeoffset="120" message="Halfway!" locIndex="80" />
+            <textevent timeoffset="150" message="BIKE FACT!" locIndex="81" />
+            <textevent timeoffset="165" message="The longest bicycle..." locIndex="82" />
+            <textevent timeoffset="180" message="is 92 feet long!" locIndex="83" />
+            <textevent timeoffset="230" message="Over coming up, 105 RPM!" locIndex="84" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.06" Cadence="105">
+            <textevent timeoffset="1" message="Stay strong and solid!" locIndex="85" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.65" Cadence="85">
+            <textevent timeoffset="1" message="Settle, deep breaths..." locIndex="86" />
+            <textevent timeoffset="15" message="Blow out that used air..." locIndex="87" />
+            <textevent timeoffset="45" message="Stay focused..." locIndex="88" />
+        </SteadyState>
+        <Ramp Duration="30" PowerLow="0.65" PowerHigh="1">
+            <textevent timeoffset="1" message="Ramp it up even more..." locIndex="89" />
+        </Ramp>
+        <SteadyState Duration="240" Power="1" Cadence="95">
+            <textevent timeoffset="1" message="Right at FTP now..." locIndex="90" />
+            <textevent timeoffset="60" message="Excellent job!!!" locIndex="91" />
+            <textevent timeoffset="90" message="Keep that pedalstroke fluid..." locIndex="92" />
+            <textevent timeoffset="120" message="Halfway!" locIndex="93" />
+            <textevent timeoffset="150" message="BIKE FACT!" locIndex="94" />
+            <textevent timeoffset="165" message="Air filled tires were used..." locIndex="95" />
+            <textevent timeoffset="180" message="on bicycles before cars!" locIndex="96" />
+            <textevent timeoffset="229" message="Over coming up again!!!" locIndex="97" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.05" Cadence="105">
+            <textevent timeoffset="1" message="UP UP UP!" locIndex="98" />
+            <textevent timeoffset="30" message="Halfway, stay strong here!" locIndex="99" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.65" Cadence="85">
+            <textevent timeoffset="1" message="Nicely done!!!  Recover now..." locIndex="100" />
+            <textevent timeoffset="30" message="Last one coming up..." locIndex="101" />
+            <textevent timeoffset="45" message="We&apos;re going to work over FTP..." locIndex="102" />
+            <textevent timeoffset="60" message="You got this one!" locIndex="103" />
+        </SteadyState>
+        <Ramp Duration="30" PowerLow="0.65" PowerHigh="1.04">
+            <textevent timeoffset="1" message="Ramp it up!!!" locIndex="104" />
+        </Ramp>
+        <SteadyState Duration="240" Power="1.04" Cadence="95">
+            <textevent timeoffset="1" message="Here we go, last interval!" locIndex="105" />
+            <textevent timeoffset="60" message="3 minutes to go, keep it up!" locIndex="106" />
+            <textevent timeoffset="90" message="Don&apos;t let this break you!" locIndex="107" />
+            <textevent timeoffset="120" message="HALF WAY!" locIndex="108" />
+            <textevent timeoffset="150" message="Expecting a BIKE FACT?" locIndex="109" />
+            <textevent timeoffset="165" message="Too bad!  Focus on this..." locIndex="110" />
+            <textevent timeoffset="180" message="breathing deeply..." locIndex="111" />
+            <textevent timeoffset="195" message="block the voice that says stop." locIndex="112" />
+            <textevent timeoffset="210" message="Almost there!" locIndex="113" />
+            <textevent timeoffset="230" message="Get ready to go FULL GAS!" locIndex="114" />
+        </SteadyState>
+        <Ramp Duration="60" PowerLow="1.04" PowerHigh="1.2" Cadence="115" CadenceResting="0">
+            <textevent timeoffset="1" message="UP UP UP!" locIndex="115" />
+            <textevent timeoffset="30" message="STAY HERE!!!" locIndex="116" />
+            <textevent timeoffset="50" message="FINISH IT STRONG!" locIndex="117" />
+        </Ramp>
+        <Cooldown Duration="345" PowerLow="0.75" PowerHigh="0.25">
+            <textevent timeoffset="0" message="Woot woot! You crushed it, friend!" locIndex="118" />
+            <textevent timeoffset="10" message="You should be proud! I know I am!" locIndex="119" />
+            <textevent timeoffset="20" message="Spend the next few minutes cooling down, see you next time!" locIndex="120" />
+        </Cooldown>
+    </workout>
+</workout_file>

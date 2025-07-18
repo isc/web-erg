@@ -1,0 +1,106 @@
+<workout_file>
+    <uniqueId>3bf32a35-47db-4bd5-af75-addb51c2723b</uniqueId>
+    <legacyIdHash>2363097849</legacyIdHash>
+    <author>Shayne Gaffney</author>
+    <categoryOverride>Daily Fit</categoryOverride>
+    <name>Men&apos;s Team Workout</name>
+    <activitySaveName>Zwift Pro Training Camp: Movistar | Men&apos;s Team Workout</activitySaveName>
+    <description>This workout is a great one to improve your pedal stroke and ability to produce power comfortably at both fast and slow RPM. The first block sees you complete the reps at a high cadence and the second block at a slow cadence, while focusing on each quadrant of the pedal stroke.</description>
+    <sportType>bike</sportType>
+    <category>Pro Training Camp | Movistar</category>
+    <categoryIndex>1</categoryIndex>
+    <visibleAfterTime>1671408060</visibleAfterTime>
+    <overrideHash>2363097849</overrideHash>
+    <tags>
+        <tag name="zprotraining" />
+    </tags>
+    <workout>
+        <Warmup Duration="240" PowerHigh="0.55" PowerLow="0.35">
+            <textevent timeoffset="0" message="Welcome to Zwift&apos;s Pro Training Camp with UCI WorldTour team Movistar." locIndex="1" />
+            <textevent timeoffset="10" message="Today we have a workout from the Men&apos;s Team." locIndex="2" />
+            <textevent timeoffset="20" message="Let&apos;s start off with a warm up first before we move onto our main set." locIndex="3" />
+            <textevent timeoffset="30" message="Today won&apos;t be anything too difficult for you, just a nice day on Zwift!" locIndex="4" />
+            <textevent timeoffset="120" message="Alright, let&apos;s spend a moment chatting about the plan for today." locIndex="5" />
+            <textevent timeoffset="130" message="Our workout won&apos;t be anything too difficult and is instead focused on more technical work." locIndex="6" />
+            <textevent timeoffset="140" message="This includes some pedal stroke work and body positioning." locIndex="7" />
+            <textevent timeoffset="150" message="Let&apos;s carry on with the warm up, keep easing into the day here" locIndex="8" />
+            <textevent timeoffset="230" message="Alright, in 10sec we&apos;re going to raise the power a bit higher." locIndex="9" />
+        </Warmup>
+        <Ramp Duration="240" PowerLow=".6" PowerHigh=".68">
+            <textevent timeoffset="0" message="Let&apos;s bring it up here." locIndex="10" />
+            <textevent timeoffset="10" message="Lift your cadence a bit higher as well, let&apos;s aim for about 85 RPM." locIndex="11" />
+            <textevent timeoffset="60" message="Good work here! Bring your cadence up to about 90 RPM." locIndex="12" />
+            <textevent timeoffset="120" message="Let&apos;s try to bring your cadence up to around 95 RPM." locIndex="13" />
+            <textevent timeoffset="180" message="Alright, final minute here, aim for around 100 RPM." locIndex="14" />
+        </Ramp>
+        <SteadyState Duration="60" Power="0.75">
+            <textevent timeoffset="0" message="Great work! Bring the cadence back down to something comfortable." locIndex="15" />
+            <textevent timeoffset="50" message="Going up a bit higher again in 10sec." locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.83">
+            <textevent timeoffset="0" message="Let&apos;s aim for around 90 RPM here." locIndex="17" />
+            <textevent timeoffset="50" message="10sec, we&apos;re going to lift the cadence and power one more time." locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1">
+            <textevent timeoffset="0" message="Bring your cadence up to around 100 RPM." locIndex="19" />
+            <textevent timeoffset="20" message="Stick with it, keep that cadence up." locIndex="20" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.55">
+            <textevent timeoffset="0" message="Great job! Bring your cadence and power back down again." locIndex="21" />
+            <textevent timeoffset="10" message="We&apos;ll take a few minutes easy before starting the main set." locIndex="22" />
+            <textevent timeoffset="60" message="Take a few deep breaths here, nice and easy." locIndex="23" />
+            <textevent timeoffset="150" message="Alright, in 30sec we&apos;re tackling the first interval set." locIndex="24" />
+            <textevent timeoffset="160" message="We&apos;ll do 5 reps of 1min at a fast cadence, and 1min at a comfortable one." locIndex="25" />
+            <textevent timeoffset="170" message="We&apos;ll start off with the fast cadence first!" locIndex="26" />
+        </SteadyState>
+        <IntervalsT Repeat="5" OnDuration="60" OnPower="1" OffDuration="60" OffPower="0.6">
+            <textevent timeoffset="0" message="Aim for a cadence that is just before you start to bounce in the saddle." locIndex="27" />
+            <textevent timeoffset="30" message="Keep your cadence up here, maintain your form too." locIndex="28" />
+            <textevent timeoffset="60" message="Nicely done. Bring your cadence back down again to something comfortable." locIndex="29" />
+            <textevent timeoffset="120" message="Back up again now, aim for the same cadence as the first rep." locIndex="30" />
+            <textevent timeoffset="180" message="Nice work. Resume a comfortable cadence again." locIndex="31" />
+            <textevent timeoffset="240" message="Spin spin spin!" locIndex="32" />
+            <textevent timeoffset="300" message="Excellent work! That&apos;s halfway through." locIndex="33" />
+            <textevent timeoffset="360" message="Up up! Can you maintain the same RPM as the first rep?" locIndex="34" />
+            <textevent timeoffset="370" message="Remember, no bouncing in the saddle here." locIndex="35" />
+            <textevent timeoffset="420" message="Way to go! Just 1 more rep to go for these." locIndex="36" />
+            <textevent timeoffset="480" message="GO GO! Get those legs going like a blender!" locIndex="37" />
+            <textevent timeoffset="540" message="Nice one! Those are fun and great to work on your pedaling speed." locIndex="38" />
+            <textevent timeoffset="550" message="Power = force x velocity, and those are working on the velocity part of the equation." locIndex="39" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.55">
+            <textevent timeoffset="0" message="Okay, let&apos;s take 5min easy now. Have a drink and shake the legs out." locIndex="40" />
+            <textevent timeoffset="120" message="Up next, we&apos;re going to work on the other end of the spectrum and focus on force development." locIndex="41" />
+            <textevent timeoffset="130" message="These reps are going to be a little more intense, but also shorter." locIndex="42" />
+            <textevent timeoffset="140" message="I want a slow RPM, but I don&apos;t want you to experience any discomfort either." locIndex="43" />
+            <textevent timeoffset="150" message="If you do happen to experience any, please increase your cadence." locIndex="44" />
+            <textevent timeoffset="160" message="Just a bit longer and we&apos;re on." locIndex="45" />
+            <textevent timeoffset="270" message="30sec to go. We&apos;re going to start with the slow cadence again." locIndex="46" />
+        </SteadyState>
+        <IntervalsT Repeat="5" OnDuration="30" OnPower="1.15" OffDuration="60" OffPower="0.7">
+            <textevent timeoffset="0" message="Ok, bring your cadence down to something that feels slow to you." locIndex="47" />
+            <textevent timeoffset="10" message="Focus on the &apos;push&apos; of the pedal stroke." locIndex="48" />
+            <textevent timeoffset="30" message="Great work! Bring the cadence back up to something comfortable." locIndex="49" />
+            <textevent timeoffset="90" message="Lower it down again, this time focus on the &apos;pull&apos; of the pedal stroke." locIndex="50" />
+            <textevent timeoffset="100" message="Imagine pulling your knees up to your chest." locIndex="51" />
+            <textevent timeoffset="120" message="You&apos;re making these look easy!" locIndex="52" />
+            <textevent timeoffset="180" message="Cadence down again, this time focus on the &apos;kick&apos; portion." locIndex="53" />
+            <textevent timeoffset="190" message="Really kick the feet over the top of the pedal stroke." locIndex="54" />
+            <textevent timeoffset="210" message="Beauty! 2 more to go - it&apos;s fun working on each pedal stroke quadrant." locIndex="55" />
+            <textevent timeoffset="270" message="Okay, this time work on the &apos;scrape&apos; portion." locIndex="56" />
+            <textevent timeoffset="280" message="Imagine your scraping mud off your shoes." locIndex="57" />
+            <textevent timeoffset="300" message="Awesome! 1 more minute easy, then we&apos;ll put it all together." locIndex="58" />
+            <textevent timeoffset="360" message="Okay, all 4 quadrants this time - &apos;push, scrape, pull, kick&apos;." locIndex="59" />
+            <textevent timeoffset="390" message="Great work! Bring your cadence back up and let&apos;s finish out this last minute." locIndex="60" />
+        </IntervalsT>
+        <Cooldown Duration="180" PowerHigh="0.35" PowerLow="0.55">
+            <textevent timeoffset="0" message="Great job out there today!" locIndex="61" />
+            <textevent timeoffset="10" message="This is a great session to improve your pedal stroke and overall cadence." locIndex="62" />
+            <textevent timeoffset="60" message="Thanks for joining the Zwift and Movistar Pro training camp." locIndex="63" />
+            <textevent timeoffset="70" message="You&apos;ve made some impressive gains today." locIndex="64" />
+            <textevent timeoffset="90" message="If you enjoyed this session you can find 5 more workouts from Movistar in the Pro training camp folder." locIndex="65" />
+            <textevent timeoffset="160" message="See you on the road again soon!" locIndex="66" />
+            <textevent timeoffset="170" message="Ride On!" locIndex="67" />
+        </Cooldown>
+    </workout>
+</workout_file>

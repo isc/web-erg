@@ -1,0 +1,16 @@
+<workout_file>
+    <uniqueId>5de097dc-87a4-47b4-a569-3321e2f55ff8</uniqueId>
+    <legacyIdHash>346953874</legacyIdHash>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <category>Active Offseason</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 12</subcategory>
+    <name>Week 12.5 - Endurance</name>
+    <description>Build some time on the bike today with a nice Endurance ride!</description>
+    <tags />
+    <workout>
+        <Warmup Duration="900" PowerLow="0.24976191" PowerHigh="0.74976188" />
+        <SteadyState Duration="2700" PowerLow="0.74023807" PowerHigh="0.74023807" />
+        <Cooldown Duration="900" PowerLow="0.75" PowerHigh="0.25" />
+    </workout>
+</workout_file>

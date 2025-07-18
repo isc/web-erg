@@ -1,0 +1,126 @@
+<workout_file>
+    <uniqueId>21bdf12b-0951-49a4-ac52-653120463d89</uniqueId>
+    <legacyIdHash>2416517201</legacyIdHash>
+    <author>Martin Bonnevie-Svendsen</author>
+    <name>Norseman workout: Dyranut</name>
+    <description>So you think you have what it takes to take on the Norseman Workout Series? 
+T1 seems a long time ago. 22 miles of constant climbing and you roll into Dyranut, the first chance to meet your support crew, change bottles and throw on more clothes for the fast, chilly ride along the mountain plateau. 
+This Norseman workout is a high intensity session to boost your aerobic and also anaerobic capacity. This session will help increase your tolerance for bursts of higher power outputs during steep climbs and overtaking your competitors.
+	Think you have what it takes? Check out all of the Norseman Run and Bike workouts to help you prepare for the Norseman Festival of Climbing July 27th - August 2nd. 
+</description>
+    <category>The Norseman</category>
+    <categoryOverride>Climbing</categoryOverride>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="Norseman" />
+    </tags>
+    <workout>
+        <Ramp Duration="600" PowerLow="0.50449997" PowerHigh="0.72449994" pace="0">
+            <textevent timeoffset="15" message="Welcome to the first in this series of Norseman workouts." locIndex="1" />
+            <textevent timeoffset="30" message="Start pedaling gently to get your legs warm. We will use a progressively harder warmup-routine to get you ready for your intervals" locIndex="2" />
+            <textevent timeoffset="60" message="Choose your preferred cadence for the entire workout." locIndex="3" />
+            <textevent timeoffset="100" message="T1 seems a long time ago." locIndex="4" />
+            <textevent timeoffset="120" message="22 miles of constant climbing and you roll into Dyranut, the first chance to meet your support crew." locIndex="5" />
+            <textevent timeoffset="140" message="Change bottles and throw on more clothes for the fast, chilly ride along the mountain plateau." locIndex="6" />
+            <textevent timeoffset="300" message="Increase your cadence as the effort builds" locIndex="7" />
+            <textevent timeoffset="440" message="Next up we will be doing some 30 second hard efforts to prepare for the main set." locIndex="8" />
+            <textevent timeoffset="470" message="In the main set you will be doing 3 sets of 8 repeats of 30 second high intensity efforts interspersed by 30 seconds at rest." locIndex="9" />
+            <textevent timeoffset="490" message="Each set of 8 is separated by a 5 minute recovery period." locIndex="10" />
+            <textevent timeoffset="510" message="But there is a twist.. " locIndex="11" />
+            <textevent timeoffset="530" message="Each set is started off with 30 second efforts at even higher intensity." locIndex="12" />
+            <textevent timeoffset="550" message="It has been shown that this fast start style of intervals facilitates higher total time spent at high oxygen consumption" locIndex="13" />
+        </Ramp>
+        <IntervalsT Repeat="2" OnDuration="30" OffDuration="30" OnPower="1.2" OffPower="0.50">
+            <textevent timeoffset="0" message="Here we go. 30 seconds at 120 percent of FTP. This is the basic intensity for the majority of 30 second efforts." locIndex="14" />
+            <textevent timeoffset="30" message="Now we rest for 30 seconds." locIndex="15" />
+            <textevent timeoffset="60" message="Back to 120% effort." locIndex="16" />
+            <textevent timeoffset="90" message="And another short rest." locIndex="17" />
+        </IntervalsT>
+        <SteadyState Duration="240" Power="0.55">
+            <textevent timeoffset="10" message="Spend the next 4 minutes at low intensity getting your legs ready for the main 3 x interval sets." locIndex="18" />
+            <textevent timeoffset="30" message="Now is the time to focus on the 8 efforts at 120 percent of FTP - with a few efforts at 130 percent." locIndex="19" />
+            <textevent timeoffset="50" message="Keep in mind, the individual ability to maintain work at intensities this close to anaerobic work may vary greatly." locIndex="20" />
+            <textevent timeoffset="70" message="As such, there is no shame in adjusting your target power up or down a few percent by using the + or - button." locIndex="21" />
+            <textevent timeoffset="90" message="Aim for each set of 8 efforts being gradually more challenging." locIndex="22" />
+            <textevent timeoffset="220" message="Get ready, the first set of 8 efforts coming up in 10 seconds" locIndex="23" />
+        </SteadyState>
+        <IntervalsT Repeat="3" OnDuration="30" OffDuration="30" OnPower="1.3" OffPower="0.60">
+            <textevent timeoffset="0" message="Here we go. The first 3 efforts are 130 percent of FTP." locIndex="24" />
+            <textevent timeoffset="30" message="Keep spinning smoothly in the rests between the efforts" locIndex="25" />
+            <textevent timeoffset="60" message="2nd of the fast start efforts - go!" locIndex="26" />
+            <textevent timeoffset="90" message="...and rest" locIndex="27" />
+            <textevent timeoffset="120" message="Keep the cadence consistent during the high intensity efforts" locIndex="28" />
+            <textevent timeoffset="150" message="Rest up for a short time and now the effort drops to 120% for the remaining six intervals." locIndex="29" />
+        </IntervalsT>
+        <IntervalsT Repeat="5" OnDuration="30" OffDuration="30" OnPower="1.2" OffPower="0.60">
+            <textevent timeoffset="0" message="Pick it back up to 120%" locIndex="30" />
+            <textevent timeoffset="30" message="Nice deep breaths during the rest" locIndex="31" />
+            <textevent timeoffset="60" message="Here we go, spin it up" locIndex="32" />
+            <textevent timeoffset="90" message="...and rest" locIndex="33" />
+            <textevent timeoffset="120" message="3 to go, keep strong" locIndex="34" />
+            <textevent timeoffset="150" message="How are these feeling? 2 to go." locIndex="35" />
+            <textevent timeoffset="180" message="Looking strong!" locIndex="36" />
+            <textevent timeoffset="210" message="Stay focused, just one more left" locIndex="37" />
+            <textevent timeoffset="240" message="Make this last one a good one" locIndex="38" />
+            <textevent timeoffset="270" message="Great effort, now rest" locIndex="39" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.50">
+            <textevent timeoffset="20" message="Keep your legs turning slowly while drinking and resting" locIndex="40" />
+            <textevent timeoffset="40" message="How did your first set feel? You should have started to feel somewhat tired towards the end, but far from exhausted." locIndex="41" />
+            <textevent timeoffset="290" message="Next set of 8 efforts coming up in 10 seconds" locIndex="42" />
+        </SteadyState>
+        <IntervalsT Repeat="2" OnDuration="30" OffDuration="30" OnPower="1.3" OffPower="0.60">
+            <textevent timeoffset="0" message="This set kicks off with 2 efforts at 130 percent of FTP" locIndex="43" />
+            <textevent timeoffset="30" message="Keep spinning smoothly in the rests between the efforts" locIndex="44" />
+            <textevent timeoffset="60" message="Final fast effort of this set, keep it up" locIndex="45" />
+            <textevent timeoffset="90" message="Rest up, intervals drop to 120% now" locIndex="46" />
+        </IntervalsT>
+        <IntervalsT Repeat="6" OnDuration="30" OffDuration="30" OnPower="1.2" OffPower="0.60">
+            <textevent timeoffset="0" message="And we are back down at 120 percent for the rest of this set. Too easy!" locIndex="47" />
+            <textevent timeoffset="30" message="...and rest" locIndex="48" />
+            <textevent timeoffset="0" message="Starting to get that heavy feeling in your legs and feeling out of breath? Good, that is the point, keep it up!" locIndex="49" />
+            <textevent timeoffset="90" message="Nice deep breaths during the rest" locIndex="50" />
+            <textevent timeoffset="120" message="Looking great, keep strong" locIndex="51" />
+            <textevent timeoffset="150" message="...and rest" locIndex="52" />
+            <textevent timeoffset="180" message="3 to go, keep the cadence up" locIndex="53" />
+            <textevent timeoffset="210" message="2 left after this rest" locIndex="54" />
+            <textevent timeoffset="240" message="Dig in and focus on smooth pedaling" locIndex="55" />
+            <textevent timeoffset="270" message="Just one more left in this set" locIndex="56" />
+            <textevent timeoffset="300" message="Make it a good one" locIndex="57" />
+            <textevent timeoffset="330" message="Great effort, two sets down one to go" locIndex="58" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.50">
+            <textevent timeoffset="20" message="Take a big drink and imagine those cooling Norwegian breezes!" locIndex="59" />
+            <textevent timeoffset="40" message="How was round two? Harder, easier or about the same?" locIndex="60" />
+            <textevent timeoffset="290" message="Only one more set to go, you got this. 10 seconds to go, get ready." locIndex="61" />
+        </SteadyState>
+        <IntervalsT Repeat="1" OnDuration="30" OffDuration="30" OnPower="1.3" OffPower="0.60">
+            <textevent timeoffset="0" message="This set starts with only the single effort at 130 percent of FTP" locIndex="62" />
+            <textevent timeoffset="30" message="7 efforts to go. This is where it gets fun, and where your efforts start paying off!" locIndex="63" />
+        </IntervalsT>
+        <IntervalsT Repeat="7" OnDuration="30" OffDuration="30" OnPower="1.2" OffPower="0.60">
+            <textevent timeoffset="0" message="And we are back to 120% for the rest of the workout" locIndex="64" />
+            <textevent timeoffset="30" message="...and rest" locIndex="65" />
+            <textevent timeoffset="0" message="Keep it smooth!" locIndex="66" />
+            <textevent timeoffset="90" message="Deep breaths, settle the heart rate" locIndex="67" />
+            <textevent timeoffset="120" message="Keep this strong" locIndex="68" />
+            <textevent timeoffset="150" message="...and rest again" locIndex="69" />
+            <textevent timeoffset="180" message="4 to go, keep the cadence up" locIndex="70" />
+            <textevent timeoffset="210" message="3 left after this rest" locIndex="71" />
+            <textevent timeoffset="240" message="Nearly there, this is where it gets hard" locIndex="72" />
+            <textevent timeoffset="270" message="Just 2 more left in this set" locIndex="73" />
+            <textevent timeoffset="300" message="It never gets easier, you just go faster!" locIndex="74" />
+            <textevent timeoffset="330" message="Great effort, one more rep and then we are done" locIndex="75" />
+            <textevent timeoffset="360" message="This is it! Leave it all out there." locIndex="76" />
+            <textevent timeoffset="390" message="And relax!" locIndex="77" />
+        </IntervalsT>
+        <Cooldown Duration="600" PowerLow="0.65" PowerHigh="0.50" pace="0">
+            <textevent timeoffset="0" message="To finish off the session, we will do a 10 minute cool down at low intensity to add to your total volume of work on low glycogen stores." locIndex="78" />
+            <textevent timeoffset="180" message="For future reference, recall how the intensity of today affected your workout execution." locIndex="79" />
+            <textevent timeoffset="360" message="Performing these high intensity short intervals can be useful to develop your ability to produce high power outputs." locIndex="80" />
+            <textevent timeoffset="420" message="3 minutes to go now, nearly done" locIndex="81" />
+            <textevent timeoffset="520" message="Thank you for joining this Norseman workout." locIndex="82" />
+            <textevent timeoffset="560" message="Keep an eye out for another workout in the Norseman series next week." locIndex="83" />
+        </Cooldown>
+    </workout>
+</workout_file>

@@ -1,0 +1,20 @@
+<workout_file>
+    <uniqueId>5156b542-d1cd-4011-9b25-26d29deaa9cb</uniqueId>
+    <legacyIdHash>275685030</legacyIdHash>
+    <category>Your First Century</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 5</subcategory>
+    <name>Week 5.2 - Day 2</name>
+    <description>Today is simple, ride the prescribed time in your Endurance Zone. Vary your cadence throughout ride and work on pedaling form. Practice "coming over the top" and "pulling through the bottom" of the pedal (pretend there is glass in shoes). Enjoy the day!! Cadence 85 - 105</description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.25" PowerHigh="0.75">
+            <textevent timeoffset="420" message="Fast pedal!" locIndex="1" />
+            <textevent timeoffset="480" message="85 - 105 rpm" locIndex="2" />
+            <textevent timeoffset="540" message="Fast pedal!" locIndex="3" />
+            <textevent timeoffset="600" message="85 - 105 rpm" locIndex="4" />
+        </Warmup>
+        <SteadyState Duration="6000" PowerLow="0.75" PowerHigh="0.75" />
+        <Cooldown Duration="600" PowerLow="0.75" PowerHigh="0.25" />
+    </workout>
+</workout_file>

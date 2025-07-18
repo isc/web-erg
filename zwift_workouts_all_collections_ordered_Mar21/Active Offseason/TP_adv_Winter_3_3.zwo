@@ -1,0 +1,39 @@
+<workout_file>
+    <uniqueId>248f2d73-1feb-440b-9914-9158908f17ca</uniqueId>
+    <legacyIdHash>1221535849</legacyIdHash>
+    <category>Active Offseason</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 3</subcategory>
+    <name>Week 3.3 - High-Cadence Into Standing</name>
+    <description>Spin for 1 minute with rpm &gt; 100 and then keep that pace while standing out of the saddle. Repeat this 5x for 10 minutes total. Then, spin at a moderate pace while listening to your body for 10 minutes. Follow this with 10 minutes of alternate one-legged pedaling.</description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <workout>
+        <Warmup PowerLow="0.5" PowerHigh="1" Duration="420" />
+        <IntervalsT OnDuration="60" OffDuration="60" PowerOnZone="4" PowerOffZone="2" Repeat="5">
+            <TextEvent message="100+ rpm: High Cadence!" locIndex="1" timeoffset="0" />
+            <TextEvent message="80 rpm: Normal Cadence!" locIndex="2" timeoffset="60" />
+        </IntervalsT>
+        <SteadyState Zone="3" Duration="600" />
+        <SteadyState Duration="120" PowerLow="0.40" PowerHigh="0.4">
+            <textevent timeoffset="0" message="Left leg only!" locIndex="3" />
+            <textevent timeoffset="60" message="Right leg only!" locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="120" PowerLow="0.40" PowerHigh="0.4">
+            <textevent timeoffset="0" message="Left leg only!" locIndex="4" />
+            <textevent timeoffset="60" message="Right leg only!" locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="120" PowerLow="0.40" PowerHigh="0.4">
+            <textevent timeoffset="0" message="Left leg only!" locIndex="5" />
+            <textevent timeoffset="60" message="Right leg only!" locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="120" PowerLow="0.40" PowerHigh="0.4">
+            <textevent timeoffset="0" message="Left leg only!" locIndex="6" />
+            <textevent timeoffset="60" message="Right leg only!" locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="120" PowerLow="0.40" PowerHigh="0.4">
+            <textevent timeoffset="0" message="Left leg only!" locIndex="7" />
+            <textevent timeoffset="60" message="Right leg only!" locIndex="7" />
+        </SteadyState>
+        <Cooldown Zone="1" Duration="300" />
+    </workout>
+</workout_file>

@@ -1,0 +1,63 @@
+<workout_file>
+    <uniqueId>ae5902e4-c5b6-40e6-afa7-ce483bc1d322</uniqueId>
+    <legacyIdHash>214724747</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Cruise Intervals #5</name>
+    <description>Today&apos;s session consists of 4 long cruise intervals. Cruise intervals are performed within Zone 4. However, we are starting with the hardest interval 1st, and decreasing the power slightly for each interval thereafter. Observe your heart rate across the 4 intervals. Is it decreasing along with the target power? Focus on controlled breathing and pedaling at a cadence similar to your time trial cadence.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>TT Tune Up</category>
+    <subcategory>Week 7</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="180" PowerLow="0.44999999" PowerHigh="0.60000002" pace="189">
+            <textevent timeoffset="30" message="Our warm up gradually ramps up to a 1min Zone 5 effort." locIndex="1" />
+        </Warmup>
+        <SteadyState Duration="60" Power="0.60000002" pace="189" />
+        <SteadyState Duration="60" Power="0.64999998" pace="189" />
+        <SteadyState Duration="60" Power="0.81" pace="189">
+            <textevent timeoffset="50" message="Ready for the 1min Zone 5 effort." locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.09" pace="189" />
+        <SteadyState Duration="120" Power="0.5" pace="189">
+            <textevent timeoffset="100" message="To complete the warm up we now perform a 4min threshold effort." locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.89999998" pace="189" />
+        <SteadyState Duration="180" Power="0.5" pace="189">
+            <textevent timeoffset="20" message="Now for the &apos;Cruise&apos; intervals." locIndex="4" />
+            <textevent timeoffset="50" message="The intervals begin with the hardest one first." locIndex="5" />
+            <textevent timeoffset="70" message="Note your HR at the end of each interval. Does your HR decrease with the power?" locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="540" Power="1.04" pace="189">
+            <textevent timeoffset="40" message="Settle into a nice rhythm. Focus on breathing." locIndex="7" />
+            <textevent timeoffset="250" message="These are long efforts. Aim to maintain the same cadence throughout the interval." locIndex="8" />
+            <textevent timeoffset="520" message="Take note of your finishing HR." locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="135" Power="0.5" pace="189">
+            <textevent timeoffset="120" message="A little less power this time." locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="540" Power="0.99000001" pace="189">
+            <textevent timeoffset="40" message="Settle into a nice rhythm. Focus on breathing." locIndex="11" />
+            <textevent timeoffset="250" message="These are long efforts. Aim to maintain the same cadence throughout the interval." locIndex="12" />
+            <textevent timeoffset="520" message="Take note of your finishing HR. How does it compare to the previous interval?" locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="135" Power="0.5" pace="189">
+            <textevent timeoffset="120" message="A little less power this time." locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="540" Power="0.94" pace="189">
+            <textevent timeoffset="40" message="Settle into a nice rhythm. Focus on breathing." locIndex="15" />
+            <textevent timeoffset="250" message="These are long efforts. Aim to maintain the same cadence throughout the interval." locIndex="16" />
+            <textevent timeoffset="520" message="Take note of your finishing HR. How does it compare to the previous interval?" locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="135" Power="0.5" pace="189">
+            <textevent timeoffset="120" message="A little less power this time." locIndex="18" />
+            <textevent timeoffset="100" message="Last effort!" locIndex="19" />
+        </SteadyState>
+        <SteadyState Duration="540" Power="0.89999998" pace="189">
+            <textevent timeoffset="40" message="Settle into a nice rhythm. Focus on breathing." locIndex="20" />
+            <textevent timeoffset="250" message="These are long efforts. Aim to maintain the same cadence throughout the interval." locIndex="21" />
+            <textevent timeoffset="520" message="Take note of your finishing HR. How does it compare to the previous interval?" locIndex="22" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow="0.69999999" PowerHigh="0.44999999" pace="189" />
+    </workout>
+</workout_file>

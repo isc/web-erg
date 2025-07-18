@@ -1,0 +1,47 @@
+<workout_file>
+    <uniqueId>a0434464-c98d-4c2b-9cca-9783e6978f4d</uniqueId>
+    <legacyIdHash>2842558873</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <categoryOverride>VO2 Max</categoryOverride>
+    <name>Week 1.6 - AC Maintenance #1</name>
+    <category>2018 PRL100 Prep</category>
+    <subcategory>Week 1</subcategory>
+    <description>Complete 8 x 1 Min Anaerobic Capacity Intervals, before finishing with a 25 Min zone 2 effort. Observe your Heart Rate response during the 25 Min effort. How much does it increase throughout the effort?</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow="0.50449997" PowerHigh="0.74449998" pace="0">
+            <textevent timeoffset="28" message="Include 3 x 6 sec high cadence / low power sprints during the warm up." locIndex="1" />
+            <textevent timeoffset="536" message="The opening AC intervals will be hard but achievable." locIndex="2" />
+        </Warmup>
+        <SteadyState Duration="60" Power="1.1945" pace="0" />
+        <SteadyState Duration="75" Power="0.55000001" pace="0" />
+        <SteadyState Duration="60" Power="1.1989731" pace="0" />
+        <SteadyState Duration="75" Power="0.55000001" pace="0" />
+        <SteadyState Duration="60" Power="1.1972048" pace="0" />
+        <SteadyState Duration="75" Power="0.55000001" pace="0" />
+        <SteadyState Duration="60" Power="1.1975026" pace="0" />
+        <SteadyState Duration="75" Power="0.55000001" pace="0">
+            <textevent timeoffset="34" message="Just 4 to go!" locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.197433" pace="0" />
+        <SteadyState Duration="75" Power="0.55000001" pace="0" />
+        <SteadyState Duration="60" Power="1.1945" pace="0" />
+        <SteadyState Duration="75" Power="0.55000001" pace="0" />
+        <SteadyState Duration="60" Power="1.1962765" pace="0" />
+        <SteadyState Duration="75" Power="0.55449998" pace="0" />
+        <SteadyState Duration="60" Power="1.1977476" pace="0" />
+        <SteadyState Duration="60" Power="0.50449997" pace="0">
+            <textevent timeoffset="23" message="Now for a steady tempo interval." locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="1500" Power="0.77449995" pace="0">
+            <textevent timeoffset="76" message="Observe your HR throughout the tempo interval." locIndex="5" />
+            <textevent timeoffset="139" message="Is it continuing to rise?" locIndex="6" />
+            <textevent timeoffset="559" message="Focus on controlled breathing." locIndex="7" />
+            <textevent timeoffset="826" message="How has your cadence changed during the effort?" locIndex="8" />
+            <textevent timeoffset="913" message="Are you still spinning efficiently?" locIndex="9" />
+            <textevent timeoffset="1200" message="Just 5min to go!" locIndex="10" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow="0.75449997" PowerHigh="0.51450002" pace="0" />
+    </workout>
+</workout_file>

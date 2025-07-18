@@ -1,0 +1,55 @@
+<workout_file>
+    <uniqueId>93a2f0a3-fd96-4780-9428-a132b6bc6e34</uniqueId>
+    <legacyIdHash>1670674076</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Anaerobic Endurance 6x60sec</name>
+    <description>After completing a good warm up the main sets consist of sustained high-power intervals with full recovery. Anaerobic endurance involves high cadence and big power, along with the ability to resist fatigue. Throughout each  interval observe your cadence and heart rate. Is your cadence dropping with fatigue and your heart rate rising?</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>TT Tune Up</category>
+    <subcategory>Week 2</subcategory>
+    <tags>
+    </tags>
+    <workout>
+        <Warmup Duration="240" PowerLow="0.45" PowerHigh="0.75">
+            <textevent timeoffset="30" message="We begin the warm up with a gentle aerobic effort." locIndex="1" />
+        </Warmup>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="50" message="Now for a 1min high power, effort." locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.09" />
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="110" message="To prepare for the efforts we ramp up to a 4min threshold effort now." locIndex="3" />
+        </SteadyState>
+        <Ramp Duration="180" PowerLow="0.5" PowerHigh="0.9">
+            <textevent timeoffset="160" message="Nearly at threshold power now." locIndex="4" />
+            <textevent timeoffset="170" message="Time for the 3min threshold effort." locIndex="5" />
+        </Ramp>
+        <SteadyState Duration="180" Power="0.9" />
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="30" message="We have 2 sets of 60sec efforts ahead..." locIndex="6" />
+            <textevent timeoffset="40" message="This is a very high level of intensity that requires mental and physical perseverance." locIndex="7" />
+            <textevent timeoffset="50" message="But you can do this!" locIndex="8" />
+            <textevent timeoffset="170" message="Here we go. 1st effort." locIndex="9" />
+        </SteadyState>
+        <IntervalsT Repeat="6" OnDuration="60" OffDuration="180" OnPower="1.21" OffPower="0.55">
+            <textevent timeoffset="80" message="Self select your cadence for these efforts." locIndex="10" />
+            <textevent timeoffset="160" message="The 3min recovery should be enough to bring your HR back down." locIndex="11" />
+            <textevent timeoffset="600" message="Halfway. Just 3 to go!" locIndex="12" />
+            <textevent timeoffset="680" message="Is your HR gradually climbing throughout the set?" locIndex="13" />
+            <textevent timeoffset="720" message="Anaerobic Endurance involves high cadence and big power." locIndex="14" />
+        </IntervalsT>
+        <SteadyState Duration="120" Power="0.55">
+            <textevent timeoffset="60" message="Fully recovered? ready to go again?" locIndex="15" />
+        </SteadyState>
+        <IntervalsT Repeat="6" OnDuration="60" OffDuration="180" OnPower="1.21" OffPower="0.55">
+            <textevent timeoffset="80" message="Compare your cadence and HR to the 1st set." locIndex="16" />
+            <textevent timeoffset="300" message="Are you recovering as well as the 1st set?" locIndex="17" />
+            <textevent timeoffset="600" message="Halfway. Just 3 to go!" locIndex="18" />
+            <textevent timeoffset="720" message="Is your cadence dropping with fatigue and your heart rate rising?" locIndex="19" />
+        </IntervalsT>
+        <Cooldown Duration="300" PowerLow="0.75" PowerHigh="0.45">
+            <textevent timeoffset="30" message="That was a big session. Well done!" locIndex="20" />
+        </Cooldown>
+    </workout>
+</workout_file>

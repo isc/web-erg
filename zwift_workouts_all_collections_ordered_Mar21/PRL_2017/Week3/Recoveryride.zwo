@@ -1,0 +1,20 @@
+<workout_file>
+    <uniqueId>83544286-41fd-46a3-8fd5-d7088f0deb86</uniqueId>
+    <legacyIdHash>3750443896</legacyIdHash>
+    <author>Zwift</author>
+    <name>Week 3.1 - Just Ride</name>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>4wk PRL Prep</category>
+    <subcategory>Week 3</subcategory>
+    <description>No structured workout today. Go on an easy ride and explore the available roads. 
+
+Use today as a recovery ride, maintaining power within Zone 1 &amp; 2, with cadence 90-100 RPM.
+</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="PRL" />
+    </tags>
+    <workout>
+        <FreeRide Duration="3600.0002" FlatRoad="1" />
+    </workout>
+</workout_file>

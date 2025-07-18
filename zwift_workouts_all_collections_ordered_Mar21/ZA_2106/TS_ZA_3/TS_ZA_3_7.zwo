@@ -1,0 +1,17 @@
+<workout_file>
+    <uniqueId>ee9e9b0b-00fa-4068-809f-9382ee807c8e</uniqueId>
+    <legacyIdHash>2715930766</legacyIdHash>
+    <author>Jon Sharples</author>
+    <category>Zwift Academy 2016</category>
+    <subcategory>Month 3</subcategory>
+    <WorkoutPlan>1</WorkoutPlan>
+    <name>Month 3.7 - Attack Simulation</name>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/trainSharp_Logo.tga</authorIcon>
+    <description>The 30 second effort isn&apos;t a full on sprint: think Chris Froome putting in a seated attack on a climb, rather than a full on sprint for the finish line.</description>
+    <tags />
+    <workout>
+        <Warmup Duration="1500" PowerLow="0.50449997" PowerHigh="0.90449995" />
+        <IntervalsT Repeat="4" OnDuration="30" OffDuration="270" OnPower="1.2045" OffPower="0.95854342" />
+        <Cooldown Duration="1500" PowerLow="0.85449994" PowerHigh="0.2545" />
+    </workout>
+</workout_file>

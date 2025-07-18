@@ -1,0 +1,214 @@
+<workout_file>
+    <uniqueId>927a5801-ddb6-46d9-ae4d-c0e9a39affd0</uniqueId>
+    <legacyIdHash>1558423210</legacyIdHash>
+    <author>Marco Pinotti</author>
+    <categoryOverride>Sprinting</categoryOverride>
+    <name>Teniel Campbell: All-rounder</name>
+    <activitySaveName>Zwift Pro Training Camp: Team BikeExchange-Jayco | Teniel Campbell</activitySaveName>
+    <description>Teniel Campbell is a UCI pro cyclist for Team BikeExchange-Jayco and comes from the small island of Trinidad and Tobago. Teniel won four medals at the 2018 Central American and Caribbean Games and she won the U23 individual time trial at the 2019 Pan American Road and Track Championships. She joined Team BikeExchange in 2021 and recently won her national road and TT championship. Today&apos;s session is a great one to improve all-around fitness. The main set is 2 x 10 min as 90 second ramp from 83% - 93%, 20 second ramp from 105% - 120% and 10 seconds MAX, 5 times through! Get ready this one is going to be fun!  </description>
+    <sportType>bike</sportType>
+    <category>Pro Training Camp | Team BikeExchange-Jayco</category>
+    <categoryIndex>3</categoryIndex>
+    <visibleAfterTime>1672617660</visibleAfterTime>
+    <overrideHash>1558423210</overrideHash>
+    <tags>
+        <tag name="zprotraining" />
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow=".5" PowerHigh=".6">
+            <textevent timeoffset="0" message="Welcome to Training camp! Today you&apos;re working out with Teniel Campbell from UCI Women&apos;s WorldTeam Team BikeExchange-Jayco." locIndex="1" />
+            <textevent timeoffset="10" message="Teniel is an incredible young talent hailing from the small island of Trinidad and Tobago." locIndex="2" />
+            <textevent timeoffset="20" message="She already has multiple National and Pan American wins to her name in both the road race and Time-Trial." locIndex="3" />
+            <textevent timeoffset="30" message="Today you&apos;ve got one of her favorite trainer workouts and we are making it available on Zwift." locIndex="4" />
+            <textevent timeoffset="40" message="Find a comfortably high cadence and continue to warm up." locIndex="5" />
+            <textevent timeoffset="50" message="What&apos;s a comfortably high cadence? Anywhere from 85-95 rpms." locIndex="6" />
+            <textevent timeoffset="200" message="Ok, now that you&apos;re beginning to get loose let&apos;s chat about what&apos;s coming up in today&apos;s session." locIndex="7" />
+            <textevent timeoffset="210" message="After you finish warming up, you will be jumping right into a 5 min ramp starting at 60% of FTP and finishing at 90% of FTP." locIndex="8" />
+            <textevent timeoffset="220" message="This ramp is just an appetizer for the main session and will help prime your engine for the real work during the main set." locIndex="9" />
+            <textevent timeoffset="230" message="Today&apos;s main set is challenging. It&apos;s 2 x 10 min blocks broken up as 90 second ramp from 83% - 93% of FTP, 20 second ramp from 105% - 120% of FTP, and 10 seconds MAX!" locIndex="10" />
+            <textevent timeoffset="240" message="You may be thinking &apos;but that only adds up to 2 minutes&apos; and you would be right, your&apos;re repeating that pattern 5 times." locIndex="11" />
+            <textevent timeoffset="250" message="That&apos;s right, just after your 10 second MAX effort you will returning right back to a 90 second ramp starting at 83% of FTP." locIndex="12" />
+            <textevent timeoffset="260" message="This workout is designed to practice recovering at the middle of zone 3 and low end of zone 4." locIndex="13" />
+            <textevent timeoffset="270" message="It&apos;s perfect pace-line or race simulation!" locIndex="14" />
+            <textevent timeoffset="280" message="You should be feeling fully warmed up by now, time to start your engine." locIndex="15" />
+            <textevent timeoffset="290" message="Let&apos;s get into the first ramp, it will feel like an extension of this warm up." locIndex="16" />
+        </Warmup>
+        <Ramp Duration="300" PowerLow=".6" PowerHigh=".9">
+            <textevent timeoffset="0" message="This block starts easy, but will progressively ramp up in speed. Keep an eye out for the pace changes!" locIndex="17" />
+            <textevent timeoffset="60" message="Nice work, maintain a high cadence as the resistance continues to build." locIndex="18" />
+            <textevent timeoffset="120" message="Practice grabbing your bottle and taking in some fluids without your power dropping." locIndex="19" />
+            <textevent timeoffset="130" message="This will be important once you start the main set. You&apos;ll need to be strategic when it comes to drinking." locIndex="20" />
+            <textevent timeoffset="200" message="You should be starting to work at a higher effort now. Your legs, heart and lungs all starting to fire together." locIndex="21" />
+            <textevent timeoffset="240" message="Great job so far, we&apos;re almost through this ramp." locIndex="22" />
+            <textevent timeoffset="280" message="Hang in there, you have 2 minutes very easy coming up." locIndex="23" />
+        </Ramp>
+        <SteadyState Duration="120" Power=".55">
+            <textevent timeoffset="0" message="Nice work, I see you are nice and warm now!" locIndex="24" />
+            <textevent timeoffset="10" message="Take the next few minutes to relax, grab another drink and bring your heart rate down a few beats." locIndex="25" />
+            <textevent timeoffset="20" message="Once we start the 10 minute block there is no letting up." locIndex="26" />
+            <textevent timeoffset="100" message="Take a few deep breathes and mentally prepare for whats coming up. 5 x 90, 20, 10!" locIndex="27" />
+            <textevent timeoffset="110" message="You can do this!" locIndex="28" />
+        </SteadyState>
+        <Ramp Duration="90" PowerLow=".83" PowerHigh=".93">
+            <textevent timeoffset="0" message="Start this ramp controlled, stay right at the prescribed power. You don&apos;t get any extra credit for pushing too hard now." locIndex="29" />
+            <textevent timeoffset="10" message="This is technically your recovery effort for the rest of this 10 min block. Does that scare you?" locIndex="30" />
+            <textevent timeoffset="40" message="Nice and steady on the pedals." locIndex="31" />
+            <textevent timeoffset="60" message="As this effort builds, maintain a high cadence." locIndex="32" />
+            <textevent timeoffset="70" message="Ok, the first push is coming up. It&apos;s not a sprint, just a steady press into the pedals for 20 seconds." locIndex="33" />
+            <textevent timeoffset="80" message="We start at 105% of FTP, be prepared to add a little more pressure to the pedals." locIndex="34" />
+        </Ramp>
+        <Ramp Duration="20" PowerLow="1.05" PowerHigh="1.2">
+            <textevent timeoffset="0" message="Chase the power! It&apos;s going to ramp up pretty quickly." locIndex="35" />
+            <textevent timeoffset="10" message="Stay with it! You&apos;re going straight into 10 seconds MAX!" locIndex="36" />
+        </Ramp>
+        <SteadyState Duration="10" Power="1.5">
+            <textevent timeoffset="0" message="GO, Go, Go!" locIndex="37" />
+        </SteadyState>
+        <Ramp Duration="90" PowerLow=".83" PowerHigh=".93">
+            <textevent timeoffset="0" message="Great effort! Settle down quickly, but don&apos;t let the power completely fall off." locIndex="38" />
+            <textevent timeoffset="10" message="Find your breath. When you&apos;re breathing settles grab a quick drink." locIndex="39" />
+            <textevent timeoffset="20" message="Keep the cadence up don&apos;t let it drop below 85 rpms." locIndex="40" />
+            <textevent timeoffset="70" message="Time to start prepping for the next ramp. I know you think you need more time, but you don&apos;t. You&apos;re ready!" locIndex="41" />
+        </Ramp>
+        <Ramp Duration="20" PowerLow="1.05" PowerHigh="1.2">
+            <textevent timeoffset="0" message="Get up to speed!" locIndex="42" />
+            <textevent timeoffset="10" message="Stay with it!" locIndex="43" />
+        </Ramp>
+        <SteadyState Duration="10" Power="1.5">
+            <textevent timeoffset="0" message="Let&apos;s Go! Everything you&apos;ve got!" locIndex="44" />
+        </SteadyState>
+        <Ramp Duration="90" PowerLow=".83" PowerHigh=".93">
+            <textevent timeoffset="0" message="Nice work, 2 down, 3 to go!" locIndex="45" />
+            <textevent timeoffset="20" message="I know you&apos;re hurting, but hang in there. You&apos;re crushing this session so far." locIndex="46" />
+            <textevent timeoffset="40" message="Friendly reminder to continue drinking." locIndex="47" />
+            <textevent timeoffset="70" message="Get ready to bring back the effort." locIndex="48" />
+        </Ramp>
+        <Ramp Duration="20" PowerLow="1.05" PowerHigh="1.2">
+            <textevent timeoffset="0" message="Power straight through the pedals." locIndex="49" />
+            <textevent timeoffset="10" message="Keep chasing!" locIndex="50" />
+        </Ramp>
+        <SteadyState Duration="10" Power="1.5">
+            <textevent timeoffset="0" message="Sprint!" locIndex="51" />
+        </SteadyState>
+        <Ramp Duration="90" PowerLow=".83" PowerHigh=".93">
+            <textevent timeoffset="0" message="Great job, settle in and recover." locIndex="52" />
+            <textevent timeoffset="10" message="These last 2 rounds will be tough, but I know you can do it." locIndex="53" />
+            <textevent timeoffset="20" message="The key is to recover as much as possible in the first 60 seconds of this ramp." locIndex="54" />
+            <textevent timeoffset="50" message="Here we go again!" locIndex="55" />
+        </Ramp>
+        <Ramp Duration="20" PowerLow="1.05" PowerHigh="1.2">
+            <textevent timeoffset="0" message="You&apos;re looking strong and controlled. Keep it up!" locIndex="56" />
+            <textevent timeoffset="10" message="Get ready for the sprint." locIndex="57" />
+        </Ramp>
+        <SteadyState Duration="10" Power="1.5">
+            <textevent timeoffset="0" message="Go, Go, Go!" locIndex="58" />
+        </SteadyState>
+        <Ramp Duration="90" PowerLow=".83" PowerHigh=".93">
+            <textevent timeoffset="0" message="Last round, hang in there!" locIndex="59" />
+            <textevent timeoffset="10" message="Keep turning those pedals." locIndex="60" />
+            <textevent timeoffset="30" message="Quick drink before we close out this round." locIndex="61" />
+            <textevent timeoffset="70" message="Let&apos;s do it in style." locIndex="62" />
+        </Ramp>
+        <Ramp Duration="20" PowerLow="1.05" PowerHigh="1.2">
+            <textevent timeoffset="" message="Get on it early." locIndex="63" />
+            <textevent timeoffset="10" message="Hold it!" locIndex="64" />
+        </Ramp>
+        <SteadyState Duration="10" Power="1.5">
+            <textevent timeoffset="0" message="Bring it home!" locIndex="65" />
+        </SteadyState>
+        <SteadyState Duration="300" Power=".5">
+            <textevent timeoffset="0" message="Nice and easy. You&apos;ve got 5 minutes of very easy recovery before round 2." locIndex="66" />
+            <textevent timeoffset="10" message="Grab some water and replenish your fluids." locIndex="67" />
+            <textevent timeoffset="60" message="Keep spinning those legs, flush out as much lactate acid as possible." locIndex="68" />
+            <textevent timeoffset="70" message="That was an incredible effort. This type of training is really going to get you to the next level." locIndex="69" />
+            <textevent timeoffset="240" message="For round 2 we are going to go through some race simulation practice." locIndex="70" />
+            <textevent timeoffset="250" message="Play along with me as I set the scene. It should be fun." locIndex="71" />
+            <textevent timeoffset="270" message="You&apos;re softly pedaling along before the start of a stage race." locIndex="72" />
+            <textevent timeoffset="280" message="The starter appears out of the lead cars sunroof and waves the official start flag." locIndex="73" />
+            <textevent timeoffset="290" message="The race is on!" locIndex="74" />
+        </SteadyState>
+        <Ramp Duration="90" PowerLow=".83" PowerHigh=".93">
+            <textevent timeoffset="0" message="The pace is picking up, time to slowly work your way towards the front of the race." locIndex="75" />
+            <textevent timeoffset="10" message="Keep it nice and steady, things are pretty quite at the moment." locIndex="76" />
+            <textevent timeoffset="30" message="Race radio alerts you of a tight corner up ahead, make sure you&apos;re near the front, and stay out of trouble." locIndex="77" />
+            <textevent timeoffset="40" message="Nice work, the pace is getting hotter as the corner approaches, keep your eyes up." locIndex="78" />
+            <textevent timeoffset="70" message="Pick up the pace a little, you&apos;ve moved into a good position. Now hold onto it." locIndex="79" />
+            <textevent timeoffset="80" message="The pack is starting to string out as the corner approaches. Here comes the turn!" locIndex="80" />
+        </Ramp>
+        <Ramp Duration="20" PowerLow="1.05" PowerHigh="1.2">
+            <textevent timeoffset="" message="You&apos;re safely through the corner, but the pace is hot up front." locIndex="81" />
+            <textevent timeoffset="" message="Push forward and get back towards the front of the group! There is a small gap, quickly close it!" locIndex="82" />
+        </Ramp>
+        <SteadyState Duration="10" Power="1.5">
+            <textevent timeoffset="0" message="Go, Go, Go!" locIndex="83" />
+        </SteadyState>
+        <Ramp Duration="90" PowerLow=".83" PowerHigh=".93">
+            <textevent timeoffset="0" message="Nice work closing the gap." locIndex="84" />
+            <textevent timeoffset="10" message="Settle in and recover." locIndex="85" />
+            <textevent timeoffset="30" message="Now is a great time to drink while the pace has settled." locIndex="86" />
+            <textevent timeoffset="60" message="The road is starting to narrow, use a little more power to hold your position." locIndex="87" />
+            <textevent timeoffset="70" message="The group is starting to bunch and it&apos;s getting a little sketchy, get your elbows out." locIndex="88" />
+            <textevent timeoffset="80" message="CRASH! Someone touched wheels and went down in next to you. You&apos;ve narrowly avoided it!" locIndex="89" />
+        </Ramp>
+        <Ramp Duration="20" PowerLow="1.05" PowerHigh="1.2">
+            <textevent timeoffset="0" message="There&apos;s a separation in the group though, you need to push to get back on!" locIndex="90" />
+            <textevent timeoffset="10" message="Keep pushing! You&apos;re getting close, but it&apos;s gonna take a big effort to get back on! It&apos;s now or never!" locIndex="91" />
+        </Ramp>
+        <SteadyState Duration="10" Power="1.5">
+            <textevent timeoffset="0" message="Dig, Dig, Dig!" locIndex="92" />
+        </SteadyState>
+        <Ramp Duration="90" PowerLow=".83" PowerHigh=".93">
+            <textevent timeoffset="0" message="I know that hurt, but you did it, you&apos;re back in the bunch." locIndex="93" />
+            <textevent timeoffset="20" message="Hang in there as you recover from that big effort. You&apos;re legs should feel better with each 10 seconds that passes." locIndex="94" />
+            <textevent timeoffset="40" message="Way to stay with it. Quick drink of water." locIndex="95" />
+            <textevent timeoffset="70" message="It looks like the pack is starting to string out again. The cross winds are picking up. Be careful!" locIndex="96" />
+        </Ramp>
+        <Ramp Duration="20" PowerLow="1.05" PowerHigh="1.2">
+            <textevent timeoffset="0" message="A small gap has formed a few wheels ahead of you! Follow the wheel in front of you, they are starting to chase. Let them close the gap." locIndex="97" />
+            <textevent timeoffset="10" message="The wheel you&apos;re following has cracked, they flick their elbow and now it&apos;s up to you to bridge the gap." locIndex="98" />
+        </Ramp>
+        <SteadyState Duration="10" Power="1.5">
+            <textevent timeoffset="0" message="Push, Push, Push! You&apos;re closing the gap!" locIndex="99" />
+        </SteadyState>
+        <Ramp Duration="90" PowerLow=".83" PowerHigh=".93">
+            <textevent timeoffset="0" message="Great work, you&apos;ve closed the gap and you&apos;re in a breakaway." locIndex="100" />
+            <textevent timeoffset="10" message="You&apos;re only job now is to hang on." locIndex="101" />
+            <textevent timeoffset="20" message="Take some water and fuel while you&apos;re nicely tucked in the back of the group." locIndex="102" />
+            <textevent timeoffset="60" message="The pack is rotating turns and your turn at the front is coming up." locIndex="103" />
+            <textevent timeoffset="70" message="You&apos;re second wheel now, get ready to push into the wind." locIndex="104" />
+            <textevent timeoffset="80" message="20 second turns at the front, you&apos;re next." locIndex="105" />
+        </Ramp>
+        <Ramp Duration="20" PowerLow="1.05" PowerHigh="1.2">
+            <textevent timeoffset="0" message="Keep the tempo high! It&apos;s up to you to maintain pace. You&apos;re fully in the wind and need to add a little more power to maintain speed." locIndex="106" />
+            <textevent timeoffset="10" message="Someone just attacked from the group! Close it down!" locIndex="107" />
+        </Ramp>
+        <SteadyState Duration="10" Power="1.5">
+            <textevent timeoffset="" message="Push! It&apos;s gonna take a big effort to bring them back!" locIndex="108" />
+        </SteadyState>
+        <Ramp Duration="90" PowerLow=".83" PowerHigh=".93">
+            <textevent timeoffset="0" message="Nicely done!" locIndex="109" />
+            <textevent timeoffset="10" message="That attack whittled down the group to 4 riders. The winner is going to come from this group." locIndex="110" />
+            <textevent timeoffset="20" message="Stay out of the wind, take another sip of water, and recover before the final attacks begin." locIndex="111" />
+            <textevent timeoffset="60" message="It&apos;s the final push to the line. Get ready for the pace to ramp up, but save something for the sprint." locIndex="112" />
+        </Ramp>
+        <Ramp Duration="20" PowerLow="1.05" PowerHigh="1.2">
+            <textevent timeoffset="0" message="The final 4 riders are starting to press, stay close." locIndex="113" />
+            <textevent timeoffset="10" message="You&apos;re main rival has jumped away, but you&apos;ve anticipated it and stayed glued to their wheel, stay tucked in, be patient, get ready to launch your final kick." locIndex="114" />
+        </Ramp>
+        <SteadyState Duration="10" Power="1.5">
+            <textevent timeoffset="0" message="Go, Go, Go. All the way to the line!" locIndex="115" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow=".5" PowerHigh=".65">
+            <textevent timeoffset="0" message="Now that is how you finish a ride!" locIndex="116" />
+            <textevent timeoffset="10" message="You&apos;re drinking champagne tonight!" locIndex="117" />
+            <textevent timeoffset="20" message="Take the next few minutes to spin down and recover from today&apos;s workout." locIndex="118" />
+            <textevent timeoffset="30" message="Grab your bottle and start the rehydration process now. If you&apos;ve got any fluids left, finish it before the warm down ends." locIndex="119" />
+            <textevent timeoffset="40" message="That was an incredible workout. Be proud of yourself for getting through it." locIndex="120" />
+            <textevent timeoffset="60" message="I hope you&apos;ve enjoyed today&apos;s session. Check out the rest of the workouts from Team BikeExchange-Jayco." locIndex="121" />
+            <textevent timeoffset="120" message="Remember you can always come back and repeat this workout, you can find it in the workout library." locIndex="122" />
+            <textevent timeoffset="240" message="Thanks for riding with us today!" locIndex="123" />
+            <textevent timeoffset="250" message="See you on the road again soon." locIndex="124" />
+            <textevent timeoffset="260" message="Ride On!" locIndex="125" />
+        </Cooldown>
+    </workout>
+</workout_file>

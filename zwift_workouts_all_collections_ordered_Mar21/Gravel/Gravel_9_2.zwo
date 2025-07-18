@@ -1,0 +1,70 @@
+<workout_file>
+    <uniqueId>012c7cb8-a82c-48c8-a237-954640b41a2e</uniqueId>
+    <legacyIdHash>2626714682</legacyIdHash>
+    <author>Zwift</author>
+    <name>Over Unders</name>
+    <description>The good friend that is the Over Under. It feels good, but not all at the same time. Very important type of effort for gravel racing. Get used to this feeling!
+3x (9 minutes as 2 at 85, 1 at 110, 2 at 85 1 at 110, 2 at 85 1 at 110) 5 easy between.
+easy cool down</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Gravel Grinder</category>
+    <subcategory>Week 9</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="720" PowerLow="0.45" PowerHigh="0.65">
+            <textevent timeoffset="0" message="Nice easy warming up now." locIndex="1" />
+        </Warmup>
+        <IntervalsT Repeat="3" OnDuration="120" OffDuration="120" OnPower="0.8" OffPower="0.6">
+            <textevent timeoffset="0" message="Some 2 minute blocks up to 80 and down to 60." locIndex="2" />
+            <textevent timeoffset="120" message="Back down. " locIndex="3" />
+            <textevent timeoffset="240" message="Back up to 80%" locIndex="4" />
+            <textevent timeoffset="360" message="Back down to 60%. " locIndex="5" />
+        </IntervalsT>
+        <IntervalsT Repeat="3" OnDuration="120" OffDuration="60" OnPower="0.8" OffPower="1.1">
+            <textevent timeoffset="0" message="Here comes the over under time. " locIndex="6" />
+            <textevent timeoffset="120" message="Now the over!" locIndex="7" />
+            <textevent timeoffset="180" message="More under. I like the under better. " locIndex="8" />
+            <textevent timeoffset="300" message="What goes down must come up. " locIndex="9" />
+            <textevent timeoffset="360" message="One more. " locIndex="10" />
+            <textevent timeoffset="480" message="Only a minute, you have got this!" locIndex="11" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.55">
+            <textevent timeoffset="0" message="Good solid recovery here. " locIndex="12" />
+        </SteadyState>
+        <IntervalsT Repeat="3" OnDuration="120" OffDuration="60" OnPower="0.8" OffPower="1.1">
+            <textevent timeoffset="0" message="Tempo pace here at 80%. Be comfy here!" locIndex="13" />
+            <textevent timeoffset="120" message="Up to some hard riding!" locIndex="14" />
+            <textevent timeoffset="180" message="Are you relaxed?" locIndex="15" />
+            <textevent timeoffset="300" message="Be smooth and keep that good cadence please." locIndex="16" />
+            <textevent timeoffset="360" message="Back into the smooth zone." locIndex="17" />
+            <textevent timeoffset="480" message="Another 110% zone!" locIndex="18" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.55">
+            <textevent timeoffset="540" message="Recover as best as you can!" locIndex="19" />
+        </SteadyState>
+        <IntervalsT Repeat="3" OnDuration="120" OffDuration="60" OnPower="0.8" OffPower="1.1">
+		</IntervalsT>
+        <SteadyState Duration="120" Power="0.8">
+            <textevent timeoffset="0" message="Tempo!" locIndex="20" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.1">
+            <textevent timeoffset="120" message="Above FTP!" locIndex="21" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.8">
+            <textevent timeoffset="180" message="This should feel easy, relatively." locIndex="22" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.1">
+            <textevent timeoffset="300" message="Go on now, go!" locIndex="23" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.8">
+            <textevent timeoffset="360" message="Smooth as you go." locIndex="24" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.1">
+            <textevent timeoffset="480" message="Stay calm in your upper body!" locIndex="25" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow="0.55" PowerHigh="0.45">
+            <textevent timeoffset="0" message="Good job- chill back to finish!" locIndex="26" />
+        </Cooldown>
+    </workout>
+</workout_file>

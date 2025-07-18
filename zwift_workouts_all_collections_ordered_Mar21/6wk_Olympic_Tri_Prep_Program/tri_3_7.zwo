@@ -1,0 +1,20 @@
+<workout_file>
+    <uniqueId>a7811918-4810-4fad-a898-a03a7a52a399</uniqueId>
+    <legacyIdHash>3613226353</legacyIdHash>
+    <author>QT2</author>
+    <category>Olympic Tri Prep Plan</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 3</subcategory>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/QT2Systems_Logo.tga</authorIcon>
+    <name>Day 7 - Bike</name>
+    <description>Bike - 70 min.
+-20 min. warm up
+-10x (30 sec. @ 145% FTP @ 105 rpm, 2.5 min. total rest)
+-20 min. cooldown</description>
+    <tags />
+    <workout>
+        <Warmup Duration="1200" PowerLow="0.50449997" PowerHigh="0.75449997" />
+        <IntervalsT Repeat="10" OnDuration="30" OffDuration="150" OnPower="1.4545" OffPower="0.1045" Cadence="105" CadenceResting="45" />
+        <Cooldown Duration="1800" PowerLow="0.75449997" PowerHigh="0.50449997" />
+    </workout>
+</workout_file>

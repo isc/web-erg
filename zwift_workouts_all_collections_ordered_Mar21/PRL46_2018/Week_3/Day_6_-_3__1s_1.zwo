@@ -1,0 +1,34 @@
+<workout_file>
+    <uniqueId>972b1fbc-b821-4435-96d4-80b44a3f6beb</uniqueId>
+    <legacyIdHash>2018520319</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Week 3.6 - 3 &amp; 1&apos;s #1</name>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>2018 PRL46 Prep</category>
+    <subcategory>Week 3</subcategory>
+    <description>12min intervals consisting of 3min @ 98% / 1min 62%.
+
+With the recovery period requiring some pressure on the pedals, monitor your heart rate to see if you are able to bring it back to normal recovery levels over the course of the 12min.</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <SteadyState Duration="180" Power="0.50449997" pace="0">
+            <textevent timeoffset="165" message="The opening 1min efforts will prepare you for the 12min efforts" locIndex="1" />
+        </SteadyState>
+        <IntervalsT Repeat="2" OnDuration="60" OffDuration="60" OnPower="0.75449997" OffPower="0.50449997" pace="0" />
+        <IntervalsT Repeat="2" OnDuration="60" OffDuration="60" OnPower="0.90449995" OffPower="0.50449997" pace="0" />
+        <SteadyState Duration="180" Power="0.50449997" pace="0">
+            <textevent timeoffset="114" message="Now for 12min with a change in intensity every 3min." locIndex="2" />
+        </SteadyState>
+        <IntervalsT Repeat="3" OnDuration="180" OffDuration="60" OnPower="0.98449993" OffPower="0.62449998" pace="0">
+            <textevent timeoffset="43" message="Observe your HR during the 12min. Is it increasing after each 3min effort?" locIndex="3" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.50449997" pace="0">
+            <textevent timeoffset="250" message="Ready for the next set." locIndex="4" />
+        </SteadyState>
+        <IntervalsT Repeat="3" OnDuration="180" OffDuration="60" OnPower="0.98449993" OffPower="0.62449998" pace="0">
+            <textevent timeoffset="48" message="Again, observe your HR, and compare to the 1st set." locIndex="5" />
+        </IntervalsT>
+        <Cooldown Duration="600" PowerLow="0.75449997" PowerHigh="0.50449997" pace="0" />
+    </workout>
+</workout_file>

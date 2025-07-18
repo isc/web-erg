@@ -1,0 +1,84 @@
+<workout_file>
+    <uniqueId>94d537f5-45d9-471c-a363-054fad940d89</uniqueId>
+    <legacyIdHash>3734716172</legacyIdHash>
+    <author>Zwift</author>
+    <name>4x4 Threshold</name>
+    <description>Some building 4 minute blocks for you today around and above threshold. You can think of them of hill &quot;reps&quot; if you&apos;d like, or you can think of them as some good old fashioned &quot;4x4min&quot;, or whatever will get you in the head space. All you really need to worry about is the fact that you need be ready for some solid sustained efforts, but ones you can definitely hit. 
+
+A solid little block of warm up and then into 4 blocks starting at 95% building up to 110%. First few will feel smooth, last one will suck a little, but you got it.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Gravel Grinder</category>
+    <subcategory>Week 10</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow="0.45" PowerHigh="0.65">
+            <textevent timeoffset="0" message="Let&apos;s get things rolling with 10 minutes light as building. Nice and light!" locIndex="1" />
+        </Warmup>
+        <IntervalsT Repeat="4" OnDuration="60" OffDuration="60" OnPower="0.8" OffPower="0.55">
+            <textevent timeoffset="0" message="A little block of 4, 1 minuter&apos;s coming up. Just to 80%. " locIndex="2" />
+            <textevent timeoffset="60" message="Easy now. " locIndex="3" />
+            <textevent timeoffset="120" message="You getting those RPM&apos;s up to accomplish these? " locIndex="4" />
+            <textevent timeoffset="180" message="You waking up a little?" locIndex="5" />
+            <textevent timeoffset="240" message="These usually help wake me up, but I&apos;m also usually on Zwift with coffee in hand so..." locIndex="6" />
+            <textevent timeoffset="300" message="Down and easy now. " locIndex="7" />
+            <textevent timeoffset="360" message="Last one. " locIndex="8" />
+        </IntervalsT>
+        <SteadyState Duration="120" Power="0.7">
+            <textevent timeoffset="0" message="A super tame block up to 90% to finish off the warm up. " locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.8">
+            <textevent timeoffset="0" message="Now 2 minutes at 80%. " locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.9">
+            <textevent timeoffset="0" message="90% now. Make this feel as easy as possible as it&apos;s gonna get harder today!" locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.6">
+            <textevent timeoffset="0" message="Easy, easy days. Soak up this recovery!" locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.95">
+            <textevent timeoffset="0" message="First block of &quot;the business&quot;. Settle in now." locIndex="13" />
+            <textevent timeoffset="60" message=" Be smooth" locIndex="14" />
+            <textevent timeoffset="120" message="Relax them shoulders." locIndex="15" />
+            <textevent timeoffset="180" message=" Relax the arms " locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.5">
+            <textevent timeoffset="0" message="Nice one. Long enough to wanna be done sooner, but not too hard where it sucked?  Cool." locIndex="17" />
+            <textevent timeoffset="120" message="Easy now. Drink!" locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="1">
+            <textevent timeoffset="0" message="Just up a bit more now." locIndex="19" />
+            <textevent timeoffset="60" message=" Settle in." locIndex="20" />
+            <textevent timeoffset="120" message="Find the comfort in the spot." locIndex="21" />
+            <textevent timeoffset="180" message="Focus on something that makes you zone out. So, yeah, focus on zoning out." locIndex="22" />
+            <textevent timeoffset="220" message="Almost there!!!" locIndex="23" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.5">
+            <textevent timeoffset="0" message="Good stuff." locIndex="24" />
+            <textevent timeoffset="120" message="Breathe, and eat, and drink!" locIndex="25" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="1.05">
+            <textevent timeoffset="0" message="Harder now!" locIndex="26" />
+            <textevent timeoffset="65" message="Use that smooth high cadence please!" locIndex="27" />
+            <textevent timeoffset="135" message="You can do it!" locIndex="28" />
+            <textevent timeoffset="200" message="Little left now. " locIndex="29" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.5">
+            <textevent timeoffset="0" message="BREATHE" locIndex="30" />
+            <textevent timeoffset="20" message=" Great stuff" locIndex="31" />
+            <textevent timeoffset="120" message=" Get some liquid in you." locIndex="32" />
+            <textevent timeoffset="220" message="last one!" locIndex="33" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="1.1">
+            <textevent timeoffset="0" message="Go on now!" locIndex="34" />
+            <textevent timeoffset="65" message="Nice and smooth!" locIndex="35" />
+            <textevent timeoffset="110" message="Smooth, Smooth, smooth." locIndex="36" />
+            <textevent timeoffset="170" message="Almost there now!" locIndex="37" />
+            <textevent timeoffset="220" message="Go, go, go!!!" locIndex="38" />
+        </SteadyState>
+        <Cooldown Duration="240" PowerLow="0.55" PowerHigh="0.45">
+            <textevent timeoffset="0" message="Ahhhh. There you go. Nice." locIndex="39" />
+            <textevent timeoffset="120" message="That is hard, but you nailed it (I think). Good stuff, now chill. " locIndex="40" />
+        </Cooldown>
+    </workout>
+</workout_file>

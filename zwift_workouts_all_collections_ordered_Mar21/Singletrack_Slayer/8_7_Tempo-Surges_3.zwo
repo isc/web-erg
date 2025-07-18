@@ -1,0 +1,133 @@
+<workout_file>
+    <uniqueId>cbff8a6f-a7d9-4a0a-bdd3-eb72fefcf95a</uniqueId>
+    <legacyIdHash>2674268861</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Tempo-Surges #3</name>
+    <description>Completing long tempo efforts with short, high intensity surges, is another way to increase threshold power. 
+
+With the constant high power, the body is forced to process the lactate produced from the above threshold surges. 
+
+We mix up the tempo work with some long anaerobic efforts for an added stress.</description>
+    <sportType>bike</sportType>
+    <category>Singletrack Slayer</category>
+    <subcategory>Week 8</subcategory>
+    <WorkoutPlan>1</WorkoutPlan>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <tags>
+    </tags>
+    <workout>
+        <SteadyState Duration="300" Power="0.5">
+            <textevent timeoffset="30" message="This is a big one today!" locIndex="1" />
+            <textevent timeoffset="60" message="After the warmup, we spend the remainder of the session moving around zone 3 tempo." locIndex="2" />
+            <textevent timeoffset="80" message="But for an added stress, we incorporate a variety of zone 6 intervals." locIndex="3" />
+            <textevent timeoffset="150" message="We need to be properly warmed up for this one!" locIndex="4" />
+            <textevent timeoffset="280" message="Into some 30/30 on/off&apos;s now." locIndex="5" />
+        </SteadyState>
+        <IntervalsT Repeat="5" OnDuration="30" OffDuration="30" OnPower="0.65" OffPower="0.8">
+            <textevent timeoffset="20" message="Nice high cadence for these short efforts." locIndex="6" />
+            <textevent timeoffset="80" message="Try to increase your peak cadence for these efforts as you progress." locIndex="7" />
+            <textevent timeoffset="150" message="Mix a few intervals up with standing and sitting." locIndex="8" />
+        </IntervalsT>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="20" message="This is a challenging effort, very similar to a good MTB ride." locIndex="9" />
+            <textevent timeoffset="40" message="With high peaks in power, followed by steady intensive riding." locIndex="10" />
+            <textevent timeoffset="80" message="You will feel your levels of fatigue fluctuate often during the session" locIndex="11" />
+            <textevent timeoffset="100" message="Roll with the good, and fight the pain when it hurts!" locIndex="12" />
+            <textevent timeoffset="140" message="We start with a hard 1min effort." locIndex="13" />
+            <textevent timeoffset="160" message="Let&apos;s get this started!" locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.25">
+            <textevent timeoffset="10" message="Nice start." locIndex="15" />
+            <textevent timeoffset="30" message="Keep the power high all the way for the minute." locIndex="16" />
+        </SteadyState>
+        <Ramp Duration="300" PowerLow="0.76" PowerHigh="0.91">
+            <textevent timeoffset="20" message="Now, we drop straight into a comfortable tempo effort." locIndex="17" />
+            <textevent timeoffset="50" message="But, it will take a few minutes to recover from that opening effort." locIndex="18" />
+            <textevent timeoffset="120" message="We slowly build the power back up to a high level." locIndex="19" />
+            <textevent timeoffset="200" message="Then, just like in a MTB ride, we have a quick succession of surges and threshold power." locIndex="20" />
+            <textevent timeoffset="280" message="Here we go with another surge." locIndex="21" />
+        </Ramp>
+        <SteadyState Duration="20" Power="1.25">
+            <textevent timeoffset="10" message="Sprint!" locIndex="22" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.91">
+            <textevent timeoffset="10" message="Now, straight into a high tempo effort." locIndex="23" />
+            <textevent timeoffset="70" message="Process that lactate, and get ready for the next effort!" locIndex="24" />
+            <textevent timeoffset="100" message="Ready to sprint." locIndex="25" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.25">
+            <textevent timeoffset="10" message="Fast legs!" locIndex="26" />
+        </SteadyState>
+        <Ramp Duration="300" PowerLow="0.91" PowerHigh="0.76">
+            <textevent timeoffset="30" message="This time we start at the top, and slowly bring the power down." locIndex="27" />
+            <textevent timeoffset="90" message="How are the legs feeling?" locIndex="28" />
+            <textevent timeoffset="150" message="In MTB riding, you will often be on your limit for an extended period and still have to surge above threshold." locIndex="29" />
+            <textevent timeoffset="210" message="Keep focusing on your rhythm." locIndex="30" />
+            <textevent timeoffset="280" message="The power has decreased, but we have another sprint here." locIndex="31" />
+        </Ramp>
+        <SteadyState Duration="30" Power="1.25">
+            <textevent timeoffset="10" message="Sprint!" locIndex="32" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.76">
+            <textevent timeoffset="30" message="This has been a fantastic effort from you!" locIndex="33" />
+            <textevent timeoffset="90" message="This is a long structured effort today." locIndex="34" />
+            <textevent timeoffset="150" message="We are still in zone 3, but it must feel like a recovery interval for you?" locIndex="35" />
+            <textevent timeoffset="260" message="Now that you are recovered, we can hit another high intensity 1min effort!" locIndex="36" />
+            <textevent timeoffset="280" message="Ready to get into it." locIndex="37" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.25">
+            <textevent timeoffset="10" message="Great work." locIndex="38" />
+            <textevent timeoffset="40" message="Hold this power all the way to the end." locIndex="39" />
+        </SteadyState>
+        <Ramp Duration="300" PowerLow="0.76" PowerHigh="0.91">
+            <textevent timeoffset="20" message="Now, we repeat the efforts from the 1st block." locIndex="40" />
+            <textevent timeoffset="50" message="Recover as best you can during this lower intensity." locIndex="41" />
+            <textevent timeoffset="120" message="We slowly build the power back up to a high level." locIndex="42" />
+            <textevent timeoffset="200" message="Then, just like in a MTB ride we have a quick succession of surges and threshold power." locIndex="43" />
+            <textevent timeoffset="280" message="Here we go with another surge." locIndex="44" />
+        </Ramp>
+        <SteadyState Duration="20" Power="1.25">
+            <textevent timeoffset="10" message="Sprint!" locIndex="45" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.91">
+            <textevent timeoffset="10" message="Now, straight into a high tempo effort." locIndex="46" />
+            <textevent timeoffset="70" message="Process that lactate and get ready for the next effort!" locIndex="47" />
+            <textevent timeoffset="100" message="Ready to sprint." locIndex="48" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.25">
+            <textevent timeoffset="10" message="Fast legs!" locIndex="49" />
+        </SteadyState>
+        <Ramp Duration="300" PowerLow="0.91" PowerHigh="0.76">
+            <textevent timeoffset="30" message="This time, we start at the top and slowly bring the power down." locIndex="50" />
+            <textevent timeoffset="90" message="How are the legs feeling?" locIndex="51" />
+            <textevent timeoffset="150" message="In MTB riding you will often be on your limit for an extended period and still have to surge above threshold." locIndex="52" />
+            <textevent timeoffset="210" message="Keep focusing on your rhythm." locIndex="53" />
+            <textevent timeoffset="280" message="The power has decreased, but we have another sprint here." locIndex="54" />
+        </Ramp>
+        <SteadyState Duration="30" Power="1.25">
+            <textevent timeoffset="10" message="Strong sprint!" locIndex="55" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.76">
+            <textevent timeoffset="30" message="This has been a fantastic effort from you!" locIndex="56" />
+            <textevent timeoffset="90" message="This is a long, structured effort today." locIndex="57" />
+            <textevent timeoffset="150" message="We are still in zone 3, but it must feel like a recovery interval for you?" locIndex="58" />
+            <textevent timeoffset="260" message="Now that you are recovered, we can hit another high intensity 1min effort!" locIndex="59" />
+            <textevent timeoffset="280" message="Ready to get into it." locIndex="60" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.25">
+            <textevent timeoffset="10" message="Great work." locIndex="61" />
+            <textevent timeoffset="40" message="Hold this power all the way to the end." locIndex="62" />
+        </SteadyState>
+        <Ramp Duration="240" PowerLow="0.76" PowerHigh="0.8">
+            <textevent timeoffset="10" message="You&apos;re doing fantastic!" locIndex="63" />
+            <textevent timeoffset="70" message="Let&apos;s keep rolling with this tempo day." locIndex="64" />
+            <textevent timeoffset="90" message="But I&apos;m nice, so we will keep it at the lower end!" locIndex="65" />
+            <textevent timeoffset="120" message="Just 2min of tempo work and we are done!" locIndex="66" />
+        </Ramp>
+        <Cooldown Duration="300" PowerLow="0.8" PowerHigh="0.55">
+            <textevent timeoffset="20" message="We start the recovery from this point and bring the power down." locIndex="67" />
+            <textevent timeoffset="100" message="Feel the pressure coming off the pedals and start the relax." locIndex="68" />
+            <textevent timeoffset="130" message="Be sure to hydrate well and begin refuelling for your next workout." locIndex="69" />
+        </Cooldown>
+    </workout>
+</workout_file>

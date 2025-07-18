@@ -1,0 +1,15 @@
+<workout_file>
+    <uniqueId>bc74c367-55fe-497c-957e-97405cc88009</uniqueId>
+    <legacyIdHash>3586757082</legacyIdHash>
+    <name>Week 8.5 - Day 5</name>
+    <description>Foundation - Do this training in a fasted state (coffee allowed before)</description>
+    <author>Marco Pinotti</author>
+    <category>10-12wk FTP Builder</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 8</subcategory>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/MarcoPinotti_Logo.tga</authorIcon>
+    <sportType>bike</sportType>
+    <workout>
+        <FreeRide Duration="2700" />
+    </workout>
+</workout_file>

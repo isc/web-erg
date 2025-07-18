@@ -1,0 +1,180 @@
+<workout_file>
+    <uniqueId>ca131a9e-b9b6-410a-8ace-2ded70914294</uniqueId>
+    <legacyIdHash>2828059560</legacyIdHash>
+    <author>Zwift Academy Coaches</author>
+    <name>4min Power Duration</name>
+    <activitySaveName>Zwift Academy 2019 Workout #8: 4min Power Duration</activitySaveName>
+    <description>To accurately assess the strengths of each Zwift Academy participant, some of the sessions are focused on allowing you to fill out your Power Duration curve. Today&apos;s session is all about producing your best 4 minute power.
+
+Prior to completing this maximal effort, the session includes a range of intervals that will allow you to get a feel for your target 4 minute maximal power.</description>
+    <sportType>bike</sportType>
+    <visibleAfterTime>1564963200</visibleAfterTime>
+    <overrideHash>149682827</overrideHash>
+    <category>Zwift Academy 2019</category>
+    <categoryIndex>8</categoryIndex>
+    <tags>
+        <tag name="Zwift Academy" />
+    </tags>
+    <workout>
+        <Warmup Duration="180.00002" PowerLow="0.44999996" PowerHigh="0.60000002" pace="0">
+            <textevent timeoffset="0" message="Hello friend, and welcome to the eighth and final workout of the 2019 Zwift Academy - 4 Minute Power Duration! Keep your cadence comfortable here." locIndex="1" />
+            <textevent timeoffset="10" message="The Zwift Academy program is designed to bring out the best in every rider, and today we finish filling out your Power Duration curve." locIndex="2" />
+            <textevent timeoffset="20" message="Today&apos;s workout is all about preparing you for a maximal finishing 4 minute effort." locIndex="3" />
+            <textevent timeoffset="30" message="Riders that excel in 4 minute power generally have a well developed VO2max and an ability to sustain high power for long periods." locIndex="4" />
+            <textevent timeoffset="40" message="This is also another great way to separate yourself from the competition and showcase your power at VO2max." locIndex="5" />
+            <textevent timeoffset="50" message="As always though, a great workout starts off with a good warm up - It&apos;s time to Level Up. Are you ready?" locIndex="6" />
+            <textevent timeoffset="60" message="Let&apos;s keep steadily increasing the power over the next couple of minutes." locIndex="7" />
+            <textevent timeoffset="120" message="Power is going to continue to steadily bump up here. Keep on easing into things today." locIndex="8" />
+            <textevent timeoffset="170" message="In 10 seconds, we bump up the power just a bit. Keep your cadence comfortable still." locIndex="9" />
+        </Warmup>
+        <SteadyState Duration="60" Power="0.65449995" pace="0">
+            <textevent timeoffset="0" message="Bring it up to zone 2 now. We are going to continue to step up the power each minute now to finish this warm up." locIndex="10" />
+            <textevent timeoffset="30" message="Zone 2 should be very comfortable for you." locIndex="11" />
+            <textevent timeoffset="50" message="Bringing it up to zone 3 in 10, 9, 8..." locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="60.000004" Power="0.7686708" pace="0">
+            <textevent timeoffset="0" message="Up again here - keep that cadence nice and smooth, hopefully the legs are starting to feel more fluid now." locIndex="13" />
+            <textevent timeoffset="50" message="Next we step up to zone 4." locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="60.000004" Power="0.90782934" pace="0">
+            <textevent timeoffset="0" message="The power is higher now. But for this short period it won&apos;t be a problem for you - you BEAST you!." locIndex="15" />
+            <textevent timeoffset="50" message="Next, we get a little uncomfortable with zone 5." locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.0645" pace="0">
+            <textevent timeoffset="0" message="Bring it on up again!" locIndex="17" />
+            <textevent timeoffset="30" message="You should feel like you are working now. But again it&apos;s only for a short duration." locIndex="18" />
+            <textevent timeoffset="50" message="10 more seconds then we bring it way down to recovery." locIndex="19" />
+        </SteadyState>
+        <SteadyState Duration="120.00001" Power="0.5" pace="0">
+            <textevent timeoffset="0" message="Great work! Let&apos;s chat a bit about the upcoming structured intervals." locIndex="20" />
+            <textevent timeoffset="10" message="A key part of this session is to help you identify a pacing strategy for the maximal 4 minute effort." locIndex="21" />
+            <textevent timeoffset="20" message="A pacing strategy is crucial because we definitely want to avoid starting out too hard." locIndex="22" />
+            <textevent timeoffset="30" message="The structured intervals you will complete provide you with the opportunity to experience different levels of intensity over a 2 to 5 minute range." locIndex="23" />
+            <textevent timeoffset="40" message="This way you can get a feel for the length of the effort required, and a suitable target intensity." locIndex="24" />
+            <textevent timeoffset="60" message="Take a few deep breaths here and start getting yourself ready mentally." locIndex="25" />
+            <textevent timeoffset="110" message="To continue the warmup, next we have a longer zone 3 effort. Keep the cadence comfortable here." locIndex="26" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.80449992" pace="0">
+            <textevent timeoffset="0" message="Bring up the effort again, this should still feel pretty easy and something you can sustain for a long time." locIndex="27" />
+            <textevent timeoffset="60" message="Start thinking about how hard you feel you are working now." locIndex="28" />
+            <textevent timeoffset="70" message="Do you have plenty more in the tank to give?" locIndex="29" />
+            <textevent timeoffset="80" message="Also get a feel for the length of the interval. This is a comfortable 3 minute effort. The test interval is 4 minutes long." locIndex="30" />
+            <textevent timeoffset="120" message="You should have a good sweat up by now. This indicates the muscles are warmed up and ready for some hard work!" locIndex="31" />
+            <textevent timeoffset="130" message="Remember to prep your mind for the hard work that lies ahead too here, get in your right headspace." locIndex="32" />
+            <textevent timeoffset="170" message="10 more seconds to go, then we bring it back down to recovery again." locIndex="33" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.50449997" pace="0">
+            <textevent timeoffset="0" message="Awesome! Warm up is done and dusted." locIndex="34" />
+            <textevent timeoffset="60" message="Breathe...Relax...Keep getting yourself ready." locIndex="35" />
+            <textevent timeoffset="120" message="Coming up next, we start the structured intervals." locIndex="36" />
+            <textevent timeoffset="130" message="First up we have 2 x 3 minute zone 3 efforts with a short recovery." locIndex="37" />
+            <textevent timeoffset="140" message="A key objective here is to not build fatigue before the test effort, so these should feel easy to complete." locIndex="38" />
+            <textevent timeoffset="150" message="Over the course of the 3 minute efforts think about how comfortable you are and what your pacing strategy will be for the 4 minute effort." locIndex="39" />
+            <textevent timeoffset="170" message="Here we go with 2 steady zone 3 efforts. Keep that cadence comfortable here." locIndex="40" />
+        </SteadyState>
+        <IntervalsT Repeat="2" OnDuration="180" OffDuration="90" OnPower="0.85449994" OffPower="0.50449997" pace="0">
+            <textevent timeoffset="0" message="Bring it on up nice and steady, control your breathing for this entire interval." locIndex="41" />
+            <textevent timeoffset="60" message="These efforts are under your threshold power and should feel very sustainable." locIndex="42" />
+            <textevent timeoffset="70" message="Your maximal 4 minute effort will be well above your threshold level though! Greatness is why you&apos;re here though!" locIndex="43" />
+            <textevent timeoffset="120" message="Think about how comfortable you are and how much more effort you think you can give." locIndex="44" />
+            <textevent timeoffset="130" message="Take note of the power you are riding at now and think about what a good target for the test interval would be." locIndex="45" />
+            <textevent timeoffset="170" message="10 more seconds here, then we&apos;ll bring it back down to recovery." locIndex="46" />
+            <textevent timeoffset="180" message="Great work! 1 down, 1 to go. Breathe and relax here." locIndex="47" />
+            <textevent timeoffset="240" message="30 more seconds easy peasy. How are you doing? You look AWESOME so far!" locIndex="48" />
+            <textevent timeoffset="260" message="We repeat that same process next, get ready to ROCK! Comfortable cadence here." locIndex="49" />
+            <textevent timeoffset="270" message="Bring the power back up again and settle into your rhythm again." locIndex="50" />
+            <textevent timeoffset="300" message="Remember, we don&apos;t want to start too hard for the test interval, and avoid a large drop off in power." locIndex="51" />
+            <textevent timeoffset="310" message="Avoiding this requires you starting out in a controlled manner and gradually lifting your power - if you can." locIndex="52" />
+            <textevent timeoffset="360" message="Halfway through this 2nd interval now, you&apos;re looking GOOD!" locIndex="53" />
+            <textevent timeoffset="390" message="Into the last minute now. How are you feeling?" locIndex="54" />
+            <textevent timeoffset="420" message="30 more seconds to go. Keep on ticking those pedals over and keep this steady rhythm you&apos;re working with." locIndex="55" />
+            <textevent timeoffset="450" message="Great work! Those are DONE and dusted. Lets take a longer 5 minute recovery now. Keep your cadence comfortable." locIndex="56" />
+            <textevent timeoffset="510" message="Keep breathing, stay relaxed. We have ample recovery today before the big test." locIndex="57" />
+            <textevent timeoffset="530" message="10 more seconds, then we continue our recovery." locIndex="58" />
+        </IntervalsT>
+        <SteadyState Duration="210" Power="0.50449997" pace="0">
+            <textevent timeoffset="0" message="Going through those arches are so rewarding, aren&apos;t they!? Love that!" locIndex="59" />
+            <textevent timeoffset="60" message="Make sure you are hydrating well during the session." locIndex="60" />
+            <textevent timeoffset="70" message="A small amount of dehydration can have a big impact on your ability to produce high power - which is of course unacceptable!" locIndex="61" />
+            <textevent timeoffset="180" message="This next interval ramps up from zone 3 into high zone 4 over the course of 5 minutes." locIndex="62" />
+            <textevent timeoffset="190" message="This time we start the interval at the intensity of the previous efforts and ramp up to new heights." locIndex="63" />
+            <textevent timeoffset="200" message="Keep your cadence comfortable here, and get ready to ROCK IT!" locIndex="64" />
+        </SteadyState>
+        <Ramp Duration="300" PowerLow="0.80449992" PowerHigh="0.95449996" pace="0">
+            <textevent timeoffset="0" message="All right, bring that power up and settle into that familiar rhythm." locIndex="65" />
+            <textevent timeoffset="60" message="1 minute into it here, settle down now. Keep that cadence silky smooth!" locIndex="66" />
+            <textevent timeoffset="120" message="Think about the intensity and the duration you feel you could hold for that 4 minute effort." locIndex="67" />
+            <textevent timeoffset="130" message="Does it change much as the power increases?" locIndex="68" />
+            <textevent timeoffset="150" message="Halfway! Aim to hold the same cadence throughout this effort - don&apos;t fade as the power continues to ramp up." locIndex="69" />
+            <textevent timeoffset="180" message="2 more minutes to go!! You are doing GREAT! Your legs should be feeling GOOD right now :-)." locIndex="70" />
+            <textevent timeoffset="240" message="4 minutes done! The 4 minute test effort will feel like a long time compared to this effort!" locIndex="71" />
+            <textevent timeoffset="250" message="That&apos;s why it&apos;s good to get a feel for the duration by completing a longer interval beforehand, just like you&apos;re doing now!" locIndex="72" />
+            <textevent timeoffset="270" message="Into the last 30 seconds now. How does the intensity feel? Do you have more to give?" locIndex="73" />
+            <textevent timeoffset="280" message="Keep on collecting this data to enable you give it your all during the 4 minute test!" locIndex="74" />
+            <textevent timeoffset="290" message="10 more seconds, then we&apos;re dropping it down again to recovery." locIndex="75" />
+        </Ramp>
+        <SteadyState Duration="360" Power="0.50449997" pace="0">
+            <textevent timeoffset="0" message="Great work!! Let&apos;s take a nice long 6 minute full recovery now. Keep the cadence comfortable here." locIndex="76" />
+            <textevent timeoffset="60" message="From the last interval, think about the power you finished at and how hard it felt for you." locIndex="77" />
+            <textevent timeoffset="70" message="Are you starting to get an idea of what power you will aim for in the test interval from it?" locIndex="78" />
+            <textevent timeoffset="80" message="And if you are still unsure of where you&apos;ll target, fear not! We have 1 more structured interval before the test." locIndex="79" />
+            <textevent timeoffset="120" message="Breathe...Keep relaxed here." locIndex="80" />
+            <textevent timeoffset="240" message="In this next interval, we will go shorter in duration, but higher in power." locIndex="81" />
+            <textevent timeoffset="250" message="The interval is 2 minutes long, with the intensity starting at the finishing power of the previous effort." locIndex="82" />
+            <textevent timeoffset="260" message="Again, think about how long you feel you can hold the power as it ramps up with the goal of having nothing left by 4 minutes." locIndex="83" />
+            <textevent timeoffset="340" message="This is the final structured interval before the test effort, make it count!." locIndex="84" />
+            <textevent timeoffset="350" message="Here we go! Aim for a comfortable cadence for this interval." locIndex="85" />
+        </SteadyState>
+        <Ramp Duration="120" PowerLow="0.95" PowerHigh="1.0745" pace="0">
+            <textevent timeoffset="0" message="We&apos;re starting off at a hard effort, and finishing ever harder, prepare to work just a bit here!" locIndex="86" />
+            <textevent timeoffset="30" message="This is only a 2 minute interval. Hold the same cadence throughout the effort and don&apos;t fade as the power continues to ramp." locIndex="87" />
+            <textevent timeoffset="60" message="HALFWAY! How comfortable do you feel here? How much more do you have to give (if any)?" locIndex="88" />
+            <textevent timeoffset="90" message="Final 30 seconds! Again, how do the legs feel here? Is this something you feel like you can hold for 4 minutes?" locIndex="89" />
+            <textevent timeoffset="110" message="Into the last seconds now! Hopefully you found an intensity you feel like you can hold for 4 minutes." locIndex="90" />
+        </Ramp>
+        <SteadyState Duration="360" Power="0.50449997" pace="0">
+            <textevent timeoffset="0" message="Great work! That&apos;s it for the structured stuff today, time to prepare yourself now." locIndex="91" />
+            <textevent timeoffset="10" message="We have another 6 minute long recovery period before the test interval." locIndex="92" />
+            <textevent timeoffset="60" message="Breathe...Keep yourself from getting psyched out now - KNOW you have the power and tenacity to CRUSH this 4 minute test." locIndex="93" />
+            <textevent timeoffset="180" message="From the previous structured intervals, hopefully you have a good idea of the power you will target in this test effort." locIndex="94" />
+            <textevent timeoffset="190" message="If you are still unsure, sometimes ignorance is bliss! Start off hard, keep the power up, then finish it with nothing left! Simple as that :-)." locIndex="95" />
+            <textevent timeoffset="240" message="Remember, It&apos;s better to start comfortable and lift the power over the course of the effort." locIndex="96" />
+            <textevent timeoffset="250" message="I repeat, DON&apos;T START TOO HARD!" locIndex="97" />
+            <textevent timeoffset="300" message="1 more minute til GLORY! Do you have it in yourself to dig deeper than you ever have? I know you do!" locIndex="98" />
+            <textevent timeoffset="310" message="Reminder: DON&apos;T START TOO HARD!!" locIndex="99" />
+            <textevent timeoffset="330" message="In 30 seconds, the test begins! We&apos;re entering a &apos;Free Ride&apos; block like the previous tests and ERG will shut off if you&apos;re on a smart trainer." locIndex="100" />
+            <textevent timeoffset="340" message="Find a gear and wattage you can spin comfortably once the test begins, WITHOUT over-pacing it to start!" locIndex="101" />
+            <textevent timeoffset="350" message="All right, nothing else left to do, but do it! Grab those bars, and prepare to launch in 10, 9, 8..." locIndex="102" />
+        </SteadyState>
+        <FreeRide Duration="240" FlatRoad="1" show_avg="1">
+            <textevent timeoffset="0" message="All right, use this first 10-20 seconds to find the right gear. DON&apos;T FREAK OUT!" locIndex="103" />
+            <textevent timeoffset="30" message="Good, now settle down, or fine tune the gear if you need to. Remember, this should feel like a CONTROLLED effort." locIndex="104" />
+            <textevent timeoffset="60" message="Keep controlling it here. It should feel hard, but you can still lift it later." locIndex="105" />
+            <textevent timeoffset="90" message="Great work. Keep the cadence up and control your breathing. The breathing shouldn&apos;t feel too labored yet. Lift the power SLIGHTLY if you can." locIndex="106" />
+            <textevent timeoffset="120" message="HALFWAY! Now&apos;s your chance to start lifting the power again if you feel like you can. Still 2 minutes left remember, STEADY!." locIndex="107" />
+            <textevent timeoffset="150" message="90 seconds to go!! That average power DOES NOT drop from here on out. This is when the test starts - DRIVE IT!!" locIndex="108" />
+            <textevent timeoffset="180" message="FINAL MINUTE!! WHAT ARE YOU MADE OF? SHOW ME NOW!!" locIndex="109" />
+            <textevent timeoffset="195" message="45 seconds, LIFT THE POWER!" locIndex="110" />
+            <textevent timeoffset="210" message="LIFT THE POWER AGAIN!! JUST 30 SECONDS LEFT!!" locIndex="111" />
+            <textevent timeoffset="220" message="LIFT THE CADENCE NOW!! HUP HUP HUP!!" locIndex="112" />
+            <textevent timeoffset="230" message="THIS IS IT!! 10 SECONDS LEFT, EMPTY THE TANKS!!" locIndex="113" />
+        </FreeRide>
+        <SteadyState Duration="60" Power="0.50449997" pace="0">
+            <textevent timeoffset="0" message="My goodness!! You CRUSHED IT back there! Way to give it your all and show me what you&apos;re made of!" locIndex="114" />
+            <textevent timeoffset="10" message="Bring the effort way down now, and ERG will re-engage if you&apos;re on a smart trainer." locIndex="115" />
+            <textevent timeoffset="20" message="Some very easy pedalling before we cool down." locIndex="116" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow="0.63449997" PowerHigh="0.45449999" pace="0">
+            <textevent timeoffset="0" message="Incredible work again today, way to finish the Zwift Academy with a bang! Just the cool down remains. Some pressure on the pedals to start it." locIndex="117" />
+            <textevent timeoffset="10" message="Enjoy the feeling of achievement after an effort like that. This hopefully makes the discomfort during worth it." locIndex="118" />
+            <textevent timeoffset="60" message="How did your pacing strategy workout?" locIndex="119" />
+            <textevent timeoffset="70" message="Did you stick to your plan?" locIndex="120" />
+            <textevent timeoffset="80" message="You can always try this workout again if you made an oversight." locIndex="121" />
+            <textevent timeoffset="90" message="Congrats on completing the Zwift Academy today! You made it through, showed the Coaches what you&apos;re made of, and earned the fitness." locIndex="122" />
+            <textevent timeoffset="100" message="You should be proud of yourself for sticking to it, and remaining consistent - this is what the top athletes in the world do best." locIndex="123" />
+            <textevent timeoffset="0" message="Be sure to finish up your group ride and races requirement for the program if you haven&apos;t already done so." locIndex="124" />
+            <textevent timeoffset="0" message="It has been a real pleasure guiding you through these workouts, thank you for working so hard and putting up with my terrible jokes :-)." locIndex="125" />
+            <textevent timeoffset="0" message="Onto the semi-finals!! Coach is over and out!" locIndex="126" />
+        </Cooldown>
+    </workout>
+</workout_file>

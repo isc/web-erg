@@ -1,0 +1,22 @@
+<workout_file>
+    <uniqueId>d0630cd2-fd07-4e38-b8c7-5f828c9c2cf4</uniqueId>
+    <legacyIdHash>395511432</legacyIdHash>
+    <category>Zwift Academy 2016</category>
+    <subcategory>Month 4 - Semifinals</subcategory>
+    <WorkoutPlan>1</WorkoutPlan>
+    <author>K.Veronneau ZA Leader</author>
+    <name>Month 4 - Semifinals.1 - Zwift Zone 3 Leg Work</name>
+    <description>Let&apos;s build some leg strength! These high torque efforts at a sustainable power will increase your ability to generate force in races. 
+After a 10 minutes warm-up in Zone 1-2, begin with the first effort - 10 minutes at Z3 with a low cadence (65-75rpm). Ride 5 min recovery and then repeat 2 more times. 3 x 10 min efforts. 
+Tips: Remain seated through efforts. Don&apos;t go all out! This is a controlled effort. It should be comfortably hard, but hardly comfortable!  </description>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow="0.2507782" PowerHigh="0.7488327" />
+        <SteadyState Duration="600" Power="0.81108946" Cadence="70" />
+        <SteadyState Duration="300" Power="0.65155643" />
+        <SteadyState Duration="600" Power="0.81108946" Cadence="70" />
+        <SteadyState Duration="300" Power="0.65155643" />
+        <SteadyState Duration="600" Power="0.81108946" Cadence="70" />
+        <Cooldown Duration="900" PowerLow="0.7488327" PowerHigh="0.2507782" />
+    </workout>
+</workout_file>

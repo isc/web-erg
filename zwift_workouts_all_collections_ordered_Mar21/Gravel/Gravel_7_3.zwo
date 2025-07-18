@@ -1,0 +1,124 @@
+<workout_file>
+    <uniqueId>dc9b686d-8f72-47f8-a43b-eff47296f35d</uniqueId>
+    <legacyIdHash>4056886999</legacyIdHash>
+    <author>Zwift</author>
+    <name>Over The Top</name>
+    <description>You&apos;ve done this one before, but this one is so good for you we are going to do this again. As I&apos;ve mentioned before our ability to have efficiency in a variety of RPM&apos;s is incredibly important in gravel events. Stay as smooth as you can as you go through this and find the entirety of your pedal stroke as we move through it. 
+
+This version of the Over the Top is a bit different as we will be going over 100% of FTP on 2 of the blocks. As always if anything here aggravates your knees or any other joints or muscles please adjust your RPM&apos;s back up to a easier level.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Gravel Grinder</category>
+    <subcategory>Week 7</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="420" PowerLow="0.45" PowerHigh="0.65">
+            <textevent timeoffset="0" message="Easy little ramp to get you moving, nice high RPM&apos;s and some light effort!" locIndex="1" />
+        </Warmup>
+        <IntervalsT Repeat="4" OnDuration="60" OffDuration="60" OnPower="0.8" OffPower="0.55">
+            <textevent timeoffset="0" message="A little waking up here up to 80%" locIndex="2" />
+            <textevent timeoffset="60" message="Back down. " locIndex="3" />
+            <textevent timeoffset="120" message="Another easy little jump up to 80%. " locIndex="4" />
+            <textevent timeoffset="180" message="and.... easy. " locIndex="5" />
+            <textevent timeoffset="240" message="Now&apos;s a great time to find your comfortable RPM&apos;s as the rest of the workout I get to tell you what to do!" locIndex="6" />
+            <textevent timeoffset="300" message="Easy. " locIndex="7" />
+            <textevent timeoffset="360" message="One more jump for a minute. Not hard, just a good waking of the legs. " locIndex="8" />
+            <textevent timeoffset="420" message="Easy minute and then into 3 minute builds by 20 seconds. " locIndex="9" />
+        </IntervalsT>
+        <SteadyState Duration="20" Power="1">
+            <textevent timeoffset="0" message="Right up to 100% for 20 seconds here. " locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.1">
+            <textevent timeoffset="0" message="A bit harder now. " locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.2">
+            <textevent timeoffset="0" message="Keep the RPM&apos;s up and get through this as smooth as you can. " locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.55">
+            <textevent timeoffset="0" message="A generous minute rest now. " locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1">
+            <textevent timeoffset="0" message="Another minute hard build here. " locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.1">
+            <textevent timeoffset="0" message="This should fire up the system. " locIndex="15" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.2">
+            <textevent timeoffset="0" message="Great work!  Go, go!" locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.55">
+            <textevent timeoffset="0" message="Easy easy." locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1">
+            <textevent timeoffset="0" message="You&apos;ll notice that the higher the RPM&apos;s the easier as this builds. For some. Not all. " locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.1">
+            <textevent timeoffset="0" message="Waking up them legs now?" locIndex="19" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.2">
+            <textevent timeoffset="0" message="Just 20 more seconds! Let&apos;s GOOO!" locIndex="20" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.55">
+            <textevent timeoffset="0" message="Ahhhhhhhh  Easy days. Nice long recovery here. Find your good comfortable RPM&apos;s here and get that hydration and a bite before we get into the &quot;main set&quot;. " locIndex="21" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.55">
+            <textevent timeoffset="0" message="Remember this is a &quot;sim&quot; of sorts and a situation you will likely find in a race. " locIndex="22" />
+            <textevent timeoffset="120" message="You have to be smooth and steady within the harder sections to maintain traction but then roll fast cadence to stay with the group." locIndex="23" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.9" Cadence="90">
+            <textevent timeoffset="0" message="Getting to the bottom of a climb, nice smooth comfortable rpm&apos;s here 90." locIndex="24" />
+            <textevent timeoffset="60" message="Visualize a climb coming up and settle your breathing as you expect the effort ahead of you. " locIndex="25" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1" Cadence="65">
+            <textevent timeoffset="0" message="60-70 RPM&apos;s now. Now we&apos;ve hit the steep section and we&apos;re running out of gears." locIndex="26" />
+            <textevent timeoffset="60" message="No outside influences when it comes to pace, but we need this effort to make the climb. " locIndex="27" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.8" Cadence="85">
+            <textevent timeoffset="0" message="We&apos;re up on the false flat on the top- rpm&apos;s are back and we&apos;ve settled in but still pressure on the pedals. 80-90 rpm&apos;s." locIndex="28" />
+            <textevent timeoffset="120" message="Be strong here, maintain those prefect pedal strokes!" locIndex="29" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.7" Cadence="95">
+            <textevent timeoffset="0" message="Over the top but now we are spun out and need to keep pressure on to stay with the group, but barely. 90 + rpm&apos;s" locIndex="30" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.55">
+            <textevent timeoffset="0" message="Easy days now. Get in that hydration please! " locIndex="31" />
+            <textevent timeoffset="150" message="Did we visualize?  If not let&apos;s try. Make believe is fun!" locIndex="32" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.9" Cadence="90">
+            <textevent timeoffset="0" message="Back into the base of the climb to the steep section. Good smooth pressure but not too hard as you know the effort is coming." locIndex="33" />
+            <textevent timeoffset="120" message="Relax as much as you can inside of this effort as the hard stuff is coming. " locIndex="34" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="1.05" Cadence="65">
+            <textevent timeoffset="0" message="105% of FTP is kinda hard at these RPM&apos;s but realistically in a gravel race you could have efforts this long at 130% and over. " locIndex="35" />
+            <textevent timeoffset="60" message="Hey! This rep is way shorter than the last one. Not much left now!  . 60-70 reps here" locIndex="36" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.8" Cadence="80">
+            <textevent timeoffset="0" message="Still feels hard now but you need to transition into finding comfort and recovery here. 80 RPM&apos;s" locIndex="37" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.7" Cadence="95">
+            <textevent timeoffset="0" message="SPUN out! Put yourself right on the line of controlled and just spun out here. 90 plus for sure. I&apos;ll shoot for about 100. Not easy." locIndex="38" />
+            <textevent timeoffset="67" message="Find that line of spun out!" locIndex="39" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.55">
+            <textevent timeoffset="0" message="Back down and easy. " locIndex="40" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.9" Cadence="90">
+            <textevent timeoffset="0" message="If you&apos;ve found those to not be hard enough, feel free to drop the RPM&apos;s a little lower." locIndex="41" />
+            <textevent timeoffset="100" message="Nice and smooth. SMOOTH.  80 here. " locIndex="42" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.1" Cadence="65">
+            <textevent timeoffset="0" message="Oh snap! Here comes the steep. Drop the cadence again please." locIndex="43" />
+            <textevent timeoffset="40" message="SMOOTH! 60-70 " locIndex="44" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.8" Cadence="75">
+            <textevent timeoffset="0" message="Back on top with some more work to do keep the RPM&apos;s at 70-80 if you can. " locIndex="45" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.7" Cadence="95">
+            <textevent timeoffset="0" message="Nice and spun out! Find that line again. Should find a little difficulty in staying smooth at spun out gearing." locIndex="46" />
+            <textevent timeoffset="100" message="High reps!!! 100" locIndex="47" />
+        </SteadyState>
+        <Cooldown Duration="390" PowerLow="0.55" PowerHigh="0.45">
+            <textevent timeoffset="0" message="Nice work, I hope that one felt smoother than the first one but still hard!  " locIndex="48" />
+        </Cooldown>
+    </workout>
+</workout_file>

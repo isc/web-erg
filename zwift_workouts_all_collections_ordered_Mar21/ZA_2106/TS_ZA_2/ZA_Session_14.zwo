@@ -1,0 +1,22 @@
+<workout_file>
+    <uniqueId>39c817d3-3e28-4dc2-92b8-1b7a5e867100</uniqueId>
+    <legacyIdHash>1387635902</legacyIdHash>
+    <author>Jon Sharples</author>
+    <name>Month 2.5 - Hill Reps #2</name>
+    <category>Zwift Academy 2016</category>
+    <subcategory>Month 2</subcategory>
+    <WorkoutPlan>1</WorkoutPlan>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/trainSharp_Logo.tga</authorIcon>
+    <description>This is progression from our last hill rep workout. In other words, more efforts! Remember to keep your upper body quiet and focus on nice, round pedaling from your legs and glutes while keeping a strong core.
+
+
+Aim for a 60-70 RPM cadence for the efforts and 90+ for everything else.</description>
+    <tags>
+        <tag name="INTERVALS" />
+    </tags>
+    <workout>
+        <Warmup Duration="1200" PowerLow="0.3545" PowerHigh="0.85449994" />
+        <SteadyState Duration="300" Power="0.40450001" Cadence="85" />
+        <IntervalsT Repeat="6" OnDuration="300" OffDuration="300" OnPower="0.90449995" OffPower="0.40450001" Cadence="65" CadenceResting="95" />
+    </workout>
+</workout_file>

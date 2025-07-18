@@ -1,0 +1,72 @@
+<workout_file>
+    <uniqueId>8a632171-036b-44b7-8743-3b689143fa6b</uniqueId>
+    <legacyIdHash>4006509385</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <categoryOverride>Climbing</categoryOverride>
+    <name>Week 1.5 - Neuromuscular Power #1</name>
+    <category>2018 PRL100 Prep</category>
+    <subcategory>Week 1</subcategory>
+    <description>Long, low intensity efforts aren&apos;t the only way to build endurance. By incorporating short surges into a steady effort you will increase your oxygen uptake and training stimulus. Completing a low intensity effort with a surge every few minutes should feel comfortable, but the constant change in power and surging, will provide you with big gains in endurance.</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <SteadyState Duration="120" Power="0.50449997" pace="0">
+            <textevent timeoffset="63" message="Warm up includes some 1min intervals at zone 4 and 5." locIndex="1" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.95449996" pace="0" />
+        <SteadyState Duration="60" Power="0.50449997" pace="0" />
+        <SteadyState Duration="60" Power="0.95449996" pace="0" />
+        <SteadyState Duration="60" Power="0.50449997" pace="0" />
+        <SteadyState Duration="60" Power="1.0944999" pace="0" />
+        <SteadyState Duration="60" Power="0.50449997" pace="0" />
+        <SteadyState Duration="60" Power="1.0944999" pace="0" />
+        <SteadyState Duration="60" Power="0.50449997" pace="0" />
+        <SteadyState Duration="180" Power="0.77999997" pace="0">
+            <textevent timeoffset="45" message="Observe your HR before and after each surge." locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.2145" pace="0" />
+        <SteadyState Duration="180" Power="0.78199726" pace="0">
+            <textevent timeoffset="76" message="Change up at least 1 gear for the surges." locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.2145" pace="0" />
+        <SteadyState Duration="180" Power="0.78449994" pace="0" />
+        <SteadyState Duration="10" Power="1.21" pace="0" />
+        <SteadyState Duration="180" Power="0.78449994" pace="0" />
+        <SteadyState Duration="10" Power="1.21" pace="0" />
+        <SteadyState Duration="180" Power="0.78449994" pace="0" />
+        <SteadyState Duration="10" Power="1.21" pace="0" />
+        <SteadyState Duration="180" Power="0.77999997" pace="0" />
+        <SteadyState Duration="10" Power="1.21" pace="0" />
+        <SteadyState Duration="180" Power="0.77999997" pace="0">
+            <textevent timeoffset="74" message="Is your heart rate returning to normal resting values?" locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.21" pace="0" />
+        <SteadyState Duration="180" Power="0.78449994" pace="0" />
+        <SteadyState Duration="10" Power="1.21" pace="0" />
+        <SteadyState Duration="180" Power="0.77999997" pace="0" />
+        <SteadyState Duration="10" Power="1.21" pace="0" />
+        <SteadyState Duration="180" Power="0.77999997" pace="0" />
+        <SteadyState Duration="10" Power="1.21" pace="0" />
+        <SteadyState Duration="180" Power="0.77999997" pace="0">
+            <textevent timeoffset="121" message="5 to go!" locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.21" pace="0" />
+        <SteadyState Duration="180" Power="0.77999997" pace="0" />
+        <SteadyState Duration="10" Power="1.21" pace="0">
+            <textevent timeoffset="3" message="1 or 2 gear changes in surges." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.77999997" pace="0" />
+        <SteadyState Duration="10" Power="1.21" pace="0">
+            <textevent timeoffset="3" message="1 or 2 gear changes in surges." locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.77999997" pace="0" />
+        <SteadyState Duration="10" Power="1.21" pace="0">
+            <textevent timeoffset="3" message="1 or 2 gear changes in surges." locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.77999997" pace="0" />
+        <SteadyState Duration="10" Power="1.21" pace="0">
+            <textevent timeoffset="3" message="1 or 2 gear changes in surges." locIndex="9" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow="0.75449997" PowerHigh="0.50449997" pace="0" />
+    </workout>
+</workout_file>

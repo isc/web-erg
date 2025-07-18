@@ -1,0 +1,46 @@
+<workout_file>
+    <uniqueId>3ebe7b1e-f633-4fb8-94c1-a2ccc6cf7c44</uniqueId>
+    <legacyIdHash>3949539183</legacyIdHash>
+    <author>Zwift</author>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>4wk FTP Booster</category>
+    <subcategory>Week 4</subcategory>
+    <name>Week 4.3 - 10min Best effort! </name>
+    <description>This is your day to produce your best 10min effort!
+
+After warming up and completing 2 x 5min sub-threshold efforts, you will then face a 10min effort with no set power. 
+
+This is your chance to ride how you feel, implementing effective pacing, to record your best effort.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="FTP" />
+        <tag name="4weekftp" />
+    </tags>
+    <workout>
+        <SteadyState Duration="300" Power="0.50449997">
+            <textevent timeoffset="240.00002" message="High rpm in warm up sprints" locIndex="8" />
+        </SteadyState>
+        <IntervalsT Repeat="2" OnDuration="10" OffDuration="50" OnPower="1.7544999" OffPower="0.50449997" Cadence="110" CadenceResting="80" />
+        <SteadyState Duration="120" Power="0.50449997" />
+        <SteadyState Duration="60" Power="1.0944999" Cadence="95" />
+        <SteadyState Duration="120" Power="0.50449997" />
+        <SteadyState Duration="240" Power="0.85449994" Cadence="90" />
+        <SteadyState Duration="180" Power="0.50449997" />
+        <IntervalsT Repeat="2" OnDuration="300" OffDuration="60" OnPower="0.90449995" OffPower="0.50449997" Cadence="95" CadenceResting="80">
+            <textevent timeoffset="22.000065" message="2 steady sub-threshold efforts." locIndex="9" />
+        </IntervalsT>
+        <SteadyState Duration="540" Power="0.50449997">
+            <textevent timeoffset="225" message="Prepare yourself mentally" locIndex="10" y="240" />
+            <textevent timeoffset="225" message="for the effort ahead." locIndex="11" y="270" />
+            <textevent timeoffset="413" message="Don&apos;t start out too hard." locIndex="12" />
+            <textevent timeoffset="457" message="Build into the effort." locIndex="13" />
+        </SteadyState>
+        <FreeRide Duration="600" show_avg="1">
+            <textevent timeoffset="29" message="Find your rhythm early." locIndex="14" />
+            <textevent timeoffset="300" message="Halfway there..." locIndex="15" />
+            <textevent timeoffset="310" message="Focus on breathing." locIndex="16" />
+            <textevent timeoffset="538" message="Almost there. Keep the power up" locIndex="17" />
+        </FreeRide>
+        <SteadyState Duration="300" Power="0.50449997" />
+    </workout>
+</workout_file>

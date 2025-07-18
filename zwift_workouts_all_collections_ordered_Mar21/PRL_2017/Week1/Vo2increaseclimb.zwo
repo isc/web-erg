@@ -1,0 +1,44 @@
+<workout_file>
+    <uniqueId>33cc7fb3-5f42-4718-89c0-7e0f38a87e8c</uniqueId>
+    <legacyIdHash>865120521</legacyIdHash>
+    <author>Zwift</author>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>4wk PRL Prep</category>
+    <subcategory>Week 1</subcategory>
+    <name>Week 1.3 - Vo2 increase climb</name>
+    <description>Today&apos;s session simulates the demands of climbing at a Vo2 Max intensity, by targeting a lower cadence.
+
+5 intervals at Lower Zone 5. However, each interval is extended by 30sec.
+
+The 1st effort is 4 minutes then extend each effort by 30 seconds (last effort is 6 minutes).</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS" />
+        <tag name="PRL" />
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.50449997" PowerHigh="0.75449997" />
+        <SteadyState Duration="300" Power="0.95449996" />
+        <SteadyState Duration="300" Power="0.55000001" />
+        <SteadyState Duration="240" Power="1.0623126" Cadence="85" />
+        <SteadyState Duration="180" Power="0.55449998" />
+        <SteadyState Duration="270" Power="1.0645" Cadence="85">
+            <textevent timeoffset="240" message="A little longer this time." locIndex="1" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.55000001" />
+        <SteadyState Duration="300" Power="1.0645" Cadence="85">
+            <textevent timeoffset="240" message="Longer again. 5min" locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.55000001" />
+        <SteadyState Duration="330" Power="1.0645" Cadence="85">
+            <textevent timeoffset="80" message="How are you feeling? " locIndex="3" />
+            <textevent timeoffset="117" message="You can do this." locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.55000001">
+            <textevent timeoffset="119" message="Last interval coming up." locIndex="5" />
+            <textevent timeoffset="148" message="It&apos;s the longest one!" locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="360" Power="1.0645" Cadence="85" />
+        <Cooldown Duration="300" PowerLow="0.75449997" PowerHigh="0.50449997" />
+    </workout>
+</workout_file>

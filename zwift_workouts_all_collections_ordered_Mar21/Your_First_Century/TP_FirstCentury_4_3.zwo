@@ -1,0 +1,17 @@
+<workout_file>
+    <uniqueId>cbdfaac7-7d1f-49b7-991d-146e999ea938</uniqueId>
+    <legacyIdHash>2340011170</legacyIdHash>
+    <category>Your First Century</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 4</subcategory>
+    <name>Week 4.3 - Day 3</name>
+    <description>Focus on riding most of the prescribed time in Endurance. During the workout, you will also complete 1 x 35 minute TEMPO effort. Try "mixing" your spin cadence during the tempo effort by trading off between a faster and slower cadence throughout the interval.</description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <workout>
+        <Warmup Duration="900" PowerLow="0.25" PowerHigh="0.75" />
+        <SteadyState Duration="900" PowerLow="0.75" PowerHigh="0.75" />
+        <SteadyState Duration="2100" PowerLow="0.81" PowerHigh="0.81" />
+        <SteadyState Duration="900" PowerLow="0.75" PowerHigh="0.75" />
+        <Cooldown Duration="600" PowerLow="0.75" PowerHigh="0.25" />
+    </workout>
+</workout_file>

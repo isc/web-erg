@@ -1,0 +1,15 @@
+<workout_file>
+    <uniqueId>5e8dec87-740e-4ad0-b59d-1fb01a267f79</uniqueId>
+    <legacyIdHash>1602638191</legacyIdHash>
+    <name>Week 11.7 - Endurance</name>
+    <description>Endurance ride. Set a pace at Endurance power and hold this pace for the prescribed workout time. Focus on riding smooth and staying relaxed. Vary your cadence.</description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <category>Active Offseason</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 11</subcategory>
+    <workout>
+        <Warmup Duration="900" PowerLow="0.2545" PowerHigh="0.75449997" />
+        <SteadyState Duration="7200" PowerLow="0.72449994" PowerHigh="0.72449994" />
+        <Cooldown Duration="900" PowerLow="0.75449997" PowerHigh="0.2545" />
+    </workout>
+</workout_file>

@@ -1,0 +1,96 @@
+<workout_file>
+    <uniqueId>206e8434-8366-47f9-8c34-9ac95b630b32</uniqueId>
+    <legacyIdHash>1062840170</legacyIdHash>
+    <author>Kristin Armstrong</author>
+    <categoryOverride>Daily Fit</categoryOverride>
+    <name>Week 8.1 - It&apos;s all about the Foundation</name>
+    <description>Its foundation time! This ride is continuous without many "rest periods". Kicking off with a :15 sec push followed by 2 minutes in our Sweet Spot zone repeated 9 times. 9x :15 seconds at 120% (Anaerobic), 2 minutes 88% (SweetSpot). Be mindful not to be overzealous; going out too hard will catch up later in the ride!</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <tags />
+    <category>Back to Fitness</category>
+    <subcategory>Week 8</subcategory>
+    <workout>
+        <SteadyState Duration="225" Power="0.6">
+            <textevent message="Welcome to It&apos;s all about the Foundation!" locIndex="1" timeoffset="0" />
+            <textevent message="Let&apos;s get started with a warm up at a comfortable cadence." locIndex="2" timeoffset="10" />
+            <textevent message="Today we are focusing on our aerobic foundation, critical to building fitness!" locIndex="3" timeoffset="120" />
+            <textevent message="Aerobic foundation rides are typically performed at zone 2 or 3 and feature longer intervals." locIndex="4" timeoffset="130" />
+            <textevent message="Today we take that a step further by including short 15sec burst efforts every 2min." locIndex="5" timeoffset="140" />
+            <textevent message="These bursts will up the ante of today and also place greater stress on your aerobic system." locIndex="6" timeoffset="150" />
+            <textevent message="Which is the key with foundation work." locIndex="7" timeoffset="160" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="0.68">
+            <textevent message="We&apos;ll continue the warm up with a ramp effort next." locIndex="8" timeoffset="0" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="0.75">
+            <textevent message="Keep your cadence comfortable here and keep easing into the day." locIndex="9" timeoffset="0" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="0.83">
+            <textevent message="Throughout today&apos;s session be sure to listen to your body! You know what is best." locIndex="10" timeoffset="0" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="0.9">
+            <textevent message="There are two arrow keys used to ramp up or down your difficulty throughout your ride, this is called bias." locIndex="11" timeoffset="0" />
+            <textevent message="Your bias adjustment can be found your companion app as well as swiping up on your screen." locIndex="12" timeoffset="10" />
+            <textevent message="You can also adjust this if the workout feels like it&apos;s becoming too hard." locIndex="13" timeoffset="20" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent message="Take it down easy for a minute now here, then we&apos;ll carry on." locIndex="14" timeoffset="0" />
+        </SteadyState>
+        <IntervalsT OffDuration="30" OffPower="0.55" OnDuration="30" OnPower="1.2" Repeat="1">
+            <textevent message="Last opportunity to get the heart pumping and ready to roll. " locIndex="15" timeoffset="0" />
+        </IntervalsT>
+        <IntervalsT OffDuration="30" OffPower="0.55" OnDuration="30" OnPower="1.2" Repeat="1">
+            <textevent message="You can do these last :30 second warm up efforts seated or standing." locIndex="16" timeoffset="0" />
+        </IntervalsT>
+        <IntervalsT OffDuration="30" OffPower="0.55" OnDuration="30" OnPower="1.2" Repeat="1">
+            <textevent message="Nice work!  Now be sure to hydrate." locIndex="17" timeoffset="30" />
+        </IntervalsT>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent message="Our main set today begins with a 15 second push followed by 2 minutes in what we call the Sweet Spot zone." locIndex="18" timeoffset="0" />
+            <textevent message="This zone is between 88-95% FTP and is great bang for the buck aerobically." locIndex="19" timeoffset="10" />
+            <textevent message="This normally wouldn&apos;t feel too challenging, but the bursts will really up the ante." locIndex="20" timeoffset="20" />
+        </SteadyState>
+        <IntervalsT OffDuration="120" OffPower="0.88" OnDuration="15" OnPower="1.2" Repeat="1">
+            <textevent message="GO GO GO!" locIndex="21" timeoffset="0" />
+            <textevent message="The Sweet Spot is a &quot;medium to hard&quot; zone right in between Zones 3 and Zone 4." locIndex="22" timeoffset="15" />
+            <textevent message="All right, in 10 seconds get ready to surge again!" locIndex="23" timeoffset="125" />
+        </IntervalsT>
+        <IntervalsT OffDuration="120" OffPower="0.88" OnDuration="15" OnPower="1.2" Repeat="1">
+            <textevent message="Today&apos;s workout is a great way to increase fitness efficiently, especially when time time on the bike is limited. " locIndex="24" timeoffset="15" />
+        </IntervalsT>
+        <IntervalsT OffDuration="120" OffPower="0.88" OnDuration="15" OnPower="1.2" Repeat="1">
+            <textevent message="Great work! Nice Push. " locIndex="25" timeoffset="0" />
+        </IntervalsT>
+        <IntervalsT OffDuration="120" OffPower="0.88" OnDuration="15" OnPower="1.2" Repeat="1">
+            <textevent message="Often times we have breaks between sets." locIndex="26" timeoffset="15" />
+            <textevent message="Today&apos;s session is both physically demanding as well as mentally due to not having any rest breaks ." locIndex="27" timeoffset="25" />
+            <textevent message="Here we go again!" locIndex="28" timeoffset="125" />
+        </IntervalsT>
+        <IntervalsT OffDuration="120" OffPower="0.88" OnDuration="15" OnPower="1.2" Repeat="1">
+            <textevent message="Excellent work! That&apos;s another one down and 4 more to go." locIndex="29" timeoffset="15" />
+        </IntervalsT>
+        <IntervalsT OffDuration="120" OffPower="0.88" OnDuration="15" OnPower="1.2" Repeat="1">
+            <textevent message="Over half way! Keep working!" locIndex="30" timeoffset="0" />
+        </IntervalsT>
+        <IntervalsT OffDuration="120" OffPower="0.88" OnDuration="15" OnPower="1.2" Repeat="1">
+            <textevent message="We are deep into the ride and our focus needs to stay strong here. You can do this!" locIndex="31" timeoffset="15" />
+        </IntervalsT>
+        <IntervalsT OffDuration="120" OffPower="0.88" OnDuration="15" OnPower="1.2" Repeat="1">
+            <textevent message="Up Up Up!" locIndex="32" timeoffset="0" />
+            <textevent message="How are you feeling?  Pushing yet still able to keep in the Sweet Spot zone?" locIndex="33" timeoffset="15" />
+        </IntervalsT>
+        <IntervalsT OffDuration="120" OffPower="0.88" OnDuration="15" OnPower="1.2" Repeat="1">
+            <textevent message="Last push!" locIndex="34" timeoffset="0" />
+            <textevent message="Final 2 minutes." locIndex="35" timeoffset="15" />
+            <textevent message="GET TO THE ARCH!" locIndex="36" timeoffset="125" />
+        </IntervalsT>
+        <SteadyState Duration="240" Power="0.5">
+            <textevent message="Great work today! Let&apos;s cool down now." locIndex="37" timeoffset="0" />
+            <textevent message="In 40-minutes we accomplished a solid ride with just a few short minutes of true recovery.  You are getting stronger every day.." locIndex="38" timeoffset="30" />
+            <textevent message="Take care of yourself by hydrating and refueling so you feel recovered and ready to go again for your next session!" locIndex="39" timeoffset="60" />
+            <textevent message="Take a few more deep breaths here as we continue to return to baseline." locIndex="40" timeoffset="120" />
+            <textevent message="See you on the next workout - Dani and Kristin." locIndex="41" timeoffset="210" />
+        </SteadyState>
+    </workout>
+</workout_file>

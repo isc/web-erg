@@ -1,0 +1,63 @@
+<workout_file>
+    <uniqueId>14f5c77c-593b-4f38-9ce1-7043a9392ce3</uniqueId>
+    <legacyIdHash>3661561702</legacyIdHash>
+    <author>Zwift</author>
+    <name>The Long Ride - Spiked Base</name>
+    <description>Long rides are critical for building the endurance you will need to tackle a long event. But it is also important to change the pace and include some high effort surges. This helps mentally to break up the monotony of a long ride and also helps physically by stimulating your body to be able to respond even when fatigued.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Gran Fondo</category>
+    <subcategory>Week 1</subcategory>
+    <tags>
+        <tag name="fondo" />
+    </tags>
+    <workout>
+        <Warmup Duration="420" PowerLow="0.2545" PowerHigh="0.65449995" pace="0">
+            <textevent timeoffset="302" message="Thanks for joining in for today&apos;s long ride. This is part of Zwift&apos;s training plan for our Fondo series." locIndex="1" />
+            <textevent timeoffset="128.17876" message="We&apos;ve got 95min on tap for today. Starting with a nice 15min block of Z2 here." locIndex="2" />
+        </Warmup>
+        <SteadyState Duration="900" Power="0.65449995" pace="0">
+            <textevent timeoffset="662" message="Nice and steady. You should be comfortable here. This is your &apos;in the pack&apos; pace." locIndex="3" />
+            <textevent timeoffset="288" message="This is a long workout, so a bit of nutrition &amp; hydration is important." locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="600" Power="0.80449992" pace="0">
+            <textevent timeoffset="437" message="Strong and steady here. Find a good rhythm here for this last bit." locIndex="5" />
+            <textevent timeoffset="160" message="Alright, stepping up the power here to 80% for 10min here. This is more like Fondo pace." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="600" Power="0.6045" pace="0">
+            <textevent timeoffset="414" message="Your HR and breathing should be nice and smooth here, just like the pedal strokes." locIndex="7" />
+            <textevent timeoffset="123" message="And back down here into Z2 now for 10min." locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.55000001" pace="0">
+            <textevent timeoffset="30" message="Nice and light here. Some recovery." locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.80449992" pace="0">
+            <textevent timeoffset="30" message="Stepping it back up for this one. 80% here. Smooth steady state. But be ready for that breakaway surge at the end." locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.2045" pace="0" />
+        <SteadyState Duration="180.00002" Power="1.0044999" pace="0">
+            <textevent timeoffset="89" message="And a bit of threshold here after the breakaway." locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="600" Power="0.75449997" pace="0">
+            <textevent timeoffset="232" message="And stepping it down, find your rhythm." locIndex="12" />
+            <textevent timeoffset="420" message="Strong but smooth." locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.55000001" pace="0">
+            <textevent timeoffset="30" message="And recovery here." locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.85449994" pace="0">
+            <textevent timeoffset="30" message="Bringing it back up here. Nice and strong. With another breakaway surge on tap." locIndex="15" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.2045" pace="0" />
+        <SteadyState Duration="180.00002" Power="1.0044999" pace="0">
+            <textevent timeoffset="15" message="And back at threshold. Make that break stick!" locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="600" Power="0.65449995" pace="0">
+            <textevent timeoffset="108" message="Steady now. Smooth here for 10min." locIndex="17" />
+            <textevent timeoffset="425" message="Almost done. Close it out strong." locIndex="18" />
+        </SteadyState>
+        <Cooldown Duration="360" PowerLow="0.65449995" PowerHigh="0.50449997" pace="0">
+            <textevent timeoffset="95" message="Cooling down now. Great job!" locIndex="19" />
+        </Cooldown>
+    </workout>
+</workout_file>

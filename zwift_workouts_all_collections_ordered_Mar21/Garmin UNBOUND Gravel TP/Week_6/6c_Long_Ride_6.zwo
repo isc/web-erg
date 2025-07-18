@@ -1,0 +1,19 @@
+<workout_file>
+    <uniqueId>22c90253-7478-4b2c-aa2f-0e1a15b7d6c8</uniqueId>
+    <legacyIdHash>3283795146</legacyIdHash>
+    <author>Shayne Gaffney</author>
+    <name>Week 6.3 - The Long Ride - 3.5 hours</name>
+    <activitySaveName>Garmin UNBOUND Gravel Training Plan | The Long Ride - 3.5 hours</activitySaveName>
+    <description>Just ENJOY today. You have a few options. Ride around the amazing Worlds on Zwift, join in a Zwift group ride, or head outdoors - ideally on your gravel bike and off-road. The goal is to aim for 3.5 hours of endurance riding. Ride on feel today at a 3-5/10 perceived exertion level (RPE).</description>
+    <sportType>bike</sportType>
+    <category>Garmin UNBOUND Gravel Training Plan</category>
+    <subcategory>Week 6</subcategory>
+    <visibleAfterTime>1652659260</visibleAfterTime>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/UnboundGravel_Logo.tga</authorIcon>
+    <tags>
+        <tag name="InGravelWeRoam" />
+    </tags>
+    <workout>
+        <FreeRide Duration="12600" FlatRoad="0" />
+    </workout>
+</workout_file>

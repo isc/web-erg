@@ -1,0 +1,16 @@
+<workout_file>
+    <uniqueId>840a19e4-c964-4bbd-b7ba-b814445ec905</uniqueId>
+    <legacyIdHash>2172910206</legacyIdHash>
+    <name>Day 3 - Swim</name>
+    <description>(AM) Swim - 2000-2200 yds.
+Warm up with 300-400 yds. of steady swimming and mixed drills. Swim intervals of 200 &amp; 500 at a moderate to aggressive pace working on building speed</description>
+    <author>QT2</author>
+    <category>Olympic Tri Prep Plan</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 5</subcategory>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/QT2Systems_Logo.tga</authorIcon>
+    <sportType>swim</sportType>
+    <workoutLength>1800</workoutLength>
+    <workout> 
+  </workout>
+</workout_file>

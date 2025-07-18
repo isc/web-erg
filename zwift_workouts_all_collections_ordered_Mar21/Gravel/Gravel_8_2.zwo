@@ -1,0 +1,82 @@
+<workout_file>
+    <uniqueId>9f93464e-88b1-43e7-b200-114a9f0dc34c</uniqueId>
+    <legacyIdHash>988247950</legacyIdHash>
+    <author>Zwift</author>
+    <name>Seated Big Gear Sprints</name>
+    <description>A bit of a different workout on tap for today, but one I think you&apos;ll enjoy. It&apos;s not necessarily something overly practiced or trained for but in gravel racing with lots of situations that could force you into low speed with an acceleration straight out of it. 
+
+We&apos;ll be using &quot;free ride&quot; to do these efforts and will have you come to a very slow speed while in a big gear to start these efforts. What I want you to do is once the interval starts I&apos;d like you to drop your rpm&apos;s down to 60 in that big gear and let your speed drop below 10MPH. At 30 seconds you will then do a seated &quot;sprint&quot; more or less using max watts to accelerate but the catch is you won&apos;t shift and you&apos;ll gradually increase RPM&apos;s naturally as you speed up. By the end, you should be maxed, cadence and effort. If it feels easy, choose a bigger gear. I&apos;ll then want you to continue to accelerate with rpm&apos;s and speed to the finish of the minute. Sound fun?</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Gravel Grinder</category>
+    <subcategory>Week 8</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="420" PowerLow="0.45" PowerHigh="0.65">
+            <textevent timeoffset="0" message="Nice and smooth warm up here! " locIndex="1" />
+        </Warmup>
+        <SteadyState Duration="120" Power="0.6">
+            <textevent timeoffset="0" message="Some gentle builds up to 90% to get the legs opened up. " locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.7">
+            <textevent timeoffset="0" message="Smooth and not all that hard really. " locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.8">
+            <textevent timeoffset="0" message="Use nice high RPM&apos;s please. Get those legs moving quickly. " locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.9">
+            <textevent timeoffset="0" message="Wake up those legs with a little more pressure on the pedals. " locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.6">
+            <textevent timeoffset="0" message="Real easy days back into another building block. " locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.7">
+            <textevent timeoffset="0" message="Be smooth in these easy zones. " locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.8">
+            <textevent timeoffset="0" message="Are you excited to try this workout out?  Sounds fun right? " locIndex="8" />
+            <textevent timeoffset="20" message="Fun and hard. " locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.9">
+            <textevent timeoffset="0" message="Let&apos;s go now, last real block to warm up those pins!" locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.55">
+            <textevent timeoffset="0" message="Easy days into some 30 second efforts to wake up the legs! " locIndex="11" />
+            <textevent timeoffset="167" message="These are NOT the low RPM efforts, please use higher RPM&apos;s here to stay on top of the gear. " locIndex="12" />
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="30" OffDuration="60" OnPower="1.2" OffPower="0.55">
+            <textevent timeoffset="0" message="Go, go, go!!!  " locIndex="13" />
+            <textevent timeoffset="30" message="Nice one. That should have stung a little at the end there, but not long enough to really hurt. " locIndex="14" />
+            <textevent timeoffset="90" message="Get up and go!  " locIndex="15" />
+            <textevent timeoffset="120" message="Easy recovery minute here. " locIndex="16" />
+            <textevent timeoffset="150" message="Again, and with high RPM&apos;s!!!" locIndex="17" />
+            <textevent timeoffset="180" message="Smooth and comfortable. " locIndex="18" />
+            <textevent timeoffset="240" message="Keep the cadence high!" locIndex="19" />
+            <textevent timeoffset="270" message="Settle back in." locIndex="20" />
+        </IntervalsT>
+        <SteadyState Duration="90" Power="0.55">
+            <textevent timeoffset="0" message="Are you ready for these &quot;sprints&apos;? " locIndex="21" />
+            <textevent timeoffset="60" message="Remember to let the RPM&apos;s come down with the speed for the first 30 seconds and don&apos;t accelerate until 30 seconds in. " locIndex="22" />
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="60" OffDuration="180" OnPower="1.3" OffPower="0.55">
+            <textevent timeoffset="0" message="Ok, let the cadence get down to 60ish in your big gear!" locIndex="23" />
+            <textevent timeoffset="30" message="Now accelerate!!! Stay seated for at least 15 seconds and pedal, pedal, pedal!!!" locIndex="24" />
+            <textevent timeoffset="60" message="How&apos;d it go?  Make sense?  Adjust this round to make these next 3 awesome if that didn&apos;t go as planned." locIndex="25" />
+            <textevent timeoffset="90" message="It is ok to get out of the saddle once the speed and the RPM&apos;s come up to finish the sprint. " locIndex="26" />
+            <textevent timeoffset="240" message="Let&apos;s try it again! " locIndex="27" />
+            <textevent timeoffset="270" message="Let &apos;er rip!" locIndex="28" />
+            <textevent timeoffset="300" message="Easy spinning recovery. " locIndex="29" />
+            <textevent timeoffset="360" message="Can we do it even smoother this time?" locIndex="30" />
+            <textevent timeoffset="390" message="Go, go, go!" locIndex="31" />
+            <textevent timeoffset="420" message="Nice work, starting to get easier? " locIndex="32" />
+            <textevent timeoffset="480" message="Settle that cadence down." locIndex="33" />
+            <textevent timeoffset="510" message="Let&apos;s go!!!" locIndex="34" />
+        </IntervalsT>
+        <SteadyState Duration="180" Power="0.55">
+            <textevent timeoffset="0" message="That&apos;s it?  Not so bad was it?  You kinda liked it, I know it." locIndex="35" />
+        </SteadyState>
+        <Cooldown Duration="330" PowerLow="0.55" PowerHigh="0.45">
+            <textevent timeoffset="0" message="Easy days now. Nice work! What did you think? Kinda fun. no?" locIndex="36" />
+        </Cooldown>
+    </workout>
+</workout_file>

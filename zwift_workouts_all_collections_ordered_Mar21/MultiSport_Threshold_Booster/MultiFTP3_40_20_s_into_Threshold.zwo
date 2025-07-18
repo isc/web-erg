@@ -1,0 +1,98 @@
+<workout_file>
+    <uniqueId>99652a28-dfc5-4005-830f-33d5e7a9a52c</uniqueId>
+    <legacyIdHash>3765284331</legacyIdHash>
+    <author>Zwift</author>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>Multi-Sport Threshold Booster</category>
+    <visibleOutsidePlan>0</visibleOutsidePlan>
+    <name>40/20&apos;s Into Threshold</name>
+    <description>By building up some lactate prior to completing a sub-threshold effort, you will be training your body to clear lactate while improving the efficiency of your aerobic system.
+
+After warming up you will complete 4min of 40/20, leading straight into 10min sub-threshold.
+
+</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS" />
+        <tag name="4weekftp" />
+    </tags>
+    <workout>
+        <SteadyState Duration="300" Power="0.50449997">
+            <textevent timeoffset="0" message="Welcome, let&apos;s get started with a warm-up. Cadence at 85 to 95 RPM." locIndex="1" />
+            <textevent timeoffset="60" message="Vary your cadence throughout the warm-up today - working at both high and low cadence ranges." locIndex="2" />
+            <textevent timeoffset="270" message="Next up, we are going to be doing 30 seconds at zone 2 with 30 seconds at zone 3 following." locIndex="3" />
+            <textevent timeoffset="280" message="Cadence for the zone 2 should be at 90 RPM, and zone 3 at 95 RPM." locIndex="4" />
+            <textevent timeoffset="290" message="Ready?" locIndex="5" />
+        </SteadyState>
+        <IntervalsT Repeat="5" OnDuration="30" OffDuration="30" OnPower="0.65449995" OffPower="0.80449992" OverUnder="1" Cadence="90" CadenceResting="95">
+            <textevent timeoffset="0" message="Okay, keep your cadence study at 90 RPM. We are here for 30 seconds." locIndex="6" />
+            <textevent timeoffset="30" message="Now bring it up to 95 RPM." locIndex="7" />
+            <textevent timeoffset="60" message="And back down to 90 RPM." locIndex="8" />
+            <textevent timeoffset="295" message="Great work, now let&apos;s recover for a few minutes and get ready for the main set." locIndex="9" />
+        </IntervalsT>
+        <SteadyState Duration="180" Power="0.50449997">
+            <textevent timeoffset="60" message="Take a few deep breaths here, this main set is going to be very challenging." locIndex="10" />
+            <textevent timeoffset="120" message="We start off with 4, 40/20s. The 40 seconds will be at 120% FTP, and the 20 seconds off will be easy." locIndex="11" />
+            <textevent timeoffset="130" message="After performing those, we settle into a 10 minutes effort at 95% FTP." locIndex="12" />
+            <textevent timeoffset="140" message="The plan for today&apos;s workout is to create lactate during the initial 40/20s" locIndex="13" />
+            <textevent timeoffset="150" message="Then train your body to clear it at the steady threshold interval." locIndex="14" />
+            <textevent timeoffset="160" message="Doing so will also improve the efficiency of your aerobic system, which is what it is all about!." locIndex="15" />
+            <textevent timeoffset="170" message="Time to build some lactate! cadence at 95 RPM!" locIndex="16" />
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="40" OffDuration="20" OnPower="1.2145" OffPower="0.50449997" Cadence="95" CadenceResting="80">
+            <textevent timeoffset="0" message="Push yourself for these 40/20s! We are really trying to produce as much lactate as possible." locIndex="17" />
+            <textevent timeoffset="10" message="So expect these to burn a bit." locIndex="18" />
+            <textevent timeoffset="40" message="Great job, now take a short 20 second rest at 80 RPM." locIndex="19" />
+            <textevent timeoffset="60" message="Back up to 95 RPM again, hit it hard!" locIndex="20" />
+            <textevent timeoffset="100" message="And back down again to 80 RPM, halfway done!" locIndex="21" />
+            <textevent timeoffset="120" message="That&apos;s enough rest for me, hit it!" locIndex="22" />
+            <textevent timeoffset="180" message="Last one! Make it count." locIndex="23" />
+            <textevent timeoffset="220" message="Okay, short rest then we settle into 10 minutes at 95% FTP! WOOT WOOT!" locIndex="24" />
+        </IntervalsT>
+        <SteadyState Duration="600" Power="0.95449996" Cadence="90">
+            <textevent timeoffset="0" message="All right, these first few minutes are not going to feel good. Fight through it, you can do this!" locIndex="25" />
+            <textevent timeoffset="60" message="1 minute in, you should start to feel your legs feeling a little less &apos;full&apos; by now." locIndex="26" />
+            <textevent timeoffset="70" message="But the burn is going to stay a bit longer, PUSH!" locIndex="27" />
+            <textevent timeoffset="180" message="3 minutes in, you are looking awesome!!" locIndex="28" />
+            <textevent timeoffset="300" message="Halfway done here, by now this should feel a little more doable. Hang on for these last 5 minutes, keep yourself in a rhythm." locIndex="29" />
+            <textevent timeoffset="360" message="Control your breathing, keep your form rock solid." locIndex="30" />
+            <textevent timeoffset="480" message="2 minutes to go!" locIndex="31" />
+            <textevent timeoffset="540" message="Final minute here. You got this!" locIndex="32" />
+        </SteadyState>
+        <SteadyState Duration="600" Power="0.50449997">
+            <textevent timeoffset="0" message="Amazing work there! 1 down 1 to go." locIndex="33" />
+            <textevent timeoffset="10" message="We are taking a long 10 minute rest here to allow your body to return to baseline and clear all of the lactate you produced." locIndex="34" />
+            <textevent timeoffset="20" message="So, use this time to drink, stretch if needed, and take some deep breaths. We are doing the same interval again next." locIndex="35" />
+            <textevent timeoffset="300" message="5 more minutes to rest, you should feel pretty recovered by this point." locIndex="36" />
+            <textevent timeoffset="310" message="If not continue to take some deep breaths, keep drinking, and stretch out." locIndex="37" />
+            <textevent timeoffset="540" message="Okay, one more minute easy, then we hit it again! Get yourself ready." locIndex="38" />
+            <textevent timeoffset="590" message="In 10 seconds we are back into the 40/20s, one more deep breath, focus up!" locIndex="39" />
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="40" OffDuration="20" OnPower="1.2145" OffPower="0.50449997" Cadence="95" CadenceResting="80">
+            <textevent timeoffset="0" message="Push yourself for these 40/20s! We are really trying to produce as much lactate as possible." locIndex="40" />
+            <textevent timeoffset="10" message="This 2nd set is going to feel more challenging." locIndex="41" />
+            <textevent timeoffset="20" message="So expect these to burn a bit!" locIndex="42" />
+            <textevent timeoffset="40" message="Great job, now take a short 20 second rest at 80 RPM." locIndex="43" />
+            <textevent timeoffset="60" message="Back up to 95 RPM again, hit it hard!" locIndex="44" />
+            <textevent timeoffset="100" message="And back down again to 80 RPM, halfway done!" locIndex="45" />
+            <textevent timeoffset="120" message="That&apos;s enough rest for me, hit it!" locIndex="46" />
+            <textevent timeoffset="180" message="Last one! Make it count." locIndex="47" />
+            <textevent timeoffset="220" message="Okay, short rest then we settle into 10 minutes at 95% FTP! WOOT WOOT!" locIndex="48" />
+        </IntervalsT>
+        <SteadyState Duration="600" Power="0.95449996" Cadence="90">
+            <textevent timeoffset="0" message="All right, these 1st few minutes are not going to feel good. Fight through it, you can do this! Settle back into 90 RPM." locIndex="49" />
+            <textevent timeoffset="60" message="1 minute in, you should start to feel your legs feeling a little less &apos;full&apos; by now." locIndex="50" />
+            <textevent timeoffset="70" message="But the burn is going to stay a bit longer, PUSH!" locIndex="51" />
+            <textevent timeoffset="180" message="3 minutes in, you are looking awesome!! Expect the &apos;burn&apos; to last a little longer with this 2nd interval set." locIndex="52" />
+            <textevent timeoffset="300" message="Halfway done here, by now this should feel a little more doable. Hang on for these last 5 minutes, keep yourself in a rhythm." locIndex="53" />
+            <textevent timeoffset="360" message="Control your breathing, keep your form rock solid." locIndex="54" />
+            <textevent timeoffset="480" message="2 minutes to go!" locIndex="55" />
+            <textevent timeoffset="540" message="Final minute here. You got this!" locIndex="56" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.50449997">
+            <textevent timeoffset="0" message="SUPERB!! That is a really tough workout, but you handled it with style and grace." locIndex="57" />
+            <textevent timeoffset="10" message="You should be proud of yourself for continuing to push your limits." locIndex="58" />
+            <textevent timeoffset="60" message=" Take a few minutes really easy to cool down, and we will see you next time." locIndex="59" />
+        </SteadyState>
+    </workout>
+</workout_file>

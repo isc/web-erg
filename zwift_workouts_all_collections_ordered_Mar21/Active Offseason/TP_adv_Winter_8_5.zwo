@@ -1,0 +1,26 @@
+<workout_file>
+    <uniqueId>ec807d05-9e0e-42a8-84b9-a4fb124df3ce</uniqueId>
+    <legacyIdHash>3314059571</legacyIdHash>
+    <name>Week 8.5 - Endurance</name>
+    <description>Build some time on the bike today with an ENDURANCE Ride!</description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <category>Active Offseason</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 8</subcategory>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.2545" PowerHigh="0.58783358" />
+        <SteadyState Duration="4500" PowerLow="0.65449995" PowerHigh="0.65449995">
+            <textevent timeoffset="300" message="Vary your cadence!" locIndex="1" />
+            <textevent timeoffset="600" message="Vary your cadence!" locIndex="2" />
+            <textevent timeoffset="900" message="Vary your cadence!" locIndex="3" />
+            <textevent timeoffset="1200" message="Vary your cadence!" locIndex="4" />
+            <textevent timeoffset="1800" message="Vary your cadence!" locIndex="5" />
+            <textevent timeoffset="2250" message="Half way there!" locIndex="6" />
+            <textevent timeoffset="2400" message="Vary your cadence!" locIndex="7" />
+            <textevent timeoffset="3000" message="Vary your cadence!" locIndex="8" />
+            <textevent timeoffset="3600" message="Vary your cadence!" locIndex="9" />
+            <textevent timeoffset="4200" message="Vary your cadence!" locIndex="10" />
+        </SteadyState>
+        <Cooldown Duration="600" PowerLow="0.6045" PowerHigh="0.2545" />
+    </workout>
+</workout_file>

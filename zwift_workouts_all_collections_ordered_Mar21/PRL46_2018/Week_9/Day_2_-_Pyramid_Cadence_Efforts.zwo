@@ -1,0 +1,44 @@
+<workout_file>
+    <uniqueId>b313c391-ba15-45b2-8e38-1c251b3832de</uniqueId>
+    <legacyIdHash>1733279062</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <categoryOverride>30-60 minutes to burn</categoryOverride>
+    <name>Week 9.2 - Pyramid Cadence Efforts</name>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>2018 PRL46 Prep</category>
+    <subcategory>Week 9</subcategory>
+    <description>Riding at a near threshold power, the challenge today is to reach the target power with the highest cadence possible. 
+
+You will then increase the length of the interval in the next step where you should aim to maintain the same cadence as the previous interval. </description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow="0.50449997" PowerHigh="0.75449997" pace="0">
+            <textevent timeoffset="540" message="Remember to maintain a high cadence during the efforts" locIndex="1" />
+            <textevent timeoffset="99" message="Today&apos;s warm up goes straight into the high cadence threshold efforts." locIndex="2" />
+        </Warmup>
+        <SteadyState Duration="60" Power="0.95449996" pace="0" />
+        <SteadyState Duration="60" Power="0.55000001" pace="0">
+            <textevent timeoffset="24" message="What was your cadence for the 1st effort?" locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.95449996" pace="0">
+            <textevent timeoffset="42" message="Aim to hold the same high cadence a little longer this time." locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.55000001" pace="0" />
+        <SteadyState Duration="180" Power="0.95449996" pace="0" />
+        <SteadyState Duration="180" Power="0.55000001" pace="0" />
+        <SteadyState Duration="600" Power="0.75449997" pace="0">
+            <textevent timeoffset="60" message="Some aerobic work between the threshold sets." locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.55000001" pace="0">
+            <textevent timeoffset="64" message="Aim to achieve the same high cadence as in the 1st set" locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.94999999" pace="0" />
+        <SteadyState Duration="60" Power="0.55000001" pace="0" />
+        <SteadyState Duration="120" Power="0.94999999" pace="0" />
+        <SteadyState Duration="120" Power="0.55000001" pace="0" />
+        <SteadyState Duration="180" Power="0.95449996" pace="0" />
+        <SteadyState Duration="180" Power="0.55000001" pace="0" />
+        <Cooldown Duration="600" PowerLow="0.75449997" PowerHigh="0.50449997" pace="0" />
+    </workout>
+</workout_file>

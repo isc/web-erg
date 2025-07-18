@@ -1,0 +1,20 @@
+<workout_file>
+    <uniqueId>a6c89201-64ba-45bd-a1bd-440066274add</uniqueId>
+    <legacyIdHash>4067493913</legacyIdHash>
+    <name>Week 1 (Skip if you are in shape).2 - Day 2</name>
+    <description>Strength</description>
+    <author>Marco Pinotti</author>
+    <category>10-12wk FTP Builder</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 1 (Skip if you are in shape)</subcategory>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/MarcoPinotti_Logo.tga</authorIcon>
+    <sportType>bike</sportType>
+    <workout>
+        <Warmup Duration="780" PowerLow="0.5" PowerHigh="0.9" />
+        <SteadyState Duration="300" PowerLow="0.5" PowerHigh="0.55" />
+        <IntervalsT Repeat="5" OnDuration="10" OffDuration="110" OffPower="0.52" OnPower="2.0" />
+        <SteadyState Duration="600" PowerLow="0.5" PowerHigh="0.75" />
+        <IntervalsT Repeat="5" OnDuration="10" OffDuration="110" OffPower="0.52" OnPower="2.0" />
+        <Cooldown Duration="600" PowerLow="0.5" PowerHigh="0.65" />
+    </workout>
+</workout_file>

@@ -1,0 +1,74 @@
+<workout_file>
+    <uniqueId>a56ba6c9-318b-4786-a23e-85f310aa9740</uniqueId>
+    <legacyIdHash>4151383644</legacyIdHash>
+    <author>Shayne Gaffney | GC Coaching</author>
+    <name>Devedeset Lite</name>
+    <categoryOverride>30-60 minutes to burn</categoryOverride>
+    <description>Training in the power zone just below your functional threshold power (FTP) is a super effective and efficient way to raise your fitness - this is also called the 'sweet spot zone. Today's workout is this plan's introduction to that zone. After a warm-up, we'll go into 2, 8min long sweet spot intervals with 3min of rest in between, then cool down.</description>
+    <sportType>bike</sportType>
+    <category>Build Me Up Lite</category>
+    <subcategory>Week 1</subcategory>
+    <tags>
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.25" PowerHigh="0.75">
+            <textevent timeoffset="0" message="Welcome, friend!  Let&apos;s get started with a warm-up..." locIndex="1" />
+            <textevent timeoffset="10" message="...Ideal cadence here is 85-95 RPM, but do whatever is comfortable for you!" locIndex="2" />
+            <textevent timeoffset="120" message="2 minutes in, bring up that cadence to ~95 RPM if you aren&apos;t already there.  Get those legs ready to work!" locIndex="3" />
+            <textevent timeoffset="150" message="Halfway through the warm-up, Let&apos;s talk a bit about today&apos;s workout..." locIndex="4" />
+            <textevent timeoffset="160" message="...Today is straight forward, we will be doing 2 sets of 8 minutes @90% FTP @85-95 RPM..." locIndex="5" />
+            <textevent timeoffset="170" message="...Working at 90% FTP is considered your &quot;Sweet Spot&quot; and has been shown to yield great results with little accumulated fatigue..." locIndex="6" />
+            <textevent timeoffset="180" message="...Sweet Spot training is going to be a common thread in this training plan, so get used to training at this intensity level :-) ..." locIndex="7" />
+            <textevent timeoffset="190" message="...Fortunately, training in this way doesn&apos;t require a lot of volume, so workout length can be relatively short, but you should still see great results!" locIndex="8" />
+            <textevent timeoffset="240" message="Last minute...Next up, we are going to do 3 &quot;leg primer&quot; efforts..." locIndex="9" />
+            <textevent timeoffset="250" message="...These primers prepare the muscles for the work that lies ahead..." locIndex="10" />
+            <textevent timeoffset="260" message="...The first one is @95 RPM @95% FTP, #2 @105 RPM @105% FTP, and #3 @115 RPM @115% FTP :-)" locIndex="11" />
+            <textevent timeoffset="590" message="Get ready..." locIndex="12" />
+        </Warmup>
+        <IntervalsT Repeat="1" OnDuration="30" OffDuration="30" OnPower="0.95" OffPower="0.5" Cadence="95" CadenceResting="85">
+            <textevent timeoffset="0" message="Alright, keep that cadence right around 95 RPM, but with a little more effort." locIndex="13" />
+            <textevent timeoffset="30" message="Great work, now bring the effort and cadence back down." locIndex="14" />
+            <textevent timeoffset="50" message="In 10 seconds, 105 RPM @105% FTP." locIndex="15" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="30" OffDuration="30" OnPower="1.05" OffPower="0.5" Cadence="105" CadenceResting="85">
+            <textevent timeoffset="0" message="Little faster feet now...Increase that effort!" locIndex="16" />
+            <textevent timeoffset="30" message="Excellent!  Bring the effort and cadence back down." locIndex="17" />
+            <textevent timeoffset="50" message="In 10 seconds, 115 RPM @115% FTP...HUP HUP HUP!" locIndex="18" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="30" OffDuration="30" OnPower="1.15" OffPower="0.5" Cadence="115" CadenceResting="85">
+            <textevent timeoffset="0" message="Let&apos;s go!Increase that effort!" locIndex="19" />
+            <textevent timeoffset="30" message="Bring the effort and cadence back down...Let&apos;s take a longer rest now and get ready for the main set." locIndex="20" />
+        </IntervalsT>
+        <SteadyState Duration="120" Power="0.5" Cadence="85">
+            <textevent timeoffset="30" message="Deep breaths...Mentally prepare yourself...Know YOU CAN DO THIS!" locIndex="21" />
+            <textevent timeoffset="110" message="In 10 seconds, Sweet Spot (SST) interval #1 begins, keep the cadence @85-95 RPM for this one." locIndex="22" />
+        </SteadyState>
+        <SteadyState Duration="480" Power="0.9" Cadence="90">
+            <textevent timeoffset="0" message="Here we go!  Settle into this effort..." locIndex="23" />
+            <textevent timeoffset="10" message="...Work on keeping great form here as well - Shoulders relaxed, elbows bent, light grip on the bars..." locIndex="24" />
+            <textevent timeoffset="240" message="Halfway through this first one!  How&apos;s your form?  Shoulder down?" locIndex="26" />
+            <textevent timeoffset="420" message="1 more minute to go, finish this first one strong!" locIndex="27" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="Great work!  1 down and 1 more to go...Lets take some rest first though!" locIndex="28" />
+            <textevent timeoffset="30" message="Focus on your breathing during these recoveries...Nice deep breaths with purposeful exertions...Recover!" locIndex="29" />
+            <textevent timeoffset="120" message="1 more minute easy...Few more deep breaths." locIndex="30" />
+            <textevent timeoffset="170" message="In 10 seconds, SST interval #2 begins...This time we are going to be aiming for 75-85 RPM." locIndex="31" />
+        </SteadyState>
+        <SteadyState Duration="480" Power="0.9" Cadence="80">
+            <textevent timeoffset="0" message="Alright, bring that effort back up again, but keep your cadence relatively slow this time..." locIndex="32" />
+            <textevent timeoffset="10" message="...With a slower cadence, you are going to put more of the demands on your muscular system..." locIndex="33" />
+            <textevent timeoffset="20" message="...This is great, but there should be NO KNEE PAIN..." locIndex="34" />
+            <textevent timeoffset="30" message="...If you experience any knee pain, please increase your cadence!" locIndex="35" />
+            <textevent timeoffset="240" message="Halfway done!  Notice any difference in your heart rate at this cadence versus the first interval?" locIndex="37" />
+            <textevent timeoffset="250" message="That&apos;s because your metabolic demands decrease at lower cadences which results in a lower heart rate." locIndex="38" />
+            <textevent timeoffset="260" message="Cool, right?  Now get back to work!  :-)" locIndex="39" />
+            <textevent timeoffset="420" message="1 more minute left, you are doing GREAT!" locIndex="40" />
+        </SteadyState>
+        <Cooldown Duration="180" PowerLow="0.55" PowerHigh="0.25">
+            <textevent timeoffset="0" message="Woot woot!  Awesome work today!" locIndex="57" />
+            <textevent timeoffset="10" message="We are going to finish up with a cool-down to spin the legs out a bit and help return the body back to baseline..." locIndex="58" />
+            <textevent timeoffset="20" message="...See you next time!" locIndex="59" />
+        </Cooldown>
+    </workout>
+</workout_file>

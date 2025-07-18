@@ -1,0 +1,122 @@
+<workout_file>
+    <uniqueId>9afbcc2e-ec3d-4981-911d-fdb11041ab30</uniqueId>
+    <legacyIdHash>1543070712</legacyIdHash>
+    <author>Marco Pinotti</author>
+    <categoryOverride>Climbing</categoryOverride>
+    <name>Lawson Craddock: All-rounder</name>
+    <activitySaveName>Zwift Pro Training Camp: Team BikeExchange-Jayco | Lawson Craddock</activitySaveName>
+    <description>Lawson Craddock is an American professional cyclist racing for UCI WorldTeam Team BikeExchange-Jayco. This workout is a great session to build all-around fitness and build cycling specific strength. The main session is 3 min 30 seconds at 88% of FTP and 60 RPM&apos;s, right into 30 seconds at 105% of FTP and 100+ RPM&apos;s.</description>
+    <sportType>bike</sportType>
+    <category>Pro Training Camp | Team BikeExchange-Jayco</category>
+    <categoryIndex>1</categoryIndex>
+    <visibleAfterTime>1672617660</visibleAfterTime>
+    <overrideHash>1543070712</overrideHash>
+    <tags>
+        <tag name="zprotraining" />
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow=".5" PowerHigh=".6">
+            <textevent timeoffset="0" message="Welcome to Zwift&apos;s Pro Training Camp, Today you&apos;ve got a workout from Lawson Craddock from Team BikeExchange-Jayco." locIndex="1" />
+            <textevent timeoffset="10" message="Find a comfortbale cadence and let&apos;s start off with some easy watts to get you warmed up." locIndex="2" />
+            <textevent timeoffset="30" message="If you are not familiar with Lawson, he is one tough cookie. In the 2018 Tour de France he was caught in a heavy crash during the 1st stage..." locIndex="3" />
+            <textevent timeoffset="40" message="and when most riders would&apos;ve quit, Lawson continued on to finish not just the stage, but the entire Tour, despite suffering a hairline fracture in his scapula." locIndex="4" />
+            <textevent timeoffset="50" message="And he did it all for a good cause. During that 2018 Tour he launched a fundraiser to raise money for the Greater Houston Cycling Association." locIndex="5" />
+            <textevent timeoffset="60" message="To help rebuild the Alkek Velodrome that was damaged during hurricane Harvey." locIndex="6" />
+            <textevent timeoffset="80" message="In addition to being a good dude off the bike, Lawson also has incredible cycling chops." locIndex="7" />
+            <textevent timeoffset="90" message="He is a 2 x National champion, Olympian and has been selected to race in multiple grand tours." locIndex="8" />
+            <textevent timeoffset="100" message="He is also a longtime friend of Zwift and has been training here for years." locIndex="9" />
+            <textevent timeoffset="180" message="Today we&apos;ve got a strength building workout from Lawson to help develop cycling specific power." locIndex="10" />
+            <textevent timeoffset="190" message="The main set is 4 rounds of 3.5 minutes at 88% of FTP at 60 rpms, right into 30 seconds at 105% threshold at 100 rpms." locIndex="11" />
+            <textevent timeoffset="200" message="Think of it as a strength building effort, with a fast spin off to flush your legs." locIndex="12" />
+            <textevent timeoffset="260" message="Use this workout in the off-season to help build cycling specific strength or during a strength phase of training." locIndex="13" />
+            <textevent timeoffset="270" message="Let&apos;s get started." locIndex="14" />
+        </Warmup>
+        <Ramp Duration="300" PowerLow=".65" PowerHigh=".9">
+            <textevent timeoffset="0" message="This block is an extension of warm up, it&apos;s a nice friendly ramp up to 90% of FTP to get you fully warmed up and ready for the main set." locIndex="15" />
+            <textevent timeoffset="10" message="A couple of key things to remember for today&apos;s workout." locIndex="16" />
+            <textevent timeoffset="20" message="Turn on a fan, airflow is your friend indoors and will help keep you cool." locIndex="17" />
+            <textevent timeoffset="30" message="Water, you&apos;ve gotta have water nearby and drink consistently. I will help remind you as we go." locIndex="18" />
+            <textevent timeoffset="40" message="Music, it&apos;s optional but it definitely helps when the going gets tough." locIndex="19" />
+            <textevent timeoffset="180" message="How&apos;s this pace feeling? You should be starting to break a sweat as your body warms up." locIndex="20" />
+            <textevent timeoffset="240" message="Nice work, stay with the pace changes, not much left in this block." locIndex="21" />
+            <textevent timeoffset="280" message="Hang in there, you&apos;ve got 2 minutes of easy recovery coming up." locIndex="22" />
+        </Ramp>
+        <SteadyState Duration="120" Power=".55">
+            <textevent timeoffset="0" message="Nice Job, way to ramp it up." locIndex="23" />
+            <textevent timeoffset="10" message="Grab some water and let&apos;s get ready for the first round." locIndex="24" />
+            <textevent timeoffset="60" message="Remember we are riding this first effort of 3.5 minutes at low cadence, 60 rpms is the target." locIndex="25" />
+            <textevent timeoffset="110" message="Let&apos;s get into it." locIndex="26" />
+        </SteadyState>
+        <IntervalsT Repeat="1" OnDuration="210" OffDuration="30" OnPower=".88" OffPower="1.05" Cadence="60" CadenceResting="100">
+            <textevent timeoffset="0" message="Here we go, if you&apos;re using ERG mode slow down your pedal stroke and let the resistance build to hit your target watts..." locIndex="27" />
+            <textevent timeoffset="10" message="If ERG mode is disabled, shift into your big chain ring and find the right gearing to hold target watts and cadence." locIndex="28" />
+            <textevent timeoffset="20" message="Settle in and enjoy the views. Focus on smooth pedal stroke, perfect circles, with solid connection all the way around the crankset." locIndex="29" />
+            <textevent timeoffset="60" message="As I mentioned before low cadence work builds cycling specific strength and is a great way to develop your power." locIndex="30" />
+            <textevent timeoffset="120" message="Two minutes in. See if you can grab a drink without losing power or changing your cadence." locIndex="31" />
+            <textevent timeoffset="180" message="In 30 seconds we are going to lift the cadence and power to finish this block at 105% of FTP and 100 rpms." locIndex="32" />
+            <textevent timeoffset="200" message="Are you ready? We are going in 5, 4, 3, 2, 1..." locIndex="33" />
+            <textevent timeoffset="210" message="Let&apos;s go! Spin it up, I want to see 100+ rpms!" locIndex="34" />
+            <textevent timeoffset="220" message="Nice work, keep it up!" locIndex="35" />
+            <textevent timeoffset="230" message="Almost there, get across the finish line!" locIndex="36" />
+        </IntervalsT>
+        <SteadyState Duration="180" Power=".65">
+            <textevent timeoffset="0" message="Really nice! Take the next 3 minutes to catch your breath and bring your heart rate back down." locIndex="37" />
+            <textevent timeoffset="20" message="Deep breath in, big exhale out. Good!" locIndex="38" />
+            <textevent timeoffset="40" message="Grab a big swig of water, let&apos;s stay on top of your hydration." locIndex="39" />
+            <textevent timeoffset="120" message="Last minute of recovery before we get back to low cadence work." locIndex="40" />
+            <textevent timeoffset="140" message="One last sip of water befer we get started." locIndex="41" />
+            <textevent timeoffset="170" message="Alright, time to go again." locIndex="42" />
+        </SteadyState>
+        <IntervalsT Repeat="1" OnDuration="210" OffDuration="30" OnPower=".88" OffPower="1.05" Cadence="60" CadenceResting="100">
+            <textevent timeoffset="0" message="Slow it down, 60 rpms, feel the effort shift to your quads and glutes." locIndex="43" />
+            <textevent timeoffset="60" message="Low cadence usually burns your legs more than year heart/lungs." locIndex="44" />
+            <textevent timeoffset="70" message="You may even notice a relatively low heart rate for the effort, that&apos;s normal." locIndex="45" />
+            <textevent timeoffset="120" message="Keep it rolling, nice and steady." locIndex="46" />
+            <textevent timeoffset="130" message="You are getting stronger with each turn of the pedals." locIndex="47" />
+            <textevent timeoffset="190" message="Quick drink before the high cadence effort starts." locIndex="48" />
+            <textevent timeoffset="200" message="You may notice a tendency to bounce when your cadence goes over 100 rpms, try and smooth out your pedal stroke to reduce bouncing." locIndex="49" />
+            <textevent timeoffset="210" message="Let&apos;s go! Lift your cadence, smoothly, and efficiently." locIndex="50" />
+            <textevent timeoffset="230" message="Keep pushing, don&apos;t let it drop now!" locIndex="51" />
+        </IntervalsT>
+        <SteadyState Duration="180" Power=".65">
+            <textevent timeoffset="0" message="Nicely done. Find a comfortable cadence and keep moving." locIndex="52" />
+            <textevent timeoffset="10" message="Never stop pedaling between efforts, always keep the blood moving." locIndex="53" />
+            <textevent timeoffset="60" message="Grab another drink, keep the water flowing like wine." locIndex="54" />
+            <textevent timeoffset="70" message="Well maybe not wine, but you know what I mean. The only time you should be drinking wine while on the bike is when it&apos;s sparkling and your team is in yellow." locIndex="55" />
+            <textevent timeoffset="170" message="Alright, enough with the easy stuff. Let&apos;s get back to the work." locIndex="56" />
+        </SteadyState>
+        <IntervalsT Repeat="1" OnDuration="210" OffDuration="30" OnPower=".88" OffPower="1.05" Cadence="60" CadenceResting="100">
+            <textevent timeoffset="0" message="Slow it down and feel the tension build in your legs." locIndex="57" />
+            <textevent timeoffset="20" message="Try and feel a solid connection all the way round the pedals, no dead spots." locIndex="58" />
+            <textevent timeoffset="30" message="Smooth circles. Keep your upper body as still as possible. All the work from your legs." locIndex="59" />
+            <textevent timeoffset="180" message="Looking strong, keep pushing." locIndex="60" />
+            <textevent timeoffset="190" message="Increasing the cadence again soon, grab a quick drink and get ready to fly." locIndex="61" />
+            <textevent timeoffset="210" message="Bring it up!" locIndex="62" />
+            <textevent timeoffset="220" message="Really nice! Stay above 100 rpms!." locIndex="63" />
+        </IntervalsT>
+        <SteadyState Duration="180" Power=".65">
+            <textevent timeoffset="0" message="Well done!" locIndex="64" />
+            <textevent timeoffset="10" message="Only one more effort before we call it a day." locIndex="65" />
+            <textevent timeoffset="160" message="Don&apos;t stop drinking now." locIndex="66" />
+            <textevent timeoffset="170" message="Final rep, you&apos;ve got this." locIndex="67" />
+        </SteadyState>
+        <IntervalsT Repeat="1" OnDuration="210" OffDuration="30" OnPower=".88" OffPower="1.05" Cadence="60" CadenceResting="100">
+            <textevent timeoffset="0" message="Last low cadence effort of the day. Find your connection with the pedals continue turning them over." locIndex="68" />
+            <textevent timeoffset="10" message="Churn and burn!" locIndex="69" />
+            <textevent timeoffset="60" message="Nice work, grab a quick drink, continue hydrating until the very end." locIndex="70" />
+            <textevent timeoffset="120" message="Final 90 seconds of low cadence, be strong and steady." locIndex="71" />
+            <textevent timeoffset="200" message="Let&apos;s get ready to lift the effort." locIndex="72" />
+            <textevent timeoffset="210" message="Get up to speed and hold it!" locIndex="73" />
+            <textevent timeoffset="230" message="Almost there! Hang on to it just a little longer." locIndex="74" />
+        </IntervalsT>
+        <Cooldown Duration="300" PowerLow=".5" PowerHigh=".65">
+            <textevent timeoffset="0" message="Well done. Low cadence work puts additional stress on your muscles and you might be a little sore after this one." locIndex="75" />
+            <textevent timeoffset="10" message="The perfect excuse to book a massage!" locIndex="76" />
+            <textevent timeoffset="60" message="Take a few minutes to cool down with some light watts and higher cadence. This will help flush any accumulated lactate acid out of your system." locIndex="77" />
+            <textevent timeoffset="120" message="It&apos;s always important refuel with in 30 minutes of finishing training. Both with hydration and nutrition, especially with protein after a strength session." locIndex="78" />
+            <textevent timeoffset="130" message="This will help support muscle repair and growth." locIndex="79" />
+            <textevent timeoffset="260" message="I hope you&apos;ve enjoyed today&apos;s session and will join us for more workouts in the Pro Training camp from Zwift and Team BikeExchange-Jayco." locIndex="80" />
+            <textevent timeoffset="290" message="Ride On!" locIndex="81" />
+        </Cooldown>
+    </workout>
+</workout_file>

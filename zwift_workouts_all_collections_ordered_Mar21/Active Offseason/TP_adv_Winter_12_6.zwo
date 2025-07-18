@@ -1,0 +1,20 @@
+<workout_file>
+    <uniqueId>978295ad-6bab-4fa8-95a2-ff8d70a66dc3</uniqueId>
+    <legacyIdHash>1393451586</legacyIdHash>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <categoryOverride>FTP Tests</categoryOverride>
+    <category>Active Offseason</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 12</subcategory>
+    <name>Week 12.6 - FTP Test</name>
+    <description>This is your 12 week test. Warm up well and really CRUSH IT!!</description>
+    <tags />
+    <workout>
+        <Warmup Duration="1200" PowerLow="0.24976191" PowerHigh="0.74976188" />
+        <SteadyState Duration="300" PowerLow="1.2497619" PowerHigh="1.2497619" />
+        <SteadyState Duration="900" PowerLow="0.64976192" PowerHigh="0.64976192" />
+        <FreeRide Duration="1200" FlatRoad="1" ftptest="1" Target="1.1" />
+        <SteadyState Duration="1200" PowerLow="0.65000004" PowerHigh="0.65000004" />
+        <Cooldown Duration="600" PowerLow="0.6640476" PowerHigh="0.24976191" />
+    </workout>
+</workout_file>

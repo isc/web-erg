@@ -1,0 +1,16 @@
+<workout_file>
+    <uniqueId>dce87f87-c40d-4b48-ae15-6725ccddee64</uniqueId>
+    <legacyIdHash>874434892</legacyIdHash>
+    <category>Your First Century</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 3</subcategory>
+    <name>Week 3.1 - Day 1</name>
+    <description>Long ride with group or alone, focus on riding most time in Endurance (Power Z2, HR Z2, RPE 2-3). Also complete 1 x 30-minute TEMPO effort, focusing on keeping watts at Tempo (Power Z3, HR Z3, RPE 3-4). Try "mixing" your spin cadence during the Tempo effort by trading off between a faster and slower cadence throughout the interval. </description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <workout>
+        <Warmup Duration="900" Zone="2" />
+        <SteadyState Duration="3600" Zone="2" />
+        <SteadyState Duration="1800" Zone="3" />
+        <Cooldown Duration="900" Zone="2" />
+    </workout>
+</workout_file>

@@ -1,0 +1,143 @@
+<workout_file>
+    <uniqueId>ed8bc7f0-23a2-4ac8-973a-90139a9a4c6b</uniqueId>
+    <legacyIdHash>3728001900</legacyIdHash>
+    <author>Shayne Gaffney</author>
+    <categoryOverride>60 to 90 minutes to burn</categoryOverride>
+    <name>Week 6.2 - Chase the Chaise</name>
+    <activitySaveName>Garmin UNBOUND Gravel Training Plan | Chase the Chaise</activitySaveName>
+    <description>The couch, or chaise, photo is a cultural highlight surrounding UNBOUND and is always a treat to get to during the ride. Plus, some of the photos taken can be hilarious. Today&apos;s session will prepare you to get to the chaise, and more specifically, this session is typically known as an up-and-under session, where you perform periods of time slightly over and then slightly under your long-distance power. This is a great way to get more comfortable at that pace, while also improving that number. Here, you will be doing 8-minute reps — two rounds of 2 minutes above (around 90% FTP) and two rounds of 2 minutes below (around 80% FTP). From a physiological perspective, these sessions help promote fat oxidation and structural changes at a muscular level. UNBOUND Gravel is a grassroots event, organized and managed by folks who are passionate about cycling, and have done so for the primary purpose of providing life-enriching cycling experiences for event participants.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="InGravelWeRoam" />
+    </tags>
+    <visibleAfterTime>1652659260</visibleAfterTime>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/UnboundGravel_Logo.tga</authorIcon>
+    <category>Garmin UNBOUND Gravel Training Plan</category>
+    <subcategory>Week 6</subcategory>
+    <workout>
+        <Warmup Duration="300" PowerHigh="0.55" PowerLow="0.35">
+            <textevent timeoffset="0" message="Welcome to the Garmin UNBOUND Gravel Training Plan on Zwift!" />
+            <textevent timeoffset="10" message="Garmin UNBOUND is a gravel race covering various distances held annually in the Flint Hills region around Emporia, Kansas, United States." />
+            <textevent timeoffset="20" message="There are 5 distances to choose, ranging from 25 to 350 miles!" />
+            <textevent timeoffset="30" message="This training plan will prepare you to tackle the shorter distances with 2 shorter structured workouts and 1 longer unstructured workout each week." />
+            <textevent timeoffset="40" message="Each workout starts off with a progressive warm up - like what you&apos;re doing right now :-)" />
+            <textevent timeoffset="50" message="And the workouts are specific to preparing for a long endurance event, as well as progressive from start to finish." />
+            <textevent timeoffset="60" message="Don&apos;t worry though, week 8 is the taper before the big day!" />
+            <textevent timeoffset="70" message="Let&apos;s carry on with the warm up and start to mentally prepare for the day." />
+            <textevent timeoffset="120" message="Today&apos;s session is all about developing sustained power." />
+            <textevent timeoffset="130" message="So, we&apos;re going to be performing longer reps at a moderate intensity." />
+            <textevent timeoffset="140" message="We&apos;ll be doing 5 reps. Working slightly above and slightly below 83% of your FTP." />
+            <textevent timeoffset="150" message="From a physiological perspective, these sessions help promote fat oxidation and structural changes at a muscular level." />
+            <textevent timeoffset="160" message="Cadence during the warm-up is open-ended but try and keep it light." />
+            <textevent timeoffset="240" message="We&apos;re starting the prep set in 1 minute." />
+            <textevent timeoffset="250" message="The prep set is made up of 5 x 30 seconds at FTP power, with 30 seconds of recovery in-between." />
+            <textevent timeoffset="260" message="This includes a bit of intensity in the warm-up to make sure that first rep isn&apos;t too much of a shock to the system!" />
+            <textevent timeoffset="290" message="Here we go! Start increasing the cadence as we move into this first 30 second rep." />
+        </Warmup>
+        <IntervalsT Repeat="5" OnDuration="30" OffDuration="30" OnPower="1" OffPower=".55">
+            <textevent timeoffset="15" message="Nice! Halfway through here." />
+            <textevent timeoffset="30" message="Keep the legs spinning during these 30 second off periods." />
+            <textevent timeoffset="50" message="Rep number 2 coming up. Get ready." />
+            <textevent timeoffset="60" message="Taking it up!" />
+            <textevent timeoffset="75" message="Nice, we&apos;re halfway through." />
+            <textevent timeoffset="90" message="Easy now — that&apos;s two down." />
+            <textevent timeoffset="120" message="Rep 3 here, take it up a notch." />
+            <textevent timeoffset="150" message="Pressure off. Spin those legs." />
+            <textevent timeoffset="180" message="Rep 4 — two more of these!" />
+            <textevent timeoffset="210" message="Starting to get a bit of sweat on? That&apos;s what we want. 1 more 30 second rep to go" />
+            <textevent timeoffset="270" message="Well done. Ready for the main set?" />
+            <textevent timeoffset="280" message="Of course you are!" />
+        </IntervalsT>
+        <IntervalsT Repeat="2" OnDuration="120" OffDuration="120" OnPower=".9" OffPower=".8">
+            <textevent timeoffset="0" message="Find the correct power and settle in." />
+            <textevent timeoffset="30" message="You should be able to stay in the aero position for most of this session. This is a great way to keep everything as race-specific as possible." />
+            <textevent timeoffset="100" message="The next 2 minutes is at 80% of FTP, before heading back to this intensity again." />
+            <textevent timeoffset="120" message="Ok, hold the pressure here. Don&apos;t ease off too much." />
+            <textevent timeoffset="180" message="This is a great time to practice recovering while still applying pressure." />
+            <textevent timeoffset="230" message="Going back to 90% of FTP in 10 seconds." />
+            <textevent timeoffset="245" message="Good transition." />
+            <textevent timeoffset="300" message="Halfway through." />
+            <textevent timeoffset="350" message="You know the drill, heading back down to 80% again" />
+            <textevent timeoffset="365" message="Great, as before, don&apos;t let the power drop too much." />
+            <textevent timeoffset="385" message="Let&apos;s hold good form all the way for this last 2 minute rep." />
+            <textevent timeoffset="470" message="Well done, get to that arch to finish this first rep." />
+        </IntervalsT>
+        <SteadyState Duration="120" Power=".55">
+            <textevent timeoffset="10" message="Take a drink here if you need it." />
+            <textevent timeoffset="30" message="Let&apos;s begin to get our minds ready for the this next rep." />
+            <textevent timeoffset="100" message="Ready for the next rep? I knew I could depend on you." />
+            <textevent timeoffset="110" message="Let&apos;s do it then." />
+        </SteadyState>
+        <IntervalsT Repeat="2" OnDuration="120" OffDuration="120" OnPower=".9" OffPower=".8">
+            <textevent timeoffset="0" message="Well done." />
+            <textevent timeoffset="30" message="Remember to keep aero if you can." />
+            <textevent timeoffset="100" message="Moving back to 80% of FTP." />
+            <textevent timeoffset="120" message="Ok, hold the pressure here." />
+            <textevent timeoffset="235" message="Going back to 90% of FTP. Let&apos;s go!" />
+            <textevent timeoffset="245" message="Too easy!" />
+            <textevent timeoffset="300" message="Halfway through, great job." />
+            <textevent timeoffset="350" message="Heading back down to 80% again" />
+            <textevent timeoffset="365" message="Nice and smooth in that transition, well done." />
+            <textevent timeoffset="470" message="That&apos;s the way! Let&apos;s finish this rep off." />
+        </IntervalsT>
+        <SteadyState Duration="120" Power=".55">
+            <textevent timeoffset="0" message="Nice work!" />
+            <textevent timeoffset="15" message="That wasn&apos;t too bad right?" />
+            <textevent timeoffset="60" message="Take a quick drink and some deep breaths." />
+            <textevent timeoffset="75" message="The recovery isn&apos;t super long here." />
+            <textevent timeoffset="100" message="Next up, we&apos;ll be doing the same thing again." />
+            <textevent timeoffset="110" message="Heading back to 90% of FTP in 10 seconds." />
+        </SteadyState>
+        <IntervalsT Repeat="2" OnDuration="120" OffDuration="120" OnPower=".9" OffPower=".8">
+            <textevent timeoffset="0" message="Feel the pressure and get back in the groove!" />
+            <textevent timeoffset="30" message="Looking great!" />
+            <textevent timeoffset="100" message="Going back to 80% of FTP in 20 seconds." />
+            <textevent timeoffset="120" message="Try to control the breathing and get the heart down before taking the power back up." />
+            <textevent timeoffset="245" message="Stay aero and stay smoooooooth." />
+            <textevent timeoffset="300" message="Halfway through, stay focused." />
+            <textevent timeoffset="350" message="That&apos;s the way, you look great. Heading back down to 80% again" />
+            <textevent timeoffset="365" message="Don&apos;t let the power drop too much." />
+            <textevent timeoffset="385" message="Let&apos;s really focus on keeping your upper body still for this last portion of the rep." />
+            <textevent timeoffset="470" message="Let&apos;s get there and finish this second rep." />
+        </IntervalsT>
+        <SteadyState Duration="120" Power=".55">
+            <textevent timeoffset="0" message="Excellent job! Ease the power right back this time." />
+            <textevent timeoffset="100" message="Now, we&apos;re into 8 minute rep number 3." />
+            <textevent timeoffset="110" message="Let&apos;s get crackin&apos;." />
+        </SteadyState>
+        <IntervalsT Repeat="2" OnDuration="120" OffDuration="120" OnPower=".9" OffPower=".8">
+            <textevent timeoffset="0" message="Taking it up!" />
+            <textevent timeoffset="30" message="As you can feel...this is getting a bit more challenging!" />
+            <textevent timeoffset="110" message="Nice work, we&apos;re taking the pressure off in 10 seconds." />
+            <textevent timeoffset="120" message="Focus on the your breathing — let it come from your belly and diaphragm." />
+            <textevent timeoffset="235" message="Back to 90% once again..." />
+            <textevent timeoffset="245" message="Great! You&apos;re getting better as we get through this set." />
+            <textevent timeoffset="350" message="Heading back down to 80% again, hold the form as you transition through." />
+            <textevent timeoffset="365" message="Well done, let&apos;s focus and recover here." />
+            <textevent timeoffset="385" message="Are you recovering during these 80% portions? If so, you&apos;re in great aerobic shape!" />
+            <textevent timeoffset="450" message="30 seconds — let&apos;s make it count." />
+        </IntervalsT>
+        <SteadyState Duration="120" Power=".55">
+            <textevent timeoffset="0" message="WAHOO! You&apos;re getting there now!" />
+            <textevent timeoffset="15" message="It&apos;s all downhill from here… :)" />
+            <textevent timeoffset="110" message="Rep 5 — Let&apos;s get it done!" />
+        </SteadyState>
+        <IntervalsT Repeat="2" OnDuration="120" OffDuration="120" OnPower=".9" OffPower=".8">
+            <textevent timeoffset="0" message="Taking it up!" />
+            <textevent timeoffset="30" message="YIKES! This is starting to hurt!" />
+            <textevent timeoffset="110" message="Looking PRO! We&apos;re taking the pressure off in 10 seconds." />
+            <textevent timeoffset="120" message="Breathe and focus here, this is a great last rep." />
+            <textevent timeoffset="235" message="Back to 90% once again for the last time today." />
+            <textevent timeoffset="245" message="Great! You just keep getting better and better." />
+            <textevent timeoffset="350" message="Heading back down to 80% again, focus up." />
+            <textevent timeoffset="385" message="Really focus on form to finish out this great workout." />
+        </IntervalsT>
+        <Cooldown Duration="180" PowerHigh="0.3" PowerLow="0.5">
+            <textevent timeoffset="0" message="That completes a great day of tempo work. Nice job!" />
+            <textevent timeoffset="60" message="Be on the lookout for other Garmin UNBOUND events." />
+            <textevent timeoffset="90" message="Don&apos;t forget to get in your long ride this week!" />
+            <textevent timeoffset="120" message="Final minute of the day here - great job!" />
+            <textevent timeoffset="170" message="Until next time, Ride On!" />
+        </Cooldown>
+    </workout>
+</workout_file>

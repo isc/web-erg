@@ -1,0 +1,16 @@
+<workout_file>
+    <uniqueId>32d8e0ec-6921-43fb-8683-ec063c3d1998</uniqueId>
+    <legacyIdHash>3130107455</legacyIdHash>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <category>Your First Century</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 7</subcategory>
+    <name>Week 7.3 - Day 3</name>
+    <description>Today is simple, ride the prescribed time your Endurance Zone. Vary your cadence throughout ride and work on pedaling form. Practice "coming over the top" and "pulling through the bottom" of the pedal. Enjoy the day!</description>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow="0.2545" PowerHigh="0.75449997" />
+        <SteadyState Duration="6000" PowerLow="0.73449999" PowerHigh="0.73449999" />
+        <Cooldown Duration="600" PowerLow="0.75" PowerHigh="0.25" />
+    </workout>
+</workout_file>

@@ -1,0 +1,13 @@
+<workout_file>
+    <uniqueId>575817eb-a41d-450e-93ec-b1cbf64d3e52</uniqueId>
+    <legacyIdHash>2130254434</legacyIdHash>
+    <category>Your First Century</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 4</subcategory>
+    <name>Week 4.7 - Day 7 - Rest</name>
+    <description>Relax. Watch TV. Take a walk. Stretch. Enjoy the day. WATCH your food intake today. Do not overeat. Eat a normal to small amount of food today. Your body will be craving tons of food today, but resist!</description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <workout>
+        <RestDay />
+    </workout>
+</workout_file>

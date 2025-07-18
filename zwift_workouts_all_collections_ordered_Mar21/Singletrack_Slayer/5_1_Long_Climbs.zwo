@@ -1,0 +1,99 @@
+<workout_file>
+    <uniqueId>5ee4f8e5-cc2b-458d-a548-97e8f1f80dd8</uniqueId>
+    <legacyIdHash>2304924021</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <categoryOverride>Climbing</categoryOverride>
+    <name>Long Climbs</name>
+    <description>Focusing on strength endurance work by completing steady, low cadence intervals. Strength Endurance increases crank torque and therefore recruits more of your fast twitch muscle fibers. SE type work has been a staple session of riders for many years.</description>
+    <sportType>bike</sportType>
+    <category>Singletrack Slayer</category>
+    <subcategory>Week 5</subcategory>
+    <WorkoutPlan>1</WorkoutPlan>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <tags>
+    </tags>
+    <workout>
+        <SteadyState Duration="240" Power="0.5">
+            <textevent timeoffset="30" message="SE work has been in cycling training for many years." locIndex="1" />
+            <textevent timeoffset="60" message="For MTB riders, we are often forced into producing high power at low rpm due to the terrain." locIndex="2" />
+            <textevent timeoffset="90" message="This session incorporates SE&apos;s for their physical benefit, as well as meeting the demands of racing." locIndex="3" />
+            <textevent timeoffset="200" message="But first we need to warm up appropriately." locIndex="4" />
+            <textevent timeoffset="220" message="To activate those fast twitch fibers we perform some high cadence sprints." locIndex="5" />
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="10" OffDuration="50" OnPower="1.6" OffPower="0.5">
+            <textevent timeoffset="20" message="Aim for a nice high cadence in these efforts." locIndex="6" />
+            <textevent timeoffset="50" message="Recovery is short." locIndex="7" />
+            <textevent timeoffset="100" message="Go for a higher cadence this time!" locIndex="8" />
+            <textevent timeoffset="160" message="Last effort. Out of the seat and spin!" locIndex="9" />
+            <textevent timeoffset="230" message="A nice low intensity steady effort to continue the warmup." locIndex="10" />
+        </IntervalsT>
+        <SteadyState Duration="180" Power="0.7">
+            <textevent timeoffset="30" message="This also serves as a recovery period here from the sprints." locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="30" message="To finish our prep for the work ahead, we have a steady threshold effort. " locIndex="12" />
+            <textevent timeoffset="60" message="Aim to pedal with high cadence for this effort." locIndex="13" />
+            <textevent timeoffset="80" message="You will have plenty of low cadence pedaling ahead." locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.9">
+            <textevent timeoffset="30" message="Settle into a nice rhythm here." locIndex="15" />
+            <textevent timeoffset="60" message="It&apos;s a relatively short threshold effort, so it won&apos;t be challenging." locIndex="16" />
+            <textevent timeoffset="200" message="The main set today is all about recruiting those fast twitch fibers by creating high crank torque." locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="30" message="For these efforts, stay seated and sit towards the back of the saddle." locIndex="18" />
+            <textevent timeoffset="60" message="There is a target cadence to hit during the effort." locIndex="19" />
+            <textevent timeoffset="80" message="Aim for this cadence and let the smart trainer adjust the power." locIndex="20" />
+            <textevent timeoffset="100" message="MTB riding will often call for long high power, low cadence efforts." locIndex="21" />
+            <textevent timeoffset="120" message="This combination creates high crank torque, which recruits a high percentage of fast twitch fibers." locIndex="22" />
+            <textevent timeoffset="170" message="Let&apos;s get into the work." locIndex="23" />
+        </SteadyState>
+        <Ramp Duration="360" PowerLow="0.75" PowerHigh="0.89" Cadence="75">
+            <textevent timeoffset="10" message="Aim for that target cadence of 75." locIndex="24" />
+            <textevent timeoffset="30" message="let the smart trainer adjust the power." locIndex="25" />
+            <textevent timeoffset="60" message="Relax your hands on the bars and drive the gear from your core and glutes." locIndex="26" />
+            <textevent timeoffset="120" message="These efforts start out quite easy." locIndex="27" />
+            <textevent timeoffset="140" message="This is fine. It&apos;s the endurance aspect that creates the fatigue and therefore the adaptations." locIndex="28" />
+            <textevent timeoffset="200" message="As the power increases, so too does the crank torque you are producing." locIndex="29" />
+            <textevent timeoffset="320" message="At the completion of this effort we go straight into a high zone 3 effort." locIndex="30" />
+            <textevent timeoffset="340" message="However, you&apos;re free to self select the cadence." locIndex="31" />
+        </Ramp>
+        <SteadyState Duration="300" Power="0.89">
+            <textevent timeoffset="30" message="What cadence have you reverted to?" locIndex="32" />
+            <textevent timeoffset="60" message="Has the previous effort influenced your cadence here?" locIndex="33" />
+            <textevent timeoffset="120" message="Think of this section as a fast part of the MTB course." locIndex="34" />
+            <textevent timeoffset="140" message="You just worked hard on the climb and now your flying through the trails." locIndex="35" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="20" message="That was a good effort." locIndex="36" />
+            <textevent timeoffset="60" message="A quick recovery, then we have another SE effort." locIndex="37" />
+            <textevent timeoffset="100" message="This time we are extending the length of the SE effort out to 12min" locIndex="38" />
+            <textevent timeoffset="120" message="And the peak power is also a little higher!" locIndex="39" />
+            <textevent timeoffset="140" message="Ok, we are going above threshold!" locIndex="40" />
+        </SteadyState>
+        <Ramp Duration="720" PowerLow="0.75" PowerHigh="1.05" Cadence="75">
+            <textevent timeoffset="10" message="Just like before, hit that target cadence first." locIndex="41" />
+            <textevent timeoffset="30" message="Let the smart trainer do the work and adjust the power." locIndex="42" />
+            <textevent timeoffset="100" message="This is a long effort and it&apos;s going to bite at the end." locIndex="43" />
+            <textevent timeoffset="200" message="Keep your form on the bike nice and solid." locIndex="44" />
+            <textevent timeoffset="300" message="Use your core and glutes to produce the power." locIndex="45" />
+            <textevent timeoffset="360" message="We are getting up into threshold power now." locIndex="46" />
+            <textevent timeoffset="400" message="Here comes the hard work!" locIndex="47" />
+            <textevent timeoffset="420" message="And with it, the performance gains!" locIndex="48" />
+            <textevent timeoffset="500" message="As the power increases, you will be recruiting more fast twitch fibers." locIndex="49" />
+            <textevent timeoffset="600" message="Just 2min to go!" locIndex="50" />
+            <textevent timeoffset="650" message="Then we are stepping straight into a zone 3 effort!" locIndex="51" />
+        </Ramp>
+        <SteadyState Duration="300" Power="0.89">
+            <textevent timeoffset="30" message="Great work! Now self select your cadence." locIndex="52" />
+            <textevent timeoffset="100" message="This is a quality day of training for you." locIndex="53" />
+            <textevent timeoffset="200" message="Much like a MTB ride we are going from high crank torque to fast speed." locIndex="54" />
+            <textevent timeoffset="240" message="Bring it home now. Into the last minute." locIndex="55" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.5">
+            <textevent timeoffset="60" message="Well done. That was a great session." locIndex="56" />
+            <textevent timeoffset="80" message="A real mix of stress placed on the body." locIndex="57" />
+            <textevent timeoffset="100" message="Good stress like that forces your body to adapt and become stronger." locIndex="58" />
+        </SteadyState>
+    </workout>
+</workout_file>

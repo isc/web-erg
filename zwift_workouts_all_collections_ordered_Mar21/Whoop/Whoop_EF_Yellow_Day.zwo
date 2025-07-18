@@ -1,0 +1,102 @@
+<workout_file>
+    <uniqueId>84eee28d-dfc0-4b09-aa5c-1af68b03cf54</uniqueId>
+    <legacyIdHash>248857669</legacyIdHash>
+    <author>Shayne Gaffney</author>
+    <categoryOverride>Sprinting</categoryOverride>
+    <name>EF Pro Cycling&apos;s Yellow Day Workout</name>
+    <description>EF Pro Cycling&apos;s Alex Howes says &apos;I love 30/30s on yellow days. They&apos;re great for developing that high end power that translates to on the road success, yet when broken into more bite sized chunks, they&apos;re something the body can recover quickly from, setting me up for a green day tomorrow.&apos;</description>
+    <sportType>bike</sportType>
+    <tags />
+    <category>Whoop Workout Series | Bike</category>
+    <subcategory>Yellow Day</subcategory>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.2545" PowerHigh="0.75449997">
+            <textevent timeoffset="0" message="Welcome to the WHOOP Workout Series! Let&apos;s start to warm up." />
+            <textevent timeoffset="10" message="This series features workouts inspired by Lionel Sanders, EF Pro Cycling, and Tinman Elite Coaching." />
+            <textevent timeoffset="20" message="Each workout is designed to correspond to your WHOOP Recovery score." />
+            <textevent timeoffset="30" message="Green day = means you&apos;ve had a high recovery score and are ready for a hard workout." />
+            <textevent timeoffset="40" message="Yellow day = means you&apos;ve had an ok recovery score and are ready for a moderate workout." />
+            <textevent timeoffset="50" message="Red day = means you&apos;ve had a low recovery score ready for an easy recovery workout." />
+            <textevent timeoffset="60" message="Today we are doing the favorite Green day workout of EF Pro Cycling&apos;s Alex Howes." />
+            <textevent timeoffset="70" message="Use this 10min warm up to ease into the day and mentally prepare for the work ahead." />
+            <textevent timeoffset="120" message="Do you have your fluids, fan, and towel all handy?" />
+            <textevent timeoffset="240" message="Nice work so far here! Keep slowly bringing the effort up as we continue the warm up." />
+            <textevent timeoffset="300" message="There&apos;s halfway! Let&apos;s learn why Alex likes this workout on his Yellow days." />
+            <textevent timeoffset="310" message="I love 30/30s on yellow days!" />
+            <textevent timeoffset="320" message="They&apos;re great for developing that high end power that translates to on the road success." />
+            <textevent timeoffset="330" message="Yet, when broken into more bite sized chunks, they&apos;re something the body can recover quickly from." />
+            <textevent timeoffset="340" message="Setting me up for a Green tomorrow!" />
+            <textevent timeoffset="350" message="With our crazy schedules and racing commitments, it helps to to understand where our energy is going." />
+            <textevent timeoffset="360" message="Let&apos;s continue on with the warm up." />
+            <textevent timeoffset="480" message="Relax your upper body here and let go of any tension in your shoulders." />
+            <textevent timeoffset="570" message="Alright, in 30sec we&apos;ll do a set of leg primers." />
+            <textevent timeoffset="580" message="Primers help ensure the legs are awake and ready for the work ahead." />
+            <textevent timeoffset="590" message="We&apos;ll do the work portions at 110 RPM - spin those legs up!" />
+        </Warmup>
+        <IntervalsT Repeat="4" OnDuration="15" OffDuration="45" OnPower="1.1545" OffPower="0.50449997" Cadence="110" CadenceResting="85">
+            <textevent timeoffset="0" message="FAST FEET!" />
+            <textevent timeoffset="15" message="Excellent work! Bring the cadence back down again and let&apos;s take a few breaths." />
+            <textevent timeoffset="60" message="Spin the gear! No bouncing in the saddle here." />
+            <textevent timeoffset="75" message="Great job! 2 more of those to go!" />
+            <textevent timeoffset="120" message="HIT IT!" />
+            <textevent timeoffset="180" message="LET&apos;S GO!" />
+            <textevent timeoffset="195" message="Nice one! Let&apos;s bring it down again." />
+        </IntervalsT>
+        <Ramp Duration="300" PowerLow="0.65449995" PowerHigh="0.85449994">
+            <textevent timeoffset="0" message="Alright, to finish the warm up, we&apos;ll do a 5min ramp effort." />
+            <textevent timeoffset="10" message="Keep your cadence comfortable here." />
+            <textevent timeoffset="120" message="Make sure you&apos;re sipping your fluids throughout the day today." />
+            <textevent timeoffset="240" message="In 1min we&apos;ll begin the main set!" />
+            <textevent timeoffset="250" message="We have 3 sets of 30/30s - which is 30sec hard, 30sec easy." />
+            <textevent timeoffset="260" message="Aim for a slightly faster cadence for the work portions." />
+            <textevent timeoffset="290" message="Okay, here we go!" />
+        </Ramp>
+        <IntervalsT Repeat="5" OnDuration="30" OffDuration="30" OnPower="1.3045" OffPower="0.50449997">
+            <textevent timeoffset="0" message="Pick it up! Keep the leg speed up here." />
+            <textevent timeoffset="30" message="Nice one! 30sec easy now." />
+            <textevent timeoffset="60" message="Back up again here!" />
+            <textevent timeoffset="90" message="And recover. 3 more reps to go!" />
+            <textevent timeoffset="120" message="GO GO GO!" />
+            <textevent timeoffset="180" message="Push it! 2nd to last one." />
+            <textevent timeoffset="240" message="You got this!" />
+        </IntervalsT>
+        <SteadyState Duration="330" Power="0.50449997">
+            <textevent timeoffset="0" message="Making it look easy today! Nicely done." />
+            <textevent timeoffset="10" message="Let&apos;s take a nice recovery here now, then we&apos;ll move onto rep #2." />
+            <textevent timeoffset="60" message="Deep breaths, keep recovering from that opening set." />
+            <textevent timeoffset="180" message="Shake out the upper body and release the tension from your shoulders." />
+            <textevent timeoffset="270" message="Alright, we have set #2 coming up in 1min! Same thing as before :-)" />
+        </SteadyState>
+        <IntervalsT Repeat="5" OnDuration="30" OffDuration="30" OnPower="1.3045" OffPower="0.50449997">
+            <textevent timeoffset="0" message="Let&apos;s go! Pick up the cadence again!" />
+            <textevent timeoffset="30" message="Amazing! Rest and recover again now." />
+            <textevent timeoffset="60" message="Push it again!" />
+            <textevent timeoffset="120" message="Keep the intensity up now!" />
+            <textevent timeoffset="180" message="C&apos;mon! Stay with it!" />
+            <textevent timeoffset="240" message="GO GO GO!" />
+            <textevent timeoffset="270" message="Woot woot! Nicely done, my friend!" />
+        </IntervalsT>
+        <SteadyState Duration="330" Power="0.50449997">
+            <textevent timeoffset="0" message="Okay, bring it on down again and let&apos;s rest and recover again." />
+            <textevent timeoffset="60" message="Keep lowering that heart rate, easy now." />
+            <textevent timeoffset="270" message="We have the last bit of work coming up for today in 1min! Start to focus again." />
+        </SteadyState>
+        <IntervalsT Repeat="5" OnDuration="30" OffDuration="30" OnPower="1.3045" OffPower="0.50449997">
+            <textevent timeoffset="0" message="Pick it up! Keep the leg speed up here." />
+            <textevent timeoffset="30" message="Nice one! 30sec easy now." />
+            <textevent timeoffset="60" message="Back up again here!" />
+            <textevent timeoffset="90" message="And recover. 3 more reps to go!" />
+            <textevent timeoffset="120" message="GO GO GO!" />
+            <textevent timeoffset="180" message="Push it! 2nd to last one." />
+            <textevent timeoffset="240" message="You got this!" />
+        </IntervalsT>
+        <Cooldown Duration="600" PowerLow="0.60449994" PowerHigh="0.45449999">
+            <textevent timeoffset="0" message="Alright, let&apos;s start to cool down now." />
+            <textevent timeoffset="60" message="Thanks for joining the WHOOP Yellow Day Workout with Alex Howes of EF Pro Cycling!" />
+            <textevent timeoffset="120" message="If your WHOOP is telling you that your recovery is in the Green or Red, be sure to check out Alex&apos;s workouts for those days." />
+            <textevent timeoffset="180" message="Don&apos;t forget, there are also running workouts from Tinman Elite Coaching." />
+            <textevent timeoffset="270" message="Happy training and see you on the next one!" />
+            <textevent timeoffset="290" message="Ride On!" />
+        </Cooldown>
+    </workout>
+</workout_file>

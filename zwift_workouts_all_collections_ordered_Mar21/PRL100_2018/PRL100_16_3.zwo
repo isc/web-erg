@@ -1,0 +1,45 @@
+<workout_file>
+    <uniqueId>c0368686-1c4c-4dfa-af45-fc6f6552b561</uniqueId>
+    <legacyIdHash>3222605018</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Week 16.3 - Anaerobic #1</name>
+    <category>2018 PRL100 Prep</category>
+    <subcategory>Week 16</subcategory>
+    <description>The aim today is to produce repeatable, high power intervals. With 2 sets of the 35 second Anaerobic Intensive intervals, note any differences in your heart rate response from the first to the second set. Between the Anaerobic Intensive sets, we complete a 10 minute tempo effort to build some fatigue. </description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.5" PowerHigh="0.75">
+            <textevent timeoffset="30" message="Include 3 x 6sec high cadence surges during your warm up." locIndex="1" />
+            <textevent timeoffset="500" message="We are looking for quality 35sec anaerobic efforts today. Full recovery between intervals." locIndex="2" />
+            <textevent timeoffset="300" message="These short, quality efforts are ideal to bring yourself into peak form." locIndex="3" />
+        </Warmup>
+        <SteadyState Duration="60" Power="0.55">
+            <textevent timeoffset="40" message="Aim to hold the same cadence throughout the 35sec effort" locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="35" Power="1.8" />
+        <SteadyState Duration="120" Power="0.56">
+            <textevent timeoffset="10" message="Note your peak HR after each effort." locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="35" Power="1.8" />
+        <SteadyState Duration="120" Power="0.56" />
+        <SteadyState Duration="35" Power="1.8" />
+        <SteadyState Duration="120" Power="0.56" />
+        <SteadyState Duration="600" Power="0.75">
+            <textevent timeoffset="30" message="This time we keep a little pressure on the pedals during the recovery period." locIndex="6" />
+            <textevent timeoffset="540" message="Ready for the 2nd set." locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.56" />
+        <SteadyState Duration="35" Power="1.8" />
+        <SteadyState Duration="120" Power="0.56">
+            <textevent timeoffset="60" message="How is your HR responding?" locIndex="8" />
+            <textevent timeoffset="70" message="Is it returning to earlier recovery levels?" locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="35" Power="1.8" />
+        <SteadyState Duration="120" Power="0.57" />
+        <SteadyState Duration="35" Power="1.8" />
+        <SteadyState Duration="120" Power="0.56" />
+        <Cooldown Duration="600" PowerLow="0.75" PowerHigh="0.5" />
+    </workout>
+</workout_file>

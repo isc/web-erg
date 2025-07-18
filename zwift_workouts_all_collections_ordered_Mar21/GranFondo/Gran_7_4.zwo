@@ -1,0 +1,48 @@
+<workout_file>
+    <uniqueId>97810b67-2c70-43f3-87a0-2365dd56063c</uniqueId>
+    <legacyIdHash>3119434332</legacyIdHash>
+    <author>Zwift</author>
+    <name>The Long Ride - 6x20min Tempo</name>
+    <description>A set of long intervals focused on endurance in Zone 2. Nothing fancy here, just long bouts of solid work here. This is your last long ride, and is designed to help keep rhythm but without adding any significant fatigue. You should have the fitness by now to execute this and recover fully.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Gran Fondo</category>
+    <subcategory>Week 7</subcategory>
+    <tags>
+        <tag name="fondo" />
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.44999999" PowerHigh="0.75" pace="0">
+            <textevent timeoffset="60" message="Today we have another long one on tap. Just over 1hr 40min." locIndex="1" />
+            <textevent timeoffset="90" message="This workout is all fairly low intensity. 6x20min at 75%." locIndex="2" />
+            <textevent timeoffset="120" message="Long steady base builder laying a foundation for the season ahead." locIndex="3" />
+            <textevent timeoffset="221" message="Make sure to fuel and hydrate on this one. Especially if you rode Leah&apos;s session yesterday." locIndex="4" />
+        </Warmup>
+        <SteadyState Duration="60" Power="0.5" pace="0" />
+        <SteadyState Duration="120" Power="0.64999998" pace="0">
+            <textevent timeoffset="40" message="Still warming up and getting loose." locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.5" pace="0" />
+        <SteadyState Duration="120" Power="0.91000003" pace="0">
+            <textevent timeoffset="43" message="And a little bit of intensity just to keep things firing right now." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.5" pace="0" />
+        <IntervalsT Repeat="6" OnDuration="1200" OffDuration="600" OnPower="0.75999999" OffPower="0.50449997" pace="0">
+            <textevent timeoffset="354.00015" message="Just finding your pace nice and early. Plenty of time to sit up, drink, stand, and shift." locIndex="7" />
+            <textevent timeoffset="687.99994" message="Make sure you take the time relax and recover during these off periods." locIndex="8" />
+            <textevent timeoffset="1095.9999" message="This is not a hard workout, but it is not easy. Not glamorous. But effective." locIndex="9" />
+            <textevent timeoffset="1546.9999" message="Repetition. Repetition. Repetition. The foundation of any good endurance program." locIndex="10" />
+            <textevent timeoffset="1950.0002" message="Simple workouts like this one make up the bulk of most pro training." locIndex="11" />
+            <textevent timeoffset="2365" message="It is not fancy. It is about consistency and repeatability." locIndex="12" />
+            <textevent timeoffset="2760" message="Just settle into a groove and enjoy the company on this ride." locIndex="13" />
+            <textevent timeoffset="3220" message="Nice work everyone. Well past halfway now." locIndex="14" />
+            <textevent timeoffset="3701.9998" message="Just keep ticking the pedals over. Left, right, left, right. Repeat ad infinitum..." locIndex="15" />
+            <textevent timeoffset="4080.0002" message="Mix up your cadence or your position on the saddle if you get stiff or just need a change." locIndex="16" />
+            <textevent timeoffset="4537" message="Coming into the closing minutes here. Really solid work!" locIndex="17" />
+            <textevent timeoffset="4802" message="And closing out this block of work. Ready to cooldown?" locIndex="18" />
+        </IntervalsT>
+        <Cooldown Duration="120" PowerLow="0.65449995" PowerHigh="0.45449999" pace="0">
+            <textevent timeoffset="40.000061" message="And cooling down. Stepping it down here over 5min." locIndex="19" />
+        </Cooldown>
+    </workout>
+</workout_file>

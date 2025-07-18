@@ -1,0 +1,63 @@
+<workout_file>
+    <uniqueId>23bff8b2-bbfd-42a2-92b2-cd7b220c7f31</uniqueId>
+    <legacyIdHash>3038797560</legacyIdHash>
+    <author>Zwift</author>
+    <name>Week 2.2 - Takin&apos; It Easy</name>
+    <description>We&apos;re takin&apos; it easy today with a zone 2 workout with alternating intervals of comfortable and fast cadence.</description>
+    <sportType>bike</sportType>
+    <category>Z Racing</category>
+    <subcategory>Week 2</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="480" PowerHigh="0.7" PowerLow="0.5">
+            <textevent timeoffset="0" message="We have an easy day on tap for today :-)" locIndex="1" />
+            <textevent timeoffset="10" message="Let&apos;s start with a warmup and get right into it." locIndex="2" />
+            <textevent timeoffset="120" message="Make sure you have your fan, towel, and fluids handy." locIndex="3" />
+            <textevent timeoffset="240" message="So far so good? Let&apos;s rundown what&apos;s in store for today." locIndex="4" />
+            <textevent timeoffset="250" message="As you can see, today is an easy zone 2 focused workout." locIndex="5" />
+            <textevent timeoffset="260" message="With some high cadence work thrown into the mix as well." locIndex="6" />
+            <textevent timeoffset="270" message="So, turn some relaxing tunes on, or gear up a podcast and just enjoy today :-)" locIndex="7" />
+            <textevent timeoffset="420" message="1min left here, then we&apos;re settling into zone 2." locIndex="8" />
+        </Warmup>
+        <SteadyState Duration="1200" Power="0.7" Cadence="85">
+            <textevent timeoffset="0" message="All right, let&apos;s start with 20mins at zone 2 at a comfortable cadence." locIndex="9" />
+            <textevent timeoffset="10" message="I also want to mix up the on-bike position during this interval, but let&apos;s start on the hoods for now." locIndex="10" />
+            <textevent timeoffset="60" message="Okay, bring your hands down to the drops, or TT bars, and let&apos;s get aero here." locIndex="11" />
+            <textevent timeoffset="70" message="Get low and stay low :-)" locIndex="12" />
+            <textevent timeoffset="180" message="Practicing your aero position is an easy way to reduce your drag and go faster outside." locIndex="13" />
+            <textevent timeoffset="190" message="Practically for free too! It does take some practice and flexibility though." locIndex="14" />
+            <textevent timeoffset="200" message="But, Zwift is a perfect medium for exactly that." locIndex="15" />
+            <textevent timeoffset="300" message="If you need to come back to the hoods again, feel free to at any time." locIndex="16" />
+            <textevent timeoffset="310" message="But, try to stay on the drops/TT bars for as long as possible here." locIndex="17" />
+            <textevent timeoffset="600" message="That&apos;s halfway through here. Make sure you&apos;re also drinking frequently today too." locIndex="18" />
+            <textevent timeoffset="610" message="Even though today is easy, drinking is still paramount, plus it maintains the habit of doing so." locIndex="19" />
+            <textevent timeoffset="900" message="Have you been able to stay in your aero position the entire time here?" locIndex="20" />
+            <textevent timeoffset="910" message="Great work if so! If not, this is just another aspect to work on and practice more :-)." locIndex="21" />
+            <textevent timeoffset="1140" message="All right, coming up in 1min we&apos;ll alternate fast and comfortable cadence." locIndex="22" />
+            <textevent timeoffset="1150" message="More specifically, 1min at 110+ RPM, and 2mins at 85 RPM, 10 times." locIndex="23" />
+            <textevent timeoffset="1160" message="You may come back to the hoods again for these, or not if you&apos;re comfortable still." locIndex="24" />
+            <textevent timeoffset="1190" message="Start spinning the legs up to 110+ RPM..." locIndex="25" />
+        </SteadyState>
+        <IntervalsT Repeat="10" OnDuration="60" OnPower="0.7" OffDuration="120" OffPower="0.7" Cadence="110" CadenceResting="85">
+            <textevent timeoffset="0" message="GO GO GO! Fast feet, but good form here." locIndex="26" />
+            <textevent timeoffset="10" message="So no bouncing or lurching in the saddle, and keep your upper body relaxed." locIndex="27" />
+            <textevent timeoffset="60" message="Nicely done, now let&apos;s resume 85 RPM." locIndex="28" />
+            <textevent timeoffset="180" message="FAST FEET! Keep the shoulders relaxed here and a light grip on the bars." locIndex="29" />
+            <textevent timeoffset="240" message="Back to a comfortable cadence again now. Great work so far today!" locIndex="30" />
+            <textevent timeoffset="360" message="UP UP UP! Make the transition to fast cadence nice and smooth." locIndex="31" />
+            <textevent timeoffset="420" message="Excellent work, back down to a comfortable cadence again now." locIndex="32" />
+            <textevent timeoffset="540" message="GO GO GO!" locIndex="33" />
+            <textevent timeoffset="720" message="FAST FEET! Maintain your form here." locIndex="34" />
+            <textevent timeoffset="900" message="Halfway through here, UP UP!" locIndex="35" />
+            <textevent timeoffset="1260" message="Good work here! Remember, shoulders relaxed, elbows bent, light grip on the bars." locIndex="36" />
+            <textevent timeoffset="1440" message="Almost at the finish line now - FAST FEET!" locIndex="37" />
+            <textevent timeoffset="1620" message="Last high cadence effort, make it a good one!" locIndex="38" />
+            <textevent timeoffset="1680" message="Nicely done! Let&apos;s keep spinning for a couple more minutes, then we&apos;ll cooldown." locIndex="39" />
+        </IntervalsT>
+        <Cooldown Duration="300" PowerHigh="0.3" PowerLow="0.5">
+            <textevent timeoffset="0" message="Way to go, my friend! Another workout in the books :-)" locIndex="40" />
+            <textevent timeoffset="10" message="Let&apos;s cooldown for a few minutes here, then hop off the bike" locIndex="41" />
+            <textevent timeoffset="20" message="See you next time :-)" locIndex="42" />
+        </Cooldown>
+    </workout>
+</workout_file>

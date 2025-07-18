@@ -1,0 +1,85 @@
+<workout_file>
+    <uniqueId>b75ffff6-ac21-41cd-9e80-6bc9ba7a51b3</uniqueId>
+    <legacyIdHash>1863809458</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Recovery Spin</name>
+    <description>Don&apos;t discount the importance of today! This is where the magic happens and the gains are made. Recovery rides allow your body to recuperate and adapt, meaning your fitness increases. 
+
+Enjoy today... you deserve it!</description>
+    <sportType>bike</sportType>
+    <category>Singletrack Slayer</category>
+    <subcategory>Week 8</subcategory>
+    <WorkoutPlan>1</WorkoutPlan>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <tags>
+    </tags>
+    <workout>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="30" message="You&apos;ve worked hard and now it&apos;s time for a well deserved easy ride." locIndex="1" />
+            <textevent timeoffset="60" message="Sometimes, a recovery ride is more effective than a day off the bike." locIndex="2" />
+            <textevent timeoffset="90" message="A recovery spin allows you to keep the momentum going with your training." locIndex="3" />
+        </SteadyState>
+        <IntervalsT Repeat="2" OnDuration="60" OffDuration="60" OnPower="0.7" OffPower="0.5">
+            <textevent timeoffset="20" message="It&apos;s also fine to have a little intensity in recovery rides." locIndex="4" />
+            <textevent timeoffset="80" message="Throughout this ride, we will move the power around a little." locIndex="5" />
+        </IntervalsT>
+        <IntervalsT Repeat="2" OnDuration="60" OffDuration="60" OnPower="0.8" OffPower="0.5">
+            <textevent timeoffset="30" message="Stepping up into zone 3 for brief periods is fine." locIndex="6" />
+            <textevent timeoffset="80" message="Just be sure to have a nice cadence, spinning along." locIndex="7" />
+            <textevent timeoffset="100" message="If we get bogged down in a low cadence, the effort becomes more muscular endurance." locIndex="8" />
+            <textevent timeoffset="120" message="Reducing the ability to recover." locIndex="9" />
+        </IntervalsT>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="40" message="Most of today will be low intensity." locIndex="10" />
+            <textevent timeoffset="70" message="But keep you engaged, we gradually move the power up. " locIndex="11" />
+            <textevent timeoffset="100" message="And perform some 1min zone 3 intervals." locIndex="12" />
+        </SteadyState>
+        <Ramp Duration="600" PowerLow="0.6" PowerHigh="0.75">
+            <textevent timeoffset="30" message="Starting very gently here." locIndex="13" />
+            <textevent timeoffset="60" message="This is a good day to watch a movie or listen to a podcast." locIndex="14" />
+            <textevent timeoffset="90" message="May I suggest the Zwift Power Up Cycling Podcast!" locIndex="15" />
+            <textevent timeoffset="110" message="I hear it&apos;s good :)" locIndex="16" />
+            <textevent timeoffset="200" message="During the ride, this is also a good time to reflect on your recent training." locIndex="17" />
+            <textevent timeoffset="220" message="What has worked well for you?" locIndex="18" />
+            <textevent timeoffset="240" message="Are you responding to the training?" locIndex="19" />
+            <textevent timeoffset="260" message="Do you feel you are improving?" locIndex="20" />
+            <textevent timeoffset="300" message="Anything you can do better in training?" locIndex="21" />
+            <textevent timeoffset="320" message="Is your nutrition complimenting your hard work on the bike?" locIndex="22" />
+            <textevent timeoffset="340" message="Are you sleeping well?" locIndex="23" />
+            <textevent timeoffset="400" message="When we get all the factors implemented appropriately, that&apos;s when the gains are made." locIndex="24" />
+        </Ramp>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="40" message="Really easy for a few minutes here." locIndex="25" />
+            <textevent timeoffset="70" message="Then we have a brief effort at zone 3." locIndex="26" />
+            <textevent timeoffset="160" message="Spin the legs during this effort." locIndex="27" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.8" />
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="30" message="How did that feel?" locIndex="28" />
+            <textevent timeoffset="90" message="It&apos;s fine to have a little intensity like this during a recovery ride." locIndex="29" />
+            <textevent timeoffset="160" message="Now, we are going to ramp up the effort again." locIndex="30" />
+        </SteadyState>
+        <Ramp Duration="600" PowerLow="0.6" PowerHigh="0.75">
+            <textevent timeoffset="30" message="Same thing again. A nice steady effort." locIndex="31" />
+            <textevent timeoffset="90" message="Let your mind wander a little." locIndex="32" />
+            <textevent timeoffset="110" message="Sometimes, our clearest thinking is performed on the trainer!" locIndex="33" />
+            <textevent timeoffset="200" message="Are you hitting all your targets in the high intensity efforts?" locIndex="34" />
+            <textevent timeoffset="220" message="Are you confident your threshold is set correctly?" locIndex="35" />
+            <textevent timeoffset="300" message="Recovery rides are sometimes best followed up with a day off the bike." locIndex="36" />
+            <textevent timeoffset="320" message="Some people benefit from having an easy spin after a block of hard work..." locIndex="37" />
+            <textevent timeoffset="340" message="Then the day off." locIndex="38" />
+            <textevent timeoffset="360" message="For others, a day off followed by a recovery spin works best." locIndex="39" />
+            <textevent timeoffset="400" message="Experiment with both options, and see which works best for you." locIndex="40" />
+            <textevent timeoffset="430" message="Either way... a 2 day block of low intensity will see you come back firing and with improved fitness." locIndex="41" />
+        </Ramp>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="60" message="Again, we have a brief low intensity effort before the zone 3 interval." locIndex="42" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.8" />
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="30" message="Nice work today." locIndex="43" />
+            <textevent timeoffset="90" message="Today might not have been high intensity." locIndex="44" />
+            <textevent timeoffset="120" message="But, it was hugely beneficial." locIndex="45" />
+        </SteadyState>
+    </workout>
+</workout_file>

@@ -1,0 +1,25 @@
+<workout_file>
+    <uniqueId>65f75a59-b790-4c56-aec3-b12ada2321af</uniqueId>
+    <legacyIdHash>2430153800</legacyIdHash>
+    <author>Zwift</author>
+    <name>Terrain Ride</name>
+    <description>For this workout, we have a structured warm-up. Then there are two blocks of three-repetition over-under intervals that bracket a long block of free-ride, only for this workout, we leave the natural terrain of Zwift turned ON. So pick a route with some challenging terrain - in the middle of this workout you will be free-riding, but you will still feel the terrain. A nice mix here of structure and nature variance.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Gran Fondo</category>
+    <subcategory>Week 6</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="300" PowerLow="0.55449998" PowerHigh="0.75450003" pace="-1307163960" />
+        <SteadyState Duration="60.000004" Power="0.5" pace="-1307163960" />
+        <SteadyState Duration="120" Power="0.81449997" pace="-1307163960" />
+        <SteadyState Duration="60" Power="0.94999999" pace="-1307163960" />
+        <SteadyState Duration="120" Power="0.65449995" pace="-1307163960" />
+        <IntervalsT Repeat="3" OnDuration="60" OffDuration="90.000008" OnPower="1.1044999" OffPower="0.90449989" OverUnder="1" pace="-1307163960" />
+        <FreeRide Duration="1180.00006" FlatRoad="1" />
+        <SteadyState Duration="120" Power="0.65449995" pace="-1307163960" />
+        <SteadyState Duration="60" Power="0.81449997" pace="-1307163960" />
+        <IntervalsT Repeat="3" OnDuration="20" OffDuration="120.00001" OnPower="1.3544999" OffPower="0.85449994" OverUnder="1" pace="-1307163960" />
+        <Cooldown Duration="110" PowerLow="0.65449995" PowerHigh="0.45449999" pace="-1307163960" />
+    </workout>
+</workout_file>

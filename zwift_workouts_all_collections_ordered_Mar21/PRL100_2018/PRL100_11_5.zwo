@@ -1,0 +1,47 @@
+<workout_file>
+    <uniqueId>19a3e362-3f4a-47fe-a877-d98db056a70d</uniqueId>
+    <legacyIdHash>2331166708</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Week 11.5 - Power Max</name>
+    <category>2018 PRL100 Prep</category>
+    <subcategory>Week 11</subcategory>
+    <description>General endurance with the session completed as a Free Ride. However, throughout session complete 5 x 3-5sec max sprints. Aim to reach the same peak power for each sprint. Full recovery between sprints of at least 7min.</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <SteadyState Duration="60" Power="0.5" pace="0" />
+        <SteadyState Duration="60" Power="0.52999997" pace="0" />
+        <SteadyState Duration="60" Power="0.56" pace="0" />
+        <SteadyState Duration="60" Power="0.58999997" pace="0" />
+        <SteadyState Duration="60" Power="0.62" pace="0" />
+        <SteadyState Duration="60" Power="0.63999999" pace="0" />
+        <SteadyState Duration="60" Power="0.67000002" pace="0" />
+        <SteadyState Duration="60" Power="0.69999999" pace="0" />
+        <SteadyState Duration="60" Power="0.73000002" pace="0" />
+        <SteadyState Duration="60" Power="0.75999999" pace="0" />
+        <SteadyState Duration="180" Power="0.55000001" pace="0">
+            <textevent timeoffset="10" message="Today we want to record your peak power. We do this with very short 3-5sec sprints" locIndex="1" />
+            <textevent timeoffset="30" message="The ride is a &apos;free ride&apos;, but space your sprints out evenly throughout the session" locIndex="2" />
+        </SteadyState>
+        <FreeRide Duration="2400" FlatRoad="0">
+            <textevent timeoffset="60" message="Ready for a Pmax sprint?" locIndex="3" />
+            <textevent timeoffset="70" message="Hit the highest power you can!!" locIndex="4" />
+            <textevent timeoffset="133" message="Give yourself at least 5min recovery" locIndex="5" />
+            <textevent timeoffset="1200" message="Are you hitting the same peak power for each sprint?" locIndex="6" />
+            <textevent timeoffset="480" message="Ready for a Pmax sprint?" locIndex="7" />
+            <textevent timeoffset="900" message="Ready for a Pmax sprint?" locIndex="8" />
+            <textevent timeoffset="1320" message="Ready for a Pmax sprint?" locIndex="9" />
+            <textevent timeoffset="1740" message="Ready for a Pmax sprint?" locIndex="10" />
+        </FreeRide>
+        <SteadyState Duration="60" Power="0.75999999" pace="0" />
+        <SteadyState Duration="60" Power="0.73000002" pace="0" />
+        <SteadyState Duration="60" Power="0.69999999" pace="0" />
+        <SteadyState Duration="60" Power="0.67000002" pace="0" />
+        <SteadyState Duration="60" Power="0.63999999" pace="0" />
+        <SteadyState Duration="60" Power="0.62" pace="0" />
+        <SteadyState Duration="60" Power="0.58999997" pace="0" />
+        <SteadyState Duration="60" Power="0.56" pace="0" />
+        <SteadyState Duration="60" Power="0.52999997" pace="0" />
+        <SteadyState Duration="60" Power="0.5" pace="0" />
+    </workout>
+</workout_file>

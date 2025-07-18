@@ -1,0 +1,21 @@
+<workout_file>
+    <uniqueId>fe5d6d7c-0d5b-447c-8550-f137f6769e00</uniqueId>
+    <legacyIdHash>1671245361</legacyIdHash>
+    <category>Hunter&apos;s Challenge</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 4</subcategory>
+    <name>Week 4.5 - Race winning FTP efforts</name>
+    <description>The goal of this exercise is to start out too hard in order to load up the system, and then demand a steady output for a short period of time, then scaling back in order to prevent from exploding, and forcing you to hold just at your threshold power or a touch above. In the end you finally ramp back up in order to push in the very end.</description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <workout>
+        <Warmup PowerLow="0.55" PowerHigh="0.72" Duration="900" />
+        <SteadyState Duration="300" Power="1.14" />
+        <SteadyState Duration="300" Power="0.72" />
+        <Ramp Duration="360" PowerLow="1.1" PowerHigh="0.96" />
+        <Ramp Duration="420" PowerLow="0.96" PowerHigh="1.1" />
+        <SteadyState Duration="300" Power="0.72" />
+        <Ramp Duration="360" PowerLow="1.1" PowerHigh="0.96" />
+        <Ramp Duration="420" PowerLow="0.96" PowerHigh="1.1" />
+        <Cooldown PowerLow="0.72" PowerHigh=".55" Duration="600" />
+    </workout>
+</workout_file>

@@ -1,0 +1,16 @@
+<workout_file>
+    <uniqueId>25273ac7-9fd4-444c-a83e-16733bcd9cfe</uniqueId>
+    <legacyIdHash>2400054955</legacyIdHash>
+    <category>Hunter&apos;s Challenge</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 2</subcategory>
+    <name>Week 2.3 - Earn your Bacon</name>
+    <description>Time to push it at your FTP and get a good long sweat in! GO for it!</description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.5" PowerHigh="0.65" />
+        <IntervalsT OnDuration="600" OffDuration="300" OnPower="0.95" OffPower="0.72" Repeat="4" />
+        <IntervalsT OnDuration="60" OffDuration="60" OnPower="1.60" OffPower="0.72" Repeat="4" />
+        <Cooldown PowerLow="0.72" PowerHigh=".55" Duration="300" />
+    </workout>
+</workout_file>

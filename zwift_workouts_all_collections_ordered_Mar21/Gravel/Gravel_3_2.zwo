@@ -1,0 +1,87 @@
+<workout_file>
+    <uniqueId>e560c88b-3245-45d4-9df1-180d800f7f36</uniqueId>
+    <legacyIdHash>954213236</legacyIdHash>
+    <author>Zwift</author>
+    <name>6x2 VO2 Max</name>
+    <description>Today&apos;s ride is a little bit of work above threshold to get us used to some voyages into the pain cave during our gravel rides this summer. It&apos;s important to train this zone above threshold for any race on a bike, but in gravel not only will our competitors force us here, but the terrain will as well. 
+
+Only 2 minutes at a time spent at 110% but equal rest and 6 rounds will make it sting by the end. Really focus on using good RPM&apos;s in the hard stuff to stay &quot;on top&quot; of the gear and be as relaxed in your upper body as you can while being active in your core to maintain stability.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Gravel Grinder</category>
+    <subcategory>Week 3</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="540" PowerLow="0.45" PowerHigh="0.65">
+            <textevent timeoffset="0" message="A gentle ramp up here to get warmed up. Who doesn&apos;t love a good old fashioned gentle ramp?" locIndex="1" />
+        </Warmup>
+        <SteadyState Duration="40" Power="0.9">
+            <textevent timeoffset="0" message="Quick little jump up into 90% here. " locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="40" Power="1">
+            <textevent timeoffset="0" message="And up again. " locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="40" Power="1.1">
+            <textevent timeoffset="0" message="And once more. " locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.6">
+            <textevent timeoffset="0" message="That wasn&apos;t so bad was it?" locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="40" Power="0.9">
+            <textevent timeoffset="0" message="Let&apos;s do it again. " locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="40" Power="1">
+            <textevent timeoffset="0" message="Remember to use your efficient cadence to get the power up here. " locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="40" Power="1.1">
+            <textevent timeoffset="0" message="Nice and smoooooth. " locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.6">
+            <textevent timeoffset="0" message="Use this minute to find YOUR comfortable cadence. " locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="40" Power="0.9">
+            <textevent timeoffset="0" message="Getting warmed up is fun isn&apos;t it?" locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="40" Power="1">
+            <textevent timeoffset="0" message="40 seconds here.  " locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="40" Power="1.1">
+            <textevent timeoffset="0" message="Stay on top of that gear!" locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.6">
+            <textevent timeoffset="0" message="Last rest before last light build, then the pain!" locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="40" Power="0.9">
+            <textevent timeoffset="0" message="Up, up!" locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="40" Power="1">
+		</SteadyState>
+        <SteadyState Duration="40" Power="1.1">
+            <textevent timeoffset="0" message="Nice going, just 40 seconds left!" locIndex="15" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="0" message="Enjoy this rest, learn to get all you can out of these 2 minutes. That&apos;s all you&apos;ll get the rest of this workout. " locIndex="16" />
+        </SteadyState>
+        <IntervalsT Repeat="6" OnDuration="120" OffDuration="120" OnPower="1.1" OffPower="0.55">
+            <textevent timeoffset="0" message="Make it smooth and use those good RPM&apos;s! " locIndex="17" />
+            <textevent timeoffset="50" message=" When it gets hard, think about a smooth, quick cadence." locIndex="18" />
+            <textevent timeoffset="120" message="Good job! Easy days now. " locIndex="19" />
+            <textevent timeoffset="240" message="Here we go again, move those pins!" locIndex="20" />
+            <textevent timeoffset="360" message="And back to easy. " locIndex="21" />
+            <textevent timeoffset="480" message="Let&apos;s go! Focus on soft shoulders and arms." locIndex="22" />
+            <textevent timeoffset="547" message="You thirsty? Drink something then." locIndex="23" />
+            <textevent timeoffset="600" message="EZ, EZ. " locIndex="24" />
+            <textevent timeoffset="720" message="Halfway through now, let&apos;s move!" locIndex="25" />
+            <textevent timeoffset="840" message="Really use this recovery to well, recover. " locIndex="26" />
+            <textevent timeoffset="960" message="Smooth, smooth, smooth." locIndex="27" />
+            <textevent timeoffset="1020" message="Another minute now, keep it up." locIndex="28" />
+            <textevent timeoffset="1080" message="Last one coming up, way to be. " locIndex="29" />
+            <textevent timeoffset="1200" message="This is going to be your best one yet right? RIGHT?" locIndex="30" />
+            <textevent timeoffset="1230" message="When I say best, I mean smoothest and calmed looking. You calm? " locIndex="31" />
+            <textevent timeoffset="1320" message="That&apos;s it. Nice work. " locIndex="32" />
+        </IntervalsT>
+        <Cooldown Duration="480" PowerLow="0.55" PowerHigh="0.45">
+            <textevent timeoffset="0" message="Good job today, that should have stung a little bit by the end of there. " locIndex="33" />
+        </Cooldown>
+    </workout>
+</workout_file>

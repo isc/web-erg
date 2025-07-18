@@ -1,0 +1,42 @@
+<workout_file>
+    <uniqueId>db7b146d-a2f0-4ccc-a6dc-4f3b6b014dad</uniqueId>
+    <legacyIdHash>2269541691</legacyIdHash>
+    <author>Zwift</author>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>4wk FTP Booster</category>
+    <subcategory>Week 2</subcategory>
+    <name>Week 2.3 - Tempo with Finale!</name>
+    <description>After first completing a 15min Tempo effort, you will go straight into 4 x 2min VO2 efforts.
+
+With no recovery period after the initial 15min, this session will challenge your aerobic efficiency. </description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS" />
+        <tag name="4weekftp" />
+    </tags>
+    <overrideHash>2269541691</overrideHash>
+    <workout>
+        <SteadyState Duration="300" Power="0.50449997">
+            <textevent timeoffset="240" message="High rpm in warm up sprints" locIndex="1" />
+        </SteadyState>
+        <IntervalsT Repeat="2" OnDuration="10" OffDuration="50" OnPower="1.7544999" OffPower="0.50449997" Cadence="110" CadenceResting="80" />
+        <SteadyState Duration="120" Power="0.50449997" Cadence="85" />
+        <SteadyState Duration="60" Power="1.0944999" Cadence="95" />
+        <SteadyState Duration="120" Power="0.50449997" Cadence="85" />
+        <SteadyState Duration="300" Power="0.90449995" Cadence="95" />
+        <SteadyState Duration="180" Power="0.50449997" />
+        <SteadyState Duration="900" Power="0.81449997" Cadence="90">
+            <textevent timeoffset="50" message="Settle in to a long tempo effort" locIndex="2" />
+            <textevent timeoffset="60" message="Focus on breathing." locIndex="3" />
+            <textevent timeoffset="450" message="Halfway point.." locIndex="4" />
+            <textevent timeoffset="460" message="Is HR remaining steady?" locIndex="5" />
+            <textevent timeoffset="860" message="Now for the finale!" locIndex="6" />
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="120" OffDuration="180" OnPower="1.0944999" OffPower="0.75449997" Cadence="95" CadenceResting="80">
+            <textevent timeoffset="150" message="Keep pressure on pedals" locIndex="7" y="240" />
+            <textevent timeoffset="150" message="during the rest period." locIndex="8" y="270" />
+            <textevent timeoffset="561" message="2 to go!" locIndex="9" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.50449997" />
+    </workout>
+</workout_file>

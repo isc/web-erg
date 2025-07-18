@@ -1,0 +1,135 @@
+<workout_file>
+    <uniqueId>256dedbc-7a7c-4f85-8571-d79170c5d9b1</uniqueId>
+    <legacyIdHash>4227082002</legacyIdHash>
+    <author>D.Rowe (Rowe&amp;King)</author>
+    <name>Wide Awake</name>
+    <description>This workout starts and finishes with a pyramid style structure however this time completing 2 x 4 minute blocks of zone 3 in between to give a nice mix of aerobic and anaerobic effort.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS" />
+        <tag name="Prenatal" />
+    </tags>
+    <category>Baby On Board</category>
+    <categoryIndex>5</categoryIndex>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.25450003" PowerHigh="0.70449996" pace="1481003871">
+            <textevent timeoffset="10" message="Welcome to Wide Awake! We&apos;ll start with a 5min warm up to get the legs ready" locIndex="1" />
+            <textevent timeoffset="20" message="This workout is part of Baby on Board, designed by Dani Rowe and Kristin Armstrong" locIndex="2" />
+            <textevent timeoffset="30" message="This series is designed to keep you active throughout pregnancy" locIndex="3" />
+            <textevent timeoffset="40" message="by providing you with 12 weeks of 30-40 minute structured workouts" locIndex="4" />
+            <textevent timeoffset="150" message="Nice effort so far! Let&apos;s take a little bit and chat about the plan for today." locIndex="5" />
+            <textevent timeoffset="160" message="We have a pyramid style workout planned for today, but in between sets we complete 2, 4min zone 3 efforts." locIndex="6" />
+            <textevent timeoffset="170" message="Having a mixture of efforts today will provide both an aerobic and anaerobic effort." locIndex="7" />
+            <textevent timeoffset="180" message="And, mixing things up is always good to increase the &apos;fun&apos; of a workout :-)" locIndex="8" />
+            <textevent timeoffset="190" message="The key to training during pregnancy is consistency - little and often" locIndex="9" />
+            <textevent timeoffset="200" message="As a guide - you should always be able to hold a conversation during these workouts" locIndex="10" />
+            <textevent timeoffset="220" message="Keep an eye on your heart rate - you should not be anywhere near your max" locIndex="11" />
+            <textevent timeoffset="230" message="It is vital that your core body temperature doesn&apos;t get too high. Make sure you have a fan blasting and keep hydrated" locIndex="12" />
+            <textevent timeoffset="250" message="Listen to your body, and don&apos;t worry if you need to lower the bias during these workouts to complete" locIndex="13" />
+            <textevent timeoffset="280" message="Most importantly - enjoy!" locIndex="14" />
+        </Warmup>
+        <SteadyState Duration="130" Power="0.50449997" pace="1481003871">
+            <textevent timeoffset="0" message="All right, let&apos;s take a short rest now before starting the intervals." locIndex="15" />
+            <textevent timeoffset="20" message="You should be feeling warmed up and ready to go for today&apos;s workout - Wide Awake" locIndex="16" />
+            <textevent timeoffset="100" message="In 30sec, we have our 1st interval of the pyramid set." locIndex="17" />
+            <textevent timeoffset="110" message="We start at 10sec, and work up to 60sec, taking equal rest between reps." locIndex="18" />
+            <textevent timeoffset="120" message="Here we go, get ready for a little more effort here!" locIndex="19" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.05" pace="1481003871">
+            <textevent timeoffset="1" message="A short 10 second effort to start - let&apos;s get it!" locIndex="20" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="0.40000001" pace="1481003871">
+            <textevent timeoffset="1" message="A short rest - try and catch your breath" locIndex="21" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.05" pace="1481003871">
+            <textevent timeoffset="1" message="Good work - find your rhythm and settle in" locIndex="22" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.40000001" pace="1481003871" />
+        <SteadyState Duration="30.000002" Power="1.05" pace="1481003871">
+            <textevent timeoffset="2" message="These efforts are getting a little longer now, but should hopefully still be manageable" locIndex="23" />
+        </SteadyState>
+        <SteadyState Duration="30.000002" Power="0.40000001" pace="1481003871">
+            <textevent timeoffset="5" message="The rest will also get longer as the efforts get longer" locIndex="24" />
+        </SteadyState>
+        <SteadyState Duration="40" Power="1.05" pace="1481003871">
+            <textevent timeoffset="14" message="Hold it right there, you are doing great" locIndex="25" />
+            <textevent timeoffset="39" message="40 seconds rest now - enough time for your heart rate to noticeably drop" locIndex="26" />
+        </SteadyState>
+        <SteadyState Duration="40" Power="0.40000001" pace="1481003871" />
+        <SteadyState Duration="50" Power="1.0445" pace="1481003871">
+            <textevent timeoffset="18" message="50 seconds at 105% of FTP - you have got this" locIndex="27" />
+        </SteadyState>
+        <SteadyState Duration="50.000004" Power="0.40000001" pace="1481003871">
+            <textevent timeoffset="22" message="Don&apos;t forget to keep drinking throughout - little and often" locIndex="28" />
+        </SteadyState>
+        <SteadyState Duration="60.000004" Power="1.05" pace="1481003871">
+            <textevent timeoffset="34" message="Only 60 seconds of effort to go in this first half of the pyramid, before a longer rest" locIndex="29" />
+            <textevent timeoffset="45" message="Come on! Only 15 seconds to go - all the way to the end" locIndex="30" />
+        </SteadyState>
+        <SteadyState Duration="120.00001" Power="0.40000001" pace="1481003871">
+            <textevent timeoffset="10" message="2 minutes easy - a chance to really relax and let your heart rate drop" locIndex="31" />
+            <textevent timeoffset="90" message="Take a note of your breathing - try and control it. Big deep breaths if you can" locIndex="32" />
+            <textevent timeoffset="110" message="Next up is the 4min zone 3 effort, keep yourself under control here." locIndex="33" />
+        </SteadyState>
+        <SteadyState Duration="240.00002" Power="0.76437497" pace="1481003871">
+            <textevent timeoffset="10" message="4 minutes of Zone 3 effort - just get the work done" locIndex="34" />
+            <textevent timeoffset="60" message="This block shouldn&apos;t feel too hard, but means you will keep your heart and lungs working throughout pregnancy" locIndex="35" />
+            <textevent timeoffset="120" message="That&apos;s halfway, steady as you go now" locIndex="36" />
+            <textevent timeoffset="170" message="Don&apos;t worry if you have to lower your bias - this is about completing a structured workout, not working to your absolute max" locIndex="37" />
+            <textevent timeoffset="210" message="Golden rule - listen to your body" locIndex="38" />
+        </SteadyState>
+        <SteadyState Duration="180.00002" Power="0.40000001" pace="1481003871">
+            <textevent timeoffset="5" message="3 minutes to recover - once again, try and get your breathing under control and watch your heart rate drop" locIndex="39" />
+            <textevent timeoffset="95" message="When pregnant, you should never get close to making a max effort" locIndex="40" />
+            <textevent timeoffset="145" message="You should be constantly assessing how you are feeling" locIndex="41" />
+            <textevent timeoffset="160" message="Additionally you should never over heat so make sure you have a fan blasting" locIndex="42" />
+        </SteadyState>
+        <SteadyState Duration="240.00002" Power="0.76449996" pace="1481003871">
+            <textevent timeoffset="10" message="That recovery phase went fast! Back in to another 4 minutes of zone 3" locIndex="43" />
+            <textevent timeoffset="120" message="2 minutes left to focus on maintaining that target power - not too much, not too little" locIndex="44" />
+        </SteadyState>
+        <SteadyState Duration="120.00001" Power="0.40000001" pace="1481003871">
+            <textevent timeoffset="5" message="2 minutes easy now, before we start the final half of the pyramid" locIndex="45" />
+            <textevent timeoffset="64" message="This time we start with the longer efforts and work down" locIndex="46" />
+            <textevent timeoffset="104" message="But with less effort, comes less rest!" locIndex="47" />
+        </SteadyState>
+        <SteadyState Duration="60.000004" Power="1.05" pace="1481003871">
+            <textevent timeoffset="10" message="You are doing great! You are growing a human and smashing a workout on Zwift!" locIndex="48" />
+        </SteadyState>
+        <SteadyState Duration="60.000004" Power="0.40000001" pace="1481003871">
+            <textevent timeoffset="3" message="Rest time! Take a few deep breaths and get that heart rate down as soon as possible " locIndex="49" />
+        </SteadyState>
+        <SteadyState Duration="50.000004" Power="1.05" pace="1481003871">
+            <textevent timeoffset="10" message="50 seconds for this effort - if you want to stand that&apos;s fine, just get the effort done as best you can" locIndex="50" />
+        </SteadyState>
+        <SteadyState Duration="50.000004" Power="0.40000001" pace="1481003871">
+            <textevent timeoffset="26" message="Great job - only 4 short efforts to go and you will be cooling down" locIndex="51" />
+        </SteadyState>
+        <SteadyState Duration="40" Power="1.05" pace="1481003871">
+            <textevent timeoffset="10" message="Only 30 seconds to go in this 40 second effort - the count down is really on!" locIndex="52" />
+        </SteadyState>
+        <SteadyState Duration="40" Power="0.40000001" pace="1481003871" />
+        <SteadyState Duration="30.000002" Power="1.05" pace="1481003871">
+            <textevent timeoffset="1" message="I hope you are smiling now - you only have 3 short efforts left" locIndex="53" />
+        </SteadyState>
+        <SteadyState Duration="30.000002" Power="0.40000001" pace="1481003871" />
+        <SteadyState Duration="20" Power="1.05" pace="1481003871">
+            <textevent timeoffset="1" message="Try and keep your upper body as still as you can to generate the power through your legs" locIndex="54" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.40000001" pace="1481003871" />
+        <SteadyState Duration="10" Power="1.05" pace="1481003871">
+            <textevent timeoffset="1" message="Final effort - what have you got left?" locIndex="55" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow="0.65449995" PowerHigh="0.3545" pace="1481003871">
+            <textevent timeoffset="20" message="Good work - that&apos;s Wide Awake complete!" locIndex="56" />
+            <textevent timeoffset="90" message="Remember, the key to fitness is consistency - little and often" locIndex="57" />
+            <textevent timeoffset="140" message="How do you feel on your bike at the moment? Comfortable?" locIndex="58" />
+            <textevent timeoffset="155" message="As your body changes through pregnancy, you may need to tweak your position by flipping your stem" locIndex="59" />
+            <textevent timeoffset="170" message="Flip your stem upside down, to raise your handlebars which should give your bump more space" locIndex="60" />
+            <textevent timeoffset="185" message="This is something that we (Dani and Kristin) both did, which helped massively" locIndex="61" />
+            <textevent timeoffset="220" message="You should not have felt excessively hot during today&apos;s workout" locIndex="62" />
+            <textevent timeoffset="240" message="It&apos;s vital that your core body temperature doesn&apos;t get too high during pregnancy" locIndex="63" />
+            <textevent timeoffset="290" message="See you on the next Workout - Dani and Kristin" locIndex="64" />
+        </Cooldown>
+    </workout>
+</workout_file>

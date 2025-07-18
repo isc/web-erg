@@ -1,0 +1,37 @@
+<workout_file>
+    <uniqueId>38e999bf-6902-4617-a3c8-0ee04ebbb43d</uniqueId>
+    <legacyIdHash>444490900</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>2018 PRL46 Prep</category>
+    <subcategory>Week 5</subcategory>
+    <name>Week 5.5 - 6+1+3 #1</name>
+    <description>Building some fatigue in the legs by first completing 30min of &apos;free ride&apos;, then performing 3 x 10min efforts
+
+6min @ 95%
+1min @ 109%
+3min @ 63%</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <SteadyState Duration="180" Power="0.50449997" pace="0">
+            <textevent timeoffset="130" message="High rpm in warm up sprints" locIndex="1" />
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="10" OffDuration="50" OnPower="1.8121336" OffPower="0.50449997" pace="0" />
+        <SteadyState Duration="180" Power="0.70449996" pace="0" />
+        <SteadyState Duration="120" Power="0.50449997" pace="0" />
+        <SteadyState Duration="180" Power="0.90449995" pace="0" />
+        <SteadyState Duration="180" Power="0.50449997" pace="0" />
+        <FreeRide Duration="900" FlatRoad="0" />
+        <SteadyState Duration="360" Power="0.95449996" pace="0" Cadence="90" />
+        <SteadyState Duration="60" Power="1.0944999" pace="0" Cadence="95" />
+        <SteadyState Duration="180" Power="0.63449997" pace="0" Cadence="85" />
+        <SteadyState Duration="360" Power="0.95449996" pace="0" Cadence="90" />
+        <SteadyState Duration="60" Power="1.0944999" pace="0" Cadence="95" />
+        <SteadyState Duration="180" Power="0.63449997" pace="0" Cadence="85" />
+        <SteadyState Duration="360" Power="0.95449996" pace="0" Cadence="90" />
+        <SteadyState Duration="60" Power="1.0944999" pace="0" Cadence="95" />
+        <SteadyState Duration="300" Power="0.63449997" pace="0" Cadence="85" />
+        <SteadyState Duration="300" Power="0.50449997" pace="0" Cadence="85" />
+    </workout>
+</workout_file>

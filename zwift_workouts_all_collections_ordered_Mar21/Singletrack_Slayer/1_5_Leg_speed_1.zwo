@@ -1,0 +1,87 @@
+<workout_file>
+    <uniqueId>adc2b904-9f83-48e9-aec9-ffc929363a79</uniqueId>
+    <legacyIdHash>3088663466</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Leg Speed #1</name>
+    <description>Another low intensity workout where we focus on leg speed today. The majority of the session is spent within zone 2. However, we hit some some 1min high cadence efforts during the session. All this then culminates with a steady state zone 3 effort.</description>
+    <sportType>bike</sportType>
+    <category>Singletrack Slayer</category>
+    <subcategory>Week 1</subcategory>
+    <WorkoutPlan>1</WorkoutPlan>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <tags />
+    <workout>
+        <Warmup Duration="300" PowerLow="0.5" PowerHigh="0.69999999" pace="1481003871">
+            <textevent timeoffset="30" message="Today we are utilizing our time spent at a lower intensity by incorporating some high cadence efforts." locIndex="1" />
+            <textevent timeoffset="60" message="This is a good day to build some volume for the week." locIndex="2" />
+            <textevent timeoffset="90" message="With all of the work completed well under threshold, this is also a good fat burning day for you." locIndex="3" />
+        </Warmup>
+        <SteadyState Duration="60" Power="0.55000001" pace="1481003871">
+            <textevent timeoffset="20" message="The warmup reflects the work you have ahead of you." locIndex="4" />
+            <textevent timeoffset="40" message="Hence, it is a pretty low key warmup." locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.69999999" pace="1481003871">
+            <textevent timeoffset="30" message="We have a steady state effort to complete the warmup." locIndex="6" />
+            <textevent timeoffset="40" message="Try to spin a little faster than what you are normally comfortable with during this effort." locIndex="7" />
+            <textevent timeoffset="60" message="Relax your grip on the bars and spin the legs." locIndex="8" />
+            <textevent timeoffset="200" message="MTB riding will often force you to pedal at a cadence that you are not comfortable with." locIndex="9" />
+            <textevent timeoffset="220" message="These efforts today address this issue and also provide some quality aerobic work." locIndex="10" />
+            <textevent timeoffset="240" message="The target power is not high, so you can just focus on the cadence." locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.55000001" pace="1481003871">
+            <textevent timeoffset="50" message="Here we go with the 1st effort." locIndex="12" />
+            <textevent timeoffset="20" message="Remember to always hit the target cadence and let the smart trainer adjust the power." locIndex="13" />
+        </SteadyState>
+        <IntervalsT Repeat="10" OnDuration="60" OffDuration="120" OnPower="0.88449997" OffPower="0.73449993" pace="1481003871" Cadence="105" CadenceResting="85">
+            <textevent timeoffset="10" message="Hit the target cadence of 105" locIndex="14" />
+            <textevent timeoffset="40" message="Keep the upper body still and drive through your core." locIndex="15" />
+            <textevent timeoffset="80" message="How did that feel? " locIndex="16" />
+            <textevent timeoffset="100" message="Challenging? Or comfortable?" locIndex="17" />
+            <textevent timeoffset="170" message="Here we go with the next effort." locIndex="18" />
+            <textevent timeoffset="190" message="Hit the target rpm first." locIndex="19" />
+            <textevent timeoffset="300" message="The extended high rpm effort is also a good neuromuscular activity." locIndex="20" />
+            <textevent timeoffset="320" message="Teach your muscles to spin fast." locIndex="21" />
+            <textevent timeoffset="370" message="Recovery is short. Next effort." locIndex="22" />
+            <textevent timeoffset="400" message="Spin right to the end." locIndex="23" />
+            <textevent timeoffset="500" message="The first few efforts might seem easy. But with fatigue they can become more challenging." locIndex="24" />
+            <textevent timeoffset="520" message="Another acceleration now." locIndex="25" />
+            <textevent timeoffset="600" message="MTB riding presents extreme changes in terrain." locIndex="26" />
+            <textevent timeoffset="620" message="With this in mind, it&apos;s important to train our muscles to adapt to these extreme changes." locIndex="27" />
+            <textevent timeoffset="700" message="The first effort is always easy." locIndex="28" />
+            <textevent timeoffset="720" message="But when you have to complete multiple high cadence efforts, the muscles gradually fatigue." locIndex="29" />
+            <textevent timeoffset="800" message="That&apos;s half way for you! 5 to go!" locIndex="30" />
+            <textevent timeoffset="820" message="How are the legs feeling?" locIndex="31" />
+            <textevent timeoffset="900" message="This isn&apos;t a high intensity day where you will accumulate fatigue." locIndex="32" />
+            <textevent timeoffset="920" message="Recovery will be quick from today&apos;s session." locIndex="33" />
+            <textevent timeoffset="1000" message="What is your comfortable cadence for a 1min effort at this power?" locIndex="34" />
+            <textevent timeoffset="1020" message="How challenging is this for you?" locIndex="35" />
+            <textevent timeoffset="1100" message="From this workout, you can incorporate this high cadence into your outdoor riding." locIndex="36" />
+            <textevent timeoffset="1120" message="The lower power and high cadence produces low crank torque efforts." locIndex="37" />
+            <textevent timeoffset="1500" message="At the completion of these high cadence efforts, you have a steady state zone 3 effort." locIndex="38" />
+            <textevent timeoffset="1520" message="The interesting question is, What cadence you pedal at for this effort?" locIndex="39" />
+            <textevent timeoffset="15400" message="How much will these previous efforts influence your chosen cadence when there is no set target?" locIndex="40" />
+            <textevent timeoffset="1600" message="Into the last effort now." locIndex="41" />
+        </IntervalsT>
+        <SteadyState Duration="60" Power="0.55000001" pace="1481003871">
+            <textevent timeoffset="10" message="Just a quick recovery." locIndex="42" />
+            <textevent timeoffset="40" message="The session is overall low intensity." locIndex="43" />
+        </SteadyState>
+        <SteadyState Duration="600" Power="0.80000001" pace="1481003871">
+            <textevent timeoffset="20" message="Here we go with your steady state effort." locIndex="44" />
+            <textevent timeoffset="60" message="Settle into a nice rhythm early." locIndex="45" />
+            <textevent timeoffset="120" message="How is your cadence?" locIndex="46" />
+            <textevent timeoffset="140" message="Higher than you would normally ride at?" locIndex="47" />
+            <textevent timeoffset="160" message="Do you think the earlier efforts have influenced your cadence here?" locIndex="48" />
+            <textevent timeoffset="300" message="That&apos;s halfway for you." locIndex="49" />
+            <textevent timeoffset="400" message="You can&apos;t beat the quality of a nice long steady state interval." locIndex="50" />
+            <textevent timeoffset="420" message="It&apos;s basic, but effective." locIndex="51" />
+            <textevent timeoffset="500" message="Think of the volume you&apos;re getting here today." locIndex="52" />
+            <textevent timeoffset="540" message="Into the final minute now" locIndex="53" />
+            <textevent timeoffset="560" message="Did your cadence change much throughout the 10min?" locIndex="54" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.5" pace="1481003871">
+            <textevent timeoffset="30" message="Although today was low intensity, be sure to hydrate and refuel adequately." locIndex="55" />
+            <textevent timeoffset="60" message="After this session, you will be flying in the next workout." locIndex="56" />
+        </SteadyState>
+    </workout>
+</workout_file>

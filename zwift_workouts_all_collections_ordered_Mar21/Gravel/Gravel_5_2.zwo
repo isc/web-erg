@@ -1,0 +1,90 @@
+<workout_file>
+    <uniqueId>7443f16a-b449-4476-83b3-6be714c9396b</uniqueId>
+    <legacyIdHash>1529878094</legacyIdHash>
+    <author>Zwift</author>
+    <name>Going Up The Zones</name>
+    <description>Alright folks, the main set today are some slow burn builds. 3x10 minute blocks building from endurance to threshold w/ 2min between sets. Each round will get a little harder because to start, the builds will be broken but youminll get less and less rest each time.
+1) 4min endurance, 30sec rest, 3min tempo, 30sec rest, 2min LT, 30sec rest, 1min VO2
+2) 4min endurance, 15sec rest, 3min tempo, 15sec rest, 2min LT, 15sec rest, 1min VO2
+3) 4min endurance, 3min tempo, 2min LT, 1min VO2 straight through!</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Gravel Grinder</category>
+    <subcategory>Week 5</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="360" PowerLow="0.45" PowerHigh="0.65">
+            <textevent timeoffset="0" message="Easy does it to start today" locIndex="1" />
+        </Warmup>
+        <IntervalsT Repeat="4" OnDuration="30" OffDuration="30" OnPower="0.8" OffPower="0.6">
+            <textevent timeoffset="0" message="Getting the engines going with some little efforts. Get good turnover here to get ready." locIndex="2" />
+            <textevent timeoffset="60" message="A bit easier in between." locIndex="3" />
+            <textevent timeoffset="90" message="Back up!" locIndex="4" />
+            <textevent timeoffset="150" message="#3!" locIndex="5" />
+            <textevent timeoffset="210" message="Last 1 before we start our first build." locIndex="6" />
+            <textevent timeoffset="240" message="Just 30 seconds easy and then weminre going straight into this." locIndex="7" />
+        </IntervalsT>
+        <SteadyState Duration="240" Power="0.75">
+            <textevent timeoffset="0" message="This shouldnmint feel too bad." locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.5">
+            <textevent timeoffset="0" message="Use your rest anyways. Round 1, this is 30 seconds but each round it goes down." locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.85">
+            <textevent timeoffset="0" message="Now tempo." locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.5">
+		</SteadyState>
+        <SteadyState Duration="120" Power="1">
+            <textevent timeoffset="0" message="Up to threshold!" locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.5">
+		</SteadyState>
+        <SteadyState Duration="60" Power="1.1">
+            <textevent timeoffset="0" message="Finish it off with a minute VO2!" locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.55">
+            <textevent timeoffset="0" message="Easy 5." locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.75">
+            <textevent timeoffset="0" message="Endurance to start this off." locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="0.5">
+            <textevent timeoffset="0" message="Now all the rest goes down to just 15 seconds." locIndex="15" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.85">
+            <textevent timeoffset="0" message="Up to tempo!" locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="0.5">
+            <textevent timeoffset="0" message="This goes quick, eh?" locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1">
+            <textevent timeoffset="0" message="Threshold for 2!" locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="0.5">
+            <textevent timeoffset="0" message="Get ready!" locIndex="19" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.1">
+            <textevent timeoffset="0" message="Go! Finish it off!" locIndex="20" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.55">
+            <textevent timeoffset="0" message="Super easy 5 minutes before we start the last one, the hardest one." locIndex="21" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.75">
+            <textevent timeoffset="0" message="Alright, this build goes straight through." locIndex="22" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.85">
+            <textevent timeoffset="0" message="Tempo" locIndex="23" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1">
+            <textevent timeoffset="0" message="Threshold is where this might start adding up on you." locIndex="24" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.1">
+            <textevent timeoffset="0" message="Push through!!!" locIndex="25" />
+        </SteadyState>
+        <Cooldown Duration="600" PowerLow="0.55" PowerHigh="0.45">
+            <textevent timeoffset="0" message="Well done! That one sting just a little?" locIndex="26" />
+            <textevent timeoffset="15" message="Nice long easy cool down is your reward" locIndex="27" />
+        </Cooldown>
+    </workout>
+</workout_file>

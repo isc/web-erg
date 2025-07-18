@@ -1,0 +1,41 @@
+<workout_file>
+    <uniqueId>5e97f329-e75b-4774-b39a-95755c0d81dc</uniqueId>
+    <legacyIdHash>19256754</legacyIdHash>
+    <author>Zwift</author>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>4wk FTP Booster</category>
+    <subcategory>Week 1</subcategory>
+    <name>Week 1.2 - HIT 45sec #1</name>
+    <description>With repeated anaerobic bouts of 45sec, you will be improving your ability to process lactate and recover from hard efforts.
+
+You will also be using up vital carbohydrate stores prior to the final 5min sub-threshold interval. This is where the adaptation occurs! </description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS" />
+        <tag name="4weekftp" />
+    </tags>
+    <overrideHash>19256754</overrideHash>
+    <workout>
+        <SteadyState Duration="180" Power="0.50449997">
+            <textevent timeoffset="140" message="High cadence in these" locIndex="1" y="240" />
+            <textevent timeoffset="140" message="warm up efforts." locIndex="2" y="270" />
+        </SteadyState>
+        <IntervalsT Repeat="2" OnDuration="60" OffDuration="60" OnPower="0.75449997" OffPower="0.50449997" Cadence="90" CadenceResting="80" />
+        <IntervalsT Repeat="2" OnDuration="60" OffDuration="60" OnPower="0.90449995" OffPower="0.50449997" Cadence="100" CadenceResting="80" />
+        <SteadyState Duration="180" Power="0.50449997" Cadence="85">
+            <textevent timeoffset="90" message="Looking for controlled steady" locIndex="3" y="240" />
+            <textevent timeoffset="90" message="power, in the 45sec efforts." locIndex="4" y="270" />
+            <textevent timeoffset="115.00002" message="No drop off in power." locIndex="5" />
+        </SteadyState>
+        <IntervalsT Repeat="6" OnDuration="45" OffDuration="255" OnPower="1.7544999" OffPower="0.6045" Cadence="100" CadenceResting="80">
+            <textevent timeoffset="789" message="3 to go..." locIndex="6" />
+            <textevent timeoffset="799" message="You are doing well." locIndex="7" />
+        </IntervalsT>
+        <SteadyState Duration="180" Power="0.50449997" Cadence="85">
+            <textevent timeoffset="110" message="Now to finish with a strong" locIndex="8" y="240" />
+            <textevent timeoffset="110" message="5min sub-threshold effort." locIndex="9" y="270" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.95449996" Cadence="95" />
+        <SteadyState Duration="300" Power="0.50449997" Cadence="85" />
+    </workout>
+</workout_file>

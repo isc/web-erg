@@ -1,0 +1,41 @@
+<workout_file>
+    <uniqueId>07b81335-fc80-4d94-b412-5c42f2ae15ba</uniqueId>
+    <legacyIdHash>598820703</legacyIdHash>
+    <author>Jon Sharples</author>
+    <category>Zwift Academy 2016</category>
+    <subcategory>Month 3</subcategory>
+    <WorkoutPlan>1</WorkoutPlan>
+    <name>Month 3.8 - Capacity Pyramids</name>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/trainSharp_Logo.tga</authorIcon>
+    <description>Recovery period is only short, so make sure you make the most of it, keep the legs spinning (but back off the power as much as possible), try not to slump over the bars, remain upright and ensure you have a good airflow and full bottle of drink for this one!</description>
+    <workout>
+        <Warmup Duration="900" PowerLow="0.2545" PowerHigh="0.87995088" />
+        <SteadyState Duration="300" Power="0.65449995" />
+        <SteadyState Duration="60" Power="1.0544997" />
+        <SteadyState Duration="240" Power="0.81449997" />
+        <SteadyState Duration="180" Power="0.65449995" />
+        <SteadyState Duration="120" Power="1.0540147" />
+        <SteadyState Duration="180" Power="0.81449997" />
+        <SteadyState Duration="180" Power="0.65449995" />
+        <SteadyState Duration="180" Power="1.052071" />
+        <SteadyState Duration="120" Power="0.81449997" />
+        <SteadyState Duration="180" Power="0.65449995" />
+        <SteadyState Duration="240" Power="1.0545" />
+        <SteadyState Duration="60" Power="0.81449997" />
+        <SteadyState Duration="180" Power="0.65449995" />
+        <SteadyState Duration="300" Power="1.0545" />
+        <SteadyState Duration="180" Power="0.65449995" />
+        <SteadyState Duration="240" Power="1.0545" />
+        <SteadyState Duration="60" Power="0.81449997" />
+        <SteadyState Duration="180" Power="0.65449995" />
+        <SteadyState Duration="180" Power="1.0540144" />
+        <SteadyState Duration="120" Power="0.81449997" />
+        <SteadyState Duration="180" Power="0.65449995" />
+        <SteadyState Duration="120" Power="1.0545" />
+        <SteadyState Duration="180" Power="0.81449997" />
+        <SteadyState Duration="180" Power="0.65449995" />
+        <SteadyState Duration="60" Power="1.0545" />
+        <SteadyState Duration="240" Power="0.81449997" />
+        <Cooldown Duration="600" PowerLow="0.87449998" PowerHigh="0.2545" />
+    </workout>
+</workout_file>

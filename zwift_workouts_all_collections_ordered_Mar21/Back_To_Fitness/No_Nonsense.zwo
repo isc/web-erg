@@ -1,0 +1,67 @@
+<workout_file>
+    <uniqueId>d1931d01-226d-4f8b-b00c-b87fddd07eb9</uniqueId>
+    <legacyIdHash>53773622</legacyIdHash>
+    <author>D.Rowe (Rowe&amp;King)</author>
+    <categoryOverride>30-60 minutes to burn</categoryOverride>
+    <name>Week 3.1 - No Nonsense</name>
+    <description>This workout is straight forward - you will spend plenty of time with your chain tight. 3 x 6 minute blocks of Zone 3, will ensure you get a good training stress, without leaving your legs heavy for tomorrow.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <tags />
+    <category>Back to Fitness</category>
+    <subcategory>Week 3</subcategory>
+    <workout>
+        <Warmup Duration="300" PowerHigh="1.05" PowerLow="0.4">
+            <textevent message="Welcome to No Nonsense" locIndex="1" timeoffset="10" />
+            <textevent message="This workout is part of the PowerUp Prep series designed by Dani Rowe and Kristin Armstrong" locIndex="2" timeoffset="25" />
+            <textevent message="This series is designed to build your fitness and prepare you for a more intense training program" locIndex="3" timeoffset="40" />
+            <textevent message="by providing you with 12 weeks of 30-45 minute structured workouts" locIndex="4" timeoffset="50" />
+            <textevent message="This workout series assumes a low level of current fitness - maybe you are starting out training, getting back on your bike after giving birth or maybe it&apos;s your return from injury" locIndex="5" timeoffset="80" />
+            <textevent message="The key to training and improving is consistency - 30 minutes is infinitely better than nothing" locIndex="6" timeoffset="160" />
+            <textevent message="It&apos;s helpful if you have a heart rate monitor, to keep track of how your heart rate responds to efforts week to week" locIndex="7" timeoffset="210" />
+            <textevent message="Following a structured training plan like this keeps you accountable and hopefully helps you remain focused on your goals" locIndex="8" timeoffset="230" />
+            <textevent message="Listen to your body, and don&apos;t worry if you need to lower the bias during todays workout to complete" locIndex="9" timeoffset="250" />
+            <textevent message="Most importantly - enjoy!" locIndex="10" timeoffset="280" />
+        </Warmup>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent message="2 minutes easy before we get started" locIndex="11" timeoffset="13" />
+        </SteadyState>
+        <IntervalsT OffDuration="120" OffPower="0.51" OnDuration="360" OnPower="0.89" Repeat="3">
+            <textevent message="Here we go... today is about working on your endurance! Week 3, Session 1" locIndex="12" timeoffset="10" />
+            <textevent message="Nothing too intense, you don&apos;t have to work to your max every time you get on the bike to make improvements" locIndex="13" timeoffset="70" />
+            <textevent message="You should be into a rhythm now - feeling good?" locIndex="14" timeoffset="130" />
+            <textevent message="Focus on your technique, keeping your upper body still to generate all the power through your legs" locIndex="15" timeoffset="190" />
+            <textevent message="Additionally, think about pulling up as well as pushing down on the pedals" locIndex="16" timeoffset="250" />
+            <textevent message="Into the last 60 seconds of this block, keep going all the way to the arch" locIndex="17" timeoffset="310" />
+            <textevent message="And relax... " locIndex="18" timeoffset="370" />
+            <textevent message="Keep drinking - little and often to ensure you stay hydrated " locIndex="19" timeoffset="400" />
+            <textevent message="Let&apos;s go - block number 2! " locIndex="20" timeoffset="480" />
+            <textevent message="Just take 1 minute at a time - don&apos;t look too far ahead " locIndex="21" timeoffset="540" />
+            <textevent message="When it gets tough, visualize achieving your goals" locIndex="22" timeoffset="600" />
+            <textevent message="Don&apos;t worry if you have to lower your bias - this is about completing the workout " locIndex="23" timeoffset="660" />
+            <textevent message="These sessions won&apos;t get easier - you just get faster! " locIndex="24" timeoffset="720" />
+            <textevent message="You are smashing it!!! " locIndex="25" timeoffset="780" />
+            <textevent message="30 seconds to go! " locIndex="26" timeoffset="810" />
+            <textevent message="Time to recover - control your breathing as quickly as possible" locIndex="27" timeoffset="840" />
+            <textevent message="This last block is where the big gains are made - &apos;cumulative fatigue&apos;" locIndex="28" timeoffset="900" />
+            <textevent message="Last block!! You can do it!" locIndex="29" timeoffset="960" />
+            <textevent message="You might find your heart rate is higher than the first 2 blocks - that&apos;s fine, your body is just having to work a little harder" locIndex="30" timeoffset="1020" />
+            <textevent message="Consistency in your training is where you can really make a big difference to your fitness" locIndex="31" timeoffset="1080" />
+            <textevent message="Think about how good you will feel when this workout is complete!" locIndex="32" timeoffset="1140" />
+            <textevent message="Not far to go now " locIndex="33" timeoffset="1200" />
+            <textevent message="UP UP UP! Keep pushing!" locIndex="34" timeoffset="1260" />
+            <textevent message="Fantastic work! Well done - the hard work is done! " locIndex="35" timeoffset="1330" />
+            <textevent message="I hope you have a smile on your face - if not, you should do!" locIndex="36" timeoffset="1400" />
+            <textevent message="Producing power throughout the whole pedal stroke is the goal - no &apos;dead spots&apos;" locIndex="37" timeoffset="260" />
+        </IntervalsT>
+        <Cooldown Duration="300" PowerHigh="0.4" PowerLow="0.7">
+            <textevent message="Good work - that&apos;s No Nonsense complete!" locIndex="38" timeoffset="20" />
+            <textevent message="Remember, the key to fitness is consistency - try and ride your bike often" locIndex="39" timeoffset="90" />
+            <textevent message="If you cruised through today&apos;s workout, you may fancy doing a little extra riding?" locIndex="40" timeoffset="140" />
+            <textevent message="Some extra volume on top of these short, but structured workouts can help improve your endurance and fitness" locIndex="41" timeoffset="155" />
+            <textevent message="If you struggled with today&apos;s workout - I suggest you think about adjusting the bias slightly?" locIndex="42" timeoffset="220" />
+            <textevent message="A 2 or 3% adjustment can make all the difference - we are looking for these workouts to be &#8216;tough but achievable&apos;" locIndex="43" timeoffset="240" />
+            <textevent message="See you on the next Workout - Dani and Kristin" locIndex="44" timeoffset="290" />
+        </Cooldown>
+    </workout>
+</workout_file>

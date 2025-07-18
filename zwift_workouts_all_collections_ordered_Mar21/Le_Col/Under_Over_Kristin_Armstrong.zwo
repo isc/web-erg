@@ -1,0 +1,131 @@
+<workout_file>
+    <uniqueId>f6078645-baff-41a3-aa83-2f4e67f46dd7</uniqueId>
+    <legacyIdHash>915360715</legacyIdHash>
+    <author>Chris Opie</author>
+    <categoryOverride>30 minutes to burn</categoryOverride>
+    <name>Kristin Armstrong.3 - Under Over</name>
+    <description>
+This session is about maximising your sustainable power output. Your muscular endurance, led by Time Trial Specialist, Kristin Armstrong.
+
+These workouts have been designed and tested by some of the best cyclists in the world. Olympians and World Champions such as Sir Bradley Wiggins, Fabian Cancellara, Dame Sarah Storey and Kristin Armstrong.</description>
+    <sportType>bike</sportType>
+    <activitySaveName>Le Col - Training With Legends - Kristin Armstrong - Under Over</activitySaveName>
+    <category>Le Col - Training With Legends</category>
+    <subcategory>Kristin Armstrong</subcategory>
+    <visibleAfterTime>1635724860</visibleAfterTime>
+    <tags />
+    <workout>
+        <Warmup Duration="180" PowerHigh="0.55" PowerLow="0.35">
+            <textevent timeoffset="0" message="Welcome to Le Col Training With Legends. I&apos;m Kristin Armstrong" locIndex="1" />
+            <textevent timeoffset="20" message="This is my Under Over Time Trial training session. 3 minutes easy roll in." locIndex="2" />
+            <textevent timeoffset="40" message="To get the most from this workout, head over to lecol.cc" locIndex="3" />
+            <textevent timeoffset="60" message="Watch my video for coaching insight and advice." locIndex="4" />
+            <textevent timeoffset="80" message="This session is all about building aerobic capacity by riding at and above FTP." locIndex="5" />
+            <textevent timeoffset="100" message="Tough, but effective. Enjoy!" locIndex="6" />
+            <textevent timeoffset="120" message="60 seconds until we get going properly. Turn up the fan, get ready." locIndex="7" />
+            <textevent timeoffset="140" message="We start with 2 minutes sub threshold." locIndex="8" />
+            <textevent timeoffset="160" message="Are you ready? 20 seconds to go." locIndex="9" />
+        </Warmup>
+        <SteadyState Duration="120" Power="0.96">
+            <textevent timeoffset="0" message="This is establishing that baseline tempo." locIndex="10" />
+            <textevent timeoffset="20" message="We will be revisiting this effort after each minute above FTP." locIndex="11" />
+            <textevent timeoffset="50" message="Settle into the effort and keep it steady." locIndex="12" />
+            <textevent timeoffset="70" message="Time Trials are all about control, this is no different." locIndex="13" />
+            <textevent timeoffset="90" message="30 seconds until we raise the effort above FTP." locIndex="14" />
+            <textevent timeoffset="110" message="10 seconds to go." locIndex="15" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.04">
+            <textevent timeoffset="0" message="Raise that effort up now, just above your FTP." locIndex="16" />
+            <textevent timeoffset="20" message="Each block has 3 minutes at this effort." locIndex="17" />
+            <textevent timeoffset="40" message="20 seconds to go, no easing back now!" locIndex="18" />
+            <textevent timeoffset="50" message="10 seconds to go." locIndex="19" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.96">
+            <textevent timeoffset="0" message="Settle back below FTP. The subtle raise and drop of the effort adds extra stimulus." locIndex="20" />
+            <textevent timeoffset="20" message="By doing this we can train more effectively in a short space of time." locIndex="21" />
+            <textevent timeoffset="40" message="How is that effort? Can you hold that baseline tempo?" locIndex="22" />
+            <textevent timeoffset="60" message="Find a cadence you are comfortable with and can sustain." locIndex="23" />
+            <textevent timeoffset="90" message="30 seconds to the next over." locIndex="24" />
+            <textevent timeoffset="110" message="Get ready to power up and over FTP." locIndex="25" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.04">
+            <textevent timeoffset="0" message="Lift the effort up now. Just over FTP." locIndex="26" />
+            <textevent timeoffset="25" message="This is all about measuring your effort." locIndex="27" />
+            <textevent timeoffset="40" message="Careful not to go too hard, equally don&apos;t go too easy." locIndex="28" />
+            <textevent timeoffset="50" message="All the way now. 10 seconds." locIndex="29" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.96">
+            <textevent timeoffset="0" message="Baseline tempo. Find it. Hold it." locIndex="30" />
+            <textevent timeoffset="20" message="You need to take charge of your breathing" locIndex="31" />
+            <textevent timeoffset="40" message="Oxygenate the body while maintaining that high output." locIndex="32" />
+            <textevent timeoffset="70" message="Good work. This block is nearly done." locIndex="33" />
+            <textevent timeoffset="90" message="30 seconds of under left to go." locIndex="34" />
+            <textevent timeoffset="110" message="Prepare to lift that effort in 10 seconds." locIndex="35" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.04">
+            <textevent timeoffset="0" message="60 seconds above your FTP now. Power through this." locIndex="36" />
+            <textevent timeoffset="20" message="Pay attention to your form on the bike, keep it smooth." locIndex="37" />
+            <textevent timeoffset="40" message="20 seconds now." locIndex="38" />
+            <textevent timeoffset="50" message="Recovery in 10 seconds." locIndex="39" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.55">
+            <textevent timeoffset="0" message="3 minutes to recover, regroup and get ready to go again." locIndex="40" />
+            <textevent timeoffset="20" message="Try and find a comfortable position again." locIndex="41" />
+            <textevent timeoffset="60" message="One more block to go. Improved muscular endurance is the goal here." locIndex="42" />
+            <textevent timeoffset="90" message="Is your fan on full?" locIndex="43" />
+            <textevent timeoffset="120" message="Take a sip of drink, 30 seconds until we jump back into the efforts." locIndex="44" />
+            <textevent timeoffset="150" message="Now is when we make it count." locIndex="45" />
+            <textevent timeoffset="170" message="By digging in now, we help boost our aerobic capacity." locIndex="46" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.96">
+            <textevent timeoffset="0" message="Right up to just under FTP. You could hold this for up to an hour." locIndex="47" />
+            <textevent timeoffset="15" message="That doesn&apos;t mean it&apos;s easy. You need to focus throughout here." locIndex="48" />
+            <textevent timeoffset="40" message="Find a rhythm in your cadence and hold it." locIndex="49" />
+            <textevent timeoffset="60" message="Focus on the intensity, this is your baseline." locIndex="50" />
+            <textevent timeoffset="80" message="Control your breathing, deep and forceful breathing will help." locIndex="51" />
+            <textevent timeoffset="100" message="20 seconds until we jump over FTP." locIndex="52" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.04">
+            <textevent timeoffset="0" message="Lift the effort now. 60 seconds over FTP." locIndex="53" />
+            <textevent timeoffset="20" message="Keep it smooth, dial into the effort now." locIndex="54" />
+            <textevent timeoffset="40" message="Pace this to the end." locIndex="55" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.96">
+            <textevent timeoffset="0" message="Good work. Back down under FTP now." locIndex="56" />
+            <textevent timeoffset="25" message="Find your rhythm again, aim ride smooth now." locIndex="57" />
+            <textevent timeoffset="50" message="Take control of this, you can handle this effort." locIndex="58" />
+            <textevent timeoffset="80" message="This is good now, keep right on this sub FTP pace." locIndex="59" />
+            <textevent timeoffset="105" message="15 seconds to our next lift now. You&apos;re ready for it!" locIndex="60" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.04">
+            <textevent timeoffset="0" message="Up over FTP now. Lift your cadence if it helps." locIndex="61" />
+            <textevent timeoffset="20" message="Dig deep right now, think of your motivations for this session." locIndex="62" />
+            <textevent timeoffset="40" message="20 seconds to go now, keep this pace up!" locIndex="63" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.96">
+            <textevent timeoffset="0" message="The last phase of this session now. Find your rhythm." locIndex="64" />
+            <textevent timeoffset="20" message="Lock back into this effort now, we are nearly done." locIndex="65" />
+            <textevent timeoffset="40" message="Give this your all if you need to" locIndex="66" />
+            <textevent timeoffset="60" message="Only 2 minutes total work to go. You have got this now!" locIndex="67" />
+            <textevent timeoffset="80" message="Solid riding to make it this far, one lift to go." locIndex="68" />
+            <textevent timeoffset="100" message="20 seconds to prepare for this last step." locIndex="69" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.04">
+            <textevent timeoffset="0" message="Up and over now, come on." locIndex="70" />
+            <textevent timeoffset="20" message="40 seconds until recovery!" locIndex="71" />
+            <textevent timeoffset="35" message="Drive this all the way to the line." locIndex="72" />
+            <textevent timeoffset="50" message="Final 10 seconds now." locIndex="73" />
+        </SteadyState>
+        <Cooldown Duration="180" PowerHigh="0.35" PowerLow="0.55">
+            <textevent timeoffset="0" message="Great work, take the pressure of the pedals now, easing down the effort." locIndex="74" />
+            <textevent timeoffset="25" message="Take your time to catch your breath, that is a tough session." locIndex="75" />
+            <textevent timeoffset="40" message="Great work today. Browse for more sessions in the Le Col Training With Legends workout folder" locIndex="76" />
+            <textevent timeoffset="60" message="All of our Training With Legends sessions come alive with the videos at lecol.cc " locIndex="77" />
+            <textevent timeoffset="80" message="Let us coach you through the session, providing advice and insight." locIndex="78" />
+            <textevent timeoffset="100" message="How are the legs now? Feeling it?" locIndex="79" />
+            <textevent timeoffset="120" message="Time to think about recovery and focus on the next sessions." locIndex="80" />
+            <textevent timeoffset="140" message="Rehydrate, refuel and recover." locIndex="81" />
+            <textevent timeoffset="160" message="Thank you for training with me, looking forward to seeing you again." locIndex="82" />
+        </Cooldown>
+    </workout>
+</workout_file>

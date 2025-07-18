@@ -1,0 +1,45 @@
+<workout_file>
+    <uniqueId>0947f54f-053c-45d6-bef6-acca5c1f0280</uniqueId>
+    <legacyIdHash>1049584196</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Week 7.6 - Endurance #4</name>
+    <description>Building endurance doesn&apos;t just involve long, low power efforts. In this session we challenge your aerobic energy pathways with a range of efforts.
+
+Opening with a 10min Zone 2 effort, we build into a some neuromuscular work, before finishing with a Zone 3 effort that starts at the top of the range and gradually decreases.</description>
+    <sportType>bike</sportType>
+    <entid>491</entid>
+    <category>Zwift Coast Ride</category>
+    <subcategory>Week 7</subcategory>
+    <tags>
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.45" PowerHigh="0.75">
+            <textevent timeoffset="60" message="Today&apos;s warm up takes you through low power, 30sec efforts." locIndex="1" />
+        </Warmup>
+        <IntervalsT Repeat="5" OnDuration="30" OffDuration="30" OnPower="0.65" OffPower="0.89" />
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="170" message="To complete your warm up we have 30sec at high power." locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.25" />
+        <Ramp Duration="600" PowerLow="0.55" PowerHigh="0.75">
+            <textevent timeoffset="100" message="Endurance training isn&apos;t only achieved through long, low power rides." locIndex="3" />
+            <textevent timeoffset="120" message="One of the most effective ways to improve endurance is to perform repeated, short surges." locIndex="4" />
+            <textevent timeoffset="580" message="During the steady aerobic effort we have 15sec surges throughout." locIndex="5" />
+        </Ramp>
+        <IntervalsT Repeat="4" OnDuration="15" OffDuration="300" OnPower="1.5" OffPower="0.76">
+            <textevent timeoffset="300" message="The surges are a good chance to get out of the seat and relax the muscles." locIndex="6" />
+        </IntervalsT>
+        <Ramp Duration="180" PowerLow="0.75" PowerHigh="0.5">
+            <textevent timeoffset="170" message="We bring the power down now before completing a 30sec high powered effort again." locIndex="7" />
+        </Ramp>
+        <SteadyState Duration="30" Power="1.25" />
+        <Ramp Duration="600" PowerLow="0.9" PowerHigh="0.76">
+            <textevent timeoffset="30" message="To finish the endurance day, we have another longer effort." locIndex="8" />
+            <textevent timeoffset="40" message="This time we start with higher power and gradually bring it down." locIndex="9" />
+            <textevent timeoffset="300" message="is your HR decreasing with the drop in power?" locIndex="10" />
+        </Ramp>
+        <Cooldown Duration="300" PowerLow="0.75" PowerHigh="0.45">
+            <textevent timeoffset="40" message="A short endurance ride, but these are the sessions that surprisingly help you ride for hours outdoors." locIndex="11" />
+        </Cooldown>
+    </workout>
+</workout_file>

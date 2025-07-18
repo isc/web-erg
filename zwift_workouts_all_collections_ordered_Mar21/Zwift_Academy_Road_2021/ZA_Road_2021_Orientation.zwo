@@ -1,0 +1,140 @@
+<workout_file>
+    <uniqueId>d726c193-0ce4-4d10-8043-1ee4a6a94b64</uniqueId>
+    <legacyIdHash>1611849165</legacyIdHash>
+    <author>Dig Deep Coaching</author>
+    <name>Orientation Workout.1 - Zwift Academy Road Orientation</name>
+    <activitySaveName>Zwift Academy Road: Orientation</activitySaveName>
+    <description>Welcome to the 2021 Zwift Academy Road program! This is a simple workout that will get you educated and excited about this year! Zwift Academy Road is for everyone. Newbies to neo-pros. Training together is better. Let&apos;s GET AFTER IT!</description>
+    <sportType>bike</sportType>
+    <tags />
+    <category>Zwift Academy 2021</category>
+    <subcategory>Orientation Workout</subcategory>
+    <visibleAfterTime>1629072060</visibleAfterTime>
+    <hiddenAfterTime>1633046340</hiddenAfterTime>
+    <workout>
+        <Warmup Duration="300" PowerHigh="0.7" PowerLow="0.5">
+            <textevent timeoffset="5" message="Welcome to the 2021 Zwift Academy Road Orientation class!" locIndex="1" />
+            <textevent timeoffset="15" message="This is a simple workout that will get you educated and excited about this year&apos;s Zwift Academy Road program." locIndex="2" />
+            <textevent timeoffset="25" message="Think of today as a taster of structured training alongside a sneak peak of what&apos;s to come for this year&apos;s Academy!" locIndex="3" />
+            <textevent timeoffset="35" message="The workout consists of 2 interval sets that will take you through high and low cadence work." locIndex="4" />
+            <textevent timeoffset="45" message="Let&apos;s get started with a 5min warmup - keep your cadence comfortable." locIndex="5" />
+            <textevent timeoffset="55" message="Cadence is the number of revolutions per minute (RPM) you complete and is measured via a cadence sensor." locIndex="6" />
+            <textevent timeoffset="80" message="We recommend wearing a heart rate monitor for all of your Zwift Academy Road rides this year." locIndex="7" />
+            <textevent timeoffset="80" message="We also recommend signing up for Today&apos;s plan, if you don&apos;t already have an account." locIndex="8" />
+            <textevent timeoffset="90" message="Today&apos;s Plan is the digital training tool of choice for coaches and multisport athletes of all levels and abilities from world tour teams through to major coaching companies around the globe." locIndex="9" />
+            <textevent timeoffset="100" message="All riders get free access to the exclusive Dashboards, developed in conjunction with Zwift for the Academy, that allow you to compare where you sit in your age group and overall." locIndex="10" />
+            <textevent timeoffset="120" message="Let&apos;s start with the basic question - What is Zwift Academy Road?" locIndex="11" />
+            <textevent timeoffset="130" message="Zwift Academy Road is a yearly, global training program that will help you chase your cycling goals." locIndex="12" />
+            <textevent timeoffset="140" message="Whether that be a faster time up the local climb, a boost in fitness, or a pro contract, we&apos;re going to help you GET AFTER IT!" locIndex="13" />
+            <textevent timeoffset="150" message="Zwift Academy Road is for everyone. Newbies to neo-pros. Training together is better." locIndex="14" />
+            <textevent timeoffset="160" message="If you are going for the pro contract, stick around, we&apos;ll get to that a little later!" locIndex="15" />
+            <textevent timeoffset="180" message="There&apos;s also a Zwift Academy Run and a Zwift Academy Tri program! Find out more on the website." locIndex="16" />
+            <textevent timeoffset="200" message="Ok, let&apos;s kick this off. Here&apos;s what to expect..." locIndex="17" />
+            <textevent timeoffset="210" message="Zwift Academy Road is 8 weeks. It starts Aug 30th - and ends Oct 24th." locIndex="18" />
+            <textevent timeoffset="240" message="You can register for the Academy on your home screen, in the Zwift Companion app or through our website, zwift.com/academy." locIndex="19" />
+            <textevent timeoffset="250" message="Zwift Academy Road is free with your Zwift account and as our premier training program in its 6th year, you do not want to miss it!" locIndex="20" />
+            <textevent timeoffset="290" message="Let&apos;s keep the power steady next." locIndex="21" />
+        </Warmup>
+        <SteadyState Duration="120" Power="0.7">
+            <textevent timeoffset="0" message="Continue to keep your cadence comfortable here." locIndex="22" />
+            <textevent timeoffset="30" message="The rewards are big this year! New fitness, new friends, and exclusive Zwift Academy Road unlocks, like a cap, a kit and a bike." locIndex="23" />
+            <textevent timeoffset="60" message="New this year, you&apos;ll see data to show you exactly how your hard work paid off." locIndex="24" />
+            <textevent timeoffset="90" message="So what do you have to do?" locIndex="25" />
+            <textevent timeoffset="100" message="To graduate Zwift Academy Road, you&apos;ll complete a program of 10 events over 8 weeks." locIndex="26" />
+            <textevent timeoffset="110" message="Let&apos;s lift the intensity a bit higher next." locIndex="27" />
+        </SteadyState>
+        <SteadyState Duration="190" Power="0.8">
+            <textevent timeoffset="0" message="Good work here!" locIndex="28" />
+            <textevent timeoffset="30" message="Let&apos;s walk through the program." locIndex="29" />
+            <textevent timeoffset="40" message="We start with a Baseline Ride, then there are 6 Workouts, 2 Recovery Rides, and we cap it off with a Finish Line Ride." locIndex="30" />
+            <textevent timeoffset="50" message="The Baseline Ride and Finish Line Ride are your milestone rides to start and end the Academy." locIndex="31" />
+            <textevent timeoffset="60" message="They are a group ride with 3 segments that will help measure your progress in a fun way." locIndex="32" />
+            <textevent timeoffset="70" message="The Baseline and Finish Line Ride are group ride events. You ride at a moderate pace, saving your energy to hit the gas and..." locIndex="33" />
+            <textevent timeoffset="80" message="GO, GO, GO for each of the segments within the ride." locIndex="34" />
+            <textevent timeoffset="90" message="The segments will be clearly marked, and include a sprint, a short climb and a longer climb." locIndex="35" />
+            <textevent timeoffset="100" message="The segments challenge different physiological systems. The sprint is anaerobic, the short climb is a Vo2 effort..." locIndex="36" />
+            <textevent timeoffset="110" message="and the long climb is your aerobic, or endurance system." locIndex="37" />
+            <textevent timeoffset="120" message="These are the essential areas that you train to improve your cycling power. " locIndex="38" />
+            <textevent timeoffset="130" message="Don&apos;t worry if you don&apos;t understand the terms yet, that&apos;s what the Academy is for!" locIndex="39" />
+            <textevent timeoffset="140" message="The Baseline and Finish Line Ride each have a short and long option. " locIndex="40" />
+            <textevent timeoffset="160" message="The long ride is A and B category, and and the short ride is C and D category." locIndex="41" />
+            <textevent timeoffset="170" message="You should do the same category/distance for both your Baseline and Finish Line Ride to get accurate results." locIndex="42" />
+            <textevent timeoffset="180" message="We&apos;re going up one last time in 10sec, let&apos;s finish this warm up strong!" locIndex="43" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.91">
+            <textevent timeoffset="0" message="Keep that cadence nice and smooth here - you&apos;re looking GREAT!" locIndex="44" />
+            <textevent timeoffset="30" message="Next, we have the Workouts! There are 6 Workouts, and they are designed to be completed in order." locIndex="45" />
+            <textevent timeoffset="40" message="Our World Class Coaches, Stephen and Dan from Dig Deep Coaching have designed the workouts to bring out your best." locIndex="46" />
+            <textevent timeoffset="50" message="The workouts are all under 1 hour, with most being 45-50 minutes." locIndex="47" />
+            <textevent timeoffset="60" message="They will train your anaerobic, Vo2 and aerobic power systems so you can crush those final Finish Line segments." locIndex="48" />
+            <textevent timeoffset="70" message="You can do the Workouts as a group workout, or you can do them individually whenever you like, by selecting them from the Workout Menu." locIndex="49" />
+            <textevent timeoffset="80" message="You&apos;ll find them in a Workout Folder titled, &apos;Zwift Academy Road 2021&apos;." locIndex="50" />
+            <textevent timeoffset="90" message="Be on the lookout for workout briefings to get the most out of our sessions." locIndex="51" />
+            <textevent timeoffset="120" message="To get the most out of your workout program, we recommend that you start with an accurate FTP, or Functional Threshold Power." locIndex="52" />
+            <textevent timeoffset="130" message="Your FTP is your predicted (estimate) highest sustainable avg power which you can hold for ~40-70min." locIndex="53" />
+            <textevent timeoffset="140" message="You can set your FTP automatically by doing a short FTP test or Ramp test in the workout menu before you start Zwift Academy Road." locIndex="54" />
+            <textevent timeoffset="150" message="30sec to go!" locIndex="55" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.55">
+            <textevent timeoffset="0" message="Great work! That&apos;s it for today&apos;s warmup. Let&apos;s take a few minute easy now before we move on." locIndex="56" />
+            <textevent timeoffset="30" message="In addition to the 6 Workouts, you&apos;ll also complete 2 Recovery Rides." locIndex="57" />
+            <textevent timeoffset="40" message="These are social, 45 min group rides to spin the legs after you do the hard work. Recovery is an essential part of training!" locIndex="58" />
+            <textevent timeoffset="50" message="You&apos;ll find the Zwift Academy Road Recovery Rides in the event menu and you can sign up in advance on Zwift Companion or the Zwift Academy website." locIndex="59" />
+            <textevent timeoffset="60" message="We recommend that you do a Recovery Ride after 3 workouts, but as long as you complete 2, you can fit them in when it works." locIndex="60" />
+            <textevent timeoffset="70" message="Let&apos;s talk about progress!" locIndex="61" />
+            <textevent timeoffset="80" message="You can keep track of your Zwift Academy Road progress in the Zwift Companion App or on the website." locIndex="62" />
+            <textevent timeoffset="90" message="You&apos;ll see which events you&apos;ve completed, which events you still need to check off to graduate, and you can keep tabs on your exciting unlocks." locIndex="63" />
+            <textevent timeoffset="100" message="You can also schedule your next Zwift Academy Road event on the website or in the Zwift Companion App." locIndex="64" />
+            <textevent timeoffset="110" message="If you put the work in, you deserve some results." locIndex="65" />
+            <textevent timeoffset="120" message="Once you complete that Finish Line Ride, you&apos;ll be able to compare your segment times from your Baseline Ride to see where you improved..." locIndex="66" />
+            <textevent timeoffset="130" message="and what your strengths and limiters are." locIndex="67" />
+            <textevent timeoffset="140" message="We&apos;ll follow that up with some additional information on how to read your results and what to do next in Zwift to hone your strengths and work on your limiters." locIndex="68" />
+            <textevent timeoffset="150" message="Now that&apos;s training!" locIndex="69" />
+            <textevent timeoffset="160" message="Up next, I want you to experience working at low-cadence in prep for the Academy." locIndex="70" />
+            <textevent timeoffset="170" message="We&apos;ll start off at 90 RPM before bringing the RPM down." locIndex="71" />
+        </SteadyState>
+        <IntervalsT Repeat="1" OnDuration="120" OnPower="0.7" OffDuration="30" OffPower="1.05" Cadence="90" CadenceResting="70">
+            <textevent timeoffset="0" message="Keep the cadence right around 90 RPM here. Zwift will give you a +/- 5 RPM band to move within." locIndex="72" />
+            <textevent timeoffset="10" message="So, if you go below 85 RPM, or above 95 RPM, it will give you a reminder to get back in range." locIndex="73" />
+            <textevent timeoffset="30" message="Do you think you have what it takes to go pro?" locIndex="74" />
+            <textevent timeoffset="40" message="Zwift Academy Road is also a talent ID program, and 2 riders, 1 woman and 1 man..." locIndex="75" />
+            <textevent timeoffset="50" message="will win a pro contract with CANYON//SRAM Racing and Team Alpecin-Fenix." locIndex="76" />
+            <textevent timeoffset="60" message="To go for the contract, make sure you read all the information on the Zwift Academy website carefully." locIndex="77" />
+            <textevent timeoffset="70" message="There are 2 additional events for pro hopefuls, a TT race and an Elite workout that both need to be completed by Oct 1." locIndex="78" />
+            <textevent timeoffset="90" message="You also need to connect a Today&apos;s Plan account at the start of the Academy in order to be officially in contention for the pro contract." locIndex="79" />
+            <textevent timeoffset="100" message="The account is free for all Zwift Academy Road participants for the duration of the Academy. More info on the Zwift Academy Road website." locIndex="80" />
+            <textevent timeoffset="110" message="Also, remember to wear your heart rate monitor every step of the way." locIndex="81" />
+            <textevent timeoffset="120" message="I want you to drop your cadence down to 70 RPM as we up the power." locIndex="82" />
+            <textevent timeoffset="130" message="Slow the cadence down and let&apos;s put a little more torque through those legs." locIndex="83" />
+            <textevent timeoffset="140" message="Do you feel how the trainer will &apos;bite&apos; down a bit more with low-cadence work?" locIndex="84" />
+            <textevent timeoffset="150" message="10sec and you&apos;re there!" locIndex="85" />
+        </IntervalsT>
+        <SteadyState Duration="60" Power="0.55">
+            <textevent timeoffset="0" message="Excellent work! Let&apos;s take a minute easy now, then we&apos;ll do a high-cadence experience to finish the day." locIndex="86" />
+            <textevent timeoffset="30" message="Focus on your breathing during the recoveries between intervals." locIndex="87" />
+            <textevent timeoffset="40" message="Take a deep breath in through your nose, then out through pursed lips." locIndex="88" />
+            <textevent timeoffset="50" message="Okay, we&apos;re back on again in 10sec. Starting off at 90 RPM again." locIndex="89" />
+        </SteadyState>
+        <IntervalsT Repeat="1" OnDuration="120" OnPower="0.7" OffDuration="30" OffPower="1.05" Cadence="90" CadenceResting="105">
+            <textevent timeoffset="0" message="Get right back to that familiar cadence again here, same rhythm as before." locIndex="90" />
+            <textevent timeoffset="60" message="Great work! That&apos;s halfway." locIndex="91" />
+            <textevent timeoffset="90" message="In 30sec, we&apos;re going to raise the cadence up to 105 RPM." locIndex="92" />
+            <textevent timeoffset="100" message="During high-cadence efforts, focus on your form and try to not bounce or lurch back and forth in the saddle." locIndex="93" />
+            <textevent timeoffset="110" message="Get ready!" locIndex="94" />
+            <textevent timeoffset="120" message="GO GO GO! Bring the cadence up!" locIndex="95" />
+            <textevent timeoffset="130" message="I don&apos;t want any bouncing in the saddle here!" locIndex="96" />
+            <textevent timeoffset="140" message="10sec and you&apos;re there!" locIndex="97" />
+        </IntervalsT>
+        <Cooldown Duration="240" PowerHigh="0.45" PowerLow="0.65">
+            <textevent timeoffset="0" message="Ok, you&apos;ve officially started your prep work for this year&apos;s Academy. Well done!" locIndex="98" />
+            <textevent timeoffset="10" message="Hopefully you get a feel for how it is working at comfortable, slow, and also fast cadences." locIndex="99" />
+            <textevent timeoffset="20" message="These will be key to your success in this year&apos;s Academy." locIndex="100" />
+            <textevent timeoffset="60" message="Head over to zwift.com/academy for more information. " locIndex="101" />
+            <textevent timeoffset="180" message="Great work today. Zwift Academy Road had over 150,000 participants last year. " locIndex="102" />
+            <textevent timeoffset="190" message="You don&apos;t want to miss this. Believe us, training together is better." locIndex="103" />
+            <textevent timeoffset="210" message="Are you ready to GET AFTER IT?" locIndex="104" />
+            <textevent timeoffset="220" message="Class starts August 30th. You got this." locIndex="105" />
+            <textevent timeoffset="230" message="Ride On!" locIndex="106" />
+        </Cooldown>
+    </workout>
+</workout_file>

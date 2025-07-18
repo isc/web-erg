@@ -1,0 +1,96 @@
+<workout_file>
+    <uniqueId>b4b23c2c-2de4-4440-aaec-59d86be7135f</uniqueId>
+    <legacyIdHash>1858533213</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Phase 4.7 - Steady Climbing</name>
+    <description>Today&apos;s session focuses on simulating the demands of extended climbing. The climb starts at the lower end of zone 3 and finishes in zone 4. But you will be targeting a cadence similar to climbing.
+
+When performing the 4 x 8min intervals, position yourself on the bike as you would climbing seated.</description>
+    <sportType>bike</sportType>
+    <category>L&apos;Etape du Tour Training Club</category>
+    <subcategory>Phase 4</subcategory>
+    <visibleAfterTime>1560470400</visibleAfterTime>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.5" PowerHigh="0.75" pace="1481003871">
+            <textevent timeoffset="10" message="The aim today is to simulate the demands of climbing." locIndex="1" />
+            <textevent timeoffset="26" message="However, each interval has a different target cadence." locIndex="2" />
+            <textevent timeoffset="50" message="The power is the same for each interval. So take note of which cadence feels most comfortable for you." locIndex="3" />
+        </Warmup>
+        <SteadyState Duration="60" Power="0.5" pace="1481003871">
+            <textevent timeoffset="09" message="1min at zone 5 to warm up." locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.1044999" pace="1481003871" />
+        <SteadyState Duration="60" Power="0.5" pace="1481003871">
+            <textevent timeoffset="50" message="Just a little threshold effort to complete your warm up." locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.94999999" pace="1481003871">
+            <textevent timeoffset="10" message="3min in zone 4 won&apos;t bother you." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.5" pace="1481003871">
+            <textevent timeoffset="30" message="The target cadence for the intervals is 70rpm" locIndex="7" />
+            <textevent timeoffset="50" message="Remember to aim for the target cadence and let the trainer adjust the power." locIndex="8" />
+        </SteadyState>
+        <Ramp Duration="480" PowerLow="0.76449996" PowerHigh="0.92449993" pace="1481003871" Cadence="70">
+            <textevent timeoffset="08" message="Go straight for the target cadence." locIndex="9" />
+            <textevent timeoffset="20" message="Let the smart trainer adjust the power." locIndex="10" />
+            <textevent timeoffset="90" message="Position yourself on the bike as you would climbing." locIndex="11" />
+            <textevent timeoffset="150" message="Relax your hands on the bars." locIndex="12" />
+            <textevent timeoffset="210" message="How does the lower cadence feel?" locIndex="13" />
+            <textevent timeoffset="280" message="Getting up into zone 4 power now." locIndex="14" />
+            <textevent timeoffset="340" message="Today is also about being able to repeat quality climbing efforts." locIndex="15" />
+            <textevent timeoffset="400" message="Everyone is good on the first climb. We want you good on the last!" locIndex="16" />
+            <textevent timeoffset="420" message="Into the last minute." locIndex="17" />
+        </Ramp>
+        <SteadyState Duration="180" Power="0.55000001" pace="1481003871">
+            <textevent timeoffset="10" message="Plenty of recovery time today." locIndex="18" />
+            <textevent timeoffset="100" message="The aim is to complete quality work with full recovery." locIndex="19" />
+            <textevent timeoffset="160" message="For the next interval the target cadence is 75." locIndex="20" />
+        </SteadyState>
+        <Ramp Duration="480" PowerLow="0.76449996" PowerHigh="0.92449993" pace="1481003871" Cadence="75">
+            <textevent timeoffset="10" message="Go straight for the target cadence." locIndex="21" />
+            <textevent timeoffset="30" message="Let the smart trainer adjust the power." locIndex="22" />
+            <textevent timeoffset="90" message="Sit on the back of the saddle with your hands on top of the bars." locIndex="23" />
+            <textevent timeoffset="150" message="Relax your hands on the bars." locIndex="24" />
+            <textevent timeoffset="210" message="How does the increase in cadence feel?" locIndex="25" />
+            <textevent timeoffset="280" message="Getting up into zone 4 power now." locIndex="26" />
+            <textevent timeoffset="340" message="There will be long periods of zone 3 climbing in L&apos;Etape du Tour de France." locIndex="27" />
+            <textevent timeoffset="400" message="Everyone is good on the first climb. We want you good on the last!" locIndex="28" />
+            <textevent timeoffset="420" message="Into the last minute." locIndex="29" />
+        </Ramp>
+        <SteadyState Duration="180" Power="0.55000001" pace="1481003871">
+            <textevent timeoffset="10" message="2 down, 2 to go!" locIndex="30" />
+            <textevent timeoffset="160" message="For the next interval the target cadence is 80." locIndex="31" />
+        </SteadyState>
+        <Ramp Duration="480" PowerLow="0.75999999" PowerHigh="0.92000002" pace="1481003871" Cadence="80">
+            <textevent timeoffset="06" message="Go straight for the target cadence." locIndex="32" />
+            <textevent timeoffset="30" message="Let the smart trainer adjust the power." locIndex="33" />
+            <textevent timeoffset="90" message="Sit on the back of the saddle with your hands on top of the bars." locIndex="34" />
+            <textevent timeoffset="150" message="Control you&apos;re breathing. Nice and relaxed deep breaths." locIndex="35" />
+            <textevent timeoffset="210" message="How does the increase in cadence feel?" locIndex="36" />
+            <textevent timeoffset="280" message="Getting up into zone 4 power now." locIndex="37" />
+            <textevent timeoffset="340" message="There will be long periods of zone 3 climbing in L&apos;Etape du Tour de France." locIndex="38" />
+            <textevent timeoffset="420" message="Into the last minute." locIndex="39" />
+        </Ramp>
+        <SteadyState Duration="180" Power="0.55000001" pace="1481003871">
+            <textevent timeoffset="105" message="Last one coming up." locIndex="40" />
+            <textevent timeoffset="160" message="This time you are free to self select your cadence." locIndex="41" />
+        </SteadyState>
+        <Ramp Duration="480" PowerLow="0.76449996" PowerHigh="0.92449993" pace="1481003871">
+            <textevent timeoffset="50" message="What cadence have you found yourself riding at?" locIndex="42" />
+            <textevent timeoffset="70" message="Keep this in mind for the very long climbs you will face in L&apos;Etape du Tour de France." locIndex="43" />
+            <textevent timeoffset="280" message="Getting up into zone 4 power now." locIndex="44" />
+            <textevent timeoffset="340" message="There will be long periods of zone 3 climbing in L&apos;Etape du Tour de France." locIndex="45" />
+            <textevent timeoffset="400" message="Today is also a big block of zone 3 and 4 work. 32min total" locIndex="46" />
+            <textevent timeoffset="420" message="Into the last minute." locIndex="47" />
+        </Ramp>
+        <SteadyState Duration="300" Power="0.50590998" pace="1481003871">
+            <textevent timeoffset="10" message="Great session." locIndex="48" />
+            <textevent timeoffset="40" message="That&apos;s the final L&apos;Etape du Tour de France workout complete. You&apos;ve done well to complete all 4 phases and 28 workouts." locIndex="49" />
+            <textevent timeoffset="75" message="The training has been done, and you are prepared to tackle the 15,000ft of climbing at L&apos;Etape du Tour de France, July 21." locIndex="50" />
+            <textevent timeoffset="95" message="Not going? We&apos;re having an in-game L&apos;Etape du Tour de France event on July 21, although not as long but still challenging." locIndex="51" />
+            <textevent timeoffset="115" message="Complete the in-game event, and unlock the exclusive Rapha x L&apos;Etape du Tour kit. The same that you can buy in real life." locIndex="52" />
+            <textevent timeoffset="140" message="Once again, you&apos;ve done great and crushed this workout series." locIndex="53" />
+            <textevent timeoffset="1550" message="Time to over-achieve. Good luck in France. Ride On!" locIndex="54" />
+        </SteadyState>
+    </workout>
+</workout_file>

@@ -1,0 +1,19 @@
+<workout_file>
+    <uniqueId>cf1344ab-e339-434c-91f8-816ac1f6bebd</uniqueId>
+    <legacyIdHash>1026372283</legacyIdHash>
+    <category>Hunter&apos;s Challenge</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 2</subcategory>
+    <name>Week 2.4 - Tractor Pulls!</name>
+    <description>Tractor Pulls help to build muscular strength and even improve your sprint!</description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.5" PowerHigh="0.65" />
+        <SteadyState Duration="300" Power="0.95" />
+        <SteadyState Duration="300" Power="0.87" />
+        <IntervalsT OnDuration="30" OffDuration="120" OnPower="1.60" OffPower="0.87" Repeat="10" />
+        <SteadyState Duration="300" Power="0.87" />
+        <IntervalsT OnDuration="60" OffDuration="60" OnPower="1.6" OffPower="0.87" Repeat="5" Cadence="105" CadenceResting="85" />
+        <Cooldown PowerLow="0.72" PowerHigh=".55" Duration="600" />
+    </workout>
+</workout_file>

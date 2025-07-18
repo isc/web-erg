@@ -1,0 +1,81 @@
+<workout_file>
+    <uniqueId>6684e727-27f5-4909-8e5e-8bbce96f8084</uniqueId>
+    <legacyIdHash>1884230550</legacyIdHash>
+    <author>Shayne Gaffney | GC Coaching</author>
+    <categoryOverride>30 minutes to burn</categoryOverride>
+    <name>Renewal</name>
+    <description>Recovery. Regeneration. Renewal. It is just as important at the hard stuff. Fast cadence efforts facilitate flushing the legs without fatiguing them. Today is an active recovery day, NO HARD EFFORTS!</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Build Me Up</category>
+    <subcategory>Week 12</subcategory>
+    <tags>
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.25" PowerHigh="0.5">
+            <textevent timeoffset="0" message="Good old rest and recovery days :-) ..." locIndex="1" />
+            <textevent timeoffset="10" message="...SUPER light and low key day today, just get those legs spinning for now" locIndex="2" />
+        </Warmup>
+        <SteadyState Duration="300" Power="0.5" Cadence="95">
+            <textevent timeoffset="0" message="Now steady it for a bit at 50% FTP, keep that pedaling fast and light here..." locIndex="3" />
+            <textevent timeoffset="10" message="...Aim for 95+ RPM to really flush those legs..." locIndex="4" />
+            <textevent timeoffset="20" message="...Today&apos;s workout is, as previously stated, very low key and meant to be used as an active recovery day..." locIndex="5" />
+            <textevent timeoffset="30" message="...This, of course, means NOTHING HARD today..." locIndex="6" />
+            <textevent timeoffset="40" message="...Let the other riders pass you, don&apos;t pay any attention to the races, just focus on freshening up those legs again..." locIndex="7" />
+            <textevent timeoffset="50" message="...Your big goal this week is to CRUSH the FTP test...That&apos;s it!" locIndex="8" />
+            <textevent timeoffset="60" message="...Spend the next few minutes just spinning out the legs, then we will get into some higher cadence work." locIndex="9" />
+            <textevent timeoffset="260" message="Coming up, we are going to do a few fast cadence efforts to continue to loosen those muscles up, BUT NOT FATIGUE THEM..." locIndex="10" />
+            <textevent timeoffset="270" message="...We start at 1 minute steady at 100 RPM, then ramp up to the high end of Z2 at 110+ RPM for 30 seconds..." locIndex="11" />
+            <textevent timeoffset="280" message="...We will spend more time at Z1 between focusing on keeping that cadence light and quick..." locIndex="12" />
+            <textevent timeoffset="290" message="...Get ready, start bringing up that cadence to 100+ RPM..." locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.6" Cadence="100">
+            <textevent timeoffset="0" message="All right, just a bit more effort now, really quick feet here." locIndex="14" />
+            <textevent timeoffset="50" message="In 10 seconds, get ready to bring that cadence up to 110+ RPM and slightly ramp up the effort..." locIndex="15" />
+        </SteadyState>
+        <Ramp Duration="30" PowerLow="0.6" PowerHigh="0.7">
+            <textevent timeoffset="0" message="...QUICK FEET!  No bouncing in that saddle though." locIndex="16" />
+        </Ramp>
+        <SteadyState Duration="300" Power="0.5" Cadence="95">
+            <textevent timeoffset="0" message="Good work!  We are going to do a few more of those..." locIndex="17" />
+            <textevent timeoffset="10" message="...For the next little bit though, back to super light and quick spinning :-)" locIndex="18" />
+            <textevent timeoffset="290" message="We are going into another fast cadence effort in 10 seconds, start spinning those legs up to 100+ RPM again..." locIndex="19" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.6" Cadence="100">
+            <textevent timeoffset="0" message="All right, just a bit more effort now, really quick feet here." locIndex="20" />
+            <textevent timeoffset="50" message="In 10 seconds, get ready to bring that cadence up to 110+ RPM and slightly ramp up the effort..." locIndex="21" />
+        </SteadyState>
+        <Ramp Duration="30" PowerLow="0.6" PowerHigh="0.7">
+            <textevent timeoffset="0" message="...QUICK FEET!  No bouncing in that saddle though." locIndex="22" />
+        </Ramp>
+        <SteadyState Duration="240" Power="0.5" Cadence="95">
+            <textevent timeoffset="0" message="Good work!  We are going to do a few more of those..." locIndex="23" />
+            <textevent timeoffset="10" message="...For the next little bit though, back to super light and quick spinning :-)" locIndex="24" />
+            <textevent timeoffset="230" message="We are going into another fast cadence effort in 10 seconds, start spinning those legs up to 100+ RPM again..." locIndex="25" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.6" Cadence="100">
+            <textevent timeoffset="0" message="All right, just a bit more effort now, really quick feet here." locIndex="26" />
+            <textevent timeoffset="50" message="In 10 seconds, get ready to bring that cadence up to 110+ RPM and slightly ramp up the effort..." locIndex="27" />
+        </SteadyState>
+        <Ramp Duration="30" PowerLow="0.6" PowerHigh="0.7">
+            <textevent timeoffset="0" message="...QUICK FEET!  No bouncing in that saddle though." locIndex="28" />
+        </Ramp>
+        <SteadyState Duration="180" Power="0.5" Cadence="95">
+            <textevent timeoffset="0" message="Good work!  We are going to do a few more of those..." locIndex="29" />
+            <textevent timeoffset="10" message="...For the next little bit though, back to super light and quick spinning :-)" locIndex="30" />
+            <textevent timeoffset="290" message="We are going into another fast cadence effort in 10 seconds, start spinning those legs up to 100+ RPM again..." locIndex="31" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.6" Cadence="100">
+            <textevent timeoffset="0" message="All right, just a bit more effort now, really quick feet here." locIndex="32" />
+            <textevent timeoffset="50" message="In 10 seconds, get ready to bring that cadence up to 110+ RPM and slightly ramp up the effort..." locIndex="33" />
+        </SteadyState>
+        <Ramp Duration="30" PowerLow="0.6" PowerHigh="0.7">
+            <textevent timeoffset="0" message="...QUICK FEET!  No bouncing in that saddle though." locIndex="34" />
+        </Ramp>
+        <Cooldown Duration="120" PowerLow="0.5" PowerHigh="0.25">
+            <textevent timeoffset="0" message="Beauty!  Great work today, my friend..." locIndex="35" />
+            <textevent timeoffset="10" message="...Keep on spinning lightly for the next couple of minutes..." locIndex="36" />
+            <textevent timeoffset="20" message="...See you next time :-)" locIndex="37" />
+        </Cooldown>
+    </workout>
+</workout_file>

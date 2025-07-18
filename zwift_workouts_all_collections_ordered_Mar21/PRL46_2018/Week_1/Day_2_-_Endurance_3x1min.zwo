@@ -1,0 +1,55 @@
+<workout_file>
+    <uniqueId>7b2de128-9975-420d-a085-a514fc36a936</uniqueId>
+    <legacyIdHash>1800148443</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>2018 PRL46 Prep</category>
+    <subcategory>Week 1</subcategory>
+    <name>Week 1.2 - Endurance + 3x1min</name>
+    <description>After warming up, the aim today is to complete 3 x 1 minute maximal efforts. 
+
+The body of the session is all &apos;free-ride&apos;, however you will be prompted when to perform the 1 minutes efforts. 
+
+It doesn&apos;t matter if the terrain is uphill or downhill. Just like when riding outdoors, it&apos;s good to have some variety in these efforts.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS" />
+    </tags>
+    <workout>
+        <Warmup Duration="360" PowerLow="0.5" PowerHigh="0.69999999" pace="0">
+            <textevent timeoffset="20" message="Complete 3 x 6sec high cadence surges during warm up." locIndex="1" />
+        </Warmup>
+        <SteadyState Duration="60" Power="0.56" pace="0">
+            <textevent timeoffset="50" message="1min above threshold to help you warmup" locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.09" pace="0" />
+        <SteadyState Duration="120" Power="0.56999999" pace="0" />
+        <SteadyState Duration="240" Power="0.89999998" pace="0" />
+        <SteadyState Duration="180" Power="0.56999999" pace="0" />
+        <FreeRide Duration="480" FlatRoad="0">
+            <textevent timeoffset="450" message="Ready for 1 minute @ max." locIndex="3" />
+            <textevent timeoffset="470" message="Aim to keep power steady throughout the effort." locIndex="4" />
+        </FreeRide>
+        <FreeRide Duration="60" FlatRoad="1">
+            <textevent timeoffset="10" message="Aim to hold a steady power throughout the effort." locIndex="5" />
+        </FreeRide>
+        <FreeRide Duration="480" FlatRoad="0">
+            <textevent timeoffset="450" message="Ready for 1 minute @ max." locIndex="6" />
+            <textevent timeoffset="470" message="Aim to keep power steady throughout the effort." locIndex="7" />
+        </FreeRide>
+        <FreeRide Duration="60" FlatRoad="1">
+            <textevent timeoffset="10" message="Aim to hold a steady power throughout the effort." locIndex="8" />
+        </FreeRide>
+        <FreeRide Duration="480" FlatRoad="0">
+            <textevent timeoffset="450" message="Ready for 1 minute @ max." locIndex="9" />
+            <textevent timeoffset="470" message="Aim to keep power steady throughout the effort." locIndex="10" />
+        </FreeRide>
+        <FreeRide Duration="60" FlatRoad="1">
+            <textevent timeoffset="10" message="Aim to hold a steady power throughout the effort." locIndex="11" />
+        </FreeRide>
+        <FreeRide Duration="300" FlatRoad="0">
+            <textevent timeoffset="20" message="That was great. Well done." locIndex="12" />
+        </FreeRide>
+        <Cooldown Duration="240" PowerLow="0.69999999" PowerHigh="0.5" pace="0" />
+    </workout>
+</workout_file>

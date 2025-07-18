@@ -1,0 +1,142 @@
+<workout_file>
+    <uniqueId>df348c87-b930-4835-a200-59ea2728ebd2</uniqueId>
+    <legacyIdHash>4049372519</legacyIdHash>
+    <author>Sean Jefferson</author>
+    <categoryOverride>Sweet Spot</categoryOverride>
+    <name>Women&apos;s Team Workout</name>
+    <activitySaveName>Zwift Pro Training Camp: Movistar | Women&apos;s Team Workout</activitySaveName>
+    <description>For the first day of training camp with UCI WorldTour team Movistar we are going to start with low torque efforts, to build cycling specific strength contrasted with high cadence recoveries to get improvements in your pedal stroke. The Main set is 2 rounds, the 1st round is 4 x 2 min low cadence efforts at 80% of FTP followed by 4 min recovery at 100 rpms. The 2nd round is 4 x 3 min low cadence efforts at 80% of FTP, followed by 4 min at 100 rpms for recovery.</description>
+    <sportType>bike</sportType>
+    <category>Pro Training Camp | Movistar</category>
+    <categoryIndex>1</categoryIndex>
+    <visibleAfterTime>1671408060</visibleAfterTime>
+    <overrideHash>4049372519</overrideHash>
+    <tags>
+        <tag name="zprotraining" />
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow=".4" PowerHigh=".8">
+            <textevent timeoffset="0" message="Welcome to Zwift and Movistar&apos;s pro training camp!" locIndex="1" />
+            <textevent timeoffset="10" message="We&apos;ve got a great workout from the &apos;Blues&apos; women&apos;s team to kick off camp." locIndex="2" />
+            <textevent timeoffset="30" message="Movistar&apos;s women&apos;s team has progressed a lot in the last 5 years and now ranks as one of UCI WorldTours top teams with over 50 professional victories." locIndex="3" />
+            <textevent timeoffset="40" message="Team leader Annemeik Van Vlueten captured their first yellow jersey for the women&apos;s team in the 2022 Tour de France Femmes Avec Zwift." locIndex="4" />
+            <textevent timeoffset="120" message="Today&apos;s workout is a perfect start to camp with some low cadence efforts contrasted with high cadence recoveries." locIndex="5" />
+            <textevent timeoffset="130" message="The main set is broken into 2 blocks of work with each block ending with 4 min at high cadence." locIndex="6" />
+            <textevent timeoffset="140" message="The 1st block is 4 x 2 min at 80% of FTP and 60 rpms." locIndex="7" />
+            <textevent timeoffset="150" message="The 2nd block is 4 x 3 min at 80% of FTP again at 60 rpms." locIndex="8" />
+            <textevent timeoffset="160" message="Each of the blocks of low cadence finishes with a 4 min spin off at 100 rpms." locIndex="9" />
+            <textevent timeoffset="180" message="The low cadence work builds cycling specific strength, while the high cadence recoveries improves leg coordination and pedaling efficiency." locIndex="10" />
+            <textevent timeoffset="190" message="Alright now that the logistics are out of the way let&apos;s continue on with warm up." locIndex="11" />
+            <textevent timeoffset="200" message="Pick a comfortable cadence and settle in as we slowly ramp up your effort." locIndex="12" />
+            <textevent timeoffset="210" message="This is a progressive warm up that will finish at 80% of FTP, right smack in the middle of zone 3." locIndex="13" />
+            <textevent timeoffset="220" message="You will be nicely tuned up for the 2 blocks of work." locIndex="14" />
+            <textevent timeoffset="240" message="Pro tip! Always keep a bottle of water near by when training, especially while riding indoors - the lack of airflow can make it hot!" locIndex="15" />
+            <textevent timeoffset="250" message="Get yourself a high powered fan, it makes a world of difference." locIndex="16" />
+            <textevent timeoffset="260" message="Music is scientifically proven to improve performance. It helps get you through the dark spots during sessions." locIndex="17" />
+            <textevent timeoffset="270" message="Fuel, it&apos;s always best to test your nutrition during training before taking it to the race. This is a great place to test out some options." locIndex="18" />
+            <textevent timeoffset="300" message="Turn up the music and get lost in the sights of Watopia for the next few minutes. I will check back in before we finish warm up." locIndex="19" />
+            <textevent timeoffset="480" message="Nice work, stay relaxed as we finish this warm up block at tempo effort." locIndex="20" />
+            <textevent timeoffset="580" message="Keep pressing, you&apos;ve got 2 min recovery up next." locIndex="21" />
+        </Warmup>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="0" message="Nice job, feeling warmed up?" locIndex="22" />
+            <textevent timeoffset="10" message="Good! We start the low cadence work next." locIndex="23" />
+            <textevent timeoffset="20" message="Use these next few minutes to relax, grab a drink, towel off and prepare for the main set." locIndex="24" />
+            <textevent timeoffset="100" message="Reminder, the first block of work is 2 min at 60 rpms." locIndex="25" />
+            <textevent timeoffset="110" message="Let&apos;s go get stronger." locIndex="26" />
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="120" OnPower="0.8" OffDuration="40" OffPower="0.45" Cadence="60" CadenceResting="65">
+            <textevent timeoffset="0" message="Slow it down." locIndex="27" />
+            <textevent timeoffset="10" message="If you&apos;re using ERG mode slow your pedal stroke to 60 rpms and let the resistance build up." locIndex="28" />
+            <textevent timeoffset="20" message="If you are not using ERG mode shift into your big ring and find a gear that allows you to hit 60 rpms and the target power." locIndex="29" />
+            <textevent timeoffset="30" message="Now let&apos;s work! Slow and steady." locIndex="30" />
+            <textevent timeoffset="40" message="Feel a solid connection to the pedals, keep the pressure on throughout your pedal stroke." locIndex="31" />
+            <textevent timeoffset="60" message="Halfway there, keep it rolling." locIndex="32" />
+            <textevent timeoffset="110" message="40sec recovery up next, cadence stays low, but power drops significantly." locIndex="33" />
+            <textevent timeoffset="120" message="Nice and easy, bump your cadence up to 65 for this recovery." locIndex="34" />
+            <textevent timeoffset="130" message="Use the recoveries as an opportunity to drink." locIndex="35" />
+            <textevent timeoffset="150" message="Back on it in 10, 9, 8, 7..." locIndex="36" />
+            <textevent timeoffset="160" message="Back down to 60 rpms. You want to feel the tension build in your quads and glutes." locIndex="37" />
+            <textevent timeoffset="180" message="Riding at lower rpms requires more muscle fibers to be activated." locIndex="38" />
+            <textevent timeoffset="190" message="The more you train and activate these muscle fibers the more they will support when riding at higher power." locIndex="39" />
+            <textevent timeoffset="280" message="Power off, these are short recoveries." locIndex="40" />
+            <textevent timeoffset="320" message="Back on the grind!" locIndex="41" />
+            <textevent timeoffset="330" message="Slow and steady circles." locIndex="42" />
+            <textevent timeoffset="340" message="As your legs are grinding away take notice of your upper body." locIndex="43" />
+            <textevent timeoffset="350" message="What&apos;s it doing? Are you shaking and wobbling? See if you can relax your neck, shoulders, arms and grip on the bars. Let your legs do the work." locIndex="44" />
+            <textevent timeoffset="380" message="Final minute, keep it cool!" locIndex="45" />
+            <textevent timeoffset="440" message="The pressure comes off." locIndex="46" />
+            <textevent timeoffset="460" message="Grab a quick drink and towel off." locIndex="47" />
+            <textevent timeoffset="480" message="Back to it! Final low cadence effort in this block." locIndex="48" />
+            <textevent timeoffset="500" message="Looking smooth!" locIndex="49" />
+            <textevent timeoffset="520" message="Keep up the good work! You are getting stronger with every passing minute." locIndex="50" />
+            <textevent timeoffset="580" message="Finish strong!" locIndex="51" />
+            <textevent timeoffset="600" message="Great job, easy effort up next, but shifting into high cadence work." locIndex="52" />
+            <textevent timeoffset="630" message="100 rpms up next!" locIndex="53" />
+        </IntervalsT>
+        <SteadyState Duration="240" Power="0.55" Cadence="100">
+            <textevent timeoffset="0" message="This is where the contrast comes in!" locIndex="54" />
+            <textevent timeoffset="10" message="Spin it up to 100 rpms. Use the next few minutes to experiment with your pedal stroke to reduce any bouncing in the saddle." locIndex="55" />
+            <textevent timeoffset="30" message="Can you reduce any dead spots by pressing over the top of your pedal stroke?" locIndex="56" />
+            <textevent timeoffset="40" message="Or by scraping back and up from the bottom of your stroke." locIndex="57" />
+            <textevent timeoffset="50" message="Keep your upper body as still as a statue, while those legs spin away!" locIndex="58" />
+            <textevent timeoffset="80" message="Quick drink, but don&apos;t let the cadence drop." locIndex="59" />
+            <textevent timeoffset="120" message="Keep those feet moving, you&apos;re halfway there." locIndex="60" />
+            <textevent timeoffset="180" message="Final minute, keep working on smoothing out your pedals stroke." locIndex="61" />
+            <textevent timeoffset="220" message="We are back to low cadence next. This time it&apos;s 3 min at 80% of FTP and 60 rpms." locIndex="62" />
+            <textevent timeoffset="230" message="Let&apos;s get back to work!" locIndex="63" />
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="180" OnPower="0.8" OffDuration="40" OffPower="0.45" Cadence="60" CadenceResting="65">
+            <textevent timeoffset="0" message="You know the pattern, we&apos;ve added an extra minute this round for extra strength!" locIndex="64" />
+            <textevent timeoffset="20" message="Slow and steady, let your major muscle groups do the work." locIndex="65" />
+            <textevent timeoffset="60" message="You&apos;re rolling! Keep up the good work." locIndex="66" />
+            <textevent timeoffset="120" message="Looking really strong." locIndex="67" />
+            <textevent timeoffset="160" message="Nice work, keep those pedals turning!" locIndex="68" />
+            <textevent timeoffset="180" message="Ease off." locIndex="69" />
+            <textevent timeoffset="200" message="Quick drink, we&apos;re back to work soon." locIndex="70" />
+            <textevent timeoffset="220" message="Get rolling again." locIndex="71" />
+            <textevent timeoffset="240" message="Nice and controlled effort." locIndex="72" />
+            <textevent timeoffset="300" message="During low cadence work you might notice your muscles fatigue before your cardiovascular system." locIndex="73" />
+            <textevent timeoffset="310" message="That is what we&apos;re after, recruiting and building leg strength." locIndex="74" />
+            <textevent timeoffset="360" message="Roll this effort all the way to the glowing arch!" locIndex="75" />
+            <textevent timeoffset="400" message="Let your legs recover." locIndex="76" />
+            <textevent timeoffset="420" message="Another few sips from your bottle." locIndex="77" />
+            <textevent timeoffset="440" message="Final 2 low cadence efforts for the day." locIndex="78" />
+            <textevent timeoffset="450" message="Let&apos;s make them count." locIndex="79" />
+            <textevent timeoffset="460" message="Focus on solid connection to your pedals, smooth and controlled torque all the way around the crankset!" locIndex="80" />
+            <textevent timeoffset="470" message="And don&apos;t forget a calm upper body." locIndex="81" />
+            <textevent timeoffset="500" message="2 min left! It takes focus more than effort." locIndex="82" />
+            <textevent timeoffset="560" message="Keep it together, you&apos;re doing great!" locIndex="83" />
+            <textevent timeoffset="620" message="Quick rest." locIndex="84" />
+            <textevent timeoffset="630" message="Last strength effort of the day coming up!" locIndex="85" />
+            <textevent timeoffset="680" message="Let it roll. Nice and smooth." locIndex="86" />
+            <textevent timeoffset="700" message="Relish in this opportunity to build strength with one of the best teams on the planet." locIndex="87" />
+            <textevent timeoffset="710" message="Practice perfect form. Knees directly over the pedals and working up and down like slow pistons." locIndex="88" />
+            <textevent timeoffset="720" message="Slow motion machinery pressing out perfect power." locIndex="89" />
+            <textevent timeoffset="800" message="Final minute, keep it rolling!" locIndex="90" />
+            <textevent timeoffset="850" message="Great job! You&apos;re nearly there." locIndex="91" />
+            <textevent timeoffset="860" message="Small recovery before we ramp up leg turnover." locIndex="92" />
+        </IntervalsT>
+        <SteadyState Duration="240" Power="0.55" Cadence="100">
+            <textevent timeoffset="0" message="The effort stays light, but those feet need to be moving!" locIndex="93" />
+            <textevent timeoffset="10" message="Fast feet and relaxed upper body." locIndex="94" />
+            <textevent timeoffset="20" message="No bouncing!" locIndex="95" />
+            <textevent timeoffset="60" message="This workout focuses on two important areas of cycling performance." locIndex="96" />
+            <textevent timeoffset="70" message="Low cadence for strength." locIndex="97" />
+            <textevent timeoffset="80" message="High Cadence for leg coordination." locIndex="98" />
+            <textevent timeoffset="90" message="Combining both kills two birds with one stone and improves your cycling skills." locIndex="99" />
+            <textevent timeoffset="180" message="Final minute, keep it moving!" locIndex="100" />
+            <textevent timeoffset="190" message="Don&apos;t let your cadence drop!" locIndex="101" />
+            <textevent timeoffset="230" message="Fast feet all the way to the line." locIndex="102" />
+        </SteadyState>
+        <Cooldown Duration="120" PowerHigh="0.4" PowerLow="0.5">
+            <textevent timeoffset="0" message="Nicely done! you can let your legs relax now." locIndex="103" />
+            <textevent timeoffset="10" message="Take the next two minutes to recover at a comfortable cadence, it&apos;s your choice now." locIndex="104" />
+            <textevent timeoffset="30" message="Thanks for joining the Blues for today&apos;s workout." locIndex="105" />
+            <textevent timeoffset="40" message="Each workout in the Movistar x Zwift pro training camp will focus on different types of cycling training." locIndex="106" />
+            <textevent timeoffset="50" message="Today was all about strength and pedaling efficiency." locIndex="107" />
+            <textevent timeoffset="60" message="Check out Movistar&apos;s individual rider workouts to get a glimpse of their training." locIndex="108" />
+            <textevent timeoffset="100" message="Until next time. Ride On!" locIndex="109" />
+        </Cooldown>
+    </workout>
+</workout_file>

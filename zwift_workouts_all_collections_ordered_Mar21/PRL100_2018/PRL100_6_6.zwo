@@ -1,0 +1,49 @@
+<workout_file>
+    <uniqueId>e4d7e97e-10c6-4a4c-8b2b-47f9c6713f91</uniqueId>
+    <legacyIdHash>1825128215</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Week 6.6 - Season Base #3</name>
+    <category>2018 PRL100 Prep</category>
+    <subcategory>Week 6</subcategory>
+    <description>A set of long intervals focused on endurance across a range of zones. Nothing fancy here, just long bouts of solid work here.</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <Warmup Duration="180" PowerLow="0.50449997" PowerHigh="0.50449997" pace="0">
+            <textevent timeoffset="111" message="Today&apos;s warm up leads straight into the 1st threshold effort." locIndex="1" />
+        </Warmup>
+        <IntervalsT Repeat="2" OnDuration="60" OffDuration="60" OnPower="0.95449996" OffPower="0.65449995" pace="0" />
+        <SteadyState Duration="120" Power="0.75449997" pace="0" />
+        <SteadyState Duration="360" Power="0.95449996" pace="0">
+            <textevent timeoffset="68" message="Self select your cadence for the threshold intervals." locIndex="2" />
+            <textevent timeoffset="176" message="We are looking to hold the same cadence for each interval." locIndex="3" />
+            <textevent timeoffset="295" message="Compare your finishing HR across all 5 threshold efforts." locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.55000001" pace="0" />
+        <SteadyState Duration="360" Power="0.94999999" pace="0">
+            <textevent timeoffset="303" message="What&apos;s your HR? Is it higher than the other intervals?" locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.55000001" pace="0" />
+        <SteadyState Duration="360" Power="0.94999999" pace="0" />
+        <SteadyState Duration="120" Power="0.55000001" pace="0">
+            <textevent timeoffset="80" message="2 more to go!" locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="360" Power="0.94999999" pace="0">
+            <textevent timeoffset="124" message="Is your cadence as high as the earlier efforts?" locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.55000001" pace="0" />
+        <SteadyState Duration="360" Power="0.94999999" pace="0">
+            <textevent timeoffset="294" message="How does your HR compare to the other efforts?" locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.55000001" pace="0">
+            <textevent timeoffset="73" message="Now for the tempo effort." locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="900" Power="0.85449994" pace="0">
+            <textevent timeoffset="68" message="This is where big gains in fitness are made." locIndex="10" />
+            <textevent timeoffset="193" message="You need to find the fuel to complete the effort." locIndex="11" />
+            <textevent timeoffset="472" message="Is your HR remaining steady? Or increasing?" locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.55449998" pace="0" />
+        <Cooldown Duration="300" PowerLow="0.75449997" PowerHigh="0.50449997" pace="0" />
+    </workout>
+</workout_file>

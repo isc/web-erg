@@ -1,0 +1,16 @@
+<workout_file>
+    <uniqueId>338dabae-4841-4929-88f4-b26b1ce18cf9</uniqueId>
+    <legacyIdHash>1120165014</legacyIdHash>
+    <name>Day 1 - Swim</name>
+    <description>Swim - 1000-1200 yds.
+Swim at an easy pace working on consistent arm turnover and building endurance</description>
+    <author>QT2</author>
+    <category>Olympic Tri Prep Plan</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 6</subcategory>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/QT2Systems_Logo.tga</authorIcon>
+    <sportType>swim</sportType>
+    <workoutLength>1800</workoutLength>
+    <workout> 
+  </workout>
+</workout_file>

@@ -1,0 +1,92 @@
+<workout_file>
+    <uniqueId>e5d80495-af9b-40ef-8fe9-95d64587e856</uniqueId>
+    <legacyIdHash>2788699121</legacyIdHash>
+    <author>D.Rowe (Rowe&amp;King)</author>
+    <categoryOverride>Daily Fit</categoryOverride>
+    <name>Week 6.1 - Spice of Life</name>
+    <description>This workout is fairly varied! As your power constantly ramps up and down, and your cadence changes frequently - this is a workout to keep you engaged and working towards improving your fitness. The max power you produce during the ramps is only 95% of your threshold, so you should be able to manage this workout on tired legs.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <tags />
+    <category>Back to Fitness</category>
+    <subcategory>Week 6</subcategory>
+    <workout>
+        <Warmup Duration="300" PowerHigh="1.05" PowerLow="0.4">
+            <textevent message="Welcome to Spice of Life" locIndex="1" timeoffset="10" />
+            <textevent message="This workout is part of the PowerUp Prep series designed by Dani Rowe and Kristin Armstrong" locIndex="2" timeoffset="25" />
+            <textevent message="This series is designed to build your fitness and prepare you for a more intense training program" locIndex="3" timeoffset="40" />
+            <textevent message="by providing you with 12 weeks of 30-45 minute structured workouts" locIndex="4" timeoffset="50" />
+            <textevent message="This workout series assumes a low level of current fitness - maybe you are starting out training, getting back on your bike after giving birth or maybe it&apos;s your return from injury" locIndex="5" timeoffset="80" />
+            <textevent message="The key to training and improving is consistency - 30 minutes is infinitely better than nothing" locIndex="6" timeoffset="160" />
+            <textevent message="It&apos;s helpful if you have a heart rate monitor, to keep track of how your heart rate responds to efforts week to week" locIndex="7" timeoffset="210" />
+            <textevent message="Following a structured training plan like this keeps you accountable and hopefully helps you remain focused on your goals" locIndex="8" timeoffset="230" />
+            <textevent message="Listen to your body, and don&apos;t worry if you need to lower the bias during todays workout to complete" locIndex="9" timeoffset="250" />
+            <textevent message="Most importantly - enjoy!" locIndex="10" timeoffset="280" />
+        </Warmup>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent message="2 minutes easy before we get started" locIndex="11" timeoffset="13" />
+        </SteadyState>
+        <Ramp Cadence="65" Duration="120" PowerHigh="0.75" PowerLow="0.65">
+            <textevent message="Here we go, the effort will start to ramp up throughout this first 2 minute block" locIndex="12" timeoffset="52" />
+            <textevent message="At 65rpm, we are forcing our fast twitch fibers to really contribute to this effort. This is a real strength effort" locIndex="13" timeoffset="90" />
+        </Ramp>
+        <Ramp Duration="120" PowerHigh="0.85" PowerLow="0.75">
+            <textevent message="We continue to ramp the effort up, continuing to build the power" locIndex="14" timeoffset="40" />
+            <textevent message="You can hop out of the saddle for a bit if you find that comfortable?" locIndex="15" timeoffset="90" />
+        </Ramp>
+        <Ramp Cadence="85" Duration="120" PowerHigh="0.75" PowerLow="0.85">
+            <textevent message="The power now ramps down. It could be slight descent?" locIndex="16" timeoffset="40" />
+            <textevent message="Let&apos;s consider this a nice fast section of tarmac, where you want to revert to a nice efficient cadence of around 85rpm!" locIndex="17" timeoffset="100" />
+        </Ramp>
+        <Ramp Cadence="65" Duration="120" PowerHigh="0.85" PowerLow="0.75">
+            <textevent message="We are ramping up again, back at 65rpm. Try and keep your body still" locIndex="18" timeoffset="30" />
+            <textevent message="Also, focus on pulling up as well as pushing down on the pedals" locIndex="19" timeoffset="70" />
+        </Ramp>
+        <Ramp Duration="120" PowerHigh="0.95" PowerLow="0.85">
+            <textevent message="You are doing great!" locIndex="20" timeoffset="74" />
+        </Ramp>
+        <Ramp Cadence="85" Duration="120" PowerHigh="0.85" PowerLow="0.95">
+            <textevent message="A slight reduction in power for this section - don&apos;t forget to keep drinking!" locIndex="21" timeoffset="30" />
+            <textevent message="Nearly time for a long rest!" locIndex="22" timeoffset="90" />
+        </Ramp>
+        <SteadyState Duration="300" Power="0.4">
+            <textevent message="5 Minutes recovery before we repeat the same effort once more" locIndex="23" timeoffset="70" />
+        </SteadyState>
+        <Ramp Cadence="65" Duration="120" PowerHigh="0.75" PowerLow="0.65">
+            <textevent message="Here we go again! The ramp starts and progresses throughout this first 2 minute block at 65rpm." locIndex="24" timeoffset="52" />
+            <textevent message="At 65rpm, we are forcing our fast twitch fibers to work hard, offering a strength element to this workout" locIndex="25" timeoffset="102" />
+        </Ramp>
+        <Ramp Duration="120" PowerHigh="0.85" PowerLow="0.75">
+            <textevent message="Riding at your own cadence in this block should feel more comfortable than the lower power in the previous 2 minutes?" locIndex="26" timeoffset="30" />
+            <textevent message="You can hop out of the saddle for a bit if you find that comfortable?" locIndex="27" timeoffset="91" />
+            <textevent message="The low cadence focus places a significant demand on your muscles - drawing upon your strength" locIndex="28" timeoffset="50" />
+        </Ramp>
+        <Ramp Cadence="85" Duration="120" PowerHigh="0.75" PowerLow="0.85">
+            <textevent message="A ramp down in power now!" locIndex="29" timeoffset="18" />
+            <textevent message="It&apos;s quite alien to most cyclists to be changing intensities so frequently - but this will really help your fitness improve" locIndex="30" timeoffset="48" />
+            <textevent message="Focus on hitting the target cadence - 85rpm!" locIndex="31" timeoffset="90" />
+        </Ramp>
+        <Ramp Cadence="65" Duration="120" PowerHigh="0.85" PowerLow="0.75">
+            <textevent message="We are ramping up again, back at 65rpm. Try and keep your body still" locIndex="32" timeoffset="14" />
+            <textevent message="You are smashing this - not far to go now" locIndex="33" timeoffset="60" />
+        </Ramp>
+        <Ramp Duration="120" PowerHigh="0.95" PowerLow="0.85">
+            <textevent message="You are doing great!" locIndex="34" timeoffset="40" />
+            <textevent message="Last big uphill push! " locIndex="35" timeoffset="70" />
+        </Ramp>
+        <Ramp Cadence="85" Duration="120" PowerHigh="0.85" PowerLow="0.95">
+            <textevent message="Only 90 seconds left, and the effort is getting slightly easier " locIndex="36" timeoffset="30" />
+            <textevent message="Keep it going, all the way to the arch!" locIndex="37" timeoffset="100" />
+            <textevent message="Keep your form - hold your body still and let your legs act like pistons!" locIndex="38" timeoffset="60" />
+        </Ramp>
+        <Cooldown Duration="300" PowerHigh="0.4" PowerLow="0.7">
+            <textevent message="Good work - that&apos;s Spice of Life complete!" locIndex="39" timeoffset="20" />
+            <textevent message="Remember, the key to fitness is consistency - try and ride your bike often" locIndex="40" timeoffset="90" />
+            <textevent message="If you cruised through today&apos;s workout, you may fancy doing a little extra riding?" locIndex="41" timeoffset="140" />
+            <textevent message="Some extra volume on top of these short, but structured workouts can help improve your endurance and fitness" locIndex="42" timeoffset="155" />
+            <textevent message="If you struggled with today&apos;s workout - I suggest you think about adjusting the bias slightly?" locIndex="43" timeoffset="220" />
+            <textevent message="A 2 or 3% adjustment can make all the difference - we are looking for these workouts to be &#8216;tough but achievable&apos;" locIndex="44" timeoffset="240" />
+            <textevent message="See you on the next Workout - Dani and Kristin" locIndex="45" timeoffset="290" />
+        </Cooldown>
+    </workout>
+</workout_file>

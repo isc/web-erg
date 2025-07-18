@@ -1,0 +1,73 @@
+<workout_file>
+    <uniqueId>c6476439-e33a-48b8-baf4-75b44a2f16c4</uniqueId>
+    <legacyIdHash>3965899849</legacyIdHash>
+    <author>Shayne Gaffney</author>
+    <name>EF Pro Cycling&apos;s Red Day Workout</name>
+    <categoryOverride>Recovery</categoryOverride>
+    <description>EF Pro Cycling&apos;s Alex Howes says &apos;When I&apos;m in the Red, I generally think of activity as optional and any activity that I might do should be geared toward promoting recovery. Some deep breathing and a light spin are great ways to clear the mind and increase blood flow to stimulate recovery. The cadence drills help stimulate recovery without overly taxing the system and I also find that having a few blocks of specific work forces me to be present and step away mentally from daily stressors.&apos;</description>
+    <sportType>bike</sportType>
+    <tags />
+    <category>Whoop Workout Series | Bike</category>
+    <subcategory>Red Day</subcategory>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.50449997" PowerHigh="0.75449997">
+            <textevent timeoffset="0" message="Welcome to the WHOOP Workout Series! Let&apos;s start to warm up." />
+            <textevent timeoffset="10" message="This series features workouts inspired by Lionel Sanders, EF Pro Cycling, and Tinman Elite Coaching." />
+            <textevent timeoffset="20" message="Each workout is designed to correspond to your WHOOP Recovery score." />
+            <textevent timeoffset="30" message="Green day = means you&apos;ve had a high recovery score and are ready for a hard workout." />
+            <textevent timeoffset="40" message="Yellow day = means you&apos;ve had an ok recovery score and are ready for a moderate workout." />
+            <textevent timeoffset="50" message="Red day = means you&apos;ve had a low recovery score ready for an easy recovery workout." />
+            <textevent timeoffset="60" message="Today we are doing the favorite Green day workout of EF Pro Cycling&apos;s Alex Howes." />
+            <textevent timeoffset="70" message="Use this 10min warm up to ease into the day and mentally prepare for the work ahead." />
+            <textevent timeoffset="120" message="Do you have your fluids, fan, and towel all handy?" />
+            <textevent timeoffset="240" message="Nice work so far here! Keep slowly bringing the effort up as we continue the warm up." />
+            <textevent timeoffset="300" message="There&apos;s halfway! Let&apos;s learn why Alex likes this workout on his Red days." />
+            <textevent timeoffset="310" message="When I&apos;m in the Red, I generally think of activity as optional..." />
+            <textevent timeoffset="320" message="and any activity that I might do should be geared toward promoting recovery." />
+            <textevent timeoffset="330" message="Some deep breathing and a light spin are great ways to clear the mind and increase blood flow to stimulate recovery." />
+            <textevent timeoffset="340" message="The cadence drills help stimulate recovery without overly taxing the system." />
+            <textevent timeoffset="350" message="I also find that having a few blocks of specific work forces me to be present and step away mentally from daily stressors." />
+            <textevent timeoffset="360" message="If the Red score is not from illness or injury, add in some cadence bursts." />
+            <textevent timeoffset="370" message="I like to add 3x4min at 100+ rpm - like today." />
+            <textevent timeoffset="480" message="2min to go here, keep easing into things as the intensity continues to ramp up." />
+        </Warmup>
+        <SteadyState Duration="120" Power="0.50449997">
+            <textevent timeoffset="0" message="Nice! Let&apos;s take a couple of minutes easy before we begin the high cadence work." />
+            <textevent timeoffset="10" message="Remember, nothing should feel challenging today." />
+            <textevent timeoffset="20" message="If the efforts feel too difficult for today, bring your FTP bias down." />
+            <textevent timeoffset="90" message="Alright, in 30sec we&apos;re doing 4, 4min efforts at ~100 RPM, with 3min easy between." />
+            <textevent timeoffset="110" message="Ready? Start bringing your cadence up here." />
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="240" OffDuration="180" OnPower="0.75449997" OffPower="0.50449997" Cadence="100" CadenceResting="85">
+            <textevent timeoffset="0" message="Fast feet here." />
+            <textevent timeoffset="60" message="Try to keep your hips planted in the saddle for these. No bouncing or lurching back and forth at this high cadence." />
+            <textevent timeoffset="120" message="There&apos;s halfway, you&apos;re looking great!" />
+            <textevent timeoffset="210" message="Alright, 30sec and we&apos;ll take a rest." />
+            <textevent timeoffset="240" message="Nice work! Ideally that shouldn&apos;t have left your legs feeling fatigued." />
+            <textevent timeoffset="250" message="The goal for today is to end the ride feeling better than when you started it :-)" />
+            <textevent timeoffset="390 " message="In 30sec we&apos;ll move on to rep #2!" />
+            <textevent timeoffset="420" message="Bring the cadence back up again here." />
+            <textevent timeoffset="480" message="How is your form at this high cadence? Any bouncing in the saddle?" />
+            <textevent timeoffset="600" message="1min to go and we&apos;ll check this one off the list!" />
+            <textevent timeoffset="660" message="Great job! Bring the effort back down again and let&apos;s recover." />
+            <textevent timeoffset="760" message="Make sure you&apos;re sipping fluids throughout today&apos;s workout." />
+            <textevent timeoffset="810" message="Okay, get ready for rep 3." />
+            <textevent timeoffset="840" message="Lift the cadence again here!" />
+            <textevent timeoffset="1020" message="Nice effort today so far! 1min to go here." />
+            <textevent timeoffset="1080" message="How are your legs feeling now? Hopefully a little looser than when you started today." />
+            <textevent timeoffset="1230" message="Okay, 30sec and we&apos;re tackling the last rep for today!" />
+            <textevent timeoffset="1260" message="Let&apos;s hit it!" />
+            <textevent timeoffset="1440" message="Last minute, my friend! Nicely done keeping your cadence elevated." />
+            <textevent timeoffset="1500" message="You are AMAZING! Way to still get something done today in the Red." />
+            <textevent timeoffset="1510" message="Let&apos;s take a few minutes easy here before we move onto the cool down." />
+        </IntervalsT>
+        <Cooldown Duration="300" PowerLow="0.75449997" PowerHigh="0.2545">
+            <textevent timeoffset="0" message="Alright, let&apos;s start to cool down now." />
+            <textevent timeoffset="60" message="Thanks for joining the WHOOP Green Day Workout with Alex Howes of EF Pro Cycling!" />
+            <textevent timeoffset="120" message="If your WHOOP is telling you that your recovery is in the Yellow or Red, be sure to check out Alex&apos;s workouts for those days." />
+            <textevent timeoffset="180" message="Don&apos;t forget, there are also running workouts from Tinman Elite Coaching." />
+            <textevent timeoffset="270" message="Happy training and see you on the next one!" />
+            <textevent timeoffset="290" message="Ride On!" />
+        </Cooldown>
+    </workout>
+</workout_file>

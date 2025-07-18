@@ -1,0 +1,133 @@
+<workout_file>
+    <uniqueId>3b9ba098-6d74-4e23-8400-3b0f8833f091</uniqueId>
+    <legacyIdHash>4084028048</legacyIdHash>
+    <author>Shayne Gaffney</author>
+    <categoryOverride>Recovery</categoryOverride>
+    <name>Week 1.1 - Time To Get Dirty!</name>
+    <activitySaveName>Garmin UNBOUND Gravel Training Plan | Time To Get Dirty!</activitySaveName>
+    <description>Welcome to the Garmin UNBOUND Gravel Training Plan! We&apos;re starting off with some easy riding this week at zone 2. In zone 2 training we are stimulating your type 1 muscle fibers, also called slow twitch. Spending time in Zone 2 is essential to improving performance and a zone you&apos;ll spend a lot of time in during ultra endurance events - like UNBOUND! Zone 2 training is one of the most important aspects of any training plan. We don&apos;t always get faster by training faster. UNBOUND Gravel is a grassroots event, organized and managed by folks who are passionate about cycling, and have done so for the primary purpose of providing life-enriching cycling experiences for our event participants.</description>
+    <sportType>bike</sportType>
+    <category>Garmin UNBOUND Gravel Training Plan</category>
+    <subcategory>Week 1</subcategory>
+    <tags>
+        <tag name="InGravelWeRoam" />
+    </tags>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/UnboundGravel_Logo.tga</authorIcon>
+    <visibleAfterTime>1649635260</visibleAfterTime>
+    <workout>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="0" message="Welcome to the Garmin UNBOUND Gravel Training Plan on Zwift!" />
+            <textevent timeoffset="10" message="Garmin UNBOUND is a gravel race covering various distances held annually in the Flint Hills region around Emporia, Kansas, United States." />
+            <textevent timeoffset="20" message="There are 5 distances to choose, ranging from 25 to 350 miles!" />
+            <textevent timeoffset="30" message="This training plan will prepare you to tackle the shorter distances with 2 shorter structured workouts and 1 longer unstructured workout each week." />
+            <textevent timeoffset="40" message="Each workout starts off with a progressive warm up - like what you&apos;re doing right now :-)" />
+            <textevent timeoffset="50" message="And the workouts are specific to preparing for a long endurance event, as well as progressive from start to finish." />
+            <textevent timeoffset="60" message="Don&apos;t worry though, week 4 is a recovery week and week 8 is the taper before the big day!" />
+            <textevent timeoffset="70" message="Let&apos;s carry on with the warm up and start to mentally prepare for the day." />
+            <textevent timeoffset="120" message="Today might seem like a &apos;easy&apos; session, but today is highly beneficial." />
+            <textevent timeoffset="130" message="This is the day that you enjoy a relaxing ride, but have confidence in the gains made." />
+            <textevent timeoffset="140" message="In zone 2 training we are stimulating your type 1 muscle fibers, also called slow twitch." />
+            <textevent timeoffset="150" message="Spending time in Zone 2 is essential to improving performance and a zone you&apos;ll spend a lot of time in during ultra endurance events - like UNBOUND." />
+            <textevent timeoffset="160" message="Zone 2 training is one of the most important aspects of any training plan. We don&apos;t always get faster by training faster." />
+            <textevent timeoffset="170" message="Let&apos;s bump up the intensity a bit higher next." />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.6">
+            <textevent timeoffset="0" message="As you can probably tell, the warmup for today&apos;s session is fairly low key." />
+            <textevent timeoffset="10" message="We&apos;ll steadily progress through the zones now spending 1min in each." />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.65">
+            <textevent timeoffset="30" message="For any warmup, the aim is to get the blood flowing to the working muscles." />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.81">
+            <textevent timeoffset="40" message="We&apos;ll spend just a short period of time at threshold level during the warmup next." />
+            <textevent timeoffset="50" message="Get ready for a big surge in effort, and aim for FAST FEET next!" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.95">
+            <textevent timeoffset="0" message="Be sure to spin with a nice high cadence here." />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="0" message="Great work! Let&apos;s take it easy for 2min, then we&apos;ll finish the warmup with a steady state effort." />
+            <textevent timeoffset="110" message="To complete the warmup we&apos;ll complete a steady zone 3 effort next." />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.8">
+            <textevent timeoffset="20" message="Stay relaxed during this effort as best you can." />
+            <textevent timeoffset="40" message="Try to spin the legs at a cadence that is a little higher than what is normally comfortable for you." />
+            <textevent timeoffset="120" message="We&apos;ll look at why it&apos;s important to remain within zone 2 for the entire session during the ride." />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="0" message="Great job! That&apos;s it for today&apos;s warm up. Let&apos;s take it easy for a few minutes before the main set." />
+            <textevent timeoffset="30" message="A quick chance here to sort your music out for the ride ahead, what are you going to go with?" />
+            <textevent timeoffset="120" message="Make sure you have your bottle and towel handy." />
+            <textevent timeoffset="170" message="Alright, over 40min at zone 2 coming up next!" />
+        </SteadyState>
+        <Ramp Duration="420" PowerLow="0.6" PowerHigh="0.7">
+            <textevent timeoffset="0" message="Let&apos;s go! We&apos;re going to start off easy and gradually ramp up the effort." />
+            <textevent timeoffset="60" message="The key to this session is avoiding any time in zone 3 or above." />
+            <textevent timeoffset="30" message="Here we go. Settle into a nice rhythm." />
+            <textevent timeoffset="100" message="This is a good session to complete using ERG mode." />
+            <textevent timeoffset="120" message="ERG mode will allow you to relax a little and not have to worry about holding the correct power." />
+            <textevent timeoffset="140" message="With ERG mode you don&apos;t have to worry about accidentally going into zone 3 for a short period." />
+            <textevent timeoffset="260" message="In zone 2 specific sessions, it&apos;s extremely important that we remain in zone 2." />
+            <textevent timeoffset="280" message="This is because we want to ensure we are engaging predominately type 1 muscle fibers and mainly fat as the fuel source." />
+            <textevent timeoffset="300" message="As soon as we enter zone 3, we engage some typeIIa muscle fibers and a higher rate of carbohydrates." />
+            <textevent timeoffset="320" message="So, settle into your zone 2 rhythm and have confidence that while the intensity is low, the training effect is high." />
+            <textevent timeoffset="260" message="Zone 2 is also a great zone to pace yourself in during ultra-distance events, like UNBOUND." />
+        </Ramp>
+        <SteadyState Duration="180" Power="0.7">
+            <textevent timeoffset="20" message="To entertain you during the ride we are going to look at the science behind zone 2 training." />
+            <textevent timeoffset="40" message="Each training zone is designed to elicit specific physiological and metabolic adaptations in order to improve performance." />
+            <textevent timeoffset="60" message="With this in mind, it&apos;s important to understand how exercising at different intensities affects the changes that occur." />
+            <textevent timeoffset="80" message="Your capacity to exercise is dependent on your ability to transform chemical energy into mechanical energy." />
+            <textevent timeoffset="100" message="Muscles need to synthesize ATP, for muscle contraction." />
+            <textevent timeoffset="120" message="ATP generation is achieved by two mechanisms - anaerobic and aerobic metabolism." />
+            <textevent timeoffset="140" message="Fats and carbs are the two main substrates, with some contribution from protein." />
+        </SteadyState>
+        <Ramp Duration="420" PowerLow="0.7" PowerHigh="0.6">
+            <textevent timeoffset="10" message="Your exercise intensity as well as muscle fiber recruitment pattern will dictate the energy system and substrate that is activated." />
+            <textevent timeoffset="30" message="Which correlates with the different training zones." />
+            <textevent timeoffset="50" message="Which is why this zone 2 session is so important." />
+            <textevent timeoffset="200" message="The majority of exercise intensities generate ATP through aerobic metabolism." />
+            <textevent timeoffset="220" message="Depending on the your level of fitness, and up to 55-75% of VO2max intensity, energy is generated from fat and carbohydrates." />
+            <textevent timeoffset="240" message="Although carbs are used at small rates during low and moderate exercise intensities." />
+            <textevent timeoffset="260" message="At intensities beyond 75% of VO2max, ATP generation needs to be faster in order to maintain muscle contractile demands." />
+            <textevent timeoffset="280" message="Fat cannot synthesize ATP fast enough so carbs become the predominant energy substrate." />
+            <textevent timeoffset="300" message="Essentially, going slowly lets your body use fats as fuel and as you increase the pace you increase the demand for carbs." />
+        </Ramp>
+        <Ramp Duration="420" PowerLow="0.6" PowerHigh="0.75">
+            <textevent timeoffset="30" message="Now we are going to look at how we recruit different muscle fibers when we exercise." />
+            <textevent timeoffset="50" message="Muscle is composed of 2 kinds of muscle fibers - Type I, also known as slow twitch, and Type II, or fast twitch." />
+            <textevent timeoffset="70" message="Fast twitch fibers are also divided in two subgroups called Type IIa and IIb." />
+            <textevent timeoffset="90" message="Muscle fiber recruitment occurs in a sequential order." />
+            <textevent timeoffset="110" message="Type I muscle fibers are the first ones to be recruited." />
+            <textevent timeoffset="130" message="As exercise intensity increases muscle contractile demands increase and Type I muscle fibers cannot sustain the necessary demand." />
+            <textevent timeoffset="150" message="Type IIa muscle fibers kick in and eventually as intensity keeps increasing Type IIb will finally be recruited." />
+            <textevent timeoffset="170" message="Simple put, slow twitch fibers are used at slow speeds and fast twitch fibers at fast speeds." />
+        </Ramp>
+        <SteadyState Duration="300" Power="0.75">
+            <textevent timeoffset="30" message="What are the benefits of zone 2 training?" />
+            <textevent timeoffset="50" message="In this training zone we stimulate Type 1 muscle fibers." />
+            <textevent timeoffset="70" message="Therefore we stimulate mitochondrial growth and function, which will improve the ability to utilize fat." />
+            <textevent timeoffset="90" message="By improving fat utilization we preserve glycogen." />
+            <textevent timeoffset="110" message="Athletes can then use that glycogen at the end of the race when high intensity efforts are required  and therefore a lot of glucose utilization." />
+        </SteadyState>
+        <Ramp Duration="420" PowerLow="0.75" PowerHigh="0.65">
+            <textevent timeoffset="30" message="Type I muscle fibers are also responsible for lactate clearance." />
+            <textevent timeoffset="50" message="Lactate is the byproduct of glucose utilization which is used in large amounts by fast twitch muscle fibers." />
+            <textevent timeoffset="70" message="However, lactate needs to be cleared, otherwise it will accumulate." />
+            <textevent timeoffset="90" message="This is where your Type I fibers play the role of lactate clearance." />
+            <textevent timeoffset="110" message="Zone 2 will improve improve fat utilization and preserve glycogen but we will also increase lactate clearance capacity, which is key for performance." />
+        </Ramp>
+        <SteadyState Duration="300" Power="0.65">
+            <textevent timeoffset="30" message="That concludes the science lesson!" />
+            <textevent timeoffset="50" message="It&apos;s good to know that cause a training effect we don&apos;t have to exerting a maximal effort." />
+            <textevent timeoffset="70" message="By incorporating some controlled zone 2 work into your training schedule there are good gains to be made in your performance." />
+        </SteadyState>
+        <Cooldown Duration="180" PowerLow="0.65" PowerHigh="0.5">
+            <textevent timeoffset="0" message="Great work today! Let&apos;s finish this workout off with a cool down." />
+            <textevent timeoffset="60" message="Be on the lookout for other Garmin UNBOUND events." />
+            <textevent timeoffset="90" message="Don&apos;t forget to get in your long ride this week!" />
+            <textevent timeoffset="120" message="Final minute of the day here - great job!" />
+            <textevent timeoffset="170" message="Until next time, Ride On!" />
+        </Cooldown>
+    </workout>
+</workout_file>

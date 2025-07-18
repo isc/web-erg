@@ -1,0 +1,163 @@
+<workout_file>
+    <uniqueId>9a6caaa2-a79f-4df6-835c-265b156cac67</uniqueId>
+    <legacyIdHash>1097566544</legacyIdHash>
+    <author>Chris Opie </author>
+    <categoryOverride>Climbing</categoryOverride>
+    <name>Fabian Cancellara.3 - Cruise Control</name>
+    <description>
+This session is about maximizing your sustainable power output. Your muscular endurance, led by classics specialist Fabian Cancellara.
+
+These workouts have been designed and tested by some of the best cyclists in the world. Olympians and World Champions such as Sir Bradley Wiggins, Fabian Cancellara, Dame Sarah Storey and Kristin Armstrong.</description>
+    <sportType>bike</sportType>
+    <durationType>time</durationType>
+    <activitySaveName>Le Col - Training With Legends - Fabian Cancellara - Cruise Control</activitySaveName>
+    <category>Le Col - Training With Legends</category>
+    <subcategory>Fabian Cancellara</subcategory>
+    <visibleAfterTime>1635724860</visibleAfterTime>
+    <tags>
+        <tag name="Intervals" />
+        <tag name="FTP" />
+        <tag name="TT" />
+    </tags>
+    <workout>
+        <SteadyState Duration="180" Power="0.6" pace="0">
+            <textevent timeoffset="0" message="Welcome to Le Col Training With Legends." locIndex="1" />
+            <textevent timeoffset="12" message="I&apos;m Fabian Cancellara and this is my cruise interval session. This session is great for sustainable aerobic power." locIndex="2" />
+            <textevent timeoffset="30" message="There is a Training With Legends video of me coaching you through this session, are you watching it? Full details at lecol.cc" locIndex="3" />
+            <textevent timeoffset="45" message="This session is all about being comfortable at different intensities." locIndex="4" />
+            <textevent timeoffset="100" message="But stay in control of the effort." locIndex="5" />
+            <textevent timeoffset="75" message="When the intensity is harder, you can pedal a little faster." locIndex="6" />
+            <textevent timeoffset="120" message="Think of the intensity changes as gradient changes in a TT." locIndex="7" />
+            <textevent timeoffset="150" message="Push harder uphill, slightly ease off on the flat, back off on the descents." locIndex="8" />
+            <textevent timeoffset="165" message="15 seconds until we begin. Final deep breaths." locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.84" pace="0">
+            <textevent timeoffset="0" message="Find a comfortable cadence and hold it throughout this 2 minutes." locIndex="10" />
+            <textevent timeoffset="15" message="I think of this session almost like using cruise control in a car." locIndex="11" />
+            <textevent timeoffset="45" message="We are never too far away from an intensity change. So stay alert." locIndex="12" />
+            <textevent timeoffset="81" message="Ready for the first effort? Like pushing over the top of a hill." locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.15" pace="0">
+            <textevent timeoffset="0" message="Whatever your natural cadence, aim to raise this now by 5-10 rpm to get your heart and lungs working harder." locIndex="14" />
+            <textevent timeoffset="30" message="30 seconds to go. Drive this all the way." locIndex="15" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.93" pace="0">
+            <textevent timeoffset="0" message="Try and lock into how session feels and the numbers you see on your screen. " locIndex="16" />
+            <textevent timeoffset="30" message="This session is great for muscular endurance." locIndex="17" />
+            <textevent timeoffset="63" message="Just one minute to go at this intensity, then we ease off a little." locIndex="18" />
+            <textevent timeoffset="96" message="It is when we ease off that we need the control. Going hard is easy, controlling the effort takes concentration!" locIndex="19" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.84" pace="0">
+            <textevent timeoffset="0" message="A little drop in effort here. This is all about control." locIndex="20" />
+            <textevent timeoffset="30" message="Being comfortable when it is hard going, and when easing off a little." locIndex="21" />
+            <textevent timeoffset="60" message="Have you found your rhythm?" locIndex="22" />
+            <textevent timeoffset="90" message="The Vo2 effort is on the way. Remember to lift your cadence." locIndex="23" />
+            <textevent timeoffset="102" message="Ready?" locIndex="24" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.15" pace="0">
+            <textevent timeoffset="0" message="Lift your cadence for the Vo2 effort. We want to stretch the effort here. Deepen our breathing." locIndex="25" />
+            <textevent timeoffset="30" message="30 seconds to go. Push this right to the end!" locIndex="26" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.93" pace="0">
+            <textevent timeoffset="0" message="Don&apos;t lose your concentration here." locIndex="27" />
+            <textevent timeoffset="18" message="Easing off slightly is ok but you will still feel the effort." locIndex="28" />
+            <textevent timeoffset="60" message="One minute to go! Really focus on smooth, powerful pedaling!" locIndex="29" />
+            <textevent timeoffset="90" message="Focus on keeping your control. Recovery is on the way." locIndex="30" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.45" pace="0">
+            <textevent timeoffset="0" message="And recovery. Hydrate well now, get comfortable on the bike." locIndex="31" />
+            <textevent timeoffset="30" message="This time is about easing off, so you can continue to go hard. Turn up the fan to help keep you cool." locIndex="32" />
+            <textevent timeoffset="54" message="Breathing back to normal?" locIndex="33" />
+            <textevent timeoffset="90" message="That&apos;s a third of the workout complete already. The next two blocks should be fun." locIndex="34" />
+            <textevent timeoffset="123" message="One minute to go. Relax on the bike to maximize the recovery." locIndex="35" />
+            <textevent timeoffset="165" message="15 seconds." locIndex="36" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.84" pace="0">
+            <textevent timeoffset="0" message="Back into the tempo effort. Building the cadence a little as the effort builds." locIndex="37" />
+            <textevent timeoffset="36" message="Find that rhythm, find your control." locIndex="38" />
+            <textevent timeoffset="51" message="This session is like flying along a fast road on a TT bike, pushing the effort when the road ramps up, easing off on the downhills." locIndex="39" />
+            <textevent timeoffset="75" message="Are you cruising? Have you found that rhythm?" locIndex="40" />
+            <textevent timeoffset="105" message="15 seconds before the Vo2." locIndex="41" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.15" pace="0">
+            <textevent timeoffset="0" message="Vo2 intensity. Imagine you&apos;re cresting a small incline in the road here as you accelerate over the top!" locIndex="42" />
+            <textevent timeoffset="30" message="Control this effort, keep your form on the bike." locIndex="43" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.93" pace="0">
+            <textevent timeoffset="0" message="Still trying hard, keeping pressure on the pedals. Think about staying smooth on the bike here." locIndex="44" />
+            <textevent timeoffset="24" message="Really focus on holding this effort now." locIndex="45" />
+            <textevent timeoffset="51" message="Recovering at intensity will help boost your aerobic fitness. Keep on the pressure!" locIndex="46" />
+            <textevent timeoffset="81" message="40 seconds to go now." locIndex="47" />
+            <textevent timeoffset="102" message="Intensity drop on the way." locIndex="48" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.84" pace="0">
+            <textevent timeoffset="0" message="Dropping the effort slightly now for two minutes. Recovery while working at intensity." locIndex="49" />
+            <textevent timeoffset="24" message="Find that rhythm. Take control of the effort. You are in charge!" locIndex="50" />
+            <textevent timeoffset="51" message="We are over the halfway point now. You&apos;re on the run down to the finish." locIndex="51" />
+            <textevent timeoffset="75" message="In control and cruising? Good! It&apos;s nearly time to ramp it up again." locIndex="52" />
+            <textevent timeoffset="96" message="Get ready for the lift to Vo2!" locIndex="53" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.15" pace="0">
+            <textevent timeoffset="0" message="Keep the same gear but lift your cadence. That is a great way to up the power and cadence together here." locIndex="54" />
+            <textevent timeoffset="30" message="30 seconds to go, find that control." locIndex="55" />
+            <textevent timeoffset="45" message="15 seconds." locIndex="56" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.93" pace="0">
+            <textevent timeoffset="0" message="Last two minutes here. Do not lose your focus. Drive this to the end." locIndex="57" />
+            <textevent timeoffset="33" message="Strong breathing, strong pedaling, stay on top of the effort now." locIndex="58" />
+            <textevent timeoffset="60" message="Last 60 seconds of this block. Now is the time to make it happen!" locIndex="59" />
+            <textevent timeoffset="90" message="30 seconds to recovery." locIndex="60" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.45" pace="0">
+            <textevent timeoffset="0" message="Good job. We have just one block to go." locIndex="61" />
+            <textevent timeoffset="60" message="Find your comfort zone, move around on the bike." locIndex="62" />
+            <textevent timeoffset="30" message="Use this time to rehydrate and get ready to go again." locIndex="63" />
+            <textevent timeoffset="90" message="Are you looking better than I am in the video?" locIndex="64" />
+            <textevent timeoffset="120" message="Great work so far today. Just this last block of effort to go." locIndex="65" />
+            <textevent timeoffset="150" message="Prepare yourself for the finale now, 30 seconds to go." locIndex="66" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.84" pace="0">
+            <textevent timeoffset="0" message="Let&apos;s go! Straight into tempo. Comfortably uncomfortable. This is your cruising speed now." locIndex="67" />
+            <textevent timeoffset="30" message="Find that rhythm and lock into that feeling again." locIndex="68" />
+            <textevent timeoffset="60" message="It&apos;s now that your control will start to pay off. No wasted energy, just smooth powerful cycling." locIndex="69" />
+            <textevent timeoffset="90" message="Are you ready for the Vo2 effort?" locIndex="70" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.15" pace="0">
+            <textevent timeoffset="0" message="Drive this effort right to the end. Don&apos;t be afraid to hurt now. This is where we can make the difference!" locIndex="71" />
+            <textevent timeoffset="30" message="30 seconds to go. Give this everything if you need to." locIndex="72" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.93" pace="0">
+            <textevent timeoffset="0" message="This is a tough one. Clinging on to intensity at this stage will make us stronger." locIndex="73" />
+            <textevent timeoffset="30" message="Don&apos;t lose your focus now!" locIndex="74" />
+            <textevent timeoffset="60" message="60 seconds left here, then we ease it back a little." locIndex="75" />
+            <textevent timeoffset="105" message="15 to go. Keep the pressure on!" locIndex="76" />
+            <textevent timeoffset="90" message="30 seconds to go. Hold the power to the line." locIndex="77" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.84" pace="0">
+            <textevent timeoffset="0" message="Back to tempo again. Keep control of your effort. Just 5 minutes total effort to go." locIndex="78" />
+            <textevent timeoffset="15" message="Hone in on this effort now." locIndex="79" />
+            <textevent timeoffset="45" message="Control this now, maintain this cadence, this rhythm." locIndex="80" />
+            <textevent timeoffset="75" message="45 seconds until the final surge." locIndex="81" />
+            <textevent timeoffset="105" message="Final surge in 15 seconds." locIndex="82" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.15" pace="0">
+            <textevent timeoffset="0" message="Rev your legs, this is the last minute of real intensity. Aim to spin like you did at the start." locIndex="83" />
+            <textevent timeoffset="30" message="30 seconds left at Vo2. Keep pushing this one all the way. Make it count!" locIndex="84" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.93" pace="0">
+            <textevent timeoffset="0" message="This is it. The final step to a brilliant workout. " locIndex="85" />
+            <textevent timeoffset="18" message="Keep this one going all the way to the line. Cruise control. " locIndex="86" />
+            <textevent timeoffset="36" message="Every second counts on these shorter sessions." locIndex="87" />
+            <textevent timeoffset="72" message="Do not lose your concentration. Keep your focus on this effort." locIndex="88" />
+            <textevent timeoffset="93" message="Under 30 seconds to the recovery!" locIndex="89" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.45" pace="0">
+            <textevent timeoffset="0" message="Thank you for joining me on my sustainable power session. " locIndex="90" />
+            <textevent timeoffset="21" message="Great work today. Did you watch me riding in my Training With Legends Video?? " locIndex="91" />
+            <textevent timeoffset="45" message="If you are looking for more workouts, feel free to browse the Le Col Training With Legends folder." locIndex="92" />
+            <textevent timeoffset="66" message="This is a great session to ride once a week as it reminds me of my favorite Time Trial sessions." locIndex="93" />
+            <textevent timeoffset="90" message="See you again soon for more Training With Legends, more details at lecol.cc ." locIndex="94" />
+            <textevent timeoffset="111" message="Recover well!" locIndex="95" />
+        </SteadyState>
+    </workout>
+</workout_file>

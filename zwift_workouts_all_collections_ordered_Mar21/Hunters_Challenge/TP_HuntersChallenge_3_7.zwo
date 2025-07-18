@@ -1,0 +1,19 @@
+<workout_file>
+    <uniqueId>19014426-b01b-4e10-bc88-4b12c1a9ab7d</uniqueId>
+    <legacyIdHash>3707388895</legacyIdHash>
+    <category>Hunter&apos;s Challenge</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 3</subcategory>
+    <name>Week 3.7 - Stuck in the Rut</name>
+    <description>Do 2 x20 minutes at Sub FTP watts (89%)-today, then 5 minutes rest. Then do 10x1 minute fast pedaling, but I want these to be HARDER than the normal ones. Put more effort into them. Recovery is still only one minute though. Just make sure you keep cadence over 105rpm.
+  </description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <workout>
+        <Warmup PowerLow="0.55" PowerHigh="0.72" Duration="300" />
+        <SteadyState Duration="1200" Power="0.87" />
+        <SteadyState Duration="300" Power="0.72" />
+        <SteadyState Duration="1200" Power="0.87" />
+        <IntervalsT OnDuration="60" OffDuration="60" OnPower="1.14" OffPower="0.72" Repeat="10" Cadence="105" CadenceResting="85" />
+        <Cooldown PowerLow="0.72" PowerHigh=".55" Duration="600" />
+    </workout>
+</workout_file>

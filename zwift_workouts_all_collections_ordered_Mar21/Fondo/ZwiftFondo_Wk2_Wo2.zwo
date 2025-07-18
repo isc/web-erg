@@ -1,0 +1,71 @@
+<workout_file>
+    <uniqueId>7df63579-ef20-42c2-8537-c901236138f6</uniqueId>
+    <legacyIdHash>1152547499</legacyIdHash>
+    <author>Zwift</author>
+    <categoryOverride>Sprinting</categoryOverride>
+    <name>Week 2.2 - Make A Break For It</name>
+    <category>Fondo</category>
+    <subcategory>Week 2</subcategory>
+    <description>Work here on that top end speed just above threshold. If you want to make - or join - a breakaway, this is the sort of fitness you will need to make that happen.</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <Warmup Duration="240" PowerLow="0.2445" PowerHigh="0.75449997" pace="0">
+            <textevent timeoffset="52" message="Time for some breakaway work!" locIndex="1" />
+            <textevent timeoffset="178" message="Nice &amp; steady leading in. Then we will start to work." locIndex="2" />
+        </Warmup>
+        <SteadyState Duration="180" Power="0.75449997" pace="0">
+            <textevent timeoffset="72" message="Find your rhythm &amp; pace here" locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.85449994" pace="0">
+            <textevent timeoffset="78" message="And turning the screws..." locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.2544999" pace="0" />
+        <SteadyState Duration="90" Power="0.99297523" pace="0">
+            <textevent timeoffset="28" message="Now hang on to make it stick" locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.49450001" pace="0">
+            <textevent timeoffset="81" message="Easy now. Nice and light." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.75449997" pace="0">
+            <textevent timeoffset="55" message="And winding it back up. Smooth." locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.85449994" pace="0">
+            <textevent timeoffset="84" message="Ratcheting it up again." locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.2544999" pace="0" />
+        <SteadyState Duration="90" Power="0.99449992" pace="0">
+            <textevent timeoffset="15" message="And hammer time. Break away!" locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.50449997" pace="0">
+            <textevent timeoffset="32" message="Easy now. Nice &amp; relaxed. Drink" locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.75449997" pace="0">
+            <textevent timeoffset="58" message="And step it up here again. " locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.85449994" pace="0">
+            <textevent timeoffset="75" message="Turn those screws." locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.25" pace="0" />
+        <SteadyState Duration="90" Power="0.99449992" pace="0">
+            <textevent timeoffset="40" message="And you&apos;re gone! Outta here!" locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.50449997" pace="0">
+            <textevent timeoffset="26" message="Just a bit of rest. Get ready." locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.75449997" pace="0">
+            <textevent timeoffset="16" message="Bring it up one more time." locIndex="15" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.85449994" pace="0">
+            <textevent timeoffset="49" message="Building speed here. Ready to launch." locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.2544999" pace="0" />
+        <SteadyState Duration="90" Power="0.99449992" pace="0">
+            <textevent timeoffset="39" message="Go, go, go!!" locIndex="17" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow="0.99449992" PowerHigh="0.2545" pace="0">
+            <textevent timeoffset="35" message="And stepping the power down bit" locIndex="18" />
+            <textevent timeoffset="187" message="Easy now..." locIndex="19" />
+        </Cooldown>
+    </workout>
+</workout_file>

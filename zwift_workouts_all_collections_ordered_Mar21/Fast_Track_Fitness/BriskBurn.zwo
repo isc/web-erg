@@ -1,0 +1,105 @@
+<workout_file>
+    <uniqueId>20c132b2-2043-4d2b-818d-08dfef85ae2d</uniqueId>
+    <legacyIdHash>1316005609</legacyIdHash>
+    <author>Zwift</author>
+    <name>Week 1.1 - Brisk Burn</name>
+    <categoryOverride>30 minutes to burn</categoryOverride>
+    <description>Every journey starts with a single step, and we'll start this fitness journey with a 16min workout. The only focus for you today is to have fun working through the power zones! We'll start with a quick warm-up, then get into the workout intervals, which feature various lengths and intensities. All aboard the train going down the fast track to fitness!</description>
+    <sportType>bike</sportType>
+    <category>Fast Track Fitness</category>
+    <subcategory>Week 1</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="120" PowerLow=".65" PowerHigh=".8">
+            <textevent timeoffset="0" message="Welcome to Brisk Burn." locIndex="1" />
+            <textevent timeoffset="10" message="This is a short session with lots of pace changes." locIndex="2" />
+            <textevent timeoffset="30" message="Let&apos;s begin by settling into a nice steady rhythm." locIndex="3" />
+            <textevent timeoffset="40" message="Start your music and let&apos;s chase some power." locIndex="4" />
+            <textevent timeoffset="100" message="Up next we have 3 x 40 seconds on, with 20 seconds off." locIndex="5" />
+            <textevent timeoffset="110" message="Let&apos;s Go!" locIndex="6" />
+        </Warmup>
+        <IntervalsT Repeat="3" OnDuration="40" OffDuration="20" OnPower=".88" OffPower=".72">
+            <textevent timeoffset="0" message="Push, Push, Push." locIndex="7" />
+            <textevent timeoffset="10" message="You&apos;ve got this." locIndex="8" />
+            <textevent timeoffset="40" message="Ease off." locIndex="9" />
+            <textevent timeoffset="60" message="Back on the effort." locIndex="10" />
+            <textevent timeoffset="70" message="Keep pressing!" locIndex="11" />
+            <textevent timeoffset="100" message="Back off again." locIndex="12" />
+            <textevent timeoffset="110" message="Grab a quick drink." locIndex="13" />
+            <textevent timeoffset="120" message="Up, up, up!" locIndex="14" />
+            <textevent timeoffset="130" message="Last effort in this set." locIndex="15" />
+            <textevent timeoffset="140" message="Nice smooth pedal stroke." locIndex="16" />
+            <textevent timeoffset="160" message="Nice work, back to recovery." locIndex="17" />
+        </IntervalsT>
+        <SteadyState Duration="60" Power=".78" Cadence="80">
+            <textevent timeoffset="0" message="Slow it down." locIndex="18" />
+            <textevent timeoffset="10" message="Find a steady cadence." locIndex="19" />
+            <textevent timeoffset="20" message="Feel the tension in your legs." locIndex="20" />
+            <textevent timeoffset="30" message="Slow breath out, deep breath in." locIndex="21" />
+            <textevent timeoffset="40" message="Round 2 coming soon." locIndex="22" />
+            <textevent timeoffset="50" message="Next up is 3 x 30 seconds on, 30 off." locIndex="23" />
+        </SteadyState>
+        <IntervalsT Repeat="3" OnDuration="30" OffDuration="30" OnPower=".92" OffPower=".72">
+            <textevent timeoffset="0" message="Back on it!" locIndex="24" />
+            <textevent timeoffset="10" message="Little higher effort." locIndex="25" />
+            <textevent timeoffset="30" message="Take it back down." locIndex="26" />
+            <textevent timeoffset="60" message="Find the power and settle in." locIndex="27" />
+            <textevent timeoffset="70" message="Looking great so far!" locIndex="28" />
+            <textevent timeoffset="90" message="Ease off the pedals." locIndex="29" />
+            <textevent timeoffset="100" message="Take in a few deep breaths." locIndex="30" />
+            <textevent timeoffset="120" message="Up, up, up!" locIndex="31" />
+            <textevent timeoffset="130" message="Settle in quickly." locIndex="32" />
+            <textevent timeoffset="140" message="Last effort in this set." locIndex="33" />
+            <textevent timeoffset="150" message="Off the power." locIndex="34" />
+            <textevent timeoffset="160" message="Nice work." locIndex="35" />
+        </IntervalsT>
+        <SteadyState Duration="60" Power=".78" Cadence="80">
+            <textevent timeoffset="0" message="Slow it down. Find a steady rhythm." locIndex="36" />
+            <textevent timeoffset="10" message="Nice smooth circles." locIndex="37" />
+            <textevent timeoffset="30" message="Grab a quick drink." locIndex="38" />
+            <textevent timeoffset="40" message="Can you guess what&apos;s next?" locIndex="39" />
+            <textevent timeoffset="50" message="That&apos;s right 3 x 20 seconds on, 40 off." locIndex="40" />
+        </SteadyState>
+        <IntervalsT Repeat="3" OnDuration="20" OffDuration="40" OnPower=".96" OffPower=".72">
+            <textevent timeoffset="0" message="Let&apos;s Go!" locIndex="41" />
+            <textevent timeoffset="10" message="Up, up, up." locIndex="42" />
+            <textevent timeoffset="20" message="Ease off." locIndex="43" />
+            <textevent timeoffset="30" message="Nice deep breath to help recover." locIndex="44" />
+            <textevent timeoffset="60" message="Up, up, up." locIndex="45" />
+            <textevent timeoffset="70" message="You&apos;ve got this!" locIndex="46" />
+            <textevent timeoffset="80" message="Nice work, back down the effort." locIndex="47" />
+            <textevent timeoffset="90" message="One more effort in this round." locIndex="48" />
+            <textevent timeoffset="120" message="Dig in!" locIndex="49" />
+            <textevent timeoffset="130" message="Fast feet!" locIndex="50" />
+            <textevent timeoffset="140" message="Back down the effort." locIndex="51" />
+            <textevent timeoffset="150" message="We are going right into 3 x 10 seconds on, 50 seconds off to finish the session." locIndex="52" />
+            <textevent timeoffset="170" message="I want to see what you&apos;ve got." locIndex="53" />
+        </IntervalsT>
+        <SteadyState Duration="10" Power="1.25">
+            <textevent timeoffset="0" message="Let&apos;s Go!" locIndex="54" />
+        </SteadyState>
+        <SteadyState Duration="50" Power=".72">
+            <textevent timeoffset="0" message="Great job, but I think you&apos;ve got more in the tank." locIndex="55" />
+            <textevent timeoffset="30" message="You can do these out of the saddle too." locIndex="56" />
+            <textevent timeoffset="40" message="Big effort in 10, 9, 8....." locIndex="57" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.25">
+            <textevent timeoffset="0" message="Give it your all!" locIndex="58" />
+        </SteadyState>
+        <SteadyState Duration="50" Power=".72">
+            <textevent timeoffset="0" message="Fantastic job, but I still think there is more to give." locIndex="59" />
+            <textevent timeoffset="10" message="You&apos;ve got one more chance to show me." locIndex="60" />
+            <textevent timeoffset="40" message="This is your time to shine, let&apos;s see what you&apos;ve got!" locIndex="61" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.25">
+            <textevent timeoffset="0" message="Go, go, go!" locIndex="62" />
+        </SteadyState>
+        <Cooldown Duration="50" PowerLow=".7" PowerHigh=".65">
+            <textevent timeoffset="0" message="Now that was impressive." locIndex="63" />
+            <textevent timeoffset="10" message="I knew you could do it." locIndex="64" />
+            <textevent timeoffset="20" message="Settle down, spin those legs, and grab a drink." locIndex="65" />
+            <textevent timeoffset="30" message="Great work today." locIndex="66" />
+            <textevent timeoffset="40" message="See you soon. Ride On!" locIndex="67" />
+        </Cooldown>
+    </workout>
+</workout_file>

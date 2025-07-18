@@ -1,0 +1,101 @@
+<workout_file>
+    <uniqueId>c16dec8b-d067-48ed-8040-30b17a2791fc</uniqueId>
+    <legacyIdHash>2327904100</legacyIdHash>
+    <author>Zwift</author>
+    <categoryOverride>Endurance</categoryOverride>
+    <name>Aerobic Builds</name>
+    <description>It&apos;s all about that Base. Right? Today we&apos;re getting into some aerobic fitness with a little bit of direction. Nothing hard today, but lots of time doing some &quot;work&quot;. Don&apos;t adjust the watts up at all today as some lower effort will be good for us. On the other hand if you are tired and need to click the down button on the &quot;higher&quot; watts, today is the day to do so. 
+
+A bit longer so don&apos;t forget a snack and a couple of bottles with mix. Get used to forcing the hydration as it&apos;s going to be important for race day.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Gravel Grinder</category>
+    <subcategory>Week 3</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow="0.45" PowerHigh="0.65">
+            <textevent timeoffset="0" message="Super easy 10 minutes to get ready for the workout. We don&apos;t have a lot of time at low watts today so soak it up." locIndex="1" />
+        </Warmup>
+        <SteadyState Duration="60" Power="0.7">
+            <textevent timeoffset="0" message="3 Warmup builds to get us going. Here goes!" locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.8">
+		</SteadyState>
+        <SteadyState Duration="60" Power="0.85">
+		</SteadyState>
+        <SteadyState Duration="60" Power="0.6">
+            <textevent timeoffset="0" message="Little, baby rest now before the next one starts." locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.7">
+            <textevent timeoffset="0" message="Okay, #2!" locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.8">
+            <textevent timeoffset="0" message="Keep the cadence rolling and smooth." locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.85">
+		</SteadyState>
+        <SteadyState Duration="60" Power="0.6">
+            <textevent timeoffset="0" message="Easy does it." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.7">
+            <textevent timeoffset="0" message="Last of the short builds!" locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.8">
+            <textevent timeoffset="0" message="Keep a good cadence going." locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.85">
+            <textevent timeoffset="0" message="Finish it off!" locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.6">
+            <textevent timeoffset="0" message="Hopefully your feeling warmed up because here we go on the longer ones!" locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.6">
+            <textevent timeoffset="0" message="We have 3 good builds on tap now. You won&apos;t get any super easy rest between (this is the easiest it gets) so be (or get) prepared for this block." locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.7">
+            <textevent timeoffset="0" message="Bumping it up a tad." locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.8">
+            <textevent timeoffset="0" message="A little bit more" locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.9">
+            <textevent timeoffset="0" message="Alright, here&apos;s the hard bit, just 3 minutes at 90%." locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.6">
+            <textevent timeoffset="0" message="#2 of 3. Here we go!" locIndex="15" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.7">
+            <textevent timeoffset="0" message="A little effort bump..." locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.8">
+            <textevent timeoffset="0" message="Doing great. Keep it smooth." locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.9">
+            <textevent timeoffset="0" message="Finish it off and then we get to go back to 60%" locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.6">
+            <textevent timeoffset="0" message="Last build starts here!" locIndex="19" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.7">
+		</SteadyState>
+        <SteadyState Duration="180" Power="0.8">
+		</SteadyState>
+        <SteadyState Duration="180" Power="0.9">
+            <textevent timeoffset="0" message="Almost there!" locIndex="20" />
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="240" OffDuration="120" OnPower="0.8" OffPower="0.7">
+            <textevent timeoffset="0" message="Great job on those builds! We aren&apos;t done yet, though. 4 times through bumping down and up from 80% to 70%." locIndex="21" />
+            <textevent timeoffset="240" message="The easier. Use it." locIndex="22" />
+            <textevent timeoffset="360" message="This time at 80% shouldn&apos;t feel hard, but almost a little bit of an inviting level of effort? " locIndex="23" />
+            <textevent timeoffset="460" message="Inviting, right?" locIndex="24" />
+            <textevent timeoffset="600" message="Just a little less effort now. Somehow less inv… Ok, I&apos;ll stop. " locIndex="25" />
+            <textevent timeoffset="720" message="More please. " locIndex="26" />
+            <textevent timeoffset="960" message="Settle into the easy bits! " locIndex="27" />
+            <textevent timeoffset="1080" message="Back up to 80%. This should feel like an effort you could hold for a LONG time. " locIndex="28" />
+            <textevent timeoffset="1320" message="Settle down, all done!" locIndex="29" />
+        </IntervalsT>
+        <Cooldown Duration="480" PowerLow="0.55" PowerHigh="0.45">
+            <textevent timeoffset="0" message="Great job. Nice and easy now." locIndex="30" />
+        </Cooldown>
+    </workout>
+</workout_file>

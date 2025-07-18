@@ -1,0 +1,36 @@
+<workout_file>
+    <uniqueId>5c43bd58-02d6-4035-b361-f82f6d0e6644</uniqueId>
+    <legacyIdHash>3803644139</legacyIdHash>
+    <author>GCN</author>
+    <categoryOverride>VO2 Max</categoryOverride>
+    <category>GCN</category>
+    <subcategory>Dan Lloyd&apos;s GCN Flat Out Fast Plan</subcategory>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/GCN_Logo.tga</authorIcon>
+    <name>VO2 &amp; AC</name>
+    <description>In order to go fast, you&apos;ll need to be able ride at your Vo2max pace and also your anaerobic capacity, increasing these abilities so that you&apos;ll be ready to dish out the pain this coming season.   Warm-up 10 minutes and then do 3 x 1minute fast pedaling drills &gt;110rpm, 5 minutes at tempo and then do 3 minutes Vo2 and then 2 minutes AC with 2 minutes recovery between each.   Repeat 3 more times for a great workout!  Cool down.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS" />
+        <tag name="VO2andAC" />
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.2545" PowerHigh="0.75449997" />
+        <IntervalsT Repeat="3" OnDuration="60" OffDuration="60" OnPower="0.75449997" OffPower="0.50449997" Cadence="110" CadenceResting="80" />
+        <SteadyState Duration="180" Power="1.1344999" />
+        <SteadyState Duration="120" Power="0.50449997" />
+        <SteadyState Duration="120" Power="1.2544999" />
+        <SteadyState Duration="300" Power="0.75449997" />
+        <SteadyState Duration="180" Power="1.1344999" />
+        <SteadyState Duration="120" Power="0.50449997" />
+        <SteadyState Duration="120" Power="1.2544999" />
+        <SteadyState Duration="300" Power="0.75449997" />
+        <SteadyState Duration="180" Power="1.1344999" />
+        <SteadyState Duration="120" Power="0.50449997" />
+        <SteadyState Duration="120" Power="1.2544999" />
+        <SteadyState Duration="300" Power="0.75449997" />
+        <SteadyState Duration="180" Power="1.1344999" />
+        <SteadyState Duration="120" Power="0.50449997" />
+        <SteadyState Duration="120" Power="1.2544999" />
+        <Cooldown Duration="600" PowerLow="0.75" PowerHigh="0.25" />
+    </workout>
+</workout_file>

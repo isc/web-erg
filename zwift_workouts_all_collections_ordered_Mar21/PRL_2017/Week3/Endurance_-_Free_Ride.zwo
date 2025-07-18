@@ -1,0 +1,23 @@
+<workout_file>
+    <uniqueId>15bbbc43-b90d-4db9-a8a7-def2626a1153</uniqueId>
+    <legacyIdHash>1458530164</legacyIdHash>
+    <author>Zwift</author>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>4wk PRL Prep</category>
+    <subcategory>Week 3</subcategory>
+    <name>Week 3.4 - Endurance</name>
+    <description>A steady endurance ride today.
+
+Ride as you feel aiming to keep power within Z2-3.
+
+Don&apos;t forget it&apos;s fine to miss a day if you have to. Just move onto the next planned session.
+
+</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="PRL" />
+    </tags>
+    <workout>
+        <FreeRide Duration="3600.0002" FlatRoad="1" />
+    </workout>
+</workout_file>

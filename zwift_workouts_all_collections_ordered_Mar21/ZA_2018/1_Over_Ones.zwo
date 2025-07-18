@@ -1,0 +1,112 @@
+<workout_file>
+    <uniqueId>1c9c4aab-b600-42f8-89ff-07e4a6ba2b53</uniqueId>
+    <legacyIdHash>1406771685</legacyIdHash>
+    <author>Zwift Academy Coaches</author>
+    <categoryOverride>Best of Zwift Academy</categoryOverride>
+    <subcategoryOverride>ZA 2018</subcategoryOverride>
+    <name>Over Ones</name>
+    <activitySaveName>Zwift Academy 2018 Workout #1: Over Ones</activitySaveName>
+    <description>Welcome to the 2018 Zwift Academy. This first workout is a high intensity session looking at your ability to produce quality race efforts over 1 minute in duration. 
+
+There is ample recovery between the intervals, so you will be able to produce your best efforts for the target duration.</description>
+    <sportType>bike</sportType>
+    <visibleAfterTime>1533538860</visibleAfterTime>
+    <overrideHash>1406771685</overrideHash>
+    <category>Zwift Academy 2018</category>
+    <categoryIndex>1</categoryIndex>
+    <tags>
+        <tag name="Zwift Academy" />
+    </tags>
+    <workout>
+        <Warmup Duration="360" PowerLow="0.45449999" PowerHigh="0.70449996" pace="0">
+            <textevent timeoffset="0" message="Welcome to the first workout of the 2018 Zwift Academy" locIndex="1" />
+            <textevent timeoffset="150" message="Our warmup begins with a gentle increase in power to 70% of your threshold." locIndex="2" />
+            <textevent timeoffset="210" message="The focus today is on completing high intensity intervals of over 1min in duration." locIndex="3" />
+        </Warmup>
+        <SteadyState Duration="60" Power="0.50449997" pace="0">
+            <textevent timeoffset="20" message="To prepare for the main set of intervals, we continue to warm up with some high intensity efforts." locIndex="4" />
+            <textevent timeoffset="50" message="This 1st effort is 1min." locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.0944999" pace="0">
+            <textevent timeoffset="20" message="This is high intensity. But the duration is short." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.65449995" pace="0">
+            <textevent timeoffset="30" message="This is a good recovery period before the next warm up effort." locIndex="7" />
+            <textevent timeoffset="90" message="Research has shown that 65% of FTP is optimal for recovery." locIndex="8" />
+            <textevent timeoffset="150" message="Another 1min effort. But a little harder this time." locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.2544999" pace="0">
+            <textevent timeoffset="20" message="Focus on maintaining power." locIndex="10" />
+            <textevent timeoffset="40" message="Almost there. Push right to the line!" locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.65449995" pace="0">
+            <textevent timeoffset="40" message="Again, a good recovery period." locIndex="12" />
+            <textevent timeoffset="130" message="We are after quality intervals today. Hence the adequate recovery periods." locIndex="13" />
+            <textevent timeoffset="280" message="This first effort is 4min at threshold." locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="1.0044999" pace="0">
+            <textevent timeoffset="30" message="Settle into a nice rhythm." locIndex="15" />
+            <textevent timeoffset="90" message="This is a short threshold effort. It should&apos;t be challenging." locIndex="16" />
+            <textevent timeoffset="150" message="The hard work comes in the next intervals." locIndex="17" />
+            <textevent timeoffset="210" message="It&apos;s all about quality today." locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.65578449" pace="0">
+            <textevent timeoffset="40" message="Again, a good recovery period." locIndex="19" />
+            <textevent timeoffset="280" message="This next effort is 10min just under your threshold." locIndex="20" />
+        </SteadyState>
+        <SteadyState Duration="600" Power="0.95449996" pace="0">
+            <textevent timeoffset="60" message="Focus on controlled breathing and smooth pedaling." locIndex="21" />
+            <textevent timeoffset="120" message="There are a few things we look for in an effort like this." locIndex="22" />
+            <textevent timeoffset="180" message="Are you maintaining the same cadence throughout the interval?" locIndex="23" />
+            <textevent timeoffset="240" message="Does you HR continually rise throughout the interval?." locIndex="24" />
+            <textevent timeoffset="260" message="This would indicate that you are recruiting more muscle fibres to produce the same power." locIndex="25" />
+            <textevent timeoffset="320" message="Does your HR plateau early into the effort?" locIndex="26" />
+            <textevent timeoffset="340" message="This would indicate you are comfortable and efficient at producing this power." locIndex="27" />
+            <textevent timeoffset="400" message="Performing long intervals on Zwift is great training." locIndex="28" />
+            <textevent timeoffset="540" message="Into the last minute now." locIndex="29" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.65041012" pace="0">
+            <textevent timeoffset="40" message="Again, a good recovery period." locIndex="30" />
+            <textevent timeoffset="280" message="Next, we have 2 high intensity 4min intervals." locIndex="31" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="1.17" pace="0">
+            <textevent timeoffset="30" message="Really focus on hitting the target power." locIndex="32" />
+            <textevent timeoffset="90" message="Maintain good position on the bike." locIndex="33" />
+            <textevent timeoffset="150" message="Focus on your pedal stroke." locIndex="34" />
+            <textevent timeoffset="210" message="Just 30sec to go. Push right to the line!" locIndex="35" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.65449995" pace="0">
+            <textevent timeoffset="30" message="Good work. These are hard efforts." locIndex="36" />
+            <textevent timeoffset="90" message="Again, good recovery before repeating the effort." locIndex="37" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="1.17" pace="0">
+            <textevent timeoffset="30" message="Aim to stick to the target power." locIndex="38" />
+            <textevent timeoffset="90" message="Keep your breathing controlled." locIndex="39" />
+            <textevent timeoffset="150" message="Focus on your cadence." locIndex="40" />
+            <textevent timeoffset="210" message="Only 30s left. Push right to the end!" locIndex="41" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.65074277" pace="0">
+            <textevent timeoffset="30" message="Well done." locIndex="42" />
+            <textevent timeoffset="90" message="That was hard work. But you completed it!" locIndex="43" />
+            <textevent timeoffset="150" message="Full recovery again before we begin the final set." locIndex="44" />
+            <textevent timeoffset="210" message="Next is 4 x 1min efforts with short recovery." locIndex="45" />
+            <textevent timeoffset="280" message="Here we go." locIndex="46" />
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="60" OffDuration="60" OnPower="1.2045" OffPower="0.65449995" pace="0">
+            <textevent timeoffset="20" message="High power for 1min." locIndex="47" />
+            <textevent timeoffset="40" message="Maintain the same cadence." locIndex="48" />
+            <textevent timeoffset="80" message="Just a short recovery period." locIndex="49" />
+            <textevent timeoffset="110" message="Ready to go again." locIndex="50" />
+            <textevent timeoffset="150" message="Half way. Focus on controlled breathing." locIndex="51" />
+            <textevent timeoffset="230" message="Just 2 efforts to go." locIndex="52" />
+            <textevent timeoffset="310" message="Compose yourself during the recovery period." locIndex="53" />
+            <textevent timeoffset="350" message="Into the last effort now." locIndex="54" />
+            <textevent timeoffset="390" message="Finish the set strong!" locIndex="55" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.50449997" pace="0">
+            <textevent timeoffset="60" message="Well done. That was a difficult session today." locIndex="56" />
+            <textevent timeoffset="120" message="All quality, hard intervals" locIndex="57" />
+            <textevent timeoffset="180" message="It&apos;s important to spin the legs out to recover for your next session." locIndex="58" />
+        </SteadyState>
+    </workout>
+</workout_file>

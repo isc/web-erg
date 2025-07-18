@@ -1,0 +1,138 @@
+<workout_file>
+    <uniqueId>9e10142e-4dd2-4edf-9629-aebe6aca797e</uniqueId>
+    <legacyIdHash>119432671</legacyIdHash>
+    <author>Zwift</author>
+    <name>Week 1.2 - Instant Inferno</name>
+    <description>Let's keep the consistency going with a quick 18-minute high-intensity workout. After the warm-up, the session features 30sec of work, with 30sec of rest at various intensities and recoveries. Let's send some calories into the fiery inferno!</description>
+    <sportType>bike</sportType>
+    <category>Fast Track Fitness</category>
+    <subcategory>Week 1</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="60" PowerLow=".65" PowerHigh=".80">
+            <textevent timeoffset="0" message="Welcome to Instant Inferno." locIndex="1" />
+            <textevent timeoffset="10" message="The name may be cheesy but the burn is real." locIndex="2" />
+            <textevent timeoffset="20" message="This session is a fancy 30 second on, 30 second off workout." locIndex="3" />
+            <textevent timeoffset="30" message="The paces will constantly change so stay focused, you don&apos;t want to miss a star." locIndex="4" />
+            <textevent timeoffset="40" message="I will guide you through the efforts and keep you on track." locIndex="5" />
+            <textevent timeoffset="50" message="Here we go! Easier effort to start." locIndex="6" />
+        </Warmup>
+        <SteadyState Duration="30" Power=".76">
+            <textevent timeoffset="0" message="Find a comfortable cadence and maintain it through this session." locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="30" Power=".82">
+            <textevent timeoffset="0" message="Light effort to begin." locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="30" Power=".75">
+            <textevent timeoffset="0" message="Ease off the pedals." locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="30" Power=".84">
+            <textevent timeoffset="0" message="Back to it." locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="30" Power=".74">
+            <textevent timeoffset="0" message="Come off the power." locIndex="11" />
+            <textevent timeoffset="10" message="Find some recovery." locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="30" Power=".86">
+            <textevent timeoffset="0" message="Push a little more." locIndex="13" />
+            <textevent timeoffset="10" message="Nice smooth circles." locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="30" Power=".73">
+            <textevent timeoffset="0" message="Nice and easy." locIndex="15" />
+            <textevent timeoffset="10" message="Relax your shoulders." locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="30" Power=".88">
+            <textevent timeoffset="0" message="Stay controlled." locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="30" Power=".72">
+            <textevent timeoffset="0" message="Nice work." locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="30" Power=".90">
+            <textevent timeoffset="0" message="Bring up the effort." locIndex="19" />
+        </SteadyState>
+        <SteadyState Duration="30" Power=".71">
+            <textevent timeoffset="0" message="Ease off the gas." locIndex="20" />
+            <textevent timeoffset="10" message="Grab a drink." locIndex="21" />
+        </SteadyState>
+        <SteadyState Duration="30" Power=".92">
+            <textevent timeoffset="0" message="Effort is starting to build." locIndex="22" />
+            <textevent timeoffset="10" message="Stay calm." locIndex="23" />
+        </SteadyState>
+        <SteadyState Duration="30" Power=".70">
+            <textevent timeoffset="0" message="Use this recovery, it&apos;s your friend." locIndex="24" />
+        </SteadyState>
+        <SteadyState Duration="30" Power=".94">
+            <textevent timeoffset="0" message="You&apos;ve got this!" locIndex="25" />
+        </SteadyState>
+        <SteadyState Duration="30" Power=".69">
+            <textevent timeoffset="0" message="Back off the pedals." locIndex="26" />
+        </SteadyState>
+        <SteadyState Duration="30" Power=".96">
+            <textevent timeoffset="0" message="Push, push, push!" locIndex="27" />
+            <textevent timeoffset="10" message="Get through this effort." locIndex="28" />
+        </SteadyState>
+        <SteadyState Duration="30" Power=".70">
+            <textevent timeoffset="0" message="Great job." locIndex="29" />
+        </SteadyState>
+        <SteadyState Duration="30" Power=".94">
+            <textevent timeoffset="0" message="Taking a little effort off the top for the next few." locIndex="30" />
+        </SteadyState>
+        <SteadyState Duration="30" Power=".72">
+            <textevent timeoffset="0" message="Great job. Have you noticed the recoveries are getting a little harder?" locIndex="31" />
+            <textevent timeoffset="10" message="The last 6 off&apos;s are going to build in effort." locIndex="32" />
+            <textevent timeoffset="20" message="This is going to make the last 3 minutes of this workout challenging." locIndex="33" />
+        </SteadyState>
+        <SteadyState Duration="30" Power=".92">
+            <textevent timeoffset="0" message="Back on it, still coming down in effort though." locIndex="34" />
+        </SteadyState>
+        <SteadyState Duration="30" Power=".74">
+            <textevent timeoffset="0" message="Keep it smooth. Looking great so far!" locIndex="35" />
+        </SteadyState>
+        <SteadyState Duration="30" Power=".90">
+            <textevent timeoffset="0" message="Stay in control." locIndex="36" />
+            <textevent timeoffset="10" message="You&apos;ve got this." locIndex="37" />
+        </SteadyState>
+        <SteadyState Duration="30" Power=".76">
+            <textevent timeoffset="0" message="Great work, take full advantage of these next few recoveries." locIndex="38" />
+        </SteadyState>
+        <SteadyState Duration="30" Power=".88">
+            <textevent timeoffset="0" message="Keep it steady." locIndex="39" />
+        </SteadyState>
+        <SteadyState Duration="30" Power=".78">
+            <textevent timeoffset="0" message="Now things will start to get hard." locIndex="40" />
+        </SteadyState>
+        <SteadyState Duration="30" Power=".92">
+            <textevent timeoffset="0" message="Back to building the efforts." locIndex="41" />
+        </SteadyState>
+        <SteadyState Duration="30" Power=".8">
+            <textevent timeoffset="0" message="Stay with it." locIndex="42" />
+        </SteadyState>
+        <SteadyState Duration="30" Power=".96">
+            <textevent timeoffset="0" message="Time to press." locIndex="43" />
+            <textevent timeoffset="10" message="Remember to keep your neck and shoulders relaxed." locIndex="44" />
+        </SteadyState>
+        <SteadyState Duration="30" Power=".82">
+            <textevent timeoffset="0" message="Big breath out, deep breath in." locIndex="45" />
+            <textevent timeoffset="10" message="You can do it!" locIndex="46" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1">
+            <textevent timeoffset="0" message="Last two hard efforts." locIndex="47" />
+            <textevent timeoffset="10" message="Dig deep, show me what you&apos;ve got!" locIndex="48" />
+        </SteadyState>
+        <SteadyState Duration="30" Power=".84">
+            <textevent timeoffset="0" message="Nice work, I know this is getting hard." locIndex="49" />
+            <textevent timeoffset="10" message="Hang in there." locIndex="50" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.04">
+            <textevent timeoffset="0" message="Final effort! Keep pressing." locIndex="51" />
+            <textevent timeoffset="10" message="Push, push, push!" locIndex="52" />
+        </SteadyState>
+        <Cooldown Duration="60" PowerLow=".74" PowerHigh=".65">
+            <textevent timeoffset="0" message="Fantastic effort." locIndex="53" />
+            <textevent timeoffset="10" message="That got sweaty at the end." locIndex="54" />
+            <textevent timeoffset="20" message="Way to stay with it." locIndex="55" />
+            <textevent timeoffset="40" message="I hope you&apos;ve enjoyed today&apos;s workout." locIndex="56" />
+            <textevent timeoffset="50" message="See you soon. Ride On!" locIndex="57" />
+        </Cooldown>
+    </workout>
+</workout_file>

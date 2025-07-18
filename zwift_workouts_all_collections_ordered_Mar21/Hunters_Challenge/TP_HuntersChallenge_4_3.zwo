@@ -1,0 +1,17 @@
+<workout_file>
+    <uniqueId>8af2dbde-4373-4db0-ae5d-f5fe6b6e50ac</uniqueId>
+    <legacyIdHash>3973962641</legacyIdHash>
+    <category>Hunter&apos;s Challenge</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 4</subcategory>
+    <name>Week 4.3 - Slay the Dragon</name>
+    <description>Let&apos;s try to get this one in this time... You can do it!!! Make sure to stay hydrated and push yourself! Slay those dragons and make this a winning workout! See if you can make the 10 minutes higher than you have ever held for 10 minutes! PUSH that first one. </description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <workout>
+        <Warmup PowerLow="0.55" PowerHigh="0.72" Duration="600" />
+        <IntervalsT OnDuration="600" OffDuration="300" OnPower="1.14" OffPower="0.72" Repeat="4" />
+        <SteadyState Duration="600" Power="0.72" />
+        <IntervalsT OnDuration="10" OffDuration="110" OnPower="1.14" OffPower="0.95" Repeat="10" />
+        <Cooldown PowerLow="0.72" PowerHigh=".55" Duration="600" />
+    </workout>
+</workout_file>

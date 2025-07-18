@@ -1,0 +1,16 @@
+<workout_file>
+    <uniqueId>62e3f176-434d-4c64-b082-7526cca26648</uniqueId>
+    <legacyIdHash>208796699</legacyIdHash>
+    <categoryOverride>90+ minutes to burn</categoryOverride>
+    <name>Week 10.3 - 3x20min SST Low</name>
+    <description>SST Intervals. On trainer, out on road or in a group, SST intervals are part of our continued effort to build and maintain base.</description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <category>Active Offseason</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 10</subcategory>
+    <workout>
+        <Warmup Duration="900" PowerLow="0.2545" PowerHigh="0.75449997" />
+        <IntervalsT Repeat="3" OnDuration="1200" OffDuration="300" PowerOnLow="0.88449997" PowerOnHigh="0.88449997" PowerOffLow="0.50450003" PowerOffHigh="0.50450003" />
+        <Cooldown Duration="900" PowerLow="0.75449997" PowerHigh="0.2545" />
+    </workout>
+</workout_file>

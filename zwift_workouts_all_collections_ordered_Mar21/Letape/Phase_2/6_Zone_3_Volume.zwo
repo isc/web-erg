@@ -1,0 +1,87 @@
+<workout_file>
+    <uniqueId>a9595e11-b6ba-4736-813f-1330974bb740</uniqueId>
+    <legacyIdHash>352771558</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Phase 2.6 - Zone 3 Volume</name>
+    <description>Zone 3 training is ideal for building muscular endurance during the late base phase of training. During L&apos;Etape du Tour de France you will more than likely be spending a considerable amount of time at this intensity.
+
+To train this area effectively, requires completing longer medium intensity intervals. Today&apos;s session consists of 3 x 12 minute Zone 3 intervals. </description>
+    <sportType>bike</sportType>
+    <category>L&apos;Etape du Tour Training Club</category>
+    <subcategory>Phase 2</subcategory>
+    <visibleAfterTime>1555632060</visibleAfterTime>
+    <tags />
+    <workout>
+        <Warmup Duration="180.00002" PowerLow="0.46918026" PowerHigh="0.60000002" pace="2">
+            <textevent timeoffset="50" message="In this &apos;late base&apos; training phase we have been focussed on spending extended periods at a sub-threshold level." locIndex="1" />
+            <textevent timeoffset="70" message="In this training phase we have implemented a variety of training that promotes endurance and efficiency." locIndex="2" />
+            <textevent timeoffset="90" message="While it is fine to include some intensity during the base phase of training." locIndex="3" />
+            <textevent timeoffset="110" message="There is still no denying the benefits of long, tempo work." locIndex="4" />
+            <textevent timeoffset="130" message="In today&apos;s session we are looking to spend the maximum amount of time with Zone 3." locIndex="5" />
+            <textevent timeoffset="140" message="But first we need to warm up!" locIndex="6" />
+        </Warmup>
+        <SteadyState Duration="60.000004" Power="0.64999998" pace="2">
+            <textevent timeoffset="25" message="Our warm up will take you through a few steps of increasing intensity." locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="60.000004" Power="0.81" pace="2">
+            <textevent timeoffset="20" message="Being below your FTP, this level should be comfortable." locIndex="8" />
+            <textevent timeoffset="50" message="The next step is just above your FTP." locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="60.000004" Power="1.09" pace="2">
+            <textevent timeoffset="20" message="A little bit of hard work in the warmup." locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="120.00001" Power="0.5" pace="2">
+            <textevent timeoffset="51" message="A short recovery period before we complete the warmup with an extended low level effort." locIndex="11" />
+            <textevent timeoffset="110" message="This next effort it just 4min at high Zone 2." locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.73449993" pace="2">
+            <textevent timeoffset="30" message="This is the intensity that you will be spending a large part of L&apos;etape du Tour de France in." locIndex="13" />
+            <textevent timeoffset="100" message="Today&apos;s main set consists of 3 x 12min Zone 3 efforts." locIndex="14" />
+            <textevent timeoffset="120" message="However, the 12min is broken up into smaller parts, where the power ramps up slightly." locIndex="15" />
+            <textevent timeoffset="140" message="Zone 3 is a comfortable intensity." locIndex="16" />
+            <textevent timeoffset="160" message="But it&apos;s still important to train within the full range of Zone 3." locIndex="17" />
+            <textevent timeoffset="220" message="Starting to get ready for the 12min effort." locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.50449997" pace="2">
+            <textevent timeoffset="160" message="Ready for the first 12min effort?" locIndex="19" />
+        </SteadyState>
+        <Ramp Duration="240" PowerLow="0.76449996" PowerHigh="0.89449996" pace="0">
+            <textevent timeoffset="30" message="Think of these 12min efforts as rolling hills." locIndex="20" />
+            <textevent timeoffset="50" message="You&apos;re riding comfortably within zone 3, but the pace is always changing slightly." locIndex="21" />
+        </Ramp>
+        <Ramp Duration="240" PowerLow="0.76449996" PowerHigh="0.89449996" pace="0">
+            <textevent timeoffset="60" message="The change in power will also allow you to stand on the pedals occasionally." locIndex="22" />
+        </Ramp>
+        <Ramp Duration="240" PowerLow="0.76449996" PowerHigh="0.89449996" pace="0">
+            <textevent timeoffset="78" message="How are the legs feeling? This shouldn&apos;t be a problem for you." locIndex="23" />
+        </Ramp>
+        <SteadyState Duration="120" Power="0.65449995" pace="0">
+            <textevent timeoffset="52" message="Our recovery interval can be a little high than normal because there is not accumulated lactate from these efforts." locIndex="24" />
+        </SteadyState>
+        <Ramp Duration="240" PowerLow="0.76449996" PowerHigh="0.89449996" pace="0">
+            <textevent timeoffset="51" message="Into the second set of rolling hills now." locIndex="25" />
+        </Ramp>
+        <Ramp Duration="240" PowerLow="0.76449996" PowerHigh="0.89449996" pace="0">
+            <textevent timeoffset="72" message="If you are starting to feel fatigued from this effort, that would indicate that will be benefit from more zone 3 volume." locIndex="26" />
+        </Ramp>
+        <Ramp Duration="240" PowerLow="0.76449996" PowerHigh="0.89449996" pace="0">
+            <textevent timeoffset="72" message="This interval will complete 24min of zone 3 work. That&apos;s fantastic!" locIndex="27" />
+        </Ramp>
+        <SteadyState Duration="120" Power="0.65449995" pace="0">
+            <textevent timeoffset="60" message="You should feel well recovered after 2min at this intensity." locIndex="28" />
+        </SteadyState>
+        <Ramp Duration="240" PowerLow="0.76449996" PowerHigh="0.89449996" pace="0">
+            <textevent timeoffset="98" message="Into our last set now. Has your cadence remained the same throughout the efforts?" locIndex="29" />
+        </Ramp>
+        <Ramp Duration="240" PowerLow="0.76449996" PowerHigh="0.89449996" pace="0">
+            <textevent timeoffset="94" message="The long climbs of L&apos;Etape du Tour de France will be climbed at a similar intensity to this." locIndex="30" />
+        </Ramp>
+        <Ramp Duration="240" PowerLow="0.76449996" PowerHigh="0.89449996" pace="0">
+            <textevent timeoffset="100" message="Onto the last effort now. Giving you 36min of Zone 3 work today." locIndex="31" />
+        </Ramp>
+        <SteadyState Duration="300" Power="0.50449997" pace="0">
+            <textevent timeoffset="160" message="Today would be considered a medium intensity day." locIndex="32" />
+            <textevent timeoffset="220" message="Be sure to hydrate adequately after this session." locIndex="33" />
+        </SteadyState>
+    </workout>
+</workout_file>

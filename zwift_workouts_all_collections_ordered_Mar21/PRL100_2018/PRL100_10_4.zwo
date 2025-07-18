@@ -1,0 +1,77 @@
+<workout_file>
+    <uniqueId>334c5792-b035-4eb6-bda7-1f61cd370290</uniqueId>
+    <legacyIdHash>300279280</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Week 10.4 - 4x3min VO2 Increasing</name>
+    <category>2018 PRL100 Prep</category>
+    <subcategory>Week 10</subcategory>
+    <description>After a good warm up and 1 hour of Endurance Free Riding, complete the following. 4 x 3min @ Z5 VO2 with 3min recovery. The aim is to increase power with each effort, with the final effort being the best. Cool down.</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <SteadyState Duration="60" Power="0.5" pace="0" />
+        <SteadyState Duration="60" Power="0.52999997" pace="0" />
+        <SteadyState Duration="60" Power="0.56" pace="0" />
+        <SteadyState Duration="60" Power="0.58999997" pace="0" />
+        <SteadyState Duration="60" Power="0.62" pace="0">
+            <textevent timeoffset="30" message="Today we build some fatigue before completing the VO2 intervals." locIndex="1" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.63999999" pace="0">
+            <textevent timeoffset="30" message="It&apos;s important to be able to produce your best power at the end of a long ride." locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.67000002" pace="0" />
+        <SteadyState Duration="60" Power="0.69999999" pace="0" />
+        <SteadyState Duration="60" Power="0.73000002" pace="0" />
+        <SteadyState Duration="60" Power="0.75999999" pace="0">
+            <textevent timeoffset="20" message="To build fatigue complete the opening portion as a free ride." locIndex="3" />
+            <textevent timeoffset="40" message="Aim to keep power within zone 2 and 3 during the free ride." locIndex="4" />
+        </SteadyState>
+        <FreeRide Duration="2400" FlatRoad="0">
+            <textevent timeoffset="60" message="Enjoy some stress free riding. The hard work is coming up!" locIndex="5" />
+            <textevent timeoffset="120" message="Vary your cadence throughout the free ride." locIndex="6" />
+        </FreeRide>
+        <SteadyState Duration="180" Power="0.55000001" pace="0">
+            <textevent timeoffset="20" message="Now for the hard work!" locIndex="7" />
+            <textevent timeoffset="60" message="The intensity increases with each interval." locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="1.0599999" pace="0">
+            <textevent timeoffset="20" message="Aim to hold a steady cadence throughout the interval." locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.55000001" pace="0">
+            <textevent timeoffset="30" message="That was the easiest one! But you can do this!" locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="1.0700001" pace="0">
+            <textevent timeoffset="10" message="A little harder this time." locIndex="11" />
+            <textevent timeoffset="90" message="Half way. You&apos;ve got this!" locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.55000001" pace="0">
+            <textevent timeoffset="30" message="How are the legs?" locIndex="13" />
+            <textevent timeoffset="120" message="Just 2 to go." locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="1.09" pace="0">
+            <textevent timeoffset="10" message="A little harder again." locIndex="15" />
+            <textevent timeoffset="120" message="Just 60sec to go!" locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.55000001" pace="0">
+            <textevent timeoffset="90" message="Great work. Just 1 to go!" locIndex="17" />
+            <textevent timeoffset="160" message="Here we go. Big effort!" locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="1.12" pace="0">
+            <textevent timeoffset="90" message="Great work. Not long to go." locIndex="19" />
+            <textevent timeoffset="150" message="30sec... Keep the power up!" locIndex="20" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.55000001" pace="0">
+            <textevent timeoffset="60" message="That was a fantastic session. Well done!" locIndex="21" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.75999999" pace="0" />
+        <SteadyState Duration="60" Power="0.73000002" pace="0" />
+        <SteadyState Duration="60" Power="0.69999999" pace="0" />
+        <SteadyState Duration="60" Power="0.67000002" pace="0" />
+        <SteadyState Duration="60" Power="0.63999999" pace="0" />
+        <SteadyState Duration="60" Power="0.62" pace="0" />
+        <SteadyState Duration="60" Power="0.58999997" pace="0" />
+        <SteadyState Duration="60" Power="0.56" pace="0" />
+        <SteadyState Duration="60" Power="0.52999997" pace="0" />
+        <SteadyState Duration="60" Power="0.5" pace="0" />
+    </workout>
+</workout_file>

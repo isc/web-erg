@@ -1,0 +1,142 @@
+<workout_file>
+    <uniqueId>aff514f5-5be6-4a93-9819-6fa50eb4835f</uniqueId>
+    <legacyIdHash>2091099713</legacyIdHash>
+    <author>Sean Jefferson</author>
+    <categoryOverride>30-60 minutes to burn</categoryOverride>
+    <name>Annemiek Van Vleuten: All-rounder</name>
+    <activitySaveName>Zwift Pro Training Camp: Movistar | Annemiek Van Vleuten</activitySaveName>
+    <description>The best in the world. No discussion. Such is the level of achievements Dutchwoman Annemiek van Vleuten has attained for most of the past decade. Her work ethic, commitment and extreme competitive spirit have brought her to break all barriers and reach sensational results. The main set is 2 rounds of 3 x 3 min efforts at 110% of FTP with 5 minutes of easy recovery between rounds. This workout is all about improving VO2max and the ability to maintain power above threshold during medium efforts. Van Vleuten  knows the importance of this type of workout to be able to support attacks from her rivals.</description>
+    <sportType>bike</sportType>
+    <category>Pro Training Camp | Movistar</category>
+    <categoryIndex>2</categoryIndex>
+    <visibleAfterTime>1671408060</visibleAfterTime>
+    <overrideHash>2091099713</overrideHash>
+    <tags>
+        <tag name="zprotraining" />
+    </tags>
+    <workout>
+        <Warmup Duration="660" PowerLow=".5" PowerHigh=".8">
+            <textevent timeoffset="0" message="Welcome to Zwift&apos;s Pro Training Camp with UCI WorldTour team Movistar." locIndex="1" />
+            <textevent timeoffset="20" message="Today we have a workout from the G.O.A.T of women&apos;s cycling, Annemiek Van Vleuten." locIndex="2" />
+            <textevent timeoffset="30" message="You name it, she&apos;s won it! Including the first ever Tour de France Femmes Avec Zwift." locIndex="3" />
+            <textevent timeoffset="40" message="Whether it&apos;s Olympic Gold, Grand tour victories or winning 1 day classics, Van Vlueten knows the importance of improving V02 Max..." locIndex="4" />
+            <textevent timeoffset="50" message="And today you get to ride one of her favorite V02 max interval workouts." locIndex="5" />
+            <textevent timeoffset="80" message="One of the misconceptions about professional riders and their training is they have secret workouts to make them better than their rivals." locIndex="6" />
+            <textevent timeoffset="90" message="In reality, their secret weapon is consistency over time, which means executing the basics really well." locIndex="7" />
+            <textevent timeoffset="100" message="Annemeik is a master of execution when it comes to the basics, there is no silver bullet." locIndex="8" />
+            <textevent timeoffset="120" message="Today&apos;s session is pretty simple, 2 rounds of V02 max of 3 x 3 minutes at 110% of FTP." locIndex="9" />
+            <textevent timeoffset="130" message="What is V02 max? VO2 max is defined as your maximal aerobic capacity." locIndex="10" />
+            <textevent timeoffset="140" message="In simple terms it&apos;s the measurement of the maximal amount of oxygen your body can consume." locIndex="11" />
+            <textevent timeoffset="150" message="You may of heard of elite athletes V02 max values being mentioned when discussing athletic performance. It&apos;s a really important performance marker in endurance sports." locIndex="12" />
+            <textevent timeoffset="160" message="For context a V02 max value for most elite athletes ranges from 55 - 90. Fun fact! The highest ever recorded V02 max was from an 18 year old Norwegian cyclist in 2012." locIndex="13" />
+            <textevent timeoffset="170" message="Any guesses on what value it was? Drop your answer in the chat." locIndex="14" />
+            <textevent timeoffset="180" message="Hurry up, the answer coming in 30 seconds." locIndex="15" />
+            <textevent timeoffset="210" message="96.7? Anyone get it correct?" locIndex="16" />
+            <textevent timeoffset="240" message="The good thing about V02 max is it&apos;s trainable. Untrained athletes can improve their V02 max between 15-25%." locIndex="17" />
+            <textevent timeoffset="250" message="So if you want to ride like Annemeik, now is the time to put in the work." locIndex="18" />
+            <textevent timeoffset="300" message="5 min of warm up so far, 6 min left. We will continue to ramp up the effort to make sure you&apos;re fully warmed up before starting the main set." locIndex="19" />
+            <textevent timeoffset="360" message="As the effort builds, focus on maintaining good form." locIndex="20" />
+            <textevent timeoffset="370" message="Light grip on the bars, relax your neck and drop your shoulders." locIndex="21" />
+            <textevent timeoffset="420" message="Keep tapping away on those pedals." locIndex="22" />
+            <textevent timeoffset="500" message="You should be heating up now." locIndex="23" />
+            <textevent timeoffset="560" message="Now that you&apos;ve started to sweat, let&apos;s get in the habit of drinking. Go ahead and take a few sips now." locIndex="24" />
+            <textevent timeoffset="620" message="Final minute, keep it steady." locIndex="25" />
+            <textevent timeoffset="650" message="You&apos;ve got 60 seconds easy recovery coming up next." locIndex="26" />
+        </Warmup>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="0" message="Grab a drink of water and catch your breath." locIndex="27" />
+            <textevent timeoffset="30" message="The big efforts are coming up next. 3 minutes at 110% of FTP with 2 min rest at 45% effort." locIndex="28" />
+            <textevent timeoffset="40" message="The 2 min recovery is really easy, so you can give it everything during the 3 min efforts." locIndex="29" />
+            <textevent timeoffset="50" message="Time to dig deep." locIndex="30" />
+        </SteadyState>
+        <IntervalsT Repeat="3" OnDuration="180" OnPower="1.1" OffDuration="120" OffPower="0.45">
+            <textevent timeoffset="0" message="Bring up your power and settle in to this effort." locIndex="31" />
+            <textevent timeoffset="20" message="Keep it controlled for the start. Make sure to save something for the last 60 seconds." locIndex="32" />
+            <textevent timeoffset="60" message="You&apos;re crushing it. Keep pushing that beautiful power." locIndex="33" />
+            <textevent timeoffset="90" message="You&apos;re officially at the halfway point. Time to dig in." locIndex="34" />
+            <textevent timeoffset="120" message="Final 60 seconds. Do whatever it takes to get to the line." locIndex="35" />
+            <textevent timeoffset="150" message="Nearly there, stay strong!" locIndex="36" />
+            <textevent timeoffset="160" message="All the way to the arch!" locIndex="37" />
+            <textevent timeoffset="180" message="Ease off, bring your power way down and recover." locIndex="38" />
+            <textevent timeoffset="190" message="Take 30 seconds and relax your breathing by taking a few deep breaths." locIndex="39" />
+            <textevent timeoffset="200" message="Slow inhale through your nose and exhale through your mouth." locIndex="40" />
+            <textevent timeoffset="210" message="Now that your heart is back in it&apos;s proper place, bring your cadence back to 90 rpms and spin." locIndex="41" />
+            <textevent timeoffset="280" message="Final sip of water before you get back into it." locIndex="42" />
+            <textevent timeoffset="290" message="Here we go!" locIndex="43" />
+            <textevent timeoffset="300" message="Get fired up!" locIndex="44" />
+            <textevent timeoffset="310" message="Even though the power stays consistent throughout this interval, think about progressively building your effort." locIndex="45" />
+            <textevent timeoffset="320" message="It will feel relatively controlled for the first minute, but as you continue, it will require more effort and focus to maintain your power." locIndex="46" />
+            <textevent timeoffset="360" message="Nicely done! Keep tapping away on those pedals." locIndex="47" />
+            <textevent timeoffset="390" message="Halfway there, stay focused, keep pressing!" locIndex="48" />
+            <textevent timeoffset="420" message="Final minute, keep fighting!" locIndex="49" />
+            <textevent timeoffset="460" message="Stay on it!" locIndex="50" />
+            <textevent timeoffset="480" message="Fantastic work! Way to battle through that last minute." locIndex="51" />
+            <textevent timeoffset="490" message="Towel off and grab a drink." locIndex="52" />
+            <textevent timeoffset="500" message="When you feel ready, take a big inhale through the nose, big exhale through your mouth." locIndex="53" />
+            <textevent timeoffset="510" message="RELAAAAX." locIndex="54" />
+            <textevent timeoffset="540" message="Soft pedal strokes, relaxed upper body, and keep a smile on your face!" locIndex="55" />
+            <textevent timeoffset="580" message="Last 3 min rep of this round on deck." locIndex="56" />
+            <textevent timeoffset="590" message="You&apos;ve got a 7 minute recovery after this rep, be prepared to go all in during the next 3 min effort." locIndex="57" />
+            <textevent timeoffset="600" message="Let&apos;s roll!" locIndex="58" />
+            <textevent timeoffset="610" message="This is what makes champions, nothing fancy, just good hard work." locIndex="59" />
+            <textevent timeoffset="660" message="1st minute tucked away, 2 minutes to glory!" locIndex="60" />
+            <textevent timeoffset="690" message="Halfway mark, what let&apos;s see what you&apos;ve got left?" locIndex="61" />
+            <textevent timeoffset="720" message="Make this final 60 seconds count." locIndex="62" />
+            <textevent timeoffset="760" message="I know it hurts, don&apos;t let your rivals see you suffering. Keep a smile on your face!" locIndex="63" />
+            <textevent timeoffset="780" message="Awesome work! You&apos;ve got 2 minutes very easy now followed by another 5 minutes of easy recovery, it&apos;s a full recovery." locIndex="64" />
+            <textevent timeoffset="840" message="Comfortably keep spinning your legs to actively recover from that round." locIndex="65" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.5">
+            <textevent timeoffset="0" message="Do what you need to do to fully recover here." locIndex="66" />
+            <textevent timeoffset="10" message="Go into Zen mode, put on soothing music, follow your breath, whatever it takes! You need to be fully rested for the next round." locIndex="67" />
+            <textevent timeoffset="60" message="Keep it smooth, keep it steady, bring down your heart rate. Drop a few beats every minute." locIndex="68" />
+            <textevent timeoffset="240" message="Final minute of recovery, let&apos;s get ready for the 2nd round." locIndex="69" />
+            <textevent timeoffset="250" message="Same effort, same recovery. You know what to do!" locIndex="70" />
+            <textevent timeoffset="280" message="Last chance to drink. Make it quick." locIndex="71" />
+            <textevent timeoffset="290" message="Here we go! Time to crush some watts." locIndex="72" />
+        </SteadyState>
+        <IntervalsT Repeat="3" OnDuration="180" OnPower="1.1" OffDuration="120" OffPower="0.45">
+            <textevent timeoffset="0" message="Start off this rep with class and control." locIndex="73" />
+            <textevent timeoffset="20" message="Don&apos;t go out too hard! Temper your excitement." locIndex="74" />
+            <textevent timeoffset="60" message="Looking great to start round 2, keep it rolling." locIndex="75" />
+            <textevent timeoffset="90" message="Halfway check. How are you feeling? Try and keep your shoulders down and relaxed as fatigue creeps up." locIndex="76" />
+            <textevent timeoffset="120" message="Final 60 minute. Time to turn up the heat." locIndex="77" />
+            <textevent timeoffset="150" message="Keep pressing!" locIndex="78" />
+            <textevent timeoffset="160" message="Finish it off!" locIndex="79" />
+            <textevent timeoffset="180" message="Nice work, settle down quickly and get right into recovery mode." locIndex="80" />
+            <textevent timeoffset="190" message="Now is the time to drink! And if you have some carbs you can consume those too!" locIndex="81" />
+            <textevent timeoffset="200" message="Remember to breathe deep, it will help drop your heart rate and recover quicker." locIndex="82" />
+            <textevent timeoffset="280" message="Rep 2 is on it&apos;s way, you&apos;re ready!" locIndex="83" />
+            <textevent timeoffset="290" message="Time to shine!" locIndex="84" />
+            <textevent timeoffset="300" message="Push, push, push!" locIndex="85" />
+            <textevent timeoffset="310" message="Find your rhythm, find your cadence and let&apos;s get to work." locIndex="86" />
+            <textevent timeoffset="360" message="You&apos;ve been here before and you can do it again. Stay positive." locIndex="87" />
+            <textevent timeoffset="390" message="Halfway there!" locIndex="88" />
+            <textevent timeoffset="420" message="As the effort gets more and more unbearable focus on staying relaxed." locIndex="89" />
+            <textevent timeoffset="460" message="This is it! Blast through the arch!" locIndex="90" />
+            <textevent timeoffset="480" message="Nicely done!" locIndex="91" />
+            <textevent timeoffset="490" message="Good news, you&apos;ve got one rep left, bad news you&apos;ve got one rep left." locIndex="92" />
+            <textevent timeoffset="500" message="You get to decide how you show up with positivity or negativity." locIndex="93" />
+            <textevent timeoffset="510" message="Choose to be positive!" locIndex="94" />
+            <textevent timeoffset="580" message="Final rep coming up, Let&apos;s GO!" locIndex="95" />
+            <textevent timeoffset="600" message="Remember consistency is key to being successful" locIndex="96" />
+            <textevent timeoffset="610" message="Can you show up and consistently complete the work?" locIndex="97" />
+            <textevent timeoffset="620" message="I know you can do this!" locIndex="98" />
+            <textevent timeoffset="690" message="Halfway there, you can do it champ!" locIndex="99" />
+            <textevent timeoffset="720" message="Last 60 seconds of pain! Every second counts." locIndex="100" />
+            <textevent timeoffset="760" message="Bring it home!" locIndex="101" />
+            <textevent timeoffset="780" message="You crushed this session, be proud." locIndex="102" />
+            <textevent timeoffset="790" message="Take the next few minutes easy as we cool down." locIndex="103" />
+        </IntervalsT>
+        <Cooldown Duration="180" PowerHigh="0.5" PowerLow="0.65">
+            <textevent timeoffset="0" message="Great job out there today! Way to show up and put in the effort." locIndex="104" />
+            <textevent timeoffset="10" message="This is a great session to build your V02 max. A good progression to this session as you get fitter would be to add another rep per round." locIndex="105" />
+            <textevent timeoffset="20" message="Or bring down the effort from 110% of FTP to 105% of FTP and add another minute to each interval." locIndex="106" />
+            <textevent timeoffset="60" message="Thanks for joining the Zwift and Movistar Pro training camp." locIndex="107" />
+            <textevent timeoffset="70" message="You&apos;ve made some impressive gains today." locIndex="108" />
+            <textevent timeoffset="90" message="If you enjoyed this session you can find 5 more workouts from Movistar in the Pro training camp folder." locIndex="109" />
+            <textevent timeoffset="160" message="See you on the road again soon!" locIndex="110" />
+            <textevent timeoffset="170" message="Ride On!" locIndex="111" />
+        </Cooldown>
+    </workout>
+</workout_file>

@@ -1,0 +1,29 @@
+<workout_file>
+    <uniqueId>e2563c71-3758-4041-82a5-ab3791750a8d</uniqueId>
+    <legacyIdHash>3465508839</legacyIdHash>
+    <author>KNWU Fondo</author>
+    <name>Week 12.2 - Duurtraining (1.5u)</name>
+    <category>KNWU Fondo Wintertraining</category>
+    <subcategory>Week 12</subcategory>
+    <description>Deze training helpt je langer vol te houden.</description>
+    <sportType>bike</sportType>
+    <tags />
+    <entid>487</entid>
+    <workout>
+        <Warmup Duration="300" PowerHigh="0.65" PowerLow="0.25">
+            <textevent timeoffset="10" message="Welkom bij het KNWU Fondo Wintertrainingsprogramma" locIndex="1" />
+            <textevent timeoffset="15" message="Vandaag staat er een duurtraining op het programma" locIndex="2" />
+            <textevent timeoffset="20" message="Deze training helpt je langer vol te houden." locIndex="3" />
+            <textevent timeoffset="25" message="Eerst even opwarmen." locIndex="4" />
+        </Warmup>
+        <SteadyState Duration="5100" Power="0.65" CadenceHigh="100" CadenceLow="80">
+            <textevent timeoffset="5" message="De training bestaat uit één lang blok in zone D1" locIndex="5" />
+            <textevent timeoffset="10" message="Hou een cadans aan van ongeveer 90rpm" locIndex="6" />
+            <textevent timeoffset="2400" message="Je zit op de helft, super!" locIndex="7" />
+            <textevent timeoffset="3792" message="Denk je eraan goed te drinken?" locIndex="8" />
+            <textevent timeoffset="5068" message="Bedankt voor je inzet vandaag." locIndex="9" />
+            <textevent timeoffset="5075" message="We hopen je snel weer terug te zien!" locIndex="10" />
+        </SteadyState>
+    </workout>
+    <activitySaveName>Duurtraining - KNWU Fondo Wintertraining</activitySaveName>
+</workout_file>

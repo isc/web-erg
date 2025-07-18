@@ -1,0 +1,19 @@
+<workout_file>
+    <uniqueId>a652b0d4-b13c-4910-83a8-8b52b4c6d3c8</uniqueId>
+    <legacyIdHash>2311996394</legacyIdHash>
+    <author>Zwift</author>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>Multi-Sport Threshold Booster</category>
+    <visibleOutsidePlan>0</visibleOutsidePlan>
+    <name>Endurance</name>
+    <description>A steady endurance ride today.
+
+Don&apos;t forget it&apos;s fine to miss a day if you have to. Just move on to the next planned session.
+
+Ride as you feel aiming to keep power within Zone 2.</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <FreeRide Duration="3600" />
+    </workout>
+</workout_file>

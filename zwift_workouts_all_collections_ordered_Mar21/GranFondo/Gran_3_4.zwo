@@ -1,0 +1,84 @@
+<workout_file>
+    <uniqueId>a785c207-03ca-4047-b47b-ef286f34c5fb</uniqueId>
+    <legacyIdHash>1302457935</legacyIdHash>
+    <author>Zwift</author>
+    <name>The Long Ride - Extended Tempo</name>
+    <description>For this week&apos;s long ride, we take on sustained tempo work. Rather than spiking from base endurance, this week you will tackle long, sustained work in the tempo zone. This workout will require mental focus as these long blocks at tempo work start out feeling easy but they do get hard.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Gran Fondo</category>
+    <subcategory>Week 3</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="900" PowerLow="0.50449997" PowerHigh="0.85449994" pace="0">
+            <textevent timeoffset="30" message="Hi and welcome to the Week 3 Long Ride - of the Zwift Fondo Training Plan." locIndex="1" />
+            <textevent timeoffset="150" message="We have a great workout here for you today." locIndex="2" />
+            <textevent timeoffset="220" message="We will start out with some intervals at 85% to open up the legs." locIndex="3" />
+            <textevent timeoffset="240" message="The main set for this workout is 3x20min 85% with strong aerobic recovery." locIndex="4" />
+            <textevent timeoffset="270" message="Focus of today is specific endurance for those long climbs on the Pretzel." locIndex="5" />
+            <textevent timeoffset="300" message="Next Wkwill will taper down for race day. Last real bit of work here today." locIndex="6" />
+            <textevent timeoffset="400" message="Long workout today building on last week. 2.5hrs here today for you all." locIndex="7" />
+            <textevent timeoffset="520" message="Nothing crazy here today. We did the hard stuff earlier in the week." locIndex="8" />
+            <textevent timeoffset="640" message="Today is all about that specific endurance." locIndex="9" />
+            <textevent timeoffset="760" message="Nice warm up here to get loose before we wind up these intervals." locIndex="10" />
+            <textevent timeoffset="880" message="And here we go. Transitioning right into the intervals." locIndex="11" />
+        </Warmup>
+        <IntervalsT Repeat="6" OnDuration="120" OffDuration="120" OnPower="0.85449994" OffPower="0.55449998" pace="0">
+            <textevent timeoffset="15.000028" message="Okay, right into this first one. Getting a nice groove and finding your legs before the long sustained stuff." locIndex="12" />
+            <textevent timeoffset="135.00024" message="And easy now for 2min... Just get a nice rhythm. The up-tempo intervals are your Fondo pace." locIndex="13" />
+            <textevent timeoffset="255.00015" message="And right back into that zone. This should be a comfortably uncomfortable pace." locIndex="14" />
+            <textevent timeoffset="735.00012" message="Nice and smooth on these. Just finding your pace in these early intervals." locIndex="15" />
+            <textevent timeoffset="1215.0004" message="Deep into this block. Keeping consistent." locIndex="16" />
+            <textevent timeoffset="1335" message="And some recovery. Remember to fluid and calories for this one. It is long." locIndex="17" />
+        </IntervalsT>
+        <SteadyState Duration="360" Power="0.55449998" pace="0">
+            <textevent timeoffset="15" message="And easy now. Hydrate and fuel before these long blocks." locIndex="18" />
+            <textevent timeoffset="90.000031" message="Nice and relaxed here. Enjoy the down tempo." locIndex="19" />
+            <textevent timeoffset="180.00006" message="These are long intervals coming up. Focus is really key." locIndex="20" />
+            <textevent timeoffset="270" message="If you need some motivation, just ask the group. That is why everyone is here." locIndex="21" />
+            <textevent timeoffset="444.81848" message="And last one here. Great work." locIndex="22" />
+        </SteadyState>
+        <SteadyState Duration="1200" Power="0.85449994" pace="0">
+            <textevent timeoffset="15" message="And ramping it up for this first interval. Nice pace." locIndex="23" />
+            <textevent timeoffset="200" message="And in the groove now. Find that tempo." locIndex="24" />
+            <textevent timeoffset="400" message="Good comfortable cadence here. Whatever you prefer, but don&apos;t let it bog down." locIndex="25" />
+            <textevent timeoffset="600" message="Light on the pedals whether you are a spinner or a grinder." locIndex="26" />
+            <textevent timeoffset="800" message="And getting deep into it here. Great stuff." locIndex="27" />
+            <textevent timeoffset="1000" message="And closing it out. Almost done. Staying strong." locIndex="28" />
+        </SteadyState>
+        <SteadyState Duration="600" Power="0.65449995" pace="0">
+            <textevent timeoffset="15" message="Stepping it down. Easier but still solid endurance. 65% here." locIndex="29" />
+            <textevent timeoffset="150" message="Grab your towel and grab a drink. Still have work to do!" locIndex="30" />
+            <textevent timeoffset="300" message="Halfway through on this down tempo interval." locIndex="31" />
+            <textevent timeoffset="450" message="Get ready to bring it back up. Coming into the second long one." locIndex="32" />
+        </SteadyState>
+        <SteadyState Duration="1200" Power="0.85449994" pace="0">
+            <textevent timeoffset="15" message="And right back into that strong steady endurance race-pace." locIndex="33" />
+            <textevent timeoffset="200" message="Settle right back into that strong rhythm here." locIndex="34" />
+            <textevent timeoffset="400" message="Ticking &apos;em over. Big XP on this workout!" locIndex="35" />
+            <textevent timeoffset="600" message="Looking forward to Fondo day!" locIndex="36" />
+            <textevent timeoffset="800" message="The Gran Fondo is two laps of The Pretzel. Over 90mi or 145km!" locIndex="37" />
+            <textevent timeoffset="1000" message="And coming in to the home stretch of this second block. Close it out." locIndex="38" />
+        </SteadyState>
+        <SteadyState Duration="600" Power="0.65449995" pace="0">
+            <textevent timeoffset="15" message="And stepping down again. 10min nice and crisp here." locIndex="39" />
+            <textevent timeoffset="150" message="Keep the pressure on the pedals. Just a bit less of it." locIndex="40" />
+            <textevent timeoffset="300" message="Play with your cadence here and stand as well to stretch." locIndex="41" />
+            <textevent timeoffset="450" message="And almost through this. Getting ready to step it up for the LAST ONE!" locIndex="42" />
+        </SteadyState>
+        <SteadyState Duration="1200" Power="0.85449994" pace="0">
+            <textevent timeoffset="15" message="Alright, probably some tired legs out there by now. But one more long block to go." locIndex="43" />
+            <textevent timeoffset="200" message="You will be glad next Sunday that you logged the hard work today." locIndex="44" />
+            <textevent timeoffset="400" message="Grab a bit of fuel to get you through the end of this one." locIndex="45" />
+            <textevent timeoffset="600" message="Halfway mark on number three. Finish line is in sight!" locIndex="46" />
+            <textevent timeoffset="800" message="Great work here. Staying nice and strong all the way through the end." locIndex="47" />
+            <textevent timeoffset="1000" message="Steady tempo is the key to all those trips up the Epic KOM!" locIndex="48" />
+        </SteadyState>
+        <Cooldown Duration="600" PowerLow="0.65449995" PowerHigh="0.50449997" pace="0">
+            <textevent timeoffset="15" message="And you are done. Great work. Stepping it down now over the next 10min." locIndex="49" />
+            <textevent timeoffset="150" message="Slowly bringing down the pace." locIndex="50" />
+            <textevent timeoffset="300" message="If you are smoked, turn off erg mode and just chill these last few minutes." locIndex="51" />
+            <textevent timeoffset="450" message="Great job. You are READY for Sunday!" locIndex="52" />
+        </Cooldown>
+    </workout>
+</workout_file>

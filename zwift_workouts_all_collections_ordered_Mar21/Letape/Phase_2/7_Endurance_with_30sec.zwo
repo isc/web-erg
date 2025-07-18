@@ -1,0 +1,68 @@
+<workout_file>
+    <uniqueId>1a415e43-c97e-42e2-92ec-d3355eb43ba7</uniqueId>
+    <legacyIdHash>3675824292</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Phase 2.7 - Endurance With 30sec</name>
+    <description>A lower intensity endurance session today that incorporates 30 second surges. 
+
+However, with ample recovery you should be hitting each effort refreshed. </description>
+    <sportType>bike</sportType>
+    <category>L&apos;Etape du Tour Training Club</category>
+    <subcategory>Phase 2</subcategory>
+    <visibleAfterTime>1555632060</visibleAfterTime>
+    <tags>
+        <tag name="INTERVALS" />
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.45000002" PowerHigh="0.75" pace="1">
+            <textevent timeoffset="60" message="Not every session needs to involve high intensity or extended efforts." locIndex="1" />
+            <textevent timeoffset="90" message="Recovery sessions and recovery weeks are very important in gaining fitness." locIndex="2" />
+            <textevent timeoffset="120" message="Today&apos; session can be considered a &apos;maintenance&apos; session." locIndex="3" />
+            <textevent timeoffset="150" message="It allows for good recovery, but also allows you to keep that consistency in your training." locIndex="4" />
+            <textevent timeoffset="200" message="Before we get to the main set, it&apos;s important to warmup appropriately." locIndex="5" />
+            <textevent timeoffset="220" message="The 1st part of the warmup involves some low intensity 30/30 efforts." locIndex="6" />
+            <textevent timeoffset="240" message="30sec at high zone 3 followed by 30sec zone 2." locIndex="7" />
+            <textevent timeoffset="280" message="Here we go." locIndex="8" />
+        </Warmup>
+        <IntervalsT Repeat="5" OnDuration="30.000002" OffDuration="30.000002" OnPower="0.64999998" OffPower="0.88999999" pace="1">
+            <textevent timeoffset="10" message="This will be a comfortable effort for you." locIndex="9" />
+            <textevent timeoffset="40" message="You should feel your breathing rate increase slightly towards the end of the effort." locIndex="10" />
+            <textevent timeoffset="80" message="Aim for a nice high cadence of around 100rpm for these efforts." locIndex="11" />
+            <textevent timeoffset="190" message="Just 2 more to go. Working up a sweat yet?" locIndex="12" />
+        </IntervalsT>
+        <SteadyState Duration="120" Power="0.50449997" pace="1">
+            <textevent timeoffset="55" message="To complete the warmup before the main set we next have a Zone 3 effort" locIndex="13" />
+            <textevent timeoffset="750" message="This will be a comfortable effort for you." locIndex="14" />
+        </SteadyState>
+        <Ramp Duration="300" PowerLow="0.76449996" PowerHigh="0.89449996" pace="0">
+            <textevent timeoffset="30" message="Again, aiming for a nice high cadence of around 100rpm." locIndex="15" />
+            <textevent timeoffset="90" message="Relax your hands on the bars." locIndex="16" />
+            <textevent timeoffset="120" message="A good sweat indicates that the muscles are warmed up and ready for more intensive work." locIndex="17" />
+            <textevent timeoffset="240" message="Into the last minute now." locIndex="18" />
+        </Ramp>
+        <SteadyState Duration="120" Power="0.5" pace="0">
+            <textevent timeoffset="20" message="Today&apos;s main set consists 30min completed at predominately zone 2." locIndex="19" />
+            <textevent timeoffset="40" message="However, every 4.5 min you will complete a 30sec acceleration." locIndex="20" />
+            <textevent timeoffset="80" message="This will be a &apos;comfortable&apos; session for you." locIndex="21" />
+            <textevent timeoffset="100" message="The main set begins with a 30sec acceleration." locIndex="22" />
+        </SteadyState>
+        <IntervalsT Repeat="6" OnDuration="30" OffDuration="270" OnPower="1.2592388" OffPower="0.65264916" pace="0">
+            <textevent timeoffset="100" message="Long, low intensity efforts aren&apos;t the only way to build endurance." locIndex="23" />
+            <textevent timeoffset="120" message="Incorporating short surges into your effort will increase oxygen uptake and training stimulus." locIndex="24" />
+            <textevent timeoffset="360" message="Completing a low intensity effort with a surge every 4 minutes should feel comfortable" locIndex="25" />
+            <textevent timeoffset="400" message="The constant change in power and surging, will provide you with big gains in endurance." locIndex="26" />
+            <textevent timeoffset="460" message="The surges are a good chance to get out of the seat and relax the muscles." locIndex="27" />
+            <textevent timeoffset="660" message="This is a low intensity session that provides great aerobic gains." locIndex="28" />
+            <textevent timeoffset="700" message="The kind of session that could be used weekly as your endurance day." locIndex="29" />
+            <textevent timeoffset="1260" message="Endurance sessions are the ideal time to focus on improving your pedaling." locIndex="30" />
+            <textevent timeoffset="1300" message="Focus on your cardiovascular endurance, by challenging your ability to pedal at a high cadence" locIndex="31" />
+            <textevent timeoffset="1560" message="A short endurance ride, but these are the sessions that surprisingly help you ride for hours outdoors." locIndex="32" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.5" pace="0">
+            <textevent timeoffset="30" message="Well done!" locIndex="33" />
+            <textevent timeoffset="60" message="Today&apos;s session isn&apos;t overly taxing on the legs." locIndex="34" />
+            <textevent timeoffset="80" message="Meaning recovery will be completed within 24 hours." locIndex="35" />
+            <textevent timeoffset="10" message="This is a good session to complete the day before a Zwift race." locIndex="36" />
+        </SteadyState>
+    </workout>
+</workout_file>

@@ -1,0 +1,39 @@
+<workout_file>
+    <uniqueId>5ddb0718-7336-4475-b92d-71b96be20d48</uniqueId>
+    <legacyIdHash>51511419</legacyIdHash>
+    <author>Zwift</author>
+    <categoryOverride>Threshold</categoryOverride>
+    <name>Week 2.1 - Long Tempo</name>
+    <category>Fondo</category>
+    <subcategory>Week 2</subcategory>
+    <description>Long tempo intervals here to get you used to sustained higher effort that will help power you up and over the longer climbs.</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <Warmup Duration="420" PowerLow="0.50449997" PowerHigh="0.90449995" pace="0">
+            <textevent timeoffset="120" message="Building into some pace here. HR up. Getting loose. Work to be done!" locIndex="1" />
+            <textevent timeoffset="267.00003" message="And stepping up here now. HR up. Nice and warmed up by now." locIndex="2" />
+            <textevent timeoffset="380.7572" message="And getting ready to go now! First interval!" locIndex="3" />
+        </Warmup>
+        <IntervalsT Repeat="10" OnDuration="180" OffDuration="60" OnPower="0.90449995" OffPower="0.55449999" pace="0">
+            <textevent timeoffset="2205" message="Last strong interval here. #10! BRING. IT. HOME!" locIndex="4" />
+            <textevent timeoffset="1964" message="And into the home stretch. Almost home." locIndex="5" />
+            <textevent timeoffset="1721" message="Ticking &apos;em over here. #8. Counting down to the finish now!" locIndex="6" />
+            <textevent timeoffset="29" message="First interval. Nice and steady. Lock in that pace." locIndex="7" />
+            <textevent timeoffset="191" message="Really easy here. Light! Take a drink and recover." locIndex="8" />
+            <textevent timeoffset="278.05084" message="And back on at 90%. Into that groove of strong tempo." locIndex="9" />
+            <textevent timeoffset="433" message="Easy again. HR down. Light here to recover. Just a minute..." locIndex="10" />
+            <textevent timeoffset="585" message="Staying strong here in #3. Find your rhythm and pace early." locIndex="11" />
+            <textevent timeoffset="747" message="Here we go for #4. Digging in for the work now." locIndex="12" />
+            <textevent timeoffset="1005" message="Steady &amp; smooth here. Nice work. You are doing great!" locIndex="13" />
+            <textevent timeoffset="1160" message="And taking it super easy... Recovery here. Just light and relaxed now." locIndex="14" />
+            <textevent timeoffset="1240" message="Past the halfway mark now. Coming through the tunnel..." locIndex="15" />
+            <textevent timeoffset="1396" message="Stepping back down. Chill here. Just nice and light." locIndex="16" />
+            <textevent timeoffset="1530" message="Keeping that power strong here. Solid average across all these reps." locIndex="17" />
+        </IntervalsT>
+        <Cooldown Duration="180" PowerLow="0.45449999" PowerHigh="0.2545" pace="0">
+            <textevent timeoffset="45" message="Great work. Cooling down now." locIndex="18" />
+            <textevent timeoffset="123" message="And we&apos;re done!" locIndex="19" />
+        </Cooldown>
+    </workout>
+</workout_file>

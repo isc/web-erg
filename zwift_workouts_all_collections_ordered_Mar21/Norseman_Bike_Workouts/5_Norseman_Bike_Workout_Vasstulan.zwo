@@ -1,0 +1,98 @@
+<workout_file>
+    <uniqueId>30fddc4f-f904-4327-8a6e-ea9ec620f309</uniqueId>
+    <legacyIdHash>2724399915</legacyIdHash>
+    <author>Zwift</author>
+    <name>Norseman workout: Vasstulan</name>
+    <description>So you think you have what it takes to take on the Norseman Workout Series? 
+Vasstulan is at the summit of the penultimate climb. A super fast descent awaits so practice those descending skills. All that is left is the final climb to Imingfjell and then the long descent to T2.  
+This interval session creeps up on you. Each interval begins with a hard 20 second effort to fry the legs and follows up with a sustained block at around your FTP. As the intervals get shorter in the second half the effort gets higher.
+	Think you have what it takes? Check out all of the Norseman Run and Bike workouts to help you prepare for the Norseman Festival of Climbing July 27th - August 2nd.
+</description>
+    <category>The Norseman</category>
+    <categoryOverride>Climbing</categoryOverride>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="Norseman" />
+    </tags>
+    <workout>
+        <Warmup Duration="480" PowerLow="0.55449998" PowerHigh="0.75449997" pace="0">
+            <textevent timeoffset="15" message="Welcome to the fifth in this series of Norseman workouts." locIndex="1" />
+            <textevent timeoffset="30" message="We begin the warm up today with a gentle ramp gradually increasing the effort." locIndex="2" />
+            <textevent timeoffset="60" message="Choose your preferred cadence for the entire workout." locIndex="3" />
+            <textevent timeoffset="80" message="Vasstulan is at the summit of the penultimate climb." locIndex="4" />
+            <textevent timeoffset="100" message="A super fast descent awaits so practice those descending skills." locIndex="5" />
+            <textevent timeoffset="120" message="All that is left is the final climb to Imingfjell and then the long descent to T2." locIndex="6" />
+            <textevent timeoffset="420" message="We are going to finish the warm up with 4 x 20 second efforts just under FTP." locIndex="7" />
+            <textevent timeoffset="440" message="Spin up the cadence during these efforts and ease back during the 40 second rests." locIndex="8" />
+        </Warmup>
+        <IntervalsT Repeat="4" OnDuration="20" OffDuration="40" OnPower="0.90449995" OffPower="0.55449998" pace="0" />
+        <SteadyState Duration="180" Power="0.50449997" pace="0">
+            <textevent timeoffset="20" message="You should be feeling well warmed up now, 3 minutes easy and then we start the main set." locIndex="9" />
+            <textevent timeoffset="60" message="The main set consists of 6 x intervals with a short, hard effort at the beginning of each effort." locIndex="10" />
+            <textevent timeoffset="80" message="The intervals get shorter as you go, but the efforts get harder. The final couple of intervals will sting!" locIndex="11" />
+            <textevent timeoffset="160" message="Here we go, spin the cadence up for this first, hard 20 seconds." locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.4" pace="0">
+            <textevent timeoffset="0" message="Keep the cadence high and transition smoothly to the 8 minute interval." locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="480" Power="0.90" pace="0">
+            <textevent timeoffset="20" message="Good work, now settle back and find a good rhythm." locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.5" pace="0">
+            <textevent timeoffset="0" message="And rest. More of the same coming up, but the interval reduces to 6 minutes." locIndex="15" />
+            <textevent timeoffset="100" message="Get back in the zone, spin up that cadence." locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.4" pace="0">
+            <textevent timeoffset="0" message="Looking strong, imagine you are putting time between you and the athlete behind you." locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="360" Power="0.90" pace="0">
+            <textevent timeoffset="20" message="Back down to an effort that should be challenging but sustainable." locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.5" pace="0">
+            <textevent timeoffset="20" message="Enjoy these two minutes, we know what is coming next." locIndex="19" />
+            <textevent timeoffset="100" message="Focus back on the next effort, big watts for 20 seconds." locIndex="20" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.4" pace="0">
+            <textevent timeoffset="0" message="Great work, keep the cadence strong." locIndex="21" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.90" pace="0">
+            <textevent timeoffset="20" message="Four minutes here, legs are probably starting to feel fatigued now." locIndex="22" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.5" pace="0">
+            <textevent timeoffset="20" message="Good work so far, take a break and grab a drink." locIndex="23" />
+            <textevent timeoffset="180" message="Things get interesting now. The efforts are shorter, but each one harder than the previous one." locIndex="24" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.4" pace="0">
+            <textevent timeoffset="0" message="Big effort here." locIndex="25" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.00" pace="0">
+            <textevent timeoffset="20" message="Less time but harder effort, how are the legs?" locIndex="26" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.5" pace="0">
+            <textevent timeoffset="20" message="Looking very good, you can do this." locIndex="27" />
+            <textevent timeoffset="100" message="Two more intervals and you are done." locIndex="28" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.4" pace="0">
+            <textevent timeoffset="0" message="Boom! Push those pedals hard." locIndex="29" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.05" pace="0">
+            <textevent timeoffset="20" message="Hang in there, how hard can two minutes be?" locIndex="30" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.5" pace="0">
+            <textevent timeoffset="0" message="And back down and spin the legs." locIndex="31" />
+            <textevent timeoffset="100" message="This is it, the final 60 second effort, leave it all out there." locIndex="32" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.4" pace="0">
+            <textevent timeoffset="0" message="A good cadence will help the transition after twenty seconds." locIndex="33" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.1" pace="0">
+            <textevent timeoffset="0" message="This will hurt. Norseman is not easy either!" locIndex="34" />
+        </SteadyState>
+        <Cooldown Duration="600" PowerLow="0.6045" PowerHigh="0.45449999" pace="0">
+            <textevent timeoffset="0" message="Fantastic, that was a hard session and you nailed it." locIndex="35" />
+            <textevent timeoffset="30" message="You are looking good for the Festival of Climbing and a chance to win a place to Norseman 2021." locIndex="36" />
+            <textevent timeoffset="530" message="Thank you for joining this Norseman workout." locIndex="37" />
+            <textevent timeoffset="550" message="Keep an eye out for another workout in the Norseman series next week." locIndex="38" />
+        </Cooldown>
+    </workout>
+</workout_file>

@@ -1,0 +1,65 @@
+<workout_file>
+    <uniqueId>4be217b6-2820-433d-9fc8-aa13b9e22dc7</uniqueId>
+    <legacyIdHash>4216491758</legacyIdHash>
+    <author>Matt Rowe (Rowe and King)</author>
+    <name>RCC Training Camp Workout #8</name>
+    <categoryIndex>8</categoryIndex>
+    <category>RCC Training Camp 2018</category>
+    <entid>150</entid>
+    <description>Welcome to the Rapha Cycling Club Training Camp Workout 8. This session is a casual endurance ride, for you to ride on feel. We will do 2 x 40 minute &apos;Free Ride&apos; blocks of Fartlek. Fartlek means speed-play in Swedish, and is the focus of todays session - just vary your effort / speed as you feel. If you feel fresh and want to go for a timed climb or sprint in game, then go for it. If you want to cruise - just chill out and let the duration of the session take care of the training stress.
+
+A few varied efforts will be suggested throughout the session - take on the challenges as you feel up for them! Sandwiched between the two 40 minute Fartlek blocks is a 24 minute 30 second block of Over (120% FTP for 30 seconds) - Unders (75% FTP 3 minutes) - some relaxed structure, to keep the mind occupied, and ensure we stress all of our energy systems and muscle types. 
+
+ERG mode is NOT recommended.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="Endurance" />
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.25449997" PowerHigh="0.75449997" pace="0">
+            <textevent timeoffset="5" message="Welcome to the Rapha Cycling Club Training Camp Workout #8. ERG Mode is not recommended." locIndex="1" />
+            <textevent timeoffset="12" message="Todays session is 2 hours long and is a very casual session, where we make use of the &apos;free ride&apos; functionality in Zwift." locIndex="2" />
+            <textevent timeoffset="20" message="Today, we will warm up, cool down and between that we will ride for 2 x 40 minute blocks on feel (free riding)." locIndex="3" />
+            <textevent timeoffset="30" message="Between the two 40 minute blocks, we have a 25 minute block of &apos;Over - Unders&apos; (120% FTP 30 sec - 75% FTP 3 Min)." locIndex="4" />
+            <textevent timeoffset="40" message="To start, it&apos;s a standard 10 minute progressive warm up to get us in the zone, both physically and mentally." locIndex="5" />
+            <textevent timeoffset="400" message="Just a special welcome to todays session as an RCC Member - hope you have fun completing this RCC Individual workout, available only to RCC members. Let&apos;s have a go at Fartlek training guys!" locIndex="6" />
+            <textevent timeoffset="500" message="You should be starting to feel sweaty by now and like you are ready to train?" locIndex="7" />
+            <textevent timeoffset="570" message="Nearing the end of the warm up now - your blood will be nice and warm, ready to supply our muscles with oxygen. " locIndex="8" />
+        </Warmup>
+        <FreeRide Duration="2400" FlatRoad="1">
+            <textevent timeoffset="110.99998" message="Ride on feel - maybe give a hill climb section a go? See if you can set a new 30 day PB? " locIndex="9" />
+            <textevent timeoffset="541.55695" message="How about we hit Zone 4 for the next 10 Minutes?" locIndex="10" />
+            <textevent timeoffset="1880.3545" message="How about we hit Zone 5 for the next 3 Minutes?" locIndex="11" />
+            <textevent timeoffset="1339" message="How about you try not to let anyone overtake you for the next minute?" locIndex="12" />
+            <textevent timeoffset="200" message="Fartlek provides us with &apos;unstructured structure&apos; - a great way to train hard, but keeping it mentally relaxing. Just going with the flow..." locIndex="13" />
+            <textevent timeoffset="351.79089" message="How about we do a 15 second sprint? Go!" locIndex="14" />
+            <textevent timeoffset="200" message="How about we do a 15 second sprint? Go!" locIndex="15" />
+            <textevent timeoffset="2002" message="How about we do a 15 second sprint? Go!" locIndex="16" />
+            <textevent timeoffset="1097" message="How about we do a 15 second sprint? Go!" locIndex="17" />
+            <textevent timeoffset="443.9556" message="Good work team." locIndex="18" />
+            <textevent timeoffset="2299" message="Now for a little structure..." locIndex="19" />
+        </FreeRide>
+        <IntervalsT Repeat="7" OnDuration="30" OffDuration="180" OnPower="1.2045" OffPower="0.75449997" pace="0">
+            <textevent timeoffset="74" message="Now for a little structure..." locIndex="20" />
+        </IntervalsT>
+        <FreeRide Duration="2430" FlatRoad="255">
+            <textevent timeoffset="12" message="Back in to free riding again now - unstructured structure!" locIndex="21" />
+            <textevent timeoffset="110.99998" message="Ride on feel - maybe give a hill climb section a go? See if you can set a new 30 day PB? " locIndex="22" />
+            <textevent timeoffset="541.55695" message="How about we hit Zone 4 for the next 10 Minutes?" locIndex="23" />
+            <textevent timeoffset="1880.3545" message="How about we hit Zone 5 for the next 3 Minutes?" locIndex="24" />
+            <textevent timeoffset="1339" message="How about you try not to let anyone overtake you for the next minute?" locIndex="25" />
+            <textevent timeoffset="200" message="Fartlek provides us with &apos;unstructured structure&apos; - a great way to train hard, but keeping it mentally relaxing. Just going with the flow..." locIndex="26" />
+            <textevent timeoffset="351.79089" message="How about we do a 15 second sprint? Go!" locIndex="27" />
+            <textevent timeoffset="200" message="How about we do a 15 second sprint? Go!" locIndex="28" />
+            <textevent timeoffset="2002" message="How about we do a 15 second sprint? Go!" locIndex="29" />
+            <textevent timeoffset="1097" message="How about we do a 15 second sprint? Go!" locIndex="30" />
+            <textevent timeoffset="443.9556" message="Good work team." locIndex="31" />
+        </FreeRide>
+        <Cooldown Duration="300" PowerLow="0.65449995" PowerHigh="0.25449997" pace="0">
+            <textevent timeoffset="15" message="Good work - 5 minutes cool down now." locIndex="32" />
+            <textevent timeoffset="100" message="That&apos;s RCC Training Camp Workout 8 Complete - we are making gains!!" locIndex="33" />
+            <textevent timeoffset="250" message="Important to refuel after this session - carbs, protein and hydrate." locIndex="34" />
+            <textevent timeoffset="280" message="I hope you have enjoyed the RCC Training Camp workout today - the longest workout of the camp! See you next time." locIndex="35" />
+        </Cooldown>
+    </workout>
+</workout_file>

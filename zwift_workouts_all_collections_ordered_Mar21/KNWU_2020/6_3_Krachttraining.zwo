@@ -1,0 +1,38 @@
+<workout_file>
+    <uniqueId>a5fde649-a401-42d5-b2fe-732708cfff6a</uniqueId>
+    <legacyIdHash>2714217858</legacyIdHash>
+    <author>KNWU Fondo</author>
+    <name>Week 6.3 - Krachttraining</name>
+    <category>KNWU Fondo Wintertraining</category>
+    <subcategory>Week 6</subcategory>
+    <description>Van deze training wordt je sterker.</description>
+    <sportType>bike</sportType>
+    <tags />
+    <entid>487</entid>
+    <workout>
+        <Warmup Duration="600" PowerHigh="0.65" PowerLow="0.25">
+            <textevent timeoffset="5" message="Welkom bij het KNWU Fondo Wintertrainingsprogramma" locIndex="1" />
+            <textevent timeoffset="10" message="Vandaag staat er een krachttraining op het programma" locIndex="2" />
+            <textevent timeoffset="15" message="Van deze training wordt je sterker." locIndex="3" />
+            <textevent timeoffset="20" message="In deze training doen we 4 blokken: 5 min actief, 5 min herstel" locIndex="4" />
+            <textevent timeoffset="25" message="Eerst even opwarmen!" locIndex="5" />
+            <textevent timeoffset="575" message="Klaar voor de kern?" locIndex="6" />
+        </Warmup>
+        <IntervalsT Repeat="4" OnDuration="300" OnPower="0.83" OffDuration="300" OffPower="0.65" Cadence="75">
+            <textevent timeoffset="10" message="Kies een cadans van 75 rpm" locIndex="7" />
+            <textevent timeoffset="15" message="Let goed op je houding" locIndex="8" />
+            <textevent timeoffset="311" message="Tijd voor wat herstel" locIndex="9" />
+            <textevent timeoffset="579" message="Klaar voor blok twee?" locIndex="10" />
+            <textevent timeoffset="699" message="Blijf je romp goed stil houden" locIndex="11" />
+            <textevent timeoffset="1087" message="Je bent op de helft, super!" locIndex="12" />
+            <textevent timeoffset="1752" message="Tijd voor het laatste blok" locIndex="13" />
+            <textevent timeoffset="2043" message="Laatste stuk, hou vol!" locIndex="14" />
+        </IntervalsT>
+        <Cooldown Duration="600" PowerHigh="0.25" PowerLow="0.65">
+            <textevent timeoffset="10" message="Tijd voor de cooling down" locIndex="15" />
+            <textevent timeoffset="570" message="Bedankt voor je inzet vandaag." locIndex="16" />
+            <textevent timeoffset="575" message="We hopen je weer terug te zien!" locIndex="17" />
+        </Cooldown>
+    </workout>
+    <activitySaveName>Krachttraining - KNWU Fondo Wintertraining</activitySaveName>
+</workout_file>

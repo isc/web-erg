@@ -1,0 +1,50 @@
+<workout_file>
+    <uniqueId>16ff8acc-08e8-4316-92c5-dc216184cff3</uniqueId>
+    <legacyIdHash>377204860</legacyIdHash>
+    <author>Zwift</author>
+    <name>High-Cadence Bursting Block</name>
+    <description>Here&apos;s a quick 45 minute workout with 5 minutes of very high rpms. You did this a few weeks ago but check your cadences. Can you up the easy and the 1 minute blocks by 5? Again,110 minimum for those (5) 1 minute blocks but if you can sustain 120, that would be great. Keep the in between pretty chipper as well, at least 90. That&apos;s going to be a solid 20 minute block but tack on warm up and cool down and it&apos;s 45. Bam.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Gravel Grinder</category>
+    <subcategory>Week 10</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="900" PowerLow="0.45" PowerHigh="0.7">
+            <textevent timeoffset="0" message="Focus on a really smooth pedal stroke here. That will help you later in the workout." locIndex="1" />
+        </Warmup>
+        <SteadyState Duration="300" Power="0.6" Cadence="90">
+            <textevent timeoffset="0" message="A little bit of work starts now. The next 20 minutes should all be a pretty quick cadence. 90+ here." locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.9" Cadence="110">
+            <textevent timeoffset="0" message="110+ rpms. Quick and smooth!" locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.6">
+            <textevent timeoffset="0" message="Back down in effort and cadence but still pretty quick." locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.9" Cadence="110">
+            <textevent timeoffset="0" message="110+ rpms. Keep that upper body still." locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.6">
+            <textevent timeoffset="0" message="A little easier now." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.9" Cadence="110">
+            <textevent timeoffset="0" message="110+ rpms. 2nd to last of these!" locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.6">
+            <textevent timeoffset="0" message="Almost there. Just 5 more minutes of this 20 minute block." locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.9" Cadence="110">
+            <textevent timeoffset="0" message="110+ rpms. Up, up! Quick and smooth." locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.6">
+            <textevent timeoffset="0" message="Nice and easy. 1 more to go." locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.9" Cadence="110">
+            <textevent timeoffset="0" message="110+ rpms. This is it!" locIndex="11" />
+        </SteadyState>
+        <Cooldown Duration="600" PowerLow="0.55" PowerHigh="0.45">
+            <textevent timeoffset="0" message="Well done. That high cadence block will really help your pedal stroke efficiency. It&apos;s a great thing to focus on in a whole workout, like you did today, but also to incorporate into daily warm-up and cool-downs." locIndex="12" />
+        </Cooldown>
+    </workout>
+</workout_file>

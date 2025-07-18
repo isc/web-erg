@@ -1,0 +1,64 @@
+<workout_file>
+    <uniqueId>c5317077-a00e-40d8-98b5-d9a0b30a05f3</uniqueId>
+    <legacyIdHash>3206753864</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>30/30sec Anaerobic #3</name>
+    <description>After completing a warm up that includes some high RPM sprints and a short threshold effort, the main sets today include short efforts at VO2max with short recovery. By completing short efforts above threshold you are able to accumulate more time in this area than if completed in longer efforts. The short recovery periods also increase oxygen uptake. Particularly towards the end of the set!</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>TT Tune Up</category>
+    <subcategory>Week 3</subcategory>
+    <tags>
+    </tags>
+    <workout>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="129" message="High cadence in the warm-up sprints. We are aiming for 110RPM" locIndex="1" />
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="10" OffDuration="50" OnPower="2" OffPower="0.65" />
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="50" message="Now a little longer in this Zone 2 effort." locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.75" />
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="100" message="To complete the warm up we slowly build up to a threshold effort." locIndex="3" />
+        </SteadyState>
+        <Ramp Duration="180" PowerLow="0.5" PowerHigh="0.85">
+            <textevent timeoffset="160" message="Ready for 3min at threshold." locIndex="4" />
+        </Ramp>
+        <SteadyState Duration="180" Power="0.92">
+            <textevent timeoffset="60" message="Being just 3min, this should be comfortable for you." locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="100" message="That completes the warm up." locIndex="6" />
+            <textevent timeoffset="120" message="Now for the main sets. 3 rounds of 12x30sec efforts." locIndex="7" />
+            <textevent timeoffset="140" message="Observe your cadence for each 30sec effort. Is it remaining the same for each effort?" locIndex="8" />
+        </SteadyState>
+        <IntervalsT Repeat="12" OnDuration="30" OffDuration="30" OnPower="1.15" OffPower="0.5">
+            <textevent timeoffset="40" message="That should have felt comfortable. It&apos;s the multiple efforts that cause the fatigue." locIndex="9" />
+            <textevent timeoffset="340" message="How is your HR responding? Is it gradually increasing?" locIndex="10" />
+            <textevent timeoffset="360" message="Halfway... 6 to go!" locIndex="11" />
+            <textevent timeoffset="690" message="Last effort. Note your max HR at the end." locIndex="12" />
+        </IntervalsT>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="30" message="A good recovery now before repeating the set." locIndex="13" />
+            <textevent timeoffset="60" message="In the next set, note your HR in comparison to the 1st set." locIndex="14" />
+            <textevent timeoffset="70" message="Is you HR responding the same way?" locIndex="15" />
+            <textevent timeoffset="80" message="Are you completing the efforts at the same cadence?" locIndex="16" />
+            <textevent timeoffset="170" message="Here we go... 2nd set." locIndex="17" />
+        </SteadyState>
+        <IntervalsT Repeat="12" OnDuration="30" OffDuration="30" OnPower="1.15" OffPower="0.5">
+            <textevent timeoffset="130" message="Again, looking at your HR response throughout the set." locIndex="18" />
+            <textevent timeoffset="300" message="Is your cadence remaining the same as earlier?" locIndex="19" />
+            <textevent timeoffset="360" message="Halfway... great job." locIndex="20" />
+        </IntervalsT>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="160" message="Into the last set now." locIndex="21" />
+        </SteadyState>
+        <IntervalsT Repeat="12" OnDuration="30" OffDuration="30" OnPower="1.15" OffPower="0.5">
+            <textevent timeoffset="100" message="The short recovery periods also increase oxygen uptake." locIndex="22" />
+            <textevent timeoffset="110" message="Particularly towards the end of the set!" locIndex="23" />
+            <textevent timeoffset="360" message="Halfway... almost there!" locIndex="24" />
+        </IntervalsT>
+        <Cooldown Duration="300" PowerLow="0.7" PowerHigh="0.45" />
+    </workout>
+</workout_file>

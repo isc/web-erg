@@ -1,0 +1,18 @@
+<workout_file>
+    <uniqueId>95fda09f-8ce3-49d3-a7cf-98a0fb6af8d5</uniqueId>
+    <legacyIdHash>2852583343</legacyIdHash>
+    <name>Week 11.3 - Z2-Z4 Step Ups</name>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <category>Active Offseason</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 11</subcategory>
+    <description>Power Step Ups! Steadily ramp up your power from Zone 2 up to Zone 4. Repeat for 1:30:00.</description>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.2545" PowerHigh="0.75449997" />
+        <Ramp Duration="900" PowerLow="0.75449997" PowerHigh="0.95449996" />
+        <Ramp Duration="900" PowerLow="0.75449997" PowerHigh="0.95449996" />
+        <Ramp Duration="900" PowerLow="0.75449997" PowerHigh="0.95449996" />
+        <Ramp Duration="900" PowerLow="0.75449997" PowerHigh="0.95449996" />
+        <Cooldown Duration="600" PowerLow="0.75449997" PowerHigh="0.2545" />
+    </workout>
+</workout_file>

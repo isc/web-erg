@@ -1,0 +1,69 @@
+<workout_file>
+    <uniqueId>c1473e11-ff5e-4804-92d3-32b838056a33</uniqueId>
+    <legacyIdHash>2857783904</legacyIdHash>
+    <author>Chris Opie </author>
+    <categoryOverride>30 minutes to burn</categoryOverride>
+    <name>Sir Bradley Wiggins.3 - Ultimate Warm Up</name>
+    <description>
+This session is the ultimate warm up. Designed and conducted by sir Bradley Wiggins. Warm up with this session before all of your training or events to improve your performance on the bike!
+
+These workouts have been designed and tested by some of the best cyclists in the world. Olympians and World Champions such as Sir Bradley Wiggins, Fabian Cancellara, Dame Sarah Storey and Kristin Armstrong.</description>
+    <sportType>bike</sportType>
+    <durationType>time</durationType>
+    <activitySaveName>Le Col - Training With Legends - Sir Bradley Wiggins - Ultimate Warm Up</activitySaveName>
+    <category>Le Col - Training With Legends</category>
+    <subcategory>Sir Bradley Wiggins</subcategory>
+    <visibleAfterTime>1635724860</visibleAfterTime>
+    <tags>
+        <tag name="FTP" />
+        <tag name="Intervals" />
+    </tags>
+    <workout>
+        <SteadyState Duration="120" Power="0.48" pace="0">
+            <textevent timeoffset="0" message="Welcome to Le Col Training With Legends. I&apos;m Bradley Wiggins and I&apos;m going to be coaching you through my favorite warm up session. " locIndex="1" />
+            <textevent timeoffset="30" message="Why not take this workout to the next level and join me on video? Head over to lecol.cc for more details." locIndex="2" />
+            <textevent timeoffset="90" message="We are going to be lifting the intensity every 2 minutes." locIndex="3" />
+            <textevent timeoffset="60" message="Starting at a really gentle effort, this warm up ramps up to Vo2 capacity." locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.58" pace="0">
+            <textevent timeoffset="30" message="I used this warm up before all of my important individual events. Time Trials, pursuits, even tough training sessions." locIndex="5" />
+            <textevent timeoffset="0" message="First increase in effort now." locIndex="6" />
+            <textevent timeoffset="60" message="Try and stay smooth as the intensity rises. Smooth, controlled pedaling." locIndex="7" />
+            <textevent timeoffset="90" message="Have you loaded my warm up video yet?" locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.68" pace="0">
+            <textevent timeoffset="0" message="Let your body adapt to the effort, find a comfortable cadence. Around 90 RPM works well for me." locIndex="9" />
+            <textevent timeoffset="30" message="Smooth is fast. Keep your body controlled as the intensity rises." locIndex="10" />
+            <textevent timeoffset="75" message="45 seconds left here. How is your cadence? You could try pedaling a little faster with each ramp up in intensity. " locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.78" pace="0">
+            <textevent timeoffset="45" message="You&apos;ll be feeling your breathing and legs by now. That&apos;s good. You want to lock into those sensations, breathe deep and stay focused." locIndex="12" />
+            <textevent timeoffset="0" message="This is where the muscle activation starts to happen. This is key to a good warm up." locIndex="13" />
+            <textevent timeoffset="90" message="30 seconds to go, remember to drink." locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.88" pace="0">
+            <textevent timeoffset="0" message="This intensity is around your Sustainable Aerobic Capacity. I used to ride in this zone for up to 3 hours." locIndex="15" />
+            <textevent timeoffset="45" message="Riding in this zone became a challenge for myself to see how many watts I could average. 373 watts for 3 hours was my record." locIndex="16" />
+            <textevent timeoffset="90" message="Stay smooth, keep your body still, pedal from the legs. Control is everything at this intensity." locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.98" pace="0">
+            <textevent timeoffset="0" message="Hold the power and cadence nice and steady here. I&apos;m sticking to around 90 RPM. That&apos;s my comfort zone, you can pedal faster or slower. " locIndex="18" />
+            <textevent timeoffset="45" message="This is about being in control of the effort and being comfortable with the intensity." locIndex="19" />
+            <textevent timeoffset="75" message="45 seconds to go. There is a 60 second breather on the way." locIndex="20" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.55" pace="0">
+            <textevent timeoffset="0" message="A good chance to get on top of the effort, grab a quick drink before the final part of our warm up." locIndex="21" />
+            <textevent timeoffset="30" message="Have you been watching the video? If not, why not? You&apos;re missing out!" locIndex="22" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.18" pace="0">
+            <textevent timeoffset="0" message="Up to capacity here, only for 60 seconds. This is going to really get you up to speed for your race or training session." locIndex="23" />
+            <textevent timeoffset="30" message="Half way now. Drive this one all the way to the end. This will consolidate your warm up, open the legs and lungs! " locIndex="24" />
+        </SteadyState>
+        <Cooldown Duration="120" PowerLow="0.55" PowerHigh="0.35" pace="0">
+            <textevent timeoffset="0" message="Time to get yourself ready for your main session. It has been a real pleasure sharing my warm up routine with you." locIndex="25" />
+            <textevent timeoffset="30" message="I hope my warm up brings you the same good legs it did for me. Visit the Le Col Training With Legends Folder for more workouts." locIndex="26" />
+            <textevent timeoffset="90" message="And to get the most out of these workouts watch our Training With Legends videos! " locIndex="27" />
+            <textevent timeoffset="105" message="See you again soon, for more Training With Legends sessions!" locIndex="28" />
+        </Cooldown>
+    </workout>
+</workout_file>

@@ -1,0 +1,116 @@
+<workout_file>
+    <uniqueId>813a7952-a13f-4a94-b8b1-c883426a0728</uniqueId>
+    <legacyIdHash>2028745912</legacyIdHash>
+    <author>Zwift</author>
+    <categoryOverride>60-90 minutes to burn</categoryOverride>
+    <name>10/8/4min Threshold</name>
+    <description>Another solid workout with a lot of time at threshold in this last block before race week. Working in and around this zone is super beneficial to any cyclist but being comfortable here is especially great for us gravel folks. Lots of sustained time in the pain cave if we want to be successful. So today, let me be your guide into the cave, but just for practice this time. 
+
+3 rounds of sustained work, each getting harder as we go, but also cutting the interval length as we progress as well. It will most likely get you grunting by workouts end, but in a &quot;thank you sir may I have another&quot; kinda way. Or not.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Gravel Grinder</category>
+    <subcategory>Week 11</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="480" PowerLow="0.45" PowerHigh="0.65">
+            <textevent timeoffset="0" message="Well, let&apos;s get started, Shall we?" locIndex="1" />
+        </Warmup>
+        <SteadyState Duration="60" Power="0.65">
+            <textevent timeoffset="0" message="3 little ramps just up to 85% to start us off today. " locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.75">
+            <textevent timeoffset="0" message="Not hard at all, but worth the effort. " locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.85">
+            <textevent timeoffset="0" message="We&apos;ll need all the warming up we can get today. " locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="0" message="Easy. " locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.65">
+            <textevent timeoffset="0" message="Another 3 minute block now. Easy build. " locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.75">
+		</SteadyState>
+        <SteadyState Duration="60" Power="0.85">
+            <textevent timeoffset="0" message="One more minute, get those legs moving!" locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.5">
+		</SteadyState>
+        <SteadyState Duration="60" Power="0.65">
+            <textevent timeoffset="0" message="Last easy block. " locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.75">
+		</SteadyState>
+        <SteadyState Duration="60" Power="0.85">
+		</SteadyState>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="0" message="One minutes break here and right into 3 minutes that build within. " locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.8">
+            <textevent timeoffset="0" message="Moving by 20 seconds from 80% up to 100%. " locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.9">
+		</SteadyState>
+        <SteadyState Duration="20" Power="1">
+		</SteadyState>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="0" message="And another easy minute. " locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.9">
+            <textevent timeoffset="0" message="These minutes are building as we go as well. This one starts at 90 and goes to 110" locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1">
+		</SteadyState>
+        <SteadyState Duration="20" Power="1.1">
+            <textevent timeoffset="0" message="&quot;Ours goes to 11(0).&quot;" locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="0" message="EZ now. " locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1">
+            <textevent timeoffset="0" message="This one may sting a tad, up to 120%!" locIndex="15" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.1">
+		</SteadyState>
+        <SteadyState Duration="20" Power="1.2">
+            <textevent timeoffset="0" message="Hup, hup!" locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="0" message="Enjoy this minute, &apos;cause we&apos;re jumping straigh into that pain cave when it&apos;s done!" locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="600" Power="1">
+            <textevent timeoffset="0" message="Here we go!  Totally sustainable effort here, but it still hurts!" locIndex="18" />
+            <textevent timeoffset="20" message="Especially for 10 minutes uninterrupted." locIndex="19" />
+            <textevent timeoffset="160" message="Be smooth here, find that sustained rhythm!" locIndex="20" />
+            <textevent timeoffset="240" message="It&apos;s totally ok to get out of the saddle or adjust your RPM&apos;s as you go." locIndex="21" />
+            <textevent timeoffset="250" message="Sometimes it makes settling back into the effort easier if you make some changes within it.  " locIndex="22" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.55">
+            <textevent timeoffset="0" message="Ah. First one done. Did that one sting just a little? It should have." locIndex="23" />
+            <textevent timeoffset="30" message="Sorry to tell ya though, but this one may sting more!" locIndex="24" />
+        </SteadyState>
+        <SteadyState Duration="480" Power="1.05">
+            <textevent timeoffset="0" message="Let&apos;s GO!  Get up to speed and then settle." locIndex="25" />
+            <textevent timeoffset="60" message="Focus on something here that is NOT the clock. Tune it out if you can." locIndex="26" />
+            <textevent timeoffset="180" message="Keep it smooth now, nice and smooth!" locIndex="27" />
+            <textevent timeoffset="340" message="Almost there, let&apos;s go! You&apos;ve got it!" locIndex="28" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.55">
+            <textevent timeoffset="0" message="Starting to wheeze yet?  I am and I&apos;m not even riding!  Ok. Easy now." locIndex="29" />
+            <textevent timeoffset="79" message="Save yourself for this last one." locIndex="30" />
+            <textevent timeoffset="180" message="Short one coming at you! Short, but hard!" locIndex="31" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="1.1">
+            <textevent timeoffset="0" message="Get those RPM&apos;s up and ride!!!" locIndex="32" />
+            <textevent timeoffset="70" message="Stay with it now. Hold your form." locIndex="33" />
+            <textevent timeoffset="150" message="Be as smooth as you can and just get through it!" locIndex="34" />
+            <textevent timeoffset="200" message="Go, go!!!" locIndex="35" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow="0.55" PowerHigh="0.45">
+            <textevent timeoffset="0" message="And that is a wrap!!!  Nice work." locIndex="36" />
+            <textevent timeoffset="120" message="Did you find our journey into the pain cave to be a pleasurable one? Hope so!" locIndex="37" />
+        </Cooldown>
+    </workout>
+</workout_file>

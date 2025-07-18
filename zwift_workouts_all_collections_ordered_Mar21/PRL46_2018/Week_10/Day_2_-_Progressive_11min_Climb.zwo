@@ -1,0 +1,52 @@
+<workout_file>
+    <uniqueId>a4190d57-59c4-469d-aa55-e3ed73c6d8cb</uniqueId>
+    <legacyIdHash>134914228</legacyIdHash>
+    <author>Zwift</author>
+    <categoryOverride>Climbing</categoryOverride>
+    <name>Week 10.2 - Progressive 11min Climb</name>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>2018 PRL46 Prep</category>
+    <subcategory>Week 10</subcategory>
+    <description>3 climbs of 11 minutes in duration today, but each one is climbed using a different cadence.
+
+Just like a climb outdoors, the required power will increase throughout the 11min.
+</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow="0.50449997" PowerHigh="0.75449997" pace="0" />
+        <SteadyState Duration="60" Power="0.55449998" pace="0">
+            <textevent timeoffset="18" message="Target cadence of 85rpm for the first interval." locIndex="1" />
+        </SteadyState>
+        <SteadyState Duration="360" Power="0.80449992" pace="0" Cadence="85">
+            <textevent timeoffset="350" message="We step up the power now. Same cadence." locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.95449996" pace="0" Cadence="85">
+            <textevent timeoffset="230" message="Increasing the power again!" locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.0545" pace="0" Cadence="85" />
+        <SteadyState Duration="300" Power="0.55000001" pace="0">
+            <textevent timeoffset="198" message="This time we are targeting a cadence of 80rpm." locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="360" Power="0.80449992" pace="0" Cadence="80">
+            <textevent timeoffset="53" message="How does the change in cadence feel?" locIndex="5" />
+            <textevent timeoffset="350" message="Time to increase the power!" locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.95449996" pace="0" Cadence="80">
+            <textevent timeoffset="230" message="Above threshold now!" locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.0545" pace="0" Cadence="80" />
+        <SteadyState Duration="300" Power="0.55000001" pace="0">
+            <textevent timeoffset="200" message="Finally, we are targeting a cadence of 70rpm." locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="360" Power="0.80449992" pace="0" Cadence="70">
+            <textevent timeoffset="74" message="How does the low cadence feel?" locIndex="9" />
+            <textevent timeoffset="350" message="Increasing the power now" locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.95449996" pace="0" Cadence="70">
+            <textevent timeoffset="230" message="Last effort now. Above threshold with low cadencw" locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.0545" pace="0" Cadence="70" />
+        <Cooldown Duration="300" PowerLow="0.75449997" PowerHigh="0.50449997" pace="0" />
+    </workout>
+</workout_file>

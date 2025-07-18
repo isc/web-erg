@@ -1,0 +1,25 @@
+<workout_file>
+    <uniqueId>e98b6485-d93a-4eea-a338-4409665d3619</uniqueId>
+    <legacyIdHash>1710102832</legacyIdHash>
+    <name>Week 3.2 - Day 2</name>
+    <description>Strength</description>
+    <author>Marco Pinotti</author>
+    <category>10-12wk FTP Builder</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 3</subcategory>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/MarcoPinotti_Logo.tga</authorIcon>
+    <sportType>bike</sportType>
+    <workout>
+        <Warmup Duration="360" PowerLow="0.5" PowerHigh="0.65" />
+        <Ramp Duration="240" PowerLow="0.7" PowerHigh="0.75" />
+        <Ramp Duration="180" PowerLow="0.85" PowerHigh="0.9" />
+        <Ramp Duration="290" PowerLow="0.5" PowerHigh="0.55" />
+        <SteadyState Duration="300" PowerLow="0.5" PowerHigh="0.55" />
+        <IntervalsT Repeat="5" OnDuration="10" OnPower="2.0" OffDuration="110" OffPower=".65" />
+        <SteadyState Duration="600" PowerLow="0.5" PowerHigh="0.55" />
+        <IntervalsT Repeat="5" OnDuration="10" OnPower="2.0" OffDuration="110" OffPower=".65" />
+        <SteadyState Duration="600" PowerLow="0.5" PowerHigh="0.55" />
+        <IntervalsT Repeat="5" OnDuration="10" OnPower="2.0" OffDuration="110" OffPower=".65" />
+        <Cooldown Duration="600" PowerLow="0.65" PowerHigh="0.75" />
+    </workout>
+</workout_file>

@@ -1,0 +1,53 @@
+<workout_file>
+    <uniqueId>cbd5cb55-8e56-4368-8d21-c1554ce461ee</uniqueId>
+    <legacyIdHash>3518278284</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <categoryOverride>Threshold</categoryOverride>
+    <name>Cruise Intervals #1</name>
+    <description>Today&apos;s session consists of sustained cruise intervals. However, each cruise interval is proceeded by a hard Zone 5 interval. Cruise intervals are performed within Zone 4, however we are changing the target power every minute from slightly up and down within a narrow power band. Focus on controlled breathing and pedaling at a cadence similar to your time trial cadence.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>TT Tune Up</category>
+    <subcategory>Week 2</subcategory>
+    <tags>
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.45" PowerHigh="0.75">
+            <textevent timeoffset="60" message="Today&apos;s warm up takes you through low power, 30sec efforts." locIndex="1" />
+        </Warmup>
+        <IntervalsT Repeat="5" OnDuration="30" OffDuration="30" OnPower="0.65" OffPower="0.89" />
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="160" message="8min efforts that begin with a 30sec acceleration at high power." locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.1" />
+        <IntervalsT Repeat="4" OnDuration="60" OffDuration="60" OnPower="0.92" OffPower="0.97">
+            <textevent timeoffset="40" message="Target power varies every minute during the effort." locIndex="3" />
+            <textevent timeoffset="60" message="When we ride at threshold outdoors, the power can move around a little due to the terrain." locIndex="4" />
+            <textevent timeoffset="240" message="Halfway.... how are you feeling?" locIndex="5" />
+            <textevent timeoffset="300" message="Is your HR climbing?" locIndex="6" />
+            <textevent timeoffset="380" message="How are you finding the slight change in power every minute?" locIndex="7" />
+        </IntervalsT>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="30" message="Just a short recovery." locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.1" />
+        <IntervalsT Repeat="4" OnDuration="60" OffDuration="60" OnPower="0.92" OffPower="0.97">
+            <textevent timeoffset="70" message="Focus on controlled breathing." locIndex="9" />
+            <textevent timeoffset="90" message="Pedaling at a cadence similar to your Time Trial cadence" locIndex="10" />
+            <textevent timeoffset="240" message="Halfway.... how are you feeling?" locIndex="11" />
+            <textevent timeoffset="300" message="Is your HR climbing?" locIndex="12" />
+        </IntervalsT>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="30" message="Into the last effort now." locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.1" />
+        <IntervalsT Repeat="4" OnDuration="60" OffDuration="60" OnPower="0.92" OffPower="0.97">
+            <textevent timeoffset="200" message="How has your cadence changed from the previous efforts?" locIndex="14" />
+            <textevent timeoffset="240" message="Halfway... doing well." locIndex="15" />
+        </IntervalsT>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="100" message="That&apos;s a great session. Well done." locIndex="16" />
+        </SteadyState>
+        <Cooldown Duration="600" PowerLow="0.75" PowerHigh="0.45" />
+    </workout>
+</workout_file>

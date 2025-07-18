@@ -1,0 +1,22 @@
+<workout_file>
+    <uniqueId>fdb06826-5110-43dd-87a9-e5a13838b28e</uniqueId>
+    <legacyIdHash>3713797157</legacyIdHash>
+    <author>J.Doe</author>
+    <name>Week 1.4 - Hill Reps</name>
+    <description>warm up - 15 min...4 x 5 min reps with 5mins recovery between each rep.
+remain seated whilst climbing. . Idea for today is to not raise heart rates too high but concentrate pressing down hardfrom tops of thighs, keeping a strict style working the core. Keep the burning sensations going. strengthening your ankles, knees and hips. Kind of a GYM session on the bike.  Perhaps do the last one at full speed to flood your body with the lactate.
+</description>
+    <author>trainSharp</author>
+    <category>Crit Crusher</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 1</subcategory>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/trainSharp_Logo.tga</authorIcon>
+    <tags />
+    <workout>
+        <Warmup Duration="900" PowerLow="0.2545" PowerHigh="0.75449997" />
+        <IntervalsT Repeat="2" OnDuration="300" OffDuration="300" OnPower="0.80449998" OffPower="0.50450003" />
+        <SteadyState Duration="300" Power="0.95449996" />
+        <SteadyState Duration="300" Power="0.50450003" />
+        <Cooldown Duration="600" PowerLow="0.75449997" PowerHigh="0.2545" />
+    </workout>
+</workout_file>

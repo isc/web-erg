@@ -1,0 +1,130 @@
+<workout_file>
+    <uniqueId>87bf6188-b5a2-4fc2-8dbb-e618acd870d8</uniqueId>
+    <legacyIdHash>1135941472</legacyIdHash>
+    <author>British Cycling</author>
+    <name>Week 5.2 -  Leg Speed</name>
+    <description>Now the focus is on recovery, keeping your legs fresh but minimising any unnecessary accumulation of fatigue. Trust the training you’ve done and don’t be tempted to try and squeeze in another hard session.</description>
+    <category>British Cycling eRacing Championship</category>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/HSBC_Logo.tga</authorIcon>
+    <subcategory>Week 5</subcategory>
+    <entid>436</entid>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <Warmup Duration="300" PowerHigh="0.55" PowerLow="0.35" Cadence="90">
+            <textevent timeoffset="0" message="Welcome to Session 14 of the British Cycling 6-Week Training Plan." locIndex="1" />
+            <textevent timeoffset="30" message="It&apos;s a real recovery workout today that focusses on leg speed." locIndex="2" />
+            <textevent timeoffset="45" message="It&apos;s important to pay attention to and hit the specified cadence targets." locIndex="3" />
+            <textevent timeoffset="55" message="Spin to win." locIndex="4" />
+            <textevent timeoffset="60" message="First though is the British Cycling 20 min warm-up." locIndex="5" />
+            <textevent timeoffset="90" message="Like all of our riders, you&apos;ll use it before every session." locIndex="6" />
+            <textevent timeoffset="120" message="It&apos;ll prepare you physically and mentally for the workout." locIndex="7" />
+            <textevent timeoffset="180" message="Really focus on hitting the cadence targets." locIndex="8" />
+        </Warmup>
+        <SteadyState Duration="120" Power="0.55" Cadence="95">
+            <textevent timeoffset="0" message="Up your cadence slightly." locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.65" Cadence="100">
+            <textevent timeoffset="0" message="Up it again." locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.75" Cadence="105">
+            <textevent timeoffset="0" message="Another notch up." locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="0.85" Cadence="110">
+            <textevent timeoffset="0" message="Keep it smooth." locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.9" Cadence="125">
+            <textevent timeoffset="0" message="Hold that high cadence, no bouncing in the saddle." locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.45" Cadence="90">
+            <textevent timeoffset="0" message="Spin easy, grab a drink and get ready for some rev outs." locIndex="14" />
+            <textevent timeoffset="60" message="First rev out in 60 sec. It&apos;s 6 sec of maximum spinning." locIndex="15" />
+            <textevent timeoffset="110" message="Ready in 10 sec, keep it fast and fluid." locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="6" Power="1.05" Cadence="150">
+            <textevent timeoffset="0" message="Max Rev Out!" locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.45" Cadence="90">
+            <textevent timeoffset="0" message="Ease up!" locIndex="18" />
+            <textevent timeoffset="50" message="Rev out number two in 10 sec." locIndex="19" />
+        </SteadyState>
+        <SteadyState Duration="6" Power="1.05" Cadence="150">
+            <textevent timeoffset="0" message="Max Rev Out!" locIndex="20" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.45" Cadence="90">
+            <textevent timeoffset="0" message="Ease up!" locIndex="21" />
+            <textevent timeoffset="50" message="Final Rev Out in 10 sec. See if you can set a high cadence PB." locIndex="22" />
+        </SteadyState>
+        <SteadyState Duration="6" Power="1.05" Cadence="150">
+            <textevent timeoffset="0" message="Max Rev Out!" locIndex="23" />
+        </SteadyState>
+        <SteadyState Duration="162" Power="0.45" Cadence="90">
+            <textevent timeoffset="0" message="Ease up!" locIndex="24" />
+            <textevent timeoffset="12" message="Spin easy, grab a drink, towel off and get ready for your first effort." locIndex="25" />
+            <textevent timeoffset="132" message="Get ready for your first Leg Speed block." locIndex="26" />
+            <textevent timeoffset="147" message="Watch for the cadence cues and react to them quickly." locIndex="27" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.6" Cadence="90">
+            <textevent timeoffset="0" message="Go!" locIndex="28" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.66" Cadence="100">
+		</SteadyState>
+        <SteadyState Duration="60" Power="0.72" Cadence="110">
+		</SteadyState>
+        <SteadyState Duration="30" Power="0.78" Cadence="115">
+		</SteadyState>
+        <SteadyState Duration="15" Power="0.84" Cadence="120">
+            <textevent timeoffset="0" message="Avoid bouncing in the saddle as the cadence really ramps up, keep that trunk strong." locIndex="29" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="0.9" Cadence="140">
+		</SteadyState>
+        <SteadyState Duration="120" Power="0.45" Cadence="90">
+            <textevent timeoffset="0" message="Just turn the pedals for a couple of minutes." locIndex="30" />
+            <textevent timeoffset="110" message="Get ready, you&apos;re starting with 15 sec at 140 rpm, spin up fast." locIndex="31" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="0.9" Cadence="140">
+		</SteadyState>
+        <SteadyState Duration="15" Power="0.83" Cadence="120">
+		</SteadyState>
+        <SteadyState Duration="30" Power="0.75" Cadence="115">
+		</SteadyState>
+        <SteadyState Duration="60" Power="0.68" Cadence="110">
+		</SteadyState>
+        <SteadyState Duration="120" Power="0.6" Cadence="100">
+		</SteadyState>
+        <SteadyState Duration="120" Power="0.45" Cadence="90">
+            <textevent timeoffset="0" message="Down to 90 rpm for a couple of minutes." locIndex="32" />
+            <textevent timeoffset="110" message="Ramping up through the cadences again for this block." locIndex="33" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.6" Cadence="90">
+		</SteadyState>
+        <SteadyState Duration="120" Power="0.66" Cadence="100">
+		</SteadyState>
+        <SteadyState Duration="60" Power="0.72" Cadence="110">
+		</SteadyState>
+        <SteadyState Duration="30" Power="0.78" Cadence="115">
+		</SteadyState>
+        <SteadyState Duration="15" Power="0.84" Cadence="120">
+            <textevent timeoffset="0" message="Lock in that form, no bouncing at the highest cadences." locIndex="34" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="0.9" Cadence="140">
+		</SteadyState>
+        <SteadyState Duration="120" Power="0.45" Cadence="90">
+            <textevent timeoffset="0" message="Back down to 90 rpm." locIndex="35" />
+            <textevent timeoffset="110" message="Starting with that 15 sec at 140 rpm again. Get ready!" locIndex="36" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="0.9" Cadence="140">
+		</SteadyState>
+        <SteadyState Duration="15" Power="0.83" Cadence="120">
+		</SteadyState>
+        <SteadyState Duration="30" Power="0.75" Cadence="115">
+		</SteadyState>
+        <SteadyState Duration="60" Power="0.68" Cadence="110">
+		</SteadyState>
+        <SteadyState Duration="120" Power="0.6" Cadence="100">
+		</SteadyState>
+        <Cooldown Duration="300" PowerHigh="0.35" PowerLow="0.55" Cadence="90">
+            <textevent timeoffset="0" message="Cool down." locIndex="37" />
+        </Cooldown>
+    </workout>
+</workout_file>

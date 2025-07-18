@@ -1,0 +1,78 @@
+<workout_file>
+    <uniqueId>a7259e34-15fd-410d-8855-3399a53c306f</uniqueId>
+    <legacyIdHash>1434323654</legacyIdHash>
+    <author>Zwift</author>
+    <name>Introductory Intervals</name>
+    <description>The second workout in the Fondo training plan, this workout consists of two rounds of progressively harder - but shorter - intervals in the sub-threshold zones.
+    </description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Gran Fondo</category>
+    <subcategory>Week 1</subcategory>
+    <tags>
+        <tag name="fondo" />
+        <tag name="Zwift Fondo" />
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.25449997" PowerHigh="0.65449995" pace="0">
+            <textevent timeoffset="60" message="Hi and welcome to the second workout in Zwift&apos;s Fondo  Training Plan." locIndex="1" />
+            <textevent timeoffset="120" message="Today&apos;s workout is a double pyramid of sub-threshold intervals of progressive intensity and decreasing duration." locIndex="2" />
+            <textevent timeoffset="240" message="This workout is designed to suit athletes of all abilities and those racing any of our three Fondo distances." locIndex="3" />
+        </Warmup>
+        <SteadyState Duration="240.00002" Power="0.65449995" pace="0">
+            <textevent timeoffset="60.000011" message="Our first interval is a nice steady 4min at 65 percent. This should be your all day effort, easier than what you&apos;ll likely want to do for the Fondo." locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="120.00001" Power="0.55449998" pace="0">
+            <textevent timeoffset="30.000004" message="2min here nice and light." locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="210.00002" Power="0.81449997" pace="0">
+            <textevent timeoffset="105.00001" message="Alright, 3:30 now at 81 percent. A nice solid effort here." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="120.00001" Power="0.50449997" pace="0">
+            <textevent timeoffset="30.000004" message="And relax here." locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="150" Power="0.95449996" pace="0">
+            <textevent timeoffset="75.000008" message="And building up to a nice solid 95 percent, just under threshold here." locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="120.00001" Power="0.50449997" pace="0">
+            <textevent timeoffset="30.000004" message="And bringing it back down again." locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="210" Power="0.81449997" pace="0">
+            <textevent timeoffset="105" message="Now back on to that steady 81 percent effort. Nice and firm." locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="120.00001" Power="0.55449998" pace="0">
+            <textevent timeoffset="30" message="And relax. Nice and easy. Grab a drink here." locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="240.00002" Power="0.65449995" pace="0">
+            <textevent timeoffset="120.00001" message="Okay, back into that base aerobic zone. Nice and steady here. Strong aerobic pace." locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="120.00001" Power="0.55449998" pace="0">
+            <textevent timeoffset="30.000004" message="Okay, easy and light here." locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="210.00002" Power="0.81449997" pace="0">
+            <textevent timeoffset="105.00001" message="Alright, nice and steady for this one, climbing back up the pyramid." locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="120.00001" Power="0.50449997" pace="0">
+            <textevent timeoffset="30" message="And spin it out for 2min here." locIndex="15" />
+        </SteadyState>
+        <SteadyState Duration="150" Power="0.95449996" pace="0">
+            <textevent timeoffset="75" message="Solid for this one. Nice and strong at 95 percent. Stay seated and find a good solid rhythm." locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="120.00001" Power="0.50449997" pace="0">
+            <textevent timeoffset="30" message="And bring it down here again for 2min easy." locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="210.00002" Power="0.81449997" pace="0">
+            <textevent timeoffset="105.00001" message="Stepping down the pyramid now. 81 percent here for this finishing stretch." locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="120.00001" Power="0.55449998" pace="0">
+            <textevent timeoffset="30" message="And one more easy block here." locIndex="19" />
+        </SteadyState>
+        <SteadyState Duration="240.00002" Power="0.65449995" pace="0">
+            <textevent timeoffset="120" message="And a last steady aerobic base interval here to close it out." locIndex="20" />
+        </SteadyState>
+        <Cooldown Duration="180" PowerLow="0.65449995" PowerHigh="0.25449997" pace="0">
+            <textevent timeoffset="30" message="Okay, that is it. Thanks for joining us. Come back this weekend for a long ride." locIndex="21" />
+            <textevent timeoffset="150" message="Don&apos;t forget your recovery and we will see you this weekend!" locIndex="22" />
+        </Cooldown>
+    </workout>
+</workout_file>

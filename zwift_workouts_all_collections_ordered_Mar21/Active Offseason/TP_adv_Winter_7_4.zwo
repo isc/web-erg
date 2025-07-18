@@ -1,0 +1,13 @@
+<workout_file>
+    <uniqueId>54ec8928-2e5e-45aa-a407-cadf715d59a9</uniqueId>
+    <legacyIdHash>245420138</legacyIdHash>
+    <category>Active Offseason</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 7</subcategory>
+    <name>Week 7.4 - Active Recovery</name>
+    <description>Today is an Active Recovery day targeting ONLY Acitve Recovery. Focus on relaxing on the bike and enjoying the ride. Today is about recovery, so go for an easy spin!</description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <workout>
+        <SteadyState Duration="5400" Zone="1" />
+    </workout>
+</workout_file>

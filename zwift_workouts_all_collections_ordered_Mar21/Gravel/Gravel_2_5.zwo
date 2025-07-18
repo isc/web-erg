@@ -1,0 +1,25 @@
+<workout_file>
+    <uniqueId>3c2704b4-6582-4bad-beb9-91fbeb644b3a</uniqueId>
+    <legacyIdHash>750253264</legacyIdHash>
+    <author>Zwift</author>
+    <name>Free Ride</name>
+    <description>Sometimes ya just gotta ride your bike. Get on the current course for the day and ride mixed terrain. I would like to see you riding Z1-Z2 throughout the ride, but some very low Z3 is clearly ok if the terrain demands it. 
+
+Today is NOT about going hard though, I just want to see some good aerobic deposits!</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Gravel Grinder</category>
+    <subcategory>Week 2</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow="0.45" PowerHigh="0.65">
+            <textevent timeoffset="0" message="Easy days need warm ups too!" locIndex="1" />
+        </Warmup>
+        <FreeRide Duration="4200" FlatRoad="0">
+            <textevent timeoffset="0" message="Please keep it easy today!" locIndex="2" />
+        </FreeRide>
+        <Cooldown Duration="600" PowerLow="0.55" PowerHigh="0.45">
+            <textevent timeoffset="77" message="Way to be. Nice easy riding! " locIndex="3" />
+        </Cooldown>
+    </workout>
+</workout_file>

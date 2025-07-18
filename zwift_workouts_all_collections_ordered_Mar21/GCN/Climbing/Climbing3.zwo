@@ -1,0 +1,36 @@
+<workout_file>
+    <uniqueId>51f653b6-b939-435a-9c70-c249b517a512</uniqueId>
+    <legacyIdHash>4098020697</legacyIdHash>
+    <author>GCN</author>
+    <categoryOverride>Climbing</categoryOverride>
+    <category>GCN</category>
+    <subcategory>Matt Stephens&apos; GCN Power Climbs Plan</subcategory>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/GCN_Logo.tga</authorIcon>
+    <name>Vo2max</name>
+    <description>This is designed to improve your Vo2max power, so you are ready for hard steep climbs and the big wattage needed to attack those hills. This workout has longer recoveries in order to focus on the maximum power produced for each interval. Really drill it on each. 
+Warm up for 10minutes and then do 3 x 1minute fast pedaling drills.
+Then get ready for 7 x 3minutes with 4 minutes between each at endurance pace recovering well.   
+Cool-down. </description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS" />
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.2545" PowerHigh="0.75449997" />
+        <IntervalsT Repeat="3" OnDuration="60" OffDuration="60" OnPower="0.75449997" OffPower="0.50449997" Cadence="110" CadenceResting="80" />
+        <SteadyState Duration="180" Power="1.1544999" />
+        <SteadyState Duration="240" Power="0.65449995" />
+        <SteadyState Duration="180" Power="1.1344999" />
+        <SteadyState Duration="240" Power="0.65449995" />
+        <SteadyState Duration="180" Power="1.1344999" />
+        <SteadyState Duration="240" Power="0.65449995" />
+        <SteadyState Duration="180" Power="1.1344999" />
+        <SteadyState Duration="240" Power="0.65449995" />
+        <SteadyState Duration="180" Power="1.1344999" />
+        <SteadyState Duration="240" Power="0.65449995" />
+        <SteadyState Duration="180" Power="1.1344999" />
+        <SteadyState Duration="240" Power="0.65449995" />
+        <SteadyState Duration="180" Power="1.1344999" />
+        <Cooldown Duration="540" PowerLow="0.75449997" PowerHigh="0.2545" />
+    </workout>
+</workout_file>

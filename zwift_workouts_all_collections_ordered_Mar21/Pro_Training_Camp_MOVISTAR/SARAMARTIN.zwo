@@ -1,0 +1,146 @@
+<workout_file>
+    <uniqueId>8b096452-9098-417f-ab5f-6a9f97a75c3c</uniqueId>
+    <legacyIdHash>3802813747</legacyIdHash>
+    <author>Sean Jefferson</author>
+    <categoryOverride>Recovery</categoryOverride>
+    <name>Sara Martin: All-Rounder</name>
+    <activitySaveName>Zwift Pro Training Camp: Movistar | Sara Martin</activitySaveName>
+    <description>A huge discovery. As spectacular as the performances offered by young Spaniard Sara Martín during 2021 is the potential still in her pockets for the upcoming years. An impressive, all-around talent, a strong time trialist, and a solid climber, with attacking spirit and huge tactical intelligence, the rider from Aranda de Duero, Burgos, surprised the world already from her first top-ranked races last year. This is an easy ride with various cadence intervals from 65%, 62%, 60% of FTP with cadence changes from  95, 105, and 115 rpms to develop leg coordination.</description>
+    <sportType>bike</sportType>
+    <category>Pro Training Camp | Movistar</category>
+    <categoryIndex>3</categoryIndex>
+    <visibleAfterTime>1671408060</visibleAfterTime>
+    <overrideHash>3802813747</overrideHash>
+    <tags>
+        <tag name="zprotraining" />
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerHigh="0.65" PowerLow="0.45">
+            <textevent timeoffset="0" message="Welcome to Zwift&apos;s pro training camp, today&apos;s workout is provided by UCI WorldTour team Movistar and their phenomenal young talent Sara Martin!" locIndex="1" />
+            <textevent timeoffset="10" message="Take the first few minutes easy and find a comfortable cadence to let your body gradually warm up." locIndex="2" />
+            <textevent timeoffset="30" message="Sara Martin is an impressive all-rounder talent for the Blues. She&apos;s a strong climber, powerful TT rider and savvy tactician with an attacking spirit!" locIndex="3" />
+            <textevent timeoffset="40" message="Her performances at top level events have garnered high praise from her teammate Annemeik Van Vlueten." locIndex="4" />
+            <textevent timeoffset="50" message="After a Van Vlueten victory at 2021 Vuelta Ciclista a Navarra, Annemeik told media &apos;Sara ingested a moto&apos; for her performance while supporting her during her win.&apos;" locIndex="5" />
+            <textevent timeoffset="120" message="This session is a little different from most workouts on Zwift, the main focus is on improving leg coordination by cycling at various high cadences." locIndex="6" />
+            <textevent timeoffset="130" message="By improving leg coordination you will improve pedaling efficiency, and ultimately with improved efficiency, produce more power or sustain power for longer." locIndex="7" />
+            <textevent timeoffset="180" message="The session will focus on 3 high cadence efforts at 95 rpms, 105 rpms and 115 rpms." locIndex="8" />
+            <textevent timeoffset="190" message="The progression will be 5 x 2min at 95 rpms, 1 min at 105 rpms and 30 seconds at 115 rpms followed by 60 seconds recovery at choice cadence." locIndex="9" />
+            <textevent timeoffset="200" message="Now that you know the session let&apos;s talk about bouncing. When a rider bounces on the saddle it shows a lack of coordination at higher rpms." locIndex="10" />
+            <textevent timeoffset="210" message="This can be improved by doing this exact workout." locIndex="11" />
+            <textevent timeoffset="220" message="Your goal today is to become more efficient at higher cadence and the only way to do that is by riding at higher cadence." locIndex="12" />
+            <textevent timeoffset="260" message="Keep a water bottle nearby, and if you haven&apos;t already, start your music, preferably something with a high tempo." locIndex="13" />
+            <textevent timeoffset="270" message="Up next is we have 2 min at 95 rpms. Get ready to fire up those feet!" locIndex="14" />
+        </Warmup>
+        <SteadyState Duration="120" Power="0.65" Cadence="95">
+            <textevent timeoffset="0" message="Spin it up. The effort is easy so you can comfortably hold the cadence." locIndex="15" />
+            <textevent timeoffset="10" message="Everyone knows how to &apos;push&apos; down on the pedals. It&apos;s how kids learn to ride using flat pedals." locIndex="16" />
+            <textevent timeoffset="20" message="The advantage of cycling shoes and clipless pedals is to use the pulling up motion to support your pedal stroke." locIndex="17" />
+            <textevent timeoffset="30" message="To smooth out your stroke so you can move your feet faster without bouncing..." locIndex="18" />
+            <textevent timeoffset="40" message="think about kicking your foot forward over the top of the pedal stroke and scraping it back through the bottom." locIndex="19" />
+            <textevent timeoffset="50" message="This can help reduce dead spots and improve your pedaling efficiency." locIndex="20" />
+            <textevent timeoffset="60" message="Remember this as we increase rpms if you start to notice any bouncing." locIndex="21" />
+            <textevent timeoffset="70" message="Practice it now before we jump up in rpms." locIndex="22" />
+            <textevent timeoffset="100" message="Up next we are stepping it up to 105 rpms." locIndex="23" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.62" Cadence="105">
+            <textevent timeoffset="0" message="Lift your cadence." locIndex="24" />
+            <textevent timeoffset="10" message="Focus on a smooth pedal stroke." locIndex="25" />
+            <textevent timeoffset="20" message="Reduce dead spots." locIndex="26" />
+            <textevent timeoffset="30" message="No bouncing." locIndex="27" />
+            <textevent timeoffset="50" message="Lifting the cadence to 115 rpms, in 9, 8, 7, 6..." locIndex="28" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.6" Cadence="115">
+            <textevent timeoffset="0" message="Fast feet!" locIndex="29" />
+            <textevent timeoffset="15" message="Keep it smooth." locIndex="30" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="0" message="Nice work! Find a comfortable cadence between 75-85 rpms for the next 60 seconds." locIndex="31" />
+            <textevent timeoffset="10" message="Grab a drink and towel off." locIndex="32" />
+            <textevent timeoffset="50" message="Back on it in 10 seconds. Get ready to spin those legs." locIndex="33" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.65" Cadence="95">
+            <textevent timeoffset="0" message="You know the drill, spin it up and find your rhythm." locIndex="34" />
+            <textevent timeoffset="60" message="Look at you move! Well done." locIndex="35" />
+            <textevent timeoffset="100" message="Nice and smooth into the next cadence change." locIndex="36" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.62" Cadence="105">
+            <textevent timeoffset="0" message="Lift it." locIndex="37" />
+            <textevent timeoffset="20" message="Keep it rolling!" locIndex="38" />
+            <textevent timeoffset="50" message="Going up again soon." locIndex="39" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.6" Cadence="115">
+            <textevent timeoffset="0" message="Even faster!" locIndex="40" />
+            <textevent timeoffset="15" message="Hang in there." locIndex="41" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="0" message="Great job so far, 2 rounds done, 3 to go!" locIndex="42" />
+            <textevent timeoffset="10" message="Your choice for cadence here." locIndex="43" />
+            <textevent timeoffset="30" message="Are you feeling more comfortable at the higher cadence?" locIndex="44" />
+            <textevent timeoffset="40" message="You have plenty of time to continue practicing your connection with the pedals." locIndex="45" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.65" Cadence="95">
+            <textevent timeoffset="0" message="It&apos;s time! Spin it up." locIndex="46" />
+            <textevent timeoffset="20" message="I like what I&apos;m seeing." locIndex="47" />
+            <textevent timeoffset="60" message="Focus on a relaxed upper body." locIndex="48" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.62" Cadence="105">
+            <textevent timeoffset="0" message="105 rpms, let&apos;s go!" locIndex="49" />
+            <textevent timeoffset="20" message="Keep your upper body as still as a statue." locIndex="50" />
+            <textevent timeoffset="40" message="Relax your grip on the bars and drop your shoulders." locIndex="51" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.6" Cadence="115">
+            <textevent timeoffset="0" message="Faster! Keep those feet flying." locIndex="52" />
+            <textevent timeoffset="15" message="Find a way to reduce any bouncing!" locIndex="53" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="0" message="Slow down and give your legs a little break." locIndex="54" />
+            <textevent timeoffset="10" message="Another drink. Gotta stay hydrated." locIndex="55" />
+            <textevent timeoffset="40" message="2 rounds left!" locIndex="56" />
+            <textevent timeoffset="50" message="Back on in 10 seconds." locIndex="57" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.65" Cadence="95">
+            <textevent timeoffset="0" message="Float on the pedals." locIndex="58" />
+            <textevent timeoffset="10" message="Only a few more chances to perfect your pedal stroke." locIndex="59" />
+            <textevent timeoffset="20" message="Make each round count." locIndex="60" />
+            <textevent timeoffset="60" message="You&apos;re doing great! Maintain that body position and connection with the pedals." locIndex="61" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.62" Cadence="105">
+            <textevent timeoffset="0" message="Up, Up, Up." locIndex="62" />
+            <textevent timeoffset="20" message="This is a bounce free zone, let&apos;s keep it that way!" locIndex="63" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.6" Cadence="115">
+            <textevent timeoffset="0" message="Let&apos;s see what you&apos;ve got!" locIndex="64" />
+            <textevent timeoffset="15" message="Nice and smooth!" locIndex="65" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="0" message="Slow it down." locIndex="66" />
+            <textevent timeoffset="20" message="Only 1 round left." locIndex="67" />
+            <textevent timeoffset="30" message="The last round will be your best round!" locIndex="68" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.65" Cadence="95">
+            <textevent timeoffset="0" message="Let&apos;s go! Time to close this session out." locIndex="69" />
+            <textevent timeoffset="10" message="Focus on connection, feel the pedal engaged all the way around the crankset." locIndex="70" />
+            <textevent timeoffset="40" message="Relaxed grip, bend in your elbows and drop your shoulders." locIndex="71" />
+            <textevent timeoffset="50" message="Take that body posture into the next rep." locIndex="72" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.62" Cadence="105">
+            <textevent timeoffset="0" message="Stay relaxed, stay still, and no bouncing!" locIndex="73" />
+            <textevent timeoffset="20" message="You&apos;re cruising!" locIndex="74" />
+            <textevent timeoffset="40" message="Your last chance to impress me is coming up. From the waist up I want to see a statue!" locIndex="75" />
+            <textevent timeoffset="50" message="Let&apos;s see what you&apos;ve got!" locIndex="76" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.6" Cadence="115">
+            <textevent timeoffset="0" message="Nice! Keep it smooth." locIndex="77" />
+            <textevent timeoffset="15" message="Hold it together all the way through the arch!" locIndex="78" />
+        </SteadyState>
+        <Cooldown Duration="420" PowerHigh="0.5" PowerLow="0.65">
+            <textevent timeoffset="0" message="Great job, find a comfortable cadence between 75-85 and let&apos;s cool down." locIndex="79" />
+            <textevent timeoffset="20" message="This is a great session to add to your training routine to improve your cycling skills." locIndex="80" />
+            <textevent timeoffset="30" message="Improving your pedaling stroke and efficiency takes practice." locIndex="81" />
+            <textevent timeoffset="40" message="The more you practice the more comfortable you will get at higher rpms." locIndex="82" />
+            <textevent timeoffset="380" message="Great session today! If you enjoyed it and want to do more sessions from Movistar check out the rest of their workouts in the Pro Training camp folder." locIndex="83" />
+            <textevent timeoffset="390" message="Hope to see you again soon!" locIndex="84" />
+            <textevent timeoffset="400" message="Ride On!" locIndex="85" />
+        </Cooldown>
+    </workout>
+</workout_file>

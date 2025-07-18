@@ -1,0 +1,44 @@
+<workout_file>
+    <uniqueId>0842cc0f-331c-4961-93da-05ac5bbeddde</uniqueId>
+    <legacyIdHash>2571737559</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Week 6.2 - Pure Strength #2</name>
+    <category>2018 PRL100 Prep</category>
+    <subcategory>Week 6</subcategory>
+    <description>Short, high-power, low-cadence intervals help to boost fitness in a variety of ways. Focus on keeping the cadence in the prescribed range. The power here should not be a challenge... except for at the cadence specified.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.5" PowerHigh="0.75">
+            <textevent timeoffset="30" message="A big session today that will hurt the legs!" locIndex="1" />
+            <textevent timeoffset="90" message="Remember to aim for the target cadence." locIndex="2" />
+            <textevent timeoffset="110" message="Let the smart trainer adjust the power" locIndex="3" />
+        </Warmup>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="40" message="Ready for the 1st Interval." locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="45" Power="0.98" Cadence="50" />
+        <SteadyState Duration="180" Power="0.55" />
+        <SteadyState Duration="45" Power="0.98" Cadence="50" />
+        <SteadyState Duration="180" Power="0.55" />
+        <SteadyState Duration="45" Power="0.98" Cadence="50" />
+        <SteadyState Duration="180" Power="0.55" />
+        <SteadyState Duration="600" Power="0.81">
+            <textevent timeoffset="20" message="Complete 3 x 10sec max sprints throughout the Tempo effort." locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.55">
+            <textevent timeoffset="250" message="Now for the next set of Pure Strength efforts." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="45" Power="0.98" Cadence="50" />
+        <SteadyState Duration="180" Power="0.55" />
+        <SteadyState Duration="45" Power="0.98" Cadence="50" />
+        <SteadyState Duration="180" Power="0.55" />
+        <SteadyState Duration="45" Power="0.98" Cadence="50" />
+        <SteadyState Duration="180" Power="0.55" />
+        <SteadyState Duration="600" Power="0.81">
+            <textevent timeoffset="20" message="Complete 3 x 10sec max sprints throughout the Tempo effort." locIndex="7" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow="0.75" PowerHigh="0.5" />
+    </workout>
+</workout_file>

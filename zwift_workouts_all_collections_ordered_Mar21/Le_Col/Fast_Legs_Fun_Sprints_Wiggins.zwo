@@ -1,0 +1,113 @@
+<workout_file>
+    <uniqueId>b1b21a02-6cd6-4443-9775-188f6cbbce65</uniqueId>
+    <legacyIdHash>1170259022</legacyIdHash>
+    <author>Chris Opie</author>
+    <categoryOverride>Sprinting</categoryOverride>
+    <name>Sir Bradley Wiggins.1 - Fun Sprints and Fast Legs</name>
+    <description>
+This session is all about Fast legs, fast breathing, fast heart rate and getting a quick fix workout in.
+
+These workouts have been designed and tested by some of the best cyclists in the world. Olympians and World Champions such as Sir Bradley Wiggins, Fabian Cancellara, Dame Sarah Storey and Kristin Armstrong.</description>
+    <sportType>bike</sportType>
+    <durationType>time</durationType>
+    <activitySaveName>Le Col - Training With Legends - Sir Bradley Wiggins - Fun Sprints and Fast Legs</activitySaveName>
+    <category>Le Col - Training With Legends</category>
+    <subcategory>Sir Bradley Wiggins</subcategory>
+    <visibleAfterTime>1635724860</visibleAfterTime>
+    <tags>
+        <tag name="FTP" />
+        <tag name="TT" />
+        <tag name="Intervals" />
+    </tags>
+    <workout>
+        <Warmup Duration="180" PowerLow="0.35" PowerHigh="0.55" pace="0">
+            <textevent timeoffset="0" message="Welcome to Le Col Training With Legends. I&apos;m Bradley Wiggins and this session is all about playing with cadence and intensity." locIndex="1" />
+            <textevent timeoffset="25" message="This session is a fast paced cadence and power session." locIndex="2" />
+            <textevent timeoffset="55" message="Have you loaded my Training With Legends Video yet? Head over to lecol.cc for more details." locIndex="3" />
+            <textevent timeoffset="75" message="Use this 3 minute roll in to get your heart rate going." locIndex="4" />
+            <textevent timeoffset="105" message="We are going to lift our cadence when we lift the intensity. Only 5-10 rpm. This is all about speed." locIndex="5" />
+            <textevent timeoffset="125" message="Time to switch on and pay attention to me." locIndex="6" />
+        </Warmup>
+        <SteadyState Duration="10" Power="2.25" pace="0">
+            <textevent timeoffset="0" message="Increase your cadence by 10 RPM for these sprints." locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="160" Power="0.88" pace="0">
+            <textevent timeoffset="0" message="And return to a comfortable cadence, I&apos;m going to alternate between 90 and 100 RPM" locIndex="8" />
+            <textevent timeoffset="20" message="This helps with muscular recruitment and pathways. Have you got that video on yet?" locIndex="9" />
+            <textevent timeoffset="65" message="These four blocks are all about maintaining a good aerobic output. Nothing too crazy." locIndex="10" />
+            <textevent timeoffset="110" message="Control your leg speed. Control your breathing. Control your thoughts. The mind is a powerful tool here." locIndex="11" />
+            <textevent timeoffset="140" message="Fast legs at the ready?" locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="2.25" pace="0">
+            <textevent timeoffset="0" message="Spin your legs, lift your cadence by at least 10 RPM. 15 if you can!" locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="150" Power="0.55" pace="0">
+            <textevent timeoffset="0" message="Now is the time to breathe and get ready for the next one." locIndex="14" />
+            <textevent timeoffset="30" message="This session is great for cardiovascular fitness and muscle recruitment. It&apos;s quick and effective." locIndex="15" />
+            <textevent timeoffset="60" message="Heart rate dropping a little? If it is, you can get my Training With Legends video loaded and ride with me." locIndex="16" />
+            <textevent timeoffset="105" message="A short recovery here is enough, the session isn&apos;t too long. You can recover afterwards." locIndex="17" />
+            <textevent timeoffset="120" message="Ready for the next effort?" locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="2.25" pace="0">
+            <textevent timeoffset="0" message="Spin your legs again, aim for a 10-15 RPM increase, but keep it smooth." locIndex="19" />
+        </SteadyState>
+        <SteadyState Duration="160" Power="0.88" pace="0">
+            <textevent timeoffset="0" message="Easing back into this baseline effort takes focus and control, don&apos;t drop off the power." locIndex="20" />
+            <textevent timeoffset="35" message="This session reminds me of my early track racing days. Fast legs, fixed gear." locIndex="21" />
+            <textevent timeoffset="80" message="Smooth and controlled throughout. Don&apos;t waste any energy." locIndex="22" />
+            <textevent timeoffset="125" message="Surge approaching now. Are you ready for this?" locIndex="23" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="2.25" pace="0">
+            <textevent timeoffset="0" message="As before, spin faster, push harder and maintain good form. Recovery is on the way." locIndex="24" />
+        </SteadyState>
+        <SteadyState Duration="150" Power="0.55" pace="0">
+            <textevent timeoffset="0" message="And breathe, again. We&apos;re halfway now. Time to make the next two count. " locIndex="25" />
+            <textevent timeoffset="30" message="How was that? More left in the legs? " locIndex="26" />
+            <textevent timeoffset="60" message="Remember to keep drinking, even in this short session." locIndex="27" />
+            <textevent timeoffset="120" message="Ventilation, fresh air flow. It all makes a big difference." locIndex="28" />
+            <textevent timeoffset="90" message="Get that fan on!" locIndex="29" />
+            <textevent timeoffset="130" message="Surge on the way." locIndex="30" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="2.25" pace="0">
+            <textevent timeoffset="0" message="Lift your cadence and drive from the waist down, your shoulders should stay relaxed. " locIndex="31" />
+        </SteadyState>
+        <SteadyState Duration="160" Power="0.88" pace="0">
+            <textevent timeoffset="0" message="Settling into this effort will force aerobic progression. " locIndex="32" />
+            <textevent timeoffset="20" message="Hone into the rhythm of your pedals turning. Breathing deep and forcefully. Full attention now." locIndex="33" />
+            <textevent timeoffset="65" message="Relax on the bike, let your shoulders loosen. It will help." locIndex="34" />
+            <textevent timeoffset="110" message="Just 3 sprints left now." locIndex="35" />
+            <textevent timeoffset="134" message="Time to get ready." locIndex="36" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="2.25" pace="0">
+            <textevent timeoffset="0" message="Lift that cadence up again and drive this right to the end of the 10 seconds, no easing off early, every second counts." locIndex="37" />
+        </SteadyState>
+        <SteadyState Duration="150" Power="0.55" pace="0">
+            <textevent timeoffset="0" message="Don&apos;t forget to drink, we have one more block to go and you need to be giving this full control." locIndex="38" />
+            <textevent timeoffset="25" message="Cadence and sprint based sessions are a great way to add variety to your training." locIndex="39" />
+            <textevent timeoffset="45" message="Enjoy these moments of calm." locIndex="40" />
+            <textevent timeoffset="90" message="Use this time to prepare yourself for the final push. Mentally and physically." locIndex="41" />
+            <textevent timeoffset="120" message="Time to get ready!" locIndex="42" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="2.25" pace="0">
+            <textevent timeoffset="0" message="The final block now, it&apos;s like another turn on the front of a team pursuit, a half lap effort. " locIndex="43" />
+        </SteadyState>
+        <SteadyState Duration="160" Power="0.88" pace="0">
+            <textevent timeoffset="0" message="Ease back off the pace, but keep your form on the bike. Smooth is fast!" locIndex="44" />
+            <textevent timeoffset="20" message="Like chasing the wheel in front of you this section, it&apos;s about holding on to the effort and not dropping off the intensity before this final surge." locIndex="45" />
+            <textevent timeoffset="50" message="Keep locked into that position on the bike and fast leg speed." locIndex="46" />
+            <textevent timeoffset="80" message="Almost done now, do not lose your attention. This is where it really counts!" locIndex="47" />
+            <textevent timeoffset="110" message="The final 60 seconds now." locIndex="48" />
+            <textevent timeoffset="134" message="One final sprint to finish this off." locIndex="49" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="2.25" pace="0">
+            <textevent timeoffset="0" message="You can give this everything now, spin faster than before, we&apos;re done in 10 seconds." locIndex="50" />
+        </SteadyState>
+        <Cooldown Duration="120" PowerLow="0.55" PowerHigh="0.35" pace="0">
+            <textevent timeoffset="0" message="That is a solid session, good work." locIndex="51" />
+            <textevent timeoffset="30" message="If you are looking for more workouts, have a browse through the Le Col Training With Legends Workout folder. Use our Training With Legends Videos to really benefit from these sessions." locIndex="52" />
+            <textevent timeoffset="60" message="We have some fun sessions to choose from. Thank you for training with me today." locIndex="53" />
+            <textevent timeoffset="90" message="Fancy trying my warm up next time? Or my FTP Booster?" locIndex="54" />
+            <textevent timeoffset="105" message="Thank you again, be sure to browse the Le Col Workout Folder for more." locIndex="55" />
+        </Cooldown>
+    </workout>
+</workout_file>

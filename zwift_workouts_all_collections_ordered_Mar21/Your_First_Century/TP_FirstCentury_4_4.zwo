@@ -1,0 +1,13 @@
+<workout_file>
+    <uniqueId>a1aebaba-fe7c-4402-bca8-a4b84b01ad1b</uniqueId>
+    <legacyIdHash>962158770</legacyIdHash>
+    <category>Your First Century</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 4</subcategory>
+    <name>Week 4.4 - Day 4 - Rest</name>
+    <description>Relax. Watch TV. Take a walk. Stretch. Enjoy the day. WATCH your food intake today. Do not overeat. Eat a normal to small amount of food today. Your body will be craving tons of food today, but resist!</description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <workout>
+        <RestDay />
+    </workout>
+</workout_file>

@@ -1,0 +1,79 @@
+<workout_file>
+    <uniqueId>bb45efe7-6f52-49de-abdb-c5688b545c1d</uniqueId>
+    <legacyIdHash>998273749</legacyIdHash>
+    <author>Zwift Academy Coaches</author>
+    <name>Semi-Finals.4 - 2 x 12min Test</name>
+    <activitySaveName>Zwift Academy 2018 Semi-Final Workout #4: 2 x 12min Test</activitySaveName>
+    <visibleAfterTime>1539586800</visibleAfterTime>
+    <category>Zwift Academy 2018</category>
+    <subcategory>Semi-Finals</subcategory>
+    <tags>
+        <tag name="Zwift Academy" />
+    </tags>
+    <description>This will be the final test effort of the 2018 Zwift Academy! You can use this test to gauge any improvements you may have made; take the average power of the two intervals, this correlates well to a traditional 20 minute effort. Use the average power from the first 12 minutes as a target to push your 20 minute power to within the next 2 - 4 months of training. 
+
+Treat each 12 minute interval as if it were the only effort. We generally expect the first interval to be ~20 Watts higher than the second. Give it FULL-GAS!</description>
+    <sportType>bike</sportType>
+    <workout>
+        <SteadyState Duration="180" Power="0.55000001" pace="8268">
+            <textevent timeoffset="10" message="Today&apos;s session starts with a gradual warm up, progressing through the zones." locIndex="1" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.69999999" pace="8268" Cadence="85" />
+        <SteadyState Duration="180" Power="0.85000002" pace="8268" Cadence="70">
+            <textevent timeoffset="0" message="Low Cadence for this block." locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.55000001" pace="8268">
+            <textevent timeoffset="0" message="3 minutes easy before some priming efforts. " locIndex="3" />
+            <textevent timeoffset="30" message="Today&apos;s session is all about the two 12 minute threshold efforts" locIndex="4" />
+            <textevent timeoffset="60" message="The average power you achieve in these tests can be used as a target to hit for your 20 minute power in the next few months." locIndex="5" />
+            <textevent timeoffset="170" message="Now for a few priming efforts to help you prepare for your 12 minute efforts." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="1.05" pace="8268">
+            <textevent timeoffset="0" message="Three minutes just above FTP. This should feel manageable for the duration." locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.5" pace="8268" />
+        <IntervalsT Repeat="2" OnDuration="30" OffDuration="90" OnPower="1.5" OffPower="0.44999999" pace="8268">
+            <textevent timeoffset="0" message="30s hard, go!" locIndex="8" />
+            <textevent timeoffset="30" message="Good job, 90 seconds easy." locIndex="9" />
+            <textevent timeoffset="120" message="Hard for another 30s!" locIndex="10" />
+            <textevent timeoffset="150" message="Great work, take this easy. " locIndex="11" />
+        </IntervalsT>
+        <SteadyState Duration="180" Power="0.5" pace="8268">
+            <textevent timeoffset="0" message="Ok, final recovery before the test efforts" locIndex="12" />
+            <textevent timeoffset="30" message="Your first 12 minutes should be all-out." locIndex="13" />
+            <textevent timeoffset="90" message="Try and find a rhythm and maintain your power for the duration of the test." locIndex="14" />
+            <textevent timeoffset="170" message="Ready? Show us what you&apos;ve got!" locIndex="15" />
+        </SteadyState>
+        <FreeRide Duration="720" FlatRoad="1" show_avg="1">
+            <textevent timeoffset="5" message="Here we go!" locIndex="16" />
+            <textevent timeoffset="120" message="Settle into the effort." locIndex="17" />
+            <textevent timeoffset="360" message="Halfway, stay strong to the end." locIndex="18" />
+            <textevent timeoffset="570" message="Final push to the finish!" locIndex="19" />
+        </FreeRide>
+        <SteadyState Duration="600" Power="0.55000001" pace="8268">
+            <textevent timeoffset="0" message="Great effort. 10 minutes to recover." locIndex="20" />
+            <textevent timeoffset="30" message="You probably won&apos;t feel ready for the next 12 to come..." locIndex="21" />
+            <textevent timeoffset="40" message="But grit your teeth and be prepared to suffer." locIndex="22" />
+            <textevent timeoffset="120" message="The second 12 minutes is usually about 20 watts lower." locIndex="23" />
+            <textevent timeoffset="130" message="But try to get as close as you can to the power you held for the first 12 minutes." locIndex="24" />
+            <textevent timeoffset="240" message="Your representative 20 minute power will be the average of your two 12 minute efforts." locIndex="25" />
+            <textevent timeoffset="570" message="Second 12 minute test coming up." locIndex="26" />
+            <textevent timeoffset="590" message="Ready? Here we go!" locIndex="27" />
+        </SteadyState>
+        <FreeRide Duration="720" FlatRoad="1" show_avg="1">
+            <textevent timeoffset="0" message="Show us what you can do!" locIndex="28" />
+            <textevent timeoffset="30" message="Try and pace this one a bit." locIndex="29" />
+            <textevent timeoffset="60" message="Try to maintain a smooth cadence throughout." locIndex="30" />
+            <textevent timeoffset="120" message="Try and stick to a rhythm." locIndex="31" />
+            <textevent timeoffset="360" message="Halfway!" locIndex="32" />
+            <textevent timeoffset="480" message="Keep it going!" locIndex="33" />
+            <textevent timeoffset="540" message="Final minute!" locIndex="34" />
+            <textevent timeoffset="570" message="Last chance to raise the power!" locIndex="35" />
+        </FreeRide>
+        <SteadyState Duration="300" Power="0.75" pace="8268">
+            <textevent timeoffset="0" message="Fantastic effort today. " locIndex="36" />
+            <textevent timeoffset="30" message="Take your average power for the two 12 minute efforts to calculate your target 20 minute power." locIndex="37" />
+            <textevent timeoffset="40" message="Aim to train to produce this power for 20 minutes in the next few months." locIndex="38" />
+        </SteadyState>
+    </workout>
+</workout_file>

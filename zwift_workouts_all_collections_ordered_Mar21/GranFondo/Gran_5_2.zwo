@@ -1,0 +1,51 @@
+<workout_file>
+    <uniqueId>5215de08-0d04-46b7-b6d6-efad6fbd2f0f</uniqueId>
+    <legacyIdHash>2704355029</legacyIdHash>
+    <author>Zwift</author>
+    <name>Tempo Over-Under</name>
+    <description>This is a workout where topography can present a real challenge to effective execution outdoors. The speeds at race effort for elite athletes can likewise present a problem for more elite athletes. The purpose of this workout is to sustain work at a specific race-pace with recovery at a relatively high-intensity that nevertheless is easy enough to be sustainable.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Gran Fondo</category>
+    <subcategory>Week 5</subcategory>
+    <tags>
+        <tag name="fondo" />
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.33181816" PowerHigh="0.66239667" pace="-1307163960">
+            <textevent timeoffset="30.000002" message="Start nice and light. Just warming up." locIndex="1" />
+            <textevent timeoffset="90.000008" message="The warm-up will guide you through a nice progression in power." locIndex="2" />
+            <textevent timeoffset="150" message="If you&apos;re in erg mode, you&apos;ll get some step ups in power to warm you up. If not, just follow the cues." locIndex="3" />
+            <textevent timeoffset="210.00002" message="If you want to take some hard pedal strokes, go ahead. But this whole workout is sub-threshold." locIndex="4" />
+            <textevent timeoffset="270" message="The focus here is really on the higher pace intervals." locIndex="5" />
+            <textevent timeoffset="330.00003" message="Try to work on staying down in the aerobars, especially during the higher efforts." locIndex="6" />
+            <textevent timeoffset="390.00003" message="Use the endurance-pace stuff to sit up and drink." locIndex="7" />
+            <textevent timeoffset="450.00003" message="This is a short workout, but it&apos;s solid the whole way so don&apos;t forget to drink." locIndex="8" />
+            <textevent timeoffset="510.00003" message="Almost ready to start. Focus on nice consistency across as 5 pairs of intervals." locIndex="9" />
+            <textevent timeoffset="570" message="Ready to go on this first one. Right at your strong sub-threshold pace!" locIndex="10" />
+        </Warmup>
+        <IntervalsT Repeat="5" OnDuration="240" OffDuration="240" OnPower="0.91449994" OffPower="0.80449992" pace="-1307163960" OverUnder="1">
+            <textevent timeoffset="120.00001" message="Find and hold your pace. Strong sub-threshold effort here." locIndex="11" />
+            <textevent timeoffset="360.00003" message="You can relax - just a bit - to high-end endurance pace here. It is easiER but not easy" locIndex="12" />
+            <textevent timeoffset="660.00006" message="Now we&apos;re back into the sub-threshold zone on this one. Nice and steady across this whole 5min block." locIndex="13" />
+            <textevent timeoffset="960.00006" message="Recover here but don&apos;t slack off. Solid pace. Use this to sit up and drink if you need to" locIndex="14" />
+            <textevent timeoffset="1260" message="In the meat of the work now. Great work. This is number 3. Getting up and over the hump." locIndex="15" />
+            <textevent timeoffset="1380.0001" message="Almost there. Finish it up with focus on the power. I think this is the hardest one right here." locIndex="16" />
+            <textevent timeoffset="1620.0002" message="Make sure you&apos;re keeping the power up. It&apos;s easy to let it slide or let your cadence drag." locIndex="17" />
+            <textevent timeoffset="1920.0001" message="Solid on sub-threshold interval number 4 here. Keeping that power from the earlier ones. These last ones give you the best idea of your pacing." locIndex="18" />
+            <textevent timeoffset="2160" message="And drop it down just a touch now. Let your HR settle back into the endurance zone. If you&apos;re wearing a HRM, you should see your HR stabilize inside each interval." locIndex="19" />
+            <textevent timeoffset="2430" message="The last really solid one right now. Focus on steady power." locIndex="20" />
+            <textevent timeoffset="2580.0002" message="Find a nice rhythm and power through the final stretch here." locIndex="21" />
+            <textevent timeoffset="2640.0002" message="And let&apos;s bring it on home. Close it out." locIndex="22" />
+            <textevent timeoffset="2760.0002" message="Okay, still solid here for this last 5min. Just a bit more work." locIndex="23" />
+            <textevent timeoffset="2820.0002" message="Staying strong. Just a little bit more to go." locIndex="24" />
+            <textevent timeoffset="2940.0002" message="The end is in sight now. Awesome job on a tough workout." locIndex="25" />
+        </IntervalsT>
+        <FreeRide Duration="300" FlatRoad="1">
+            <textevent timeoffset="29.000002" message="And you are all done. Great job!" locIndex="26" />
+            <textevent timeoffset="60.000004" message="Fantastic workout." locIndex="27" />
+            <textevent timeoffset="90.000008" message="Just spin it out, nice and light now to finish." locIndex="28" />
+            <textevent timeoffset="150" message="Don&apos;t forget to hydrate &amp; fuel-post ride." locIndex="29" />
+        </FreeRide>
+    </workout>
+</workout_file>

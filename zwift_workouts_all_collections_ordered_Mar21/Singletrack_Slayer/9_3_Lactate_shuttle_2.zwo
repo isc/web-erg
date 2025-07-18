@@ -1,0 +1,108 @@
+<workout_file>
+    <uniqueId>848bdff6-6402-42fd-9c0f-c8cd8363a347</uniqueId>
+    <legacyIdHash>4182964652</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Lactate Shuttle #2</name>
+    <description>Sustaining high levels of lactate requires specific training. This ability to tolerate lactate only comes with precise intervals in training. We can all produce a one off effort to build lactate, but with carefully planned intervals we can maintain this high level of lactate for an extended period. This is where the training effect happens!</description>
+    <sportType>bike</sportType>
+    <category>Singletrack Slayer</category>
+    <subcategory>Week 9</subcategory>
+    <WorkoutPlan>1</WorkoutPlan>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <tags>
+    </tags>
+    <workout>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="30" message="Today is all about lactate!" locIndex="1" />
+            <textevent timeoffset="60" message="But first, let&apos;s clear up a common misconception regarding lactate." locIndex="2" />
+            <textevent timeoffset="80" message="Lactate often gets a bad rap... but he&apos;s a good guy!" locIndex="3" />
+            <textevent timeoffset="100" message="Just quickly, without going deep into the science..." locIndex="4" />
+            <textevent timeoffset="120" message="The lactate you produce is converted into a fuel source." locIndex="5" />
+            <textevent timeoffset="170" message="Let&apos;s warmup first and continue this look at lactate." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.6" />
+        <SteadyState Duration="60" Power="0.65">
+            <textevent timeoffset="30" message="Some gentle steps in power here." locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.81">
+            <textevent timeoffset="30" message="Keep the cadence nice and high for these steps." locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.03">
+            <textevent timeoffset="10" message="Spin, spin, spin!" locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="30" message="A quick chance to catch your breath here." locIndex="10" />
+            <textevent timeoffset="90" message="A couple of minutes above threshold to build some lactate next" locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.1">
+            <textevent timeoffset="60" message="At this point you can&apos;t process lactate as fast as you produce it." locIndex="12" />
+            <textevent timeoffset="90" message="So, naturally lactate levels rise." locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="60" message="During recovery efforts, you are able to process lactate much faster and return to resting levels." locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.85">
+            <textevent timeoffset="20" message="MTB riding is a tough event." locIndex="15" />
+            <textevent timeoffset="40" message="The power demand is very stochastic in nature." locIndex="16" />
+            <textevent timeoffset="60" message="With big peaks and random rest." locIndex="17" />
+            <textevent timeoffset="80" message="All this results in consistently high levels of lactate." locIndex="18" />
+            <textevent timeoffset="100" message="Making today&apos;s session a super important one." locIndex="19" />
+            <textevent timeoffset="160" message="Enjoy the calm before the storm here!" locIndex="20" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="20" message="Next you will complete an extended effort above threshold." locIndex="21" />
+            <textevent timeoffset="40" message="With testing we are able to accurately measure how much lactate you produce above threshold per minute." locIndex="22" />
+            <textevent timeoffset="60" message="But for today, we know that for every minute above threshold, you are building lactate to a high level." locIndex="23" />
+            <textevent timeoffset="80" message="We then use over/under style efforts to maintain this high level of lactate." locIndex="24" />
+            <textevent timeoffset="100" message="I&apos;ll explain more as we get into the session." locIndex="25" />
+            <textevent timeoffset="120" message="Just be prepared for the hard opening interval!" locIndex="26" />
+            <textevent timeoffset="160" message="Here we go!" locIndex="27" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="1.1">
+            <textevent timeoffset="20" message="Nice start!" locIndex="28" />
+            <textevent timeoffset="50" message="Settle into a good rhythm with a high cadence." locIndex="29" />
+            <textevent timeoffset="110" message="This opening effort sets you up for the work ahead." locIndex="30" />
+            <textevent timeoffset="130" message="With each minute you are building up the lactate." locIndex="31" />
+            <textevent timeoffset="150" message="Which is good!" locIndex="32" />
+            <textevent timeoffset="170" message="We have a quick rest interval at the end here." locIndex="33" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="10" message="Catch your breath here and get ready for the work ahead." locIndex="34" />
+            <textevent timeoffset="30" message="We are going to work above threshold for 2min." locIndex="35" />
+            <textevent timeoffset="50" message="Then recover for 90sec." locIndex="36" />
+        </SteadyState>
+        <IntervalsT Repeat="8" OnDuration="120" OffDuration="90" OnPower="1.03" OffPower="0.65">
+            <textevent timeoffset="20" message="Back up to slightly above threshold." locIndex="37" />
+            <textevent timeoffset="80" message="But only for a short period." locIndex="38" />
+            <textevent timeoffset="1300" message="But we don&apos;t want to build more lactate." locIndex="39" />
+            <textevent timeoffset="150" message="So now we rest." locIndex="40" />
+            <textevent timeoffset="210" message="By repeating this cycle... " locIndex="41" />
+            <textevent timeoffset="220" message="...you are able to maintain the level of lactate you reached in the opening 3min effort." locIndex="42" />
+            <textevent timeoffset="310" message="The effort should almost become comfortable for you." locIndex="43" />
+            <textevent timeoffset="470" message="If you didn&apos;t perform the initial 3min interval above threshold," locIndex="44" />
+            <textevent timeoffset="490" message="This would be a much different workout, with different benefits." locIndex="45" />
+            <textevent timeoffset="550" message="Here is an example of how it works..." locIndex="46" />
+            <textevent timeoffset="570" message="The opening interval of 3min above threshold might produce a level of 4mmol lactate." locIndex="47" />
+            <textevent timeoffset="590" message="By then shuttling your intensity... " locIndex="48" />
+            <textevent timeoffset="610" message="...you can maintain this level of lactate for the full 28min interval." locIndex="49" />
+            <textevent timeoffset="700" message="If you didn&apos;t perform the opening 3min interval above threshold..." locIndex="50" />
+            <textevent timeoffset="720" message="And only started with the shuttle efforts." locIndex="51" />
+            <textevent timeoffset="740" message="You would be lucky to reach a level of 2mmol Lactate." locIndex="52" />
+            <textevent timeoffset="800" message="So the pain at the start makes for big gains!" locIndex="53" />
+            <textevent timeoffset="960" message="This is highly effective training." locIndex="54" />
+            <textevent timeoffset="1000" message="Just 3 more efforts to go!" locIndex="55" />
+            <textevent timeoffset="1100" message="Do you feel as if the lactate level has stabilized?" locIndex="56" />
+            <textevent timeoffset="1200" message="The recovery interval will feel easier, but you still have a good level of lactate." locIndex="57" />
+            <textevent timeoffset="12300" message="This is the training effect." locIndex="58" />
+            <textevent timeoffset="14500" message="Last interval!" locIndex="59" />
+            <textevent timeoffset="1500" message="Spin the legs all the way to the finish!" locIndex="60" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.5">
+            <textevent timeoffset="40" message="That completes a fantastic session from you!" locIndex="61" />
+            <textevent timeoffset="100" message="You should be really pleased with the work you have done today." locIndex="62" />
+            <textevent timeoffset="200" message="We can&apos;t always train this hard." locIndex="63" />
+            <textevent timeoffset="220" message="But today is one of those days where the big gains are made!" locIndex="64" />
+            <textevent timeoffset="250" message="Give yourself an easy day or two before your next high intensity session." locIndex="65" />
+        </SteadyState>
+    </workout>
+</workout_file>

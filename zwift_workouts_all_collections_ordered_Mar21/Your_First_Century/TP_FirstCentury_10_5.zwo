@@ -1,0 +1,18 @@
+<workout_file>
+    <uniqueId>18e519fe-ec1c-4a48-b9ff-3132e9a2dc05</uniqueId>
+    <legacyIdHash>2239868174</legacyIdHash>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <category>Your First Century</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 10</subcategory>
+    <name>Week 10.5 - Day 5</name>
+    <description>PCG classic tune-up - The day before your big ride, you need some little short efforts to make sure your legs will feel good tomorrow. They are so short that they will not adversely impact you for tomorrow, but actually make your legs feel better. Eat extra carbs again today! Not too much standing on the feet today!</description>
+    <tags />
+    <workout>
+        <Warmup Duration="900" PowerLow="0.2545" PowerHigh="0.75449997" />
+        <IntervalsT Repeat="3" OnDuration="60" OffDuration="300" OnPower="1.2045" OffPower="0.50450003" />
+        <IntervalsT Repeat="3" OnDuration="30" OffDuration="300" OnPower="1.0545" OffPower="0.50450003" />
+        <SteadyState Duration="1830" Power="0.65449995" />
+        <Cooldown Duration="600" PowerLow="0.75449997" PowerHigh="0.2545" />
+    </workout>
+</workout_file>

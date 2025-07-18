@@ -1,0 +1,21 @@
+<workout_file>
+    <uniqueId>73a5ce2e-06cf-43f8-b69e-716778c020c2</uniqueId>
+    <legacyIdHash>3480566519</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Week 3.1 - Endurance /Free Ride</name>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>2018 PRL46 Prep</category>
+    <subcategory>Week 3</subcategory>
+    <description>A steady endurance ride today.
+
+Ride as you feel aiming to keep power within Z2-3.
+
+Don&apos;t forget it&apos;s fine to miss a day if you have to. Just move onto the next planned session.
+
+</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <FreeRide Duration="3000" FlatRoad="0" />
+    </workout>
+</workout_file>

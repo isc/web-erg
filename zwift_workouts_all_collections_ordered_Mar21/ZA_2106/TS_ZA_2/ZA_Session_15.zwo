@@ -1,0 +1,27 @@
+<workout_file>
+    <uniqueId>e5201f35-25dd-40fd-a759-020bb08d7a8a</uniqueId>
+    <legacyIdHash>1876266254</legacyIdHash>
+    <author>Jon Sharples</author>
+    <name>Month 2.6 - 20/40 Hill Reps</name>
+    <category>Zwift Academy 2016</category>
+    <subcategory>Month 2</subcategory>
+    <WorkoutPlan>1</WorkoutPlan>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/trainSharp_Logo.tga</authorIcon>
+    <description>IMPORTANT: Start the first 20 seconds of each minute of every 5 minute interval out of the saddle maintaining the power and cadence targets to the best of your abilities.Try not to spike the power and keep your pedaling smooth.
+
+We want to see smooth power throughout each 5 minute effort despite being out of the saddle for the first 20 seconds of each and every minute of the interval. </description>
+    <tags>
+        <tag name="INTERVALS" />
+    </tags>
+    <workout>
+        <Warmup Duration="1200" PowerLow="0.3545" PowerHigh="0.82449996" />
+        <SteadyState Duration="300" Power="0.40450001" Cadence="85">
+            <textevent timeoffset="285" message="1st 20 sec of EACH min standing" locIndex="1" />
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="300" OffDuration="300" OnPower="1.0044999" OffPower="0.40450001" Cadence="90" CadenceResting="90">
+            <textevent timeoffset="585" message="1st 20sec of EACH min standing" locIndex="2" />
+            <textevent timeoffset="1185" message="1st 20sec of EACH min standing" locIndex="3" />
+            <textevent timeoffset="1785" message="1st 20sec of EACH min standing" locIndex="4" />
+        </IntervalsT>
+    </workout>
+</workout_file>

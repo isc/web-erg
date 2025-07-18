@@ -1,0 +1,65 @@
+<workout_file>
+    <uniqueId>81fc6a9e-3a5c-41e4-a247-d70753accf66</uniqueId>
+    <legacyIdHash>2174123358</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <categoryOverride>Sweet Spot</categoryOverride>
+    <name>Week 4.4 - Sub Threshold #4</name>
+    <category>2018 PRL100 Prep</category>
+    <subcategory>Week 4</subcategory>
+    <description>Time spent in the sub-threshold zone offers a big boost to fitness without being as taxing as dipping into the red zone. Spend long periods under your FTP to help push it up from underneath.</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow="0.50449997" PowerHigh="0.75449997" pace="0">
+            <textevent timeoffset="79" message="Complete 3x6sec high cadence surges in your warm up." locIndex="1" />
+            <textevent timeoffset="233" message="The goal of today&apos;s session is build some fatigue before completing the AC intervals." locIndex="2" />
+        </Warmup>
+        <SteadyState Duration="60" Power="0.83758539" pace="0" />
+        <SteadyState Duration="60" Power="0.55000001" pace="0" />
+        <SteadyState Duration="60" Power="0.8344152" pace="0" />
+        <SteadyState Duration="60" Power="0.55000001" pace="0" />
+        <SteadyState Duration="60" Power="0.83240002" pace="0" />
+        <SteadyState Duration="60" Power="0.55000001" pace="0" />
+        <SteadyState Duration="60" Power="0.83446074" pace="0" />
+        <SteadyState Duration="60" Power="0.55000001" pace="0" />
+        <SteadyState Duration="60" Power="0.83449996" pace="0" />
+        <SteadyState Duration="60" Power="0.55000001" pace="0" />
+        <SteadyState Duration="120" Power="0.55449998" pace="0" />
+        <SteadyState Duration="1200" Power="0.88449997" pace="0">
+            <textevent timeoffset="84" message="Before performing the AC intervals we build fatigue." locIndex="3" />
+            <textevent timeoffset="593" message="Observe you HR during the interval." locIndex="4" />
+            <textevent timeoffset="731" message="Is HR increasing?" locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.55000001" pace="0">
+            <textevent timeoffset="227" message="Now for the next interval." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="1200" Power="0.88" pace="0" />
+        <SteadyState Duration="180" Power="0.55449998" pace="0">
+            <textevent timeoffset="28" message="Feeling the fatigue?" locIndex="7" />
+            <textevent timeoffset="93" message="Now for the high power AC intervals!" locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.1" pace="0">
+            <textevent timeoffset="10" message="High cadence 110+rpm with high power." locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.55000001" pace="0" />
+        <SteadyState Duration="60" Power="1.1" pace="0">
+            <textevent timeoffset="10" message="High cadence 110+rpm with high power." locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.55000001" pace="0" />
+        <SteadyState Duration="60" Power="1.1" pace="0">
+            <textevent timeoffset="10" message="High cadence 110+rpm with high power." locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.55000001" pace="0">
+            <textevent timeoffset="15" message="2 to go!" locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.1" pace="0">
+            <textevent timeoffset="10" message="High cadence 110+rpm with high power." locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.55000001" pace="0" />
+        <SteadyState Duration="60" Power="1.1" pace="0">
+            <textevent timeoffset="10" message="High cadence 110+rpm with high power." locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.55000001" pace="0" />
+        <Cooldown Duration="300" PowerLow="0.75" PowerHigh="0.50151747" pace="0" />
+    </workout>
+</workout_file>

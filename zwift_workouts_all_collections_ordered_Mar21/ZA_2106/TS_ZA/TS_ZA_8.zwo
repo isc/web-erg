@@ -1,0 +1,21 @@
+<workout_file>
+    <uniqueId>47d1b38e-6baa-496e-8dd0-924d928b05a1</uniqueId>
+    <legacyIdHash>4037147261</legacyIdHash>
+    <name>Month 1.7 - Threshold Pushing</name>
+    <description>Start with a good warm up (10 minutes Zone 1, then 5 minutes Zone 2, 5 minutes Zone 3 followed by 5 minutes easy spinning). Then straight in at Threshold Pushing powers for 12 mins. Have 10 mins easy soft pedalling and repeat - warm down 15 minutes. This session is designed to increase your FTP from below. Working predominately aerobic metabolism. In time your body will become more comfortable at these powers and your FTP will increase.
+  </description>
+    <author>trainSharp</author>
+    <category>Zwift Academy 2016</category>
+    <subcategory>Month 1</subcategory>
+    <WorkoutPlan>1</WorkoutPlan>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/trainSharp_Logo.tga</authorIcon>
+    <workout>
+        <Warmup Duration="1200" PowerLow="0.45" PowerHigh="0.75" />
+        <SteadyState Duration="300" Zone="1" />
+        <SteadyState Duration="720" Power="1.0" />
+        <SteadyState Duration="600" Zone="1" />
+        <SteadyState Duration="720" Power="1.0" />
+        <SteadyState Duration="600" Zone="1" />
+        <Cooldown Duration="600" PowerLow="0.45" PowerHigh="0.65" />
+    </workout>
+</workout_file>

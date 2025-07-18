@@ -1,0 +1,27 @@
+<workout_file>
+    <uniqueId>626bbc50-c3cd-43db-9866-f3bdefd5cc67</uniqueId>
+    <legacyIdHash>2280755087</legacyIdHash>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <category>Your First Century</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 7</subcategory>
+    <name>Week 7.2 - Day 2</name>
+    <description>Hilly Endurance ride with VO2 Max Builders</description>
+    <tags />
+    <workout>
+        <Warmup Duration="900" PowerLow="0.2545" PowerHigh="0.75449997" />
+        <SteadyState Duration="660" PowerLow="0.73449999" PowerHigh="0.73449999" />
+        <SteadyState Duration="300" PowerLow="1.0944999" PowerHigh="1.0944999" />
+        <SteadyState Duration="300" PowerLow="0.62450004" PowerHigh="0.62450004" />
+        <SteadyState Duration="300" PowerLow="0.73116636" PowerHigh="0.73116636" />
+        <SteadyState Duration="240" PowerLow="1.0944999" PowerHigh="1.0944999" />
+        <SteadyState Duration="300" PowerLow="0.61283338" PowerHigh="0.61283338" />
+        <SteadyState Duration="300" PowerLow="0.73950005" PowerHigh="0.73950005" />
+        <SteadyState Duration="180" PowerLow="1.0944999" PowerHigh="1.0944999" />
+        <SteadyState Duration="300" PowerLow="0.61283356" PowerHigh="0.61283356" />
+        <SteadyState Duration="300" PowerLow="0.73449999" PowerHigh="0.73449999" />
+        <SteadyState Duration="120" PowerLow="1.0944999" PowerHigh="1.0944999" />
+        <SteadyState Duration="300" PowerLow="0.65000004" PowerHigh="0.65000004" />
+        <Cooldown Duration="900" PowerLow="0.65449995" PowerHigh="0.2545" />
+    </workout>
+</workout_file>

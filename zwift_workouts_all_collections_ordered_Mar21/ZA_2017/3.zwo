@@ -1,0 +1,37 @@
+<workout_file>
+    <uniqueId>94c0aa5a-f06c-41e5-afda-82fe090031ec</uniqueId>
+    <legacyIdHash>3945595961</legacyIdHash>
+    <author>TrainSharp Cycle Coaching</author>
+    <categoryOverride>Best of Zwift Academy</categoryOverride>
+    <subcategoryOverride>ZA 2017</subcategoryOverride>
+    <name>Month 1.3 - Threshold Pushing</name>
+    <WorkoutPlan>1</WorkoutPlan>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/trainSharp_Logo.tga</authorIcon>
+    <description>This session is designed to increase your FTP from below, working predominantly on your aerobic metabolism. In time, your body will become more comfortable at these powers and your FTP will increase. Don&apos;t be tempted to over do it on these efforts - this is not a test. By the end of the final interval you should be tired and struggling to hold the power.  As with the other sessions, you will need to be warmed up for this training session.  Be strict on the recovery time, each effort will test the legs. Ensure you have enough fluids for this session and even a bite to eat (gel/bar etc.) </description>
+    <sportType>bike</sportType>
+    <visibleAfterTime>1504222780</visibleAfterTime>
+    <category>Zwift Academy 2017</category>
+    <subcategory>Month 1</subcategory>
+    <tags> 
+    </tags>
+    <workout>
+        <Warmup Duration="900" PowerLow="0.49000001" PowerHigh="0.92000002" pace="0">
+            <textevent timeoffset="0" message="Warm Up - Progressive Warm up through the zones for the duration. Sip on your bottle and take a gel if you wish during the warm up." locIndex="1" />
+        </Warmup>
+        <SteadyState Duration="180" Power="0.51499999">
+            <textevent timeoffset="0" message="Easy - Recovery, very easy no load, like an easy walk on the bike" locIndex="2" />
+        </SteadyState>
+        <IntervalsT Repeat="2" OnDuration="30" OffDuration="150" OnPower="1.23" OffPower="0.49000001" pace="0" Cadence="105" CadenceResting="100">
+            <textevent timeoffset="0" message="Spin Ups - High cadence spin ups, otherwise known as &quot;acid-ups&quot;! Nice high cadence, seated efforts - not a full sprint." locIndex="3" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.52999997">
+            <textevent timeoffset="0" message="5 Minutes easy - 5 minutes nice and easy before the efforts start." locIndex="4" />
+        </SteadyState>
+        <IntervalsT Repeat="2" OnDuration="900" OffDuration="600" OnPower="0.95499998" OffPower="0.49000001" pace="0">
+            <textevent timeoffset="0" message="Threshold Pushing - Hold a power just below your FTP - you should feel comfortable for the first half of this effort and only start to suffer towards the end of the interval." locIndex="5" />
+        </IntervalsT>
+        <Cooldown Duration="390" PowerLow="0.49000001" PowerHigh="0.49000001" pace="0">
+            <textevent timeoffset="0" message="Warm Down - Finish with a good cool down." locIndex="6" />
+        </Cooldown>
+    </workout>
+</workout_file>

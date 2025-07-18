@@ -1,0 +1,46 @@
+<workout_file>
+    <uniqueId>9e41a7fa-f6b1-43e1-9910-f7bf235e0a4a</uniqueId>
+    <legacyIdHash>3432857591</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Week 15.2 - Anaerobic Intensive x 4 </name>
+    <category>2018 PRL100 Prep</category>
+    <subcategory>Week 15</subcategory>
+    <description>Warm up well, including 3 x 6 second accelerations during the 10 minute warm up. Followed by 2 sets of 4 x 30sec @ Z6 power with 2min recovery. Riding between sets is Free Ride. Cool down.</description>
+    <tags />
+    <workout>
+        <SteadyState Duration="300" Power="0.5" pace="0" />
+        <SteadyState Duration="60" Power="0.56999999" pace="0" />
+        <SteadyState Duration="60" Power="0.63" pace="0" />
+        <SteadyState Duration="60" Power="0.69999999" pace="0" />
+        <SteadyState Duration="60" Power="0.75999999" pace="0" />
+        <SteadyState Duration="180" Power="0.55000001" pace="0" />
+        <SteadyState Duration="30" Power="0.89999998" pace="0" />
+        <SteadyState Duration="120" Power="0.55000001" pace="0" />
+        <SteadyState Duration="30" Power="0.89999998" pace="0" />
+        <SteadyState Duration="120" Power="0.55000001" pace="0" />
+        <SteadyState Duration="30" Power="0.89999998" pace="0" />
+        <SteadyState Duration="120" Power="0.55000001" pace="0" />
+        <SteadyState Duration="30" Power="0.89999998" pace="0" />
+        <SteadyState Duration="120" Power="0.55000001" pace="0" />
+        <FreeRide Duration="1800" FlatRoad="0" />
+        <SteadyState Duration="30" Power="0.89999998" pace="0" />
+        <SteadyState Duration="120" Power="0.55000001" pace="0" />
+        <SteadyState Duration="30" Power="0.89999998" pace="0" />
+        <SteadyState Duration="120" Power="0.55000001" pace="0" />
+        <SteadyState Duration="30" Power="0.89999998" pace="0" />
+        <SteadyState Duration="120" Power="0.55000001" pace="0" />
+        <SteadyState Duration="30" Power="0.88449997" pace="0" />
+        <SteadyState Duration="120" Power="0.55000001" pace="0" />
+        <SteadyState Duration="60" Power="0.75999999" pace="0" />
+        <SteadyState Duration="120" Power="0.55000001" pace="0" />
+        <SteadyState Duration="60" Power="0.73000002" pace="0" />
+        <SteadyState Duration="60" Power="0.69999999" pace="0" />
+        <SteadyState Duration="60" Power="0.67000002" pace="0" />
+        <SteadyState Duration="60" Power="0.63999999" pace="0" />
+        <SteadyState Duration="60" Power="0.62" pace="0" />
+        <SteadyState Duration="60" Power="0.58999997" pace="0" />
+        <SteadyState Duration="60" Power="0.56" pace="0" />
+        <SteadyState Duration="60" Power="0.52999997" pace="0" />
+        <SteadyState Duration="60" Power="0.5" pace="0" />
+    </workout>
+</workout_file>

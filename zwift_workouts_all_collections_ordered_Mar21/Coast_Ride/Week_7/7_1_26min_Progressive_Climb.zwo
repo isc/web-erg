@@ -1,0 +1,123 @@
+<workout_file>
+    <uniqueId>f41df882-592f-4e84-8c81-6f7ed0dc7858</uniqueId>
+    <legacyIdHash>2364642955</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Week 7.1 - 26min Progressive Climb</name>
+    <description>2 climbs of 26 minutes in duration today, but each one is climbed using a different cadence. But as the power ramps up between steps, you self select your cadence before returning to the set cadence.
+
+Just like a climb outdoors, the required power will increase throughout the 26 minutes. Culminating with 1 min above threshold at the top of the climb.
+
+Position yourself on the bike as you would on a long climb.
+</description>
+    <sportType>bike</sportType>
+    <entid>491</entid>
+    <category>Zwift Coast Ride</category>
+    <subcategory>Week 7</subcategory>
+    <tags>
+    </tags>
+    <workout>
+        <Warmup Duration="120" PowerLow="0.45" PowerHigh="0.55">
+            <textevent timeoffset="30" message="Today we have 3 long climbs." locIndex="1" />
+            <textevent timeoffset="50" message="However, each climb has a different target cadence." locIndex="2" />
+            <textevent timeoffset="90" message="Part of your warm up involves completing 3 x 20sec high power surges. " locIndex="3" />
+            <textevent timeoffset="110" message="Ready for the first!" locIndex="4" />
+        </Warmup>
+        <SteadyState Duration="20" Power="1.25" />
+        <Ramp Duration="120" PowerLow="0.56" PowerHigh="0.65">
+            <textevent timeoffset="10" message="We keep ramping up the power during the warm up." locIndex="5" />
+            <textevent timeoffset="110" message="Now for another 20sec surge." locIndex="6" />
+        </Ramp>
+        <SteadyState Duration="20" Power="1.25" />
+        <Ramp Duration="120" PowerLow="0.66" PowerHigh="0.75">
+            <textevent timeoffset="10" message="The power keeps increasing until we reach the final 20sec surge." locIndex="7" />
+            <textevent timeoffset="110" message="Now for the last warm up surge." locIndex="8" />
+        </Ramp>
+        <SteadyState Duration="20" Power="1.25" />
+        <SteadyState Duration="60" Power="0.55">
+            <textevent timeoffset="30" message="Target cadence of 85rpm for the 1st part of the climb." locIndex="9" />
+            <textevent timeoffset="50" message="However, you self select your cadence as the power ramps up to the next level." locIndex="10" />
+        </SteadyState>
+        <Ramp Duration="60" PowerLow="0.61" PowerHigh="0.79">
+            <textevent timeoffset="10" message="Working our way up to the tempo effort now." locIndex="11" />
+        </Ramp>
+        <SteadyState Duration="300" Power="0.8" Cadence="85">
+            <textevent timeoffset="30" message="Position yourself as you would on a climb. Sit towards the back of the seat." locIndex="12" />
+            <textevent timeoffset="40" message="Hands on the top of the bars." locIndex="13" />
+            <textevent timeoffset="290" message="Now we ramp up to the threshold effort." locIndex="14" />
+        </SteadyState>
+        <Ramp Duration="60" PowerLow="0.81" PowerHigh="0.94" />
+        <SteadyState Duration="240" Power="0.95" Cadence="85">
+            <textevent timeoffset="30" message="This should feel comfortably hard!" locIndex="15" />
+            <textevent timeoffset="40" message="Sit on the backof the seat and drive the pedals." locIndex="16" />
+            <textevent timeoffset="230" message="The climb gets steeper now! Ready to ramp the power up." locIndex="17" />
+        </SteadyState>
+        <Ramp Duration="60" PowerLow="0.96" PowerHigh="1.04" />
+        <SteadyState Duration="60" Power="1.05" Cadence="85">
+            <textevent timeoffset="10" message="Power to the top of the climb. Hold good form on the bike." locIndex="18" />
+        </SteadyState>
+        <Ramp Duration="60" PowerLow="1" PowerHigh="0.79">
+            <textevent timeoffset="10" message="The climbs not finished yet!" locIndex="19" />
+            <textevent timeoffset="20" message="Just a short descent before it kicks up again!" locIndex="20" />
+            <textevent timeoffset="50" message="Target cadence drops to 80 for the next part of the climb." locIndex="21" />
+        </Ramp>
+        <SteadyState Duration="300" Power="0.8" Cadence="80">
+            <textevent timeoffset="30" message="Position yourself as you would on a climb. Sit towards the back of the seat." locIndex="22" />
+            <textevent timeoffset="40" message="Hands on the top of the bars." locIndex="23" />
+            <textevent timeoffset="290" message="Now we ramp up to the threshold effort." locIndex="24" />
+            <textevent timeoffset="60" message="Does 80rpm feel easier of harder?" locIndex="25" />
+        </SteadyState>
+        <Ramp Duration="60" PowerLow="0.81" PowerHigh="0.94" />
+        <SteadyState Duration="240" Power="0.95" Cadence="80">
+            <textevent timeoffset="30" message="This should feel comfortably hard!" locIndex="26" />
+            <textevent timeoffset="40" message="Sit on the back of the seat and drive the pedals." locIndex="27" />
+            <textevent timeoffset="230" message="The climb gets steeper now! Ready to ramp the power up." locIndex="28" />
+        </SteadyState>
+        <Ramp Duration="60" PowerLow="0.96" PowerHigh="1.04" />
+        <SteadyState Duration="60" Power="1.05" Cadence="80">
+            <textevent timeoffset="10" message="Power to the top of the climb. Hold good form on the bike." locIndex="29" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.55">
+            <textevent timeoffset="170" message="This time we are targeting 75rpm." locIndex="30" />
+            <textevent timeoffset="20" message="That was great. Well done!" locIndex="31" />
+        </SteadyState>
+        <Ramp Duration="60" PowerLow="0.61" PowerHigh="0.79">
+            <textevent timeoffset="10" message="Working our way up to the tempo effort now." locIndex="32" />
+        </Ramp>
+        <SteadyState Duration="300" Power="0.8" Cadence="85">
+            <textevent timeoffset="30" message="Position yourself as you would on a climb. Sit towards the back of the seat." locIndex="33" />
+            <textevent timeoffset="40" message="Hands on the top of the bars." locIndex="34" />
+            <textevent timeoffset="290" message="Now we ramp up to the threshold effort." locIndex="35" />
+        </SteadyState>
+        <Ramp Duration="60" PowerLow="0.81" PowerHigh="0.94" />
+        <SteadyState Duration="240" Power="0.95" Cadence="85">
+            <textevent timeoffset="30" message="This should feel comfortably hard!" locIndex="36" />
+            <textevent timeoffset="40" message="Sit on the back of the seat and drive the pedals." locIndex="37" />
+            <textevent timeoffset="230" message="The climb gets steeper now! Ready to ramp the power up." locIndex="38" />
+        </SteadyState>
+        <Ramp Duration="60" PowerLow="0.96" PowerHigh="1.04" />
+        <SteadyState Duration="60" Power="1.05" Cadence="85">
+            <textevent timeoffset="10" message="Power to the top of the climb. Hold good form on the bike." locIndex="39" />
+        </SteadyState>
+        <Ramp Duration="60" PowerLow="1" PowerHigh="0.79">
+            <textevent timeoffset="10" message="The climbs not finished yet!" locIndex="40" />
+            <textevent timeoffset="20" message="Just a short descent before it kicks up again!" locIndex="41" />
+            <textevent timeoffset="50" message="Target cadence drops to 80 for the next part of the climb." locIndex="42" />
+        </Ramp>
+        <SteadyState Duration="300" Power="0.8" Cadence="80">
+            <textevent timeoffset="30" message="Position yourself as you would on a climb. Sit towards the back of the seat." locIndex="43" />
+            <textevent timeoffset="40" message="Hands on the top of the bars." locIndex="44" />
+            <textevent timeoffset="290" message="Now we ramp up to the threshold effort." locIndex="45" />
+            <textevent timeoffset="60" message="Does 80rpm feel easier of harder?" locIndex="46" />
+        </SteadyState>
+        <Ramp Duration="60" PowerLow="0.81" PowerHigh="0.94" />
+        <SteadyState Duration="240" Power="0.95" Cadence="80">
+            <textevent timeoffset="30" message="This should feel comfortably hard!" locIndex="47" />
+            <textevent timeoffset="40" message="Sit on the back of the seat and drive the pedals." locIndex="48" />
+            <textevent timeoffset="230" message="The climb gets steeper now! Ready to ramp the power up." locIndex="49" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.05" Cadence="80">
+            <textevent timeoffset="10" message="Power to the top of the climb. Hold good form on the bike." locIndex="50" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow="0.65" PowerHigh="0.45" />
+    </workout>
+</workout_file>

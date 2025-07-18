@@ -1,0 +1,85 @@
+<workout_file>
+    <uniqueId>b0fab93c-584d-425f-84d6-c697eba2e073</uniqueId>
+    <legacyIdHash>3701359664</legacyIdHash>
+    <author>Zwift</author>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>Multi-Sport Threshold Booster</category>
+    <visibleOutsidePlan>0</visibleOutsidePlan>
+    <name>Progressive 11&apos;s #2</name>
+    <description>Building upon your earlier &apos;Progressive&apos; interval session, this time we are increasing the time spent at threshold during the progressive steps.
+
+Once again finishing with a steady 10min threshold effort.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="4weekftp" />
+    </tags>
+    <workout>
+        <SteadyState Duration="180" Power="0.50449997">
+            <textevent timeoffset="0" message="Hello again, easy few minutes to start today. Cadence at 85 to 95 RPM" locIndex="1" />
+            <textevent timeoffset="170" message="Next up we were going into a few 1 minute on, 1 minute efforts at zone 2 and then at zone 4." locIndex="2" />
+        </SteadyState>
+        <IntervalsT Repeat="2" OnDuration="60" OffDuration="60" OnPower="0.75449997" OffPower="0.50449997" Cadence="90" CadenceResting="80">
+            <textevent timeoffset="0" message="Cadence at 90 RPM - we are doing 2 effort at zone 2 to start." locIndex="3" />
+            <textevent timeoffset="60" message="Now take it easy at 80 RPM, 1 more of those to go." locIndex="4" />
+        </IntervalsT>
+        <IntervalsT Repeat="2" OnDuration="60" OffDuration="60" OnPower="0.90449995" OffPower="0.50449997" Cadence="95" CadenceResting="80">
+            <textevent timeoffset="0" message="Now lift the cadence to 95 RPM and up to zone 4. we are repeating the same 1 minute on 1 minute off, twice." locIndex="5" />
+            <textevent timeoffset="60" message="Cadence down to 80 RPM, nice and easy for 1 minute." locIndex="6" />
+        </IntervalsT>
+        <SteadyState Duration="180" Power="0.50449997">
+            <textevent timeoffset="0" message="Great, now take a few more minutes easy before we begin our main set today." locIndex="7" />
+            <textevent timeoffset="10" message="Today&apos;s main set is 2, 11 minute progressive intervals." locIndex="8" />
+            <textevent timeoffset="20" message="We are starting out with a comfortable sub-threshold effort, then finishing with a 1 minute above threshold effort." locIndex="9" />
+            <textevent timeoffset="30" message="The interval steps are 5 minutes at zone three, 5 minutes at zone 4, then a 1 minute finale at zone 5 all at 90 RPM." locIndex="10" />
+            <textevent timeoffset="0" message="We&apos;re upping the ante a bit from last week by including an extra minute at Zone 4, with a minute less at Zone 3 - aww yeah!" locIndex="11" />
+            <textevent timeoffset="170" message="All right, in 10 seconds get ready to lift the power to zone 3" locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.83449996" Cadence="95">
+            <textevent timeoffset="0" message="Here we go. Starting at a comfortable level and cadence." locIndex="13" />
+            <textevent timeoffset="60" message="1 minute into it, start to settle down and find that familiar rhythm." locIndex="14" />
+            <textevent timeoffset="180" message="Halfway through this first step, by now your heart rate should have leveled out and be settled with the effort." locIndex="15" />
+            <textevent timeoffset="240" message="In 1 minute, get ready to lift the power up to zone 4." locIndex="16" />
+            <textevent timeoffset="290" message="Start lifting that power up a bit." locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.98449993" Cadence="90">
+            <textevent timeoffset="0" message="Right below FTP now. We are here for 4 minutes at the same comfortable RPM." locIndex="18" />
+            <textevent timeoffset="60" message="Expect that heart rate to rise up a little bit again, but then it should level out." locIndex="19" />
+            <textevent timeoffset="120" message=" You should start to feel a little bit of fatigue by now, 3 more minutes before we do one last push!" locIndex="20" />
+            <textevent timeoffset="240" message="Final minute at this step, stick with it!" locIndex="21" />
+            <textevent timeoffset="290" message=" In 10 seconds to get ready to lift it one last time to zone 5!" locIndex="22" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.0944999" Cadence="90">
+            <textevent timeoffset="0" message="PUSH IT!" locIndex="23" />
+            <textevent timeoffset="30" message="30 more seconds to go, keep digging!" locIndex="24" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.50449997">
+            <textevent timeoffset="0" message="Great work! Now take a little bit to recover, and we repeat that same interval set again." locIndex="25" />
+            <textevent timeoffset="120" message="Take a few deep breaths, shake the legs out, and stretch if needed." locIndex="26" />
+            <textevent timeoffset="240" message="In 1 minute, we are back up and repeating the same progressive interval set again." locIndex="27" />
+            <textevent timeoffset="250" message="Expect to feel a bit more fatigue in the legs this time around, but I know you aren&apos;t afraid of the challenge!" locIndex="28" />
+            <textevent timeoffset="290" message="All right, start to lift the power up to zone 3, we&apos;re sticking with 90 RPM again for this interval set." locIndex="29" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.83449996" Cadence="95">
+            <textevent timeoffset="0" message="Here we go. Starting at a comfortable level and cadence." locIndex="30" />
+            <textevent timeoffset="60" message="1 minute into it, start to settle down and find that familiar rhythm." locIndex="31" />
+            <textevent timeoffset="180" message="Halfway through this first step, by now your heart rate should have leveled out and be settled with the effort." locIndex="32" />
+            <textevent timeoffset="240" message="In 1 minute, get ready to lift the power up to zone 4." locIndex="33" />
+            <textevent timeoffset="290" message="Start lifting that power up a bit." locIndex="34" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.98449993" Cadence="90">
+            <textevent timeoffset="0" message="Right below FTP now. We are here for 4 minutes at the same comfortable RPM." locIndex="35" />
+            <textevent timeoffset="60" message="Expect that heart rate to rise up a little bit again, but then it should level out." locIndex="36" />
+            <textevent timeoffset="120" message=" You should start to feel a little bit of fatigue by now, 3 more minutes before we do one last push!" locIndex="37" />
+            <textevent timeoffset="240" message="Final minute at this step, stick with it!" locIndex="38" />
+            <textevent timeoffset="290" message=" In 10 seconds to get ready to lift it one last time to zone 5!" locIndex="39" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.0944999" Cadence="90">
+            <textevent timeoffset="0" message="PUSH IT!" locIndex="40" />
+            <textevent timeoffset="30" message="30 more seconds to go, keep digging!" locIndex="41" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.50449997">
+            <textevent timeoffset="0" message="Awesome work, my friend! That was a solid aerobic workout today, and you nailed it." locIndex="42" />
+            <textevent timeoffset="10" message="Let&apos;s take a few minutes to cool down - see you next time!" locIndex="43" />
+        </SteadyState>
+    </workout>
+</workout_file>

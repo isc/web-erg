@@ -1,0 +1,42 @@
+<workout_file>
+    <uniqueId>a15df887-7c41-4340-bf8e-a9a8350adb0e</uniqueId>
+    <legacyIdHash>365294616</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>2018 PRL46 Prep</category>
+    <subcategory>Week 2</subcategory>
+    <name>Week 2.1 - Endurance + 30/30&apos;s #1</name>
+    <description>After warming up complete 15 minutes of &apos;free-ride&apos; to build a little fatigue in the legs. Aim to keep power within Zones 2 and 3 during this time.
+
+We then complete
+2 sets of (6 x 30sec efforts @ Z5 Power with 30sec recovery). With 10 minute recovery between the sets.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS" />
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.5" PowerHigh="0.75" pace="0">
+            <textevent timeoffset="10" message="Include 3 x 6sec high cadence surges during your warmup." locIndex="1" />
+            <textevent timeoffset="280" message="We vary the power in the next section to improve your warmup." locIndex="2" />
+        </Warmup>
+        <IntervalsT Repeat="5" OnDuration="30" OffDuration="30" OnPower="0.64999998" OffPower="0.80000001" pace="0" />
+        <FreeRide Duration="900" FlatRoad="0">
+            <textevent timeoffset="300" message="If short on time today. Cut the &apos;free-ride&apos; portion short." locIndex="3" />
+            <textevent timeoffset="880" message="Ready for your 30sec efforts!" locIndex="4" />
+        </FreeRide>
+        <IntervalsT Repeat="6" OnDuration="30" OffDuration="30" OnPower="1.13" OffPower="0.75999999" pace="0">
+            <textevent timeoffset="35" message="Observe your HR throughout the efforts." locIndex="5" />
+            <textevent timeoffset="340" message="What is your HR after the final effort?" locIndex="6" />
+        </IntervalsT>
+        <SteadyState Duration="600" Power="0.64999998" pace="0">
+            <textevent timeoffset="20" message="We keep the power up a little during the recovery section" locIndex="7" />
+        </SteadyState>
+        <IntervalsT Repeat="6" OnDuration="30" OffDuration="30" OnPower="1.13" OffPower="0.75999999" pace="0">
+            <textevent timeoffset="35" message="Observe your HR throughout the efforts." locIndex="8" />
+            <textevent timeoffset="340" message="What is your HR after the final effort?" locIndex="9" />
+        </IntervalsT>
+        <Cooldown Duration="300" PowerLow="0.75" PowerHigh="0.5" pace="0">
+            <textevent timeoffset="10" message="How did your HR compare between the 1st and 2nd set?" locIndex="10" />
+        </Cooldown>
+    </workout>
+</workout_file>

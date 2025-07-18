@@ -1,0 +1,19 @@
+<workout_file>
+    <uniqueId>684883a9-cdeb-4b16-a106-5fc414724a7b</uniqueId>
+    <legacyIdHash>3825177123</legacyIdHash>
+    <category>Active Offseason</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 5</subcategory>
+    <name>Week 5.6 - Endurance</name>
+    <description>After a 15 minute high cadence warmup effort, set a pace at Endurance and hold this pace for the prescribed workout time. Focus on riding smooth and staying relaxed. Vary your cadence.</description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <workout>
+        <Warmup Duration="900" Zone="2">
+            <TextEvent message="1 minute HIGH CADENCE!" locIndex="1" timeoffset="540" Duration="60" />
+            <TextEvent message="1 minute HIGH CADENCE!" locIndex="2" timeoffset="660" Duration="60" />
+            <TextEvent message="1 minute HIGH CADENCE!" locIndex="3" timeoffset="780" Duration="60" />
+        </Warmup>
+        <SteadyState Duration="5400" Zone="2" />
+        <Cooldown Duration="600" Zone="1" />
+    </workout>
+</workout_file>

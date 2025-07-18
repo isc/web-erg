@@ -1,0 +1,100 @@
+<workout_file>
+    <uniqueId>0d610d18-d6f2-436f-933b-71d3d75990dd</uniqueId>
+    <legacyIdHash>2573122068</legacyIdHash>
+    <author>Zwift Academy Coaches</author>
+    <categoryOverride>Best of Zwift Academy</categoryOverride>
+    <subcategoryOverride>ZA 2018</subcategoryOverride>
+    <name>Capacity Reloaded</name>
+    <activitySaveName>Zwift Academy 2018 Workout #10: Capacity Reloaded</activitySaveName>
+    <description>This final session for the 2018 Zwift Academy was another favorite from 2017! This time with a little extra...
+
+Last year we went up to the 4/1minute rep, this year we take it over the top and back down again! The main intervals are 7 x 5 minutes with 3 minutes easy spinning between efforts, starting just above threshold then settling into high Zone 3 (comfortably hard, but hardly comfortable).
+
+This is pushing your threshold up. Working up the pyramid isn&apos;t too difficult, it is the return-leg when it starts to bite! Hang in and try and keep the power where it needs to be.</description>
+    <sportType>bike</sportType>
+    <visibleAfterTime>1533538860</visibleAfterTime>
+    <overrideHash>2573122068</overrideHash>
+    <category>Zwift Academy 2018</category>
+    <categoryIndex>10</categoryIndex>
+    <tags>
+        <tag name="Zwift Academy" />
+    </tags>
+    <workout>
+        <SteadyState Duration="180" Power="0.55">
+            <textevent timeoffset="0" message="Welcome to the final workout of Zwift Academy 2018!" locIndex="1" />
+            <textevent timeoffset="30" message="We&apos;re starting with a gradual warm up, progressing through the zones." locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.7" Cadence="85">
+            <textevent timeoffset="0" message="We&apos;re upping the power a little here but it should still be comfortable." locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.85" Cadence="70">
+            <textevent timeoffset="0" message="Low Cadence for this block." locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.55">
+            <textevent timeoffset="0" message="Ok, good start, warm up done. " locIndex="5" />
+            <textevent timeoffset="120" message="Next we&apos;re going to start working our way up the pyramid of intervals." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.15">
+            <textevent timeoffset="0" message="Keep this first effort controlled, there are plenty more to come!" locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.87">
+            <textevent timeoffset="0" message="Drop the power but keep the pressure on the pedals." locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="0" message="Grab some good recovery here, you may find you need it later in the session." locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.15">
+            <textevent timeoffset="0" message="This should still feel comfortable, you should be getting a feel for the session by now... " locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.87">
+            <textevent timeoffset="0" message="Watch your heart rate drop here as you &apos;recover&apos;" locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="30" message="Keep drinking through this session." locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="1.15">
+            <textevent timeoffset="0" message="Hang in for the 3 minutes." locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.87">
+            <textevent timeoffset="0" message="Focus on keeping the power for the full 2 minutes" locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.5" />
+        <SteadyState Duration="240" Power="1.15">
+            <textevent timeoffset="0" message="Ok, longest block of the day, go get &apos;em! " locIndex="15" />
+            <textevent timeoffset="120" message="You&apos;re at the halfway mark. Keep your composure on the bike. You got this." locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.87">
+            <textevent timeoffset="0" message="Keep focused on your power for this final minute and then you&apos;re over the hardest part." locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="0" message="Good job, but it is not over yet..." locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="1.15">
+            <textevent timeoffset="0" message="...Back down the pyramid, 3 minutes hard." locIndex="19" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.87">
+            <textevent timeoffset="0" message="Keep the focus. " locIndex="20" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="0" message="Great work. Two blocks left and you&apos;ve ticked this workout off of the list." locIndex="21" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.15">
+            <textevent timeoffset="0" message="The end is in sight, only a few more minutes of hard work." locIndex="22" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.87">
+            <textevent timeoffset="0" message="Try to quickly get into a rhythm. Not long left now." locIndex="23" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="0" message="Catch your breath ahead of the last interval. " locIndex="24" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.15">
+            <textevent timeoffset="0" message="Go-Go-Go" locIndex="25" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.87">
+            <textevent timeoffset="0" message="This might feel like a long 4 minutes but after it you are all done!" locIndex="26" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.5">
+            <textevent timeoffset="0" message="Great job! Take it easy for the final few minutes. Don&apos;t forget to keep drinking to rehydrate." locIndex="27" />
+        </SteadyState>
+    </workout>
+</workout_file>

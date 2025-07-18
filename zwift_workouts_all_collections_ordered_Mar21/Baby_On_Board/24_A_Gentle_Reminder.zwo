@@ -1,0 +1,104 @@
+<workout_file>
+    <uniqueId>3bd4da20-00e7-4a81-aa39-ea9fb7152a0d</uniqueId>
+    <legacyIdHash>2003136881</legacyIdHash>
+    <author>Kristin Armstrong</author>
+    <name>A Gentle Reminder</name>
+    <description>This workout will ebb + flow from Endurance to Tempo 1-minute at a time working from 75-90% of your FTP. You will repeat this 6-minute set 4 times throughout the 40-minute ride. This is a great way to keep your aerobic system going while maintaining a moderate heart rate.</description>
+    <sportType>bike</sportType>
+    <tags />
+    <category>Baby On Board</category>
+    <categoryIndex>24</categoryIndex>
+    <workout>
+        <SteadyState Duration="30" Power="0.35" Cadence="85">
+            <textevent timeoffset="0" message="Welcome to A Gentle Reminder! Let&apos;s get started with a warm up. " locIndex="1" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.4" Cadence="85">
+            <textevent timeoffset="0" message="This workout is part of Baby on Board, designed by Dani Rowe and Kristin Armstrong." locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.45" Cadence="85">
+            <textevent timeoffset="0" message="This series is designed to keep you active throughout pregnancy by providing you 12 weeks of 30-40 minute structured workouts. " locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.5" Cadence="85">
+            <textevent timeoffset="0" message="The key to training during pregnancy is consistency." locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="45" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="As a guide - you should always be able to hold a conversation during these workouts. " locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="45" Power="0.6" Cadence="85">
+            <textevent timeoffset="0" message="Keep an eye on your heart rate - you should not be anywhere near your max." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="45" Power="0.65" Cadence="85">
+            <textevent timeoffset="0" message="It is vital that your core body temperature doesn&apos;t get too high. Make sure you have a fan blasting and keep hydrated." locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="45" Power="0.7" Cadence="85">
+            <textevent timeoffset="0" message="Listen to your body, and don&apos;t worry if you need to lower the bias during these workouts to complete." locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="The ride will ebb + flow from Endurance to Tempo 1 minute at a time. " locIndex="9" />
+        </SteadyState>
+        <IntervalsT Repeat="1" OnDuration="60" OnPower="0.75" OffDuration="60" OffPower="0.9" Cadence="85" CadenceResting="85">
+            <textevent timeoffset="0" message="Here we go, kicking off our first set of four, 6-minute flows. " locIndex="10" />
+            <textevent timeoffset="60" message="Bring your effort up a notch." locIndex="11" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="60" OnPower="0.75" OffDuration="60" OffPower="0.9" Cadence="85" CadenceResting="85">
+            <textevent timeoffset="0" message="Changing pace can be challenging. " locIndex="12" />
+            <textevent timeoffset="60" message="This is a great session to practice." locIndex="13" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="60" OnPower="0.75" OffDuration="60" OffPower="0.9" Cadence="85" CadenceResting="85">
+            <textevent timeoffset="60" message="Last minute in this first set!" locIndex="14" />
+        </IntervalsT>
+        <SteadyState Duration="90" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="It&apos;s time to hydrate and recovery.  Easy spinning and relax and reset. " locIndex="15" />
+        </SteadyState>
+        <IntervalsT Repeat="1" OnDuration="60" OnPower="0.75" OffDuration="60" OffPower="0.9" Cadence="85" CadenceResting="85">
+            <textevent timeoffset="0" message="Here we go, 2nd set same routine! " locIndex="16" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="60" OnPower="0.75" OffDuration="60" OffPower="0.9" Cadence="85" CadenceResting="85">
+            <textevent timeoffset="0" message="How comfortable are you with changing pace?  " locIndex="17" />
+            <textevent timeoffset="60" message="Do you find you are pedaling with the same cadence or does this change?" locIndex="18" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="60" OnPower="0.75" OffDuration="60" OffPower="0.9" Cadence="85" CadenceResting="85">
+		</IntervalsT>
+        <SteadyState Duration="90" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="We are at the half way point of today&apos;s session! " locIndex="19" />
+        </SteadyState>
+        <IntervalsT Repeat="1" OnDuration="60" OnPower="0.75" OffDuration="60" OffPower="0.9" Cadence="85" CadenceResting="85">
+            <textevent timeoffset="0" message="How are you feeling?  Remember, you can control your difficulty level." locIndex="20" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="60" OnPower="0.75" OffDuration="60" OffPower="0.9" Cadence="85" CadenceResting="85">
+            <textevent timeoffset="0" message="Stay strong!" locIndex="21" />
+            <textevent timeoffset="60" message="Focus on your breathing. " locIndex="22" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="60" OnPower="0.75" OffDuration="60" OffPower="0.9" Cadence="85" CadenceResting="85">
+            <textevent timeoffset="60" message="Let&apos;s stay relaxed throughout this last minute.  Nice and smooth!" locIndex="23" />
+        </IntervalsT>
+        <SteadyState Duration="90" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="How is the airflow in your room? Are you drinking enough fluids?" locIndex="24" />
+        </SteadyState>
+        <IntervalsT Repeat="1" OnDuration="60" OnPower="0.75" OffDuration="60" OffPower="0.9" Cadence="85" CadenceResting="85">
+            <textevent timeoffset="0" message="Last set, right here! Let&apos;s do it!" locIndex="25" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="60" OnPower="0.75" OffDuration="60" OffPower="0.9" Cadence="85" CadenceResting="85">
+            <textevent timeoffset="60" message="Nice work! " locIndex="26" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="60" OnPower="0.75" OffDuration="60" OffPower="0.9" Cadence="85" CadenceResting="85">
+            <textevent timeoffset="0" message="We are in to our last 2-minutes." locIndex="27" />
+            <textevent timeoffset="60" message="So many health benefits gained today! Let&apos;s finish strong." locIndex="28" />
+        </IntervalsT>
+        <SteadyState Duration="60" Power="0.6" Cadence="85">
+            <textevent timeoffset="0" message="Good work! That&apos;s A Gentle Reminder complete." locIndex="29" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.55">
+            <textevent timeoffset="0" message="Remember, the key to fitness is consistency - little and often." locIndex="30" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="0" message="You should not have felt excessively hot during today&apos;s workout. " locIndex="31" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.45">
+            <textevent timeoffset="0" message="It&apos;s vital that your core body temperature doesn&apos;t get too high during pregnancy. " locIndex="32" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.4">
+            <textevent timeoffset="0" message="See you on the next workout - Dani and Kristin " locIndex="33" />
+        </SteadyState>
+    </workout>
+</workout_file>

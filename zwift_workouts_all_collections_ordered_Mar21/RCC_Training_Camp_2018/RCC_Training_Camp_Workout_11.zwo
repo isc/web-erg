@@ -1,0 +1,54 @@
+<workout_file>
+    <uniqueId>d3e70b07-b7ce-4faa-8661-76ac0a37b590</uniqueId>
+    <legacyIdHash>1648132550</legacyIdHash>
+    <author>Matt Rowe (Rowe and King)</author>
+    <name>RCC Training Camp Workout #11</name>
+    <categoryIndex>11</categoryIndex>
+    <category>RCC Training Camp 2018</category>
+    <entid>150</entid>
+    <description>Welcome to the Rapha Cycling Club Training Camp Workout 11. This session is an endurance ride, for you to ride on feel for parts, with some structure thrown in there too. We will complete 5 short blocks of Threshold (Zone 4), do some free riding where you be in encouraged to make a few efforts, and also do a ramp, where we ramp up our effort from Zone 1 to Zone 6. Throughout this session, we will work all of our energy systems, while also getting a good endurance hit out too!
+
+Not an easy day on the bike - but a hugely beneficial one for you. Consider a rest day tomorrow!</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="Endurance" />
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.25449997" PowerHigh="0.75449997" pace="8268">
+            <textevent timeoffset="5" message="Welcome to the Rapha Cycling Club Training Camp Workout #11. ERG Mode is not recommended." locIndex="1" />
+            <textevent timeoffset="12" message="Today&apos;s session is 85 minutes long and includes some free riding, blocks of Zone 4 and a ramped effort! A real mix of a session." locIndex="2" />
+            <textevent timeoffset="20" message="Ease in to this session, as the hardest part is the second half." locIndex="3" />
+            <textevent timeoffset="40" message="To start, it&apos;s a standard 10 minute progressive warm up to get us in the zone, both physically and mentally." locIndex="4" />
+            <textevent timeoffset="400" message="Just a special welcome to todays session as an RCC Member - hope you have fun completing this RCC Individual workout, available only to RCC members. Let&apos;s have a go at Fartlek training guys!" locIndex="5" />
+            <textevent timeoffset="500" message="You should be starting to feel sweaty by now and like you are ready to train?" locIndex="6" />
+            <textevent timeoffset="570" message="Nearing the end of the warm up now - your blood will be nice and warm, ready to supply our muscles with oxygen. " locIndex="7" />
+        </Warmup>
+        <FreeRide Duration="1800" FlatRoad="1">
+            <textevent timeoffset="1303.0029" message="How about we hit Zone 3 for the next 6 Minutes?" locIndex="8" />
+            <textevent timeoffset="858.29218" message="How about we hit Zone 5 for the next 1 Minute?" locIndex="9" />
+            <textevent timeoffset="602.53052" message="How about you try not to let anyone overtake you for the next minute?" locIndex="10" />
+            <textevent timeoffset="200.00017" message="Fartlek provides us with &apos;unstructured structure&apos; - a great way to train hard, but keeping it mentally relaxing. Just going with the flow..." locIndex="11" />
+            <textevent timeoffset="351.79089" message="How about we do a 15 second sprint? Go!" locIndex="12" />
+            <textevent timeoffset="200" message="How about we do a 15 second sprint? Go!" locIndex="13" />
+            <textevent timeoffset="1021.3336" message="How about we do a 15 second sprint? Go!" locIndex="14" />
+            <textevent timeoffset="94.100815" message="How about we do a 15 second sprint? Go!" locIndex="15" />
+            <textevent timeoffset="443.95566" message="Good work team." locIndex="16" />
+            <textevent timeoffset="1748.8092" message="Now for a little structure..." locIndex="17" />
+        </FreeRide>
+        <IntervalsT Repeat="5" OnDuration="180" OffDuration="180" OnPower="1.0044999" OffPower="0.75449997" pace="8268">
+            <textevent timeoffset="73" message="Now for a little structure." locIndex="18" />
+            <textevent timeoffset="1102" message="Good work - settle in to these Zone 4 efforts - nice and controlled. Keep your body still - nice and relaxed." locIndex="19" />
+            <textevent timeoffset="402" message="Just pump those legs, like pistons in a well oiled macihine." locIndex="20" />
+        </IntervalsT>
+        <SteadyState Duration="240" Power="0.40450001" pace="8268">
+            <textevent timeoffset="24" message="Easy 4 Minutes Recovery" locIndex="21" />
+        </SteadyState>
+        <Ramp Duration="360" PowerLow="0.50449997" PowerHigh="1.3045" pace="8268" />
+        <Cooldown Duration="300" PowerLow="0.65449995" PowerHigh="0.2545" pace="8268">
+            <textevent timeoffset="15" message="Good work - 5 minutes cool down now." locIndex="22" />
+            <textevent timeoffset="100" message="That&apos;s RCC Training Camp Workout 11 complete - we are making gains!!" locIndex="23" />
+            <textevent timeoffset="250" message="Important to refuel after this session - carbs, protein and hydrate! That was a tough session today and would have depleted your glycogen stores so you must refuel." locIndex="24" />
+            <textevent timeoffset="280" message="Top session team - until next time... Ride On!" locIndex="25" />
+        </Cooldown>
+    </workout>
+</workout_file>

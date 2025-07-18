@@ -1,0 +1,149 @@
+<workout_file>
+    <uniqueId>4ed4fdf1-4753-47db-8046-740d1b2d7994</uniqueId>
+    <legacyIdHash>2292619120</legacyIdHash>
+    <author>Shayne Gaffney | GC Coaching</author>
+    <name>Uphill Battle</name>
+    <description>Another one of those workouts that gets harder as it goes on, making it feel like you are in an &quot;uphill battle.&quot;</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Build Me Up</category>
+    <subcategory>Week 6</subcategory>
+    <tags>
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.25" PowerHigh="0.75">
+            <textevent timeoffset="0" message="Welcome, friend!  I am glad you&apos;re here.  Let&apos;s start with a warm-up :-)" locIndex="1" />
+            <textevent timeoffset="15" message="Try to keep your cadence 85-95 RPM during the warm-up." locIndex="2" />
+            <textevent timeoffset="30" message="Be sure to keep your upper body relaxed, and take some nice deep breaths to warm-up the breathing muscles as well." locIndex="3" />
+            <textevent timeoffset="120" message="I like to do a quick check to see how my legs are feeling around now." locIndex="4" />
+            <textevent timeoffset="135" message="If you have a muscle that feels tighter than the others, try to mentally contract that one more during the pedal stroke." locIndex="5" />
+            <textevent timeoffset="150" message="Doing this should help the muscle to loosen and warm-up." locIndex="6" />
+            <textevent timeoffset="300" message="Halfway through!  Start bringing up that cadence if you&apos;re not ~95 RPM for these last 5 minutes." locIndex="7" />
+            <textevent timeoffset="360" message="Shoulders relaxed...Light grip on the handelbars...HUGE SMILE :-)" locIndex="8" />
+            <textevent timeoffset="480" message="All-right, 2 more minutes to go.  We are going to start off with 3 &quot;priming&quot; efforts." locIndex="9" />
+            <textevent timeoffset="495" message="These efforts help to further ready the muscles for work." locIndex="10" />
+            <textevent timeoffset="510" message="Ideal cadence for the first one is 95 RPM." locIndex="11" />
+            <textevent timeoffset="550" message="Ready?  Remember, first one at 95 RPM, please." locIndex="12" />
+        </Warmup>
+        <SteadyState Duration="30" Power="0.8" Cadence="95">
+            <textevent timeoffset="1" message="Bring it UP!" locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.65" Cadence="85">
+            <textevent timeoffset="1" message="Great work, bring that effort and cadence down for a minute." locIndex="14" />
+            <textevent timeoffset="50" message="Priming effort #2 coming up, 105 RPM now and a bit more mustard." locIndex="15" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.9" Cadence="105">
+            <textevent timeoffset="1" message="Bring it UP!" locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.65" Cadence="85">
+            <textevent timeoffset="1" message="Great work, bring that effort and cadence down for another minute." locIndex="17" />
+            <textevent timeoffset="50" message="Priming effort #3 coming up, 115 RPM, or as high as you can spin without your bum bouncing in the saddle." locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.05" Cadence="115">
+            <textevent timeoffset="1" message="Give me more mustard!" locIndex="19" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.5" Cadence="85">
+            <textevent timeoffset="0" message="Excellent!  Now we&apos;re ready to start working..." locIndex="20" />
+            <textevent timeoffset="10" message="Take it easy for these next 2 minutes though." locIndex="21" />
+            <textevent timeoffset="20" message="We are going to be doing 4 efforts right under FTP to start, with a ramp-up to end them :-)" locIndex="22" />
+            <textevent timeoffset="35" message="Then, of course, we will rest.  These will be short because I dislike rest! (kidding!)" locIndex="23" />
+            <textevent timeoffset="60" message="A few nice deep breaths now...Control your breathing...Lower your heart rate." locIndex="24" />
+            <textevent timeoffset="90" message="Ready yourself mentally...KNOW YOU CAN DO THIS!" locIndex="25" />
+            <textevent timeoffset="110" message="All right, goal cadence is 90-100 RPM for the Threshold portion." locIndex="26" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.95" Cadence="95">
+            <textevent timeoffset="0" message="All-right, bring up that cadence, and settle into this first effort. " locIndex="27" />
+            <textevent timeoffset="10" message="Working around your FTP has a myriad of fitness improvements." locIndex="28" />
+            <textevent timeoffset="20" message="Namely, increased muscle glycogen storage, lactate threshold, VO2 Max, and mitochondrial density." locIndex="29" />
+            <textevent timeoffset="35" message="Essentially, if you are looking to improve as an athlete, working at intensities around your FTP is critical." locIndex="30" />
+            <textevent timeoffset="60" message="1 minute in.  Keep it up!" locIndex="31" />
+            <textevent timeoffset="150" message="Halfway!" locIndex="32" />
+            <textevent timeoffset="180" message="BIKE FACT:" locIndex="33" />
+            <textevent timeoffset="195" message="M-185 on Mackinac Island, Michigan is the only state highway in US where no motorized vehicles are allowed. Travel is only by bicycles, horses or on foot." locIndex="34" />
+            <textevent timeoffset="240" message="Last minute, remember we are going to be ramping it up for the last 30 seconds!" locIndex="35" />
+            <textevent timeoffset="255" message="We are starting at 100% FTP and ending at 150% FTP for the ramp-up effort." locIndex="36" />
+            <textevent timeoffset="270" message="Goal cadence is 110+ RPM, WORKING!" locIndex="37" />
+            <textevent timeoffset="290" message="Start bringing that cadence up now!" locIndex="38" />
+        </SteadyState>
+        <Ramp Duration="30" PowerLow="1" PowerHigh="1.5">
+            <textevent timeoffset="0" message="UP UP UP!" locIndex="39" />
+        </Ramp>
+        <SteadyState Duration="150" Power="0.5" Cadence="85">
+            <textevent timeoffset="1" message="Nice!  1 down...Slow that cadence...Control your breathing." locIndex="40" />
+            <textevent timeoffset="60" message="Focus on expelling that used air out.  Your breathing rate increases because your body is trying to remove CO2, not increase oxygen saturation." locIndex="41" />
+            <textevent timeoffset="140" message="All right, interval number 2 coming up...Back up to 95 RPM." locIndex="42" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.95" Cadence="95">
+            <textevent timeoffset="0" message="Here we go again!  Settle into the effort quickly." locIndex="43" />
+            <textevent timeoffset="60" message="How are your shoulders?  Is your bum planted in the saddle?  No death grip on the bars?" locIndex="44" />
+            <textevent timeoffset="150" message="Halfway there!" locIndex="45" />
+            <textevent timeoffset="180" message="BIKE FACT!" locIndex="46" />
+            <textevent timeoffset="195" message="Despite the fact that speed limits do not apply to bicycles in UK, you can be prosecuted simply for cycling too fast, under the charge of ‘cycling furiously.’" locIndex="47" />
+            <textevent timeoffset="210" message="Are we all cycling furiously???  Thought so." locIndex="48" />
+            <textevent timeoffset="240" message="Last minute!  Get ready for the ramp-up to GLORY!" locIndex="49" />
+            <textevent timeoffset="290" message="Start bringing that cadence up to 110+" locIndex="50" />
+        </SteadyState>
+        <Ramp Duration="30" PowerLow="1" PowerHigh="1.5">
+            <textevent timeoffset="0" message="UP UP UP!" locIndex="51" />
+        </Ramp>
+        <SteadyState Duration="150" Power="0.5" Cadence="85">
+            <textevent timeoffset="1" message="Nice!  2 down...Slow that cadence...Control your breathing." locIndex="52" />
+            <textevent timeoffset="60" message="Remember, focus on expelling that used air out.  Your breathing rate increases because your body is trying to remove CO2, not increase oxygen saturation." locIndex="53" />
+            <textevent timeoffset="140" message="Interval number 3 coming up...Back up to 95 RPM." locIndex="54" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.95" Cadence="95">
+            <textevent timeoffset="0" message="Last Threshold interval, settle in again." locIndex="55" />
+            <textevent timeoffset="60" message="1 minute in already?  I should have made these intervals longer..." locIndex="56" />
+            <textevent timeoffset="120" message="3 more minutes to go!  You are looking great!" locIndex="57" />
+            <textevent timeoffset="180" message="BIKE FACT!" locIndex="58" />
+            <textevent timeoffset="195" message="A bicycle can stay upright without a rider as long as it’s moving at 8 mph or faster." locIndex="59" />
+            <textevent timeoffset="210" message="Don&apos;t get any ideas..." locIndex="60" />
+            <textevent timeoffset="240" message="Last minute!  Get ready for the last ramp!" locIndex="61" />
+            <textevent timeoffset="290" message="Cadence up!  110+" locIndex="62" />
+        </SteadyState>
+        <Ramp Duration="30" PowerLow="1" PowerHigh="1.5">
+            <textevent timeoffset="0" message="MUSTARD!  UP UP UP!" locIndex="63" />
+        </Ramp>
+        <SteadyState Duration="180" Power="0.5" Cadence="85">
+            <textevent timeoffset="0" message="Woot woot!  Main set number 1 done..." locIndex="64" />
+            <textevent timeoffset="10" message="Main set number 2 features 30/30s...So much fun!  You&apos;re gonna to love &apos;em." locIndex="65" />
+            <textevent timeoffset="25" message="Let&apos;s cool off a bit from those Threshold efforts first though, shall we?" locIndex="66" />
+            <textevent timeoffset="60" message="30/30s are all about being able to produce explosive accelerations multiple times. This is crucial for criteriums, cyclocross, and time trials that feature a lot of turns." locIndex="67" />
+            <textevent timeoffset="75" message="These also help to boost your anaerobic capacity and lactate clearance. Basically, these should NOT feel good if done properly :-)" locIndex="68" />
+            <textevent timeoffset="120" message="Goal cadence for the 30 second work interval is 100+ RPM" locIndex="69" />
+            <textevent timeoffset="130" message="And 90 RPM for the 30 second &quot;rest&quot; interval." locIndex="70" />
+            <textevent timeoffset="140" message="We are going to be doing 5 reps at 130% FTP and &quot;resting&quot; at 70% FTP. " locIndex="71" />
+            <textevent timeoffset="170" message="Ready?" locIndex="72" />
+        </SteadyState>
+        <IntervalsT Repeat="5" OnDuration="30" OffDuration="30" OnPower="1.3" OffPower="0.7" Cadence="100" CadenceResting="90">
+            <textevent timeoffset="0" message="100 RPM, UP UP UP!" locIndex="73" />
+            <textevent timeoffset="30" message="90 RPM, breathe!" locIndex="74" />
+            <textevent timeoffset="60" message="Back UP!" locIndex="75" />
+            <textevent timeoffset="120" message="Number 3 of 5, keep with me!" locIndex="76" />
+            <textevent timeoffset="180" message="Second to last one!" locIndex="77" />
+            <textevent timeoffset="240" message="LAST ONE, MORE MUSTARD!" locIndex="78" />
+        </IntervalsT>
+        <SteadyState Duration="180" Power="0.5" Cadence="85">
+            <textevent timeoffset="0" message="NICE!  Breathe, breathe, breathe...Expel that used air." locIndex="79" />
+            <textevent timeoffset="60" message="Big deep breaths...lower that heart rate." locIndex="80" />
+            <textevent timeoffset="120" message="Last interval set here, friends!  This time we are going up to 140% FTP for the work, but decreasing to 60% FTP for the &quot;rest&quot;." locIndex="81" />
+            <textevent timeoffset="135" message="I know, I know, I really am such a nice guy!" locIndex="82" />
+            <textevent timeoffset="170" message="Okay, empty the tanks here!  See you on the other end..." locIndex="83" />
+        </SteadyState>
+        <IntervalsT Repeat="5" OnDuration="30" OffDuration="30" OnPower="1.4" OffPower="0.6" Cadence="100" CadenceResting="90">
+            <textevent timeoffset="0" message="100 RPM, UP UP UP!" locIndex="84" />
+            <textevent timeoffset="30" message="90 RPM, breathe!" locIndex="85" />
+            <textevent timeoffset="60" message="Back UP!" locIndex="86" />
+            <textevent timeoffset="120" message="Number 3 of 5, keep with me!" locIndex="87" />
+            <textevent timeoffset="180" message="Second to last one!" locIndex="88" />
+            <textevent timeoffset="240" message="LAST ONE, MORE MUSTARD!" locIndex="89" />
+        </IntervalsT>
+        <Cooldown Duration="420" PowerLow="0.5" PowerHigh="0.25">
+            <textevent timeoffset="0" message="We did it!!!  You all should be proud of yourselves for that one :-)" locIndex="90" />
+            <textevent timeoffset="15" message="Now, time to cool it down and get ready for another day!" locIndex="91" />
+            <textevent timeoffset="60" message="Slow that cadence a bit more now, take a few deep breaths." locIndex="92" />
+            <textevent timeoffset="120" message="Even slower cadence now..." locIndex="93" />
+            <textevent timeoffset="130" message="...See you next time!" locIndex="94" />
+        </Cooldown>
+    </workout>
+</workout_file>

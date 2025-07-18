@@ -1,0 +1,48 @@
+<workout_file>
+    <uniqueId>5e4d96b5-c3d0-4183-80a5-26e22d7fa05d</uniqueId>
+    <legacyIdHash>1144079312</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Week 3.4 - Sub Threshold #3</name>
+    <category>2018 PRL100 Prep</category>
+    <subcategory>Week 3</subcategory>
+    <description>Time spent in the sub-threshold zone offers a big boost to fitness without being as taxing as dipping into the red zone. Spend long periods under your FTP to help push it up from underneath.</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow="0.50749534" PowerHigh="0.75" pace="0">
+            <textevent timeoffset="93" message="There&apos;s no getting away from the benefits of completing long tempo efforts." locIndex="1" />
+            <textevent timeoffset="218.1152" message="Today we complete 2 x 20min tempo intervals." locIndex="2" />
+            <textevent timeoffset="379" message="We are looking to compare your HR response from the 1st to the 2nd interval." locIndex="3" />
+        </Warmup>
+        <Ramp Duration="60" PowerLow="0.50449997" PowerHigh="0.50449997" pace="0">
+            <textevent timeoffset="26" message="Some 1min threshold efforts to complete your warm up." locIndex="4" />
+        </Ramp>
+        <SteadyState Duration="60" Power="0.91076738" pace="0" />
+        <SteadyState Duration="60" Power="0.55000001" pace="0" />
+        <SteadyState Duration="60" Power="0.91695595" pace="0" />
+        <SteadyState Duration="60" Power="0.55000001" pace="0" />
+        <SteadyState Duration="60" Power="0.91143095" pace="0" />
+        <SteadyState Duration="60" Power="0.55000001" pace="0" />
+        <SteadyState Duration="60" Power="0.91269916" pace="0" />
+        <SteadyState Duration="60" Power="0.55000001" pace="0" />
+        <SteadyState Duration="60" Power="0.91449994" pace="0" />
+        <SteadyState Duration="60" Power="0.55000001" pace="0" />
+        <SteadyState Duration="1200" Power="0.89449996" pace="0">
+            <textevent timeoffset="41" message="Focus on controlling your breathing." locIndex="5" />
+            <textevent timeoffset="527" message="Is your cadence changing during the interval?" locIndex="6" />
+            <textevent timeoffset="1100" message="What is your finishing HR for the interval?" locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.55449998" pace="0">
+            <textevent timeoffset="241" message="Now to do it again!" locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="1200" Power="0.89449996" pace="0">
+            <textevent timeoffset="95" message="Nice and relaxed breathing." locIndex="9" />
+            <textevent timeoffset="361" message="How are you feeling? Still comfortable?" locIndex="10" />
+            <textevent timeoffset="600" message="Just 10min to go! Is HR remaining steady? Or increasing?" locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.55000001" pace="0">
+            <textevent timeoffset="44" message="Great session today. Big gains in fitness today." locIndex="12" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow="0.75449997" PowerHigh="0.50449997" pace="0" />
+    </workout>
+</workout_file>

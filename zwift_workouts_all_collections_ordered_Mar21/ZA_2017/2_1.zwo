@@ -1,0 +1,38 @@
+<workout_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="">
+    <uniqueId>d60ec113-334f-40a6-8e65-fbc2459b51c0</uniqueId>
+    <legacyIdHash>2988056367</legacyIdHash>
+    <author>TrainSharp Cycle Coaching</author>
+    <name>2 x 12 minute test - Semi Finals</name>
+    <description>This test is designed to measure your aerobic threshold and is similar to the traditional 20 minute FTP test.  We use this variation of the test because the first 12 minute effort is often indicative of an what an individual can lift their 20 minute power up to. The purpose of the session is to treat each 12 minute interval as if it were the only effort to be completed. Ideally, you won&apos;t pace the effort with the second interval in-mind. We generally expect the first interval to be ~20 Watts higher than the second. As a tip, we recommend not looking at the power for the intervals and to just ride as hard as you can for the duration of the effort!
+    </description>
+    <WorkoutPlan>1</WorkoutPlan>
+    <sportType>bike</sportType>
+    <visibleAfterTime>1508716801</visibleAfterTime>
+    <category>Zwift Academy 2017</category>
+    <subcategory>Semi Finals</subcategory>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/trainSharp_Logo.tga</authorIcon>
+    <tags>
+        <tag name="Today&apos;s Plan" />
+        <tag name="Threshold Test" />
+    </tags>
+    <workout>
+        <Warmup Duration="900" PowerLow="0.3" PowerHigh="0.9">
+            <textevent timeoffset="0" message="Warm Up - Progressive ramped warm up, starting off easy and building throughout. By the end of the 15 minutes you should be below your FTP. Breathing harder, warming up and starting to sweat." locIndex="1" />
+        </Warmup>
+        <SteadyState Duration="180" Power="0.35">
+            <textevent timeoffset="0" message="Easy - Nice and easy for a few minutes." locIndex="2" />
+        </SteadyState>
+        <IntervalsT Repeat="3" OnDuration="30" OffDuration="30" OnPower="1.405" OffPower="0.3" Cadence="107" CadenceResting="100">
+            <textevent timeoffset="0" message="Activation - The spin-ups should be seated and high power efforts. Designed to increase muscle blood flow, muscle fibre recruitment and increased oxygen uptake. All to prime you for the test ahead." locIndex="3" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.3">
+            <textevent timeoffset="0" message="Easy - 5 minutes easy before the main test." locIndex="4" />
+            <textevent timeoffset="240" duration="60" message="Get ready, on the next interval go as hard as you can for 12 minutes, recover then try and go for another 12 minutes!" locIndex="5" />
+        </SteadyState>
+        <IntervalsT Repeat="2" OnDuration="720" OffDuration="900" OnPower="1.02" OffPower="0.3" FlatRoad="1">
+        </IntervalsT>
+        <Cooldown Duration="900" PowerLow="0.4" PowerHigh="0.3">
+            <textevent timeoffset="0" message="Warm Down - Ensure a good cool down, Refuel and rehydrate after getting off the trainer." locIndex="6" />
+        </Cooldown>
+    </workout>
+</workout_file>

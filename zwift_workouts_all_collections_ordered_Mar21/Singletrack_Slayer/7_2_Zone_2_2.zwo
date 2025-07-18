@@ -1,0 +1,95 @@
+<workout_file>
+    <uniqueId>49276656-c454-4313-a78e-7eff72fc3107</uniqueId>
+    <legacyIdHash>3289010329</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Zone 2 #2</name>
+    <description>An endurance focused session featuring intermittent 15sec surges. These surges are low intensity, where high cadence is the key.
+
+The majority of the workout is low intensity, with no residual fatigue expected from such a workout.</description>
+    <sportType>bike</sportType>
+    <category>Singletrack Slayer</category>
+    <subcategory>Week 7</subcategory>
+    <WorkoutPlan>1</WorkoutPlan>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <tags>
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.42" PowerHigh="0.7">
+            <textevent timeoffset="20" message="Today is all about low intensity endurance with short intermittent surges." locIndex="1" />
+            <textevent timeoffset="40" message="To begin with, our warmup ramps up in power to lower zone 2." locIndex="2" />
+            <textevent timeoffset="150" message="During today&apos;s session I want you to focus on leg speed during the surges." locIndex="3" />
+            <textevent timeoffset="170" message="We don&apos;t want high crank torque sprints that engage a higher amount of fast twitch fibres." locIndex="4" />
+            <textevent timeoffset="190" message="We want nice high leg speed for the surges." locIndex="5" />
+        </Warmup>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="20" message="Today is also about increasing your weekly volume." locIndex="6" />
+            <textevent timeoffset="40" message="Not every workout has to be leg screaming high intensity to provide gains in fitness." locIndex="7" />
+            <textevent timeoffset="80" message="Next up we have a steady state low intensity effort." locIndex="8" />
+            <textevent timeoffset="100" message="But this effort leads into a few short, sprints." locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.7">
+            <textevent timeoffset="20" message="This will be a very comfortable effort you." locIndex="10" />
+            <textevent timeoffset="40" message="Just relax and enjoy the scenery!" locIndex="11" />
+            <textevent timeoffset="80" message="Aim to pedal with a cadence a little higher than what is comfortable for you." locIndex="12" />
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="10" OffDuration="50" OnPower="1.35" OffPower="0.5">
+            <textevent timeoffset="20" message="Really spin the legs out for these efforts." locIndex="13" />
+            <textevent timeoffset="50" message="Recovery is short so get ready for the next one!" locIndex="14" />
+            <textevent timeoffset="100" message="Just 2 more to go in these warmup efforts." locIndex="15" />
+            <textevent timeoffset="170" message="Hit the same high cadence again for this last effort." locIndex="16" />
+        </IntervalsT>
+        <SteadyState Duration="120" Power="0.6">
+            <textevent timeoffset="50" message="To complete the warmup, we have an extended zone 3 effort." locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.85">
+            <textevent timeoffset="30" message="We are well under threshold power here, so it should be a comfortable effort for you." locIndex="18" />
+            <textevent timeoffset="60" message="Focus on steady breathing and relaxed hands on the bars." locIndex="19" />
+            <textevent timeoffset="150" message="How are the legs feeling? Today is endurance day!" locIndex="20" />
+            <textevent timeoffset="180" message="This is the hardest part of today&apos;s workout." locIndex="21" />
+            <textevent timeoffset="200" message="After this, we relax and just spin the legs every now and then." locIndex="22" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.6">
+            <textevent timeoffset="20" message="From here on in, the session is very low key." locIndex="23" />
+            <textevent timeoffset="40" message="But, there are a few things to take note of during the workout." locIndex="24" />
+            <textevent timeoffset="120" message="Let&apos;s get ready for the 1st surge." locIndex="25" />
+            <textevent timeoffset="140" message="Remember, the target power isn&apos;t overly high for the surges." locIndex="26" />
+            <textevent timeoffset="160" message="We want you to hit a nice high cadence in the surges." locIndex="27" />
+        </SteadyState>
+        <IntervalsT Repeat="8" OnDuration="15" OffDuration="225" OnPower="1.06" OffPower="0.65">
+            <textevent timeoffset="20" message="How was your cadence in that 1st surge?" locIndex="28" />
+            <textevent timeoffset="100" message="In between surges, we are just cruising along in zone 2" locIndex="29" />
+            <textevent timeoffset="160" message="Mix up your sprints with some performed seated and some standing." locIndex="30" />
+            <textevent timeoffset="220" message="Ready for the next surge." locIndex="31" />
+            <textevent timeoffset="260" message="Did you hit a higher cadence than the 1st effort?" locIndex="32" />
+            <textevent timeoffset="300" message="You will find that as you warm up, your cadence in the sprints increases." locIndex="33" />
+            <textevent timeoffset="460" message="Here we go with another surge." locIndex="34" />
+            <textevent timeoffset="520" message="Here&apos;s the science lesson for today." locIndex="35" />
+            <textevent timeoffset="540" message="When we perform short surges above threshold, we push fats aside as the preferred fuel source." locIndex="36" />
+            <textevent timeoffset="560" message="This means our low intensity endurance session doesn&apos;t become a fat burning session." locIndex="37" />
+            <textevent timeoffset="580" message="This is fine in some cases, as the focus today is on changing leg speed at low intensity." locIndex="38" />
+            <textevent timeoffset="600" message="When we surge above threshold for even a short period, the lactate produced become the fuel source for a period after the effort." locIndex="39" />
+            <textevent timeoffset="620" message="So, when performing your long low intensity fat burning rides outdoors, be sure to avoid any spikes in power." locIndex="40" />
+            <textevent timeoffset="700" message="Ready for another surge." locIndex="41" />
+            <textevent timeoffset="800" message="What&apos;s your preference for performing the surges? Standing or seated?" locIndex="42" />
+            <textevent timeoffset="820" message="Challenge yourself by performing some in you least preferred position." locIndex="43" />
+            <textevent timeoffset="940" message="Next surge coming up." locIndex="44" />
+            <textevent timeoffset="1100" message="In between surges, we are just cruising along in zone 2." locIndex="45" />
+            <textevent timeoffset="1120" message="During this time, relax your hands on the bars and keep your upper body still." locIndex="46" />
+            <textevent timeoffset="1180" message="Let&apos;s go with another surge." locIndex="47" />
+            <textevent timeoffset="1240" message="Great work. Just 2 more surges to go." locIndex="48" />
+            <textevent timeoffset="1300" message="Be sure to keep hydrating during the session." locIndex="49" />
+            <textevent timeoffset="1320" message="It&apos;s amazing how much fluid you can lose in a 1 hour indoor workout." locIndex="50" />
+            <textevent timeoffset="1420" message="2nd last surge. Let&apos;s stand for this one." locIndex="51" />
+            <textevent timeoffset="1500" message="This has been a great low intensity workout." locIndex="52" />
+            <textevent timeoffset="1520" message="Indoor training doesn&apos;t have to be top end intensity to provide gains in fitness." locIndex="53" />
+            <textevent timeoffset="1540" message="Getting quality endurance in will provide good gains in fitness." locIndex="54" />
+            <textevent timeoffset="1660" message="Ok, last effort. Let&apos;s finish this off!" locIndex="55" />
+            <textevent timeoffset="1800" message="Well done on a great session." locIndex="56" />
+            <textevent timeoffset="1820" message="Recovery is quick from a session like today. You will be firing tomorrow!" locIndex="57" />
+        </IntervalsT>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="40" message="We only need a short cool down from a session like today." locIndex="58" />
+            <textevent timeoffset="80" message="Just spin the legs out and be sure to hydrate." locIndex="59" />
+        </SteadyState>
+    </workout>
+</workout_file>

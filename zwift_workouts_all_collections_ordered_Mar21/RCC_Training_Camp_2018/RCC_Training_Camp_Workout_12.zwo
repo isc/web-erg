@@ -1,0 +1,77 @@
+<workout_file>
+    <uniqueId>253adc09-31d8-4c01-ae48-95c48ec8995f</uniqueId>
+    <legacyIdHash>631044886</legacyIdHash>
+    <author>Matt Rowe (Rowe and King)</author>
+    <name>RCC Training Camp Workout #12</name>
+    <categoryIndex>12</categoryIndex>
+    <category>RCC Training Camp 2018</category>
+    <entid>150</entid>
+    <description>This session aims to develop your explosive power and general conditioning, by completing 3 blocks of 12 minute Explosive Power Development Efforts (EPD). Each block of EPD is made up of a 15 second sprint, before settling straight in to 11 minutes 30 seconds of Zone 3, before a final 15 second sprint to finish the block off. 
+
+The sprints develop your explosive power, while the settling in to Zone 3 forces you to become more efficient at recycling lactic acid. Your body is forced to work hard to recycle the lactic without resting - similar to riding hard up a short climb while in a group and not stopping at the top. Or in a race - making a big effort up a climb, and then having to maintain pace with a fast moving peloton. 
+
+ERG mode is recommended. </description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="Strength" />
+        <tag name="Endurance" />
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.25449997" PowerHigh="0.75449997" pace="0">
+            <textevent timeoffset="10" message="Welcome to the Rapha Cycling Club Training Camp Workout #12." locIndex="1" />
+            <textevent timeoffset="20" message="Today&apos;s session is 75 minutes long and is focused on developing your Explosive Power." locIndex="2" />
+            <textevent timeoffset="30" message="You will complete 3 x 12 minute blocks of EPD&apos;s (Explosive Power Development efforts)." locIndex="3" />
+            <textevent timeoffset="40" message="Each EPD requires a sprint to start, riding at Zone 3 and then a final sprint on tired legs to finish." locIndex="4" />
+            <textevent timeoffset="50" message="To start, it&apos;s a standard 10 minute progressive warm up to get us in the zone, both physically and mentally." locIndex="5" />
+            <textevent timeoffset="400" message="A special welcome to todays session to RCC Members." locIndex="6" />
+            <textevent timeoffset="500" message="You should be starting to feel sweaty by now and like you are ready to train?" locIndex="7" />
+            <textevent timeoffset="570" message="Nearing the end of the warm up now - your blood will be nice and warm, ready to supply our muscles with oxygen. " locIndex="8" />
+        </Warmup>
+        <SteadyState Duration="180" Power="0.50449997" pace="0">
+            <textevent timeoffset="11" message="3 minutes to relax &amp; have a drink!" locIndex="9" />
+            <textevent timeoffset="175" message="Max effort sprint for 15 Seconds coming up - FLAT OUT!" locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="2.5044999" pace="0">
+            <textevent timeoffset="0" message="UP UP UP - GO GO GO!" locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="720.00006" Power="0.94449997" pace="0">
+            <textevent timeoffset="96" message="Settle in to the effort - find your rhythm and zone out of the pain. " locIndex="12" />
+            <textevent timeoffset="206" message="Good work - keep your body nice and still, ensuring all the power comes from the waist down. Relaxed grip on the handlebars. " locIndex="13" />
+            <textevent timeoffset="500" message="Good effort - it will feel like a grind, but stick with it!" locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="2.5044999" pace="0" />
+        <textevent timeoffset="5" message="UP UP UP - GO GO GO!" locIndex="15" />
+        <SteadyState Duration="600" Power="0.50449997" pace="0">
+            <textevent timeoffset="20" message="Recovery time - take a drink." locIndex="16" />
+            <textevent timeoffset="100" message="If you don&apos;t rest properly, you won&apos;t be able to do the efforts properly. Rest is key." locIndex="17" />
+            <textevent timeoffset="555" message="Max effort sprint for 15 Seconds coming up - FLAT OUT!" locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="2.5044999" pace="0" />
+        <textevent timeoffset="0" message="UP UP UP - GO GO GO!" locIndex="19" />
+        <SteadyState Duration="720.00006" Power="0.94449997" pace="0">
+            <textevent timeoffset="360" message="Half way" locIndex="20" />
+            <textevent timeoffset="600" message="Zone out of the pain - keep focused on the effort. Body still - smooth pedaling stroke." locIndex="21" />
+        </SteadyState>
+        <SteadyState Duration="600" Power="0.50449997" pace="0">
+            <textevent timeoffset="12" message="5 Minutes recovery - make the most of it before the final block starts." locIndex="22" />
+            <textevent timeoffset="80" message="Keep drinking." locIndex="23" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="2.5044999" pace="0">
+            <textevent timeoffset="0" message="UP UP UP - GO GO GO!" locIndex="24" />
+        </SteadyState>
+        <SteadyState Duration="720" Power="0.94449997" pace="0">
+            <textevent timeoffset="15" message="Final block - let&apos;s do it." locIndex="25" />
+            <textevent timeoffset="150" message="Keep pressing, hold that form and keep up the good work!" locIndex="26" />
+            <textevent timeoffset="570" message="Great work, keep it going." locIndex="27" />
+            <textevent timeoffset="710" message="Final sprint, make it count!" locIndex="28" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="2.5044999" pace="0" />
+        <textevent timeoffset="0" message="UP UP UP - GO GO GO!" locIndex="29" />
+        <Cooldown Duration="300" PowerLow="0.65449995" PowerHigh="0.2545" pace="0">
+            <textevent timeoffset="15" message="Good work - 5 minutes cool down now." locIndex="30" />
+            <textevent timeoffset="100" message="That&apos;s RCC Training Camp Workout 12 Complete!" locIndex="31" />
+            <textevent timeoffset="250" message="Remember to refuel after this session - carbs, protein and hydrate!" locIndex="32" />
+            <textevent timeoffset="280" message="See you on the next RCC Training Camp Workout" locIndex="33" />
+        </Cooldown>
+    </workout>
+</workout_file>

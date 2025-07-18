@@ -1,0 +1,34 @@
+<workout_file>
+    <uniqueId>e223e8ea-5070-4c72-89f9-90df71c03235</uniqueId>
+    <legacyIdHash>2150606617</legacyIdHash>
+    <category>Active Offseason</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 3</subcategory>
+    <name>Week 3.6 - Endurance With Max Sprints</name>
+    <description>Endurance ride. Ride at an endruance pace for 2.5 hours. Throughout the ride, do 10 8-second max power bursts. Be sure your cadence remains high.</description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <workout>
+        <Warmup Duration="900" Zone="2" />
+        <SteadyState Duration="900" Zone="2" />
+        <MaxEffort Duration="8" />
+        <SteadyState Duration="900" Zone="2" />
+        <MaxEffort Duration="8" />
+        <SteadyState Duration="900" Zone="2" />
+        <MaxEffort Duration="8" />
+        <SteadyState Duration="900" Zone="2" />
+        <MaxEffort Duration="8" />
+        <SteadyState Duration="900" Zone="2" />
+        <MaxEffort Duration="8" />
+        <SteadyState Duration="900" Zone="2" />
+        <MaxEffort Duration="8" />
+        <SteadyState Duration="900" Zone="2" />
+        <MaxEffort Duration="8" />
+        <SteadyState Duration="900" Zone="2" />
+        <MaxEffort Duration="8" />
+        <SteadyState Duration="900" Zone="2" />
+        <MaxEffort Duration="8" />
+        <SteadyState Duration="900" Zone="2" />
+        <MaxEffort Duration="8" />
+        <Cooldown Duration="900" Zone="1" />
+    </workout>
+</workout_file>

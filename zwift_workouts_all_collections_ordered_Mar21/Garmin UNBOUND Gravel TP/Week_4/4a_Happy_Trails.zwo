@@ -1,0 +1,86 @@
+<workout_file>
+    <uniqueId>efc2db3c-bcb0-4d9d-a8e5-9a8ac88abae1</uniqueId>
+    <legacyIdHash>1369397694</legacyIdHash>
+    <author>Shayne Gaffney</author>
+    <name>Week 4 - Recovery.1 - Happy Trails</name>
+    <activitySaveName>Garmin UNBOUND Gravel Training Plan | Happy Trails</activitySaveName>
+    <description>Welcome to the recovery week! You made it through the first 3 weeks, and we have nothing but happy trails ahead. Today, we have a low-key zone 2 workout with alternating intervals of comfortable and fast cadence. UNBOUND Gravel is a grassroots event, organized and managed by folks who are passionate about cycling, and have done so for the primary purpose of providing life-enriching cycling experiences for event participants.</description>
+    <sportType>bike</sportType>
+    <category>Garmin UNBOUND Gravel Training Plan</category>
+    <subcategory>Week 4 - Recovery</subcategory>
+    <visibleAfterTime>1651449660</visibleAfterTime>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/UnboundGravel_Logo.tga</authorIcon>
+    <tags>
+        <tag name="InGravelWeRoam" />
+    </tags>
+    <workout>
+        <Warmup Duration="480" PowerHigh="0.65" PowerLow="0.5">
+            <textevent timeoffset="0" message="Welcome to the recovery week! You made it through the first 3 weeks and we have nothing but happy trails ahead!" />
+            <textevent timeoffset="10" message="Garmin UNBOUND is a gravel race covering various distances held annually in the Flint Hills region around Emporia, Kansas, United States." />
+            <textevent timeoffset="20" message="There are 5 distances to choose, ranging from 25 to 350 miles!" />
+            <textevent timeoffset="30" message="This training plan will prepare you to tackle the shorter distances with 2 shorter structured workouts and 1 longer unstructured workout each week." />
+            <textevent timeoffset="40" message="Each workout starts off with a progressive warm up - like what you&apos;re doing right now :-)" />
+            <textevent timeoffset="50" message="And the workouts are specific to preparing for a long endurance event, as well as progressive from start to finish." />
+            <textevent timeoffset="60" message="Let&apos;s carry on with the warm up and start to mentally prepare for the day." />
+            <textevent timeoffset="120" message="Make sure you have your fluids, fan, and towel handy." />
+            <textevent timeoffset="240" message="That&apos;s halfway through today&apos;s warmup. Let&apos;s chat about what&apos;s in store today." />
+            <textevent timeoffset="250" message="Today will be a low key day consisting of zone 2 work." />
+            <textevent timeoffset="260" message="We&apos;ll alternate 5min intervals of comfortable cadence and fast cadence during the main set." />
+            <textevent timeoffset="270" message="Fast cadence training improves your ability to, you guessed it, spin the gear faster." />
+            <textevent timeoffset="280" message="This may not sound like much, but remember Power = Force x Velocity." />
+            <textevent timeoffset="290" message="So, by increasing your cadence, AKA velocity, you also increase your power." />
+            <textevent timeoffset="300" message="Which is why we all train of course :-)" />
+            <textevent timeoffset="310" message="This is an especially useful session for those who naturally &apos;grind&apos; the gear." />
+            <textevent timeoffset="320" message="Just a few minutes left for the warmup, let&apos;s carry on here." />
+            <textevent timeoffset="450" message="We&apos;re going to start off at a comfortable cadence of 85 RPM for our 1st interval." />
+        </Warmup>
+        <IntervalsT Repeat="4" OnDuration="300" OnPower="0.65" OffDuration="300" OffPower="0.65" Cadence="85" CadenceResting="95">
+            <textevent timeoffset="0" message="All right, bring your cadence to ~85 RPM now, and let&apos;s settle into the day." />
+            <textevent timeoffset="60" message="You may stand up at any time today if you need to stretch the legs a bit." />
+            <textevent timeoffset="180" message="You should be able to maintain this cadence and intensity for hours." />
+            <textevent timeoffset="190" message="But, don&apos;t worry today is less than 1 hour :-)" />
+            <textevent timeoffset="240" message="1min to go here, then we&apos;re going to 95 RPM." />
+            <textevent timeoffset="290" message="Start bringing your cadence up." />
+            <textevent timeoffset="300" message="All right, ~95 RPM now. This should feel slightly challenging to spin at." />
+            <textevent timeoffset="310" message="But, I want you to be in control the entire time." />
+            <textevent timeoffset="360" message="Pay attention to your form here." />
+            <textevent timeoffset="370" message="You shouldn&apos;t be bouncing up and down, or lurching front to back in the saddle." />
+            <textevent timeoffset="380" message="Your shoulders should be relaxed, elbows bent slightly, with a light grip on your bars." />
+            <textevent timeoffset="480" message="Is your form still looking rock solid here? Good!" />
+            <textevent timeoffset="540" message="1min left, then we&apos;ll slow the cadence back to a more comfortable RPM." />
+            <textevent timeoffset="600" message="Okay, back to 85 RPM now. We&apos;ll repeat that process 3 more times :-)" />
+            <textevent timeoffset="660" message="Even though today is easy, make sure you&apos;re taking frequent sips of fluid." />
+            <textevent timeoffset="670" message="Training indoors can cause you to overheat and sweat a lot more compared to outside." />
+            <textevent timeoffset="680" message="So, be sure to replace the fluids you&apos;re losing through sweat, and use a powerful fan." />
+            <textevent timeoffset="690" message="Circulating air is key to keeping cool since your body dissipates heat through evaporative cooling." />
+            <textevent timeoffset="840" message="1min left then we&apos;re back up to 95 RPM." />
+            <textevent timeoffset="900" message="Bring the cadence up again now and settle into the rhythm once again." />
+            <textevent timeoffset="1020" message="Remember, focus on keeping your form at the higher RPM range." />
+            <textevent timeoffset="1030" message="Relax your shoulders, bend the elbows slightly, light grip on the bars." />
+            <textevent timeoffset="1140" message="Final minute here, keep that cadence up!" />
+            <textevent timeoffset="1200" message="Excellent work! That&apos;s halfway through these. Back to 85 RPM here." />
+            <textevent timeoffset="1260" message="Remember to stand up today as needed if you need to stretch the legs." />
+            <textevent timeoffset="1320" message="These lower intensity days are also a great opportunity to work on your bike position." />
+            <textevent timeoffset="1330" message="So, feel free to practice riding in the drops." />
+            <textevent timeoffset="1340" message="Or, bend your elbow to 90 degrees with your hands on the hoods." />
+            <textevent timeoffset="1350" message="Whatever is more comfortable for you, but also gets you into a more aerodynamic position." />
+            <textevent timeoffset="1440" message="1 more minute to go, then we&apos;ll increase the cadence again. You&apos;re looking GREAT so far today!" />
+            <textevent timeoffset="1500" message="95-100 RPM again now, keep the form solid!" />
+            <textevent timeoffset="1620" message="Hopefully the fast cadence work is becoming easier by now as you find the &apos;groove&apos;." />
+            <textevent timeoffset="1740" message="1min to go, almost done with these today :-)" />
+            <textevent timeoffset="1800" message="Awesome work! Back to a comfortable cadence again." />
+            <textevent timeoffset="1860" message="Make sure you&apos;re drinking still...You should drink about 1 bottle over this workout." />
+            <textevent timeoffset="2040" message="In 1min, we&apos;ll finish up with our last fast cadence interval." />
+            <textevent timeoffset="2100" message="Lift the cadence up once more now." />
+            <textevent timeoffset="2110" message="If 95 RPM feels easy now, try to keep it closer to 100 RPM for this final interval." />
+            <textevent timeoffset="2340" message="Final minute, then we&apos;ll cooldown. Nice job today!" />
+        </IntervalsT>
+        <Cooldown Duration="180" PowerHigh="0.3" PowerLow="0.5">
+            <textevent timeoffset="0" message="That completes a solid recovery day. Nice job!" />
+            <textevent timeoffset="60" message="Be on the lookout for other Garmin UNBOUND events." />
+            <textevent timeoffset="90" message="Don&apos;t forget to get in your long ride this week!" />
+            <textevent timeoffset="120" message="Final minute of the day here - great job!" />
+            <textevent timeoffset="170" message="Until next time, Ride On!" />
+        </Cooldown>
+    </workout>
+</workout_file>

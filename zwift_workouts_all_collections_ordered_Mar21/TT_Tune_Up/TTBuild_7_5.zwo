@@ -1,0 +1,93 @@
+<workout_file>
+    <uniqueId>a312e618-1acd-4f09-a583-449394f9dced</uniqueId>
+    <legacyIdHash>3203181723</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Power Intervals #3</name>
+    <description>The focus of today&apos;s session is to improve your ability to produce power. To be able to turn a big gear faster. By completing high power intervals with slightly less cadence, we increase the torque applied to the crank, boosting muscular endurance power.
+
+2 different sets of work today. The 1st set involves shorter 2min intervals that begin with 30sec of high power / low RPM effort. The 2nd set involves 4 x 2min intervals decreasing in power across the intervals.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>TT Tune Up</category>
+    <subcategory>Week 7</subcategory>
+    <tags>
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.45" PowerHigh="0.75">
+            <textevent timeoffset="200" message="Today&apos;s warm up takes you through some low power, 1min efforts." locIndex="1" />
+        </Warmup>
+        <IntervalsT Repeat="2" OnDuration="60" OffDuration="60" OnPower="0.8" OffPower="0.5" />
+        <IntervalsT Repeat="2" OnDuration="60" OffDuration="60" OnPower="0.98" OffPower="0.5" />
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="20" message="The efforts begin with a high power, low cadence surge." locIndex="2" />
+            <textevent timeoffset="30" message="Before going into a high power effort that increase over the 2min." locIndex="3" />
+            <textevent timeoffset="40" message="Ready for the first low cadence effort." locIndex="4" />
+            <textevent timeoffset="50" message="Remember to aim for the target RPM and let the smart trainer adjust the power." locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.3" Cadence="85" />
+        <Ramp Duration="120" PowerLow="1.21" PowerHigh="1.5">
+            <textevent timeoffset="10" message="Now the power ramps up." locIndex="6" />
+            <textevent timeoffset="20" message="Self select your cadence." locIndex="7" />
+        </Ramp>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="30" message="Just a short recovery. Building lactate tolerance." locIndex="8" />
+            <textevent timeoffset="100" message="Ready for the next low cadence effort." locIndex="9" />
+            <textevent timeoffset="110" message="Remember to aim for the target RPM and let the smart trainer adjust the power." locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.3" Cadence="85" />
+        <Ramp Duration="120" PowerLow="1.21" PowerHigh="1.5">
+            <textevent timeoffset="10" message="Now the power ramps up." locIndex="11" />
+            <textevent timeoffset="20" message="Self select your cadence." locIndex="12" />
+        </Ramp>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="100" message="Ready for the next low cadence effort." locIndex="13" />
+            <textevent timeoffset="110" message="Remember to aim for the target RPM and let the smart trainer adjust the power." locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.3" Cadence="85" />
+        <Ramp Duration="120" PowerLow="1.21" PowerHigh="1.5">
+            <textevent timeoffset="10" message="Now the power ramps up." locIndex="15" />
+            <textevent timeoffset="20" message="Self select your cadence." locIndex="16" />
+        </Ramp>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="20" message="How are recovering?" locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.3" Cadence="85" />
+        <Ramp Duration="120" PowerLow="1.21" PowerHigh="1.5">
+            <textevent timeoffset="10" message="Now the power ramps up." locIndex="18" />
+            <textevent timeoffset="20" message="Self select your cadence." locIndex="19" />
+        </Ramp>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="20" message="Well done. That was a big set." locIndex="20" />
+            <textevent timeoffset="30" message="But we aren&apos;t finished yet!" locIndex="21" />
+            <textevent timeoffset="40" message="A good recovery period now, before completing 4 Anaerobic Capacity efforts." locIndex="22" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.5">
+            <textevent timeoffset="200" message="Fully recovered now?" locIndex="23" />
+            <textevent timeoffset="210" message="The hardest effort is first." locIndex="24" />
+            <textevent timeoffset="220" message="Take note of your cadence in comparison to the earlier intervals." locIndex="25" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.5">
+            <textevent timeoffset="110" message="Note your finishing HR." locIndex="26" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="30" message="Again, just a short recovery period." locIndex="27" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.41">
+            <textevent timeoffset="110" message="Note your HR. Is it lower than the 1st interval?" locIndex="28" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="100" message="Just 2 more efforts to go." locIndex="29" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.32">
+            <textevent timeoffset="100" message="Has your cadence remained the same across the intervals?" locIndex="30" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="100" message="Last effort now." locIndex="31" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.24" />
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="60" message="Great work. That was a tough session today. Plenty to gain from today&apos;s effort." locIndex="32" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow="0.75" PowerHigh="0.45" />
+    </workout>
+</workout_file>

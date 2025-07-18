@@ -1,0 +1,17 @@
+<workout_file>
+    <uniqueId>7a588de6-2608-46f0-b939-2e39bdd119f8</uniqueId>
+    <legacyIdHash>1323205164</legacyIdHash>
+    <category>Your First Century</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 3</subcategory>
+    <name>Week 3.3 - Day 3</name>
+    <description> Long ride with group or alone, focus on riding most time in Endurance (Power Z2, HR Z2, RPE 2-3). Also complete 1 x 30-minute TEMPO effort, focusing on keeping watts at Tempo (Power Z3, HR Z3, RPE 3-4). Try "mixing" your spin cadence during the Tempo effort by trading off between a faster and slower cadence throughout the interval. 
+Terrian: Mixed. During the TEMPO interval add 5 x 20 second BURSTS at FTP (Power Z4, HR Z4, RPE 4-5). Complete a burst every 5 minutes. </description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <workout>
+        <Warmup Duration="900" Zone="2" />
+        <SteadyState Duration="3600" Zone="2" />
+        <IntervalsT Repeat="5" OnDuration="20" PowerOnZone="4" OffDuration="300" PowerOffZone="3" />
+        <Cooldown Duration="900" Zone="2" />
+    </workout>
+</workout_file>

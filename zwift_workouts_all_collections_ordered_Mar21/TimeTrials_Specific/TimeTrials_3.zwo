@@ -1,0 +1,31 @@
+<workout_file>
+    <uniqueId>95643766-2b58-40b7-9879-dee1d52bc7c8</uniqueId>
+    <legacyIdHash>1734390103</legacyIdHash>
+    <name>TT#3 Dynamic TT Course Work</name>
+    <categoryOverride>Threshold</categoryOverride>
+    <description>This workout targets the specific demands of a twisty TT course. The 24 short intervals will help you train for accelerations out of the corners.</description>
+    <author>Marco Pinotti</author>
+    <category>TimeTrials specific</category>
+    <categoryIndex>3</categoryIndex>
+    <painIndex>5</painIndex>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/MarcoPinotti_Logo.tga</authorIcon>
+    <workout>
+        <Warmup Duration="300" PowerLow=".45" PowerHigh="0.65" />
+        <SteadyState Duration="180" PowerLow="0.6" PowerHigh="0.75" />
+        <SteadyState Duration="120" PowerLow="0.8" PowerHigh="0.90" />
+        <SteadyState Duration="60" PowerLow="0.91" PowerHigh="1.05" />
+        <SteadyState Duration="30" PowerLow="1.06" PowerHigh="1.2" />
+        <SteadyState Duration="300" PowerLow="0.50" PowerHigh="0.55" />
+        <IntervalsT Repeat="6" OnDuration="10" OffDuration="50" PowerOffLow="0.98" PowerOffHigh="1.0" PowerOnLow="1.5" PowerOnHigh="1.75" />
+        <SteadyState Duration="240" PowerLow="0" PowerHigh="0.55" />
+        <IntervalsT Repeat="6" OnDuration="10" OffDuration="50" PowerOffLow="0.98" PowerOffHigh="1.0" PowerOnLow="1.5" PowerOnHigh="1.75" />
+        <SteadyState Duration="240" PowerLow="0" PowerHigh="0.55" />
+        <IntervalsT Repeat="6" OnDuration="10" OffDuration="50" PowerOffLow="0.98" PowerOffHigh="1.0" PowerOnLow="1.5" PowerOnHigh="1.75" />
+        <SteadyState Duration="240" PowerLow="0" PowerHigh="0.55" />
+        <IntervalsT Repeat="6" OnDuration="10" OffDuration="50" PowerOffLow="0.98" PowerOffHigh="1.0" PowerOnLow="1.5" PowerOnHigh="1.75" />
+        <SteadyState Duration="240" PowerLow="0" PowerHigh="0.55" />
+        <Cooldown Duration="300" PowerLow="0.55" PowerHigh="0.75">
+            <TextNotification timeOffset="0" duration="10" font_size="0.5" x="400" y="500" text="Cool off! 110 cadence!" />
+        </Cooldown>
+    </workout>
+</workout_file>

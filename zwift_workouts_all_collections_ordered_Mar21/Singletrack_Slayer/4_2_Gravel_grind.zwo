@@ -1,0 +1,131 @@
+<workout_file>
+    <uniqueId>5fb47365-21d4-4361-bd19-e4a45c7d0b06</uniqueId>
+    <legacyIdHash>681924803</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <categoryOverride>60 to 90 minutes to burn</categoryOverride>
+    <name>Gravel Grind</name>
+    <description>Quite often when riding loose gravel or dirt, we hit a small hill with some speed, but soon lose this momentum. This results in the need to produce more power at a lower rpm.
+
+Today&apos;s session prepares us for such a scenario. Picture yourself hitting the hill with speed, and then grinding over the top.</description>
+    <sportType>bike</sportType>
+    <category>Singletrack Slayer</category>
+    <subcategory>Week 4</subcategory>
+    <WorkoutPlan>1</WorkoutPlan>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <tags>
+    </tags>
+    <workout>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="30" message="The focus today is to hit the intervals with speed and then produce an increasing amount of crank torque." locIndex="1" />
+            <textevent timeoffset="60" message="Before we hit the main set we need to warm up appropriately." locIndex="2" />
+            <textevent timeoffset="160" message="To activate these fast twitch fibers we hit some sprints first." locIndex="3" />
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="10" OffDuration="50" OnPower="1.5" OffPower="0.5">
+            <textevent timeoffset="20" message="Hit a high cadence in these sprints." locIndex="4" />
+            <textevent timeoffset="50" message="Mix them up by performing some seated and some standing." locIndex="5" />
+            <textevent timeoffset="100" message="You should be hitting a higher rpm in these last couple." locIndex="6" />
+            <textevent timeoffset="220" message="To continue the warmup we have low intensity steady state effort next." locIndex="7" />
+        </IntervalsT>
+        <SteadyState Duration="180" Power="0.7">
+            <textevent timeoffset="20" message="This effort won&apos;t bother you." locIndex="8" />
+            <textevent timeoffset="40" message="But try to pedal at a high cadence that is a little uncomfortable for you." locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="30" message="To complete the warmup we have a steady state threshold effort next." locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.9">
+            <textevent timeoffset="30" message="Again, aim for a slightly uncomfortable high cadence." locIndex="11" />
+            <textevent timeoffset="60" message="Settle into a nice rhythm and relax." locIndex="12" />
+            <textevent timeoffset="240" message="Into the last minute of this warmup effort." locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="20" message="Let&apos;s get ready for this 1st set." locIndex="14" />
+            <textevent timeoffset="40" message="The 1st block consists of 3 x 3mi efforts where the power ramps up to 105%FTP. " locIndex="15" />
+            <textevent timeoffset="60" message="Target cadence is 75rpm for this 1st block." locIndex="16" />
+            <textevent timeoffset="80" message="As always, focus on hitting the target rpm and let the trainer adjust the power." locIndex="17" />
+            <textevent timeoffset="160" message="Let&apos;s get into it!" locIndex="18" />
+        </SteadyState>
+        <Ramp Duration="180" PowerLow="0.65" PowerHigh="1.05" Cadence="75">
+            <textevent timeoffset="10" message="Hit that 75rpm target." locIndex="19" />
+            <textevent timeoffset="40" message="Relax on the bike and sit towards the back of the seat." locIndex="20" />
+            <textevent timeoffset="80" message="The power is going to increase across the 3min effort." locIndex="21" />
+            <textevent timeoffset="100" message="As the power increases, so too does the crank torque." locIndex="22" />
+            <textevent timeoffset="120" message="This is where it&apos;s going to start to hurt a little." locIndex="23" />
+            <textevent timeoffset="140" message="Dig in and be strong right to the end." locIndex="24" />
+        </Ramp>
+        <SteadyState Duration="240" Power="0.55">
+            <textevent timeoffset="10" message="Great work." locIndex="25" />
+            <textevent timeoffset="30" message="That is a tough effort." locIndex="26" />
+            <textevent timeoffset="50" message="Different to a high cadence high power effort." locIndex="27" />
+            <textevent timeoffset="70" message="Much more like pushing a weight." locIndex="28" />
+            <textevent timeoffset="100" message="We have a good recovery period between efforts, so relax for a little." locIndex="29" />
+            <textevent timeoffset="220" message="Here we go with the next effort." locIndex="30" />
+        </SteadyState>
+        <Ramp Duration="180" PowerLow="0.65" PowerHigh="1.05" Cadence="75">
+            <textevent timeoffset="10" message="Hit that 75rpm target." locIndex="31" />
+            <textevent timeoffset="40" message="Relax on the bike and sit towards the back of the seat." locIndex="32" />
+            <textevent timeoffset="80" message="The power is going to increase across the 3min effort." locIndex="33" />
+            <textevent timeoffset="100" message="As the power increases, so too does the crank torque." locIndex="34" />
+            <textevent timeoffset="120" message="This is where it&apos;s going to start to hurt a little." locIndex="35" />
+            <textevent timeoffset="140" message="Dig in and be strong right to the end." locIndex="36" />
+        </Ramp>
+        <SteadyState Duration="240" Power="0.55">
+            <textevent timeoffset="10" message="Great work." locIndex="37" />
+            <textevent timeoffset="30" message="That is a tough effort." locIndex="38" />
+            <textevent timeoffset="50" message="Different to a high cadence high power effort." locIndex="39" />
+            <textevent timeoffset="70" message="Much more like pushing a weight." locIndex="40" />
+            <textevent timeoffset="100" message="We have a good recovery period between efforts, so relax for a little." locIndex="41" />
+            <textevent timeoffset="220" message="Into the last effort in this block." locIndex="42" />
+        </SteadyState>
+        <Ramp Duration="180" PowerLow="0.65" PowerHigh="1.05" Cadence="75">
+            <textevent timeoffset="10" message="Hit that 75rpm target." locIndex="43" />
+            <textevent timeoffset="40" message="Relax on the bike and sit towards the back of the seat." locIndex="44" />
+            <textevent timeoffset="80" message="The power is going to increase across the 3min effort." locIndex="45" />
+            <textevent timeoffset="100" message="As the power increases, so too does the crank torque." locIndex="46" />
+            <textevent timeoffset="120" message="This is where it&apos;s going to start to hurt a little." locIndex="47" />
+            <textevent timeoffset="140" message="Dig in and be strong right to the end." locIndex="48" />
+        </Ramp>
+        <SteadyState Duration="240" Power="0.55">
+            <textevent timeoffset="30" message="Awesome! That completes the 1st set of work." locIndex="49" />
+            <textevent timeoffset="50" message="In this next set, we are going to drop the target power a little, but also drop the target cadence." locIndex="50" />
+            <textevent timeoffset="100" message="Same thing again. Strong on the bike, by keeping upper body still and drive through your core and glutes." locIndex="51" />
+            <textevent timeoffset="200" message="This time the target rpm is 65." locIndex="52" />
+            <textevent timeoffset="220" message="Let&apos;s get into the work!" locIndex="53" />
+        </SteadyState>
+        <Ramp Duration="180" PowerLow="0.75" PowerHigh="0.95" Cadence="65">
+            <textevent timeoffset="10" message="Hit that target rpm of 65." locIndex="54" />
+            <textevent timeoffset="30" message="Position yourself well on the bike." locIndex="55" />
+            <textevent timeoffset="50" message="On the back of the seat with hands relaxed on the bars." locIndex="56" />
+            <textevent timeoffset="100" message="Picture yourself grinding over a steep dirt hill." locIndex="57" />
+        </Ramp>
+        <SteadyState Duration="180" Power="0.55">
+            <textevent timeoffset="20" message="This time we have a shorter recover period." locIndex="58" />
+            <textevent timeoffset="160" message="Same again now. Power over the hill." locIndex="59" />
+        </SteadyState>
+        <Ramp Duration="180" PowerLow="0.75" PowerHigh="0.95" Cadence="65">
+            <textevent timeoffset="10" message="Hit that target rpm of 65." locIndex="60" />
+            <textevent timeoffset="30" message="Position yourself well on the bike." locIndex="61" />
+            <textevent timeoffset="50" message="On the back of the seat with hands relaxed on the bars." locIndex="62" />
+            <textevent timeoffset="100" message="Picture yourself grinding over a steep dirt hill." locIndex="63" />
+        </Ramp>
+        <SteadyState Duration="180" Power="0.55">
+            <textevent timeoffset="20" message="This time we have a shorter recover period." locIndex="64" />
+            <textevent timeoffset="120" message="Same again now. Power over the hill." locIndex="65" />
+            <textevent timeoffset="140" message="Into the last interval for the day!" locIndex="66" />
+            <textevent timeoffset="160" message="make it the best one!" locIndex="67" />
+        </SteadyState>
+        <Ramp Duration="180" PowerLow="0.75" PowerHigh="0.95" Cadence="65">
+            <textevent timeoffset="10" message="Hit that target rpm of 65." locIndex="68" />
+            <textevent timeoffset="30" message="Position yourself well on the bike." locIndex="69" />
+            <textevent timeoffset="50" message="On the back of the seat with hands relaxed on the bars." locIndex="70" />
+            <textevent timeoffset="100" message="Picture yourself grinding over a steep dirt hill." locIndex="71" />
+        </Ramp>
+        <SteadyState Duration="300" Power="0.55">
+            <textevent timeoffset="30" message="Great work today." locIndex="72" />
+            <textevent timeoffset="60" message="That&apos;s quality work you have completed." locIndex="73" />
+            <textevent timeoffset="80" message="You could experience some muscle soreness in the coming days." locIndex="74" />
+            <textevent timeoffset="100" message="This is normal and to be expected." locIndex="75" />
+            <textevent timeoffset="200" message="Be sure to hydrate and start refueling for your next session." locIndex="76" />
+        </SteadyState>
+    </workout>
+</workout_file>

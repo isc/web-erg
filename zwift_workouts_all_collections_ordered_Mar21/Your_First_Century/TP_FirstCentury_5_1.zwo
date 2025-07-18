@@ -1,0 +1,17 @@
+<workout_file>
+    <uniqueId>bdc584e5-ba69-40b5-9554-980c3b6459da</uniqueId>
+    <legacyIdHash>1473176694</legacyIdHash>
+    <category>Your First Century</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 5</subcategory>
+    <name>Week 5.1 - Day 1</name>
+    <description>Focus on riding most of the time in Endurance. You will also complete 1 x 40 minute TEMPO effort. Try "mixing" your spin cadence during the Tempo effort by trading off between a faster and slower cadence throughout the interval. Cadence: 85 - 105 Endurance, 80 - 90 Tempo</description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <workout>
+        <Warmup Duration="900" PowerLow="0.25" PowerHigh="0.75" />
+        <SteadyState Duration="1200" PowerLow="0.75" PowerHigh="0.75" />
+        <SteadyState Duration="2400" PowerLow="0.81" PowerHigh="0.81" />
+        <SteadyState Duration="1200" PowerLow="0.75" PowerHigh="0.75" />
+        <Cooldown Duration="600" PowerLow="0.75" PowerHigh="0.25" />
+    </workout>
+</workout_file>

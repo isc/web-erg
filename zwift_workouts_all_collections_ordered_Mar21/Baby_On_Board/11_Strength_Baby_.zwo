@@ -1,0 +1,71 @@
+<workout_file>
+    <uniqueId>321a7662-beb2-4c36-b004-c104695efa88</uniqueId>
+    <legacyIdHash>2601010787</legacyIdHash>
+    <author>D.Rowe (Rowe&amp;King)</author>
+    <name>Strength Baby </name>
+    <description>This workout offers an introduction to developing your strength by completing 3 blocks of 4 minute at zone 3 but critically at a low cadence of 60rpm.
+
+Focus on keeping your upper body still and allowing your legs to generate all the power.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS" />
+        <tag name="Prenatal" />
+    </tags>
+    <category>Baby On Board</category>
+    <categoryIndex>11</categoryIndex>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.25" PowerHigh="0.7">
+            <textevent timeoffset="10" message="Welcome to Strength Baby! Let&apos;s get the legs turning over and start with a 5min warm up" locIndex="1" />
+            <textevent timeoffset="20" message="This workout is part of Baby on Board, designed by Dani Rowe and Kristin Armstrong" locIndex="2" />
+            <textevent timeoffset="30" message="This series is designed to keep you active throughout pregnancy" locIndex="3" />
+            <textevent timeoffset="40" message="by providing you with 12 weeks of 30-40 minute structured workouts" locIndex="4" />
+            <textevent timeoffset="150" message="Okay, there&apos;s halfway through today&apos;s warm up. Let&apos;s chat about the plan for today." locIndex="5" />
+            <textevent timeoffset="160" message="This workout offers an introduction to developing your strength by completing 3 blocks of 4min at zone 3 but critically at a low cadence of 60rpm." locIndex="6" />
+            <textevent timeoffset="170" message="The lower cadence work serves to improve your leg strength and ability to generate torque." locIndex="7" />
+            <textevent timeoffset="180" message="Focus on keeping your upper body still and allowing your legs to generate all the power today." locIndex="8" />
+            <textevent timeoffset="190" message="The key to training during pregnancy is consistency - little and often" locIndex="9" />
+            <textevent timeoffset="200" message="As a guide - you should always be able to hold a conversation during these workouts" locIndex="10" />
+            <textevent timeoffset="210" message="Keep an eye on your heart rate - you should not be anywhere near your max" locIndex="11" />
+            <textevent timeoffset="220" message="It is vital that your core body temperature doesn&apos;t get too high. Make sure you have a fan blasting and keep hydrated" locIndex="12" />
+            <textevent timeoffset="230" message="Listen to your body, and don&apos;t worry if you need to lower the bias during these workouts to complete" locIndex="13" />
+            <textevent timeoffset="240" message="Most importantly - enjoy!" locIndex="14" />
+            <textevent timeoffset="250" message="Less than 1min to go before we head into our 1st interval set." locIndex="15" />
+        </Warmup>
+        <IntervalsT Repeat="3" OnDuration="180" OffDuration="240" OnPower="0.46" OffPower="0.79" Cadence="90" CadenceResting="60">
+            <textevent timeoffset="10" message="You should be feeling warm and ready to go for this Strength Baby session" locIndex="16" />
+            <textevent timeoffset="60" message="You have 2 minutes left to get your breath back, have a drink and get ready to start the first 4 minute block " locIndex="17" />
+            <textevent timeoffset="120" message="This session focuses on improving your strength - an introduction to low cadence strength training" locIndex="18" />
+            <textevent timeoffset="150" message="Really focus on keeping your upper body still and allowing your legs to generate all the power " locIndex="19" />
+            <textevent timeoffset="200" message="Ok - here goes! The first block of low cadence work " locIndex="20" />
+            <textevent timeoffset="260" message="Remember - you should never allow your core body temperature to get too high in pregnancy, so make sure your fans are blasting! " locIndex="21" />
+            <textevent timeoffset="360" message="Stay focused for this last minute of work - push all the way to the arch" locIndex="22" />
+            <textevent timeoffset="430" message="Recovery time! Nice work - only 2 blocks to go" locIndex="23" />
+            <textevent timeoffset="500" message="How are you feeling?" locIndex="24" />
+            <textevent timeoffset="520" message="Now you know what&apos;s coming, you should be more prepared" locIndex="25" />
+            <textevent timeoffset="580" message="This workout is all about developing your strength - damaging to your muscles. A bit like a Strength &amp; Conditioning workout in the gym" locIndex="26" />
+            <textevent timeoffset="610" message="Ok - lets go again!" locIndex="27" />
+            <textevent timeoffset="630" message="Focus on pedaling a full circle, avoid just stomping on the pedals " locIndex="28" />
+            <textevent timeoffset="700" message="You are smashing this, keep up the good work" locIndex="29" />
+            <textevent timeoffset="780" message="60 seconds of work remaining - don&apos;t give up" locIndex="30" />
+            <textevent timeoffset="840" message="Last recovery period before the last block - make the most of it" locIndex="31" />
+            <textevent timeoffset="900" message="Don&apos;t forget to keep drinking - little and often to ensure you stay hydrated" locIndex="32" />
+            <textevent timeoffset="930" message="You may want to start some core stability work off the bike?" locIndex="33" />
+            <textevent timeoffset="990" message="Last block coming up - the cumulative fatigue will be setting in now, but stay strong, this is where you will make the most gains" locIndex="34" />
+            <textevent timeoffset="1030" message="Here we go, last 4 minutes of work" locIndex="35" />
+            <textevent timeoffset="1100" message="You can be so productive within a 30 minute session" locIndex="36" />
+            <textevent timeoffset="1200" message="You don&apos;t have to pedal for hours to make improvements or simply sustain fitness " locIndex="37" />
+            <textevent timeoffset="1230" message="Keep it up - you&apos;ve smashed today&apos;s workout. Maintain this effort all the way to the arch!" locIndex="38" />
+        </IntervalsT>
+        <Cooldown Duration="300" PowerLow="0.65" PowerHigh="0.35">
+            <textevent timeoffset="20" message="Good work - that&apos;s Strength Baby complete!" locIndex="39" />
+            <textevent timeoffset="90" message="Remember, the key to fitness is consistency - little and often" locIndex="40" />
+            <textevent timeoffset="140" message="How do you feel on your bike at the moment? Comfortable?" locIndex="41" />
+            <textevent timeoffset="155" message="As your body changes through pregnancy, you may need to tweak your position by flipping your stem" locIndex="42" />
+            <textevent timeoffset="170" message="Flip your stem upside down, to raise your handlebars which should give your bump more space" locIndex="43" />
+            <textevent timeoffset="185" message="This is something that we (Dani and Kristin) both did, which helped massively" locIndex="44" />
+            <textevent timeoffset="220" message="You should not have felt excessively hot during today&apos;s workout" locIndex="45" />
+            <textevent timeoffset="240" message="It&apos;s vital that your core body temperature doesn&apos;t get too high during pregnancy" locIndex="46" />
+            <textevent timeoffset="290" message="See you on the next Workout - Dani and Kristin" locIndex="47" />
+        </Cooldown>
+    </workout>
+</workout_file>

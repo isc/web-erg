@@ -1,0 +1,22 @@
+<workout_file>
+    <uniqueId>7f7be24a-e2d4-4e82-a751-010e3914c240</uniqueId>
+    <legacyIdHash>104737802</legacyIdHash>
+    <name>Week 5.2 - Day 2</name>
+    <description>SFR/Tempo</description>
+    <author>Marco Pinotti</author>
+    <category>10-12wk FTP Builder</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 5</subcategory>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/MarcoPinotti_Logo.tga</authorIcon>
+    <sportType>bike</sportType>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.5" PowerHigh="0.65" />
+        <Ramp Duration="300" Power="0.81" />
+        <Ramp Duration="120" Power="0.5" />
+        <Ramp Duration="300" Power="0.81" />
+        <Ramp Duration="120" Power="0.5" />
+        <IntervalsT Repeat="4" OnDuration="180" OnPower=".81" OffDuration="180" OffPower=".5" />
+        <SteadyState Duration="300" Power="0.5" />
+        <Cooldown Duration="300" PowerLow="0.5" PowerHigh="0.65" />
+    </workout>
+</workout_file>

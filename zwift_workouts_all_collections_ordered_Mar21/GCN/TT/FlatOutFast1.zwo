@@ -1,0 +1,34 @@
+<workout_file>
+    <uniqueId>1de95b4f-a6d1-4dec-8746-427944d35eae</uniqueId>
+    <legacyIdHash>2557957003</legacyIdHash>
+    <author>GCN</author>
+    <categoryOverride>60-90 minutes to burn</categoryOverride>
+    <category>GCN</category>
+    <subcategory>Dan Lloyd&apos;s GCN Flat Out Fast Plan</subcategory>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/GCN_Logo.tga</authorIcon>
+    <name>Time Trial</name>
+    <description>One of the tricks of the pros in order to improve their time trialing speed is to do some motorpacing for short distances, but at a fast speed. You are going to simulate these kinds of intervals by doing 4 minute efforts near your FTP and keeping the cadence quick.
+    </description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="TT" />
+        <tag name="FastTT" />
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.2545" PowerHigh="0.75449997" />
+        <IntervalsT Repeat="3" OnDuration="60" OffDuration="60" OnPower="0.75449997" OffPower="0.50449997" Cadence="110" CadenceResting="80" />
+        <SteadyState Duration="300" Power="0.85449994" />
+        <Ramp Duration="240" PowerLow="1.0044999" PowerHigh="0.98449993" Cadence="100" CadenceResting="80" />
+        <SteadyState Duration="180" Power="0.65449995" />
+        <Ramp Duration="240" PowerLow="1.0044999" PowerHigh="0.98449993" Cadence="100" CadenceResting="80" />
+        <SteadyState Duration="180" Power="0.65449995" />
+        <Ramp Duration="240" PowerLow="1.0545" PowerHigh="1.0044999" Cadence="100" CadenceResting="65" />
+        <SteadyState Duration="240" Power="0.65449995" />
+        <Ramp Duration="240" PowerLow="1.0745" PowerHigh="1.0044999" Cadence="105" CadenceResting="80" />
+        <SteadyState Duration="240" Power="0.65449995" />
+        <Ramp Duration="240" PowerLow="1.1044999" PowerHigh="0.97449994" Cadence="105" CadenceResting="80" />
+        <SteadyState Duration="240" Power="0.65449995" />
+        <Ramp Duration="240" PowerLow="1.1344999" PowerHigh="0.95449996" Cadence="110" CadenceResting="65" />
+        <Cooldown Duration="600" PowerLow="0.75449997" PowerHigh="0.2545" />
+    </workout>
+</workout_file>

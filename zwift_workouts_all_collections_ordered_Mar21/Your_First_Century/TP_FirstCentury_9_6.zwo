@@ -1,0 +1,16 @@
+<workout_file>
+    <uniqueId>bf6374fd-0969-4a8c-bf83-11dd7540acf5</uniqueId>
+    <legacyIdHash>575558162</legacyIdHash>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <category>Your First Century</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 9</subcategory>
+    <name>Week 9.6 - Day 6</name>
+    <description>Today is simple, ride the prescribed time in your Endurance Zone. Vary your cadence throughout ride and work on pedaling form. Practice "coming over the top" and "pulling through the bottom" of the pedal. Enjoy the day</description>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow="0.2545" PowerHigh="0.65449995" />
+        <SteadyState Duration="15000" PowerLow="0.65449995" PowerHigh="0.65449995" />
+        <Cooldown Duration="600" PowerLow="0.65449995" PowerHigh="0.2545" />
+    </workout>
+</workout_file>

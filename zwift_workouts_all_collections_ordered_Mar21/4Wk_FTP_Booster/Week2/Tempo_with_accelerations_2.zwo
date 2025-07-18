@@ -1,0 +1,56 @@
+<workout_file>
+    <uniqueId>5c7125aa-cbec-4627-b79c-5b10ecb72701</uniqueId>
+    <legacyIdHash>2267878958</legacyIdHash>
+    <author>Zwift</author>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>4wk FTP Booster</category>
+    <subcategory>Week 2</subcategory>
+    <name>Week 2.6 - Tempo with accelerations #2</name>
+    <description>Building upon the previous &apos;Tempo With Accelerations&apos; session, this time we are extending the tempo portion to add a little more fatigue.
+
+By incorporating sprint efforts into a steady state effort, you will recruit additional muscle fibres and extend their ability to work aerobically.
+
+The sprint efforts increase in duration from 15sec, to 20sec and 30sec.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS" />
+        <tag name="4weekftp" />
+    </tags>
+    <overrideHash>2267878958</overrideHash>
+    <workout>
+        <Warmup Duration="360" PowerLow="0.40824491" PowerHigh="0.70449996" />
+        <SteadyState Duration="60" Power="0.50449997" />
+        <SteadyState Duration="60" Power="1.0944999" Cadence="95" />
+        <SteadyState Duration="120" Power="0.50449997" />
+        <SteadyState Duration="240" Power="0.90449995" Cadence="90" />
+        <SteadyState Duration="180" Power="0.50449997" />
+        <SteadyState Duration="300" Power="0.84449995" Cadence="90">
+            <textevent timeoffset="274" message="Ready for the 1st 15sec effort" locIndex="1" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="1.7544999" Cadence="110" />
+        <SteadyState Duration="300" Power="0.84449995" Cadence="90">
+            <textevent timeoffset="6" message="Back to tempo effort now." locIndex="2" />
+            <textevent timeoffset="278" message="A bit longer sprint this time." locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.7045" Cadence="100" />
+        <SteadyState Duration="300" Power="0.84449995" Cadence="90" />
+        <SteadyState Duration="30" Power="1.5040623" Cadence="100" />
+        <SteadyState Duration="300" Power="0.50449997">
+            <textevent timeoffset="200" message="The aim is to beat the" locIndex="4" y="240" />
+            <textevent timeoffset="200" message="previous sprint efforts" locIndex="5" y="270" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.84449995" Cadence="90">
+            <textevent timeoffset="285" message="Get ready to sprint." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="1.7544999" Cadence="110" />
+        <SteadyState Duration="300" Power="0.84449995" Cadence="90">
+            <textevent timeoffset="285" message="Sprint a little longer this one" locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.7045" Cadence="100" />
+        <SteadyState Duration="300" Power="0.84449995" Cadence="90">
+            <textevent timeoffset="275" message="1 final sprint effort!" locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.5044999" Cadence="100" />
+        <SteadyState Duration="300" Power="0.50449997" />
+    </workout>
+</workout_file>

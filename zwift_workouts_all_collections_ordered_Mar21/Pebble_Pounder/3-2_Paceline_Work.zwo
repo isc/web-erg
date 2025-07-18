@@ -1,0 +1,104 @@
+<workout_file>
+    <uniqueId>57277209-edf2-49b6-b33c-4c210923cc79</uniqueId>
+    <legacyIdHash>961694600</legacyIdHash>
+    <author>Shayne Gaffney</author>
+    <categoryOverride>30 to 60 minutes to burn</categoryOverride>
+    <name>Week 3.2 - Paceline Work</name>
+    <description>This is a great workout for mimicking the demands of working in a paceline. Although gravel events feature mainly off-road and gnarly terrain, they also typically have asphalt and smoother dirt roads. Being able to stay in and work with a group as the speed inevitably increases over this terrain is crucial to achieve maximum speed due to the aerodynamic advantage gained.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Pebble Pounder</category>
+    <subcategory>Week 3</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="300" PowerLow=".4" PowerHigh=".75">
+            <textevent timeoffset="0" message="Welcome back to another workout in the Beginner Gravel Plan! Let&apos;s get started with a warmup and get those legs moving." locIndex="1" />
+            <textevent timeoffset="10" message="As always, remember to check you have your fluids, fan, and towel handy, and aim for 85-95 RPM here." locIndex="2" />
+            <textevent timeoffset="150" message="That&apos;s halfway through today&apos;s warmup. Keep on easing into things today, and let&apos;s chat about what&apos;s on the agenda." locIndex="3" />
+            <textevent timeoffset="160" message="Today, we&apos;re going to be doing a fun workout that mimics the demands of a paceline." locIndex="4" />
+            <textevent timeoffset="170" message="A paceline is a group of cyclists in a straight line and is very common in road events." locIndex="5" />
+            <textevent timeoffset="180" message="But also during asphalt sections, or smooth hard-packed dirt roads of a gravel event." locIndex="6" />
+            <textevent timeoffset="190" message="And, being able to stay in and work with a group is crucial to get maximum speed due to the aerodynamic advantage gained." locIndex="7" />
+            <textevent timeoffset="200" message="So, the plan will be to perform a hard surge effort to mimic getting to the front of a paceline and keep the group&apos;s speed up." locIndex="8" />
+            <textevent timeoffset="210" message="Then, we&apos;ll settle into a hard, but sustainable effort as you take your pull on the front." locIndex="9" />
+            <textevent timeoffset="220" message="After your pull, we&apos;ll take a short break as the group passes you, then surge hard again to catch onto the back." locIndex="10" />
+            <textevent timeoffset="230" message="And finally, recover in the group as you enjoy the group pulling you before your next turn on front." locIndex="11" />
+            <textevent timeoffset="240" message="Sound like a plan? Great!" locIndex="12" />
+            <textevent timeoffset="290" message="10sec, then we&apos;re going to do a few fast cadence effort to finish the warmup." locIndex="13" />
+        </Warmup>
+        <IntervalsT Repeat="3" OnDuration="30" OffDuration="30" OnPower="1.05" OffPower=".65" Cadence="105" CadenceResting="85">
+            <textevent timeoffset="0" message="Let&apos;s bring that power and cadence up here! I want you to aim for a smooth pedal stroke during the fast cadence work." locIndex="14" />
+            <textevent timeoffset="10" message="So, no bouncing in the saddle, or lurching back and forth! Just power to the pedals." locIndex="15" />
+            <textevent timeoffset="30" message="Great work, now bring the cadence and power way down and let&apos;s recover for 30sec, we do that 2 more times." locIndex="16" />
+            <textevent timeoffset="60" message="Power and cadence back up again! Keep is silky smooth again here." locIndex="17" />
+            <textevent timeoffset="90" message="Beautiful! Bring it back down again - 1 more to go :-)" locIndex="18" />
+            <textevent timeoffset="120" message="last one! Push that cadence!" locIndex="19" />
+            <textevent timeoffset="150" message="Excellent work! Now, let&apos;s bring the pace down again and recover for a couple of minutes before starting our main set." locIndex="20" />
+        </IntervalsT>
+        <SteadyState Duration="120" Power=".50" Cadence="85">
+            <textevent timeoffset="0" message="All right, let&apos;s take some deep breaths here and get ready for our main set." locIndex="21" />
+            <textevent timeoffset="30" message="Remember to take frequent sips of fluid throughout these workouts too." locIndex="22" />
+            <textevent timeoffset="60" message="Breathe...Relax...1min to go before we start the main set." locIndex="23" />
+            <textevent timeoffset="110" message="Okay, in 10 sec get ready for a hard surge to start!" locIndex="24" />
+        </SteadyState>
+        <Ramp Duration="30" PowerLow="1.1" PowerHigh="1.2" Cadence="100">
+            <textevent timeoffset="0" message="Get the leg speed up here! Hard start as you get to the front of the line for your pull, keep the speed up!" locIndex="25" />
+            <textevent timeoffset="20" message="10 more sec, then we&apos;re going to settle into a steady effort, hang on!" locIndex="26" />
+        </Ramp>
+        <SteadyState Duration="300" Power=".95" Cadence="90">
+            <textevent timeoffset="0" message="Great! Now, settle into a hard, but sustainable effort as you take your turn on the front." locIndex="27" />
+            <textevent timeoffset="60" message="The key with pulling a group is to keep things consistent and steady so there isn&apos;t any bunching up or stretching out behind you." locIndex="28" />
+            <textevent timeoffset="150" message="Halfway done with your pull. You should feel like you&apos;re working hard here, keep it up!!" locIndex="29" />
+            <textevent timeoffset="160" message="Remember, you can always adjust the FTP bias if necessary." locIndex="30" />
+            <textevent timeoffset="240" message="Okay, final minute then we&apos;ll swing off the front." locIndex="31" />
+            <textevent timeoffset="290" message="In 10sec, we&apos;re going to swing off the front and flick the elbow :-)" locIndex="32" />
+        </SteadyState>
+        <SteadyState Duration="30" Power=".5" Cadence="90">
+            <textevent timeoffset="0" message="Okay, really easy as the group passes you, but get ready to kick again as you catch the back of it." locIndex="33" />
+            <textevent timeoffset="20" message="Get ready to surge as the last rider passes you..." locIndex="34" />
+        </SteadyState>
+        <Ramp Duration="30" PowerLow="1.2" PowerHigh="1.1" Cadence="100">
+            <textevent timeoffset="0" message="Surge to catch onto the back of the group! GO GO GO!" locIndex="35" />
+            <textevent timeoffset="20" message="10 more sec, then we&apos;re going to recover in the group!" locIndex="36" />
+        </Ramp>
+        <SteadyState Duration="300" Power=".65" Cadence="90">
+            <textevent timeoffset="0" message="Yeah! Well done! Now we can sit up a bit and recover as the group pulls you." locIndex="37" />
+            <textevent timeoffset="10" message="You&apos;ll have 1 more pull though, so don&apos;t get too comfortable :-)" locIndex="38" />
+            <textevent timeoffset="120" message="Breathe...Remember to keep sipping those fluids." locIndex="39" />
+            <textevent timeoffset="240" message="1min to go, then we&apos;re back on front. Watch for the elbow flick from the rider in front of you." locIndex="40" />
+            <textevent timeoffset="290" message="There&apos;s the flick! Ready to surge again!?" locIndex="41" />
+        </SteadyState>
+        <Ramp Duration="30" PowerLow="1.1" PowerHigh="1.2" Cadence="100">
+            <textevent timeoffset="0" message="Let&apos;s GO! Your pull at the front again!" locIndex="42" />
+            <textevent timeoffset="20" message="10 more sec, then we&apos;re going to settle down for our pull." locIndex="43" />
+        </Ramp>
+        <SteadyState Duration="300" Power=".95" Cadence="90">
+            <textevent timeoffset="0" message="Great work! Maintain the speed now and again aim for consistency. No surging!" locIndex="44" />
+            <textevent timeoffset="60" message="That&apos;s 1min into it. Those legs should be feeling a little worked at this point which is okay! Keep going!" locIndex="45" />
+            <textevent timeoffset="150" message="Halfway done with your pull again. Fight the urge to swing off early, do your job!" locIndex="46" />
+            <textevent timeoffset="160" message="Remember, you can always adjust the FTP bias if necessary." locIndex="47" />
+            <textevent timeoffset="240" message="Okay, final minute then we&apos;ll swing off the front." locIndex="48" />
+            <textevent timeoffset="290" message="Flick that elbow and swing off here." locIndex="49" />
+        </SteadyState>
+        <SteadyState Duration="30" Power=".5" Cadence="90">
+            <textevent timeoffset="0" message="Okay, really easy as the group passes you. Remember who the last person was and start your surge as they get next to you." locIndex="50" />
+            <textevent timeoffset="20" message="Get ready to surge as the last rider passes you..." locIndex="51" />
+        </SteadyState>
+        <Ramp Duration="30" PowerLow="1.2" PowerHigh="1.1" Cadence="100">
+            <textevent timeoffset="0" message="Surge to catch onto the back of the group again! GO GO GO!" locIndex="52" />
+            <textevent timeoffset="20" message="Man this rider is strong on front! Hang on for 10 more sec!" locIndex="53" />
+        </Ramp>
+        <SteadyState Duration="300" Power=".65" Cadence="90">
+            <textevent timeoffset="0" message="Beautiful! Great effort! Now, let&apos;s keep some pressure on the pedals for a few more minutes, then we&apos;ll start our cooldown." locIndex="54" />
+            <textevent timeoffset="60" message="Breathe...It&apos;s important to stay in control and learn to recover while under some pressure. You can do this!" locIndex="55" />
+            <textevent timeoffset="150" message="That&apos;s halfway. You should feel like you&apos;re recovering now. If not, take a few deep breaths." locIndex="56" />
+            <textevent timeoffset="240" message="1min to go, then we&apos;ll start cooling down. Great work today!" locIndex="57" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow=".40" PowerHigh=".65">
+            <textevent timeoffset="0" message="Way to go today! That&apos;s a fun workout, and a great way to mimic the specific demands on working in a paceline." locIndex="58" />
+            <textevent timeoffset="60" message="As always, between workouts aim to refuel and rehydrate yourself well." locIndex="59" />
+            <textevent timeoffset="70" message="And aim to take around 24hrs between workouts to allow your body to recover before hitting it hard again." locIndex="60" />
+            <textevent timeoffset="120" message="Great job today! See you next time!" locIndex="61" />
+        </Cooldown>
+    </workout>
+</workout_file>

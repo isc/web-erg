@@ -1,0 +1,81 @@
+<workout_file>
+    <uniqueId>1f175dc1-bab7-46ed-9aec-abeebb13371a</uniqueId>
+    <legacyIdHash>621228014</legacyIdHash>
+    <author>Zwift</author>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>Multi-Sport Threshold Booster</category>
+    <visibleOutsidePlan>0</visibleOutsidePlan>
+    <name>Sub-Threshold XX #1</name>
+    <description>This is a challenging session that builds upon the earlier work of steady sub-threshold efforts.
+
+By challenging your ability to process lactate at near threshold power,  you will increase your time to exhaustion and increase endurance.
+
+All this is achieved with a 30min steady state effort that dips briefly into the realms of VO2. </description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS" />
+        <tag name="4weekftp" />
+    </tags>
+    <workout>
+        <SteadyState Duration="300" Power="0.50449997">
+            <textevent timeoffset="0" message="Welcome, let&apos;s get started with a warm-up. Cadence at 85 to 95 RPM." locIndex="1" />
+            <textevent timeoffset="60" message="Vary your cadence throughout the warm-up today - working at both high and low cadence ranges." locIndex="2" />
+            <textevent timeoffset="270" message="Next up, we are going to be doing 30 seconds at zone 2 with 30 seconds at zone 3 following." locIndex="3" />
+            <textevent timeoffset="280" message="Cadence for the zone 2 should be at 90 RPM, and zone 3 at 95 RPM." locIndex="4" />
+            <textevent timeoffset="290" message="Ready?" locIndex="5" />
+        </SteadyState>
+        <IntervalsT Repeat="5" OnDuration="30" OffDuration="30" OnPower="0.65449995" OffPower="0.80449992" OverUnder="1" Cadence="90" CadenceResting="95">
+            <textevent timeoffset="0" message="Okay, keep your cadence study at 90 RPM. We are here for 30 seconds." locIndex="6" />
+            <textevent timeoffset="30" message="Now bring it up to 95 RPM." locIndex="7" />
+            <textevent timeoffset="60" message="And back down to 90 RPM." locIndex="8" />
+            <textevent timeoffset="295" message="Great work, now let&apos;s recover for a few minutes and get ready for the main set." locIndex="9" />
+        </IntervalsT>
+        <SteadyState Duration="180" Power="0.50449997">
+            <textevent timeoffset="10" message="Today&apos;s main set is a challenging one that builds on the previous weeks studies sub threshold efforts." locIndex="10" />
+            <textevent timeoffset="20" message="This session will challenge your ability to process lactate at near threshold power, and increase your time to exhaustion." locIndex="11" />
+            <textevent timeoffset="30" message="This will be achieved with a 30 minute steady-state effort that dips briefly into VO2 Max." locIndex="12" />
+            <textevent timeoffset="40" message="We will be doing 10 times, 2 and 1/2 minutes at 90% FTP, with 30 seconds at 120% FTP." locIndex="13" />
+            <textevent timeoffset="50" message="Cadence will be comfortable for the duration of the interval – 90 RPM for the zone 4 work, and 95 RPM for the zone 5 work." locIndex="14" />
+            <textevent timeoffset="60" message="Prepare yourself mentally as always - but especially for this one. This is going to test your limits!" locIndex="15" />
+            <textevent timeoffset="170" message=" In 10 seconds we are going to lift the power and the cadence, get ready!" locIndex="16" />
+        </SteadyState>
+        <IntervalsT Repeat="10" OnDuration="150" OffDuration="30" OnPower="0.91449994" OffPower="1.2045" Cadence="90" CadenceResting="95">
+            <textevent timeoffset="0" message="Okay, here we go. Settle in for the long haul here!" locIndex="17" />
+            <textevent timeoffset="140" message="In 10 seconds get ready for surge number 1. Cadence is going up to 95 RPM for the 30 second effort." locIndex="18" />
+            <textevent timeoffset="150" message="Bring it up, let&apos;s go!" locIndex="19" />
+            <textevent timeoffset="180" message="Nice work, and back down again to threshold." locIndex="20" />
+            <textevent timeoffset="240" message="Deep breaths during these sub-threshold efforts, try to recover as best you can." locIndex="21" />
+            <textevent timeoffset="320" message="Get ready for another SURGE!" locIndex="22" />
+            <textevent timeoffset="330" message="GO GO GO!" locIndex="23" />
+            <textevent timeoffset="360" message="Excellent, back down again to sub-threshold - breathe." locIndex="24" />
+            <textevent timeoffset="500" message="Surge #3 coming up quick, this is when they start to bite a little bit." locIndex="25" />
+            <textevent timeoffset="510" message="Let&apos;s get it! Cadence up, power up!" locIndex="26" />
+            <textevent timeoffset="540" message="Great job! Recover again here as best you can. Remember to keep on top of your fluid intake." locIndex="27" />
+            <textevent timeoffset="680" message="4th surge effort coming in HOT - start spinning that gear up a bit!" locIndex="28" />
+            <textevent timeoffset="690" message="UP UP UP!" locIndex="29" />
+            <textevent timeoffset="720" message="BEAUTY! From here on out, recovery after those becomes crucial. Breathe and settle down." locIndex="30" />
+            <textevent timeoffset="860" message="Surge #5 lurks just ahead - You are doing amazing so far!" locIndex="31" />
+            <textevent timeoffset="870" message="LET&apos;S GO!" locIndex="32" />
+            <textevent timeoffset="900" message="Back down again. Today&apos;s about putting the work in, my friend." locIndex="33" />
+            <textevent timeoffset="1040" message="#6 surge coming up - we&apos;re more than halfway done with this interval, keep with me!" locIndex="34" />
+            <textevent timeoffset="1050" message="POWER!" locIndex="35" />
+            <textevent timeoffset="1080" message="Superb! Keep on ticking those pedals over. I know you&apos;re getting tired, believe in yourself - YOU can do this!" locIndex="36" />
+            <textevent timeoffset="1220" message="Staring right at surge #7 - show &apos;em who&apos;s BOSS!" locIndex="37" />
+            <textevent timeoffset="1230" message="YOU ARE! That&apos;s right!" locIndex="38" />
+            <textevent timeoffset="1260" message="Almost there now! Hang on." locIndex="39" />
+            <textevent timeoffset="1400" message="3rd to last surge here! So close now." locIndex="40" />
+            <textevent timeoffset="1410" message="PUSH YOURSELF!" locIndex="41" />
+            <textevent timeoffset="1440" message="Just 2 more left, we are getting there! Stick with it!" locIndex="42" />
+            <textevent timeoffset="1580" message="2nd to last SURGE here - C&apos;MON!" locIndex="43" />
+            <textevent timeoffset="1590" message="PUSH PUSH PUSH!!" locIndex="44" />
+            <textevent timeoffset="1620" message="This is it - home stretch!! Make Coach proud here!" locIndex="45" />
+            <textevent timeoffset="1760" message="FINAL SURGE! Give it EVERYTHING!" locIndex="46" />
+            <textevent timeoffset="1770" message="GO GO GO! Empty the tanks!!" locIndex="47" />
+            <textevent timeoffset="1790" message="PUSH!!" locIndex="48" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.50449997">
+            <textevent timeoffset="0" message="YEAH!! Way to get it done, my friend! That session is really brutal, but so good to improve your fitness." locIndex="49" />
+            <textevent timeoffset="10" message="Let&apos;s take a few minutes easy to cool down, we&apos;ll see you next time!" locIndex="50" />
+        </SteadyState>
+    </workout>
+</workout_file>

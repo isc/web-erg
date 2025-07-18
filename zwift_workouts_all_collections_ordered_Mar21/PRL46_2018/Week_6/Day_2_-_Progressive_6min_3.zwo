@@ -1,0 +1,39 @@
+<workout_file>
+    <uniqueId>6c2d7cc3-44a2-4a41-97ac-bd2a871c1be9</uniqueId>
+    <legacyIdHash>1847727580</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Week 6.2 - Progressive 6min #3</name>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>2018 PRL46 Prep</category>
+    <subcategory>Week 6</subcategory>
+    <description>Strength endurance work, building up over 6min. Starting with a cadence of 60 for 2min, this is increased by 5rpm every 2min.
+
+After some endurance building &apos;free riding&apos; you will complete a 5min sub-threshold effort with cadence self selected.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS" />
+    </tags>
+    <workout>
+        <SteadyState Duration="300" Power="0.50449997" pace="0">
+            <textevent timeoffset="240.00005" message="Varying cadence during warm up." locIndex="1" />
+        </SteadyState>
+        <IntervalsT Repeat="5" OnDuration="30" OffDuration="30" OnPower="0.65449995" OffPower="0.80449992" pace="0" OverUnder="1" />
+        <SteadyState Duration="180" Power="0.50449997" pace="0" />
+        <SteadyState Duration="120" Power="0.88759226" pace="0" Cadence="60" />
+        <SteadyState Duration="120.00001" Power="0.88927376" pace="0" Cadence="65" />
+        <SteadyState Duration="120" Power="0.88971162" pace="0" Cadence="70" />
+        <SteadyState Duration="300" Power="0.50449997" pace="0" />
+        <SteadyState Duration="120" Power="0.88983381" pace="0" Cadence="60" />
+        <SteadyState Duration="120" Power="0.88697845" pace="0" Cadence="65" />
+        <SteadyState Duration="120" Power="0.88950127" pace="0" Cadence="70" />
+        <SteadyState Duration="300" Power="0.50449997" pace="0" />
+        <SteadyState Duration="120" Power="0.88557166" pace="0" Cadence="60" />
+        <SteadyState Duration="120" Power="0.88677961" pace="0" Cadence="65" />
+        <SteadyState Duration="120" Power="0.88523799" pace="0" Cadence="70" />
+        <FreeRide Duration="600" FlatRoad="0">
+            <textevent timeoffset="539" message="Self select rpm for FTP effort." locIndex="2" />
+        </FreeRide>
+        <SteadyState Duration="300" Power="0.95449996" pace="0" />
+        <Cooldown Duration="300" PowerLow="0.75" PowerHigh="0.50119096" pace="0" />
+    </workout>
+</workout_file>

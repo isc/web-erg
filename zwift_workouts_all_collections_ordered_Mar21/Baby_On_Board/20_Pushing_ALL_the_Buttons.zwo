@@ -1,0 +1,150 @@
+<workout_file>
+    <uniqueId>cb5197c5-312e-4e3f-afc4-2072988b72ae</uniqueId>
+    <legacyIdHash>2057688804</legacyIdHash>
+    <author>Kristin Armstrong</author>
+    <name>Pushing ALL the Buttons</name>
+    <description>This workout consists of 27 microbursts with plenty of breaks in between each. There are 5 sets in total beginning with :40 seconds in duration and decreasing to :15 seconds as we enter in to the last set. Each set will decease in duration; however, increase in power. This is a great workout and easy on the mind. There are a number of different ways to keep a baseline fitness level.
+
+This is the session that just keeps on giving!</description>
+    <sportType>bike</sportType>
+    <tags />
+    <category>Baby On Board</category>
+    <categoryIndex>20</categoryIndex>
+    <workout>
+        <SteadyState Duration="30" Power="0.35" Cadence="85">
+            <textevent timeoffset="0" message="Welcome to Pushing ALL the Buttons! Let&apos;s start spinning the legs and warming up." locIndex="1" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.4" Cadence="85">
+            <textevent timeoffset="0" message="This workout is part of Baby on Board, designed by Dani Rowe and Kristin Armstrong." locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.45" Cadence="85">
+            <textevent timeoffset="0" message="This series is designed to keep you active throughout pregnancy by providing you 12 weeks of 30-40 minute structured workouts. " locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.5" Cadence="85">
+            <textevent timeoffset="0" message="The key to training during pregnancy is consistency." locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="45" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="As a guide - you should always be able to hold a conversation during these workouts. " locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="45" Power="0.6" Cadence="85">
+            <textevent timeoffset="0" message="Keep an eye on your heart rate - you should not be anywhere near your max." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="45" Power="0.65" Cadence="85">
+            <textevent timeoffset="0" message="It is vital that your core body temperature doesn&apos;t get too high. Make sure you have a fan blasting and keep hydrated." locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="45" Power="0.7" Cadence="85">
+            <textevent timeoffset="0" message="Listen to your body, and don&apos;t worry if you need to lower the bias during these workouts to complete." locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="Today&apos;s ride consists of 27 microbursts with plenty of breaks in between each!  Easy on the mind and a great ride for the body." locIndex="9" />
+        </SteadyState>
+        <IntervalsT Repeat="1" OnDuration="40" OnPower="1" OffDuration="20" OffPower="0.55" Cadence="85" CadenceResting="85">
+            <textevent timeoffset="0" message="As you get through each set the duration will decrease and intensity will increase." locIndex="10" />
+            <textevent timeoffset="40" message="Make sure you are sipping your choice of hydration throughout. " locIndex="11" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="40" OnPower="1" OffDuration="20" OffPower="0.55" Cadence="85" CadenceResting="85">
+            <textevent timeoffset="40" message="Nice work!" locIndex="12" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="40" OnPower="1" OffDuration="20" OffPower="0.55" Cadence="85" CadenceResting="85">
+            <textevent timeoffset="0" message="There are so many ways you can break up a workout and enjoy the same outcome!" locIndex="13" />
+            <textevent timeoffset="40" message="Hydrate and keep a relaxed upper body." locIndex="14" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="40" OnPower="1" OffDuration="20" OffPower="0.55" Cadence="85" CadenceResting="85">
+		</IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="40" OnPower="1" OffDuration="20" OffPower="0.55" Cadence="85" CadenceResting="85">
+            <textevent timeoffset="0" message="Last effort in our first set!" locIndex="15" />
+        </IntervalsT>
+        <SteadyState Duration="60" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="You have reached the first recovery block.  Are you feeling relaxed? How did the first set feel?" locIndex="16" />
+        </SteadyState>
+        <IntervalsT Repeat="1" OnDuration="30" OnPower="1.05" OffDuration="30" OffPower="0.55" Cadence="85" CadenceResting="85">
+            <textevent timeoffset="0" message="decrease in time, increase in intensity" locIndex="17" />
+            <textevent timeoffset="30" message=":30 seconds, here we go!" locIndex="18" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="30" OnPower="1.05" OffDuration="30" OffPower="0.55" Cadence="85" CadenceResting="85">
+            <textevent timeoffset="30" message="Riding indoors requires a lot of static time in the saddle. Be sure to adjust your body throughout ride. " locIndex="19" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="30" OnPower="1.05" OffDuration="30" OffPower="0.55" Cadence="85" CadenceResting="85">
+            <textevent timeoffset="0" message="Nice work!" locIndex="20" />
+            <textevent timeoffset="30" message="Today&apos;s efforts can be done seated or standing!  " locIndex="21" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="30" OnPower="1.05" OffDuration="30" OffPower="0.55" Cadence="85" CadenceResting="85">
+            <textevent timeoffset="30" message="Hydrate!" locIndex="22" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="30" OnPower="1.05" OffDuration="30" OffPower="0.55" Cadence="85" CadenceResting="85">
+		</IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="30" OnPower="1.05" OffDuration="30" OffPower="0.55" Cadence="85" CadenceResting="85">
+            <textevent timeoffset="30" message="Time to recover - easy on the pedals!" locIndex="23" />
+        </IntervalsT>
+        <SteadyState Duration="60" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="Focus on your form during these last two sets.  " locIndex="24" />
+        </SteadyState>
+        <IntervalsT Repeat="1" OnDuration="20" OnPower="1.1" OffDuration="40" OffPower="0.55" Cadence="85" CadenceResting="85">
+            <textevent timeoffset="0" message="Is core engaged? " locIndex="25" />
+            <textevent timeoffset="20" message="If standing, make sure weight is distributed over bottom bracket rather than on the shoulders." locIndex="26" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="20" OnPower="1.1" OffDuration="40" OffPower="0.55" Cadence="85" CadenceResting="85">
+            <textevent timeoffset="0" message="Shoulders relaxed. " locIndex="27" />
+            <textevent timeoffset="20" message="Smiling from ear to ear!" locIndex="28" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="20" OnPower="1.1" OffDuration="40" OffPower="0.55" Cadence="85" CadenceResting="85">
+		</IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="20" OnPower="1.1" OffDuration="40" OffPower="0.55" Cadence="85" CadenceResting="85">
+            <textevent timeoffset="0" message="Nice work!" locIndex="29" />
+            <textevent timeoffset="20" message="Deep breath! Sometimes we forget to breathe deeply. " locIndex="30" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="20" OnPower="1.1" OffDuration="40" OffPower="0.55" Cadence="85" CadenceResting="85">
+            <textevent timeoffset="20" message="Today&apos;s session brings so many health benefits. " locIndex="31" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="20" OnPower="1.1" OffDuration="40" OffPower="0.55" Cadence="85" CadenceResting="85">
+		</IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="20" OnPower="1.1" OffDuration="40" OffPower="0.55" Cadence="85" CadenceResting="85">
+            <textevent timeoffset="0" message="Last :20 seconds, right here!" locIndex="32" />
+            <textevent timeoffset="20" message="Its recovery time!" locIndex="33" />
+        </IntervalsT>
+        <SteadyState Duration="60" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="It&apos;s time to reset the mind and focus on this last set." locIndex="34" />
+        </SteadyState>
+        <IntervalsT Repeat="1" OnDuration="15" OnPower="1.2" OffDuration="45" OffPower="0.55" Cadence="85" CadenceResting="85">
+            <textevent timeoffset="0" message="Here we go. " locIndex="35" />
+            <textevent timeoffset="15" message="Good job! How did the intensity feel?  " locIndex="36" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="15" OnPower="1.2" OffDuration="45" OffPower="0.55" Cadence="85" CadenceResting="85">
+            <textevent timeoffset="15" message="Listen to your body, and adjust difficulty accordingly.  " locIndex="37" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="15" OnPower="1.2" OffDuration="45" OffPower="0.55" Cadence="85" CadenceResting="85">
+		</IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="15" OnPower="1.2" OffDuration="45" OffPower="0.55" Cadence="85" CadenceResting="85">
+            <textevent timeoffset="0" message="We got this... " locIndex="38" />
+            <textevent timeoffset="15" message="Hydrate!" locIndex="39" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="15" OnPower="1.2" OffDuration="45" OffPower="0.55" Cadence="85" CadenceResting="85">
+            <textevent timeoffset="0" message="Keep strong and stay focused!" locIndex="40" />
+            <textevent timeoffset="15" message="Are we still smiling?" locIndex="41" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="15" OnPower="1.2" OffDuration="45" OffPower="0.55" Cadence="85" CadenceResting="85">
+            <textevent timeoffset="0" message="Our series is all about having fun and keeping healthy and motivated!" locIndex="42" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="15" OnPower="1.2" OffDuration="45" OffPower="0.55" Cadence="85" CadenceResting="85">
+		</IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="15" OnPower="1.2" OffDuration="45" OffPower="0.55" Cadence="85" CadenceResting="85">
+            <textevent timeoffset="0" message="Last one Best one!" locIndex="43" />
+            <textevent timeoffset="15" message="Congrats on an amazing ride today!" locIndex="44" />
+        </IntervalsT>
+        <SteadyState Duration="60" Power="0.6" Cadence="85">
+            <textevent timeoffset="0" message="Good work! That&apos;s Pushing ALL the Buttons complete." locIndex="45" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="Remember, the key to fitness is consistency - little and often." locIndex="46" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.5" Cadence="85">
+            <textevent timeoffset="0" message="You should not have felt excessively hot during today&apos;s workout. " locIndex="47" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.45" Cadence="85">
+            <textevent timeoffset="0" message="It&apos;s vital that your core body temperature doesn&apos;t get too high during pregnancy. " locIndex="48" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.4" Cadence="85">
+            <textevent timeoffset="0" message="See you on the next workout - Dani and Kristin " locIndex="49" />
+        </SteadyState>
+    </workout>
+</workout_file>

@@ -1,0 +1,25 @@
+<workout_file>
+    <uniqueId>56015702-458d-441c-b878-f0e58191532e</uniqueId>
+    <legacyIdHash>4005045213</legacyIdHash>
+    <category>Active Offseason</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 2</subcategory>
+    <name>Week 2.3 - Over-Gear</name>
+    <description>The goal today is to get in low rpm, high strength work. If you can&apos;t use the gearing suggested, that&apos;s OK! Go by the cadence and follow the spirit of the workout.</description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <workout>
+        <Warmup Duration="960" Zone="2" />
+        <FreeRide FlatRoad="1" Duration="900">
+            <TextEvent message="big ring 53:15 - 60-70 rpm: Pushing the gear." locIndex="1" timeoffset="0" />
+            <TextEvent message="39:15 - 100 rpm" locIndex="2" timeoffset="300" />
+            <TextEvent message="53:16 - 80-85 rpm" locIndex="3" timeoffset="600" />
+            <TextEvent message="39:15 - 100 rpm" locIndex="4" timeoffset="900" />
+        </FreeRide>
+        <IntervalsT Repeat="8" OnDuration="8" PowerOnZone="5" OffDuration="30" PowerOffZone="2" />
+        <IntervalsT Repeat="8" OnDuration="8" PowerOnZone="5" OffDuration="60" PowerOffZone="2" />
+        <FreeRide Duration="300">
+            <TextEvent message="Go hard for 5 min!" locIndex="5" timeoffset="5" />
+        </FreeRide>
+        <Cooldown Duration="600" Zone="2" />
+    </workout>
+</workout_file>

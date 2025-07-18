@@ -1,0 +1,120 @@
+<workout_file>
+    <uniqueId>f67e81d9-345a-4141-a6c5-c5338ea9446c</uniqueId>
+    <legacyIdHash>779213685</legacyIdHash>
+    <author>Zwift</author>
+    <name>The Long Ride - 2x30min Tempo With Surges</name>
+    <description>This is a big session today. The volume is big and the efforts are big! Warm up followed by a long block at Zone 3 Power with surges into Zone 5. Then a set of Zone 3 intervals. Finish with another long block of Zone 3 work with Zone 5 surges.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Gran Fondo</category>
+    <subcategory>Week 5</subcategory>
+    <tags>
+        <tag name="fondo" />
+    </tags>
+    <workout>
+        <Ramp Duration="570" PowerLow="0.50449997" PowerHigh=".75" pace="0">
+            <textevent timeoffset="10" message="A big session today. Prepare yourself mentally for what&apos;s ahead." locIndex="1" />
+            <textevent timeoffset="10" message="The opening 30min is lower level zone 3 intervals, with 30sec VO2 surges." locIndex="2" />
+            <textevent timeoffset="100.00001" message="Here we go for the 1st set" locIndex="3" />
+            <textevent timeoffset="110.00001" message="The power starts low and ramps up to lower zone 3." locIndex="4" />
+        </Ramp>
+        <Ramp Duration="270" PowerLow="0.69999999" PowerHigh="0.81999999" pace="0">
+            <textevent timeoffset="135" message="The power keeps ramping for the 4.5min." locIndex="5" />
+            <textevent timeoffset="260" message="Now for the 30sec surge" locIndex="6" />
+            <textevent timeoffset="30.000002" message="These intervals should feel relatively comfortable." locIndex="7" />
+            <textevent timeoffset="40" message="By the 4th interval, the fatigue should be beginning to build." locIndex="8" />
+        </Ramp>
+        <SteadyState Duration="30.000002" Power="1.0599999" pace="0" />
+        <Ramp Duration="270" PowerLow="0.69999999" PowerHigh="0.81999999" pace="0">
+            <textevent timeoffset="10" message="Lower intensity to begin with now." locIndex="9" />
+            <textevent timeoffset="200.00002" message="But it ramps back up to the same level as before." locIndex="10" />
+        </Ramp>
+        <SteadyState Duration="30.000002" Power="1.0599999" pace="0" />
+        <Ramp Duration="270" PowerLow="0.69999999" PowerHigh="0.81999999" pace="0">
+            <textevent timeoffset="20" message="That&apos;s 2 completed. 4 to go!" locIndex="11" />
+            <textevent timeoffset="260" message="Now for another 30sec surge" locIndex="12" />
+        </Ramp>
+        <SteadyState Duration="30.000002" Power="1.0599999" pace="0" />
+        <Ramp Duration="270" PowerLow="0.69999999" PowerHigh="0.81999999" pace="0">
+            <textevent timeoffset="200.00002" message="That&apos;s halfway for the opening set. 3 to go!" locIndex="13" />
+        </Ramp>
+        <SteadyState Duration="30.000002" Power="1.0599999" pace="0" />
+        <Ramp Duration="270" PowerLow="0.69999999" PowerHigh="0.81999999" pace="0">
+            <textevent timeoffset="20" message="How are your legs recovering? " locIndex="14" />
+        </Ramp>
+        <SteadyState Duration="30.000002" Power="1.0599999" pace="0" />
+        <Ramp Duration="270" PowerLow="0.69999999" PowerHigh="0.81999999" pace="0">
+            <textevent timeoffset="240.00002" message="After the next 30sec surge, we go straight into the 8 x 4min zone 3 intervals" locIndex="15" />
+            <textevent timeoffset="250.00002" message="Focus on your breathing during the 4min efforts. Relax!" locIndex="16" />
+        </Ramp>
+        <SteadyState Duration="30.000002" Power="1.0599999" pace="0" />
+        <SteadyState Duration="600" Power="0.65449995" pace="0" />
+        <SteadyState Duration="240.00002" Power="0.88" pace="0">
+            <textevent timeoffset="30.000002" message="Nice and steady. Controlled breathing." locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="180.00002" Power="0.55000001" pace="0">
+            <textevent timeoffset="10.000122" message="That&apos;s the 1st one done. 7 to go!" locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="240.00002" Power="0.88" pace="0">
+            <textevent timeoffset="20" message="Just like the 1st effort... nice and controlled." locIndex="19" />
+        </SteadyState>
+        <SteadyState Duration="180.00002" Power="0.55000001" pace="0" />
+        <SteadyState Duration="240.00002" Power="0.88" pace="0" />
+        <SteadyState Duration="180.00002" Power="0.55000001" pace="0">
+            <textevent timeoffset="20" message="How are you recovering from the longer intervals?" locIndex="20" />
+            <textevent timeoffset="30.000002" message="Just 5 more to go" locIndex="21" />
+        </SteadyState>
+        <SteadyState Duration="240.00002" Power="0.88" pace="0" />
+        <SteadyState Duration="180.00002" Power="0.55000001" pace="0">
+            <textevent timeoffset="20" message="Halfway there. Great work." locIndex="22" />
+            <textevent timeoffset="90.000008" message="How are you feeling? Big day for you!" locIndex="23" />
+        </SteadyState>
+        <SteadyState Duration="240.00002" Power="0.88" pace="0" />
+        <SteadyState Duration="180.00002" Power="0.55000001" pace="0">
+            <textevent timeoffset="20" message="It&apos;s long sessions like this that make you realise the importance of good nutrition on race day!" locIndex="24" />
+        </SteadyState>
+        <SteadyState Duration="240.00002" Power="0.88" pace="0" />
+        <SteadyState Duration="180.00002" Power="0.55000001" pace="0">
+            <textevent timeoffset="20" message="Just 2 more efforts to go." locIndex="25" />
+        </SteadyState>
+        <SteadyState Duration="240.00002" Power="0.88" pace="0" />
+        <SteadyState Duration="180.00002" Power="0.55000001" pace="0">
+            <textevent timeoffset="150" message="Last 4min effort coming up." locIndex="26" />
+        </SteadyState>
+        <SteadyState Duration="240.00002" Power="0.88" pace="0" />
+        <SteadyState Duration="180.00002" Power="0.55000001" pace="0">
+            <textevent timeoffset="20" message="Great work with the 4min efforts." locIndex="27" />
+            <textevent timeoffset="150" message="Now we finish with the same efforts as the opening set." locIndex="28" />
+            <textevent timeoffset="160" message="You should be feeling the effects of depleted carbs in this final set." locIndex="29" />
+            <textevent timeoffset="170.00002" message="But that&apos;s good! This is where the adaptations occur." locIndex="30" />
+        </SteadyState>
+        <SteadyState Duration="600" Power="0.65449995" pace="0" />
+        <Ramp Duration="270" PowerLow="0.69999999" PowerHigh="0.81999999" pace="0">
+            <textevent timeoffset="19" message="Once again we ramp up the effort during the interval." locIndex="31" />
+            <textevent timeoffset="30.000002" message="Finishing each interval with a 30sec surge." locIndex="32" />
+        </Ramp>
+        <SteadyState Duration="30.000002" Power="1.0599999" pace="0" />
+        <Ramp Duration="270" PowerLow="0.69999999" PowerHigh="0.81999999" pace="0">
+            <textevent timeoffset="20" message="How do these intervals feel compared to the 1st set?" locIndex="33" />
+        </Ramp>
+        <SteadyState Duration="30.000002" Power="1.0599999" pace="0" />
+        <Ramp Duration="270" PowerLow="0.69999999" PowerHigh="0.81999999" pace="0">
+            <textevent timeoffset="20" message="Almost there. Just 4 more intervals." locIndex="34" />
+        </Ramp>
+        <SteadyState Duration="30.000002" Power="1.0599999" pace="0" />
+        <Ramp Duration="270" PowerLow="0.69999999" PowerHigh="0.81999999" pace="0">
+            <textevent timeoffset="20" message="Just 3 more surges to go." locIndex="35" />
+        </Ramp>
+        <SteadyState Duration="30.000002" Power="1.0599999" pace="0" />
+        <Ramp Duration="270" PowerLow="0.69999999" PowerHigh="0.81999999" pace="0" />
+        <SteadyState Duration="30.000002" Power="1.0599999" pace="0" />
+        <Ramp Duration="270" PowerLow="0.69999999" PowerHigh="0.81999999" pace="0">
+            <textevent timeoffset="250.00002" message="Last effort!" locIndex="36" />
+        </Ramp>
+        <SteadyState Duration="30.000002" Power="1.0599999" pace="0" />
+        <Ramp Duration="570" PowerLow="0.75" PowerHigh=".60" pace="0">
+            <textevent timeoffset="10" message="Fantastic effort today." locIndex="37" />
+            <textevent timeoffset="30.000002" message="That&apos;s a quality session completed by you." locIndex="38" />
+        </Ramp>
+    </workout>
+</workout_file>

@@ -1,0 +1,66 @@
+<workout_file>
+    <uniqueId>14cd5d00-0d53-4341-a5d3-0bc958848c5f</uniqueId>
+    <legacyIdHash>3977970159</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>AC + Sweet Spot #1</name>
+    <description>The aim today is to both work on your anaerobic capacity, and to also improve your aerobic efficiency. Start out completing a series of AC intervals, before finishing with a sustained sweet spot effort. By depleting your carbohydrate stores with the AC intervals, the sweet spot effort may not be as comfortable as it should be!</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>TT Tune Up</category>
+    <subcategory>Week 6</subcategory>
+    <tags>
+    </tags>
+    <workout>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="129" message="High RPM in warm up sprints" locIndex="1" />
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="10" OffDuration="50" OnPower="2" OffPower="0.5" />
+        <Ramp Duration="180" PowerLow="0.6" PowerHigh="0.75">
+            <textevent timeoffset="30" message="This time we slowly ramp up the power a little." locIndex="2" />
+        </Ramp>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="30" message="AC intervals are hard efforts." locIndex="3" />
+            <textevent timeoffset="40" message="Today we end the session with a 5min Sweet Spot effort." locIndex="4" />
+            <textevent timeoffset="50" message="How much have the proceeding AC intervals affected your Sweet Spot effort?" locIndex="5" />
+        </SteadyState>
+        <Ramp Duration="300" PowerLow="0.9" PowerHigh="1.04">
+            <textevent timeoffset="20" message="To help prepare for the AC work we have a 5min threshold effort." locIndex="6" />
+        </Ramp>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="100" message="We start with the highest power AC interval first." locIndex="7" />
+            <textevent timeoffset="120" message="3min recovery should be adequate enough to bring your HR back to normal levels." locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.5" />
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="20" message="How did that feel? " locIndex="9" />
+            <textevent timeoffset="40" message="A little less power for the next one. But still hard!" locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.43" />
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="20" message="Great work. Just 3 to go." locIndex="11" />
+            <textevent timeoffset="40" message="These high power efforts require concentration." locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.36" />
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="150" message="Is your HR returning to the same level as earlier?" locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.29" />
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="0" message="Last one!" locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.22" />
+        <SteadyState Duration="300" Power="0.5">
+            <textevent timeoffset="100" message="Now to recover for the Sweet Spot effort." locIndex="15" />
+            <textevent timeoffset="120" message="For the final effort, the power starts high and gradually decreases." locIndex="16" />
+            <textevent timeoffset="130" message="This is where the effects of the AC intervals are evident." locIndex="17" />
+            <textevent timeoffset="140" message="Will your HR decrease with the power?" locIndex="18" />
+        </SteadyState>
+        <Ramp Duration="600" PowerLow="0.94" PowerHigh="0.88">
+            <textevent timeoffset="30" message="How do the legs feel from the AC efforts?" locIndex="19" />
+            <textevent timeoffset="150" message="Is your HR decreasing with the power?" locIndex="20" />
+        </Ramp>
+        <Cooldown Duration="300" PowerLow="0.75" PowerHigh="0.45">
+            <textevent timeoffset="150" message="That was a big session. Hard... but good gains made from training like this." locIndex="21" />
+        </Cooldown>
+    </workout>
+</workout_file>

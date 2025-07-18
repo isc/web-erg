@@ -1,0 +1,55 @@
+<workout_file>
+    <uniqueId>44bd67fa-6e0f-4ed8-9346-7993e710dab9</uniqueId>
+    <legacyIdHash>1621662991</legacyIdHash>
+    <author>Zwift</author>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>4wk PRL Prep</category>
+    <subcategory>Week 3</subcategory>
+    <name>Week 3.5 - 20min Tempo w/15sec surge</name>
+    <description>Completing 2 x 20min Tempo efforts today. However, the sustained effort is broken up with 15 second surges.
+
+We also vary the target cadence during the tempo effort from 75rpm in the first Interval, to 95rpm in the second Interval.
+
+Complete the 15 second surges out of the seat, before settling back into the Tempo effort. </description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS" />
+        <tag name="PRL" />
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.50449997" PowerHigh="0.75449997">
+            <textevent timeoffset="515" message="Target cadence of 75rpm" locIndex="1" y="270" />
+            <textevent timeoffset="515" message="for the first 20min effort." locIndex="2" y="290" />
+        </Warmup>
+        <SteadyState Duration="285" Power="0.88449997" Cadence="75">
+            <textevent timeoffset="240" message="Out of the seat for" locIndex="3" y="270" />
+            <textevent timeoffset="240" message="the 15sec surge." locIndex="4" y="290" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="1.5044999" />
+        <SteadyState Duration="285" Power="0.88449997" Cadence="75">
+            <textevent timeoffset="200" message="Note how your heart rate" locIndex="5" y="270" />
+            <textevent timeoffset="200" message="responds during the interval." locIndex="6" y="290" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="1.5" />
+        <SteadyState Duration="285" Power="0.88449997" Cadence="75" />
+        <SteadyState Duration="15" Power="1.5" />
+        <SteadyState Duration="285" Power="0.88449997" Cadence="75" />
+        <SteadyState Duration="15" Power="1.5" />
+        <SteadyState Duration="300" Power="0.5">
+            <textevent timeoffset="250" message="Target cadence of 95rpm" locIndex="7" y="270" />
+            <textevent timeoffset="250" message="for the second 20min effort." locIndex="8" y="290" />
+        </SteadyState>
+        <SteadyState Duration="285" Power="0.88449997" Cadence="95" />
+        <SteadyState Duration="15" Power="1.5044999" />
+        <SteadyState Duration="285" Power="0.88449997" Cadence="95" />
+        <SteadyState Duration="15" Power="1.5044999" />
+        <SteadyState Duration="285" Power="0.88449997" Cadence="95">
+            <textevent timeoffset="200" message="How has the change in cadence" locIndex="9" y="270" />
+            <textevent timeoffset="200" message="affected your heart rate?" locIndex="10" y="290" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="1.5044999" />
+        <SteadyState Duration="285" Power="0.88449997" Cadence="95" />
+        <SteadyState Duration="15" Power="1.5044999" />
+        <Cooldown Duration="600" PowerLow="0.75449997" PowerHigh="0.50449997" />
+    </workout>
+</workout_file>

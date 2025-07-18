@@ -1,0 +1,21 @@
+<workout_file>
+    <uniqueId>9c512f9b-aabb-43b1-9ba5-2bb173dab9d5</uniqueId>
+    <legacyIdHash>405154751</legacyIdHash>
+    <name>Week 11.4 - 3x15min Crisscross</name>
+    <description>3 x 15 minute Crisscross intervals. A "crisscross" interval is an interval where you vary your efforts to really teach your body to clear lactate. </description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <category>Active Offseason</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 11</subcategory>
+    <workout>
+        <Warmup Duration="900" PowerLow="0.25" PowerHigh="0.75" />
+        <IntervalsT Repeat="6" OnDuration="30" OffDuration="120" PowerOnLow="1.2045" PowerOnHigh="1.2045" PowerOffLow="0.90449995" PowerOffHigh="0.90449995" />
+        <SteadyState Duration="300" PowerLow="0.65449995" PowerHigh="0.65449995" />
+        <IntervalsT Repeat="6" OnDuration="30" OffDuration="120" PowerOnLow="1.2045" PowerOnHigh="1.2045" PowerOffLow="0.90449995" PowerOffHigh="0.90449995" />
+        <SteadyState Duration="300" PowerLow="0.65449995" PowerHigh="0.65449995" />
+        <IntervalsT Repeat="6" OnDuration="30" OffDuration="120" PowerOnLow="1.2045" PowerOnHigh="1.2045" PowerOffLow="0.90449995" PowerOffHigh="0.90449995" />
+        <SteadyState Duration="300" PowerLow="0.65449995" PowerHigh="0.65449995" />
+        <IntervalsT Repeat="2" OnDuration="300" OffDuration="180" PowerOnLow="1.0545" PowerOnHigh="1.0545" PowerOffLow="0.65449995" PowerOffHigh="0.65449995" />
+        <Cooldown Duration="840" PowerLow="0.75449997" PowerHigh="0.2545" />
+    </workout>
+</workout_file>

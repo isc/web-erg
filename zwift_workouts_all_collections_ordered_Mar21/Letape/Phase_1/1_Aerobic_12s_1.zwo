@@ -1,0 +1,83 @@
+<workout_file>
+    <uniqueId>3271f681-cfa2-48da-9b6d-8ac5199e4647</uniqueId>
+    <legacyIdHash>1684444802</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Phase 1.1 - Aerobic 12&apos;s #1</name>
+    <description>L&apos;Etape du Tour will require a largely aerobic effort from you. With 135km and 4563m in elevation gain, the more efficient you are in your fuel source, the more energy you will have for the final climb to the finish.
+
+Aerobic Endurance workouts are aimed at improving your efficiency at lower intensity levels. Training your muscles to access fat as its main fuel source and preserve your precious glycogen stores for the finale.
+
+After warming up, you will be completing 3 x 12min aerobic efforts with 3min recovery. 
+    </description>
+    <sportType>bike</sportType>
+    <category>L&apos;Etape du Tour Training Club</category>
+    <subcategory>Phase 1</subcategory>
+    <visibleAfterTime>1553472000</visibleAfterTime>
+    <tags />
+    <workout>
+        <SteadyState Duration="300" Power="0.5" pace="8268">
+            <textevent timeoffset="50" message="Today&apos;s session is a low intensity workout." locIndex="1" />
+            <textevent timeoffset="70" message="It&apos;s a comfortable, yet effective aerobic workout." locIndex="2" />
+            <textevent timeoffset="120" message="It&apos;s aimed at improving your efficiency at lower intensity levels" locIndex="3" />
+            <textevent timeoffset="150" message="To improve your ability to attack the climbs in L&apos;Etape du Tour, we first need to work on your aerobic efficiency." locIndex="4" />
+            <textevent timeoffset="170" message="As part of our Early Base training phase, this session focuses on improving your endurance, so you can kick butt in the long haul." locIndex="5" />
+            <textevent timeoffset="190" message="Think of it as the speed that you comfortably ride when talking to the person next to you." locIndex="6" />
+            <textevent timeoffset="280" message="To continue your warmup, we have a steady zone 3 effort." locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.69999999" pace="8268">
+            <textevent timeoffset="20" message="Aim for a high cadence during this warmup interval." locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.5" pace="8268">
+            <textevent timeoffset="20" message="Great job. Now for a short recovery before completing the warmup." locIndex="9" />
+            <textevent timeoffset="110" message="Now we have a 3min threshold effort to prepare for the work ahead." locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.89999998" pace="8268">
+            <textevent timeoffset="30" message="It is mportant to touch on zone 4 for a short period during the warmup." locIndex="11" />
+            <textevent timeoffset="60" message="Push a little more and let&apos;s get that high cadence again during this effort." locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.5" pace="8268">
+            <textevent timeoffset="59" message="Engine should be firing on all cylinders. Ready for the main sets?" locIndex="13" />
+            <textevent timeoffset="120" message="Each aerobic effort is proceeded with a 30sec surge." locIndex="14" />
+        </SteadyState>
+        <IntervalsT Repeat="3" OnDuration="30" OffDuration="210" OnPower="0.90327716" OffPower="0.75449997" pace="8268" OverUnder="1">
+            <textevent timeoffset="60" message="Aerobic Endurance workouts are aimed at improving your efficiency at lower intensity levels." locIndex="15" />
+            <textevent timeoffset="80" message="Training your muscles to access fat as its main fuel source." locIndex="16" />
+            <textevent timeoffset="100" message="Preserving your precious glycogen stores for long climbs of L&apos;Etape du Tour." locIndex="17" />
+            <textevent timeoffset="120" message="The power you are producing now is typical of what you might aim for in the valleys of L&apos;Etape du Tour." locIndex="18" />
+            <textevent timeoffset="324" message="Back to aerobic level power now." locIndex="19" />
+            <textevent timeoffset="450" message="Ready to surge again. It&apos;s fine to get out of the saddle for these efforts." locIndex="20" />
+        </IntervalsT>
+        <SteadyState Duration="180" Power="0.5" pace="8268">
+            <textevent timeoffset="30" message="During the recovery interval your cadence can be a little lower than the intervals." locIndex="21" />
+            <textevent timeoffset="160" message="Onto the next set now." locIndex="22" />
+        </SteadyState>
+        <IntervalsT Repeat="3" OnDuration="30" OffDuration="210" OnPower="0.90449995" OffPower="0.75449997" pace="8268" OverUnder="1">
+            <textevent timeoffset="60" message="This should be a relatively comfortable session today." locIndex="23" />
+            <textevent timeoffset="80" message="The lower intensity from today&apos;s session means you will be fully recovered tomorrow." locIndex="24" />
+            <textevent timeoffset="100" message="We are building the base for L&apos;Etape du Tour." locIndex="25" />
+            <textevent timeoffset="160" message="As you know, the power you are producing now is typical of what you might aim for in the valleys of L&apos;Etape du Tour." locIndex="26" />
+            <textevent timeoffset="324" message="At this intensity you should be able to sing your favorite song and hold a conversation comfortably" locIndex="27" />
+            <textevent timeoffset="450" message="Ready to surge again. Remember, it&apos;s fine to get out of the saddle for these efforts." locIndex="28" />
+        </IntervalsT>
+        <SteadyState Duration="180" Power="0.5" pace="8268">
+            <textevent timeoffset="30" message="Today should be a &apos;comfortable&apos; day for you." locIndex="29" />
+            <textevent timeoffset="100" message="There are good gains to make with effective lower power sessions." locIndex="30" />
+        </SteadyState>
+        <IntervalsT Repeat="3" OnDuration="30" OffDuration="210" OnPower="0.90197015" OffPower="0.75" pace="8268" OverUnder="1">
+            <textevent timeoffset="50" message="Into the 3rd set now. Are the legs feeling any fatigue?" locIndex="31" />
+            <textevent timeoffset="70" message="A good sign of aerobic fitness is to have the same cadence as in the 1st set." locIndex="32" />
+            <textevent timeoffset="90" message="High cadence during the lower intensity portion of L&apos;Etape du Tour will be important." locIndex="33" />
+            <textevent timeoffset="100" message="The more &apos;supple&apos; the legs, the more likely you are to be able to repeat high intensity efforts." locIndex="34" />
+            <textevent timeoffset="200" message="This is the type of session that can be repeated each week." locIndex="35" />
+            <textevent timeoffset="300" message="This is a good session to get some volume in without any accumulated fatigue." locIndex="36" />
+        </IntervalsT>
+        <Cooldown Duration="300" PowerLow="0.75" PowerHigh="0.44999999" pace="8268">
+            <textevent timeoffset="40" message="Keep the fan running and get a good cool down after that." locIndex="37" />
+            <textevent timeoffset="70" message="It&apos;s important to bring the HR down from high to low gradually." locIndex="38" />
+            <textevent timeoffset="90" message="Remember to check your Zwift email inbox for updates on the L&apos;Etape du Tour Training Club Schedule." locIndex="39" />
+            <textevent timeoffset="110" message="There is more than just structured workouts that will increase your fitness." locIndex="40" />
+            <textevent timeoffset="110" message="We&apos;ve sprinkled in Zwift races and endurance rides to round out the training and keep things fun." locIndex="41" />
+            <textevent timeoffset="125" message="Make sure you&apos;ve read what is included in Phase 1 of the training plan so you don&apos;t miss a beat" locIndex="42" />
+        </Cooldown>
+    </workout>
+</workout_file>

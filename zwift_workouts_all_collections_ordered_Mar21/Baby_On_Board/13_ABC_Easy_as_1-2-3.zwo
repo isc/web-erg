@@ -1,0 +1,153 @@
+<workout_file>
+    <uniqueId>a36babd1-8c89-4752-9228-b68d62852a26</uniqueId>
+    <legacyIdHash>1804529428</legacyIdHash>
+    <author>Kristin Armstrong</author>
+    <categoryOverride>Threshold</categoryOverride>
+    <name>ABC Easy as 1-2-3</name>
+    <description>This workout consists of 5 sets of 3x 1-minute steps building from 80-100% of your FTP (Tempo to Threshold) with a :30 second relief after each and a 1:30 minute recovery segment following each set.</description>
+    <sportType>bike</sportType>
+    <tags />
+    <category>Baby On Board</category>
+    <categoryIndex>13</categoryIndex>
+    <workout>
+        <SteadyState Duration="30" Power="0.35" Cadence="85">
+            <textevent timeoffset="0" message="Welcome to ABC Easy as 1-2-3!" locIndex="1" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.4" Cadence="85">
+            <textevent timeoffset="0" message="This workout is part of Baby on Board, designed by Dani Rowe and Kristin Armstrong." locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.45" Cadence="85">
+            <textevent timeoffset="0" message="This series is designed to keep you active throughout pregnancy by providing you 12 weeks of 30-40 minute structured workouts. " locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.5" Cadence="85">
+            <textevent timeoffset="0" message="The key to training during pregnancy is consistency." locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="45" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="As a guide - you should always be able to hold a conversation during these workouts. " locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="45" Power="0.6" Cadence="85">
+            <textevent timeoffset="0" message="Keep an eye on your heart rate - you should not be anywhere near your max." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="45" Power="0.65" Cadence="85">
+            <textevent timeoffset="0" message="It is vital that your core body temperature doesn&apos;t get too high. Make sure you have a fan blasting and keep hydrated." locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="45" Power="0.7" Cadence="85">
+            <textevent timeoffset="0" message="Listen to your body, and don&apos;t worry if you need to lower the bias during these workouts to complete." locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="Today&apos;s ride consists of 5 sets of 3x 1 minute steps building from Tempo to Threshold with a :30 second relief following each." locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.8">
+            <textevent timeoffset="0" message="Here we go, let&apos;s do this!" locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="Throughout the ride today remember to hydrate!" locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.9">
+            <textevent timeoffset="0" message="A good thing to notice and take note of during these ramp ups is your cadence. " locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="Spin easy, take a deep breath and get ready for our last minute of this first set." locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1">
+            <textevent timeoffset="0" message="What is your cadence and is there a difference during each of these 1-minute builds?" locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="Great Work!" locIndex="15" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="As a reminder, the purpose of our 12-week series is to keep moving and active throughout your pregnancy." locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.8" Cadence="85">
+            <textevent timeoffset="0" message="Set #2, here we go!" locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="Keep your body nice and relaxed as you continue to build." locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.9" Cadence="85">
+            <textevent timeoffset="0" message="If there are large differences in your cadence from each minute try and keep as consistent for each as you can." locIndex="19" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="Nice and easy here!" locIndex="20" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1" Cadence="85">
+            <textevent timeoffset="0" message="1-minute to go!" locIndex="21" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="How are you feeling? " locIndex="22" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="Fan placement and keeping cool is essential during any Zwift session. " locIndex="23" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.8" Cadence="85">
+            <textevent timeoffset="0" message="We are reaching the 1/2 way point of todays session!" locIndex="24" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="Drink!" locIndex="25" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.9" Cadence="85">
+		</SteadyState>
+        <SteadyState Duration="30" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="Spin easy." locIndex="26" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1" Cadence="85">
+            <textevent timeoffset="0" message="Over half-way through our session." locIndex="27" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="It&apos;s important to always listen to your body!" locIndex="28" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="You can always adjust your difficulty by pushing the up and down arrows via your Companion app. " locIndex="29" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.8" Cadence="85">
+            <textevent timeoffset="0" message="TWO sets to go!" locIndex="30" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="Relax the mind and the body." locIndex="31" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.9" Cadence="85">
+            <textevent timeoffset="0" message="Bringing it up a notch!" locIndex="32" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="Easy." locIndex="33" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1" Cadence="85">
+		</SteadyState>
+        <SteadyState Duration="30" Power="0.55" Cadence="85">
+		</SteadyState>
+        <SteadyState Duration="90" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="This last set let&apos;s focus on form.  Are your shoulders relaxed, core engaged, elbows bent?" locIndex="34" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.8" Cadence="85">
+            <textevent timeoffset="0" message="Last one, make it the best one!" locIndex="35" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.55" Cadence="85">
+		</SteadyState>
+        <SteadyState Duration="60" Power="0.9" Cadence="85">
+            <textevent timeoffset="0" message="Keep focused, just a couple minutes to go!" locIndex="36" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.55" Cadence="85">
+		</SteadyState>
+        <SteadyState Duration="60" Power="1" Cadence="85">
+            <textevent timeoffset="0" message="60 seconds and we are there! " locIndex="37" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="Be mindful of cadence and power output.  What is your comfort zone with each?  " locIndex="38" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.6" Cadence="85">
+            <textevent timeoffset="0" message="Good work! That&apos;s ABC Easy as 1-2-3 complete." locIndex="39" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.55" Cadence="85">
+            <textevent timeoffset="0" message="Remember, the key to fitness is consistency - little and often." locIndex="40" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.5" Cadence="85">
+            <textevent timeoffset="0" message="You should not have felt excessively hot during today&apos;s workout. " locIndex="41" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.45" Cadence="85">
+            <textevent timeoffset="0" message="It&apos;s vital that your core body temperature doesn&apos;t get too high during pregnancy. " locIndex="42" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.4" Cadence="85">
+            <textevent timeoffset="0" message="See you on the next workout - Dani and Kristin " locIndex="43" />
+        </SteadyState>
+    </workout>
+</workout_file>

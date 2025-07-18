@@ -1,0 +1,40 @@
+<workout_file>
+    <uniqueId>87d46df9-f843-4ffa-8334-cbe25b0b56d8</uniqueId>
+    <legacyIdHash>1670915493</legacyIdHash>
+    <author>Zwift</author>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>4wk FTP Booster</category>
+    <subcategory>Week 3</subcategory>
+    <name>Week 3.2 - Sub-threshold XX #1</name>
+    <description>This is a challenging session that builds upon the earlier work of steady sub-threshold efforts.
+
+By challenging your ability to process lactate at near threshold power,  you will increase your time to exhaustion and increase endurance.
+
+All this is achieved with a 30min steady state effort that dips briefly into the realms of VO2. </description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS" />
+        <tag name="4weekftp" />
+    </tags>
+    <workout>
+        <SteadyState Duration="300" Power="0.50449997">
+            <textevent timeoffset="240" message="Varying cadence during warm up." locIndex="1" />
+        </SteadyState>
+        <IntervalsT Repeat="5" OnDuration="30" OffDuration="30" OnPower="0.65449995" OffPower="0.80449992" OverUnder="1" Cadence="90" CadenceResting="95" />
+        <SteadyState Duration="180" Power="0.50449997">
+            <textevent timeoffset="80" message="Prepare yourself mentally" locIndex="2" y="240" />
+            <textevent timeoffset="80" message="for the 30min effort ahead." locIndex="3" y="270" />
+        </SteadyState>
+        <IntervalsT Repeat="10" OnDuration="150" OffDuration="30" OnPower="0.91449994" OffPower="1.2045" Cadence="90" CadenceResting="95">
+            <textevent timeoffset="120" message="Lift rpm for the 30sec efforts" locIndex="4" />
+            <textevent timeoffset="185" message="Back to sub-threshold effort." locIndex="5" />
+            <textevent timeoffset="970" message="Is your HR rising" locIndex="6" y="270" />
+            <textevent timeoffset="970" message="as the session goes on?" locIndex="7" y="290" />
+            <textevent timeoffset="1377" message="Just 3 surges to go." locIndex="8" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.50449997">
+            <textevent timeoffset="30" message="How much did HR rise," locIndex="9" y="240" />
+            <textevent timeoffset="30" message="over the 30min effort?" locIndex="10" y="270" />
+        </SteadyState>
+    </workout>
+</workout_file>

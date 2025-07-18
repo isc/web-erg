@@ -1,0 +1,40 @@
+<workout_file>
+    <uniqueId>83c5c58c-e71d-4158-91fa-f397ef82c50c</uniqueId>
+    <legacyIdHash>2509283478</legacyIdHash>
+    <author>Zwift</author>
+    <name>Week 4.2 - Tempo climbing #1</name>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>4wk PRL Prep</category>
+    <subcategory>Week 4</subcategory>
+    <description>The basis of today&apos;s session is to simulate long tempo climbs.
+
+However, each Tempo interval is completed with a different high intensity effort.
+
+The tempo portion of each interval is completed at a low climbing cadence.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS" />
+        <tag name="PRL" />
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.50493658" PowerHigh="0.75" />
+        <SteadyState Duration="900" Power="0.88449997" Cadence="75">
+            <textevent timeoffset="850" message="Ready to finish with a " locIndex="1" y="270" />
+            <textevent timeoffset="850" message="high power 30sec effort?" locIndex="2" y="290" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.5044999" />
+        <SteadyState Duration="300" Power="0.55000001" />
+        <SteadyState Duration="600" Power="0.80449992" Cadence="75">
+            <textevent timeoffset="550" message="Finish with a 10min" locIndex="3" y="270" />
+            <textevent timeoffset="550" message="threshold effort." locIndex="4" y="290" />
+        </SteadyState>
+        <SteadyState Duration="600" Power="0.98449993" />
+        <SteadyState Duration="300" Power="0.55000001" />
+        <SteadyState Duration="300" Power="0.80449992" Cadence="75">
+            <textevent timeoffset="250" message="Finishing with a high power" locIndex="5" y="270" />
+            <textevent timeoffset="250" message="5min effort this time." locIndex="6" y="290" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="1.0545" />
+        <Cooldown Duration="300" PowerLow="0.75449997" PowerHigh="0.50449997" />
+    </workout>
+</workout_file>

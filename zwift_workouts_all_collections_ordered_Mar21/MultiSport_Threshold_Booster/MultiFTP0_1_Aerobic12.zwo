@@ -1,0 +1,120 @@
+<workout_file>
+    <uniqueId>1ab6b298-96a0-4132-b988-febd2c4e8fd3</uniqueId>
+    <legacyIdHash>2615502533</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Aerobic 12s #2</name>
+    <description>Aerobic endurance workouts are aimed at improving your efficiency at lower intensity levels. Training your muscles to access fat as its main fuel source and preserve your precious glycogen stores for the finale. After warming up, you will be completing a series of long aerobic efforts with short recovery. Keep an eye on your heart rate response to the sustained power. Are you achieving the same heart rate in the third effort as the first?</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>0</visibleOutsidePlan>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>Multi-Sport Threshold Booster</category>
+    <subcategory>Preplan</subcategory>
+    <tags>
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.45" PowerHigh="0.7">
+            <textevent timeoffset="0" message="Welcome, friend! Let&apos;s get started with a nice easy 5 minute warm-up. Keep your cadence comfortable here." locIndex="1" />
+            <textevent timeoffset="30" message="This plan is cycling-focused, and today&apos;s workout is geared towards improving your aerobic capacity," locIndex="2" />
+            <textevent timeoffset="40" message="As well as improving your efficiency at lower intensity levels," locIndex="3" />
+            <textevent timeoffset="50" message="And training your muscles to access fat as its main fuel source." locIndex="4" />
+            <textevent timeoffset="80" message="The plan for today is to perform 4, 12 minute intervals with a short 3 minute rest in between each." locIndex="5" />
+            <textevent timeoffset="90" message="The intervals consist of alternating 30 seconds @90% FTP with 3.5 minutes @75% FTP." locIndex="6" />
+            <textevent timeoffset="100" message="The 30 second surge is there to add an extra stimulus to the workout." locIndex="7" />
+            <textevent timeoffset="110" message="Let&apos;s focus on the rest of this warm-up for now." locIndex="8" />
+        </Warmup>
+        <SteadyState Duration="60" Power="0.7">
+            <textevent timeoffset="0" message=" Okay, now keep it steady here for 1 minute. Focus on taking a few deep breaths and getting yourself ready mentally." locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="0" message="Good work, now take a short rest, and get ready to ramp things up to really get those legs ready for today." locIndex="10" />
+            <textevent timeoffset="50" message="In 10 seconds, we&apos;re increasing the effort. Fast cadence here, aim for 100+ RPM." locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.9">
+            <textevent timeoffset="0" message="Let&apos;s go! Keep those feet moving fast, but don&apos;t get sloppy with your technique at the higher RPM range." locIndex="12" />
+            <textevent timeoffset="50" message="10 more seconds, then we&apos;ll bring it down for a short rest." locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="0" message="Great work, warm-up done and dusted. Now take a short break, take some deep breaths, and get ready for the main set." locIndex="14" />
+            <textevent timeoffset="10" message="All right, my friend, get ready to rock these!" locIndex="15" />
+            <textevent timeoffset="20" message="Remember, 4, 12 minute intervals, with 30 second surges are on the agenda for today." locIndex="16" />
+            <textevent timeoffset="30" message="Also, remember to hydrate for the efforts ahead." locIndex="17" />
+            <textevent timeoffset="40" message="Even though they&apos;ll feel relatively &apos;easy&apos; don&apos;t forget to keep on top of your fluid intake." locIndex="18" />
+            <textevent timeoffset="50" message="We&apos;re starting off with a surge effort at 100+ RPM! Time to get going!" locIndex="19" />
+        </SteadyState>
+        <IntervalsT Repeat="3" OnDuration="30" OffDuration="210" OnPower="0.9" OffPower="0.75">
+            <textevent timeoffset="0" message="Let&apos;s get it! Keep your form locked solid!" locIndex="20" />
+            <textevent timeoffset="20" message="Excellent! In 10 seconds, we&apos;re settling down to a comfortable intensity and cadence." locIndex="21" />
+            <textevent timeoffset="30" message="Settle down here. Lower your cadence in a controlled manner to whatever feels comfortable to you." locIndex="22" />
+            <textevent timeoffset="40" message="Most athletes will settle into the 80-90 RPM range." locIndex="23" />
+            <textevent timeoffset="50" message="Even though these surges aren&apos;t super high intensity, you still may feel like you need some recovery afterwards." locIndex="24" />
+            <textevent timeoffset="60" message="This is okay, and something you&apos;ll see improve over the course of this program." locIndex="25" />
+            <textevent timeoffset="70" message="Improving your aerobic capacity takes time, hard work, and consistency - which I know you have in spades!" locIndex="26" />
+            <textevent timeoffset="230" message="Okay, in 10 seconds, we have another 30 second surge coming." locIndex="27" />
+            <textevent timeoffset="240" message="Remember to increase your leg speed, but don&apos;t get sloppy on me!" locIndex="28" />
+            <textevent timeoffset="250" message="Up the effort, increase the cadence." locIndex="29" />
+            <textevent timeoffset="270" message="Great work! Now settle back down again and take some deep breaths if you feel like you need extra recovery." locIndex="30" />
+            <textevent timeoffset="280" message="Just 1 more surge to go." locIndex="31" />
+            <textevent timeoffset="330" message="Remember for this in between surges time, keep your cadence comfortable and body relaxed." locIndex="32" />
+            <textevent timeoffset="470" message="Okay, 1 more surge effort coming up in 10 seconds." locIndex="33" />
+            <textevent timeoffset="480" message="Spin that gear up again! Little more effort." locIndex="34" />
+            <textevent timeoffset="510" message="Well done! Just 3.5 minutes more work, then we can take a short break. EARN the rest breaks with this program!" locIndex="35" />
+            <textevent timeoffset="660" message="1 more minute, keep with it." locIndex="36" />
+            <textevent timeoffset="710" message="In 10 seconds, bring the effort way down and spin easy for a few." locIndex="37" />
+        </IntervalsT>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="0" message="Well done! 1 down, 3 to go. Take the next few minutes really easy and get ready to repeat that interval set again." locIndex="38" />
+            <textevent timeoffset="170" message="All right, focus up again here! In 10 seconds, we&apos;re back at it! We start with a 30 second surge effort again." locIndex="39" />
+        </SteadyState>
+        <IntervalsT Repeat="3" OnDuration="30" OffDuration="210" OnPower="0.9" OffPower="0.75">
+            <textevent timeoffset="0" message="UP UP, fast feet here! Get back to work!" locIndex="40" />
+            <textevent timeoffset="30" message="Nicely done, now settle back down again at 75% FTP for 3.5 minutes." locIndex="41" />
+            <textevent timeoffset="90" message="Breathe. Even though you&apos;re still putting some some effort, learn to recover under pressure." locIndex="42" />
+            <textevent timeoffset="230" message="Okay, friend, get ready for surge #2 of 3. Same idea with quick cadence!" locIndex="43" />
+            <textevent timeoffset="240" message="UP UP UP!" locIndex="44" />
+            <textevent timeoffset="270" message="Beauty! Recover a bit again here, 1 more to go for this interval." locIndex="45" />
+            <textevent timeoffset="480" message="Push it again here! Increase that effort." locIndex="46" />
+            <textevent timeoffset="510" message="Way to go! Settle back down again and spin out the last 3.5 minutes of this interval." locIndex="47" />
+        </IntervalsT>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="0" message="Way to go! 2 down, 2 to go. You are looking GREAT!" locIndex="48" />
+            <textevent timeoffset="30" message="Today should be a &apos;comfortable&apos; day for you." locIndex="49" />
+            <textevent timeoffset="100" message="There are good gains to make with effective lower power sessions, as long as you keep the effort low as prescribed." locIndex="50" />
+            <textevent timeoffset="120" message="Most athletes struggle going easy on their light days." locIndex="51" />
+            <textevent timeoffset="170" message="Okay, get ready for interval set #3!" locIndex="52" />
+        </SteadyState>
+        <IntervalsT Repeat="3" OnDuration="30" OffDuration="210" OnPower="0.9" OffPower="0.75">
+            <textevent timeoffset="0" message="SURGE!" locIndex="53" />
+            <textevent timeoffset="30" message="And recover here. Pay attention to your heart rate with this set." locIndex="54" />
+            <textevent timeoffset="40" message="A good sign of aerobic fitness is to have the same HR response as the 1st set." locIndex="55" />
+            <textevent timeoffset="50" message="If you notice a slightly higher, or slower response, this means you are becoming fatigued" locIndex="56" />
+            <textevent timeoffset="60" message="This program will help you achieve just that!" locIndex="57" />
+            <textevent timeoffset="240" message="Surging again here! Get that cadence up!" locIndex="58" />
+            <textevent timeoffset="270" message="Settle down again. Breathe. Is that heart rate continuing to creep up ever so higher?" locIndex="59" />
+            <textevent timeoffset="480" message="Final surge for this interval! Let&apos;s get it!" locIndex="60" />
+            <textevent timeoffset="510" message="Great work. Breathe again, settle yourself back down quickly after those surges." locIndex="61" />
+            <textevent timeoffset="690" message="Just 30 more seconds to go, then we rest." locIndex="62" />
+        </IntervalsT>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="0" message="Another one down, baby! Just 1 more interval to go for today." locIndex="63" />
+            <textevent timeoffset="150" message="Last set coming up quickly. This is the point where you might start feeling some fatigue." locIndex="64" />
+            <textevent timeoffset="160" message="Fight it, get stronger, and earn the fitness!" locIndex="65" />
+            <textevent timeoffset="170" message="Onto the last set. Surge to start!" locIndex="66" />
+        </SteadyState>
+        <IntervalsT Repeat="3" OnDuration="30" OffDuration="210" OnPower="0.9" OffPower="0.75">
+            <textevent timeoffset="0" message="Get GOING! Fast feet!" locIndex="67" />
+            <textevent timeoffset="30" message="Settle down again. You&apos;re in control here. Control your breathing, your form, your mental state - YOU can do this!" locIndex="68" />
+            <textevent timeoffset="230" message="Get ready for another SURGE in 10 seconds time." locIndex="69" />
+            <textevent timeoffset="240" message="UP UP UP!" locIndex="70" />
+            <textevent timeoffset="270" message="Great work today! Settle back down again. Just 1 more surge to go." locIndex="71" />
+            <textevent timeoffset="480" message="Last surge for today! Get those legs MOVING!" locIndex="72" />
+            <textevent timeoffset="510" message="Superb, just 3.5 minutes to go then we can start our cool-down. Stay in control and stay focused here." locIndex="73" />
+            <textevent timeoffset="660" message="Final minute here! You are looking great!" locIndex="74" />
+        </IntervalsT>
+        <Cooldown Duration="300" PowerLow="0.75" PowerHigh="0.45">
+            <textevent timeoffset="0" message="Way to go!! You rocked that session and should feel great about it!" locIndex="75" />
+            <textevent timeoffset="10" message="This is the type of session that can be repeated each week" locIndex="76" />
+            <textevent timeoffset="30" message="It is a good session to get some volume in without any accumulated fatigue." locIndex="77" />
+            <textevent timeoffset="60" message="Slowly bring the effort down over the next few minutes, and we&apos;ll see you next time!" locIndex="78" />
+        </Cooldown>
+    </workout>
+</workout_file>

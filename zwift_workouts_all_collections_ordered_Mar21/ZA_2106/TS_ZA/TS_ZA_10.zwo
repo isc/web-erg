@@ -1,0 +1,28 @@
+<workout_file>
+    <uniqueId>031eddf4-0408-4b20-a03c-4a3062a15527</uniqueId>
+    <legacyIdHash>911317500</legacyIdHash>
+    <name>Month 1.9 - Extended Over Unders</name>
+    <description>This is a *tough* session, make sure you are fresh and suitably motivated for this one! </description>
+    <author>trainSharp</author>
+    <category>Zwift Academy 2016</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Month 1</subcategory>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/trainSharp_Logo.tga</authorIcon>
+    <workout>
+        <Warmup Duration="900" PowerLow="0.45" PowerHigh="0.65" />
+        <SteadyState Duration="300" Zone="1" />
+        <SteadyState Duration="180" Power="0.98" />
+        <SteadyState Duration="180" Power="1.05" />
+        <SteadyState Duration="180" Power="0.98" />
+        <SteadyState Duration="120" Power="1.3" />
+        <SteadyState Duration="120" Zone="6" />
+        <SteadyState Duration="600" Zone="1" />
+        <SteadyState Duration="180" Power="0.98" />
+        <SteadyState Duration="180" Power="1.05" />
+        <SteadyState Duration="180" Power="0.98" />
+        <SteadyState Duration="120" Power="1.3" />
+        <SteadyState Duration="120" Zone="6" />
+        <SteadyState Duration="600" Zone="1" />
+        <Cooldown Duration="600" PowerLow="0.45" PowerHigh="0.65" />
+    </workout>
+</workout_file>

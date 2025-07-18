@@ -1,0 +1,103 @@
+<workout_file>
+    <uniqueId>b8ff277e-c510-42b2-93a6-e474fed67590</uniqueId>
+    <legacyIdHash>1844578731</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Position, Position!</name>
+    <description>Sometimes you need to go deep to get the better position! MTB riding requires fast starts, and high power afterwards to stay at the front.
+
+This workout will have you replicating the demands of going well outside your comfort zone, and then you still have to keep going!</description>
+    <sportType>bike</sportType>
+    <category>Singletrack Slayer</category>
+    <subcategory>Week 9</subcategory>
+    <WorkoutPlan>1</WorkoutPlan>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <tags>
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.42" PowerHigh="0.7">
+            <textevent timeoffset="50" message="As the workout title suggests, today&apos;s workout will be mimicking the demands of racing to get the best track position." locIndex="1" />
+            <textevent timeoffset="80" message="We will also be highlighting the impact that a hard effort can have on the body, and see how well you deal with pressure." locIndex="2" />
+            <textevent timeoffset="110" message="As always though, a great workout starts off with a good warm up." locIndex="3" />
+        </Warmup>
+        <SteadyState Duration="120" Power="0.5" />
+        <SteadyState Duration="180" Power="0.7">
+            <textevent timeoffset="0" message="Up to zone 2 now, feel those legs starting to loosen up!" locIndex="4" />
+            <textevent timeoffset="30" message="There are some hard efforts to come, try to focus mentally in preparation. KNOW you can do this." locIndex="5" />
+            <textevent timeoffset="140" message="But first, some warmup sprints." locIndex="6" />
+            <textevent timeoffset="160" message="Hit a high cadence in these warmup sprints." locIndex="7" />
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="10" OffDuration="50" OnPower="1.75" OffPower="0.5">
+            <textevent timeoffset="20" message="Nice work." locIndex="8" />
+            <textevent timeoffset="40" message="Try to hit a higher cadence in this next sprint." locIndex="9" />
+            <textevent timeoffset="110" message="How are those legs feeling? Faster?" locIndex="10" />
+        </IntervalsT>
+        <SteadyState Duration="120" Power="0.5" />
+        <SteadyState Duration="240" Power="0.8">
+            <textevent timeoffset="0" message="Just a slight increase here, nothing too heavy on the legs yet." locIndex="11" />
+            <textevent timeoffset="120" message="At this point, you should be starting to feel warmed up and ready, but if not, don&apos;t worry." locIndex="12" />
+            <textevent timeoffset="140" message="Everyone warms up a little bit differently, and some athletes need more than others." locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="20" message="Now for the main set." locIndex="14" />
+            <textevent timeoffset="50" message="This is going to be big!" locIndex="15" />
+            <textevent timeoffset="70" message="We are going to be racing into position with a huge anaerobic effort." locIndex="16" />
+            <textevent timeoffset="90" message="Followed up with a threshold effort!" locIndex="17" />
+            <textevent timeoffset="150" message="You can do this!" locIndex="18" />
+            <textevent timeoffset="170" message="Let&apos;s go!" locIndex="19" />
+        </SteadyState>
+        <IntervalsT Repeat="1" OnDuration="90" OffDuration="360" OnPower="1.2" OffPower="0.95">
+            <textevent timeoffset="0" message="Hit that big power!" locIndex="20" />
+            <textevent timeoffset="30" message="Out of the seat if you need to." locIndex="21" />
+            <textevent timeoffset="60" message="Picture yourself racing to be first into the single track." locIndex="22" />
+            <textevent timeoffset="90" message="Great work!" locIndex="23" />
+            <textevent timeoffset="120" message="You&apos;re in a good position. Now you need to maintain your place." locIndex="24" />
+            <textevent timeoffset="260" message="Settle into a nice rhythm." locIndex="25" />
+            <textevent timeoffset="300" message="Keep the cadence high." locIndex="26" />
+            <textevent timeoffset="350" message="This is a very good effort from you!" locIndex="27" />
+            <textevent timeoffset="420" message="The end is just up the road. Keep the pressure on!" locIndex="28" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.5">
+            <textevent timeoffset="30" message="Fantastic!" locIndex="29" />
+            <textevent timeoffset="60" message="That is a big interval." locIndex="30" />
+            <textevent timeoffset="200" message="Have a good rest period here and recuperate for the next effort." locIndex="31" />
+            <textevent timeoffset="240" message="Same thing again..." locIndex="32" />
+            <textevent timeoffset="260" message="Big start... then maintain." locIndex="33" />
+            <textevent timeoffset="280" message="Let&apos;s go!" locIndex="34" />
+        </SteadyState>
+        <IntervalsT Repeat="1" OnDuration="90" OffDuration="360" OnPower="1.2" OffPower="0.95">
+            <textevent timeoffset="0" message="Hit that big power!" locIndex="35" />
+            <textevent timeoffset="30" message="Out of the seat if you need to." locIndex="36" />
+            <textevent timeoffset="60" message="Picture yourself racing to be first into the single track." locIndex="37" />
+            <textevent timeoffset="90" message="Great work!" locIndex="38" />
+            <textevent timeoffset="120" message="You&apos;re in a good position. Now you need to maintain your place." locIndex="39" />
+            <textevent timeoffset="260" message="Settle into a nice rhythm." locIndex="40" />
+            <textevent timeoffset="300" message="Keep the cadence high." locIndex="41" />
+            <textevent timeoffset="350" message="This is a very good effort from you!" locIndex="42" />
+            <textevent timeoffset="420" message="The end is just up the road. Keep the pressure on!" locIndex="43" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.5">
+            <textevent timeoffset="30" message="Fantastic!" locIndex="44" />
+            <textevent timeoffset="60" message="2 down, 1 to go!" locIndex="45" />
+            <textevent timeoffset="200" message="Have a good rest period here and recuperate for the next effort." locIndex="46" />
+            <textevent timeoffset="240" message="Make this the best one." locIndex="47" />
+            <textevent timeoffset="260" message="Big start... then maintain." locIndex="48" />
+            <textevent timeoffset="280" message="Let&apos;s go!" locIndex="49" />
+        </SteadyState>
+        <IntervalsT Repeat="1" OnDuration="90" OffDuration="360" OnPower="1.2" OffPower="0.95">
+            <textevent timeoffset="0" message="Hit that big power!" locIndex="50" />
+            <textevent timeoffset="30" message="Out of the seat if you need to." locIndex="51" />
+            <textevent timeoffset="60" message="Picture yourself racing to be first into the single track." locIndex="52" />
+            <textevent timeoffset="90" message="Great work!" locIndex="53" />
+            <textevent timeoffset="120" message="You&apos;re in a good position. Now you need to maintain your place." locIndex="54" />
+            <textevent timeoffset="260" message="Settle into a nice rhythm." locIndex="55" />
+            <textevent timeoffset="300" message="Keep the cadence high." locIndex="56" />
+            <textevent timeoffset="350" message="This is a very good effort from you!" locIndex="57" />
+            <textevent timeoffset="420" message="The end is just up the road. Keep the pressure on!" locIndex="58" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.5">
+            <textevent timeoffset="30" message="YEAH!! Well done today! That was a tough and effective training session!" locIndex="59" />
+            <textevent timeoffset="60" message="You should be pleased with the work you completed today." locIndex="60" />
+            <textevent timeoffset="90" message="Be sure to take at least 24 hours between sessions if possible, and refuel / rehydrate well before starting it." locIndex="61" />
+        </SteadyState>
+    </workout>
+</workout_file>

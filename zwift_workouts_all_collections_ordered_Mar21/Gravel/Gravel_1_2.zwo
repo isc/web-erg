@@ -1,0 +1,135 @@
+<workout_file>
+    <uniqueId>16dc55cc-3acb-4fdf-992e-21625ca9683f</uniqueId>
+    <legacyIdHash>2944348765</legacyIdHash>
+    <author>Zwift</author>
+    <name>5x6 Sweet Spot</name>
+    <description>A little bit of sweet spot work on the docket for today. They call it the &quot;sweet spot&quot; for a reason and these efforts should be a blend of delight and pain. Hard enough to be working, but not hard enough to make you hate your life ;).</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Gravel Grinder</category>
+    <subcategory>Week 1</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow="0.45" PowerHigh="0.65">
+            <textevent timeoffset="0" message="10 minutes of easy easy riding to get the blood flow going." locIndex="1" />
+            <textevent timeoffset="365" message="Little more now." locIndex="2" />
+            <textevent timeoffset="500" message="Last bit before the preset." locIndex="3" />
+        </Warmup>
+        <SteadyState Duration="10" Power="0.7">
+            <textevent timeoffset="0" message="Just getting the pins moving here with these short and sweet watt progressions for warm up." locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="0.8">
+		</SteadyState>
+        <SteadyState Duration="10" Power="0.9">
+            <textevent timeoffset="0" message="Use an increase in RPM&apos;s to help you increase the power on these intervals!" locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.6">
+            <textevent timeoffset="0" message="Settle in on these minute breaks and find that comfortable RPM then ramp just above your comfort zone on the 30 seconds. " locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="0.7">
+		</SteadyState>
+        <SteadyState Duration="10" Power="0.8">
+            <textevent timeoffset="0" message="Hup, hup, hup!" locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="0.9">
+		</SteadyState>
+        <SteadyState Duration="60" Power="0.6">
+		</SteadyState>
+        <SteadyState Duration="10" Power="0.7">
+            <textevent timeoffset="0" message="Here we go again, nice and smooth RPM build throughout!" locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="0.8">
+		</SteadyState>
+        <SteadyState Duration="10" Power="0.9">
+		</SteadyState>
+        <SteadyState Duration="60" Power="0.6">
+            <textevent timeoffset="0" message="" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="0.7">
+            <textevent timeoffset="0" message="Easy easy, get comfy on those bars. Relax. " locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="0.8">
+		</SteadyState>
+        <SteadyState Duration="10" Power="0.9">
+		</SteadyState>
+        <SteadyState Duration="60" Power="0.6">
+		</SteadyState>
+        <SteadyState Duration="10" Power="0.7">
+            <textevent timeoffset="0" message="Last one! Let&apos;s really focus on good fluid strokes and building those RPM&apos;s!" locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="0.8">
+		</SteadyState>
+        <SteadyState Duration="10" Power="0.9">
+		</SteadyState>
+        <SteadyState Duration="60" Power="0.6">
+		</SteadyState>
+        <SteadyState Duration="240" Power="0.75">
+            <textevent timeoffset="0" message="Last little break before we get into the real stuff today but a bit of pressure on the pedals at 75% of threshold." locIndex="11" />
+            <textevent timeoffset="230" message="Ok, ready to settle in and build within this &quot;sweet spot&quot; zone?  Ready, set, go!" locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.83">
+            <textevent timeoffset="0" message="I&apos;m taking it easy on you today with some ramps throughout the zone and just at 6 minutes. " locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.9">
+            <textevent timeoffset="0" message="Get used to this effort though, we will be doing a lot of work here in the next 12 weeks!" locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.97">
+            <textevent timeoffset="0" message="This one stings just a bit over time, but luckily just 2 minutes spent here at a time today!" locIndex="15" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.6">
+            <textevent timeoffset="0" message="Easy easy, time to re-set and relax and prepare for a few more!" locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.83">
+            <textevent timeoffset="0" message="In gravel racing (and completion) the terrain and the competition will often dictate your effort to a certain extent above and below this zone but there is a lot of &quot;settling&quot; in here around the sweet spot. " locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.9">
+            <textevent timeoffset="0" message="In all racing it&apos;s an important zone for sure but in gravel it seems to be more often hit with the resistance of the road and generally variable terrain in the events.  " locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.97">
+            <textevent timeoffset="0" message="In road racing the &quot;settling&quot; is often much below this where the effect of a &quot;group&quot; helps much more when it comes to drafting and tactics etc. so the &quot;down&quot; time can often be at a lower % of threshold than that in gravel. " locIndex="19" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.6">
+            <textevent timeoffset="0" message="Ahhh, time for some hydration mix and a bite to eat maybe? I&apos;m hungry. " locIndex="20" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.83">
+            <textevent timeoffset="0" message="One this interval let&apos;s visualize a rise and a summit of a climb during out gravel event. " locIndex="21" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.9">
+            <textevent timeoffset="0" message="You&apos;re going to want to slowly build your effort if possible on an extended climb (longer than this)." locIndex="22" />
+            <textevent timeoffset="30" message="If you were to go out at 97% and then fade you would be digging a hole for the rest of the day. " locIndex="23" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.97">
+            <textevent timeoffset="0" message="A smooth build in a climb will always give you more energy near the end of the effort. Clearly you often have to keep up with the pace of your competitors, but following as much as possible and building your own effort is a great approach. " locIndex="24" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.6">
+            <textevent timeoffset="0" message="And now we are over the climb and have a chance to find some recovery on a gradual descent. Smooth RPM&apos;s to flush out the legs. " locIndex="25" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.83">
+            <textevent timeoffset="0" message="Let&apos;s work on that visualization again as we work up this effort. " locIndex="26" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.9">
+            <textevent timeoffset="0" message="Keeping your grip but also trying to be &quot;soft&quot; through your hands, elbows, and shoulders. " locIndex="27" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.97">
+            <textevent timeoffset="0" message="Keep on top of the smooth smooth rpm&apos;s. I know it&apos;s harder at this effort but keep it up!" locIndex="28" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.6">
+            <textevent timeoffset="0" message="Ahhhh. Easy days. Recover well going into our last effort here. " locIndex="29" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.83">
+            <textevent timeoffset="0" message="Here we go!" locIndex="30" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.9">
+            <textevent timeoffset="0" message="Remember how smooth and easy this felt on the first round? Let&apos;s go back to there and find that efficiency again!" locIndex="31" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.97">
+            <textevent timeoffset="0" message="Go, go, go! Nice and smooth, just 2 minutes left. Don&apos;t forget I&apos;m taking it easy on you today as far as sweet spot goes. More good work in this zone to come!" locIndex="32" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.6">
+            <textevent timeoffset="0" message="Ahh, all done! Nice and easy spin to finish this one off today." locIndex="33" />
+            <textevent timeoffset="30" message="Ok to add a little more via free ride if you like, but easy easy. Work is done today!" locIndex="34" />
+        </SteadyState>
+        <Cooldown Duration="210" PowerLow="0.55" PowerHigh="0.45">
+		</Cooldown>
+    </workout>
+</workout_file>

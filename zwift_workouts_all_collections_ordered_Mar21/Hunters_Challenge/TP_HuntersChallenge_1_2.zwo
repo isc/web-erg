@@ -1,0 +1,18 @@
+<workout_file>
+    <uniqueId>a80c56d3-2ac8-4b0f-8fd3-bb7622e5ea1c</uniqueId>
+    <legacyIdHash>2206588294</legacyIdHash>
+    <category>Hunter&apos;s Challenge</category>
+    <subcategory>Week 1</subcategory>
+    <name>Week 1.2 - Micro bursts!</name>
+    <description>Microbursts are great to do on a regular basis to make sure that you can change speeds anytime in the season and be ready for that group ride. They are annoying, but great for you!</description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.4" PowerHigh="0.7" />
+        <IntervalsT Repeat="20" OnDuration="15" OffDuration="15" PowerOnLow="1.5" PowerOnHigh="1.5" PowerOffLow="0.5" PowerOffHigh="0.5" />
+        <SteadyState Duration="300" PowerLow="0.6" PowerHigh="0.6" />
+        <IntervalsT Repeat="20" OnDuration="15" OffDuration="15" PowerOnLow="1.5" PowerOnHigh="1.5" PowerOffLow="0.5" PowerOffHigh="0.5" />
+        <SteadyState Duration="300" PowerLow="0.6" PowerHigh="0.6" />
+        <IntervalsT Repeat="20" OnDuration="15" OffDuration="15" PowerOnLow="1.5" PowerOnHigh="1.5" PowerOffLow="0.5" PowerOffHigh="0.5" />
+        <Cooldown Duration="600" PowerLow="0.75" PowerHigh="0.4" />
+    </workout>
+</workout_file>

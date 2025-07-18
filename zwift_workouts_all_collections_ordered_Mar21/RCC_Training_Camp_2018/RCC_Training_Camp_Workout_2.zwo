@@ -1,0 +1,56 @@
+<workout_file>
+    <uniqueId>78de9f80-7036-4740-b330-613e291ee17d</uniqueId>
+    <legacyIdHash>2984416847</legacyIdHash>
+    <author>Matt Rowe (Rowe and King)</author>
+    <name>RCC Training Camp Workout #2</name>
+    <categoryIndex>2</categoryIndex>
+    <category>RCC Training Camp 2018</category>
+    <entid>150</entid>
+    <description>Welcome to session 2 of the Rapha Cycling Club Training Camp. This is your first solo workout. The full training plan is exclusive to RCC members and will keep you fit and firing, and can even give you some gains on top.
+
+This session is a &apos;Sustained Low Intensity Torque&apos; (SLIT) Session, which requires you to pedal at a low cadence (60rpm) for a prolonged period of time (40 minutes) at 78% of your FTP (lower end of Zone 3). Pedaling at this low cadence, while still producing good power forces you to create a lot of crank torque, which recruits plenty of muscle fibers and helps you focus on improving your pedaling technique. A great session for developing your Strength Endurance.  
+
+ERG mode is recommended.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="Strength" />
+        <tag name="Endurance" />
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.2545" PowerHigh="0.75449997" pace="8268">
+            <textevent timeoffset="10" message="Welcome to the Rapha Cycling Club Training Camp Workout #2. ERG Mode is recommended." locIndex="1" />
+            <textevent timeoffset="20" message="Today&apos;s session is 56 minutes long and is focused on developing your Strength Endurance - a key attribute for all endurance cyclists." locIndex="2" />
+            <textevent timeoffset="30" message="You will complete one 40 minute block at lower Zone 3 (78% of FTP) - critically, at a low cadence of 60rpm." locIndex="3" />
+            <textevent timeoffset="40" message="To start, it&apos;s a standard 10 minute progressive warm up to get us in the zone, both physically and mentally." locIndex="4" />
+            <textevent timeoffset="100" message="As an RCC member you have access to this world class training plan." locIndex="5" />
+            <textevent timeoffset="200" message="There will be special rewards for completing all the workouts in this 5 week plan." locIndex="6" />
+            <textevent timeoffset="210" message="The RCC Training Camp is made up of both individual and group rides." locIndex="7" />
+            <textevent timeoffset="400" message="Let&apos;s get down to business." locIndex="8" />
+            <textevent timeoffset="500" message="You should be starting to feel sweaty by now and like you are ready to train?" locIndex="9" />
+            <textevent timeoffset="570" message="Nearing the end of the warm up now - your blood will be nice and warm, ready to supply our muscles with oxygen. " locIndex="10" />
+        </Warmup>
+        <SteadyState Duration="60" Power="0.50449997" pace="0">
+            <textevent timeoffset="12" message="A minute to relax &amp; have a drink!" locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="2400" Power="0.78449994" pace="8268" Cadence="60">
+            <textevent timeoffset="20" message="Today&apos;s effort is a single block of 40 minutes, riding at 78% of FTP (Lower Zone 3) at a low cadence of 60rpm" locIndex="12" />
+            <textevent timeoffset="40" message="Riding at this low cadence while producing good power generates a lot of Torque." locIndex="13" />
+            <textevent timeoffset="60" message="High torque requires strength. High torque for a prolonged period of time = Strength Endurance Training." locIndex="14" />
+            <textevent timeoffset="80" message="Settle in to the effort and find your rhythm. Nice and controlled, nice and smooth." locIndex="15" />
+            <textevent timeoffset="300" message="Keep the body still and composed." locIndex="16" />
+            <textevent timeoffset="320" message="All the power transfer should come from the legs. Body must be rock solid - nice and still." locIndex="17" />
+            <textevent timeoffset="700" message="Good effort - this session is all about grinding it out." locIndex="18" />
+            <textevent timeoffset="700" message="Feel the burn - it is your friend." locIndex="19" />
+            <textevent timeoffset="1100" message="Keep drinking - hydration is critical!" locIndex="20" />
+            <textevent timeoffset="1200" message="Half way through the effort now - stick with it." locIndex="21" />
+            <textevent timeoffset="1600" message="Great work, keep it going!" locIndex="22" />
+            <textevent timeoffset="2100" message="Stay composed - all the power transfer needs to come from the legs. Body must be still." locIndex="23" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow="0.65449995" PowerHigh="0.2545" pace="8268">
+            <textevent timeoffset="15" message="Good work - 5 minutes cool down now." locIndex="24" />
+            <textevent timeoffset="100" message="That&apos;s RCC Training Camp Workout 2 Complete - a great strength building session." locIndex="25" />
+            <textevent timeoffset="250" message="Important to refuel after this session - carbs, protein and hydrate!" locIndex="26" />
+            <textevent timeoffset="280" message="See you on the next RCC Training Camp Workout" locIndex="27" />
+        </Cooldown>
+    </workout>
+</workout_file>

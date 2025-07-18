@@ -1,0 +1,38 @@
+<workout_file>
+    <uniqueId>41c4ade9-b965-46f3-8baf-713964a5df6a</uniqueId>
+    <legacyIdHash>643345581</legacyIdHash>
+    <category>Active Offseason</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 2</subcategory>
+    <name>Week 2.6 - Endurance With Max Sprints</name>
+    <description>After a 15 minute high cadence warmup effort, set a pace at Endurance and hold this pace for the next 2.5 hours. Throughout the ride, do 10 x 8 second out-of-the-saddle bursts into your Neuromusclar Power Zone (MAX). Make sure cadence stays high.</description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <workout>
+        <Warmup Duration="900" Zone="2">
+            <TextEvent message="1 minute HIGH CADENCE!" locIndex="1" timeoffset="540" Duration="60" />
+            <TextEvent message="1 minute HIGH CADENCE!" locIndex="2" timeoffset="660" Duration="60" />
+            <TextEvent message="1 minute HIGH CADENCE!" locIndex="3" timeoffset="780" Duration="60" />
+        </Warmup>
+        <SteadyState Duration="900" Zone="2" />
+        <MaxEffort Duration="8" />
+        <SteadyState Duration="900" Zone="2" />
+        <MaxEffort Duration="8" />
+        <SteadyState Duration="900" Zone="2" />
+        <MaxEffort Duration="8" />
+        <SteadyState Duration="900" Zone="2" />
+        <MaxEffort Duration="8" />
+        <SteadyState Duration="900" Zone="2" />
+        <MaxEffort Duration="8" />
+        <SteadyState Duration="900" Zone="2" />
+        <MaxEffort Duration="8" />
+        <SteadyState Duration="900" Zone="2" />
+        <MaxEffort Duration="8" />
+        <SteadyState Duration="900" Zone="2" />
+        <MaxEffort Duration="8" />
+        <SteadyState Duration="900" Zone="2" />
+        <MaxEffort Duration="8" />
+        <SteadyState Duration="900" Zone="2" />
+        <MaxEffort Duration="8" />
+        <Cooldown Duration="600" Zone="1" />
+    </workout>
+</workout_file>

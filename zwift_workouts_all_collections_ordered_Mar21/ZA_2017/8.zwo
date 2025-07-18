@@ -1,0 +1,37 @@
+<workout_file>
+    <uniqueId>db4b5795-07b8-4adc-a4be-5606e2b2eaf6</uniqueId>
+    <legacyIdHash>2633839912</legacyIdHash>
+    <author>TrainSharp Cycle Coaching</author>
+    <categoryOverride>Best of Zwift Academy</categoryOverride>
+    <subcategoryOverride>ZA 2017</subcategoryOverride>
+    <name>Month 1.8 - Critical Power Test</name>
+    <WorkoutPlan>1</WorkoutPlan>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/trainSharp_Logo.tga</authorIcon>
+    <description>This TrainSharp test is designed to measure your 3 minute Critical Power. As with any test or race, ensure you are appropriately warmed up and motivated for this test. It is a short, but sharp, session today! The effort itself is 3 minutes in total duration. It is designed to be an un-paced effort, so ERG mode will automatically turn off for the interval. You&apos;re on your own for those 3 min. Hit the first 30 seconds as hard as you can, out of the saddle, trying to achieve your maximum power (we will be assessing your sprint power from the first 30 seconds of this test). As you fade through the effort, use your gears to reduce the resistance and maintain cadence. Aiming for 90-100 rpm for the duration of the test. Finish this effort completely spent, go all-out. This will feel like a very long 3 minutes, the key is to not bail on the effort regardless of how much your power fades or how hard it feels! </description>
+    <sportType>bike</sportType>
+    <visibleAfterTime>1504222780</visibleAfterTime>
+    <category>Zwift Academy 2017</category>
+    <subcategory>Month 1</subcategory>
+    <tags> 
+    </tags>
+    <workout>
+        <Warmup Duration="900" PowerLow="0.49000001" PowerHigh="0.92000002" pace="0">
+            <textevent timeoffset="0" message="Warm Up - Progressive Warm up through the zones for the duration. Sip on your bottle and take a gel if you wish during the warm up." locIndex="1" />
+        </Warmup>
+        <SteadyState Duration="180" Power="0.51499999">
+            <textevent timeoffset="0" message="Easy - Recovery, very easy no load, like an easy walk on the bike" locIndex="2" />
+        </SteadyState>
+        <IntervalsT Repeat="2" OnDuration="30" OffDuration="150" OnPower="1.245" OffPower="0.49000001" pace="0" Cadence="105" CadenceResting="100">
+            <textevent timeoffset="0" message="Spin Up - High cadence spin ups, otherwise known as &quot;acid-ups&quot;! Nice high cadence, seated efforts - not a full sprint." locIndex="3" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.505">
+            <textevent timeoffset="0" message="5 minutes easy - Take this time to prepare yourself for the effort. With 20 seconds to go, get in the right gear and set yourself up for a standing-start sprint!" locIndex="4" />
+        </SteadyState>
+        <FreeRide Duration="180" Power="1.3099999" FlatRoad="1" Cadence="92">
+            <textevent timeoffset="0" message="3 minute Critical Power Test - ERG mode will automatically turn off. Give it everything for this 3 minutes! UP-UP-UP!" locIndex="5" />
+        </FreeRide>
+        <Cooldown Duration="1200" PowerLow="0.63999999" PowerHigh="0.50999999" pace="0">
+            <textevent timeoffset="0" message="Warm Down - Finish with a good cool down. KEEP THE LEGS SPINNING immediatly after the effort if you can, it will prevent blood pooling and you feeling faint." locIndex="6" />
+        </Cooldown>
+    </workout>
+</workout_file>

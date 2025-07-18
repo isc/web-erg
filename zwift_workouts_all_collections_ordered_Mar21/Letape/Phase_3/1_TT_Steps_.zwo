@@ -1,0 +1,141 @@
+<workout_file>
+    <uniqueId>03282ddc-07cc-4a11-a203-8152d5482083</uniqueId>
+    <legacyIdHash>572179371</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Phase 3.1 - TT Steps </name>
+    <description>Focusing on efforts that increase in intensity today. Just as in L&apos;Etape du Tour de France, you will be ramping up the pace as you reach the top of the climbs. We are also looking at the repeatability of these efforts. Everyone is good on the 1st climb. We want you good on the last climb!</description>
+    <sportType>bike</sportType>
+    <category>L&apos;Etape du Tour Training Club</category>
+    <subcategory>Phase 3</subcategory>
+    <visibleAfterTime>1558051200</visibleAfterTime>
+    <tags />
+    <workout>
+        <Warmup Duration="300" PowerLow="0.45000002" PowerHigh="0.75" pace="0">
+            <textevent timeoffset="30" message="In any endurance event, there will be periods of hard riding above threshold." locIndex="1" />
+            <textevent timeoffset="50" message="When performing steady state efforts at a good pace, sometimes the road dictates that the power rises above threshold." locIndex="2" />
+            <textevent timeoffset="70" message="In today&apos;s session, we are focusing on completing comfortable steady state efforts, then having to go a little deeper." locIndex="3" />
+            <textevent timeoffset="90" message="After completing 4 &apos;TT Steps&apos; the session is completed with a 4min threshold effort." locIndex="4" />
+            <textevent timeoffset="150" message="There will be moments in L&apos;Etape du Tour de France where you are comfortable following the wheel in front of you..." locIndex="5" />
+            <textevent timeoffset="170" message="...but to stay on that wheel requires you to go above &apos;comfortable&apos; for a period of time." locIndex="6" />
+            <textevent timeoffset="280" message="To complete the warmup, we perform some 1min efforts similar to what the session ahead entails." locIndex="7" />
+        </Warmup>
+        <IntervalsT Repeat="2" OnDuration="60.000004" OffDuration="60.000004" OnPower="0.80000001" OffPower="0.5" pace="0">
+            <textevent timeoffset="20" message="Aim for a high cadence that is a little challenging for you." locIndex="8" />
+            <textevent timeoffset="40" message="1min at this effort should be comfortable." locIndex="9" />
+            <textevent timeoffset="100" message="Repeat the effort and aim to repeat the same cadence." locIndex="10" />
+            <textevent timeoffset="220" message="Same again but with a little more power this time." locIndex="11" />
+        </IntervalsT>
+        <IntervalsT Repeat="2" OnDuration="60.000004" OffDuration="60.000004" OnPower="0.98000002" OffPower="0.5" pace="0">
+            <textevent timeoffset="20" message="1min at threshold shouldn&apos;t bother you." locIndex="12" />
+            <textevent timeoffset="40" message="Getting a good sweat up now?." locIndex="13" />
+            <textevent timeoffset="100" message="Repeat the effort and aim to repeat the same cadence." locIndex="14" />
+            <textevent timeoffset="230" message="That completes the warmup." locIndex="15" />
+        </IntervalsT>
+        <SteadyState Duration="120.00001" Power="0.5" pace="0">
+            <textevent timeoffset="20" message="The main set today consists of 5min efforts, that step up in power." locIndex="16" />
+            <textevent timeoffset="40" message="Starting at a comfortable zone 3 effort for 3min." locIndex="17" />
+            <textevent timeoffset="60" message="Then stepping up to zone 4 for 1min." locIndex="18" />
+            <textevent timeoffset="80" message="Before finishing with 1min at zone 5." locIndex="19" />
+            <textevent timeoffset="110" message="Here we go with the 1st effort." locIndex="20" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.81449997" pace="0">
+            <textevent timeoffset="20" message="This is the comfortable part." locIndex="21" />
+            <textevent timeoffset="40" message="Picture yourself riding a nice tempo in L&apos;Etape du Tour de France." locIndex="22" />
+            <textevent timeoffset="60" message="The efforts today, aren&apos;t overly intense." locIndex="23" />
+            <textevent timeoffset="80" message="It&apos;s more about being able to repeat these efforts." locIndex="24" />
+            <textevent timeoffset="120" message="Aim to ride the same cadence throughout each step." locIndex="25" />
+            <textevent timeoffset="170" message="Time to pick up the pace." locIndex="26" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.95449996" pace="0">
+            <textevent timeoffset="20" message="Is your cadence the same as in the 1st step?" locIndex="27" />
+            <textevent timeoffset="50" message="Ready to pick up the pace again." locIndex="28" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.0944999" pace="0">
+            <textevent timeoffset="10" message="Above threshold power now, but it&apos;s only briefly." locIndex="29" />
+            <textevent timeoffset="30" message="Your breathing should be noticeably faster and deeper now." locIndex="30" />
+            <textevent timeoffset="50" message="You&apos;re at the top of the climb!" locIndex="31" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.50449997" pace="0">
+            <textevent timeoffset="30" message="You should feel like you worked hard. But can repeat the effort." locIndex="32" />
+            <textevent timeoffset="60" message="These type of efforts are common when riding in a group." locIndex="33" />
+            <textevent timeoffset="80" message="The pace is steady, but a small rise in the road forces the power to also rise." locIndex="34" />
+            <textevent timeoffset="120" message="In L&apos;Etape du Tour de France you will find yourself following plenty of wheels throughout the day." locIndex="35" />
+            <textevent timeoffset="220" message="Now we repeat the interval." locIndex="36" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.81449997" pace="0">
+            <textevent timeoffset="40" message="This is the level of intensity you should be aiming to complete the long climbs of L&apos;Etape du Tour de France at." locIndex="37" />
+            <textevent timeoffset="60" message="It&apos;s a nice steady pace that you can hold for long periods." locIndex="38" />
+            <textevent timeoffset="80" message="But, we also need to be able to lift the pace slightly if we need to follow a wheel." locIndex="39" />
+            <textevent timeoffset="170" message="Time to pick up the pace." locIndex="40" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.95449996" pace="0">
+            <textevent timeoffset="20" message="Is your cadence the same as in the 1st step?" locIndex="41" />
+            <textevent timeoffset="50" message="Ready to pick up the pace again." locIndex="42" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.0944999" pace="0">
+            <textevent timeoffset="10" message="Above threshold power now, but it&apos;s only briefly." locIndex="43" />
+            <textevent timeoffset="30" message="It&apos;s fine to get out of the saddle if you have to." locIndex="44" />
+            <textevent timeoffset="50" message="All the way to the top of the climb!!" locIndex="45" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.50449997" pace="0">
+            <textevent timeoffset="30" message="Great work. That&apos;s 2 efforts completed." locIndex="46" />
+            <textevent timeoffset="60" message="How are you finding the change in pace?" locIndex="47" />
+            <textevent timeoffset="80" message="Remember to aim for the same cadence throughout each of the steps." locIndex="48" />
+            <textevent timeoffset="220" message="Ready to go again." locIndex="49" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.81449997" pace="0">
+            <textevent timeoffset="20" message="Nice and steady to begin with." locIndex="50" />
+            <textevent timeoffset="40" message="Picture yourself riding a nice tempo in L&apos;Etape du Tour de France." locIndex="51" />
+            <textevent timeoffset="60" message="The efforts today, aren&apos;t overly intense." locIndex="52" />
+            <textevent timeoffset="80" message="It&apos;s more about being able to repeat these efforts." locIndex="53" />
+            <textevent timeoffset="120" message="Aim to ride the same cadence throughout each step." locIndex="54" />
+            <textevent timeoffset="170" message="Time to pick up the pace." locIndex="55" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.95449996" pace="0">
+            <textevent timeoffset="20" message="Is your cadence the same as in the 1st step?" locIndex="56" />
+            <textevent timeoffset="50" message="Ready to pick up the pace again." locIndex="57" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.0944999" pace="0">
+            <textevent timeoffset="10" message="Above threshold power now, but it&apos;s only briefly." locIndex="58" />
+            <textevent timeoffset="30" message="Your breathing should be noticeably faster and deeper now." locIndex="59" />
+            <textevent timeoffset="50" message="You&apos;re cresting the climb!" locIndex="60" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.50449997" pace="0">
+            <textevent timeoffset="30" message="Great work. Just 1 to go." locIndex="61" />
+            <textevent timeoffset="50" message="But there is a little surprise at the end!" locIndex="62" />
+            <textevent timeoffset="220" message="Ready to go again." locIndex="63" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.81449997" pace="0">
+            <textevent timeoffset="40" message="A comfortable tempo to begin with." locIndex="64" />
+            <textevent timeoffset="60" message="This is a nice steady pace that you can hold for long periods." locIndex="65" />
+            <textevent timeoffset="170" message="Time to pick up the pace." locIndex="66" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.95449996" pace="0">
+            <textevent timeoffset="20" message="Is your cadence the same as in the 1st step?" locIndex="67" />
+            <textevent timeoffset="50" message="Ready to pick up the pace again." locIndex="68" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.0944999" pace="0">
+            <textevent timeoffset="10" message="Relaxed breathing. Nice and controlled." locIndex="69" />
+            <textevent timeoffset="30" message="Focus on staying smooth and deep controlled breaths." locIndex="70" />
+            <textevent timeoffset="50" message="That&apos;s the top of the climb!" locIndex="71" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.50449997" pace="0">
+            <textevent timeoffset="20" message="Well done. That&apos;s 4 very good efforts that step up in pace." locIndex="72" />
+            <textevent timeoffset="60" message="To finish the session we are going to complete a steady threshold effort." locIndex="73" />
+            <textevent timeoffset="80" message="After the great work you&apos;ve just completed, you will feel strong in this interval." locIndex="74" />
+            <textevent timeoffset="220" message="Here we go. 4mins at threshold." locIndex="75" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.95449996" pace="0">
+            <textevent timeoffset="20" message="Just like the earlier efforts, settle into a nice rhythm early." locIndex="76" />
+            <textevent timeoffset="60" message="It&apos;s fine to adjust the FTP bias if you have to." locIndex="77" />
+            <textevent timeoffset="120" message="Halfway there." locIndex="78" />
+            <textevent timeoffset="130" message="Focus on your breathing. Inhale normally and lengthen the exhale." locIndex="79" />
+            <textevent timeoffset="180" message="Stay on top of the gear and keep a nice high cadence going." locIndex="80" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.50449997" pace="0">
+            <textevent timeoffset="30" message="Great session today." locIndex="81" />
+            <textevent timeoffset="60" message="You should feel like you worked hard, but recovery is well within 24 hours from a session like this." locIndex="82" />
+            <textevent timeoffset="120" message="Today was a good day to improve you ability to lift the pace a little, from an already steady tempo." locIndex="83" />
+        </SteadyState>
+    </workout>
+</workout_file>

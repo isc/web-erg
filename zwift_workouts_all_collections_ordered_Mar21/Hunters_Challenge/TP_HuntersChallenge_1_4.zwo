@@ -1,0 +1,18 @@
+<workout_file>
+    <uniqueId>5d213c5f-6313-4bfc-a9a9-990aed9564e6</uniqueId>
+    <legacyIdHash>214247462</legacyIdHash>
+    <category>Hunter&apos;s Challenge</category>
+    <subcategory>Week 1</subcategory>
+    <name>Week 1.4 - Cadence drills</name>
+    <description>Don&apos;t worry too much with watts or HR in this one. Just make it a fun and challenging trainer ride. 10 minutes fast warm-up with Cadence in 90-95 range and at 75% of FTP or 80% of FT HR. Then a 5 minute rest followed by 20 minutes of sweet spot pedaling with 10 bursts for 20 seconds each.</description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <workout>
+        <Warmup PowerLow="0.55" PowerHigh="0.72" Duration="600">
+            <TextEvent message="90-95 RPM CADENCE" locIndex="1" />
+        </Warmup>
+        <IntervalsT Repeat="10" OnDuration="60" OnPower="1.14" CadenceLow="100" CadenceHigh="140" OffDuration="60" OffPower="0.87" CadenceResting="85" />
+        <SteadyState Duration="300" Power="0.72" Cadence="65" />
+        <IntervalsT Repeat="10" OnDuration="20" OnPower="0.87" Cadence="110" OffDuration="100" OffPower="0.87" CadenceResting="90" />
+        <Cooldown Duration="600" PowerLow="0.72" PowerHigh="0.55" CadenceLow="60" CadenceHigh="75" />
+    </workout>
+</workout_file>

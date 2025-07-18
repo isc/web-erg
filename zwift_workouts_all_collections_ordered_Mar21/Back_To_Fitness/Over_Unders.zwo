@@ -1,0 +1,73 @@
+<workout_file>
+    <uniqueId>1c45a0c2-99d1-4150-b573-8cfdaf883438</uniqueId>
+    <legacyIdHash>856097634</legacyIdHash>
+    <author>D.Rowe (Rowe&amp;King)</author>
+    <categoryOverride>Threshold</categoryOverride>
+    <name>Week 2.2 - Over - Unders</name>
+    <description>This workout is based on the well documented &apos;over - under&apos; style workout, where you repeatedly tip yourself above and dip below your threshold power. You should get plenty of rest during the 1 minute at 90% of FTP to enable you to manage the 2 minutes spent slightly above your threshold.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <tags />
+    <category>Back to Fitness</category>
+    <subcategory>Week 2</subcategory>
+    <workout>
+        <Warmup Duration="300" PowerHigh="1.05" PowerLow="0.4">
+            <textevent message="Welcome to Over - Unders" locIndex="1" timeoffset="10" />
+            <textevent message="This workout is part of the PowerUp Prep series designed by Dani Rowe and Kristin Armstrong" locIndex="2" timeoffset="25" />
+            <textevent message="This series is designed to build your fitness and prepare you for a more intense training program" locIndex="3" timeoffset="40" />
+            <textevent message="by providing you with 12 weeks of 30-45 minute structured workouts" locIndex="4" timeoffset="50" />
+            <textevent message="This workout series assumes a low level of current fitness - maybe you are starting out training, getting back on your bike after giving birth or maybe it&apos;s your return from injury" locIndex="5" timeoffset="80" />
+            <textevent message="The key to training and improving is consistency - 30 minutes is infinitely better than nothing" locIndex="6" timeoffset="160" />
+            <textevent message="It&apos;s helpful if you have a heart rate monitor, to keep track of how your heart rate responds to efforts week to week" locIndex="7" timeoffset="210" />
+            <textevent message="Following a structured training plan like this keeps you accountable and hopefully helps you remain focused on your goals" locIndex="8" timeoffset="230" />
+            <textevent message="Listen to your body, and don&apos;t worry if you need to lower the bias during todays workout to complete" locIndex="9" timeoffset="250" />
+            <textevent message="Most importantly - enjoy!" locIndex="10" timeoffset="280" />
+        </Warmup>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent message="2 minutes easy before we get started" locIndex="11" timeoffset="13" />
+        </SteadyState>
+        <IntervalsT OffDuration="60" OffPower="0.9" OnDuration="120" OnPower="1.05" Repeat="3">
+            <textevent message="Here we go... this workout includes 2 x 9 minute blocks of effort - riding over and under your threshold power" locIndex="12" timeoffset="10" />
+            <textevent message="The 9 minute blocks are split into 3 x 2 minutes at 105% of your threshold followed by 1 minute at 90%" locIndex="13" timeoffset="30" />
+            <textevent message="This is a really tough workout that aims to nudge your threshold up" locIndex="14" timeoffset="60" />
+            <textevent message="30 seconds of the first &apos;over&apos; to go... nice work! " locIndex="15" timeoffset="90" />
+            <textevent message="1 minute slightly easier now. Don&apos;t lose your focus " locIndex="16" timeoffset="125" />
+            <textevent message="2nd block of 2 minutes - let&apos;s do this! " locIndex="17" timeoffset="190" />
+            <textevent message="Focus on a smooth pedaling technique - pulling up as well as pushing down on the pedals" locIndex="18" timeoffset="250" />
+            <textevent message="Time to relax - but only slightly" locIndex="19" timeoffset="310" />
+            <textevent message="Last super tough block before a minute of under threshold and a longer rest" locIndex="20" timeoffset="370" />
+            <textevent message="1 minute to go - let&apos;s go champ!!" locIndex="21" timeoffset="420" />
+            <textevent message="Last 60 seconds of work now - stay composed" locIndex="22" timeoffset="480" />
+            <textevent message="30 seconds to go - push all the way to the arch!" locIndex="23" timeoffset="510" />
+            <textevent message="The goal is to exert force throughout the whole pedal stroke - 360 degrees worth!" locIndex="24" timeoffset="265" />
+        </IntervalsT>
+        <SteadyState Duration="180" Power="0.51">
+            <textevent message="Fantastic work! Now you have 3 minutes to really recover" locIndex="25" timeoffset="10" />
+            <textevent message="Make sure you keep drinking throughout the session - little and often to ensure you stay hydrated" locIndex="26" timeoffset="60" />
+            <textevent message="Last 60 seconds to enjoy before we repeat the 9 minute block" locIndex="27" timeoffset="120" />
+            <textevent message="Focus on controlling your breathing - you want to try drop your heart rate as quickly as possible for max recovery" locIndex="28" timeoffset="30" />
+        </SteadyState>
+        <IntervalsT OffDuration="60" OffPower="0.91" OnDuration="120" OnPower="1.05" Repeat="3">
+            <textevent message="Here we go again - you know the score, get settled into your own rhythm" locIndex="29" timeoffset="10" />
+            <textevent message="Are you using a fan? This will make the session more manageable by keeping your core body temperature down" locIndex="30" timeoffset="60" />
+            <textevent message="Less than 7 minutes to go now - this session is a test of mental strength" locIndex="31" timeoffset="130" />
+            <textevent message="You can do it! " locIndex="32" timeoffset="180" />
+            <textevent message="If you need to get out the saddle, that&apos;s fine!" locIndex="33" timeoffset="200" />
+            <textevent message="The best thing to do in these longer blocks is take one section at a time! The 9 minutes will take care of itself - focus on each 2 and 1 minute section" locIndex="34" timeoffset="310" />
+            <textevent message="Last 2 minute block - this is where your effort really gives you a return in fitness gain" locIndex="35" timeoffset="370" />
+            <textevent message="60 seconds to go of this higher power - the cumulative fatigue will be setting in now so stay focused as this is where the big gains are made" locIndex="36" timeoffset="420" />
+            <textevent message="GO GO GO!!!!" locIndex="37" timeoffset="450" />
+            <textevent message="Brilliant work! You are into the last minute of this 9 minute block " locIndex="38" timeoffset="500" />
+            <textevent message="Amazing effort - keep it up! All the way to the arch!" locIndex="39" timeoffset="520" />
+        </IntervalsT>
+        <Cooldown Duration="300" PowerHigh="0.4" PowerLow="0.7">
+            <textevent message="Good work - that&apos;s Over - Unders complete!" locIndex="40" timeoffset="20" />
+            <textevent message="Remember, the key to fitness is consistency - try and ride your bike often" locIndex="41" timeoffset="90" />
+            <textevent message="If you cruised through today&apos;s workout, you may fancy doing a little extra riding?" locIndex="42" timeoffset="140" />
+            <textevent message="Some extra volume on top of these short, but structured workouts can help improve your endurance and fitness" locIndex="43" timeoffset="155" />
+            <textevent message="If you struggled with today&apos;s workout - I suggest you think about adjusting the bias slightly?" locIndex="44" timeoffset="220" />
+            <textevent message="A 2 or 3% adjustment can make all the difference - we are looking for these workouts to be &#8216;tough but achievable&apos;" locIndex="45" timeoffset="240" />
+            <textevent message="See you on the next Workout - Dani and Kristin" locIndex="46" timeoffset="290" />
+        </Cooldown>
+    </workout>
+</workout_file>

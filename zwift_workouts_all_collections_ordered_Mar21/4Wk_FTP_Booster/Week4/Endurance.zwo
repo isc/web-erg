@@ -1,0 +1,19 @@
+<workout_file>
+    <uniqueId>21a3ce71-bf85-4ff5-8d17-d50b018b6ef2</uniqueId>
+    <legacyIdHash>3769711165</legacyIdHash>
+    <author>Zwift</author>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>4wk FTP Booster</category>
+    <subcategory>Week 4</subcategory>
+    <name>Week 4.2 - Endurance</name>
+    <description>A steady endurance ride today.
+
+Don&apos;t forget it&apos;s fine to miss a day if you have to. Just move onto the next planned session.
+
+Ride as you feel aiming to keep power within Zone 2.</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <FreeRide Duration="3600" />
+    </workout>
+</workout_file>

@@ -1,0 +1,34 @@
+<workout_file>
+    <uniqueId>ad95a4f4-6c8e-432a-9c14-057e8be0ef7e</uniqueId>
+    <legacyIdHash>1559144281</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Week 1.2 - Sub-Threshold #1</name>
+    <category>2018 PRL100 Prep</category>
+    <subcategory>Week 1</subcategory>
+    <description>The opening 5 minute threshold effort prepares you for the following 2 x 10 Sub-Threshold Interval. Note your heart rate at the completion of the 10 minute Sub-Threshold intervals. Did max HR rise, or were you able to maintain?</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow="0.50449997" PowerHigh="0.75449997" pace="0">
+            <textevent timeoffset="30" message="Include 3 x 6 sec high cadence / low power sprints during warm up." locIndex="1" />
+        </Warmup>
+        <SteadyState Duration="60" Power="0.50449997" pace="0">
+            <textevent timeoffset="45" message="To complete your warm up we perform 5min at threshold." locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.98449993" pace="0" />
+        <SteadyState Duration="300" Power="0.55449998" pace="0" />
+        <SteadyState Duration="600" Power="0.89449996" pace="0">
+            <textevent timeoffset="564" message="What is your HR?" locIndex="3" />
+            <textevent timeoffset="26" message="Maintain your race position on the bike during the interval." locIndex="4" />
+            <textevent timeoffset="281" message="Is your heart rate continuing to rise?" locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.55449998" pace="0">
+            <textevent timeoffset="259" message="Is your heart rate back to normal resting level?" locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="600" Power="0.88867277" pace="0">
+            <textevent timeoffset="567" message="What is your HR? How does it compare to the previous effort?" locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.55000001" pace="0" />
+        <Cooldown Duration="300" PowerLow="0.75449997" PowerHigh="0.50449997" pace="0" />
+    </workout>
+</workout_file>

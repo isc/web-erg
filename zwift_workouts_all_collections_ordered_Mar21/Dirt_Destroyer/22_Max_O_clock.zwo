@@ -1,0 +1,76 @@
+<workout_file>
+    <uniqueId>5806aa0f-f40a-4896-8827-4d055a1da030</uniqueId>
+    <legacyIdHash>3181507506</legacyIdHash>
+    <author>Matt Rowe</author>
+    <name>Week 6.1 - Max O&apos;clock</name>
+    <description>This workout really works your top end - your anaerobic capacity, which is your ability to make really hard efforts.
+
+Similar to last week, we are going to complete 3 blocks of effort. However this time, the duration of each effort will decrease through each block, whilst the intensity significantly increases! The third block is full gas, as you claw your way to the end of each effort or rocky ascent!
+
+In mountain biking, to get up a short steep climb, or to get through some mud or over roots, the best way is to do it quickly - lots of power for a short period of time. Let&apos;s do this!
+</description>
+    <sportType>bike</sportType>
+    <category>Dirt Destroyer</category>
+    <subcategory>Week 6</subcategory>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <tags />
+    <workout>
+        <Warmup Duration="420.00003" PowerLow="0.43673915" PowerHigh="0.74978262" pace="0">
+            <textevent timeoffset="10" message="Welcome back to the final week of the Dirt Destroyer!" locIndex="1" />
+            <textevent timeoffset="25" message="Todays session, once again hits your anaerobic energy systems as we make repeated short, sharp efforts" locIndex="2" />
+            <textevent timeoffset="38" message="Todays we will complete 3 blocks of 8 efforts, which decrease in duration, but increase in intensity through each block" locIndex="3" />
+            <textevent timeoffset="46" message="There is a 5 minute rest between each block of efforts to ensure we can recover enough for the following block" locIndex="4" />
+            <textevent timeoffset="63" message="We have a nice progressive warm up to start, with some 30second activation efforts to get us ready for the session. " locIndex="5" />
+            <textevent timeoffset="79" message="You may have heard of Zwifter Annika Langvad? This is one her favorite warm ups!" locIndex="6" />
+            <textevent timeoffset="106" message="All mountain bike events will contain some technical parts, which you will need to navigate through technically but also produce a lot of power to get over." locIndex="7" />
+            <textevent timeoffset="116" message="For example - if you hit some boggy mud, you need to power through it, producing a real spike in power - as we will train today." locIndex="8" />
+            <textevent timeoffset="390" message="You should be feeling pretty warmed up now. Do you have a sweat on?" locIndex="9" />
+            <textevent timeoffset="401" message="Here comes the first activation effort - notice its 30 seconds, very different to a road sprint. More of a capacity effort." locIndex="10" />
+        </Warmup>
+        <SteadyState Duration="30.000002" Power="1.0944999" pace="0" />
+        <SteadyState Duration="180.00002" Power="0.50449997" pace="0">
+            <textevent timeoffset="10" message="How was that?" locIndex="11" />
+            <textevent timeoffset="31" message="Now focus on your cadence - try and find a nice smooth rhythm" locIndex="12" />
+            <textevent timeoffset="150" message="Another sprint incoming!" locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="30.000002" Power="1.0944999" pace="0" />
+        <SteadyState Duration="300" Power="0.50449997" pace="0">
+            <textevent timeoffset="9.9999313" message="Good effort - we should be pretty warm now, with a nice sweat on?" locIndex="14" />
+            <textevent timeoffset="269" message="Are you ready for the first block of 8 x 30 second efforts?" locIndex="15" />
+            <textevent timeoffset="281" message="Aim for 70-80rpm, which is a nice efficient cadence but also a cadence that you ride at a lot in mountain biking, especially when going through a technical part of the course." locIndex="16" />
+        </SteadyState>
+        <IntervalsT Repeat="8" OnDuration="30" OffDuration="30.000002" OnPower="1.4044999" OffPower="0.30450001" pace="0">
+            <textevent timeoffset="88.999954" message="Commit to these efforts - let&apos;s really hit them hard" locIndex="17" />
+            <textevent timeoffset="260.99994" message="Explode up this muddy bank - nice smooth power transfer to avoid wheels slipping" locIndex="18" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.50449997" pace="0">
+            <textevent timeoffset="244.99982" message="Second set incoming!" locIndex="19" />
+            <textevent timeoffset="290" message="The efforts in this block are shorter - only 20 seconds, but they are at. 160% of FTP! Get on top of the effort from the first pedal rev!." locIndex="20" />
+        </SteadyState>
+        <IntervalsT Repeat="8" OnDuration="20" OffDuration="30.000002" OnPower="1.6044999" OffPower="0.30450001" pace="0">
+            <textevent timeoffset="194.00043" message="These efforts will hurt - but they are hugely rewarding! Stick with it." locIndex="21" />
+            <textevent timeoffset="194.00043" message="Sit upright, and keep looking ahead. Keep your body still - you can&apos;t afford to become ragged when navigating technical terrain!" locIndex="22" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.50449997" pace="0">
+            <textevent timeoffset="225" message="Final set on it&apos;s way! Good work so far, but the third set is where the magic is done. Nail it." locIndex="23" />
+            <textevent timeoffset="252" message="Take what may be your last drink of the session..." locIndex="24" />
+            <textevent timeoffset="269" message="Even if power drops... keep giving it 100% effort. " locIndex="25" />
+            <textevent timeoffset="289" message="You can try some of these efforts out of the saddle if you like! We spend a lot of time out of the saddle mountain biking after all! " locIndex="26" />
+            <textevent timeoffset="120" message="Train smart, not hard." locIndex="27" />
+            <textevent timeoffset="135" message="Race even smarter... and race Full Gas!" locIndex="28" />
+            <textevent timeoffset="150" message="By racing Full Gas, that doesn&apos;t mean going 100% from the start." locIndex="29" />
+            <textevent timeoffset="170" message="It means going 100% and at smart times, i.e. over those steep banks where you are better just getting up and over it!" locIndex="30" />
+        </SteadyState>
+        <IntervalsT Repeat="8" OnDuration="10" OffDuration="30" OnPower="1.7045" OffPower="0.30450001" pace="0">
+            <textevent timeoffset="22.99988" message="Make the most of the recovery periods - take a drink and try recycle that lactate." locIndex="31" />
+            <textevent timeoffset="56.99994" message="Almost there... one more effort to go!" locIndex="32" />
+            <textevent timeoffset="220" message="These type of efforts are so tough psychologically. Find what works for you to be mentally tough." locIndex="33" />
+            <textevent timeoffset="235" message="In 10 minutes you could be in the shower, work done. Don&apos;t let these efforts beat you!" locIndex="34" />
+            <textevent timeoffset="250" message="Give it 100% here so the next time you are mountain biking, you will get over those steep banks that little bit easier!" locIndex="35" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.50449997" pace="0">
+            <textevent timeoffset="62.000053" message="Good job today team, that was some serious horse power we produced! Make sure you recover well - carbs and protein for recovery." locIndex="36" />
+            <textevent timeoffset="82" message="We have done a lot of muscle damage during this session, so expect some sore legs tomorrow!" locIndex="37" />
+        </SteadyState>
+    </workout>
+</workout_file>

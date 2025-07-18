@@ -1,0 +1,44 @@
+<workout_file>
+    <uniqueId>243e40b6-a164-4af7-889d-3133166d28b0</uniqueId>
+    <legacyIdHash>3362592552</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Week 3.5 - Endurance + 4x1min</name>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>2018 PRL46 Prep</category>
+    <subcategory>Week 3</subcategory>
+    <description>After warming up, the aim today is to complete 4 x 1 minute maximal efforts. 
+
+The body of the session is all &apos;free-ride&apos;, however you will be prompted when to perform the 1 minutes efforts. 
+</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <Warmup Duration="360" PowerLow="0.50449997" PowerHigh="0.70449996" pace="0">
+            <textevent timeoffset="20" message="Complete 3 x 6sec high cadence surges in your warm up." locIndex="1" />
+        </Warmup>
+        <SteadyState Duration="60" Power="0.56449997" pace="0" />
+        <SteadyState Duration="60" Power="1.0944999" pace="0" />
+        <SteadyState Duration="120" Power="0.56673717" pace="0" />
+        <SteadyState Duration="240" Power="0.90449995" pace="0" />
+        <SteadyState Duration="180" Power="0.56622946" pace="0" />
+        <FreeRide Duration="420" FlatRoad="0">
+            <textevent timeoffset="374" message="Ready for 1 minute @ max." locIndex="2" />
+            <textevent timeoffset="50" message="The aim is to produce 4 similar max 1min efforts." locIndex="3" />
+        </FreeRide>
+        <FreeRide Duration="60" FlatRoad="1" />
+        <FreeRide Duration="420" FlatRoad="0">
+            <textevent timeoffset="379" message="Ready for 1 minute @ max." locIndex="4" />
+        </FreeRide>
+        <FreeRide Duration="60" FlatRoad="1" />
+        <FreeRide Duration="420" FlatRoad="0">
+            <textevent timeoffset="377" message="Ready for 1 minute @ max." locIndex="5" />
+        </FreeRide>
+        <FreeRide Duration="60" FlatRoad="1" />
+        <FreeRide Duration="420" FlatRoad="0">
+            <textevent timeoffset="380" message="Ready for 1min @ Max!" locIndex="6" />
+        </FreeRide>
+        <FreeRide Duration="60" FlatRoad="1" />
+        <FreeRide Duration="240" FlatRoad="0" />
+        <Cooldown Duration="300" PowerLow="0.70449996" PowerHigh="0.50449997" pace="0" />
+    </workout>
+</workout_file>

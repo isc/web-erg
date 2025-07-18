@@ -1,0 +1,35 @@
+<workout_file>
+    <uniqueId>3bbaebc6-d2b7-4842-a22b-c9adc17ec210</uniqueId>
+    <legacyIdHash>1206739419</legacyIdHash>
+    <category>Hunter&apos;s Challenge</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 2</subcategory>
+    <name>Week 2.6 - Pyramid of Power</name>
+    <description>Ah, such a great workout and pyramid! Go for it!</description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <workout>
+        <Warmup Duration="900" PowerLow="0.4" PowerHigh="0.6" />
+        <SteadyState Duration="300" PowerLow="0.7" PowerHigh="0.7" />
+        <SteadyState Duration="120" PowerLow="0.4" PowerHigh="0.4" />
+        <SteadyState Duration="180" PowerLow="1.05" PowerHigh="1.05" />
+        <SteadyState Duration="120" Power="0.55" />
+        <SteadyState Duration="120" PowerLow="1.1" PowerHigh="1.1" />
+        <SteadyState Duration="120" Power="0.55" />
+        <SteadyState Duration="90" PowerLow="1.15" PowerHigh="1.15" />
+        <SteadyState Duration="180" Power="0.55" />
+        <SteadyState Duration="60" PowerLow="1.2" PowerHigh="1.2" />
+        <SteadyState Duration="180" Power="0.55" />
+        <SteadyState Duration="30" PowerLow="1.25" PowerHigh="1.25" />
+        <SteadyState Duration="180" Power="0.55" />
+        <SteadyState Duration="60" PowerLow="1.2" PowerHigh="1.2" />
+        <SteadyState Duration="180" Power="0.55" />
+        <SteadyState Duration="90" PowerLow="1.15" PowerHigh="1.15" />
+        <SteadyState Duration="180" Power="0.55" />
+        <SteadyState Duration="120" PowerLow="1.1" PowerHigh="1.1" />
+        <SteadyState Duration="120" Power="0.55" />
+        <SteadyState Duration="180" PowerLow="1.05" PowerHigh="1.05" />
+        <SteadyState Duration="120" Power="0.55" />
+        <SteadyState Duration="300" PowerLow="0.7" PowerHigh="0.7" />
+        <Cooldown Duration="600" PowerLow="0.6" PowerHigh="0.3" />
+    </workout>
+</workout_file>

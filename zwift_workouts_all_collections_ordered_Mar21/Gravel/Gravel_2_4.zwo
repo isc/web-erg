@@ -1,0 +1,188 @@
+<workout_file>
+    <uniqueId>0db463c8-b947-4cb7-aa83-e8439b213cd6</uniqueId>
+    <legacyIdHash>299359584</legacyIdHash>
+    <author>Zwift</author>
+    <categoryOverride>Endurance</categoryOverride>
+    <name>High-Cadence Builds</name>
+    <description>This workout is absolutely designed as a recovery workout, but still have some &quot;work&quot; to do with a little RPM focus. The RPM&apos;s prescribed may be tough to hit, so work into it, and make sure you can do so without actually riding hard. Again, recovery focused.
+3x9min blocks as 6 times through 30sec low endurance at 90 rpms, 30sec upper endurance at 100 rpms, 30sec tempo at 110 rpms
+take 3min easy spinning between blocks</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Gravel Grinder</category>
+    <subcategory>Week 2</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="300" PowerLow="0.45" PowerHigh="0.65">
+            <textevent timeoffset="0" message="This isn&apos;t going to be a terribly hard workout but it will add up on you by the end. Nice and easy to start." locIndex="1" />
+        </Warmup>
+        <SteadyState Duration="30" Power="0.6" Cadence="90">
+            <textevent timeoffset="0" message="90 rpms" locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.7" Cadence="100">
+            <textevent timeoffset="0" message="100 rpms" locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.8"> Cadence="110"
+			<textevent timeoffset="0" message="110 rpms, just 30 seconds here." locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.7" Cadence="100">
+            <textevent timeoffset="0" message="100 rpms" locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.8" Cadence="110">
+            <textevent timeoffset="0" message="110 rpms, Keep it light." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.6" Cadence="90">
+            <textevent timeoffset="0" message="90 rpms" locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.7" Cadence="100">
+            <textevent timeoffset="0" message="100 rpms" locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.8" Cadence="110">
+            <textevent timeoffset="0" message="110 rpms, It&apos;s tough kinda, right?" locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.6" Cadence="90">
+            <textevent timeoffset="0" message="90 rpms" locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.7" Cadence="100">
+            <textevent timeoffset="0" message="100 rpms" locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.8" Cadence="110">
+            <textevent timeoffset="0" message="the hard one, 110 rpms" locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.6" Cadence="90">
+            <textevent timeoffset="0" message="90 rpms" locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.7" Cadence="100">
+            <textevent timeoffset="0" message="100 rpms" locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.8" Cadence="110">
+            <textevent timeoffset="0" message="Is your shifting hand tired yet?" locIndex="15" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.6" Cadence="90">
+            <textevent timeoffset="0" message="90 rpms" locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.7" Cadence="100">
+            <textevent timeoffset="0" message="100 rpms" locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.8" Cadence="110">
+            <textevent timeoffset="0" message="So close, keep it spinning. " locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.55">
+            <textevent timeoffset="0" message="Alright, good job, and get ready for the next set." locIndex="19" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.6" Cadence="90">
+            <textevent timeoffset="0" message="90 rpms" locIndex="20" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.7" Cadence="100">
+            <textevent timeoffset="0" message="100 rpms" locIndex="21" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.8" Cadence="110">
+            <textevent timeoffset="0" message="110 rpms" locIndex="22" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.6" Cadence="90">
+            <textevent timeoffset="0" message="90 rpms" locIndex="23" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.7" Cadence="100">
+            <textevent timeoffset="0" message="100 rpms" locIndex="24" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.8" Cadence="110">
+            <textevent timeoffset="0" message="110 rpms" locIndex="25" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.6" Cadence="90">
+            <textevent timeoffset="0" message="90 rpms" locIndex="26" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.7" Cadence="100">
+            <textevent timeoffset="0" message="100 rpms" locIndex="27" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.8" Cadence="110">
+            <textevent timeoffset="0" message="110 rpms" locIndex="28" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.6" Cadence="90">
+            <textevent timeoffset="0" message="90 rpms" locIndex="29" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.7" Cadence="100">
+            <textevent timeoffset="0" message="100 rpms" locIndex="30" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.8" Cadence="110">
+            <textevent timeoffset="0" message="110 rpms, Keep it rolling now. " locIndex="31" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.6" Cadence="90">
+            <textevent timeoffset="0" message="90 rpms" locIndex="32" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.7" Cadence="100">
+            <textevent timeoffset="0" message="100 rpms" locIndex="33" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.8" Cadence="110">
+            <textevent timeoffset="0" message="110 rpms, good work!" locIndex="34" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.6" Cadence="90">
+            <textevent timeoffset="0" message="90 rpms" locIndex="35" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.7" Cadence="100">
+            <textevent timeoffset="0" message="100 rpms" locIndex="36" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.8" Cadence="110">
+            <textevent timeoffset="0" message="110 rpms, get some high RPM action!" locIndex="37" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.55">
+            <textevent timeoffset="0" message="Rest up! Heading into the last set now." locIndex="38" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.6" Cadence="90">
+            <textevent timeoffset="0" message="90 rpms" locIndex="39" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.7" Cadence="100">
+            <textevent timeoffset="0" message="100 rpms" locIndex="40" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.8" Cadence="110">
+            <textevent timeoffset="0" message="110 rpms, spin to win!" locIndex="41" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.6" Cadence="90">
+            <textevent timeoffset="0" message="90 rpms" locIndex="42" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.7" Cadence="100">
+            <textevent timeoffset="0" message="100 rpms" locIndex="43" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.8" Cadence="110">
+            <textevent timeoffset="0" message="110 rpms" locIndex="44" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.6" Cadence="90">
+            <textevent timeoffset="0" message="90 rpms" locIndex="45" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.7" Cadence="100">
+            <textevent timeoffset="0" message="100 rpms" locIndex="46" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.8" Cadence="110">
+            <textevent timeoffset="0" message="110 rpms, good stuff!" locIndex="47" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.6" Cadence="90">
+            <textevent timeoffset="0" message="90 rpms" locIndex="48" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.7" Cadence="100">
+            <textevent timeoffset="0" message="100 rpms" locIndex="49" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.8" Cadence="110">
+            <textevent timeoffset="0" message="110 rpms, so close to being finished!" locIndex="50" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.6" Cadence="90">
+            <textevent timeoffset="0" message="90 rpms" locIndex="51" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.7" Cadence="100">
+            <textevent timeoffset="0" message="100 rpms" locIndex="52" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.8" Cadence="110">
+            <textevent timeoffset="0" message="110 rpms!" locIndex="53" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.6" Cadence="90">
+            <textevent timeoffset="0" message="90 rpms" locIndex="54" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.7" Cadence="100">
+            <textevent timeoffset="0" message="100 rpms" locIndex="55" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.8" Cadence="110">
+            <textevent timeoffset="0" message="110 rpms, almost there!" locIndex="56" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow="0.55" PowerHigh="0.45">
+            <textevent timeoffset="0" message="Woo hoo!!! Glad that&apos;s over. I&apos;m dizzy." locIndex="57" />
+        </Cooldown>
+    </workout>
+</workout_file>

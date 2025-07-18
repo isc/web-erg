@@ -1,0 +1,38 @@
+<workout_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="">
+    <uniqueId>d7bb23ab-a61d-4ba8-a4a7-fb8f1b52e50a</uniqueId>
+    <legacyIdHash>2063241311</legacyIdHash>
+    <author>TrainSharp Cycle Coaching</author>
+    <categoryOverride>Best of Zwift Academy</categoryOverride>
+    <subcategoryOverride>ZA 2017</subcategoryOverride>
+    <name>3:1 Over-Under Session - Semi Finals</name>
+    <description>This is a variation of the classic "Over-Under" session where you alternate between riding just below your FTP and just above your FTP. Both of which will aid your ability to increase your threshold power and your bodies ability to process lactate.  Start with a progressive warm up, then into the main intervals. Which are 1 minute above threshold, or your &apos;pulling&apos; powers then straight into 3 minutes at just below FTP, or your &apos;pushing&apos; powers. Repeated for the duration of the intervals.  Recovery is 10 minutes between the two sets.  Try not to spike the power too much on the &apos;pulling/over&apos; elements, aim to hold a smooth power. This effort is similar to riding in a breakaway situation - you don&apos;t want to surge when coming through and the same applies on the way back down to the &apos;pushing/under&apos; element - keep on top of the resistance as it drops off. </description>
+    <WorkoutPlan>1</WorkoutPlan>
+    <sportType>bike</sportType>
+    <visibleAfterTime>1508716801</visibleAfterTime>
+    <category>Zwift Academy 2017</category>
+    <subcategory>Semi Finals</subcategory>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/trainSharp_Logo.tga</authorIcon>
+    <tags>
+        <tag name="Today&apos;s Plan" />
+    </tags>
+    <workout>
+        <Warmup Duration="900" PowerLow="0.3" PowerHigh="0.9">
+            <textevent timeoffset="0" duration="30" message="Warm Up - Progressive warm up, through the zones. Prepare for another tough session!" locIndex="1" />
+        </Warmup>
+        <SteadyState Duration="300" Power="0.38">
+            <textevent timeoffset="0" message="Easy - Recovery, very easy no load, like an easy walk on the bike" locIndex="2" />
+        </SteadyState>
+        <IntervalsT Repeat="5" OnDuration="60" OffDuration="180" OnPower="1.05" OffPower="0.98" OverUnder="1">
+            <textevent timeoffset="0" duration="30" message="3:1 Over Under #1 - This is a sustained over under effort, starting with 1 minute pulling (10mile TT pace/20min CP), then recovering at, or just below threshold (25mile TT pace/60min CP)" locIndex="3" />
+        </IntervalsT>
+        <SteadyState Duration="600" Power="0.38">
+            <textevent timeoffset="0" duration="30" message="Recovery - Take it nice and easy for this 10 minutes. Recovery is priority here - so if you need to get off the bike for a few minutes to stretch/put your feet up, that is fine." locIndex="4" />
+        </SteadyState>
+        <IntervalsT Repeat="5" OnDuration="60" OffDuration="180" OnPower="1.05" OffPower="0.98" OverUnder="1">
+            <textevent timeoffset="0" duration="30" message="3:1 Over Under #2 - Same as the first interval - keep the power smooth throughout, the transitions should be controlled and you should start to suffer mid-way through." locIndex="5" />
+        </IntervalsT>
+        <Cooldown Duration="600" PowerLow="0.46" PowerHigh="0.3">
+            <textevent timeoffset="0" message="Warm Down - Recovery, very easy no load, like an easy walk on the bike" locIndex="6" />
+        </Cooldown>
+    </workout>
+</workout_file>

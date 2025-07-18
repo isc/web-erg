@@ -1,0 +1,113 @@
+<workout_file>
+    <uniqueId>d9ad05ad-64d3-4bf2-bda1-b0f673cd2dfa</uniqueId>
+    <legacyIdHash>3515095572</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Phase 1.2 - Strength Endurance Rotations #1</name>
+    <description>This early phase of training for L&apos;Etape du Tour is about building a base for higher intensity work later in the plan. It&apos;s also the phase where we look to extend our endurance capabilities. One such method to achieve this is through Strength Endurance work. Strength Endurance intervals on the bike are targeted around achieving high crank torque. To do this, we produce high power with low cadence.
+
+This high crank torque engages more of your fast twitch fibers, which allows you to gain endurance. However, the target power is below your FTP, allowing you to extend the effort.</description>
+    <sportType>bike</sportType>
+    <category>L&apos;Etape du Tour Training Club</category>
+    <subcategory>Phase 1</subcategory>
+    <visibleAfterTime>1553472000</visibleAfterTime>
+    <tags>
+        <tag name="INTERVALS" />
+    </tags>
+    <workout>
+        <Warmup Duration="180.00002" PowerLow="0.44999996" PowerHigh="0.60000002" pace="8268">
+            <textevent timeoffset="50" message="This 1st training phase is focused on your &apos;Early Base&apos; training." locIndex="1" />
+            <textevent timeoffset="70" message="In this training phase we will be implementing a variety of training that promotes endurance and efficiency so you can run like a fine oiled machine." locIndex="2" />
+            <textevent timeoffset="90" message="Base training these days doesn&apos;t just consist of long slow distance sessions." locIndex="3" />
+            <textevent timeoffset="110" message="Early in your program you will be implementing interval type training that will improve your endurance." locIndex="4" />
+            <textevent timeoffset="140" message="But first we need to warm up!" locIndex="5" />
+        </Warmup>
+        <SteadyState Duration="60.000004" Power="0.64999998" pace="8268">
+            <textevent timeoffset="25" message="Our warm up will take you through a few steps of increasing intensity." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="60.000004" Power="0.81" pace="8268">
+            <textevent timeoffset="20" message="Being below your FTP this level should be comfortable." locIndex="7" />
+            <textevent timeoffset="50" message="The next step is just above your FTP." locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="60.000004" Power="1.09" pace="8268">
+            <textevent timeoffset="29" message="A little bit of hard work in the warmup." locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.50449997" pace="8268" />
+        <Ramp Duration="240" PowerLow="0.51450002" PowerHigh="0.85449994" pace="8268">
+            <textevent timeoffset="20" message="To complete your warmup we perform a longer effort that ramps up the power." locIndex="10" />
+            <textevent timeoffset="120" message="You should have a good sweat up now. Indicating you&apos;re ready for the main sets." locIndex="11" />
+        </Ramp>
+        <SteadyState Duration="120" Power="0.50449997" pace="8268">
+            <textevent timeoffset="20" message="The main sets consist of &apos;rotating&apos; intervals. Going from low to high cadence." locIndex="12" />
+            <textevent timeoffset="40" message="There is a target cadence for each interval." locIndex="13" />
+            <textevent timeoffset="60" message="Always aim for the target cadence and let the trainer adjust the power." locIndex="14" />
+            <textevent timeoffset="80" message="We have 3min with high power and low cadence. Followed by 1min with high power and high cadence." locIndex="15" />
+            <textevent timeoffset="100" message="This is repeated 3 times." locIndex="16" />
+        </SteadyState>
+        <IntervalsT Repeat="3" OnDuration="180" OffDuration="60" OnPower="0.75449997" OffPower="0.95449996" pace="8268" Cadence="65" CadenceResting="95" OverUnder="1">
+            <textevent timeoffset="10" message="Aim for the target cadence of 65rpm." locIndex="17" />
+            <textevent timeoffset="30" message="Settle into a nice rhythm early." locIndex="18" />
+            <textevent timeoffset="50" message="Relax your grip on the bars." locIndex="19" />
+            <textevent timeoffset="100" message="You should be feeling the effects of the low cadence." locIndex="20" />
+            <textevent timeoffset="170" message="Next, we jump up to a high cadence of 95rpm @ 95%FTP." locIndex="21" />
+            <textevent timeoffset="210" message="How does the change in cadence feel? Can you handle it?" locIndex="22" />
+            <textevent timeoffset="230" message="This contrast in cadence enhances the training effect." locIndex="23" />
+            <textevent timeoffset="260" message="Back to the high crank torque where you are engaging different muscle fibers to the 1min effort. I like to call this feeling, being in the big dog." locIndex="24" />
+            <textevent timeoffset="300" message="This type of training is an effective way to gain endurance for L&apos;Etape du Tour." locIndex="25" />
+            <textevent timeoffset="320" message="It will improve your ability to work aerobically for longer." locIndex="26" />
+            <textevent timeoffset="400" message="Ready to increase the cadence and power again!" locIndex="27" />
+            <textevent timeoffset="440" message="Great work! Being able to fluctuate your cadence like this is a good quality to have." locIndex="28" />
+            <textevent timeoffset="500" message="Into the last 3min Strength Endurance effort now." locIndex="29" />
+            <textevent timeoffset="520" message="It&apos;s normal for your legs to feel fatigued towards the end of this set." locIndex="30" />
+        </IntervalsT>
+        <SteadyState Duration="180" Power="0.50449997" pace="8268">
+            <textevent timeoffset="20" message="That&apos;s the 1st set completed." locIndex="31" />
+            <textevent timeoffset="40" message="The combination of power and low cadence isn&apos;t overly hard. It&apos;s the duration that creates the training effect." locIndex="32" />
+            <textevent timeoffset="60" message="These are the kind of intervals that you can go very long with." locIndex="33" />
+            <textevent timeoffset="160" message="Onto the next set now." locIndex="34" />
+        </SteadyState>
+        <IntervalsT Repeat="3" OnDuration="180" OffDuration="60" OnPower="0.75449997" OffPower="0.95449996" pace="8268" Cadence="65" CadenceResting="95" OverUnder="1">
+            <textevent timeoffset="10" message="Aim for the target cadence of 65rpm." locIndex="35" />
+            <textevent timeoffset="30" message="Settle into a nice rhythm early." locIndex="36" />
+            <textevent timeoffset="50" message="Relax your grip on the bars." locIndex="37" />
+            <textevent timeoffset="100" message="You should be feeling the effects of the slow pedal speed." locIndex="38" />
+            <textevent timeoffset="170" message="Next, we jump up to a high cadence of 95rpm @ 95%FTP." locIndex="39" />
+            <textevent timeoffset="210" message="How does the change in cadence feel?." locIndex="40" />
+            <textevent timeoffset="230" message="This jump in cadence helps enhance the training." locIndex="41" />
+            <textevent timeoffset="260" message="Back to the high crank torque where you are engaging different muscle fibers to the 1min effort." locIndex="42" />
+            <textevent timeoffset="300" message="Training low cadence strength is a great way to prepare for the L&apos;Etape du Tour." locIndex="43" />
+            <textevent timeoffset="320" message="It will improve your ability to work aerobically for longer." locIndex="44" />
+            <textevent timeoffset="400" message="Get ready to increase the cadence and power again!" locIndex="45" />
+            <textevent timeoffset="440" message="Great work! You&apos;re on the way to becoming the cadence king or queen, and thats a good thing." locIndex="46" />
+            <textevent timeoffset="500" message="Into the last 3min Strength Endurance effort now." locIndex="47" />
+            <textevent timeoffset="520" message="Feeling the fatigue towards the end of this set? That&apos;s good." locIndex="48" />
+        </IntervalsT>
+        <SteadyState Duration="180" Power="0.50449997" pace="8268">
+            <textevent timeoffset="20" message="That&apos;s the 2nd set completed." locIndex="49" />
+            <textevent timeoffset="40" message="Combining low cadence and power for long periods in training will help you on the big day." locIndex="50" />
+            <textevent timeoffset="60" message="These are the kind of intervals that you can go very long with." locIndex="51" />
+            <textevent timeoffset="160" message="Onto the next set now." locIndex="52" />
+        </SteadyState>
+        <IntervalsT Repeat="3" OnDuration="180" OffDuration="60" OnPower="0.75449997" OffPower="0.95449996" pace="8268" Cadence="65" CadenceResting="95" OverUnder="1">
+            <textevent timeoffset="10" message="Aim for the target cadence of 65rpm." locIndex="53" />
+            <textevent timeoffset="30" message="Settle into a nice rhythm early." locIndex="54" />
+            <textevent timeoffset="50" message="Find a comfortable grip on the bars amd relax." locIndex="55" />
+            <textevent timeoffset="100" message="ow are the legs feeling from the low cadence? You can use the next high cadence block to help shake that feeling." locIndex="56" />
+            <textevent timeoffset="170" message="Here comes the high cadence of 95rpm @ 95%FTP." locIndex="57" />
+            <textevent timeoffset="210" message="How does the change in cadence feel?" locIndex="58" />
+            <textevent timeoffset="230" message="Sometimes changing the cadence speed can help you reset mentally which can positively effect how you feel." locIndex="59" />
+            <textevent timeoffset="260" message="Back to the high crank torque where you are engaging different muscle fibers to the 1min effort." locIndex="60" />
+            <textevent timeoffset="300" message="Remember, this type of training is a solid way of gaining that precious endurance fitness." locIndex="61" />
+            <textevent timeoffset="320" message="It will improve your ability to work aerobically for longer." locIndex="62" />
+            <textevent timeoffset="400" message="Ready to increase the cadence and power again!" locIndex="63" />
+            <textevent timeoffset="440" message="Great work with the cadence changes." locIndex="64" />
+            <textevent timeoffset="500" message="Into the last 3min Strength Endurance effort now." locIndex="65" />
+            <textevent timeoffset="520" message="The legs should be feeling tired and fatigued, which is a sign of good hard work" locIndex="66" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.50449997" pace="8268">
+            <textevent timeoffset="20" message="Great work!" locIndex="67" />
+            <textevent timeoffset="40" message="That was very effective training." locIndex="68" />
+            <textevent timeoffset="60" message="The kind of training that provides you with big gains in your endurance." locIndex="69" />
+            <textevent timeoffset="80" message="Ensure you keep hydrating after your workout." locIndex="70" />
+        </SteadyState>
+    </workout>
+</workout_file>

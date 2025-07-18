@@ -1,0 +1,99 @@
+<workout_file>
+    <uniqueId>4761e3eb-b6d2-466c-989d-000514be6940</uniqueId>
+    <legacyIdHash>2866548406</legacyIdHash>
+    <author>Matt Rowe (Rowe and King)</author>
+    <name>RCC Training Camp Workout #14</name>
+    <categoryIndex>14</categoryIndex>
+    <category>RCC Training Camp 2018</category>
+    <entid>150</entid>
+    <description>Welcome to the 14th session in the Rapha Cycling Club Training Camp. This session is focused on developing your top end speed - your ability to produce high power and travel fast, for a short period. This is one piece of the sprinting jigsaw - and arguably the most fun.  It&apos;s the bit where we go fast! Throughout this session, we will complete 6 x max effort 15 second sprints, with 2 blocks of 20 minutes free riding to split the efforts up to give us a good endurance hit.  
+
+ERG mode is NOT recommended for this workout.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS" />
+        <tag name="Endurance" />
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.2545" PowerHigh="1.0545" pace="8268">
+            <textevent timeoffset="5" message="Welcome to the Rapha Cycling Club Training Camp Workout #14. ERG Mode is not recommended." locIndex="1" />
+            <textevent timeoffset="12" message="Todays session is 90 minutes long and includes 6 x max effort sprints (set at 300% FTP target) with some free riding in there too." locIndex="2" />
+            <textevent timeoffset="20" message="Quality over quantity - it&apos;s all about the 6 sprints today." locIndex="3" />
+            <textevent timeoffset="40" message="To start, it&apos;s a standard 10 minute progressive warm up to get us in the zone, both physically and mentally." locIndex="4" />
+            <textevent timeoffset="400" message="A special welcome to today&apos;s session to RCC Members." locIndex="5" />
+            <textevent timeoffset="500" message="Are you starting to feel sweaty?" locIndex="6" />
+            <textevent timeoffset="510" message="That&apos;s a sign that you&apos;re ready to train." locIndex="7" />
+            <textevent timeoffset="570" message="Nearing the end of the warm up now." locIndex="8" />
+        </Warmup>
+        <SteadyState Duration="120" Power="0.50449997" pace="8268">
+            <textevent timeoffset="14" message="Easy 2 mins to get ready for the first sprint." locIndex="9" />
+            <textevent timeoffset="100" message="First sprint coming up, change down a few gears." locIndex="10" />
+            <textevent timeoffset="110" message="Here we go!" locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="3.0045002" pace="8268">
+            <textevent timeoffset="1" message="Max effort - UP UP UP!" locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.3545" pace="8268" />
+        <textevent timeoffset="1" message="60 seconds before the next sprint." locIndex="13" />
+        <textevent timeoffset="50" message="Next sprint, time to wind it up!" locIndex="14" />
+        <SteadyState Duration="15" Power="3.0045002" pace="8268">
+            <textevent timeoffset="1.043076" message="LET&apos;s DO IT - UP UP UP!" locIndex="15" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.3545" pace="8268" />
+        <FreeRide Duration="1200" FlatRoad="1">
+            <textevent timeoffset="44" message="For the next 20 minutes, just cruise. Zone 2 - maybe a little Zone 3 and a touch of Zone 4? Ride on feel." locIndex="16" />
+            <textevent timeoffset="100" message="Remember to drink plenty of water." locIndex="17" />
+            <textevent timeoffset="804" message="It&apos;s important to space the max effort sprints out, with some rest to ensure you are fresh enough to give your max. Otherwise the sprints become more of a slog, rather than being explosive." locIndex="18" />
+        </FreeRide>
+        <SteadyState Duration="120" Power="0.50449997" pace="8268">
+            <textevent timeoffset="14" message="Easy 2 mins to get ready for the second block of sprints" locIndex="19" />
+            <textevent timeoffset="100" message="First sprint coming up, change down a few gears." locIndex="20" />
+            <textevent timeoffset="110" message="Here we go!" locIndex="21" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="3.0045002" pace="8268">
+            <textevent timeoffset="1" message="Max effort - UP UP UP!" locIndex="22" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.3545" pace="8268">
+            <textevent timeoffset="2" message="60 seconds rest." locIndex="23" />
+            <textevent timeoffset="40" message="Another sprint coming up, make it count." locIndex="24" />
+            <textevent timeoffset="50" message="Wind it up!" locIndex="25" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="3.0045002" pace="8268">
+            <textevent timeoffset="2" message="100% - SMASH IT!" locIndex="26" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.3545" pace="8268" />
+        <FreeRide Duration="1200" FlatRoad="1">
+            <textevent timeoffset="44" message="Cruise for another 20 minutes. Zone 2 - maybe a little Zone 3 and a touch of Zone 4? Ride on feel." locIndex="27" />
+            <textevent timeoffset="100" message="Remember to drink plenty of water." locIndex="28" />
+            <textevent timeoffset="804" message="Keep drinking and make the most of this steady riding before we hit the sprinting again." locIndex="29" />
+            <textevent timeoffset="1000" message="It&apos;s important to space the max effort sprints out, concentrate on being explosive." locIndex="30" />
+        </FreeRide>
+        <SteadyState Duration="120" Power="0.50449997" pace="8268">
+            <textevent timeoffset="14" message="Easy 2 mins to get ready for the final two sprint" locIndex="31" />
+            <textevent timeoffset="100" message="First sprint coming up, change down a few gears." locIndex="32" />
+            <textevent timeoffset="110" message="Here we go!" locIndex="33" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="3.0045002" pace="8268">
+            <textevent timeoffset="1" message="Max effort - UP UP UP!" locIndex="34" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.3545" pace="8268" />
+        <textevent timeoffset="2" message="60 seconds rest." locIndex="35" />
+        <textevent timeoffset="40" message="Final sprint coming up, make it your best." locIndex="36" />
+        <textevent timeoffset="50" message="Wind it up!" locIndex="37" />
+        <SteadyState Duration="15" Power="3.0045002" pace="8268">
+            <textevent timeoffset="1.0007083" message="LAST SPRINT - UP UP UP!" locIndex="38" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.3545" pace="8268" />
+        <FreeRide Duration="1200" FlatRoad="1">
+            <textevent timeoffset="44" message="Free ride for the next 20 minutes" locIndex="39" />
+            <textevent timeoffset="804" message="Good effort so far team - keep drinking and get yourself in the zone for these last sprints. Let&apos;s make magic happen!" locIndex="40" />
+        </FreeRide>
+        <SteadyState Duration="60" Power="0.3545" pace="8268" />
+        <Cooldown Duration="300" PowerLow="0.65449995" PowerHigh="0.2545" pace="8268">
+            <textevent timeoffset="14.000083" message="Good work - 5 minutes cool down now." locIndex="41" />
+            <textevent timeoffset="100" message="That&apos;s RCC Training Camp Workout 14 complete - we are making gains!!" locIndex="42" />
+            <textevent timeoffset="250" message="That&apos;s a big session today - helping to nudge up your neuromuscular max power - really giving it 100%. Plus - a load of volume or endurance too. Nice one." locIndex="43" />
+            <textevent timeoffset="280" message="Top session team - until next time... Ride On!" locIndex="44" />
+        </Cooldown>
+    </workout>
+</workout_file>

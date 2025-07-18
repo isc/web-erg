@@ -1,0 +1,23 @@
+<workout_file>
+    <uniqueId>2dcb29dd-af48-4c3e-a12b-3dec73688a39</uniqueId>
+    <legacyIdHash>2518518001</legacyIdHash>
+    <category>Hunter&apos;s Challenge</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 4</subcategory>
+    <name>Week 4.1 - Threshold and Vo2 Max!</name>
+    <description>Just to make sure you are being honest and getting in your threshold and Vo2 Max work.</description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <workout>
+        <Warmup PowerLow="0.55" PowerHigh="0.72" Duration="600" />
+        <IntervalsT OnDuration="60" OffDuration="60" OnPower="0.95" OffPower="0.87" Repeat="6" Cadence="105" CadenceResting="85" />
+        <SteadyState Duration="300" Power="0.72" />
+        <IntervalsT OnDuration="30" OffDuration="120" OnPower="0.95" OffPower="0.87" Repeat="10" OverUnder="1" />
+        <SteadyState Duration="300" Power="0.87" />
+        <IntervalsT OnDuration="30" OffDuration="120" OnPower="0.95" OffPower="0.87" Repeat="10" OverUnder="1" />
+        <SteadyState Duration="300" Power="0.87" />
+        <SteadyState Duration="300" Power="1.14" />
+        <SteadyState Duration="300" Power="0.87" />
+        <SteadyState Duration="300" Power="1.14" />
+        <Cooldown PowerLow="0.72" PowerHigh=".55" Duration="600" />
+    </workout>
+</workout_file>

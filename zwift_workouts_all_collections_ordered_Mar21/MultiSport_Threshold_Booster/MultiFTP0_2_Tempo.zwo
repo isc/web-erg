@@ -1,0 +1,155 @@
+<workout_file>
+    <uniqueId>4eb00a51-a7fe-4cb3-9fa9-9b7c5414bb06</uniqueId>
+    <legacyIdHash>4168048584</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Tempo 15min / Target RPM #3</name>
+    <description>Tempo riding is a great way to improve your aerobic efficiency. Today&apos;s session consists of long tempo efforts. However, to focus more on muscular endurance, the target cadence starts at 75RPM and increases by 5RPM every 5min.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>0</visibleOutsidePlan>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>Multi-Sport Threshold Booster</category>
+    <subcategory>Preplan</subcategory>
+    <tags>
+    </tags>
+    <workout>
+        <Warmup Duration="180" PowerLow="0.45" PowerHigh="0.6">
+            <textevent timeoffset="0" message="Here we go! We&apos;re starting off today with a steady increase of effort to warm-up." locIndex="1" />
+            <textevent timeoffset="10" message="Keep your cadence comfortable here." locIndex="2" />
+            <textevent timeoffset="20" message="Our warm up gradually ramps up to a 1min Zone 5 effort to really open those legs up," locIndex="3" />
+            <textevent timeoffset="30" message="And get them ready for the work that lies ahead today." locIndex="4" />
+            <textevent timeoffset="60" message="Let&apos;s chat a bit about what&apos;s coming up for you today." locIndex="5" />
+            <textevent timeoffset="70" message="After a warm-up, we are going to be performing 3 interval sets that contain 3, 5 minute, ramp-ups." locIndex="6" />
+            <textevent timeoffset="80" message="The intensity will be all at Tempo zone, with the key focus today on your cadence." locIndex="7" />
+            <textevent timeoffset="90" message="The cadence starts off at 75 RPM, and increases by 5 RPM every step in the interval. So, 75, 80, and finally 85 RPM." locIndex="8" />
+            <textevent timeoffset="100" message="The lower cadence shifts the focus of today to muscular endurance," locIndex="9" />
+            <textevent timeoffset="110" message=" and fatigue resistance which is crucial for endurance athletes." locIndex="10" />
+            <textevent timeoffset="120" message="Sound good? I thought so. Keep focused on getting that body and mind ready for today over the next few minutes." locIndex="11" />
+        </Warmup>
+        <SteadyState Duration="60" Power="0.6">
+            <textevent timeoffset="0" message="Now keep it steady at 60% FTP for 1 minute. Cadence still whatever is comfortable for you." locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.65">
+            <textevent timeoffset="0" message="And 65% FTP for another minute." locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.81">
+            <textevent timeoffset="0" message="And finally bringing it up to Tempo for another minute. 1 minute at Vo2 Max lies ahead!!" locIndex="14" />
+            <textevent timeoffset="50" message="Ready for the 1min Zone 5 effort. I want those legs to be moving over this minute." locIndex="15" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.09">
+            <textevent timeoffset="0" message="Let&apos;s get it! 1 minute at a hard effort at quick cadence - get those legs ready to WORK!" locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="0" message="Phew! Bring it down a bit, lower your cadence to a comfortable range again." locIndex="17" />
+            <textevent timeoffset="110" message="To complete the warm up we now perform a 3min threshold effort." locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.9">
+            <textevent timeoffset="0" message="Lock that form SOLID here! Shoulders relaxed, elbows slightly bent, light grip on those bars." locIndex="19" />
+            <textevent timeoffset="60" message="1 minute down, settle here." locIndex="20" />
+            <textevent timeoffset="170" message="Great work! In 10 seconds, we are going to take a short rest before the main set today." locIndex="21" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="0" message="Super! Bring it on down again, take a few deep breaths and get into the &apos;zone&apos; here!" locIndex="22" />
+            <textevent timeoffset="10" message="KNOW you can finish this!" locIndex="23" />
+            <textevent timeoffset="130" message="Okay, get ready to rock this here!" locIndex="24" />
+            <textevent timeoffset="140" message="Remember, Tempo riding is a great way to improve your aerobic efficiency." locIndex="25" />
+            <textevent timeoffset="150" message="To focus on muscular endurance, target RPM starts at 75RPM." locIndex="26" />
+            <textevent timeoffset="160" message="and increases by 5RPM every 5min." locIndex="27" />
+            <textevent timeoffset="170" message="Remember to aim for the target RPM and let the smart trainer adjust the power." locIndex="28" />
+        </SteadyState>
+        <Ramp Duration="300" PowerLow="0.76" PowerHigh="0.89" Cadence="75">
+            <textevent timeoffset="0" message="Here we go! Lock your cadence down @75 RPM, and keep it silky smooth. Push, scrape, pull." locIndex="29" />
+            <textevent timeoffset="30" message="Settle into a good position on the bike. Even though the cadence is low, your form should not change." locIndex="30" />
+            <textevent timeoffset="60" message="Driving the pedals, while relaxing your hands." locIndex="31" />
+            <textevent timeoffset="70" message="All the power you&apos;re generating is going into the pedals here, not through wasted body movement." locIndex="32" />
+            <textevent timeoffset="90" message="The power slowly ramps up over the 5min, but should never feel too &apos;hard&apos;" locIndex="33" />
+            <textevent timeoffset="150" message="Half-way done here. How&apos;s that cadence? How&apos;s your form? Great work!" locIndex="34" />
+            <textevent timeoffset="290" message="In 10 seconds, we&apos;re dropping the effort, but increasing the cadence to 80 RPM, get ready." locIndex="35" />
+        </Ramp>
+        <Ramp Duration="300" PowerLow="0.76" PowerHigh="0.89" Cadence="80">
+            <textevent timeoffset="0" message="Targeting 80 RPM this time, let&apos;s go!" locIndex="36" />
+            <textevent timeoffset="30" message="It&apos;s normal for your heart rate to be just a little bit higher at an increased RPM," locIndex="37" />
+            <textevent timeoffset="40" message="And you should see a gradual increase of heart rate coupled with the increase of power." locIndex="38" />
+            <textevent timeoffset="60" message="1 minute down. Settle down now at this higher RPM." locIndex="39" />
+            <textevent timeoffset="70" message="Remember, drive those pedals while trying to keep your upper body relaxed." locIndex="40" />
+            <textevent timeoffset="240" message="1 more minute to go for this middle step, then we&apos;re increasing the cadence again." locIndex="41" />
+            <textevent timeoffset="290" message="In 10 seconds, get ready to drop the effort again, but increase the cadence to 85 RPM. Ready?." locIndex="42" />
+        </Ramp>
+        <Ramp Duration="300" PowerLow="0.76" PowerHigh="0.89" Cadence="85">
+            <textevent timeoffset="0" message="Last step for this first interval set, targeting 85RPM this time." locIndex="43" />
+            <textevent timeoffset="30" message="Your heart rate should be a little bit higher at this RPM, but should remain coupled with the power." locIndex="44" />
+            <textevent timeoffset="60" message="If you notice a de-coupling of your heart rate to power," locIndex="45" />
+            <textevent timeoffset="70" message="This is a sign your aerobic capacity is lacking and this program is going to do wonders for you!" locIndex="46" />
+            <textevent timeoffset="150" message="Half-way done with this last step! You&apos;re looking GREAT!" locIndex="47" />
+            <textevent timeoffset="160" message="Keep on top of those increases in effort if you aren&apos;t on a smart trainer." locIndex="48" />
+            <textevent timeoffset="240" message="Final minute, then we take a short rest before doing this again." locIndex="49" />
+            <textevent timeoffset="250" message="Finish this last minute strong and keep that cadence steady!" locIndex="50" />
+            <textevent timeoffset="290" message="Note your finishing heart rate." locIndex="51" />
+        </Ramp>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="0" message="Great work! Let&apos;s take a short recovery and then we repeat that effort 2 more times." locIndex="52" />
+            <textevent timeoffset="30" message="Since these rest breaks are very short, use them wisely - take some deep breaths and shake out those shoulders." locIndex="53" />
+            <textevent timeoffset="40" message="Also, make sure you&apos;re drinking throughout these workouts." locIndex="54" />
+            <textevent timeoffset="110" message="Get ready for interval set #2. Remember, we&apos;re starting off at 75 RPM for the first step here." locIndex="55" />
+        </SteadyState>
+        <Ramp Duration="300" PowerLow="0.76" PowerHigh="0.89" Cadence="75">
+            <textevent timeoffset="0" message="Okay, here we go again! Interval set #2 of 3. Same progression as the 1st one - focus on your cadence at 75 RPM." locIndex="56" />
+            <textevent timeoffset="30" message="Settle into a good position on the bike. Driving the pedals, while relaxing your hands." locIndex="57" />
+            <textevent timeoffset="60" message="Heart rate should be about the same as the first interval set." locIndex="58" />
+            <textevent timeoffset="70" message="Maybe a little bit higher if you&apos;re feeling fatigued already." locIndex="59" />
+            <textevent timeoffset="120" message="2 minutes into it already! You&apos;re looking great again here, keep that cadence nice and slow - push, scrape, pull." locIndex="60" />
+            <textevent timeoffset="240" message="Last minute of this first step! Minimize your body rocking side to side at this low cadence." locIndex="61" />
+            <textevent timeoffset="290" message="Get ready to increase your cadence to 80 RPM!" locIndex="62" />
+        </Ramp>
+        <Ramp Duration="300" PowerLow="0.76" PowerHigh="0.89" Cadence="80">
+            <textevent timeoffset="0" message="Targeting 80 RPM again, stay focused on that cadence and let the trainer do the work for you - if you&apos;re on a smart trainer." locIndex="63" />
+            <textevent timeoffset="20" message="If you&apos;re on a &apos;classic&apos; trainer, match the cadence first" locIndex="64" />
+            <textevent timeoffset="30" message="Then get the power to match as close as possible for this workout." locIndex="65" />
+            <textevent timeoffset="150" message="How&apos;s your form? Shoulder relaxed, elbows bent, light grip on those bars. Thought so!" locIndex="66" />
+            <textevent timeoffset="240" message="1 more minute here, then we increase the cadence to 85 RPM again, stick with it!" locIndex="67" />
+            <textevent timeoffset="290" message="Excellent work, my friend! In 10 seconds, we moving onto step 3 of this 2nd interval set - targeting 85 RPM!" locIndex="68" />
+        </Ramp>
+        <Ramp Duration="300" PowerLow="0.76" PowerHigh="0.89" Cadence="85">
+            <textevent timeoffset="0" message="Bring up that cadence again, focus on keeping the pedal stroke smooth and keeping your upper body quiet." locIndex="69" />
+            <textevent timeoffset="60" message="1 minute in. Settle down again. You may be feeling some fatigue starting to creep in at this point, keep STRONG!" locIndex="70" />
+            <textevent timeoffset="150" message="Half-way through this last step, stay with it! Keep it nice and steady for the remaining time of this interval." locIndex="71" />
+            <textevent timeoffset="160" message="No wasted energy, just driving those pedals." locIndex="72" />
+            <textevent timeoffset="280" message="Note your finishing HR again." locIndex="73" />
+            <textevent timeoffset="290" message="How does it compare to the 1st set? It&apos;s okay for it to be slightly higher, but ideally less than 5%." locIndex="74" />
+        </Ramp>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="60" message="Into the last set now." locIndex="75" />
+        </SteadyState>
+        <Ramp Duration="300" PowerLow="0.76" PowerHigh="0.89" Cadence="75">
+            <textevent timeoffset="0" message="Here we go! Lock your cadence down @75 RPM, and keep it silky smooth. Push, scrape, pull." locIndex="76" />
+            <textevent timeoffset="30" message="Settle into a good position on the bike. Even though the cadence is low, your form should not change." locIndex="77" />
+            <textevent timeoffset="60" message="Driving the pedals, while relaxing your hands." locIndex="78" />
+            <textevent timeoffset="70" message="All the power you&apos;re generating is going into the pedals here, not through wasted body movement." locIndex="79" />
+            <textevent timeoffset="90" message="The power slowly ramps up over the 5min, but should never feel too &apos;hard&apos;" locIndex="80" />
+            <textevent timeoffset="150" message="Half-way done here. How&apos;s that cadence? How&apos;s your form? Great work!" locIndex="81" />
+            <textevent timeoffset="290" message="In 10 seconds, we&apos;re dropping the effort, but increasing the cadence to 80 RPM, get ready." locIndex="82" />
+        </Ramp>
+        <Ramp Duration="300" PowerLow="0.76" PowerHigh="0.89" Cadence="80">
+            <textevent timeoffset="0" message="Targeting 80 RPM this time, let&apos;s go!" locIndex="83" />
+            <textevent timeoffset="30" message="It&apos;s normal for your heart rate to be just a little bit higher at an increased RPM," locIndex="84" />
+            <textevent timeoffset="40" message="And you should see a gradual increase of heart rate coupled with the increase of power." locIndex="85" />
+            <textevent timeoffset="60" message="1 minute down. Settle down now at this higher RPM." locIndex="86" />
+            <textevent timeoffset="70" message="Remember, drive those pedals while trying to keep your upper body relaxed." locIndex="87" />
+            <textevent timeoffset="240" message="1 more minute to go for this middle step, then we&apos;re increasing the cadence again." locIndex="88" />
+            <textevent timeoffset="290" message="In 10 seconds, get ready to drop the effort again, but increase the cadence to 85 RPM. Ready?." locIndex="89" />
+        </Ramp>
+        <Ramp Duration="300" PowerLow="0.76" PowerHigh="0.89" Cadence="85">
+            <textevent timeoffset="0" message="Last step for this first interval set, targeting 85RPM this time." locIndex="90" />
+            <textevent timeoffset="30" message="Your heart rate should be a little bit higher at this RPM, but should remain coupled with the power." locIndex="91" />
+            <textevent timeoffset="60" message="If you notice a de-coupling of your heart rate to power, this is a sign your aerobic capacity is lacking." locIndex="92" />
+            <textevent timeoffset="70" message="This program is going to do wonders for you!" locIndex="93" />
+            <textevent timeoffset="150" message="Half-way done with this last step! You&apos;re looking GREAT!" locIndex="94" />
+            <textevent timeoffset="160" message="Keep on top of those increases in effort if you aren&apos;t on a smart trainer." locIndex="95" />
+            <textevent timeoffset="240" message="Final minute, then we can cool-down, EARN IT! Finish this last minute strong and keep that cadence steady!" locIndex="96" />
+            <textevent timeoffset="290" message="Note your finishing heart rate again. Remember, less than 5% from the first interval set is what we want to see." locIndex="97" />
+        </Ramp>
+        <Cooldown Duration="300" PowerLow="0.75" PowerHigh="0.45">
+            <textevent timeoffset="0" message="Great work today!! That was a pretty full on workout with loads of quality time at Tempo, but you rocked it!" locIndex="98" />
+            <textevent timeoffset="10" message="We&apos;re going to cool down for a few minutes and gradually lower the power. See you next time!" locIndex="99" />
+        </Cooldown>
+    </workout>
+</workout_file>

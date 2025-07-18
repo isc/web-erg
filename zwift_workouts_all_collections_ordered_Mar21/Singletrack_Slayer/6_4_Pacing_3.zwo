@@ -1,0 +1,102 @@
+<workout_file>
+    <uniqueId>0984fbf7-ae27-4957-9569-4b256dca98f3</uniqueId>
+    <legacyIdHash>168482548</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Pacing #3</name>
+    <description>A low intensity endurance session today focusing on your ability to judge your pacing.
+
+By completing some steady state intervals under threshold power, you will develop the ability to gauge your effort based on &quot;feel&quot; without having to look at the data for feedback. This session also serves the purpose of effectively building endurance.</description>
+    <sportType>bike</sportType>
+    <category>Singletrack Slayer</category>
+    <subcategory>Week 6</subcategory>
+    <WorkoutPlan>1</WorkoutPlan>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <tags>
+    </tags>
+    <workout>
+        <Warmup Duration="420" PowerLow="0.5" PowerHigh="0.75">
+            <textevent timeoffset="30" message="A low intensity workout today with a focus on pacing." locIndex="1" />
+            <textevent timeoffset="50" message="As well as getting some endurance work in, the idea today is to get a better feel for lower end intensity." locIndex="2" />
+            <textevent timeoffset="100" message="Endurance riding doesn&apos;t have to consist of just zone 2 work." locIndex="3" />
+            <textevent timeoffset="120" message="It&apos;s fine to dip the toes into zone 3 for short durations." locIndex="4" />
+            <textevent timeoffset="300" message="Our initial warmup effort ramps the power up into zone 2." locIndex="5" />
+            <textevent timeoffset="320" message="Then we complete some on/off efforts." locIndex="6" />
+        </Warmup>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="20" message="Next up we complete some 1min threshold efforts." locIndex="7" />
+            <textevent timeoffset="40" message="Because the duration is only short, you will recover quickly from these." locIndex="8" />
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="60" OffDuration="60" OnPower="0.9" OffPower="0.7">
+            <textevent timeoffset="10" message="Increase your cadence for the &quot;on&quot; effort." locIndex="9" />
+            <textevent timeoffset="40" message="Relax your grip on the bars and spin the legs." locIndex="10" />
+            <textevent timeoffset="70" message="Now, decrease the cadence for the &quot;off&quot; interval." locIndex="11" />
+            <textevent timeoffset="130" message="This constant change in power and cadence helps activate the muscles you will use during the main set." locIndex="12" />
+            <textevent timeoffset="150" message="You should find that your comfortable cadence increases with each effort." locIndex="13" />
+            <textevent timeoffset="160" message="This indicates that more blood is flowing to the working muscles." locIndex="14" />
+            <textevent timeoffset="230" message="Just 2 more &quot;spin up&quot; efforts to go." locIndex="15" />
+            <textevent timeoffset="350" message="You should be working up a good sweat by now." locIndex="16" />
+        </IntervalsT>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="20" message="Now to complete the warmup we perform a steady state effort." locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.88">
+            <textevent timeoffset="20" message="Well under threshold for this interval." locIndex="18" />
+            <textevent timeoffset="50" message="This should be a comfortable effort for you." locIndex="19" />
+            <textevent timeoffset="70" message="You could do this all day!" locIndex="20" />
+            <textevent timeoffset="120" message="How are you feeling? Ready for the main set now?" locIndex="21" />
+            <textevent timeoffset="140" message="Today is a good way to get some endurance work completed, while also getting in tune with your sensations." locIndex="22" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="20" message="A quick rest here to grab your breath." locIndex="23" />
+            <textevent timeoffset="40" message="Not every indoor session has to be high intensity. Today is one of those days!" locIndex="24" />
+        </SteadyState>
+        <IntervalsT Repeat="1" OnDuration="360" OffDuration="360" OnPower="0.75" OffPower="0.88">
+            <textevent timeoffset="20" message="We are looking for a long constant aerobic effort here." locIndex="25" />
+            <textevent timeoffset="40" message="It doesn&apos;t have to be hard to be effective." locIndex="26" />
+            <textevent timeoffset="60" message="What I want you to think about while completing these efforts is your RPE." locIndex="27" />
+            <textevent timeoffset="80" message="RPE stands for Rate of Perceived Exertion." locIndex="28" />
+            <textevent timeoffset="100" message="It&apos;s a scale of 1 - 10. With 1 being very easy and 10 being a maximal effort." locIndex="29" />
+            <textevent timeoffset="160" message="We want you to be able judge your pace based on your feeling." locIndex="30" />
+            <textevent timeoffset="180" message="As you complete these efforts think about what your RPE is." locIndex="31" />
+            <textevent timeoffset="200" message="For this opening interval at 75%FTP you would expect RPE to be around 3-4." locIndex="32" />
+            <textevent timeoffset="340" message="Now we are going to step up the target power a little." locIndex="33" />
+            <textevent timeoffset="380" message="Again, think about your RPE." locIndex="34" />
+            <textevent timeoffset="400" message="The other metric to consider is your Heart Rate response." locIndex="35" />
+            <textevent timeoffset="420" message="Hopefully you are wearing a HR monitor." locIndex="36" />
+            <textevent timeoffset="440" message="During this first interval block, take note of your HR at different points." locIndex="37" />
+            <textevent timeoffset="460" message="We will use this data in the next interval block." locIndex="38" />
+            <textevent timeoffset="500" message="What is your RPE score?" locIndex="39" />
+            <textevent timeoffset="560" message="We are still within a comfortable aerobic tempo level. RPE might be a 5-6?" locIndex="40" />
+            <textevent timeoffset="700" message="That completes our first interval block. Now we repeat." locIndex="41" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="360" OffDuration="360" OnPower="0.75" OffPower="0.88">
+            <textevent timeoffset="20" message="During this interval block, try to look away from the data on your screen for a while and guess what your HR might be." locIndex="42" />
+            <textevent timeoffset="40" message="You should be able to get to the point where you can &quot;feel&quot; what your HR is." locIndex="43" />
+            <textevent timeoffset="60" message="It&apos;s amazing how in tune we can become with our body." locIndex="44" />
+            <textevent timeoffset="80" message="To the point that we can feel the difference of 1 or 2 beats per minute." locIndex="45" />
+            <textevent timeoffset="240" message="Is your RPE the same at this point as it was in the 1st effort?" locIndex="46" />
+            <textevent timeoffset="340" message="Now we step the power up again." locIndex="47" />
+            <textevent timeoffset="380" message="Same thing again... Look away from the data for a while and see how closely you can predict your HR during this interval." locIndex="48" />
+            <textevent timeoffset="660" message="How did you do with your guessing?" locIndex="49" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="360" OffDuration="360" OnPower="0.75" OffPower="0.88">
+            <textevent timeoffset="20" message="And now into the final block of work." locIndex="50" />
+            <textevent timeoffset="40" message="Same thing again. Look away from the data for a while and predict your HR response." locIndex="51" />
+            <textevent timeoffset="80" message="This is the kind of feedback and data you can use during your outdoor training." locIndex="52" />
+            <textevent timeoffset="150" message="Has your RPE changed from the 1st interval through to the 3rd for the same power?" locIndex="53" />
+            <textevent timeoffset="340" message="Now we step up the power for the last time." locIndex="54" />
+            <textevent timeoffset="380" message="If you are observing your HR, how much has it changed from the 1st block of work?" locIndex="55" />
+            <textevent timeoffset="400" message="Any increase in HR means that more blood is flowing to more muscle fibres." locIndex="56" />
+            <textevent timeoffset="420" message="So, if the power stays constant..." locIndex="57" />
+            <textevent timeoffset="440" message="...and if we fatigue, we need to recruit more muscle fibres to produce the same amount of work." locIndex="58" />
+            <textevent timeoffset="460" message="Hence the increase in HR." locIndex="59" />
+            <textevent timeoffset="700" message="Into the final 20sec. How is your RPE and HR?" locIndex="60" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.5">
+            <textevent timeoffset="20" message="That was a great session today." locIndex="61" />
+            <textevent timeoffset="40" message="Not just physically, but also for gaining a better understanding of your sensations." locIndex="62" />
+            <textevent timeoffset="100" message="Remember, it&apos;s ok to perform some lower intensity sessions indoor." locIndex="63" />
+            <textevent timeoffset="120" message="There are still good gains to be made with this type of training." locIndex="64" />
+        </SteadyState>
+    </workout>
+</workout_file>

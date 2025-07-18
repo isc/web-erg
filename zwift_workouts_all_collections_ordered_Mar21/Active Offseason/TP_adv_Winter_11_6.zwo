@@ -1,0 +1,15 @@
+<workout_file>
+    <uniqueId>2765b6cd-d460-4686-8b4c-fd20d9d92b8b</uniqueId>
+    <legacyIdHash>1659271391</legacyIdHash>
+    <name>Week 11.6 - Endurance With Max Sprints</name>
+    <description>Endurance ride. Set a pace at Endurance and hold this pace for the next 2.5 hours. Throughout the ride, do a 10x 10 second out-of-the-saddle bursts into your Neuromusclar Power Zone (MAX). Make sure cadence stays high</description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <category>Active Offseason</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 11</subcategory>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.2545" PowerHigh="0.75449997" />
+        <IntervalsT Repeat="10" OnDuration="10" OffDuration="770" PowerOnLow="2.0044999" PowerOnHigh="2.0044999" PowerOffLow="0.70449996" PowerOffHigh="0.70449996" />
+        <Cooldown Duration="600" PowerLow="0.75449997" PowerHigh="0.2545" />
+    </workout>
+</workout_file>

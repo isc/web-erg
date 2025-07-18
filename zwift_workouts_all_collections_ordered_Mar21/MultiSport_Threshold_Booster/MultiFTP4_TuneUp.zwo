@@ -1,0 +1,56 @@
+<workout_file>
+    <uniqueId>0974d45c-11dd-40e9-875a-9883c4c6ba65</uniqueId>
+    <legacyIdHash>3655396210</legacyIdHash>
+    <author>Zwift</author>
+    <name>Test Week Tune-Up</name>
+    <category>Multi-Sport Threshold Booster</category>
+    <visibleOutsidePlan>0</visibleOutsidePlan>
+    <description>A short OPTIONAL workout designed to keep the legs firing and get the internal systems ready for a big effort like a race or test effort. If you prefer rest leading into a big day, that is fine too. This workout is for people who like to keep moving, and it&apos;s designed to help keep you sharp without taking your race or test-effort legs out of you.</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <Warmup Duration="240" PowerHigh="0.6" PowerLow="0.4">
+            <textevent timeoffset="0" message="Tune-up day!! WOOT WOOT!" locIndex="1" />
+            <textevent timeoffset="10" message="This workout relies a lot on your sense of feel. This workout is optional, and it is designed for people who do better off with a little bit of focused activity as opposed to rest. Rest is fine too though!" locIndex="2" />
+            <textevent timeoffset="180" message="If you find that your legs just are not there, feel free to cut this workout short or to ratchet back the effort. This is designed to help your FTP Test, not hurt it." locIndex="3" />
+        </Warmup>
+        <SteadyState Duration="180" Power="0.55">
+            <textevent timeoffset="0" message="A very light and relaxed warmup here. Just slowly bringing up the effort. We have a few short and focused intervals in warmup and then one 3min block of work." locIndex="4" />
+            <textevent timeoffset="120" message="This workout is designed to help get you ready for the FTP test or any race-level effort. Gives your body a feel for the type of effort that will be required." locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.65">
+            <textevent timeoffset="0" message="And a little bit harder here. Still pretty light though. Nice and aerobic, just getting warmed up." locIndex="6" />
+            <textevent timeoffset="150" message="As we step up the effort now, the blocks will get shorter. Nothing taxing here. Just focused." locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.8">
+            <textevent timeoffset="0" message="Still aerobic, but a good firm pace here. Breathing and HR are increased. And your legs should be coming around." locIndex="8" />
+            <textevent timeoffset="60" message="You should be sweating now and feeling ready. Maybe kick the fan up a notch." locIndex="9" />
+            <textevent timeoffset="110" message="Get ready to ramp it up for the final minute." locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.9">
+            <textevent timeoffset="0" message="A very short but solid effort just under threshold for this block." locIndex="11" />
+            <textevent timeoffset="20" message="This should feel very manageable for such a short duration." locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1">
+            <textevent timeoffset="0" message="And at threshold here. Still, even this effort should be no big deal for just 30 seconds." locIndex="13" />
+            <textevent timeoffset="20" message="Nice and smooth. Get a sense of the power required here. It is about staying in touch with the effort." locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="0" message="Awesome! Now keep it very relaxed here. Nice and light. Make sure you go into the one solid effort warmed up and fully primed." locIndex="15" />
+            <textevent timeoffset="120" message="1 more minute easy, then we have a 3 minute solid effort to prime the legs for the upcoming FTP test." locIndex="16" />
+            <textevent timeoffset="160" message="Just 3 minutes here. Hard but very doable for such a short interval." locIndex="17" />
+            <textevent timeoffset="170" message="Aim for a quick cadence, and get ready to work just a little bit. Ready?" locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="1.1">
+            <textevent timeoffset="0" message="Okay here we go. Good solid effort. Strong pace. Settle in with good form and crisp cadence. This should be about the pace for your FTP Test. Maybe a bit harder than what you would do for 20min, but close to it." locIndex="19" />
+            <textevent timeoffset="60" message="One minute in. You should be using similar energy systems now to what you would use for a much longer effort. But the fatigue should not have hit yet." locIndex="20" />
+            <textevent timeoffset="90" message="And halfway. Cruising here. Work to keep a consistent cadence throughout. Shoot for your target test cadence. Don&apos;t let it bog down. Nice and crisp." locIndex="21" />
+            <textevent timeoffset="120" message="Almost there. You should have a good sense of pace now. 20min seems like it so much longer than this, and it is, but a 3min effort and a 20min effort are much more alike than not." locIndex="22" />
+            <textevent timeoffset="150" message="Last 30 seconds. Hold that form and stay sharp. Just a bit more work and then you are done." locIndex="23" />
+        </SteadyState>
+        <Cooldown Duration="480" PowerHigh="0.4" PowerLow="0.6">
+            <textevent timeoffset="0" message="And done. Super easy and relaxed cool down here. Just light and easy spinning it out. Flush the legs and recover. A good recovery is important to setting the stage for your best effort." locIndex="24" />
+            <textevent timeoffset="300" message="Great work. The hay is in the barn! Nothing left to do now but nail that test! And maybe a bit of easy running." locIndex="25" />
+        </Cooldown>
+    </workout>
+</workout_file>

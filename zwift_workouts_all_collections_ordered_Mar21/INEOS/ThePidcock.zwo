@@ -1,0 +1,152 @@
+<workout_file>
+    <uniqueId>51b71bba-faa5-4d92-95ed-004aa7e8ba92</uniqueId>
+    <legacyIdHash>3117490346</legacyIdHash>
+    <author>Shayne Gaffney</author>
+    <categoryOverride>Climbing</categoryOverride>
+    <name>The Pidcock</name>
+    <activitySaveName>INEOS Grenadiers Virtual Training Camp | The Pidcock</activitySaveName>
+    <description>Tom Pidcock is a powerhouse on the road, mountain-bike singletrack, and technical cyclocross courses. He has an unearthly ability to surge repeatedly, and somehow still have something left in the tank to keep the pressure on. This is known as anaerobic capacity. Today&apos;s workout features anaerobic capacity intervals—expect these to tickle a bit!</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="ineos2021" />
+    </tags>
+    <category>INEOS Grenadiers Virtual Training Camp</category>
+    <categoryIndex>6</categoryIndex>
+    <overrideHash>3117490346</overrideHash>
+    <visibleAfterTime>1642982460</visibleAfterTime>
+    <workout>
+        <Warmup Duration="480" PowerHigh="0.75" PowerLow="0.5">
+            <textevent timeoffset="0" message="Welcome to the INEOS Grenadiers Virtual Training Camp!" />
+            <textevent timeoffset="10" message="Let&apos;s get started with an easy warm-up. Keep your cadence comfortable." />
+            <textevent timeoffset="60" message="The INEOS Grenadiers is one of the world&apos;s most successful cycling teams." />
+            <textevent timeoffset="70" message="The team has a thirst for a good challenge and a pioneering spirit that allows them to keep pushing themselves and the wider sport of cycling forward." />
+            <textevent timeoffset="120" message="The INEOS Grenadiers Virtual Training Camp gives Zwifters a taste of the training these riders undertake in preparation for their season." />
+            <textevent timeoffset="130" message="Each workout features a team rider and is tailored to what they would do in their own training." />
+            <textevent timeoffset="140" message="Today&apos;s workout features Tom Pidcock, gold medalist from the 2020 Olympics in Tokyo in cross-country mountain biking." />
+            <textevent timeoffset="150" message="Pidcock says &apos;This high intensity interval workout really varies your work to rest ratio, challenging both your power and stamina throughout.&apos;" />
+            <textevent timeoffset="180" message="Pidcock is a powerhouse on the road, mountain-bike singletrack, and technical cyclocross courses." />
+            <textevent timeoffset="190" message="He has an unearthly ability to surge repeatedly, and somehow still have something left in the tank to keep the pressure on...." />
+            <textevent timeoffset="200" message="This is known as anaerobic capacity." />
+            <textevent timeoffset="210" message="Today&apos;s workout features anaerobic capacity intervals...expect these to tickle a bit! :-)" />
+            <textevent timeoffset="220" message="Let&apos;s keep going with the warm-up." />
+            <textevent timeoffset="300" message="Make sure you&apos;re sipping those fluids throughout today&apos;s workout." />
+            <textevent timeoffset="420" message="Okay, coming up in 1min we&apos;ll do a couple of leg primers." />
+            <textevent timeoffset="430" message="Primers simply ensure the legs are awake and ready for the intensity to come." />
+            <textevent timeoffset="470" message="Aim for a slightly faster cadence for these upcoming efforts." />
+        </Warmup>
+        <IntervalsT Repeat="2" OnDuration="30" OnPower="1.15" OffDuration="30" OffPower="0.55">
+            <textevent timeoffset="0" message="Pick it up!" />
+            <textevent timeoffset="30" message="Great job! Take things back down now. We&apos;ll repeat that once more." />
+            <textevent timeoffset="60" message="GO GO GO!" />
+            <textevent timeoffset="90" message="Awesome! You should feel nicely warmed up now and ready to ROCK!" />
+            <textevent timeoffset="100" message="Let&apos;s take a little bit before we begin the main set." />
+        </IntervalsT>
+        <SteadyState Duration="120" Power="0.55">
+            <textevent timeoffset="0" message="Deep breaths here." />
+            <textevent timeoffset="60" message="In 1min, we&apos;re tackling today&apos;s main set, which is anaerobic capacity intervals." />
+            <textevent timeoffset="70" message="We&apos;ll do two VERY hard efforts being finishing it out with a 30sec full-gas sprint to the line." />
+            <textevent timeoffset="80" message="You will be quite fatigued by the end of these intervals, but that&apos;s the idea!" />
+            <textevent timeoffset="90" message="Pidcock would totally crush these intervals, and you will too!" />
+            <textevent timeoffset="110" message="Ready? Things are going to get tough." />
+        </SteadyState>
+        <IntervalsT Repeat="1" OnDuration="60" OnPower="1.5" OffDuration="60" OffPower="0.55">
+            <textevent timeoffset="0" message="GO! Keep your cadence up throughout these intervals." />
+            <textevent timeoffset="30" message="Halfway!" />
+            <textevent timeoffset="50" message="PUSH IT!" />
+            <textevent timeoffset="60" message="Nice work! That should leave a sting in the legs." />
+            <textevent timeoffset="70" message="Really quick recovery here before we push on again." />
+            <textevent timeoffset="80" message="We&apos;ll be at a slightly lower intensity next, taking your fatigue into account." />
+            <textevent timeoffset="110" message="Ready?" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="45" OnPower="1.35" OffDuration="60" OffPower="0.55">
+            <textevent timeoffset="0" message="UP UP UP!" />
+            <textevent timeoffset="20" message="C&apos;mon! Drive this!" />
+            <textevent timeoffset="35" message="Almost there!" />
+            <textevent timeoffset="45" message="Amazing! Quick recovery here again, then we&apos;ll squeeze what&apos;s left out of those legs next." />
+            <textevent timeoffset="85" message="Next up we have a Free Ride block ,which means you&apos;ll be using your gears." />
+            <textevent timeoffset="95" message="Push as hard as you can here!" />
+        </IntervalsT>
+        <FreeRide Duration="30" FlatRoad="1">
+            <textevent timeoffset="0" message="ALL OUT!" />
+            <textevent timeoffset="10" message="C&apos;mon!" />
+            <textevent timeoffset="20" message="EVERYTHING!" />
+        </FreeRide>
+        <SteadyState Duration="360" Power="0.45">
+            <textevent timeoffset="0" message="Wow! That was a hard bit of work for sure." />
+            <textevent timeoffset="10" message="Catch your breath here and start the recovery process." />
+            <textevent timeoffset="60" message="Deep breaths in through your nose and breathe out through pursed lips." />
+            <textevent timeoffset="120" message="Keep bringing your heart rate down, nice and easy." />
+            <textevent timeoffset="180" message="Pidcock&apos;s rider type is a puncheur or road bicycle racer who specializes in rolling terrain with short but steep climbs." />
+            <textevent timeoffset="190" message="And you can see why he&apos;d be well-adapted to this kind of workout." />
+            <textevent timeoffset="200" message="He thinks &apos;The best thing about Zwift is that it enables riders to complete their specific training goals,&apos;" />
+            <textevent timeoffset="210" message="&apos;when external factors, such as the weather conditions, would otherwise prevent them.&apos;" />
+            <textevent timeoffset="300" message="Alright, one more minute and we&apos;re on! How are you feeling?" />
+            <textevent timeoffset="310" message="If that 1st set felt way too hard, you can adjust your FTP bias down." />
+            <textevent timeoffset="320" message="These sets should be challenging for sure, but also doable." />
+            <textevent timeoffset="350" message="Okay, ready or not, let&apos;s GO!" />
+        </SteadyState>
+        <IntervalsT Repeat="1" OnDuration="60" OnPower="1.5" OffDuration="60" OffPower="0.55">
+            <textevent timeoffset="0" message="PUSH IT!" />
+            <textevent timeoffset="30" message="Halfway! Keep the cadence up!" />
+            <textevent timeoffset="50" message="TO THE LINE!" />
+            <textevent timeoffset="60" message="Yes! Take it way down again here and let&apos;s recover." />
+            <textevent timeoffset="110" message="Anaerobic effort #2 coming in hot!" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="45" OnPower="1.35" OffDuration="60" OffPower="0.55">
+            <textevent timeoffset="0" message="DIG!" />
+            <textevent timeoffset="20" message="You can do this! Focus!" />
+            <textevent timeoffset="35" message="ALL THE WAY!" />
+            <textevent timeoffset="45" message="YEAH! You&apos;re making quick work of these intervals." />
+            <textevent timeoffset="55" message="Just a full gas sprint effort remaining, make me proud!" />
+            <textevent timeoffset="95" message="Okay, get ready to sprint. Remember, you&apos;re using your gears!" />
+        </IntervalsT>
+        <FreeRide Duration="30" FlatRoad="1">
+            <textevent timeoffset="0" message="ALL OUT!" />
+            <textevent timeoffset="10" message="POWER!" />
+            <textevent timeoffset="20" message="TO THE ARCH!" />
+        </FreeRide>
+        <SteadyState Duration="360" Power="0.45">
+            <textevent timeoffset="0" message="Pidcock would be proud of you!" />
+            <textevent timeoffset="10" message="You&apos;re doing amazing today." />
+            <textevent timeoffset="20" message="Let&apos;s bring it back down again and take a full recovery." />
+            <textevent timeoffset="120" message="Stretch if you need to, roll the shoulders, relax the upper body." />
+            <textevent timeoffset="150" message="What&apos;s Pidcock&apos;s pet-peeve? &apos;Toilet roll facing the wall annoys me! It should always face toward you.&apos;" />
+            <textevent timeoffset="180" message="Take a couple sips of your fluids." />
+            <textevent timeoffset="240" message="Feeling recovered? Ready to tackle the final effort? Nice!" />
+            <textevent timeoffset="330" message="Okay, 30sec and we&apos;re on! Start to narrow your focus." />
+            <textevent timeoffset="350" message="Last one is the best one. Let&apos;s get it!" />
+        </SteadyState>
+        <IntervalsT Repeat="1" OnDuration="60" OnPower="1.5" OffDuration="60" OffPower="0.55">
+            <textevent timeoffset="0" message="GO! Same cadence here as the 1st set!" />
+            <textevent timeoffset="30" message="Halfway!" />
+            <textevent timeoffset="50" message="PUSH IT!" />
+            <textevent timeoffset="60" message="Nice work! That should leave a sting in the legs." />
+            <textevent timeoffset="70" message="Really quick recovery here before we push on again." />
+            <textevent timeoffset="110" message="Ready?" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="45" OnPower="1.35" OffDuration="60" OffPower="0.55">
+            <textevent timeoffset="0" message="UP UP UP!" />
+            <textevent timeoffset="20" message="C&apos;mon! Drive this!" />
+            <textevent timeoffset="35" message="Almost there!" />
+            <textevent timeoffset="45" message="Okay, just one sprint effort remaining and you&apos;re DONE!" />
+            <textevent timeoffset="95" message="Push as hard as you can and empty the tanks here!" />
+        </IntervalsT>
+        <FreeRide Duration="30" FlatRoad="1">
+            <textevent timeoffset="0" message="ALL OUT!" />
+            <textevent timeoffset="10" message="C&apos;mon!" />
+            <textevent timeoffset="20" message="EVERYTHING!" />
+        </FreeRide>
+        <Cooldown Duration="300" PowerHigh="0.35" PowerLow="0.55">
+            <textevent timeoffset="0" message="Woo! Amazing work there, my friend." />
+            <textevent timeoffset="10" message="We&apos;ll take some time to cool down now—you&apos;ve earned it!" />
+            <textevent timeoffset="60" message="Deep breaths here, get yourself back to baseline again." />
+            <textevent timeoffset="90" message="Tom&apos;s recovery tip: &apos;Resting just as important as training.&apos;" />
+            <textevent timeoffset="100" message="&apos;It is the time in which your body adapts to the load and becomes stronger than before.&apos;" />
+            <textevent timeoffset="120" message="Be sure to check out the other INEOS Grenadiers Training Camp Workouts." />
+            <textevent timeoffset="130" message="They&apos;re all available on-demand and will fit any intensity you&apos;re looking for." />
+            <textevent timeoffset="240" message="Final minute of the day here, thanks for all your hard work!" />
+            <textevent timeoffset="250" message="I hope you enjoyed the workout and will come back for more soon." />
+            <textevent timeoffset="290" message="Until next time, Ride On!" />
+        </Cooldown>
+    </workout>
+</workout_file>

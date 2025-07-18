@@ -1,0 +1,70 @@
+<workout_file>
+    <uniqueId>33b6b3f4-56cb-4ca9-9521-e35302bad88a</uniqueId>
+    <legacyIdHash>3434022759</legacyIdHash>
+    <author>Zwift</author>
+    <name>Turn Up The AC (2x6x2min)</name>
+    <description>Some aenerobic threshold work. YAY. Yes, it hurts, but is also kinda weirdly fun, and in the end will make you faster. Wanna try? This workout is one that will bring us to an effort that we won&apos;t often hit in gravel racing but it&apos;s a good practice in how to efficiently pace oneself in a short effort and will help prepare us for when the terrain and competitors force us to go into this zone. 
+
+Believe it or not an effort similar to this can be often used even when riding solo in a gravel race when under-geared. I call em &quot;steepy sprints&quot;. When the road ahead looks steeper than manageable ridden sometimes you have to burn a match and literally sprint so that you aren&apos;t bogged down and forced to walk. Today may help us with that. A little. 
+
+30 minutes warm up with 3 1 minute RPM builds. 3x2 minutes at 70.3 pace with high rpm 2 minutes between to open things up and then... 2 rounds of 6x30 seconds max avg watts with 90 seconds between. 5 minutes between rounds. Spin home.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Gravel Grinder</category>
+    <subcategory>Week 7</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="480" PowerLow="0.45" PowerHigh="0.65">
+            <textevent timeoffset="0" message="Nice little warm u p block for you!" locIndex="1" />
+        </Warmup>
+        <IntervalsT Repeat="3" OnDuration="60" OffDuration="60" OnPower="0.8" OffPower="0.55">
+            <textevent timeoffset="0" message="Now we&apos;re going to wake you up with just a few 1 minute builds at 80%. " locIndex="2" />
+            <textevent timeoffset="60" message="That wasn&apos;t too hard, but you get rest anyway. " locIndex="3" />
+            <textevent timeoffset="120" message="Back up to 80. " locIndex="4" />
+            <textevent timeoffset="240" message="Just warming up that engine! Keep the legs spinning. " locIndex="5" />
+            <textevent timeoffset="300" message="60 seconds up before some tiny bit harder blocks. " locIndex="6" />
+        </IntervalsT>
+        <IntervalsT Repeat="3" OnDuration="120" OffDuration="120" OnPower="0.9" OffPower="0.55">
+            <textevent timeoffset="0" message="Here we go, up to 90% for 2 minutes. Long enough to start to really warm up now. " locIndex="7" />
+            <textevent timeoffset="120" message="Equal rest for you on this block. ENJOY!" locIndex="8" />
+            <textevent timeoffset="240" message="Up again to 90%. " locIndex="9" />
+            <textevent timeoffset="360" message="Lots of rest though!" locIndex="10" />
+            <textevent timeoffset="480" message="Last time through. " locIndex="11" />
+            <textevent timeoffset="600" message="2 minutes before some HARD efforts. Be ready!" locIndex="12" />
+        </IntervalsT>
+        <IntervalsT Repeat="6" OnDuration="30" OffDuration="90" OnPower="1.5" OffPower="0.5">
+            <textevent timeoffset="0" message="GOGOGOGOGOGOGOGO. Keep on top of that gear!" locIndex="13" />
+            <textevent timeoffset="30" message="Solid rest here. Let the RPM&apos;s settle. Hard?" locIndex="14" />
+            <textevent timeoffset="120" message="Again, again!  You are a beast!" locIndex="15" />
+            <textevent timeoffset="150" message="Chill. " locIndex="16" />
+            <textevent timeoffset="240" message="Keep the RPM&apos;s up as long as you can!" locIndex="17" />
+            <textevent timeoffset="270" message="Nice stuff. " locIndex="18" />
+            <textevent timeoffset="360" message="Come on now! Keep it up!" locIndex="19" />
+            <textevent timeoffset="480" message="Up, UP, UP!!!!!" locIndex="20" />
+            <textevent timeoffset="570" message="Easy days. Just one more!" locIndex="21" />
+            <textevent timeoffset="600" message="GO on!!!" locIndex="22" />
+            <textevent timeoffset="690" message="Ahhhhhh. Big rest block now. Well deserved. " locIndex="23" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.55">
+            <textevent timeoffset="0" message="Are we able to keep that effort up as we build through the block?  It&apos;s hard, but you can do it. Again!" locIndex="24" />
+        </SteadyState>
+        <IntervalsT Repeat="6" OnDuration="30" OffDuration="90" OnPower="1.5" OffPower="0.5">
+            <textevent timeoffset="0" message="Time to go again!!!!" locIndex="25" />
+            <textevent timeoffset="30" message="Ez days. " locIndex="26" />
+            <textevent timeoffset="120" message="Keep that cadence high and GO!" locIndex="27" />
+            <textevent timeoffset="210" message="Is this starting to burn?" locIndex="28" />
+            <textevent timeoffset="240" message="Up to the limit again! Smooth as we can be in this effort. " locIndex="29" />
+            <textevent timeoffset="270" message="Not far to go now!" locIndex="30" />
+            <textevent timeoffset="360" message="See that steep section ahead? Get up that thing!" locIndex="31" />
+            <textevent timeoffset="390" message="Just 2 more!" locIndex="32" />
+            <textevent timeoffset="480" message="GOGOGOGGO!" locIndex="33" />
+            <textevent timeoffset="510" message="Rest yourself! ONE MORE!" locIndex="34" />
+            <textevent timeoffset="640" message="Make this one your best! Come on!" locIndex="35" />
+            <textevent timeoffset="670" message="Oh man. Hard. " locIndex="36" />
+        </IntervalsT>
+        <Cooldown Duration="300" PowerLow="0.55" PowerHigh="0.45">
+            <textevent timeoffset="0" message="Great stuff today! That set is now easy!" locIndex="37" />
+            <textevent timeoffset="60" message="Now spin to the finish. That&apos;s all for today. " locIndex="38" />
+        </Cooldown>
+    </workout>
+</workout_file>

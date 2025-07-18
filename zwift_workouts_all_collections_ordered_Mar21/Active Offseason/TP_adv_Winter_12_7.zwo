@@ -1,0 +1,22 @@
+<workout_file>
+    <uniqueId>6e73fff9-ec05-4cfc-afad-998f4b8c80bc</uniqueId>
+    <legacyIdHash>1852722162</legacyIdHash>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <categoryOverride>90+ minutes to burn</categoryOverride>
+    <category>Active Offseason</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 12</subcategory>
+    <name>Week 12.7 - Explosive Power</name>
+    <description>Explosive Power Development! Crush it!</description>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow="0.24976191" PowerHigh="0.74976188" />
+        <IntervalsT Repeat="3" OnDuration="12" OffDuration="24" PowerOnLow="2.0044999" PowerOnHigh="2.0044999" PowerOffLow="0.50450003" PowerOffHigh="0.50450003" />
+        <SteadyState Duration="900" PowerLow="0.88449997" PowerHigh="0.88449997" />
+        <SteadyState Duration="300" PowerLow="0.65449995" PowerHigh="0.65449995" />
+        <IntervalsT Repeat="3" OnDuration="12" OffDuration="24" PowerOnLow="2.0044999" PowerOnHigh="2.0044999" PowerOffLow="0.50450003" PowerOffHigh="0.50450003" />
+        <SteadyState Duration="900" PowerLow="0.81449997" PowerHigh="0.81449997" />
+        <SteadyState Duration="3600" PowerLow="0.65449995" PowerHigh="0.65449995" />
+        <Cooldown Duration="684" PowerLow="0.6645" PowerHigh="0.2545" />
+    </workout>
+</workout_file>

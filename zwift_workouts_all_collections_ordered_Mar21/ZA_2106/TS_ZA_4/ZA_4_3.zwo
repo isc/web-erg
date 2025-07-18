@@ -1,0 +1,20 @@
+<workout_file>
+    <uniqueId>d9569327-f2c6-4f93-b384-a7d05ce545a1</uniqueId>
+    <legacyIdHash>1834178024</legacyIdHash>
+    <category>Zwift Academy 2016</category>
+    <subcategory>Month 4 - Semifinals</subcategory>
+    <author>K.Veronneau ZA Leader</author>
+    <name>Month 4 - Semifinals.3 - Strength Builder</name>
+    <WorkoutPlan>1</WorkoutPlan>
+    <description>This session is designed to build leg strength. Low cadence, high torque efforts will increase your ability to generate force in races. After a 10 min warm-up, begin your first effort, a 16 min interval in Z3 at 65-75 rpm. Recover five minutes between efforts and repeat 2 more times. 3 X 16 min efforts. 15 min cool down. </description>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow="0.2507782" PowerHigh="0.7488327" />
+        <SteadyState Duration="960" Power="0.81108946" Cadence="70" />
+        <SteadyState Duration="300" Power="0.65155643" />
+        <SteadyState Duration="960" Power="0.81108946" Cadence="70" />
+        <SteadyState Duration="300" Power="0.65155643" />
+        <SteadyState Duration="960" Power="0.81108946" Cadence="70" />
+        <Cooldown Duration="900" PowerLow="0.7488327" PowerHigh="0.2507782" />
+    </workout>
+</workout_file>

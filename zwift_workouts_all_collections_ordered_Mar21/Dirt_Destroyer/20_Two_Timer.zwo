@@ -1,0 +1,80 @@
+<workout_file>
+    <uniqueId>17313def-c84c-4232-852e-e45ad4514dc1</uniqueId>
+    <legacyIdHash>267877324</legacyIdHash>
+    <author>Matt Rowe</author>
+    <categoryOverride>30 to 60 minutes to burn</categoryOverride>
+    <name>Week 5.4 - Two Timer</name>
+    <description>Todays workout contains some ramped efforts, at varying cadences.
+
+We will complete 2 x 15 minute blocks, each containing a two consecutive ramps, with the first at a low cadence of 60rpm, followed by a short block of &apos;Over-Unders&apos; where we tip above and under your threshold before a big 30 second push at the end.
+
+We spend a lot of time today around your threshold, but critically not AT threshold, which is more aligned to the demands of mountain biking.</description>
+    <sportType>bike</sportType>
+    <category>Dirt Destroyer</category>
+    <subcategory>Week 5</subcategory>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <tags />
+    <workout>
+        <Warmup Duration="420.00003" PowerLow="0.43673915" PowerHigh="0.74978262" pace="0">
+            <textevent timeoffset="10" message="Welcome to another Dirt Destroyer Workout!" locIndex="1" />
+            <textevent timeoffset="25" message="Todays Two Timer session aims to develop your threshold." locIndex="2" />
+            <textevent timeoffset="35" message="We will complete a ramped effort followed by &apos;over-under&apos; and a 30s big effort to finish." locIndex="3" />
+            <textevent timeoffset="48" message="We start with a progressive ramp before going in to some 30 second activation efforts to get us ready for the session." locIndex="4" />
+            <textevent timeoffset="65" message="A progressive ramp followed by some sprints will leave you ready to get the most out of efforts in this session" locIndex="5" />
+            <textevent timeoffset="100" message="Today&apos;s session will replicate some of the demands of mountain biking, i.e producing efforts over FTP on tired legs!" locIndex="6" />
+            <textevent timeoffset="188" message="Strength is fundamental in mountain biking to be able to cope with sections where you have to produce huge crank torque..." locIndex="7" />
+            <textevent timeoffset="198" message="...from a very low cadence as you stall on a technical section. This is why we include low cadence efforts." locIndex="8" />
+            <textevent timeoffset="390" message="You should be feeling pretty warmed up now. Do you have a sweat on?" locIndex="9" />
+            <textevent timeoffset="401" message="Here comes the first activation effort - notice its 30 seconds, very different to a road sprint. More of a capacity effort." locIndex="10" />
+        </Warmup>
+        <SteadyState Duration="30.000002" Power="1.0944999" pace="0" />
+        <SteadyState Duration="180.00002" Power="0.50449997" pace="0">
+            <textevent timeoffset="10" message="How did that effort feel? Your blood will be warming up nicely now" locIndex="11" />
+            <textevent timeoffset="25" message="I hope your fan is on full speed." locIndex="12" />
+            <textevent timeoffset="150" message="Another sprint incoming - but time for a quick wheelie... if you can do one!" locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="30.000002" Power="1.0944999" pace="0" />
+        <SteadyState Duration="300" Power="0.50449997" pace="0">
+            <textevent timeoffset="9.9999313" message="How did the wheelie go?" locIndex="14" />
+            <textevent timeoffset="269" message="Are you ready for the first block? Stay composed - body still, sit upright and get the work done." locIndex="15" />
+        </SteadyState>
+        <Ramp Duration="300" PowerLow="0.6045" PowerHigh="0.85449994" pace="0" Cadence="60">
+            <textevent timeoffset="99" message="First half of the ramp is to be ridden at 60rpm. The power isn&apos;t high, however the low cadence really draws upon your strength so it&apos;s a hard effort." locIndex="16" />
+            <textevent timeoffset="199" message="Focus on your pedaling stroke, aiming for a smooth transfer of power throughout 360&apos; of the stroke. Try and focus on dragging the pedals up, not just stomping down!" locIndex="17" />
+        </Ramp>
+        <Ramp Duration="300" PowerLow="0.85449994" PowerHigh="1.1044999" pace="0">
+            <textevent timeoffset="212" message="Second half of ramp now, which increases the power further but at your chosen cadence." locIndex="18" />
+        </Ramp>
+        <IntervalsT Repeat="3" OnDuration="60" OffDuration="30" OnPower="0.92449993" OffPower="1.0244999" pace="0" OverUnder="1">
+            <textevent timeoffset="85" message="During these Over-Unders, it&apos;s important to stay composed and just produce the power required - no need to go over as you will pay for it later." locIndex="19" />
+            <textevent timeoffset="265" message="We go straight in to a 30second Zone 5 effort to round off the block - think of this as a final surge to the top of the trail. One final surge before a descent (and a rest)!" locIndex="20" />
+        </IntervalsT>
+        <SteadyState Duration="30" Power="1.1544999" pace="0">
+            <textevent timeoffset="5" message="30 second big effort to finish - go go go!" locIndex="21" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.40450001" pace="0">
+            <textevent timeoffset="177" message="10 Minutes easy - take a drink, check your fan is on and perfect your bunny hops!" locIndex="22" />
+        </SteadyState>
+        <Ramp Duration="300" PowerLow="0.6045" PowerHigh="0.85449994" pace="0" Cadence="60">
+            <textevent timeoffset="99" message="This first half of the ramp will feel difficult even at the low power due to the low cadence." locIndex="23" />
+            <textevent timeoffset="99" message="Think of this effort being like when you have to pick your way through a rock field - a very measured effort." locIndex="24" />
+            <textevent timeoffset="199" message="Focus on your pedaling stroke, aiming for a smooth transfer of power throughout 360&apos; of the stroke. Try and focus on dragging the pedals up, not just stomping down!" locIndex="25" />
+        </Ramp>
+        <Ramp Duration="300" PowerLow="0.85449994" PowerHigh="1.1044999" pace="0">
+            <textevent timeoffset="212" message="Second half of ramp now, which increases the power further but at your chosen cadence. Feel free to do some of this ramp out of the saddle." locIndex="26" />
+        </Ramp>
+        <IntervalsT Repeat="3" OnDuration="60" OffDuration="30" OnPower="0.92449993" OffPower="1.0244999" pace="0" OverUnder="1">
+            <textevent timeoffset="85" message="Sit upright and eyes forward as in mountain biking you need to be anticipating the incoming terrain." locIndex="27" />
+            <textevent timeoffset="265" message="We go straight in to a 30second Zone 5 effort to round off the block - think of this as a final surge to the top of the trail. One final surge before a descent (and a rest)!" locIndex="28" />
+        </IntervalsT>
+        <SteadyState Duration="30" Power="1.1544999" pace="0">
+            <textevent timeoffset="5" message="Smash this final effort! It&apos;s not quite max, but it&apos;s should hurt!" locIndex="29" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.40450001" pace="0">
+            <textevent timeoffset="62" message="Great effort that - you will need some carbs to replenish your glycogen after this session!" locIndex="30" />
+            <textevent timeoffset="190" message="The training we complete now will really benefit you in your next mtb event!" locIndex="31" />
+            <textevent timeoffset="255" message="Make sure you supplement this training plan with some mountain biking, to keep your technical skills sharp!" locIndex="32" />
+            <textevent timeoffset="285" message="As always, thanks for joining - see you on the next workout!" locIndex="33" />
+        </SteadyState>
+    </workout>
+</workout_file>

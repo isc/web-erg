@@ -1,0 +1,65 @@
+<workout_file>
+    <uniqueId>2eab0b66-9381-4afe-beaa-d9c815ead42a</uniqueId>
+    <legacyIdHash>1061065315</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Week 7.2 - Cruise 3 x 9min</name>
+    <category>2018 PRL100 Prep</category>
+    <subcategory>Week 7</subcategory>
+    <description>Warm up 10min followed by 3 x 9min efforts @ 98%, 95% and 91% respectively with 2min recovery. Remaining ride completed as Endurance Free Ride. Cool down 10-20min.</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <SteadyState Duration="60" Power="0.5" pace="0" />
+        <SteadyState Duration="60" Power="0.52999997" pace="0" />
+        <SteadyState Duration="60" Power="0.56" pace="0" />
+        <SteadyState Duration="60" Power="0.58999997" pace="0" />
+        <SteadyState Duration="60" Power="0.62" pace="0">
+            <textevent timeoffset="20" message="Today we are looking to complete 3 threshold efforts, with the 1st being the hardest." locIndex="1" />
+            <textevent timeoffset="40" message="Then we reduce the intensity slightly for the next 2 efforts." locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.63999999" pace="0" />
+        <SteadyState Duration="60" Power="0.67000002" pace="0" />
+        <SteadyState Duration="60" Power="0.69999999" pace="0" />
+        <SteadyState Duration="60" Power="0.73000002" pace="0" />
+        <SteadyState Duration="60" Power="0.75999999" pace="0" />
+        <SteadyState Duration="180" Power="0.55000001" pace="0">
+            <textevent timeoffset="160" message="Ready for the 1st effort." locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="540" Power="0.98000002" pace="0">
+            <textevent timeoffset="20" message="This is the hardest effort." locIndex="4" />
+            <textevent timeoffset="500" message="Observe your HR at the end of the interval." locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.55000001" pace="0">
+            <textevent timeoffset="100" message="A little easier this time. It&apos;s still a threshold effort though." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="540" Power="0.94999999" pace="0">
+            <textevent timeoffset="500" message="Again observe your HR at the end of the effort." locIndex="7" />
+            <textevent timeoffset="520" message="Is it lower than the 1st effort?" locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.55000001" pace="0">
+            <textevent timeoffset="100" message="Last effort now." locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="540" Power="0.91000003" pace="0">
+            <textevent timeoffset="250" message="Is your HR responding to the lower intesnity?" locIndex="10" />
+            <textevent timeoffset="500" message="Note your finishing HR" locIndex="11" />
+            <textevent timeoffset="520" message="A sign of good fitness is a decrease in HR along with the decrease in intensity." locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.55000001" pace="0">
+            <textevent timeoffset="100" message="Now we build some endurance with free riding." locIndex="13" />
+        </SteadyState>
+        <FreeRide Duration="2400" FlatRoad="0">
+            <textevent timeoffset="60" message="Aim to keep your power within zones 2 and 3." locIndex="14" />
+            <textevent timeoffset="300" message="If you are short on time today, it&apos;s fine to cut this portion short." locIndex="15" />
+        </FreeRide>
+        <SteadyState Duration="60" Power="0.75999999" pace="0" />
+        <SteadyState Duration="60" Power="0.73000002" pace="0" />
+        <SteadyState Duration="60" Power="0.69999999" pace="0" />
+        <SteadyState Duration="60" Power="0.67000002" pace="0" />
+        <SteadyState Duration="60" Power="0.63999999" pace="0" />
+        <SteadyState Duration="60" Power="0.62" pace="0" />
+        <SteadyState Duration="60" Power="0.58999997" pace="0" />
+        <SteadyState Duration="60" Power="0.56" pace="0" />
+        <SteadyState Duration="60" Power="0.52999997" pace="0" />
+        <SteadyState Duration="60" Power="0.5" pace="0" />
+    </workout>
+</workout_file>

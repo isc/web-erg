@@ -1,0 +1,104 @@
+<workout_file>
+    <uniqueId>db274f51-0585-42da-81f3-d44a6d18bf6c</uniqueId>
+    <legacyIdHash>4096897497</legacyIdHash>
+    <author>Shayne Gaffney</author>
+    <categoryOverride>Threshold</categoryOverride>
+    <name>The Geoghegan Hart</name>
+    <activitySaveName>INEOS Grenadiers Virtual Training Camp | The Geoghegan Hart</activitySaveName>
+    <description>Tao Geoghegan Hart, 2020 Giro d&apos;Italia winner, is an all-rounder, seemingly comfortable no matter what the terrain or competition throws at him. He is arguably best known for his skills in time trial (TT) events. Today&apos;s workout will put you through a bread-and-butter TT workout.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="ineos2021" />
+    </tags>
+    <category>INEOS Grenadiers Virtual Training Camp</category>
+    <categoryIndex>4</categoryIndex>
+    <overrideHash>4096897497</overrideHash>
+    <visibleAfterTime>1642982460</visibleAfterTime>
+    <workout>
+        <Warmup Duration="480" PowerHigh="0.75" PowerLow="0.5">
+            <textevent timeoffset="0" message="Welcome to the INEOS Grenadiers Virtual Training Camp!" />
+            <textevent timeoffset="10" message="Let&apos;s get started with an easy warm-up. Keep your cadence comfortable." />
+            <textevent timeoffset="60" message="The INEOS Grenadiers is one of the world&apos;s most successful cycling teams." />
+            <textevent timeoffset="70" message="The team has a thirst for a good challenge and a pioneering spirit that allows them to keep pushing themselves and the wider sport of cycling forward." />
+            <textevent timeoffset="120" message="The INEOS Grenadiers Virtual Training Camp gives Zwifters a taste of the training these riders undertake in preparation for their season." />
+            <textevent timeoffset="130" message="Each workout features a team rider and is tailored to what they would do in their own training." />
+            <textevent timeoffset="140" message="Today&apos;s workout features Tao Geoghegan Hart, the 2020 Giro d&apos;Italia winner." />
+            <textevent timeoffset="150" message="Tao says &apos;Expect plenty of short and sharp efforts with fairly minimal recovery between throughout this workout.&apos;" />
+            <textevent timeoffset="160" message="&apos;We&apos;ll start with more explosive efforts of 30 seconds, followed by some longer FTP efforts of 4 minutes once you&apos;ve done some damage already!&apos;" />
+            <textevent timeoffset="180" message="Tao is an all rounder, seemingly comfortable no matter what the terrain or competition throws at him." />
+            <textevent timeoffset="190" message="He is arguably best known for his skills in time trial (TT) events." />
+            <textevent timeoffset="240" message="Today&apos;s workout will put you through a bread-and-butter TT workout." />
+            <textevent timeoffset="250" message="More specifically, 4min just above FTP with a very short 1min recovery in between." />
+            <textevent timeoffset="260" message="The short recovery is key as it will add greater stress to your aerobic system." />
+            <textevent timeoffset="270" message="Stressing the aerobic system will strengthen it and make you a better time trialist, just like Tao!" />
+            <textevent timeoffset="280" message="Let&apos;s keep warming up." />
+            <textevent timeoffset="420" message="Okay, coming up in 1min, we&apos;re going to do two leg primers." />
+            <textevent timeoffset="430" message="These primers help ensure the legs are awake and ready for the work ahead." />
+            <textevent timeoffset="470" message="Try to aim for a slightly faster cadence for the work intervals ahead." />
+        </Warmup>
+        <IntervalsT Repeat="2" OnDuration="30" OnPower="1.15" OffDuration="30" OffPower="0.55">
+            <textevent timeoffset="0" message="GO GO GO!" />
+            <textevent timeoffset="30" message="Great opening effort! Bring things back down again." />
+            <textevent timeoffset="60" message="POWER! Keep your cadence up here." />
+            <textevent timeoffset="90" message="Awesome! Let&apos;s take some time now to recover before the main set." />
+        </IntervalsT>
+        <SteadyState Duration="120" Power="0.55">
+            <textevent timeoffset="0" message="Take a few deep breaths here. Start to narrow your focus." />
+            <textevent timeoffset="30" message="Today is going to start off feeling fairly &apos;easy&apos;, dare I say it..." />
+            <textevent timeoffset="40" message="...but it will end up feeling quite challenging, which is the point." />
+            <textevent timeoffset="90" message="Cadence is up to you today. Try to hit each interval at the same cadence though..." />
+            <textevent timeoffset="100" message="...and especially the later intervals." />
+            <textevent timeoffset="110" message="Here we go!" />
+        </SteadyState>
+        <IntervalsT Repeat="5" OnDuration="240" OnPower="1.02" OffDuration="60" OffPower="0.55">
+            <textevent timeoffset="0" message="We&apos;re just above FTP here." />
+            <textevent timeoffset="60" message="This should feel comfortable, yet slightly challenging." />
+            <textevent timeoffset="120" message="If you feel like you are working too hard here, adjust your FTP bias down." />
+            <textevent timeoffset="130" message="You should be at about a 7.5 out of 10 for perceived exertion." />
+            <textevent timeoffset="180" message="Last minute for this 1st interval, keep on it!" />
+            <textevent timeoffset="240" message="Okay, great! Quick 1min rest interval here before we&apos;re back on again." />
+            <textevent timeoffset="300" message="Back to it!" />
+            <textevent timeoffset="310" message="This is when the workout really starts—after that VERY short break." />
+            <textevent timeoffset="360" message="What is your cadence at? Is it the same as that 1st interval?" />
+            <textevent timeoffset="420" message="If you see a gradually reducing average cadence, that&apos;s a sign that you&apos;re fatiguing." />
+            <textevent timeoffset="480" message="Keep pushing for this last minute! Almost done with the second rep." />
+            <textevent timeoffset="540" message="Nice one! We&apos;re checking these off the list now! Let&apos;s recover." />
+            <textevent timeoffset="570" message="Remember to take a sip of fluids during these recovery blocks." />
+            <textevent timeoffset="600" message="Back on! Resume that familiar cadence and rhythm here." />
+            <textevent timeoffset="660" message="Great time trialists look the exact same at the start and end of a TT." />
+            <textevent timeoffset="670" message="Let&apos;s embrace your inner Tao and keep great form and posture here." />
+            <textevent timeoffset="720" message="How does your heart rate look? Is it staying coupled to your power output?" />
+            <textevent timeoffset="730" message="Or do you see it gradually increasing while the power is staying constant?" />
+            <textevent timeoffset="740" message="If you see it gradually increasing, this is another sign of fatigue." />
+            <textevent timeoffset="780" message="Final minute! Quick cadence check again, keep it steady!" />
+            <textevent timeoffset="840" message="Alright! We&apos;re getting there now. More than halfway through these intervals." />
+            <textevent timeoffset="850" message="Super quick rest and we&apos;re back at it again!" />
+            <textevent timeoffset="900" message="Heading back down the other side now! Just two more reps to go :-)" />
+            <textevent timeoffset="960" message="These latter reps are when this workout shows its teeth—stay focused." />
+            <textevent timeoffset="1080" message="You are doing GREAT today! Last minute of this rep!" />
+            <textevent timeoffset="1110" message="Stay with me! Keep going!" />
+            <textevent timeoffset="1140" message="Amazing! Just one more to go and you&apos;ve made it!" />
+            <textevent timeoffset="1150" message="Use this short rest well." />
+            <textevent timeoffset="1200" message="Here we go! Last rep is the best rep!" />
+            <textevent timeoffset="1260" message="Really look inside yourself now. Squeeze what&apos;s left out of those legs." />
+            <textevent timeoffset="1320" message="Stay positive now, you&apos;re SO CLOSE!" />
+            <textevent timeoffset="1380" message="Final minute—YOU CAN DO THIS!" />
+            <textevent timeoffset="1410" message="Push it!" />
+            <textevent timeoffset="1430" message="GET TO THE ARCH!" />
+            <textevent timeoffset="1440" message="Woot woot! Way to get that solid block of work in, my friend!" />
+            <textevent timeoffset="1450" message="You totally crushed it today! Let&apos;s take a minute before we start the cool down." />
+        </IntervalsT>
+        <Cooldown Duration="300" PowerHigh="0.35" PowerLow="0.55">
+            <textevent timeoffset="0" message="Woo-hoo! Amazing work there, my friend." />
+            <textevent timeoffset="10" message="We&apos;ll take some time to cool down now—you&apos;ve earned it!" />
+            <textevent timeoffset="60" message="Deep breaths here, get yourself back to baseline again." />
+            <textevent timeoffset="70" message="Tao&apos;s recovery tip: &apos;Riding indoors is tough on the body and may highlight your problems in fitness or asymmetries in your body.&apos;" />
+            <textevent timeoffset="80" message="&apos;This means that rest days are important to give the body a chance to adapt to the work.&apos;" />
+            <textevent timeoffset="120" message="Be sure to check out the other INEOS Grenadiers Training Camp Workouts." />
+            <textevent timeoffset="130" message="They&apos;re all available on-demand and will fit any intensity you&apos;re looking for." />
+            <textevent timeoffset="240" message="Final minute of the day here, thanks for all your hard work!" />
+            <textevent timeoffset="250" message="I hope you enjoyed the workout and will come back for more soon." />
+            <textevent timeoffset="290" message="Until next time, Ride On!" />
+        </Cooldown>
+    </workout>
+</workout_file>

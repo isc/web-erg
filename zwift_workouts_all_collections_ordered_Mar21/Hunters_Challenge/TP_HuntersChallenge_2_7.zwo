@@ -1,0 +1,27 @@
+<workout_file>
+    <uniqueId>3203b51e-7fa6-441e-993c-0f44cda4fedb</uniqueId>
+    <legacyIdHash>2056079467</legacyIdHash>
+    <category>Hunter&apos;s Challenge</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 2</subcategory>
+    <name>Week 2.7 - Pointy Pyramid</name>
+    <description>This is a serious effort. Wait until the last couple of weeks in your plan to try this one.</description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.5" PowerHigh="0.65" />
+        <SteadyState Duration="120" Power="0.72" />
+        <SteadyState Duration="120" Power="1.14" />
+        <SteadyState Duration="120" Power="0.72" />
+        <SteadyState Duration="180" Power="1.14" />
+        <SteadyState Duration="120" Power="0.72" />
+        <SteadyState Duration="240" Power="0.95" />
+        <SteadyState Duration="120" Power="0.72" />
+        <SteadyState Duration="180" Power="1.14" />
+        <SteadyState Duration="120" Power="0.72" />
+        <SteadyState Duration="120" Power="1.14" />
+        <SteadyState Duration="120" Power="0.72" />
+        <SteadyState Duration="60" Power="1.60" />
+        <SteadyState Duration="300" Power="0.72" />
+        <Cooldown PowerLow="0.72" PowerHigh=".55" Duration="600" />
+    </workout>
+</workout_file>

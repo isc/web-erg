@@ -1,0 +1,33 @@
+<workout_file>
+    <uniqueId>7bac1909-33ab-4857-a71c-cfd2a914cb8a</uniqueId>
+    <legacyIdHash>296282461</legacyIdHash>
+    <author>Kevin Poulton </author>
+    <name>Week 6.5 - 5 x 5min 100rpm</name>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>2018 PRL46 Prep</category>
+    <subcategory>Week 6</subcategory>
+    <description>Targeting your aerobic efficiency with 5 x 5min sub-threshold efforts with 3min recovery.
+
+We are also introducing an added stress by challenging your neuromuscular system by increasing the target cadence.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="" />
+    </tags>
+    <workout>
+        <SteadyState Duration="300" Power="0.50449997" pace="0">
+            <textevent timeoffset="240.00002" message="High rpm in warm up sprints" locIndex="1" />
+        </SteadyState>
+        <IntervalsT Repeat="2" OnDuration="10" OffDuration="50" OnPower="1.8051497" OffPower="0.50449997" pace="0" />
+        <SteadyState Duration="120" Power="0.50449997" pace="0" />
+        <SteadyState Duration="60" Power="1.0944999" pace="0" />
+        <SteadyState Duration="120.00001" Power="0.56103671" pace="0" />
+        <SteadyState Duration="180" Power="0.83695525" pace="0" />
+        <SteadyState Duration="180" Power="0.56229657" pace="0">
+            <textevent timeoffset="144" message="Target rpm &gt;100" locIndex="2" />
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="300" OffDuration="180" OnPower="0.92449993" OffPower="0.50449997" pace="0" Cadence="100" CadenceResting="80">
+            <textevent timeoffset="335.86609" message="How did the high cadence feel? " locIndex="3" />
+        </IntervalsT>
+        <Cooldown Duration="600" PowerLow="0.75449997" PowerHigh="0.50449997" pace="0" />
+    </workout>
+</workout_file>

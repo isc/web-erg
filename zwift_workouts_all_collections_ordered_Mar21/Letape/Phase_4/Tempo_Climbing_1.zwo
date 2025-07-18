@@ -1,0 +1,99 @@
+<workout_file>
+    <uniqueId>9c3c0b47-483b-4ccf-9b58-f9ea4317e936</uniqueId>
+    <legacyIdHash>109440334</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <categoryOverride>Climbing</categoryOverride>
+    <name>Phase 4.6 - Tempo Climbing #1</name>
+    <description>The basis of today&apos;s session is to simulate long tempo climbs. However, each tempo interval is completed with a different high intensity effort.
+
+The tempo portion of each interval is performed at a low climbing cadence, before completing the closing effort at a self selected cadence.</description>
+    <sportType>bike</sportType>
+    <category>L&apos;Etape du Tour Training Club</category>
+    <subcategory>Phase 4</subcategory>
+    <visibleAfterTime>1560470400</visibleAfterTime>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.50449997" PowerHigh="0.75449997" pace="-256">
+            <textevent timeoffset="100" message="A nice long steady warmup today." locIndex="1" />
+            <textevent timeoffset="160" message="The intervals today are long." locIndex="2" />
+            <textevent timeoffset="220" message="L&apos;Etape du Tour de France will require long tempo efforts." locIndex="3" />
+            <textevent timeoffset="240" message="We need to train for this." locIndex="4" />
+            <textevent timeoffset="300" message="From the warmup we go straight into the first interval." locIndex="5" />
+            <textevent timeoffset="360" message="Each opening effort has a target cadence." locIndex="6" />
+            <textevent timeoffset="420" message="With the following high intensity effort allowing you to self select your cadence." locIndex="7" />
+            <textevent timeoffset="500" message="The 1st effort is the longest. 10min Tempo." locIndex="8" />
+            <textevent timeoffset="580" message="Here we go." locIndex="9" />
+        </Warmup>
+        <SteadyState Duration="600" Power="0.88449997" pace="-256" Cadence="75">
+            <textevent timeoffset="10" message="Go straight for the target cadence of 75rpm." locIndex="10" />
+            <textevent timeoffset="40" message="Let the smart trainer adjust the power" locIndex="11" />
+            <textevent timeoffset="100" message="This is a long hard effort." locIndex="12" />
+            <textevent timeoffset="160" message="The power isn&apos;t a problem." locIndex="13" />
+            <textevent timeoffset="220" message="It&apos;s the low cadence that causes the discomfort." locIndex="14" />
+            <textevent timeoffset="280" message="Position yourself on the bike as you would climbing." locIndex="15" />
+            <textevent timeoffset="340" message="Sit on the back of the saddle with your hands on the tops of the bars." locIndex="16" />
+            <textevent timeoffset="400" message="From this effort we go straight into a 30sec high powered effort." locIndex="17" />
+            <textevent timeoffset="460" message="Picture yourself sprinting for the stage win at the top of the climb!" locIndex="18" />
+            <textevent timeoffset="540" message="Into the last minute. Get ready to sprint for the win!" locIndex="19" />
+            <textevent timeoffset="580" message="Out of the seat for this effort. Self select your cadence." locIndex="20" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.5044999" pace="-256" />
+        <SteadyState Duration="300" Power="0.55000001" pace="-256">
+            <textevent timeoffset="10" message="Great work. A good recovery period now." locIndex="21" />
+            <textevent timeoffset="100" message="The next effort begins with a controlled tempo effort with a target cadence." locIndex="22" />
+            <textevent timeoffset="120" message="Before finishing with a long threshold effort." locIndex="23" />
+            <textevent timeoffset="180" message="This time the opening target power is a little less, and the target cadence a little higher." locIndex="24" />
+            <textevent timeoffset="240" message="Ready to go with a 8min tempo effort." locIndex="25" />
+        </SteadyState>
+        <SteadyState Duration="480" Power="0.80449992" pace="-256" Cadence="80">
+            <textevent timeoffset="10" message="Go straight for the target cadence of 80rpm." locIndex="26" />
+            <textevent timeoffset="40" message="Let the smart trainer adjust the power" locIndex="27" />
+            <textevent timeoffset="280" message="Position yourself on the bike as you would climbing." locIndex="28" />
+            <textevent timeoffset="340" message="Sit on the back of the saddle with your hands on the tops of the bars." locIndex="29" />
+            <textevent timeoffset="360" message="From this effort we go straight into a 7min threshold effort." locIndex="30" />
+            <textevent timeoffset="400" message="This time you are attacking from a long way out on the final climb of the day!" locIndex="31" />
+            <textevent timeoffset="420" message="Into the last minute. Get ready to attack for the win!" locIndex="32" />
+        </SteadyState>
+        <SteadyState Duration="420" Power="0.98449993" pace="-256">
+            <textevent timeoffset="10" message="Settle into a nice effort." locIndex="33" />
+            <textevent timeoffset="120" message="Select a comfortable cadence for yourself." locIndex="34" />
+            <textevent timeoffset="180" message="Picture yourself climbing and feeling strong." locIndex="35" />
+            <textevent timeoffset="210" message="That&apos;s halfway. You&apos;ve got this!" locIndex="36" />
+            <textevent timeoffset="270" message="Keep spinning that cadence." locIndex="37" />
+            <textevent timeoffset="330" message="It&apos;s important to be able to lift the pace into threshold from a long tempo effort." locIndex="38" />
+            <textevent timeoffset="360" message="1min to go. Right to the line for the win!" locIndex="39" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.55000001" pace="-256">
+            <textevent timeoffset="10" message="Great work. Another good recovery period now." locIndex="40" />
+            <textevent timeoffset="100" message="Again we start the next effort with a controlled tempo effort." locIndex="41" />
+            <textevent timeoffset="120" message="Before finishing with a VO2max interval." locIndex="42" />
+            <textevent timeoffset="180" message="Again, the opening target power is a little less, and the target cadence a little higher." locIndex="43" />
+            <textevent timeoffset="240" message="Ready to go with a 5min tempo effort." locIndex="44" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.80449992" pace="-256" Cadence="85">
+            <textevent timeoffset="10" message="Go straight for the target cadence of 85rpm." locIndex="45" />
+            <textevent timeoffset="40" message="Let the smart trainer adjust the power" locIndex="46" />
+            <textevent timeoffset="80" message="This is the hardest finale of the day." locIndex="47" />
+            <textevent timeoffset="160" message="From this effort we go straight into a 5min VO2 max effort." locIndex="48" />
+            <textevent timeoffset="200" message="This time you are attacking with everything you have!" locIndex="49" />
+            <textevent timeoffset="240" message="Into the last minute. Get ready to attack for the win!" locIndex="50" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="1.0545" pace="-256">
+            <textevent timeoffset="05" message="Allez Allez Allez!!." locIndex="51" />
+            <textevent timeoffset="30" message="Great start. Give it everything." locIndex="52" />
+            <textevent timeoffset="90" message="This is a fantastic effort!" locIndex="53" />
+            <textevent timeoffset="150" message="Halfway there. Keep spinning those legs." locIndex="54" />
+            <textevent timeoffset="210" message="Strong, right to the line!" locIndex="55" />
+            <textevent timeoffset="240" message="1min to go." locIndex="56" />
+            <textevent timeoffset="250" message="Go Go Go. You have the lead. Bring it home. " locIndex="57" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow="0.75449997" PowerHigh="0.50449997" pace="-256">
+            <textevent timeoffset="15" message="Ride On! That was a big effort today." locIndex="58" />
+            <textevent timeoffset="25" message="After that effort, you should know just how hard you can go." locIndex="59" />
+            <textevent timeoffset="35" message="Remember, riding outdoor roads sometimes enable you to go even harder." locIndex="60" />
+            <textevent timeoffset="45" message="But now you have a great benchmark of what you are capable of." locIndex="61" />
+            <textevent timeoffset="160" message="You completed quality tempo work with very high intensity." locIndex="62" />
+            <textevent timeoffset="200" message="A good idea to have a recovery day tomorrow." locIndex="63" />
+            <textevent timeoffset="210" message="Ride On." locIndex="64" />
+        </Cooldown>
+    </workout>
+</workout_file>

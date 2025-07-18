@@ -1,0 +1,31 @@
+<workout_file>
+    <uniqueId>45ba04b7-8937-40a6-955b-faabdef50926</uniqueId>
+    <legacyIdHash>2805269118</legacyIdHash>
+    <author>Jon Sharples</author>
+    <category>Zwift Academy 2016</category>
+    <subcategory>Month 2</subcategory>
+    <WorkoutPlan>1</WorkoutPlan>
+    <name>Month 2.1 - Extended Zone 3</name>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/trainSharp_Logo.tga</authorIcon>
+    <description>Unlike a previous session that was designed to work your low cadence power production, this session is designed to work your cardiopulmonary system and aerobic power development. These  intervals are meant to be relatively low intensity and each of the efforts should feel comfortably hard but hardly comfortable! Remember to keep good form on the the bike focusing on smooth, fluid pedaling at 90+ RPM. </description>
+    <tags>
+        <tag name="INTERVALS" />
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.25125" PowerHigh="0.66791666" />
+        <SteadyState Duration="480" Power="0.70402777" />
+        <SteadyState Duration="240" Power="0.41791666" />
+        <SteadyState Duration="600" Power="0.70449996" />
+        <SteadyState Duration="240" Power="0.41791666" />
+        <SteadyState Duration="720" Power="0.70449996" />
+        <SteadyState Duration="240" Power="0.41791666" />
+        <SteadyState Duration="900" Power="0.70449996" />
+        <SteadyState Duration="240" Power="0.41791666" />
+        <SteadyState Duration="720" Power="0.70449996" />
+        <SteadyState Duration="240" Power="0.41513887" />
+        <SteadyState Duration="600" Power="0.70449996" />
+        <SteadyState Duration="240" Power="0.41791666" />
+        <SteadyState Duration="480" Power="0.70402777" />
+        <SteadyState Duration="600" Power="0.41791666" />
+    </workout>
+</workout_file>

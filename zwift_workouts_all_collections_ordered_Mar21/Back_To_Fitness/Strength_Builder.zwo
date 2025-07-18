@@ -1,0 +1,84 @@
+<workout_file>
+    <uniqueId>3e99ecec-8272-4d4f-8287-d5fd69c1d9c7</uniqueId>
+    <legacyIdHash>2656076584</legacyIdHash>
+    <author>D.Rowe (Rowe&amp;King)</author>
+    <categoryOverride>Daily Fit</categoryOverride>
+    <name>Week 4.1 - Strength Builder</name>
+    <description>This workout contains 4 x very mild ramps from Zone 2 to Zone 3, however each ramp is to be ridden at a low cadence of 60rpm, adding a strength element to the workout. Rather than being a strenuous strength endurance workout in its own right, todays efforts further your strength training experience.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <tags />
+    <category>Back to Fitness</category>
+    <subcategory>Week 4</subcategory>
+    <workout>
+        <Warmup Duration="300" PowerHigh="1.05" PowerLow="0.4">
+            <textevent message="Welcome to Strength Builder" locIndex="1" timeoffset="10" />
+            <textevent message="This workout is part of the PowerUp Prep series designed by Dani Rowe and Kristin Armstrong" locIndex="2" timeoffset="25" />
+            <textevent message="This series is designed to build your fitness and prepare you for a more intense training program" locIndex="3" timeoffset="40" />
+            <textevent message="by providing you with 12 weeks of 30-45 minute structured workouts" locIndex="4" timeoffset="50" />
+            <textevent message="This workout series assumes a low level of current fitness - maybe you are starting out training, getting back on your bike after giving birth or maybe it&apos;s your return from injury" locIndex="5" timeoffset="80" />
+            <textevent message="The key to training and improving is consistency - 30 minutes is infinitely better than nothing" locIndex="6" timeoffset="160" />
+            <textevent message="It&apos;s helpful if you have a heart rate monitor, to keep track of how your heart rate responds to efforts week to week" locIndex="7" timeoffset="210" />
+            <textevent message="Following a structured training plan like this keeps you accountable and hopefully helps you remain focused on your goals" locIndex="8" timeoffset="230" />
+            <textevent message="Listen to your body, and don&apos;t worry if you need to lower the bias during todays workout to complete" locIndex="9" timeoffset="250" />
+            <textevent message="Most importantly - enjoy!" locIndex="10" timeoffset="280" />
+        </Warmup>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent message="2 minutes easy before we get started" locIndex="11" timeoffset="13" />
+        </SteadyState>
+        <Ramp Cadence="60" Duration="300" PowerHigh="0.86" PowerLow="0.7">
+            <textevent message="Let&apos;s go! First of 4 x 5 minute progressive blocks of low cadence strength work " locIndex="12" timeoffset="10" />
+            <textevent message="Really focus on a smooth pedal stroke - avoiding dead spots in your pedal stroke" locIndex="13" timeoffset="60" />
+            <textevent message="You want to be pulling up as well as pushing down on the pedals" locIndex="14" timeoffset="80" />
+            <textevent message="Over half way through the first ramp - it will get a little tougher here on in!" locIndex="15" timeoffset="160" />
+            <textevent message="Last big push all the way to the arch" locIndex="16" timeoffset="220" />
+        </Ramp>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent message="3 minutes to recover and pedal at a more comfortable cadence " locIndex="17" timeoffset="10" />
+            <textevent message="Don&apos;t forget to keep drinking throughout - little and often to ensure you stay hydrated " locIndex="18" timeoffset="70" />
+        </SteadyState>
+        <Ramp Cadence="60" Duration="300" PowerHigh="0.85" PowerLow="0.7">
+            <textevent message="Ok - back to it! Block 2" locIndex="19" timeoffset="0" />
+            <textevent message="You know what this feels like now so settle into your rhythm " locIndex="20" timeoffset="30" />
+            <textevent message="Try changing position of your hands - from the hoods, middle of your bars and even to the drops " locIndex="21" timeoffset="90" />
+            <textevent message="This will recruit slightly different muscle groups in varied positions" locIndex="22" timeoffset="110" />
+            <textevent message="1 minute to go - how are your legs feeling?" locIndex="23" timeoffset="240" />
+            <textevent message="These efforts draw upon your muscular system more than cardiovascular, so your legs will hurt before you are gasping for breath!" locIndex="24" timeoffset="260" />
+        </Ramp>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent message="Great work! That&apos;s half of the efforts complete " locIndex="25" timeoffset="10" />
+            <textevent message="The cumulative fatigue will start to kick in during the final 2 efforts" locIndex="26" timeoffset="60" />
+            <textevent message="Keep pushing through - this is where the big gains are made. " locIndex="27" timeoffset="100" />
+            <textevent message="Here we go - let&apos;s nail this next block!" locIndex="28" timeoffset="170" />
+        </SteadyState>
+        <Ramp Cadence="60" Duration="300" PowerHigh="0.85" PowerLow="0.7">
+            <textevent message="The first minute or so is about finding your rhythm and settling in" locIndex="29" timeoffset="10" />
+            <textevent message="Imagine this effort is a climb - starting steady but getting steeper towards the top" locIndex="30" timeoffset="60" />
+            <textevent message="If you need to lower your bias, that&apos;s fine! " locIndex="31" timeoffset="120" />
+            <textevent message="It&apos;s all about completing the workout as best you can - getting the duration in is key, even if at a slightly reduced intensity (if needed)" locIndex="32" timeoffset="140" />
+            <textevent message="Last 30 seconds - GO GO GO!" locIndex="33" timeoffset="270" />
+        </Ramp>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent message="Your last rest period! Make the most of it! " locIndex="34" timeoffset="10" />
+            <textevent message="Thats 3 quality blocks of work complete - let&apos;s round it off with a 4th! " locIndex="35" timeoffset="60" />
+            <textevent message="30 seconds of rest left - let&apos;s focus and smash this last effort" locIndex="36" timeoffset="150" />
+        </SteadyState>
+        <Ramp Cadence="60" Duration="300" PowerHigh="0.85" PowerLow="0.7">
+            <textevent message="Last effort - ramping from 70-85% of your FTP" locIndex="37" timeoffset="10" />
+            <textevent message="The key focus is still low cadence! " locIndex="38" timeoffset="30" />
+            <textevent message="Technique is even more vital now we are in the last block and your body is getting tired" locIndex="39" timeoffset="90" />
+            <textevent message="Make sure your legs are doing all the work and you are not losing power by rocking and rolling your upper body" locIndex="40" timeoffset="120" />
+            <textevent message="Come on champ you&apos;ve got this! " locIndex="41" timeoffset="200" />
+            <textevent message="Only 30 seconds of effort plus the cool down stands between you and finishing this Power Up Prep Workout " locIndex="42" timeoffset="270" />
+        </Ramp>
+        <Cooldown Duration="300" PowerHigh="0.4" PowerLow="0.7">
+            <textevent message="Good work - that&apos;s Strength Builder complete!" locIndex="43" timeoffset="20" />
+            <textevent message="Remember, the key to fitness is consistency - try and ride your bike often" locIndex="44" timeoffset="90" />
+            <textevent message="If you cruised through today&apos;s workout, you may fancy doing a little extra riding?" locIndex="45" timeoffset="140" />
+            <textevent message="Some extra volume on top of these short, but structured workouts can help improve your endurance and fitness" locIndex="46" timeoffset="155" />
+            <textevent message="If you struggled with today&apos;s workout - I suggest you think about adjusting the bias slightly?" locIndex="47" timeoffset="220" />
+            <textevent message="A 2 or 3% adjustment can make all the difference - we are looking for these workouts to be &#8216;tough but achievable&apos;" locIndex="48" timeoffset="240" />
+            <textevent message="See you on the next Workout - Dani and Kristin" locIndex="49" timeoffset="290" />
+        </Cooldown>
+    </workout>
+</workout_file>

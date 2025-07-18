@@ -1,0 +1,112 @@
+<workout_file>
+    <uniqueId>01770055-f368-46d2-b360-660bb07ab986</uniqueId>
+    <legacyIdHash>1975842242</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <categoryOverride>Daily Fit</categoryOverride>
+    <name>Neuromuscular + AC #3</name>
+    <description>A challenging session that requires completing race-like intervals, involving efforts of anaerobic capacity, sweet spot and neuromuscular power.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>TT Tune Up</category>
+    <subcategory>Week 8</subcategory>
+    <tags>
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.45" PowerHigh="0.75">
+            <textevent timeoffset="30" message="A long warm up today before the main intervals." locIndex="1" />
+            <textevent timeoffset="50" message="This is a challenging session today. But definitely achievable." locIndex="2" />
+            <textevent timeoffset="260" message="First we have some low level 1min efforts to help prepare for the main set." locIndex="3" />
+        </Warmup>
+        <IntervalsT Repeat="2" OnDuration="60" OffDuration="60" OnPower="0.8" OffPower="0.5">
+            <textevent timeoffset="40" message="These efforts should be comfortable." locIndex="4" />
+        </IntervalsT>
+        <IntervalsT Repeat="2" OnDuration="60" OffDuration="60" OnPower="0.98" OffPower="0.5">
+            <textevent timeoffset="20" message="A little harder this time." locIndex="5" />
+            <textevent timeoffset="150" message="Being only 1min in duration these are a good warm up interval." locIndex="6" />
+        </IntervalsT>
+        <SteadyState Duration="120" Power="0.5" />
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="30" message="Ahead we have intervals of 5min 15sec." locIndex="7" />
+            <textevent timeoffset="40" message="Opening with a 2min Anaerobic Capacity effort, we then ramp up through a 3min sweet spot effort..." locIndex="8" />
+            <textevent timeoffset="50" message="before finishing with a high power 15sec effort." locIndex="9" />
+            <textevent timeoffset="100" message="These efforts take good focus. Aim to hold a consistent RPM through each effort." locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.2">
+            <textevent timeoffset="45" message="Good start... maintain your cadence." locIndex="11" />
+            <textevent timeoffset="110" message="Now we drop down to a sweet spot effort." locIndex="12" />
+        </SteadyState>
+        <Ramp Duration="180" PowerLow="0.88" PowerHigh="0.94">
+            <textevent timeoffset="20" message="A little recovery here. But keep the cadence up." locIndex="13" />
+            <textevent timeoffset="90" message="Great work. Focus on controlled breathing." locIndex="14" />
+            <textevent timeoffset="170" message="Now finish it off with a big sprint!" locIndex="15" />
+        </Ramp>
+        <SteadyState Duration="15" Power="1.5" />
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="20" message="Perfect! How was it?" locIndex="16" />
+            <textevent timeoffset="40" message="Just 4 more to go." locIndex="17" />
+            <textevent timeoffset="170" message="Here we go... onto the next effort." locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.2">
+            <textevent timeoffset="45" message="Good start... maintain your cadence." locIndex="19" />
+            <textevent timeoffset="110" message="Now we drop down to a sweet spot effort." locIndex="20" />
+        </SteadyState>
+        <Ramp Duration="180" PowerLow="0.88" PowerHigh="0.94">
+            <textevent timeoffset="20" message="A little recovery here. But keep the cadence up." locIndex="21" />
+            <textevent timeoffset="90" message="Great work. Focus on controlled breathing." locIndex="22" />
+            <textevent timeoffset="170" message="Now finish it off with a big sprint!" locIndex="23" />
+        </Ramp>
+        <SteadyState Duration="15" Power="1.5" />
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="20" message="Perfect! How was it? Getting harder?" locIndex="24" />
+            <textevent timeoffset="40" message="Just 3 more to go." locIndex="25" />
+            <textevent timeoffset="170" message="Here we go... onto the next effort." locIndex="26" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.2">
+            <textevent timeoffset="45" message="Good start... maintain your cadence. Is it the same as previous efforts?" locIndex="27" />
+            <textevent timeoffset="110" message="Now we drop down to a sweet spot effort." locIndex="28" />
+        </SteadyState>
+        <Ramp Duration="180" PowerLow="0.88" PowerHigh="0.94">
+            <textevent timeoffset="20" message="A little recovery here. But keep the cadence up." locIndex="29" />
+            <textevent timeoffset="90" message="Great work. Focus on controlled breathing." locIndex="30" />
+            <textevent timeoffset="170" message="Now finish it off with a big sprint! Same peak power as earlier." locIndex="31" />
+        </Ramp>
+        <SteadyState Duration="15" Power="1.5" />
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="20" message="Perfect! How was it? Getting harder?" locIndex="32" />
+            <textevent timeoffset="40" message="Just 2 more to go." locIndex="33" />
+            <textevent timeoffset="170" message="Here we go... onto the next effort." locIndex="34" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.2">
+            <textevent timeoffset="45" message="Good start... maintain your cadence. Is it the same as previous efforts?" locIndex="35" />
+            <textevent timeoffset="110" message="Now we drop down to a sweet spot effort." locIndex="36" />
+            <textevent timeoffset="90" message="Is your HR increasing from the previous efforts?" locIndex="37" />
+        </SteadyState>
+        <Ramp Duration="180" PowerLow="0.88" PowerHigh="0.94">
+            <textevent timeoffset="20" message="A little recovery here. But keep the cadence up." locIndex="38" />
+            <textevent timeoffset="90" message="Great work. Focus on controlled breathing." locIndex="39" />
+            <textevent timeoffset="170" message="Now finish it off with a big sprint! Same peak power as earlier." locIndex="40" />
+        </Ramp>
+        <SteadyState Duration="15" Power="1.5" />
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="20" message="Perfect! How was it? Getting harder?" locIndex="41" />
+            <textevent timeoffset="40" message="Just 1 more to go." locIndex="42" />
+            <textevent timeoffset="170" message="Here we go... last effort." locIndex="43" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.2">
+            <textevent timeoffset="45" message="Good start... maintain your cadence. Is it the same as previous efforts?" locIndex="44" />
+            <textevent timeoffset="110" message="Now we drop down to a sweet spot effort." locIndex="45" />
+            <textevent timeoffset="90" message="Observe your HR after this step. Is it higher than the 1st set?" locIndex="46" />
+        </SteadyState>
+        <Ramp Duration="180" PowerLow="0.88" PowerHigh="0.94">
+            <textevent timeoffset="20" message="Are pedaling with the same fluency as the 1st set?" locIndex="47" />
+            <textevent timeoffset="170" message="Now finish it off with a big sprint! Same peak power as earlier." locIndex="48" />
+        </Ramp>
+        <SteadyState Duration="15" Power="1.5" />
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="30" message="Well done! That was a big session today." locIndex="49" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow="0.75" PowerHigh="0.45">
+            <textevent timeoffset="20" message="We need a good cool down after a session like this." locIndex="50" />
+        </Cooldown>
+    </workout>
+</workout_file>

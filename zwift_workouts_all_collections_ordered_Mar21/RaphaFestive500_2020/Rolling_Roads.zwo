@@ -1,0 +1,99 @@
+<workout_file>
+    <uniqueId>43366912-33b0-4e54-a3a1-a5853730daf3</uniqueId>
+    <legacyIdHash>747989526</legacyIdHash>
+    <author>Matt Rowe</author>
+    <name>Rolling Roads</name>
+    <categoryOverride>Sweet Spot</categoryOverride>
+    <description>In today&apos;s workout, you will complete 3 x 15 minute blocks of Tempo, made up of short ramps (lower through to upper Zone 3) to offer some variety to the effort! Remember, Fun is Fast! 
+
+At the end of each block, you will complete a 10 second sprint, just to keep in touch with your top end - you don&apos;t want to become too one dimensional. 
+</description>
+    <sportType>bike</sportType>
+    <category>2020 Rapha Festive 500</category>
+    <tags>
+        <tag name="RaphaFestive500" />
+    </tags>
+    <workout>
+        <Warmup Duration="480" PowerHigh="0.95" PowerLow="0.35">
+            <textevent message="Welcome to Rolling Roads - the fifth of six workouts within Rapha&apos;s Festive 500 Workout Series" locIndex="1" timeoffset="15" />
+            <textevent message="Todays session aims to help develop your endurance - a fundamental attribute for completing Rapha&apos;s Festive 500 - 500km in 8 days" locIndex="2" timeoffset="40" />
+            <textevent message="Today, we will complete 3 x 15 minute blocks of Tempo, made up of short ramps - a workout that never stops changing intensity!" locIndex="3" timeoffset="90" />
+            <textevent message="We start with a warm up - a progressive ramped effort from 35-95% of your FTP" locIndex="4" timeoffset="150" />
+            <textevent message="A progressive ramp is all you need to warm you up for a session like today&apos;s, with a gradual easing in to the efforts" locIndex="5" timeoffset="200" />
+            <textevent message="Consistency is key to getting fit - try ride your bike as often as possible, incorporating structure like today, but also some general road riding" locIndex="6" timeoffset="280" />
+            <textevent message="Combining specificity indoors on Zwift with more relaxed general group riding IRL is the magic formula!" locIndex="7" timeoffset="320" />
+            <textevent message="You should be feeling pretty warmed up now. Do you have a sweat on?" locIndex="8" timeoffset="410" />
+            <textevent message="Coming to the end of the ramped warm up - hopefully you have a sweat on, and are feeling ready for some efforts?" locIndex="9" timeoffset="460" />
+        </Warmup>
+        <SteadyState Duration="120" Power="0.45">
+            <textevent message="How do your legs feel after the warm up?" locIndex="10" timeoffset="10" />
+            <textevent message="By completing a consistent warm up - you will get used to your body&apos;s sensations, helping you to understand when you are on a good and bad day" locIndex="11" timeoffset="40" />
+            <textevent message="Get your fan cranked up - it&apos;s important to keep cool when on Zwift as you don&apos;t have the air flow like on the road" locIndex="12" timeoffset="70" />
+            <textevent message="Here we go let&apos;s get stuck in to todays efforts" locIndex="13" timeoffset="110" />
+        </SteadyState>
+        <Ramp Duration="300" PowerHigh="0.89" PowerLow="0.76">
+            <textevent message="When the pressure is on, it&apos;s important not to lose your cool. Stay composed and keep your body nice and still." locIndex="14" timeoffset="250" />
+            <textevent message="Here we go, heading in to 15 minutes of rolling roads..." locIndex="15" timeoffset="20" />
+            <textevent message="You don&apos;t need to ride for hours and hours to improve your endurance - this is a smart way to train!" locIndex="16" timeoffset="120" />
+        </Ramp>
+        <Ramp Duration="300" PowerHigh="0.89" PowerLow="0.76">
+            <textevent message="With your power dropping slightly, this may feel refreshingly easy?" locIndex="17" timeoffset="10" />
+            <textevent message="Good work - keep that pressure applied and your chain tight. Muscle tension!" locIndex="18" timeoffset="150" />
+            <textevent message="Hold your cadence steady - that&apos;s the easiest way to hit your target power in ERG mode" locIndex="19" timeoffset="250" />
+        </Ramp>
+        <Ramp Duration="300" PowerHigh="0.89" PowerLow="0.76">
+            <textevent message="Third and final ramp of the first block" locIndex="20" timeoffset="13" />
+            <textevent message="Spike in effort coming up - 150% FTP. FULL GAS!" locIndex="21" timeoffset="295" />
+        </Ramp>
+        <SteadyState Duration="10" Power="1.5" />
+        <SteadyState Duration="300" Power="0.4">
+            <textevent message="Recovery time - relax, sit up and take a drink" locIndex="22" timeoffset="40" />
+            <textevent message="Good work so far - 1 block down, 2 to go!" locIndex="23" timeoffset="200" />
+        </SteadyState>
+        <Ramp Duration="300" PowerHigh="0.89" PowerLow="0.76">
+            <textevent message="Here we go - settle in and focus on the power output required as it nudges up!" locIndex="24" timeoffset="37" />
+            <textevent message="Pacing is key - if climbing a hill IRL you set off too hard and &apos;crack&apos; - you&apos;ll get to the top not only much slower but far less efficiently too" locIndex="25" timeoffset="154" />
+            <textevent message="Look up and look ahead, just like IRL. Don&apos;t get in to a habit of staring at the floor when trying hard" locIndex="26" timeoffset="270" />
+        </Ramp>
+        <Ramp Duration="300" PowerHigh="0.89" PowerLow="0.76">
+            <textevent message="Big effort incoming... get ready for it..." locIndex="27" timeoffset="293" />
+            <textevent message="A little drop off in power as we start another ramp" locIndex="28" timeoffset="20" />
+            <textevent message="Train smart to help ensure you complete Rapha&apos;s Festive 500 - 500km in eight days" locIndex="29" timeoffset="160" />
+        </Ramp>
+        <Ramp Duration="300" PowerHigh="0.89" PowerLow="0.76">
+            <textevent message="Ramp 3 - this is crunch time. We are over half way through the workout, but still have plenty of work still to do" locIndex="30" timeoffset="30" />
+            <textevent message="Another surge in effort coming up - go big!! You&apos;ve got this" locIndex="31" timeoffset="290" />
+            <textevent message="Great effort so far - you are doing great!" locIndex="32" timeoffset="120" />
+        </Ramp>
+        <SteadyState Duration="10" Power="1.5" />
+        <SteadyState Duration="300" Power="0.4">
+            <textevent message="Nice work! One more block to go, but for now, it&apos;s time to recover!" locIndex="33" timeoffset="50" />
+            <textevent message="Get ready for the final 15 minute block - get your game face on!" locIndex="34" timeoffset="250" />
+        </SteadyState>
+        <Ramp Duration="300" PowerHigh="0.89" PowerLow="0.76">
+            <textevent message="Sit upright and stay relaxed - with the first two blocks already in your legs, this is where it will hurt the most!" locIndex="35" timeoffset="240" />
+            <textevent message="It&apos;s show time! Final block of the day!" locIndex="36" timeoffset="34" />
+            <textevent message="If you are noting your heart rate, it&apos;s likely you will see a higher heart rate in response to block 3 vs 1 and 2." locIndex="37" timeoffset="134" />
+            <textevent message="The closer to your heart rate is now to what it was in block 1, the fitter you are" locIndex="38" timeoffset="154" />
+            <textevent message="Heart rate is a response to workload. Bigger efforts require more blood to the muscles" locIndex="39" timeoffset="1744" />
+        </Ramp>
+        <Ramp Duration="300" PowerHigh="0.89" PowerLow="0.76">
+            <textevent message="This is where the magic is done! Deep in to the workout - great work" locIndex="40" timeoffset="25" />
+            <textevent message="Try to switch any thoughts of pain off. Think positive and think strong" locIndex="41" timeoffset="150" />
+            <textevent message="Hold your cadence steady for a smoother ride. Let ERG Mode do the hard work" locIndex="42" timeoffset="270" />
+        </Ramp>
+        <Ramp Duration="300" PowerHigh="0.89" PowerLow="0.76">
+            <textevent message="We are almost there, but don&apos;t switch off until the efforts are complete" locIndex="43" timeoffset="260" />
+            <textevent message="The real secret here is the cumulative training stress throughout the session. This final block is really where the gains are made" locIndex="44" timeoffset="150" />
+            <textevent message="When the going get&apos;s tough... The tough get going!" locIndex="45" timeoffset="50" />
+            <textevent message="One last sprint to finish the day off - get ready..." locIndex="46" timeoffset="290" />
+        </Ramp>
+        <SteadyState Duration="10" Power="1.5" />
+        <Cooldown Duration="300" PowerHigh="0.35" PowerLow="0.6">
+            <textevent message="Great workout - well done!" locIndex="47" timeoffset="20" />
+            <textevent message="The training we complete now will really benefit you come Rapha&apos;s Festive 500 Challenge!" locIndex="48" timeoffset="100" />
+            <textevent message="Make sure you supplement this training plan with some IRL riding, for some added volume" locIndex="49" timeoffset="200" />
+            <textevent message="Thanks for joining - see you on the next workout!" locIndex="50" timeoffset="285" />
+        </Cooldown>
+    </workout>
+</workout_file>

@@ -1,0 +1,96 @@
+<workout_file>
+    <uniqueId>98ed1edc-1926-4b9f-a580-4fc2cbe8b580</uniqueId>
+    <legacyIdHash>4010449341</legacyIdHash>
+    <author>Matt Rowe (Rowe &amp; King)</author>
+    <categoryOverride>60 to 90 minutes to burn</categoryOverride>
+    <name>Week 3.2 - The Rollercoaster</name>
+    <description>This Rollercoaster session aims to replicate the demands of a mountain bike ride / event. 
+
+Mountain biking generally involves far more variations in effort compared with road riding - so plenty of surges and time spent being over geared!
+
+We touch upon all of these aspects in todays session, as we complete two blocks of alternating intensity, with top end Zone 6 surges thrown in there to replicate the demands of having to get up and over a steep bank or technical section. Feel free to get out of the saddle during the max efforts if you need to.
+
+We also have a 12 minute Sweet Spot effort in the middle, to help continue to develop our endurance.</description>
+    <sportType>bike</sportType>
+    <category>Dirt Destroyer</category>
+    <subcategory>Week 3</subcategory>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow="0.25449997" PowerHigh="0.75449997" pace="0">
+            <textevent timeoffset="5" message="Welcome to today&apos;s Rollercoaster session of fun." locIndex="1" />
+            <textevent timeoffset="80" message="The session is 1 hour long and is focused on replicating some of the specific demands within mountain biking." locIndex="2" />
+            <textevent timeoffset="120" message="Today, you will complete 3 blocks of effort." locIndex="3" />
+            <textevent timeoffset="150" message="Blocks 1 and 3 are made up of alternating efforts between riding hard and easy, interspersed with some top end Zone 6 efforts." locIndex="4" />
+            <textevent timeoffset="240" message="To start, it’s a standard 10 minute progressive warm up and 10 second activation sprint to get us in the zone, both physically and mentally." locIndex="5" />
+            <textevent timeoffset="500" message="You should be starting to feel sweaty by now and like you are ready to train?" locIndex="6" />
+            <textevent timeoffset="570" message="Nearing the end of the warm up now - your blood will be nice and warm, ready to supply our muscles with oxygen. " locIndex="7" />
+        </Warmup>
+        <SteadyState Duration="60.000004" Power="0.50449997" pace="0">
+            <textevent timeoffset="12" message="A minute to relax &amp; have drink before a &apos;10 second activation sprint&apos;" locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.0944999" pace="0" />
+        <SteadyState Duration="120" Power="0.50449997" pace="0">
+            <textevent timeoffset="12.999981" message="2 minutes easy before effort 1" locIndex="9" />
+        </SteadyState>
+        <IntervalsT Repeat="5" OnDuration="30" OffDuration="30" OnPower="1.0044999" OffPower="0.70449996" pace="0" Cadence="70" CadenceResting="90">
+            <textevent timeoffset="4" message="Get your game face on for this session - there are plenty of changes in pace, so you need to be ready for the changes in effort required!" locIndex="10" />
+            <textevent timeoffset="14" message="100% of FTP at 70 rpm will really force your fast twitch fibres to work hard" locIndex="11" />
+            <textevent timeoffset="95" message="Try and recover during the higher cadence effort, which aims to replicate riding through a field or across non-technical terrain." locIndex="12" />
+            <textevent timeoffset="179" message="Then during the 70rpm efforts, imagine these are your technical sections, where you have to navigate your way through some rocks!" locIndex="13" />
+            <textevent timeoffset="149" message="This session can be likened to a technical rolling single track - a very varied effort!" locIndex="14" />
+            <textevent timeoffset="289" message="Get ready for the 30 second spike in effort - think of this as having to get over a really steep bank! Commit to getting up it quickly!" locIndex="15" />
+        </IntervalsT>
+        <SteadyState Duration="30" Power="1.2544999" pace="0">
+            <textevent timeoffset="7" message="Dig deep - stay on top of that power. Ride in or out the saddle, whatever works for you!" locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.50449997" pace="0" />
+        <IntervalsT Repeat="5" OnDuration="30" OffDuration="30" OnPower="1.0044999" OffPower="0.70449996" pace="0" Cadence="70" CadenceResting="90">
+            <textevent timeoffset="8" message="We go again - back at 100% of your FTP, riding at a low cadence of 70rpm to start." locIndex="17" />
+            <textevent timeoffset="212" message="Relax during higher cadence effort, this is your chance to try and recover! Aim to reduce that heart rate a few bpm..." locIndex="18" />
+            <textevent timeoffset="289" message="Get ready for the 30 second spike in effort again - big effort to climb the short, but steep climb coming up!" locIndex="19" />
+        </IntervalsT>
+        <SteadyState Duration="30" Power="1.2544999" pace="0">
+            <textevent timeoffset="10" message="Try and keep your body still... keep a nice strong frame!" locIndex="20" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.40450001" pace="0" />
+        <SteadyState Duration="720" Power="0.88449997" pace="0">
+            <textevent timeoffset="56" message="With such a focus on top end efforts, it&apos;s important not to neglect your aerobic capabilities." locIndex="21" />
+            <textevent timeoffset="156" message="Cycling is an endurance sport - we can&apos;t forget that." locIndex="22" />
+            <textevent timeoffset="356" message="Sticking a relatively short block of aerobic effort (around Sweet Spot) is a smart way to top your aerobic base up." locIndex="23" />
+            <textevent timeoffset="656" message="10Minutes of Sweet Spot to help nudge you&apos;re endurance along a little. Whilst specific efforts are fantastic training, some steady state riding always has its place within a training plan. " locIndex="24" />
+            <textevent timeoffset="432" message="Let your legs do the work here - keep your body nice and still, letting all the power transfer come from the waist down." locIndex="25" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.40450001" pace="0" />
+        <textevent timeoffset="10" message="It&apos;s recovery time! Take a drink and have a stretch out..." locIndex="26" />
+        <IntervalsT Repeat="5" OnDuration="30" OffDuration="30" OnPower="1.0044999" OffPower="0.70449996" pace="0" Cadence="70" CadenceResting="90">
+            <textevent timeoffset="4" message="We are back in to those changes in pace and effort. Try and anticipate the next effort so you don&apos;t get caught out!" locIndex="27" />
+            <textevent timeoffset="14" message="100% of FTP at 70 rpm will really cause some burning in your legs as you start cycling more anaerobically" locIndex="28" />
+            <textevent timeoffset="95" message="Try and recover during the higher cadence efforts. You want to teach your body to recover whilst under strain." locIndex="29" />
+            <textevent timeoffset="179" message="During the 70rpm efforts - really focus on your pedalling stroke. Nice fluid power transfer, pedaling 360&apos; of the stroke!" locIndex="30" />
+            <textevent timeoffset="149" message="This session can be likened to a technical rolling single track - a very varied effort!" locIndex="31" />
+            <textevent timeoffset="289" message="Get ready for the 30 second spike in effort - lay that power down and overcome the steep climb coming up!" locIndex="32" />
+        </IntervalsT>
+        <SteadyState Duration="30" Power="1.2544999" pace="0">
+            <textevent timeoffset="7" message="Up Up Up! Keep going right to the end." locIndex="33" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="0.50449997" pace="0" />
+        <IntervalsT Repeat="5" OnDuration="30" OffDuration="30" OnPower="1.0044999" OffPower="0.70449996" pace="0" Cadence="70" CadenceResting="90">
+            <textevent timeoffset="8" message="Settle back in to 100% of your FTP, riding at a low cadence of 70rpm to start." locIndex="34" />
+            <textevent timeoffset="104" message="The more you are able to relax, the less upper body muscle mass that is recruited, which means more oxygen can be diverted to your legs as energy!" locIndex="35" />
+            <textevent timeoffset="212" message="Relax during higher cadence effort, this is your chance to try and recover! Aim to reduce that heart rate a few bpm..." locIndex="36" />
+            <textevent timeoffset="289" message="Get ready for the 30 second spike in effort again - big effort to climb the short, but steep climb coming up!" locIndex="37" />
+        </IntervalsT>
+        <SteadyState Duration="30" Power="1.2544999" pace="0">
+            <textevent timeoffset="10" message="Try and keep your body still, and keep looking ahead. A nice upright body position is key, offering good vision and handling." locIndex="38" />
+        </SteadyState>
+        <Cooldown Duration="410" PowerLow="0.55449998" PowerHigh="0.2545" pace="0">
+            <textevent timeoffset="15" message="Good work - 5 minutes cool down now." locIndex="39" />
+            <textevent timeoffset="70" message="That&apos;s a solid session - plenty of low cadence efforts which will help you adapt to the specific nature of mountain biking." locIndex="40" />
+            <textevent timeoffset="100" message="Being fast isn&apos;t that important in MTB - it&apos;s more about being strong, powerful and explosive." locIndex="41" />
+            <textevent timeoffset="130" message="Sessions like today really help with your ability to navigate and get over tough technical sections." locIndex="42" />
+            <textevent timeoffset="250" message="Important to refuel after this session - carbs, protein and hydrate!" locIndex="43" />
+            <textevent timeoffset="280" message="Make sure you are getting your IRL Mountain Biking in - those skills are not going to to learn themselves." locIndex="44" />
+        </Cooldown>
+    </workout>
+</workout_file>

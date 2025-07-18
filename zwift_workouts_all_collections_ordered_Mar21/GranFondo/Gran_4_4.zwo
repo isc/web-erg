@@ -1,0 +1,25 @@
+<workout_file>
+    <uniqueId>ffce30fb-2cec-4d3b-9945-14caf86b72be</uniqueId>
+    <legacyIdHash>2282148033</legacyIdHash>
+    <author>Zwift</author>
+    <name>The Long Ride - SST Long</name>
+    <description>Sweet Spot Training (or SST for short) will give great bang for buck as you can spend quite a bit of time in the Sweet Spot of your power curve without building up undue amounts of training stress.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Gran Fondo</category>
+    <subcategory>Week 4</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow="0.39999998" PowerHigh="0.85000002" pace="0" />
+        <IntervalsT Repeat="3" OnDuration="300" OffDuration="300" OnPower="0.94999999" OffPower="0.85500002" pace="0" OverUnder="1" />
+        <SteadyState Duration="780" Power="0.50449997" pace="0" />
+        <SteadyState Duration="60.000004" Power="1.1" pace="0" />
+        <SteadyState Duration="60.000004" Power="0.5" pace="0" />
+        <IntervalsT Repeat="3" OnDuration="300" OffDuration="300" OnPower="0.94999999" OffPower="0.85500002" pace="0" OverUnder="1" />
+        <SteadyState Duration="780" Power="0.50449997" pace="0" />
+        <SteadyState Duration="60.000004" Power="1.1" pace="0" />
+        <SteadyState Duration="60.000004" Power="0.5" pace="0" />
+        <IntervalsT Repeat="4" OnDuration="300" OffDuration="300" OnPower="0.94999999" OffPower="0.85500002" pace="0" OverUnder="1" />
+        <Cooldown Duration="300" PowerLow="0.75" PowerHigh="0.54999995" pace="0" />
+    </workout>
+</workout_file>

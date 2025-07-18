@@ -1,0 +1,50 @@
+<workout_file>
+    <uniqueId>ef4501a8-5440-49e6-802d-6babb9e9d5eb</uniqueId>
+    <legacyIdHash>3009707765</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Week 6.5 - Sweet Spot 12</name>
+    <description>There is no getting away from the benefit of longer steady efforts. To improve the stimulus of this type of training even further, these are the perfect prelude to finish with repeated, high power, short efforts.
+
+Today we have 2 x 12min Sweet Spot efforts finished with 4 x 1min high cadence, threshold intervals.</description>
+    <sportType>bike</sportType>
+    <entid>491</entid>
+    <category>Zwift Coast Ride</category>
+    <subcategory>Week 6</subcategory>
+    <tags>
+    </tags>
+    <workout>
+        <Warmup Duration="180" PowerLow="0.45" PowerHigh="0.6">
+            <textevent timeoffset="30" message="Our warm up gradually ramps up to a 1min Zone 5 effort." locIndex="1" />
+        </Warmup>
+        <SteadyState Duration="60" Power="0.6" />
+        <SteadyState Duration="60" Power="0.65" />
+        <SteadyState Duration="60" Power="0.81">
+            <textevent timeoffset="50" message="Ready for the 1min Zone 5 effort." locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.09" />
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="100" message="To complete the warm up we now perform a 4min threshold effort." locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.95" />
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="140" message="Long steady efforts provide a great stimulus." locIndex="4" />
+            <textevent timeoffset="160" message="By completing 12min efforts before the finishing threshold efforts, we add an extra an extra stimulus to the session. " locIndex="5" />
+        </SteadyState>
+        <IntervalsT Repeat="2" OnDuration="720" OffDuration="180" OnPower="0.88" OffPower="0.5">
+            <textevent timeoffset="1700" message="The target cadence for the 1min threshold efforts is 110rpm." locIndex="6" />
+            <textevent timeoffset="1720" message="The high cadence challenges your aerobic system." locIndex="7" />
+            <textevent timeoffset="1740" message="Remember to hit the target rpm and let the smart trainer adjust the power." locIndex="8" />
+            <textevent timeoffset="60" message="Settle into a nice rhythm." locIndex="9" />
+            <textevent timeoffset="80" message="Focus on maintaining the same cadence throughout the interval." locIndex="10" />
+            <textevent timeoffset="360" message="Is your HR rising as the effort goes on?" locIndex="11" />
+            <textevent timeoffset="860" message="Into the 2nd effort now. " locIndex="12" />
+            <textevent timeoffset="930" message="Settle into a nice steady rhythm" locIndex="13" />
+            <textevent timeoffset="1500" message="How is your cadence compared to the 1st effort?" locIndex="14" />
+            <textevent timeoffset="1510" message="Higher, or lower?" locIndex="15" />
+        </IntervalsT>
+        <IntervalsT Repeat="4" OnDuration="60" OffDuration="120" OnPower="0.98" OffPower="0.5" Cadence="110" CadenceResting="90">
+            <textevent timeoffset="50" message="How natural does 110rpm feel for you?" locIndex="16" />
+        </IntervalsT>
+        <Cooldown Duration="300" PowerLow="0.75" PowerHigh="0.45" />
+    </workout>
+</workout_file>

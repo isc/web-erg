@@ -1,0 +1,33 @@
+<workout_file>
+    <uniqueId>52f55c19-1469-4e76-84be-1ee024a07d46</uniqueId>
+    <legacyIdHash>868515141</legacyIdHash>
+    <author>Zwift</author>
+    <categoryOverride>30-60 minutes to burn</categoryOverride>
+    <name>Pre-Race With Spin-Ups</name>
+    <description>It&apos;s finally come! You&apos;re ready for the last workout before the big event. Nice and easy stuff today. Do this one 2 days or one day before the day to open the legs back up. NOT meant to be hard.
+
+Real good day to rid outside or at the very least try out the rig on Zwift free ride. The only efforts will be for 10 seconds to build some RPM&quot;S and that&apos;s it.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Gravel Grinder</category>
+    <subcategory>Week 12</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow="0.45" PowerHigh="0.65">
+            <textevent timeoffset="0" message="Easy, easy warm up for you today. Just let it be smooth!" locIndex="1" />
+        </Warmup>
+        <IntervalsT Repeat="4" OnDuration="360" OffDuration="10" OnPower="0.7" OffPower="1.2">
+            <textevent timeoffset="0" message="Here we go into 6 minutes at smooth 70% effort. " locIndex="2" />
+            <textevent timeoffset="360" message="Now just 10 seconds build to fast RPM&apos;s. Can be in or out of the saddle. " locIndex="3" />
+            <textevent timeoffset="370" message="Get right back into that smooth riding. " locIndex="4" />
+            <textevent timeoffset="730" message="10 seconds of effort here! " locIndex="5" />
+            <textevent timeoffset="740" message="Smooth and steady now. " locIndex="6" />
+            <textevent timeoffset="1100" message="Open up those legs now! " locIndex="7" />
+            <textevent timeoffset="1110" message="Chill in this effort." locIndex="8" />
+            <textevent timeoffset="1470" message="Go now, pick it up! " locIndex="9" />
+        </IntervalsT>
+        <Cooldown Duration="600" PowerLow="0.55" PowerHigh="0.45">
+            <textevent timeoffset="0" message="Cool yourself. It&apos;s all in the tank now!" locIndex="10" />
+        </Cooldown>
+    </workout>
+</workout_file>

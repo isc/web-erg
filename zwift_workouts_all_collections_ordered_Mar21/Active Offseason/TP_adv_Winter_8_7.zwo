@@ -1,0 +1,20 @@
+<workout_file>
+    <uniqueId>82f2b241-dc73-4195-b9e4-c28aba0fbdec</uniqueId>
+    <legacyIdHash>3209222739</legacyIdHash>
+    <name>Week 8.7 - Explosive Power</name>
+    <description>Explosive Power Development! </description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <category>Active Offseason</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 8</subcategory>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.2545" PowerHigh="0.75449997" />
+        <IntervalsT Repeat="3" OnDuration="12" OffDuration="24" PowerOnLow="2.0044999" PowerOnHigh="2.0044999" PowerOffLow="0.50450003" PowerOffHigh="0.50450003" />
+        <SteadyState Duration="900" PowerLow="0.84449995" PowerHigh="0.84449995" />
+        <SteadyState Duration="300" PowerLow="0.65449995" PowerHigh="0.65449995" />
+        <IntervalsT Repeat="3" OnDuration="12" OffDuration="24" PowerOnLow="2.0044999" PowerOnHigh="2.0044999" PowerOffLow="0.50450003" PowerOffHigh="0.50450003" />
+        <SteadyState Duration="900" PowerLow="0.8599999" PowerHigh="0.8599999" />
+        <SteadyState Duration="3600" PowerLow="0.65000004" PowerHigh="0.65000004" />
+        <Cooldown Duration="720" PowerLow="0.75449997" PowerHigh="0.2545" />
+    </workout>
+</workout_file>

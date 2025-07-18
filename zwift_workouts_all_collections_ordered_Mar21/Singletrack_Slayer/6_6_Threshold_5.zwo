@@ -1,0 +1,114 @@
+<workout_file>
+    <uniqueId>eb60713d-8c31-4ca5-842d-a3cac9ec5c92</uniqueId>
+    <legacyIdHash>2570278603</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Threshold #5</name>
+    <description>One aspect of performance that can be improved the most through correct application of interval training is the lactate threshold. Training to improve threshold power is typically performed either just below or ideally, just above threshold for extended periods. 
+
+In this session we ride just under threshold, but with multiple surges into zone 6, the lactate will accumulate.</description>
+    <sportType>bike</sportType>
+    <category>Singletrack Slayer</category>
+    <subcategory>Week 6</subcategory>
+    <WorkoutPlan>1</WorkoutPlan>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <tags>
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.55" PowerHigh="0.75">
+            <textevent timeoffset="30" message="You can&apos;t beat good old fashioned threshold efforts for a hard session." locIndex="1" />
+            <textevent timeoffset="60" message="Raising your threshold is an important aspect of MTB riding. " locIndex="2" />
+            <textevent timeoffset="90" message="The higher it is, the faster you ride and the faster you recover." locIndex="3" />
+            <textevent timeoffset="120" message="But, in MTB riding we are forced to perform many surges in power above threshold." locIndex="4" />
+            <textevent timeoffset="160" message="In some ways, riding at threshold is easy." locIndex="5" />
+            <textevent timeoffset="180" message="Find a rhythm and hold it there." locIndex="6" />
+            <textevent timeoffset="200" message="In MTB riding, the constant surges prevent you from finding a rhythm at this high intensity." locIndex="7" />
+            <textevent timeoffset="260" message="Let&apos;s activate those fast twitch fibers with some sprints." locIndex="8" />
+            <textevent timeoffset="280" message="Fast legs here." locIndex="9" />
+        </Warmup>
+        <IntervalsT Repeat="2" OnDuration="10" OffDuration="50" OnPower="1.75" OffPower="0.5">
+            <textevent timeoffset="40" message="Hit a higher cadence in this next sprint." locIndex="10" />
+        </IntervalsT>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="30" message="We are spending time above zone 4 today. " locIndex="11" />
+            <textevent timeoffset="100" message="This next effort is into zone 5." locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.09">
+            <textevent timeoffset="30" message="Just a taste of what&apos;s ahead of you." locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="80" message="To complete the warmup we have a steady state zone 4 effort." locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="1">
+            <textevent timeoffset="30" message="This is where you will find a rhythm." locIndex="15" />
+            <textevent timeoffset="60" message="In the main set, this rhythm is disrupted by multiple surges." locIndex="16" />
+            <textevent timeoffset="90" message="But we are also riding a little lower than this intensity - right at FTP - in the main set." locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="40" message="Ahead of you is a long block of zone 4." locIndex="18" />
+            <textevent timeoffset="60" message="But we are surging for 15sec every 1min 45sec" locIndex="19" />
+            <textevent timeoffset="90" message="Hit the surges out of the saddle." locIndex="20" />
+            <textevent timeoffset="160" message="Here we go!" locIndex="21" />
+        </SteadyState>
+        <IntervalsT Repeat="5" OnDuration="15" OffDuration="105" OnPower="1.3" OffPower="0.9">
+            <textevent timeoffset="0" message="Out of the seat and sprint!" locIndex="22" />
+            <textevent timeoffset="30" message="Into a threshold effort now." locIndex="23" />
+            <textevent timeoffset="100" message="The pressure is on the pedals." locIndex="24" />
+            <textevent timeoffset="120" message="Sprint again!" locIndex="25" />
+            <textevent timeoffset="150" message="How are you feeling?" locIndex="26" />
+            <textevent timeoffset="170" message="Do the sprints disrupt your rhythm?" locIndex="27" />
+            <textevent timeoffset="240" message="Next sprint. Try to increase your peak cadence." locIndex="28" />
+            <textevent timeoffset="260" message="This is a good effort from you." locIndex="29" />
+            <textevent timeoffset="300" message="The sprints build a little lactate." locIndex="30" />
+            <textevent timeoffset="320" message="Then your body learns to process this lactate at high level." locIndex="31" />
+            <textevent timeoffset="360" message="Next sprint!" locIndex="32" />
+            <textevent timeoffset="420" message="Do you feel you are recovering from the sprints at this threshold level? " locIndex="33" />
+            <textevent timeoffset="480" message="Last sprint in this block!" locIndex="34" />
+        </IntervalsT>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="30" message="Great effort!" locIndex="35" />
+            <textevent timeoffset="60" message="That was 10min of threshold with the surges." locIndex="36" />
+            <textevent timeoffset="100" message="A brief recovery here, then we do it again." locIndex="37" />
+        </SteadyState>
+        <IntervalsT Repeat="5" OnDuration="15" OffDuration="105" OnPower="1.3" OffPower="0.9">
+            <textevent timeoffset="0" message="Out of the seat and sprint!" locIndex="38" />
+            <textevent timeoffset="30" message="Into a threshold effort now." locIndex="39" />
+            <textevent timeoffset="100" message="The pressure is on the pedals." locIndex="40" />
+            <textevent timeoffset="120" message="Sprint again!" locIndex="41" />
+            <textevent timeoffset="150" message="How are you feeling?" locIndex="42" />
+            <textevent timeoffset="170" message="Do the sprints disrupt your rhythm?" locIndex="43" />
+            <textevent timeoffset="240" message="Next sprint. Try to increase your peak cadence." locIndex="44" />
+            <textevent timeoffset="260" message="This is a good effort from you." locIndex="45" />
+            <textevent timeoffset="300" message="The sprints build a little lactate." locIndex="46" />
+            <textevent timeoffset="320" message="Then your body learns to process this lactate at high level." locIndex="47" />
+            <textevent timeoffset="360" message="Next sprint!" locIndex="48" />
+            <textevent timeoffset="420" message="Do you feel you are recovering from the sprints at this threshold level? " locIndex="49" />
+            <textevent timeoffset="480" message="Last sprint in this block!" locIndex="50" />
+        </IntervalsT>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="30" message="Great effort!" locIndex="51" />
+            <textevent timeoffset="60" message="You have now completed 20min of threshold work!" locIndex="52" />
+            <textevent timeoffset="100" message="A brief recovery here, then we do it again." locIndex="53" />
+            <textevent timeoffset="0" message="One more set to go!" locIndex="54" />
+        </SteadyState>
+        <IntervalsT Repeat="5" OnDuration="15" OffDuration="105" OnPower="1.3" OffPower="0.9">
+            <textevent timeoffset="0" message="Out of the seat and sprint!" locIndex="55" />
+            <textevent timeoffset="30" message="Into a threshold effort now." locIndex="56" />
+            <textevent timeoffset="100" message="The pressure is on the pedals." locIndex="57" />
+            <textevent timeoffset="120" message="Sprint again!" locIndex="58" />
+            <textevent timeoffset="150" message="How are you feeling?" locIndex="59" />
+            <textevent timeoffset="170" message="Do the sprints disrupt your rhythm?" locIndex="60" />
+            <textevent timeoffset="240" message="Next sprint. Try to increase your peak cadence." locIndex="61" />
+            <textevent timeoffset="260" message="This is a good effort from you." locIndex="62" />
+            <textevent timeoffset="300" message="The sprints build a little lactate." locIndex="63" />
+            <textevent timeoffset="320" message="Then your body learns to process this lactate at high level." locIndex="64" />
+            <textevent timeoffset="360" message="Next sprint!" locIndex="65" />
+            <textevent timeoffset="420" message="Do you feel you are recovering from the sprints at this threshold level? " locIndex="66" />
+            <textevent timeoffset="480" message="Last sprint in this block!" locIndex="67" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.5">
+            <textevent timeoffset="30" message="Awesome work!" locIndex="68" />
+            <textevent timeoffset="50" message="30min of threshold work with 15 sprints along the way." locIndex="69" />
+            <textevent timeoffset="70" message="That&apos;s a big day in any language!" locIndex="70" />
+        </SteadyState>
+    </workout>
+</workout_file>

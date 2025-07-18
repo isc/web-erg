@@ -1,0 +1,15 @@
+<workout_file>
+    <uniqueId>e61152cb-4585-43ca-a9ad-461485758436</uniqueId>
+    <legacyIdHash>1920018767</legacyIdHash>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <category>Your First Century</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 7</subcategory>
+    <name>Week 7.6 - Day 6</name>
+    <description>Today is simple, but long! ride the prescribed time in your Endurance Zone. Vary your cadence throughout ride and work on pedaling form. Practice "coming over the top" and "pulling through the bottom" of the pedal. Enjoy the day!!</description>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.2545" PowerHigh="0.64449996" />
+        <SteadyState Duration="11400" PowerLow="0.65000004" PowerHigh="0.65000004" />
+        <Cooldown Duration="600" PowerLow="0.68449998" PowerHigh="0.2545" />
+    </workout>
+</workout_file>

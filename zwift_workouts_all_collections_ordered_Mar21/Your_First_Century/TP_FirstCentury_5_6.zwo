@@ -1,0 +1,25 @@
+<workout_file>
+    <uniqueId>1b3c5d25-1b2e-400c-9364-cd3b0740d45d</uniqueId>
+    <legacyIdHash>3857594470</legacyIdHash>
+    <category>Your First Century</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 5</subcategory>
+    <name>Week 5.6 - Day 6</name>
+    <description>Building endurance today! Warm up with 10 minutes in Endurance zone, with 3 x 1 minute fast pedals (as fast as you can pedal without bouncing in the saddle) with 1 minute rest between to open up your legs. Once you&apos;re warmed up, ride in your Endurance zone. Focus on staying relaxed on the bike and spinning circles whyile keeping your cadence between 90 -100 rpm. During the last hour of the ride you will complete 1 x 30 minute TEMPO effort keeping cadence at 75 - 85 rpm.</description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.25" PowerHigh="0.75">
+            <textevent timeoffset="300" message="Fast pedal!" locIndex="1" />
+            <textevent timeoffset="360" message="90 - 100 rpm" locIndex="2" />
+            <textevent timeoffset="420" message="Fast pedal!" locIndex="3" />
+            <textevent timeoffset="480" message="90 - 100 rpm" locIndex="4" />
+            <textevent timeoffset="540" message="Fast pedal!" locIndex="5" />
+            <textevent timeoffset="600" message="90 - 100 rpm" locIndex="6" />
+        </Warmup>
+        <SteadyState Duration="4200" PowerLow="0.75" PowerHigh="0.75">
+            <textevent timeoffset="4200" message="75 - 85 rpm" locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="1800" PowerLow="0.84999996" PowerHigh="0.84999996" />
+        <Cooldown Duration="600" PowerLow="0.75" PowerHigh="0.25" />
+    </workout>
+</workout_file>

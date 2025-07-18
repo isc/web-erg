@@ -1,0 +1,43 @@
+<workout_file>
+    <uniqueId>8a5b7c36-4163-40f0-993d-c37e1b3b8252</uniqueId>
+    <legacyIdHash>2558925572</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Week 2.6 - Sub-Threshold #2</name>
+    <category>2018 PRL100 Prep</category>
+    <subcategory>Week 2</subcategory>
+    <description>Time spent in the sub-threshold zone offers a big boost to fitness without being as taxing as dipping into the red zone. Spend long periods under your FTP to help push it up from underneath.</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow="0.50449997" PowerHigh="0.75449997" pace="0">
+            <textevent timeoffset="595.00006" message="High cadence 110+rpm with low power." locIndex="1" />
+            <textevent timeoffset="37" message="Include 3x6sec high cadence surges in your warm up." locIndex="2" />
+        </Warmup>
+        <SteadyState Duration="60" Power="0.77999997" pace="0" />
+        <SteadyState Duration="60" Power="0.55000001" pace="0" />
+        <SteadyState Duration="60" Power="0.77999997" pace="0" />
+        <SteadyState Duration="60" Power="0.55000001" pace="0" />
+        <SteadyState Duration="60" Power="0.77999997" pace="0" />
+        <SteadyState Duration="60" Power="0.55000001" pace="0" />
+        <SteadyState Duration="60" Power="0.77999997" pace="0" />
+        <SteadyState Duration="60" Power="0.55000001" pace="0" />
+        <SteadyState Duration="60" Power="0.77999997" pace="0" />
+        <SteadyState Duration="60" Power="0.55000001" pace="0" />
+        <SteadyState Duration="300" Power="0.55449998" pace="0">
+            <textevent timeoffset="85" message="We are looking for the same Hr response for each interval." locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="600" Power="0.90080148" pace="0">
+            <textevent timeoffset="546" message="What is your finishing HR?" locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.55000001" pace="0" />
+        <SteadyState Duration="600" Power="0.90028745" pace="0">
+            <textevent timeoffset="566" message="What is your finishing HR?" locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.55000001" pace="0" />
+        <SteadyState Duration="600" Power="0.90449995" pace="0">
+            <textevent timeoffset="574" message="What is your finishing HR?" locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.55449998" pace="0" />
+        <Cooldown Duration="300" PowerLow="0.75449997" PowerHigh="0.50449997" pace="0" />
+    </workout>
+</workout_file>

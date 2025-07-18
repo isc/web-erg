@@ -1,0 +1,42 @@
+<workout_file>
+    <uniqueId>1cae8ad1-2d1d-45d1-bad3-73bb7c368796</uniqueId>
+    <legacyIdHash>2873452833</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Week 5.2 - 15min varied tempo #3</name>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>2018 PRL46 Prep</category>
+    <subcategory>Week 5</subcategory>
+    <description>Working in your Tempo zone, today we are varying the cadence and power. 
+
+However, start each 5min effort with a &apos;high speed sprint&apos;. Out of the saddle for the sprint, then straight into the tempo effort.
+
+Observe your HR during the 15min intervals and look for changes in heart rate when your cadence changes.
+</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <SteadyState Duration="180" Power="0.50449997" pace="0">
+            <textevent timeoffset="130" message="High rpm in warm up sprints" locIndex="1" />
+            <textevent timeoffset="1500.0001" message="Changing cadence every 5min" locIndex="2" />
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="10" OffDuration="50" OnPower="1.808364" OffPower="0.50449997" pace="0" />
+        <SteadyState Duration="180" Power="0.70449996" pace="0" />
+        <SteadyState Duration="120" Power="0.50449997" pace="0" />
+        <SteadyState Duration="240" Power="0.90449995" pace="0" />
+        <SteadyState Duration="180" Power="0.50449997" pace="0" />
+        <SteadyState Duration="15" Power="2.0044999" pace="0" />
+        <SteadyState Duration="300" Power="0.89449996" pace="0" Cadence="85" />
+        <SteadyState Duration="15" Power="2.0044999" pace="0" />
+        <SteadyState Duration="300" Power="0.77449995" pace="0" Cadence="95" />
+        <SteadyState Duration="15" Power="2.0044999" pace="0" />
+        <SteadyState Duration="300" Power="0.89449996" pace="0" Cadence="90" />
+        <SteadyState Duration="270" Power="0.50449997" pace="0" />
+        <SteadyState Duration="15" Power="2.0044999" pace="0" />
+        <SteadyState Duration="300" Power="0.77449995" pace="0" Cadence="85" />
+        <SteadyState Duration="15" Power="2.0044999" pace="0" />
+        <SteadyState Duration="300" Power="0.82449996" pace="0" Cadence="95" />
+        <SteadyState Duration="15" Power="2.0044999" pace="0" />
+        <SteadyState Duration="300" Power="0.89449996" pace="0" Cadence="90" />
+        <Cooldown Duration="300" PowerLow="0.75449997" PowerHigh="0.50449997" pace="0" />
+    </workout>
+</workout_file>

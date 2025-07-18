@@ -1,0 +1,85 @@
+<workout_file>
+    <uniqueId>8b52c92a-b57b-42df-be2c-7c01434630a7</uniqueId>
+    <legacyIdHash>2632847955</legacyIdHash>
+    <author>Zwift</author>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>Multi-Sport Threshold Booster</category>
+    <visibleOutsidePlan>0</visibleOutsidePlan>
+    <name>Threshold Block #1 </name>
+    <description>Getting you ready for next weeks FTP test day.
+
+With 4 x 5min sub-threshold efforts, with little recovery, you will touch on the physical and mental effort you face next week.
+
+Focus on producing 4 steady efforts of equal intensity. </description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="FTP" />
+        <tag name="4weekftp" />
+    </tags>
+    <workout>
+        <SteadyState Duration="300" Power="0.50449997">
+            <textevent timeoffset="0" message="Welcome back, let&apos;s get started with a warm-up. 85 to 95 RPM here please." locIndex="1" />
+            <textevent timeoffset="180" message="Start to bring up that cadence  to 95 RPM if you are not already there, get those legs nice and warm today." locIndex="2" />
+            <textevent timeoffset="290" message="In 10 seconds we are going into 2 ,10 second sprints efforts at 110 RPM. Get ready." locIndex="3" />
+        </SteadyState>
+        <IntervalsT Repeat="2" OnDuration="10" OffDuration="50" OnPower="1.7544999" OffPower="0.50449997" Cadence="110" CadenceResting="85">
+            <textevent timeoffset="0" message="Let&apos;s hit hard!" locIndex="4" />
+            <textevent timeoffset="10" message="Great work, now bring it down easy at 85 RPM for a little bit, we have one more of those to go." locIndex="5" />
+        </IntervalsT>
+        <SteadyState Duration="120.00001" Power="0.50449997">
+            <textevent timeoffset="0" message="Okay now take a couple more minutes easy, take some deep breaths before our next warm-up interval." locIndex="6" />
+            <textevent timeoffset="110" message="Next up, we are doing 1 minute at 110% FTP, get ready." locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="60.000004" Power="1.0944999">
+            <textevent timeoffset="0" message="Up the cadence, up the power! Aim for 100 to 110 RPM." locIndex="8" />
+            <textevent timeoffset="50" message=" 10 more seconds to go, keep on powering through this!" locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="120.00001" Power="0.50449997">
+            <textevent timeoffset="0" message="2 more minutes easy, then we have one more interval for today&apos;s warm up." locIndex="10" />
+            <textevent timeoffset="60" message="Take a couple deep breaths." locIndex="11" />
+            <textevent timeoffset="110" message="In 10 seconds we are going to be doing for minutes at a solid tempo to ensure the legs are ready for our threshold block today." locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="240.00002" Power="0.85449994">
+            <textevent timeoffset="0" message="Let&apos;s hit it! Keep your cadence comfortable here, aim for around 90 RPM." locIndex="13" />
+            <textevent timeoffset="60" message="1 minute in, start to settle yourself down and find that familiar rhythm." locIndex="14" />
+            <textevent timeoffset="180" message="Last minute, you are looking great!" locIndex="15" />
+        </SteadyState>
+        <SteadyState Duration="180.00002" Power="0.50449997">
+            <textevent timeoffset="0" message="All right, 3 more minutes easy and then we get into our main set today." locIndex="16" />
+            <textevent timeoffset="10" message="Today&apos;s main set is 4, 5 minute subthreshold efforts with little recovery." locIndex="17" />
+            <textevent timeoffset="20" message="The minimal rest will touch on the physical and mental effort you will face next week." locIndex="18" />
+            <textevent timeoffset="30" message="Our aim for today is to produce 4 steady efforts of equal intensity." locIndex="19" />
+            <textevent timeoffset="40" message="For now though focus on recovering a little bit more and getting yourself ready mentally." locIndex="20" />
+            <textevent timeoffset="120" message=" One more minute easy, get ready." locIndex="21" />
+            <textevent timeoffset="170" message=" All right, in 10 seconds we are going up to a solid threshold power at 95 RPM, get ready." locIndex="22" />
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="300" OffDuration="60" OnPower="0.95449996" OffPower="0.61449999" Cadence="95" CadenceResting="65">
+            <textevent timeoffset="0" message="Rep #1, let&apos;s get it done, we are here for 5 minutes." locIndex="23" />
+            <textevent timeoffset="60" message="Settle yourself down, find that rhythm you feel comfortable with." locIndex="24" />
+            <textevent timeoffset="150" message="Halfway through this 1st rep, how&apos;s your form?" locIndex="25" />
+            <textevent timeoffset="240" message="One more minute then we&apos;ll take a down easy, keep going!" locIndex="26" />
+            <textevent timeoffset="300" message="All right, lower the intensity, and lower your cadence to 65 RPM." locIndex="27" />
+            <textevent timeoffset="350" message="In 10 seconds get ready to go up again to a solid threshold effort for 5 more minutes." locIndex="28" />
+            <textevent timeoffset="360" message="Rep number 2, let&apos;s make it happen!" locIndex="29" />
+            <textevent timeoffset="510" message="Halfway done with this 2nd rep, you are looking AWESOME!!" locIndex="30" />
+            <textevent timeoffset="600" message="Final minute, stick with it here!" locIndex="31" />
+            <textevent timeoffset="660" message="Excellent! Bring it back down again to zone 2 at 65 RPM, nice and easy." locIndex="32" />
+            <textevent timeoffset="690" message="Take some deep breaths here, really focus on your recovery during these very short breaks." locIndex="33" />
+            <textevent timeoffset="720" message="Let&apos;s bring it back up again!! Halfway through with this interval set now! 95 RPM, and SOLID upper body." locIndex="34" />
+            <textevent timeoffset="960" message="1 more minute to go!! Fight that urge to slow down! YOU can do this!" locIndex="35" />
+            <textevent timeoffset="1020" message="Okay, 1 last short rest break. This is when the workout starts - how strong are you mentally? SHOW ME!" locIndex="36" />
+            <textevent timeoffset="1050" message="Deep breath, get yourself primed for this finale! YOU GOT THIS!" locIndex="37" />
+            <textevent timeoffset="1080" message="Let&apos;s GO! Ease back into the threshold intensity, settle into that rhythm again. C&apos;mon now." locIndex="38" />
+            <textevent timeoffset="1230" message="Halfway done with this LAST rep, stay here!" locIndex="39" />
+            <textevent timeoffset="1260" message="2 more minutes to go, FIGHT!" locIndex="40" />
+            <textevent timeoffset="1320" message="THIS IS IT! Last minute, GO GO GO!" locIndex="41" />
+            <textevent timeoffset="1350" message="30 seconds left!" locIndex="42" />
+            <textevent timeoffset="1380" message="Great work! Now hang on for 1 more minute at zone 2, then we can cool down." locIndex="43" />
+            <textevent timeoffset="1430" message="10 more seconds to go, then we&apos;re DONE!" locIndex="44" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.50449997">
+            <textevent timeoffset="0" message="Nicely done!! That&apos;s a challenging workout with a ton of time close to FTP." locIndex="45" />
+            <textevent timeoffset="30" message="Let&apos;s take a few minutes easy and cool down. See you next time!" locIndex="46" />
+        </SteadyState>
+    </workout>
+</workout_file>

@@ -1,0 +1,15 @@
+<workout_file>
+    <uniqueId>3388e075-3ee0-47b6-a098-52a50c71d750</uniqueId>
+    <legacyIdHash>90449478</legacyIdHash>
+    <name>Day 1 - Bike</name>
+    <description>Bike - 60 minutes of Zone 1</description>
+    <author>QT2</author>
+    <category>Olympic Tri Prep Plan</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 6</subcategory>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/QT2Systems_Logo.tga</authorIcon>
+    <workout>
+        <SteadyState Duration="1800" Power="0.5" />
+        <SteadyState Duration="1800" Power="0.55" />
+    </workout>
+</workout_file>

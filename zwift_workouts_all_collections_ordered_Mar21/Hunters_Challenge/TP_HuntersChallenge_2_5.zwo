@@ -1,0 +1,21 @@
+<workout_file>
+    <uniqueId>b358477f-7d66-42e4-83a1-3020f559363b</uniqueId>
+    <legacyIdHash>5053195</legacyIdHash>
+    <category>Hunter&apos;s Challenge</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 2</subcategory>
+    <name>Week 2.5 - CrissCross Crushers</name>
+    <description>This is a solid workout at just below your threshold and then doing short, but hard little bursts above!</description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.5" PowerHigh="0.65" />
+        <IntervalsT OnDuration="30" OffDuration="210" OnPower="1.60" OffPower="0.87" Repeat="5" />
+        <SteadyState Duration="300" Power="0.87" />
+        <SteadyState Duration="300" Power="1.14" />
+        <SteadyState Duration="300" Power="0.72" />
+        <SteadyState Duration="300" Power="1.14" />
+        <SteadyState Duration="300" Power="0.72" />
+        <SteadyState Duration="300" Power="1.14" />
+        <Cooldown PowerLow="0.72" PowerHigh=".55" Duration="300" />
+    </workout>
+</workout_file>

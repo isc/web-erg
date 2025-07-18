@@ -1,0 +1,93 @@
+<workout_file>
+    <uniqueId>07fcbba6-5ac9-4e18-ad59-d5ee289c1618</uniqueId>
+    <legacyIdHash>2660706496</legacyIdHash>
+    <author>Zwift</author>
+    <name>2x(4x30sec) Best Average</name>
+    <description>A shorty, but a goody. Getting used to some very high watt efforts, but just for short bursts. These efforts are much different in gravel racing than they would be in a road race situation as it&apos;s usually terrain determined with a steep section, but still could be from our competitors and their big surges or finishes. 
+
+We will do these in free ride mode but I do want the max watts you can do for 30 seconds in these two rounds. Don&apos;t do the best 30 seconds you&apos;ve ever done and then be terrible at the rest. I would love them to be fairly consistent. Also considering we are talking gravel here I want to see you at lower rpm&apos;s around 75-80 during this sprint.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Gravel Grinder</category>
+    <subcategory>Week 2</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="560" PowerLow="0.45" PowerHigh="0.80">
+            <textevent timeoffset="0" message="Nice and smooth and easy warming up now. " locIndex="1" />
+            <textevent timeoffset="135" message="Be light on the pedals here. " locIndex="2" />
+        </Warmup>
+        <IntervalsT Repeat="3" OnDuration="60" OffDuration="60" OnPower="0.8" OffPower="0.55">
+            <textevent timeoffset="0" message="Just a few 80% efforts to get the blood moving. " locIndex="3" />
+            <textevent timeoffset="60" message="Back down to 55%. " locIndex="4" />
+            <textevent timeoffset="120" message="No, this isn&apos;t that hard, but warming up is important! Right?" locIndex="5" />
+            <textevent timeoffset="180" message="And back down. " locIndex="6" />
+            <textevent timeoffset="240" message="Last one minuter today. " locIndex="7" />
+            <textevent timeoffset="300" message="Now we bump up in watts for the next block. " locIndex="8" />
+        </IntervalsT>
+        <IntervalsT Repeat="3" OnDuration="120" OffDuration="120" OnPower="0.9" OffPower="0.55">
+            <textevent timeoffset="0" message="A little longer too, so settle yourself in for these 90% efforts. " locIndex="9" />
+            <textevent timeoffset="120" message="Even rest here at 2 minutes. " locIndex="10" />
+            <textevent timeoffset="240" message="Back on up in effort. " locIndex="11" />
+            <textevent timeoffset="295" message="How&apos;s this effort feel?  Are you staying quiet in the upper body? " locIndex="12" />
+            <textevent timeoffset="360" message="Back down for an easy break. " locIndex="13" />
+            <textevent timeoffset="480" message="Good job those first 2 rounds, let&apos;s make it 3! " locIndex="14" />
+            <textevent timeoffset="600" message="Enjoy this rest, hard stuff coming! " locIndex="15" />
+            <textevent timeoffset="100" message="Are you ready for this? Get yourself prepared and in the right gear to GO!" locIndex="16" />
+        </IntervalsT>
+        <FreeRide Duration="30" FlatRoad="1">
+            <textevent timeoffset="0" message="Here we go!!! Max watts sprint for 30!!! " locIndex="17" />
+        </FreeRide>
+        <SteadyState Duration="90" Power="0.5">
+            <textevent timeoffset="0" message="Whew, now for easy!" locIndex="18" />
+        </SteadyState>
+        <FreeRide Duration="30" FlatRoad="1">
+            <textevent timeoffset="0" message="GO,GO,GO,GO!" locIndex="19" />
+        </FreeRide>
+        <SteadyState Duration="90" Power="0.5">
+            <textevent timeoffset="0" message="Easy, easy, easy. " locIndex="20" />
+        </SteadyState>
+        <FreeRide Duration="30" FlatRoad="1">
+            <textevent timeoffset="0" message="Remember a little lower RPM if you can!" locIndex="21" />
+        </FreeRide>
+        <SteadyState Duration="90" Power="0.5">
+            <textevent timeoffset="0" message="Back to your comfortable RPM&apos;s. " locIndex="22" />
+        </SteadyState>
+        <FreeRide Duration="30" FlatRoad="1">
+            <textevent timeoffset="0" message="One more this round! GO!" locIndex="23" />
+        </FreeRide>
+        <SteadyState Duration="90" Power="0.5">
+            <textevent timeoffset="0" message="Ahhhhhh. Nice long rest now. " locIndex="24" />
+        </SteadyState>
+        <SteadyState Duration="210" Power="0.5">
+            <textevent timeoffset="0" message="Now&apos;s a good time to get a little snack if you&apos;re feeling it. " locIndex="25" />
+            <textevent timeoffset="190" message="Are you ready for another round? Here it comes! " locIndex="26" />
+        </SteadyState>
+        <FreeRide Duration="30" FlatRoad="1">
+            <textevent timeoffset="0" message="GOGOGOGOGO!" locIndex="27" />
+        </FreeRide>
+        <SteadyState Duration="90" Power="0.5">
+            <textevent timeoffset="0" message="Back to smooth easy riding. " locIndex="28" />
+        </SteadyState>
+        <FreeRide Duration="30" FlatRoad="1">
+            <textevent timeoffset="0" message="Be smooth here too, but go HARD!" locIndex="29" />
+        </FreeRide>
+        <SteadyState Duration="90" Power="0.5">
+            <textevent timeoffset="0" message="And now easy. " locIndex="30" />
+        </SteadyState>
+        <FreeRide Duration="30" FlatRoad="1">
+            <textevent timeoffset="0" message="Almost there, now make it hurt!" locIndex="31" />
+        </FreeRide>
+        <SteadyState Duration="90" Power="0.5">
+            <textevent timeoffset="0" message="Oh man, these 90 seconds go by quick eh?" locIndex="32" />
+        </SteadyState>
+        <FreeRide Duration="30" FlatRoad="1">
+            <textevent timeoffset="0" message="Last one FAST one!" locIndex="33" />
+        </FreeRide>
+        <SteadyState Duration="90" Power="0.5">
+            <textevent timeoffset="0" message="NICE!!!!" locIndex="34" />
+        </SteadyState>
+        <Cooldown Duration="210" PowerLow="0.55" PowerHigh="0.45">
+            <textevent timeoffset="0" message="Nice and easy, find those smooth RPM&apos;s and recover yourself. " locIndex="35" />
+        </Cooldown>
+    </workout>
+</workout_file>

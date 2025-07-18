@@ -1,0 +1,18 @@
+<workout_file>
+    <uniqueId>6205acd6-e96a-4258-a375-c61118bbdce8</uniqueId>
+    <legacyIdHash>1870450741</legacyIdHash>
+    <author>trainSharp</author>
+    <category>Crit Crusher</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 1</subcategory>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/trainSharp_Logo.tga</authorIcon>
+    <name>Week 1.3 - Split 2/3</name>
+    <description>This session is best done indoors on the trainer (A split session, Zone 2 followed by Zone 3). Watch the rpm&apos;s change to activate different energy systems and work the legs and lungs.  A cardio workout followed by a leg workout. No recovery between the efforts, so straight into the Zone 3 block from the 30 mins @ zone 2 </description>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow="0.2545" PowerHigh="0.64449996" />
+        <SteadyState Duration="1800" Power="0.65449995" />
+        <SteadyState Duration="1200" Power="0.81449997" />
+        <Cooldown Duration="600" PowerLow="0.75449997" PowerHigh="0.2545" />
+    </workout>
+</workout_file>

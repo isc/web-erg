@@ -1,0 +1,20 @@
+<workout_file>
+    <uniqueId>14a8d41f-f19a-4852-8db7-357d4d4f3f5f</uniqueId>
+    <legacyIdHash>137445068</legacyIdHash>
+    <name>Month 1.5 - Progressive Ramp</name>
+    <description>This will feel progressively harder as the session goes on. Ensure you are hydrated throughout and have good air circulation (use a strong fan!) as we don&apos;t want you overheating during this session! This type of session will work on your endurance capacity and ability to lift the power even when fatigued. Building both your lower level threshold and working on your FTP
+  </description>
+    <author>trainSharp</author>
+    <category>Zwift Academy 2016</category>
+    <subcategory>Month 1</subcategory>
+    <WorkoutPlan>1</WorkoutPlan>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/trainSharp_Logo.tga</authorIcon>
+    <workout>
+        <Warmup Duration="900" PowerLow="0.45" PowerHigh="0.65" />
+        <SteadyState Duration="300" Power="0.4" />
+        <SteadyState Duration="1800" Zone="1" />
+        <SteadyState Duration="1500" Zone="2" />
+        <SteadyState Duration="1200" Zone="3" />
+        <Cooldown Duration="600" PowerLow="0.45" PowerHigh="0.65" />
+    </workout>
+</workout_file>

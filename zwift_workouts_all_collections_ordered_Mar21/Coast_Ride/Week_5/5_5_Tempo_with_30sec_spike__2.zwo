@@ -1,0 +1,82 @@
+<workout_file>
+    <uniqueId>be58d7a5-a6ec-4afe-9d12-846eeadcf92f</uniqueId>
+    <legacyIdHash>2812791133</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Week 5.5 - Tempo with 30sec spike #2</name>
+    <description>Steady Tempo efforts are great. But by incorporating 30 second high intensity efforts into them, you will improve your body&apos;s ability to work aerobically for long periods. 
+
+Today&apos;s sessions consists of 2 x 16 minute Tempo efforts with a 30 second surge every 3.5 minutes.</description>
+    <sportType>bike</sportType>
+    <entid>491</entid>
+    <category>Zwift Coast Ride</category>
+    <subcategory>Week 5</subcategory>
+    <tags>
+    </tags>
+    <workout>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="129" message="High cadence in warm up sprints aiming for 110rpm" locIndex="1" />
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="10" OffDuration="50" OnPower="2" OffPower="0.5" />
+        <Ramp Duration="180" PowerLow="0.6" PowerHigh="0.75">
+            <textevent timeoffset="10" message="A longer, low level effort now. This should be comfortable." locIndex="2" />
+        </Ramp>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="100" message="A 5min threshold effort will help prepare you for the Tempo efforts." locIndex="3" />
+        </SteadyState>
+        <Ramp Duration="300" PowerLow="0.9" PowerHigh="1.04">
+            <textevent timeoffset="20" message="The power slowly ramps during this effort." locIndex="4" />
+            <textevent timeoffset="30" message="Aim to maintain the same cadence throughout the effort." locIndex="5" />
+        </Ramp>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="100" message="Now you are ready for the tempo efforts." locIndex="6" />
+            <textevent timeoffset="170" message="Starting with a 30sec surge to begin with." locIndex="7" />
+        </SteadyState>
+        <Ramp Duration="30" PowerLow="1.06" PowerHigh="1.2">
+            <textevent timeoffset="10" message="Self select your cadence for these efforts." locIndex="8" />
+            <textevent timeoffset="20" message="Note your finishing HR from the surge." locIndex="9" />
+        </Ramp>
+        <Ramp Duration="210" PowerLow="0.76" PowerHigh="0.9">
+            <textevent timeoffset="10" message="Now into the tempo effort." locIndex="10" />
+            <textevent timeoffset="20" message="However, we start at the lower end of the range and slowly ramp up." locIndex="11" />
+            <textevent timeoffset="200" message="Into another 30sec surge now." locIndex="12" />
+        </Ramp>
+        <Ramp Duration="30" PowerLow="1.06" PowerHigh="1.2">
+            <textevent timeoffset="20" message="How is your HR compared to the 1st effort?" locIndex="13" />
+        </Ramp>
+        <Ramp Duration="210" PowerLow="0.76" PowerHigh="0.9">
+            <textevent timeoffset="20" message="The tempo portion should start out feeling comfortable." locIndex="14" />
+            <textevent timeoffset="30" message="But it will get harder!" locIndex="15" />
+        </Ramp>
+        <Ramp Duration="30" PowerLow="1.06" PowerHigh="1.2" />
+        <Ramp Duration="210" PowerLow="0.76" PowerHigh="0.9">
+            <textevent timeoffset="200" message="Into the last 30sec surge now." locIndex="16" />
+        </Ramp>
+        <Ramp Duration="30" PowerLow="1.06" PowerHigh="1.2" />
+        <Ramp Duration="210" PowerLow="0.76" PowerHigh="0.9">
+            <textevent timeoffset="200" message="How much did your HR increase by across the 16min?" locIndex="17" />
+            <textevent timeoffset="190" message="Note your finishing HR." locIndex="18" />
+        </Ramp>
+        <SteadyState Duration="300" Power="0.5">
+            <textevent timeoffset="270" message="Into the 2nd set." locIndex="19" />
+            <textevent timeoffset="290" message="Again, observe your HR response throughout the 16min." locIndex="20" />
+        </SteadyState>
+        <Ramp Duration="30" PowerLow="1.06" PowerHigh="1.2" />
+        <Ramp Duration="210" PowerLow="0.76" PowerHigh="0.9">
+            <textevent timeoffset="20" message="Do you feel as fresh as the 1st set?" locIndex="21" />
+        </Ramp>
+        <Ramp Duration="30" PowerLow="1.06" PowerHigh="1.2" />
+        <Ramp Duration="210" PowerLow="0.76" PowerHigh="0.9">
+            <textevent timeoffset="150" message="Incorporating 30sec high intensity efforts into a tempo effort, you will improve your ability to work aerobically." locIndex="22" />
+        </Ramp>
+        <Ramp Duration="30" PowerLow="1.06" PowerHigh="1.2" />
+        <Ramp Duration="210" PowerLow="0.76" PowerHigh="0.9">
+            <textevent timeoffset="190" message="Into the last 30sec surge. Are you recovering well?" locIndex="23" />
+        </Ramp>
+        <Ramp Duration="30" PowerLow="1.06" PowerHigh="1.2" />
+        <Ramp Duration="210" PowerLow="0.76" PowerHigh="0.9">
+            <textevent timeoffset="190" message="Note your finishing HR." locIndex="24" />
+            <textevent timeoffset="200" message="How much did your HR increase by across the 16min?" locIndex="25" />
+        </Ramp>
+        <Cooldown Duration="300" PowerLow="0.7" PowerHigh="0.45" />
+    </workout>
+</workout_file>

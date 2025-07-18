@@ -1,0 +1,32 @@
+<workout_file>
+    <uniqueId>f4e35f61-5856-4371-b422-b5c9ac37847b</uniqueId>
+    <legacyIdHash>377435363</legacyIdHash>
+    <category>Active Offseason</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 5</subcategory>
+    <name>Week 5.2 - Sub-Threshold Over-Gear</name>
+    <description>8 x 3 minutes at 50 rpm, pushing a big gear at 90% of FTP. The goal is to create more torque than watts. Stay seated for the entire effort and pull on handlebars to be able to push harder. If you need more resistance, increase the wattage.</description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <workout>
+        <Warmup Duration="900" Zone="1" />
+        <IntervalsT Repeat="8" OnDuration="180" OffDuration="120" PowerOnLow="0.85" PowerOnHigh="0.95" PowerOffLow="0.51" PowerOffHigh="0.61">
+            <TextEvent message="50 rpm" locIndex="1" timeoffset="0" />
+            <TextEvent message="90 rpm" locIndex="2" timeoffset="180" />
+            <TextEvent message="50 rpm" locIndex="3" timeoffset="300" />
+            <TextEvent message="90 rpm" locIndex="4" timeoffset="480" />
+            <TextEvent message="50 rpm" locIndex="5" timeoffset="600" />
+            <TextEvent message="90 rpm" locIndex="6" timeoffset="780" />
+            <TextEvent message="50 rpm" locIndex="7" timeoffset="900" />
+            <TextEvent message="90 rpm" locIndex="8" timeoffset="1080" />
+            <TextEvent message="50 rpm" locIndex="9" timeoffset="1200" />
+            <TextEvent message="90 rpm" locIndex="10" timeoffset="1380" />
+            <TextEvent message="50 rpm" locIndex="11" timeoffset="1500" />
+            <TextEvent message="90 rpm" locIndex="12" timeoffset="1680" />
+            <TextEvent message="50 rpm" locIndex="13" timeoffset="1800" />
+            <TextEvent message="90 rpm" locIndex="14" timeoffset="1980" />
+            <TextEvent message="50 rpm" locIndex="15" timeoffset="2100" />
+            <TextEvent message="90 rpm" locIndex="16" timeoffset="2280" />
+        </IntervalsT>
+        <Cooldown Duration="900" Zone="1" />
+    </workout>
+</workout_file>

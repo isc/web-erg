@@ -1,0 +1,76 @@
+<workout_file>
+    <uniqueId>94f3cd99-fa99-492a-bc06-685cd22e0a0c</uniqueId>
+    <legacyIdHash>2887636980</legacyIdHash>
+    <author>Matt Rowe (Rowe &amp; King)</author>
+    <categoryOverride>Sprinting</categoryOverride>
+    <name>Week 1.4 - Surge to the Max</name>
+    <description>This session aims to develop your ability to make big surges in effort, to overcome tricky sections on a mountain bike, i.e. a really muddy / boggy section, or super steep and rocky climb, where you need to ride almost max effort just to get up it!
+
+Often, during these technical sections, you are forced to ride at a low cadence of around 65rpm of lower, which is is where todays 1 minute efforts take place. After a short ramp, you will complete a 1 minute max effort at 65rpm - grind it out!</description>
+    <sportType>bike</sportType>
+    <category>Dirt Destroyer</category>
+    <subcategory>Week 1</subcategory>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow="0.25449997" PowerHigh="0.75449997" pace="8268">
+            <textevent timeoffset="4" message="Hello Mountain Bikers and welcome back to another session of the Dirt Destroyer!" locIndex="1" />
+            <textevent timeoffset="80.000015" message="Todays Surge to the Max contains a series of ramped effort, followed by 1 minute max efforts at 65rpm!." locIndex="2" />
+            <textevent timeoffset="120" message="Stay composed during the ramps, and aim to pace your 1 minute efforts evenly so you finish strongly!." locIndex="3" />
+            <textevent timeoffset="550" message="You need to pace each of todays 1 minute efforts to ensure you get everything out by the end of each one." locIndex="4" />
+            <textevent timeoffset="240" message="To start, it’s a standard 10 minute progressive warm up and 10 second activation sprint to get us in the zone, both physically and mentally." locIndex="5" />
+            <textevent timeoffset="500" message="You should be starting to feel sweaty by now and like you are ready to train?" locIndex="6" />
+            <textevent timeoffset="570" message="Nearing the end of the warm up now - your blood will be nice and warm, ready to supply our muscles with oxygen. " locIndex="7" />
+        </Warmup>
+        <SteadyState Duration="60.000004" Power="0.50449997" pace="8268">
+            <textevent timeoffset="12" message="A minute to relax &amp; have drink before a &apos;10 second activation sprint&apos;" locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.0944999" pace="8268" />
+        <SteadyState Duration="120" Power="0.50449997" pace="8268">
+            <textevent timeoffset="13" message="2 minutes easy before effort 1" locIndex="9" />
+        </SteadyState>
+        <Ramp Duration="180" PowerLow="0.70449996" PowerHigh="1.0545" pace="8268">
+            <textevent timeoffset="113" message="Let&apos;s settle in to this first 3 minute ramped effort. Stay nice and composed, keeping your upper body still." locIndex="10" />
+            <textevent timeoffset="153" message="The big comes after the ramp in the form of 1 minute max effort at a low cadence of 65rpm!" locIndex="11" />
+        </Ramp>
+        <FreeRide Duration="60" FlatRoad="0" Cadence="65">
+            <textevent timeoffset="5" message="1 min max effort - get stuck in!" locIndex="12" />
+            <textevent timeoffset="25" message="Pace judgement is key - you don&apos;t want to blow during the minute." locIndex="13" />
+        </FreeRide>
+        <SteadyState Duration="180" Power="0.40450001" pace="8268" />
+        <Ramp Duration="180" PowerLow="0.70449996" PowerHigh="1.0545" pace="8268">
+            <textevent timeoffset="81" message="3 minute ramped effort number 2 - one again, it&apos;s important to stay in control of your effort. Smooth is fast. " locIndex="14" />
+        </Ramp>
+        <FreeRide Duration="60" FlatRoad="0" Cadence="65">
+            <textevent timeoffset="18" message="1 min max effort at 65rpm now - it&apos;s a grind, just like riding through mud!" locIndex="15" />
+        </FreeRide>
+        <SteadyState Duration="180" Power="0.40450001" pace="8268" />
+        <Ramp Duration="180" PowerLow="0.70449996" PowerHigh="1.0545" pace="8268">
+            <textevent timeoffset="41" message="3 min ramped effort again - sit upright so you can survey the terrain ahead." locIndex="16" />
+        </Ramp>
+        <FreeRide Duration="60" FlatRoad="0" Cadence="65">
+            <textevent timeoffset="8" message="If you blow, at this cadence you are doomed. Pacing is key. Imaging getting half way up a rocky ascent and your legs falling off and having to walk!" locIndex="17" />
+            <textevent timeoffset="18" message="It happens to the best of us, but you lose so much time! Pace every effort you make to avoid coming to a standstill on key sections." locIndex="18" />
+            <textevent timeoffset="29" message="So if a climb is 60 seconds long, you need to pace your effort across 60 seconds. Check your power transfer during each effort after this session..." locIndex="19" />
+            <textevent timeoffset="40" message="Ideally, we would see a nice even power output across the minute. Worst thing you can do is start too hard and crack!" locIndex="20" />
+        </FreeRide>
+        <SteadyState Duration="180" Power="0.40450001" pace="8268" />
+        <Ramp Duration="180" PowerLow="0.70449996" PowerHigh="1.0545" pace="8268">
+            <textevent timeoffset="40" message="Fourth and final 3 minute ramp! The fatigue will be set in by now, but it&apos;s still vital to maintain focus and composure." locIndex="21" />
+            <textevent timeoffset="120" message="Good work - hold it right there, and get ready for the big minute push!" locIndex="22" />
+        </Ramp>
+        <FreeRide Duration="60" FlatRoad="0" Cadence="65">
+            <textevent timeoffset="11" message="1 min maximum effort, once again at 65rpm to replicate that technical terrain!" locIndex="23" />
+            <textevent timeoffset="31" message="Up Up Up! Fantastic effort, keep it up!" locIndex="24" />
+        </FreeRide>
+        <SteadyState Duration="180" Power="0.40450001" pace="8268" />
+        <Cooldown Duration="350" PowerLow="0.55449998" PowerHigh="0.2545" pace="8268">
+            <textevent timeoffset="15" message="Good work - 5 minutes cool down now." locIndex="25" />
+            <textevent timeoffset="69" message="That&apos;s a brutal welcome to capacity efforts." locIndex="26" />
+            <textevent timeoffset="100" message="Being fast isn&apos;t that important in MTB - it&apos;s more about being strong, powerful and explosive." locIndex="27" />
+            <textevent timeoffset="130" message="Sessions like today really help with your ability to navigate and get over tough technical sections - big power at a low cadence." locIndex="28" />
+            <textevent timeoffset="250" message="It&apos;s important to refuel after this session - carbs, protein and hydrate!" locIndex="29" />
+            <textevent timeoffset="280" message="Make sure you are getting your IRL Mountain Biking in - those skills are not going to to learn themselves." locIndex="30" />
+        </Cooldown>
+    </workout>
+</workout_file>

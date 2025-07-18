@@ -1,0 +1,48 @@
+<workout_file>
+    <uniqueId>30f0f8ee-5a6b-4e48-901f-07c051883cff</uniqueId>
+    <legacyIdHash>3707216173</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>2018 PRL46 Prep</category>
+    <subcategory>Week 7</subcategory>
+    <name>Week 7.4 - Climbing Threshold #1</name>
+    <description>Today&apos;s session focuses on simulating the demands of extended climbing.
+
+Riding at the lower end of your Zone 4 threshold power, you will be targeting a cadence similar to climbing.
+
+When performing the 4 x 5min intervals, position yourself on the bike as you would climbing seated.  </description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow="0.50449997" PowerHigh="0.75449997" pace="0">
+            <textevent timeoffset="450" message="The aim is to simulate the demands of climbing today." locIndex="1" />
+            <textevent timeoffset="50" message="Complete 3 x 6sec high cadence surges during your warm up." locIndex="2" />
+            <textevent timeoffset="560" message="Target cadence is 80rpm for the threshold efforts." locIndex="3" />
+        </Warmup>
+        <SteadyState Duration="300" Power="0.90449995" pace="0" Cadence="80">
+            <textevent timeoffset="48" message="Position yourself on the bike as you would climbing." locIndex="4" />
+            <textevent timeoffset="289" message="What is your HR?" locIndex="5" />
+            <textevent timeoffset="169" message="Note your HR at the end of each effort." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.55000001" pace="0" />
+        <SteadyState Duration="300" Power="0.90449995" pace="0" Cadence="80">
+            <textevent timeoffset="290" message="What is your HR?" locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.55000001" pace="0">
+            <textevent timeoffset="80" message="2 down, 2 to go!" locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.90216994" pace="0" Cadence="80">
+            <textevent timeoffset="290" message="What is your HR?" locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.55000001" pace="0">
+            <textevent timeoffset="105" message="Last one coming up." locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.90449995" pace="0" Cadence="80">
+            <textevent timeoffset="290" message="What is your HR?" locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.55000001" pace="0" />
+        <Cooldown Duration="600" PowerLow="0.75449997" PowerHigh="0.50449997" pace="0">
+            <textevent timeoffset="30" message="A longer cool down today after those hard efforts." locIndex="12" />
+        </Cooldown>
+    </workout>
+</workout_file>

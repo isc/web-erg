@@ -1,0 +1,107 @@
+<workout_file>
+    <uniqueId>8760f162-2d04-4df9-8626-e52389bfd538</uniqueId>
+    <legacyIdHash>767736792</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Zone 2 #1</name>
+    <description>Zone 2 training is one of the most important aspects of any training plan. We don&apos;t always get faster by training faster.
+
+In Zone 2 training we are stimulating your type I muscle fibers (slow twitch). Spending time in Zone 2 is absolutely essential to improving performance.</description>
+    <sportType>bike</sportType>
+    <category>Singletrack Slayer</category>
+    <subcategory>Week 6</subcategory>
+    <WorkoutPlan>1</WorkoutPlan>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <tags>
+    </tags>
+    <workout>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="50" message="Today might seem like an easy session, but it is highly beneficial." locIndex="1" />
+            <textevent timeoffset="70" message="Today you can have a relaxing ride and have confidence in the gains made." locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.6">
+            <textevent timeoffset="20" message="The warmup for today&apos;s session is fairly low key." locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.65">
+            <textevent timeoffset="20" message="The aim is to get the blood flowing to the working muscles." locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.81">
+            <textevent timeoffset="50" message="We spend just a short period of time at threshold level during the warmup." locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.95">
+            <textevent timeoffset="10" message="Be sure to spin with a nice high cadence here." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="100" message="To complete the warmup we complete a steady zone 3 effort." locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.8">
+            <textevent timeoffset="20" message="Relax during this effort." locIndex="8" />
+            <textevent timeoffset="40" message="Spin the legs at a cadence that is a little higher than what is normally comfortable for you." locIndex="9" />
+            <textevent timeoffset="100" message="We will look at why it&apos;s important to remain within zone 2 for the entire session during the ride." locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="30" message="A quick chance here to sort your music out for the ride ahead." locIndex="11" />
+            <textevent timeoffset="60" message="Make sure you have your bottle and towel handy." locIndex="12" />
+        </SteadyState>
+        <Ramp Duration="420" PowerLow="0.6" PowerHigh="0.7">
+            <textevent timeoffset="60" message="The key to this session is avoiding any time in zone 3 or above." locIndex="13" />
+            <textevent timeoffset="30" message="Here we go. Settle into a nice rhythm." locIndex="14" />
+            <textevent timeoffset="100" message="This is a good session to complete using ERG mode." locIndex="15" />
+            <textevent timeoffset="120" message="ERG mode will allow you to relax a little and not have to worry about holding the correct power." locIndex="16" />
+            <textevent timeoffset="140" message="With ERG mode you don&apos;t have to worry about accidentally going into zone 3 for a short period." locIndex="17" />
+            <textevent timeoffset="260" message="In zone 2 specific sessions, it&apos;s extremely important that we remain in zone 2." locIndex="18" />
+            <textevent timeoffset="280" message="This is because we want to ensure we are engaging predominately type I muscle fibres and mainly fat as the fuel source." locIndex="19" />
+            <textevent timeoffset="300" message="As soon as we enter zone 3, we engage some type IIa muscle fibres and a higher rate of carbohydrates." locIndex="20" />
+            <textevent timeoffset="320" message="So, settle into your zone 2 rhythm and have confidence that while the intensity is low, the training effect is high." locIndex="21" />
+        </Ramp>
+        <SteadyState Duration="180" Power="0.7">
+            <textevent timeoffset="20" message="To entertain you during the ride we are going to look at the science behind zone 2 training." locIndex="22" />
+            <textevent timeoffset="40" message="Each training zone is designed to elicit specific physiological and metabolic adaptations in order to improve performance." locIndex="23" />
+            <textevent timeoffset="60" message="With this in mind, it&apos;s important to understand how exercising at different intensities affects the changes that occur." locIndex="24" />
+            <textevent timeoffset="80" message="Your capacity to exercise is dependant on your ability to transform chemical energy into mechanical energy." locIndex="25" />
+            <textevent timeoffset="100" message="Muscles needs to synthesize ATP, for muscle contraction." locIndex="26" />
+            <textevent timeoffset="120" message="ATP generation is achieved by two mechanisms - anaerobic and aerobic metabolism." locIndex="27" />
+            <textevent timeoffset="140" message="Fats and carbs are the two main substrates, with some contribution from protein." locIndex="28" />
+        </SteadyState>
+        <Ramp Duration="420" PowerLow="0.7" PowerHigh="0.6">
+            <textevent timeoffset="10" message="Your exercise intensity as well as muscle fiber recruitment pattern will dictate the energy system and substrate that is activated." locIndex="29" />
+            <textevent timeoffset="30" message="Which correlates with the different training zones." locIndex="30" />
+            <textevent timeoffset="50" message="Which is why this zone 2 session is so important." locIndex="31" />
+            <textevent timeoffset="200" message="The majority of exercise intensities generate ATP through aerobic metabolism." locIndex="32" />
+            <textevent timeoffset="220" message="Depending on the your level of fitness, and up to 55-75% of VO2max intensity, energy is generated from fat and carbohydrates." locIndex="33" />
+            <textevent timeoffset="240" message="Although Ccarbs are used at small rates during low and moderate exercise intensities." locIndex="34" />
+            <textevent timeoffset="260" message="At intensities beyond 75% of VO2max, ATP generation needs to be faster in order to maintain muscle contractile demands." locIndex="35" />
+            <textevent timeoffset="280" message="Fat cannot synthesize ATP fast enough so carbs become the predominant energy substrate." locIndex="36" />
+            <textevent timeoffset="300" message="Essentially, going slowly lets your body use fats as fuel and as you increase the pace you increase the demand for carbs." locIndex="37" />
+        </Ramp>
+        <Ramp Duration="420" PowerLow="0.6" PowerHigh="0.75">
+            <textevent timeoffset="30" message="Now we are going to look at how we recruit different muscle fibres when we exercise." locIndex="38" />
+            <textevent timeoffset="50" message="Muscle is composed of 2 kinds of muscle fibers - Type I, also known as slow twitch, and Type II, or fast twitch." locIndex="39" />
+            <textevent timeoffset="70" message="Fast twitch fibers are also divided in two subgroups called Type IIa and IIb." locIndex="40" />
+            <textevent timeoffset="90" message="Muscle fibre recruitment occurs in a sequential order." locIndex="41" />
+            <textevent timeoffset="110" message="Type I muscle fibers are the first ones to be recruited." locIndex="42" />
+            <textevent timeoffset="130" message="As exercise intensity increases muscle contractile demands increase and Type I muscle fibers cannot sustain the necessary demand." locIndex="43" />
+            <textevent timeoffset="150" message="Type IIa muscle fibers kick in and eventually as intensity keeps increasing Type IIb will finally be recruited." locIndex="44" />
+            <textevent timeoffset="170" message="Simply put, slow twitch fibres are used at slow speeds and fast twitch fibres at fast speeds." locIndex="45" />
+        </Ramp>
+        <SteadyState Duration="300" Power="0.75">
+            <textevent timeoffset="30" message="What are the benefits of zone 2 training?" locIndex="46" />
+            <textevent timeoffset="50" message="In this training zone we stimulate Type I muscle fibers." locIndex="47" />
+            <textevent timeoffset="70" message="Therefore we stimulate mitochondrial growth and function, which will improve the ability to utilize fat." locIndex="48" />
+            <textevent timeoffset="90" message="By improving fat utilization we preserve glycogen." locIndex="49" />
+            <textevent timeoffset="110" message="Athletes can then use that glycogen at the end of the race when high intensity efforts are required and therefore a lot of glucose utilization." locIndex="50" />
+        </SteadyState>
+        <Ramp Duration="420" PowerLow="0.75" PowerHigh="0.65">
+            <textevent timeoffset="30" message="Type I muscle fibers are also responsible for lactate clearance." locIndex="51" />
+            <textevent timeoffset="50" message="Lactate is the byproduct of glucose utilization which is utilized in large amounts by fast twitch muscle fibers." locIndex="52" />
+            <textevent timeoffset="70" message="However, lactate needs to be cleared otherwise it will accumulate." locIndex="53" />
+            <textevent timeoffset="90" message="This is where your Type I fibres play the role of lactate clearance." locIndex="54" />
+            <textevent timeoffset="110" message="Zone 2 will improve improve fat utilization and preserve glycogen but we will also increase lactate clearance capacity, which is key for performance." locIndex="55" />
+        </Ramp>
+        <SteadyState Duration="300" Power="0.65">
+            <textevent timeoffset="30" message="That concludes the science lesson!" locIndex="56" />
+            <textevent timeoffset="50" message="It&apos;s good to know that to cause a training effect, we don&apos;t have to exert a maximal effort." locIndex="57" />
+            <textevent timeoffset="70" message="By incorporating some controlled zone 2 work into your training schedule there are good gains to be made in your performance." locIndex="58" />
+        </SteadyState>
+        <Cooldown Duration="180" PowerLow="0.65" PowerHigh="0.5" />
+    </workout>
+</workout_file>

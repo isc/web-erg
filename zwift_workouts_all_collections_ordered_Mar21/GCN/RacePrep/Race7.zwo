@@ -1,0 +1,21 @@
+<workout_file>
+    <uniqueId>831fe3a1-b8dc-49e0-8294-b6ff07ef7fda</uniqueId>
+    <legacyIdHash>3505350792</legacyIdHash>
+    <author>GCN</author>
+    <categoryOverride>Endurance</categoryOverride>
+    <category>GCN</category>
+    <subcategory>Simon Richardson&apos;s GCN Race Prep Plan</subcategory>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/GCN_Logo.tga</authorIcon>
+    <name>Fast pedaling</name>
+    <description>This workout is designed to improve your ability to change cadences without worrying too much about your wattage output.   This workout also makes the time go much faster!
+Warm-up 10minutes and then begin your Fast pedaling drills!  One minute pedaling fast at &gt;110rpm and then 1 minute at 80rpm. Cool-down</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS" />
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.2545" PowerHigh="0.75449997" />
+        <IntervalsT Repeat="20" OnDuration="60" OffDuration="60" OnPower="0.80449992" OffPower="0.50449997" Cadence="110" CadenceResting="80" />
+        <Cooldown Duration="600" PowerLow="0.75449997" PowerHigh="0.2545" />
+    </workout>
+</workout_file>

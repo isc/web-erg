@@ -1,0 +1,77 @@
+<workout_file>
+    <uniqueId>fc1d27cd-7138-4f15-bbd6-56a9e870c445</uniqueId>
+    <legacyIdHash>1890365153</legacyIdHash>
+    <author>Shayne Gaffney | GC Coaching</author>
+    <categoryOverride>30 minutes to burn</categoryOverride>
+    <name>Vault</name>
+    <description>You&apos;ve got 20 minutes and need to make it count! This threshold workout opens with a quick warmup, followed by high-intensity intervals and recovery time in between. You&apos;ll be in an out before you know it.</description>
+    <sportType>bike</sportType>
+    <category>Less than 30 minutes to burn</category>
+    <tags>
+        <tag name="RECOMMENDABLE" />
+    </tags>
+    <overrideHash>1890365153</overrideHash>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.5" PowerHigh="0.75" Cadence="85">
+            <textevent timeoffset="0" message="Welcome to the Vault workout! Coach Shayne Gaffney here and I&apos;ll be your tour guide today :-) Let&apos;s get started with a 5min warmup." locIndex="1" />
+            <textevent timeoffset="10" message="Keep your cadence comfortable ~85 RPM here." locIndex="2" />
+            <textevent timeoffset="120" message="All right, let&apos;s chat about what&apos;s in store for today&apos;s workout." locIndex="3" />
+            <textevent timeoffset="130" message="Today is an over/under workout featuring a &apos;vaulted&apos; over approach." locIndex="4" />
+            <textevent timeoffset="140" message="Where we&apos;ll increase, then decrease, the &apos;over&apos; intensity." locIndex="5" />
+            <textevent timeoffset="150" message="Resembling a vaulted ceiling upon workout review." locIndex="6" />
+            <textevent timeoffset="160" message="More specifically, we&apos;ll do 2min @90% FTP, plus 30sec over FTP, 5 times." locIndex="7" />
+            <textevent timeoffset="170" message="Let&apos;s keep warming up over the next 2min." locIndex="8" />
+            <textevent timeoffset="240" message="1min to go, then we&apos;ll start the main set." locIndex="9" />
+            <textevent timeoffset="250" message="We&apos;ll do the &apos;under&apos; portion at 90 RPM, and the &apos;over&apos; portion at 100 RPM." locIndex="10" />
+            <textevent timeoffset="290" message="All right, bring your cadence up just a bit more to 90 RPM." locIndex="11" />
+        </Warmup>
+        <SteadyState Duration="60" Power="0.9" Cadence="90">
+            <textevent timeoffset="0" message="And let&apos;s bring the effort up." locIndex="12" />
+            <textevent timeoffset="50" message="Get ready for a surge in effort next! Increase your cadence to 100 RPM." locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.1" Cadence="100">
+            <textevent timeoffset="0" message="GO GO GO!" locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.9" Cadence="90">
+            <textevent timeoffset="0" message="Awesome work! Bring it back down to 90 RPM @90% FTP and let&apos;s recover under some pressure here." locIndex="15" />
+            <textevent timeoffset="60" message="1min to go, then we&apos;ll surge again, this time to 120% FTP! Get ready to put the work in!" locIndex="16" />
+            <textevent timeoffset="110" message="All right, start bringing your cadence up to 100 RPM again." locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.2" Cadence="100">
+            <textevent timeoffset="0" message="UP UP UP!" locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.9" Cadence="90">
+            <textevent timeoffset="0" message="Nice! Let&apos;s spin those legs out now." locIndex="19" />
+            <textevent timeoffset="60" message="Take a few deep breaths here and make sure you&apos;re drinking today." locIndex="20" />
+            <textevent timeoffset="110" message="All right, next up is the peak of our surge efforts - 130% FTP!" locIndex="21" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.3" Cadence="100">
+            <textevent timeoffset="0" message="FULL GAS! GO GO GO!" locIndex="22" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.9" Cadence="90">
+            <textevent timeoffset="0" message="Phew! That was tough! Breathe and relax here as best you can." locIndex="23" />
+            <textevent timeoffset="10" message="We&apos;ll start to gradually lower the surge efforts now." locIndex="24" />
+            <textevent timeoffset="90" message="30sec to go and we&apos;re surging again! 2nd to last effort, make it count!" locIndex="25" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.2" Cadence="100">
+            <textevent timeoffset="0" message="PUSH IT!" locIndex="26" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.9" Cadence="90">
+            <textevent timeoffset="0" message="Awesome work so far today! You should be proud of yourself." locIndex="27" />
+            <textevent timeoffset="60" message="1min, then we&apos;ll finish up with our final surge effort, get ready!" locIndex="28" />
+            <textevent timeoffset="110" message="Make this effort just as good as the 1st!" locIndex="29" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.1" Cadence="100">
+            <textevent timeoffset="0" message="PUSH ALL THE WAY!" locIndex="30" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.9" Cadence="90">
+            <textevent timeoffset="0" message="Hang on here for another minute! We&apos;re not done yet :-)" locIndex="31" />
+        </SteadyState>
+        <Cooldown Duration="150" PowerLow="0.5" PowerHigh="0.3" Cadence="85">
+            <textevent timeoffset="0" message="All right, you did it! Way to go, my friend!" locIndex="32" />
+            <textevent timeoffset="10" message="We&apos;ll cooldown for a bit now, then we&apos;re done for today!" locIndex="33" />
+            <textevent timeoffset="20" message="Make sure to refuel and rehydrate before your next workout." locIndex="34" />
+            <textevent timeoffset="30" message="And we&apos;ll see you next time :-)" locIndex="35" />
+        </Cooldown>
+    </workout>
+</workout_file>

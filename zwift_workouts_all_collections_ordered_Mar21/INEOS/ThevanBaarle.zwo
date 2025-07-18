@@ -1,0 +1,208 @@
+<workout_file>
+    <uniqueId>bf5a7566-5795-445f-bb07-37872b43729a</uniqueId>
+    <legacyIdHash>674746942</legacyIdHash>
+    <author>Shayne Gaffney</author>
+    <categoryOverride>30-60 minutes to burn</categoryOverride>
+    <name>The van Baarle</name>
+    <activitySaveName>INEOS Grenadiers Virtual Training Camp | The van Baarle</activitySaveName>
+    <description>Dylan van Baarle has performed exceptionally well as a Classics rider, something that requires the ability to surge repeatedly over the course of a long race. If you miss one move with some races, it&apos;s all over! This workout features plenty of interval surges to practice exactly that!</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="ineos2021" />
+    </tags>
+    <category>INEOS Grenadiers Virtual Training Camp</category>
+    <categoryIndex>10</categoryIndex>
+    <overrideHash>674746942</overrideHash>
+    <visibleAfterTime>1642982460</visibleAfterTime>
+    <workout>
+        <Warmup Duration="300" PowerHigh="0.5" PowerLow="0.3">
+            <textevent timeoffset="0" message="Welcome to the INEOS Grenadiers Virtual Training Camp!" />
+            <textevent timeoffset="10" message="Let&apos;s get started with an easy warm-up. Keep your cadence comfortable." />
+            <textevent timeoffset="60" message="The INEOS Grenadiers is one of the world&apos;s most successful cycling teams." />
+            <textevent timeoffset="70" message="The team has a thirst for a good challenge and a pioneering spirit that allows them to keep pushing themselves and the wider sport of cycling forward." />
+            <textevent timeoffset="120" message="The INEOS Grenadiers Virtual Training Camp gives Zwifters a taste of the training these riders undertake in preparation for their season." />
+            <textevent timeoffset="130" message="Each workout features a team rider and is tailored to what they would do in their own training." />
+            <textevent timeoffset="140" message="Today&apos;s workout features Dylan van Baarle!" />
+            <textevent timeoffset="150" message="van Baarle has performed exceptionally well as a Classics rider, something that requires the ability to surge repeatedly over the course of a long race." />
+            <textevent timeoffset="180" message="If you miss one move with some races, it&apos;s all over!" />
+            <textevent timeoffset="190" message="This workout features plenty of interval surges to practice exactly that!" />
+            <textevent timeoffset="200" message="Also, special shout out to Leigh Bryan, performance coach at INEOS Grenadiers, for his help designing this workout!" />
+            <textevent timeoffset="270" message="30sec here, then we&apos;ll do a low-cadence interval to continue the warm-up." />
+            <textevent timeoffset="290" message="Ready? Start to drop your cadence to around 60 RPM." />
+        </Warmup>
+        <SteadyState Duration="180" Power="0.65" Cadence="60">
+            <textevent timeoffset="0" message="Slow your cadence down here." />
+            <textevent timeoffset="10" message="If you don&apos;t have a cadence sensor, just count the downstroke on one leg and aim for 1 stroke per second." />
+            <textevent timeoffset="60" message="Low-cadence efforts place greater stress on the muscles relative to faster cadence due to increased torque." />
+            <textevent timeoffset="70" message="And adding some low-cadence work into your warm-up is a great way to further prime your muscles." />
+            <textevent timeoffset="120" message="1min to go here!" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.4">
+            <textevent timeoffset="0" message="Great work! Let&apos;s resume a comfortable cadence now." />
+            <textevent timeoffset="90" message="Next up, we&apos;re going to do 3min at 95+ RPM to finish the warm-up." />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.65" Cadence="95">
+            <textevent timeoffset="0" message="Bring the cadence up nice and quick here!" />
+            <textevent timeoffset="60" message="At this higher RPM, try not to bounce too much." />
+            <textevent timeoffset="70" message="Upper body solid and hips planted in the saddle." />
+            <textevent timeoffset="120" message="1min to go here. You&apos;re looking GREAT!" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.4">
+            <textevent timeoffset="0" message="Perfect! You should feel nice and warmed up now." />
+            <textevent timeoffset="10" message="We&apos;ll take 2min nice and easy, then start our surge effort at various intensities." />
+            <textevent timeoffset="60" message="Deep breaths here. Have a couple sips of fluids." />
+            <textevent timeoffset="90" message="Alright, in 30sec we&apos;re doing a set of progressive 30sec-on/30sec-off intervals." />
+            <textevent timeoffset="100" message="These will be done at varying intensities, mimicking a race-closing scenario." />
+            <textevent timeoffset="110" message="Get ready!" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.95">
+            <textevent timeoffset="0" message="Starting just under FTP here, push!" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.4">
+            <textevent timeoffset="0" message="Quick recovery now, good work! We&apos;re heading over FTP next." />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.05">
+            <textevent timeoffset="0" message="GO GO GO!" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.4">
+            <textevent timeoffset="0" message="You&apos;re doing amazing! We&apos;ll hit it even harder next!" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.15">
+            <textevent timeoffset="0" message="BIG POWER!" />
+            <textevent timeoffset="20" message="Keep the cadence up!" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.4">
+            <textevent timeoffset="0" message="Awesome! We&apos;ll repeat that again next!" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.95">
+            <textevent timeoffset="0" message="PUSH!" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.4">
+            <textevent timeoffset="0" message="Deep breaths here, recovery becomes more important the deeper you go." />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.05">
+            <textevent timeoffset="0" message="Turning up the heat again." />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.4">
+            <textevent timeoffset="0" message="Quick recovery again before our big push." />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.15">
+            <textevent timeoffset="0" message="GO GO GO!" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="0.4">
+		</SteadyState>
+        <SteadyState Duration="30" Power="0.4">
+            <textevent timeoffset="0" message="One more time through—you got this!" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.95">
+            <textevent timeoffset="0" message="Lift the power again!" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.4">
+            <textevent timeoffset="0" message="Easy..." />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.05">
+            <textevent timeoffset="0" message="C&apos;mon! Let&apos;s embrace your inner van Baarle here!" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.4">
+            <textevent timeoffset="0" message="Great work! Get ready for another big push!" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.15">
+            <textevent timeoffset="0" message="HIT IT!" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.4">
+            <textevent timeoffset="0" message="Nice one! Let&apos;s take 2min nice and easy here." />
+            <textevent timeoffset="10" message="We&apos;ll repeat that interval set again next." />
+            <textevent timeoffset="60" message="Deep breaths. Have a couple sips of fluid here." />
+            <textevent timeoffset="90" message="Dylan likes to use &apos;Zwift a lot when the weather is bad.&apos;" />
+            <textevent timeoffset="100" message="&apos;You really get the feeling that you&apos;re on the road as the resistance of the turbo trainer increases and decreases depending on whether you&apos;re going uphill or downhill.&apos;" />
+            <textevent timeoffset="110" message="Speaking of, get ready to turn up the resistance! Let&apos;s do it!" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.95">
+            <textevent timeoffset="0" message="Starting just under FTP here, push!" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.4">
+            <textevent timeoffset="0" message="Quick recovery now, good work! We&apos;re heading over FTP next." />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.05">
+            <textevent timeoffset="0" message="GO GO GO!" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.4">
+            <textevent timeoffset="0" message="You&apos;re doing amazing! We&apos;ll hit it even harder next!" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.15">
+            <textevent timeoffset="0" message="BIG POWER!" />
+            <textevent timeoffset="20" message="Keep the cadence up!" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.4">
+            <textevent timeoffset="0" message="Awesome! We&apos;ll repeat that again next!" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.95">
+            <textevent timeoffset="0" message="PUSH!" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.4">
+            <textevent timeoffset="0" message="Deep breaths here, recovery becomes more important the deeper you go." />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.05">
+            <textevent timeoffset="0" message="Turning up the heat again." />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.4">
+            <textevent timeoffset="0" message="Quick recovery again before our big push." />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.15">
+            <textevent timeoffset="0" message="GO GO GO!" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="0.4">
+		</SteadyState>
+        <SteadyState Duration="30" Power="0.4">
+            <textevent timeoffset="0" message="One more time through, you got this!" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.95">
+            <textevent timeoffset="0" message="Lift the power again!" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.4">
+            <textevent timeoffset="0" message="Easy..." />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.05">
+            <textevent timeoffset="0" message="C&apos;mon! Let&apos;s embrace your inner van Baarle here!" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.4">
+            <textevent timeoffset="0" message="Great work! Get ready for the big push again!" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.15">
+            <textevent timeoffset="0" message="HIT IT!" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.4">
+            <textevent timeoffset="0" message="Aw yeah! Way to get that 2nd set done!" />
+            <textevent timeoffset="10" message="Let&apos;s take a few minutes easy to recover before we finish up the day." />
+            <textevent timeoffset="120" message="Alright, in 1min, we&apos;ll have our last interval set to tackle." />
+            <textevent timeoffset="130" message="We&apos;ll do 15sec hard with 45sec easy, repeated five times." />
+            <textevent timeoffset="140" message="Aim for a quick cadence during the work portions, and something more comfortable for the recovery." />
+            <textevent timeoffset="170" message="Here we go!" />
+        </SteadyState>
+        <IntervalsT Repeat="5" OnDuration="15" OnPower="1.5" OffDuration="45" OffPower="0.4">
+            <textevent timeoffset="0" message="GO GO GO!" />
+            <textevent timeoffset="15" message="Nice! One down." />
+            <textevent timeoffset="60" message="DRIVE THIS!" />
+            <textevent timeoffset="75" message="How are those legs feeling? We&apos;re almost there." />
+            <textevent timeoffset="120" message="POWER!" />
+            <textevent timeoffset="135" message="Beauty! Bring it down here. Two to go!" />
+            <textevent timeoffset="180" message="GET STRONGER!" />
+            <textevent timeoffset="195" message="Just one more rep to go!" />
+            <textevent timeoffset="240" message="Last rep is the BEST rep!" />
+            <textevent timeoffset="255" message="YES! Incredible job today, way to bring it!" />
+        </IntervalsT>
+        <Cooldown Duration="180" PowerHigh="0.3" PowerLow="0.5">
+            <textevent timeoffset="0" message="Phew! I think Dylan would be super proud of that effort today." />
+            <textevent timeoffset="10" message="We&apos;ll take some time to cool down now—you&apos;ve earned it!" />
+            <textevent timeoffset="60" message="Deep breaths here, get yourself back to baseline again." />
+            <textevent timeoffset="90" message="Dylan&apos;s recovery tip: &apos;Indoor sessions can sometimes be more difficult on the body because you sweat a lot more.&apos;" />
+            <textevent timeoffset="100" message="&apos;The lack of lateral movement and constant pedalling means your saddle area gets more of a punishing.&apos;" />
+            <textevent timeoffset="110" message="&apos;It&apos;s important that you look after your body by using Chamois Cream at first, and then washing and hydrating properly after your session.&apos;" />
+            <textevent timeoffset="150" message="Be sure to check out the other INEOS Grenadiers Training Camp Workouts." />
+            <textevent timeoffset="160" message="They&apos;re all available on-demand and will fit any intensity you&apos;re looking for." />
+            <textevent timeoffset="240" message="Final minute of the day here, thanks for all your hard work!" />
+            <textevent timeoffset="250" message="I hope you enjoyed the workout and will come back for more soon." />
+            <textevent timeoffset="290" message="Until next time, Ride On!" />
+        </Cooldown>
+    </workout>
+</workout_file>

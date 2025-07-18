@@ -1,0 +1,20 @@
+<workout_file>
+    <uniqueId>d4b7fa19-2c4b-441a-9b1c-848bc44d9b8c</uniqueId>
+    <legacyIdHash>607999201</legacyIdHash>
+    <category>Hunter&apos;s Challenge</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 4</subcategory>
+    <name>Week 4.6 - Mini Mega</name>
+    <description>It&apos;s not the MEGA. but it&apos;s a mini version of the mega.</description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <workout>
+        <Warmup PowerLow="0.55" PowerHigh="0.72" Duration="900" />
+        <SteadyState Duration="300" Power="1.14" />
+        <SteadyState Duration="300" Power="0.72" />
+        <SteadyState Duration="1200" Power="0.95" />
+        <SteadyState Duration="600" Power="0.72" />
+        <SteadyState Duration="1200" Power="0.95" />
+        <SteadyState Duration="900" Power="0.72" />
+        <Cooldown PowerLow="0.72" PowerHigh=".55" Duration="900" />
+    </workout>
+</workout_file>

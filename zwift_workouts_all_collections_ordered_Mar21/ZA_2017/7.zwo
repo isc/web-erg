@@ -1,0 +1,73 @@
+<workout_file>
+    <uniqueId>d51e877d-1ae8-4bc2-b3e4-07a4038c1c34</uniqueId>
+    <legacyIdHash>514695929</legacyIdHash>
+    <author>TrainSharp Cycle Coaching</author>
+    <categoryOverride>Best of Zwift Academy</categoryOverride>
+    <subcategoryOverride>ZA 2017</subcategoryOverride>
+    <name>Month 1.7 - Extended Over Unders</name>
+    <WorkoutPlan>1</WorkoutPlan>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/trainSharp_Logo.tga</authorIcon>
+    <description>This is a very tough session, make sure you are fresh and suitably motivated before attempting this session. Try your best to complete the intervals, it is however, designed to take you to your VO2max (limit of your aerobic capacity) and may be tricky to complete. A good warm up is required, I would also recommend a gel and a strong coffee before-hand.  The main interval, repeated twice, starts with 3 minutes at powers just below your FTP ("pushing"), this is the easiest part of the interval, do not go out too hard here, otherwise you will pay the price later on! After 3 minutes lift to powers just above your FTP ("pulling"), then back to pushing. Then the intensity increases to your maximal aerobic power (MAP) for 2 minutes, then back to pushing for 3 minutes; try and get your breath here and prepare for the final 2 minutes! </description>
+    <sportType>bike</sportType>
+    <visibleAfterTime>1504222780</visibleAfterTime>
+    <category>Zwift Academy 2017</category>
+    <subcategory>Month 1</subcategory>
+    <tags> 
+    </tags>
+    <workout>
+        <Warmup Duration="900" PowerLow="0.49000001" PowerHigh="0.92000002" pace="0">
+            <textevent timeoffset="0" message="Warm Up - Progressive warm up through the zones. You will want to be stretched during the warm up to prime you for the remainder of the session. Choose your favourite motivation music and get ready for the session." locIndex="1" />
+        </Warmup>
+        <SteadyState Duration="180" Power="0.51499999">
+            <textevent timeoffset="0" message="Easy - Recovery, very easy no load, like an easy walk on the bike" locIndex="2" />
+        </SteadyState>
+        <IntervalsT Repeat="3" OnDuration="30" OffDuration="150" OnPower="1.245" OffPower="0.49000001" pace="0" Cadence="100" CadenceResting="100">
+            <textevent timeoffset="0" message="Spin Ups - High cadence spin ups, otherwise known ad &quot;acid-ups&quot;. Nice high cadence seated and hard for these." locIndex="3" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.51499999">
+            <textevent timeoffset="0" message="Easy - Recovery, very easy no load, like an easy walk on the bike" locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.97000003">
+            <textevent timeoffset="0" message="Pushing - The first 3 minutes will be the easiest, take it steady and don&apos;t be tempted to lift the power. Keep it below your FTP." locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="1.105">
+            <textevent timeoffset="0" message="Pulling - 3 minutes at your &quot;pulling&quot; powers, this should feel like a 10 mile time-trial effort (or ~20 minute pace)" locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.97000003">
+            <textevent timeoffset="0" message="Pushing - Try to regain your breath here, keep the pressure on the pedals but without putting yourself into the red. Again, keep it below FTP" locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.22">
+            <textevent timeoffset="0" message="MAP - Aim for the power at your VO2max, or your Maximal Aerobic Power, stay seated if you can. Keep your breathing controlled through the effort." locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.97000003">
+            <textevent timeoffset="0" message="Pushing - Back to just below your FTP, this is designed to force the body to &apos;recover&apos; even when riding close to your threshold. Try and keep your cadence &gt;90rpm for the 3 mintues." locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.22">
+            <textevent timeoffset="0" message="MAP - This is the last 2 minutes before you get a proper breather, so dig-deep and get through it!" locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="600" Power="0.5">
+            <textevent timeoffset="0" message="Recovery - Catch your breath and get some fluids down you. One more interval (16 minutes) to go!" locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.97000003">
+            <textevent timeoffset="0" message="Pushing - &quot;Here we go again&quot; is probably what you are thinking! Remember, smooth, controlled breathing." locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="1.105">
+            <textevent timeoffset="0" message="Pulling - Your legs are going to be screaming at you during this 3 minutes. Ignore them and picture yourself riding to victory at the World Champs!" locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.97000003">
+            <textevent timeoffset="0" message="Pushing - Slight respite for this interval." locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.22">
+            <textevent timeoffset="0" message="MAP - No matter how strong you are, you should be struggling at this point, if you are not, you are not pushing hard-enough!" locIndex="15" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.97000003">
+            <textevent timeoffset="0" message="Pushing - Just 5 minutes to go now." locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.22">
+            <textevent timeoffset="0" message="MAP - Final Kilometre now, 2 minutes to go, head down and bury yourself to the finish line!" locIndex="17" />
+        </SteadyState>
+        <Cooldown Duration="900" PowerLow="0.63" PowerHigh="0.49000001" pace="0">
+            <textevent timeoffset="0" message="Warm Down - Well done today, fantastic effort! Spin down, and fuel up, ensure a high protein recovery meal/drink and don&apos;t forget to re-hydrate. You might need to mop-up the sweat puddle, also." locIndex="18" />
+        </Cooldown>
+    </workout>
+</workout_file>

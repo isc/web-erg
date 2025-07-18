@@ -1,0 +1,23 @@
+<workout_file>
+    <uniqueId>746d4a06-6ae1-4778-b166-3f90e93eae5a</uniqueId>
+    <legacyIdHash>1913120858</legacyIdHash>
+    <author>Zwift</author>
+    <name>Free Ride</name>
+    <description>Easy days here today with some aerobic free riding. A short one today as it&apos;s &quot;recovery week&quot;, and if you feel great I&apos;ll let you add 15-30 minutes here, but please do not go above the watts prescribed. Really want you to just ride Z1-Z2 here today. Ez please!!!</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Gravel Grinder</category>
+    <subcategory>Week 4</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow="0.45" PowerHigh="0.65">
+            <textevent timeoffset="10" message="Don&apos;t worry, I&apos;m not going to bother you today, just want a good easy warm up." locIndex="1" />
+        </Warmup>
+        <FreeRide Duration="2400" FlatRoad="0">
+		</FreeRide>
+        <Cooldown Duration="600" PowerLow="0.55" PowerHigh="0.45">
+            <textevent timeoffset="77" message="Was that awesome? Did you miss me? I&apos;m betting no " locIndex="2" />
+            <textevent timeoffset="90" message="Either way, good stuff today. Important to just ride sometimes." locIndex="3" />
+        </Cooldown>
+    </workout>
+</workout_file>

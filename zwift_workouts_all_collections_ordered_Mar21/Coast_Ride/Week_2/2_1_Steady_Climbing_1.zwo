@@ -1,0 +1,69 @@
+<workout_file>
+    <uniqueId>93f45669-a24f-48d9-8761-a76575000460</uniqueId>
+    <legacyIdHash>412918956</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Week 2.1 - Steady Climbing #1</name>
+    <description>Today&apos;s session focuses on simulating the demands of extended climbing.
+
+The climb starts at the lower end of zone 3 and finishes in zone 4. But you will be targeting a cadence similar to climbing.
+
+When performing the 4 x 5min intervals, position yourself on the bike as you would climbing seated.  </description>
+    <sportType>bike</sportType>
+    <entid>491</entid>
+    <category>Zwift Coast Ride</category>
+    <subcategory>Week 2</subcategory>
+    <tags>
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.5" PowerHigh="0.75">
+            <textevent timeoffset="200" message="The aim today is to simulate the demands of climbing." locIndex="1" />
+        </Warmup>
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="50" message="1min at zone 5 to warm up." locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.1" />
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="50" message="Just a little threshold effort to complete your warm up." locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.95" />
+        <SteadyState Duration="60" Power="0.5">
+            <textevent timeoffset="40" message="The target cadence for the intervals is 85rpm" locIndex="4" />
+            <textevent timeoffset="50" message="Remember to aim for the target cadence and let the trainer adjust the power." locIndex="5" />
+        </SteadyState>
+        <Ramp Duration="300" PowerLow="0.76" PowerHigh="0.92" Cadence="80">
+            <textevent timeoffset="20" message="Position yourself on the bike as you would climbing." locIndex="6" />
+            <textevent timeoffset="40" message="Relax your hands on the bars." locIndex="7" />
+            <textevent timeoffset="60" message="How does the lower cadence feel?" locIndex="8" />
+            <textevent timeoffset="280" message="Take note of your HR at the completion of each interval." locIndex="9" />
+        </Ramp>
+        <SteadyState Duration="180" Power="0.55">
+            <textevent timeoffset="40" message="Plenty of recovery time today." locIndex="10" />
+        </SteadyState>
+        <Ramp Duration="300" PowerLow="0.76" PowerHigh="0.92" Cadence="80">
+            <textevent timeoffset="20" message="Position yourself on the bike as you would climbing." locIndex="11" />
+            <textevent timeoffset="40" message="Relax your hands on the bars." locIndex="12" />
+            <textevent timeoffset="60" message="How does the lower cadence feel?" locIndex="13" />
+            <textevent timeoffset="200" message="This isn&apos;t an intense session today." locIndex="14" />
+            <textevent timeoffset="210" message="Think about the feeling of completing long climbs at a moderate tempo." locIndex="15" />
+            <textevent timeoffset="280" message="What is your finishing HR? Higher than the 1st effort?" locIndex="16" />
+        </Ramp>
+        <SteadyState Duration="180" Power="0.55">
+            <textevent timeoffset="80" message="2 down, 2 to go!" locIndex="17" />
+        </SteadyState>
+        <Ramp Duration="300" PowerLow="0.76" PowerHigh="0.92" Cadence="80">
+            <textevent timeoffset="20" message="Position yourself on the bike as you would climbing." locIndex="18" />
+            <textevent timeoffset="40" message="Relax your hands on the bars." locIndex="19" />
+            <textevent timeoffset="60" message="How does the lower cadence feel?" locIndex="20" />
+        </Ramp>
+        <SteadyState Duration="180" Power="0.55">
+            <textevent timeoffset="105" message="Last one coming up." locIndex="21" />
+        </SteadyState>
+        <Ramp Duration="300" PowerLow="0.76" PowerHigh="0.92" Cadence="80">
+            <textevent timeoffset="20" message="Position yourself on the bike as you would climbing." locIndex="22" />
+            <textevent timeoffset="40" message="Relax your hands on the bars." locIndex="23" />
+            <textevent timeoffset="60" message="How does the lower cadence feel?" locIndex="24" />
+        </Ramp>
+        <SteadyState Duration="180" Power="0.55" />
+        <Cooldown Duration="600" PowerLow="0.75" PowerHigh="0.5" />
+    </workout>
+</workout_file>

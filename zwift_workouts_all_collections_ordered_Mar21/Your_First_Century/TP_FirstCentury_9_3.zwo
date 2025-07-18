@@ -1,0 +1,16 @@
+<workout_file>
+    <uniqueId>13cc0fe0-fa3e-4350-91ea-0f8d6e020b10</uniqueId>
+    <legacyIdHash>3937328482</legacyIdHash>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <category>Your First Century</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 9</subcategory>
+    <name>Week 9.3 - Day 3</name>
+    <description>Today is simple, ride the prescribed time your Endurance Zone. Vary your cadence throughout ride and work on pedaling form. Practice "coming over the top" and "pulling through the bottom" of the pedal. Get in 20 bursts today throughout the ride. Each is 15 seconds long. Enjoy the day!! </description>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow="0.2545" PowerHigh="0.75449997" />
+        <IntervalsT Repeat="20" OnDuration="15" OffDuration="270" OnPower="1.5044999" OffPower="0.65449995" />
+        <Cooldown Duration="900" PowerLow="0.65449995" PowerHigh="0.2545" />
+    </workout>
+</workout_file>

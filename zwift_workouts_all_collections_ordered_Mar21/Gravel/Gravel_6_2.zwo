@@ -1,0 +1,49 @@
+<workout_file>
+    <uniqueId>788b8f91-1579-41c9-b701-dd4ac7a4dd33</uniqueId>
+    <legacyIdHash>1792543955</legacyIdHash>
+    <author>Zwift</author>
+    <name>6x2 V02 Max</name>
+    <description>Who&apos;d ready for some VO2 efforts? You? Awesome. Another journey into the pain cave known as VO2. We know we have limited time available to ride at this zone as our body WILL eventually fail us, so a hard workout but clearly a effort important to be prepared for. This effort is the one we will do when we are going harder keep up with the group than we would on our own and are just waiting for the pain to stop. Our goal today is to train that zone so that when that situation arises, we are able to hang on!
+
+15 minutes warm up into 
+5x3 minutes smooth building to just at 80-85% FTP 2 minutes EASY BW. 5x30 seconds RPM builds with 30 seconds easy between,
+8x2 minutes at VO2 (110-120%) with 2 minutes EASY between.
+15 easy cool</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Gravel Grinder</category>
+    <subcategory>Week 6</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="540" PowerLow="0.45" PowerHigh="0.65">
+            <textevent timeoffset="0" message="Alright, here we go. Gradual ramp up for Warmup today." locIndex="1" />
+            <textevent timeoffset="180" message="Little more now." locIndex="2" />
+            <textevent timeoffset="360" message="Last bit before the preset." locIndex="3" />
+        </Warmup>
+        <IntervalsT Repeat="3" OnDuration="120" OffDuration="120" OnPower="0.85" OffPower="0.55">
+            <textevent timeoffset="0" message="3x2 minutes on tap to get prepped before the VO2 efforts start." locIndex="4" />
+            <textevent timeoffset="120" message="Take care of yourself in between because the 6x2s will come up fast. Drink, drink." locIndex="5" />
+            <textevent timeoffset="240" message="Another 2 minutes in tempo type zone. " locIndex="6" />
+            <textevent timeoffset="360" message="Easy now, easy." locIndex="7" />
+            <textevent timeoffset="480" message="Last little 2 minute effort now. Where is your cadence?" locIndex="8" />
+            <textevent timeoffset="600" message="Easy now. " locIndex="9" />
+        </IntervalsT>
+        <IntervalsT Repeat="6" OnDuration="120" OffDuration="120" OnPower="1.15" OffPower="0.55">
+            <textevent timeoffset="0" message="Up, up, up! Fast, smooth cadence. Hold on for 2 minutes!" locIndex="10" />
+            <textevent timeoffset="120" message="Super easy. Get ready for the next one!" locIndex="11" />
+            <textevent timeoffset="240" message="Let&apos;s go now! Stay on top of that gear!" locIndex="12" />
+            <textevent timeoffset="360" message="Recovery! Drink and relax. " locIndex="13" />
+            <textevent timeoffset="480" message="Go, go, go!  You&apos;ve got it! Nice and smooth. " locIndex="14" />
+            <textevent timeoffset="600" message="Make these as easy as you can!" locIndex="15" />
+            <textevent timeoffset="720" message="Visualize smooth perfect riding here and make it happen!" locIndex="16" />
+            <textevent timeoffset="840" message="You are doing awesome. Rest up and do it again!" locIndex="17" />
+            <textevent timeoffset="960" message="Come on, just 2 more now!" locIndex="18" />
+            <textevent timeoffset="1080" message="So close! Rest well here. " locIndex="19" />
+            <textevent timeoffset="1200" message="Last one! Make it your best and be smooth! " locIndex="20" />
+            <textevent timeoffset="1320" message="EZ! Breathe. " locIndex="21" />
+        </IntervalsT>
+        <Cooldown Duration="600" PowerLow="0.55" PowerHigh="0.45">
+            <textevent timeoffset="0" message="Awesome job! That is not an easy workout but you&apos;re done!" locIndex="22" />
+        </Cooldown>
+    </workout>
+</workout_file>

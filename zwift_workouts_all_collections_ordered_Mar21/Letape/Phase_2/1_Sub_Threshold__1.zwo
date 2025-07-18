@@ -1,0 +1,106 @@
+<workout_file>
+    <uniqueId>d16999f1-bfb1-4573-a810-ea12b679b28c</uniqueId>
+    <legacyIdHash>2310669999</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Phase 2.1 - Sub-Threshold #1</name>
+    <description>Sub-threshold intervals are an integral part of building aerobic endurance. By training at an intensity slightly lower than threshold, you are able to complete large volumes of work with minimal anaerobic impact.
+
+Completing sub-threshold intervals results in a high oxygen consumption which provides the boost to your aerobic system. 
+
+This is an important aspect of your preparation. </description>
+    <sportType>bike</sportType>
+    <category>L&apos;Etape du Tour Training Club</category>
+    <subcategory>Phase 2</subcategory>
+    <visibleAfterTime>1555632060</visibleAfterTime>
+    <tags>
+        <tag name="INTERVALS" />
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.45000002" PowerHigh="0.75" pace="0">
+            <textevent timeoffset="60" message="L&apos;Etape du Tour de France will involve long periods of time at a sub-threshold intensity." locIndex="1" />
+            <textevent timeoffset="90" message="Sub-threshold intervals are an integral part of building aerobic endurance." locIndex="2" />
+            <textevent timeoffset="120" message="By training at an intensity slightly lower than threshold, you are able to complete large volumes of work with minimal anaerobic impact." locIndex="3" />
+            <textevent timeoffset="150" message="Completing sub-threshold intervals results in a high oxygen consumption which provides the boost to your aerobic system." locIndex="4" />
+            <textevent timeoffset="200" message="Before we get to the main set, it&apos;s important to warmup appropriately." locIndex="5" />
+            <textevent timeoffset="220" message="The 1st part of the warmup involves some low intensity 30/30 efforts." locIndex="6" />
+            <textevent timeoffset="240" message="30sec at high zone 3 followed by 30sec zone 2." locIndex="7" />
+            <textevent timeoffset="280" message="Here we go." locIndex="8" />
+        </Warmup>
+        <IntervalsT Repeat="5" OnDuration="30" OffDuration="30" OnPower="0.65449995" OffPower="0.89449996" pace="0">
+            <textevent timeoffset="10" message="This will be a comfortable effort for you." locIndex="9" />
+            <textevent timeoffset="40" message="You should feel your breathing rate increase slightly towards the end of the effort." locIndex="10" />
+            <textevent timeoffset="80" message="Aim for a nice high cadence of around 100rpm for these efforts." locIndex="11" />
+            <textevent timeoffset="190" message="Just 2 more to go. Working up a sweat yet?" locIndex="12" />
+        </IntervalsT>
+        <SteadyState Duration="120" Power="0.50449997" pace="0">
+            <textevent timeoffset="55" message="To complete the warmup before the main set we next have a steady state Zone 3 effort" locIndex="13" />
+            <textevent timeoffset="750" message="This will be a comfortable effort for you." locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.81449997" pace="0">
+            <textevent timeoffset="30" message="Again, aiming for a nice high cadence of around 100rpm." locIndex="15" />
+            <textevent timeoffset="90" message="Relax your hands on the bars." locIndex="16" />
+            <textevent timeoffset="120" message="A good sweat indicates that the muscles are warmed up and ready for more intensive work." locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.50449997" pace="0">
+            <textevent timeoffset="20" message="Today&apos;s main set consists of 4 x 6min sub-threshold efforts." locIndex="18" />
+            <textevent timeoffset="40" message="These are steady state efforts. However the target power does slightly increase within the target power range." locIndex="19" />
+            <textevent timeoffset="60" message="Target power ranges from 88-94% FTP." locIndex="20" />
+            <textevent timeoffset="80" message="This will be a &apos;comfortable&apos; session for you." locIndex="21" />
+            <textevent timeoffset="110" message="Into the 1st effort now." locIndex="22" />
+        </SteadyState>
+        <Ramp Duration="360" PowerLow="0.88449997" PowerHigh="0.94449997" pace="0">
+            <textevent timeoffset="30" message="During L&apos;Etape du Tour, this is the kind of power you can expect to be climbing at." locIndex="23" />
+            <textevent timeoffset="60" message="This level of intensity just under your threshold can be maintained for long periods of time." locIndex="24" />
+            <textevent timeoffset="80" message="But we need to train appropriately to achieve this." locIndex="25" />
+            <textevent timeoffset="100" message="This is where the benefits of long steady efforts comes into effect." locIndex="26" />
+            <textevent timeoffset="200" message="Sub-threshold intervals improve your aerobic performance." locIndex="27" />
+            <textevent timeoffset="250" message="At this level of intensity, you are able to clear lactate as fast as it is produced." locIndex="28" />
+            <textevent timeoffset="270" message="Meaning that with appropriate training and nutrition, these intervals can be performed for long periods of time." locIndex="29" />
+            <textevent timeoffset="290" message="This will be an important aspect of your training for L&apos;Etape du Tour." locIndex="30" />
+        </Ramp>
+        <SteadyState Duration="180" Power="0.65449995" pace="0">
+            <textevent timeoffset="70" message="Because there is no lactate accumulated in the intervals, we don&apos;t need low intensity for the recovery period." locIndex="31" />
+            <textevent timeoffset="160" message="Just 3 more efforts to go." locIndex="32" />
+        </SteadyState>
+        <Ramp Duration="360" PowerLow="0.88449997" PowerHigh="0.94449997" pace="0">
+            <textevent timeoffset="30" message="During this &apos;late base&apos; training phase, the aim is to accumulate large amounts of time at this sub-threshold level." locIndex="33" />
+            <textevent timeoffset="60" message="How do you find the slight increase in target power?" locIndex="34" />
+            <textevent timeoffset="80" message="It should hardly be noticeable." locIndex="35" />
+            <textevent timeoffset="200" message="This effort is also a good way for you to approach the climbs in L&apos;Etape du Tour." locIndex="36" />
+            <textevent timeoffset="220" message="By starting the early slopes in a comfortable and controlled manner." locIndex="37" />
+            <textevent timeoffset="240" message="And gradually increasing the power." locIndex="38" />
+        </Ramp>
+        <SteadyState Duration="180" Power="0.65449995" pace="0">
+            <textevent timeoffset="30" message="That&apos;s 12min of sub-threshold work completed now." locIndex="39" />
+            <textevent timeoffset="60" message="Halfway through the set." locIndex="40" />
+        </SteadyState>
+        <Ramp Duration="360" PowerLow="0.88449997" PowerHigh="0.94449997" pace="0">
+            <textevent timeoffset="30" message="Picture yourself beginning a long Alpine climb." locIndex="41" />
+            <textevent timeoffset="50" message="You&apos;re going to increase the effort over the course of the climb." locIndex="42" />
+            <textevent timeoffset="70" message="Aim to maintain the same cadence throughout the effort." locIndex="43" />
+            <textevent timeoffset="200" message="Sub-threshold workouts are specifically designed to improve your body&apos;s ability to utilize fuel more efficiently for long rides." locIndex="44" />
+            <textevent timeoffset="220" message="You are training your body to access fat as a preferred fuel, which essentially spares limited muscle glycogen." locIndex="45" />
+            <textevent timeoffset="300" message="Into the last minute now." locIndex="46" />
+            <textevent timeoffset="320" message="How is your cadence? The same as when you started?" locIndex="47" />
+        </Ramp>
+        <SteadyState Duration="180" Power="0.65449995" pace="0">
+            <textevent timeoffset="30" message="That&apos;s 18min of sub-threshold work completed now." locIndex="48" />
+            <textevent timeoffset="60" message="Just 1 more effort to go." locIndex="49" />
+        </SteadyState>
+        <Ramp Duration="360" PowerLow="0.88449997" PowerHigh="0.94449997" pace="0">
+            <textevent timeoffset="30" message="Long, steady efforts can be mentally challenging." locIndex="50" />
+            <textevent timeoffset="50" message="But there are great gains in endurance to be made from this style of training." locIndex="51" />
+            <textevent timeoffset="70" message="Along with the physical benefit, we are also training for the demands of L&apos;Etape du Tour de France today." locIndex="52" />
+            <textevent timeoffset="130" message="Riding at sub-threshold pace also increases your muscle glycogen storage capacity." locIndex="53" />
+            <textevent timeoffset="160" message="Improving your ability to complete the final climb of L&apos;Etape du Tour de France with increased intensity." locIndex="54" />
+            <textevent timeoffset="230" message="This has been a great block of work completed." locIndex="55" />
+            <textevent timeoffset="260" message="24 minutes of sub-threshold work!" locIndex="56" />
+        </Ramp>
+        <SteadyState Duration="300" Power="0.50449997" pace="0">
+            <textevent timeoffset="30" message="Well done!" locIndex="57" />
+            <textevent timeoffset="60" message="Today&apos;s session isn&apos;t overly taxing on the legs." locIndex="58" />
+            <textevent timeoffset="80" message="Meaning recovery will be completed within 24 hours." locIndex="59" />
+            <textevent timeoffset="10" message="This is a good session to complete the day before a Zwift race." locIndex="60" />
+        </SteadyState>
+    </workout>
+</workout_file>

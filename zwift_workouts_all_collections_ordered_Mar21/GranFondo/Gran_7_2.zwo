@@ -1,0 +1,61 @@
+<workout_file>
+    <uniqueId>b558c543-36be-4603-8fc6-234fed0276cb</uniqueId>
+    <legacyIdHash>917389308</legacyIdHash>
+    <author>Zwift</author>
+    <name>5x3min Progressive MAP (Max Aerobic)</name>
+    <description>5x3min at &quot;Best Possible Average.&quot; This is a MAP (Maximal Aerobic Power) workout. The goal is to hit the same power for each - roughly 125% of FTP - 3min interval. But in this case, it&apos;s less about hitting a given power than it is about being consistent throughout. If you blow out the first one and blow up on the last, that is less ideal than five evenly paced intervals. Likewise, within each interval, try to hit the target power and hang-on. 
+    
+   The preference do this workout with ERG mode OFF since some fade is almost inevitable, and it is about doing the best you can rather than hitting a specific power.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Gran Fondo</category>
+    <subcategory>Week 7</subcategory>
+    <tags>
+        <tag name="fondo" />
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.55449998" PowerHigh="0.75449997" pace="-1307163960">
+            <textevent timeoffset="186.00002" message="Really easy at the start here" locIndex="1" />
+            <textevent timeoffset="448.00003" message="Make sure to get the HR up now" locIndex="2" />
+            <textevent timeoffset="639" message="A few hard bursts here are fine" locIndex="3" />
+            <textevent timeoffset="835.00006" message="First one coming up. " locIndex="4" />
+        </Warmup>
+        <SteadyState Duration="180.00002" Power="1.0545" pace="-1307163960">
+            <textevent timeoffset="41.000004" message="This should be hard from the go" locIndex="5" />
+            <textevent timeoffset="131" message="Stay on. Best average here." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.33181816" pace="-1307163960">
+            <textevent timeoffset="24.000002" message="Super easy. Just spin out." locIndex="7" />
+            <textevent timeoffset="241.00002" message="Number two coming up" locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="180.00002" Power="1.1044999" pace="-1307163960">
+            <textevent timeoffset="28.000002" message="right back on it. SOLID!" locIndex="9" />
+            <textevent timeoffset="135" message="Stay right on it. Push, push." locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.33181816" pace="-1307163960">
+            <textevent timeoffset="114.00001" message="REALLY easy here... " locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="180.00002" Power="1.1544999" pace="-1307163960">
+            <textevent timeoffset="7.0000005" message="Number three. Love that burn." locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.33181816" pace="-1307163960">
+            <textevent timeoffset="9" message="Past halfway. Easy now." locIndex="13" />
+            <textevent timeoffset="251.00002" message="Number four inbound..." locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="180.00002" Power="1.2045" pace="-1307163960">
+            <textevent timeoffset="29.000002" message="Really fight for it here." locIndex="15" />
+            <textevent timeoffset="107.00001" message="Remember, best average for 5" locIndex="16" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.33181816" pace="-1307163960">
+            <textevent timeoffset="124.00001" message="Almost there. One more..." locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="180.00002" Power="1.2544999" pace="-1307163960">
+            <textevent timeoffset="29.000002" message="Five! Dig deep here. " locIndex="18" />
+            <textevent timeoffset="118.00001" message="Last minute! Go, go, go." locIndex="19" />
+        </SteadyState>
+        <FreeRide Duration="300" FlatRoad="1">
+            <textevent timeoffset="27.000002" message="Great work. This is a tough one" locIndex="20" />
+            <textevent timeoffset="152" message="Easy now. Nice and light." locIndex="21" />
+        </FreeRide>
+    </workout>
+</workout_file>

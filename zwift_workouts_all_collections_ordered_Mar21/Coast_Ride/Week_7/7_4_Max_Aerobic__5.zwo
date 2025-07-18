@@ -1,0 +1,68 @@
+<workout_file>
+    <uniqueId>39cf9d04-6eae-42e2-9725-311d10c97cab</uniqueId>
+    <legacyIdHash>2759557720</legacyIdHash>
+    <author>Kevin Poulton </author>
+    <name>Week 7.4 - Max Aerobic #5</name>
+    <description>After a good warm up, prepare yourself for some hard Max Aerobic intervals.
+
+But the good news is the intensity does decrease across the efforts!
+
+The 1st effort is 4min @ 120%
+Then 2 x 3min efforts @ 112%
+Followed by 2x 2min efforts @ 109%. </description>
+    <sportType>bike</sportType>
+    <entid>491</entid>
+    <category>Zwift Coast Ride</category>
+    <subcategory>Week 7</subcategory>
+    <tags>
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.45" PowerHigh="0.75">
+            <textevent timeoffset="270" message="High rpm in warm up sprints aiming for 110rpm." locIndex="1" />
+            <textevent timeoffset="50" message="Tough session today. " locIndex="2" />
+            <textevent timeoffset="70" message="All quality efforts." locIndex="3" />
+        </Warmup>
+        <IntervalsT Repeat="2" OnDuration="10" OffDuration="50" OnPower="2" OffPower="0.5" Cadence="110" />
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="110" message="As a prelude to the upcoming efforts, we perform 1min in 5." locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.09" />
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="100" message="To complete the warm up, 5min at threshold." locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.9" />
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="100" message="Remember, the 1st effort is the longest and hardest." locIndex="6" />
+            <textevent timeoffset="120" message="After this it gets easier!" locIndex="7" />
+            <textevent timeoffset="170" message="Let&apos;s go... 4min zone 6!" locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="1.2">
+            <textevent timeoffset="120" message="That&apos;s halfway. great work." locIndex="9" />
+            <textevent timeoffset="210" message="Almost there!" locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.5">
+            <textevent timeoffset="100" message="We have plenty of recovery today." locIndex="11" />
+            <textevent timeoffset="130" message="Today is all about quality efforts." locIndex="12" />
+            <textevent timeoffset="280" message="Now for 2 x 3min zone 5 efforts." locIndex="13" />
+        </SteadyState>
+        <IntervalsT Repeat="2" OnDuration="180" OffDuration="300" OnPower="1.12" OffPower="0.5">
+            <textevent timeoffset="200" message="That&apos;s the 1st one completed." locIndex="14" />
+            <textevent timeoffset="250" message="Again, plenty of recovery." locIndex="15" />
+            <textevent timeoffset="400" message="Observe your cadence in this next one." locIndex="16" />
+            <textevent timeoffset="420" message="Are you pedaling as fast as the 1st effort?" locIndex="17" />
+            <textevent timeoffset="470" message="Here we go... 2nd effort!" locIndex="18" />
+            <textevent timeoffset="880" message="Now we are onto the shorter efforts. The power is a little less too." locIndex="19" />
+            <textevent timeoffset="900" message="Just 2, 2min zone 5 efforts to go." locIndex="20" />
+            <textevent timeoffset="920" message="Observe your HR in these efforts." locIndex="21" />
+            <textevent timeoffset="940" message="Is it as high as the earlier intervals after each effort?" locIndex="22" />
+        </IntervalsT>
+        <IntervalsT Repeat="2" OnDuration="120" OffDuration="240" OnPower="1.09" OffPower="0.5">
+            <textevent timeoffset="200" message="Just one more to go." locIndex="23" />
+            <textevent timeoffset="200" message="Is the fatigue building?" locIndex="24" />
+        </IntervalsT>
+        <Cooldown Duration="300" PowerLow="0.75" PowerHigh="0.45">
+            <textevent timeoffset="50" message="That was a high intensity session." locIndex="25" />
+            <textevent timeoffset="70" message="Ensure you fuel up well as soon as possible." locIndex="26" />
+        </Cooldown>
+    </workout>
+</workout_file>

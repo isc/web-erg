@@ -1,0 +1,26 @@
+<workout_file>
+    <uniqueId>b446748d-64f6-4652-9ceb-1b67dbdf20c7</uniqueId>
+    <legacyIdHash>2953624520</legacyIdHash>
+    <author>Zwift</author>
+    <name>Free Ride</name>
+    <description>Easy easy days today please. Free Ride or ride outside is totally acceptable as well. In fact a GREAT day to ride easy on the race gear and make sure it&apos;s all shifting and working ok. 
+
+Please do your best to not ride hard and keep it low Z3 watts or under. Focus more on spinning out your legs and making sure the rig works!</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Gravel Grinder</category>
+    <subcategory>Week 11</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="900" PowerLow="0.45" PowerHigh="0.65">
+            <textevent timeoffset="0" message="Warm it up nice and easy!" locIndex="1" />
+        </Warmup>
+        <FreeRide Duration="4200" FlatRoad="0">
+            <textevent timeoffset="0" message="Find some good T.V. and just zone out please! EZ!" locIndex="2" />
+        </FreeRide>
+        <Cooldown Duration="1200" PowerLow="0.65" PowerHigh="0.45">
+            <textevent timeoffset="0" message="Super chill post chill ride chillin&apos;.  Spin those legs!" locIndex="3" />
+            <textevent timeoffset="30" message="It&apos;s all in the tank! You&apos;re ready to go!" locIndex="4" />
+        </Cooldown>
+    </workout>
+</workout_file>

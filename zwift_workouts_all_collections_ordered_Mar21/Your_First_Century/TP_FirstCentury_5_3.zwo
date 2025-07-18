@@ -1,0 +1,17 @@
+<workout_file>
+    <uniqueId>87e97b46-3e5d-49a1-a712-5387fb436a5f</uniqueId>
+    <legacyIdHash>755939094</legacyIdHash>
+    <category>Your First Century</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 5</subcategory>
+    <name>Week 5.3 - Day 3</name>
+    <description>SST intervals are part of a continued effort to build and maintain base. Warm up in Endurance with 2 x 1 minute Fast Pedals (fast as you can pedal without bouncing in the saddle) to wake up your legs. Complete 2 x 17 minute intervals in the "Sweet Spot" zone with 5 minutes recovery in-between. Ride all other time in Endurance. Cadence: 85 - 105 rpm.</description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <workout>
+        <Warmup Duration="900" PowerLow="0.25" PowerHigh="0.75" />
+        <SteadyState Duration="1080" PowerLow="0.75" PowerHigh="0.75" />
+        <IntervalsT Repeat="2" OnDuration="1020" OffDuration="300" PowerOnLow="0.84999996" PowerOnHigh="0.84999996" PowerOffLow="0.5" PowerOffHigh="0.5" />
+        <SteadyState Duration="1080" PowerLow="0.75374627" PowerHigh="0.75374627" />
+        <Cooldown Duration="600" PowerLow="0.75" PowerHigh="0.25" />
+    </workout>
+</workout_file>

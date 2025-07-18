@@ -1,0 +1,18 @@
+<workout_file>
+    <uniqueId>53618efe-6276-4111-9d92-20b2324eb9fc</uniqueId>
+    <legacyIdHash>199896485</legacyIdHash>
+    <name>Day 5 - Swim</name>
+    <description>Swim - 1200-1600 yds. 
+-300-400 yds of steady swimming and mixed drills to warm up. 
+-800-1000 yds swim at an easy pace working on consistent arm turnover and building endurance. 
+Finish with a short 100-200 yd cool down.</description>
+    <author>QT2</author>
+    <category>Olympic Tri Prep Plan</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 2</subcategory>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/QT2Systems_Logo.tga</authorIcon>
+    <sportType>swim</sportType>
+    <workoutLength>1800</workoutLength>
+    <workout> 
+  </workout>
+</workout_file>

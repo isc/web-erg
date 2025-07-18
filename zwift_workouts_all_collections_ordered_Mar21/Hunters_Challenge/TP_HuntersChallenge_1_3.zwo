@@ -1,0 +1,20 @@
+<workout_file>
+    <uniqueId>4bbad912-22c9-49c1-a51a-bc7bb8841c37</uniqueId>
+    <legacyIdHash>3202741302</legacyIdHash>
+    <category>Hunter&apos;s Challenge</category>
+    <subcategory>Week 1</subcategory>
+    <name>Week 1.3 - Cadence and Heartrate</name>
+    <description>Let&apos;s see how cadence affects that HR at 85% of FT watts. Try a cadence of 105 rpm at 85% watts for 10 minutes and let&apos;s see what your HR does. Then 5 minutes easy. Then let&apos;s try cadence of 90 rpm at 85% of FT watts for 10 minutes, 5 minutes easy, then let&apos;s see what cadence of 75 rpm at 85% watts for 10 minutes does to your HR.</description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <workout>
+        <Warmup PowerLow="0.55" PowerHigh="0.72" Duration="600" />
+        <IntervalsT Repeat="6" OnDuration="60" OnPower="0.87" CadenceLow="110" CadenceHigh="130" OffDuration="60" OffPower="0.72" CadenceResting="70" />
+        <SteadyState Duration="900" Power="0.87" Cadence="105" />
+        <SteadyState Duration="300" Power="0.72" CadenceLow="60" CadenceHigh="75" />
+        <SteadyState Duration="900" Power="0.87" Cadence="90" />
+        <SteadyState Duration="300" Power="0.72" CadenceLow="60" CadenceHigh="75" />
+        <SteadyState Duration="900" Power="0.87" Cadence="75" />
+        <SteadyState Duration="300" Power="0.72" CadenceLow="60" CadenceHigh="75" />
+        <Cooldown Duration="300" PowerLow="0.72" PowerHigh="0.55" CadenceLow="60" CadenceHigh="75" />
+    </workout>
+</workout_file>

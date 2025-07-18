@@ -1,0 +1,25 @@
+<workout_file>
+    <uniqueId>3eb538b8-bb46-46e1-8c15-2fbb2b231cc4</uniqueId>
+    <legacyIdHash>723229132</legacyIdHash>
+    <author>Zwift</author>
+    <name>Free Ride</name>
+    <description>Aerobic riding on tap today after some real good work this week. This workout may be ranked a little lower in order of importance, but a very important ingredient in the overall recipe. Stay in Z1-Z2 and just ride for the fun of riding. 
+
+Great day to venture out into that unknown paradise know as the outside, or find some paradise on Zwift free ride. DO NOT test your fitness though today. It&apos;s about going easy here. Please.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Gravel Grinder</category>
+    <subcategory>Week 10</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="900" PowerLow="0.45" PowerHigh="0.7">
+            <textevent timeoffset="0" message="Nice and smooth. Z1 warm up for a Z1- Z2 ride. Nice and easy!" locIndex="1" />
+        </Warmup>
+        <FreeRide Duration="7200" FlatRoad="0">
+            <textevent timeoffset="0" message="Go easy here today! Please and thank you!  Also please remember to hydrate and eat during this ride. It&apos;s important!" locIndex="2" />
+        </FreeRide>
+        <Cooldown Duration="900" PowerLow="0.65" PowerHigh="0.45">
+            <textevent timeoffset="0" message="Good stuff! Now some extra easy for a cool down!" locIndex="3" />
+        </Cooldown>
+    </workout>
+</workout_file>

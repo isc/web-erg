@@ -1,0 +1,119 @@
+<workout_file>
+    <uniqueId>476d6203-d65d-418a-9e89-7d4eed71737d</uniqueId>
+    <legacyIdHash>315154157</legacyIdHash>
+    <author>Shayne Gaffney</author>
+    <categoryOverride>Climbing</categoryOverride>
+    <name>Week 7.1 - Pulverize the Prairie</name>
+    <activitySaveName>Garmin UNBOUND Gravel Training Plan | Pulverize the Prairie</activitySaveName>
+    <description>The final training week of the training plan, you made it! Time to pulverize the prairie or Attack your way into the base of the Flint Hills climbs today. By performing a high-powered effort at the base of a climb, you will build up some lactate before completing a zone 4 effort. This will help with being able to tolerate lactate as well as recover after hard efforts. But, to make things more specific to the short and steep Flint Hills, today is all about high crank torque. UNBOUND Gravel is a grassroots event, organized and managed by folks who are passionate about cycling, and have done so for the primary purpose of providing life-enriching cycling experiences for event participants.</description>
+    <sportType>bike</sportType>
+    <category>Garmin UNBOUND Gravel Training Plan</category>
+    <subcategory>Week 7</subcategory>
+    <tags>
+        <tag name="InGravelWeRoam" />
+    </tags>
+    <visibleAfterTime>1653264060</visibleAfterTime>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/UnboundGravel_Logo.tga</authorIcon>
+    <workout>
+        <Warmup Duration="420" PowerLow="0.45449999" PowerHigh="0.75449997">
+            <textevent timeoffset="0" message="Welcome to the Garmin UNBOUND Gravel Training Plan on Zwift!" />
+            <textevent timeoffset="10" message="Garmin UNBOUND is a gravel race covering various distances held annually in the Flint Hills region around Emporia, Kansas, United States." />
+            <textevent timeoffset="20" message="There are 5 distances to choose, ranging from 25 to 350 miles!" />
+            <textevent timeoffset="30" message="This training plan will prepare you to tackle the shorter distances with 2 shorter structured workouts and 1 longer unstructured workout each week." />
+            <textevent timeoffset="40" message="Each workout starts off with a progressive warm up - like what you&apos;re doing right now :-)" />
+            <textevent timeoffset="50" message="And the workouts are specific to preparing for a long endurance event, as well as progressive from start to finish." />
+            <textevent timeoffset="60" message="Don&apos;t worry though, week 8 is the taper before the big day!" />
+            <textevent timeoffset="70" message="Let&apos;s carry on with the warm up and start to mentally prepare for the day." />
+            <textevent timeoffset="120" message="It&apos;s good be informed when the session is expected to be tough." locIndex="1" />
+            <textevent timeoffset="130" message="This way, you can prepare yourself mentally for the work ahead." locIndex="2" />
+            <textevent timeoffset="140" message="Today is one of those days! But, so is completing UNBOUND!" locIndex="3" />
+            <textevent timeoffset="150" message="The focus today is high power and high crank torque." locIndex="4" />
+            <textevent timeoffset="160" message="This means high power at a low cadence effort." locIndex="5" />
+            <textevent timeoffset="180" message="But to add to the training focus, we perform short, high powered efforts before the threshold work." locIndex="6" />
+            <textevent timeoffset="220" message="The session is hard. But it&apos;s well within your capabilities." locIndex="7" />
+            <textevent timeoffset="280" message="Our warmup continually ramps up before completing a short threshold effort." locIndex="8" />
+            <textevent timeoffset="340" message="At just 3min duration the threshold effort will complete the warmup." locIndex="9" />
+            <textevent timeoffset="400" message="Here we go... 3min at threshold!" locIndex="10" />
+        </Warmup>
+        <SteadyState Duration="180" Power="0.95449996">
+            <textevent timeoffset="20" message="Settle into a nice rhythm." locIndex="11" />
+            <textevent timeoffset="80" message="At just 3min duration this is a nice warmup effort for you." locIndex="12" />
+            <textevent timeoffset="100" message="Keep a nice high cadence." locIndex="13" />
+            <textevent timeoffset="160" message="That completes the warmup." locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.50449997">
+            <textevent timeoffset="20" message="Now for the real work." locIndex="15" />
+            <textevent timeoffset="80" message="Each threshold effort is preceded by a short high power effort and recovery period." locIndex="16" />
+            <textevent timeoffset="100" message="With each threshold interval having a target cadence." locIndex="17" />
+            <textevent timeoffset="120" message="Remember, when there is a target cadence always aim for the cadence and let the smart trainer adjust the power." locIndex="18" />
+            <textevent timeoffset="140" message="Today we are replicating accelerating hard into the base of a climb and then riding threshold." locIndex="19" />
+            <textevent timeoffset="2800" message="Ready for the 1st effort." locIndex="20" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.5044999" />
+        <SteadyState Duration="20" Power="0.50449997" />
+        <Ramp Duration="300" PowerLow="0.90449995" PowerHigh="1.0445" Cadence="75">
+            <textevent timeoffset="10" message="Go straight for the target cadence of 75rpm." locIndex="21" />
+            <textevent timeoffset="70" message="It&apos;s just 5min of threshold work, but the low cadence adds to the intensity." locIndex="22" />
+            <textevent timeoffset="130" message="Visualise yourself on a climb in UNBOUND." locIndex="23" />
+            <textevent timeoffset="150" message="Riding strong and increasing the pace." locIndex="24" />
+            <textevent timeoffset="240" message="Into the last minute. Almost at the top!" locIndex="25" />
+            <textevent timeoffset="260" message="Out of the seat if you have to." locIndex="26" />
+        </Ramp>
+        <SteadyState Duration="300" Power="0.50449997">
+            <textevent timeoffset="30" message="That was a good opening effort." locIndex="27" />
+            <textevent timeoffset="90" message="In the next 5min threshold effort we increase the cadence a little." locIndex="28" />
+            <textevent timeoffset="150" message="We also lengthen the opening high powered effort to 30sec." locIndex="29" />
+            <textevent timeoffset="280" message="Here we go. Out of the seat if you want to for this effort." locIndex="30" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.4044999" />
+        <SteadyState Duration="30" Power="0.50449997" />
+        <Ramp Duration="300" PowerLow="0.90449995" PowerHigh="1.0445" Cadence="80">
+            <textevent timeoffset="10" message="Go straight for the target cadence of 80rpm." locIndex="31" />
+            <textevent timeoffset="70" message="It&apos;s just 5min of threshold work, but the low cadence adds to the intensity." locIndex="32" />
+            <textevent timeoffset="130" message="How does the change in target cadence feel?" locIndex="33" />
+            <textevent timeoffset="150" message="This is a nice strong effort." locIndex="34" />
+            <textevent timeoffset="240" message="Into the last minute. Almost at the top!" locIndex="35" />
+            <textevent timeoffset="260" message="Out of the seat if you have to." locIndex="36" />
+        </Ramp>
+        <SteadyState Duration="300" Power="0.5">
+            <textevent timeoffset="30" message="That was another good effort." locIndex="37" />
+            <textevent timeoffset="90" message="Again, we increase the target cadence in the next effort." locIndex="38" />
+            <textevent timeoffset="150" message="We also lengthen the opening high powered effort to 1min." locIndex="39" />
+            <textevent timeoffset="280" message="Here we go. Out of the seat if you want to for this effort." locIndex="40" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.3045">
+            <textevent timeoffset="25" message="This effort builds up a good amount of lactate." locIndex="41" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.50449997">
+            <textevent timeoffset="20" message="The lactate produced now becomes your body&apos;s source of fuel." locIndex="42" />
+        </SteadyState>
+        <Ramp Duration="300" PowerLow="0.90449995" PowerHigh="1.0445" Cadence="85">
+            <textevent timeoffset="10" message="Go straight for the target cadence of 85rpm." locIndex="43" />
+            <textevent timeoffset="70" message="It&apos;s just 5min of threshold work, but the low cadence adds to the intensity." locIndex="44" />
+            <textevent timeoffset="130" message="How does the change in target cadence feel?" locIndex="45" />
+            <textevent timeoffset="150" message="Which cadence is your most comfortable?" locIndex="46" />
+            <textevent timeoffset="240" message="Into the last minute. Almost at the top!" locIndex="47" />
+            <textevent timeoffset="260" message="Out of the seat if you have to." locIndex="48" />
+        </Ramp>
+        <SteadyState Duration="300" Power="0.50449997">
+            <textevent timeoffset="60" message="Great work. They are hard intervals." locIndex="49" />
+            <textevent timeoffset="150" message="But we aren&apos;t quite done yet." locIndex="50" />
+            <textevent timeoffset="210" message="This time, you get to choose your cadence." locIndex="51" />
+            <textevent timeoffset="270" message="Here we go with 5min of threshold work." locIndex="52" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.95449996">
+            <textevent timeoffset="30" message="What cadence have you found yourself riding at?" locIndex="53" />
+            <textevent timeoffset="90" message="After the earlier low cadence work, you may find yourself drawn to the low cadence work." locIndex="54" />
+            <textevent timeoffset="150" message="The key point today is that over the course of UNBOUND you will find yourself climbing at a range of low cadences." locIndex="55" />
+            <textevent timeoffset="170" message="So it is important to train at different cadence speeds and understanding how it affects your efforts. " locIndex="56" />
+            <textevent timeoffset="190" message="Thus affecting your pacing strategy over the many feet of climbing. " locIndex="57" />
+        </SteadyState>
+        <Cooldown Duration="180" PowerHigh="0.3" PowerLow="0.5">
+            <textevent timeoffset="0" message="That completes a great day of work. Nice job!" />
+            <textevent timeoffset="60" message="Be on the lookout for other Garmin UNBOUND events." />
+            <textevent timeoffset="90" message="Don&apos;t forget to get in your long ride this week!" />
+            <textevent timeoffset="120" message="Final minute of the day here - great job!" />
+            <textevent timeoffset="170" message="Until next time, Ride On!" />
+        </Cooldown>
+    </workout>
+</workout_file>

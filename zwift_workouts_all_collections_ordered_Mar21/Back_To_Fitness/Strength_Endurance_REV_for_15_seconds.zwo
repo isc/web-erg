@@ -1,0 +1,103 @@
+<workout_file>
+    <uniqueId>58899263-6bae-4394-91e3-64e25c32c292</uniqueId>
+    <legacyIdHash>3763276764</legacyIdHash>
+    <author>Kristin Armstrong</author>
+    <name>Week 9.1 - Strength Endurance + REV for :15 seconds</name>
+    <categoryOverride>Sweet Spot</categoryOverride>
+    <description>Today&apos;s workout is about gaining strength, you will spend much of your time in Zone 3, TEMPO, 85% of your FTP - however you want to look at it. During today&apos;s workout it is important to be aware of your RPM&apos;s - focus on being between 60-65.  If you have knee or back issues increase this to 60-70 RPM&apos;s. Keep smooth pedal strokes, no rocking of the hips or mashing from left to right pedal :) At the end of the 5 minutes we will be increasing our cadence and power as much as we can for :15 seconds.  You will want to shift up one or two cogs - feeling the torque but able to ramp it up within the :30 seconds.
+
+</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <tags />
+    <category>Back to Fitness</category>
+    <subcategory>Week 9</subcategory>
+    <workout>
+        <SteadyState Duration="180" Power="0.5">
+            <textevent message="Welcome to a Strength Endurance Day! Let&apos;s get started with a progressive warm up." locIndex="1" timeoffset="0" />
+        </SteadyState>
+        <SteadyState Duration="150" Power="0.65">
+            <textevent message="You are going to build from a low to high tempo. Ramp up style! " locIndex="2" timeoffset="0" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="0.7">
+            <textevent message="Legs should start feeling a bit more open now." locIndex="3" timeoffset="0" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="0.75">
+            <textevent message="Last little bit of this warm up. Let&apos;s chat about the plan for today." locIndex="4" timeoffset="0" />
+            <textevent message="Today&apos;s workout is about gaining strength, you will spend much of your time in Zone 3, TEMPO, 85% of your FTP - however you want to look at it." locIndex="5" timeoffset="10" />
+            <textevent message="During today&apos;s workout it is important to be aware of your RPM&apos;s - focus on being between 60-65." locIndex="6" timeoffset="20" />
+            <textevent message="If you have knee or back issues increase this to 60-70 RPM&apos;s." locIndex="7" timeoffset="30" />
+            <textevent message="Keep smooth pedal strokes, no rocking of the hips or mashing from left to right pedal." locIndex="8" timeoffset="40" />
+            <textevent message="At the end of the 5 minutes we will be increasing our cadence and power as much as we can for :15 seconds." locIndex="9" timeoffset="50" />
+            <textevent message="You will want to shift up one or two cogs - feeling the torque but able to ramp it up within the :30 seconds." locIndex="10" timeoffset="60" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.55">
+            <textevent message="Now is the time to get your mind prepared to focus." locIndex="11" timeoffset="0" />
+            <textevent message="Today will be a challenge, but you can do this!" locIndex="12" timeoffset="10" />
+            <textevent message="30sec to go here, then we&apos;ll drop the cadence to 65 RPM." locIndex="13" timeoffset="90" />
+            <textevent message="Here we go!" locIndex="14" timeoffset="110" />
+        </SteadyState>
+        <SteadyState Cadence="65" Duration="300" Power="0.85">
+            <textevent message="Okay, bring your cadence down to ~65 RPM here and let&apos;s settle in." locIndex="15" timeoffset="0" />
+            <textevent message="1min down... Keep this rhythm steady now." locIndex="16" timeoffset="60" />
+            <textevent message="Remember, aim for a smooth pedal stroke here, no rocking or mashing the pedals." locIndex="17" timeoffset="120" />
+            <textevent message="There&apos;s halfway!." locIndex="18" timeoffset="150" />
+            <textevent message="1min to go, then we&apos;ll rev the cadence up!" locIndex="19" timeoffset="240" />
+            <textevent message="Okay, shift into an easier gear and start bringing your cadence up." locIndex="20" timeoffset="290" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="1">
+            <textevent message=":15 second rev up - increase your RPM&apos;s and speed." locIndex="21" timeoffset="0" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.55">
+            <textevent message="Great work! Drink, adjust and relax. We&apos;ll take 2min easy between sets." locIndex="22" timeoffset="0" />
+            <textevent message="In 30sec, we&apos;re back on again. We&apos;ll aim for 65 RPM again." locIndex="23" timeoffset="90" />
+        </SteadyState>
+        <SteadyState Cadence="65" Duration="300" Power="0.85">
+            <textevent message="Here we go with the 2nd effort!" locIndex="24" timeoffset="0" />
+            <textevent message="Push, scrape, pull, and kick - keep that pedal stroke smooth." locIndex="25" timeoffset="60" />
+            <textevent message="There&apos;s halfway! Grind it out!" locIndex="26" timeoffset="150" />
+            <textevent message="1min to go then we&apos;ll rev it up again! You&apos;re doing great!" locIndex="27" timeoffset="240" />
+            <textevent message="Okay, shift into an easier gear again here and start bringing the cadence up." locIndex="28" timeoffset="290" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="1">
+            <textevent message="increase RPM&apos;s and speed (REV it up).  " locIndex="29" timeoffset="0" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.55">
+            <textevent message="Excellent work! That&apos;s 2 down and 2 to go. Let&apos;s take a couple of minutes easy again here." locIndex="30" timeoffset="0" />
+            <textevent message="Remember, if you experience any joint discomfort with the low cadence work, increase your cadence." locIndex="31" timeoffset="60" />
+            <textevent message="Here we go with the 3rd set. Start lowering your cadence down now." locIndex="32" timeoffset="110" />
+        </SteadyState>
+        <SteadyState Cadence="65" Duration="300" Power="0.85">
+            <textevent message="Keep good form. Smooth pedaling and no rocking of the hips. " locIndex="33" timeoffset="0" />
+            <textevent message="Shoulders relaxed, elbows bent slightly, light grip on the bars here." locIndex="34" timeoffset="60" />
+            <textevent message="Halfway through! You&apos;re looking GREAT!" locIndex="35" timeoffset="150" />
+            <textevent message="60sec to go, then we&apos;ll rev it up again!." locIndex="36" timeoffset="240" />
+            <textevent message="Okay, bring it down to an easier gear and start bringing the cadence up again." locIndex="37" timeoffset="290" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="1">
+            <textevent message="Let&apos;s go - REV it. " locIndex="38" timeoffset="0" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.55">
+            <textevent message="Great work! Drink, adjust and relax..." locIndex="39" timeoffset="0" />
+            <textevent message="All right, our final set is just ahead, here we go!" locIndex="40" timeoffset="90" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.85">
+            <textevent message="Okay, bring your cadence down to ~65 RPM here and let&apos;s settle in." locIndex="41" timeoffset="0" />
+            <textevent message="1min down... Keep this rhythm steady now." locIndex="42" timeoffset="60" />
+            <textevent message="Remember, aim for a smooth pedal stroke here, no rocking or mashing the pedals." locIndex="43" timeoffset="120" />
+            <textevent message="There&apos;s halfway!." locIndex="44" timeoffset="150" />
+            <textevent message="1min to go, then we&apos;ll rev the cadence up!" locIndex="45" timeoffset="240" />
+            <textevent message="Okay, shift into an easier gear and start bringing your cadence up." locIndex="46" timeoffset="290" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="1">
+            <textevent message=":15 second REV! Push through that torque. " locIndex="47" timeoffset="0" />
+        </SteadyState>
+        <SteadyState Duration="330" Power="0.55">
+            <textevent message="GREAT riding today! Let&apos;s take a few minutes to cool down now." locIndex="48" timeoffset="0" />
+            <textevent message="Are you feeling strong?  Specific strength on the bike does wonders for your riding-- wait and see!" locIndex="49" timeoffset="3" />
+            <textevent message="Take care of yourself by hydrating and refueling so you feel recovered and ready to go again for your next session!" locIndex="50" timeoffset="60" />
+            <textevent message="Take a few more deep breaths here as we continue to return to baseline." locIndex="51" timeoffset="90" />
+            <textevent message="See you on the next workout - Dani and Kristin." locIndex="52" timeoffset="170" />
+        </SteadyState>
+    </workout>
+</workout_file>

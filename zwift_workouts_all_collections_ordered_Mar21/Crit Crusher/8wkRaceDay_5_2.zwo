@@ -1,0 +1,108 @@
+<workout_file>
+    <uniqueId>d1a517c3-e924-4b72-885f-3cbeb54e367a</uniqueId>
+    <legacyIdHash>2790514070</legacyIdHash>
+    <author>trainSharp</author>
+    <category>Crit Crusher</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 5</subcategory>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/trainSharp_Logo.tga</authorIcon>
+    <name>Week 5.2 - Cadence Change Efforts</name>
+    <description>Start with a 10 minute warm up - Zone 1. Then 40 minutes Zone 2, but for the first 20 seconds of each and every minute, lift your cadence to 110 rpm - whilst maintaining the same power. So lower the resistence/gear and raise your cadence. 10 min cool down</description>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow="0.2545" PowerHigh="0.75449997" />
+        <SteadyState Duration="2400" Power="0.65449995">
+            <textevent timeoffset="0" message="110 RPM - High Cadence! Up Up Up!" locIndex="1" />
+            <textevent timeoffset="20" message="80 RPM - Normal Cadence Now!" locIndex="2" />
+            <textevent timeoffset="60" message="110 RPM - High Cadence! Up Up Up!" locIndex="3" />
+            <textevent timeoffset="80" message="80 RPM - Normal Cadence Now!" locIndex="4" />
+            <textevent timeoffset="120" message="110 RPM - High Cadence! Up Up Up!" locIndex="5" />
+            <textevent timeoffset="140" message="80 RPM - Normal Cadence Now!" locIndex="6" />
+            <textevent timeoffset="180" message="110 RPM - High Cadence! Up Up Up!" locIndex="7" />
+            <textevent timeoffset="200" message="80 RPM - Normal Cadence Now!" locIndex="8" />
+            <textevent timeoffset="240" message="110 RPM - High Cadence! Up Up Up!" locIndex="9" />
+            <textevent timeoffset="260" message="80 RPM - Normal Cadence Now!" locIndex="10" />
+            <textevent timeoffset="300" message="110 RPM - High Cadence! Up Up Up!" locIndex="11" />
+            <textevent timeoffset="320" message="80 RPM - Normal Cadence Now!" locIndex="12" />
+            <textevent timeoffset="420" message="110 RPM - High Cadence! Up Up Up!" locIndex="13" />
+            <textevent timeoffset="440" message="80 RPM - Normal Cadence Now!" locIndex="14" />
+            <textevent timeoffset="480" message="110 RPM - High Cadence! Up Up Up!" locIndex="15" />
+            <textevent timeoffset="500" message="80 RPM - Normal Cadence Now!" locIndex="16" />
+            <textevent timeoffset="540" message="110 RPM - High Cadence! Up Up Up!" locIndex="17" />
+            <textevent timeoffset="560" message="80 RPM - Normal Cadence Now!" locIndex="18" />
+            <textevent timeoffset="600" message="110 RPM - High Cadence! Up Up Up!" locIndex="19" />
+            <textevent timeoffset="620" message="80 RPM - Normal Cadence Now!" locIndex="20" />
+            <textevent timeoffset="660" message="110 RPM - High Cadence! Up Up Up!" locIndex="21" />
+            <textevent timeoffset="680" message="80 RPM - Normal Cadence Now!" locIndex="22" />
+            <textevent timeoffset="720" message="110 RPM - High Cadence! Up Up Up!" locIndex="23" />
+            <textevent timeoffset="740" message="80 RPM - Normal Cadence Now!" locIndex="24" />
+            <textevent timeoffset="780" message="110 RPM - High Cadence! Up Up Up!" locIndex="25" />
+            <textevent timeoffset="800" message="80 RPM - Normal Cadence Now!" locIndex="26" />
+            <textevent timeoffset="840" message="110 RPM - High Cadence! Up Up Up!" locIndex="27" />
+            <textevent timeoffset="860" message="80 RPM - Normal Cadence Now!" locIndex="28" />
+            <textevent timeoffset="900" message="110 RPM - High Cadence! Up Up Up!" locIndex="29" />
+            <textevent timeoffset="920" message="80 RPM - Normal Cadence Now!" locIndex="30" />
+            <textevent timeoffset="1020" message="110 RPM - High Cadence! Up Up Up!" locIndex="31" />
+            <textevent timeoffset="1040" message="80 RPM - Normal Cadence Now!" locIndex="32" />
+            <textevent timeoffset="1080" message="110 RPM - High Cadence! Up Up Up!" locIndex="33" />
+            <textevent timeoffset="1100" message="80 RPM - Normal Cadence Now!" locIndex="34" />
+            <textevent timeoffset="1140" message="110 RPM - High Cadence! Up Up Up!" locIndex="35" />
+            <textevent timeoffset="1160" message="80 RPM - Normal Cadence Now!" locIndex="36" />
+            <textevent timeoffset="1200" message="110 RPM - High Cadence! Up Up Up!" locIndex="37" />
+            <textevent timeoffset="1220" message="80 RPM - Normal Cadence Now!" locIndex="38" />
+            <textevent timeoffset="1260" message="110 RPM - High Cadence! Up Up Up!" locIndex="39" />
+            <textevent timeoffset="1280" message="80 RPM - Normal Cadence Now!" locIndex="40" />
+            <textevent timeoffset="1320" message="110 RPM - High Cadence! Up Up Up!" locIndex="41" />
+            <textevent timeoffset="1340" message="80 RPM - Normal Cadence Now!" locIndex="42" />
+            <textevent timeoffset="1380" message="110 RPM - High Cadence! Up Up Up!" locIndex="43" />
+            <textevent timeoffset="1400" message="80 RPM - Normal Cadence Now!" locIndex="44" />
+            <textevent timeoffset="1440" message="110 RPM - High Cadence! Up Up Up!" locIndex="45" />
+            <textevent timeoffset="1460" message="80 RPM - Normal Cadence Now!" locIndex="46" />
+            <textevent timeoffset="1500" message="110 RPM - High Cadence! Up Up Up!" locIndex="47" />
+            <textevent timeoffset="1520" message="80 RPM - Normal Cadence Now!" locIndex="48" />
+            <textevent timeoffset="1620" message="110 RPM - High Cadence! Up Up Up!" locIndex="49" />
+            <textevent timeoffset="1640" message="80 RPM - Normal Cadence Now!" locIndex="50" />
+            <textevent timeoffset="1680" message="110 RPM - High Cadence! Up Up Up!" locIndex="51" />
+            <textevent timeoffset="1700" message="80 RPM - Normal Cadence Now!" locIndex="52" />
+            <textevent timeoffset="1740" message="110 RPM - High Cadence! Up Up Up!" locIndex="53" />
+            <textevent timeoffset="1760" message="80 RPM - Normal Cadence Now!" locIndex="54" />
+            <textevent timeoffset="1800" message="110 RPM - High Cadence! Up Up Up!" locIndex="55" />
+            <textevent timeoffset="1820" message="80 RPM - Normal Cadence Now!" locIndex="56" />
+            <textevent timeoffset="1860" message="110 RPM - High Cadence! Up Up Up!" locIndex="57" />
+            <textevent timeoffset="1880" message="80 RPM - Normal Cadence Now!" locIndex="58" />
+            <textevent timeoffset="1920" message="110 RPM - High Cadence! Up Up Up!" locIndex="59" />
+            <textevent timeoffset="1940" message="80 RPM - Normal Cadence Now!" locIndex="60" />
+            <textevent timeoffset="1980" message="110 RPM - High Cadence! Up Up Up!" locIndex="61" />
+            <textevent timeoffset="2000" message="80 RPM - Normal Cadence Now!" locIndex="62" />
+            <textevent timeoffset="2040" message="110 RPM - High Cadence! Up Up Up!" locIndex="63" />
+            <textevent timeoffset="2060" message="80 RPM - Normal Cadence Now!" locIndex="64" />
+            <textevent timeoffset="2100" message="110 RPM - High Cadence! Up Up Up!" locIndex="65" />
+            <textevent timeoffset="2120" message="80 RPM - Normal Cadence Now!" locIndex="66" />
+            <textevent timeoffset="2220" message="110 RPM - High Cadence! Up Up Up!" locIndex="67" />
+            <textevent timeoffset="2240" message="80 RPM - Normal Cadence Now!" locIndex="68" />
+            <textevent timeoffset="2280" message="110 RPM - High Cadence! Up Up Up!" locIndex="69" />
+            <textevent timeoffset="2300" message="80 RPM - Normal Cadence Now!" locIndex="70" />
+            <textevent timeoffset="2340" message="110 RPM - High Cadence! Up Up Up!" locIndex="71" />
+            <textevent timeoffset="2360" message="80 RPM - Normal Cadence Now!" locIndex="72" />
+            <textevent timeoffset="2400" message="110 RPM - High Cadence! Up Up Up!" locIndex="73" />
+            <textevent timeoffset="2420" message="80 RPM - Normal Cadence Now!" locIndex="74" />
+            <textevent timeoffset="2480" message="110 RPM - High Cadence! Up Up Up!" locIndex="75" />
+            <textevent timeoffset="2500" message="80 RPM - Normal Cadence Now!" locIndex="76" />
+            <textevent timeoffset="2540" message="110 RPM - High Cadence! Up Up Up!" locIndex="77" />
+            <textevent timeoffset="2560" message="80 RPM - Normal Cadence Now!" locIndex="78" />
+            <textevent timeoffset="2600" message="110 RPM - High Cadence! Up Up Up!" locIndex="79" />
+            <textevent timeoffset="2620" message="80 RPM - Normal Cadence Now!" locIndex="80" />
+            <textevent timeoffset="2680" message="110 RPM - High Cadence! Up Up Up!" locIndex="81" />
+            <textevent timeoffset="2700" message="80 RPM - Normal Cadence Now!" locIndex="82" />
+            <textevent timeoffset="2740" message="110 RPM - High Cadence! Up Up Up!" locIndex="83" />
+            <textevent timeoffset="2760" message="80 RPM - Normal Cadence Now!" locIndex="84" />
+            <textevent timeoffset="2800" message="110 RPM - High Cadence! Up Up Up!" locIndex="85" />
+            <textevent timeoffset="2820" message="80 RPM - Normal Cadence Now!" locIndex="86" />
+            <textevent timeoffset="2880" message="110 RPM - High Cadence! Up Up Up!" locIndex="87" />
+            <textevent timeoffset="2900" message="80 RPM - Normal Cadence Now!" locIndex="88" />
+            <textevent timeoffset="2940" message="110 RPM - High Cadence! Up Up Up!" locIndex="89" />
+            <textevent timeoffset="2960" message="80 RPM - Normal Cadence Now!" locIndex="90" />
+        </SteadyState>
+        <Cooldown Duration="600" PowerLow="0.75449997" PowerHigh="0.2545" />
+    </workout>
+</workout_file>

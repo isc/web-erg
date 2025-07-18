@@ -1,0 +1,100 @@
+<workout_file>
+    <uniqueId>e30af15f-1a0d-4fa8-97a5-6050e10a603c</uniqueId>
+    <legacyIdHash>3002003875</legacyIdHash>
+    <author>Zwift Academy Coaches</author>
+    <categoryOverride>Best of Zwift Academy</categoryOverride>
+    <subcategoryOverride>ZA 2018</subcategoryOverride>
+    <name>Under Ones</name>
+    <activitySaveName>Zwift Academy 2018 Workout #3: Under Ones</activitySaveName>
+    <description>This is a challenging HIIT (High Intensity Interval Training) session that focuses on repeated efforts under 1 minute. The workout consists of just 5 minutes of high intensity work. However, with short recovery periods, your lactate tolerance will be tested!
+
+The session is divided into 3 blocks of work. 12 x 10sec sprints with 50secs recovery. 6 x 15sec sprints with 45secs recovery. And 3 x 30sec sprints with 30sec recovery.
+
+If you use a smart trainer it&apos;s recommended that you disable ERG mode for this workout due to how short and explosive the sprint efforts are. You can toggle ERG mode on and off either within Zwift or by using the Zwift Companion mobile app.</description>
+    <sportType>bike</sportType>
+    <visibleAfterTime>1533538860</visibleAfterTime>
+    <overrideHash>3002003875</overrideHash>
+    <category>Zwift Academy 2018</category>
+    <categoryIndex>3</categoryIndex>
+    <tags>
+        <tag name="Zwift Academy" />
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.45000002" PowerHigh="0.75" pace="0">
+            <textevent timeoffset="0" message="Welcome to the 3rd Zwift Academy workout. Today is all about short, sharp efforts." locIndex="1" />
+            <textevent timeoffset="30" message="It will be a challenging session." locIndex="2" />
+            <textevent timeoffset="90" message="Remember, it&apos;s just 5min of high intensity." locIndex="3" />
+            <textevent timeoffset="150" message="The efforts are short. But they come quickly." locIndex="4" />
+            <textevent timeoffset="210" message="With little recovery, the fatigue builds up." locIndex="5" />
+            <textevent timeoffset="270" message="To help prepare for the main set, we have some short, low level sprints to begin with." locIndex="6" />
+        </Warmup>
+        <IntervalsT Repeat="2" OnDuration="10" OffDuration="60" OnPower="1.3044999" OffPower="0.50449997" pace="0">
+            <textevent timeoffset="100" message="Now for some low intensity 1min efforts to continue the warm up." locIndex="7" />
+        </IntervalsT>
+        <IntervalsT Repeat="2" OnDuration="60" OffDuration="60" OnPower="0.80449992" OffPower="0.65449995" pace="0" OverUnder="1">
+            <textevent timeoffset="220" message="A little more intensity in the 1min efforts this time." locIndex="8" />
+        </IntervalsT>
+        <IntervalsT Repeat="2" OnDuration="60" OffDuration="60" OnPower="0.98449993" OffPower="0.65449995" pace="0" />
+        <SteadyState Duration="180" Power="0.50449997" pace="0">
+            <textevent timeoffset="30" message="That completes the warm up." locIndex="9" />
+            <textevent timeoffset="40" message="You should be sweating by now." locIndex="10" />
+            <textevent timeoffset="50" message="Ready for the repeated 10sec sprints?" locIndex="11" />
+            <textevent timeoffset="60" message="Self select your cadence for the sprints." locIndex="12" />
+            <textevent timeoffset="80" message="The effort may seem easy to begin with." locIndex="13" />
+            <textevent timeoffset="100" message="The short recovery will make it challenging towards the end." locIndex="14" />
+            <textevent timeoffset="120" message="Science has shown that a power of 65% of your threshold is most efficient for recovery." locIndex="15" />
+            <textevent timeoffset="140" message="Be prepared to keep some pressure on the pedals after each sprint." locIndex="16" />
+            <textevent timeoffset="160" message="Here we go!" locIndex="17" />
+        </SteadyState>
+        <IntervalsT Repeat="12" OnDuration="10" OffDuration="50" OnPower="1.6071068" OffPower="0.65449995" pace="0">
+            <textevent timeoffset="30" message="The 1st one is easy!" locIndex="18" />
+            <textevent timeoffset="90" message="Keep some pressure on the pedals during recovery." locIndex="19" />
+            <textevent timeoffset="150" message="Aim for the same cadence for each sprint." locIndex="20" />
+            <textevent timeoffset="210" message="It&apos;s fine to get out of the saddle for the sprints." locIndex="21" />
+            <textevent timeoffset="270" message="Are you recovering well? The later stages will get hard!" locIndex="22" />
+            <textevent timeoffset="350" message="Into the last half now." locIndex="23" />
+            <textevent timeoffset="410" message="Your heart rate should be increasing." locIndex="24" />
+            <textevent timeoffset="470" message="Just 4 to go!" locIndex="25" />
+            <textevent timeoffset="530" message="This set is only 2min of High Intensity." locIndex="26" />
+            <textevent timeoffset="640" message="Last one!" locIndex="27" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.50449997" pace="0">
+            <textevent timeoffset="20" message="Great work!" locIndex="28" />
+            <textevent timeoffset="80" message="How did you find the recovery power?" locIndex="29" />
+            <textevent timeoffset="100" message="Did it help recover for the next sprint?" locIndex="30" />
+            <textevent timeoffset="160" message="The next set consists of 6x15sec sprints." locIndex="31" />
+            <textevent timeoffset="180" message="With just 45sec rest." locIndex="32" />
+            <textevent timeoffset="200" message="Target power is a little less this time." locIndex="33" />
+            <textevent timeoffset="220" message="Again, we keep some pressure on the pedals to help with recovery." locIndex="34" />
+            <textevent timeoffset="280" message="Here we go!" locIndex="35" />
+        </SteadyState>
+        <IntervalsT Repeat="6" OnDuration="15" OffDuration="45" OnPower="1.5044999" OffPower="0.65449995" pace="0">
+            <textevent timeoffset="25" message="1st effort should be comfortable." locIndex="36" />
+            <textevent timeoffset="85" message="Aim for the same cadence in each sprint." locIndex="37" />
+            <textevent timeoffset="150" message="Halfway. How are you feeling?" locIndex="38" />
+            <textevent timeoffset="200" message="Keep the pressure on the pedals during the rest period." locIndex="39" />
+            <textevent timeoffset="220" message="It&apos;s ok to start the sprint out of the saddle." locIndex="40" />
+            <textevent timeoffset="300" message="Last 15sec sprint coming up." locIndex="41" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.50449997" pace="0">
+            <textevent timeoffset="30" message="How was that? More difficult than the 1st set?" locIndex="42" />
+            <textevent timeoffset="90" message="A good recovery period again, before the final set." locIndex="43" />
+            <textevent timeoffset="150" message="Just 3 sprints in the next set." locIndex="44" />
+            <textevent timeoffset="210" message="Long sprints of 30sec. Start the sprint out of the saddle if it helps." locIndex="45" />
+            <textevent timeoffset="270" message="Here we go. Last set!" locIndex="46" />
+        </SteadyState>
+        <IntervalsT Repeat="3" OnDuration="30" OffDuration="30" OnPower="1.3045" OffPower="0.65449995" pace="0">
+            <textevent timeoffset="0" message="Aim to hold the same cadence for the entire sprint." locIndex="47" />
+            <textevent timeoffset="45" message="Just 2 to go!" locIndex="48" />
+            <textevent timeoffset="110" message="Hit the same power in this last sprint!" locIndex="49" />
+        </IntervalsT>
+        <SteadyState Duration="180" Power="0.50449997" pace="0">
+            <textevent timeoffset="30" message="Well done. For just 5mins of work, that was a hard session." locIndex="50" />
+            <textevent timeoffset="150" message="We need a good cool down after HIIT workouts." locIndex="51" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow="0.75449997" PowerHigh="0.45449999" pace="0">
+            <textevent timeoffset="30" message="To aid in recovery we gradually bring the power down from zone 3 to zone 1." locIndex="52" />
+            <textevent timeoffset="90" message="Be sure to refuel and hydrate adequately after today&apos;s workout." locIndex="53" />
+        </Cooldown>
+    </workout>
+</workout_file>

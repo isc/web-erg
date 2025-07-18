@@ -1,0 +1,41 @@
+<workout_file>
+    <uniqueId>8fd404fb-cde8-4308-b994-41e7bcac9c3a</uniqueId>
+    <legacyIdHash>4122633727</legacyIdHash>
+    <author>TrainSharp Cycle Coaching</author>
+    <categoryOverride>Best of Zwift Academy</categoryOverride>
+    <subcategoryOverride>ZA 2017</subcategoryOverride>
+    <name>Threshold Pyramid - Semi Finals</name>
+    <description>This Pulling Pyramid session is designed to lift your FTP from above, by riding at powers slightly above your 20 minute best. The reduced recovery times will force you to clear the lactate accumulated after each interval.  Start with a good warm up, then straight into the main intervals. The intervals are as follows: 2 x 4 mins, 3 x 3 mins, 4 x 2 mins, 5 x 1 mins - the recovery periods are equal to the duration of the intervals (4/3/2/1 minute). This is another hard session so make sure you are fueled, motivated and well hydrated.</description>
+    <WorkoutPlan>1</WorkoutPlan>
+    <sportType>bike</sportType>
+    <visibleAfterTime>1508716801</visibleAfterTime>
+    <category>Zwift Academy 2017</category>
+    <subcategory>Semi Finals</subcategory>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/trainSharp_Logo.tga</authorIcon>
+    <tags>
+        <tag name="Today&apos;s Plan" />
+    </tags>
+    <workout>
+        <Warmup Duration="900" PowerLow="0.3" PowerHigh="0.9">
+            <textevent timeoffset="0" message="Warm Up - Progressive Warm up through the zones for the duration. Sip on your bottle and take a gel if you wish during the warm up." locIndex="1" />
+        </Warmup>
+        <SolidState Duration="300" Power="0.3">
+            <textevent timeoffset="0" message="Easy - Nice and Easy for 5 minutes" locIndex="2" />
+        </SolidState>
+        <IntervalsT Repeat="2" OnDuration="240" OffDuration="240" OnPower="1.05" OffPower="0.3">
+            <textevent timeoffset="0" duration="30" message="Threshold Pulling (2, 4&apos;s) - 2 x 4 minutes at your 20 minute power - The first two intervals should feel manageable." locIndex="3" />
+        </IntervalsT>
+        <IntervalsT Repeat="3" OnDuration="180" OffDuration="180" OnPower="1.05" OffPower="0.3">
+            <textevent timeoffset="0" duration="30" message="Threshold Pulling (3, 3&apos;s) - Perhaps the hardest block of the session, 3 minutes is long enough for you to start to suffer but 3 minutes recovery will fly by." locIndex="4" />
+        </IntervalsT>
+        <IntervalsT Repeat="4" OnDuration="120" OffDuration="120" OnPower="1.05" OffPower="0.3">
+            <textevent timeoffset="0" duration="30" message="Threshold Pulling (4, 2&apos;s) - Keep the power consistent through the efforts, lifting the power 10% if you feel you are able and going to complete the session comfortably." locIndex="5" />
+        </IntervalsT>
+        <IntervalsT Repeat="5" OnDuration="60" OffDuration="60" OnPower="1.05" OffPower="0.3">
+            <textevent timeoffset="0" duration="30" message="Threshold Pulling (5, 1&apos;s) - Final block and the finish line is in sight. Nail these last efforts!" locIndex="6" />
+        </IntervalsT>
+        <Cooldown Duration="600" PowerLow="0.46" PowerHigh="0.3">
+            <textevent timeoffset="0" duration="30" message="Cool Down - Take it nice and easy for the final 10 minutes. Well done on completing this session." locIndex="7" />
+        </Cooldown>
+    </workout>
+</workout_file>

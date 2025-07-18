@@ -1,0 +1,46 @@
+<workout_file>
+    <uniqueId>5421c390-a839-43b9-9a72-f6f7f053f8c1</uniqueId>
+    <legacyIdHash>2719597734</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>2018 PRL46 Prep</category>
+    <subcategory>Week 9</subcategory>
+    <name>Week 9.5 - Vo2 Max Declining 6min </name>
+    <description>Working at the lower end of your Zone 5 Vo2 Max power, this session requires you to complete the longest interval first, then reduce the following interval by 30sec each time.
+
+Starting with a 6min Zone 5 interval, you will finish with a 3.5min interval. </description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow="0.50449997" PowerHigh="0.75449997" pace="0">
+            <textevent timeoffset="565" message="Longest effort first." locIndex="1" />
+            <textevent timeoffset="52" message="A long warm up to get you ready for high intensity intervals." locIndex="2" />
+        </Warmup>
+        <SteadyState Duration="360" Power="1.0545" pace="0" />
+        <SteadyState Duration="180" Power="0.55000001" pace="0" />
+        <SteadyState Duration="330" Power="1.0545" pace="0">
+            <textevent timeoffset="31" message="A little shorter this time." locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.55000001" pace="0" />
+        <SteadyState Duration="300" Power="1.0545" pace="0">
+            <textevent timeoffset="24" message="Getting easier?" locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.55000001" pace="0">
+            <textevent timeoffset="114" message="3 to go!" locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="270" Power="1.0545" pace="0">
+            <textevent timeoffset="23" message="Just 4.5min this time." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.55000001" pace="0">
+            <textevent timeoffset="142" message="2 to go!" locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="1.0545" pace="0" />
+        <SteadyState Duration="180" Power="0.55000001" pace="0">
+            <textevent timeoffset="87.272644" message="Last one comin up!" locIndex="8" />
+            <textevent timeoffset="125" message="It&apos;s only 3.5 minutes!" locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="210" Power="1.0545" pace="0" />
+        <SteadyState Duration="180" Power="0.55000001" pace="0" />
+        <Cooldown Duration="300" PowerLow="0.75" PowerHigh="0.50081527" pace="0" />
+    </workout>
+</workout_file>

@@ -1,0 +1,122 @@
+<workout_file>
+    <uniqueId>dc3bf65e-aa60-45ad-a0fa-00f352d2d9d3</uniqueId>
+    <legacyIdHash>3801541835</legacyIdHash>
+    <author>Zwift</author>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>Multi-Sport Threshold Booster</category>
+    <visibleOutsidePlan>0</visibleOutsidePlan>
+    <name>Tempo With Accelerations #1</name>
+    <description>Steady endurance work trains your body to utilize oxygen to metabolise fat as its fuel source.
+
+By incorporating sprint efforts into a steady state effort, you will recruit additional muscle fibers and extend their ability to work aerobically.
+
+The sprint efforts increase in duration from 15sec to 20sec and 30sec.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="4weekftp" />
+    </tags>
+    <workout>
+        <SteadyState Duration="180" Power="0.50449997">
+            <textevent timeoffset="30" message="Welcome friend, let&apos;s get started with a warm-up! Remember ideal cadence is 85-95 RPM." locIndex="1" />
+            <textevent timeoffset="170" message="In 10 seconds get ready to go up a little bit, cadence up to 85 RPM." locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.6045" Cadence="85">
+            <textevent timeoffset="0" message="Okay, bring up the power just a little bit." locIndex="3" />
+            <textevent timeoffset="50" message="In 10 seconds got ready to go up a little bit more cadence up to 90 are RPM." locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.65449995" Cadence="90">
+            <textevent timeoffset="0" message="Little bit quicker cadence here." locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.81449997" Cadence="95">
+            <textevent timeoffset="0" message="And 95 RPM." locIndex="6" />
+            <textevent timeoffset="50" message="In 10 seconds. Get ready to go hard for a one minute! Really get those legs ready to work!" locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.0944999" Cadence="95">
+            <textevent timeoffset="0" message="UP! Stay strong here." locIndex="8" />
+            <textevent timeoffset="30" message="30 more seconds to go!" locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.50449997">
+            <textevent timeoffset="0" message="Great work! Now, take it easy for a couple minutes." locIndex="10" />
+            <textevent timeoffset="40" message="Take a few deep breaths. And let&apos;s talk about today&apos;s workout." locIndex="11" />
+            <textevent timeoffset="50" message="Today we will be doing steady tempo with some accelerations throughout." locIndex="12" />
+            <textevent timeoffset="60" message="The steady tempo trains your body to utilize oxygen to  metabolize fat as a fuel source." locIndex="13" />
+            <textevent timeoffset="70" message="By incorporating sprint efforts into a steady-state effort, you will recruit additional muscle fibers." locIndex="14" />
+            <textevent timeoffset="80" message="And also extend their ability to work aerobically." locIndex="15" />
+            <textevent timeoffset="90" message="We will be performing 3 sprints per round with the target power decreasing as each round goes on." locIndex="16" />
+            <textevent timeoffset="100" message="the target cadence for the sprints is going to be 110 RPM, very fast feet!." locIndex="17" />
+            <textevent timeoffset="110" message="Take a couple more deep breaths and get ready for 4 minutes at zone 4." locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.90449995" Cadence="95">
+            <textevent timeoffset="0" message="Okay, bring the power up, cadence to 95 RPM. We are here for 4 minutes." locIndex="19" />
+            <textevent timeoffset="60" message="1 minute in, start to settle down a little bit. Find that natural rhythm again." locIndex="20" />
+            <textevent timeoffset="180" message="Last minute here, finish this up strong!" locIndex="21" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.50449997">
+            <textevent timeoffset="0" message="Excellent work, now take a few minutes easy get ready for the main set today." locIndex="22" />
+            <textevent timeoffset="150" message="All right, in a little bit we will start our first round of the main set today." locIndex="23" />
+            <textevent timeoffset="160" message="Keep your cadence comfortable for the tempo work, and 110 RPM for the sprints." locIndex="24" />
+            <textevent timeoffset="170" message="We start with the hardest sprints 1st and gradually get easier as time elapses, ready?" locIndex="25" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.84449995" Cadence="90">
+            <textevent timeoffset="0" message="Okay here we go, cadence up to 90 RPM." locIndex="26" />
+            <textevent timeoffset="10" message="Practice bringing your power and cadence up gradually, settle into this effort." locIndex="27" />
+            <textevent timeoffset="120" message="2 minutes into this 1st step, settle down now." locIndex="28" />
+            <textevent timeoffset="230" message="In 10 seconds, get ready for sprint number 1. 15 seconds at 175% FTP." locIndex="29" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="1.7544999" Cadence="110">
+            <textevent timeoffset="0" message="Up up up!!" locIndex="30" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.84449995" Cadence="90">
+            <textevent timeoffset="0" message="Great work. 1 down, 2 more to go. Take some deep breaths and settle down again." locIndex="31" />
+            <textevent timeoffset="120" message="Breathe. Those sprinting efforts create a lot of lactate, which can take a few minutes to process." locIndex="32" />
+            <textevent timeoffset="230" message="In 10 seconds, get ready for Sprint effort number 2. This time we are doing 20 seconds at 170% FTP." locIndex="33" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.7045" Cadence="110">
+            <textevent timeoffset="0" message=" Let&apos;s make it happen!" locIndex="34" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.84449995" Cadence="90">
+            <textevent timeoffset="0" message="Great job, now settle down again as best you can, breathe." locIndex="35" />
+            <textevent timeoffset="120" message="That 2nd sprint will cause a little more burn to occur. This workout also improves your ability to stay cool under pressure." locIndex="36" />
+            <textevent timeoffset="230" message="In 10 seconds. Get ready for the finale of this round. 30 seconds at 150% FTP." locIndex="37" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.5044999" Cadence="105">
+            <textevent timeoffset="0" message="Okay this is it for this round, finish this strong!" locIndex="38" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.50449997">
+            <textevent timeoffset="0" message="Great job. Now take a long rest, and get ready to do that again." locIndex="39" />
+            <textevent timeoffset="60" message="Take a few deep breaths, keep yourself focused here." locIndex="40" />
+            <textevent timeoffset="250" message="Okay, in 1 minute We will do round number 2. This is going to be the exact same as the first round." locIndex="41" />
+            <textevent timeoffset="260" message="The biggest difference here is your fatigue level of course, but I know that will not stop you. YOU are strong!" locIndex="42" />
+            <textevent timeoffset="290" message="All right get ready, start to spin the cadence up to 90 RPM." locIndex="43" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.84449995" Cadence="90">
+            <textevent timeoffset="0" message="Okay here we go, cadence up to 90 RPM." locIndex="44" />
+            <textevent timeoffset="10" message="Practice bringing your and cadence up gradually, settle into this effort." locIndex="45" />
+            <textevent timeoffset="120" message="2 minutes into this 1st step, settle down now." locIndex="46" />
+            <textevent timeoffset="230" message="In 10 seconds, get ready for sprint number 1. 15 seconds at 175% FTP." locIndex="47" />
+        </SteadyState>
+        <SteadyState Duration="15" Power="1.7544999" Cadence="110">
+            <textevent timeoffset="0" message=" Up up up!!" locIndex="48" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.84449995" Cadence="90">
+            <textevent timeoffset="0" message="Great work. 1 down, 2 more to go. Take some deep breaths and settle down again." locIndex="49" />
+            <textevent timeoffset="120" message="Breathe. Those sprinting efforts create a lot of lactate, which can take a few minutes to process." locIndex="50" />
+            <textevent timeoffset="230" message="In 10 seconds, get ready for Sprint effort number 2. This time we are doing 20 seconds at 170% FTP." locIndex="51" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.7045" Cadence="110">
+            <textevent timeoffset="0" message=" Let&apos;s make it happen!" locIndex="52" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.84449995" Cadence="90">
+            <textevent timeoffset="0" message="Great job, now settle down again as best you can, breathe." locIndex="53" />
+            <textevent timeoffset="120" message="Repeated sprints each burn a little bit more. But that also stimulate adaptation." locIndex="54" />
+            <textevent timeoffset="230" message="In 10 seconds. Get ready for the finale of this set. 30 seconds at 150% FTP." locIndex="55" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.5044999" Cadence="105">
+            <textevent timeoffset="0" message="Okay this is it for today, finish this strong!" locIndex="56" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.50449997">
+            <textevent timeoffset="0" message="Amazing work today. You should be proud of yourself for that one." locIndex="57" />
+            <textevent timeoffset="10" message="Now spend the next few minutes cooling down and returning to baseline. We will see you next time!" locIndex="58" />
+        </SteadyState>
+    </workout>
+</workout_file>

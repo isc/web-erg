@@ -1,0 +1,72 @@
+<workout_file>
+    <uniqueId>db5a7a6f-bc61-460a-987d-03b9fa9731f1</uniqueId>
+    <legacyIdHash>3048443635</legacyIdHash>
+    <author>Annika Langvad</author>
+    <name>Annika Langvad Series.5 - Workout 5</name>
+    <category>Mountain Bike</category>
+    <subcategory>Annika Langvad Series</subcategory>
+    <description>Today&apos;s session continues to focus on developing your endurance and aerobic conditioning which are fundamental attributes for anyone looking to perform.  
+
+We are going to push ourselves right up to our threshold, by completing 6 efforts, split in to two blocks of 3 efforts (90%, 95% and 100% of our FTP). As the intensity goes up, the volume goes down so this session is definitely manageable and is a nice building block rather than leaving you totally exhausted for tomorrow.</description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <Warmup Duration="420" PowerLow="0.43673912" PowerHigh="0.74978262" pace="8268">
+            <textevent timeoffset="10" message="Welcome to another workout curated by Annika Langvad" locIndex="1" />
+            <textevent timeoffset="25" message="Today&apos;s session is all about developing your aerobic base and endurance - critical for mountain bikers" locIndex="2" />
+            <textevent timeoffset="43" message="We have a nice progressive warm up to start, with some 30second activation efforts to get us ready for the session. " locIndex="3" />
+            <textevent timeoffset="111" message="By riding just under and at threshold we realise similar aerobic benefits to a long endurance ride" locIndex="5" />
+            <textevent timeoffset="390" message="You should be feeling pretty warmed up now. Do you have a sweat on?" locIndex="6" />
+            <textevent timeoffset="401" message="Here comes the first activation effort - notice its 30 seconds, very different to a road sprint. More of a capacity effort." locIndex="7" />
+        </Warmup>
+        <SteadyState Duration="30" Power="1.0944999" pace="8268" />
+        <SteadyState Duration="180" Power="0.50449997" pace="8268">
+            <textevent timeoffset="10" message="How was that?" locIndex="8" />
+            <textevent timeoffset="31" message="Now focus on your cadence - try and find a nice smooth rhythm" locIndex="9" />
+            <textevent timeoffset="150" message="Another sprint incoming!" locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.0944999" pace="8268" />
+        <SteadyState Duration="300" Power="0.50449997" pace="8268">
+            <textevent timeoffset="9.9999313" message="Good effort - we should be pretty warm now, with a nice sweat on?" locIndex="11" />
+            <textevent timeoffset="269" message="Are you ready for the first block of 3 efforts?" locIndex="12" />
+            <textevent timeoffset="281" message="Aim for 70-80rpm, which is a nice efficient cadence but also a cadence that you ride at a lot in mountain biking" locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="420.00003" Power="0.90449995" pace="8268">
+            <textevent timeoffset="195" message="Effort one - find your rhythm. 7 minutes at 90% of your FTP to start." locIndex="14" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="0.50449997" pace="8268" />
+        <SteadyState Duration="360.00003" Power="0.95449996" pace="8268">
+            <textevent timeoffset="76" message="Block 2 -  6 min 95%" locIndex="15" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="0.50449997" pace="8268">
+            <textevent timeoffset="43" message="" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="1.0044999" pace="8268">
+            <textevent timeoffset="63" message="Maintain a nice fluid pedalling style. In mountain biking you are often riding over loose bits of rock or slippery surfaces. " locIndex="16" />
+            <textevent timeoffset="78" message="Keeping smooth pedalling style prevents your wheel skipping and loosing traction." locIndex="17" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.50449997" pace="8268">
+            <textevent timeoffset="67" message="The next 5 minutes are super important - rest well, think of it as a downhill section before we ramp up again." locIndex="18" />
+            <textevent timeoffset="88" message="Make the most of the rest" locIndex="19" />
+        </SteadyState>
+        <SteadyState Duration="420" Power="0.90449995" pace="8268">
+            <textevent timeoffset="65" message="Block 2 underway, settle in to this first effort - 90% of FTP. The start of a long, winding dirt path" locIndex="20" />
+            <textevent timeoffset="292" message="Smooth pedalling " locIndex="21" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="0.50449997" pace="8268" />
+        <SteadyState Duration="360" Power="0.95449996" pace="8268">
+            <textevent timeoffset="13" message="6 minutes at 95% of FTP now - nice upright position as in mountain biking we climb at relatively slow speeds, so aerodynamics is not as important." locIndex="22" />
+            <textevent timeoffset="33" message="It is more important to be comfortable and able to produce max power - really using your glutes and hamstrings." locIndex="23" />
+        </SteadyState>
+        <SteadyState Duration="90" Power="0.50449997" pace="8268">
+            <textevent timeoffset="9" message="A short rest before the final effort" locIndex="24" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="1.0044999" pace="8268">
+            <textevent timeoffset="137" message="Last effort here, this time we will be riding at threshold power - 100% of our FTP. Important to nudge your FTP up to handle the long climbs." locIndex="25" />
+        </SteadyState>
+        <SteadyState Duration="600" Power="0.50449997" pace="8268">
+            <textevent timeoffset="62" message="Good job - workout 5 complete! Make sure you recover well - carbs and protein for recovery to ensure we can train again tomorrow." locIndex="26" />
+            <textevent timeoffset="355" message="See you on workout 6 - it will be fun!" locIndex="27" />
+        </SteadyState>
+    </workout>
+</workout_file>

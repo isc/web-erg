@@ -1,0 +1,61 @@
+<workout_file>
+    <uniqueId>bcd0ca3a-f775-40d4-adb1-d59de499442e</uniqueId>
+    <legacyIdHash>1879603697</legacyIdHash>
+    <author>Zwift</author>
+    <categoryOverride>Sprinting</categoryOverride>
+    <name>Week 4.1 - Taper Time</name>
+    <category>Fondo</category>
+    <subcategory>Week 4</subcategory>
+    <description>The hard work is done! It is time to TAPER! Keep your muscles firing as we back off the load to let you recover and freshen up for the big day!</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="Zwift Fondo," />
+        <tag name="taper" />
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.55449998" PowerHigh="0.75449997" pace="189">
+            <textevent timeoffset="60" message="It is the week of the BIG EVENT for all you Zwift Fondo folks!" locIndex="1" />
+            <textevent timeoffset="120" message="This week&apos;s workouts are designed to help you freshen up..." locIndex="2" />
+            <textevent timeoffset="135" message="WITHOUT leaving you feeling flat!" locIndex="3" />
+            <textevent timeoffset="180" message="A bit of uptempo and some power to keep things firing." locIndex="4" />
+            <textevent timeoffset="240" message="Let&apos;s get on to the workout!" locIndex="5" />
+        </Warmup>
+        <SteadyState Duration="270" Power="0.75449997" pace="189">
+            <textevent timeoffset="15" message="Little bit of steady state here at 75%." locIndex="6" />
+            <textevent timeoffset="180" message="Just nice and smooth here." locIndex="7" />
+            <textevent timeoffset="250" message="Getting ready to fire those legs" locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.2544999" pace="189" />
+        <SteadyState Duration="150" Power="0.65449995" pace="189">
+            <textevent timeoffset="15" message="And easy now..." locIndex="9" />
+            <textevent timeoffset="120" message="And let&apos;s bring it back up." locIndex="10" />
+        </SteadyState>
+        <SteadyState Duration="270" Power="0.80449992" pace="189">
+            <textevent timeoffset="15" message="And here we go. Little bit firmer now. Still light though." locIndex="11" />
+            <textevent timeoffset="180" message="Easy and smooth rhythm on those pedals" locIndex="12" />
+            <textevent timeoffset="250" message="and ready to make that jump..." locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.2544999" pace="189" />
+        <SteadyState Duration="150" Power="0.65449995" pace="189">
+            <textevent timeoffset="15" message="And easy now. Spin it out." locIndex="14" />
+            <textevent timeoffset="120" message="And one more round to go..." locIndex="15" />
+        </SteadyState>
+        <SteadyState Duration="270" Power="0.85449994" pace="189">
+            <textevent timeoffset="15" message="Last one so right up to 85%" locIndex="16" />
+            <textevent timeoffset="180" message="And nice strong tempo here..." locIndex="17" />
+            <textevent timeoffset="250" message="Ready to jump..." locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.25" pace="189" />
+        <IntervalsT Repeat="4" OnDuration="150" OffDuration="150" OnPower="0.55449998" OffPower="0.90449995" pace="189">
+            <textevent timeoffset="15" message="Nice and light on this one..." locIndex="19" />
+            <textevent timeoffset="222" message="Steady intervals here in the sub-threshold zone keeping the legs firing." locIndex="20" />
+            <textevent timeoffset="815" message="Let&apos;s bring the power back on now." locIndex="21" />
+            <textevent timeoffset="964" message="And a touch of recovery here." locIndex="22" />
+            <textevent timeoffset="1114" message="And last one here. Make it a good one!" locIndex="23" />
+        </IntervalsT>
+        <Cooldown Duration="300" PowerLow="0.55449998" PowerHigh="0.2545" pace="189">
+            <textevent timeoffset="30" message="Great work. Cooling down now. Keep the legs up if you can this week." locIndex="24" />
+            <textevent timeoffset="180" message="Looking forward to a great day on Sunday! #RideOn" locIndex="25" />
+        </Cooldown>
+    </workout>
+</workout_file>

@@ -46,3 +46,8 @@ main.container {
   gap: 1rem;
   align-items: end;
 }
+
+.library-content {
+  max-height: 60vh;
+  overflow-y: auto;
+}

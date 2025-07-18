@@ -1,0 +1,126 @@
+<workout_file>
+    <uniqueId>855f834b-0a51-4e7e-8097-4fc2b136a7d9</uniqueId>
+    <legacyIdHash>3651990670</legacyIdHash>
+    <author>Shayne Gaffney</author>
+    <categoryOverride>Sprinting</categoryOverride>
+    <name>The Swift</name>
+    <activitySaveName>INEOS Grenadiers Virtual Training Camp | The Swift</activitySaveName>
+    <description>Sprinter Ben Swift can generate massive power at the end of a long race to beat almost anyone to the line. To develop that kind of explosive power, you need to accelerate against resistance—which means starting out going slow in a big gear and powering up to high speed. Today&apos;s workout intervals will feature exactly that!</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="ineos2021" />
+    </tags>
+    <category>INEOS Grenadiers Virtual Training Camp</category>
+    <categoryIndex>8</categoryIndex>
+    <overrideHash>3651990670</overrideHash>
+    <visibleAfterTime>1642982460</visibleAfterTime>
+    <workout>
+        <Warmup Duration="480" PowerHigh="0.75" PowerLow="0.5">
+            <textevent timeoffset="0" message="Welcome to the INEOS Grenadiers Virtual Training Camp!" />
+            <textevent timeoffset="10" message="Let&apos;s get started with an easy warm-up. Keep your cadence comfortable." />
+            <textevent timeoffset="60" message="The INEOS Grenadiers is one of the world&apos;s most successful cycling teams." />
+            <textevent timeoffset="70" message="The team has a thirst for a good challenge and a pioneering spirit that allows them to keep pushing themselves and the wider sport of cycling forward." />
+            <textevent timeoffset="120" message="The INEOS Grenadiers Virtual Training Camp gives Zwifters a taste of the training riders undertake preparing for their season." />
+            <textevent timeoffset="130" message="Each workout features a team rider and is tailored to what they would do in their own training." />
+            <textevent timeoffset="140" message="Today&apos;s workout features Ben Swift, 2x British National Road Race Champion." />
+            <textevent timeoffset="150" message="Ben says &apos;The hardest thing about this workout is the intensity - with short hard blasts and limited recovery, the session becomes more demanding with time.&apos;" />
+            <textevent timeoffset="180" message="&apos;Swifty,&apos; as he&apos;s more affectionately known, is a great climber and sprinter." />
+            <textevent timeoffset="190" message="He possesses an uncanny ability to be able to outsprint most riders at the end of a long race." />
+            <textevent timeoffset="240" message="To develop that kind of explosive power, you need to accelerate against resistance..." />
+            <textevent timeoffset="250" message="which means starting out going slow in a big gear before powering up to high speed." />
+            <textevent timeoffset="260" message="Today&apos;s workout intervals will feature exactly that!" />
+            <textevent timeoffset="420" message="1min to go here, then we&apos;ll do a couple of short leg primers." />
+            <textevent timeoffset="430" message="Leg primers ensure the legs are awake and ready to rock!" />
+            <textevent timeoffset="470" message="Okay, start to bring up your cadence here and get ready for a big surge in effort." />
+        </Warmup>
+        <IntervalsT Repeat="1" OnDuration="15" OnPower="1.2" OffDuration="45" OffPower="0.55">
+            <textevent timeoffset="0" message="GO GO GO!" />
+            <textevent timeoffset="15" message="Great effort! Let&apos;s take it easy for a bit now before repeating." />
+            <textevent timeoffset="50" message="Okay, going up a bit higher in intensity this time—get ready!" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="15" OnPower="1.5" OffDuration="105" OffPower="0.55">
+            <textevent timeoffset="0" message="DIG FOR IT!" />
+            <textevent timeoffset="15" message="Excellent! Let&apos;s take a slightly longer rest now before we do an ALL-OUT effort." />
+            <textevent timeoffset="45" message="The last primer is going to be in &apos;Free Ride&apos; mode, which means you&apos;ll use your gears." />
+            <textevent timeoffset="55" message="Get into a moderate-to-hard gear now, and get ready to PUSH!" />
+            <textevent timeoffset="110" message="Get ready!" />
+        </IntervalsT>
+        <FreeRide Duration="10" FlatRoad="1">
+            <textevent timeoffset="0" message="ALL OUT!" />
+        </FreeRide>
+        <SteadyState Duration="220" Power="0.55">
+            <textevent timeoffset="0" message="Excellent!" />
+            <textevent timeoffset="10" message="Let&apos;s take it nice and easy now and get ready for the main set." />
+            <textevent timeoffset="20" message="We have five sprint efforts coming up, all starting from a slow cadence." />
+            <textevent timeoffset="90" message="Deep breaths here and have a few sips of fluid." />
+            <textevent timeoffset="100" message="Ben likes training on Zwift because of the &apos;various tools to keep users engaged.&apos;" />
+            <textevent timeoffset="110" message="&apos;Personally, I enjoy trying the new courses on the platform and collecting the badges as I go.&apos;" />
+            <textevent timeoffset="180" message="Okay, up next is our first sprint. I want you to start these at around 70 RPM..." />
+            <textevent timeoffset="190" message="and accelerate HARD up to 110+ RPM over the course of the 20sec." />
+            <textevent timeoffset="200" message="These will all be done in &apos;Free Ride&apos; mode. Feel free to sit or stand for these—your choice." />
+            <textevent timeoffset="210" message="Here we go, slow your cadence down to around 70 RPM and get ready to surge." />
+        </SteadyState>
+        <FreeRide Duration="20" FlatRoad="1">
+            <textevent timeoffset="0" message="Accelerate that gear up!" />
+            <textevent timeoffset="10" message="Keep building the cadence! ALL OUT!" />
+        </FreeRide>
+        <SteadyState Duration="220" Power="0.55">
+            <textevent timeoffset="0" message="Great effort! Take it down here and let&apos;s recover." />
+            <textevent timeoffset="60" message="These types of sprint efforts are great for improving the way you generate torque." />
+            <textevent timeoffset="70" message="This is important to get up to speed as quickly as possible." />
+            <textevent timeoffset="120" message="Before a race, getting ready is a key aspect for Swifty." />
+            <textevent timeoffset="130" message="&apos;I&apos;m not sure if this is out of habit or superstition, but I tend to follow an order of getting ready once I am on the bus.&apos;" />
+            <textevent timeoffset="140" message="&apos;Rearrange my area, pin my numbers on and generally put the kit on in the same order.&apos;" />
+            <textevent timeoffset="180" message="Okay, just a little longer and we&apos;re back on for the second rep." />
+            <textevent timeoffset="210" message="Slow your cadence down again and get ready to SURGE!" />
+        </SteadyState>
+        <FreeRide Duration="20" FlatRoad="1">
+            <textevent timeoffset="0" message="Accelerate that gear up!" />
+            <textevent timeoffset="10" message="Keep building the cadence! ALL OUT!" />
+        </FreeRide>
+        <SteadyState Duration="220" Power="0.55">
+            <textevent timeoffset="0" message="You are doing incredible today! Swifty would be proud." />
+            <textevent timeoffset="10" message="Let&apos;s take it nice and easy again here—have a drink." />
+            <textevent timeoffset="120" message="Swift also excels on the track and won the scratch race at the 2012 UCI Track Cycling World Championships." />
+            <textevent timeoffset="200" message="Get ready to go!" />
+        </SteadyState>
+        <FreeRide Duration="20" FlatRoad="1">
+            <textevent timeoffset="0" message="Accelerate that gear up!" />
+            <textevent timeoffset="10" message="Keep building the cadence! ALL OUT!" />
+        </FreeRide>
+        <SteadyState Duration="220" Power="0.55">
+            <textevent timeoffset="0" message="Great work! Just two more to go!" />
+            <textevent timeoffset="120" message="Swifty is also well known as a lead-out man." />
+            <textevent timeoffset="130" message="This means he cuts through the pack and keeps the speed high for his team&apos;s sprinter." />
+            <textevent timeoffset="140" message="A hard job for sure." />
+            <textevent timeoffset="210" message="Start to slow that cadence down." />
+        </SteadyState>
+        <FreeRide Duration="20" FlatRoad="1">
+            <textevent timeoffset="0" message="Accelerate that gear back up!" />
+            <textevent timeoffset="10" message="Keep building the cadence! ALL OUT!" />
+        </FreeRide>
+        <SteadyState Duration="220" Power="0.55">
+            <textevent timeoffset="0" message="Woot woot! Are you feeling more comfortable accelerating the gear up from a slow cadence?" />
+            <textevent timeoffset="10" message="This is just one of the things that makes a great sprinter." />
+            <textevent timeoffset="120" message="Deep breaths in and breathe out slowly through pursed lips." />
+            <textevent timeoffset="180" message="Okay, last rep starts soon! Last rep is always the best rep, as you know :-)" />
+            <textevent timeoffset="210" message="Start to slow the cadence down for the last time." />
+        </SteadyState>
+        <FreeRide Duration="20" FlatRoad="1">
+            <textevent timeoffset="0" message="Accelerate that gear up!" />
+            <textevent timeoffset="10" message="Keep building the cadence! ALL OUT!" />
+        </FreeRide>
+        <Cooldown Duration="300" PowerHigh="0.35" PowerLow="0.55">
+            <textevent timeoffset="0" message="Woo! Amazing work there, my friend." />
+            <textevent timeoffset="10" message="We&apos;ll take some time to cool down now—you&apos;ve earned it!" />
+            <textevent timeoffset="60" message="Deep breaths here, get yourself back to baseline again." />
+            <textevent timeoffset="90" message="Ben&apos;s recovery tip: &apos;Rest days are one of the most important aspects of training,&apos;" />
+            <textevent timeoffset="100" message="&apos;it is where you absorb all the work that you have done and refreshes you for the next block.&apos;" />
+            <textevent timeoffset="120" message="Be sure to check out the other INEOS Grenadiers Training Camp Workouts." />
+            <textevent timeoffset="130" message="They&apos;re all available on-demand and will fit any intensity you&apos;re looking for." />
+            <textevent timeoffset="240" message="Final minute of the day here, thanks for all your hard work!" />
+            <textevent timeoffset="250" message="I hope you enjoyed the workout and will come back for more soon." />
+            <textevent timeoffset="290" message="Until next time, Ride On!" />
+        </Cooldown>
+    </workout>
+</workout_file>

@@ -1,0 +1,85 @@
+<workout_file>
+    <uniqueId>e10de646-ba78-4f1a-988f-91d6d8231b41</uniqueId>
+    <legacyIdHash>4202954850</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Cruise Intervals #6</name>
+    <description>Today&apos;s session consists of three long cruise intervals. However, each long interval includes a short surge to begin the effort and mid way through. Being able to return to threshold power after surging is an important aspect of fitness. Focus on controlled breathing and pedaling at a cadence similar to your time trial cadence.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>TT Tune Up</category>
+    <subcategory>Week 8</subcategory>
+    <tags>
+    </tags>
+    <workout>
+        <Warmup Duration="180" PowerLow="0.45" PowerHigh="0.6">
+            <textevent timeoffset="30" message="Our warm up gradually ramps up to a 1min Zone 5 effort." locIndex="1" />
+        </Warmup>
+        <SteadyState Duration="60" Power="0.6" />
+        <SteadyState Duration="60" Power="0.65" />
+        <SteadyState Duration="60" Power="0.81">
+            <textevent timeoffset="50" message="Ready for the 1min Zone 5 effort." locIndex="2" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.09" />
+        <SteadyState Duration="120" Power="0.5">
+            <textevent timeoffset="100" message="To complete the warm up we now perform a 4min threshold effort." locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.9" />
+        <SteadyState Duration="180" Power="0.5">
+            <textevent timeoffset="20" message="Now for the &apos;Cruise&apos; intervals." locIndex="4" />
+            <textevent timeoffset="30" message="However, the 10min efforts are begun with a 20sec high intensity acceleration. " locIndex="5" />
+            <textevent timeoffset="40" message="And midway through the effort there is another high intensity acceleration." locIndex="6" />
+            <textevent timeoffset="100" message="Over the course of the 3 x 10min efforts, the target power decreases." locIndex="7" />
+            <textevent timeoffset="120" message="Will the 3rd effort feel easier than the 1st?" locIndex="8" />
+            <textevent timeoffset="170" message="Here we go... 20sec acceleration." locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.25" />
+        <SteadyState Duration="280" Power="1.04">
+            <textevent timeoffset="20" message="Now settle into your threshold effort." locIndex="10" />
+            <textevent timeoffset="40" message="Maintain the same cadence throughout the threshold portion." locIndex="11" />
+            <textevent timeoffset="270" message="Ready to accelerate again." locIndex="12" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.25" />
+        <SteadyState Duration="280" Power="1.04">
+            <textevent timeoffset="20" message="Back into your threshold effort." locIndex="13" />
+            <textevent timeoffset="40" message="How do the legs feel?" locIndex="14" />
+            <textevent timeoffset="140" message="Is your cadence the same as earlier?" locIndex="15" />
+        </SteadyState>
+        <SteadyState Duration="135" Power="0.5">
+            <textevent timeoffset="30" message="Just a short rest period before we do it again." locIndex="16" />
+            <textevent timeoffset="110" message="Target threshold power is a little lower this time." locIndex="17" />
+            <textevent timeoffset="125" message="Here we go... 20sec acceleration." locIndex="18" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.25" />
+        <SteadyState Duration="280" Power="0.99">
+            <textevent timeoffset="20" message="Now settle into your threshold effort." locIndex="19" />
+            <textevent timeoffset="40" message="Maintain the same cadence throughout the threshold portion." locIndex="20" />
+            <textevent timeoffset="270" message="Ready to accelerate again." locIndex="21" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.25" />
+        <SteadyState Duration="280" Power="0.99">
+            <textevent timeoffset="20" message="Back into your threshold effort." locIndex="22" />
+            <textevent timeoffset="40" message="How do the legs feel?" locIndex="23" />
+            <textevent timeoffset="140" message="Is your cadence the same as earlier?" locIndex="24" />
+        </SteadyState>
+        <SteadyState Duration="135" Power="0.5">
+            <textevent timeoffset="30" message="Just a short rest period before we do it again." locIndex="25" />
+            <textevent timeoffset="110" message="Target threshold power is a little lower this time." locIndex="26" />
+            <textevent timeoffset="125" message="Here we go... 20sec acceleration." locIndex="27" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.25" />
+        <SteadyState Duration="280" Power="0.94">
+            <textevent timeoffset="20" message="Now settle into your threshold effort." locIndex="28" />
+            <textevent timeoffset="40" message="Maintain the same cadence throughout the threshold portion." locIndex="29" />
+            <textevent timeoffset="270" message="Ready to accelerate again." locIndex="30" />
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.25" />
+        <SteadyState Duration="280" Power="0.94">
+            <textevent timeoffset="140" message="Is your HR dropping with the decreased threshold power?" locIndex="31" />
+        </SteadyState>
+        <SteadyState Duration="135" Power="0.5">
+            <textevent timeoffset="110" message="Well done. Great session." locIndex="32" />
+            <textevent timeoffset="125" message="Cool down now." locIndex="33" />
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow="0.7" PowerHigh="0.45" />
+    </workout>
+</workout_file>

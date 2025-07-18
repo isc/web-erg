@@ -1,0 +1,138 @@
+<workout_file>
+    <uniqueId>c722eaf9-d180-4c25-a43a-90bf31c24453</uniqueId>
+    <legacyIdHash>3616638833</legacyIdHash>
+    <author>Matt Rowe</author>
+    <categoryOverride>Endurance</categoryOverride>
+    <name>Week 1.1 - Back to Basics</name>
+    <description>This is the very first session of the Dirt Destroyer, which takes us back to basics and focuses on developing your endurance and aerobic conditioning which are fundamental attributes for anyone looking to train hard, hold their form and perform in a mountain bike event.
+
+We are going to push ourselves right up to our threshold, by completing 6 efforts, split in to two blocks of 3 efforts (85%, 95% and 100% of our FTP). The first effort within each block alternates between your chosen cadence and a low cadence of 65rpm. As the intensity of each effort goes up, the volume goes down!
+You&apos;re going to need to use a Cadence Sensor to make the most of these workouts
+    </description>
+    <sportType>bike</sportType>
+    <category>Dirt Destroyer</category>
+    <subcategory>Week 1</subcategory>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <tags />
+    <workout>
+        <Warmup Duration="420.00003" PowerLow="0.43673915" PowerHigh="0.74978262" pace="0">
+            <textevent timeoffset="10" message="Welcome to the Dirt Destroyer Intermediate Level Training plan" locIndex="1" />
+            <textevent timeoffset="20" message="The Dirt Destroyer is designed to get you ready to rip the trails, whatever it throws at you." locIndex="2" />
+            <textevent timeoffset="30" message="Don&apos;t let the &quot;Intermediate&quot; level fool you. Riding off-road is tough, so be prepared ." locIndex="3" />
+            <textevent timeoffset="40" message="Over the next 6 weeks, the Dirt Destroyer will focus on developing your endurance and aerobic conditioning." locIndex="4" />
+            <textevent timeoffset="50" message="All whilst getting you accustomed to the low cadence and high torque pedalling that comes with MTBing." locIndex="5" />
+            <textevent timeoffset="60" message="That means slow pedalling and having to push real hard, just like hitting a steep incline." locIndex="6" />
+            <textevent timeoffset="80" message="This training plan primarily focuses on the demands required for XCO racing. But not limited to." locIndex="7" />
+            <textevent timeoffset="90" message="But what does XCO mean?" locIndex="8" />
+            <textevent timeoffset="95" message="A. Cross Country Open, B. Cross Country Olympic, C. Cross Country Marathon." locIndex="9" />
+            <textevent timeoffset="105" message="If you guessed C. Cross Country Marathon, you were wrong :) that&apos;s &quot;XCM&quot;." locIndex="10" />
+            <textevent timeoffset="125" message="XCO stands for Cross Country Olympic - the only Olympic mtb event which usually lasts around 90mins." locIndex="11" />
+            <textevent timeoffset="135" message="It&apos;s also the most popular race format for local XC racing." locIndex="12" />
+            <textevent timeoffset="160" message="We have a nice progressive warm up to start, with some 30second activation efforts to get us ready for the session. " locIndex="13" />
+            <textevent timeoffset="170" message="This is a fairly standard warm up - hitting all the right notes." locIndex="14" />
+            <textevent timeoffset="211" message="During todays Back to Basics session, we ride just under and at threshold, where we realize similar aerobic benefits to a long endurance ride" locIndex="15" />
+            <textevent timeoffset="390" message="You should be feeling pretty warmed up now. Do you have a sweat on?" locIndex="16" />
+            <textevent timeoffset="401" message="Here comes the first activation effort - notice its 30 seconds, very different to a road sprint. More of a capacity effort." locIndex="17" />
+        </Warmup>
+        <SteadyState Duration="30.000002" Power="1.0944999" pace="0" />
+        <SteadyState Duration="180.00002" Power="0.50449997" pace="0">
+            <textevent timeoffset="10" message="How was that?" locIndex="18" />
+            <textevent timeoffset="31" message="Now focus on your cadence - try and find a nice smooth rhythm" locIndex="19" />
+            <textevent timeoffset="170" message="Another sprint incoming!" locIndex="20" />
+        </SteadyState>
+        <SteadyState Duration="30.000002" Power="1.0944999" pace="0" />
+        <SteadyState Duration="300" Power="0.50449997" pace="0">
+            <textevent timeoffset="9.9999313" message="Good effort - we should be pretty warm now, with a nice sweat on." locIndex="21" />
+            <textevent timeoffset="25" message="Feel free to stand up to grind through these low cadence efforts anytime through out the Dirt Destroyer" locIndex="22" />
+            <textevent timeoffset="35" message="But remember, out on the trails, this change of weight distribution could mean a loss of rear wheel traction" locIndex="23" />
+            <textevent timeoffset="45" message="On a steep climb, this is the difference between getting to the top or stalling out from a wheel slip" locIndex="24" />
+            <textevent timeoffset="55" message="You&apos;ll very likely come to a complete stop, put foot down, and maybe have to push to the top" locIndex="25" />
+            <textevent timeoffset="65" message="Maintaining momentum is really important off road. Only look to stand up if you know it&apos;s not energy wasted" locIndex="26" />
+            <textevent timeoffset="100" message="Try to complete these low cadence efforts seated. This is where you will make the most strength gains" locIndex="27" />
+            <textevent timeoffset="269" message="Are you ready for the first block of 3 efforts?" locIndex="28" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.85449994" pace="0" Cadence="85">
+            <textevent timeoffset="19" message="Effort two - find your rhythm. 8 minutes at 90% of your FTP &quot;Functioning Threshold Power&quot;," locIndex="29" />
+            <textevent timeoffset="26" message="to start alternating between your chosen cadence and 65rpm. Using a cadence sensor will make this easier" locIndex="30" />
+            <textevent timeoffset="35" message="IF you don&apos;t have a Cadence sensor try to count. " locIndex="31" />
+            <textevent timeoffset="44" message="Remember, 1 complete pedal rotation per second = 60rpm &quot;revolutions per minute&quot; " locIndex="32" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.85449994" pace="0" Cadence="65" />
+        <textevent timeoffset="9" message="65rpm. This should feel really slow. Just like grinding up a dirt climb" locIndex="33" />
+        <SteadyState Duration="60" Power="0.85449994" pace="0" />
+        <textevent timeoffset="9" message="Now pedal at a comfortable cadence that feels normal to you ." locIndex="34" />
+        <SteadyState Duration="60" Power="0.85449994" pace="0" Cadence="65" />
+        <textevent timeoffset="9" message="Grind, Grind, Grind" locIndex="35" />
+        <SteadyState Duration="60" Power="0.85449994" pace="0" />
+        <textevent timeoffset="9" message="Spin it back up to something more normal again" locIndex="36" />
+        <SteadyState Duration="60" Power="0.85449994" pace="0" Cadence="65" />
+        <textevent timeoffset="9" message="How does the change of cadence feel?" locIndex="37" />
+        <textevent timeoffset="19" message="How much does it differ from your preferred cadence?" locIndex="38" />
+        <SteadyState Duration="60" Power="0.85449994" pace="0" />
+        <textevent timeoffset="9" message="You can think of these cadence changes as undulations in terrain" locIndex="39" />
+        <SteadyState Duration="60" Power="0.85449994" pace="0" Cadence="65" />
+        <textevent timeoffset="9" message="One last steady pedal mash" locIndex="40" />
+        <SteadyState Duration="90.000008" Power="0.50449997" pace="0" />
+        <textevent timeoffset="9" message="We&apos;ve hit some downhill. Take it easy and focus on recovery as you prepare for the next effort" locIndex="41" />
+        <SteadyState Duration="300" Power="0.95449996" pace="0">
+            <textevent timeoffset="06" message="5 min at 95% FTP wont be easy but you can do it" locIndex="42" />
+        </SteadyState>
+        <SteadyState Duration="90.000008" Power="0.50449997" pace="0">
+            <textevent timeoffset="05" message="Make the most of this recovery" locIndex="43" />
+            <textevent timeoffset="43" message="The first tough 3min block at 100% FTP is coming up " locIndex="44" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="1.0044999" pace="0">
+            <textevent timeoffset="10" message="Maintain a nice fluid pedaling style. In mountain biking you are often riding over loose bits of rock or slippery surfaces. " locIndex="45" />
+            <textevent timeoffset="25" message="Keeping a smooth pedaling style prevents your wheel skipping and loosing traction." locIndex="46" />
+            <textevent timeoffset="35" message="just like the traction control system on a 4x4 car managing the terrain" locIndex="47" />
+            <textevent timeoffset="45" message="By being smooth when pedaling hard your chances of erratic power bursts are less likely." locIndex="48" />
+            <textevent timeoffset="98" message="It doesn&apos;t matter how strong you are if you can&apos;t apply that power to the dirt." locIndex="49" />
+            <textevent timeoffset="170" message="Top of the fire-road is in sight. Singletrack awaits." locIndex="50" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.50449997" pace="0">
+            <textevent timeoffset="09" message="The next 5 minutes are super important - rest well, think of it as a downhill section before we ramp up again. Make the most of the rest" locIndex="51" />
+            <textevent timeoffset="24" message="Focus on deep slow breaths to bring your heart rate back down" locIndex="52" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.85449994" pace="0" Cadence="85">
+            <textevent timeoffset="05" message="Effort two - find your rhythm." locIndex="53" />
+            <textevent timeoffset="19" message="8 minutes at 90% of you&apos;re FTP to start, alternating between your chosen cadence and 65rpm." locIndex="54" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.85449994" pace="0" Cadence="65" />
+        <textevent timeoffset="5" message="Here we go again." locIndex="55" />
+        <textevent timeoffset="17" message="Just like the first time but now we&apos;re a little more fatigued" locIndex="56" />
+        <textevent timeoffset="29" message="Let&apos;s see how the effort compares this time around" locIndex="57" />
+        <SteadyState Duration="60" Power="0.85449994" pace="0" />
+        <textevent timeoffset="5" message="Find that comfortable cadence and try to keep a good rhythm." locIndex="58" />
+        <SteadyState Duration="60" Power="0.85449994" pace="0" Cadence="65" />
+        <textevent timeoffset="5" message="3 more to go." locIndex="59" />
+        <SteadyState Duration="60" Power="0.85449994" pace="0" />
+        <SteadyState Duration="60" Power="0.85449994" pace="0" Cadence="65" />
+        <SteadyState Duration="60" Power="0.85449994" pace="0" />
+        <SteadyState Duration="60" Power="0.85449994" pace="0" Cadence="65" />
+        <textevent timeoffset="5" message="Last time. How did it feel?" locIndex="60" />
+        <SteadyState Duration="90.000008" Power="0.50449997" pace="0" />
+        <textevent timeoffset="5" message="Quick double-track descent. You&apos;re a little more fatigued now but try to recover as much as possible ." locIndex="61" />
+        <SteadyState Duration="300" Power="0.95449996" pace="0">
+            <textevent timeoffset="04" message="5 minutes at 95% of FTP now - nice upright position." locIndex="62" />
+            <textevent timeoffset="17" message="In mountain biking we climb at relatively slow speeds, so aerodynamics is not as important." locIndex="63" />
+            <textevent timeoffset="30" message="It is more important to be comfortable and able to produce max power," locIndex="64" />
+            <textevent timeoffset="35" message="really engaging your glutes and hamstrings." locIndex="65" />
+        </SteadyState>
+        <SteadyState Duration="90.000008" Power="0.50449997" pace="0">
+            <textevent timeoffset="9" message="A short rest before the final effort" locIndex="66" />
+            <textevent timeoffset="20" message="This time we will be riding at threshold power - 100% of our FTP." locIndex="67" />
+            <textevent timeoffset="30" message="Riding at this power will develop your ability to handle long climbs." locIndex="68" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="1.0044999" pace="0">
+            <textevent timeoffset="05" message="Here we go. You got this." locIndex="69" />
+            <textevent timeoffset="50" message="Big deep breaths go a long way. Keep digging" locIndex="70" />
+        </SteadyState>
+        <SteadyState Duration="600" Power="0.50449997" pace="0">
+            <textevent timeoffset="10" message="Good job!" locIndex="71" />
+            <textevent timeoffset="25" message="That&apos;s the first Dirt Destroyer workout finished." locIndex="72" />
+            <textevent timeoffset="62" message="Make sure you recover well - carbs and protein for recovery to ensure we can train again next time." locIndex="73" />
+            <textevent timeoffset="80" message="It&apos;s worth planning out when to train each week - planning is key!" locIndex="74" />
+            <textevent timeoffset="80" message="See the training plan all the way through, and you&apos;ll very likely be destroying the dirt!" locIndex="75" />
+        </SteadyState>
+    </workout>
+</workout_file>

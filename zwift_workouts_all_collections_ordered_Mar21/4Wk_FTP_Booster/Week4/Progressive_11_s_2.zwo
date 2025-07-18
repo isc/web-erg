@@ -1,0 +1,51 @@
+<workout_file>
+    <uniqueId>811192f5-6388-4d95-8945-c095759a0bfd</uniqueId>
+    <legacyIdHash>2583776891</legacyIdHash>
+    <author>Zwift</author>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>4wk FTP Booster</category>
+    <subcategory>Week 4</subcategory>
+    <name>Week 4.1 - Progressive 11&apos;s #2</name>
+    <description>Building upon your earlier &apos;Progressive&apos; interval session, this time we are increasing the time spent at threshold during the progressive steps.
+
+Once again finishing with a steady 10min threshold effort.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="4weekftp" />
+    </tags>
+    <workout>
+        <SteadyState Duration="180" Power="0.50449997" />
+        <IntervalsT Repeat="2" OnDuration="60" OffDuration="60" OnPower="0.75449997" OffPower="0.50449997" Cadence="90" CadenceResting="80" />
+        <IntervalsT Repeat="2" OnDuration="60" OffDuration="60" OnPower="0.90449995" OffPower="0.50449997" Cadence="90" CadenceResting="80" />
+        <SteadyState Duration="180" Power="0.50449997">
+            <textevent timeoffset="150" message="Starting at a comfortable..." locIndex="1" />
+            <textevent timeoffset="165" message="tempo intensity." locIndex="2" />
+            <textevent timeoffset="165" message="tempo intensity." locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.83449996" Cadence="95">
+            <textevent timeoffset="225" message="Ready to lift power." locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.98449993" Cadence="90">
+            <textevent timeoffset="285" message="Into the final 1min" locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.0944999" Cadence="90" />
+        <SteadyState Duration="300" Power="0.50449997">
+            <textevent timeoffset="280" message="Same power steps again." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.83449996" Cadence="95">
+            <textevent timeoffset="224" message="Focus on controlled breathing" locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.98449993" Cadence="90">
+            <textevent timeoffset="279" message="Last 1min effort coming up." locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.0944999" Cadence="90" />
+        <SteadyState Duration="300" Power="0.50449997">
+            <textevent timeoffset="236" message="Now a steady threshold effort." locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="600" Power="0.95449996" Cadence="90">
+            <textevent timeoffset="29" message="Find your rhythm early." locIndex="10" />
+            <textevent timeoffset="480" message="2min to go!" locIndex="11" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.50449997" />
+    </workout>
+</workout_file>

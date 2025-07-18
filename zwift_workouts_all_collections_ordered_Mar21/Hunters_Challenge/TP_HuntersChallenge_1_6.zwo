@@ -1,0 +1,20 @@
+<workout_file>
+    <uniqueId>c5c227b1-79f2-4289-8636-31c8b83ab526</uniqueId>
+    <legacyIdHash>1980070726</legacyIdHash>
+    <category>Hunter&apos;s Challenge</category>
+    <subcategory>Week 1</subcategory>
+    <name>Week 1.6 - Tractor Pulls!</name>
+    <description>Tractor Pulls help to build muscular strength and even improve your sprint! Make sure to slowly get into this gear, so start at less than 8mph, keep your hands in the drops, tighten your abdominals and stay seated for the entire interval. ONLY start the 30 second clock once you are in the gear and actually controlled and rolling smooth. Your cadence should be 40-50 RPM when you start and around 95rpm when you stop. This is about strength, not speed.</description>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <workout>
+        <Warmup PowerLow="0.55" PowerHigh="0.72" Duration="600" />
+        <SteadyState Duration="300" Power="0.95" CadenceLow="80" CadenceHigh="100" />
+        <SteadyState Duration="300" Power="0.72" />
+        <IntervalsT OnDuration="30" OffDuration="60" OnPower="0.95" OffPower="0.95" OverUnder="1" Repeat="6" Cadence="55" CadenceResting="90" />
+        <SteadyState Duration="300" Power="0.72" />
+        <IntervalsT OnDuration="60" OffDuration="60" OnPower="1.14" OffPower="0.95" OverUnder="1" Repeat="10" Cadence="55" CadenceResting="90" />
+        <SteadyState Duration="300" Power="0.72" />
+        <IntervalsT OnDuration="60" OffDuration="60" OnPower="0.87" OffPower="0.72" OverUnder="1" Repeat="6" Cadence="55" CadenceResting="90" />
+        <Cooldown PowerLow="0.72" PowerHigh=".55" Duration="900" />
+    </workout>
+</workout_file>

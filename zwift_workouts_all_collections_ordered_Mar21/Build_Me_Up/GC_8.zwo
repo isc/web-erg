@@ -1,0 +1,106 @@
+<workout_file>
+    <uniqueId>1c62f5f9-11d5-42ce-84b5-13f9f05280d7</uniqueId>
+    <legacyIdHash>3339444622</legacyIdHash>
+    <author>Shayne Gaffney | GC Coaching</author>
+    <categoryOverride>VO2 Max</categoryOverride>
+    <name>#8</name>
+    <description>Named for the atomic number of Oxygen, this VO2 workout is all about what will be in short supply. Twice through a block of intervals up above threshold power will have you wishing for some extra O2, but you&apos;ll have to wait until the cool down to get it. Though there is a nice Zone 2 break between blocks of Z5 intervals where you can grab a little bit of extra air in your lungs.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Build Me Up</category>
+    <subcategory>Week 5</subcategory>
+    <tags>
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.25" PowerHigh="0.75">
+            <textevent timeoffset="0" message="Welcome, friend!  Let&apos;s get started with a warm-up..." locIndex="1" />
+            <textevent timeoffset="10" message="...Ideal cadence here is 85-95 RPM, but do whatever is comfortable for you!" locIndex="2" />
+            <textevent timeoffset="180" message="3 minutes in, bring up that cadence to ~95 RPM if you aren&apos;t already there.  Get those legs ready to work!" locIndex="3" />
+            <textevent timeoffset="300" message="Halfway through the warm-up, Let&apos;s talk a bit about today&apos;s workout..." locIndex="4" />
+            <textevent timeoffset="540" message="Last minute...Next up, we are going to do 3 &quot;leg primer&quot; efforts..." locIndex="5" />
+            <textevent timeoffset="550" message="...These primers prepare the muscles for the work that lies ahead..." locIndex="6" />
+            <textevent timeoffset="560" message="...The first one is @95 RPM @95% FTP, #2 @105 RPM @105% FTP, and #3 @115 RPM @115% FTP :-)" locIndex="7" />
+            <textevent timeoffset="590" message="Get ready..." locIndex="8" />
+            <textevent timeoffset="310" message="...Today we are beginning our work at improving your VO2 Max by working at 115% FTP..." locIndex="9" />
+            <textevent timeoffset="320" message="...Improving your VO2 Max will increase your ability to use oxygen..." locIndex="10" />
+            <textevent timeoffset="330" message="...This matters because the more oxygen you can utilize, the more energy you can produce..." locIndex="11" />
+            <textevent timeoffset="340" message="...Similar to putting a larger air intake into a car engine.  We are getting better burn rate for the fuel we put in!" locIndex="12" />
+            <textevent timeoffset="350" message="...VO2 Max training is VERY intense, so expect this workout to feel a lot different from your previous workouts :-)" locIndex="13" />
+        </Warmup>
+        <IntervalsT Repeat="1" OnDuration="30" OffDuration="30" OnPower="0.95" OffPower="0.5" Cadence="95" CadenceResting="85">
+            <textevent timeoffset="0" message="All right, keep that cadence right around 95 RPM, but with a little more effort." locIndex="14" />
+            <textevent timeoffset="30" message="Great work, now bring the effort and cadence back down." locIndex="15" />
+            <textevent timeoffset="50" message="In 10 seconds, 105 RPM @105% FTP." locIndex="16" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="30" OffDuration="30" OnPower="1.05" OffPower="0.5" Cadence="105" CadenceResting="85">
+            <textevent timeoffset="0" message="Little faster feet now...Increase that effort!" locIndex="17" />
+            <textevent timeoffset="30" message="Excellent!  Bring the effort and cadence back down." locIndex="18" />
+            <textevent timeoffset="50" message="In 10 seconds, 115 RPM @115% FTP...HUP HUP HUP!" locIndex="19" />
+        </IntervalsT>
+        <IntervalsT Repeat="1" OnDuration="30" OffDuration="30" OnPower="1.15" OffPower="0.5" Cadence="115" CadenceResting="85">
+            <textevent timeoffset="0" message="Let&apos;s go! Increase that effort!" locIndex="20" />
+            <textevent timeoffset="30" message="Bring the effort and cadence back down...Let&apos;s take a longer rest now and get ready for the main set." locIndex="21" />
+        </IntervalsT>
+        <SteadyState Duration="120" Power="0.5" Cadence="85">
+            <textevent timeoffset="30" message="Deep breaths...Mentally prepare yourself...Know YOU CAN DO THIS!" locIndex="22" />
+            <textevent timeoffset="90" message="I want your cadence to stay high during these VO2 efforts today - Aim for 100-110 RPM..." locIndex="23" />
+            <textevent timeoffset="100" message="...Really make these hard on your aerobic system to achieve what we&apos;re after here - Improved oxygen utilization!" locIndex="24" />
+            <textevent timeoffset="110" message="Ready?  Start to spin that gear up." locIndex="25" />
+        </SteadyState>
+        <IntervalsT Repeat="3" OnDuration="120" OffDuration="180" OnPower="1.15" OffPower="0.5" Cadence="105" CadenceResting="85">
+            <textevent timeoffset="0" message="Let&apos;s GO!  Get that gear up to speed and settle into this effort..." locIndex="26" />
+            <textevent timeoffset="10" message="...Know this is going to be a challenge, but you CAN DO IT!" locIndex="27" />
+            <textevent timeoffset="60" message="Halfway through this first one, keep it up!" locIndex="28" />
+            <textevent timeoffset="90" message="Just 30 more seconds to go!" locIndex="29" />
+            <textevent timeoffset="120" message="Excellent work!  Now we take 3 minutes easy and do that twice more :-)" locIndex="30" />
+            <textevent timeoffset="150" message="During these rest breaks, focus on taking deep breaths and then pushing that breath out purposefully..." locIndex="31" />
+            <textevent timeoffset="160" message="...Intense training leaves your body in a bit of an oxygen debt, breathing this way will help to restore homeostasis more effectively." locIndex="32" />
+            <textevent timeoffset="290" message="#2 of 3 coming up in 10 seconds...Start spinning that gear up again to 100+ RPM..." locIndex="33" />
+            <textevent timeoffset="300" message="Hit it!  Settle into this effort again here quickly, keep that form SOLID." locIndex="34" />
+            <textevent timeoffset="360" message="Halfway through this second one, you are looking GREAT!" locIndex="35" />
+            <textevent timeoffset="390" message="30 seconds to go, don&apos;t let your form break and keep that cadence up!" locIndex="36" />
+            <textevent timeoffset="420" message="Great job!  Lower that effort and cadence again for a few minutes..." locIndex="37" />
+            <textevent timeoffset="430" message="Remember, focus on your breathing during these recovery periods." locIndex="38" />
+            <textevent timeoffset="590" message="All right, 3rd interval coming up in 10 seconds.  Last interval in this block!" locIndex="39" />
+            <textevent timeoffset="600" message="C&apos;MON!  UP UP UP!" locIndex="40" />
+            <textevent timeoffset="660" message="Great work here, halfway done...Keep that cadence up!" locIndex="41" />
+            <textevent timeoffset="690" message="Final 30 seconds here! You&apos;ve got this!" locIndex="42" />
+            <textevent timeoffset="720" message="WOOT WOOT!  Superb effort!  Let&apos;s take a few minutes easy and recover again." locIndex="43" />
+            <textevent timeoffset="890" message="All right, in 10 seconds, get ready for a 10 minute effort at Z2, comfortable cadence here." locIndex="44" />
+        </IntervalsT>
+        <SteadyState Duration="600" Power="0.65" Cadence="90">
+            <textevent timeoffset="0" message="Bring up that effort just a little bit here..." locIndex="45" />
+            <textevent timeoffset="10" message="...Settle into this effort and keep your cadence comfortable." locIndex="46" />
+            <textevent timeoffset="300" message="Halfway done with this, hopefully by now you feel relatively recovered from that first VO2 block and have a normal breathing pattern again..." locIndex="47" />
+            <textevent timeoffset="310" message="...If not, take some deep breaths and try to recover a bit more here..." locIndex="48" />
+            <textevent timeoffset="320" message="...We are going right back into that same VO2 block again after this :-)" locIndex="49" />
+            <textevent timeoffset="580" message="All right, get yourself ready to increase that effort a lot..." locIndex="50" />
+            <textevent timeoffset="590" message="...Take some deep breaths and start to spin that gear up to 100+ RPM...3 more VO2 intervals coming up!" locIndex="51" />
+        </SteadyState>
+        <IntervalsT Repeat="3" OnDuration="120" OffDuration="180" OnPower="1.15" OffPower="0.5" Cadence="105" CadenceResting="85">
+            <textevent timeoffset="0" message="Let&apos;s GO!  Get that gear up to speed and settle into this effort..." locIndex="52" />
+            <textevent timeoffset="10" message="...Know this is going to be a challenge, but you CAN DO IT!" locIndex="53" />
+            <textevent timeoffset="60" message="Halfway through this first one, keep it up!" locIndex="54" />
+            <textevent timeoffset="90" message="Just 30 more seconds to go!" locIndex="55" />
+            <textevent timeoffset="120" message="Excellent work!  Now we take 3 minutes easy and do that twice more :-)" locIndex="56" />
+            <textevent timeoffset="150" message="During these rest breaks, focus on taking deep breaths and then pushing that breath out purposefully..." locIndex="57" />
+            <textevent timeoffset="160" message="...Intense training leaves your body in a bit of an oxygen debt, breathing this way will help to restore homeostasis more effectively." locIndex="58" />
+            <textevent timeoffset="290" message="#2 of 3 coming up in 10 seconds...Start spinning that gear up again to 100+ RPM..." locIndex="59" />
+            <textevent timeoffset="300" message="Hit it!  Settle into this effort again here quickly, keep that form SOLID." locIndex="60" />
+            <textevent timeoffset="360" message="Halfway through this second one, you are looking GREAT!" locIndex="61" />
+            <textevent timeoffset="390" message="30 seconds to go, don&apos;t let your form break and keep that cadence up!" locIndex="62" />
+            <textevent timeoffset="420" message="Great job!  Lower that effort and cadence again for a few minutes..." locIndex="63" />
+            <textevent timeoffset="430" message="Remember, focus on your breathing during these recovery periods." locIndex="64" />
+            <textevent timeoffset="590" message="All right, 3rd interval coming up in 10 seconds.  We are going to take a longer break after this one :-)" locIndex="65" />
+            <textevent timeoffset="600" message="C&apos;MON!  UP UP UP!" locIndex="66" />
+            <textevent timeoffset="660" message="Great work here, halfway done...Keep that cadence up!" locIndex="67" />
+            <textevent timeoffset="690" message="Final 30 seconds here, you got this!" locIndex="68" />
+            <textevent timeoffset="720" message="WOOT WOOT!  Superb effort!  Let&apos;s take a few minutes easy and recover again." locIndex="69" />
+            <textevent timeoffset="890" message="All right, in 10 seconds, we are going to start reducing the effort and cooling down, you did it!" locIndex="70" />
+        </IntervalsT>
+        <Cooldown Duration="300" PowerLow="0.5" PowerHigh="0.25">
+            <textevent timeoffset="0" message="Great work today!  Let&apos;s take a few more minutes and spin those legs out easy..." locIndex="71" />
+            <textevent timeoffset="10" message="...See you next time!" locIndex="72" />
+        </Cooldown>
+    </workout>
+</workout_file>

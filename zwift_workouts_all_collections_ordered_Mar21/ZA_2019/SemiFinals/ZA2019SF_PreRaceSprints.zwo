@@ -1,0 +1,153 @@
+<workout_file>
+    <uniqueId>09b2b474-b5db-4c60-98ff-3bc56ce55304</uniqueId>
+    <legacyIdHash>1717852346</legacyIdHash>
+    <author>Zwift Academy Coaches</author>
+    <name>Semi-Finals.2 - Phosphate Sprints</name>
+    <activitySaveName>Zwift Academy 2019 Semi-Finals Workout #2: Phosphate Sprints</activitySaveName>
+    <description>This is a good &apos;pre-race&apos; ride, perfect activation ahead of an event, test, race, or just to open the legs! The session includes a steady priming effort close to your FTP and some phosphate sprints to prime the neuromuscular system without fatiguing the body too much. The day after this session you should be ready to race! It is better to do this session with ERG Mode OFF. </description>
+    <sportType>bike</sportType>
+    <visibleAfterTime>1571011200</visibleAfterTime>
+    <overrideHash>401219799</overrideHash>
+    <category>Zwift Academy 2019</category>
+    <subcategory>Semi-Finals</subcategory>
+    <tags>
+        <tag name="Zwift Academy" />
+    </tags>
+    <workout>
+        <SteadyState Duration="180" Power="0.60000002" pace="0">
+            <textevent timeoffset="0" message="Hello friend, and welcome back to another Zwift Academy semi-finals workout! Let&apos;s start with a warm up. Comfortable cadence here." locIndex="1" />
+            <textevent timeoffset="30" message="The warm up will progress through Zones 1 through 3, in 3 minute segments." locIndex="2" />
+            <textevent timeoffset="40" message="See if you can gradually increase your cadence with each segment to help the legs warm up further." locIndex="3" />
+            <textevent timeoffset="60" message="The goal of today isn&apos;t to crush your legs like we&apos;ve been doing, but to prepare and prime them." locIndex="4" />
+            <textevent timeoffset="90" message="This is a great workout to do before a target event, race, test, or just to open the legs!" locIndex="5" />
+            <textevent timeoffset="100" message="After the warm up, we&apos;ll start off with a 5 minute effort just under FTP at a slow cadence." locIndex="6" />
+            <textevent timeoffset="110" message="Remember from the previous workouts, the low cadence places increased torque on the leg muscles and can help with the priming goal." locIndex="7" />
+            <textevent timeoffset="120" message="Then, we&apos;ll take a nice rest, and move onto 2 sets of 5, full gas, 10 second sprint efforts." locIndex="8" />
+            <textevent timeoffset="130" message="The goal with the sprint efforts is to prime your neuromuscular system, but again NOT fatiguing the body." locIndex="9" />
+            <textevent timeoffset="140" message="So, we&apos;re doing just enough to get a sweat going and work the legs a little." locIndex="10" />
+            <textevent timeoffset="150" message="But, you should hop off the bike feeling better compared to when you hopped on - okay maybe don&apos;t hop off exactly :-)" locIndex="11" />
+            <textevent timeoffset="160" message="Save your legs today to rip your friends or competitors legs off tomorrow!" locIndex="12" />
+            <textevent timeoffset="170" message="It&apos;s time to Level Up!! let&apos;s keep the warm up going - moving onto Zone 2 in 10 seconds." locIndex="13" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.68000001" pace="0">
+            <textevent timeoffset="0" message="Aim for a slightly faster cadence for these next few minutes. It should still feel comfortable though." locIndex="14" />
+            <textevent timeoffset="60" message="Now&apos;s also a great time to prepare the mind - especially if you&apos;re doing this workout before a target event, race, test, etc." locIndex="15" />
+            <textevent timeoffset="70" message="Getting to the start of something with great legs means nothing if your mind isn&apos;t strong as well." locIndex="16" />
+            <textevent timeoffset="80" message="Like we&apos;ve done before, practice visualizing yourself going through the motions of whatever it might be tomorrow." locIndex="17" />
+            <textevent timeoffset="90" message="Imagine the turns in the course, the decisive moments, and how you will react and overcome all of them." locIndex="18" />
+            <textevent timeoffset="100" message="Then, practice your smile for the podium picture of course :-)" locIndex="19" />
+            <textevent timeoffset="170" message="10 more seconds here, then we&apos;re increasing the effort again to Zone 3." locIndex="20" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.82999998" pace="0">
+            <textevent timeoffset="0" message="3 more minutes here. Let&apos;s raise the cadence up again too." locIndex="21" />
+            <textevent timeoffset="60" message="Aiming for FAST FEET here, my friend." locIndex="22" />
+            <textevent timeoffset="120" message="1 more minute to go, then we&apos;re bringing the effort down." locIndex="23" />
+            <textevent timeoffset="170" message="10 more seconds, then get ready to drop the effort way down." locIndex="24" />
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.55000001" pace="0">
+            <textevent timeoffset="0" message="Great work! Warm up done and dusted. Now, let&apos;s take a few minutes easy before our first priming effort." locIndex="25" />
+            <textevent timeoffset="60" message="Remember, this first priming effort is 5 minutes right below FTP, at a LOW CADENCE." locIndex="26" />
+            <textevent timeoffset="70" message="I want you to aim for somewhere between 65 and 75 RPM." locIndex="27" />
+            <textevent timeoffset="80" message="For those who don&apos;t have a cadence sensor, count the downstroke on 1 of your legs." locIndex="28" />
+            <textevent timeoffset="90" message="1 downstroke per second is 60 RPM, and 1.5 per second would be 90 RPM, so aim for just over 1 per second." locIndex="29" />
+            <textevent timeoffset="100" message="Try to keep the power smooth and cadence strict for the entire length of the interval." locIndex="30" />
+            <textevent timeoffset="160" message="All right, coming up is our first priming effort." locIndex="31" />
+            <textevent timeoffset="170" message="Start to slow your leg speed down to somwhere between 65 and 75 RPM..." locIndex="32" />
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.93449992" pace="0" Cadence="70">
+            <textevent timeoffset="0" message="And here we go! Use these first 30 seconds to find where you feel most comfortable at the low cadence." locIndex="33" />
+            <textevent timeoffset="10" message="Feel free to adjust it up or down a little bit until you feel &apos;just right&apos; #Goldilocks" locIndex="34" />
+            <textevent timeoffset="30" message="All right, now silky smooth. Aim for a stable cadence and power output for the rest of this interval." locIndex="35" />
+            <textevent timeoffset="60" message="1 minute down! At this low cadence, make sure you&apos;re not lurching back and forth in the saddle." locIndex="36" />
+            <textevent timeoffset="70" message="Keep your hips stable and focus on driving the power right to the pedals." locIndex="37" />
+            <textevent timeoffset="80" message="Also, relax your shoulders, and don&apos;t grip the bars so tight! Coach is always watching :-)" locIndex="38" />
+            <textevent timeoffset="120" message="The goal with this first effort is to get a little bit of work in the legs, get a sweat going, and start the priming process." locIndex="39" />
+            <textevent timeoffset="130" message="So, feeling like the legs are starting to work at this point is okay! This is a very short interval on purpose." locIndex="40" />
+            <textevent timeoffset="180" message="2 more minutes to go! How have you been doing keeping your cadence steady through this effort?" locIndex="41" />
+            <textevent timeoffset="190" message="Great work!! Keep it going for the last part of this interval now." locIndex="42" />
+            <textevent timeoffset="240" message="Final minute! Really focus in on that cadence and form here. Shoulders relaxed, light grip, no lurching in the saddle." locIndex="43" />
+            <textevent timeoffset="270" message="30 seconds! Keep pushing it all the way to the line!" locIndex="44" />
+            <textevent timeoffset="290" message="Get to that arch! Just a little bit left then we can rest." locIndex="45" />
+        </SteadyState>
+        <SteadyState Duration="360" Power="0.55000001" pace="0">
+            <textevent timeoffset="0" message="Excellent work!! Bring your cadence back up to whatever feels comfortable." locIndex="46" />
+            <textevent timeoffset="10" message="We&apos;re going to take a full 6 minutes of recovery now and then move onto our sprint efforts." locIndex="47" />
+            <textevent timeoffset="60" message="Breathe and relax here...Now&apos;s another great time to put yourself into the event or race tomorrow." locIndex="48" />
+            <textevent timeoffset="70" message="Again, visualize yourself overcoming the challenges that will be presented to you and CRUSHING it!" locIndex="49" />
+            <textevent timeoffset="180" message="3 more minutes easy here. Keep on spinning the legs comfortably and just preparing for the sprint efforts ahead." locIndex="50" />
+            <textevent timeoffset="240" message="All right, in 2 minutes we&apos;re moving onto 2 sets of 5, 10 second, full gas sprints, with 50 seconds rest between." locIndex="51" />
+            <textevent timeoffset="250" message="Remember, the goal with these efforts is to prime your neuromuscular system." locIndex="52" />
+            <textevent timeoffset="260" message="The efforts ideally should be done with ERG off so you can dig deep, and prevent the trainer from bogging down." locIndex="53" />
+            <textevent timeoffset="270" message="You can turn ERG off on the bottom of your screen, or easiest from the Zwift Companion app." locIndex="54" />
+            <textevent timeoffset="280" message="I also want you to aim for FAST FEET with these, and you can decide on standing or seated for the efforts." locIndex="55" />
+            <textevent timeoffset="290" message="Personally, I like to do a mixture of each, but do what works best for you! As long as you&apos;re working hard, that&apos;s what counts." locIndex="56" />
+            <textevent timeoffset="330" message="30 more seconds to go. Take a few deep breaths here and prepare to dig deep." locIndex="57" />
+            <textevent timeoffset="340" message="We&apos;re starting off with the sprint first, then resting, so prepare to sprint at the next arch!" locIndex="58" />
+            <textevent timeoffset="350" message="All right, turn off ERG, and get ready to dig! 10, 9, 8..." locIndex="59" />
+        </SteadyState>
+        <IntervalsT Repeat="5" OnDuration="10" OffDuration="50" OnPower="2.0044999" OffPower="0.55449998" pace="0">
+            <textevent timeoffset="0" message="GO GO GO!! FULL GAS NOW! FAST FEET!" locIndex="60" />
+            <textevent timeoffset="10" message="Great work! You can either turn ERG back on again, or just drop to your small chain ring for the recovery." locIndex="61" />
+            <textevent timeoffset="20" message="Then, when you&apos;re ready to sprint again, switch back to the big ring - whatever&apos;s easiest for you!" locIndex="62" />
+            <textevent timeoffset="50" message="All right, 10 more seconds before we&apos;re on again! Switch ERG off again, or back into the big ring." locIndex="63" />
+            <textevent timeoffset="60" message="HUP HUP HUP!! DRIVE IT NOW!" locIndex="64" />
+            <textevent timeoffset="70" message="Nicely done! Now, back down again and recover. 3 to go!" locIndex="65" />
+            <textevent timeoffset="110" message="Get prepared again, blasting off in 10, 9, 8..." locIndex="66" />
+            <textevent timeoffset="120" message="FAST FEET!! DIG DIG DIG!!" locIndex="67" />
+            <textevent timeoffset="130" message="Beautiful! 3 down, 2 to go :-)" locIndex="68" />
+            <textevent timeoffset="140" message="Breathe and recover as best you can here. These are very short recoveries, use them well." locIndex="69" />
+            <textevent timeoffset="170" message="Get ready to rock again in 10 seconds!" locIndex="70" />
+            <textevent timeoffset="180" message="PUSH YOURSELF!! FULL GAS!!" locIndex="71" />
+            <textevent timeoffset="190" message="Woot woot!! Just 1 more to go, then we&apos;re taking a LONG recovery. Make this next one as good as the first!" locIndex="72" />
+            <textevent timeoffset="230" message="Ready? Steady..." locIndex="73" />
+            <textevent timeoffset="240" message="GO GO GO!! MAKE THIS COUNT!!" locIndex="74" />
+            <textevent timeoffset="250" message="Awesome job!! Done with that first set :-)" locIndex="75" />
+            <textevent timeoffset="260" message="Now we have a long rest ahead and we&apos;ll repeat that one more time." locIndex="76" />
+        </IntervalsT>
+        <SteadyState Duration="420" Power="0.55000001" pace="0">
+            <textevent timeoffset="0" message="Keep it nice and light still - Focus on your recovery and breathing here." locIndex="77" />
+            <textevent timeoffset="60" message="The burn in the legs is hopefully starting to dissipate now." locIndex="78" />
+            <textevent timeoffset="70" message="If not, no worries. Just continue to recover and keep some pressure on the pedals." locIndex="79" />
+            <textevent timeoffset="120" message="What do you want to accomplish tomorrow? How are you going to get it done?" locIndex="80" />
+            <textevent timeoffset="130" message="Think about that the next 5 minutes..." locIndex="81" />
+            <textevent timeoffset="180" message="I also like to use the recovery periods to roll the shoulders, shake the arms out, etc. Try to not get stiff up top." locIndex="82" />
+            <textevent timeoffset="240" message="3 more minutes nice and light. Keep yourself present and focused!" locIndex="83" />
+            <textevent timeoffset="300" message="Coming up in 2 minutes, we are repeating the same sprint efforts from the last set." locIndex="84" />
+            <textevent timeoffset="310" message="Again, aim for a fast leg speed, and going FULL GAS with each sprint effort." locIndex="85" />
+            <textevent timeoffset="320" message="This is the last bit of work for today, and before you toe the line tomorrow - make it count, my friend!" locIndex="86" />
+            <textevent timeoffset="330" message="Whether you&apos;re aiming for a pro contract, or trying to improve your fitness, days like tomorrow are going to test you." locIndex="87" />
+            <textevent timeoffset="340" message="Let&apos;s pass that test with flying colors, and Level Up!" locIndex="88" />
+            <textevent timeoffset="360" message="Final minute!" locIndex="89" />
+            <textevent timeoffset="370" message="Remember, ERG off ideally for these efforts." locIndex="90" />
+            <textevent timeoffset="380" message="You can keep it off the entire time and use the chainring trick from last time, or re-engage after the sprints." locIndex="91" />
+            <textevent timeoffset="390" message="Do whatever works best for you :-)" locIndex="92" />
+            <textevent timeoffset="410" message="Okay, ERG off now, prepare to CRUSH it in 10, 9, 8..." locIndex="93" />
+        </SteadyState>
+        <IntervalsT Repeat="5" OnDuration="10" OffDuration="50" OnPower="2" OffPower="0.55000001" pace="0">
+            <textevent timeoffset="0" message="GO GO GO!! CHASE THAT ARCH!" locIndex="94" />
+            <textevent timeoffset="10" message="Great work! You can either turn ERG back on again, or just drop to your small chain ring for the recovery." locIndex="95" />
+            <textevent timeoffset="20" message="Then, when you&apos;re ready to sprint again, switch back to the big ring. Do whatever worked last time." locIndex="96" />
+            <textevent timeoffset="50" message="All right, 10 more seconds before we&apos;re on again! Switch ERG off again, or back into the big ring..." locIndex="97" />
+            <textevent timeoffset="60" message="HUP HUP HUP!! FAST FEET HERE!!" locIndex="98" />
+            <textevent timeoffset="70" message="Amazing work! It&apos;s okay if these feel like more of a challenge compared to the first set. Just 3 to go!" locIndex="99" />
+            <textevent timeoffset="110" message="Ready? We&apos;re on again in 10 seconds!" locIndex="100" />
+            <textevent timeoffset="120" message="FAST FEET!! DIG DIG DIG!!" locIndex="101" />
+            <textevent timeoffset="130" message="We&apos;re getting there now, my friend! 3 down, 2 remain. Make these final 2 your strongest yet!" locIndex="102" />
+            <textevent timeoffset="170" message="Second to last one coming up! Make this count!" locIndex="103" />
+            <textevent timeoffset="180" message="PUSH YOURSELF!! FULL GAS!!" locIndex="104" />
+            <textevent timeoffset="190" message="Just the finale remains...Leave NOTHING on the table with this one." locIndex="105" />
+            <textevent timeoffset="230" message="Deep breath, get into position..." locIndex="106" />
+            <textevent timeoffset="240" message="GO GO GO!! EMPTY THE TANKS!!" locIndex="107" />
+            <textevent timeoffset="250" message="Aww yeah! Way to get that workout done with style and grace, my friend!" locIndex="108" />
+            <textevent timeoffset="260" message="All that remains is the cool down :-)" locIndex="109" />
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.55000001" pace="0">
+            <textevent timeoffset="0" message="Beautiful work again today! Your legs should feel really good and primed for tomorrow." locIndex="110" />
+            <textevent timeoffset="10" message="I wish you the absolute best of luck with whatever you have planned. I know you will be GREAT!" locIndex="111" />
+            <textevent timeoffset="60" message="Let&apos;s take the next few minutes nice and easy and just continue to recover and cool down." locIndex="112" />
+            <textevent timeoffset="120" message="As always, congratulations on completing today, and for taking another step closer to finishing ZA semi-finals!" locIndex="113" />
+            <textevent timeoffset="130" message="Rest and recover as best you can before tomorrow, and remember to stay confident in yourself and your abilities." locIndex="114" />
+            <textevent timeoffset="180" message="We&apos;ll see you next time :-)" locIndex="115" />
+        </SteadyState>
+    </workout>
+</workout_file>

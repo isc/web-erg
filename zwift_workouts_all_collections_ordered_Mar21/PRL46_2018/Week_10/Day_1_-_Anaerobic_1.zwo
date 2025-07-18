@@ -1,0 +1,58 @@
+<workout_file>
+    <uniqueId>b3794251-9755-4758-9e85-46ce2963e758</uniqueId>
+    <legacyIdHash>3442827606</legacyIdHash>
+    <author>Kevin Poulton</author>
+    <name>Week 10.1 - Anaerobic #2</name>
+    <WorkoutPlan>1</WorkoutPlan>
+    <category>2018 PRL46 Prep</category>
+    <subcategory>Week 10</subcategory>
+    <description>The aim today is to produce repeatable, high power intervals.
+
+With 2 sets of the 45 second Anaerobic Intensive intervals, note any differences in your heart rate response from the first to the second set.
+
+Between the Anaerobic Intensive sets, we complete a 10 minute tempo effort to build some fatigue. </description>
+    <sportType>bike</sportType>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow="0.50449997" PowerHigh="0.75449997" pace="0">
+            <textevent timeoffset="41" message="A long warm up to prepare you for high intensity efforts." locIndex="1" />
+            <textevent timeoffset="72" message="Include 3 x 6sec high cadence surges in your warm up." locIndex="2" />
+        </Warmup>
+        <SteadyState Duration="60" Power="0.55449998" pace="0">
+            <textevent timeoffset="23" message="These efforts will be hard, but achievable!" locIndex="3" />
+        </SteadyState>
+        <SteadyState Duration="45" Power="1.8045" pace="0" />
+        <SteadyState Duration="120" Power="0.56059748" pace="0" />
+        <SteadyState Duration="45" Power="1.8" pace="0" />
+        <SteadyState Duration="120" Power="0.56124622" pace="0">
+            <textevent timeoffset="58" message="2 to go!" locIndex="4" />
+        </SteadyState>
+        <SteadyState Duration="45" Power="1.8" pace="0" />
+        <SteadyState Duration="120" Power="0.56143874" pace="0">
+            <textevent timeoffset="85" message="Note your HR after the next effort." locIndex="5" />
+        </SteadyState>
+        <SteadyState Duration="45" Power="1.8" pace="0" />
+        <SteadyState Duration="120" Power="0.56152624" pace="0" />
+        <SteadyState Duration="600" Power="0.75449997" pace="0">
+            <textevent timeoffset="53" message="Some tempo work between sets to build fatigue." locIndex="6" />
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.56449997" pace="0">
+            <textevent timeoffset="27" message="Ready for the next set." locIndex="7" />
+        </SteadyState>
+        <SteadyState Duration="45" Power="1.8" pace="0" />
+        <SteadyState Duration="120" Power="0.56152576" pace="0" />
+        <SteadyState Duration="45" Power="1.8" pace="0" />
+        <SteadyState Duration="120" Power="0.56592262" pace="0">
+            <textevent timeoffset="53" message="2 to go!" locIndex="8" />
+        </SteadyState>
+        <SteadyState Duration="45" Power="1.8" pace="0" />
+        <SteadyState Duration="120" Power="0.5626474" pace="0">
+            <textevent timeoffset="51" message="How is your HR recovering?" locIndex="9" />
+        </SteadyState>
+        <SteadyState Duration="45" Power="1.8" pace="0" />
+        <SteadyState Duration="120" Power="0.56397861" pace="0" />
+        <Cooldown Duration="600" PowerLow="0.75449997" PowerHigh="0.50449997" pace="0">
+            <textevent timeoffset="67" message="You need a long cool down after that!" locIndex="10" />
+        </Cooldown>
+    </workout>
+</workout_file>

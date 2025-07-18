@@ -1,0 +1,26 @@
+<workout_file>
+    <uniqueId>5715faa9-e87a-46c5-9ca9-c5710d0ae7e6</uniqueId>
+    <legacyIdHash>530170344</legacyIdHash>
+    <author>Zwift</author>
+    <name>The Long Ride - Intervals &amp; Progressive SST</name>
+    <description>For the long ride this week, we start out with a block of SST intervals. The main long block of work consists of long, steady Zone 2 blocks punctuated by 5min of progressively more intensive SST.</description>
+    <sportType>bike</sportType>
+    <visibleOutsidePlan>1</visibleOutsidePlan>
+    <category>Gran Fondo</category>
+    <subcategory>Week 6</subcategory>
+    <tags />
+    <workout>
+        <Warmup Duration="600" PowerLow="0.50449997" PowerHigh="0.75449997" pace="189" />
+        <SteadyState Duration="300" Power="0.75449997" pace="189" />
+        <IntervalsT Repeat="10" OnDuration="120.00001" OffDuration="60.000004" OnPower="0.95449996" OffPower="0.55449998" pace="189" />
+        <SteadyState Duration="1500.0001" Power="0.75449997" pace="189" />
+        <SteadyState Duration="300" Power="0.90449995" pace="189" />
+        <SteadyState Duration="1500.0001" Power="0.75449997" pace="189" />
+        <SteadyState Duration="300" Power="0.95449996" pace="189" />
+        <SteadyState Duration="1500.0001" Power="0.75449997" pace="189" />
+        <SteadyState Duration="300" Power="1.0044999" pace="189" />
+        <SteadyState Duration="1500.0001" Power="0.75449997" pace="189" />
+        <SteadyState Duration="300" Power="1.0545" pace="189" />
+        <Cooldown Duration="600" PowerLow="0.75449997" PowerHigh="0.50449997" pace="189" />
+    </workout>
+</workout_file>

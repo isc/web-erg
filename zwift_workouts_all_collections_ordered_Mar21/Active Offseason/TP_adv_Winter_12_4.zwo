@@ -1,0 +1,14 @@
+<workout_file>
+    <uniqueId>5db04d31-1081-4a05-ac75-d990d0738d66</uniqueId>
+    <legacyIdHash>701378850</legacyIdHash>
+    <authorIcon>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</authorIcon>
+    <category>Active Offseason</category>
+    <WorkoutPlan>1</WorkoutPlan>
+    <subcategory>Week 12</subcategory>
+    <name>Week 12.4 - Active Recovery</name>
+    <description>Active Recovery! You get faster when you are resting and recovering, not when you are working hard!! Rest days are about going easy enough to really allow your legs to recover so no efforts over Zone 1 today, take it easy and look at the scenery.</description>
+    <tags />
+    <workout>
+        <SteadyState Duration="2700" PowerLow="0.50214285" PowerHigh="0.50214285" />
+    </workout>
+</workout_file>
