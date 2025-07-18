@@ -168,6 +168,33 @@
                 />
               </div>
 
+              <div class="grid">
+                <label>
+                  Durée min. (min)
+                  <input
+                    type="number"
+                    min="0"
+                    max="300"
+                    step="5"
+                    x-model="minDuration"
+                    @input="filterData"
+                    placeholder="0"
+                  />
+                </label>
+                <label>
+                  Durée max. (min)
+                  <input
+                    type="number"
+                    min="0"
+                    max="300"
+                    step="5"
+                    x-model="maxDuration"
+                    @input="filterData"
+                    placeholder="300"
+                  />
+                </label>
+              </div>
+
               <template x-ref="workoutItemTemplate">
                 <article>
                   <hgroup>
@@ -205,7 +232,7 @@
                   x-for="(collection, collectionName) in displayData"
                   :key="collectionName"
                 >
-                  <details x-bind:open="!!searchQuery">
+                  <details x-bind:open="hasActiveFilters">
                     <summary>
                       <strong x-text="collectionName"></strong>
                       <small
@@ -225,7 +252,7 @@
                             ></div>
                           </template>
                           <template x-if="!isWorkoutFile(item)">
-                            <details x-bind:open="!!searchQuery">
+                            <details x-bind:open="hasActiveFilters">
                               <summary x-text="itemName"></summary>
                               <div>
                                 <template
@@ -247,13 +274,10 @@
                 </template>
 
                 <div
-                  x-show="searchQuery && Object.keys(displayData).length === 0"
+                  x-show="hasActiveFilters && Object.keys(displayData).length === 0"
                 >
                   <p class="secondary">
-                    Aucun entraînement trouvé pour "<span
-                      x-text="searchQuery"
-                    ></span
-                    >"
+                    Aucun entraînement trouvé pour les critères sélectionnés
                   </p>
                 </div>
               </div>

@@ -20,9 +20,24 @@ class WorkoutLibraryTest < CapybaraTestBase
     assert_text 'Sélectionné: Anna Meares - Team Sprint (32.25 min)'
   end
 
-  def test_search_workouts_in_library
+  def test_search_workouts_in_library_by_name
     click_on 'Choisir dans la bibliothèque'
     fill_in 'Rechercher un entraînement...', with: 'Fun is st'
     assert_text 'Fun is Staying Cool'
+  end
+
+  def test_filter_workouts_by_duration_and_description
+    click_on 'Choisir dans la bibliothèque'
+    fill_in 'Durée min. (min)', with: '60'
+    assert_text 'Week 10.1 - Day 1 • 91 minutes'
+    fill_in 'Durée max. (min)', with: '70'
+    assert_no_text 'Week 10.1 - Day 1 • 91 minutes'
+    assert_text 'Week 10.5 - Day 5 • 60 minutes'
+    fill_in 'Rechercher un entraînement...', with: 'aiming'
+    assert_text 'Ride as you feel aiming to keep power'
+    assert_no_text 'Week 10.5 - Day 5 • 60 minutes'
+    fill_in 'Durée max. (min)', with: ''
+    fill_in 'Durée min. (min)', with: '999'
+    assert_text 'Aucun entraînement trouvé pour les critères sélectionnés'
   end
 end

@@ -2,6 +2,8 @@ window.workoutLibraryModal = function () {
   return {
     workoutData: {},
     searchQuery: '',
+    minDuration: '',
+    maxDuration: '',
     filteredData: {},
 
     async init() {
@@ -21,7 +23,11 @@ window.workoutLibraryModal = function () {
     },
 
     get displayData() {
-      return this.searchQuery ? this.filteredData : this.workoutData
+      return this.hasActiveFilters ? this.filteredData : this.workoutData
+    },
+
+    get hasActiveFilters() {
+      return !!(this.searchQuery || this.minDuration || this.maxDuration)
     },
 
     prepareWorkoutData(item, itemName, collectionName, isSubItem = false) {
@@ -30,7 +36,7 @@ window.workoutLibraryModal = function () {
         duration: item.duration,
         description: item.description,
         author: item.author,
-        showPath: isSubItem && !!this.searchQuery,
+        showPath: isSubItem && this.hasActiveFilters,
         path: isSubItem ? `${collectionName}/${itemName}` : null,
         onClick: () => {
           this.selectWorkout(item)
@@ -39,23 +45,43 @@ window.workoutLibraryModal = function () {
     },
 
     filterData() {
-      if (!this.searchQuery.trim()) {
+      if (!this.hasActiveFilters) {
         this.filteredData = this.workoutData
         return
       }
 
       const query = this.searchQuery.toLowerCase()
-      this.filteredData = this.createFilteredStructure(this.workoutData, query)
+      const minDuration = this.minDuration ? parseInt(this.minDuration) : 0
+      const maxDuration = this.maxDuration
+        ? parseInt(this.maxDuration)
+        : Infinity
+
+      this.filteredData = this.createFilteredStructure(
+        this.workoutData,
+        query,
+        minDuration,
+        maxDuration
+      )
     },
 
-    createFilteredStructure(data, query) {
+    createFilteredStructure(data, query, minDuration, maxDuration) {
       const filtered = {}
 
       for (const [key, value] of Object.entries(data)) {
         if (this.isWorkoutFile(value)) {
-          if (this.matchesSearch(value, key, query)) filtered[key] = value
+          if (
+            this.matchesSearch(value, key, query) &&
+            this.matchesDuration(value, minDuration, maxDuration)
+          ) {
+            filtered[key] = value
+          }
         } else if (typeof value === 'object') {
-          const filteredCollection = this.createFilteredStructure(value, query)
+          const filteredCollection = this.createFilteredStructure(
+            value,
+            query,
+            minDuration,
+            maxDuration
+          )
           if (Object.keys(filteredCollection).length > 0)
             filtered[key] = filteredCollection
         }
@@ -75,6 +101,10 @@ window.workoutLibraryModal = function () {
         item.author || ''
       }`.toLowerCase()
       return searchText.includes(query)
+    },
+
+    matchesDuration(item, minDuration, maxDuration) {
+      return item.duration >= minDuration && item.duration <= maxDuration
     },
 
     getCollectionCount(collection) {
