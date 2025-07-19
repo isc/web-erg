@@ -142,9 +142,9 @@ end
 
 if __FILE__ == $PROGRAM_NAME
   workout_folder =
-    '/Users/ivanschneider/Code/weberg/zwift_workouts_all_collections_ordered_Mar21'
+    File.join(File.dirname(__FILE__), '..', 'zwift_workouts_all_collections_ordered_Mar21')
   output_file =
-    ARGV[0] || '/Users/ivanschneider/Code/weberg/zwift_workouts.json'
+    ARGV[0] || File.join(File.dirname(__FILE__), '..', 'zwift_workouts.json')
 
   unless Dir.exist?(workout_folder)
     puts "Error: Workout folder not found at #{workout_folder}"
