@@ -1,4 +1,5 @@
 import { formatForTimer } from './utils.js'
+import { AudioCoach } from './audio-coach.js'
 
 function getZoneColor(power) {
   if (power < 0.56) return '#888'
@@ -174,9 +175,10 @@ export class WorkoutRunner {
     phases,
     setErgPower,
     onWorkoutEnd,
-    ftp = 150,
-    alpineInstance = null,
-    workoutSvgEl = null
+    ftp,
+    alpineInstance,
+    workoutSvgEl,
+    xmlText
   ) {
     this.originalPhases = phases
     this.expandedPhases = this.expandPhases(phases)
@@ -189,6 +191,8 @@ export class WorkoutRunner {
     this.running = false
     this.alpineInstance = alpineInstance
     this.workoutSvgEl = workoutSvgEl
+    this.xmlText = xmlText
+    this.initializeAudioCoach()
   }
 
   expandPhases(phases) {
@@ -241,6 +245,12 @@ export class WorkoutRunner {
     return expanded
   }
 
+  async initializeAudioCoach() {
+    this.audioCoach = new AudioCoach()
+    const audioReady = await this.audioCoach.loadTextEvents(this.xmlText)
+    if (!audioReady) this.audioCoach = null
+  }
+
   updatePhaseProgressBar() {
     if (!this.alpineInstance) return
     const phase = this.expandedPhases[this.currentPhaseIndex]
@@ -273,6 +283,7 @@ export class WorkoutRunner {
     this.running = true
     this.currentPhaseIndex = 0
     this.currentPhaseElapsed = 0
+    this.totalElapsed = 0
     this.sendCurrentErg()
     this.updatePhaseProgressBar()
     this.updatePhaseClasses()
@@ -293,9 +304,9 @@ export class WorkoutRunner {
 
   stop() {
     this.running = false
-    if (this.timer) clearInterval(this.timer)
+    clearInterval(this.timer)
     this.timer = null
-    if (this.onWorkoutEnd) this.onWorkoutEnd()
+    this.onWorkoutEnd()
     this.updatePhaseClasses()
   }
 
@@ -324,7 +335,11 @@ export class WorkoutRunner {
       this.stop()
       return
     }
+
     this.currentPhaseElapsed++
+    this.totalElapsed++
+    this.audioCoach?.checkAndPlayMessages(this.totalElapsed)
+
     if (this.currentPhaseElapsed >= phase.duration) {
       this.currentPhaseIndex++
       this.currentPhaseElapsed = 0

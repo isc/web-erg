@@ -96,14 +96,15 @@ window.workoutApp = function () {
     loadWorkoutFromXml(xml) {
       const phases = parseZwoPhases(xml)
       this.workoutMeta = parseZwoMeta(xml)
-      if (this.workoutRunner) this.workoutRunner.stop()
+      this.workoutRunner?.stop()
       this.workoutRunner = new WorkoutRunner(
         phases,
         setErgPower,
         this.onWorkoutEnd.bind(this),
         this.ftp,
         this,
-        this.$refs.workoutSvg
+        this.$refs.workoutSvg,
+        xml
       )
       parseAndDisplayZwo(xml, this.$refs.workoutSvg)
       this.workoutFinished = false
