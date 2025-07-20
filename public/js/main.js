@@ -1,9 +1,5 @@
-import {
-  WorkoutRunner,
-  parseAndDisplayZwo,
-  parseZwoMeta,
-  parseZwoPhases
-} from './workout.js'
+import { WorkoutRunner, parseZwoMeta, parseZwoPhases } from './workout.js'
+import { parseAndDisplayZwo } from './workout-rendering.js'
 import {
   connectErgometer,
   connectHeartRateMonitor,
