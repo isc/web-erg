@@ -58,7 +58,7 @@ bundle exec puma
 
 1. **Connect Devices**:
 
-   - Click "Connecter" to pair your Bluetooth smart trainer
+   - Click "Connect" to pair your Bluetooth smart trainer
    - Optionally connect a heart rate monitor
 
 2. **Set Parameters**:
@@ -73,7 +73,7 @@ bundle exec puma
 
 4. **Start Training**:
 
-   - Click "Démarrer" to begin the workout
+   - Click "Start" to begin the workout
    - Follow the power targets and visual cues
    - Listen to audio coaching instructions (if available)
 
