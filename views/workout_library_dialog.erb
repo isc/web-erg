@@ -10,7 +10,7 @@
           <span x-text="`${workout.duration} minutes`"></span>
         </h6>
         <button class="outline" @click="workout.onClick()">
-          Sélectionner
+          Select
         </button>
       </div>
       <div x-show="workout.showPath && workout.path">
@@ -33,17 +33,17 @@
   <article>
     <header>
       <button
-        aria-label="Fermer"
+        aria-label="Close"
         rel="prev"
         onclick="libraryModal.close()"
       ></button>
-      <p><strong>Bibliothèque d'entraînements</strong></p>
+      <p><strong>Workout Library</strong></p>
     </header>
 
     <div>
       <input
         type="search"
-        placeholder="Rechercher un entraînement..."
+        placeholder="Search for a workout..."
         x-model="searchQuery"
         @input="filterData"
       />
@@ -51,7 +51,7 @@
 
     <div class="grid">
       <label>
-        Durée min. (min)
+        Min. duration (min)
         <input
           type="number"
           min="0"
@@ -63,7 +63,7 @@
         />
       </label>
       <label>
-        Durée max. (min)
+        Max. duration (min)
         <input
           type="number"
           min="0"
@@ -84,7 +84,7 @@
           <summary>
             <strong x-text="collectionName"></strong>
             <small
-              x-text="`(${getCollectionCount(collection)} entraînements)`"
+              x-text="`(${getCollectionCount(collection)} workouts)`"
             ></small>
           </summary>
           <div>
@@ -119,7 +119,7 @@
       </template>
       <div x-show="hasActiveFilters && Object.keys(displayData).length === 0">
         <p class="secondary">
-          Aucun entraînement trouvé pour les critères sélectionnés
+          No workouts found for the selected criteria
         </p>
       </div>
     </div>

@@ -40,8 +40,8 @@ window.workoutApp = function () {
     phaseTimeRemaining: '0:00',
     wakeLock: null,
     isPaused: false,
-    ergometerButtonLabel: 'Connecter',
-    heartRateMonitorButtonLabel: 'Connecter',
+    ergometerButtonLabel: 'Connect',
+    heartRateMonitorButtonLabel: 'Connect',
     selectedWorkout: null,
 
     async requestWakeLock() {
@@ -55,15 +55,15 @@ window.workoutApp = function () {
       }
     },
     async connectErgo() {
-      this.ergometerButtonLabel = 'Connexion...'
+      this.ergometerButtonLabel = 'Connecting...'
       this.ergometerName = await connectErgometer()
-      this.ergometerButtonLabel = this.ergometerName || 'Connecter'
+      this.ergometerButtonLabel = this.ergometerName || 'Connect'
     },
     async connectHeartRateMonitor() {
-      this.heartRateMonitorButtonLabel = 'Connexion...'
+      this.heartRateMonitorButtonLabel = 'Connecting...'
       const heartRateMonitor = await connectHeartRateMonitor()
       if (!heartRateMonitor) {
-        this.heartRateMonitorButtonLabel = 'Connecter'
+        this.heartRateMonitorButtonLabel = 'Connect'
         return
       }
       this.heartRateMonitorName = heartRateMonitor.name
@@ -206,7 +206,7 @@ window.workoutApp = function () {
         return true
       } catch (error) {
         console.error('Error loading workout:', error)
-        alert("Erreur lors du chargement de l'entraînement")
+        alert('Error loading workout')
         return false
       }
     },

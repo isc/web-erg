@@ -1,6 +1,6 @@
 <form @submit.prevent="startWorkout" x-data x-show="showForm">
   <fieldset>
-    <label>Vélo
+    <label>Bike
       <input
         type="button"
         @click="connectErgo"
@@ -8,7 +8,7 @@
         x-bind:value="ergometerButtonLabel"
       />
     </label>
-    <label>Cardio
+    <label>Heart Rate Monitor
       <input
         type="button"
         @click="connectHeartRateMonitor"
@@ -26,11 +26,10 @@
         placeholder="150"
       />
       <small>
-        Functional Threshold Power - utilisé pour calculer les intensités
-        de l'entraînement
+        Functional Threshold Power - used to calculate workout intensities
       </small>
     </label>
-    <label>Poids (kg)
+    <label>Weight (kg)
       <input
         type="number"
         min="40"
@@ -40,17 +39,17 @@
         placeholder="70"
       />
       <small>
-        Poids du cycliste - utilisé pour calculer la vitesse virtuelle
+        Cyclist weight - used to calculate virtual speed
       </small>
     </label>
-    <label> Entraînement</label>
+    <label> Workout</label>
     <div class="grid">
       <button
         type="button"
         class="outline"
         onclick="libraryModal.showModal()"
       >
-        Choisir dans la bibliothèque
+        Choose from Library
       </button>
       <input
         type="file"
@@ -65,23 +64,23 @@
         class="outline"
         @click="$refs.fileInput.click()"
       >
-        Charger un fichier
+        Load a File
       </button>
     </div>
     <small>
       <span x-show="!selectedWorkout">
-        Fichier d'entraînement au format ZWO
+        Workout file in ZWO format
         <a class="secondary" href="#" onclick="zwoModal.showModal()">
-          ⓘ En savoir plus
+          ⓘ Learn more
         </a>
       </span>
       <span x-show="selectedWorkout">
-        Sélectionné: <strong x-text="selectedWorkout?.name"></strong>
+        Selected: <strong x-text="selectedWorkout?.name"></strong>
         <span x-show="selectedWorkout?.duration">
           (<span x-text="selectedWorkout?.duration"></span> min)
         </span>
       </span>
     </small>
-    <button type="submit">Démarrer</button>
+    <button type="submit">Start</button>
   </fieldset>
 </form>

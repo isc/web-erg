@@ -20,36 +20,36 @@
 
   <article x-show="isPaused" class="grid">
     <div>
-      <h4>Entrainement en pause</h4>
+      <h4>Workout Paused</h4>
       <p>
-        Tu as mis l'entraînement en pause. Tu peux le reprendre en
-        pédalant ou l'arrêter.
+        You have paused the workout. You can resume it by pedaling
+        or stop it.
       </p>
     </div>
-    <button class="outline" @click="stopWorkout">Arrêter</button>
+    <button class="outline" @click="stopWorkout">Stop</button>
   </article>
 
   <article x-show="workoutFinished" class="grid">
     <div>
-      <h4>Entrainement terminé</h4>
+      <h4>Workout Completed</h4>
       <p>
-        Tu as terminé l'entraînement ! Tu peux maintenant exporter tes
-        données et les
+        You have completed the workout! You can now export your
+        data and
         <a href="https://www.strava.com/upload/select" target="_blank"
-          >partager sur Strava</a
+          >share it on Strava</a
         >.
       </p>
     </div>
-    <button @click="exportTcx">Exporter TCX</button>
+    <button @click="exportTcx">Export TCX</button>
   </article>
 
   <table>
     <thead>
       <tr>
-        <th>Temps</th>
-        <th>Puissance</th>
+        <th>Time</th>
+        <th>Power</th>
         <th>Cadence</th>
-        <th>Cardio</th>
+        <th>Heart Rate</th>
       </tr>
     </thead>
     <tbody>
