@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Web ERG Trainer</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.cyan.min.css"
+    />
+    <link rel="stylesheet" href="/main.css" />
+  </head>
+  <body>
+    <main class="container" x-data="workoutApp()">
+      <%= erb :workout_form %>
+      <%= erb :workout_display %>
+      <%= erb :workout_library_dialog %>
+      <%= erb :no_bluetooth_dialog %>
+      <%= erb :zwo_file_help_dialog %>
+    </main>
+    <script type="module" src="/js/main.js"></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"
+    ></script>
+  </body>
+</html>

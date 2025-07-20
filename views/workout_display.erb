@@ -1,0 +1,70 @@
+<div x-show="showWorkout">
+  <hgroup>
+    <h2>
+      <span x-text="workoutMeta?.name"></span> •
+      <span x-text="workoutMeta?.totalDuration"></span> minutes
+    </h2>
+    <p
+      x-data="{clamp: 3}"
+      class="workout-description"
+      @click="clamp = clamp === 3 ? 100 : 3"
+      x-bind:style="`-webkit-line-clamp: ${clamp}`"
+    >
+      <span x-text="workoutMeta?.description"></span>
+      <cite
+        x-show="workoutMeta?.author"
+        x-text="` — ${workoutMeta?.author}`"
+      ></cite>
+    </p>
+  </hgroup>
+
+  <article x-show="isPaused" class="grid">
+    <div>
+      <h4>Entrainement en pause</h4>
+      <p>
+        Tu as mis l'entraînement en pause. Tu peux le reprendre en
+        pédalant ou l'arrêter.
+      </p>
+    </div>
+    <button class="outline" @click="stopWorkout">Arrêter</button>
+  </article>
+
+  <article x-show="workoutFinished" class="grid">
+    <div>
+      <h4>Entrainement terminé</h4>
+      <p>
+        Tu as terminé l'entraînement ! Tu peux maintenant exporter tes
+        données et les
+        <a href="https://www.strava.com/upload/select" target="_blank"
+          >partager sur Strava</a
+        >.
+      </p>
+    </div>
+    <button @click="exportTcx">Exporter TCX</button>
+  </article>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Temps</th>
+        <th>Puissance</th>
+        <th>Cadence</th>
+        <th>Cardio</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td x-text="timer">0:00</td>
+        <td><span x-text="power">-</span> W</td>
+        <td><span x-text="cadence">-</span> rpm</td>
+        <td><span x-text="heartRate">-</span> bpm</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="phase-progress-container">
+    <span x-text="phaseTimeRemaining">0:00</span>
+    <progress x-bind:value="phaseProgress" max="100"></progress>
+  </div>
+
+  <div x-ref="workoutSvg" class="workout-svg-container"></div>
+</div>

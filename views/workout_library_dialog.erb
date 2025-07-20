@@ -1,0 +1,127 @@
+<script type="module" src="/js/workout-library.js"></script>
+
+<template x-ref="workoutItemTemplate">
+  <article>
+    <hgroup>
+      <div class="grid">
+        <h6>
+          <span x-text="workout.name"></span>
+          •
+          <span x-text="`${workout.duration} minutes`"></span>
+        </h6>
+        <button class="outline" @click="workout.onClick()">
+          Sélectionner
+        </button>
+      </div>
+      <div x-show="workout.showPath && workout.path">
+        <small class="secondary" x-text="workout.path"></small>
+      </div>
+    </hgroup>
+    <p
+      x-data="{clamp: 3}"
+      class="workout-description"
+      @click="clamp = clamp === 3 ? 100 : 3"
+      x-bind:style="`-webkit-line-clamp: ${clamp}`"
+    >
+      <span x-text="workout.description"></span>
+      <cite x-show="workout.author" x-text="` — ${workout.author}`"></cite>
+    </p>
+  </article>
+</template>
+
+<dialog id="libraryModal" x-data="workoutLibraryModal()">
+  <article>
+    <header>
+      <button
+        aria-label="Fermer"
+        rel="prev"
+        onclick="libraryModal.close()"
+      ></button>
+      <p><strong>Bibliothèque d'entraînements</strong></p>
+    </header>
+
+    <div>
+      <input
+        type="search"
+        placeholder="Rechercher un entraînement..."
+        x-model="searchQuery"
+        @input="filterData"
+      />
+    </div>
+
+    <div class="grid">
+      <label>
+        Durée min. (min)
+        <input
+          type="number"
+          min="0"
+          max="300"
+          step="5"
+          x-model="minDuration"
+          @input="filterData"
+          placeholder="0"
+        />
+      </label>
+      <label>
+        Durée max. (min)
+        <input
+          type="number"
+          min="0"
+          max="300"
+          step="5"
+          x-model="maxDuration"
+          @input="filterData"
+          placeholder="300"
+        />
+      </label>
+    </div>
+    <div class="library-content">
+      <template
+        x-for="(collection, collectionName) in displayData"
+        :key="collectionName"
+      >
+        <details x-bind:open="hasActiveFilters">
+          <summary>
+            <strong x-text="collectionName"></strong>
+            <small
+              x-text="`(${getCollectionCount(collection)} entraînements)`"
+            ></small>
+          </summary>
+          <div>
+            <template x-for="(item, itemName) in collection" :key="itemName">
+              <div>
+                <template x-if="isWorkoutFile(item)">
+                  <div
+                    x-data="{ workout: prepareWorkoutData(item, itemName, collectionName, false) }"
+                    x-html="$refs.workoutItemTemplate.innerHTML"
+                  ></div>
+                </template>
+                <template x-if="!isWorkoutFile(item)">
+                  <details x-bind:open="hasActiveFilters">
+                    <summary x-text="itemName"></summary>
+                    <div>
+                      <template
+                        x-for="(subItem, subItemName) in item"
+                        :key="subItemName"
+                      >
+                        <div
+                          x-data="{ workout: prepareWorkoutData(subItem, collectionName + '/' + itemName + '/' + subItemName, collectionName, true) }"
+                          x-html="$refs.workoutItemTemplate.innerHTML"
+                        ></div>
+                      </template>
+                    </div>
+                  </details>
+                </template>
+              </div>
+            </template>
+          </div>
+        </details>
+      </template>
+      <div x-show="hasActiveFilters && Object.keys(displayData).length === 0">
+        <p class="secondary">
+          Aucun entraînement trouvé pour les critères sélectionnés
+        </p>
+      </div>
+    </div>
+  </article>
+</dialog>

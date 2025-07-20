@@ -56,7 +56,7 @@ export class AudioCoach {
           })
       }
 
-      globalTimeOffset += phaseDuration(child)
+      globalTimeOffset += this.phaseDuration(child)
     }
 
     console.log(

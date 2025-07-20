@@ -1,0 +1,17 @@
+<dialog id="noBluetoothModal" x-bind:open="!navigator.bluetooth">
+  <article>
+    <header>
+      <button
+        aria-label="Fermer"
+        rel="prev"
+        onclick="noBluetoothModal.close()"
+      ></button>
+      <p><strong>Bluetooth non supporté</strong></p>
+    </header>
+    <p>
+      Ton navigateur ne supporte pas les connexions Bluetooth. Tu peux essayer
+      avec
+      <a href="https://caniuse.com/?search=bluetooth"> un autre navigateur</a>.
+    </p>
+  </article>
+</dialog>
