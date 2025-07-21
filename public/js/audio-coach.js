@@ -2,6 +2,8 @@
  * Audio Coach - Manages audio message playback during workouts
  */
 
+import { parseXmlDoc } from './utils.js'
+
 const KNOWN_PHASES = [
   'Warmup',
   'SteadyState',
@@ -24,9 +26,8 @@ export class AudioCoach {
   }
 
   async loadTextEvents(xmlText) {
-    const parser = new DOMParser()
-    const xmlDoc = parser.parseFromString(xmlText, 'application/xml')
-    const uniqueId = xmlDoc.querySelector('uniqueId')?.textContent?.trim()
+    const doc = parseXmlDoc(xmlText)
+    const uniqueId = doc.querySelector('uniqueId')?.textContent?.trim()
     if (!uniqueId) {
       console.warn('🎵 Audio Coach: No uniqueId found in XML')
       return false
@@ -35,7 +36,7 @@ export class AudioCoach {
 
     let globalTimeOffset = 0
 
-    const workout = xmlDoc.querySelector('workout')
+    const workout = doc.querySelector('workout')
 
     for (const child of workout.children) {
       const phaseName = child.tagName

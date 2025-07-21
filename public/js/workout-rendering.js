@@ -1,5 +1,3 @@
-import { parseZwoPhases } from './workout.js'
-
 function getZoneColor(power) {
   if (power < 0.56) return '#888'
   if (power < 0.76) return '#2196f3'
@@ -59,7 +57,7 @@ function svgSteadyState(x, width, barH, svgHeight, margin, barRadius, color) {
   }" width="${width}" height="${barH}" rx="${barRadius}" fill="${color}" />`
 }
 
-function renderWorkoutSvg(phases, svgEl, currentPhaseIndex = null) {
+export function renderWorkoutSvg(phases, svgEl) {
   const svgWidth = 2400,
     svgHeight = 340,
     margin = 20,
@@ -70,7 +68,7 @@ function renderWorkoutSvg(phases, svgEl, currentPhaseIndex = null) {
   let expanded = []
   for (const p of phases) {
     if (p.type === 'IntervalsT') {
-      const repeat = parseInt(p.repeat) || 1
+      const repeat = p.repeat || 1
       for (let i = 0; i < repeat; i++) {
         expanded.push({ type: 'On', duration: p.onDuration, power: p.onPower })
         expanded.push({
@@ -81,10 +79,7 @@ function renderWorkoutSvg(phases, svgEl, currentPhaseIndex = null) {
       }
     } else expanded.push(p)
   }
-  const totalDuration = expanded.reduce(
-    (sum, p) => sum + (parseFloat(p.duration) || 0),
-    0
-  )
+  const totalDuration = expanded.reduce((sum, p) => sum + (p.duration || 0), 0)
   let x = margin
   let svg = `<svg viewBox="0 0 ${svgWidth} ${svgHeight}">`
   let gradCount = 0
@@ -92,21 +87,21 @@ function renderWorkoutSvg(phases, svgEl, currentPhaseIndex = null) {
   let paths = ''
   for (let i = 0; i < expanded.length; i++) {
     const phase = expanded[i]
-    const duration = parseFloat(phase.duration) || 0
+    const duration = phase.duration || 0
     const width =
       (duration / totalDuration) *
       (svgWidth - 2 * margin - phaseGap * (expanded.length - 1))
     let color = '#ccc'
     let barH = minBarHeight
     if (phase.power) {
-      const pwr = parseFloat(phase.power)
+      const pwr = phase.power
       color = getZoneColor(pwr)
       barH = minBarHeight + (maxBarHeight - minBarHeight) * Math.min(pwr, 1.5)
     }
     let dataAttr = `data-phase-index=\"${i}\"`
     if (phase.powerLow && phase.powerHigh) {
-      const pLow = parseFloat(phase.powerLow),
-        pHigh = parseFloat(phase.powerHigh)
+      const pLow = phase.powerLow,
+        pHigh = phase.powerHigh
       const color1 = getZoneColor(pLow),
         color2 = getZoneColor(pHigh)
       const h1 =
@@ -161,8 +156,4 @@ function renderWorkoutSvg(phases, svgEl, currentPhaseIndex = null) {
   svg += paths
   svg += '</svg>'
   svgEl.innerHTML = svg
-}
-
-export function parseAndDisplayZwo(xmlText, workoutSvgEl) {
-  renderWorkoutSvg(parseZwoPhases(xmlText), workoutSvgEl)
 }

@@ -1,5 +1,5 @@
 import { WorkoutRunner, parseZwoMeta, parseZwoPhases } from './workout.js'
-import { parseAndDisplayZwo } from './workout-rendering.js'
+import { renderWorkoutSvg } from './workout-rendering.js'
 import {
   connectErgometer,
   connectHeartRateMonitor,
@@ -39,16 +39,14 @@ window.workoutApp = function () {
     ergometerButtonLabel: 'Connect',
     heartRateMonitorButtonLabel: 'Connect',
     selectedWorkout: null,
+    cadenceTarget: null,
 
     async requestWakeLock() {
-      if ('wakeLock' in navigator)
-        this.wakeLock = await navigator.wakeLock.request('screen')
+      this.wakeLock = await navigator.wakeLock?.request('screen')
     },
     async releaseWakeLock() {
-      if (this.wakeLock) {
-        await this.wakeLock.release()
-        this.wakeLock = null
-      }
+      await this.wakeLock?.release()
+      this.wakeLock = null
     },
     async connectErgo() {
       this.ergometerButtonLabel = 'Connecting...'
@@ -91,6 +89,7 @@ window.workoutApp = function () {
     },
     loadWorkoutFromXml(xml) {
       const phases = parseZwoPhases(xml)
+      console.log({ phases })
       this.workoutMeta = parseZwoMeta(xml)
       this.workoutRunner?.stop()
       this.workoutRunner = new WorkoutRunner(
@@ -102,7 +101,7 @@ window.workoutApp = function () {
         this.$refs.workoutSvg,
         xml
       )
-      parseAndDisplayZwo(xml, this.$refs.workoutSvg)
+      renderWorkoutSvg(phases, this.$refs.workoutSvg)
       this.workoutFinished = false
       this.workoutSelected = true
     },
@@ -119,7 +118,12 @@ window.workoutApp = function () {
       reader.readAsText(file)
     },
     startWorkout() {
-      if (!this.ergometerName || !this.heartRateMonitorName) return
+      if (
+        !this.ergometerName ||
+        !this.heartRateMonitorName ||
+        !this.workoutSelected
+      )
+        return
       if (!isTestEnv()) document.documentElement.requestFullscreen?.()
       localStorage.setItem('ftp', this.ftp)
       localStorage.setItem('weight', this.weight)
@@ -137,6 +141,7 @@ window.workoutApp = function () {
           (Date.now() - this.timerStartTime) / 1000
         )
         this.timer = formatForTimer(this.elapsedTime + currentElapsed)
+        this.cadenceTarget = this.workoutRunner.getCurrentCadenceTarget()
       }, 1000)
     },
     stopTimerUI() {
@@ -205,6 +210,26 @@ window.workoutApp = function () {
         alert('Error loading workout')
         return false
       }
+    },
+    getCadenceStatus() {
+      if (!this.cadenceTarget || this.cadence === '-') return ''
+      const currentCadence = parseFloat(this.cadence)
+      if (isNaN(currentCadence)) return ''
+      if (this.cadenceTarget.type === 'fixed') {
+        const target = this.cadenceTarget.target
+        const tolerance = 5
+        if (Math.abs(currentCadence - target) <= tolerance)
+          return 'cadence-good'
+        else return 'cadence-warning'
+      } else if (this.cadenceTarget.type === 'range') {
+        if (
+          currentCadence >= this.cadenceTarget.min &&
+          currentCadence <= this.cadenceTarget.max
+        )
+          return 'cadence-good'
+        else return 'cadence-warning'
+      }
+      return ''
     },
     init() {
       const savedFtp = localStorage.getItem('ftp')

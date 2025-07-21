@@ -7,3 +7,8 @@ export function formatForTimer(seconds) {
   const sec = seconds % 60
   return `${min}:${sec.toString().padStart(2, '0')}`
 }
+
+export function parseXmlDoc(xmlText) {
+  const parser = new DOMParser()
+  return parser.parseFromString(xmlText, 'application/xml')
+}

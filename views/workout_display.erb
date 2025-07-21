@@ -56,7 +56,19 @@
       <tr>
         <td x-text="timer">0:00</td>
         <td><span x-text="power">-</span> W</td>
-        <td><span x-text="cadence">-</span> rpm</td>
+        <td>
+          <span x-text="cadence + '  rpm'" x-bind:class="getCadenceStatus()">-</span>
+          <small 
+            class="cadence-target"
+            x-show="cadenceTarget.type === 'fixed'" 
+            x-text="' - Target: ' + cadenceTarget.target">
+          </small>
+          <small 
+            class="cadence-target"
+            x-show="cadenceTarget.type === 'range'" 
+            x-text="' - Target: ' + cadenceTarget.min + '-' + cadenceTarget.max">
+          </small>
+        </td>
         <td><span x-text="heartRate">-</span> bpm</td>
       </tr>
     </tbody>

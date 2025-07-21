@@ -1,4 +1,4 @@
-import { formatForTimer } from './utils.js'
+import { formatForTimer, parseXmlDoc } from './utils.js'
 import { AudioCoach } from './audio-coach.js'
 
 export class WorkoutRunner {
@@ -29,47 +29,68 @@ export class WorkoutRunner {
   expandPhases(phases) {
     let expanded = []
     for (const p of phases) {
+      const cadenceValues = {
+        cadence: p.cadence,
+        cadenceLow: p.cadenceLow,
+        cadenceHigh: p.cadenceHigh
+      }
       if (p.type === 'IntervalsT') {
-        const repeat = parseInt(p.repeat) || 1
+        const repeat = p.repeat || 1
         for (let i = 0; i < repeat; i++) {
           expanded.push({
             type: 'On',
-            duration: parseFloat(p.onDuration),
-            power: parseFloat(p.onPower)
+            duration: p.onDuration,
+            power: p.onPower,
+            cadence: p.cadence
           })
           expanded.push({
             type: 'Off',
-            duration: parseFloat(p.offDuration),
-            power: parseFloat(p.offPower)
+            duration: p.offDuration,
+            power: p.offPower,
+            cadence: p.cadenceResting
           })
         }
       } else if (p.type === 'SteadyState') {
         expanded.push({
           type: 'SteadyState',
-          duration: parseFloat(p.duration),
-          power: p.power ? parseFloat(p.power) : 0
+          duration: p.duration,
+          power: p.power || 0,
+          ...cadenceValues
         })
       } else if (p.type === 'Warmup' || p.type === 'Cooldown') {
-        const duration = parseFloat(p.duration)
-        const powerLow = p.powerLow ? parseFloat(p.powerLow) : 0
-        const powerHigh = p.powerHigh ? parseFloat(p.powerHigh) : powerLow
+        const duration = p.duration
+        const powerLow = p.powerLow || 0
+        const powerHigh = p.powerHigh || powerLow
         if (powerLow !== powerHigh) {
-          expanded.push({ type: 'Ramp', duration, powerLow, powerHigh })
+          expanded.push({
+            type: 'Ramp',
+            duration,
+            powerLow,
+            powerHigh,
+            ...cadenceValues
+          })
         } else {
-          expanded.push({ type: p.type, duration, power: powerLow })
+          expanded.push({
+            type: p.type,
+            duration,
+            power: powerLow,
+            ...cadenceValues
+          })
         }
       } else if (p.type === 'Ramp') {
         expanded.push({
           type: 'Ramp',
-          duration: parseFloat(p.duration),
-          powerLow: parseFloat(p.powerLow),
-          powerHigh: parseFloat(p.powerHigh)
+          duration: p.duration,
+          powerLow: p.powerLow,
+          powerHigh: p.powerHigh,
+          ...cadenceValues
         })
       } else if (p.type === 'FreeRide') {
         expanded.push({
           type: 'FreeRide',
-          duration: parseFloat(p.duration),
-          power: 0
+          duration: p.duration,
+          power: 0,
+          cadence: p.cadence
         })
       }
     }
@@ -107,6 +128,34 @@ export class WorkoutRunner {
       if (i < this.currentPhaseIndex) el.classList.add('phase-completed')
       else if (i === this.currentPhaseIndex) el.classList.add('phase-current')
     })
+  }
+
+  getCurrentCadenceTarget() {
+    const phase = this.expandedPhases[this.currentPhaseIndex]
+    if (!phase) return null
+    if (phase.cadence) return { target: phase.cadence, type: 'fixed' }
+    if (phase.cadenceHigh && phase.cadenceLow) {
+      if (phase.type === 'Ramp' && phase.duration > 0) {
+        const progress = this.currentPhaseElapsed / phase.duration
+        const target = Math.round(
+          phase.cadenceLow + (phase.cadenceHigh - phase.cadenceLow) * progress
+        )
+        return {
+          target,
+          type: 'range',
+          min: phase.cadenceLow,
+          max: phase.cadenceHigh
+        }
+      } else {
+        return {
+          target: Math.round((phase.cadenceHigh + phase.cadenceLow) / 2),
+          type: 'range',
+          min: phase.cadenceLow,
+          max: phase.cadenceHigh
+        }
+      }
+    }
+    return null
   }
 
   start() {
@@ -186,46 +235,38 @@ export class WorkoutRunner {
 }
 
 export function parseZwoPhases(xmlText) {
-  let parser = new DOMParser()
-  let xmlDoc = parser.parseFromString(xmlText, 'application/xml')
-  let workout = xmlDoc.querySelector('workout')
-  if (!workout) return []
-  let phases = []
-  for (let node of workout.children) {
-    let tag = node.tagName
-    let phase = { type: tag }
-    switch (tag) {
-      case 'Warmup':
-      case 'Cooldown':
-        phase.duration = node.getAttribute('Duration')
-        phase.powerLow = node.getAttribute('PowerLow')
-        phase.powerHigh = node.getAttribute('PowerHigh')
-        break
-      case 'SteadyState':
-        phase.duration = node.getAttribute('Duration')
-        phase.power = node.getAttribute('Power')
-        break
-      case 'IntervalsT':
-        phase.repeat = node.getAttribute('Repeat')
-        phase.onDuration = node.getAttribute('OnDuration')
-        phase.onPower = node.getAttribute('OnPower')
-        phase.offDuration = node.getAttribute('OffDuration')
-        phase.offPower = node.getAttribute('OffPower')
-        break
-      case 'FreeRide':
-        phase.duration = node.getAttribute('Duration')
-        break
-      case 'Ramp':
-        phase.duration = node.getAttribute('Duration')
-        phase.powerLow = node.getAttribute('PowerLow')
-        phase.powerHigh = node.getAttribute('PowerHigh')
-        break
-      default:
-        continue
-    }
-    phases.push(phase)
-  }
-  return phases
+  let workout = parseXmlDoc(xmlText).querySelector('workout')
+  return Array.from(workout.children).map(node => {
+    let phase = { type: node.tagName }
+    const intAttributes = [
+      'Cadence',
+      'CadenceLow',
+      'CadenceHigh',
+      'CadenceResting',
+      'Repeat'
+    ]
+    const floatAttributes = [
+      'Duration',
+      'OnDuration',
+      'OffDuration',
+      'Power',
+      'PowerLow',
+      'PowerHigh',
+      'OnPower',
+      'OffPower'
+    ]
+    intAttributes.forEach(attr => {
+      const value = parseInt(node.getAttribute(attr))
+      if (!isNaN(value))
+        phase[attr.charAt(0).toLowerCase() + attr.slice(1)] = value
+    })
+    floatAttributes.forEach(attr => {
+      const value = parseFloat(node.getAttribute(attr))
+      if (!isNaN(value))
+        phase[attr.charAt(0).toLowerCase() + attr.slice(1)] = value
+    })
+    return phase
+  })
 }
 
 function getTagContent(xmlDoc, tagName) {
@@ -234,28 +275,24 @@ function getTagContent(xmlDoc, tagName) {
 }
 
 export function parseZwoMeta(xmlText) {
-  let parser = new DOMParser()
-  let xmlDoc = parser.parseFromString(xmlText, 'application/xml')
+  let xmlDoc = parseXmlDoc(xmlText)
   const name = getTagContent(xmlDoc, 'name')
   const description = getTagContent(xmlDoc, 'description')
   const author = getTagContent(xmlDoc, 'author')
 
   let totalDuration = 0
   let workout = xmlDoc.querySelector('workout')
-  if (workout)
-    for (let node of workout.children) {
-      let tag = node.tagName
-      if (
-        ['Warmup', 'Cooldown', 'SteadyState', 'FreeRide', 'Ramp'].includes(tag)
-      )
-        totalDuration += parseFloat(node.getAttribute('Duration')) || 0
-      else if (tag === 'IntervalsT') {
-        const repeat = parseInt(node.getAttribute('Repeat')) || 1
-        const onDuration = parseFloat(node.getAttribute('OnDuration')) || 0
-        const offDuration = parseFloat(node.getAttribute('OffDuration')) || 0
-        totalDuration += repeat * (onDuration + offDuration)
-      }
+  for (let node of workout.children) {
+    let tag = node.tagName
+    if (['Warmup', 'Cooldown', 'SteadyState', 'FreeRide', 'Ramp'].includes(tag))
+      totalDuration += parseFloat(node.getAttribute('Duration')) || 0
+    else if (tag === 'IntervalsT') {
+      const repeat = parseInt(node.getAttribute('Repeat')) || 1
+      const onDuration = parseFloat(node.getAttribute('OnDuration')) || 0
+      const offDuration = parseFloat(node.getAttribute('OffDuration')) || 0
+      totalDuration += repeat * (onDuration + offDuration)
     }
+  }
   totalDuration = totalDuration / 60
   if (totalDuration % 1) totalDuration = totalDuration.toFixed(2)
   return { name, description, author, totalDuration }

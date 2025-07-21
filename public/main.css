@@ -51,3 +51,11 @@ main.container {
   max-height: 60vh;
   overflow-y: auto;
 }
+
+.cadence-warning {
+  color: var(--pico-del-color);
+}
+
+.cadence-good {
+  color: var(--pico-ins-color);
+}
