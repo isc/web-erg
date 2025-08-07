@@ -1,0 +1,38 @@
+<script type="module" src="/js/low-battery-dialog.js"></script>
+
+<dialog id="lowBatteryModal" x-data="lowBatteryDialog()" x-bind:open="showDialog">
+  <article>
+    <header>
+      <button
+        aria-label="Close"
+        rel="prev"
+        @click="closeDialog()"
+      ></button>
+      <p><strong>⚠️ Low Battery Detected</strong></p>
+    </header>
+    <div>
+      <p>
+        Your device is not plugged in and the battery likely won't last more than 20 minutes.
+      </p>
+      <p>
+        <strong>Recommendations:</strong>
+      </p>
+      <ul>
+        <li>Plug your device into power to avoid any interruption</li>
+        <li>Or ensure your battery is sufficiently charged for your workout</li>
+      </ul>
+      <p>
+        <small class="secondary">
+          Current battery level: <span x-text="batteryLevel + '%'"></span>
+          <span x-show="!battery?.charging" class="text-danger"> (not charging)</span>
+          <span x-show="battery?.charging" class="text-success"> (charging)</span>
+        </small>
+      </p>
+    </div>
+    <footer>
+      <button @click="closeDialog()">
+        Got it
+      </button>
+    </footer>
+  </article>
+</dialog>
