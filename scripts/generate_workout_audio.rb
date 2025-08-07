@@ -27,7 +27,7 @@ class WorkoutAudioGenerator
     unique_id = doc.at_xpath('//uniqueId')&.text
     raise 'No uniqueId found in workout file' unless unique_id
 
-    audio_dir = File.join(File.dirname(__FILE__), '..', 'audio', unique_id)
+    audio_dir = File.join(File.dirname(__FILE__), '..', 'public', 'audio', unique_id)
     FileUtils.mkdir_p(audio_dir)
     puts "📁 Created directory: #{audio_dir}"
 

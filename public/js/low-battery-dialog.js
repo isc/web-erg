@@ -38,9 +38,7 @@ window.lowBatteryDialog = function () {
           isNaN(dischargingTime)) &&
           this.batteryLevel <= lowBatteryFallback)
 
-      if (shouldShowDialog && !batteryWarningShown) {
-        this.showDialog = true
-      }
+      if (shouldShowDialog && !batteryWarningShown) this.showDialog = true
     },
 
     closeDialog() {
