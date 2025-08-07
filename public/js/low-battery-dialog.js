@@ -31,7 +31,6 @@ window.lowBatteryDialog = function () {
       const lowBatteryFallback = 20 // Fallback threshold when time is not reliable
 
       const dischargingTime = this.battery.dischargingTime
-      console.log('Discharging time:', dischargingTime)
       const shouldShowDialog =
         (dischargingTime > 0 && dischargingTime <= timeThreshold) ||
         ((!dischargingTime ||
