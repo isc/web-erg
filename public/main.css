@@ -8,13 +8,12 @@ main.container {
 
 .workout-svg-container {
   width: 90vw;
-}
-
-.workout-svg-container svg {
-  background: transparent;
-  display: block;
-  height: auto;
-  width: 100%;
+  svg {
+    background: transparent;
+    display: block;
+    height: auto;
+    width: 100%;
+  }
 }
 
 .phase-completed {
@@ -58,4 +57,13 @@ main.container {
 
 .cadence-good {
   color: var(--pico-ins-color);
+}
+
+table.workout-data {
+  table-layout: fixed;
+  width: 100%;
+  th,
+  td {
+    width: 25%;
+  }
 }
