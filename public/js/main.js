@@ -1,5 +1,4 @@
 import { WorkoutRunner, parseZwoMeta, parseZwoPhases } from './workout.js'
-import { renderWorkoutSvg } from './workout-rendering.js'
 import {
   connectErgometer,
   connectHeartRateMonitor,
@@ -8,8 +7,10 @@ import {
   setOnHeartRateUpdate,
   setOnPowerUpdate
 } from './bluetooth.js'
+import { downloadDataUrl, formatForTimer, isTestEnv } from './utils.js'
 import { downloadTcx, generateTcx } from './tcx-export.js'
-import { formatForTimer, isTestEnv } from './utils.js'
+
+import { renderWorkoutSvg } from './workout-rendering.js'
 
 window.workoutApp = function () {
   return {
@@ -40,6 +41,7 @@ window.workoutApp = function () {
     heartRateMonitorButtonLabel: 'Connect',
     selectedWorkout: null,
     cadenceTarget: null,
+    screenshotDataUrl: null,
 
     async requestWakeLock() {
       this.wakeLock = await navigator.wakeLock?.request('screen')
@@ -87,9 +89,20 @@ window.workoutApp = function () {
         this.addOrUpdateSample({ heartRate: val })
       })
     },
+    captureScreenshot() {
+      if (this.screenshotDataUrl) return
+      this.screenshotDataUrl = true
+      html2canvas(document.documentElement)
+        .then(canvas => {
+          this.screenshotDataUrl = canvas.toDataURL('image/png')
+        })
+        .catch(e => {
+          this.screenshotDataUrl = false
+          console.warn('html2canvas capture failed', e)
+        })
+    },
     loadWorkoutFromXml(xml) {
       const phases = parseZwoPhases(xml)
-      console.log({ phases })
       this.workoutMeta = parseZwoMeta(xml)
       this.workoutRunner?.stop()
       this.workoutRunner = new WorkoutRunner(
@@ -188,12 +201,14 @@ window.workoutApp = function () {
       this.isPaused = false
       this.releaseWakeLock()
     },
-    exportTcx() {
+    exportActivity() {
       let notes = ''
       if (this.workoutMeta?.name) notes += this.workoutMeta?.name
       if (this.workoutMeta?.description)
         notes += (notes ? ' - ' : '') + this.workoutMeta?.description
       downloadTcx(generateTcx(this.workoutSamples, notes, this.weight))
+      if (this.screenshotDataUrl)
+        downloadDataUrl(this.screenshotDataUrl, '.png')
     },
     async loadWorkoutFromLibrary(workoutUrl) {
       try {

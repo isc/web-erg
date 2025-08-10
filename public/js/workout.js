@@ -1,4 +1,5 @@
 import { formatForTimer, parseXmlDoc } from './utils.js'
+
 import { AudioCoach } from './audio-coach.js'
 
 export class WorkoutRunner {
@@ -13,6 +14,10 @@ export class WorkoutRunner {
   ) {
     this.originalPhases = phases
     this.expandedPhases = this.expandPhases(phases)
+    this.totalDurationSeconds = this.expandedPhases.reduce(
+      (sum, p) => sum + (p.duration || 0),
+      0
+    )
     this.setErgPower = setErgPower
     this.onWorkoutEnd = onWorkoutEnd
     this.ftp = ftp
@@ -219,6 +224,9 @@ export class WorkoutRunner {
     this.currentPhaseElapsed++
     this.totalElapsed++
     this.audioCoach?.checkAndPlayMessages(this.totalElapsed)
+
+    if (this.totalElapsed >= this.totalDurationSeconds / 2)
+      this.alpineInstance.captureScreenshot()
 
     if (this.currentPhaseElapsed >= phase.duration) {
       this.currentPhaseIndex++

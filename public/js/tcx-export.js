@@ -1,3 +1,5 @@
+import { downloadDataUrl } from './utils.js'
+
 function virtualSpeedFromPower(powerWatts, options = {}) {
   // Physical constants
   const g = 9.81 // gravity (m/s²)
@@ -115,11 +117,6 @@ export function generateTcx(samples, name = '', weight = 70) {
 export function downloadTcx(tcxString) {
   const blob = new Blob([tcxString], { type: 'application/xml' })
   const url = URL.createObjectURL(blob)
-  const a = document.createElement('a')
-  a.href = url
-  a.download = new Date().toISOString() + '.tcx'
-  document.body.appendChild(a)
-  a.click()
-  document.body.removeChild(a)
+  downloadDataUrl(url, '.tcx')
   URL.revokeObjectURL(url)
 }
