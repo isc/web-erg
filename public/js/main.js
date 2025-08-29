@@ -88,6 +88,10 @@ window.workoutApp = function () {
       return this.summary?.zones || []
     },
 
+    // The path the workout was loaded from, when it came from the bundled library: the LLM coach
+    // endpoint reads the ZWO server-side from it.
+    loadedWorkoutPath: null,
+
     async requestWakeLock() {
       try {
         this.wakeLock = await navigator.wakeLock?.request('screen')
@@ -208,7 +212,8 @@ window.workoutApp = function () {
         this,
         this.$refs.workoutSvg,
         xmlDoc,
-        rawPhases
+        rawPhases,
+        this.loadedWorkoutPath
       )
       renderWorkoutSvg(phases, this.$refs.workoutSvg)
       // The previous ride's numbers have nothing to say about the one being loaded.
@@ -406,6 +411,7 @@ window.workoutApp = function () {
           throw new Error(`Failed to load workout: ${response.status}`)
 
         const xml = await response.text()
+        this.loadedWorkoutPath = workoutPath
         this.loadWorkoutFromXml(xml)
         return true
       } catch (error) {

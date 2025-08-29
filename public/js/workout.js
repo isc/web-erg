@@ -12,7 +12,8 @@ export class WorkoutRunner {
     alpineInstance,
     workoutSvgEl,
     xmlDoc,
-    rawPhases
+    rawPhases,
+    xmlPath = null
   ) {
     this.expandedPhases = expandedPhases
     this.totalDurationSeconds = totalDurationSeconds(expandedPhases)
@@ -27,16 +28,44 @@ export class WorkoutRunner {
     this.workoutSvgEl = workoutSvgEl
     this.xmlDoc = xmlDoc
     this.rawPhases = rawPhases
+    this.xmlPath = xmlPath
     this.initializeAudioCoach()
   }
 
   async initializeAudioCoach() {
     this.audioCoach = new AudioCoach()
+    // The LLM coach needs the workout's path: the server reads the ZWO from it. Without one — a
+    // file the rider dropped in — fall back to the workout's own recorded text events.
+    if (this.xmlPath) {
+      this.audioCoach.startLlmCoach(
+        () => this.buildLlmWorkoutState(),
+        this.xmlPath
+      )
+      return
+    }
     const audioReady = await this.audioCoach.loadTextEvents(
       this.xmlDoc,
       this.rawPhases
     )
     if (!audioReady) this.audioCoach = null
+  }
+
+  // The athlete's live state, as sent to the coach on each poll.
+  buildLlmWorkoutState() {
+    const phase = this.expandedPhases[this.currentPhaseIndex]
+    return {
+      currentTime: this.totalElapsed || 0,
+      phaseIndex: this.currentPhaseIndex,
+      phaseType: phase ? phase.type : null,
+      phaseElapsed: this.currentPhaseElapsed,
+      targetPower: phase ? phase.power || phase.powerLow || null : null,
+      targetCadence: phase ? phase.cadence || phase.cadenceLow || null : null,
+      heartRate: this.alpineInstance ? this.alpineInstance.heartRate : null,
+      cadence: this.alpineInstance ? this.alpineInstance.cadence : null,
+      power: this.alpineInstance ? this.alpineInstance.power : null,
+      ftp: this.ftp,
+      running: this.running
+    }
   }
 
   updatePhaseProgressBar() {

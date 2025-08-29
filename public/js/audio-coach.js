@@ -9,6 +9,9 @@ export class AudioCoach {
     this.audioDir = null
     this.textEvents = []
     this.currentAudio = null
+    this.llmMode = false
+    this.llmPollingInterval = null
+    this.llmLastAudio = null
   }
 
   async loadTextEvents(doc, phases) {
@@ -56,6 +59,48 @@ export class AudioCoach {
       console.log(`🎵 Audio files not found for workout ${uniqueId}`)
       return false
     }
+  }
+
+  async callLlmCoach() {
+    const state = this.workoutStateProvider()
+    try {
+      const response = await fetch('/llm_coach', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ state, xml_path: this.xmlPath })
+      })
+      if (!response.ok) return
+      const data = await response.json()
+      if (data.audio_url && data.audio_url !== this.llmLastAudio) {
+        this.playLlmAudio(data.audio_url)
+        this.llmLastAudio = data.audio_url
+      }
+    } catch (e) {
+      console.warn('LLM coach API error', e)
+    }
+  }
+
+  startLlmCoach(workoutStateProvider, xmlPath) {
+    this.llmMode = true
+    this.llmStopLlmCoach()
+    this.workoutStateProvider = workoutStateProvider
+    this.xmlPath = xmlPath
+    this.llmPollingInterval = setInterval(() => this.callLlmCoach(), 15000)
+    this.callLlmCoach()
+  }
+
+  llmStopLlmCoach() {
+    if (this.llmPollingInterval) clearInterval(this.llmPollingInterval)
+    this.llmPollingInterval = null
+    this.llmLastAudio = null
+  }
+
+  playLlmAudio(audioUrl) {
+    if (this.currentAudio) this.currentAudio.pause()
+    this.currentAudio = new Audio(audioUrl)
+    this.currentAudio.play().catch(e => {
+      console.warn('LLM audio playback error', e)
+    })
   }
 
   async checkAudioAvailability() {
