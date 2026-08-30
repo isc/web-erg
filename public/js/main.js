@@ -66,7 +66,12 @@ window.workoutApp = function () {
     formatDuration,
 
     async requestWakeLock() {
-      this.wakeLock = await navigator.wakeLock?.request('screen')
+      try {
+        this.wakeLock = await navigator.wakeLock?.request('screen')
+      } catch (error) {
+        // Refused on a hidden document, and in headless browsers. Not worth interrupting a ride.
+        console.warn('Screen wake lock refused: ' + error)
+      }
     },
     async releaseWakeLock() {
       await this.wakeLock?.release()
@@ -306,6 +311,17 @@ window.workoutApp = function () {
     },
     init() {
       this.registerDeviceCallbacks()
+      // The browser drops a screen wake lock the moment the page is hidden, and never restores it
+      // on its own. One glance at another window and the screen is free to sleep for the rest of
+      // the session — taking any AirPlay mirror with it.
+      document.addEventListener('visibilitychange', () => {
+        if (
+          document.visibilityState === 'visible' &&
+          this.showWorkout &&
+          !this.workoutFinished
+        )
+          this.requestWakeLock()
+      })
       const savedFtp = localStorage.getItem('ftp')
       if (savedFtp) this.ftp = parseInt(savedFtp)
       const savedWeight = localStorage.getItem('weight')
