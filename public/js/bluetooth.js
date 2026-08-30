@@ -137,8 +137,12 @@ async function subscribeCyclingPower(server) {
 
 async function openErgometer(device) {
   const server = await device.gatt.connect()
-  // Two independent services: the control handshake must not hold up the first power reading.
-  await Promise.all([takeControl(server), subscribeCyclingPower(server)])
+  // Sequential, deliberately. Running the two service discoveries concurrently saves one BLE round
+  // trip and coincided with intermittent connection failures on Android, whose GATT stack has a
+  // reputation for mishandling overlapping operations. A second saved is not worth a pairing that
+  // fails one time in two.
+  await takeControl(server)
+  await subscribeCyclingPower(server)
   // A reconnected trainer restarts its crank counters; keeping the old ones yields one absurd
   // cadence spike before the next revolution lands.
   prevCrankRevs = null
@@ -147,26 +151,21 @@ async function openErgometer(device) {
 
 export async function connectErgometer() {
   log('Requesting Bluetooth device...')
-  try {
-    const device = await bluetoothApi.requestDevice({
-      filters: [{ services: ['fitness_machine', 'cycling_power'] }]
-    })
-    log(`Connecting to ${device.name}...`)
-    await openErgometer(device)
-    log('✅ Connected and ready.')
-    onConnectionChange('ergometer', 'connected')
-    device.addEventListener('gattserverdisconnected', () => {
-      log('⚠️ Device disconnected.')
-      controlCharacteristic = null
-      onPowerUpdate('-')
-      onCadenceUpdate('-')
-      reconnect(device, openErgometer, 'ergometer')
-    })
-    return device.name
-  } catch (error) {
-    log('⚠️ ' + error)
-    return null
-  }
+  const device = await bluetoothApi.requestDevice({
+    filters: [{ services: ['fitness_machine', 'cycling_power'] }]
+  })
+  log(`Connecting to ${device.name}...`)
+  await openErgometer(device)
+  log('✅ Connected and ready.')
+  onConnectionChange('ergometer', 'connected')
+  device.addEventListener('gattserverdisconnected', () => {
+    log('⚠️ Device disconnected.')
+    controlCharacteristic = null
+    onPowerUpdate('-')
+    onCadenceUpdate('-')
+    reconnect(device, openErgometer, 'ergometer')
+  })
+  return device.name
 }
 
 export async function setErgPower(watts) {
@@ -202,24 +201,29 @@ async function openHeartRateMonitor(device) {
 
 export async function connectHeartRateMonitor() {
   log('Requesting Bluetooth HRM device...')
-  try {
-    const device = await bluetoothApi.requestDevice({
-      filters: [{ services: ['heart_rate'] }],
-      optionalServices: ['battery_service']
-    })
-    const server = await openHeartRateMonitor(device)
-    log('✅ Subscribed to Heart Rate notifications.')
-    onConnectionChange('heartRateMonitor', 'connected')
-    device.addEventListener('gattserverdisconnected', () => {
-      log('⚠️ HRM device disconnected.')
-      onHeartRateUpdate('-')
-      reconnect(device, openHeartRateMonitor, 'heartRateMonitor')
-    })
-    return { name: device.name, batteryLevel: await readBattery(server) }
-  } catch (error) {
-    log('⚠️ HRM: ' + error)
-    return null
-  }
+  const device = await bluetoothApi.requestDevice({
+    filters: [{ services: ['heart_rate'] }],
+    optionalServices: ['battery_service']
+  })
+  const server = await openHeartRateMonitor(device)
+  log('✅ Subscribed to Heart Rate notifications.')
+  onConnectionChange('heartRateMonitor', 'connected')
+  device.addEventListener('gattserverdisconnected', () => {
+    log('⚠️ HRM device disconnected.')
+    onHeartRateUpdate('-')
+    reconnect(device, openHeartRateMonitor, 'heartRateMonitor')
+  })
+  return { name: device.name, batteryLevel: await readBattery(server) }
+}
+
+/**
+ * Closing the device chooser is not a failure, and saying so would be noise. Everything else is
+ * worth repeating verbatim: the browser's own wording ("GATT Server is disconnected", "No Services
+ * matching UUID") is the only clue there is, and on a phone nobody is reading a console.
+ */
+export function describeConnectionFailure(deviceLabel, error) {
+  if (/cancel/i.test(error?.message || '')) return null
+  return `${deviceLabel}: ${error?.message || error}`
 }
 
 async function readBattery(server) {

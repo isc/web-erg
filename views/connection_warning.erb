@@ -7,3 +7,9 @@
 >
   <span x-text="connectionWarning"></span>
 </article>
+
+<%# A failed connection used to leave nothing behind but a console line and a button quietly back
+    on "Connect". There is no console to read on a phone. %>
+<article x-show="deviceError" class="device-error" role="alert">
+  <span x-text="deviceError"></span>
+</article>

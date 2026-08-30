@@ -12,6 +12,9 @@ const CHARACTERISTIC_TYPES = {
 
 const mockBluetooth = {
   requestDevice: async opts => {
+    const failure = localStorage.getItem('mockBluetoothFailure')
+    if (failure) throw new Error(failure)
+
     function FakeCharacteristic(type) {
       this.type = type
       this._listeners = {}

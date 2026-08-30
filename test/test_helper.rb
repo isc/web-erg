@@ -26,6 +26,13 @@ class CapybaraTestBase < Minitest::Test
     visit '/'
   end
 
+  # localStorage outlives a test: the browser is reused, and the app keeps FTP, the fake trainer's
+  # wattage, an unfinished session and the mock's failure switch there. One test arming any of them
+  # would otherwise decide the outcome of the next.
+  def teardown
+    page.execute_script('localStorage.clear()')
+  end
+
   # Calls into the app's own ES modules from the page under test. `body` is JavaScript whose value
   # is returned; it sees the imported modules under the names given in `modules`, and the arguments
   # passed here as `args[0]`, `args[1]`, ...

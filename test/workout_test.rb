@@ -33,6 +33,27 @@ class WorkoutTest < CapybaraTestBase
     assert_selector '[x-ref="workoutSvg"]', visible: true
   end
 
+  def test_a_failed_connection_says_what_went_wrong
+    page.execute_script(
+      "localStorage.setItem('mockBluetoothFailure', 'GATT Server is disconnected.')"
+    )
+    find_field('Bike').click
+
+    assert_text 'Bike: GATT Server is disconnected.'
+    assert_field 'Bike', with: 'Connect'
+  end
+
+  def test_closing_the_device_chooser_is_not_an_error
+    page.execute_script(
+      "localStorage.setItem('mockBluetoothFailure', " \
+      "'User cancelled the requestDevice() chooser.')"
+    )
+    find_field('Bike').click
+
+    assert_field 'Bike', with: 'Connect'
+    assert_no_selector '.device-error', visible: true
+  end
+
   def test_a_device_warning_shows_before_the_workout_starts
     # The banner used to live inside the workout display, hidden until Start — invisible exactly
     # when the rider is connecting devices and needs to know one has dropped.

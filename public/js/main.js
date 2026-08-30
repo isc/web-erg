@@ -3,6 +3,7 @@ import {
   bluetoothAvailable,
   connectErgometer,
   connectHeartRateMonitor,
+  describeConnectionFailure,
   setErgPower,
   setOnCadenceUpdate,
   setOnConnectionChange,
@@ -47,7 +48,7 @@ window.workoutApp = function () {
     phaseTimeRemaining: '0:00',
     wakeLock: null,
     isPaused: false,
-    ergometerButtonLabel: 'Connect',
+    ergometerConnecting: false,
     heartRateMonitorBatteryLevel: null,
     heartRateMonitorConnecting: false,
     selectedWorkout: null,
@@ -56,6 +57,7 @@ window.workoutApp = function () {
     screenshotPending: false,
     startError: null,
     connectionWarning: null,
+    deviceError: null,
     recoveredSession: null,
     persistInterval: null,
 
@@ -81,17 +83,32 @@ window.workoutApp = function () {
       this.wakeLock = null
     },
     async connectErgo() {
-      this.ergometerButtonLabel = 'Connecting...'
-      this.ergometerName = await connectErgometer()
-      this.ergometerButtonLabel = this.ergometerName || 'Connect'
+      this.deviceError = null
+      this.ergometerConnecting = true
+      try {
+        this.ergometerName = await connectErgometer()
+      } catch (error) {
+        this.deviceError = describeConnectionFailure('Bike', error)
+      } finally {
+        this.ergometerConnecting = false
+      }
+    },
+    get ergometerButtonLabel() {
+      if (this.ergometerConnecting) return 'Connecting...'
+      return this.ergometerName || 'Connect'
     },
     async connectHeartRateMonitor() {
+      this.deviceError = null
       this.heartRateMonitorConnecting = true
-      const heartRateMonitor = await connectHeartRateMonitor()
-      this.heartRateMonitorConnecting = false
-      if (!heartRateMonitor) return
-      this.heartRateMonitorName = heartRateMonitor.name
-      this.heartRateMonitorBatteryLevel = heartRateMonitor.batteryLevel
+      try {
+        const monitor = await connectHeartRateMonitor()
+        this.heartRateMonitorName = monitor.name
+        this.heartRateMonitorBatteryLevel = monitor.batteryLevel
+      } catch (error) {
+        this.deviceError = describeConnectionFailure('Heart rate monitor', error)
+      } finally {
+        this.heartRateMonitorConnecting = false
+      }
     },
     get heartRateMonitorButtonLabel() {
       if (this.heartRateMonitorConnecting) return 'Connecting...'
