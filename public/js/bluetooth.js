@@ -18,7 +18,9 @@ let prevCrankRevs = null
 let prevCrankEventTime = null
 let lastCadence = null
 let announcedFirstPower = false
+let announcedFirstPowerReading = false
 let announcedFirstHeartRate = false
+let announcedFirstHeartRateReading = false
 
 const bluetoothApi = isTestEnv() ? mockBluetooth : navigator.bluetooth
 
@@ -159,6 +161,7 @@ async function openErgometer(device) {
   prevCrankRevs = null
   prevCrankEventTime = null
   announcedFirstPower = false
+  announcedFirstPowerReading = false
 }
 
 export async function connectErgometer() {
@@ -209,6 +212,7 @@ async function openHeartRateMonitor(device) {
     onHeartRateNotification
   )
   announcedFirstHeartRate = false
+  announcedFirstHeartRateReading = false
   return server
 }
 
@@ -250,8 +254,29 @@ async function readBattery(server) {
   }
 }
 
+// A packet that arrives and then fails to parse leaves exactly the same trace as a packet that
+// never arrived: none. Announcing the raw bytes of the first one, before touching them, is what
+// separates "the device is silent" from "we cannot read what it says".
+function describeBytes(value) {
+  return Array.from(new Uint8Array(value.buffer))
+    .map(byte => byte.toString(16).padStart(2, '0'))
+    .join(' ')
+}
+
 function onCyclingPowerNotification(event) {
   const value = event.target.value
+  if (!announcedFirstPower) {
+    announcedFirstPower = true
+    log(`✅ First trainer packet: ${describeBytes(value)}`)
+  }
+  try {
+    readCyclingPower(value)
+  } catch (error) {
+    log(`⚠️ Unreadable trainer packet (${describeBytes(value)}): ${error}`)
+  }
+}
+
+function readCyclingPower(value) {
   let offset = 0
   const flags = value.getUint16(offset, true)
   offset += 2
@@ -283,8 +308,8 @@ function onCyclingPowerNotification(event) {
     prevCrankEventTime = crankEventTime
     cadence = lastCadence !== null ? lastCadence : '-'
   }
-  if (!announcedFirstPower) {
-    announcedFirstPower = true
+  if (!announcedFirstPowerReading) {
+    announcedFirstPowerReading = true
     log(`✅ First trainer reading: ${instantaneousPower} W`)
   }
   onPowerUpdate(instantaneousPower)
@@ -293,6 +318,18 @@ function onCyclingPowerNotification(event) {
 
 function onHeartRateNotification(event) {
   const value = event.target.value
+  if (!announcedFirstHeartRate) {
+    announcedFirstHeartRate = true
+    log(`✅ First heart rate packet: ${describeBytes(value)}`)
+  }
+  try {
+    readHeartRate(value)
+  } catch (error) {
+    log(`⚠️ Unreadable heart rate packet (${describeBytes(value)}): ${error}`)
+  }
+}
+
+function readHeartRate(value) {
   let offset = 0
   const flags = value.getUint8(offset)
   offset += 1
@@ -300,8 +337,8 @@ function onHeartRateNotification(event) {
     (flags & 0x01) === 0
       ? value.getUint8(offset)
       : value.getUint16(offset, true)
-  if (!announcedFirstHeartRate) {
-    announcedFirstHeartRate = true
+  if (!announcedFirstHeartRateReading) {
+    announcedFirstHeartRateReading = true
     log(`✅ First heart rate reading: ${hr} bpm`)
   }
   onHeartRateUpdate(hr)
