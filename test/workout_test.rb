@@ -13,6 +13,14 @@ class WorkoutTest < CapybaraTestBase
     assert_selector '[x-ref="workoutSvg"]', visible: true
   end
 
+  def test_heart_rate_button_shows_the_live_rate
+    # Before this, nothing listened to the belt until the workout started, so there was no way to
+    # check on the setup screen that the watch was actually broadcasting.
+    find_field('Heart Rate Monitor').click
+    # The button disables itself once connected, so it has to be looked up with disabled: :all.
+    assert_field 'Heart Rate Monitor', with: /120 bpm/, disabled: :all
+  end
+
   def test_counts_the_full_duration_of_a_workout_with_undocumented_tags
     find_field('Bike').click
     find_field('Heart Rate Monitor').click

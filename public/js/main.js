@@ -5,6 +5,7 @@ import {
   connectHeartRateMonitor,
   setErgPower,
   setOnCadenceUpdate,
+  setOnConnectionChange,
   setOnHeartRateUpdate,
   setOnPowerUpdate
 } from './bluetooth.js'
@@ -40,10 +41,12 @@ window.workoutApp = function () {
     wakeLock: null,
     isPaused: false,
     ergometerButtonLabel: 'Connect',
-    heartRateMonitorButtonLabel: 'Connect',
+    heartRateMonitorBatteryLevel: null,
+    heartRateMonitorConnecting: false,
     selectedWorkout: null,
     cadenceTarget: null,
     screenshotDataUrl: null,
+    connectionWarning: null,
 
     // Drives the "Bluetooth not supported" modal. Availability is the Bluetooth module's question:
     // it is the one that swaps in the mock, and headless browsers expose no navigator.bluetooth, so
@@ -65,20 +68,41 @@ window.workoutApp = function () {
       this.ergometerButtonLabel = this.ergometerName || 'Connect'
     },
     async connectHeartRateMonitor() {
-      this.heartRateMonitorButtonLabel = 'Connecting...'
+      this.heartRateMonitorConnecting = true
       const heartRateMonitor = await connectHeartRateMonitor()
-      if (!heartRateMonitor) {
-        this.heartRateMonitorButtonLabel = 'Connect'
-        return
-      }
+      this.heartRateMonitorConnecting = false
+      if (!heartRateMonitor) return
       this.heartRateMonitorName = heartRateMonitor.name
       this.heartRateMonitorBatteryLevel = heartRateMonitor.batteryLevel
-      this.heartRateMonitorButtonLabel = `${this.heartRateMonitorName} - ${this.heartRateMonitorBatteryLevel}%`
     },
-    setCallbacks() {
+    get heartRateMonitorButtonLabel() {
+      if (this.heartRateMonitorConnecting) return 'Connecting...'
+      if (!this.heartRateMonitorName) return 'Connect'
+      const parts = [this.heartRateMonitorName]
+      // A watch broadcasting its heart rate usually exposes no battery service, and the label read
+      // "null%" — which says nothing beyond the fact that we asked.
+      if (this.heartRateMonitorBatteryLevel != null)
+        parts.push(`${this.heartRateMonitorBatteryLevel}%`)
+      // Showing the live rate is the only way to tell, before starting, that the strap or the watch
+      // is actually sending something.
+      if (this.heartRate !== '-') parts.push(`${this.heartRate} bpm`)
+      return parts.join(' · ')
+    },
+    // Device callbacks belong to the page, not to a running workout: a trainer that drops while
+    // the rider is still choosing a workout has to show something too.
+    registerDeviceCallbacks() {
+      setOnConnectionChange((device, state) => {
+        const label = device === 'ergometer' ? 'Bike' : 'Heart rate monitor'
+        if (state === 'connected') this.connectionWarning = null
+        else if (state === 'reconnecting')
+          this.connectionWarning = `${label} disconnected — reconnecting…`
+        else
+          this.connectionWarning = `${label} lost. Check it, then reconnect it.`
+      })
       setOnPowerUpdate(val => {
         this.power = val
         if (
+          this.workoutRunner &&
           !this.workoutRunner.isRunning() &&
           Number(val) > 0 &&
           !this.workoutFinished
@@ -157,7 +181,6 @@ window.workoutApp = function () {
       this.showWorkout = true
       this.showForm = false
       this.requestWakeLock()
-      this.setCallbacks()
     },
     startTimerUI() {
       this.timerStartTime = Date.now()
@@ -261,6 +284,7 @@ window.workoutApp = function () {
       return ''
     },
     init() {
+      this.registerDeviceCallbacks()
       const savedFtp = localStorage.getItem('ftp')
       if (savedFtp) this.ftp = parseInt(savedFtp)
       const savedWeight = localStorage.getItem('weight')
