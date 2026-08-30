@@ -84,3 +84,25 @@ table.workout-data {
 .device-error {
   border-left: 4px solid var(--pico-del-color, #b3261e);
 }
+
+.device-log {
+  margin-top: 2rem;
+  font-size: 0.85rem;
+}
+
+.device-log ol {
+  list-style: none;
+  padding: 0;
+  max-height: 40vh;
+  overflow-y: auto;
+}
+
+.device-log li {
+  padding: 0.15rem 0;
+  border-bottom: 1px solid var(--pico-muted-border-color);
+}
+
+.device-log small {
+  color: var(--pico-muted-color);
+  margin-right: 0.5rem;
+}

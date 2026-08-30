@@ -33,6 +33,17 @@ class WorkoutTest < CapybaraTestBase
     assert_selector '[x-ref="workoutSvg"]', visible: true
   end
 
+  def test_the_bluetooth_log_is_readable_without_a_console
+    find_field('Heart Rate Monitor').click
+
+    assert_text 'Bluetooth log'
+    find('summary', text: 'Bluetooth log').click
+    assert_text 'Subscribed to Heart Rate notifications'
+    # Silence is the state that is hard to read: a first reading separates "not connected" from
+    # "connected and saying nothing".
+    assert_text 'First heart rate reading: 120 bpm'
+  end
+
   def test_a_failed_connection_says_what_went_wrong
     page.execute_script(
       "localStorage.setItem('mockBluetoothFailure', 'GATT Server is disconnected.')"

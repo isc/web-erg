@@ -17,6 +17,8 @@ let controlCharacteristic
 let prevCrankRevs = null
 let prevCrankEventTime = null
 let lastCadence = null
+let announcedFirstPower = false
+let announcedFirstHeartRate = false
 
 const bluetoothApi = isTestEnv() ? mockBluetooth : navigator.bluetooth
 
@@ -24,8 +26,17 @@ export function bluetoothAvailable() {
   return !!bluetoothApi
 }
 
+// Every step of a connection is already narrated here. On a phone there is no console to read it
+// in, so the narration is also handed to whoever wants to show it.
+let onLog = () => {}
+
+export function setOnLog(cb) {
+  onLog = cb
+}
+
 function log(msg) {
   console.log(msg)
+  onLog(String(msg))
 }
 
 let onPowerUpdate = () => {}
@@ -147,6 +158,7 @@ async function openErgometer(device) {
   // cadence spike before the next revolution lands.
   prevCrankRevs = null
   prevCrankEventTime = null
+  announcedFirstPower = false
 }
 
 export async function connectErgometer() {
@@ -196,6 +208,7 @@ async function openHeartRateMonitor(device) {
     'characteristicvaluechanged',
     onHeartRateNotification
   )
+  announcedFirstHeartRate = false
   return server
 }
 
@@ -270,6 +283,10 @@ function onCyclingPowerNotification(event) {
     prevCrankEventTime = crankEventTime
     cadence = lastCadence !== null ? lastCadence : '-'
   }
+  if (!announcedFirstPower) {
+    announcedFirstPower = true
+    log(`✅ First trainer reading: ${instantaneousPower} W`)
+  }
   onPowerUpdate(instantaneousPower)
   onCadenceUpdate(instantaneousPower === 0 ? '-' : cadence)
 }
@@ -283,5 +300,9 @@ function onHeartRateNotification(event) {
     (flags & 0x01) === 0
       ? value.getUint8(offset)
       : value.getUint16(offset, true)
+  if (!announcedFirstHeartRate) {
+    announcedFirstHeartRate = true
+    log(`✅ First heart rate reading: ${hr} bpm`)
+  }
   onHeartRateUpdate(hr)
 }

@@ -4,6 +4,7 @@ import {
   connectErgometer,
   connectHeartRateMonitor,
   describeConnectionFailure,
+  setOnLog,
   setErgPower,
   setOnCadenceUpdate,
   setOnConnectionChange,
@@ -58,6 +59,7 @@ window.workoutApp = function () {
     startError: null,
     connectionWarning: null,
     deviceError: null,
+    deviceLog: [],
     recoveredSession: null,
     persistInterval: null,
 
@@ -369,6 +371,13 @@ window.workoutApp = function () {
       return ''
     },
     init() {
+      setOnLog(message => {
+        // Bounded: a long session with a flapping device would otherwise grow without end.
+        this.deviceLog = [
+          ...this.deviceLog.slice(-49),
+          { at: new Date().toLocaleTimeString(), message }
+        ]
+      })
       this.recoveredSession = loadSession()
       this.registerDeviceCallbacks()
       // The browser drops a screen wake lock the moment the page is hidden, and never restores it
