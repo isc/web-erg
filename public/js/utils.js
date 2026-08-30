@@ -20,4 +20,8 @@ export function downloadDataUrl(dataUrl, extension) {
   document.body.appendChild(a)
   a.click()
   document.body.removeChild(a)
+  // This function owns the anchor, so it owns the object URL's lifetime too. Revoking on the same
+  // tick as the click races the download in some browsers.
+  if (dataUrl.startsWith('blob:'))
+    setTimeout(() => URL.revokeObjectURL(dataUrl), 60000)
 }

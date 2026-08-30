@@ -9,6 +9,7 @@ group :development, :test do
   gem 'cuprite'
   gem 'minitest'
   gem 'rake'
+  gem 'rexml'
   gem 'rubocop', require: false
   gem 'rufo', require: false
 end

@@ -101,6 +101,7 @@ DEPENDENCIES
   puma
   rack
   rake
+  rexml
   rubocop
   rufo
   sinatra

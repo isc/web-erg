@@ -46,77 +46,143 @@ function virtualSpeedFromPower(powerWatts, options = {}) {
   return v // in m/s for TCX
 }
 
+// Nothing here was escaped, and both the name and the description come straight from a .zwo's
+// textContent — already decoded. A workout called "Sweet Spot & Threshold" produced an XML
+// document that no importer would accept.
+function escapeXml(value) {
+  return String(value)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+}
+
+/**
+ * Text content is escaped by construction; nested elements are passed as an array of already-built
+ * markup. Leaving that to the caller is what let `tag('Name', workoutName)` ship unescaped in the
+ * first place — a builder that cannot tell text from children will eventually be handed the wrong
+ * one again.
+ */
 function tag(name, content = '', attrs = {}) {
   const attrStr = Object.entries(attrs)
-    .map(([k, v]) => ` ${k}="${v}"`)
+    .map(([k, v]) => ` ${k}="${escapeXml(v)}"`)
     .join('')
-  return `<${name}${attrStr}>${content}</${name}>`
+  const inner = Array.isArray(content) ? content.join('') : escapeXml(content)
+  return `<${name}${attrStr}>${inner}</${name}>`
 }
 
 export function generateTcx(samples, name = '', weight = 70) {
   if (!samples || samples.length === 0) return ''
-  let totalDistance = 0
   const activityId = samples[0].time
-  const lapStartTime = samples[0].time
+  const startedAt = new Date(samples[0].time).getTime()
+  let previousTime = startedAt
+  let lastTime = startedAt
+  let totalDistance = 0
+  let kilojoules = 0
+  let maxSpeed = 0
+  let heartRateSum = 0
+  let heartRateCount = 0
+  let maxHeartRate = 0
   let trackpoints = ''
-  for (let i = 0; i < samples.length; i++) {
-    const s = samples[i]
-    let speed = undefined
-    if (s.power !== undefined && s.power !== '-')
-      speed = virtualSpeedFromPower(Number(s.power), { mass: weight + 10 })
-    let dist = 0
-    if (speed !== undefined && i > 0) dist = speed * 1
-    totalDistance += dist
-    let children =
-      tag('Time', s.time) + tag('DistanceMeters', totalDistance.toFixed(2))
-    if (s.cadence !== undefined && s.cadence !== '-')
-      children += tag('Cadence', Math.round(Number(s.cadence)))
-    if (s.heartRate !== undefined && s.heartRate !== '-')
-      children += tag(
-        'HeartRateBpm',
-        tag('Value', Math.round(Number(s.heartRate)))
-      )
-    if (s.power !== undefined && s.power !== '-')
-      children += tag(
-        'Extensions',
+
+  for (const sample of samples) {
+    const time = new Date(sample.time).getTime()
+    // Samples are not one per second — they are created whenever more than 1.5 s has passed, and
+    // not at all while the session is paused. Assuming a 1 s step, as this used to, under-reported
+    // both the duration and the distance of every ride uploaded to Strava.
+    const stepSeconds = Math.max(0, (time - previousTime) / 1000)
+    previousTime = time
+    lastTime = time
+
+    const hasPower = sample.power !== undefined && sample.power !== '-'
+    const children = []
+    let speed
+    if (hasPower) {
+      const watts = Number(sample.power)
+      speed = virtualSpeedFromPower(watts, { mass: weight + 10 })
+      totalDistance += speed * stepSeconds
+      kilojoules += (watts * stepSeconds) / 1000
+      if (speed > maxSpeed) maxSpeed = speed
+    }
+
+    children.push(tag('Time', sample.time))
+    children.push(tag('DistanceMeters', totalDistance.toFixed(2)))
+    if (sample.cadence !== undefined && sample.cadence !== '-')
+      children.push(tag('Cadence', Math.round(Number(sample.cadence))))
+    if (sample.heartRate !== undefined && sample.heartRate !== '-') {
+      const bpm = Math.round(Number(sample.heartRate))
+      heartRateSum += bpm
+      heartRateCount++
+      if (bpm > maxHeartRate) maxHeartRate = bpm
+      children.push(tag('HeartRateBpm', [tag('Value', bpm)]))
+    }
+    if (hasPower)
+      children.push(
         tag(
-          'ns3:TPX',
-          (speed !== undefined ? tag('ns3:Speed', speed.toFixed(3)) : '') +
-            tag('ns3:Watts', Math.round(Number(s.power))),
-          {
-            'xmlns:ns3': 'http://www.garmin.com/xmlschemas/ActivityExtension/v2'
-          }
+          'Extensions',
+          [
+            tag(
+              'ns3:TPX',
+              [
+                tag('ns3:Speed', speed.toFixed(3)),
+                tag('ns3:Watts', Math.round(Number(sample.power)))
+              ],
+              {
+                'xmlns:ns3':
+                  'http://www.garmin.com/xmlschemas/ActivityExtension/v2'
+              }
+            )
+          ]
         )
       )
     trackpoints += tag('Trackpoint', children)
   }
-  const track = tag('Track', trackpoints)
-  const lap = tag(
-    'Lap',
-    tag('TotalTimeSeconds', samples.length) +
-      tag('DistanceMeters', '0') +
-      tag('Name', name) + // Ajout du titre dans le Lap
-      track,
-    { StartTime: lapStartTime }
+
+  // ActivityLap_t is a sequence: TotalTimeSeconds, DistanceMeters, MaximumSpeed?, Calories,
+  // AverageHeartRateBpm?, MaximumHeartRateBpm?, Intensity, Cadence?, TriggerMethod, Track*, Notes?.
+  // Calories, Intensity and TriggerMethod are REQUIRED and were missing, and the lap carried a
+  // <Name> element, which the schema has no such thing as — the activity's Notes is the right place.
+  const lapChildren = [
+    tag('TotalTimeSeconds', ((lastTime - startedAt) / 1000).toFixed(2)),
+    tag('DistanceMeters', totalDistance.toFixed(2))
+  ]
+  if (maxSpeed > 0) lapChildren.push(tag('MaximumSpeed', maxSpeed.toFixed(3)))
+  lapChildren.push(tag('Calories', Math.round(kilojoules)))
+  if (heartRateCount)
+    lapChildren.push(
+      tag('AverageHeartRateBpm', [
+        tag('Value', Math.round(heartRateSum / heartRateCount))
+      ]),
+      tag('MaximumHeartRateBpm', [tag('Value', maxHeartRate)])
+    )
+  lapChildren.push(
+    tag('Intensity', 'Active'),
+    tag('TriggerMethod', 'Manual'),
+    tag('Track', [trackpoints])
   )
-  const activity = tag('Activity', tag('Id', activityId) + lap, {
-    Sport: 'Biking'
-  })
-  const activities = tag('Activities', activity)
-  const tcx =
+
+  const activityChildren = [
+    tag('Id', activityId),
+    tag('Lap', lapChildren, { StartTime: samples[0].time })
+  ]
+  if (name) activityChildren.push(tag('Notes', name))
+  return (
     `<?xml version="1.0" encoding="UTF-8"?>` +
-    tag('TrainingCenterDatabase', activities, {
-      xmlns: 'http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2',
-      'xmlns:xsi': 'http://www.w3.org/2001/XMLSchema-instance',
-      'xsi:schemaLocation':
-        'http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2 http://www.garmin.com/xmlschemas/TrainingCenterDatabasev2.xsd'
-    })
-  return tcx
+    tag(
+      'TrainingCenterDatabase',
+      [tag('Activities', [tag('Activity', activityChildren, { Sport: 'Biking' })])],
+      {
+        xmlns: 'http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2',
+        'xmlns:xsi': 'http://www.w3.org/2001/XMLSchema-instance',
+        'xsi:schemaLocation':
+          'http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2 http://www.garmin.com/xmlschemas/TrainingCenterDatabasev2.xsd'
+      }
+    )
+  )
 }
 
 export function downloadTcx(tcxString) {
   const blob = new Blob([tcxString], { type: 'application/xml' })
   const url = URL.createObjectURL(blob)
   downloadDataUrl(url, '.tcx')
-  URL.revokeObjectURL(url)
 }
