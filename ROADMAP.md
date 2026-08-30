@@ -4,17 +4,12 @@ Functional gaps, in the order I would close them. Each one states the evidence i
 future reader can check whether it is still true rather than taking it on faith. Nothing here is a
 bug — the bugs found in the August 2026 audit are fixed and in `main`.
 
-## 1. Never lose a session
+## ~~1. Never lose a session~~ — done (August 2026)
 
-`workoutSamples` lives only in the Alpine component's memory. A closed tab, a browser crash or a
-laptop that falls asleep at minute 45 destroys the whole ride: nothing is written anywhere until
-**Export activity** is clicked, at the very end.
-
-Persist samples as they arrive (localStorage is enough — a 90-minute ride is a few hundred kB) and
-offer to resume, or at least to export, an interrupted session on the next load.
-
-This is the one to do first: it removes an entire class of silent, unrecoverable loss, and it is
-independent of everything else.
+Samples are written to localStorage every ten seconds while the ride happens, and an interrupted
+session is offered for export on the next load. Resuming a workout mid-ride is deliberately not
+attempted: the trainer connection, the phase clock and the elapsed time would all have to be
+rebuilt, and the thing actually worth saving is the ride data.
 
 ## 2. Speak the coaching cues — 1018 of 1378 workouts have them, 2 are heard
 

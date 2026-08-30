@@ -10,6 +10,7 @@ import {
   setOnPowerUpdate
 } from './bluetooth.js'
 import { expandPhases } from './phases.js'
+import { clearSession, loadSession, saveSession } from './session-store.js'
 import {
   downloadDataUrl,
   formatDuration,
@@ -55,6 +56,8 @@ window.workoutApp = function () {
     screenshotPending: false,
     startError: null,
     connectionWarning: null,
+    recoveredSession: null,
+    persistInterval: null,
 
     // Drives the "Bluetooth not supported" modal. Availability is the Bluetooth module's question:
     // it is the one that swaps in the mock, and headless browsers expose no navigator.bluetooth, so
@@ -207,6 +210,7 @@ window.workoutApp = function () {
       this.showWorkout = true
       this.showForm = false
       this.requestWakeLock()
+      this.startPersisting()
     },
     startTimerUI() {
       this.timerStartTime = Date.now()
@@ -244,6 +248,41 @@ window.workoutApp = function () {
         this.workoutRunner.resume?.()
       }
     },
+    // Every ten seconds rather than on every notification: samples arrive several times a second,
+    // and re-serialising the whole ride each time would cost more than the ride is worth.
+    startPersisting() {
+      const persist = () => this.persistSession()
+      if (this.persistInterval) clearInterval(this.persistInterval)
+      this.persistInterval = setInterval(persist, 10000)
+    },
+    stopPersisting() {
+      if (this.persistInterval) clearInterval(this.persistInterval)
+      this.persistInterval = null
+    },
+    persistSession() {
+      if (!this.workoutSamples.length) return
+      saveSession({
+        savedAt: new Date().toISOString(),
+        name: this.workoutMeta?.name,
+        notes: this.activityNotes(),
+        weight: this.weight,
+        samples: this.workoutSamples
+      })
+    },
+    activityNotes() {
+      return [this.workoutMeta?.name, this.workoutMeta?.description]
+        .filter(Boolean)
+        .join(' - ')
+    },
+    discardRecoveredSession() {
+      this.recoveredSession = null
+      clearSession()
+    },
+    exportRecoveredSession() {
+      const session = this.recoveredSession
+      downloadTcx(generateTcx(session.samples, session.notes, session.weight))
+      this.discardRecoveredSession()
+    },
     addOrUpdateSample(sample) {
       if (!this.workoutRunner?.isRunning() || this.isPaused) return
       const now = new Date()
@@ -263,15 +302,18 @@ window.workoutApp = function () {
       this.workoutFinished = true
       this.isPaused = false
       this.releaseWakeLock()
+      this.stopPersisting()
+      // A last write, so what is on disk covers the ride to its final second.
+      this.persistSession()
     },
     exportActivity() {
-      let notes = ''
-      if (this.workoutMeta?.name) notes += this.workoutMeta?.name
-      if (this.workoutMeta?.description)
-        notes += (notes ? ' - ' : '') + this.workoutMeta?.description
-      downloadTcx(generateTcx(this.workoutSamples, notes, this.weight))
+      downloadTcx(
+        generateTcx(this.workoutSamples, this.activityNotes(), this.weight)
+      )
       if (this.screenshotDataUrl)
         downloadDataUrl(this.screenshotDataUrl, '.png')
+      // Exported means safe: nothing left to offer on the next load.
+      clearSession()
     },
     async loadWorkoutFromLibrary(workoutUrl) {
       try {
@@ -310,6 +352,7 @@ window.workoutApp = function () {
       return ''
     },
     init() {
+      this.recoveredSession = loadSession()
       this.registerDeviceCallbacks()
       // The browser drops a screen wake lock the moment the page is hidden, and never restores it
       // on its own. One glance at another window and the screen is free to sleep for the rest of

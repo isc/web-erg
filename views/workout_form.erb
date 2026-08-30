@@ -1,3 +1,24 @@
+<article
+  x-show="recoveredSession"
+  class="recovered-session"
+  role="alert"
+>
+  <h4>An interrupted session was found</h4>
+  <p>
+    <span x-text="recoveredSession?.name || 'Untitled workout'"></span> —
+    <span x-text="recoveredSession?.samples?.length"></span> samples recorded,
+    last saved
+    <span x-text="new Date(recoveredSession?.savedAt).toLocaleString()"></span>.
+    It was never exported.
+  </p>
+  <div class="grid">
+    <button @click="exportRecoveredSession">Export it</button>
+    <button class="outline secondary" @click="discardRecoveredSession">
+      Discard
+    </button>
+  </div>
+</article>
+
 <form @submit.prevent="startWorkout" x-data x-show="showForm">
   <fieldset>
     <label>Bike
