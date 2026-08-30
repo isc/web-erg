@@ -217,12 +217,10 @@ function getTagContent(xmlDoc, tagName) {
 // construction, the duration actually ridden. The old copy of this logic listed the tag names it
 // knew, and under-reported every workout built from a tag missing from that list.
 export function parseZwoMeta(xmlDoc, expandedPhases) {
-  let totalDuration = totalDurationSeconds(expandedPhases) / 60
-  if (totalDuration % 1) totalDuration = totalDuration.toFixed(2)
   return {
     name: getTagContent(xmlDoc, 'name'),
     description: getTagContent(xmlDoc, 'description'),
     author: getTagContent(xmlDoc, 'author'),
-    totalDuration
+    totalDuration: totalDurationSeconds(expandedPhases) / 60
   }
 }

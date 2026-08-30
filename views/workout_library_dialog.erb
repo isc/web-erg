@@ -7,7 +7,7 @@
         <h6>
           <span x-text="workout.name"></span>
           •
-          <span x-text="`${workout.duration} minutes`"></span>
+          <span x-text="formatDuration(workout.duration)"></span>
         </h6>
         <button class="outline" @click="workout.onClick()">
           Select

@@ -2,7 +2,7 @@
   <hgroup>
     <h2>
       <span x-text="workoutMeta?.name"></span> •
-      <span x-text="workoutMeta?.totalDuration"></span> minutes
+      <span x-text="formatDuration(workoutMeta?.totalDuration)"></span>
     </h2>
     <p
       x-data="{clamp: 3}"

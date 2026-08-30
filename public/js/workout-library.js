@@ -1,5 +1,8 @@
+import { formatDuration } from './utils.js'
+
 window.workoutLibraryModal = function () {
   return {
+    formatDuration,
     workoutData: {},
     searchQuery: '',
     minDuration: '',

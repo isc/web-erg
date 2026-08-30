@@ -52,7 +52,7 @@ class WorkoutTest < CapybaraTestBase
     )
     click_on 'Start'
     # 60 + 30 + 60 + 30 seconds. Only the Warmup used to be counted, for a reported 1 minute.
-    assert_text 'Mixed & Unusual • 3 minutes'
+    assert_text 'Mixed & Unusual • 3 min'
   end
 
   def test_ftp_and_weight_local_storage

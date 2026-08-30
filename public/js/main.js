@@ -10,7 +10,13 @@ import {
   setOnPowerUpdate
 } from './bluetooth.js'
 import { expandPhases } from './phases.js'
-import { downloadDataUrl, formatForTimer, isTestEnv, parseXmlDoc } from './utils.js'
+import {
+  downloadDataUrl,
+  formatDuration,
+  formatForTimer,
+  isTestEnv,
+  parseXmlDoc
+} from './utils.js'
 import { downloadTcx, generateTcx } from './tcx-export.js'
 
 import { renderWorkoutSvg } from './workout-rendering.js'
@@ -56,6 +62,8 @@ window.workoutApp = function () {
     get bluetoothUnavailable() {
       return !bluetoothAvailable()
     },
+
+    formatDuration,
 
     async requestWakeLock() {
       this.wakeLock = await navigator.wakeLock?.request('screen')

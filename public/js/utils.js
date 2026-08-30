@@ -8,6 +8,21 @@ export function formatForTimer(seconds) {
   return `${min}:${sec.toString().padStart(2, '0')}`
 }
 
+// A workout is 50.83 minutes only to a machine. Durations are stored as decimal minutes — the
+// library JSON does too, and the filters compare them numerically — so the rounding belongs here,
+// at the point of display, and nowhere else.
+export function formatDuration(minutes) {
+  const totalSeconds = Math.round(Number(minutes) * 60)
+  if (!isFinite(totalSeconds) || totalSeconds <= 0) return ''
+  const hours = Math.floor(totalSeconds / 3600)
+  const mins = Math.floor((totalSeconds % 3600) / 60)
+  const seconds = totalSeconds % 60
+  // Seconds are noise once a session runs into hours.
+  if (hours) return mins ? `${hours} h ${mins} min` : `${hours} h`
+  if (seconds) return `${mins} min ${seconds} s`
+  return `${mins} min`
+}
+
 export function parseXmlDoc(xmlText) {
   const parser = new DOMParser()
   return parser.parseFromString(xmlText, 'application/xml')
