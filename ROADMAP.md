@@ -40,13 +40,34 @@ at, and the moments when ERG loses the target. Note that the library's `Freeride
 
 Symmetrical with the work already done on cadence.
 
-## 4. A mode legible from across the room
+## 4. A layout that works on a phone
 
-The app is now ridden from a TV, mirrored over AirPlay from a Mac (see `isc/home-infra`,
-`charras/SETUP.md` §15). The layout is an HTML table sized for a laptop at arm's length: power,
-cadence and heart rate in body text.
+Not a TV mode — the TV is fine. It mirrors a laptop screen that was already being read from a
+distance, so the existing layout survives the trip unchanged.
 
-Large numbers, phase time remaining large, everything else small.
+The real gap is the other direction. Chrome on Android is the **only** mobile browser that ships Web
+Bluetooth, which means an Android phone can run this app standalone, at the bike, with no laptop and
+no mirroring in the loop. Nothing about the current layout suits that:
+
+- The metrics are a four-column `<table>`. On a phone that is four cramped columns, when it should be
+  a few large tiles.
+- The workout SVG has a 2400-unit viewBox for the whole session. Squeezed into a phone's width, a
+  40-second interval in a 50-minute workout is about five pixels — the shape of the session is
+  legible, the phase you are in is not. It probably wants a window around the current phase rather
+  than the whole ride.
+- The library dialog lists 1378 workouts as nested `<details>`, with the duration filters in a row of
+  inputs. It is a mouse-shaped thing.
+- Tap targets and no hover, throughout.
+- Fullscreen and the screen wake lock stop being conveniences: on a phone, a screen that locks takes
+  the ride down with it.
+
+The low-battery dialog, on the other hand, finally earns its place — it reads as if it was written
+for exactly this.
+
+⚠️ Check first, before designing anything: on Android, Chrome needs the *Nearby devices* permission
+and, depending on the Android and Chrome versions, location services switched on, or it will simply
+show no devices. Worth confirming on the actual phone that the trainer and the watch are reachable
+at all.
 
 ## 5. Send to Strava without the file round trip
 
