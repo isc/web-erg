@@ -101,6 +101,21 @@ The application can generate AI-powered audio coaching instructions for workouts
 ruby scripts/generate_workout_audio.rb path/to/workout.zwo
 ```
 
+## Deployment
+
+Deployed on the **Charras home server** (see the private `isc/home-infra` repo, `charras/SETUP.md`
+§15): a `ruby:3.4` container serving the checkout in `/opt/web-erg` on port 8085, published
+over HTTPS by Tailscale Funnel at
+**<https://charras-server.tailcef78d.ts.net/web-erg/>** — HTTPS is not optional here, Web Bluetooth
+only works in a secure context.
+
+Update the deployment with `./deploy.sh` on the box (git pull → `bundle install` → restart).
+
+Because Funnel serves the app under a **sub-path** and strips the prefix before it reaches Sinatra,
+the page references its assets **relatively** (`main.css`, `js/main.js`) and a small script in
+`views/index.erb` forces the trailing slash. Keep both when adding assets: a root-absolute
+`/js/foo.js` works locally and silently 404s in production.
+
 ## Development
 
 ### Running Tests
