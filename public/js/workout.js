@@ -1,23 +1,21 @@
-import { formatForTimer, parseXmlDoc } from './utils.js'
+import { formatForTimer } from './utils.js'
+import { totalDurationSeconds } from './phases.js'
 
 import { AudioCoach } from './audio-coach.js'
 
 export class WorkoutRunner {
   constructor(
-    phases,
+    expandedPhases,
     setErgPower,
     onWorkoutEnd,
     ftp,
     alpineInstance,
     workoutSvgEl,
-    xmlText
+    xmlDoc,
+    rawPhases
   ) {
-    this.originalPhases = phases
-    this.expandedPhases = this.expandPhases(phases)
-    this.totalDurationSeconds = this.expandedPhases.reduce(
-      (sum, p) => sum + (p.duration || 0),
-      0
-    )
+    this.expandedPhases = expandedPhases
+    this.totalDurationSeconds = totalDurationSeconds(expandedPhases)
     this.setErgPower = setErgPower
     this.onWorkoutEnd = onWorkoutEnd
     this.ftp = ftp
@@ -27,84 +25,17 @@ export class WorkoutRunner {
     this.running = false
     this.alpineInstance = alpineInstance
     this.workoutSvgEl = workoutSvgEl
-    this.xmlText = xmlText
+    this.xmlDoc = xmlDoc
+    this.rawPhases = rawPhases
     this.initializeAudioCoach()
-  }
-
-  expandPhases(phases) {
-    let expanded = []
-    for (const p of phases) {
-      const cadenceValues = {
-        cadence: p.cadence,
-        cadenceLow: p.cadenceLow,
-        cadenceHigh: p.cadenceHigh
-      }
-      if (p.type === 'IntervalsT') {
-        const repeat = p.repeat || 1
-        for (let i = 0; i < repeat; i++) {
-          expanded.push({
-            type: 'On',
-            duration: p.onDuration,
-            power: p.onPower,
-            cadence: p.cadence
-          })
-          expanded.push({
-            type: 'Off',
-            duration: p.offDuration,
-            power: p.offPower,
-            cadence: p.cadenceResting
-          })
-        }
-      } else if (p.type === 'SteadyState') {
-        expanded.push({
-          type: 'SteadyState',
-          duration: p.duration,
-          power: p.power || 0,
-          ...cadenceValues
-        })
-      } else if (p.type === 'Warmup' || p.type === 'Cooldown') {
-        const duration = p.duration
-        const powerLow = p.powerLow || 0
-        const powerHigh = p.powerHigh || powerLow
-        if (powerLow !== powerHigh) {
-          expanded.push({
-            type: 'Ramp',
-            duration,
-            powerLow,
-            powerHigh,
-            ...cadenceValues
-          })
-        } else {
-          expanded.push({
-            type: p.type,
-            duration,
-            power: powerLow,
-            ...cadenceValues
-          })
-        }
-      } else if (p.type === 'Ramp') {
-        expanded.push({
-          type: 'Ramp',
-          duration: p.duration,
-          powerLow: p.powerLow,
-          powerHigh: p.powerHigh,
-          ...cadenceValues
-        })
-      } else if (p.type === 'FreeRide') {
-        expanded.push({
-          type: 'FreeRide',
-          duration: p.duration,
-          power: 0,
-          cadence: p.cadence
-        })
-      }
-    }
-    return expanded
   }
 
   async initializeAudioCoach() {
     this.audioCoach = new AudioCoach()
-    const audioReady = await this.audioCoach.loadTextEvents(this.xmlText)
+    const audioReady = await this.audioCoach.loadTextEvents(
+      this.xmlDoc,
+      this.rawPhases
+    )
     if (!audioReady) this.audioCoach = null
   }
 
@@ -209,8 +140,8 @@ export class WorkoutRunner {
       targetPower =
         phase.powerLow + (phase.powerHigh - phase.powerLow) * (t / d)
     } else targetPower = phase.power
-    if (phase.type !== 'FreeRide')
-      this.setErgPower(Math.round(targetPower * this.ftp))
+    // A free-ride phase (FreeRide, MaxEffort, RestDay…) has no ERG target: the rider decides.
+    if (!phase.freeRide) this.setErgPower(Math.round(targetPower * this.ftp))
   }
 
   tick() {
@@ -242,8 +173,8 @@ export class WorkoutRunner {
   }
 }
 
-export function parseZwoPhases(xmlText) {
-  let workout = parseXmlDoc(xmlText).querySelector('workout')
+export function parseZwoPhases(xmlDoc) {
+  let workout = xmlDoc.querySelector('workout')
   return Array.from(workout.children).map(node => {
     let phase = { type: node.tagName }
     const intAttributes = [
@@ -282,26 +213,16 @@ function getTagContent(xmlDoc, tagName) {
   return node ? node.textContent.trim() : ''
 }
 
-export function parseZwoMeta(xmlText) {
-  let xmlDoc = parseXmlDoc(xmlText)
-  const name = getTagContent(xmlDoc, 'name')
-  const description = getTagContent(xmlDoc, 'description')
-  const author = getTagContent(xmlDoc, 'author')
-
-  let totalDuration = 0
-  let workout = xmlDoc.querySelector('workout')
-  for (let node of workout.children) {
-    let tag = node.tagName
-    if (['Warmup', 'Cooldown', 'SteadyState', 'FreeRide', 'Ramp'].includes(tag))
-      totalDuration += parseFloat(node.getAttribute('Duration')) || 0
-    else if (tag === 'IntervalsT') {
-      const repeat = parseInt(node.getAttribute('Repeat')) || 1
-      const onDuration = parseFloat(node.getAttribute('OnDuration')) || 0
-      const offDuration = parseFloat(node.getAttribute('OffDuration')) || 0
-      totalDuration += repeat * (onDuration + offDuration)
-    }
-  }
-  totalDuration = totalDuration / 60
+// Takes the phases the caller has already expanded: the duration on screen is then, by
+// construction, the duration actually ridden. The old copy of this logic listed the tag names it
+// knew, and under-reported every workout built from a tag missing from that list.
+export function parseZwoMeta(xmlDoc, expandedPhases) {
+  let totalDuration = totalDurationSeconds(expandedPhases) / 60
   if (totalDuration % 1) totalDuration = totalDuration.toFixed(2)
-  return { name, description, author, totalDuration }
+  return {
+    name: getTagContent(xmlDoc, 'name'),
+    description: getTagContent(xmlDoc, 'description'),
+    author: getTagContent(xmlDoc, 'author'),
+    totalDuration
+  }
 }

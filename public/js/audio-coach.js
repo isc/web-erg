@@ -2,21 +2,7 @@
  * Audio Coach - Manages audio message playback during workouts
  */
 
-import { parseXmlDoc } from './utils.js'
-
-const KNOWN_PHASES = [
-  'Warmup',
-  'SteadyState',
-  'Ramp',
-  'IntervalsT',
-  'Cooldown',
-  'FreeRide',
-  'Freeride',
-  'RestDay',
-  'MaxEffort',
-  'SolidState',
-  'cooldown'
-]
+import { phaseDurationSeconds } from './phases.js'
 
 export class AudioCoach {
   constructor() {
@@ -25,8 +11,7 @@ export class AudioCoach {
     this.currentAudio = null
   }
 
-  async loadTextEvents(xmlText) {
-    const doc = parseXmlDoc(xmlText)
+  async loadTextEvents(doc, phases) {
     const uniqueId = doc.querySelector('uniqueId')?.textContent?.trim()
     if (!uniqueId) {
       console.warn('🎵 Audio Coach: No uniqueId found in XML')
@@ -38,11 +23,10 @@ export class AudioCoach {
 
     const workout = doc.querySelector('workout')
 
-    for (const child of workout.children) {
-      const phaseName = child.tagName
-
-      if (!KNOWN_PHASES.includes(phaseName)) continue
-
+    // `phases` comes from the same parseZwoPhases pass the runner used, in the same order as
+    // workout.children: a text event fires on the runner's clock, so an offset computed from a
+    // second, slightly different reading of the file drifts for the rest of the session.
+    Array.from(workout.children).forEach((child, index) => {
       for (const textEvent of child.querySelectorAll('textevent')) {
         const message = textEvent.getAttribute('message')
         const timeoffset = parseFloat(
@@ -57,8 +41,8 @@ export class AudioCoach {
           })
       }
 
-      globalTimeOffset += this.phaseDuration(child)
-    }
+      globalTimeOffset += phaseDurationSeconds(phases[index])
+    })
 
     console.log(
       `🎵 Audio Coach: Loaded ${this.textEvents.length} text events for workout ${uniqueId}`
@@ -72,15 +56,6 @@ export class AudioCoach {
       console.log(`🎵 Audio files not found for workout ${uniqueId}`)
       return false
     }
-  }
-
-  phaseDuration(child) {
-    if (child.tagName === 'IntervalsT') {
-      const repeat = parseInt(child.getAttribute('Repeat') || '1')
-      const onDuration = parseFloat(child.getAttribute('OnDuration') || '0')
-      const offDuration = parseFloat(child.getAttribute('OffDuration') || '0')
-      return repeat * (onDuration + offDuration)
-    } else return parseFloat(child.getAttribute('Duration') || '0')
   }
 
   async checkAudioAvailability() {

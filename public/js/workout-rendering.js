@@ -1,3 +1,5 @@
+import { totalDurationSeconds } from './phases.js'
+
 function getZoneColor(power) {
   if (power < 0.56) return '#888'
   if (power < 0.76) return '#2196f3'
@@ -57,7 +59,7 @@ function svgSteadyState(x, width, barH, svgHeight, margin, barRadius, color) {
   }" width="${width}" height="${barH}" rx="${barRadius}" fill="${color}" />`
 }
 
-export function renderWorkoutSvg(phases, svgEl) {
+export function renderWorkoutSvg(expanded, svgEl) {
   const svgWidth = 2400,
     svgHeight = 340,
     margin = 20,
@@ -65,21 +67,13 @@ export function renderWorkoutSvg(phases, svgEl) {
   const minBarHeight = 80,
     maxBarHeight = 250,
     barRadius = 18
-  let expanded = []
-  for (const p of phases) {
-    if (p.type === 'IntervalsT') {
-      const repeat = p.repeat || 1
-      for (let i = 0; i < repeat; i++) {
-        expanded.push({ type: 'On', duration: p.onDuration, power: p.onPower })
-        expanded.push({
-          type: 'Off',
-          duration: p.offDuration,
-          power: p.offPower
-        })
-      }
-    } else expanded.push(p)
+  // The caller expands the phases (see phases.js) and hands the runner the very same array, so a
+  // bar's data-phase-index is always the runner's currentPhaseIndex.
+  const totalDuration = totalDurationSeconds(expanded)
+  if (!totalDuration) {
+    svgEl.innerHTML = ''
+    return
   }
-  const totalDuration = expanded.reduce((sum, p) => sum + (p.duration || 0), 0)
   let x = margin
   let svg = `<svg viewBox="0 0 ${svgWidth} ${svgHeight}">`
   let gradCount = 0

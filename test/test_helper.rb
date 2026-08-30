@@ -26,4 +26,16 @@ class CapybaraTestBase < Minitest::Test
     visit '/'
   end
 
+  # Calls into the app's own ES modules from the page under test. `body` is JavaScript whose value
+  # is returned; it sees the imported modules under the names given in `modules`, and the arguments
+  # passed here as `args[0]`, `args[1]`, ...
+  def in_page_module(modules, body, *args)
+    names = modules.keys.join(', ')
+    paths = modules.values.map { |path| "import('#{path}')" }.join(', ')
+    evaluate_async_script(<<~JS, *args)
+      const done = arguments[arguments.length - 1]
+      const args = Array.from(arguments).slice(0, -1)
+      Promise.all([#{paths}]).then(([#{names}]) => { done((() => { #{body} })()) })
+    JS
+  end
 end

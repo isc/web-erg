@@ -8,7 +8,8 @@ import {
   setOnHeartRateUpdate,
   setOnPowerUpdate
 } from './bluetooth.js'
-import { downloadDataUrl, formatForTimer, isTestEnv } from './utils.js'
+import { expandPhases } from './phases.js'
+import { downloadDataUrl, formatForTimer, isTestEnv, parseXmlDoc } from './utils.js'
 import { downloadTcx, generateTcx } from './tcx-export.js'
 
 import { renderWorkoutSvg } from './workout-rendering.js'
@@ -110,8 +111,12 @@ window.workoutApp = function () {
         })
     },
     loadWorkoutFromXml(xml) {
-      const phases = parseZwoPhases(xml)
-      this.workoutMeta = parseZwoMeta(xml)
+      // Parsed once and passed around: the phases, the metadata and the audio coach all used to
+      // run their own DOMParser over the same string.
+      const xmlDoc = parseXmlDoc(xml)
+      const rawPhases = parseZwoPhases(xmlDoc)
+      const phases = expandPhases(rawPhases)
+      this.workoutMeta = parseZwoMeta(xmlDoc, phases)
       this.workoutRunner?.stop()
       this.workoutRunner = new WorkoutRunner(
         phases,
@@ -120,7 +125,8 @@ window.workoutApp = function () {
         this.ftp,
         this,
         this.$refs.workoutSvg,
-        xml
+        xmlDoc,
+        rawPhases
       )
       renderWorkoutSvg(phases, this.$refs.workoutSvg)
       this.workoutFinished = false

@@ -1,0 +1,11 @@
+<workout_file>
+  <name>Mixed &amp; Unusual</name>
+  <author>Audit</author>
+  <description>Covers the .zwo tags the runner used to drop silently.</description>
+  <workout>
+    <Warmup Duration="60" PowerLow="0.4" PowerHigh="0.6"/>
+    <MaxEffort Duration="30"/>
+    <SolidState Duration="60" Power="0.7"/>
+    <cooldown Duration="30" PowerLow="0.6" PowerHigh="0.3"/>
+  </workout>
+</workout_file>
