@@ -18,7 +18,7 @@ window.workoutLibraryModal = function () {
         this.filteredData = this.workoutData
       } catch (error) {
         console.error('Error loading workout data:', error)
-        alert('Erreur lors du chargement de la bibliothèque des entraînements')
+        alert('Could not load the workout library')
       }
     },
 

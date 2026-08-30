@@ -22,7 +22,7 @@
         min="50"
         max="500"
         step="5"
-        x-model="ftp"
+        x-model.number="ftp"
         placeholder="150"
       />
       <small>
@@ -35,7 +35,7 @@
         min="40"
         max="150"
         step="1"
-        x-model="weight"
+        x-model.number="weight"
         placeholder="70"
       />
       <small>
@@ -82,5 +82,6 @@
       </span>
     </small>
     <button type="submit">Start</button>
+    <p x-show="startError" x-text="startError" class="start-error" role="alert"></p>
   </fieldset>
 </form>

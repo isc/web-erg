@@ -68,6 +68,11 @@ table.workout-data {
   }
 }
 
+.start-error {
+  color: var(--pico-del-color, #b3261e);
+  margin-top: 0.5rem;
+}
+
 .connection-warning {
   border-left: 4px solid var(--pico-del-color, #b3261e);
 }

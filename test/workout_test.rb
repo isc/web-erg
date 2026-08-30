@@ -21,6 +21,27 @@ class WorkoutTest < CapybaraTestBase
     assert_field 'Heart Rate Monitor', with: /120 bpm/, disabled: :all
   end
 
+  def test_starts_without_a_heart_rate_monitor
+    # The heart rate belt used to be mandatory, and its absence made Start a silent no-op.
+    find_field('Bike').click
+    attach_file(
+      'workoutFile',
+      File.expand_path('The_Famous_40_20_s.zwo', __dir__),
+      visible: false
+    )
+    click_on 'Start'
+    assert_selector '[x-ref="workoutSvg"]', visible: true
+  end
+
+  def test_refusing_to_start_says_why
+    click_on 'Start'
+    assert_text 'Connect your bike before starting.'
+
+    find_field('Bike').click
+    click_on 'Start'
+    assert_text 'Choose a workout before starting.'
+  end
+
   def test_counts_the_full_duration_of_a_workout_with_undocumented_tags
     find_field('Bike').click
     find_field('Heart Rate Monitor').click

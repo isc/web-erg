@@ -46,6 +46,8 @@ window.workoutApp = function () {
     selectedWorkout: null,
     cadenceTarget: null,
     screenshotDataUrl: null,
+    screenshotPending: false,
+    startError: null,
     connectionWarning: null,
 
     // Drives the "Bluetooth not supported" modal. Availability is the Bluetooth module's question:
@@ -123,15 +125,20 @@ window.workoutApp = function () {
       })
     },
     captureScreenshot() {
-      if (this.screenshotDataUrl) return
-      this.screenshotDataUrl = true
+      // screenshotDataUrl used to double as the in-flight marker, holding `true` during the
+      // capture. Exporting before it resolved then downloaded a file whose href was the string
+      // "true" — a 404 page saved as .png.
+      if (this.screenshotPending || this.screenshotDataUrl) return
+      this.screenshotPending = true
       html2canvas(document.documentElement)
         .then(canvas => {
           this.screenshotDataUrl = canvas.toDataURL('image/png')
         })
         .catch(e => {
-          this.screenshotDataUrl = false
           console.warn('html2canvas capture failed', e)
+        })
+        .finally(() => {
+          this.screenshotPending = false
         })
     },
     loadWorkoutFromXml(xml) {
@@ -155,6 +162,7 @@ window.workoutApp = function () {
       renderWorkoutSvg(phases, this.$refs.workoutSvg)
       this.workoutFinished = false
       this.workoutSelected = true
+      this.startError = null
     },
     onZwoFileChange(e) {
       const file = e.target.files[0]
@@ -169,12 +177,17 @@ window.workoutApp = function () {
       reader.readAsText(file)
     },
     startWorkout() {
-      if (
-        !this.ergometerName ||
-        !this.heartRateMonitorName ||
-        !this.workoutSelected
-      )
+      // The heart rate monitor used to be required, and a missing one made this method return
+      // silently: pressing Start did nothing at all, with nothing on screen to say why.
+      this.startError = null
+      if (!this.ergometerName) {
+        this.startError = 'Connect your bike before starting.'
         return
+      }
+      if (!this.workoutSelected) {
+        this.startError = 'Choose a workout before starting.'
+        return
+      }
       if (!isTestEnv()) document.documentElement.requestFullscreen?.()
       localStorage.setItem('ftp', this.ftp)
       localStorage.setItem('weight', this.weight)
