@@ -101,6 +101,10 @@ The application can generate AI-powered audio coaching instructions for workouts
 ruby scripts/generate_workout_audio.rb path/to/workout.zwo
 ```
 
+## Roadmap
+
+What is missing and in what order, with the evidence behind each item: [`ROADMAP.md`](ROADMAP.md).
+
 ## Deployment
 
 Deployed on the **Charras home server** (see the private `isc/home-infra` repo, `charras/SETUP.md`
