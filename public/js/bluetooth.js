@@ -7,6 +7,10 @@ let lastCadence = null
 
 const bluetoothApi = isTestEnv() ? mockBluetooth : navigator.bluetooth
 
+export function bluetoothAvailable() {
+  return !!bluetoothApi
+}
+
 function log(msg) {
   console.log(msg)
 }

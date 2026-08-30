@@ -1,5 +1,6 @@
 import { WorkoutRunner, parseZwoMeta, parseZwoPhases } from './workout.js'
 import {
+  bluetoothAvailable,
   connectErgometer,
   connectHeartRateMonitor,
   setErgPower,
@@ -42,6 +43,13 @@ window.workoutApp = function () {
     selectedWorkout: null,
     cadenceTarget: null,
     screenshotDataUrl: null,
+
+    // Drives the "Bluetooth not supported" modal. Availability is the Bluetooth module's question:
+    // it is the one that swaps in the mock, and headless browsers expose no navigator.bluetooth, so
+    // asking navigator directly here left the modal covering the page for the whole test suite.
+    get bluetoothUnavailable() {
+      return !bluetoothAvailable()
+    },
 
     async requestWakeLock() {
       this.wakeLock = await navigator.wakeLock?.request('screen')

@@ -130,7 +130,7 @@ class WorkoutAudioGenerator
   end
 end
 
-if __FILE__ == $0
+if __FILE__ == $PROGRAM_NAME
   if ARGV.length != 1
     puts 'Usage: ruby generate_workout_audio.rb <workout_file.zwo>'
     puts 'Example: ruby generate_workout_audio.rb 7_Vo2_Development.zwo'

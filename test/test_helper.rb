@@ -9,7 +9,10 @@ require_relative '../app'
 Capybara.app = App
 
 Capybara.register_driver(:cuprite) do |app|
-  Capybara::Cuprite::Driver.new(app, headless: !ENV['DISABLE_HEADLESS'])
+  options = { headless: !ENV['DISABLE_HEADLESS'] }
+  # CI runners have no usable Chrome sandbox; asking for one there aborts the browser at launch.
+  options[:browser_options] = { 'no-sandbox' => nil } if ENV['CI']
+  Capybara::Cuprite::Driver.new(app, **options)
 end
 Capybara.default_driver = :cuprite
 Capybara.enable_aria_label = true
@@ -22,4 +25,5 @@ class CapybaraTestBase < Minitest::Test
     page.driver.set_cookie('test-env', 'true')
     visit '/'
   end
+
 end

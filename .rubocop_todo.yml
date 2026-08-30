@@ -1,0 +1,8 @@
+# Pre-existing offences in the audio-generation script, recorded rather than fixed so that `rubocop`
+# can run clean in CI without a refactor of code this change does not touch.
+Metrics/AbcSize:
+  Exclude:
+    - 'scripts/generate_workout_audio.rb'
+Metrics/MethodLength:
+  Exclude:
+    - 'scripts/generate_workout_audio.rb'
