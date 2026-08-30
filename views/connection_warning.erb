@@ -1,0 +1,9 @@
+<%# Deliberately outside the workout display, which only exists once a session has started: the
+    moment a device warning matters most is while the rider is still connecting things. %>
+<article
+  x-show="connectionWarning"
+  class="connection-warning"
+  role="alert"
+>
+  <span x-text="connectionWarning"></span>
+</article>

@@ -33,6 +33,16 @@ class WorkoutTest < CapybaraTestBase
     assert_selector '[x-ref="workoutSvg"]', visible: true
   end
 
+  def test_a_device_warning_shows_before_the_workout_starts
+    # The banner used to live inside the workout display, hidden until Start — invisible exactly
+    # when the rider is connecting devices and needs to know one has dropped.
+    page.execute_script(
+      "Alpine.$data(document.querySelector('[x-data]'))" \
+      ".connectionWarning = 'Heart rate monitor lost. Check it, then reconnect it.'"
+    )
+    assert_text 'Heart rate monitor lost.'
+  end
+
   def test_refusing_to_start_says_why
     click_on 'Start'
     assert_text 'Connect your bike before starting.'
