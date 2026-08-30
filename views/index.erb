@@ -3,12 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script>
+      // Force a trailing slash. When served under a sub-path (Tailscale Funnel strips the prefix
+      // before it reaches the app), the page loads its assets relatively ("js/main.js"). Without the
+      // trailing slash those resolve against the DOMAIN ROOT (/js/main.js), which is routed
+      // elsewhere -> the modules never load, no handler attaches, and the UI is silently inert.
+      // Must run before the module scripts below, hence here rather than server-side.
+      if (!location.pathname.endsWith('/')) {
+        location.replace(location.pathname + '/' + location.search + location.hash)
+      }
+    </script>
     <title>Web ERG Trainer</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.cyan.min.css"
     />
-    <link rel="stylesheet" href="/main.css" />
+    <link rel="stylesheet" href="main.css" />
   </head>
   <body>
     <main class="container" x-data="workoutApp()">
@@ -19,7 +29,7 @@
       <%= erb :zwo_file_help_dialog %>
       <%= erb :low_browser_battery_dialog %>
     </main>
-    <script type="module" src="/js/main.js"></script>
+    <script type="module" src="js/main.js"></script>
     <script
       defer
       src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"

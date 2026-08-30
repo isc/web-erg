@@ -92,6 +92,7 @@ GEM
 PLATFORMS
   arm64-darwin-22
   ruby
+  x86_64-linux
 
 DEPENDENCIES
   capybara
@@ -105,4 +106,4 @@ DEPENDENCIES
   sinatra
 
 BUNDLED WITH
-   2.5.3
+   2.6.9
