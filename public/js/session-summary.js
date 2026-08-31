@@ -97,6 +97,19 @@ function timeInZones(powers, ftp) {
  * Null when the ride recorded no power at all — there is nothing to summarise, and an empty panel
  * says less than no panel.
  */
+/**
+ * Metres, when the machine counted them. A rower's distance is measured rather than modelled, so
+ * it is the last thing the erg said and not an integral over the ride — but the samples that
+ * carry it are written by four separate streams, so the largest is the one to trust rather than
+ * the last, which may belong to a stream the distance had not reached yet.
+ */
+function measuredDistance(samples) {
+  const metres = (samples || [])
+    .map(sample => reading(sample.distance))
+    .filter(value => value !== null)
+  return metres.length ? Math.max(...metres) : null
+}
+
 export function summariseSession(samples, ftp) {
   const grid = perSecondReadings(samples)
   const powers = grid
@@ -117,6 +130,7 @@ export function summariseSession(samples, ftp) {
     averageHeartRate: heartRates.length
       ? Math.round(average(heartRates))
       : null,
+    distance: measuredDistance(samples),
     zones: timeInZones(powers, ftp)
   }
 }

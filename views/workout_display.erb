@@ -50,6 +50,16 @@
         still, so nothing about it needs to differ between a phone and a TV. %>
     <section class="session-summary" x-show="summary" aria-label="Session summary">
       <dl>
+        <%# Distance and split first when the machine measured them: they are what a rower asks
+            about a piece, and watts is the unit they were computed from. %>
+        <div x-show="summary?.distance">
+          <dt>Distance</dt>
+          <dd><span x-text="summaryDistance"></span> m</dd>
+        </div>
+        <div x-show="summary?.distance">
+          <dt>Average split</dt>
+          <dd><span x-text="summarySplit"></span> /500 m</dd>
+        </div>
         <div>
           <dt>Average power</dt>
           <dd x-text="metric(summary?.averagePower, 'W')"></dd>

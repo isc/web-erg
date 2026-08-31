@@ -390,6 +390,20 @@ window.workoutApp = function () {
     get distanceLabel() {
       return formatDistance(this.distance)
     },
+    // The ride, in the units it was rowed in. Average split comes out of average power through the
+    // same conversion the cockpit used all session, so the number on the summary is the number
+    // that was being chased.
+    get summaryDistance() {
+      return formatDistance(this.summary?.distance)
+    },
+    get summarySplit() {
+      return formatSplit(splitFromPower(this.summary?.averagePower))
+    },
+    // Only Running, Biking and Other exist in the TCX schema. A rowing session goes out as Other
+    // and has its type corrected in Strava after import.
+    get activitySport() {
+      return this.rowing ? 'Other' : 'Biking'
+    },
     get splitDelta() {
       const { currentSplit, targetSplit } = this
       if (currentSplit == null || targetSplit == null) return null
@@ -465,6 +479,9 @@ window.workoutApp = function () {
         name: this.workoutMeta?.name,
         notes: this.activityNotes(),
         weight: this.weight,
+        // Recovered on a later page load, with no machine connected: without this the session
+        // would be exported as a bike ride whatever it was.
+        sport: this.activitySport,
         samples: this.workoutSamples
       })
     },
@@ -479,7 +496,14 @@ window.workoutApp = function () {
     },
     exportRecoveredSession() {
       const session = this.recoveredSession
-      downloadTcx(generateTcx(session.samples, session.notes, session.weight))
+      downloadTcx(
+        generateTcx(
+          session.samples,
+          session.notes,
+          session.weight,
+          session.sport
+        )
+      )
       this.discardRecoveredSession()
     },
     addOrUpdateSample(sample) {
@@ -512,7 +536,12 @@ window.workoutApp = function () {
     },
     exportActivity() {
       downloadTcx(
-        generateTcx(this.workoutSamples, this.activityNotes(), this.weight)
+        generateTcx(
+          this.workoutSamples,
+          this.activityNotes(),
+          this.weight,
+          this.activitySport
+        )
       )
       if (this.screenshotDataUrl)
         downloadDataUrl(this.screenshotDataUrl, '.png')
