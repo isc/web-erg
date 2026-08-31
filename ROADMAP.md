@@ -65,9 +65,12 @@ target is computed — the same call ERG sends.
 
 The rowing port finished the item for one of the two machines and made it compulsory there. A
 Concept2 holds nothing, so the gap between the target split and the actual one is the entire
-feedback loop: the rowing cockpit shows both, coloured, over a deviation bar centred on the target,
-on both widths. What remains is the same treatment for the bike — the wide-screen table still shows
-a bare wattage, and there is no deviation bar for watts.
+feedback loop: the phone cockpit shows both, coloured, over a deviation bar centred on the target,
+and the wide table shows the split against its target in the same colours.
+
+What remains is the same treatment for the bike, where power is still a bare number on both widths,
+and the deviation bar on the wide layout for either machine — it lives inside `.cockpit`, which is
+hidden above 640px.
 
 ## ~~4. A layout that works on a phone~~ — done (August 2026)
 
