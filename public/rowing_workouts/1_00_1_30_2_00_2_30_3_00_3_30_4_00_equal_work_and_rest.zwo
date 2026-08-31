@@ -1,0 +1,27 @@
+<workout_file>
+  <name>1:00, 1:30, 2:00, 2:30, 3:00, 3:30, 4:00 - equal work and rest.</name>
+  <description>Equal work and rest intervals that increase by 30 seconds each time, working up from 1 minute to 4 minutes.
+
+Concept2 Workout of the Day, 2022-09-11. The archive specifies structure and never
+intensity — a WOD says "5 x 4 min / 2 min easy" and leaves the pace to you. The targets here are
+derived by Paul's Law from your rowing FTP: shorter pieces harder, longer ones easier. Warm up
+before you start; the WOD is the piece, and nothing has been added to it.</description>
+  <author>Concept2</author>
+  <sportType>rowing</sportType>
+  <workout>
+    <SteadyState Duration="60" Power="1.52"/>
+    <SteadyState Duration="60" Power="0.55"/>
+    <SteadyState Duration="90" Power="1.39"/>
+    <SteadyState Duration="90" Power="0.55"/>
+    <SteadyState Duration="120" Power="1.3"/>
+    <SteadyState Duration="120" Power="0.55"/>
+    <SteadyState Duration="150" Power="1.25"/>
+    <SteadyState Duration="150" Power="0.55"/>
+    <SteadyState Duration="180" Power="1.2"/>
+    <SteadyState Duration="180" Power="0.55"/>
+    <SteadyState Duration="210" Power="1.16"/>
+    <SteadyState Duration="210" Power="0.55"/>
+    <SteadyState Duration="240" Power="1.13"/>
+    <SteadyState Duration="240" Power="0.55"/>
+  </workout>
+</workout_file>

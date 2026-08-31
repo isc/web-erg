@@ -1,5 +1,28 @@
 import { formatDuration } from './utils.js'
 
+/**
+ * Where the library comes from. Two catalogues, one list: the Zwift workouts the app has always
+ * shipped, and the Concept2 archive, which is the only machine-readable rowing corpus there is.
+ * Each entry is stamped with the directory it lives under, so a workout knows how to be loaded
+ * without the loader having to know which catalogue it came from.
+ */
+const CATALOGUES = [
+  {
+    manifest: 'zwift_workouts.json',
+    root: 'zwift_workouts_all_collections_ordered_Mar21'
+  },
+  { manifest: 'rowing_workouts.json', root: 'rowing_workouts' }
+]
+
+function stampRoot(node, root) {
+  for (const value of Object.values(node)) {
+    if (!value || typeof value !== 'object') continue
+    if ('url' in value) value.root = root
+    else stampRoot(value, root)
+  }
+  return node
+}
+
 window.workoutLibraryModal = function () {
   return {
     formatDuration,
@@ -15,9 +38,14 @@ window.workoutLibraryModal = function () {
 
     async loadWorkoutData() {
       try {
-        const response = await fetch('zwift_workouts.json')
-        if (!response.ok) throw new Error('Failed to load workout data')
-        this.workoutData = await response.json()
+        const catalogues = await Promise.all(
+          CATALOGUES.map(async ({ manifest, root }) => {
+            const response = await fetch(manifest)
+            if (!response.ok) throw new Error(`Failed to load ${manifest}`)
+            return stampRoot(await response.json(), root)
+          })
+        )
+        this.workoutData = Object.assign({}, ...catalogues)
         this.filteredData = this.workoutData
       } catch (error) {
         console.error('Error loading workout data:', error)
@@ -132,7 +160,10 @@ window.workoutLibraryModal = function () {
       }
       const mainApp = mainContainer._x_dataStack[0]
       mainApp.selectedWorkout = workoutData
-      const success = await mainApp.loadWorkoutFromLibrary(workoutData.url)
+      const success = await mainApp.loadWorkoutFromLibrary(
+        workoutData.url,
+        workoutData.root
+      )
       if (success) this.closeModal()
     },
 

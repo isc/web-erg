@@ -5,8 +5,8 @@ require_relative 'test_helper'
 class SessionRecoveryTest < CapybaraTestBase
   STORE = { store: '/js/session-store.js' }.freeze
 
-  def store_call(body, *args)
-    in_page_module(STORE, body, *args)
+  def store_call(body, *)
+    in_page_module(STORE, body, *)
   end
 
   def test_saved_session_survives_a_round_trip

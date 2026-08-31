@@ -1,0 +1,25 @@
+<workout_file>
+  <name>6 x 500m / 1 min easy</name>
+  <description>Complete six 500 meter pieces. Continue at light pressure between each 500. Note: for BikeErg, distance is 1000 meters.
+
+Concept2 Workout of the Day, 2023-06-21. The archive specifies structure and never
+intensity — a WOD says "5 x 4 min / 2 min easy" and leaves the pace to you. The targets here are
+derived by Paul's Law from your rowing FTP: shorter pieces harder, longer ones easier. Warm up
+before you start; the WOD is the piece, and nothing has been added to it.</description>
+  <author>Concept2</author>
+  <sportType>rowing</sportType>
+  <workout>
+    <SteadyState Distance="500" Power="1.32"/>
+    <SteadyState Duration="60" Power="0.55"/>
+    <SteadyState Distance="500" Power="1.32"/>
+    <SteadyState Duration="60" Power="0.55"/>
+    <SteadyState Distance="500" Power="1.32"/>
+    <SteadyState Duration="60" Power="0.55"/>
+    <SteadyState Distance="500" Power="1.32"/>
+    <SteadyState Duration="60" Power="0.55"/>
+    <SteadyState Distance="500" Power="1.32"/>
+    <SteadyState Duration="60" Power="0.55"/>
+    <SteadyState Distance="500" Power="1.32"/>
+    <SteadyState Duration="60" Power="0.55"/>
+  </workout>
+</workout_file>

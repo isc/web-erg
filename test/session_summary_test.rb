@@ -22,7 +22,7 @@ class SessionSummaryTest < CapybaraTestBase
   end
 
   def watts(list, step: 2)
-    samples(list.map { |power| { power: power } }, step: step)
+    samples(list.map { |power| { power: } }, step:)
   end
 
   def test_a_reading_counts_for_as_long_as_it_stood

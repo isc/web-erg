@@ -2,6 +2,10 @@ inherit_from: .rubocop_todo.yml
 
 AllCops:
   NewCops: enable
+  # Without this RuboCop guesses, lands on 2.7, and reports app.rb's shorthand hash value as a
+  # syntax error — which is what turned CI red while the code was fine. The Dockerfile and the
+  # workflow both run 3.4; nothing here says so, so it has to be said here.
+  TargetRubyVersion: 3.4
 Style/StringLiterals:
   Enabled: true
   EnforcedStyle: single_quotes

@@ -1,0 +1,16 @@
+<workout_file>
+  <name>3000m, 3 minutes rest, 10 minutes work</name>
+  <description>A 3000m work interval, followed by 3 minutes rest. Then a 10 minute work interval. (BikeErg: 6000m) The goal is to maintain a faster average pace in the second work interval. Day 2 of the WOD Week Challenge.
+
+Concept2 Workout of the Day, 2022-09-06. The archive specifies structure and never
+intensity — a WOD says "5 x 4 min / 2 min easy" and leaves the pace to you. The targets here are
+derived by Paul's Law from your rowing FTP: shorter pieces harder, longer ones easier. Warm up
+before you start; the WOD is the piece, and nothing has been added to it.</description>
+  <author>Concept2</author>
+  <sportType>rowing</sportType>
+  <workout>
+    <SteadyState Distance="3000" Power="0.93"/>
+    <SteadyState Duration="180" Power="0.55"/>
+    <SteadyState Duration="600" Power="0.95"/>
+  </workout>
+</workout_file>

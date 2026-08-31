@@ -1,0 +1,14 @@
+<workout_file>
+  <name>1900m</name>
+  <description>Complete 1900m. (BikeErg:3800m) *Juneteenth Challenge. Concept2 will be donating $19,000 to charity to mark Juneteenth. For every person who signs up from the home page of their logbook, and does at least 1900m on June 19, we will donate an extra $2, up to a maximum total amount of $38,000. Note: BikeErg meters count for half the distance when applied to the challenge.*
+
+Concept2 Workout of the Day, 2023-06-19. The archive specifies structure and never
+intensity — a WOD says "5 x 4 min / 2 min easy" and leaves the pace to you. The targets here are
+derived by Paul's Law from your rowing FTP: shorter pieces harder, longer ones easier. Warm up
+before you start; the WOD is the piece, and nothing has been added to it.</description>
+  <author>Concept2</author>
+  <sportType>rowing</sportType>
+  <workout>
+    <SteadyState Distance="1900" Power="1.01"/>
+  </workout>
+</workout_file>

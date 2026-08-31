@@ -22,7 +22,8 @@
     <div>
       <h4>Workout Paused</h4>
       <p>
-        You have paused the workout. You can resume it by pedaling
+        You have paused the workout. You can resume it by
+        <span x-text="rowing ? 'rowing' : 'pedaling'">pedaling</span>
         or stop it.
       </p>
     </div>
@@ -49,6 +50,16 @@
         still, so nothing about it needs to differ between a phone and a TV. %>
     <section class="session-summary" x-show="summary" aria-label="Session summary">
       <dl>
+        <%# Distance and split first when the machine measured them: they are what a rower asks
+            about a piece, and watts is the unit they were computed from. %>
+        <div x-show="summary?.distance">
+          <dt>Distance</dt>
+          <dd x-text="summaryDistance"></dd>
+        </div>
+        <div x-show="summary?.distance">
+          <dt>Average split</dt>
+          <dd><span x-text="summarySplit"></span> /500 m</dd>
+        </div>
         <div>
           <dt>Average power</dt>
           <dd x-text="metric(summary?.averagePower, 'W')"></dd>
@@ -96,18 +107,35 @@
         <span x-show="phase" x-text="`· ${phasePercent(phase)}`"></span>
       </p>
       <p class="cockpit-countdown" x-text="phaseCountdown">0</p>
-      <p class="cockpit-unit" x-text="phaseSecondsRemaining < 60 ? 'seconds' : 'remaining'">seconds</p>
+      <p class="cockpit-unit" x-text="phaseCountdownUnit">seconds</p>
       <progress x-bind:value="phaseProgress" max="100"></progress>
     </div>
 
-    <ul class="cockpit-metrics">
+    <%# One metric row, built from what the connected machine says it produces. Split leads on a
+        rower because split is the number a rower reads; watts is the number the app happens to
+        compute it from. Heart rate is last and always there — it comes from a strap, not from the
+        ergometer, so no descriptor decides it. %>
+    <ul class="cockpit-metrics" x-bind:class="rowing && 'cockpit-metrics-rowing'">
+      <li x-show="metrics.includes('split')">
+        <span class="v" x-text="splitLabel" x-bind:class="splitStatus">—</span>
+        <span class="k">/500 m<span x-show="targetSplit" x-text="` ↑${targetSplitLabel}`"></span></span>
+      </li>
       <li>
         <span class="v" x-text="power">-</span>
         <span class="k">watts<span x-show="phase?.watts" x-text="` ↑${phase?.watts}`"></span></span>
       </li>
       <li>
         <span class="v" x-text="cadence" x-bind:class="getCadenceStatus()">-</span>
-        <span class="k">rpm<span x-text="cadenceTargetLabel"></span></span>
+        <span class="k"
+          ><span x-text="metrics.includes('strokeRate') ? 'spm' : 'rpm'">rpm</span
+          ><span x-text="cadenceTargetLabel"></span
+        ></span>
+      </li>
+      <li x-show="metrics.includes('distance')">
+        <%# The value carries its own unit: metres up to a kilometre and kilometres past it, which
+            is most of a rowing session. %>
+        <span class="v" x-text="distanceLabel">—</span>
+        <span class="k">distance</span>
       </li>
       <li>
         <span class="v" x-text="heartRate">-</span>
@@ -115,11 +143,28 @@
       </li>
     </ul>
 
+    <%# Centred on the target, filling towards whichever side of it the rower is. Ahead is left,
+        behind is right, and the colour is the same judgement the split above carries. Built with
+        x-if rather than x-show: on a trainer none of it should be evaluated at all, let alone once
+        per power packet into hidden DOM. %>
+    <template x-if="metrics.includes('split')">
+      <div>
+        <div class="split-deviation" aria-hidden="true">
+          <span
+            class="split-deviation-fill"
+            x-bind:class="splitStatus"
+            x-bind:style="splitDeviationStyle"
+          ></span>
+        </div>
+        <p class="k split-deviation-label" x-text="splitDeltaLabel"></p>
+      </div>
+    </template>
+
     <div class="cockpit-next" x-show="nextPhase">
       <p class="k">Next</p>
       <p class="cockpit-next-name">
         <span x-text="nextPhase?.label"></span>
-        <span x-text="formatDuration((nextPhase?.duration || 0) / 60)"></span>
+        <span x-text="phaseLength(nextPhase)"></span>
       </p>
       <p class="k" x-text="phaseIntensity(nextPhase)"></p>
     </div>
@@ -140,17 +185,26 @@
     <thead>
       <tr>
         <th>Time</th>
+        <th x-show="metrics.includes('split')">Split</th>
         <th>Power</th>
-        <th>Cadence</th>
+        <th x-text="metrics.includes('strokeRate') ? 'Stroke rate' : 'Cadence'">Cadence</th>
+        <th x-show="metrics.includes('distance')">Distance</th>
         <th>Heart Rate</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td x-text="timer">0:00</td>
+        <td x-show="metrics.includes('split')">
+          <span x-text="splitLabel" x-bind:class="splitStatus">—</span>
+          <small class="cadence-target" x-show="targetSplit" x-text="' - Target: ' + targetSplitLabel"></small>
+        </td>
         <td><span x-text="power">-</span> W</td>
         <td>
-          <span x-text="cadence + '  rpm'" x-bind:class="getCadenceStatus()">-</span>
+          <span
+            x-text="cadence + (metrics.includes('strokeRate') ? '  spm' : '  rpm')"
+            x-bind:class="getCadenceStatus()"
+          >-</span>
           <small 
             class="cadence-target"
             x-show="cadenceTarget?.type === 'fixed'" 
@@ -162,12 +216,13 @@
             x-text="' - Target: ' + cadenceTarget?.min + '-' + cadenceTarget?.max">
           </small>
         </td>
+        <td x-show="metrics.includes('distance')" x-text="distanceLabel">—</td>
         <td><span x-text="heartRate">-</span> bpm</td>
       </tr>
     </tbody>
   </table>
   <div class="phase-progress-container">
-    <span x-text="phaseTimeRemaining">0:00</span>
+    <span x-text="phaseRemainingLabel">0:00</span>
     <progress x-bind:value="phaseProgress" max="100"></progress>
   </div>
 

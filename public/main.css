@@ -62,9 +62,11 @@ main.container {
 table.workout-data {
   table-layout: fixed;
   width: 100%;
+  /* Even columns, however many there are. A fixed 25 % was right for the four a trainer has and
+     wrong for the six a rower adds. */
   th,
   td {
-    width: 25%;
+    width: auto;
   }
 }
 
@@ -262,6 +264,15 @@ table.workout-data {
      the framework styles directly. */
   .cockpit-metrics li { list-style: none; }
 
+  /* Four rowing metrics, two by two. Across a 390px screen four columns give each number about
+     ninety pixels, which is not a number anyone reads mid-piece. */
+  .cockpit-metrics-rowing {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 0.9rem;
+  }
+
+  .split-deviation-label { margin: 0.35rem 0 0; text-align: center; }
+
   .cockpit-next {
     margin-top: 1.2rem;
     padding-left: 0.75rem;
@@ -341,3 +352,53 @@ table.workout-data {
 
   .session-summary dd { font-size: 1.3rem; }
 }
+
+/* --- Split against target -------------------------------------------------
+   The rowing feedback loop, in full. A Concept2 takes no power target, so the
+   app cannot make the erg hold anything: the whole of what it can do is put
+   the gap on screen where it can be read at a glance and acted on.
+
+   Centred on the target. The fill grows left when the rower is ahead of it and
+   right when behind, its width set inline from the deviation in seconds. */
+
+.split-deviation {
+  position: relative;
+  height: 10px;
+  margin-top: 0.9rem;
+  border-radius: 5px;
+  background: color-mix(in srgb, var(--pico-muted-color) 22%, transparent);
+  overflow: hidden;
+}
+
+/* The target itself, so that a bar with no fill still says where zero is. */
+.split-deviation::before {
+  content: '';
+  position: absolute;
+  left: calc(50% - 1px);
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--pico-muted-color);
+}
+
+.split-deviation-fill {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: var(--from, 50%);
+  width: var(--width, 0%);
+  border-radius: 5px;
+  transition: left 0.3s ease, width 0.3s ease;
+}
+
+/* One judgement, three places: the split, the bar, and the number under it. Named once as a custom
+   property so the bar's fill and the text it explains cannot come to disagree — and taken from the
+   theme where the theme has an opinion, the same two variables .cadence-good and .cadence-warning
+   already use. Only the middle band is new. */
+.split-good { --split-color: var(--pico-ins-color); }
+.split-close { --split-color: #ffc107; }
+.split-warning { --split-color: var(--pico-del-color); }
+.split-good,
+.split-close,
+.split-warning { color: var(--split-color); }
+.split-deviation-fill { background: var(--split-color, var(--pico-muted-color)); }

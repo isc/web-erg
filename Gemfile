@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 
+gem 'dotenv'
+gem 'openai', '~> 0.20.0'
 gem 'puma'
 gem 'rack'
 gem 'sinatra'
-gem 'dotenv'
-gem 'openai', '~> 0.20.0'
 
 group :development, :test do
   gem 'capybara'

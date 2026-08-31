@@ -21,7 +21,9 @@
 
 <form @submit.prevent="startWorkout" x-data x-show="showForm">
   <fieldset>
-    <label>Bike
+    <%# "Ergometer", not "Bike": which machine this is is decided by the machine, on connection,
+        and there is no setting to flip. The button's own label becomes the device's name. %>
+    <label>Ergometer
       <input
         type="button"
         @click="connectErgo"
@@ -37,13 +39,17 @@
         x-bind:value="heartRateMonitorButtonLabel"
       />
     </label>
-    <label>FTP (watts)
+    <%# One field, two stored numbers. A rowing FTP is a different quantity from a cycling one —
+        far more muscle mass, and derived from a 2 km piece rather than an hour — so the connected
+        machine decides which of the two this edits. %>
+    <label>
+      <span x-text="ftpLabel">FTP (watts)</span>
       <input
         type="number"
         min="50"
         max="500"
         step="5"
-        x-model.number="ftp"
+        x-model.number="trainingFtp"
         placeholder="150"
       />
       <small>
@@ -59,7 +65,9 @@
         x-model.number="weight"
         placeholder="70"
       />
-      <small>
+      <small
+        x-text="rowing ? 'Body weight - recorded with the activity' : 'Cyclist weight - used to calculate virtual speed'"
+      >
         Cyclist weight - used to calculate virtual speed
       </small>
     </label>

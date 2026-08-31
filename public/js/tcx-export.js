@@ -1,4 +1,17 @@
-import { downloadDataUrl } from './utils.js'
+import { downloadDataUrl, reading } from './utils.js'
+
+/**
+ * Where the distance in an exported activity comes from.
+ *
+ * A trainer reports none, so the bike's is modelled: watts against rolling resistance and drag,
+ * solved for the speed that would consume them. A Concept2 counts the flywheel and reports metres,
+ * so on a rower the whole model goes and the samples carry the answer — and the speed written to
+ * each trackpoint is then the distance the erg actually covered over the time it took, rather than
+ * a number a bicycle would have gone at that wattage.
+ */
+function hasMeasuredDistance(samples) {
+  return samples.some(sample => reading(sample.distance) !== null)
+}
 
 function virtualSpeedFromPower(powerWatts, options = {}) {
   // Physical constants
@@ -71,8 +84,9 @@ function tag(name, content = '', attrs = {}) {
   return `<${name}${attrStr}>${inner}</${name}>`
 }
 
-export function generateTcx(samples, name = '', weight = 70) {
+export function generateTcx(samples, name = '', weight = 70, sport = 'Biking') {
   if (!samples || samples.length === 0) return ''
+  const measured = hasMeasuredDistance(samples)
   const activityId = samples[0].time
   const startedAt = new Date(samples[0].time).getTime()
   let previousTime = startedAt
@@ -97,11 +111,22 @@ export function generateTcx(samples, name = '', weight = 70) {
     const hasPower = sample.power !== undefined && sample.power !== '-'
     const children = []
     let speed
-    if (hasPower) {
-      const watts = Number(sample.power)
-      speed = virtualSpeedFromPower(watts, { mass: weight + 10 })
+    // Work done is work done however the distance was arrived at.
+    if (hasPower) kilojoules += (Number(sample.power) * stepSeconds) / 1000
+    if (measured) {
+      // The erg's own count, which only ever goes up. A sample the distance stream had not reached
+      // yet leaves the total where it was rather than resetting it to zero.
+      const metres = reading(sample.distance)
+      if (metres !== null && metres > totalDistance) {
+        speed = stepSeconds > 0 ? (metres - totalDistance) / stepSeconds : 0
+        totalDistance = metres
+        if (speed > maxSpeed) maxSpeed = speed
+      } else {
+        speed = 0
+      }
+    } else if (hasPower) {
+      speed = virtualSpeedFromPower(Number(sample.power), { mass: weight + 10 })
       totalDistance += speed * stepSeconds
-      kilojoules += (watts * stepSeconds) / 1000
       if (speed > maxSpeed) maxSpeed = speed
     }
 
@@ -170,7 +195,10 @@ export function generateTcx(samples, name = '', weight = 70) {
     `<?xml version="1.0" encoding="UTF-8"?>` +
     tag(
       'TrainingCenterDatabase',
-      [tag('Activities', [tag('Activity', activityChildren, { Sport: 'Biking' })])],
+      // The TCX schema allows only Running, Biking and Other, so a rowing session goes out as
+      // Other and gets its type corrected in Strava after import. There is no third option to
+      // choose more carefully between.
+      [tag('Activities', [tag('Activity', activityChildren, { Sport: sport })])],
       {
         xmlns: 'http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2',
         'xmlns:xsi': 'http://www.w3.org/2001/XMLSchema-instance',

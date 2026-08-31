@@ -17,6 +17,29 @@ class App < Sinatra::Base
   # changes. Read each one once.
   WORKOUT_XML = Hash.new { |cache, path| cache[path] = File.read(path) }
 
+  # The directories a workout may be loaded from, and the words the coach uses for each. Anything
+  # outside them is refused: the path arrives from the browser and names a file to read.
+  #
+  # A rowing coach is not a cycling coach with the nouns swapped, and one line in particular has to
+  # go: a Concept2 holds no target, so "you will almost always be at target" is exactly wrong. On a
+  # rower the deviation is the whole of the feedback, and worth talking about.
+  DISCIPLINES = {
+    'zwift_workouts_all_collections_ordered_Mar21' => {
+      athlete: 'cyclist', sport: 'cycling', rate: 'cadence',
+      machine: 'The cyclist is using a bike that is controlled like an Ergometer, so no need to ' \
+               'congratulate on achieving the target power because it is almost always going to ' \
+               'be at target except if there is a real big deviation which would most likely ' \
+               'mean that the cyclist is taking a break.'
+    },
+    'rowing_workouts' => {
+      athlete: 'rower', sport: 'rowing', rate: 'stroke rate',
+      machine: 'The rower is on a Concept2, which has no ERG mode and holds no target: the pace ' \
+               'is entirely the athlete to keep. Hitting the target split is an achievement and ' \
+               'drifting off it is the thing worth correcting. Speak in splits per 500 metres, ' \
+               'which is what the athlete reads, rather than in watts.'
+    }
+  }.freeze
+
   enable :sessions
   set :views, 'views'
   set :public_folder, 'public'
@@ -29,10 +52,11 @@ class App < Sinatra::Base
     workout_state = payload['state']
     xml_path = payload['xml_path']
 
-    zwift_root = File.expand_path(File.join(settings.public_folder, 'zwift_workouts_all_collections_ordered_Mar21'))
-
     xml_abs_path = File.expand_path(File.join(settings.public_folder, xml_path))
-    unless xml_abs_path.start_with?(zwift_root) && File.exist?(xml_abs_path)
+    discipline = DISCIPLINES.find do |root, _|
+      xml_abs_path.start_with?(File.expand_path(File.join(settings.public_folder, root)))
+    end&.last
+    unless discipline && File.exist?(xml_abs_path)
       status 400
       return { audio_url: nil, text: 'Invalid or missing workout XML path' }.to_json
     end
@@ -52,8 +76,8 @@ class App < Sinatra::Base
                   end
 
     system_prompt = <<~PROMPT
-      You are a virtual cycling coach for indoor training.
-      The cyclist name is Ivan but do not repeat it each time, only once in a while.
+      You are a virtual #{discipline[:sport]} coach for indoor training.
+      The #{discipline[:athlete]} name is Ivan but do not repeat it each time, only once in a while.
       Here is the structured workout in Zwift ZWO/XML format:
       ===
       #{WORKOUT_XML[xml_abs_path]}
@@ -62,15 +86,14 @@ class App < Sinatra::Base
       Avoid repeating yourself: do not repeat advice or encouragement given in your recent messages (see chat log below).
       You can take some inspiration from the text events tags that might be in the structure workout file.
       Always write "watts" in full, to ensure correct text-to-speech synthesis.
-      The cyclist is using a bike that is controlled like an Ergometer, so no need to congratulate on achieving the target power
-      because it's almost always going to be at target except if there's a real big deviation which would most likely mean that the cyclist is taking a break.
-      The cyclist has a display in front of him, so no need to restate his current power, cadence, or heart rate. Only comment on the evolution or exceptional values.
-      At each request, you receive a JSON representing the athlete's live state (current time, heart rate, cadence, power, current phase, etc).
+      #{discipline[:machine]}
+      The #{discipline[:athlete]} has a display in front of him, so no need to restate his current power, #{discipline[:rate]}, or heart rate. Only comment on the evolution or exceptional values.
+      At each request, you receive a JSON representing the athlete's live state (current time, heart rate, #{discipline[:rate]}, power, current phase, etc).
       - Offer encouragement, advice, or corrections when appropriate (especially at phase changes, or if the athlete is far from the target).
       - When the current phase is an intense phase, do not make long sentences but short motivational sentences.
       - You can comment on upcoming phases.
-      - Right before an intense phase, it's interesting to advise the cyclist to increase the cadence.
-      - You can congratulate the cyclist once he has finished an intense phase.
+      - Right before an intense phase, it's interesting to advise the #{discipline[:athlete]} to raise the #{discipline[:rate]}.
+      - You can congratulate the #{discipline[:athlete]} once he has finished an intense phase.
       - Otherwise, if nothing is relevant, reply strictly with "__NO_MESSAGE__".
 
       Respond ONLY with either a phrase to synthesize or "__NO_MESSAGE__".
@@ -162,6 +185,6 @@ class App < Sinatra::Base
     FileUtils.mkdir_p(REPORTS_DIR)
     path = File.join(REPORTS_DIR, "pm5-#{Time.now.strftime('%Y%m%d-%H%M%S')}.json")
     File.write(path, payload)
-    { path: path }.to_json
+    { path: }.to_json
   end
 end

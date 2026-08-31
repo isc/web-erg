@@ -1,0 +1,21 @@
+<workout_file>
+  <name>4 x 3 min / 2 min easy</name>
+  <description>Four 3 minute pieces. Two minutes at light pressure between each piece.
+
+Concept2 Workout of the Day, 2022-09-03. The archive specifies structure and never
+intensity — a WOD says "5 x 4 min / 2 min easy" and leaves the pace to you. The targets here are
+derived by Paul's Law from your rowing FTP: shorter pieces harder, longer ones easier. Warm up
+before you start; the WOD is the piece, and nothing has been added to it.</description>
+  <author>Concept2</author>
+  <sportType>rowing</sportType>
+  <workout>
+    <SteadyState Duration="180" Power="1.2"/>
+    <SteadyState Duration="120" Power="0.55"/>
+    <SteadyState Duration="180" Power="1.2"/>
+    <SteadyState Duration="120" Power="0.55"/>
+    <SteadyState Duration="180" Power="1.2"/>
+    <SteadyState Duration="120" Power="0.55"/>
+    <SteadyState Duration="180" Power="1.2"/>
+    <SteadyState Duration="120" Power="0.55"/>
+  </workout>
+</workout_file>
