@@ -99,8 +99,10 @@ class SessionSummaryTest < CapybaraTestBase
   def test_finishing_a_ride_shows_what_it_was
     ride_until_samples_exist(heart_rate: true)
     # The strap reports a second after the trainer does, and the first sample is created before it
-    # says anything: stopping on that one alone would leave the heart rate out of the summary.
-    wait_until { app_state('workoutSamples.some(sample => Number(sample.heartRate) > 0)') }
+    # says anything: stopping on that one alone would leave the heart rate out of the summary. The
+    # two clocks are 1 s and 1.5 s apart and neither is aligned to the other, so how long this takes
+    # depends on where in the cycle the ride started — up to about four seconds, on a slow runner.
+    wait_until(15) { app_state('workoutSamples.some(sample => Number(sample.heartRate) > 0)') }
     page.execute_script("Alpine.$data(document.querySelector('[x-data]')).stopWorkout()")
 
     within '.session-summary' do

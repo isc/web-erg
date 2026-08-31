@@ -16,6 +16,10 @@ Capybara.register_driver(:cuprite) do |app|
 end
 Capybara.default_driver = :cuprite
 Capybara.enable_aria_label = true
+# Two seconds is Capybara's default and it was always thin here: the fake devices report at 1 Hz and
+# the app opens a new sample only once 1.5 s has passed, so anything waiting on a reading to reach a
+# sample is waiting on two clocks that do not line up. On a loaded CI runner that is a coin toss.
+Capybara.default_max_wait_time = 5
 
 class CapybaraTestBase < Minitest::Test
   include Capybara::DSL
