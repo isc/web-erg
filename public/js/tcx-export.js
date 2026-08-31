@@ -9,7 +9,7 @@ import { downloadDataUrl, reading } from './utils.js'
  * each trackpoint is then the distance the erg actually covered over the time it took, rather than
  * a number a bicycle would have gone at that wattage.
  */
-function measuredDistance(samples) {
+function hasMeasuredDistance(samples) {
   return samples.some(sample => reading(sample.distance) !== null)
 }
 
@@ -86,7 +86,7 @@ function tag(name, content = '', attrs = {}) {
 
 export function generateTcx(samples, name = '', weight = 70, sport = 'Biking') {
   if (!samples || samples.length === 0) return ''
-  const measured = measuredDistance(samples)
+  const measured = hasMeasuredDistance(samples)
   const activityId = samples[0].time
   const startedAt = new Date(samples[0].time).getTime()
   let previousTime = startedAt
@@ -111,6 +111,8 @@ export function generateTcx(samples, name = '', weight = 70, sport = 'Biking') {
     const hasPower = sample.power !== undefined && sample.power !== '-'
     const children = []
     let speed
+    // Work done is work done however the distance was arrived at.
+    if (hasPower) kilojoules += (Number(sample.power) * stepSeconds) / 1000
     if (measured) {
       // The erg's own count, which only ever goes up. A sample the distance stream had not reached
       // yet leaves the total where it was rather than resetting it to zero.
@@ -122,12 +124,9 @@ export function generateTcx(samples, name = '', weight = 70, sport = 'Biking') {
       } else {
         speed = 0
       }
-      if (hasPower) kilojoules += (Number(sample.power) * stepSeconds) / 1000
     } else if (hasPower) {
-      const watts = Number(sample.power)
-      speed = virtualSpeedFromPower(watts, { mass: weight + 10 })
+      speed = virtualSpeedFromPower(Number(sample.power), { mass: weight + 10 })
       totalDistance += speed * stepSeconds
-      kilojoules += (watts * stepSeconds) / 1000
       if (speed > maxSpeed) maxSpeed = speed
     }
 
@@ -142,7 +141,7 @@ export function generateTcx(samples, name = '', weight = 70, sport = 'Biking') {
       if (bpm > maxHeartRate) maxHeartRate = bpm
       children.push(tag('HeartRateBpm', [tag('Value', bpm)]))
     }
-    if (hasPower && speed !== undefined)
+    if (hasPower)
       children.push(
         tag(
           'Extensions',

@@ -57,8 +57,8 @@ window.workoutApp = function () {
     rowingFtp: 200,
     weight: 70,
     phaseProgress: 0,
-    phaseSecondsRemaining: 0,
-    phaseMetresRemaining: 0,
+    // Seconds or metres, whichever the current phase is written in. `phaseIsDistance` says which.
+    phaseRemaining: 0,
     wakeLock: null,
     isPaused: false,
     ergometerConnecting: false,
@@ -68,7 +68,6 @@ window.workoutApp = function () {
     cadenceTarget: null,
     phase: null,
     nextPhase: null,
-    phaseSecondsRemaining: 0,
     elapsedSeconds: 0,
     screenshotDataUrl: null,
     screenshotPending: false,
@@ -83,7 +82,11 @@ window.workoutApp = function () {
     // connected is the bike's. Written out here it would be a third copy of it, and it had already
     // drifted from the two real ones.
     ergometer: ergometerCapabilities(),
+    // Metres rowed in THIS session. The erg's counter is absolute and may already hold a warm-up
+    // when the workout starts, so what is shown, recorded and counted down is the difference.
     distance: null,
+    ergDistance: null,
+    distanceBaseline: null,
     targetWatts: null,
 
     // Drives the "Bluetooth not supported" modal. Availability is the Bluetooth module's question:
@@ -226,11 +229,15 @@ window.workoutApp = function () {
       // its distance is modelled from power when the activity is exported, and there is nothing
       // live to show.
       setOnDistanceUpdate(metres => {
-        this.distance = metres
+        this.ergDistance = metres
+        // Whatever was on the counter when the session began, or when the first reading arrives if
+        // the session began before the erg had said anything.
+        if (this.distanceBaseline === null) this.distanceBaseline = metres
+        this.distance = Math.max(0, metres - this.distanceBaseline)
         // The runner needs it too: a phase written in metres is ended by the erg's count and not
         // by the clock.
-        this.workoutRunner?.setDistance(metres)
-        this.addOrUpdateSample({ distance: metres })
+        this.workoutRunner?.setDistance(this.distance)
+        this.addOrUpdateSample({ distance: this.distance })
       })
     },
     captureScreenshot() {
@@ -300,6 +307,17 @@ window.workoutApp = function () {
         this.startError = 'Choose a workout before starting.'
         return
       }
+      // A phase written in metres is ended by the machine's own count and by nothing else, so on a
+      // machine that counts nothing it would never end at all: the session would sit on its first
+      // interval until the rider pressed Stop. Refusing is the only honest answer.
+      if (this.workoutRunner?.needsDistance && !this.metrics.includes('distance')) {
+        this.startError =
+          'This workout is measured in metres. Connect a rowing machine that counts them.'
+        return
+      }
+      // Metres already on the erg — a warm-up, someone else's piece — are not part of this session.
+      this.distanceBaseline = this.ergDistance
+      this.distance = this.ergDistance === null ? null : 0
       if (!isTestEnv()) document.documentElement.requestFullscreen?.()
       localStorage.setItem('ftp', this.ftp)
       localStorage.setItem('rowingFtp', this.rowingFtp)
@@ -340,12 +358,12 @@ window.workoutApp = function () {
     },
     get phaseCountdown() {
       return this.phaseIsDistance
-        ? String(this.phaseMetresRemaining)
-        : formatCountdown(this.phaseSecondsRemaining)
+        ? String(this.phaseRemaining)
+        : formatCountdown(this.phaseRemaining)
     },
     get phaseCountdownUnit() {
       if (this.phaseIsDistance) return 'metres to go'
-      return this.phaseSecondsRemaining < 60 ? 'seconds' : 'remaining'
+      return this.phaseRemaining < 60 ? 'seconds' : 'remaining'
     },
     // "500 m" or "4 min", whichever the phase was written in.
     phaseLength(phase) {
@@ -354,8 +372,12 @@ window.workoutApp = function () {
         ? `${phase.distance} m`
         : formatDuration((phase.duration || 0) / 60)
     },
-    get phaseTimeRemaining() {
-      return formatForTimer(this.phaseSecondsRemaining)
+    // The wide layout's own line under the graph. It used to be seconds and only seconds, so a
+    // thousand-metre piece showed 0:00 from its first second to its last.
+    get phaseRemainingLabel() {
+      return this.phaseIsDistance
+        ? `${this.phaseRemaining} m`
+        : formatForTimer(this.phaseRemaining)
     },
     get sessionProgress() {
       // The same elapsed count the timer prints beside it, rather than a second tally of its own.

@@ -19,27 +19,39 @@ class RowingExportTest < CapybaraTestBase
     }
   end
 
-  def generate(samples, sport)
-    in_page_module(MODULES, 'return tcx.generateTcx(args[0], "100m", 70, args[1])', samples, sport)
+  # The same session on a trainer: no distance to be had, so the export models one from watts.
+  RIDDEN = ROWED.map { |sample| sample.except('distance') }
+
+  def generate(samples, sport = nil)
+    in_page_module(MODULES, 'return tcx.generateTcx(args[0], "100m", 70, args[1] || undefined)',
+                   samples, sport)
+  end
+
+  def sport_of(samples, sport = nil)
+    REXML::Document.new(generate(samples, sport)).elements['//Activity'].attributes['Sport']
+  end
+
+  def summarise(samples)
+    in_page_module(MODULES, 'return summary.summariseSession(args[0], 200)', samples)
   end
 
   def lap(samples, sport = 'Other')
     REXML::Document.new(generate(samples, sport)).elements['//Lap']
   end
 
-  def test_a_rowing_session_is_exported_as_other
-    document = REXML::Document.new(generate(ROWED, 'Other'))
+  # Work is work however the distance was arrived at, so the same wattage over the same seconds must
+  # cost the same calories on either machine.
+  def test_calories_do_not_depend_on_how_the_distance_was_found
+    assert_equal lap(RIDDEN, nil).elements['Calories'].text,
+                 lap(ROWED).elements['Calories'].text
+  end
 
-    assert_equal 'Other', document.elements['//Activity'].attributes['Sport']
+  def test_a_rowing_session_is_exported_as_other
+    assert_equal 'Other', sport_of(ROWED, 'Other')
   end
 
   def test_a_ride_still_goes_out_as_biking_by_default
-    ridden = ROWED.map { |sample| sample.except('distance') }
-    document = REXML::Document.new(
-      in_page_module(MODULES, 'return tcx.generateTcx(args[0], "ride", 70)', ridden)
-    )
-
-    assert_equal 'Biking', document.elements['//Activity'].attributes['Sport']
+    assert_equal 'Biking', sport_of(RIDDEN)
   end
 
   # The whole aero model goes on a rower. 30 m rowed is 30 m exported, not the 65 m a bicycle would
@@ -47,13 +59,7 @@ class RowingExportTest < CapybaraTestBase
   # between a machine that measures and a model that guesses.
   def test_distance_is_the_erg_s_count_and_not_the_bicycle_model
     assert_in_delta 30.0, lap(ROWED).elements['DistanceMeters'].text.to_f, 0.01
-
-    ridden = ROWED.map { |sample| sample.except('distance') }
-    modelled = REXML::Document.new(
-      in_page_module(MODULES, 'return tcx.generateTcx(args[0], "ride", 70)', ridden)
-    ).elements['//Lap/DistanceMeters'].text.to_f
-
-    assert_in_delta 64.6, modelled, 0.5
+    assert_in_delta 64.6, lap(RIDDEN, nil).elements['DistanceMeters'].text.to_f, 0.5
   end
 
   # Speed is then a consequence of the distance rather than a second guess at it: 6 m every 2 s.
@@ -72,15 +78,10 @@ class RowingExportTest < CapybaraTestBase
   end
 
   def test_the_summary_reports_the_metres_the_machine_counted
-    result = in_page_module(MODULES, 'return summary.summariseSession(args[0], 200)', ROWED)
-
-    assert_in_delta 30.0, result['distance'], 0.01
+    assert_in_delta 30.0, summarise(ROWED)['distance'], 0.01
   end
 
   def test_a_ride_summary_has_no_distance_to_report
-    ridden = ROWED.map { |sample| sample.except('distance') }
-    result = in_page_module(MODULES, 'return summary.summariseSession(args[0], 200)', ridden)
-
-    assert_nil result['distance']
+    assert_nil summarise(RIDDEN)['distance']
   end
 end

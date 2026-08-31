@@ -196,6 +196,10 @@ export function decodeWorkoutSummary(view) {
 // zeroed in the meantime must not inherit the last session's distance.
 let live = {}
 let handlers = {}
+// Kept across a reconnect, unlike everything in `live`: the metres already rowed are still rowed,
+// whatever the monitor's own counter now says.
+let rowedDistance = 0
+let lastRawDistance = null
 let staleTimer = null
 let strokeTimeout = STROKE_TIMEOUT_MS
 let seen = new Set()
@@ -226,19 +230,35 @@ function publishStrokeRate() {
   // and each publication costs the app a pause-or-resume decision and a sample write.
   if (rate === live.published) return
   live.published = rate
-  handlers.onStrokeRate(rate)
-  // A rower who has stopped is producing no watts, whatever the last stroke said. Saying so keeps
-  // the recorded session honest and stops the summary averaging in work nobody did.
+  // Zero watts FIRST, and the absent stroke rate second. A rower who has stopped is producing no
+  // watts whatever the last stroke said, and saying so is what stops the summary averaging in work
+  // nobody did — but the '-' pauses the session, and a paused session records nothing, so sent the
+  // other way round the honest reading is thrown away by the pause it just caused.
   if (rate === '-') handlers.onPower(0)
+  handlers.onStrokeRate(rate)
 }
 
-// The erg's odometer only goes up within a session, and two characteristics report it. Publishing
-// whichever is larger is publishing whichever is more recent, and it means a frame arriving out of
-// order cannot walk the distance backwards under a phase that is counting it down.
+/**
+ * Metres rowed since this app connected, accumulated from the erg's own counter.
+ *
+ * Two characteristics report that counter and both are decoded, so the reading has to be
+ * monotonic — a status frame arriving between two strokes must not walk the distance backwards
+ * under a phase that is counting it down. But the counter itself is not monotonic: the PM5 zeroes
+ * it when a new piece starts on the monitor, and this adapter is re-opened from scratch on a
+ * reconnect. So what is published is the sum of the increments, which only ever goes up.
+ *
+ * Metres rowed while the link was down are not credited. There is no way to tell a monitor that
+ * zeroed itself from one that kept counting, and inventing distance is the worse of the two errors.
+ */
 function publishDistance(metres) {
-  if (metres <= live.distance) return
-  live.distance = metres
-  handlers.onDistance(metres)
+  if (lastRawDistance !== null && metres > lastRawDistance)
+    rowedDistance += metres - lastRawDistance
+  const first = lastRawDistance === null
+  lastRawDistance = metres
+  if (first || rowedDistance !== live.distance) {
+    live.distance = rowedDistance
+    handlers.onDistance(rowedDistance)
+  }
 }
 
 function onGeneralStatus(value) {
@@ -307,7 +327,10 @@ const SUBSCRIPTIONS = [
 export async function openPm5(server, callbacks, { strokeTimeoutMs = STROKE_TIMEOUT_MS } = {}) {
   handlers = callbacks
   strokeTimeout = strokeTimeoutMs
-  live = { strokeRate: 0, lastStrokeAt: null, published: null, distance: 0 }
+  live = { strokeRate: 0, lastStrokeAt: null, published: null, distance: null }
+  // Not the total: the next reading establishes a fresh baseline rather than being counted as one
+  // enormous increment from zero.
+  lastRawDistance = null
   seen = new Set()
   const service = await server.getPrimaryService(ROWING_SERVICE)
   for (const [uuid, onNotification] of SUBSCRIPTIONS) {

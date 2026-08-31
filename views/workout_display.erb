@@ -54,7 +54,7 @@
             about a piece, and watts is the unit they were computed from. %>
         <div x-show="summary?.distance">
           <dt>Distance</dt>
-          <dd><span x-text="summaryDistance"></span> m</dd>
+          <dd x-text="summaryDistance"></dd>
         </div>
         <div x-show="summary?.distance">
           <dt>Average split</dt>
@@ -132,8 +132,10 @@
         ></span>
       </li>
       <li x-show="metrics.includes('distance')">
+        <%# The value carries its own unit: metres up to a kilometre and kilometres past it, which
+            is most of a rowing session. %>
         <span class="v" x-text="distanceLabel">—</span>
-        <span class="k">metres</span>
+        <span class="k">distance</span>
       </li>
       <li>
         <span class="v" x-text="heartRate">-</span>
@@ -214,13 +216,13 @@
             x-text="' - Target: ' + cadenceTarget?.min + '-' + cadenceTarget?.max">
           </small>
         </td>
-        <td x-show="metrics.includes('distance')"><span x-text="distanceLabel">—</span> m</td>
+        <td x-show="metrics.includes('distance')" x-text="distanceLabel">—</td>
         <td><span x-text="heartRate">-</span> bpm</td>
       </tr>
     </tbody>
   </table>
   <div class="phase-progress-container">
-    <span x-text="phaseTimeRemaining">0:00</span>
+    <span x-text="phaseRemainingLabel">0:00</span>
     <progress x-bind:value="phaseProgress" max="100"></progress>
   </div>
 

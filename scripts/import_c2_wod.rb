@@ -119,7 +119,17 @@ end
 
 # One piece of work and the rest that follows it. Rests in this corpus are always time, even when
 # the work is distance.
-Piece = Struct.new(:kind, :amount, :rest, keyword_init: true)
+#
+# How long a piece is, and how far, are asked by the target, the phase and the index, so the
+# conversion between the two lives here once — otherwise the 2 km reference the whole intensity
+# model rests on would be spelled out in three places and could drift apart.
+Piece = Struct.new(:kind, :amount, :rest, keyword_init: true) do
+  def distance? = kind == :distance
+
+  # At the reference pace, for a piece named in time. Only the ratio downstream depends on it.
+  def metres = distance? ? amount : (amount / REFERENCE_2K_SPLIT) * 500
+  def seconds = distance? ? (amount / 500.0) * REFERENCE_2K_SPLIT : amount
+end
 
 class WodParser
   # A quantity, in whichever unit it names. Bare numbers are left to the caller, which knows the
@@ -302,7 +312,7 @@ end
 # Paul's Law, as a fraction of 2 km power — which is what a .zwo Power attribute means once the
 # rider's rowing FTP is anchored on their 2 km.
 def target_power(piece)
-  metres = piece.kind == :distance ? piece.amount : (piece.amount / REFERENCE_2K_SPLIT) * 500
+  metres = piece.metres
   return REST_POWER if metres <= 0
 
   split = REFERENCE_2K_SPLIT + (SECONDS_PER_DOUBLING * Math.log2(metres / 2000.0))
@@ -312,12 +322,8 @@ end
 
 # --- Writing ----------------------------------------------------------------
 
-def escape(text)
-  text.gsub('&', '&amp;').gsub('<', '&lt;').gsub('>', '&gt;')
-end
-
 def phase(piece)
-  length = piece.kind == :distance ? "Distance=\"#{piece.amount}\"" : "Duration=\"#{piece.amount}\""
+  length = piece.distance? ? "Distance=\"#{piece.amount}\"" : "Duration=\"#{piece.amount}\""
   work = "    <SteadyState #{length} Power=\"#{target_power(piece)}\"/>"
   return work unless piece.rest&.positive?
 
@@ -327,8 +333,8 @@ end
 def zwo(title, description, first_seen, pieces)
   <<~XML
     <workout_file>
-      <name>#{escape(title)}</name>
-      <description>#{escape(description)}
+      <name>#{CGI.escapeHTML(title)}</name>
+      <description>#{CGI.escapeHTML(description)}
 
     Concept2 Workout of the Day, #{first_seen}. The archive specifies structure and never
     intensity — a WOD says "5 x 4 min / 2 min easy" and leaves the pace to you. The targets here are
@@ -348,11 +354,7 @@ def slug(title)
 end
 
 def duration_minutes(pieces)
-  seconds = pieces.sum do |piece|
-    work = piece.kind == :distance ? (piece.amount / 500.0) * REFERENCE_2K_SPLIT : piece.amount
-    work + (piece.rest || 0)
-  end
-  (seconds / 60.0).round
+  (pieces.sum { |piece| piece.seconds + (piece.rest || 0) } / 60.0).round
 end
 
 # --- Run --------------------------------------------------------------------

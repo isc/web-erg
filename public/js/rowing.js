@@ -39,17 +39,23 @@ export function powerFromSplit(splitSeconds) {
  */
 export function formatSplit(seconds) {
   if (seconds == null || !isFinite(seconds)) return '—'
-  const total = Math.max(0, Number(seconds))
-  const minutes = Math.floor(total / 60)
-  const rest = total - minutes * 60
+  // Rounded to tenths BEFORE the minute is taken out. Splitting first and rounding the remainder
+  // after printed 1:60.0 for anything between 1:59.95 and 2:00.
+  const tenths = Math.round(Math.max(0, Number(seconds)) * 10)
+  const minutes = Math.floor(tenths / 600)
+  const rest = (tenths - minutes * 600) / 10
   return `${minutes}:${rest.toFixed(1).padStart(4, '0')}`
 }
 
-// Metres, as the cockpit says them: whole numbers below a kilometre, kilometres above, where the
-// last few metres stop being the thing you are reading. Nothing rowed reads as an em dash, the
-// same as a split nobody has produced yet — a machine that has not spoken is not a machine at zero.
+// Metres, as the cockpit says them: whole metres below a kilometre, kilometres above, where the
+// last few metres stop being the thing you are reading. The unit is part of the answer and not the
+// caller's to add — it changes with the number, and every caller that appended its own "m" printed
+// "6.00 km m" for any session past a kilometre, which is most of them.
+//
+// Nothing rowed reads as an em dash, the same as a split nobody has produced yet: a machine that
+// has not spoken is not a machine at zero.
 export function formatDistance(metres) {
   if (metres == null || !isFinite(metres)) return '—'
-  if (metres < 1000) return String(Math.round(metres))
+  if (metres < 1000) return `${Math.round(metres)} m`
   return `${(metres / 1000).toFixed(2)} km`
 }

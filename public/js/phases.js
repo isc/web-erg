@@ -141,9 +141,3 @@ export function totalDurationSeconds(expandedPhases) {
 export function phaseDurationSeconds(phase) {
   return totalDurationSeconds(expandPhases([phase]))
 }
-
-// Metres, when the phase is measured in them. Sums to zero for a workout written entirely in time,
-// which is the honest answer for a bike ride.
-export function totalDistanceMetres(expandedPhases) {
-  return expandedPhases.reduce((sum, phase) => sum + (phase.distance || 0), 0)
-}

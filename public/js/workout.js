@@ -86,6 +86,11 @@ export class WorkoutRunner {
     return this.distance - this.phaseStartDistance
   }
 
+  /** Whether any phase in this workout is measured in metres, and so needs a machine that counts. */
+  get needsDistance() {
+    return this.expandedPhases.some(phase => phase.distance)
+  }
+
   /**
    * How far through the phase is, and how much of it is left — in whichever unit the phase is
    * written in. A distance phase counts down in metres because that is what the rower is being
@@ -99,16 +104,14 @@ export class WorkoutRunner {
     const done = phase?.distance ? this.phaseDistance : this.currentPhaseElapsed
     if (!total) {
       this.alpineInstance.phaseProgress = 0
-      this.alpineInstance.phaseSecondsRemaining = 0
-      this.alpineInstance.phaseMetresRemaining = 0
+      this.alpineInstance.phaseRemaining = 0
       return
     }
-    const percent = Math.min(done / total, 1) * 100
+    const percent = Math.min(Math.max(done, 0) / total, 1) * 100
     this.alpineInstance.phaseProgress = isNaN(percent) ? 0 : percent
-
-    const remaining = Math.max(0, Math.round(total - done))
-    this.alpineInstance.phaseSecondsRemaining = phase.distance ? 0 : remaining
-    this.alpineInstance.phaseMetresRemaining = phase.distance ? remaining : 0
+    // One number, in the unit the phase names. Which unit that is, the phase already says: two
+    // fields holding a value and a zero meant every reader had to ask twice.
+    this.alpineInstance.phaseRemaining = Math.max(0, Math.round(total - done))
   }
 
   /**
@@ -179,6 +182,7 @@ export class WorkoutRunner {
     this.currentPhaseIndex = 0
     this.currentPhaseElapsed = 0
     this.phaseStartDistance = this.distance
+    this.startDistance = this.distance
     this.totalElapsed = 0
     this.renderedPhase = null
     this.refreshPhase()
@@ -274,16 +278,27 @@ export class WorkoutRunner {
   setDistance(metres) {
     this.distance = metres
     if (!this.running) return
-    const phase = this.expandedPhases[this.currentPhaseIndex]
-    if (!phase?.distance || this.phaseDistance < phase.distance) return
-    if (this.advancePhase()) this.refreshPhase()
+    let advanced = false
+    // A loop, not an if. A reading can arrive a second and several metres after the boundary, or
+    // after a gap in the stream, and land past the end of more than one short piece at once.
+    while (true) {
+      const phase = this.expandedPhases[this.currentPhaseIndex]
+      if (!phase?.distance || this.phaseDistance < phase.distance) break
+      // The next piece starts at the boundary, not at wherever the rower was when we noticed. The
+      // difference is the overshoot, and rebasing to the current reading threw it away — about four
+      // metres per piece at 1 Hz, which over eight pieces is a whole extra length of the erg.
+      const boundary = this.phaseStartDistance + phase.distance
+      if (!this.advancePhase(boundary)) return
+      advanced = true
+    }
+    if (advanced) this.refreshPhase()
   }
 
   /** True if there is still a phase to run. */
-  advancePhase() {
+  advancePhase(startDistance = this.distance) {
     this.currentPhaseIndex++
     this.currentPhaseElapsed = 0
-    this.phaseStartDistance = this.distance
+    this.phaseStartDistance = startDistance
     if (this.currentPhaseIndex < this.expandedPhases.length) return true
     this.stop()
     return false

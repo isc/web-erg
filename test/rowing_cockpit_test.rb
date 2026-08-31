@@ -20,7 +20,7 @@ class RowingCockpitTest < CapybaraTestBase
     within '.cockpit-metrics' do
       assert_text '/500 M'
       assert_text 'SPM'
-      assert_text 'METRES'
+      assert_text 'DISTANCE'
       assert_no_text 'RPM'
     end
   end
@@ -92,6 +92,31 @@ class RowingCockpitTest < CapybaraTestBase
     set_app_state(power: 60, targetWatts: 300)
 
     assert_equal '--from: 50%; --width: 50%', app_state('splitDeviationStyle')
+  end
+
+  # The value carries its own unit, because the unit changes with the number. Every caller that
+  # appended its own "m" printed "6.00 km m" for any session past a kilometre, which is most of
+  # the Concept2 archive.
+  def test_distance_names_its_own_unit
+    row
+
+    set_app_state(distance: 850)
+
+    assert_equal '850 m', app_state('distanceLabel')
+
+    set_app_state(distance: 6000)
+
+    assert_equal '6.00 km', app_state('distanceLabel')
+  end
+
+  # 1:59.96 used to print as "1:60.0": the minute was taken out first and the remainder rounded
+  # after. The cockpit re-reads this on every power packet, so it was a matter of time.
+  def test_a_split_never_prints_sixty_seconds
+    row
+
+    split = in_page_module({ rowing: '/js/rowing.js' }, 'return rowing.formatSplit(args[0])', 119.96)
+
+    assert_equal '2:00.0', split
   end
 
   def test_no_target_means_no_gap_to_show
