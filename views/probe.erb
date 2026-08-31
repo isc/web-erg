@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PM5 Bluetooth probe</title>
+    <%# No trailing slash on this route, deliberately: "js/probe.js" then resolves to "/js/probe.js"
+        the way the asset actually sits. index.erb forces the opposite because it is served under a
+        Tailscale Funnel sub-path; this page is a local instrument and never is. %>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.cyan.min.css" />
+    <style>
+      code { font-size: .8rem; word-break: break-all }
+      table { font-size: .85rem }
+      td, th { padding: .2rem .4rem }
+      #log { max-height: 18rem; overflow-y: auto; font-size: .85rem; padding-left: 1rem }
+      #log li { list-style: none }
+      .count { text-align: right }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <h1>PM5 Bluetooth probe</h1>
+      <p>
+        Connect the erg, let it walk the GATT tree, then <strong>row for about thirty seconds</strong>
+        so the notifying characteristics have something to say — a PM5 reports per stroke, so a
+        stationary erg looks identical to a silent one. Then send the report; it lands in
+        <code>probe-reports/</code> in the checkout.
+      </p>
+      <p>
+        <button id="pm5">Connect PM5</button>
+        <button id="any" class="secondary">Connect anything…</button>
+        <button id="send" class="contrast" disabled>Send report</button>
+      </p>
+      <div id="tree"></div>
+      <h2>Log</h2>
+      <ol id="log"></ol>
+    </main>
+    <script type="module" src="js/probe.js"></script>
+  </body>
+</html>

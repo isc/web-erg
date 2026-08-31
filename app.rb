@@ -1,6 +1,10 @@
+require 'fileutils'
+require 'json'
 require 'sinatra'
 
 class App < Sinatra::Base
+  REPORTS_DIR = File.expand_path('probe-reports', __dir__)
+
   set :views, 'views'
   set :public_folder, 'public'
 
@@ -16,5 +20,26 @@ class App < Sinatra::Base
 
   get '/' do
     erb :index
+  end
+
+  # A one-off instrument for the Concept2 port: everything in ROWING.md about the PM5's Bluetooth
+  # layout was written from memory, and this is what replaces it with observed bytes. Local only —
+  # Web Bluetooth needs localhost or HTTPS, and the reports are gitignored.
+  get '/probe' do
+    erb :probe, layout: false
+  end
+
+  get '/probe/' do
+    redirect to('/probe')
+  end
+
+  post '/probe/report' do
+    content_type :json
+    payload = request.body.read
+    halt 413, { error: 'report too large' }.to_json if payload.bytesize > 2_000_000
+    FileUtils.mkdir_p(REPORTS_DIR)
+    path = File.join(REPORTS_DIR, "pm5-#{Time.now.strftime('%Y%m%d-%H%M%S')}.json")
+    File.write(path, payload)
+    { path: path }.to_json
   end
 end
