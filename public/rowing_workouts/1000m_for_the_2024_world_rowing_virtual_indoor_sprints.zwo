@@ -1,0 +1,14 @@
+<workout_file>
+  <name>1000m for the 2024 World Rowing Virtual Indoor Sprints</name>
+  <description>Complete 1000m as fast as you can. (BikeErg:2000m) *The World Rowing Virtual Indoor Sprints are taking place between March 6-10, 2024. To take part you need to row 1000m. More details can be found in the Challenges section of the Concept2 logbook.
+
+Concept2 Workout of the Day, 2024-03-06. The archive specifies structure and never
+intensity — a WOD says "5 x 4 min / 2 min easy" and leaves the pace to you. The targets here are
+derived by Paul's Law from your rowing FTP: shorter pieces harder, longer ones easier. Warm up
+before you start; the WOD is the piece, and nothing has been added to it.</description>
+  <author>Concept2</author>
+  <sportType>rowing</sportType>
+  <workout>
+    <SteadyState Distance="1000" Power="1.15"/>
+  </workout>
+</workout_file>

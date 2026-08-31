@@ -1,0 +1,18 @@
+<workout_file>
+  <name>2000m/3 minutes rest/1000m/2 minutes rest/500m</name>
+  <description>A 2000m interval, followed by three minutes rest. Then 1000m, followed by two minutes rest. Then 500m. (BikeErg: 4000/2000/1000m)
+
+Concept2 Workout of the Day, 2025-01-19. The archive specifies structure and never
+intensity — a WOD says "5 x 4 min / 2 min easy" and leaves the pace to you. The targets here are
+derived by Paul's Law from your rowing FTP: shorter pieces harder, longer ones easier. Warm up
+before you start; the WOD is the piece, and nothing has been added to it.</description>
+  <author>Concept2</author>
+  <sportType>rowing</sportType>
+  <workout>
+    <SteadyState Distance="2000" Power="1.0"/>
+    <SteadyState Duration="180" Power="0.55"/>
+    <SteadyState Distance="1000" Power="1.15"/>
+    <SteadyState Duration="120" Power="0.55"/>
+    <SteadyState Distance="500" Power="1.32"/>
+  </workout>
+</workout_file>

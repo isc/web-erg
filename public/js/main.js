@@ -570,9 +570,9 @@ window.workoutApp = function () {
       // Exported means safe: nothing left to offer on the next load.
       clearSession()
     },
-    async loadWorkoutFromLibrary(workoutUrl) {
+    async loadWorkoutFromLibrary(workoutUrl, root) {
       try {
-        const workoutPath = `zwift_workouts_all_collections_ordered_Mar21/${workoutUrl}`
+        const workoutPath = `${root}/${workoutUrl}`
         const response = await fetch(workoutPath)
         if (!response.ok)
           throw new Error(`Failed to load workout: ${response.status}`)

@@ -1,0 +1,23 @@
+<workout_file>
+  <name>5 x 1000m</name>
+  <description>5 x 1000m with 60 seconds rest.
+
+Concept2 Workout of the Day, 2023-06-13. The archive specifies structure and never
+intensity — a WOD says "5 x 4 min / 2 min easy" and leaves the pace to you. The targets here are
+derived by Paul's Law from your rowing FTP: shorter pieces harder, longer ones easier. Warm up
+before you start; the WOD is the piece, and nothing has been added to it.</description>
+  <author>Concept2</author>
+  <sportType>rowing</sportType>
+  <workout>
+    <SteadyState Distance="1000" Power="1.15"/>
+    <SteadyState Duration="60" Power="0.55"/>
+    <SteadyState Distance="1000" Power="1.15"/>
+    <SteadyState Duration="60" Power="0.55"/>
+    <SteadyState Distance="1000" Power="1.15"/>
+    <SteadyState Duration="60" Power="0.55"/>
+    <SteadyState Distance="1000" Power="1.15"/>
+    <SteadyState Duration="60" Power="0.55"/>
+    <SteadyState Distance="1000" Power="1.15"/>
+    <SteadyState Duration="60" Power="0.55"/>
+  </workout>
+</workout_file>

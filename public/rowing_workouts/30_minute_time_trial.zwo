@@ -1,0 +1,14 @@
+<workout_file>
+  <name>30 minute time trial</name>
+  <description>Do a 30 minute time trial, going for your personal best. Then enter your result in the Online Ranking and see where you stand with others of your age, gender and weight class.
+
+Concept2 Workout of the Day, 2022-09-19. The archive specifies structure and never
+intensity — a WOD says "5 x 4 min / 2 min easy" and leaves the pace to you. The targets here are
+derived by Paul's Law from your rowing FTP: shorter pieces harder, longer ones easier. Warm up
+before you start; the WOD is the piece, and nothing has been added to it.</description>
+  <author>Concept2</author>
+  <sportType>rowing</sportType>
+  <workout>
+    <SteadyState Duration="1800" Power="0.77"/>
+  </workout>
+</workout_file>

@@ -1,0 +1,78 @@
+<workout_file>
+  <name>2 rounds of 16 x 20 seconds work and 10 seconds rest</name>
+  <description>16 intervals of 20 seconds work, with 10 seconds rest. Then rest for 3 minutes. Repeat the 16 intervals of 20 seconds work and 10 seconds rest. Day 6 of the WOD Week Challenge.
+
+Concept2 Workout of the Day, 2022-09-10. The archive specifies structure and never
+intensity — a WOD says "5 x 4 min / 2 min easy" and leaves the pace to you. The targets here are
+derived by Paul's Law from your rowing FTP: shorter pieces harder, longer ones easier. Warm up
+before you start; the WOD is the piece, and nothing has been added to it.</description>
+  <author>Concept2</author>
+  <sportType>rowing</sportType>
+  <workout>
+    <SteadyState Duration="20" Power="1.8"/>
+    <SteadyState Duration="10" Power="0.55"/>
+    <SteadyState Duration="20" Power="1.8"/>
+    <SteadyState Duration="10" Power="0.55"/>
+    <SteadyState Duration="20" Power="1.8"/>
+    <SteadyState Duration="10" Power="0.55"/>
+    <SteadyState Duration="20" Power="1.8"/>
+    <SteadyState Duration="10" Power="0.55"/>
+    <SteadyState Duration="20" Power="1.8"/>
+    <SteadyState Duration="10" Power="0.55"/>
+    <SteadyState Duration="20" Power="1.8"/>
+    <SteadyState Duration="10" Power="0.55"/>
+    <SteadyState Duration="20" Power="1.8"/>
+    <SteadyState Duration="10" Power="0.55"/>
+    <SteadyState Duration="20" Power="1.8"/>
+    <SteadyState Duration="10" Power="0.55"/>
+    <SteadyState Duration="20" Power="1.8"/>
+    <SteadyState Duration="10" Power="0.55"/>
+    <SteadyState Duration="20" Power="1.8"/>
+    <SteadyState Duration="10" Power="0.55"/>
+    <SteadyState Duration="20" Power="1.8"/>
+    <SteadyState Duration="10" Power="0.55"/>
+    <SteadyState Duration="20" Power="1.8"/>
+    <SteadyState Duration="10" Power="0.55"/>
+    <SteadyState Duration="20" Power="1.8"/>
+    <SteadyState Duration="10" Power="0.55"/>
+    <SteadyState Duration="20" Power="1.8"/>
+    <SteadyState Duration="10" Power="0.55"/>
+    <SteadyState Duration="20" Power="1.8"/>
+    <SteadyState Duration="10" Power="0.55"/>
+    <SteadyState Duration="20" Power="1.8"/>
+    <SteadyState Duration="10" Power="0.55"/>
+    <SteadyState Duration="180" Power="1.2"/>
+    <SteadyState Duration="20" Power="1.8"/>
+    <SteadyState Duration="10" Power="0.55"/>
+    <SteadyState Duration="20" Power="1.8"/>
+    <SteadyState Duration="10" Power="0.55"/>
+    <SteadyState Duration="20" Power="1.8"/>
+    <SteadyState Duration="10" Power="0.55"/>
+    <SteadyState Duration="20" Power="1.8"/>
+    <SteadyState Duration="10" Power="0.55"/>
+    <SteadyState Duration="20" Power="1.8"/>
+    <SteadyState Duration="10" Power="0.55"/>
+    <SteadyState Duration="20" Power="1.8"/>
+    <SteadyState Duration="10" Power="0.55"/>
+    <SteadyState Duration="20" Power="1.8"/>
+    <SteadyState Duration="10" Power="0.55"/>
+    <SteadyState Duration="20" Power="1.8"/>
+    <SteadyState Duration="10" Power="0.55"/>
+    <SteadyState Duration="20" Power="1.8"/>
+    <SteadyState Duration="10" Power="0.55"/>
+    <SteadyState Duration="20" Power="1.8"/>
+    <SteadyState Duration="10" Power="0.55"/>
+    <SteadyState Duration="20" Power="1.8"/>
+    <SteadyState Duration="10" Power="0.55"/>
+    <SteadyState Duration="20" Power="1.8"/>
+    <SteadyState Duration="10" Power="0.55"/>
+    <SteadyState Duration="20" Power="1.8"/>
+    <SteadyState Duration="10" Power="0.55"/>
+    <SteadyState Duration="20" Power="1.8"/>
+    <SteadyState Duration="10" Power="0.55"/>
+    <SteadyState Duration="20" Power="1.8"/>
+    <SteadyState Duration="10" Power="0.55"/>
+    <SteadyState Duration="20" Power="1.8"/>
+    <SteadyState Duration="10" Power="0.55"/>
+  </workout>
+</workout_file>

@@ -1,0 +1,445 @@
+{
+  "Concept2 Workout of the Day": {
+    "4_x_1500m_2_min_easy.zwo": {
+      "name": "4 x 1500m / 2 min easy",
+      "description": "Complete four 1500 meter pieces. Continue at light pressure between each 1500. Note: for BikeErg, distance is 3000 meters.",
+      "author": "Concept2",
+      "duration": 30,
+      "url": "4_x_1500m_2_min_easy.zwo"
+    },
+    "4_x_3_min_2_min_easy.zwo": {
+      "name": "4 x 3 min / 2 min easy",
+      "description": "Four 3 minute pieces. Two minutes at light pressure between each piece.",
+      "author": "Concept2",
+      "duration": 20,
+      "url": "4_x_3_min_2_min_easy.zwo"
+    },
+    "3_x_1000m_3_min_easy.zwo": {
+      "name": "3 x 1000m / 3 min easy",
+      "description": "Three 1000 meter pieces. Three minutes at light pressure between each 1000. (BikeErg: 2000m pieces)",
+      "author": "Concept2",
+      "duration": 20,
+      "url": "3_x_1000m_3_min_easy.zwo"
+    },
+    "500m_1000m_500m_1000m_500m_with_two_minutes_rest.zwo": {
+      "name": "500m/1000m/500m/1000m/500m with two minutes rest.",
+      "description": "Intervals of 500m, 1000m, 500m, 1000m, 500m with two minutes rest between each interval. (BikeErg: 1K, 2K, 1K, 2K, 1K)",
+      "author": "Concept2",
+      "duration": 23,
+      "url": "500m_1000m_500m_1000m_500m_with_two_minutes_rest.zwo"
+    },
+    "3000m_3_minutes_rest_10_minutes_work.zwo": {
+      "name": "3000m, 3 minutes rest, 10 minutes work",
+      "description": "A 3000m work interval, followed by 3 minutes rest. Then a 10 minute work interval. (BikeErg: 6000m) The goal is to maintain a faster average pace in the second work interval. Day 2 of the WOD Week Challenge.",
+      "author": "Concept2",
+      "duration": 24,
+      "url": "3000m_3_minutes_rest_10_minutes_work.zwo"
+    },
+    "4_x_6_minutes_with_rate_changes_2_minutes_rest_between_inter.zwo": {
+      "name": "4 x 6 minutes with rate changes. 2 minutes rest between intervals.",
+      "description": "4 x 6 minutes of work with two minutes rest between intervals. Each 6 minute interval is split into 3 minutes then 2 minutes then 1 minute at different stroke rates or cadence. RowErg: 3 minutes at 22, 2 minutes at 24, 1 minute at 28. SkiErg: 3 minutes at 33, 2 minutes at 36, 1 minute at 42. BikeErg: 3 minutes at 78, 2 minutes at 82, 1 minute at 90.",
+      "author": "Concept2",
+      "duration": 32,
+      "url": "4_x_6_minutes_with_rate_changes_2_minutes_rest_between_inter.zwo"
+    },
+    "intervals_of_6_3_3_1_1_1_minutes_with_2_minutes_rest.zwo": {
+      "name": "Intervals of 6/3/3/1/1/1 minutes with 2 minutes rest.",
+      "description": "6 timed intervals of 6/3/3/1/1/1 minutes with 2 minutes rest between each interval.",
+      "author": "Concept2",
+      "duration": 27,
+      "url": "intervals_of_6_3_3_1_1_1_minutes_with_2_minutes_rest.zwo"
+    },
+    "2_rounds_of_16_x_20_seconds_work_and_10_seconds_rest.zwo": {
+      "name": "2 rounds of 16 x 20 seconds work and 10 seconds rest",
+      "description": "16 intervals of 20 seconds work, with 10 seconds rest. Then rest for 3 minutes. Repeat the 16 intervals of 20 seconds work and 10 seconds rest. Day 6 of the WOD Week Challenge.",
+      "author": "Concept2",
+      "duration": 19,
+      "url": "2_rounds_of_16_x_20_seconds_work_and_10_seconds_rest.zwo"
+    },
+    "1_00_1_30_2_00_2_30_3_00_3_30_4_00_equal_work_and_rest.zwo": {
+      "name": "1:00, 1:30, 2:00, 2:30, 3:00, 3:30, 4:00 - equal work and rest.",
+      "description": "Equal work and rest intervals that increase by 30 seconds each time, working up from 1 minute to 4 minutes.",
+      "author": "Concept2",
+      "duration": 35,
+      "url": "1_00_1_30_2_00_2_30_3_00_3_30_4_00_equal_work_and_rest.zwo"
+    },
+    "1_3_5_3_1_minutes_with_2_minutes_rest.zwo": {
+      "name": "1/3/5/3/1 minutes with 2 minutes rest",
+      "description": "Intervals of 1 minute, 3 minutes, 5 minutes, 3 minutes and 1 minute. 2 minutes light between the work intervals.",
+      "author": "Concept2",
+      "duration": 23,
+      "url": "1_3_5_3_1_minutes_with_2_minutes_rest.zwo"
+    },
+    "8_x_500m_2_minutes_rest.zwo": {
+      "name": "8 x 500m, 2 minutes rest",
+      "description": "8 x 500m intervals with 2 minutes rest. (BikeErg: 1000m)",
+      "author": "Concept2",
+      "duration": 31,
+      "url": "8_x_500m_2_minutes_rest.zwo"
+    },
+    "10_000_meter_time_trial.zwo": {
+      "name": "10,000 meter time trial",
+      "description": "10,000 meter time trial, going for your personal best. Enter your time in the Online Ranking and see where you stand with others of your age, gender and weight class. (BikeErg: 20,000m)",
+      "author": "Concept2",
+      "duration": 37,
+      "url": "10_000_meter_time_trial.zwo"
+    },
+    "5_x_3_min_2_min_easy.zwo": {
+      "name": "5 x 3 min / 2 min easy",
+      "description": "Do five 3 minute pieces. Row/ski/ride for two minutes at light pressure between each piece.",
+      "author": "Concept2",
+      "duration": 25,
+      "url": "5_x_3_min_2_min_easy.zwo"
+    },
+    "4_3_2_1_2_3_4_minutes_with_2_minutes_rest.zwo": {
+      "name": "4/3/2/1/2/3/4 minutes with 2 minutes rest",
+      "description": "Intervals of 4 minutes, 3 minutes, 2 minutes, 1 minute, 2 minutes, 3 minutes, 4 minutes. 2 minutes rest between each interval.",
+      "author": "Concept2",
+      "duration": 33,
+      "url": "4_3_2_1_2_3_4_minutes_with_2_minutes_rest.zwo"
+    },
+    "10_x_1_min_1_min_easy.zwo": {
+      "name": "10 x 1 min / 1 min easy",
+      "description": "Ten 1 minute pieces. One minute at light pressure between each piece.",
+      "author": "Concept2",
+      "duration": 20,
+      "url": "10_x_1_min_1_min_easy.zwo"
+    },
+    "3_x_2000m_3_minutes_rest_bikeerg_4_000m.zwo": {
+      "name": "3 x 2000m, 3 minutes rest. (BikeErg: 4,000m)",
+      "description": "Three 2,000m pieces, with three minutes rest between intervals.",
+      "author": "Concept2",
+      "duration": 31,
+      "url": "3_x_2000m_3_minutes_rest_bikeerg_4_000m.zwo"
+    },
+    "30_minute_time_trial.zwo": {
+      "name": "30 minute time trial",
+      "description": "Do a 30 minute time trial, going for your personal best. Then enter your result in the Online Ranking and see where you stand with others of your age, gender and weight class.",
+      "author": "Concept2",
+      "duration": 30,
+      "url": "30_minute_time_trial.zwo"
+    },
+    "1_2_3_4_5_4_3_2_1_minutes_with_2_minutes_rest.zwo": {
+      "name": "1/2/3/4/5/4/3/2/1 minutes with 2 minutes rest",
+      "description": "An interval pyramid starting at 1 minute, increasing by 1 minute each interval to a maximum of 5 minutes and then back down again. 2 minutes rest between intervals.",
+      "author": "Concept2",
+      "duration": 43,
+      "url": "1_2_3_4_5_4_3_2_1_minutes_with_2_minutes_rest.zwo"
+    },
+    "5_x_750m_2_min_easy.zwo": {
+      "name": "5 x 750m / 2 min easy",
+      "description": "Five 750 meter pieces. Two minutes at light pressure between each 750. (BikeErg: 1500m pieces)",
+      "author": "Concept2",
+      "duration": 24,
+      "url": "5_x_750m_2_min_easy.zwo"
+    },
+    "20_x_45s_work_45s_rest.zwo": {
+      "name": "20 x 45s work, 45s rest",
+      "description": "20 rounds of 45 seconds work followed by 45 seconds rest",
+      "author": "Concept2",
+      "duration": 30,
+      "url": "20_x_45s_work_45s_rest.zwo"
+    },
+    "8_6_4_2_minutes_with_3_minutes_rest.zwo": {
+      "name": "8/6/4/2 minutes with 3 minutes rest",
+      "description": "An 8 minute work interval, then a 6 minute work interval, then 4 minutes, then 2 minutes. 3 minutes light between each.",
+      "author": "Concept2",
+      "duration": 32,
+      "url": "8_6_4_2_minutes_with_3_minutes_rest.zwo"
+    },
+    "5000m_time_trial.zwo": {
+      "name": "5000m time trial",
+      "description": "5000 meter time trial, going for your personal best. Enter your result in the Online Ranking and see where you stand with others of your age, gender and weight class. (BikeErg: 10,000m)",
+      "author": "Concept2",
+      "duration": 19,
+      "url": "5000m_time_trial.zwo"
+    },
+    "12_x_250m_45_sec_easy.zwo": {
+      "name": "12 x 250m / 45 sec easy",
+      "description": "Pre-set a work distance of 250 meters and a rest time of 45 seconds. Do 12 intervals at a challenging intensity, with light exercise between pieces. (BikeErg: 12 x 500m)",
+      "author": "Concept2",
+      "duration": 20,
+      "url": "12_x_250m_45_sec_easy.zwo"
+    },
+    "2000_1500_1000_500m_with_three_minutes_rest.zwo": {
+      "name": "2000/1500/1000/500m with three minutes rest",
+      "description": "A 2000m interval, followed by a 1500m interval, then 1000m, then 500m. Three minutes light between intervals. (BikeErg: 4000/3000/2000/1000m)",
+      "author": "Concept2",
+      "duration": 31,
+      "url": "2000_1500_1000_500m_with_three_minutes_rest.zwo"
+    },
+    "6_x_1000m_2_minutes_rest.zwo": {
+      "name": "6 x 1000m, 2 minutes rest",
+      "description": "6 intervals of 1000m followed by 2 minutes rest. (BikeErg: 2000m)",
+      "author": "Concept2",
+      "duration": 34,
+      "url": "6_x_1000m_2_minutes_rest.zwo"
+    },
+    "6_x_2_min_1_min_easy.zwo": {
+      "name": "6 x 2 min / 1 min easy",
+      "description": "Row six 2 minute pieces. Row for one minute at light pressure between each piece.",
+      "author": "Concept2",
+      "duration": 18,
+      "url": "6_x_2_min_1_min_easy.zwo"
+    },
+    "8_x_1000m.zwo": {
+      "name": "8 x 1000m",
+      "description": "8 X 1000m with 2 minutes rest (BikeErg: 2000m)",
+      "author": "Concept2",
+      "duration": 46,
+      "url": "8_x_1000m.zwo"
+    },
+    "1_min_2_min_3_min_4_min_3_min_2_min_1_min_pyramid_1_min_easy.zwo": {
+      "name": "1 min, 2 min, 3 min, 4 min, 3 min, 2 min, 1 min pyramid / 1 min easy",
+      "description": "Seven intervals in a pyramid of 1-2-3-4-3-2-1 minutes, with one minute of rest in between each piece.",
+      "author": "Concept2",
+      "duration": 23,
+      "url": "1_min_2_min_3_min_4_min_3_min_2_min_1_min_pyramid_1_min_easy.zwo"
+    },
+    "4_x_6_minutes_with_three_minutes_rest.zwo": {
+      "name": "4 x 6 minutes with three minutes rest",
+      "description": "4 intervals of 6 minutes. Three minutes rest between intervals.",
+      "author": "Concept2",
+      "duration": 36,
+      "url": "4_x_6_minutes_with_three_minutes_rest.zwo"
+    },
+    "5_x_4_min_1_min_easy.zwo": {
+      "name": "5 x 4 min / 1 min easy",
+      "description": "Five 4 minute pieces. One minute at light pressure between each piece.",
+      "author": "Concept2",
+      "duration": 25,
+      "url": "5_x_4_min_1_min_easy.zwo"
+    },
+    "2_min_3_min_4_min_3_min_2_min_pyramid_2_min_easy.zwo": {
+      "name": "2 min, 3 min, 4 min, 3 min, 2 min pyramid / 2 min easy",
+      "description": "Five intervals in a pyramid of 2-3-4-3-2 minutes, with two minutes of rest in between each piece.",
+      "author": "Concept2",
+      "duration": 24,
+      "url": "2_min_3_min_4_min_3_min_2_min_pyramid_2_min_easy.zwo"
+    },
+    "4_x_4_min_2_min_easy.zwo": {
+      "name": "4 x 4 min / 2 min easy",
+      "description": "Four 4 minute pieces. Two minutes at light pressure between each piece.",
+      "author": "Concept2",
+      "duration": 24,
+      "url": "4_x_4_min_2_min_easy.zwo"
+    },
+    "6_x_3_minutes_with_2_minutes_light.zwo": {
+      "name": "6 x 3 minutes with 2 minutes light.",
+      "description": "6 work intervals of 3 minutes. 2 minutes light between each.",
+      "author": "Concept2",
+      "duration": 30,
+      "url": "6_x_3_minutes_with_2_minutes_light.zwo"
+    },
+    "12_x_1_min_1_min_easy.zwo": {
+      "name": "12 x 1 min / 1 min easy",
+      "description": "Twelve 1 minute pieces. One minute at light pressure between each piece.",
+      "author": "Concept2",
+      "duration": 24,
+      "url": "12_x_1_min_1_min_easy.zwo"
+    },
+    "4_x_5_min_2_min_easy.zwo": {
+      "name": "4 x 5 min / 2 min easy",
+      "description": "Four 5 minute pieces. Two minutes at light pressure between each piece.",
+      "author": "Concept2",
+      "duration": 28,
+      "url": "4_x_5_min_2_min_easy.zwo"
+    },
+    "5_x_1000m_1_min_easy.zwo": {
+      "name": "5 x 1000m / 1 min easy",
+      "description": "Five 1000 meter pieces. One minute at light pressure between each 1000. (BikeErg: 2000m pieces)",
+      "author": "Concept2",
+      "duration": 24,
+      "url": "5_x_1000m_1_min_easy.zwo"
+    },
+    "5_4_3_2_1_minutes_with_2_minutes_rest.zwo": {
+      "name": "5/4/3/2/1 minutes with 2 minutes rest",
+      "description": "Intervals of 5 minutes, 4 minutes, 3 minutes, 2 minutes, 1 minute. 2 minutes rest between each interval.",
+      "author": "Concept2",
+      "duration": 25,
+      "url": "5_4_3_2_1_minutes_with_2_minutes_rest.zwo"
+    },
+    "8_x_2_min_1_min_easy.zwo": {
+      "name": "8 x 2 min / 1 min easy",
+      "description": "Eight 2 minute pieces. One minute at light pressure between each piece.",
+      "author": "Concept2",
+      "duration": 24,
+      "url": "8_x_2_min_1_min_easy.zwo"
+    },
+    "1_2_3_4_5_6_minutes_with_1_minute_rest.zwo": {
+      "name": "1/2/3/4/5/6 minutes with 1 minute rest",
+      "description": "Intervals of 1 minute, 2 minutes, 3 minutes, 4 minutes, 5 minutes, 6 minutes. 1 minute rest between each interval.",
+      "author": "Concept2",
+      "duration": 27,
+      "url": "1_2_3_4_5_6_minutes_with_1_minute_rest.zwo"
+    },
+    "6000m.zwo": {
+      "name": "6000m",
+      "description": "6000 meter workout, aiming for a consistent pace. Enter your result in the Online Ranking and see where you stand with others of your age, gender and weight class. (BikeErg: 12,000m)",
+      "author": "Concept2",
+      "duration": 22,
+      "url": "6000m.zwo"
+    },
+    "5_x_500m_2_min_easy.zwo": {
+      "name": "5 x 500m / 2 min easy",
+      "description": "Five 500 meter pieces. Two minutes at light pressure between each 500. (BikeErg: 1000m pieces)",
+      "author": "Concept2",
+      "duration": 19,
+      "url": "5_x_500m_2_min_easy.zwo"
+    },
+    "1_2_1_2_1_2_1_minutes_with_1_minute_rest.zwo": {
+      "name": "1/2/1/2/1/2/1 minutes with 1 minute rest",
+      "description": "Seven alternating one and two minute intervals. One minute rest between each interval.",
+      "author": "Concept2",
+      "duration": 17,
+      "url": "1_2_1_2_1_2_1_minutes_with_1_minute_rest.zwo"
+    },
+    "5_x_4_min_2_min_easy.zwo": {
+      "name": "5 x 4 min / 2 min easy",
+      "description": "Five 4 minute pieces. Two minutes at light pressure between each piece.",
+      "author": "Concept2",
+      "duration": 30,
+      "url": "5_x_4_min_2_min_easy.zwo"
+    },
+    "5_x_1000m.zwo": {
+      "name": "5 x 1000m",
+      "description": "5 x 1000m with 60 seconds rest.",
+      "author": "Concept2",
+      "duration": 24,
+      "url": "5_x_1000m.zwo"
+    },
+    "1_2_3_4_5_minutes_with_2_minutes_rest.zwo": {
+      "name": "1/2/3/4/5 minutes with 2 minutes rest",
+      "description": "Intervals of 1 minute, 2 minutes, 3 minutes, 4 minutes, 5 minutes. 2 minutes rest between each interval.",
+      "author": "Concept2",
+      "duration": 25,
+      "url": "1_2_3_4_5_minutes_with_2_minutes_rest.zwo"
+    },
+    "1900m.zwo": {
+      "name": "1900m",
+      "description": "Complete 1900m. (BikeErg:3800m) *Juneteenth Challenge. Concept2 will be donating $19,000 to charity to mark Juneteenth. For every person who signs up from the home page of their logbook, and does at least 1900m on June 19, we will donate an extra $2, up to a maximum total amount of $38,000. Note: BikeErg meters count for half the distance when applied to the challenge.*",
+      "author": "Concept2",
+      "duration": 7,
+      "url": "1900m.zwo"
+    },
+    "6_x_500m_1_min_easy.zwo": {
+      "name": "6 x 500m / 1 min easy",
+      "description": "Complete six 500 meter pieces. Continue at light pressure between each 500. Note: for BikeErg, distance is 1000 meters.",
+      "author": "Concept2",
+      "duration": 17,
+      "url": "6_x_500m_1_min_easy.zwo"
+    },
+    "5_4_3_4_5_minutes_with_2_minutes_rest.zwo": {
+      "name": "5/4/3/4/5 minutes with 2 minutes rest",
+      "description": "Intervals of 5 minutes, 4 minutes, 3 minutes, 4 minutes, 5 minutes. 2 minutes rest between each interval.",
+      "author": "Concept2",
+      "duration": 31,
+      "url": "5_4_3_4_5_minutes_with_2_minutes_rest.zwo"
+    },
+    "6_5_4_3_2_1_minutes_with_1_minute_rest.zwo": {
+      "name": "6/5/4/3/2/1 minutes with 1 minute rest",
+      "description": "Intervals of 6 minutes, 5 minutes, 4 minutes, 3 minutes, 2 minutes, 1 minute. 1 minute rest between each interval.",
+      "author": "Concept2",
+      "duration": 27,
+      "url": "6_5_4_3_2_1_minutes_with_1_minute_rest.zwo"
+    },
+    "6_x_4_min_2_min_easy.zwo": {
+      "name": "6 x 4 min / 2 min easy",
+      "description": "Six 4 minute pieces. Two minutes at light pressure between each piece.",
+      "author": "Concept2",
+      "duration": 36,
+      "url": "6_x_4_min_2_min_easy.zwo"
+    },
+    "2_3_2_3_2_3_2_minutes_with_1_minute_rest.zwo": {
+      "name": "2/3/2/3/2/3/2 minutes with 1 minute rest",
+      "description": "Seven alternating two and three minute intervals. One minute rest between each interval.",
+      "author": "Concept2",
+      "duration": 24,
+      "url": "2_3_2_3_2_3_2_minutes_with_1_minute_rest.zwo"
+    },
+    "10_x_2_30_30_seconds_easy.zwo": {
+      "name": "10 x 2:30 / 30 seconds easy",
+      "description": "10 work intervals of 2 minutes and 30 seconds, with 30 seconds recovery between each interval.",
+      "author": "Concept2",
+      "duration": 30,
+      "url": "10_x_2_30_30_seconds_easy.zwo"
+    },
+    "8_x_1_min_3_min_easy.zwo": {
+      "name": "8 x 1 min / 3 min easy",
+      "description": "Eight 1 minute pieces. Three minutes at light pressure between each piece.",
+      "author": "Concept2",
+      "duration": 32,
+      "url": "8_x_1_min_3_min_easy.zwo"
+    },
+    "1000m_for_the_2024_world_rowing_virtual_indoor_sprints.zwo": {
+      "name": "1000m for the 2024 World Rowing Virtual Indoor Sprints",
+      "description": "Complete 1000m as fast as you can. (BikeErg:2000m) *The World Rowing Virtual Indoor Sprints are taking place between March 6-10, 2024. To take part you need to row 1000m. More details can be found in the Challenges section of the Concept2 logbook.",
+      "author": "Concept2",
+      "duration": 4,
+      "url": "1000m_for_the_2024_world_rowing_virtual_indoor_sprints.zwo"
+    },
+    "5000m_for_international_women_s_day.zwo": {
+      "name": "5000m for International Women's Day",
+      "description": "5000 meter workout. Concept2 will donate $5 to women's charities (up to a maximum of $20,000) for anyone, whatever gender or sex, who does a 5000m piece and signs up to the International Women's Day challenge on their Online Logbook. (BikeErg: 10,000m)",
+      "author": "Concept2",
+      "duration": 19,
+      "url": "5000m_for_international_women_s_day.zwo"
+    },
+    "3_4_5_4_3_minutes_with_2_minutes_rest.zwo": {
+      "name": "3/4/5/4/3 minutes with 2 minutes rest",
+      "description": "An interval pyramid starting at 3 minutes, increasing by 1 minute each interval to a maximum of 5 minutes and then back down to 3 minutes. 2 minutes rest between intervals.",
+      "author": "Concept2",
+      "duration": 29,
+      "url": "3_4_5_4_3_minutes_with_2_minutes_rest.zwo"
+    },
+    "4_x_1000m_1_min_easy.zwo": {
+      "name": "4 x 1000m / 1 min easy",
+      "description": "Four 1000 meter pieces. One minute at light pressure between each 1000. (BikeErg: 2000m pieces)",
+      "author": "Concept2",
+      "duration": 19,
+      "url": "4_x_1000m_1_min_easy.zwo"
+    },
+    "5_min_10_min_15_min_10_min_5_min_pyramid_2_min_easy.zwo": {
+      "name": "5 min, 10 min, 15 min, 10 min, 5 min pyramid / 2 min easy",
+      "description": "A pyramid with five intervals - 5/10/15/10/5 minutes. Two minutes of rest in between each work interval.",
+      "author": "Concept2",
+      "duration": 55,
+      "url": "5_min_10_min_15_min_10_min_5_min_pyramid_2_min_easy.zwo"
+    },
+    "10_x_1_40_20_seconds_easy.zwo": {
+      "name": "10 x 1:40 / 20 seconds easy",
+      "description": "10 work intervals of 1 minutes and 40 seconds, with 20 seconds recovery between each interval.",
+      "author": "Concept2",
+      "duration": 20,
+      "url": "10_x_1_40_20_seconds_easy.zwo"
+    },
+    "4_x_4_min_3_min_easy.zwo": {
+      "name": "4 x 4 min / 3 min easy",
+      "description": "Four 4 minute pieces. Three minutes at light pressure between each piece.",
+      "author": "Concept2",
+      "duration": 28,
+      "url": "4_x_4_min_3_min_easy.zwo"
+    },
+    "12_x_3_min_1_min_easy.zwo": {
+      "name": "12 x 3 min / 1 min easy",
+      "description": "Twelve 3 minute rounds. One minute recovery between each round.",
+      "author": "Concept2",
+      "duration": 48,
+      "url": "12_x_3_min_1_min_easy.zwo"
+    },
+    "4_x_2024m_3_minutes_rest.zwo": {
+      "name": "4 x 2024m, 3 minutes rest.",
+      "description": "Four 2,024m pieces, with three minutes rest between intervals. (BikeErg: 4,048m)",
+      "author": "Concept2",
+      "duration": 42,
+      "url": "4_x_2024m_3_minutes_rest.zwo"
+    },
+    "2000m_3_minutes_rest_1000m_2_minutes_rest_500m.zwo": {
+      "name": "2000m/3 minutes rest/1000m/2 minutes rest/500m",
+      "description": "A 2000m interval, followed by three minutes rest. Then 1000m, followed by two minutes rest. Then 500m. (BikeErg: 4000/2000/1000m)",
+      "author": "Concept2",
+      "duration": 18,
+      "url": "2000m_3_minutes_rest_1000m_2_minutes_rest_500m.zwo"
+    }
+  }
+}

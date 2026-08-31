@@ -1,18 +1,34 @@
+# Cops turned off for named files, each with the reason it is off rather than a bare list.
+
 # Pre-existing offences in the audio-generation script, recorded rather than fixed so that `rubocop`
 # can run clean in CI without a refactor of code this change does not touch.
+#
+# The LLM coach endpoint is one long Sinatra block holding a system prompt, a chat call and a
+# text-to-speech call. Splitting it would mean naming three halves of one request handler, and the
+# rowing port is not the change that should be doing that.
+#
+# The Concept2 archive importer parses English: "1/3/5/3/1 minutes with 2 minutes rest",
+# "10 x 2:30 / 30 seconds easy", "2000m/3 minutes rest/1000m/2 minutes rest/500m". Its branching is
+# the shape of the corpus and not of a design, and splitting the remaining methods further would
+# scatter one reading of one sentence across several names without making any of them clearer.
+
 Metrics/AbcSize:
   Exclude:
     - 'scripts/generate_workout_audio.rb'
+    - 'scripts/import_c2_wod.rb'
 Metrics/MethodLength:
   Exclude:
     - 'scripts/generate_workout_audio.rb'
-
-# The LLM coach endpoint: one long Sinatra block holding a system prompt, a chat call and a
-# text-to-speech call. Splitting it would mean naming three halves of one request handler, and the
-# port to the rower is not the change that should be doing that.
+Metrics/CyclomaticComplexity:
+  Exclude:
+    - 'scripts/import_c2_wod.rb'
+Metrics/PerceivedComplexity:
+  Exclude:
+    - 'scripts/import_c2_wod.rb'
 Metrics/ClassLength:
   Exclude:
     - 'app.rb'
+    - 'scripts/import_c2_wod.rb'
 Metrics/BlockLength:
   Exclude:
     - 'app.rb'
