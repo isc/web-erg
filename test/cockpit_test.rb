@@ -42,6 +42,25 @@ class CockpitTest < CapybaraTestBase
     end
   end
 
+  def test_the_session_bar_tracks_the_whole_ride
+    page.driver.resize(*PHONE)
+    ride
+
+    bar = find('.cockpit-session-bar', visible: true)
+    # The countdown covers the phase; this covers the ride behind you.
+    assert_equal 100, bar[:max].to_i
+    assert_operator bar[:value].to_f, :>=, 0
+  end
+
+  def test_cadence_is_a_whole_number
+    page.driver.resize(*PHONE)
+    ride
+
+    within '.cockpit-metrics' do
+      assert_no_text(/\d\.\d/)
+    end
+  end
+
   def test_the_countdown_drops_the_leading_zero_below_a_minute
     page.driver.resize(*PHONE)
     ride

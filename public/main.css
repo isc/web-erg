@@ -195,6 +195,11 @@ table.workout-data {
 
   .cockpit-phase-count { margin-left: auto; }
 
+  .cockpit-session-bar {
+    height: 4px;
+    margin: 0.35rem 0 0;
+  }
+
   /* The session total is a duration, not a label: "50 min 50 s" shouted in caps is harder to read
      than the thing it qualifies. */
   .cockpit-total {

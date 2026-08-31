@@ -62,6 +62,7 @@ window.workoutApp = function () {
     phaseNumber: 0,
     phaseCount: 0,
     nextPhase: null,
+    sessionProgress: 0,
     screenshotDataUrl: null,
     screenshotPending: false,
     startError: null,
@@ -269,6 +270,7 @@ window.workoutApp = function () {
       this.phaseNumber = index + 1
       this.phaseCount = runner.expandedPhases.length
       this.nextPhase = runner.phaseSummary(index + 1)
+      this.sessionProgress = runner.sessionProgress()
     },
     phaseIntensity(phase) {
       if (!phase) return ''

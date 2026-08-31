@@ -65,7 +65,7 @@
         <span class="k">watts<span x-show="powerTarget" x-text="` ↑${powerTarget?.watts}`"></span></span>
       </li>
       <li>
-        <span class="v" x-text="cadence === '-' ? '-' : Math.round(cadence)" x-bind:class="getCadenceStatus()">-</span>
+        <span class="v" x-text="cadence" x-bind:class="getCadenceStatus()">-</span>
         <span class="k">rpm<span x-show="cadenceTarget" x-text="` ↑${cadenceTarget?.target}`"></span></span>
       </li>
       <li>
@@ -89,6 +89,7 @@
       <span class="cockpit-total" x-text="`/ ${formatDuration(workoutMeta?.totalDuration)}`"></span>
       <span class="k cockpit-phase-count" x-text="`phase ${phaseNumber}/${phaseCount}`"></span>
     </div>
+    <progress class="cockpit-session-bar" x-bind:value="sessionProgress" max="100"></progress>
   </section>
 
   <table class="workout-data">

@@ -181,6 +181,15 @@ export class WorkoutRunner {
     return { relative, watts: Math.round(relative * this.ftp) }
   }
 
+  /** How much of the whole session is behind, as a percentage. */
+  sessionProgress() {
+    if (!this.totalDurationSeconds) return 0
+    return Math.min(
+      100,
+      ((this.totalElapsed || 0) / this.totalDurationSeconds) * 100
+    )
+  }
+
   currentPhaseSecondsRemaining() {
     const phase = this.expandedPhases[this.currentPhaseIndex]
     if (!phase?.duration) return 0

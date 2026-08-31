@@ -301,7 +301,7 @@ function readCyclingPower(value) {
       if (timeDiff < 0) timeDiff += 65536
       if (revsDiff > 0 && timeDiff > 0) {
         cadenceRaw = (revsDiff * 60 * 1024) / timeDiff
-        lastCadence = cadenceRaw.toFixed(1)
+        lastCadence = String(Math.round(cadenceRaw))
       }
     }
     prevCrankRevs = crankRevs
