@@ -24,6 +24,10 @@ first-hand from the OpenRowingMonitor lead developer, who implements both protoc
 ([forum.intervals.icu, post #23](https://forum.intervals.icu/t/intervals-row-a-workout-player-for-concept2-rowers/120499/23)).
 Whatever guidance the app gives, it gives on its own screen.
 
+**Measured, not deduced.** The probe settled it on the hardware: this PM5 *does* expose FTMS Rower,
+and it advertises `Target Setting Features = 0x00000000` with no Control Point characteristic at
+all. There is nothing to write to. See [`probe-reports/FINDINGS.md`](probe-reports/FINDINGS.md).
+
 ## What carries over, and what does not
 
 Carries over unchanged: the `.zwo` pipeline (`phases.js`, interval expansion, `parseZwoMeta`), the
@@ -77,6 +81,14 @@ Two problems are structural rather than a matter of filtering:
    he gives no formula. If we scale `%FTP → watts` at all for rowing, this is the place, and it
    needs its own calibration rather than a borrowed constant.
 
+   **What was done instead.** `zones.js` still holds the Coggan table, unchanged. Converting the
+   bands would need exactly the calibration nobody has published, and a rowing zone table built on
+   a borrowed constant would be worse than an honest cycling one that is labelled as such. The
+   separate rowing FTP *is* stored — that part was not optional, since a cycling FTP makes rowing
+   targets unrowable — and the WOD targets are anchored on the 2 km directly (see below), which
+   sidesteps the problem rather than solving it. A zone table anchored on a stored 2 km split, the
+   way every rowing plan states them, is the honest next step and is not in this work.
+
 ## Survey of existing rowing workout sources (August 2026)
 
 No ready-made machine-readable rowing workout library exists.
@@ -101,47 +113,67 @@ https://utilities.concept2.com/wod-email/newsletter/YYYY-MM-DD/en/us
 Each page carries a title, a one-line description, and the PM5 button sequence. Probed on
 2026-08-31:
 
-- **Coverage**: roughly August/September 2022 to today (~1450 days). About **27 % of dates return
-  500** — gaps in the archive, not parse failures. The boundary was bisected: `2022-07-01` fails,
-  `2022-09-01` succeeds.
+- **Coverage**: roughly August/September 2022 to today (~1460 days). The boundary was bisected:
+  `2022-07-01` fails, `2022-09-01` succeeds. Fetching the whole range settled the rate: **315 dates
+  answer and 1146 return 500**, so it is four dates in five missing rather than one in four as an
+  early sample suggested. Gaps in the archive, not parse failures.
 - **Natively rowing**: `8 x 500m, 2 minutes rest`, `4 x 1000m / 1 min easy`, pyramids, calorie
   intervals.
-- **Highly repetitive**: 52 distinct sessions over 126 sampled days. Extrapolating the collision
-  rate across the whole archive puts the distinct set at roughly **85–150 sessions**.
-- **Parseable**: a thirty-line prototype converted **48 / 52 (92 %)** into structured phases. The
-  four misses are all trivial — a named `Triple Tabata`, a `5 x 1000m` with no explicit rest, a
-  dash-separated calorie ladder, and one "equal work and rest" phrasing.
+- **Highly repetitive**: **71 distinct sessions across all 315 available days**. The extrapolation
+  from a 126-day sample put it at 85–150; the whole archive is smaller than that, because the WOD
+  repeats more heavily than the sample showed.
+- **Parseable**: the shipped importer converts **63 / 71 (89 %)**. The eight misses are seven
+  calorie workouts, which have no phase in this app to be, and `Triple Tabata`, whose structure is
+  in its prose rather than its title.
 
 The regular shapes are: `N x <time> / <rest> easy`, `N x <distance>m, <rest> rest`,
 `a/b/c minutes with <rest> rest` (ladders and pyramids), `N x <n> Cals`, and single pieces or time
 trials.
 
-### The catch
+### The catch, and what was decided
 
 **No WOD carries an intensity target.** "5 × 4 min / 2 min easy" is the whole specification — the
 rowing convention is to hold the hardest sustainable pace, not to chase a percentage. The corpus
-gives structure and never intensity. Two ways out, still to be decided:
+gives structure and never intensity.
 
-- annotate a target ourselves per interval length, derived from a stored 2 km split (what every
-  rowing plan does), or
-- display work/rest structure only and let the rower judge — defensible, since no ERG is holding
-  anything anyway.
+The choice was between annotating a target ourselves and displaying structure only. **Annotating
+won**, because on a Concept2 the gap between a target split and the actual one *is* the feedback
+loop — there is no ERG mode behind it — and a corpus with no targets leaves the cockpit with
+nothing to show.
 
-This is not an official API, it is a newsletter template, and it can break. Fetch once, dedupe, and
-store the result in the repo alongside the `.zwo` files so nothing depends on it at run time.
+The rule is **Paul's Law**, not an invented constant: pace per 500 m slows about five seconds for
+each doubling of distance. Anchored on a 2 km reference — which is what a rowing FTP is anchored on
+too — it turns a piece's length into a fraction of 2 km power, which is exactly what a `.zwo`
+`Power` attribute already means. A 2000 m piece comes out at 1.00 by construction, 500 m repeats at
+1.32, a 30-minute time trial at 0.77.
+
+Two limits worth knowing:
+
+- the fraction depends slightly on *whose* 2 km it is. A 1:45 rower and a 2:00 rower do not scale
+  identically, which moves a 500 m target by about four per cent — inside the noise of holding a
+  split by feel, but it is an approximation and not an identity;
+- Paul's Law is stated from 500 m to 10 km. The twenty-second sprints are extrapolation, and the
+  importer clamps them to 1.8 × rather than trusting the formula out there.
+
+This is not an official API, it is a newsletter template, and it can break. `scripts/import_c2_wod.rb`
+fetches once into a gitignored cache, dedupes, and writes `.zwo` files into `public/rowing_workouts/`
+that are committed, so nothing depends on that server at run time.
 
 ## Plan
 
-1. **Probe the PM5 over Bluetooth** — `/probe`, in this branch. Nothing below is worth writing
-   before its output is in hand.
-2. **A PM5 adapter** plus its mock in `bluetooth_mock.js`, so the rest is testable without the erg.
+All five steps are done. What each turned into, and where it differs from what was planned, is in
+the commit messages; what could not be checked without the machine is at the end of this file.
+
+1. ~~**Probe the PM5 over Bluetooth**~~ — done. `probe-reports/FINDINGS.md` is the result, and it
+   overrides anything above that disagrees with it.
+2. ~~**A PM5 adapter**~~ plus its mock in `bluetooth_mock.js`, so the rest is testable without the erg.
    Second target for the same adapter: **OpenRowingMonitor**, which emulates a PM5 as a real BLE
    peripheral. A mock exercises our own parsing against our own assumptions; ORM exercises it
    against an independent implementation of the protocol, over a real radio. Its author offered to
    test the app against ORM ([post #23](https://forum.intervals.icu/t/intervals-row-a-workout-player-for-concept2-rowers/120499/23)).
-3. **A rowing cockpit**: target split against actual split, deviation bar, stroke rate, distance.
-4. **Summary and export** adapted (real distance, `Sport="Other"`).
-5. **The workout format**, extended with distance-based phases, and the WOD archive imported into it.
+3. ~~**A rowing cockpit**~~: target split against actual split, deviation bar, stroke rate, distance.
+4. ~~**Summary and export**~~ adapted (real distance, `Sport="Other"`).
+5. ~~**The workout format**~~, extended with distance-based phases, and the WOD archive imported.
 
 ### Architecture
 
@@ -239,3 +271,51 @@ will not reveal on its own:
 The documentation above is third-party and vendor PDFs, not this hardware. The probe answers: which
 services this firmware actually exposes, whether FTMS Rower is among them, the real broadcast
 interval, and whether the base UUID above is right. It stays step 1.
+
+---
+
+## What still needs a human on the erg
+
+Everything below was written without a Concept2 in the room. The mock replays the frames the machine
+sent on 31 August 2026, so the decoder is tested against real bytes — but a replay of seventy-three
+seconds proves what it proves and no more. These are the claims that a session on the machine would
+confirm or destroy, roughly in the order they would break a ride.
+
+**The connection, over an hour.** The probe held the link for nine minutes, six of them idle, and
+did not drop. An hour-long session is a different question, and so is what happens when it does drop:
+`reconnect()` is exercised by nothing here, because the mock has no way to disconnect. Watch the
+device log for `⚠️ Device disconnected` and see whether it comes back.
+
+**Whether the app notices you have stopped.** The adapter decides that rowing has stopped when no
+stroke has arrived for six seconds *and* stroke rate is not already zero. Six seconds is two missed
+strokes at a slow rate; it was chosen, not measured. If the session pauses while you are still
+rowing, it is too short; if a real break takes ten seconds to register, it is too long.
+
+**Whether the 1 Hz status characteristics speak mid-piece.** They did not in the capture — `0x0031`
+and `0x0032` were silent between the start and the end of the 100 m piece, which is why distance is
+also taken from Stroke Data. If that silence was an artefact of the probe rather than the machine,
+stroke rate on the cockpit will be steadier than these notes expect. If it was real, stroke rate
+updates only at the ends of a piece and something else has to feed it.
+
+**Whether a distance phase ends when it should.** The runner advances on the erg's own count and
+never on the clock, which is right, but the whole path has only ever been exercised over a 100 m
+replay. Row `8 x 500m, 2 minutes rest` and check that the eighth piece is the eighth.
+
+**Whether the targets are sane to row.** Paul's Law against a 2 km reference of 1:52 gives 1.32 ×
+FTP for 500 m repeats and 0.77 × for a 30-minute piece. The numbers are internally consistent; that
+does not make them the right session. The reference is a constant in `scripts/import_c2_wod.rb`
+and the rowing FTP is a field on the form — if the targets come out uniformly hard or soft, the FTP
+is the thing to move first, and only then the reference.
+
+**Whether the cockpit is legible mid-piece.** The split leads, the deviation bar is centred on the
+target, and both were designed at a desk. Ten seconds per 500 m as full scale on the bar is a guess.
+So is which of the five metrics deserve the two columns a phone gives them.
+
+**Whether the exported file is what Strava expects.** The TCX validates against the schema and the
+distance is the erg's own, but no rowing file from this app has been uploaded anywhere. `Sport` is
+`Other`, which has to be corrected to Rowing after import.
+
+**Not implemented, deliberately.** CSAFE — nothing is ever written to `0x0021`, so the PM5 shows its
+own workout and not ours. The force curve on `0x003D` and `0x0043` is decoded nowhere; it is the one
+rowing metric with no cycling equivalent and nothing consumes it yet. And `0x0033`'s corrected
+`Last Split Time` scale is recorded in FINDINGS but not in code, because no screen needs it.

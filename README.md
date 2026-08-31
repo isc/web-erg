@@ -1,18 +1,20 @@
 # Web ERG Trainer
 
-A web-based ERG (Electronically Controlled Resistance) trainer application that allows cyclists to perform structured workouts using Zwift workout files (.zwo) with Bluetooth-enabled smart trainers and heart rate monitors.
+A web-based trainer application for structured indoor workouts, over Web Bluetooth, on either of two machines: an ERG-mode smart trainer or a Concept2 rowing ergometer. Which one it is is decided on connection, by the machine, and there is no setting to flip.
+
+The two are not symmetrical. A trainer takes a power target and holds it, so the app drives the bike and the rider pedals. A Concept2 has no ERG mode — the load comes from the flywheel and the damper, mechanically — so on a rower the app is a metronome and the rower holds the target. See [ROWING.md](ROWING.md).
 
 ## Features
 
-- **Bluetooth Integration**: Connect to smart trainers (ERG mode) and heart rate monitors via Web Bluetooth API
-- **Zwift Workout Support**: Load and execute Zwift workout files (.zwo format)
-- **Workout Library**: Browse and select from a comprehensive collection of Zwift workouts organized by training programs
-- **Real-time Metrics**: Display power, cadence, and heart rate data during workouts
+- **Bluetooth Integration**: Connect to smart trainers (ERG mode over FTMS), Concept2 PM5 monitors, and heart rate monitors via Web Bluetooth API
+- **Zwift Workout Support**: Load and execute Zwift workout files (.zwo format), extended with distance-based phases so a rowing session can say `8 x 500m`
+- **Workout Library**: Browse and select from a comprehensive collection of Zwift workouts organized by training programs, alongside the Concept2 Workout of the Day archive
+- **Real-time Metrics**: Display power, cadence and heart rate during a ride; split per 500 m against the target split, deviation, stroke rate and the erg's own distance during a row
 - **Visual Workout Display**: Interactive SVG-based workout visualization showing zones and progression
 - **Audio Coaching**: AI-generated audio coaching instructions using text-to-speech
 - **Session Summary**: Average power, normalised power, average heart rate and time in zone when the workout ends
-- **TCX Export**: Export completed workouts as TCX files for upload to training platforms
-- **FTP-based Training**: Workouts automatically scale based on your Functional Threshold Power (FTP)
+- **TCX Export**: Export completed workouts as TCX files for upload to training platforms — with the Concept2's measured distance rather than a modelled one, and `Sport="Other"` for a row
+- **FTP-based Training**: Workouts automatically scale based on your Functional Threshold Power (FTP), stored separately for rowing — rowing engages far more muscle mass and a cycling FTP does not transpose
 - **Responsive Design**: Works on desktop and mobile devices
 
 ## Technology Stack
@@ -28,7 +30,7 @@ A web-based ERG (Electronically Controlled Resistance) trainer application that 
 
 - Ruby
 - Modern web browser with Web Bluetooth support (Chrome, Edge, Opera)
-- Bluetooth-enabled smart trainer and/or heart rate monitor
+- A Bluetooth smart trainer or a Concept2 with a PM5, and optionally a heart rate monitor
 
 ## Installation
 

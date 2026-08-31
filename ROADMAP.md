@@ -61,8 +61,13 @@ at, and the moments when ERG loses the target. Note that the library's `Freeride
 `Target` attribute that is currently parsed by nobody.
 
 The cockpit does this on a phone, and `WorkoutRunner.currentPowerTarget()` is now the one place the
-target is computed — the same call ERG sends. What remains is the wide-screen table, which still
-shows a bare number, and the deviation bar sketched in the design.
+target is computed — the same call ERG sends.
+
+The rowing port finished the item for one of the two machines and made it compulsory there. A
+Concept2 holds nothing, so the gap between the target split and the actual one is the entire
+feedback loop: the rowing cockpit shows both, coloured, over a deviation bar centred on the target,
+on both widths. What remains is the same treatment for the bike — the wide-screen table still shows
+a bare wattage, and there is no deviation bar for watts.
 
 ## ~~4. A layout that works on a phone~~ — done (August 2026)
 
