@@ -56,10 +56,8 @@ export class WorkoutRunner {
     return {
       currentTime: this.totalElapsed || 0,
       phaseIndex: this.currentPhaseIndex,
-      phaseType: phase ? phase.type : null,
       phaseElapsed: this.currentPhaseElapsed,
-      targetPower: phase ? phase.power || phase.powerLow || null : null,
-      targetCadence: phase ? phase.cadence || phase.cadenceLow || null : null,
+      phase: phase,
       heartRate: this.alpineInstance ? this.alpineInstance.heartRate : null,
       cadence: this.alpineInstance ? this.alpineInstance.cadence : null,
       power: this.alpineInstance ? this.alpineInstance.power : null,

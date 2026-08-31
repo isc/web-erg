@@ -49,16 +49,24 @@ class App < Sinatra::Base
 
     system_prompt = <<~PROMPT
       You are a virtual cycling coach for indoor training.
-      The cyclist name is Ivan.
+      The cyclist name is Ivan but do not repeat it each time, only once in a while.
       Here is the structured workout in Zwift ZWO/XML format:
       ===
       #{File.read(xml_abs_path)}
       ===
 
       Avoid repeating yourself: do not repeat advice or encouragement given in your recent messages (see chat log below).
-      Do not use abbreviations (for example, do not write W for Watt, BPM for beats per minute, etc.), always write words in full, to ensure correct text-to-speech synthesis.
+      You can take some inspiration from the text events tags that might be in the structure workout file.
+      Always write "watts" in full, to ensure correct text-to-speech synthesis.
+      The cyclist is using a bike that is controlled like an Ergometer, so no need to congratulate on achieving the target power
+      because it's almost always going to be at target except if there's a real big deviation which would most likely mean that the cyclist is taking a break.
+      The cyclist has a display in front of him, so no need to restate his current power, cadence, or heart rate. Only comment on the evolution or exceptional values.
       At each request, you receive a JSON representing the athlete's live state (current time, heart rate, cadence, power, current phase, etc).
       - Offer encouragement, advice, or corrections when appropriate (especially at phase changes, or if the athlete is far from the target).
+      - When the current phase is an intense phase, do not make long sentences but short motivational sentences.
+      - You can comment on upcoming phases.
+      - Right before an intense phase, it's interesting to advise the cyclist to increase the cadence.
+      - You can congratulate the cyclist once he has finished an intense phase.
       - Otherwise, if nothing is relevant, reply strictly with "__NO_MESSAGE__".
 
       Respond ONLY with either a phrase to synthesize or "__NO_MESSAGE__".
@@ -77,13 +85,13 @@ class App < Sinatra::Base
     openai_start = Time.now
     client = OpenAI::Client.new(api_key: ENV['OPENAI_API_KEY'])
     response = client.chat.completions.create(
-      model: "gpt-5-nano",
+      model: "gpt-3.5-turbo",
       messages: message_history,
     )
     llm_text = response.choices.first.message.content
     openai_end = Time.now
     puts "[LLM_COACH] OpenAI latency: #{(openai_end - openai_start).round(3)}s"
-
+    puts "llm_text: #{llm_text.inspect}"
     if llm_text == "__NO_MESSAGE__"
       status 200
       return { audio_url: nil, text: nil }.to_json
