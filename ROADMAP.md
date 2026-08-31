@@ -11,7 +11,7 @@ session is offered for export on the next load. Resuming a workout mid-ride is d
 attempted: the trainer connection, the phase clock and the elapsed time would all have to be
 rebuilt, and the thing actually worth saving is the ride data.
 
-## 2. Speak the coaching cues — 1018 of 1378 workouts have them, 2 are heard
+## 2. Speak the coaching cues — two answers, neither finished
 
 `audio-coach.js` already parses the `<textevent>` elements of **every** workout, with their offsets,
 and computes when each should fire. It then looks for a pre-generated MP3, and when there is none —
@@ -27,6 +27,28 @@ offline, with nothing to pre-generate. Even without speech, simply **showing** t
 would take coaching from 2 workouts to 1018.
 
 The parsing is already written. This is wiring, not new machinery.
+
+**Since August 2026 there is a second answer, and the two have not been reconciled.** A workout
+opened from the library now goes to an LLM coach instead: `POST /llm_coach` sends the athlete's live
+state and the workout's own ZWO to a model, every fifteen seconds between the first pedal stroke and
+the last, and speaks whatever comes back through Inworld. It covers all 1378 workouts, and it talks
+about the phase coming next rather than only the cue written for this one — at two paid API calls per
+poll, online only.
+
+That leaves the text-event path as the fallback for a file the rider dropped in, which is exactly the
+case that has no pre-generated audio either. Those rides are still silent, and `speechSynthesis` is
+still the cheap answer for them.
+
+What the coach itself still gets wrong:
+
+- **Ramps.** It reads a ramp as a single target and says so, when the point of the phase is that the
+  number is moving, and in which direction. The state now carries the phase object whole, so
+  `powerLow`/`powerHigh` and the cadence pair are in front of it; whether that is enough has not been
+  checked.
+- **The workout is never introduced.** The description sits in the ZWO and is read on screen before
+  the start, never aloud. Reading it at the gun, and using the warm-up — the one phase with time to
+  listen — to say what the session holds, is the part a rider wants before the first interval rather
+  than during it.
 
 ## 3. Show the power target — partly done
 
@@ -96,6 +118,10 @@ title. This is the largest item — it needs a registered Strava app and a token
 but the Sinatra server already exists to hold it, and this is the gesture repeated after every
 session.
 
+The rides also arrive as a plain ride rather than a **Virtual Ride**, which is what an hour on a
+controlled trainer is. That distinction may need `.fit` rather than `.tcx`, which decides what the
+exporter has to produce — so it is worth settling before the upload is built, not after.
+
 ## 6. Skip or extend a phase
 
 Nothing shortens an interval that is not happening today, and nothing stretches a warm-up. Worse,
@@ -142,4 +168,32 @@ and time in zone computed against today's FTP would be quietly wrong.
   regardless. Pay it when the next consumer of a sample appears.
 - **Follow a plan** — the library ships multi-week plans and the app has no notion of where you are
   in one. Finding "the next one" is done by hand, every time.
-- **Guided FTP test** — FTP is typed in by hand and scales every workout's intensity.
+- **Guided FTP test** — FTP is typed in by hand and scales every workout's intensity. A ride that
+  finishes well under the heart rate its wattage should have cost is evidence the number has gone
+  stale, and the summary already computes both halves of that comparison; it could say so, and offer
+  the new number, without anyone riding a test at all.
+- **Warn about the strap before it dies, not after** — the battery level is read once at connect
+  time and shown in the button label, and nothing ever looks at it again. A strap that quits
+  mid-session takes the heart rate half of the ride with it. The moment that warning is worth
+  something is the end of a ride, when there is time to charge it, rather than the start of the next.
+- **Say how close the ride was to what was asked** — the summary says what the ride *was*: average
+  power, normalised power, time in zone. It does not say whether it matched the workout. In ERG the
+  power half is nearly free, since the trainer holds the target; the honest score lives in the
+  cadence targets and in the `FreeRide` and `MaxEffort` phases, where nothing is controlled and the
+  rider is the only thing deciding.
+- **Ask the rider who they are** — the coach greets Ivan because `app.rb` hard-codes the name into
+  the system prompt. Anyone else who rides is called Ivan too. Storing it is the easy half; the
+  prompt also has to carry how it is *said*, since the name goes to a text-to-speech engine that will
+  otherwise guess.
+
+## Further out
+
+Neither of these rests on evidence yet — they are ideas about what an indoor ride could be, kept
+here so they are not lost.
+
+- **Music that follows the cadence** — generated ambience whose beat tracks the cadence the phase is
+  asking for, so the rider pedals to the music instead of to a number. The target is already computed
+  every second by `getCurrentCadenceTarget()`.
+- **The camera as an input** — the device is already sitting in front of a rider with nothing to do
+  with their hands. "Give me a V" at the end of a hard interval, or a smile the coach reacts to, is a
+  different kind of feedback than a number going up.
