@@ -16,6 +16,11 @@ class DurationFormatTest < CapybaraTestBase
     assert_equal '32 min 15 s', format(32.25)
   end
 
+  def test_a_sub_minute_phase_is_only_seconds
+    assert_equal '30 s', format(0.5)
+    assert_equal '40 s', format(40.0 / 60)
+  end
+
   def test_seconds_are_dropped_once_there_are_hours
     assert_equal '1 h 31 min', format(91)
     assert_equal '1 h', format(60)

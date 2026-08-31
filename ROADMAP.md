@@ -28,7 +28,7 @@ would take coaching from 2 workouts to 1018.
 
 The parsing is already written. This is wiring, not new machinery.
 
-## 3. Show the power target
+## 3. Show the power target — partly done
 
 Cadence has a target and a colour that says whether you are inside it (`getCadenceStatus`). Power —
 the point of the whole session — shows a bare number.
@@ -38,31 +38,25 @@ In ERG mode the trainer holds the target, so it rarely matters. It matters exact
 at, and the moments when ERG loses the target. Note that the library's `Freeride` elements carry a
 `Target` attribute that is currently parsed by nobody.
 
-Symmetrical with the work already done on cadence.
+The cockpit does this on a phone, and `WorkoutRunner.currentPowerTarget()` is now the one place the
+target is computed — the same call ERG sends. What remains is the wide-screen table, which still
+shows a bare number, and the deviation bar sketched in the design.
 
-## 4. A layout that works on a phone
+## ~~4. A layout that works on a phone~~ — done (August 2026)
 
-Not a TV mode — the TV is fine. It mirrors a laptop screen that was already being read from a
-distance, so the existing layout survives the trip unchanged.
+Below 640px the metrics table gives way to a cockpit: the seconds left in the phase, large enough to
+read at arm's length and tinted with the phase's zone colour; power, cadence and heart rate demoted
+to a row; a strip naming the phase after this one; and the workout graph kept at a readable scale in
+a horizontal scroller that recentres itself whenever the phase changes. One layout, no switch — only
+the countdown's own formatting adapts, `23` under a minute and `12:47` above.
 
-The real gap is the other direction. Chrome on Android is the **only** mobile browser that ships Web
-Bluetooth, which means an Android phone can run this app standalone, at the bike, with no laptop and
-no mirroring in the loop. Nothing about the current layout suits that:
+Wide screens keep the table unchanged: it is read from a laptop, or mirrored to a TV, and it works
+there.
 
-- The metrics are a four-column `<table>`. On a phone that is four cramped columns, when it should be
-  a few large tiles.
-- The workout SVG has a 2400-unit viewBox for the whole session. Squeezed into a phone's width, a
-  40-second interval in a 50-minute workout is about five pixels — the shape of the session is
-  legible, the phase you are in is not. It probably wants a window around the current phase rather
-  than the whole ride.
-- The library dialog lists 1378 workouts as nested `<details>`, with the duration filters in a row of
-  inputs. It is a mouse-shaped thing.
-- Tap targets and no hover, throughout.
-- Fullscreen and the screen wake lock stop being conveniences: on a phone, a screen that locks takes
-  the ride down with it.
-
-The low-battery dialog, on the other hand, finally earns its place — it reads as if it was written
-for exactly this.
+Two things fell out of it. The power target a phase asks for is now computed in one place and shown
+(part of item 3 above). And on a phone the workout's title and description used to take the top 40 %
+of the screen, pushing the countdown below the fold — both are read before starting, so during the
+ride the name alone is enough.
 
 ⚠️ **A watch will connect, name itself, and then say nothing while Garmin Connect holds it.**
 Confirmed on a Pixel with a Forerunner 970 (August 2026): the phone is already paired to the watch

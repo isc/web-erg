@@ -1,6 +1,6 @@
 import { totalDurationSeconds } from './phases.js'
 
-function getZoneColor(power) {
+export function getZoneColor(power) {
   if (power < 0.56) return '#888'
   if (power < 0.76) return '#2196f3'
   if (power < 0.9) return '#4caf50'

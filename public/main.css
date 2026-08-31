@@ -106,3 +106,138 @@ table.workout-data {
   color: var(--pico-muted-color);
   margin-right: 0.5rem;
 }
+
+/* --- Mobile cockpit -------------------------------------------------------
+   The workout screen has two presentations of the same data. Wide screens keep
+   the table, which is read from a laptop or mirrored to a TV. Below 640px the
+   cockpit takes over: one number large enough to read at arm's length while
+   riding, everything else demoted. No switch mid-session — the only thing that
+   adapts is the countdown's own formatting. */
+
+.cockpit { display: none; }
+
+@media (max-width: 640px) {
+  .cockpit { display: block; }
+  table.workout-data { display: none; }
+
+  .cockpit-hero {
+    background: color-mix(in srgb, var(--zone) 16%, transparent);
+    padding: 1rem 1rem 0.6rem;
+    text-align: center;
+  }
+
+  .cockpit-phase,
+  .cockpit-unit,
+  .cockpit .k {
+    margin: 0;
+    font-size: 0.8rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--pico-muted-color);
+  }
+
+  .cockpit-countdown {
+    margin: 0.2rem 0 0;
+    font-size: min(38vw, 9rem);
+    line-height: 1;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .cockpit-hero progress {
+    margin: 0.6rem 0 0;
+    height: 6px;
+  }
+
+  .cockpit-metrics {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+    margin: 1rem 0 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+  }
+
+  .cockpit-metrics .v {
+    display: block;
+    font-size: 2.4rem;
+    line-height: 1.1;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .cockpit-metrics .k { display: block; }
+
+  /* Pico marks list items with a square, and setting list-style on the ul does not reach an li
+     the framework styles directly. */
+  .cockpit-metrics li { list-style: none; }
+
+  .cockpit-next {
+    margin-top: 1.2rem;
+    padding-left: 0.75rem;
+    border-left: 4px solid var(--pico-primary);
+  }
+
+  .cockpit-next-name {
+    margin: 0.1rem 0;
+    font-size: 1.15rem;
+    font-weight: 600;
+  }
+
+  .cockpit-session {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    margin-top: 1.2rem;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .cockpit-phase-count { margin-left: auto; }
+
+  /* The session total is a duration, not a label: "50 min 50 s" shouted in caps is harder to read
+     than the thing it qualifies. */
+  .cockpit-total {
+    font-size: 0.85rem;
+    color: var(--pico-muted-color);
+  }
+
+  /* The whole workout on a phone's width puts a 40s interval at about five
+     pixels. Keep the drawing at a readable scale and scroll it instead; the
+     runner centres the current phase whenever it changes. */
+  .workout-svg-container {
+    overflow-x: auto;
+    margin-top: 1rem;
+  }
+
+  .workout-svg-container svg {
+    width: 300%;
+    max-width: none;
+    height: 84px;
+  }
+
+  .phase-progress-container { display: none; }
+
+  /* The title and the workout's description used to take the top 40 % of the screen, pushing the
+     countdown below the fold. Both were read before starting; during the ride the name is enough
+     to confirm you launched the right session. */
+  .workout-heading h2 {
+    font-size: 1rem;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .workout-heading .workout-description { display: none; }
+
+  /* The paused and finished panels are full-width articles built for a laptop. */
+  .workout-data ~ article,
+  article.grid {
+    margin: 0.8rem 0;
+    padding: 0.8rem 1rem;
+  }
+
+  article.grid h4 { font-size: 1rem; margin-bottom: 0.2rem; }
+  article.grid p { font-size: 0.9rem; margin-bottom: 0.5rem; }
+}

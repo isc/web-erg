@@ -1,5 +1,5 @@
 import { formatForTimer } from './utils.js'
-import { totalDurationSeconds } from './phases.js'
+import { phaseLabel, totalDurationSeconds } from './phases.js'
 
 import { AudioCoach } from './audio-coach.js'
 
@@ -59,11 +59,22 @@ export class WorkoutRunner {
 
   updatePhaseClasses() {
     const svg = this.workoutSvgEl.querySelector('svg')
+    if (!svg) return
+    let current = null
     svg.querySelectorAll('[data-phase-index]').forEach((el, i) => {
       el.classList.remove('phase-completed', 'phase-current')
       if (i < this.currentPhaseIndex) el.classList.add('phase-completed')
-      else if (i === this.currentPhaseIndex) el.classList.add('phase-current')
+      else if (i === this.currentPhaseIndex) {
+        el.classList.add('phase-current')
+        current = el
+      }
     })
+    // Only when the phase changes: on a phone the graph is wider than the screen and scrolls, and
+    // yanking it back every second would fight the rider's own scrolling.
+    if (current && this.scrolledToPhase !== this.currentPhaseIndex) {
+      this.scrolledToPhase = this.currentPhaseIndex
+      current.scrollIntoView({ inline: 'center', block: 'nearest' })
+    }
   }
 
   getCurrentCadenceTarget() {
@@ -130,18 +141,58 @@ export class WorkoutRunner {
     return this.running
   }
 
+  /**
+   * The fraction of FTP a phase asks for at a given moment, or null when it names none. Free-ride
+   * phases answer their .zwo Target if they have one: nothing sends it to the trainer, but it is
+   * still the number the rider is being asked for.
+   */
+  relativePowerAt(index, elapsed = 0) {
+    const phase = this.expandedPhases[index]
+    if (!phase) return null
+    const relative = phase.freeRide
+      ? phase.target
+      : phase.type === 'Ramp'
+        ? phase.powerLow +
+          (phase.powerHigh - phase.powerLow) * (elapsed / phase.duration)
+        : (phase.power ?? 0)
+    return relative == null || isNaN(relative) ? null : relative
+  }
+
+  /** What a phase is, in the terms the rider reads: name, length, and what it asks for. */
+  phaseSummary(index) {
+    const phase = this.expandedPhases[index]
+    if (!phase) return null
+    const relative = this.relativePowerAt(index)
+    return {
+      label: phaseLabel(phase.type),
+      duration: phase.duration || 0,
+      freeRide: !!phase.freeRide,
+      relative,
+      watts: relative === null ? null : Math.round(relative * this.ftp)
+    }
+  }
+
+  currentPowerTarget() {
+    const relative = this.relativePowerAt(
+      this.currentPhaseIndex,
+      this.currentPhaseElapsed
+    )
+    if (relative === null) return null
+    return { relative, watts: Math.round(relative * this.ftp) }
+  }
+
+  currentPhaseSecondsRemaining() {
+    const phase = this.expandedPhases[this.currentPhaseIndex]
+    if (!phase?.duration) return 0
+    return Math.max(0, Math.round(phase.duration - this.currentPhaseElapsed))
+  }
+
   sendCurrentErg() {
     const phase = this.expandedPhases[this.currentPhaseIndex]
-    if (!phase) return
-    let targetPower = 0
-    if (phase.type === 'Ramp') {
-      const t = this.currentPhaseElapsed
-      const d = phase.duration
-      targetPower =
-        phase.powerLow + (phase.powerHigh - phase.powerLow) * (t / d)
-    } else targetPower = phase.power
     // A free-ride phase (FreeRide, MaxEffort, RestDay…) has no ERG target: the rider decides.
-    if (!phase.freeRide) this.setErgPower(Math.round(targetPower * this.ftp))
+    if (!phase || phase.freeRide) return
+    const target = this.currentPowerTarget()
+    if (target) this.setErgPower(target.watts)
   }
 
   tick() {
@@ -192,7 +243,8 @@ export function parseZwoPhases(xmlDoc) {
       'PowerLow',
       'PowerHigh',
       'OnPower',
-      'OffPower'
+      'OffPower',
+      'Target'
     ]
     intAttributes.forEach(attr => {
       const value = parseInt(node.getAttribute(attr))

@@ -19,8 +19,18 @@ export function formatDuration(minutes) {
   const seconds = totalSeconds % 60
   // Seconds are noise once a session runs into hours.
   if (hours) return mins ? `${hours} h ${mins} min` : `${hours} h`
+  // A 30-second interval is "30 s", not "0 min 30 s".
+  if (!mins) return `${seconds} s`
   if (seconds) return `${mins} min ${seconds} s`
   return `${mins} min`
+}
+
+// Under a minute the seconds are the whole message, and a leading "0:" is noise on a number meant
+// to be read at a glance. Above, m:ss is the only readable form.
+export function formatCountdown(seconds) {
+  const value = Math.max(0, Math.round(Number(seconds) || 0))
+  if (value < 60) return String(value)
+  return formatForTimer(value)
 }
 
 export function parseXmlDoc(xmlText) {

@@ -74,11 +74,30 @@ export function expandPhases(phases) {
         type,
         duration: phase.duration || 0,
         freeRide: true,
+        // Zwift's Freeride elements carry a Target the trainer does not enforce. It is still the
+        // number the rider is meant to hold, so it is worth showing even though nothing sends it.
+        target: phase.target,
         ...cadence
       })
     }
   }
   return expanded
+}
+
+const PHASE_LABELS = {
+  On: 'Effort',
+  Off: 'Recovery',
+  Warmup: 'Warm-up',
+  Cooldown: 'Cool-down',
+  Ramp: 'Ramp',
+  SteadyState: 'Steady',
+  FreeRide: 'Free ride',
+  MaxEffort: 'Max effort',
+  RestDay: 'Rest'
+}
+
+export function phaseLabel(type) {
+  return PHASE_LABELS[type] || type
 }
 
 export function totalDurationSeconds(expandedPhases) {

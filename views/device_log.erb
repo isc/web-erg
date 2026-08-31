@@ -1,6 +1,7 @@
 <%# The Bluetooth modules narrate every step of a connection. This is where that narration can be
     read on a device with no console — which is every phone. %>
-<details class="device-log" x-show="deviceLog.length">
+<%# Never during the effort: this is a setup-screen instrument. %>
+<details class="device-log" x-show="deviceLog.length && !showWorkout">
   <summary>Bluetooth log (<span x-text="deviceLog.length"></span>)</summary>
   <ol>
     <template x-for="entry in [...deviceLog].reverse()" :key="entry.at + entry.message">

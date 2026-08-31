@@ -15,6 +15,7 @@ import { expandPhases } from './phases.js'
 import { clearSession, loadSession, saveSession } from './session-store.js'
 import {
   downloadDataUrl,
+  formatCountdown,
   formatDuration,
   formatForTimer,
   isTestEnv,
@@ -22,7 +23,7 @@ import {
 } from './utils.js'
 import { downloadTcx, generateTcx } from './tcx-export.js'
 
-import { renderWorkoutSvg } from './workout-rendering.js'
+import { getZoneColor, renderWorkoutSvg } from './workout-rendering.js'
 
 window.workoutApp = function () {
   return {
@@ -54,6 +55,13 @@ window.workoutApp = function () {
     heartRateMonitorConnecting: false,
     selectedWorkout: null,
     cadenceTarget: null,
+    powerTarget: null,
+    phaseCountdown: '0',
+    phaseLabel: '',
+    phaseZone: '#888',
+    phaseNumber: 0,
+    phaseCount: 0,
+    nextPhase: null,
     screenshotDataUrl: null,
     screenshotPending: false,
     startError: null,
@@ -233,6 +241,9 @@ window.workoutApp = function () {
     },
     startTimerUI() {
       this.timerStartTime = Date.now()
+      // Immediately, not on the first tick: otherwise the cockpit shows a blank countdown for the
+      // first second of every phase-driven start.
+      this.refreshPhase()
       if (this.timerInterval) clearInterval(this.timerInterval)
       this.timerInterval = setInterval(() => {
         if (!this.workoutRunner?.isRunning()) return
@@ -241,7 +252,28 @@ window.workoutApp = function () {
         )
         this.timer = formatForTimer(this.elapsedTime + currentElapsed)
         this.cadenceTarget = this.workoutRunner.getCurrentCadenceTarget()
+        this.refreshPhase()
       }, 1000)
+    },
+    // Everything the cockpit reads about "the phase I am in and the one after it", refreshed on the
+    // same one-second beat as the clock.
+    refreshPhase() {
+      const runner = this.workoutRunner
+      if (!runner) return
+      const index = runner.currentPhaseIndex
+      const current = runner.phaseSummary(index)
+      this.powerTarget = runner.currentPowerTarget()
+      this.phaseCountdown = formatCountdown(runner.currentPhaseSecondsRemaining())
+      this.phaseLabel = current?.label || ''
+      this.phaseZone = getZoneColor(this.powerTarget?.relative ?? 0)
+      this.phaseNumber = index + 1
+      this.phaseCount = runner.expandedPhases.length
+      this.nextPhase = runner.phaseSummary(index + 1)
+    },
+    phaseIntensity(phase) {
+      if (!phase) return ''
+      if (phase.relative === null) return 'free ride'
+      return `${Math.round(phase.relative * 100)} % FTP · ${phase.watts} W`
     },
     stopTimerUI() {
       if (this.timerInterval) clearInterval(this.timerInterval)

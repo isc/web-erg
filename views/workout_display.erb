@@ -1,5 +1,5 @@
 <div x-show="showWorkout">
-  <hgroup>
+  <hgroup class="workout-heading">
     <h2>
       <span x-text="workoutMeta?.name"></span> •
       <span x-text="formatDuration(workoutMeta?.totalDuration)"></span>
@@ -42,6 +42,54 @@
     </div>
     <button @click="exportActivity">Export activity</button>
   </article>
+
+  <%# The cockpit: one screen, no layout switch. Shown instead of the table below 640px, where a
+      four-column table is four cramped columns and the rider has about a second to read it. %>
+  <section class="cockpit" aria-label="Current phase">
+    <div
+      class="cockpit-hero"
+      x-bind:style="`--zone: ${phaseZone}`"
+    >
+      <p class="cockpit-phase">
+        <span x-text="phaseLabel"></span>
+        <span x-show="powerTarget" x-text="`· ${Math.round((powerTarget?.relative || 0) * 100)} % FTP`"></span>
+      </p>
+      <p class="cockpit-countdown" x-text="phaseCountdown">0</p>
+      <p class="cockpit-unit" x-text="Number(phaseCountdown) ? 'seconds' : 'remaining'">seconds</p>
+      <progress x-bind:value="phaseProgress" max="100"></progress>
+    </div>
+
+    <ul class="cockpit-metrics">
+      <li>
+        <span class="v" x-text="power">-</span>
+        <span class="k">watts<span x-show="powerTarget" x-text="` ↑${powerTarget?.watts}`"></span></span>
+      </li>
+      <li>
+        <span class="v" x-text="cadence === '-' ? '-' : Math.round(cadence)" x-bind:class="getCadenceStatus()">-</span>
+        <span class="k">rpm<span x-show="cadenceTarget" x-text="` ↑${cadenceTarget?.target}`"></span></span>
+      </li>
+      <li>
+        <span class="v" x-text="heartRate">-</span>
+        <span class="k">bpm</span>
+      </li>
+    </ul>
+
+    <div class="cockpit-next" x-show="nextPhase">
+      <p class="k">Next</p>
+      <p class="cockpit-next-name">
+        <span x-text="nextPhase?.label"></span>
+        <span x-text="formatDuration((nextPhase?.duration || 0) / 60)"></span>
+      </p>
+      <p class="k" x-text="phaseIntensity(nextPhase)"></p>
+    </div>
+
+    <div class="cockpit-session">
+      <span class="k">Session</span>
+      <span x-text="timer">0:00</span>
+      <span class="cockpit-total" x-text="`/ ${formatDuration(workoutMeta?.totalDuration)}`"></span>
+      <span class="k cockpit-phase-count" x-text="`phase ${phaseNumber}/${phaseCount}`"></span>
+    </div>
+  </section>
 
   <table class="workout-data">
     <thead>

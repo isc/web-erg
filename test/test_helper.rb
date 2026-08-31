@@ -31,6 +31,18 @@ class CapybaraTestBase < Minitest::Test
   # would otherwise decide the outcome of the next.
   def teardown
     page.execute_script('localStorage.clear()')
+    # A test that shrank the window to a phone would otherwise hand the next one a phone.
+    page.driver.resize(1024, 768)
+  end
+
+  PHONE = [390, 844].freeze
+
+  def ride(fixture: 'Mixed_And_Unusual.zwo', ftp: nil)
+    page.execute_script("localStorage.setItem('ergPower', '150')")
+    find_field('Bike').click
+    fill_in 'FTP (watts)', with: ftp.to_s if ftp
+    attach_file('workoutFile', File.expand_path(fixture, __dir__), visible: false)
+    click_on 'Start'
   end
 
   # Calls into the app's own ES modules from the page under test. `body` is JavaScript whose value
