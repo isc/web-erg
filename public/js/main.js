@@ -204,17 +204,17 @@ window.workoutApp = function () {
       const phases = expandPhases(rawPhases)
       this.workoutMeta = parseZwoMeta(xmlDoc, phases)
       this.workoutRunner?.stop()
-      this.workoutRunner = new WorkoutRunner(
-        phases,
+      this.workoutRunner = new WorkoutRunner({
+        expandedPhases: phases,
         setErgPower,
-        this.onWorkoutEnd.bind(this),
-        this.ftp,
-        this,
-        this.$refs.workoutSvg,
+        onWorkoutEnd: this.onWorkoutEnd.bind(this),
+        ftp: this.ftp,
+        alpineInstance: this,
+        workoutSvgEl: this.$refs.workoutSvg,
         xmlDoc,
         rawPhases,
-        this.loadedWorkoutPath
-      )
+        xmlPath: this.loadedWorkoutPath
+      })
       renderWorkoutSvg(phases, this.$refs.workoutSvg)
       // The previous ride's numbers have nothing to say about the one being loaded.
       this.summary = null

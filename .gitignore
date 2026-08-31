@@ -2,3 +2,8 @@
 /.bundle/
 /vendor/
 /probe-reports/
+# Holds INWORLD_API_KEY.
+.env
+# What the coach said, synthesised on the fly and named at random. The pre-recorded audio a workout
+# ships with lives in a per-workout subdirectory and is versioned; these are throwaway.
+/public/audio/inworld_*.mp3

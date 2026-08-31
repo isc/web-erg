@@ -1,10 +1,10 @@
-import { formatForTimer, isTestEnv } from './utils.js'
+import { formatForTimer } from './utils.js'
 import { phaseLabel, totalDurationSeconds } from './phases.js'
 
 import { AudioCoach } from './audio-coach.js'
 
 export class WorkoutRunner {
-  constructor(
+  constructor({
     expandedPhases,
     setErgPower,
     onWorkoutEnd,
@@ -14,7 +14,7 @@ export class WorkoutRunner {
     xmlDoc,
     rawPhases,
     xmlPath = null
-  ) {
+  }) {
     this.expandedPhases = expandedPhases
     this.totalDurationSeconds = totalDurationSeconds(expandedPhases)
     this.setErgPower = setErgPower
@@ -35,11 +35,9 @@ export class WorkoutRunner {
   async initializeAudioCoach() {
     this.audioCoach = new AudioCoach()
     // The LLM coach needs the workout's path: the server reads the ZWO from it. Without one — a
-    // file the rider dropped in — fall back to the workout's own recorded text events. The test
-    // suite loads a library workout, so it has a path, and every run billed a real OpenAI and
-    // Inworld call before this.
-    if (this.xmlPath && !isTestEnv()) {
-      this.audioCoach.startLlmCoach(
+    // file the rider dropped in — fall back to the workout's own recorded text events.
+    if (this.xmlPath) {
+      this.audioCoach.useLlmCoach(
         () => this.buildLlmWorkoutState(),
         this.xmlPath
       )
@@ -158,27 +156,32 @@ export class WorkoutRunner {
     this.updatePhaseProgressBar()
     this.updatePhaseClasses()
     this.timer = setInterval(() => this.tick(), 1000)
+    // The coach runs on its own interval rather than this clock, so every one of these three has to
+    // say so. Left to itself it started as soon as a workout was picked and never stopped: it asked
+    // for advice, and paid for it, over a workout being browsed and over a ride long since ended.
+    this.audioCoach?.startLlmCoach()
   }
 
   pause() {
     if (this.running && this.timer) {
       clearInterval(this.timer)
       this.timer = null
+      this.audioCoach?.stopLlmCoach()
     }
   }
 
   resume() {
-    if (this.running && !this.timer)
+    if (this.running && !this.timer) {
       this.timer = setInterval(() => this.tick(), 1000)
+      this.audioCoach?.startLlmCoach()
+    }
   }
 
   stop() {
     this.running = false
     clearInterval(this.timer)
     this.timer = null
-    // The coach polls on its own interval, which outlived the ride: it kept asking for advice, and
-    // paying for it, long after the rider had left the bike.
-    this.audioCoach?.llmStopLlmCoach()
+    this.audioCoach?.stopLlmCoach()
     this.onWorkoutEnd()
     this.renderedPhase = null
     this.updatePhaseClasses()

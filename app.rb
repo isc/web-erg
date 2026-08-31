@@ -12,6 +12,11 @@ Dotenv.load
 class App < Sinatra::Base
   REPORTS_DIR = File.expand_path('probe-reports', __dir__)
 
+  # The whole ZWO goes into the coach's system prompt, and the coach is asked for advice every few
+  # seconds for the length of a ride — a few hundred times, for a file that is bundled and never
+  # changes. Read each one once.
+  WORKOUT_XML = Hash.new { |cache, path| cache[path] = File.read(path) }
+
   enable :sessions
   set :views, 'views'
   set :public_folder, 'public'
@@ -24,35 +29,34 @@ class App < Sinatra::Base
     workout_state = payload['state']
     xml_path = payload['xml_path']
 
-    zwift_root = File.expand_path(File.join(settings.public_folder, "zwift_workouts_all_collections_ordered_Mar21"))
+    zwift_root = File.expand_path(File.join(settings.public_folder, 'zwift_workouts_all_collections_ordered_Mar21'))
 
     xml_abs_path = File.expand_path(File.join(settings.public_folder, xml_path))
     unless xml_abs_path.start_with?(zwift_root) && File.exist?(xml_abs_path)
       status 400
-      return { audio_url: nil, text: "Invalid or missing workout XML path" }.to_json
+      return { audio_url: nil, text: 'Invalid or missing workout XML path' }.to_json
     end
 
     session[:llm_history] ||= []
     assistant_history = session[:llm_history].last(3)
 
-    # Historique des états utilisateur (pour retour sur l'évolution)
-    session[:state_history] ||= []
-    session[:state_history] << workout_state.dup
-    session[:state_history] = session[:state_history].last(2)
-    user_json_now = session[:state_history][-1]
-    user_json_prev = session[:state_history].length > 1 ? session[:state_history][-2] : nil
-    custom_user_prompt = if user_json_prev
-      "Current athlete state:\n#{user_json_now.to_json}\nPrevious athlete state:\n#{user_json_prev.to_json}"
-    else
-      user_json_now.to_json
-    end
+    # The previous state as well as the current one: what the numbers are doing is the interesting
+    # half, and the coach cannot see a trend in a single sample.
+    previous_state = session[:last_state]
+    session[:last_state] = workout_state
+    user_prompt = if previous_state
+                    "Current athlete state:\n#{workout_state.to_json}\n" \
+                      "Previous athlete state:\n#{previous_state.to_json}"
+                  else
+                    workout_state.to_json
+                  end
 
     system_prompt = <<~PROMPT
       You are a virtual cycling coach for indoor training.
       The cyclist name is Ivan but do not repeat it each time, only once in a while.
       Here is the structured workout in Zwift ZWO/XML format:
       ===
-      #{File.read(xml_abs_path)}
+      #{WORKOUT_XML[xml_abs_path]}
       ===
 
       Avoid repeating yourself: do not repeat advice or encouragement given in your recent messages (see chat log below).
@@ -72,39 +76,33 @@ class App < Sinatra::Base
       Respond ONLY with either a phrase to synthesize or "__NO_MESSAGE__".
     PROMPT
 
-    user_prompt = custom_user_prompt
-
     message_history = [
-      { role: "system", content: system_prompt }
+      { role: 'system', content: system_prompt }
     ]
     assistant_history.each do |msg|
-      message_history << { role: "assistant", content: msg }
+      message_history << { role: 'assistant', content: msg }
     end
-    message_history << { role: "user", content: user_prompt }
+    message_history << { role: 'user', content: user_prompt }
 
-    openai_start = Time.now
-    client = OpenAI::Client.new(api_key: ENV['OPENAI_API_KEY'])
+    client = OpenAI::Client.new(api_key: ENV.fetch('OPENAI_API_KEY', nil))
     response = client.chat.completions.create(
-      model: "gpt-3.5-turbo",
-      messages: message_history,
+      model: 'gpt-3.5-turbo',
+      messages: message_history
     )
     llm_text = response.choices.first.message.content
-    openai_end = Time.now
-    puts "[LLM_COACH] OpenAI latency: #{(openai_end - openai_start).round(3)}s"
-    puts "llm_text: #{llm_text.inspect}"
-    if llm_text == "__NO_MESSAGE__"
+
+    if llm_text == '__NO_MESSAGE__'
       status 200
       return { audio_url: nil, text: nil }.to_json
-    else
-      session[:llm_history] << llm_text
-      session[:llm_history] = session[:llm_history].last(5)
     end
+    session[:llm_history] << llm_text
+    session[:llm_history] = session[:llm_history].last(5)
 
     uri = URI('https://api.inworld.ai/tts/v1/voice')
     http = Net::HTTP.new(uri.host, uri.port)
     http.use_ssl = true
     request = Net::HTTP::Post.new(uri)
-    request['Authorization'] = ENV['INWORLD_API_KEY']
+    request['Authorization'] = ENV.fetch('INWORLD_API_KEY', nil)
     request['Content-Type'] = 'application/json'
 
     request.body = {
@@ -113,27 +111,23 @@ class App < Sinatra::Base
       modelId: 'inworld-tts-1'
     }.to_json
 
-    inworld_start = Time.now
     response = http.request(request)
-    inworld_end = Time.now
-    puts "[LLM_COACH] Inworld latency: #{(inworld_end - inworld_start).round(3)}s"
 
     if response.code.to_i == 200
       response_data = JSON.parse(response.body)
       audio_content = response_data['audioContent']
       if audio_content
-        audio_dir = File.join(settings.public_folder, "audio")
-        Dir.mkdir(audio_dir) unless Dir.exist?(audio_dir)
+        audio_dir = File.join(settings.public_folder, 'audio')
+        FileUtils.mkdir_p(audio_dir)
         filename = "inworld_#{SecureRandom.hex(8)}.mp3"
         audio_path = File.join(audio_dir, filename)
         File.binwrite(audio_path, Base64.decode64(audio_content))
         audio_url = "/audio/#{filename}"
       end
-      { audio_url: audio_url, text: llm_text }.to_json
+      { audio_url:, text: llm_text }.to_json
     else
-      { text: llm_text, response: response.code }
+      { audio_url: nil, text: llm_text, response: response.code }.to_json
     end
-
   end
 
   # Without this the responses carry only Last-Modified, and the browser picks its own freshness
