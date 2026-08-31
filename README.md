@@ -10,6 +10,7 @@ A web-based ERG (Electronically Controlled Resistance) trainer application that 
 - **Real-time Metrics**: Display power, cadence, and heart rate data during workouts
 - **Visual Workout Display**: Interactive SVG-based workout visualization showing zones and progression
 - **Audio Coaching**: AI-generated audio coaching instructions using text-to-speech
+- **Session Summary**: Average power, normalised power, average heart rate and time in zone when the workout ends
 - **TCX Export**: Export completed workouts as TCX files for upload to training platforms
 - **FTP-based Training**: Workouts automatically scale based on your Functional Threshold Power (FTP)
 - **Responsive Design**: Works on desktop and mobile devices

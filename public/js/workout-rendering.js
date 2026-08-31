@@ -1,13 +1,5 @@
 import { totalDurationSeconds } from './phases.js'
-
-export function getZoneColor(power) {
-  if (power < 0.56) return '#888'
-  if (power < 0.76) return '#2196f3'
-  if (power < 0.9) return '#4caf50'
-  if (power < 1.05) return '#ffeb3b'
-  if (power < 1.2) return '#ff9800'
-  return '#f44336'
-}
+import { getZoneColor } from './zones.js'
 
 function svgRampUp(x, width, h1, h2, svgHeight, margin, barRadius, gradId) {
   const yTopLeft = svgHeight - h1 - margin

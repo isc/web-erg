@@ -46,15 +46,4 @@ class SessionRecoveryTest < CapybaraTestBase
     visit '/'
     assert_no_text 'An interrupted session was found'
   end
-
-  private
-
-  def ride_until_samples_exist
-    ride
-    Timeout.timeout(Capybara.default_max_wait_time) do
-      sleep 0.2 until page.evaluate_script(
-        "Alpine.$data(document.querySelector('[x-data]')).workoutSamples.length"
-      ).positive?
-    end
-  end
 end

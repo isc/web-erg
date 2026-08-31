@@ -33,6 +33,15 @@ export function formatCountdown(seconds) {
   return formatForTimer(value)
 }
 
+// A metric a device never sent reaches the samples as the '-' the screen shows for it, and a
+// dropped connection can put a value through that Number() reads as NaN. What counts as a real
+// reading is one question, so it has one answer: the number, or null.
+export function reading(value) {
+  if (value === undefined || value === null || value === '-') return null
+  const number = Number(value)
+  return isFinite(number) ? number : null
+}
+
 export function parseXmlDoc(xmlText) {
   const parser = new DOMParser()
   return parser.parseFromString(xmlText, 'application/xml')

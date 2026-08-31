@@ -23,7 +23,9 @@ import {
 } from './utils.js'
 import { downloadTcx, generateTcx } from './tcx-export.js'
 
-import { getZoneColor, renderWorkoutSvg } from './workout-rendering.js'
+import { renderWorkoutSvg } from './workout-rendering.js'
+import { getZoneColor } from './zones.js'
+import { metric, summariseSession, zoneShare } from './session-summary.js'
 
 window.workoutApp = function () {
   return {
@@ -67,6 +69,7 @@ window.workoutApp = function () {
     deviceLog: [],
     recoveredSession: null,
     persistInterval: null,
+    summary: null,
 
     // Drives the "Bluetooth not supported" modal. Availability is the Bluetooth module's question:
     // it is the one that swaps in the mock, and headless browsers expose no navigator.bluetooth, so
@@ -76,6 +79,14 @@ window.workoutApp = function () {
     },
 
     formatDuration,
+    metric,
+    zoneShare,
+
+    // The zone rows, or none: the markup asks for them four times and should not have to spell out
+    // that there may be no summary yet each time.
+    get zones() {
+      return this.summary?.zones || []
+    },
 
     async requestWakeLock() {
       try {
@@ -200,6 +211,8 @@ window.workoutApp = function () {
         rawPhases
       )
       renderWorkoutSvg(phases, this.$refs.workoutSvg)
+      // The previous ride's numbers have nothing to say about the one being loaded.
+      this.summary = null
       this.workoutFinished = false
       this.workoutSelected = true
       this.startError = null
@@ -366,6 +379,9 @@ window.workoutApp = function () {
     },
     onWorkoutEnd() {
       this.stopTimerUI()
+      // Computed once, here, rather than in a getter: a getter would re-walk every second of the
+      // ride on each of Alpine's re-renders, and the samples stop changing the moment this runs.
+      this.summary = summariseSession(this.workoutSamples, this.ftp)
       this.workoutFinished = true
       this.isPaused = false
       this.releaseWakeLock()

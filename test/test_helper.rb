@@ -48,6 +48,23 @@ class CapybaraTestBase < Minitest::Test
     click_on 'Start'
   end
 
+  # Capybara's own waiting covers the page; this covers the app's state behind it.
+  def wait_until
+    Timeout.timeout(Capybara.default_max_wait_time) { sleep 0.2 until yield }
+  end
+
+  # Whatever the Alpine component currently holds, as `app.workoutSamples.length` would read it.
+  def app_state(expression)
+    page.evaluate_script("Alpine.$data(document.querySelector('[x-data]')).#{expression}")
+  end
+
+  # The runner only starts once power arrives, and the first sample lands a moment after that.
+  # Anything asserting on recorded data has to wait for one.
+  def ride_until_samples_exist(**options)
+    ride(**options)
+    wait_until { app_state('workoutSamples.length').positive? }
+  end
+
   # Calls into the app's own ES modules from the page under test. `body` is JavaScript whose value
   # is returned; it sees the imported modules under the names given in `modules`, and the arguments
   # passed here as `args[0]`, `args[1]`, ...

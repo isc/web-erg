@@ -107,6 +107,87 @@ table.workout-data {
   margin-right: 0.5rem;
 }
 
+/* --- End-of-session summary -----------------------------------------------
+   Sits inside the completed panel, one markup for both widths: it is read
+   standing still, off the bike, so a phone and a TV want the same thing. The
+   zone bar borrows the graph's colours — they come from the same table. */
+
+.session-summary {
+  margin-top: 1rem;
+  border-top: 1px solid var(--pico-muted-border-color);
+  padding-top: 1rem;
+}
+
+.session-summary dl {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+  gap: 0.75rem 1.5rem;
+  margin: 0;
+}
+
+.session-summary dt {
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--pico-muted-color);
+}
+
+.session-summary dd {
+  margin: 0.1rem 0 0;
+  font-size: 1.6rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.zone-bar {
+  display: flex;
+  gap: 2px;
+  margin-top: 1rem;
+  height: 10px;
+}
+
+.zone-bar span {
+  /* flex-grow carries the share; a zone worth half a percent still has to be
+     visible, hence the basis. */
+  flex-basis: 3px;
+  background: var(--zone);
+  border-radius: 2px;
+}
+
+.zone-legend {
+  display: grid;
+  /* A row is a name and a duration on one line. Give the columns less than this and
+     "1 min 59 s · 4 %" folds under its own zone name, which reads as two entries. min() keeps a
+     phone at one column rather than overflowing. */
+  grid-template-columns: repeat(auto-fit, minmax(min(15rem, 100%), 1fr));
+  gap: 0.2rem 1rem;
+  margin: 0.75rem 0 0;
+  padding: 0;
+  font-size: 0.9rem;
+}
+
+.zone-legend li {
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+  list-style: none;
+}
+
+.zone-dot {
+  width: 0.6rem;
+  height: 0.6rem;
+  flex: none;
+  border-radius: 50%;
+  background: var(--zone);
+}
+
+.zone-share {
+  margin-left: auto;
+  white-space: nowrap;
+  color: var(--pico-muted-color);
+  font-variant-numeric: tabular-nums;
+}
+
 /* --- Mobile cockpit -------------------------------------------------------
    The workout screen has two presentations of the same data. Wide screens keep
    the table, which is read from a laptop or mirrored to a TV. Below 640px the
@@ -248,13 +329,15 @@ table.workout-data {
 
   .workout-heading .workout-description { display: none; }
 
-  /* The paused and finished panels are full-width articles built for a laptop. */
-  .workout-data ~ article,
-  article.grid {
+  /* The paused and finished panels are full-width articles built for a laptop. One class names
+     that, so the next panel does not have to be added to three selectors. */
+  article.workout-panel {
     margin: 0.8rem 0;
     padding: 0.8rem 1rem;
   }
 
-  article.grid h4 { font-size: 1rem; margin-bottom: 0.2rem; }
-  article.grid p { font-size: 0.9rem; margin-bottom: 0.5rem; }
+  article.workout-panel h4 { font-size: 1rem; margin-bottom: 0.2rem; }
+  article.workout-panel p { font-size: 0.9rem; margin-bottom: 0.5rem; }
+
+  .session-summary dd { font-size: 1.3rem; }
 }

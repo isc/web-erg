@@ -18,7 +18,7 @@
     </p>
   </hgroup>
 
-  <article x-show="isPaused" class="grid">
+  <article x-show="isPaused" class="grid workout-panel">
     <div>
       <h4>Workout Paused</h4>
       <p>
@@ -29,18 +29,59 @@
     <button class="outline" @click="stopWorkout">Stop</button>
   </article>
 
-  <article x-show="workoutFinished" class="grid">
-    <div>
-      <h4>Workout Completed</h4>
-      <p>
-        You have completed the workout! You can now export your
-        data and
-        <a href="https://www.strava.com/upload/select" target="_blank"
-          >share it on Strava</a
-        >.
-      </p>
+  <article x-show="workoutFinished" class="workout-panel">
+    <div class="grid">
+      <div>
+        <h4>Workout Completed</h4>
+        <p>
+          You have completed the workout! You can now export your
+          data and
+          <a href="https://www.strava.com/upload/select" target="_blank"
+            >share it on Strava</a
+          >.
+        </p>
+      </div>
+      <button @click="exportActivity">Export activity</button>
     </div>
-    <button @click="exportActivity">Export activity</button>
+
+    <%# What the ride was. Every number here comes from workoutSamples, which until now only ever
+        left the app inside a .tcx file. One markup for both widths: the panel is read standing
+        still, so nothing about it needs to differ between a phone and a TV. %>
+    <section class="session-summary" x-show="summary" aria-label="Session summary">
+      <dl>
+        <div>
+          <dt>Average power</dt>
+          <dd x-text="metric(summary?.averagePower, 'W')"></dd>
+        </div>
+        <div>
+          <dt>Normalised power</dt>
+          <%# Nothing under thirty seconds of riding: the rolling window it is defined on has not
+              closed once yet. %>
+          <dd x-text="metric(summary?.normalisedPower, 'W')"></dd>
+        </div>
+        <div x-show="summary?.averageHeartRate">
+          <dt>Average heart rate</dt>
+          <dd x-text="metric(summary?.averageHeartRate, 'bpm')"></dd>
+        </div>
+      </dl>
+
+      <div class="zone-bar" x-show="zones.length" aria-hidden="true">
+        <template x-for="zone in zones" :key="zone.name">
+          <span
+            x-bind:style="`--zone: ${zone.color}; flex-grow: ${zone.percent}`"
+          ></span>
+        </template>
+      </div>
+      <ul class="zone-legend" x-show="zones.length">
+        <template x-for="zone in zones" :key="zone.name">
+          <li>
+            <span class="zone-dot" x-bind:style="`--zone: ${zone.color}`"></span>
+            <span x-text="zone.name"></span>
+            <span class="zone-share" x-text="zoneShare(zone)"></span>
+          </li>
+        </template>
+      </ul>
+    </section>
   </article>
 
   <%# The cockpit: one screen, no layout switch. Shown instead of the table below 640px, where a

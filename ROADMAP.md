@@ -102,10 +102,44 @@ Nothing shortens an interval that is not happening today, and nothing stretches 
 **Stop** is final: `WorkoutRunner.stop()` sets `workoutFinished` and there is no way back. A bad
 interval currently means either suffering through it or losing the session.
 
+## ~~End-of-session summary~~ — done (August 2026)
+
+The completed panel now says what the ride was: average power, normalised power, average heart rate
+and time in zone, the last as a bar in the graph's own colours with a legend under it. One markup
+for both widths — the panel is read standing still, so a phone and a TV want the same thing, and it
+adds nothing to the duplication noted above.
+
+Three things were decided along the way, all in `session-summary.js`:
+
+- **Samples are not one per second.** `addOrUpdateSample` starts a new one only once 1.5 s has
+  passed, so averaging the samples themselves would weight a reading held for four seconds like one
+  held for two. Every metric is computed from a one-second grid built by holding each reading for as
+  long as it stood.
+- **A reading stands in for five seconds at most.** Past that the rider stopped — a pause, a dropped
+  trainer — and the rest of the gap is counted as nothing rather than as more seconds at the last
+  wattage seen. A one-minute pause used to be worth a full minute of phantom work.
+- **Normalised power is null under thirty seconds**, the width of the rolling window it is defined
+  on. A number taken from a shorter window would not be normalised power.
+
+Time in zone counts through `zoneFor()` in the new `zones.js` — the same lookup, over the same
+table, that colours the workout graph. The bands used to be a ladder of ifs inside the SVG renderer;
+sharing the numbers alone would not have been enough, since the rule for reading them (ascending,
+exclusive upper bound) would then have existed twice.
+
+Not done: the **recovered session** offered on the next load still only offers export. Its stored
+samples would summarise fine, but the FTP that was in force during that ride is not saved with them,
+and time in zone computed against today's FTP would be quietly wrong.
+
 ## Smaller, later
 
-- **End-of-session summary** — average power, normalised power, average heart rate, time in zone.
-  All of it is already in `workoutSamples`; none of it is ever shown.
+- **Let a missing reading be `null`** — `bluetooth.js` invents `'-'` for "the device said nothing",
+  a *display* string that then travels into `workoutSamples` and out to every consumer: `main.js`
+  compares against it to pause the ride, `tcx-export.js` tests for it three times, and the summary
+  reads it through `reading()` in `utils.js`. That helper is the one place the question is now
+  answered, and the other consumers still answer it for themselves. Reporting `null` from the device
+  layer and formatting it as `-` at the binding would collapse all of them — but a session persisted
+  before the change still holds `'-'` in localStorage, so the old spelling has to survive somewhere
+  regardless. Pay it when the next consumer of a sample appears.
 - **Follow a plan** — the library ships multi-week plans and the app has no notion of where you are
   in one. Finding "the next one" is done by hand, every time.
 - **Guided FTP test** — FTP is typed in by hand and scales every workout's intensity.
