@@ -16,10 +16,15 @@
 // first is whether a recent PM5 also exposes FTMS, which would make the port far shorter.
 const C2 = suffix => `ce0600${suffix}-43e5-11e4-916c-0800200c9a66`
 
+// Every proprietary service has to be named here or it stays invisible: getPrimaryServices() only
+// returns what the chooser granted, so a service absent from this list reads in the report exactly
+// like a service the erg does not have. The four are taken from OpenRowingMonitor's PM5 emulation
+// (app/peripherals/ble/pm5/), which is an implementation rather than a recollection.
 const CANDIDATE_SERVICES = [
   C2('10'), // device information (proprietary)
   C2('20'), // control — CSAFE
   C2('30'), // rowing
+  C2('40'), // heart rate control
   'fitness_machine',
   'cycling_power',
   'cycling_speed_and_cadence',
@@ -38,18 +43,25 @@ const EXPECTED_NAMES = {
   [C2('14')]: 'firmware revision?',
   [C2('15')]: 'manufacturer?',
   [C2('16')]: 'erg machine type?',
+  [C2('17')]: 'ATT mtu?',
+  [C2('18')]: 'log data?',
   [C2('21')]: 'control receive (CSAFE)?',
   [C2('22')]: 'control transmit?',
-  [C2('31')]: 'general status?',
-  [C2('32')]: 'additional status 1?',
-  [C2('33')]: 'additional status 2?',
+  [C2('31')]: 'general status',
+  [C2('32')]: 'additional status 1',
+  [C2('33')]: 'additional status 2',
   [C2('34')]: 'status sample rate?',
-  [C2('35')]: 'stroke data?',
-  [C2('36')]: 'additional stroke data?',
-  [C2('37')]: 'split/interval data?',
-  [C2('38')]: 'additional split data?',
-  [C2('39')]: 'end of workout summary?',
-  [C2('3d')]: 'multiplexed information?'
+  [C2('35')]: 'stroke data (end of drive, end of recovery)',
+  [C2('36')]: 'additional stroke data (end of drive)',
+  [C2('37')]: 'split data (end of split)',
+  [C2('38')]: 'additional split data (end of split)',
+  [C2('39')]: 'workout summary (end of workout)',
+  [C2('3a')]: 'additional workout summary (end of workout)',
+  [C2('3b')]: 'heart rate belt information?',
+  [C2('3d')]: 'force curve (end of drive)',
+  [C2('3e')]: 'additional status 3',
+  [C2('3f')]: 'logged workout (end of workout)',
+  [C2('41')]: 'heart rate control?'
 }
 
 const report = { startedAt: new Date().toISOString(), device: null, services: [], log: [] }
@@ -108,19 +120,25 @@ async function readCharacteristic(characteristic, entry) {
   }
 }
 
-// Ten per characteristic: enough to see whether a counter advances and which bytes move, few enough
-// that the report stays readable and the POST stays small.
-const PACKETS_KEPT = 10
+// Keeping the first ten alone is what the first run got wrong: a characteristic that already
+// notified while the erg sat idle filled its quota with zeroes, and the rowing that followed was
+// discarded. So keep both ends — the opening frames, which show the resting state, and a rolling
+// window of the most recent ones, which is where the load actually is.
+const PACKETS_FIRST = 5
+const PACKETS_LAST = 10
 
 async function subscribe(characteristic, entry) {
   try {
     await characteristic.startNotifications()
     characteristic.addEventListener('characteristicvaluechanged', event => {
       entry.total = (entry.total || 0) + 1
-      if (entry.packets.length < PACKETS_KEPT) {
-        const packet = { at: new Date().toISOString(), hex: hex(event.target.value) }
+      const packet = { at: new Date().toISOString(), hex: hex(event.target.value) }
+      if (entry.packets.length < PACKETS_FIRST) {
         entry.packets.push(packet)
         if (entry.packets.length === 1) log(`✅ first packet on ${entry.uuid}: ${packet.hex}`)
+      } else {
+        entry.recent.push(packet)
+        if (entry.recent.length > PACKETS_LAST) entry.recent.shift()
       }
       const tr = $(`char-${entry.uuid}`)
       if (!tr) return
@@ -171,7 +189,8 @@ async function walk(server) {
       const entry = {
         uuid: characteristic.uuid,
         properties: describeProperties(characteristic.properties),
-        packets: []
+        packets: [],
+        recent: []
       }
       block.characteristics.push(entry)
       tbody.append(row(entry))
