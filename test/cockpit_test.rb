@@ -52,6 +52,16 @@ class CockpitTest < CapybaraTestBase
     assert_operator bar[:value].to_f, :>=, 0
   end
 
+  def test_the_session_line_is_two_clock_readings
+    page.driver.resize(*PHONE)
+    ride
+
+    # Elapsed and total on the same line, in the same form. The fixture is 3 minutes.
+    within '.cockpit-session' do
+      assert_text %r{\d:\d\d\s*/\s*3:00}
+    end
+  end
+
   def test_cadence_is_a_whole_number
     page.driver.resize(*PHONE)
     ride

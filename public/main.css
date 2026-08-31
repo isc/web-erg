@@ -117,11 +117,19 @@ table.workout-data {
 .cockpit { display: none; }
 
 @media (max-width: 640px) {
-  .cockpit { display: block; }
+  /* The cockpit sets its own gutter rather than relying on the container's: measured at 390px,
+     every one of its rows was flush against both edges. The hero keeps the full width on purpose —
+     the zone tint reads better edge to edge — and pads its own contents instead. */
+  .cockpit {
+    display: block;
+    padding-inline: 1rem;
+  }
+
   table.workout-data { display: none; }
 
   .cockpit-hero {
     background: color-mix(in srgb, var(--zone) 16%, transparent);
+    margin-inline: -1rem;
     padding: 1rem 1rem 0.6rem;
     text-align: center;
   }
@@ -188,24 +196,26 @@ table.workout-data {
   .cockpit-session {
     display: flex;
     align-items: baseline;
+    justify-content: space-between;
     gap: 0.5rem;
     margin-top: 1.2rem;
+  }
+
+  .cockpit-session-time {
+    display: flex;
+    align-items: baseline;
+    gap: 0.4rem;
     font-variant-numeric: tabular-nums;
   }
 
-  .cockpit-phase-count { margin-left: auto; }
+  .cockpit-total { color: var(--pico-muted-color); }
 
   .cockpit-session-bar {
     height: 4px;
     margin: 0.35rem 0 0;
   }
 
-  /* The session total is a duration, not a label: "50 min 50 s" shouted in caps is harder to read
-     than the thing it qualifies. */
-  .cockpit-total {
-    font-size: 0.85rem;
-    color: var(--pico-muted-color);
-  }
+  .cockpit-band-label { margin: 0.9rem 0 0.2rem; }
 
   /* The whole workout on a phone's width puts a 40s interval at about five
      pixels. Keep the drawing at a readable scale and scroll it instead; the
@@ -213,6 +223,7 @@ table.workout-data {
   .workout-svg-container {
     overflow-x: auto;
     margin-top: 1rem;
+    padding-inline: 1rem;
   }
 
   .workout-svg-container svg {
@@ -229,6 +240,7 @@ table.workout-data {
   .workout-heading h2 {
     font-size: 1rem;
     margin: 0;
+    padding-inline: 1rem;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;

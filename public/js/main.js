@@ -272,6 +272,12 @@ window.workoutApp = function () {
       this.nextPhase = runner.phaseSummary(index + 1)
       this.sessionProgress = runner.sessionProgress()
     },
+    // On the session line both sides are clock readings — "0:02 / 50:50". formatDuration is for
+    // prose ("Effort 10 s"), and mixing the two forms on one line made it read as two things.
+    get sessionTotal() {
+      const minutes = Number(this.workoutMeta?.totalDuration)
+      return minutes ? formatForTimer(Math.round(minutes * 60)) : '0:00'
+    },
     phaseIntensity(phase) {
       if (!phase) return ''
       if (phase.relative === null) return 'free ride'

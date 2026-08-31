@@ -85,11 +85,14 @@
 
     <div class="cockpit-session">
       <span class="k">Session</span>
-      <span x-text="timer">0:00</span>
-      <span class="cockpit-total" x-text="`/ ${formatDuration(workoutMeta?.totalDuration)}`"></span>
-      <span class="k cockpit-phase-count" x-text="`phase ${phaseNumber}/${phaseCount}`"></span>
+      <span class="cockpit-session-time">
+        <span x-text="timer">0:00</span>
+        <span class="cockpit-total" x-text="`/ ${sessionTotal}`"></span>
+      </span>
     </div>
     <progress class="cockpit-session-bar" x-bind:value="sessionProgress" max="100"></progress>
+    <%# Sits directly above the workout band, which is the thing it counts into. %>
+    <p class="k cockpit-band-label" x-text="`phase ${phaseNumber}/${phaseCount}`"></p>
   </section>
 
   <table class="workout-data">
