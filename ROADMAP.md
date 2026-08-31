@@ -64,10 +64,15 @@ no mirroring in the loop. Nothing about the current layout suits that:
 The low-battery dialog, on the other hand, finally earns its place — it reads as if it was written
 for exactly this.
 
-⚠️ Check first, before designing anything: on Android, Chrome needs the *Nearby devices* permission
-and, depending on the Android and Chrome versions, location services switched on, or it will simply
-show no devices. Worth confirming on the actual phone that the trainer and the watch are reachable
-at all.
+⚠️ **A watch will connect, name itself, and then say nothing while Garmin Connect holds it.**
+Confirmed on a Pixel with a Forerunner 970 (August 2026): the phone is already paired to the watch
+for Garmin Connect, so the watch is in touch with it *as a watch*, and refuses to serve its broadcast
+stream to a second client on the same device. Every step succeeds — GATT connect, service discovery,
+subscribing — and no notification ever arrives. Force-stop Garmin Connect and the readings appear
+immediately. A dedicated strap has no such conflict.
+
+Android may also want the *Nearby devices* permission, and location services on depending on
+versions, before Chrome shows any device at all.
 
 ## 5. Send to Strava without the file round trip
 
