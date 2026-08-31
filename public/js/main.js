@@ -58,6 +58,7 @@ window.workoutApp = function () {
     weight: 70,
     phaseProgress: 0,
     phaseSecondsRemaining: 0,
+    phaseMetresRemaining: 0,
     wakeLock: null,
     isPaused: false,
     ergometerConnecting: false,
@@ -226,6 +227,9 @@ window.workoutApp = function () {
       // live to show.
       setOnDistanceUpdate(metres => {
         this.distance = metres
+        // The runner needs it too: a phase written in metres is ended by the erg's count and not
+        // by the clock.
+        this.workoutRunner?.setDistance(metres)
         this.addOrUpdateSample({ distance: metres })
       })
     },
@@ -251,7 +255,7 @@ window.workoutApp = function () {
       // run their own DOMParser over the same string.
       const xmlDoc = parseXmlDoc(xml)
       const rawPhases = parseZwoPhases(xmlDoc)
-      const phases = expandPhases(rawPhases)
+      const phases = expandPhases(rawPhases, this.trainingFtp)
       this.workoutMeta = parseZwoMeta(xmlDoc, phases)
       this.workoutRunner?.stop()
       this.workoutRunner = new WorkoutRunner({
@@ -329,8 +333,26 @@ window.workoutApp = function () {
     get phaseZone() {
       return getZoneColor(this.phase?.relative ?? 0)
     },
+    // A phase written in metres counts down in metres. Its duration is only an estimate, and a
+    // countdown that reached zero with two hundred metres still to row would be worse than none.
+    get phaseIsDistance() {
+      return !!this.phase?.distance
+    },
     get phaseCountdown() {
-      return formatCountdown(this.phaseSecondsRemaining)
+      return this.phaseIsDistance
+        ? String(this.phaseMetresRemaining)
+        : formatCountdown(this.phaseSecondsRemaining)
+    },
+    get phaseCountdownUnit() {
+      if (this.phaseIsDistance) return 'metres to go'
+      return this.phaseSecondsRemaining < 60 ? 'seconds' : 'remaining'
+    },
+    // "500 m" or "4 min", whichever the phase was written in.
+    phaseLength(phase) {
+      if (!phase) return ''
+      return phase.distance
+        ? `${phase.distance} m`
+        : formatDuration((phase.duration || 0) / 60)
     },
     get phaseTimeRemaining() {
       return formatForTimer(this.phaseSecondsRemaining)

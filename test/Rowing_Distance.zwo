@@ -1,0 +1,10 @@
+<workout_file>
+  <name>Rowing Distance</name>
+  <description>Two thirty-metre pieces and a paddle, in the distance form .zwo has no words for. Written small enough that the captured hundred-metre piece rows it end to end.</description>
+  <author>web-erg</author>
+  <workout>
+    <SteadyState Distance="30" Power="0.8"/>
+    <SteadyState Distance="30" Power="0.8"/>
+    <SteadyState Duration="10" Power="0.4"/>
+  </workout>
+</workout_file>

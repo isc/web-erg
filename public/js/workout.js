@@ -22,6 +22,11 @@ export class WorkoutRunner {
     this.fixedFtp = ftp
     this.currentPhaseIndex = 0
     this.currentPhaseElapsed = 0
+    // Metres, as the erg counts them. Absolute, and reset by nothing: the phase records where it
+    // started rather than the counter being zeroed, so a machine that never restarts its odometer
+    // and one that does are the same problem.
+    this.distance = 0
+    this.phaseStartDistance = 0
     this.timer = null
     this.running = false
     this.alpineInstance = alpineInstance
@@ -76,21 +81,34 @@ export class WorkoutRunner {
     }
   }
 
+  /** Metres rowed since the current phase opened, which is what ends a phase measured in them. */
+  get phaseDistance() {
+    return this.distance - this.phaseStartDistance
+  }
+
+  /**
+   * How far through the phase is, and how much of it is left — in whichever unit the phase is
+   * written in. A distance phase counts down in metres because that is what the rower is being
+   * asked for; its estimated duration would count down to zero while there were still metres to
+   * row, which is worse than useless.
+   */
   updatePhaseProgressBar() {
     if (!this.alpineInstance) return
     const phase = this.expandedPhases[this.currentPhaseIndex]
-    if (!phase?.duration) {
+    const total = phase?.distance || phase?.duration
+    const done = phase?.distance ? this.phaseDistance : this.currentPhaseElapsed
+    if (!total) {
       this.alpineInstance.phaseProgress = 0
       this.alpineInstance.phaseSecondsRemaining = 0
+      this.alpineInstance.phaseMetresRemaining = 0
       return
     }
-    const percent = Math.min(this.currentPhaseElapsed / phase.duration, 1) * 100
+    const percent = Math.min(done / total, 1) * 100
     this.alpineInstance.phaseProgress = isNaN(percent) ? 0 : percent
 
-    this.alpineInstance.phaseSecondsRemaining = Math.max(
-      0,
-      Math.round(phase.duration - this.currentPhaseElapsed)
-    )
+    const remaining = Math.max(0, Math.round(total - done))
+    this.alpineInstance.phaseSecondsRemaining = phase.distance ? 0 : remaining
+    this.alpineInstance.phaseMetresRemaining = phase.distance ? remaining : 0
   }
 
   /**
@@ -160,11 +178,10 @@ export class WorkoutRunner {
     this.running = true
     this.currentPhaseIndex = 0
     this.currentPhaseElapsed = 0
+    this.phaseStartDistance = this.distance
     this.totalElapsed = 0
     this.renderedPhase = null
-    this.sendCurrentErg()
-    this.updatePhaseProgressBar()
-    this.updatePhaseClasses()
+    this.refreshPhase()
     this.timer = setInterval(() => this.tick(), 1000)
     // The coach runs on its own interval rather than this clock, so every one of these three has to
     // say so. Left to itself it started as soon as a workout was picked and never stopped: it asked
@@ -226,6 +243,7 @@ export class WorkoutRunner {
     return {
       label: phaseLabel(phase.type),
       duration: phase.duration || 0,
+      distance: phase.distance || 0,
       freeRide: !!phase.freeRide,
       relative,
       watts: relative === null ? null : Math.round(relative * this.ftp)
@@ -249,6 +267,34 @@ export class WorkoutRunner {
     if (target) this.setErgPower(target.watts)
   }
 
+  /**
+   * Metres, pushed by whichever machine counts them. A phase written in distance ends here rather
+   * than on the clock: a rower who stops mid-piece has not finished it, and the workout waits.
+   */
+  setDistance(metres) {
+    this.distance = metres
+    if (!this.running) return
+    const phase = this.expandedPhases[this.currentPhaseIndex]
+    if (!phase?.distance || this.phaseDistance < phase.distance) return
+    if (this.advancePhase()) this.refreshPhase()
+  }
+
+  /** True if there is still a phase to run. */
+  advancePhase() {
+    this.currentPhaseIndex++
+    this.currentPhaseElapsed = 0
+    this.phaseStartDistance = this.distance
+    if (this.currentPhaseIndex < this.expandedPhases.length) return true
+    this.stop()
+    return false
+  }
+
+  refreshPhase() {
+    this.sendCurrentErg()
+    this.updatePhaseProgressBar()
+    this.updatePhaseClasses()
+  }
+
   tick() {
     if (!this.running) return
     const phase = this.expandedPhases[this.currentPhaseIndex]
@@ -264,17 +310,13 @@ export class WorkoutRunner {
     if (this.totalElapsed >= this.totalDurationSeconds / 2)
       this.alpineInstance.captureScreenshot()
 
-    if (this.currentPhaseElapsed >= phase.duration) {
-      this.currentPhaseIndex++
-      this.currentPhaseElapsed = 0
-      if (this.currentPhaseIndex >= this.expandedPhases.length) {
-        this.stop()
-        return
-      }
+    // A phase measured in metres is ended by setDistance and by nothing else. Its duration is an
+    // estimate of how long it ought to take, and ending on an estimate would cut a piece short
+    // for anyone rowing it slower than the estimate assumed.
+    if (!phase.distance && this.currentPhaseElapsed >= phase.duration) {
+      if (!this.advancePhase()) return
     }
-    this.sendCurrentErg()
-    this.updatePhaseProgressBar()
-    this.updatePhaseClasses()
+    this.refreshPhase()
   }
 }
 
@@ -289,10 +331,16 @@ export function parseZwoPhases(xmlDoc) {
       'CadenceResting',
       'Repeat'
     ]
+    // Distance, OnDistance and OffDistance are this app's extension to the format, in metres. A
+    // rowing session is written as 4×1000 or 8×500 and .zwo can only say seconds; nothing else
+    // about the file changes, so a rowing workout is still a .zwo and still opens in the library.
     const floatAttributes = [
       'Duration',
       'OnDuration',
       'OffDuration',
+      'Distance',
+      'OnDistance',
+      'OffDistance',
       'Power',
       'PowerLow',
       'PowerHigh',

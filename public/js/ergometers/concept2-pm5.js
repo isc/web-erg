@@ -24,6 +24,7 @@ export const CONTROL_SERVICE = C2('20')
 
 export const GENERAL_STATUS = C2('31')
 export const ADDITIONAL_STATUS_1 = C2('32')
+export const STROKE_DATA = C2('35')
 export const ADDITIONAL_STROKE_DATA = C2('36')
 export const SPLIT_DATA = C2('37')
 export const WORKOUT_SUMMARY = C2('39')
@@ -93,6 +94,31 @@ export function decodeAdditionalStatus1(view) {
     restDistance: u16(view, 11),
     restTime: u24(view, 13) / 100,
     ergMachineType: u8(view, 16)
+  }
+}
+
+/**
+ * 0x0035 Stroke Data, 20 B. It carries the same total distance as the general status, and that is
+ * why it is here: the status characteristic reports at 1 Hz, and this one reports at every end of
+ * drive and again at every end of recovery, so between them the metres on screen move as the rower
+ * moves rather than on a clock. Two sources of one counter, not two estimates of one quantity —
+ * the larger is simply the more recent, which is what makes taking it safe.
+ *
+ * It fires TWICE per stroke, the same stroke number returning with the recovery time filled in. A
+ * consumer that counted notifications would count double; nothing here counts them.
+ */
+export function decodeStrokeData(view) {
+  return {
+    elapsed: u24(view, 0) / 100,
+    distance: u24(view, 3) / 10,
+    driveLength: u8(view, 6) / 100,
+    driveTime: u8(view, 7) / 100,
+    recoveryTime: u16(view, 8) / 100,
+    strokeDistance: u16(view, 10) / 100,
+    peakForce: u16(view, 12) / 10,
+    averageForce: u16(view, 14) / 10,
+    workPerStroke: u16(view, 16) / 10,
+    strokeCount: u16(view, 18)
   }
 }
 
@@ -206,10 +232,19 @@ function publishStrokeRate() {
   if (rate === '-') handlers.onPower(0)
 }
 
+// The erg's odometer only goes up within a session, and two characteristics report it. Publishing
+// whichever is larger is publishing whichever is more recent, and it means a frame arriving out of
+// order cannot walk the distance backwards under a phase that is counting it down.
+function publishDistance(metres) {
+  if (metres <= live.distance) return
+  live.distance = metres
+  handlers.onDistance(metres)
+}
+
 function onGeneralStatus(value) {
   const status = decode(GENERAL_STATUS, 'PM5 status', value, decodeGeneralStatus)
   if (!status) return
-  handlers.onDistance(status.distance)
+  publishDistance(status.distance)
   if (live.dragFactor !== status.dragFactor) {
     live.dragFactor = status.dragFactor
     handlers.log(`Drag factor ${status.dragFactor}.`)
@@ -226,6 +261,11 @@ function onAdditionalStatus1(value) {
   if (!status) return
   live.strokeRate = status.strokeRate
   publishStrokeRate()
+}
+
+function onStrokeData(value) {
+  const stroke = decode(STROKE_DATA, 'PM5 stroke distance', value, decodeStrokeData)
+  if (stroke) publishDistance(stroke.distance)
 }
 
 function onAdditionalStrokeData(value) {
@@ -253,6 +293,7 @@ function onWorkoutSummary(value) {
 const SUBSCRIPTIONS = [
   [GENERAL_STATUS, onGeneralStatus],
   [ADDITIONAL_STATUS_1, onAdditionalStatus1],
+  [STROKE_DATA, onStrokeData],
   [ADDITIONAL_STROKE_DATA, onAdditionalStrokeData],
   [SPLIT_DATA, onSplitData],
   [WORKOUT_SUMMARY, onWorkoutSummary]
@@ -266,7 +307,7 @@ const SUBSCRIPTIONS = [
 export async function openPm5(server, callbacks, { strokeTimeoutMs = STROKE_TIMEOUT_MS } = {}) {
   handlers = callbacks
   strokeTimeout = strokeTimeoutMs
-  live = { strokeRate: 0, lastStrokeAt: null, published: null }
+  live = { strokeRate: 0, lastStrokeAt: null, published: null, distance: 0 }
   seen = new Set()
   const service = await server.getPrimaryService(ROWING_SERVICE)
   for (const [uuid, onNotification] of SUBSCRIPTIONS) {

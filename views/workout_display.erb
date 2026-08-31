@@ -107,7 +107,7 @@
         <span x-show="phase" x-text="`· ${phasePercent(phase)}`"></span>
       </p>
       <p class="cockpit-countdown" x-text="phaseCountdown">0</p>
-      <p class="cockpit-unit" x-text="phaseSecondsRemaining < 60 ? 'seconds' : 'remaining'">seconds</p>
+      <p class="cockpit-unit" x-text="phaseCountdownUnit">seconds</p>
       <progress x-bind:value="phaseProgress" max="100"></progress>
     </div>
 
@@ -162,7 +162,7 @@
       <p class="k">Next</p>
       <p class="cockpit-next-name">
         <span x-text="nextPhase?.label"></span>
-        <span x-text="formatDuration((nextPhase?.duration || 0) / 60)"></span>
+        <span x-text="phaseLength(nextPhase)"></span>
       </p>
       <p class="k" x-text="phaseIntensity(nextPhase)"></p>
     </div>
