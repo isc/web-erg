@@ -35,10 +35,10 @@ class WorkoutTest < CapybaraTestBase
     page.execute_script(
       "localStorage.setItem('mockBluetoothFailure', 'GATT Server is disconnected.')"
     )
-    find_field('Bike').click
+    find_field('Ergometer').click
 
-    assert_text 'Bike: GATT Server is disconnected.'
-    assert_field 'Bike', with: 'Connect'
+    assert_text 'Ergometer: GATT Server is disconnected.'
+    assert_field 'Ergometer', with: 'Connect'
   end
 
   def test_closing_the_device_chooser_is_not_an_error
@@ -46,9 +46,9 @@ class WorkoutTest < CapybaraTestBase
       "localStorage.setItem('mockBluetoothFailure', " \
       "'User cancelled the requestDevice() chooser.')"
     )
-    find_field('Bike').click
+    find_field('Ergometer').click
 
-    assert_field 'Bike', with: 'Connect'
+    assert_field 'Ergometer', with: 'Connect'
     assert_no_selector '.device-error', visible: true
   end
 
@@ -64,9 +64,9 @@ class WorkoutTest < CapybaraTestBase
 
   def test_refusing_to_start_says_why
     click_on 'Start'
-    assert_text 'Connect your bike before starting.'
+    assert_text 'Connect your ergometer before starting.'
 
-    find_field('Bike').click
+    find_field('Ergometer').click
     click_on 'Start'
     assert_text 'Choose a workout before starting.'
   end

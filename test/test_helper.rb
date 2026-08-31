@@ -41,16 +41,31 @@ class CapybaraTestBase < Minitest::Test
   # rider turning the pedals: the runner only starts once power goes above zero.
   def ride(fixture: 'Mixed_And_Unusual.zwo', ftp: nil, heart_rate: false)
     page.execute_script("localStorage.setItem('ergPower', '150')")
-    find_field('Bike').click
+    find_field('Ergometer').click
     find_field('Heart Rate Monitor').click if heart_rate
     fill_in 'FTP (watts)', with: ftp.to_s if ftp
     attach_file('workoutFile', File.expand_path(fixture, __dir__), visible: false)
     click_on 'Start'
   end
 
-  # Capybara's own waiting covers the page; this covers the app's state behind it.
-  def wait_until
-    Timeout.timeout(Capybara.default_max_wait_time) { sleep 0.2 until yield }
+  # The same, on a Concept2. The mock then replays pm5-capture.js — the frames the real machine
+  # sent — instead of inventing a power packet, so the erg starts the workout by being rowed.
+  # `speed` compresses the capture's own clock; the default replays a 73-second piece in four.
+  def row(fixture: 'Rowing_Intervals.zwo', ftp: nil, session: 'fixed-100m', speed: nil)
+    page.execute_script("localStorage.setItem('mockErgometer', 'pm5')")
+    page.execute_script("localStorage.setItem('mockPm5Session', '#{session}')")
+    page.execute_script("localStorage.setItem('mockPm5Speed', '#{speed}')") if speed
+    find_field('Ergometer').click
+    fill_in 'Rowing FTP (watts)', with: ftp.to_s if ftp
+    attach_file('workoutFile', File.expand_path(fixture, __dir__), visible: false)
+    click_on 'Start'
+  end
+
+  # Capybara's own waiting covers the page; this covers the app's state behind it. The default is
+  # Capybara's, and a caller waiting on something slower than a render — a capture replaying, a
+  # phase turning over — says how long it is prepared to wait.
+  def wait_until(seconds = Capybara.default_max_wait_time)
+    Timeout.timeout(seconds) { sleep 0.2 until yield }
   end
 
   # Whatever the Alpine component currently holds, as `app.workoutSamples.length` would read it.

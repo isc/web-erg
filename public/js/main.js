@@ -4,10 +4,13 @@ import {
   connectErgometer,
   connectHeartRateMonitor,
   describeConnectionFailure,
+  ergometerCapabilities,
   setOnLog,
   setErgPower,
   setOnCadenceUpdate,
   setOnConnectionChange,
+  setOnDistanceUpdate,
+  setOnErgSummary,
   setOnHeartRateUpdate,
   setOnPowerUpdate
 } from './bluetooth.js'
@@ -19,10 +22,17 @@ import {
   formatDuration,
   formatForTimer,
   isTestEnv,
-  parseXmlDoc
+  parseXmlDoc,
+  reading
 } from './utils.js'
 import { downloadTcx, generateTcx } from './tcx-export.js'
 
+import {
+  formatDistance,
+  formatSplit,
+  splitDeviation,
+  splitFromPower
+} from './rowing.js'
 import { renderWorkoutSvg } from './workout-rendering.js'
 import { getZoneColor } from './zones.js'
 import { metric, summariseSession, zoneShare } from './session-summary.js'
@@ -47,6 +57,10 @@ window.workoutApp = function () {
     workoutSelected: false,
     showForm: true,
     ftp: 150,
+    // Rowing engages far more muscle mass than cycling, so a cycling FTP does not transpose: the
+    // same %FTP target that is an easy spin on a bike is unrowable. Two numbers, and the connected
+    // machine decides which one the workout is scaled by.
+    rowingFtp: 200,
     weight: 70,
     phaseProgress: 0,
     phaseSecondsRemaining: 0,
@@ -70,6 +84,14 @@ window.workoutApp = function () {
     recoveredSession: null,
     persistInterval: null,
     summary: null,
+    // What the connected machine can do. Defaults to the bike so that everything reads sensibly
+    // before anything is connected; replaced by the adapter's own descriptor on connection.
+    ergometer: { kind: 'bike', label: 'Ergometer', controlsPower: true },
+    distance: null,
+    powerTarget: null,
+    // The PM5's own account of the piece, when it gives one. Not every workout ends in a way that
+    // makes it: an unlimited repeating interval never finishes, so it is never summarised.
+    ergSummary: null,
 
     // Drives the "Bluetooth not supported" modal. Availability is the Bluetooth module's question:
     // it is the one that swaps in the mock, and headless browsers expose no navigator.bluetooth, so
@@ -81,6 +103,26 @@ window.workoutApp = function () {
     formatDuration,
     metric,
     zoneShare,
+
+    // A Concept2 is the machine that inverts the app: it takes no power target, so every difference
+    // between the two rides — what the cockpit shows, whether a target is sent, which sport the TCX
+    // claims — hangs off this one question.
+    get rowing() {
+      return this.ergometer.kind === 'rower'
+    },
+
+    // The FTP the workout is scaled by. One question, one answer, rather than each consumer
+    // deciding for itself which of the two stored numbers applies.
+    get trainingFtp() {
+      return this.rowing ? this.rowingFtp : this.ftp
+    },
+    set trainingFtp(value) {
+      if (this.rowing) this.rowingFtp = value
+      else this.ftp = value
+    },
+    get ftpLabel() {
+      return this.rowing ? 'Rowing FTP (watts)' : 'FTP (watts)'
+    },
 
     // The zone rows, or none: the markup asks for them four times and should not have to spell out
     // that there may be no summary yet each time.
@@ -109,8 +151,9 @@ window.workoutApp = function () {
       this.ergometerConnecting = true
       try {
         this.ergometerName = await connectErgometer()
+        this.ergometer = ergometerCapabilities()
       } catch (error) {
-        this.deviceError = describeConnectionFailure('Bike', error)
+        this.deviceError = describeConnectionFailure('Ergometer', error)
       } finally {
         this.ergometerConnecting = false
       }
@@ -149,7 +192,8 @@ window.workoutApp = function () {
     // the rider is still choosing a workout has to show something too.
     registerDeviceCallbacks() {
       setOnConnectionChange((device, state) => {
-        const label = device === 'ergometer' ? 'Bike' : 'Heart rate monitor'
+        const label =
+          device === 'ergometer' ? this.ergometer.label : 'Heart rate monitor'
         if (state === 'connected') this.connectionWarning = null
         else if (state === 'reconnecting')
           this.connectionWarning = `${label} disconnected — reconnecting…`
@@ -177,6 +221,16 @@ window.workoutApp = function () {
       setOnHeartRateUpdate(val => {
         this.heartRate = val
         this.addOrUpdateSample({ heartRate: val })
+      })
+      // Metres the rower actually covered, as the machine counted them. The bike never sends this:
+      // its distance is modelled from power when the activity is exported, and there is nothing
+      // live to show.
+      setOnDistanceUpdate(metres => {
+        this.distance = metres
+        this.addOrUpdateSample({ distance: metres })
+      })
+      setOnErgSummary(summary => {
+        this.ergSummary = summary
       })
     },
     captureScreenshot() {
@@ -208,7 +262,7 @@ window.workoutApp = function () {
         expandedPhases: phases,
         setErgPower,
         onWorkoutEnd: this.onWorkoutEnd.bind(this),
-        ftp: this.ftp,
+        ftp: this.trainingFtp,
         alpineInstance: this,
         workoutSvgEl: this.$refs.workoutSvg,
         xmlDoc,
@@ -239,7 +293,7 @@ window.workoutApp = function () {
       // silently: pressing Start did nothing at all, with nothing on screen to say why.
       this.startError = null
       if (!this.ergometerName) {
-        this.startError = 'Connect your bike before starting.'
+        this.startError = 'Connect your ergometer before starting.'
         return
       }
       if (!this.workoutSelected) {
@@ -248,7 +302,15 @@ window.workoutApp = function () {
       }
       if (!isTestEnv()) document.documentElement.requestFullscreen?.()
       localStorage.setItem('ftp', this.ftp)
+      localStorage.setItem('rowingFtp', this.rowingFtp)
       localStorage.setItem('weight', this.weight)
+      // The workout may have been loaded before anything was connected, when there was no way to
+      // know which of the two FTPs applied. This is the last moment at which the answer can change,
+      // and the phase on screen was published with the old one.
+      if (this.workoutRunner) {
+        this.workoutRunner.ftp = this.trainingFtp
+        this.workoutRunner.publishPhase()
+      }
       this.showWorkout = true
       this.showForm = false
       this.requestWakeLock()
@@ -268,6 +330,9 @@ window.workoutApp = function () {
         this.elapsedSeconds = this.elapsedTime + currentElapsed
         this.timer = formatForTimer(this.elapsedSeconds)
         this.cadenceTarget = this.workoutRunner.getCurrentCadenceTarget()
+        // Read every second rather than at each phase change: a ramp's target moves continuously,
+        // and on a rower this number is the entire instruction.
+        this.powerTarget = this.workoutRunner.currentPowerTarget()
       }, 1000)
     },
     get phaseZone() {
@@ -308,6 +373,62 @@ window.workoutApp = function () {
     phaseIntensity(phase) {
       const percent = this.phasePercent(phase)
       return phase?.watts == null ? percent : `${percent} · ${phase.watts} W`
+    },
+    /**
+     * Split, and the gap to the split the workout is asking for.
+     *
+     * Both numbers come out of the same conversion in rowing.js, applied to two wattages: the one
+     * the erg is reporting and the one the phase wants. Deriving the actual split from the PM5's own
+     * pace field instead would put a second estimator on screen next to the first, and the deviation
+     * between them would partly be the difference between the two estimators rather than the
+     * difference in effort. There is no ERG mode to hold the target here — this bar is the entire
+     * feedback loop, so it has to be honest about what it is measuring.
+     */
+    get currentSplit() {
+      return splitFromPower(reading(this.power))
+    },
+    get targetSplit() {
+      return splitFromPower(this.powerTarget?.watts)
+    },
+    get splitLabel() {
+      return formatSplit(this.currentSplit)
+    },
+    get targetSplitLabel() {
+      return formatSplit(this.targetSplit)
+    },
+    get distanceLabel() {
+      return this.distance == null ? '—' : formatDistance(this.distance)
+    },
+    get splitDelta() {
+      return splitDeviation(this.currentSplit, this.targetSplit)
+    },
+    // Negative is faster, because a smaller split is a better one — so the sign here reads the way
+    // a rower expects rather than the way a subtraction does.
+    get splitDeltaLabel() {
+      const delta = this.splitDelta
+      if (delta == null) return ''
+      const sign = delta > 0 ? '+' : delta < 0 ? '−' : '±'
+      return `${sign}${Math.abs(delta).toFixed(1)} s /500 m`
+    },
+    // Two seconds per 500 m is about what a good rower holds; past five the piece is a different
+    // piece. The same two thresholds colour the bar and the number, so they cannot disagree.
+    get splitStatus() {
+      const delta = this.splitDelta
+      if (delta == null) return ''
+      if (Math.abs(delta) <= 2) return 'split-good'
+      return Math.abs(delta) <= 5 ? 'split-close' : 'split-warning'
+    },
+    /**
+     * The deviation bar, as an inline style: a fill that grows from the centre towards whichever
+     * side the rower is on. Ten seconds per 500 m pins it — past that the exact size of the error
+     * has stopped being the useful information.
+     */
+    get splitDeviationStyle() {
+      const delta = this.splitDelta
+      if (delta == null) return '--from: 50%; --width: 0%'
+      const offset = Math.max(-50, Math.min(50, (delta / 10) * 50))
+      const from = offset >= 0 ? 50 : 50 + offset
+      return `--from: ${from}%; --width: ${Math.abs(offset)}%`
     },
     stopTimerUI() {
       if (this.timerInterval) clearInterval(this.timerInterval)
@@ -386,7 +507,7 @@ window.workoutApp = function () {
       this.stopTimerUI()
       // Computed once, here, rather than in a getter: a getter would re-walk every second of the
       // ride on each of Alpine's re-renders, and the samples stop changing the moment this runs.
-      this.summary = summariseSession(this.workoutSamples, this.ftp)
+      this.summary = summariseSession(this.workoutSamples, this.trainingFtp)
       this.workoutFinished = true
       this.isPaused = false
       this.releaseWakeLock()
@@ -463,6 +584,8 @@ window.workoutApp = function () {
       })
       const savedFtp = localStorage.getItem('ftp')
       if (savedFtp) this.ftp = parseInt(savedFtp)
+      const savedRowingFtp = localStorage.getItem('rowingFtp')
+      if (savedRowingFtp) this.rowingFtp = parseInt(savedRowingFtp)
       const savedWeight = localStorage.getItem('weight')
       if (savedWeight) this.weight = parseInt(savedWeight)
     }
