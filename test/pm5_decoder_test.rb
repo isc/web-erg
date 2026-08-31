@@ -8,6 +8,7 @@ require_relative 'test_helper'
 class Pm5DecoderTest < CapybaraTestBase
   MODULES = {
     pm5: '/js/ergometers/concept2-pm5.js',
+    bytes: '/js/ergometers/frame.js',
     capture: '/js/pm5-capture.js',
     rowing: '/js/rowing.js'
   }.freeze
@@ -18,8 +19,7 @@ class Pm5DecoderTest < CapybaraTestBase
     in_page_module(MODULES, <<~JS, uuid, which.to_s, decoder)
       const frames = capture.CAPTURES['fixed-100m'].frames.filter(f => f.uuid === args[0])
       const frame = args[1] === 'last' ? frames[frames.length - 1] : frames[0]
-      const bytes = Uint8Array.from(frame.hex.split(' '), b => parseInt(b, 16))
-      return pm5[args[2]](new DataView(bytes.buffer))
+      return pm5[args[2]](bytes.bytesFrom(frame.hex))
     JS
   end
 

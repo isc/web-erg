@@ -18,21 +18,37 @@
  *    the ten seconds after the final stroke of the captured piece.
  */
 
-import { CAPTURES } from './pm5-capture.js'
+import { bytesFrom } from './ergometers/frame.js'
+import { FITNESS_MACHINE_SERVICE } from './ergometers/ftms-bike.js'
+import {
+  ADDITIONAL_STATUS_1,
+  CONTROL_SERVICE,
+  DEVICE_INFO_SERVICE,
+  GENERAL_STATUS,
+  ROWING_SERVICE
+} from './ergometers/concept2-pm5.js'
 
 const CONTROL_POINT = '00002ad9-0000-1000-8000-00805f9b34fb'
 const POWER_MEASUREMENT = '00002a63-0000-1000-8000-00805f9b34fb'
-const FITNESS_MACHINE = '00001826-0000-1000-8000-00805f9b34fb'
 const CYCLING_POWER = '00001818-0000-1000-8000-00805f9b34fb'
+const HEART_RATE_CONTROL = 'ce060040-43e5-11e4-916c-0800200c9a66'
 
-const C2 = suffix => `ce0600${suffix}-43e5-11e4-916c-0800200c9a66`
-const PM5_SERVICES = [C2('10'), C2('20'), C2('30'), C2('40'), FITNESS_MACHINE]
-const BIKE_SERVICES = [FITNESS_MACHINE, CYCLING_POWER]
+// The services each machine answers for, taken from the adapters themselves. Spelling them out here
+// would let the mock's idea of what a PM5 is drift from the app's, and the drift would surface as
+// "the mock stopped looking like a rower" rather than as anything that points at the cause.
+const PM5_SERVICES = [
+  DEVICE_INFO_SERVICE,
+  CONTROL_SERVICE,
+  ROWING_SERVICE,
+  HEART_RATE_CONTROL,
+  FITNESS_MACHINE_SERVICE
+]
+const BIKE_SERVICES = [FITNESS_MACHINE_SERVICE, CYCLING_POWER]
 
 // The characteristics the PM5 broadcasts on a timer rather than on a stroke. Taken from the capture:
-// these four notified 144 times in the seventy-three seconds, the stroke ones only when a stroke
-// ended. It matters because it is what tells the adapter that the rowing has stopped.
-const PERIODIC = new Set([C2('31'), C2('32'), C2('33'), C2('3e')])
+// these notified 144 times in the seventy-three seconds, the stroke ones only when a stroke ended.
+// It matters because their carrying on is what tells the adapter that the rowing has stopped.
+const PERIODIC = new Set([GENERAL_STATUS, ADDITIONAL_STATUS_1])
 
 const DEFAULT_SPEED = 20
 const DEFAULT_SESSION = 'fixed-100m'
@@ -44,12 +60,6 @@ const CHARACTERISTIC_TYPES = {
   [POWER_MEASUREMENT]: 'power',
   heart_rate_measurement: 'hr',
   battery_level: 'battery'
-}
-
-function dataView(hex) {
-  return new DataView(
-    new Uint8Array(hex.split(' ').map(byte => parseInt(byte, 16))).buffer
-  )
 }
 
 function setting(key, fallback) {
@@ -124,13 +134,13 @@ function heartRate() {
  * is a single stream in wall-clock order: scheduling each characteristic separately would let the
  * status frames that close the piece arrive before the strokes that earn them.
  */
-function pm5Device() {
-  const session = CAPTURES[setting('mockPm5Session', DEFAULT_SESSION)]
+function pm5Device(captures) {
+  const session = captures[setting('mockPm5Session', DEFAULT_SESSION)]
   const speed = Number(setting('mockPm5Speed', DEFAULT_SPEED))
   const listeners = new Map()
   let started = false
 
-  const deliver = frame => listeners.get(frame.uuid)?.({ target: { value: dataView(frame.hex) } })
+  const deliver = frame => listeners.get(frame.uuid)?.({ target: { value: bytesFrom(frame.hex) } })
 
   function replay() {
     if (started) return
@@ -153,7 +163,7 @@ function pm5Device() {
       replay()
     }
     fake.readValue = () =>
-      Promise.resolve(dataView(session.reads[uuid] || '00'))
+      Promise.resolve(bytesFrom(session.reads[uuid] || '00'))
     return fake
   }
 
@@ -192,10 +202,12 @@ const mockBluetooth = {
       filter.services?.includes('heart_rate')
     )
     const rowing = setting('mockErgometer', 'bike') === 'pm5'
+    // Loaded here rather than imported at the top: the capture is 32 kB of hex that only a test
+    // ever reads, and a static import puts it on the module graph of every real page load.
     const machine = wantsHeartRate
       ? heartRateDevice()
       : rowing
-        ? pm5Device()
+        ? pm5Device((await import('./pm5-capture.js')).CAPTURES)
         : bikeDevice()
 
     // A real GATT server refuses a service the device does not have, and that refusal is how the

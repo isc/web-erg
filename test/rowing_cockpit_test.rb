@@ -17,13 +17,12 @@ class RowingCockpitTest < CapybaraTestBase
     row
 
     # Uppercased by the stylesheet, like every label in the cockpit.
-    within '.cockpit-rowing' do
+    within '.cockpit-metrics' do
       assert_text '/500 M'
       assert_text 'SPM'
       assert_text 'METRES'
+      assert_no_text 'RPM'
     end
-    # The bike's own metric row is the one that gets out of the way.
-    assert_no_selector '.cockpit-metrics:not(.cockpit-metrics-rowing)', visible: true
   end
 
   def test_the_wide_table_gains_split_and_distance
@@ -53,7 +52,7 @@ class RowingCockpitTest < CapybaraTestBase
   def test_split_and_target_are_the_same_conversion_of_two_wattages
     row
 
-    given(power: 213, powerTarget: { watts: 213 })
+    set_app_state(power: 213, targetWatts: 213)
 
     assert_equal '1:58.0', app_state('splitLabel')
     assert_equal '1:58.0', app_state('targetSplitLabel')
@@ -65,7 +64,7 @@ class RowingCockpitTest < CapybaraTestBase
     row
 
     # 213 W asks for 1:58.0; 180 W is 2:04.8, so nearly seven seconds per 500 m down.
-    given(power: 180, powerTarget: { watts: 213 })
+    set_app_state(power: 180, targetWatts: 213)
 
     assert_in_delta 6.81, app_state('splitDelta'), 0.05
     assert_equal 'split-warning', app_state('splitStatus')
@@ -75,7 +74,7 @@ class RowingCockpitTest < CapybaraTestBase
   def test_being_ahead_of_the_target_fills_the_bar_to_the_left
     row
 
-    given(power: 260, powerTarget: { watts: 213 })
+    set_app_state(power: 260, targetWatts: 213)
 
     assert_operator app_state('splitDelta'), :<, 0
     # The fill starts left of centre and ends exactly on it, which is the invariant that makes the
@@ -90,7 +89,7 @@ class RowingCockpitTest < CapybaraTestBase
   def test_the_deviation_bar_pins_rather_than_overflowing
     row
 
-    given(power: 60, powerTarget: { watts: 300 })
+    set_app_state(power: 60, targetWatts: 300)
 
     assert_equal '--from: 50%; --width: 50%', app_state('splitDeviationStyle')
   end
@@ -98,21 +97,9 @@ class RowingCockpitTest < CapybaraTestBase
   def test_no_target_means_no_gap_to_show
     row
 
-    given(power: 200, powerTarget: nil)
+    set_app_state(power: 200, targetWatts: nil)
 
     assert_equal '', app_state('splitDeltaLabel')
     assert_equal '--from: 50%; --width: 0%', app_state('splitDeviationStyle')
-  end
-
-  private
-
-  # Writes straight into the Alpine component. The replay decides when power arrives and what it is;
-  # these assertions are about the arithmetic on top of it, which needs a number they chose.
-  def given(values)
-    values.each do |key, value|
-      page.execute_script(
-        "Alpine.$data(document.querySelector('[x-data]')).#{key} = #{value.to_json}"
-      )
-    end
   end
 end

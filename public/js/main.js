@@ -10,7 +10,6 @@ import {
   setOnCadenceUpdate,
   setOnConnectionChange,
   setOnDistanceUpdate,
-  setOnErgSummary,
   setOnHeartRateUpdate,
   setOnPowerUpdate
 } from './bluetooth.js'
@@ -27,12 +26,7 @@ import {
 } from './utils.js'
 import { downloadTcx, generateTcx } from './tcx-export.js'
 
-import {
-  formatDistance,
-  formatSplit,
-  splitDeviation,
-  splitFromPower
-} from './rowing.js'
+import { formatDistance, formatSplit, splitFromPower } from './rowing.js'
 import { renderWorkoutSvg } from './workout-rendering.js'
 import { getZoneColor } from './zones.js'
 import { metric, summariseSession, zoneShare } from './session-summary.js'
@@ -84,14 +78,12 @@ window.workoutApp = function () {
     recoveredSession: null,
     persistInterval: null,
     summary: null,
-    // What the connected machine can do. Defaults to the bike so that everything reads sensibly
-    // before anything is connected; replaced by the adapter's own descriptor on connection.
-    ergometer: { kind: 'bike', label: 'Ergometer', controlsPower: true },
+    // What the connected machine can do — the adapter's own descriptor, which before anything is
+    // connected is the bike's. Written out here it would be a third copy of it, and it had already
+    // drifted from the two real ones.
+    ergometer: ergometerCapabilities(),
     distance: null,
-    powerTarget: null,
-    // The PM5's own account of the piece, when it gives one. Not every workout ends in a way that
-    // makes it: an unlimited repeating interval never finishes, so it is never summarised.
-    ergSummary: null,
+    targetWatts: null,
 
     // Drives the "Bluetooth not supported" modal. Availability is the Bluetooth module's question:
     // it is the one that swaps in the mock, and headless browsers expose no navigator.bluetooth, so
@@ -109,6 +101,13 @@ window.workoutApp = function () {
     // claims — hangs off this one question.
     get rowing() {
       return this.ergometer.kind === 'rower'
+    },
+
+    // The metrics the connected machine actually produces. The cockpit is built from this list
+    // rather than from a question about what kind of machine it is, so a third ergometer is a
+    // descriptor and not a new branch in the markup.
+    get metrics() {
+      return this.ergometer.metrics || []
     },
 
     // The FTP the workout is scaled by. One question, one answer, rather than each consumer
@@ -229,9 +228,6 @@ window.workoutApp = function () {
         this.distance = metres
         this.addOrUpdateSample({ distance: metres })
       })
-      setOnErgSummary(summary => {
-        this.ergSummary = summary
-      })
     },
     captureScreenshot() {
       // screenshotDataUrl used to double as the in-flight marker, holding `true` during the
@@ -304,13 +300,6 @@ window.workoutApp = function () {
       localStorage.setItem('ftp', this.ftp)
       localStorage.setItem('rowingFtp', this.rowingFtp)
       localStorage.setItem('weight', this.weight)
-      // The workout may have been loaded before anything was connected, when there was no way to
-      // know which of the two FTPs applied. This is the last moment at which the answer can change,
-      // and the phase on screen was published with the old one.
-      if (this.workoutRunner) {
-        this.workoutRunner.ftp = this.trainingFtp
-        this.workoutRunner.publishPhase()
-      }
       this.showWorkout = true
       this.showForm = false
       this.requestWakeLock()
@@ -331,8 +320,10 @@ window.workoutApp = function () {
         this.timer = formatForTimer(this.elapsedSeconds)
         this.cadenceTarget = this.workoutRunner.getCurrentCadenceTarget()
         // Read every second rather than at each phase change: a ramp's target moves continuously,
-        // and on a rower this number is the entire instruction.
-        this.powerTarget = this.workoutRunner.currentPowerTarget()
+        // and on a rower this number is the entire instruction. Stored as the number and not as the
+        // object the runner returns, which would be a fresh identity every second and would
+        // invalidate every binding that reads it through a phase where nothing changed.
+        this.targetWatts = this.workoutRunner.currentPowerTarget()?.watts ?? null
       }, 1000)
     },
     get phaseZone() {
@@ -388,7 +379,7 @@ window.workoutApp = function () {
       return splitFromPower(reading(this.power))
     },
     get targetSplit() {
-      return splitFromPower(this.powerTarget?.watts)
+      return splitFromPower(this.targetWatts)
     },
     get splitLabel() {
       return formatSplit(this.currentSplit)
@@ -397,10 +388,12 @@ window.workoutApp = function () {
       return formatSplit(this.targetSplit)
     },
     get distanceLabel() {
-      return this.distance == null ? '—' : formatDistance(this.distance)
+      return formatDistance(this.distance)
     },
     get splitDelta() {
-      return splitDeviation(this.currentSplit, this.targetSplit)
+      const { currentSplit, targetSplit } = this
+      if (currentSplit == null || targetSplit == null) return null
+      return currentSplit - targetSplit
     },
     // Negative is faster, because a smaller split is a better one — so the sign here reads the way
     // a rower expects rather than the way a subtraction does.
@@ -491,10 +484,12 @@ window.workoutApp = function () {
     },
     addOrUpdateSample(sample) {
       if (!this.workoutRunner?.isRunning() || this.isPaused) return
+      // Four streams now feed this — power, cadence, heart rate and the rower's distance — several
+      // times a second between them, and only about one call in four starts a sample. Building the
+      // ISO string before finding that out threw most of them away.
       const now = new Date()
-      const iso = now.toISOString()
       if (!this.lastSampleTime || now - this.lastSampleTime > 1500) {
-        this.workoutSamples.push({ time: iso })
+        this.workoutSamples.push({ time: now.toISOString() })
         this.lastSampleTime = now
       }
       const last = this.workoutSamples[this.workoutSamples.length - 1]

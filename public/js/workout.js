@@ -8,7 +8,7 @@ export class WorkoutRunner {
     expandedPhases,
     setErgPower,
     onWorkoutEnd,
-    ftp,
+    ftp = null,
     alpineInstance,
     workoutSvgEl,
     xmlDoc,
@@ -19,7 +19,7 @@ export class WorkoutRunner {
     this.totalDurationSeconds = totalDurationSeconds(expandedPhases)
     this.setErgPower = setErgPower
     this.onWorkoutEnd = onWorkoutEnd
-    this.ftp = ftp
+    this.fixedFtp = ftp
     this.currentPhaseIndex = 0
     this.currentPhaseElapsed = 0
     this.timer = null
@@ -30,6 +30,16 @@ export class WorkoutRunner {
     this.rawPhases = rawPhases
     this.xmlPath = xmlPath
     this.initializeAudioCoach()
+  }
+
+  /**
+   * Read, not copied. A workout can be loaded before any machine is connected, and which of the
+   * two FTPs applies is not knowable until one is — a rowing FTP is a different quantity from a
+   * cycling one. Snapshotting it at construction meant every wattage on screen had to be
+   * recomputed by hand at Start, and anything derived in between stayed quietly stale.
+   */
+  get ftp() {
+    return this.alpineInstance?.trainingFtp ?? this.fixedFtp
   }
 
   async initializeAudioCoach() {

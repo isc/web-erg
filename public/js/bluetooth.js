@@ -1,10 +1,10 @@
 import { isTestEnv } from './utils.js'
 import mockBluetooth from './bluetooth_mock.js'
-import { describeBytes, u8, u16 } from './ergometers/frame.js'
+import { decodeNotification, u8, u16 } from './ergometers/frame.js'
 import {
   CAPABILITIES as BIKE,
   FITNESS_MACHINE_SERVICE,
-  forgetControl,
+  closeBike,
   openBike,
   setTargetPower
 } from './ergometers/ftms-bike.js'
@@ -13,18 +13,16 @@ import {
   CONTROL_SERVICE,
   DEVICE_INFO_SERVICE,
   ROWING_SERVICE,
+  closePm5,
   openPm5
 } from './ergometers/concept2-pm5.js'
 
 const RECONNECT_DELAYS_MS = [1000, 2000, 4000, 8000, 15000]
 
-// Under a mock the whole capture replays in a few seconds, so six real seconds of silence would
-// outlast the session and never fire. The adapter takes the figure rather than reading the
-// environment itself: what counts as "stopped rowing" is the caller's question.
 const TEST_STROKE_TIMEOUT_MS = 1500
 
-let announcedFirstHeartRate = false
 let announcedFirstHeartRateReading = false
+let seenHeartRate = new Set()
 
 const bluetoothApi = isTestEnv() ? mockBluetooth : navigator.bluetooth
 
@@ -50,7 +48,6 @@ let onCadenceUpdate = () => {}
 let onHeartRateUpdate = () => {}
 let onConnectionChange = () => {}
 let onDistanceUpdate = () => {}
-let onErgSummary = () => {}
 
 export function setOnPowerUpdate(cb) {
   onPowerUpdate = cb
@@ -69,10 +66,39 @@ export function setOnConnectionChange(cb) {
 export function setOnDistanceUpdate(cb) {
   onDistanceUpdate = cb
 }
-// What the machine itself says the session was, when it says so. Only a rower does.
-export function setOnErgSummary(cb) {
-  onErgSummary = cb
-}
+
+/**
+ * The machines this app knows how to talk to.
+ *
+ * Each declares what it can do rather than what it is, and answers for itself whether a given GATT
+ * server is one of it. Adding the third — FTMS Rower firmware, or an OpenRowingMonitor emulating a
+ * PM5 — is a matter of appending an entry, not of editing the connection path.
+ *
+ * Order matters only in that the first match wins, and the two matchers are disjoint: a trainer has
+ * no rowing service and a Concept2 exposes neither cycling service.
+ */
+const ADAPTERS = [
+  {
+    capabilities: ROWER,
+    service: ROWING_SERVICE,
+    open: openPm5,
+    close: closePm5,
+    // Under a mock the whole capture replays in a few seconds, so six real seconds of silence would
+    // outlast the session and never fire. The adapter takes the figure rather than reading the
+    // environment itself: what counts as "stopped rowing" is the caller's question.
+    options: () => (isTestEnv() ? { strokeTimeoutMs: TEST_STROKE_TIMEOUT_MS } : {})
+  },
+  {
+    capabilities: BIKE,
+    service: FITNESS_MACHINE_SERVICE,
+    open: openBike,
+    close: closeBike,
+    setTargetPower,
+    options: () => ({})
+  }
+]
+
+let adapter = ADAPTERS[ADAPTERS.length - 1]
 
 /**
  * What the connected machine can do, which is not the same question as what it is. The rest of the
@@ -80,10 +106,8 @@ export function setOnErgSummary(cb) {
  * driven, a trainer can be driven and reports cadence, and every screen that differs between the
  * two differs on one of those facts.
  */
-let capabilities = BIKE
-
 export function ergometerCapabilities() {
-  return capabilities
+  return adapter.capabilities
 }
 
 /**
@@ -116,30 +140,29 @@ const handlers = {
   onPower: value => onPowerUpdate(value),
   onCadence: value => onCadenceUpdate(value),
   onStrokeRate: value => onCadenceUpdate(value),
-  onDistance: value => onDistanceUpdate(value),
-  onErgSummary: value => onErgSummary(value)
+  onDistance: value => onDistanceUpdate(value)
 }
 
 /**
  * Which machine is on the other end, asked of the machine rather than of its name.
  *
  * A PM5 advertises as "PM5 <serial>", but a renamed monitor or an OpenRowingMonitor emulating one
- * would not, and the answer that matters is whether the proprietary rowing service is there. A
- * trainer refuses it, which is the whole test.
+ * would not, and the answer that matters is which services are actually there. Asking for one the
+ * device does not have is refused, which is the whole test.
  */
 async function openErgometer(device) {
   const server = await device.gatt.connect()
-  try {
-    await server.getPrimaryService(ROWING_SERVICE)
-  } catch {
-    capabilities = BIKE
-    await openBike(server, handlers)
+  for (const candidate of ADAPTERS) {
+    try {
+      await server.getPrimaryService(candidate.service)
+    } catch {
+      continue
+    }
+    adapter = candidate
+    await candidate.open(server, handlers, candidate.options())
     return
   }
-  capabilities = ROWER
-  await openPm5(server, handlers, {
-    ...(isTestEnv() ? { strokeTimeoutMs: TEST_STROKE_TIMEOUT_MS } : {})
-  })
+  throw new Error('Connected, but this device speaks neither FTMS nor Concept2.')
 }
 
 export async function connectErgometer() {
@@ -163,11 +186,13 @@ export async function connectErgometer() {
   })
   log(`Connecting to ${device.name}...`)
   await openErgometer(device)
-  log(`✅ Connected and ready — ${capabilities.label.toLowerCase()}.`)
+  log(`✅ Connected and ready — ${adapter.capabilities.label.toLowerCase()}.`)
   onConnectionChange('ergometer', 'connected')
   device.addEventListener('gattserverdisconnected', () => {
     log('⚠️ Device disconnected.')
-    forgetControl()
+    // Whatever the adapter was still running on its own — a control characteristic it would keep
+    // writing to, a clock still pushing readings into a screen whose device is gone.
+    adapter.close()
     onPowerUpdate('-')
     onCadenceUpdate('-')
     reconnect(device, openErgometer, 'ergometer')
@@ -184,8 +209,8 @@ export async function connectErgometer() {
  * it simply stops being sent anywhere and starts being displayed instead.
  */
 export async function setErgPower(watts) {
-  if (!capabilities.controlsPower) return
-  await setTargetPower(watts)
+  if (!adapter.setTargetPower) return
+  await adapter.setTargetPower(watts)
 }
 
 async function openHeartRateMonitor(device) {
@@ -199,8 +224,8 @@ async function openHeartRateMonitor(device) {
     'characteristicvaluechanged',
     onHeartRateNotification
   )
-  announcedFirstHeartRate = false
   announcedFirstHeartRateReading = false
+  seenHeartRate = new Set()
   return server
 }
 
@@ -243,24 +268,24 @@ async function readBattery(server) {
 }
 
 function onHeartRateNotification(event) {
-  const value = event.target.value
-  if (!announcedFirstHeartRate) {
-    announcedFirstHeartRate = true
-    log(`✅ First heart rate packet: ${describeBytes(value)}`)
-  }
-  try {
-    readHeartRate(value)
-  } catch (error) {
-    log(`⚠️ Unreadable heart rate packet (${describeBytes(value)}): ${error}`)
-  }
-}
-
-function readHeartRate(value) {
-  const flags = u8(value, 0)
-  const hr = (flags & 0x01) === 0 ? u8(value, 1) : u16(value, 1)
+  const hr = decodeNotification({
+    seen: seenHeartRate,
+    key: 'heart_rate',
+    label: 'heart rate',
+    value: event.target.value,
+    decode: readHeartRate,
+    log
+  })
+  if (hr === null) return
   if (!announcedFirstHeartRateReading) {
     announcedFirstHeartRateReading = true
     log(`✅ First heart rate reading: ${hr} bpm`)
   }
   onHeartRateUpdate(hr)
+}
+
+// Bit 0 of the flags says whether the rate is one byte or two.
+function readHeartRate(value) {
+  const flags = u8(value, 0)
+  return (flags & 0x01) === 0 ? u8(value, 1) : u16(value, 1)
 }

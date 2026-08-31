@@ -7,3 +7,6 @@
 # What the coach said, synthesised on the fly and named at random. The pre-recorded audio a workout
 # ships with lives in a per-workout subdirectory and is versioned; these are throwaway.
 /public/audio/inworld_*.mp3
+# The raw Concept2 newsletter pages the WOD import fetches, kept so a re-run does not hit their
+# server 1500 times again. What is derived from them is committed; the HTML is not.
+/tmp/

@@ -101,14 +101,29 @@
       <progress x-bind:value="phaseProgress" max="100"></progress>
     </div>
 
-    <ul class="cockpit-metrics" x-show="!rowing">
+    <%# One metric row, built from what the connected machine says it produces. Split leads on a
+        rower because split is the number a rower reads; watts is the number the app happens to
+        compute it from. Heart rate is last and always there — it comes from a strap, not from the
+        ergometer, so no descriptor decides it. %>
+    <ul class="cockpit-metrics" x-bind:class="rowing && 'cockpit-metrics-rowing'">
+      <li x-show="metrics.includes('split')">
+        <span class="v" x-text="splitLabel" x-bind:class="splitStatus">—</span>
+        <span class="k">/500 m<span x-show="targetSplit" x-text="` ↑${targetSplitLabel}`"></span></span>
+      </li>
       <li>
         <span class="v" x-text="power">-</span>
         <span class="k">watts<span x-show="phase?.watts" x-text="` ↑${phase?.watts}`"></span></span>
       </li>
       <li>
         <span class="v" x-text="cadence" x-bind:class="getCadenceStatus()">-</span>
-        <span class="k">rpm<span x-text="cadenceTargetLabel"></span></span>
+        <span class="k"
+          ><span x-text="metrics.includes('strokeRate') ? 'spm' : 'rpm'">rpm</span
+          ><span x-text="cadenceTargetLabel"></span
+        ></span>
+      </li>
+      <li x-show="metrics.includes('distance')">
+        <span class="v" x-text="distanceLabel">—</span>
+        <span class="k">metres</span>
       </li>
       <li>
         <span class="v" x-text="heartRate">-</span>
@@ -116,41 +131,22 @@
       </li>
     </ul>
 
-    <%# The rowing cockpit. Split leads, because split is the number a rower reads and watts is the
-        number the app happens to compute it from — and because there is no ERG mode holding the
-        target here, so the gap between the two is the only instruction there is. Four metrics in
-        two rows rather than four columns: at 390px, four numbers across are four unreadable ones. %>
-    <div class="cockpit-rowing" x-show="rowing">
-      <ul class="cockpit-metrics cockpit-metrics-rowing">
-        <li>
-          <span class="v" x-text="splitLabel" x-bind:class="splitStatus">—</span>
-          <span class="k">/500 m<span x-show="targetSplit" x-text="` ↑${targetSplitLabel}`"></span></span>
-        </li>
-        <li>
-          <span class="v" x-text="cadence" x-bind:class="getCadenceStatus()">-</span>
-          <span class="k">spm<span x-text="cadenceTargetLabel"></span></span>
-        </li>
-        <li>
-          <span class="v" x-text="distanceLabel">—</span>
-          <span class="k">metres</span>
-        </li>
-        <li>
-          <span class="v" x-text="power">-</span>
-          <span class="k">watts<span x-show="phase?.watts" x-text="` ↑${phase?.watts}`"></span></span>
-        </li>
-      </ul>
-
-      <%# Centred on the target, filling towards whichever side of it the rower is. Ahead is left,
-          behind is right, and the colour is the same judgement the number above carries. %>
-      <div class="split-deviation" aria-hidden="true">
-        <span
-          class="split-deviation-fill"
-          x-bind:class="splitStatus"
-          x-bind:style="splitDeviationStyle"
-        ></span>
+    <%# Centred on the target, filling towards whichever side of it the rower is. Ahead is left,
+        behind is right, and the colour is the same judgement the split above carries. Built with
+        x-if rather than x-show: on a trainer none of it should be evaluated at all, let alone once
+        per power packet into hidden DOM. %>
+    <template x-if="metrics.includes('split')">
+      <div>
+        <div class="split-deviation" aria-hidden="true">
+          <span
+            class="split-deviation-fill"
+            x-bind:class="splitStatus"
+            x-bind:style="splitDeviationStyle"
+          ></span>
+        </div>
+        <p class="k split-deviation-label" x-text="splitDeltaLabel"></p>
       </div>
-      <p class="k split-deviation-label" x-text="splitDeltaLabel"></p>
-    </div>
+    </template>
 
     <div class="cockpit-next" x-show="nextPhase">
       <p class="k">Next</p>
@@ -177,23 +173,26 @@
     <thead>
       <tr>
         <th>Time</th>
-        <th x-show="rowing">Split</th>
+        <th x-show="metrics.includes('split')">Split</th>
         <th>Power</th>
-        <th x-text="rowing ? 'Stroke rate' : 'Cadence'">Cadence</th>
-        <th x-show="rowing">Distance</th>
+        <th x-text="metrics.includes('strokeRate') ? 'Stroke rate' : 'Cadence'">Cadence</th>
+        <th x-show="metrics.includes('distance')">Distance</th>
         <th>Heart Rate</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td x-text="timer">0:00</td>
-        <td x-show="rowing">
+        <td x-show="metrics.includes('split')">
           <span x-text="splitLabel" x-bind:class="splitStatus">—</span>
           <small class="cadence-target" x-show="targetSplit" x-text="' - Target: ' + targetSplitLabel"></small>
         </td>
         <td><span x-text="power">-</span> W</td>
         <td>
-          <span x-text="cadence + (rowing ? '  spm' : '  rpm')" x-bind:class="getCadenceStatus()">-</span>
+          <span
+            x-text="cadence + (metrics.includes('strokeRate') ? '  spm' : '  rpm')"
+            x-bind:class="getCadenceStatus()"
+          >-</span>
           <small 
             class="cadence-target"
             x-show="cadenceTarget?.type === 'fixed'" 
@@ -205,7 +204,7 @@
             x-text="' - Target: ' + cadenceTarget?.min + '-' + cadenceTarget?.max">
           </small>
         </td>
-        <td x-show="rowing"><span x-text="distanceLabel">—</span> m</td>
+        <td x-show="metrics.includes('distance')"><span x-text="distanceLabel">—</span> m</td>
         <td><span x-text="heartRate">-</span> bpm</td>
       </tr>
     </tbody>

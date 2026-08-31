@@ -62,9 +62,11 @@ main.container {
 table.workout-data {
   table-layout: fixed;
   width: 100%;
+  /* Even columns, however many there are. A fixed 25 % was right for the four a trainer has and
+     wrong for the six a rower adds. */
   th,
   td {
-    width: 25%;
+    width: auto;
   }
 }
 
@@ -386,14 +388,17 @@ table.workout-data {
   left: var(--from, 50%);
   width: var(--width, 0%);
   border-radius: 5px;
-  background: var(--pico-muted-color);
   transition: left 0.3s ease, width 0.3s ease;
 }
 
-/* One judgement, three places: the split, the bar, and the number under it. */
-.split-good { color: #4caf50; }
-.split-close { color: #ffc107; }
-.split-warning { color: #f44336; }
-.split-deviation-fill.split-good { background: #4caf50; }
-.split-deviation-fill.split-close { background: #ffc107; }
-.split-deviation-fill.split-warning { background: #f44336; }
+/* One judgement, three places: the split, the bar, and the number under it. Named once as a custom
+   property so the bar's fill and the text it explains cannot come to disagree — and taken from the
+   theme where the theme has an opinion, the same two variables .cadence-good and .cadence-warning
+   already use. Only the middle band is new. */
+.split-good { --split-color: var(--pico-ins-color); }
+.split-close { --split-color: #ffc107; }
+.split-warning { --split-color: var(--pico-del-color); }
+.split-good,
+.split-close,
+.split-warning { color: var(--split-color); }
+.split-deviation-fill { background: var(--split-color, var(--pico-muted-color)); }

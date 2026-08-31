@@ -45,18 +45,11 @@ export function formatSplit(seconds) {
   return `${minutes}:${rest.toFixed(1).padStart(4, '0')}`
 }
 
-// Signed, in seconds per 500 m, and negative means faster — the sign a rower expects, since a
-// smaller split is a better one.
-export function splitDeviation(actualSplit, targetSplit) {
-  if (actualSplit == null || targetSplit == null) return null
-  return actualSplit - targetSplit
-}
-
-// Metres, as the cockpit says them: whole numbers below a kilometre, one decimal above, where the
-// last few metres stop being the thing you are reading.
+// Metres, as the cockpit says them: whole numbers below a kilometre, kilometres above, where the
+// last few metres stop being the thing you are reading. Nothing rowed reads as an em dash, the
+// same as a split nobody has produced yet — a machine that has not spoken is not a machine at zero.
 export function formatDistance(metres) {
-  const value = Number(metres)
-  if (!isFinite(value)) return '—'
-  if (value < 1000) return String(Math.round(value))
-  return `${(value / 1000).toFixed(2)} km`
+  if (metres == null || !isFinite(metres)) return '—'
+  if (metres < 1000) return String(Math.round(metres))
+  return `${(metres / 1000).toFixed(2)} km`
 }

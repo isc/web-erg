@@ -14,7 +14,7 @@
  * adapter reads and never writes, and the app becomes the metronome.
  */
 
-import { describeBytes, u8, u16, u24 } from './frame.js'
+import { decodeNotification, u8, u16, u24 } from './frame.js'
 
 const C2 = suffix => `ce0600${suffix}-43e5-11e4-916c-0800200c9a66`
 
@@ -35,7 +35,9 @@ export const CAPABILITIES = {
   kind: 'rower',
   label: 'Rower',
   controlsPower: false,
-  metrics: ['power', 'strokeRate', 'split', 'distance']
+  // The cockpit is built from this list rather than from a question about what kind of machine is
+  // connected: split leads on a rower, and distance is a metric a trainer simply does not have.
+  metrics: ['split', 'power', 'strokeRate', 'distance']
 }
 
 // A stroke is two to three seconds; power arrives once per stroke, not continuously. Six seconds is
@@ -169,21 +171,18 @@ export function decodeWorkoutSummary(view) {
 let live = {}
 let handlers = {}
 let staleTimer = null
-let announced = new Set()
+let strokeTimeout = STROKE_TIMEOUT_MS
+let seen = new Set()
 
-// Once per characteristic, and only the first time: the raw bytes of a packet that did not parse
-// are the only clue there is, and on a phone nobody is reading a console.
-function decodeOrLog(uuid, label, value, decode) {
-  if (!announced.has(uuid)) {
-    announced.add(uuid)
-    handlers.log(`✅ First ${label} packet: ${describeBytes(value)}`)
-  }
-  try {
-    return decode(value)
-  } catch (error) {
-    handlers.log(`⚠️ Unreadable ${label} packet (${describeBytes(value)}): ${error}`)
-    return null
-  }
+function decode(uuid, label, value, decoder) {
+  return decodeNotification({
+    seen,
+    key: uuid,
+    label,
+    value,
+    decode: decoder,
+    log: handlers.log
+  })
 }
 
 /**
@@ -195,16 +194,20 @@ function decodeOrLog(uuid, label, value, decode) {
  * reporting 23 spm ten seconds after the final stroke — and only the absence of new strokes says so.
  */
 function publishStrokeRate() {
-  const stale = !live.lastStrokeAt || Date.now() - live.lastStrokeAt > live.strokeTimeoutMs
-  const rowing = !stale && live.strokeRate > 0
-  handlers.onStrokeRate(rowing ? live.strokeRate : '-')
+  const stale = !live.lastStrokeAt || Date.now() - live.lastStrokeAt > strokeTimeout
+  const rate = !stale && live.strokeRate > 0 ? live.strokeRate : '-'
+  // Only on a change. This runs from the 1 Hz status, from every stroke, and from the stale timer,
+  // and each publication costs the app a pause-or-resume decision and a sample write.
+  if (rate === live.published) return
+  live.published = rate
+  handlers.onStrokeRate(rate)
   // A rower who has stopped is producing no watts, whatever the last stroke said. Saying so keeps
   // the recorded session honest and stops the summary averaging in work nobody did.
-  if (stale) handlers.onPower(0)
+  if (rate === '-') handlers.onPower(0)
 }
 
 function onGeneralStatus(value) {
-  const status = decodeOrLog(GENERAL_STATUS, 'PM5 status', value, decodeGeneralStatus)
+  const status = decode(GENERAL_STATUS, 'PM5 status', value, decodeGeneralStatus)
   if (!status) return
   handlers.onDistance(status.distance)
   if (live.dragFactor !== status.dragFactor) {
@@ -219,14 +222,14 @@ function onGeneralStatus(value) {
 }
 
 function onAdditionalStatus1(value) {
-  const status = decodeOrLog(ADDITIONAL_STATUS_1, 'PM5 stroke rate', value, decodeAdditionalStatus1)
+  const status = decode(ADDITIONAL_STATUS_1, 'PM5 stroke rate', value, decodeAdditionalStatus1)
   if (!status) return
   live.strokeRate = status.strokeRate
   publishStrokeRate()
 }
 
 function onAdditionalStrokeData(value) {
-  const stroke = decodeOrLog(ADDITIONAL_STROKE_DATA, 'PM5 stroke', value, decodeAdditionalStrokeData)
+  const stroke = decode(ADDITIONAL_STROKE_DATA, 'PM5 stroke', value, decodeAdditionalStrokeData)
   if (!stroke) return
   live.lastStrokeAt = Date.now()
   handlers.onPower(stroke.power)
@@ -234,15 +237,17 @@ function onAdditionalStrokeData(value) {
 }
 
 function onSplitData(value) {
-  const split = decodeOrLog(SPLIT_DATA, 'PM5 split', value, decodeSplitData)
+  const split = decode(SPLIT_DATA, 'PM5 split', value, decodeSplitData)
   if (split) handlers.log(`Split ${split.number}: ${split.splitDistance} m in ${split.splitTime} s.`)
 }
 
+// The machine's own account of the piece. Nothing in the app consumes it: the summary panel and the
+// export are built from the samples, and a second total on screen from a second source would
+// eventually disagree with the first. It is worth a line in the device log, which is where the
+// rider looks when the two do disagree.
 function onWorkoutSummary(value) {
-  const summary = decodeOrLog(WORKOUT_SUMMARY, 'PM5 summary', value, decodeWorkoutSummary)
-  if (!summary) return
-  handlers.log(`PM5 summary: ${summary.distance} m in ${summary.elapsed} s.`)
-  handlers.onErgSummary(summary)
+  const summary = decode(WORKOUT_SUMMARY, 'PM5 summary', value, decodeWorkoutSummary)
+  if (summary) handlers.log(`PM5 summary: ${summary.distance} m in ${summary.elapsed} s.`)
 }
 
 const SUBSCRIPTIONS = [
@@ -260,8 +265,9 @@ const SUBSCRIPTIONS = [
  */
 export async function openPm5(server, callbacks, { strokeTimeoutMs = STROKE_TIMEOUT_MS } = {}) {
   handlers = callbacks
-  live = { strokeTimeoutMs, strokeRate: 0, lastStrokeAt: null }
-  announced = new Set()
+  strokeTimeout = strokeTimeoutMs
+  live = { strokeRate: 0, lastStrokeAt: null, published: null }
+  seen = new Set()
   const service = await server.getPrimaryService(ROWING_SERVICE)
   for (const [uuid, onNotification] of SUBSCRIPTIONS) {
     const characteristic = await service.getCharacteristic(uuid)
@@ -272,6 +278,14 @@ export async function openPm5(server, callbacks, { strokeTimeoutMs = STROKE_TIME
   }
   // The status characteristics keep firing after the last stroke, so nothing else would ever notice
   // that the rowing stopped. This is the only clock in the adapter.
-  if (staleTimer) clearInterval(staleTimer)
+  closePm5()
   staleTimer = setInterval(publishStrokeRate, 1000)
+}
+
+// A disconnected erg is not a stopped one, and the difference matters: left running, this clock
+// keeps pushing '-' and 0 W into a screen whose device is gone, and holds the whole component alive
+// through the handlers for as long as the tab is open.
+export function closePm5() {
+  clearInterval(staleTimer)
+  staleTimer = null
 }

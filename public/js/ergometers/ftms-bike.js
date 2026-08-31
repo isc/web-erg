@@ -7,7 +7,7 @@
  * turn the pedals.
  */
 
-import { describeBytes, i16, u16 } from './frame.js'
+import { decodeNotification, i16, u16 } from './frame.js'
 
 export const FITNESS_MACHINE_SERVICE = '00001826-0000-1000-8000-00805f9b34fb'
 export const FITNESS_MACHINE_CONTROL_POINT = '00002ad9-0000-1000-8000-00805f9b34fb'
@@ -31,8 +31,8 @@ let handlers = {}
 let prevCrankRevs = null
 let prevCrankEventTime = null
 let lastCadence = null
-let announcedFirstPower = false
 let announcedFirstPowerReading = false
+let seen = new Set()
 
 /**
  * FTMS requires the client to be granted control before any other control-point opcode is honoured,
@@ -112,11 +112,13 @@ export async function openBike(server, callbacks) {
   // cadence spike before the next revolution lands.
   prevCrankRevs = null
   prevCrankEventTime = null
-  announcedFirstPower = false
   announcedFirstPowerReading = false
+  seen = new Set()
 }
 
-export function forgetControl() {
+// A trainer that has gone away cannot be sent a target, and pretending otherwise turns every
+// second of the workout into a failed write.
+export function closeBike() {
   controlCharacteristic = null
 }
 
@@ -138,16 +140,21 @@ export async function setTargetPower(watts) {
 }
 
 function onCyclingPowerNotification(event) {
-  const value = event.target.value
-  if (!announcedFirstPower) {
-    announcedFirstPower = true
-    handlers.log(`✅ First trainer packet: ${describeBytes(value)}`)
+  const reading = decodeNotification({
+    seen,
+    key: CYCLING_POWER_MEASUREMENT,
+    label: 'trainer',
+    value: event.target.value,
+    decode: readCyclingPower,
+    log: handlers.log
+  })
+  if (!reading) return
+  if (!announcedFirstPowerReading) {
+    announcedFirstPowerReading = true
+    handlers.log(`✅ First trainer reading: ${reading.power} W`)
   }
-  try {
-    readCyclingPower(value)
-  } catch (error) {
-    handlers.log(`⚠️ Unreadable trainer packet (${describeBytes(value)}): ${error}`)
-  }
+  handlers.onPower(reading.power)
+  handlers.onCadence(reading.power === 0 ? '-' : reading.cadence)
 }
 
 function readCyclingPower(value) {
@@ -177,10 +184,5 @@ function readCyclingPower(value) {
     prevCrankEventTime = crankEventTime
     cadence = lastCadence !== null ? lastCadence : '-'
   }
-  if (!announcedFirstPowerReading) {
-    announcedFirstPowerReading = true
-    handlers.log(`✅ First trainer reading: ${instantaneousPower} W`)
-  }
-  handlers.onPower(instantaneousPower)
-  handlers.onCadence(instantaneousPower === 0 ? '-' : cadence)
+  return { power: instantaneousPower, cadence }
 }
