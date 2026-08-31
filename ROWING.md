@@ -17,7 +17,12 @@ consumed by the Bluetooth layer and starts being consumed by the display alone.
 
 Note that the PM5 *can* be programmed with a workout over its control service (CSAFE), so the
 monitor shows its own splits. That is a later refinement, not a substitute: it still does not
-control resistance.
+control resistance — and it caps out early (see [Programming the monitor](#programming-the-monitor-csafe)).
+
+Standard FTMS is not an alternative route: it has **no structured-workout push at all**. That is
+first-hand from the OpenRowingMonitor lead developer, who implements both protocols
+([forum.intervals.icu, post #23](https://forum.intervals.icu/t/intervals-row-a-workout-player-for-concept2-rowers/120499/23)).
+Whatever guidance the app gives, it gives on its own screen.
 
 ## What carries over, and what does not
 
@@ -32,7 +37,7 @@ cycling FTP does not transpose.
 | Cadence (rpm) | Stroke rate (spm) — same slot, different range, different targets |
 | — | **Split /500 m**, the number a rower actually reads: `W = 2.80 / pace³` (pace in s/m), and its inverse to display a target |
 | Distance modelled by `virtualSpeedFromPower` | **Real** distance from the PM5 — the whole aero model goes |
-| Pause = cadence absent | The PM5 exposes a workout state, and reports power averaged **per stroke** (so ~every 2 s at 30 spm, not continuously) |
+| Pause = cadence absent | The PM5 exposes a workout state, and reports power averaged **per stroke** (so ~every 2 s at 30 spm, not continuously) — with its own idea of what counts as rest, see [Reporting quirks](#reporting-quirks-to-design-around) |
 | Coggan zones | UT2/UT1/AT/TR/AN bands — `zones.js` is already a single table, to be parameterised |
 | TCX `Sport="Biking"` | `Sport="Other"` (the schema allows only Running/Biking/Other); fix the type in Strava after import |
 
@@ -64,6 +69,14 @@ Two problems are structural rather than a matter of filtering:
    UT1 ≈ +16, AT ≈ +10, TR ≈ +5), not from a percentage of FTP. Arithmetically convertible, but the
    boundaries do not land in the same places.
 
+   There is a second-order problem underneath: a rowing FTP is normally *derived from a 2 km time*,
+   a ~6–7 minute effort, whereas the cycling notion assumes 30–60 minutes of time-to-exhaustion.
+   The two are not the same quantity, and %FTP targets built on the cycling assumption come out too
+   hard at and below threshold. A coach in the thread ships a correction for exactly this, calling
+   it "Power EQ" ([post #34](https://forum.intervals.icu/t/intervals-row-a-workout-player-for-concept2-rowers/120499/34));
+   he gives no formula. If we scale `%FTP → watts` at all for rowing, this is the place, and it
+   needs its own calibration rather than a borrowed constant.
+
 ## Survey of existing rowing workout sources (August 2026)
 
 No ready-made machine-readable rowing workout library exists.
@@ -73,7 +86,8 @@ No ready-made machine-readable rowing workout library exists.
 | [ErgZone](https://www.erg.zone/) | Preloads the Concept2 dailies and handles custom workouts, but no documented export or public API ([FAQ](https://help.erg.zone/article/147-concept2-workouts)) — closed ecosystem |
 | [ErgData / C2 Logbook](https://www.concept2.com/ergdata) | Logs *results*; stores no workout definitions |
 | [intervals.icu](https://forum.intervals.icu/t/intervals-row-a-workout-player-for-concept2-rowers/120499) | Structured workouts, rowing support, a PM5 player in progress — but you author the workouts yourself; no library |
-| [OpenRowingMonitor](https://github.com/JaapvanEkris/openrowingmonitor) | A real interval model (distance / SPM / speed targets, **no power targets**) — a good precedent for the format, no catalogue |
+| [OpenRowingMonitor](https://github.com/JaapvanEkris/openrowingmonitor) | A real interval model (distance / SPM / speed targets, **no power targets**) — a good precedent for the format, no catalogue. Also the best PM5 documentation and a PM5 emulator, see below |
+| [Ride Cave](https://ridecave.com) | Closest architectural precedent: browser-based, Web Bluetooth straight to the trainer, intervals.icu-integrated, free, no install. Cycling today; the author says rowing is planned. Not known to be open source |
 | [The Pete Plan](https://thepeteplan.wordpress.com/the-pete-plan/) | Prose on a WordPress blog |
 
 ## The corpus that does exist: the Concept2 WOD archive
@@ -121,6 +135,10 @@ store the result in the repo alongside the `.zwo` files so nothing depends on it
 1. **Probe the PM5 over Bluetooth** — `/probe`, in this branch. Nothing below is worth writing
    before its output is in hand.
 2. **A PM5 adapter** plus its mock in `bluetooth_mock.js`, so the rest is testable without the erg.
+   Second target for the same adapter: **OpenRowingMonitor**, which emulates a PM5 as a real BLE
+   peripheral. A mock exercises our own parsing against our own assumptions; ORM exercises it
+   against an independent implementation of the protocol, over a real radio. Its author offered to
+   test the app against ORM ([post #23](https://forum.intervals.icu/t/intervals-row-a-workout-player-for-concept2-rowers/120499/23)).
 3. **A rowing cockpit**: target split against actual split, deviation bar, stroke rate, distance.
 4. **Summary and export** adapted (real distance, `Sport="Other"`).
 5. **The workout format**, extended with distance-based phases, and the WOD archive imported into it.
@@ -136,25 +154,88 @@ setting to flip: the two machines are never in the same room.
 One repository, one app. A separate fork would duplicate the `.zwo` pipeline and the 1378 workouts
 to save one indirection.
 
-## PM5 Bluetooth — hypothesis to be confirmed by the probe
+## PM5 Bluetooth
 
 The PM5 speaks a **proprietary Concept2 service**, not standard FTMS. Recent firmware is reported to
-add FTMS Rower as well; the probe answers that. From the C2 "PM Bluetooth Smart Communication
-Interface Definition", base UUID `CE06xxxx-43E5-11E4-916C-0800200C9A66`:
+add FTMS Rower as well; the probe answers that. The device advertises with a name beginning `PM5`.
 
-| UUID | What it should be |
-|---|---|
-| `CE060010-…` | Device information service (`0011` model, `0012` serial, `0014` firmware) |
-| `CE060020-…` | Control service — `0021` receive (CSAFE, write), `0022` transmit (notify) |
-| `CE060030-…` | Rowing service |
-| `CE060031-…` | General status |
-| `CE060032-…` / `CE060033-…` | Additional status 1 and 2 |
-| `CE060035-…` | Stroke data |
-| `CE060036-…` | Additional stroke data |
-| `CE060037-…` | Split / interval data |
-| `CE06003D-…` | Multiplexed information |
+### The documentation exists, and it is not ours to write
 
-Every row above is from memory and none of it has been checked against hardware. The probe dumps
-what is actually there, which is the point of running it first.
+Concept2 publishes the protocol as two public PDFs, no account needed:
 
-The device advertises with a name beginning `PM5`.
+- [PM5 Bluetooth Smart Interface Specification](https://www.concept2.co.uk/files/pdf/us/monitors/PM5_BluetoothSmartInterfaceDefinition.pdf), rev 1.30
+- [PM CSAFE Communication Definition](https://www.concept2.co.uk/files/pdf/us/monitors/PM5_CSAFECommunicationDefinition.pdf), rev 0.27
+
+More useful still, OpenRowingMonitor documents the protocol *as observed on the wire* — Bluetooth
+traces, field-by-field, plus the behaviours the spec leaves ambiguous:
+[`docs/PM5_Interface.md`](https://github.com/JaapvanEkris/openrowingmonitor/blob/main/docs/PM5_Interface.md).
+It also lists which characteristics ErgZone and EXR actually subscribe to, which is a free
+priority list for the adapter.
+
+Characteristics, from that document (short IDs; the base UUID
+`CE06xxxx-43E5-11E4-916C-0800200C9A66` is still from memory and the probe confirms it):
+
+| ID | What it carries | When it fires |
+|---|---|---|
+| `0x0031` General Status | Workout state, interval type, elapsed, distance | every broadcast interval |
+| `0x0032` Additional Status | | every broadcast interval |
+| `0x0033` Additional Status 2 | | every broadcast interval |
+| `0x003E` Additional Status 3 | | every broadcast interval |
+| `0x0035` Stroke Data | | end of drive, and again end of recovery |
+| `0x0036` Additional Stroke Data | | end of drive |
+| `0x003D` Force Curve Data | | end of drive |
+| `0x0037` Split Data | | end of split |
+| `0x0038` Additional Split Data | | end of split |
+| `0x0039` Workout Summary | | end of workout |
+| `0x003A` Additional Workout Summary | | end of workout |
+| `0x003F` Logged Workout | | end of workout |
+
+Two corrections to what this file previously guessed: `0x003D` is the **force curve**, not
+multiplexed information, and the whole `0x0038`–`0x003F` range — split, summary and logged-workout
+messages — was missing. The force curve is per-stroke and free; nothing in the app consumes it
+today, but it is the one rowing metric with no cycling equivalent.
+
+### Programming the monitor (CSAFE)
+
+The sequence to push a workout, per interval, is a string of commands closed by
+`CSAFE_PM_SET_SCREENSTATE`:
+
+```
+CSAFE_PM_SET_WORKOUTINTERVALCOUNT
+CSAFE_PM_SET_WORKOUTTYPE
+CSAFE_PM_SET_INTERVALTYPE
+CSAFE_PM_SET_WORKOUTDURATION
+CSAFE_PM_SET_RESTDURATION
+CSAFE_PM_CONFIGURE_WORKOUT
+```
+
+**The monitor accepts at most 50 intervals.** That figure comes from the forum thread, not from a
+measurement here, and it is the reason the app in that thread exists at all: an over-under or a
+Ronstadt session runs to 80+ intervals and simply cannot be loaded. Our own WOD corpus stays well
+under 50, so the ceiling is not binding for step 5 — but it does mean CSAFE can never be the app's
+only way of expressing a workout.
+
+Interval types are `distance`, `time` and `calories`. Note the structural mismatch: a PM5 workout is
+either *one* piece with identical splits, or *several* intervals of varying length with no splits
+inside them. Our phase model, which nests freely, does not map onto that one-to-one.
+
+### Reporting quirks to design around
+
+From ORM's traces — these are behaviours, not fields, and they are the kind of thing a probe run
+will not reveal on its own:
+
+- **Splits are reported late.** The PM5 sends a split summary *after* the split has ended, i.e.
+  already inside the next one. The cockpit must not read that as the new split's data.
+- **Rest is an attribute of an interval, not an entity.** When a planned pause starts, the PM5 emits
+  no split report; the rest data arrives folded into the report that closes the interval.
+  `0x0031`'s interval type flips to `INTERVALTYPE_REST` while `0x0037` still says `INTERVALTYPE_DIST`.
+- **Unplanned pauses do not exist.** Stop rowing mid-piece and the PM5 keeps the clock running, does
+  not change split, and counts the whole thing as *moving* time. Our summary and TCX export decide
+  whether to reproduce that or to correct it; ErgData and the C2 logbook reproduce it, so a
+  corrected number will not match what the rower sees elsewhere.
+
+### What the probe is still for
+
+The documentation above is third-party and vendor PDFs, not this hardware. The probe answers: which
+services this firmware actually exposes, whether FTMS Rower is among them, the real broadcast
+interval, and whether the base UUID above is right. It stays step 1.
