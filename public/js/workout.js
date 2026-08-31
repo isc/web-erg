@@ -44,20 +44,35 @@ export class WorkoutRunner {
     const phase = this.expandedPhases[this.currentPhaseIndex]
     if (!phase?.duration) {
       this.alpineInstance.phaseProgress = 0
-      this.alpineInstance.phaseTimeRemaining = '0:00'
+      this.alpineInstance.phaseSecondsRemaining = 0
       return
     }
     const percent = Math.min(this.currentPhaseElapsed / phase.duration, 1) * 100
     this.alpineInstance.phaseProgress = isNaN(percent) ? 0 : percent
 
-    const remainingSeconds = Math.max(
+    this.alpineInstance.phaseSecondsRemaining = Math.max(
       0,
-      phase.duration - this.currentPhaseElapsed
+      Math.round(phase.duration - this.currentPhaseElapsed)
     )
-    this.alpineInstance.phaseTimeRemaining = formatForTimer(remainingSeconds)
+  }
+
+  /**
+   * Pushed when the phase changes rather than polled every second: a phase lasts minutes, and
+   * reassigning freshly built objects each tick made every binding that reads them look changed.
+   */
+  publishPhase() {
+    if (!this.alpineInstance) return
+    this.alpineInstance.phase = {
+      ...this.phaseSummary(this.currentPhaseIndex),
+      number: this.currentPhaseIndex + 1,
+      count: this.expandedPhases.length
+    }
+    this.alpineInstance.nextPhase = this.phaseSummary(this.currentPhaseIndex + 1)
   }
 
   updatePhaseClasses() {
+    if (this.renderedPhase === this.currentPhaseIndex) return
+    this.renderedPhase = this.currentPhaseIndex
     const svg = this.workoutSvgEl.querySelector('svg')
     if (!svg) return
     let current = null
@@ -69,12 +84,10 @@ export class WorkoutRunner {
         current = el
       }
     })
-    // Only when the phase changes: on a phone the graph is wider than the screen and scrolls, and
-    // yanking it back every second would fight the rider's own scrolling.
-    if (current && this.scrolledToPhase !== this.currentPhaseIndex) {
-      this.scrolledToPhase = this.currentPhaseIndex
-      current.scrollIntoView({ inline: 'center', block: 'nearest' })
-    }
+    this.publishPhase()
+    // On a phone the graph is wider than the screen and scrolls; keeping the current bar in view
+    // is worth one layout, once per phase.
+    current?.scrollIntoView({ inline: 'center', block: 'nearest' })
   }
 
   getCurrentCadenceTarget() {
@@ -111,6 +124,7 @@ export class WorkoutRunner {
     this.currentPhaseIndex = 0
     this.currentPhaseElapsed = 0
     this.totalElapsed = 0
+    this.renderedPhase = null
     this.sendCurrentErg()
     this.updatePhaseProgressBar()
     this.updatePhaseClasses()
@@ -134,6 +148,7 @@ export class WorkoutRunner {
     clearInterval(this.timer)
     this.timer = null
     this.onWorkoutEnd()
+    this.renderedPhase = null
     this.updatePhaseClasses()
   }
 
@@ -179,21 +194,6 @@ export class WorkoutRunner {
     )
     if (relative === null) return null
     return { relative, watts: Math.round(relative * this.ftp) }
-  }
-
-  /** How much of the whole session is behind, as a percentage. */
-  sessionProgress() {
-    if (!this.totalDurationSeconds) return 0
-    return Math.min(
-      100,
-      ((this.totalElapsed || 0) / this.totalDurationSeconds) * 100
-    )
-  }
-
-  currentPhaseSecondsRemaining() {
-    const phase = this.expandedPhases[this.currentPhaseIndex]
-    if (!phase?.duration) return 0
-    return Math.max(0, Math.round(phase.duration - this.currentPhaseElapsed))
   }
 
   sendCurrentErg() {

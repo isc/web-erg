@@ -47,7 +47,7 @@ window.workoutApp = function () {
     ftp: 150,
     weight: 70,
     phaseProgress: 0,
-    phaseTimeRemaining: '0:00',
+    phaseSecondsRemaining: 0,
     wakeLock: null,
     isPaused: false,
     ergometerConnecting: false,
@@ -55,14 +55,10 @@ window.workoutApp = function () {
     heartRateMonitorConnecting: false,
     selectedWorkout: null,
     cadenceTarget: null,
-    powerTarget: null,
-    phaseCountdown: '0',
-    phaseLabel: '',
-    phaseZone: '#888',
-    phaseNumber: 0,
-    phaseCount: 0,
+    phase: null,
     nextPhase: null,
-    sessionProgress: 0,
+    phaseSecondsRemaining: 0,
+    elapsedSeconds: 0,
     screenshotDataUrl: null,
     screenshotPending: false,
     startError: null,
@@ -244,44 +240,56 @@ window.workoutApp = function () {
       this.timerStartTime = Date.now()
       // Immediately, not on the first tick: otherwise the cockpit shows a blank countdown for the
       // first second of every phase-driven start.
-      this.refreshPhase()
+      this.workoutRunner?.publishPhase()
       if (this.timerInterval) clearInterval(this.timerInterval)
       this.timerInterval = setInterval(() => {
         if (!this.workoutRunner?.isRunning()) return
         const currentElapsed = Math.floor(
           (Date.now() - this.timerStartTime) / 1000
         )
-        this.timer = formatForTimer(this.elapsedTime + currentElapsed)
+        this.elapsedSeconds = this.elapsedTime + currentElapsed
+        this.timer = formatForTimer(this.elapsedSeconds)
         this.cadenceTarget = this.workoutRunner.getCurrentCadenceTarget()
-        this.refreshPhase()
       }, 1000)
     },
-    // Everything the cockpit reads about "the phase I am in and the one after it", refreshed on the
-    // same one-second beat as the clock.
-    refreshPhase() {
-      const runner = this.workoutRunner
-      if (!runner) return
-      const index = runner.currentPhaseIndex
-      const current = runner.phaseSummary(index)
-      this.powerTarget = runner.currentPowerTarget()
-      this.phaseCountdown = formatCountdown(runner.currentPhaseSecondsRemaining())
-      this.phaseLabel = current?.label || ''
-      this.phaseZone = getZoneColor(this.powerTarget?.relative ?? 0)
-      this.phaseNumber = index + 1
-      this.phaseCount = runner.expandedPhases.length
-      this.nextPhase = runner.phaseSummary(index + 1)
-      this.sessionProgress = runner.sessionProgress()
+    get phaseZone() {
+      return getZoneColor(this.phase?.relative ?? 0)
     },
-    // On the session line both sides are clock readings — "0:02 / 50:50". formatDuration is for
-    // prose ("Effort 10 s"), and mixing the two forms on one line made it read as two things.
+    get phaseCountdown() {
+      return formatCountdown(this.phaseSecondsRemaining)
+    },
+    get phaseTimeRemaining() {
+      return formatForTimer(this.phaseSecondsRemaining)
+    },
+    get sessionProgress() {
+      // The same elapsed count the timer prints beside it, rather than a second tally of its own.
+      const total = this.workoutRunner?.totalDurationSeconds
+      if (!total) return 0
+      return Math.min(100, (this.elapsedSeconds / total) * 100)
+    },
+    // Both sides of the session line are clock readings — "0:02 / 50:50". formatDuration is for
+    // prose, as in "Effort 10 s".
     get sessionTotal() {
-      const minutes = Number(this.workoutMeta?.totalDuration)
-      return minutes ? formatForTimer(Math.round(minutes * 60)) : '0:00'
+      return formatForTimer(this.workoutRunner?.totalDurationSeconds || 0)
+    },
+    get cadenceTargetLabel() {
+      const target = this.cadenceTarget
+      if (!target) return ''
+      return target.type === 'range'
+        ? ` ↑${target.min}-${target.max}`
+        : ` ↑${target.target}`
+    },
+    // The rounding rule lives here once. The two callers differ only in whether the watts belong:
+    // the phase on screen already shows them in the row below, the next phase does not.
+    phasePercent(phase) {
+      if (!phase) return ''
+      return phase.relative == null
+        ? 'free ride'
+        : `${Math.round(phase.relative * 100)} % FTP`
     },
     phaseIntensity(phase) {
-      if (!phase) return ''
-      if (phase.relative === null) return 'free ride'
-      return `${Math.round(phase.relative * 100)} % FTP · ${phase.watts} W`
+      const percent = this.phasePercent(phase)
+      return phase?.watts == null ? percent : `${percent} · ${phase.watts} W`
     },
     stopTimerUI() {
       if (this.timerInterval) clearInterval(this.timerInterval)

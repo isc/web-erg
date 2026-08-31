@@ -51,22 +51,22 @@
       x-bind:style="`--zone: ${phaseZone}`"
     >
       <p class="cockpit-phase">
-        <span x-text="phaseLabel"></span>
-        <span x-show="powerTarget" x-text="`· ${Math.round((powerTarget?.relative || 0) * 100)} % FTP`"></span>
+        <span x-text="phase?.label"></span>
+        <span x-show="phase" x-text="`· ${phasePercent(phase)}`"></span>
       </p>
       <p class="cockpit-countdown" x-text="phaseCountdown">0</p>
-      <p class="cockpit-unit" x-text="Number(phaseCountdown) ? 'seconds' : 'remaining'">seconds</p>
+      <p class="cockpit-unit" x-text="phaseSecondsRemaining < 60 ? 'seconds' : 'remaining'">seconds</p>
       <progress x-bind:value="phaseProgress" max="100"></progress>
     </div>
 
     <ul class="cockpit-metrics">
       <li>
         <span class="v" x-text="power">-</span>
-        <span class="k">watts<span x-show="powerTarget" x-text="` ↑${powerTarget?.watts}`"></span></span>
+        <span class="k">watts<span x-show="phase?.watts" x-text="` ↑${phase?.watts}`"></span></span>
       </li>
       <li>
         <span class="v" x-text="cadence" x-bind:class="getCadenceStatus()">-</span>
-        <span class="k">rpm<span x-show="cadenceTarget" x-text="` ↑${cadenceTarget?.target}`"></span></span>
+        <span class="k">rpm<span x-text="cadenceTargetLabel"></span></span>
       </li>
       <li>
         <span class="v" x-text="heartRate">-</span>
@@ -92,7 +92,7 @@
     </div>
     <progress class="cockpit-session-bar" x-bind:value="sessionProgress" max="100"></progress>
     <%# Sits directly above the workout band, which is the thing it counts into. %>
-    <p class="k cockpit-band-label" x-text="`phase ${phaseNumber}/${phaseCount}`"></p>
+    <p class="k cockpit-band-label" x-text="`phase ${phase?.number}/${phase?.count}`"></p>
   </section>
 
   <table class="workout-data">

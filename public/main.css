@@ -117,19 +117,21 @@ table.workout-data {
 .cockpit { display: none; }
 
 @media (max-width: 640px) {
+  :root { --cockpit-gutter: 1rem; }
+
   /* The cockpit sets its own gutter rather than relying on the container's: measured at 390px,
      every one of its rows was flush against both edges. The hero keeps the full width on purpose —
      the zone tint reads better edge to edge — and pads its own contents instead. */
   .cockpit {
     display: block;
-    padding-inline: 1rem;
+    padding-inline: var(--cockpit-gutter);
   }
 
   table.workout-data { display: none; }
 
   .cockpit-hero {
     background: color-mix(in srgb, var(--zone) 16%, transparent);
-    margin-inline: -1rem;
+    margin-inline: calc(-1 * var(--cockpit-gutter));
     padding: 1rem 1rem 0.6rem;
     text-align: center;
   }
@@ -137,6 +139,7 @@ table.workout-data {
   .cockpit-phase,
   .cockpit-unit,
   .cockpit .k {
+    display: block;
     margin: 0;
     font-size: 0.8rem;
     letter-spacing: 0.14em;
@@ -163,7 +166,6 @@ table.workout-data {
     gap: 0.5rem;
     margin: 1rem 0 0;
     padding: 0;
-    list-style: none;
     text-align: center;
   }
 
@@ -174,8 +176,6 @@ table.workout-data {
     font-weight: 700;
     font-variant-numeric: tabular-nums;
   }
-
-  .cockpit-metrics .k { display: block; }
 
   /* Pico marks list items with a square, and setting list-style on the ul does not reach an li
      the framework styles directly. */
@@ -223,7 +223,7 @@ table.workout-data {
   .workout-svg-container {
     overflow-x: auto;
     margin-top: 1rem;
-    padding-inline: 1rem;
+    padding-inline: var(--cockpit-gutter);
   }
 
   .workout-svg-container svg {
@@ -240,7 +240,7 @@ table.workout-data {
   .workout-heading h2 {
     font-size: 1rem;
     margin: 0;
-    padding-inline: 1rem;
+    padding-inline: var(--cockpit-gutter);
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;

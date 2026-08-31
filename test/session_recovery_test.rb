@@ -49,17 +49,8 @@ class SessionRecoveryTest < CapybaraTestBase
 
   private
 
-  # The fake trainer reports whatever wattage localStorage names, so seeding it stands in for a
-  # rider turning the pedals: the runner only starts once power goes above zero.
   def ride_until_samples_exist
-    page.execute_script("localStorage.setItem('ergPower', '120')")
-    find_field('Bike').click
-    attach_file(
-      'workoutFile',
-      File.expand_path('Mixed_And_Unusual.zwo', __dir__),
-      visible: false
-    )
-    click_on 'Start'
+    ride
     Timeout.timeout(Capybara.default_max_wait_time) do
       sleep 0.2 until page.evaluate_script(
         "Alpine.$data(document.querySelector('[x-data]')).workoutSamples.length"

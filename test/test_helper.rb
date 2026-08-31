@@ -37,9 +37,12 @@ class CapybaraTestBase < Minitest::Test
 
   PHONE = [390, 844].freeze
 
-  def ride(fixture: 'Mixed_And_Unusual.zwo', ftp: nil)
+  # The fake trainer reports whatever wattage localStorage names, so seeding it stands in for a
+  # rider turning the pedals: the runner only starts once power goes above zero.
+  def ride(fixture: 'Mixed_And_Unusual.zwo', ftp: nil, heart_rate: false)
     page.execute_script("localStorage.setItem('ergPower', '150')")
     find_field('Bike').click
+    find_field('Heart Rate Monitor').click if heart_rate
     fill_in 'FTP (watts)', with: ftp.to_s if ftp
     attach_file('workoutFile', File.expand_path(fixture, __dir__), visible: false)
     click_on 'Start'

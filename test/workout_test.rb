@@ -2,14 +2,7 @@ require_relative 'test_helper'
 
 class WorkoutTest < CapybaraTestBase
   def test_workout_full_flow
-    find_field('Bike').click
-    find_field('Heart Rate Monitor').click
-    attach_file(
-      'workoutFile',
-      File.expand_path('The_Famous_40_20_s.zwo', __dir__),
-      visible: false
-    )
-    click_on 'Start'
+    ride(fixture: 'The_Famous_40_20_s.zwo', heart_rate: true)
     assert_selector '[x-ref="workoutSvg"]', visible: true
   end
 
@@ -23,13 +16,7 @@ class WorkoutTest < CapybaraTestBase
 
   def test_starts_without_a_heart_rate_monitor
     # The heart rate belt used to be mandatory, and its absence made Start a silent no-op.
-    find_field('Bike').click
-    attach_file(
-      'workoutFile',
-      File.expand_path('The_Famous_40_20_s.zwo', __dir__),
-      visible: false
-    )
-    click_on 'Start'
+    ride(fixture: 'The_Famous_40_20_s.zwo')
     assert_selector '[x-ref="workoutSvg"]', visible: true
   end
 
@@ -85,29 +72,14 @@ class WorkoutTest < CapybaraTestBase
   end
 
   def test_counts_the_full_duration_of_a_workout_with_undocumented_tags
-    find_field('Bike').click
-    find_field('Heart Rate Monitor').click
-    attach_file(
-      'workoutFile',
-      File.expand_path('Mixed_And_Unusual.zwo', __dir__),
-      visible: false
-    )
-    click_on 'Start'
+    ride(heart_rate: true)
     # 60 + 30 + 60 + 30 seconds. Only the Warmup used to be counted, for a reported 1 minute.
     assert_text 'Mixed & Unusual • 3 min'
   end
 
   def test_ftp_and_weight_local_storage
-    find_field('Bike').click
-    find_field('Heart Rate Monitor').click
-    fill_in 'FTP (watts)', with: '200'
     fill_in 'Weight (kg)', with: '75'
-    attach_file(
-      'workoutFile',
-      File.expand_path('The_Famous_40_20_s.zwo', __dir__),
-      visible: false
-    )
-    click_on 'Start'
+    ride(fixture: 'The_Famous_40_20_s.zwo', ftp: 200, heart_rate: true)
     visit '/'
     assert_field 'FTP (watts)', with: '200'
     assert_field 'Weight (kg)', with: '75'
