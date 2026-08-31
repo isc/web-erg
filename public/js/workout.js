@@ -1,4 +1,4 @@
-import { formatForTimer } from './utils.js'
+import { formatForTimer, isTestEnv } from './utils.js'
 import { phaseLabel, totalDurationSeconds } from './phases.js'
 
 import { AudioCoach } from './audio-coach.js'
@@ -35,8 +35,10 @@ export class WorkoutRunner {
   async initializeAudioCoach() {
     this.audioCoach = new AudioCoach()
     // The LLM coach needs the workout's path: the server reads the ZWO from it. Without one — a
-    // file the rider dropped in — fall back to the workout's own recorded text events.
-    if (this.xmlPath) {
+    // file the rider dropped in — fall back to the workout's own recorded text events. The test
+    // suite loads a library workout, so it has a path, and every run billed a real OpenAI and
+    // Inworld call before this.
+    if (this.xmlPath && !isTestEnv()) {
       this.audioCoach.startLlmCoach(
         () => this.buildLlmWorkoutState(),
         this.xmlPath
@@ -174,6 +176,9 @@ export class WorkoutRunner {
     this.running = false
     clearInterval(this.timer)
     this.timer = null
+    // The coach polls on its own interval, which outlived the ride: it kept asking for advice, and
+    // paying for it, long after the rider had left the bike.
+    this.audioCoach?.llmStopLlmCoach()
     this.onWorkoutEnd()
     this.renderedPhase = null
     this.updatePhaseClasses()
