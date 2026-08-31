@@ -68,6 +68,25 @@ immediately. A dedicated strap has no such conflict.
 Android may also want the *Nearby devices* permission, and location services on depending on
 versions, before Chrome shows any device at all.
 
+## Known duplication — pay it when you next touch the metrics
+
+`views/workout_display.erb` renders the same four values twice: the cockpit for phones, the table
+for wide screens, with CSS deciding which is visible. Six bindings are duplicated (`power`,
+`cadence`, `heartRate`, `timer`, `getCadenceStatus`, `phaseProgress`) across about 79 lines.
+
+**Not worth fixing for speed.** Both copies re-evaluate on every Bluetooth notification, one to four
+times a second — a `parseFloat` and a few text writes. It is waste, and it is imperceptible.
+
+**Worth fixing when the two can start to drift**, which is the moment a metric is added or changed:
+the same value would then have to be edited in two places, silently. That is the failure this repo
+has already had twice, in the phase expansion and in the phase countdown.
+
+Note that gating the two blocks with `x-if` and a `matchMedia` flag — the obvious move — does not
+fix this. It conditions the duplicated markup rather than removing it, and it moves the breakpoint
+out of CSS into JS, where rotation and resize become the app's problem. The fix that works is one
+markup both widths share, differing only in stylesheet — which means reworking the wide layout, the
+one that currently earns its keep on the TV.
+
 ## 5. Send to Strava without the file round trip
 
 Today: download a `.tcx`, open Strava, choose the file, type a title. Every single ride.
