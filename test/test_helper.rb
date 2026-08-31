@@ -60,18 +60,18 @@ class CapybaraTestBase < Minitest::Test
 
   # The runner only starts once power arrives, and the first sample lands a moment after that.
   # Anything asserting on recorded data has to wait for one.
-  def ride_until_samples_exist(**options)
-    ride(**options)
+  def ride_until_samples_exist(**)
+    ride(**)
     wait_until { app_state('workoutSamples.length').positive? }
   end
 
   # Calls into the app's own ES modules from the page under test. `body` is JavaScript whose value
   # is returned; it sees the imported modules under the names given in `modules`, and the arguments
   # passed here as `args[0]`, `args[1]`, ...
-  def in_page_module(modules, body, *args)
+  def in_page_module(modules, body, *)
     names = modules.keys.join(', ')
     paths = modules.values.map { |path| "import('#{path}')" }.join(', ')
-    evaluate_async_script(<<~JS, *args)
+    evaluate_async_script(<<~JS, *)
       const done = arguments[arguments.length - 1]
       const args = Array.from(arguments).slice(0, -1)
       Promise.all([#{paths}]).then(([#{names}]) => { done((() => { #{body} })()) })

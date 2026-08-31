@@ -162,6 +162,6 @@ class App < Sinatra::Base
     FileUtils.mkdir_p(REPORTS_DIR)
     path = File.join(REPORTS_DIR, "pm5-#{Time.now.strftime('%Y%m%d-%H%M%S')}.json")
     File.write(path, payload)
-    { path: path }.to_json
+    { path: }.to_json
   end
 end

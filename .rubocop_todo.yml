@@ -6,3 +6,13 @@ Metrics/AbcSize:
 Metrics/MethodLength:
   Exclude:
     - 'scripts/generate_workout_audio.rb'
+
+# The LLM coach endpoint: one long Sinatra block holding a system prompt, a chat call and a
+# text-to-speech call. Splitting it would mean naming three halves of one request handler, and the
+# port to the rower is not the change that should be doing that.
+Metrics/ClassLength:
+  Exclude:
+    - 'app.rb'
+Metrics/BlockLength:
+  Exclude:
+    - 'app.rb'
