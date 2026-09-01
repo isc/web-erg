@@ -10,3 +10,6 @@
 # The raw Concept2 newsletter pages the WOD import fetches, kept so a re-run does not hit their
 # server 1500 times again. What is derived from them is committed; the HTML is not.
 /tmp/
+
+# A pasted terminal scrollback, committed by an over-broad `git add -A`. Not source.
+last_ride_log.txt
