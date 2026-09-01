@@ -168,11 +168,16 @@ async function openErgometer(device) {
 export async function connectErgometer() {
   log('Requesting Bluetooth device...')
   const device = await bluetoothApi.requestDevice({
-    // Two filters, not one: a Concept2 exposes neither of the standard cycling services under a
-    // name the chooser can filter on, and a trainer has no rowing service. Either shape is offered.
+    // A service filter matches what a device *advertises*, not what it turns out to have once
+    // connected — and a PM5 advertises neither its rowing service nor FTMS. Filtering on
+    // ROWING_SERVICE alone therefore left the erg out of the chooser entirely while /probe, which
+    // asks by name, found it every time. So the name goes in, exactly as the probe asks for it:
+    // this hardware answers to `PM5 430912985`. Filters are alternatives, so the trainer's shape is
+    // unaffected, and the service filters stay for a firmware that does advertise them.
     filters: [
       { services: ['fitness_machine', 'cycling_power'] },
-      { services: [ROWING_SERVICE] }
+      { services: [ROWING_SERVICE] },
+      { namePrefix: 'PM5' }
     ],
     // Everything a filter did not already grant, and the PM5's own device-information service —
     // getPrimaryService refuses a UUID that was never asked for, which reads exactly like a machine
