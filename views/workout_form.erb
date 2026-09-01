@@ -56,6 +56,23 @@
         Functional Threshold Power - used to calculate workout intensities
       </small>
     </label>
+    <%# The library prescribes each session at its own nominal intensity, so without this there is no
+        way to do the same workout easy. Separate from FTP: FTP is a fact about the athlete, this is
+        a decision about today. %>
+    <label>Intensity (%)
+      <input
+        type="number"
+        min="50"
+        max="120"
+        step="5"
+        x-model.number="intensity"
+        placeholder="100"
+      />
+      <small>
+        Scales every target in the workout. 100% rides it as written;
+        <span x-text="`80% turns a ${trainingFtp} W threshold into ${Math.round(trainingFtp * 0.8)} W`"></span>.
+      </small>
+    </label>
     <label>Weight (kg)
       <input
         type="number"

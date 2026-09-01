@@ -34,17 +34,21 @@ export function powerFromSplit(splitSeconds) {
 }
 
 /**
- * m:ss.t — the form a PM5 prints and every rower reads. Tenths are kept because a split is held to
- * about a second and the tenth is what tells you which side of the target you are on.
+ * m:ss — the form a PM5 prints and every rower reads.
+ *
+ * Whole seconds, not tenths. An earlier version kept the tenth on the grounds that it says which
+ * side of the target you are on, but a stroke-to-stroke split swings by seconds, so the tenth was
+ * noise dressed as precision — and it read worst on the target, which does not move at all and had
+ * no business being quoted to 2:11.5. The deviation bar is what says which side of the target you
+ * are on, and it says it without arithmetic.
  */
 export function formatSplit(seconds) {
   if (seconds == null || !isFinite(seconds)) return '—'
-  // Rounded to tenths BEFORE the minute is taken out. Splitting first and rounding the remainder
-  // after printed 1:60.0 for anything between 1:59.95 and 2:00.
-  const tenths = Math.round(Math.max(0, Number(seconds)) * 10)
-  const minutes = Math.floor(tenths / 600)
-  const rest = (tenths - minutes * 600) / 10
-  return `${minutes}:${rest.toFixed(1).padStart(4, '0')}`
+  // Rounded BEFORE the minute is taken out. Splitting first and rounding the remainder after
+  // printed 1:60 for anything between 1:59.5 and 2:00.
+  const whole = Math.round(Math.max(0, Number(seconds)))
+  const minutes = Math.floor(whole / 60)
+  return `${minutes}:${String(whole - minutes * 60).padStart(2, '0')}`
 }
 
 // Metres, as the cockpit says them: whole metres below a kilometre, kilometres above, where the
@@ -54,8 +58,11 @@ export function formatSplit(seconds) {
 //
 // Nothing rowed reads as an em dash, the same as a split nobody has produced yet: a machine that
 // has not spoken is not a machine at zero.
+// The space before the unit is non-breaking. In a cockpit column narrow enough to wrap, an ordinary
+// space put the "m" on its own line under the number, which reads as a stray letter rather than as
+// a unit.
 export function formatDistance(metres) {
   if (metres == null || !isFinite(metres)) return '—'
-  if (metres < 1000) return `${Math.round(metres)} m`
-  return `${(metres / 1000).toFixed(2)} km`
+  if (metres < 1000) return `${Math.round(metres)}\u00a0m`
+  return `${(metres / 1000).toFixed(2)}\u00a0km`
 }

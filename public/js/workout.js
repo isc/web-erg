@@ -44,7 +44,7 @@ export class WorkoutRunner {
    * recomputed by hand at Start, and anything derived in between stayed quietly stale.
    */
   get ftp() {
-    return this.alpineInstance?.trainingFtp ?? this.fixedFtp
+    return this.alpineInstance?.scaledFtp ?? this.fixedFtp
   }
 
   async initializeAudioCoach() {

@@ -55,6 +55,13 @@ window.workoutApp = function () {
     // same %FTP target that is an easy spin on a bike is unrowable. Two numbers, and the connected
     // machine decides which one the workout is scaled by.
     rowingFtp: 200,
+    // A percentage applied to every target the loaded workout asks for. The library prescribes each
+    // session at its own nominal intensity — the Concept2 archive carries no intensity at all, so
+    // ours are derived — and there is otherwise no way to ride or row the same session easy. A 6000 m
+    // piece came out at 82 % of FTP on an evening that was meant to be recovery, which is a real
+    // session and the wrong one. Separate from FTP on purpose: FTP is a fact about the athlete and
+    // is what the summary reads zones against, while this is a decision about today.
+    intensity: 100,
     weight: 70,
     phaseProgress: 0,
     // Seconds or metres, whichever the current phase is written in. `phaseIsDistance` says which.
@@ -125,6 +132,11 @@ window.workoutApp = function () {
     },
     get ftpLabel() {
       return this.rowing ? 'Rowing FTP (watts)' : 'FTP (watts)'
+    },
+    // What the workout is actually scaled by. Every target passes through here; nothing else in the
+    // app multiplies by intensity, so an easy day is one number in one place.
+    get scaledFtp() {
+      return Math.round(this.trainingFtp * (this.intensity || 100) / 100)
     },
 
     // The zone rows, or none: the markup asks for them four times and should not have to spell out
@@ -262,14 +274,14 @@ window.workoutApp = function () {
       // run their own DOMParser over the same string.
       const xmlDoc = parseXmlDoc(xml)
       const rawPhases = parseZwoPhases(xmlDoc)
-      const phases = expandPhases(rawPhases, this.trainingFtp)
+      const phases = expandPhases(rawPhases, this.scaledFtp)
       this.workoutMeta = parseZwoMeta(xmlDoc, phases)
       this.workoutRunner?.stop()
       this.workoutRunner = new WorkoutRunner({
         expandedPhases: phases,
         setErgPower,
         onWorkoutEnd: this.onWorkoutEnd.bind(this),
-        ftp: this.trainingFtp,
+        ftp: this.scaledFtp,
         alpineInstance: this,
         workoutSvgEl: this.$refs.workoutSvg,
         xmlDoc,
@@ -321,6 +333,7 @@ window.workoutApp = function () {
       if (!isTestEnv()) document.documentElement.requestFullscreen?.()
       localStorage.setItem('ftp', this.ftp)
       localStorage.setItem('rowingFtp', this.rowingFtp)
+      localStorage.setItem('intensity', this.intensity)
       localStorage.setItem('weight', this.weight)
       this.showWorkout = true
       this.showForm = false
@@ -369,14 +382,14 @@ window.workoutApp = function () {
     phaseLength(phase) {
       if (!phase) return ''
       return phase.distance
-        ? `${phase.distance} m`
+        ? `${phase.distance}\u00a0m`
         : formatDuration((phase.duration || 0) / 60)
     },
     // The wide layout's own line under the graph. It used to be seconds and only seconds, so a
     // thousand-metre piece showed 0:00 from its first second to its last.
     get phaseRemainingLabel() {
       return this.phaseIsDistance
-        ? `${this.phaseRemaining} m`
+        ? `${this.phaseRemaining}\u00a0m`
         : formatForTimer(this.phaseRemaining)
     },
     get sessionProgress() {
@@ -654,6 +667,8 @@ window.workoutApp = function () {
       if (savedFtp) this.ftp = parseInt(savedFtp)
       const savedRowingFtp = localStorage.getItem('rowingFtp')
       if (savedRowingFtp) this.rowingFtp = parseInt(savedRowingFtp)
+      const savedIntensity = localStorage.getItem('intensity')
+      if (savedIntensity) this.intensity = parseInt(savedIntensity)
       const savedWeight = localStorage.getItem('weight')
       if (savedWeight) this.weight = parseInt(savedWeight)
     }

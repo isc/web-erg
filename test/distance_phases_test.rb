@@ -129,7 +129,7 @@ class DistanceRunnerTest < CapybaraTestBase
     row(fixture: 'Rowing_Distance.zwo')
     set_app_state(phase: { distance: 500, label: 'Steady' }, phaseRemaining: 320)
 
-    assert_equal '320 m', app_state('phaseRemainingLabel')
+    assert_equal "320 m", app_state('phaseRemainingLabel')
   end
 
   # The next piece opens at the boundary, not at wherever the rower was when the reading arrived.

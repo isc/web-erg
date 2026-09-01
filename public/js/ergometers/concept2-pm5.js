@@ -277,9 +277,31 @@ function onGeneralStatus(value) {
   }
 }
 
+/**
+ * Nobody rows at 84 strokes a minute. The monitor sometimes says so anyway: it derives an
+ * instantaneous rate from the interval since the last catch, and a hurried recovery that registers
+ * as a second catch halves that interval and doubles the number. Observed on 1 September 2026 —
+ * nineteen readings between 47 and 84 spm in the back half of a session whose median was 31, always
+ * in close pairs, and the rider confirmed seeing the same figures on the PM5's own screen. So this
+ * is the machine being faithfully relayed rather than a decoding fault.
+ *
+ * The reading is dropped rather than clamped. A 50 pinned to the ceiling is exactly as fictional as
+ * the 84 it replaces, and it would be indistinguishable from a real sprint; holding the last good
+ * value says the same thing without inventing a number. Logged once per burst, because a rate this
+ * ragged is worth knowing about even when it is not worth displaying.
+ */
+const MAX_PLAUSIBLE_STROKE_RATE = 50
+
 function onAdditionalStatus1(value) {
   const status = decode(ADDITIONAL_STATUS_1, 'PM5 stroke rate', value, decodeAdditionalStatus1)
   if (!status) return
+  if (status.strokeRate > MAX_PLAUSIBLE_STROKE_RATE) {
+    if (!live.implausibleStrokeRate)
+      handlers.log(`⚠️ PM5 reported ${status.strokeRate} spm — ignored, holding ${live.strokeRate}.`)
+    live.implausibleStrokeRate = true
+    return
+  }
+  live.implausibleStrokeRate = false
   live.strokeRate = status.strokeRate
   publishStrokeRate()
 }
@@ -328,7 +350,13 @@ const SUBSCRIPTIONS = [
 export async function openPm5(server, callbacks, { strokeTimeoutMs = STROKE_TIMEOUT_MS } = {}) {
   handlers = callbacks
   strokeTimeout = strokeTimeoutMs
-  live = { strokeRate: 0, lastStrokeAt: null, published: null, distance: null }
+  live = {
+    strokeRate: 0,
+    lastStrokeAt: null,
+    published: null,
+    distance: null,
+    implausibleStrokeRate: false
+  }
   // Not the total: the next reading establishes a fresh baseline rather than being counted as one
   // enormous increment from zero.
   lastRawDistance = null

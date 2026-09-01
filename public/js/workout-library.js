@@ -9,18 +9,42 @@ import { formatDuration } from './utils.js'
 const CATALOGUES = [
   {
     manifest: 'zwift_workouts.json',
-    root: 'zwift_workouts_all_collections_ordered_Mar21'
+    root: 'zwift_workouts_all_collections_ordered_Mar21',
+    machine: 'bike'
   },
-  { manifest: 'rowing_workouts.json', root: 'rowing_workouts' }
+  { manifest: 'rowing_workouts.json', root: 'rowing_workouts', machine: 'rower' }
 ]
 
-function stampRoot(node, root) {
+function stampRoot(node, root, machine) {
   for (const value of Object.values(node)) {
     if (!value || typeof value !== 'object') continue
-    if ('url' in value) value.root = root
-    else stampRoot(value, root)
+    if ('url' in value) Object.assign(value, { root, machine })
+    else stampRoot(value, root, machine)
   }
   return node
+}
+
+/**
+ * The library is two catalogues merged, and a cycling session on a rower is not a session at all:
+ * its cadence targets are in rpm, and the Concept2 archive is the reverse. Showing both regardless
+ * of what is plugged in put eleven hundred bike workouts in front of a rower.
+ *
+ * Filtering only once a machine is actually connected, rather than defaulting to the bike: before a
+ * connection the adapter descriptor is the bike's, so keying off it alone would hide the rowing
+ * catalogue from anyone browsing before they connect — which is most of the time.
+ */
+function keepMachine(node, machine) {
+  const kept = {}
+  for (const [name, value] of Object.entries(node)) {
+    if (!value || typeof value !== 'object') continue
+    if ('url' in value) {
+      if (value.machine === machine) kept[name] = value
+    } else {
+      const inner = keepMachine(value, machine)
+      if (Object.keys(inner).length) kept[name] = inner
+    }
+  }
+  return kept
 }
 
 window.workoutLibraryModal = function () {
@@ -39,10 +63,10 @@ window.workoutLibraryModal = function () {
     async loadWorkoutData() {
       try {
         const catalogues = await Promise.all(
-          CATALOGUES.map(async ({ manifest, root }) => {
+          CATALOGUES.map(async ({ manifest, root, machine }) => {
             const response = await fetch(manifest)
             if (!response.ok) throw new Error(`Failed to load ${manifest}`)
-            return stampRoot(await response.json(), root)
+            return stampRoot(await response.json(), root, machine)
           })
         )
         this.workoutData = Object.assign({}, ...catalogues)
@@ -53,8 +77,16 @@ window.workoutLibraryModal = function () {
       }
     },
 
+    // `ergometerName` and `rowing` come from the app's scope, which this dialog sits inside. Null
+    // until something is connected, which is exactly the "show everything" case.
+    get machine() {
+      if (!this.ergometerName) return null
+      return this.rowing ? 'rower' : 'bike'
+    },
+
     get displayData() {
-      return this.hasActiveFilters ? this.filteredData : this.workoutData
+      const data = this.hasActiveFilters ? this.filteredData : this.workoutData
+      return this.machine ? keepMachine(data, this.machine) : data
     },
 
     get hasActiveFilters() {

@@ -46,7 +46,7 @@ class RowingCockpitTest < CapybaraTestBase
     assert_equal 100.0, app_state('distance')
   end
 
-  # 213 W is 1:58.0 /500 m by w = 2.80 / pace³ — the identity the probe confirmed on the machine.
+  # 213 W is 1:58 /500 m by w = 2.80 / pace³ — the identity the probe confirmed on the machine.
   # Both numbers go through it, which is the point: on target, the gap is exactly zero rather than
   # the residue of two different estimators.
   def test_split_and_target_are_the_same_conversion_of_two_wattages
@@ -54,8 +54,8 @@ class RowingCockpitTest < CapybaraTestBase
 
     set_app_state(power: 213, targetWatts: 213)
 
-    assert_equal '1:58.0', app_state('splitLabel')
-    assert_equal '1:58.0', app_state('targetSplitLabel')
+    assert_equal '1:58', app_state('splitLabel')
+    assert_equal '1:58', app_state('targetSplitLabel')
     assert_equal 0, app_state('splitDelta')
     assert_equal 'split-good', app_state('splitStatus')
   end
@@ -102,21 +102,21 @@ class RowingCockpitTest < CapybaraTestBase
 
     set_app_state(distance: 850)
 
-    assert_equal '850 m', app_state('distanceLabel')
+    assert_equal "850 m", app_state('distanceLabel')
 
     set_app_state(distance: 6000)
 
-    assert_equal '6.00 km', app_state('distanceLabel')
+    assert_equal "6.00 km", app_state('distanceLabel')
   end
 
-  # 1:59.96 used to print as "1:60.0": the minute was taken out first and the remainder rounded
+  # 1:59.6 used to print as "1:60": the minute was taken out first and the remainder rounded
   # after. The cockpit re-reads this on every power packet, so it was a matter of time.
   def test_a_split_never_prints_sixty_seconds
     row
 
-    split = in_page_module({ rowing: '/js/rowing.js' }, 'return rowing.formatSplit(args[0])', 119.96)
+    split = in_page_module({ rowing: '/js/rowing.js' }, 'return rowing.formatSplit(args[0])', 119.6)
 
-    assert_equal '2:00.0', split
+    assert_equal '2:00', split
   end
 
   def test_no_target_means_no_gap_to_show
