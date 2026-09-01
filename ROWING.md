@@ -291,11 +291,21 @@ stroke has arrived for six seconds *and* stroke rate is not already zero. Six se
 strokes at a slow rate; it was chosen, not measured. If the session pauses while you are still
 rowing, it is too short; if a real break takes ten seconds to register, it is too long.
 
-**Whether the 1 Hz status characteristics speak mid-piece.** They did not in the capture — `0x0031`
-and `0x0032` were silent between the start and the end of the 100 m piece, which is why distance is
-also taken from Stroke Data. If that silence was an artefact of the probe rather than the machine,
-stroke rate on the cockpit will be steadier than these notes expect. If it was real, stroke rate
-updates only at the ends of a piece and something else has to feed it.
+**~~Whether the status characteristics speak mid-piece.~~ Answered, and the answer was the opposite.**
+An earlier draft of this list recorded `0x0031` and `0x0032` as silent between the start and the end
+of the 100 m piece. They were not. `0x0031` sent **145 frames over the 78-second session — 1.85 Hz,
+at rest and under load alike**, and `0x0034` read back `0x01`, the 500 ms step of the sample-rate
+control, which is exactly the rate measured.
+
+The silence was in the *capture*, not the machine: the probe keeps the first five frames and a
+rolling last ten, so the 65 seconds in between were discarded — about 130 frames of `0x0031` alone.
+The instrument's blind spot was read as the erg's behaviour. Worth remembering, because the probe
+still has it: **the middle of a run is never in the report**, and any claim about what happened
+mid-piece has to be argued from the counters rather than from the frames.
+
+Nothing in the code depended on the wrong reading — the adapter subscribes to both characteristics
+and takes stroke rate from `0x0032` regardless — so the effect is that the cockpit updates twice a
+second rather than at the ends of a piece. Better than these notes used to claim.
 
 **Whether a distance phase ends when it should.** The runner advances on the erg's own count and
 never on the clock, which is right, but the whole path has only ever been exercised over a 100 m

@@ -56,8 +56,10 @@ const WORKOUT_STATES = {
 }
 
 /**
- * 0x0031 General Status, 19 B, about 1 Hz even at rest. The authoritative distance: the stroke
- * characteristics carry the same counter, but this one keeps ticking between strokes.
+ * 0x0031 General Status, 19 B, about **2 Hz** — 145 frames over the 78 s capture, at rest and under
+ * load alike. The rate is a setting, not a constant: 0x0034 read back 0x01, which is the 500 ms
+ * step of the sample-rate control. The authoritative distance: the stroke characteristics carry the
+ * same counter, but this one keeps ticking between strokes.
  */
 export function decodeGeneralStatus(view) {
   return {
@@ -99,7 +101,7 @@ export function decodeAdditionalStatus1(view) {
 
 /**
  * 0x0035 Stroke Data, 20 B. It carries the same total distance as the general status, and that is
- * why it is here: the status characteristic reports at 1 Hz, and this one reports at every end of
+ * why it is here: the status characteristic reports on a clock, and this one reports at every end of
  * drive and again at every end of recovery, so between them the metres on screen move as the rower
  * moves rather than on a clock. Two sources of one counter, not two estimates of one quantity —
  * the larger is simply the more recent, which is what makes taking it safe.
@@ -124,8 +126,7 @@ export function decodeStrokeData(view) {
 
 /**
  * 0x0036 Additional Stroke Data, 15 B, once at the end of each drive. This is where power comes
- * from, and it is the only characteristic that says anything while the piece is under way — the
- * 1 Hz status ones were, on this capture, silent between the start and the end of the piece.
+ * from — the status characteristics carry no watts at all, whatever their rate.
  */
 export function decodeAdditionalStrokeData(view) {
   return {
@@ -226,7 +227,7 @@ function decode(uuid, label, value, decoder) {
 function publishStrokeRate() {
   const stale = !live.lastStrokeAt || Date.now() - live.lastStrokeAt > strokeTimeout
   const rate = !stale && live.strokeRate > 0 ? live.strokeRate : '-'
-  // Only on a change. This runs from the 1 Hz status, from every stroke, and from the stale timer,
+  // Only on a change. This runs from the 2 Hz status, from every stroke, and from the stale timer,
   // and each publication costs the app a pause-or-resume decision and a sample write.
   if (rate === live.published) return
   live.published = rate
