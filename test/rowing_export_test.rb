@@ -39,6 +39,38 @@ class RowingExportTest < CapybaraTestBase
     REXML::Document.new(generate(samples, sport)).elements['//Lap']
   end
 
+  def laps(samples, sport = 'Other')
+    REXML::Document.new(generate(samples, sport)).elements.to_a('//Lap')
+  end
+
+  # A session's phases are the only structure it has, and one lap for the whole thing threw all of
+  # it away: an 8 x 500 m reached Strava as a single undifferentiated block.
+  def test_each_phase_becomes_its_own_lap
+    phased = ROWED.each_with_index.map do |sample, i|
+      sample.merge('phaseIndex' => i < 3 ? 0 : 1,
+                   'phaseLabel' => i < 3 ? 'Work' : 'Rest')
+    end
+
+    assert_equal 2, laps(phased).length
+    assert_equal %w[Work Rest], laps(phased).map { |l| l.elements['Notes']&.text }
+  end
+
+  # A lap's DistanceMeters is its own, while a trackpoint's is measured from the start of the
+  # activity. Summing the laps must therefore give the session, not double it.
+  def test_lap_distances_are_the_laps_own_and_add_up_to_the_session
+    phased = ROWED.each_with_index.map { |sample, i| sample.merge('phaseIndex' => i < 3 ? 0 : 1) }
+    metres = laps(phased).map { |l| l.elements['DistanceMeters'].text.to_f }
+
+    assert_equal ROWED.last['distance'], metres.sum
+    assert(metres.all?(&:positive?))
+  end
+
+  # Sessions recorded before phases were stamped carry no phaseIndex at all. They must still export,
+  # as the single lap they always were.
+  def test_samples_without_a_phase_still_make_one_lap
+    assert_equal 1, laps(ROWED).length
+  end
+
   # Work is work however the distance was arrived at, so the same wattage over the same seconds must
   # cost the same calories on either machine.
   def test_calories_do_not_depend_on_how_the_distance_was_found

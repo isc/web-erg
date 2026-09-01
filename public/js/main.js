@@ -570,7 +570,20 @@ window.workoutApp = function () {
       // ISO string before finding that out threw most of them away.
       const now = new Date()
       if (!this.lastSampleTime || now - this.lastSampleTime > 1500) {
-        this.workoutSamples.push({ time: now.toISOString() })
+        const previous = this.workoutSamples[this.workoutSamples.length - 1]
+        // Power and stroke rate arrive once per stroke, not continuously, so a sample landing
+        // between two strokes has no fresh reading of either. Left empty they exported as gaps,
+        // which Strava reads as zero: 82 isolated holes in a 510-point file, a power trace drawn
+        // as a comb, and an average of 107 W for a session rowed at 128. The last stroke's power
+        // is what the rower is producing until the next one, so it carries forward. A machine that
+        // reports continuously overwrites it on the next reading and is unaffected.
+        this.workoutSamples.push({
+          time: now.toISOString(),
+          phaseIndex: this.phase?.phaseIndex,
+          phaseLabel: this.phase?.label,
+          ...(previous?.power !== undefined && { power: previous.power }),
+          ...(previous?.cadence !== undefined && { cadence: previous.cadence })
+        })
         this.lastSampleTime = now
       }
       const last = this.workoutSamples[this.workoutSamples.length - 1]

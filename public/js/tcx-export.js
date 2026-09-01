@@ -90,29 +90,50 @@ export function generateTcx(samples, name = '', weight = 70, sport = 'Biking') {
   const activityId = samples[0].time
   const startedAt = new Date(samples[0].time).getTime()
   let previousTime = startedAt
-  let lastTime = startedAt
+  // Cumulative across the whole activity, because a Trackpoint's DistanceMeters is measured from
+  // the start of the activity while a Lap's is the lap's own. Two different quantities, one of
+  // which is a difference of the other.
   let totalDistance = 0
-  let kilojoules = 0
-  let maxSpeed = 0
-  let heartRateSum = 0
-  let heartRateCount = 0
-  let maxHeartRate = 0
-  let trackpoints = ''
+
+  // One lap per workout phase. A single lap for the whole session threw away the only structure the
+  // session had — an 8 x 500 m arrived at Strava as one undifferentiated block. Samples recorded
+  // before phases were stamped carry no phaseIndex, so they all share `undefined` and fall into a
+  // single lap exactly as before.
+  const laps = []
+  let lap = null
+  const openLap = sample => ({
+    phaseIndex: sample.phaseIndex,
+    phaseLabel: sample.phaseLabel,
+    startTime: sample.time,
+    startedAt: new Date(sample.time).getTime(),
+    lastTime: new Date(sample.time).getTime(),
+    startDistance: totalDistance,
+    kilojoules: 0,
+    maxSpeed: 0,
+    heartRateSum: 0,
+    heartRateCount: 0,
+    maxHeartRate: 0,
+    trackpoints: ''
+  })
 
   for (const sample of samples) {
+    if (!lap || sample.phaseIndex !== lap.phaseIndex) {
+      if (lap) laps.push(lap)
+      lap = openLap(sample)
+    }
     const time = new Date(sample.time).getTime()
     // Samples are not one per second — they are created whenever more than 1.5 s has passed, and
     // not at all while the session is paused. Assuming a 1 s step, as this used to, under-reported
     // both the duration and the distance of every ride uploaded to Strava.
     const stepSeconds = Math.max(0, (time - previousTime) / 1000)
     previousTime = time
-    lastTime = time
+    lap.lastTime = time
 
     const hasPower = sample.power !== undefined && sample.power !== '-'
     const children = []
     let speed
     // Work done is work done however the distance was arrived at.
-    if (hasPower) kilojoules += (Number(sample.power) * stepSeconds) / 1000
+    if (hasPower) lap.kilojoules += (Number(sample.power) * stepSeconds) / 1000
     if (measured) {
       // The erg's own count, which only ever goes up. A sample the distance stream had not reached
       // yet leaves the total where it was rather than resetting it to zero.
@@ -120,14 +141,14 @@ export function generateTcx(samples, name = '', weight = 70, sport = 'Biking') {
       if (metres !== null && metres > totalDistance) {
         speed = stepSeconds > 0 ? (metres - totalDistance) / stepSeconds : 0
         totalDistance = metres
-        if (speed > maxSpeed) maxSpeed = speed
+        if (speed > lap.maxSpeed) lap.maxSpeed = speed
       } else {
         speed = 0
       }
     } else if (hasPower) {
       speed = virtualSpeedFromPower(Number(sample.power), { mass: weight + 10 })
       totalDistance += speed * stepSeconds
-      if (speed > maxSpeed) maxSpeed = speed
+      if (speed > lap.maxSpeed) lap.maxSpeed = speed
     }
 
     children.push(tag('Time', sample.time))
@@ -136,9 +157,9 @@ export function generateTcx(samples, name = '', weight = 70, sport = 'Biking') {
       children.push(tag('Cadence', Math.round(Number(sample.cadence))))
     if (sample.heartRate !== undefined && sample.heartRate !== '-') {
       const bpm = Math.round(Number(sample.heartRate))
-      heartRateSum += bpm
-      heartRateCount++
-      if (bpm > maxHeartRate) maxHeartRate = bpm
+      lap.heartRateSum += bpm
+      lap.heartRateCount++
+      if (bpm > lap.maxHeartRate) lap.maxHeartRate = bpm
       children.push(tag('HeartRateBpm', [tag('Value', bpm)]))
     }
     if (hasPower)
@@ -160,36 +181,43 @@ export function generateTcx(samples, name = '', weight = 70, sport = 'Biking') {
           ]
         )
       )
-    trackpoints += tag('Trackpoint', children)
+    lap.trackpoints += tag('Trackpoint', children)
+    lap.endDistance = totalDistance
   }
+  if (lap) laps.push(lap)
 
   // ActivityLap_t is a sequence: TotalTimeSeconds, DistanceMeters, MaximumSpeed?, Calories,
   // AverageHeartRateBpm?, MaximumHeartRateBpm?, Intensity, Cadence?, TriggerMethod, Track*, Notes?.
   // Calories, Intensity and TriggerMethod are REQUIRED and were missing, and the lap carried a
-  // <Name> element, which the schema has no such thing as — the activity's Notes is the right place.
-  const lapChildren = [
-    tag('TotalTimeSeconds', ((lastTime - startedAt) / 1000).toFixed(2)),
-    tag('DistanceMeters', totalDistance.toFixed(2))
-  ]
-  if (maxSpeed > 0) lapChildren.push(tag('MaximumSpeed', maxSpeed.toFixed(3)))
-  lapChildren.push(tag('Calories', Math.round(kilojoules)))
-  if (heartRateCount)
-    lapChildren.push(
-      tag('AverageHeartRateBpm', [
-        tag('Value', Math.round(heartRateSum / heartRateCount))
-      ]),
-      tag('MaximumHeartRateBpm', [tag('Value', maxHeartRate)])
+  // <Name> element, which the schema has no such thing as — Notes is the right place, and it is
+  // where a phase's own label goes.
+  const lapTag = entry => {
+    const children = [
+      tag('TotalTimeSeconds', ((entry.lastTime - entry.startedAt) / 1000).toFixed(2)),
+      tag(
+        'DistanceMeters',
+        Math.max(0, (entry.endDistance ?? entry.startDistance) - entry.startDistance).toFixed(2)
+      )
+    ]
+    if (entry.maxSpeed > 0) children.push(tag('MaximumSpeed', entry.maxSpeed.toFixed(3)))
+    children.push(tag('Calories', Math.round(entry.kilojoules)))
+    if (entry.heartRateCount)
+      children.push(
+        tag('AverageHeartRateBpm', [
+          tag('Value', Math.round(entry.heartRateSum / entry.heartRateCount))
+        ]),
+        tag('MaximumHeartRateBpm', [tag('Value', entry.maxHeartRate)])
+      )
+    children.push(
+      tag('Intensity', 'Active'),
+      tag('TriggerMethod', 'Manual'),
+      tag('Track', [entry.trackpoints])
     )
-  lapChildren.push(
-    tag('Intensity', 'Active'),
-    tag('TriggerMethod', 'Manual'),
-    tag('Track', [trackpoints])
-  )
+    if (entry.phaseLabel) children.push(tag('Notes', entry.phaseLabel))
+    return tag('Lap', children, { StartTime: entry.startTime })
+  }
 
-  const activityChildren = [
-    tag('Id', activityId),
-    tag('Lap', lapChildren, { StartTime: samples[0].time })
-  ]
+  const activityChildren = [tag('Id', activityId), ...laps.map(lapTag)]
   if (name) activityChildren.push(tag('Notes', name))
   return (
     `<?xml version="1.0" encoding="UTF-8"?>` +
