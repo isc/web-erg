@@ -26,7 +26,7 @@ import {
 } from './utils.js'
 import { downloadTcx, generateTcx } from './tcx-export.js'
 
-import { formatDistance, formatSplit, splitFromPower } from './rowing.js'
+import { formatDistance, formatMetres, formatSplit, splitFromPower } from './rowing.js'
 import { renderWorkoutSvg } from './workout-rendering.js'
 import { getZoneColor } from './zones.js'
 import { metric, summariseSession, zoneShare } from './session-summary.js'
@@ -382,14 +382,14 @@ window.workoutApp = function () {
     phaseLength(phase) {
       if (!phase) return ''
       return phase.distance
-        ? `${phase.distance}\u00a0m`
+        ? formatMetres(phase.distance)
         : formatDuration((phase.duration || 0) / 60)
     },
     // The wide layout's own line under the graph. It used to be seconds and only seconds, so a
     // thousand-metre piece showed 0:00 from its first second to its last.
     get phaseRemainingLabel() {
       return this.phaseIsDistance
-        ? `${this.phaseRemaining}\u00a0m`
+        ? formatMetres(this.phaseRemaining)
         : formatForTimer(this.phaseRemaining)
     },
     get sessionProgress() {
@@ -579,7 +579,12 @@ window.workoutApp = function () {
         // reports continuously overwrites it on the next reading and is unaffected.
         this.workoutSamples.push({
           time: now.toISOString(),
-          phaseIndex: this.phase?.phaseIndex,
+          // `number`, not `phaseIndex`: publishPhase() spreads phaseSummary() and adds `number` and
+          // `count`, and there has never been a `phaseIndex` on the published phase. Reading one
+          // stamped every sample `undefined`, so every sample matched every other and the lap split
+          // never fired — the feature was inert in the app while its tests passed on a fixture that
+          // set the field by hand.
+          phaseIndex: this.phase?.number,
           phaseLabel: this.phase?.label,
           ...(previous?.power !== undefined && { power: previous.power }),
           ...(previous?.cadence !== undefined && { cadence: previous.cadence })

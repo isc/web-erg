@@ -15,11 +15,11 @@ const CATALOGUES = [
   { manifest: 'rowing_workouts.json', root: 'rowing_workouts', machine: 'rower' }
 ]
 
-function stampRoot(node, root, machine) {
+function stampRoot(node, root) {
   for (const value of Object.values(node)) {
     if (!value || typeof value !== 'object') continue
-    if ('url' in value) Object.assign(value, { root, machine })
-    else stampRoot(value, root, machine)
+    if ('url' in value) value.root = root
+    else stampRoot(value, root)
   }
   return node
 }
@@ -29,28 +29,29 @@ function stampRoot(node, root, machine) {
  * its cadence targets are in rpm, and the Concept2 archive is the reverse. Showing both regardless
  * of what is plugged in put eleven hundred bike workouts in front of a rower.
  *
+ * The filter is over top-level collections, not over workouts. Which machine a session is for is a
+ * property of the catalogue it came from, so it is constant across everything under a catalogue's
+ * collections — walking to the leaves to ask would test the same answer fourteen hundred times, and
+ * would have added a third way of recognising a leaf to a file that already disagrees with itself
+ * about it twice (`'url' in value` here, `isWorkoutFile` below).
+ *
  * Filtering only once a machine is actually connected, rather than defaulting to the bike: before a
  * connection the adapter descriptor is the bike's, so keying off it alone would hide the rowing
  * catalogue from anyone browsing before they connect — which is most of the time.
  */
-function keepMachine(node, machine) {
-  const kept = {}
-  for (const [name, value] of Object.entries(node)) {
-    if (!value || typeof value !== 'object') continue
-    if ('url' in value) {
-      if (value.machine === machine) kept[name] = value
-    } else {
-      const inner = keepMachine(value, machine)
-      if (Object.keys(inner).length) kept[name] = inner
-    }
-  }
-  return kept
+function keepMachine(data, collectionMachines, machine) {
+  return Object.fromEntries(
+    Object.entries(data).filter(([name]) => collectionMachines[name] === machine)
+  )
 }
 
 window.workoutLibraryModal = function () {
   return {
     formatDuration,
     workoutData: {},
+    // Which machine each top-level collection is for, by collection name. Built at load, because
+    // that is the only place the catalogue a collection came from is still known.
+    collectionMachines: {},
     searchQuery: '',
     minDuration: '',
     maxDuration: '',
@@ -66,10 +67,12 @@ window.workoutLibraryModal = function () {
           CATALOGUES.map(async ({ manifest, root, machine }) => {
             const response = await fetch(manifest)
             if (!response.ok) throw new Error(`Failed to load ${manifest}`)
-            return stampRoot(await response.json(), root, machine)
+            return { machine, data: stampRoot(await response.json(), root) }
           })
         )
-        this.workoutData = Object.assign({}, ...catalogues)
+        for (const { machine, data } of catalogues)
+          for (const name of Object.keys(data)) this.collectionMachines[name] = machine
+        this.workoutData = Object.assign({}, ...catalogues.map(c => c.data))
         this.filteredData = this.workoutData
       } catch (error) {
         console.error('Error loading workout data:', error)
@@ -77,16 +80,21 @@ window.workoutLibraryModal = function () {
       }
     },
 
-    // `ergometerName` and `rowing` come from the app's scope, which this dialog sits inside. Null
-    // until something is connected, which is exactly the "show everything" case.
+    // `ergometerName` and `ergometer` come from the app's scope, which this dialog sits inside.
+    // Null until something is connected, which is exactly the "show everything" case.
+    //
+    // The adapter's own `kind` rather than a ternary on `rowing`: the descriptor already states
+    // 'bike' or 'rower', which are the two values the catalogues are stamped with, so asking the
+    // machine what it is beats deriving it back from a boolean that was derived from it. A third
+    // adapter — the FTMS Rower firmware bluetooth.js already mentions — would otherwise be
+    // classified 'bike' by the falsy branch and handed eleven hundred cycling workouts.
     get machine() {
-      if (!this.ergometerName) return null
-      return this.rowing ? 'rower' : 'bike'
+      return this.ergometerName ? this.ergometer.kind : null
     },
 
     get displayData() {
       const data = this.hasActiveFilters ? this.filteredData : this.workoutData
-      return this.machine ? keepMachine(data, this.machine) : data
+      return this.machine ? keepMachine(data, this.collectionMachines, this.machine) : data
     },
 
     get hasActiveFilters() {

@@ -106,8 +106,11 @@ export function generateTcx(samples, name = '', weight = 70, sport = 'Biking') {
     phaseLabel: sample.phaseLabel,
     startTime: sample.time,
     startedAt: new Date(sample.time).getTime(),
-    lastTime: new Date(sample.time).getTime(),
-    startDistance: totalDistance,
+    lastTime: 0,
+    // Accumulated as the lap runs rather than differenced at the end. A start-and-end pair needed
+    // both a fallback for the end that could never fire and a clamp against a subtraction that
+    // could never go negative, which is two defences around a number that is simply a sum.
+    distance: 0,
     kilojoules: 0,
     maxSpeed: 0,
     heartRateSum: 0,
@@ -117,9 +120,11 @@ export function generateTcx(samples, name = '', weight = 70, sport = 'Biking') {
   })
 
   for (const sample of samples) {
+    // Pushed at creation. Lap objects are mutated by reference for the rest of their samples, so
+    // appending here rather than on the way out removes both the second push site and its guard.
     if (!lap || sample.phaseIndex !== lap.phaseIndex) {
-      if (lap) laps.push(lap)
       lap = openLap(sample)
+      laps.push(lap)
     }
     const time = new Date(sample.time).getTime()
     // Samples are not one per second — they are created whenever more than 1.5 s has passed, and
@@ -140,6 +145,7 @@ export function generateTcx(samples, name = '', weight = 70, sport = 'Biking') {
       const metres = reading(sample.distance)
       if (metres !== null && metres > totalDistance) {
         speed = stepSeconds > 0 ? (metres - totalDistance) / stepSeconds : 0
+        lap.distance += metres - totalDistance
         totalDistance = metres
         if (speed > lap.maxSpeed) lap.maxSpeed = speed
       } else {
@@ -147,6 +153,7 @@ export function generateTcx(samples, name = '', weight = 70, sport = 'Biking') {
       }
     } else if (hasPower) {
       speed = virtualSpeedFromPower(Number(sample.power), { mass: weight + 10 })
+      lap.distance += speed * stepSeconds
       totalDistance += speed * stepSeconds
       if (speed > lap.maxSpeed) lap.maxSpeed = speed
     }
@@ -182,9 +189,7 @@ export function generateTcx(samples, name = '', weight = 70, sport = 'Biking') {
         )
       )
     lap.trackpoints += tag('Trackpoint', children)
-    lap.endDistance = totalDistance
   }
-  if (lap) laps.push(lap)
 
   // ActivityLap_t is a sequence: TotalTimeSeconds, DistanceMeters, MaximumSpeed?, Calories,
   // AverageHeartRateBpm?, MaximumHeartRateBpm?, Intensity, Cadence?, TriggerMethod, Track*, Notes?.
@@ -194,10 +199,7 @@ export function generateTcx(samples, name = '', weight = 70, sport = 'Biking') {
   const lapTag = entry => {
     const children = [
       tag('TotalTimeSeconds', ((entry.lastTime - entry.startedAt) / 1000).toFixed(2)),
-      tag(
-        'DistanceMeters',
-        Math.max(0, (entry.endDistance ?? entry.startDistance) - entry.startDistance).toFixed(2)
-      )
+      tag('DistanceMeters', entry.distance.toFixed(2))
     ]
     if (entry.maxSpeed > 0) children.push(tag('MaximumSpeed', entry.maxSpeed.toFixed(3)))
     children.push(tag('Calories', Math.round(entry.kilojoules)))

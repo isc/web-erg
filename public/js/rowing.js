@@ -1,3 +1,5 @@
+import { formatForTimer } from './utils.js'
+
 /**
  * The rower's units, and the one conversion between them.
  *
@@ -44,11 +46,18 @@ export function powerFromSplit(splitSeconds) {
  */
 export function formatSplit(seconds) {
   if (seconds == null || !isFinite(seconds)) return '—'
-  // Rounded BEFORE the minute is taken out. Splitting first and rounding the remainder after
-  // printed 1:60 for anything between 1:59.5 and 2:00.
-  const whole = Math.round(Math.max(0, Number(seconds)))
-  const minutes = Math.floor(whole / 60)
-  return `${minutes}:${String(whole - minutes * 60).padStart(2, '0')}`
+  // Rounded BEFORE formatForTimer sees it. Handing it a fraction printed 1:59.96, and taking the
+  // minute out first and rounding the remainder after printed 1:60 for anything above 1:59.5.
+  return formatForTimer(Math.round(Math.max(0, Number(seconds))))
+}
+
+// Always metres, whatever the number: a countdown that switches to "6.00 km" at a thousand loses
+// the metre it is counting in. `formatDistance` is the one that chooses its unit; this is the one
+// for a reading whose unit is fixed. Both keep the space non-breaking, which is the whole reason
+// they are here rather than spelled out at each call site.
+export function formatMetres(metres) {
+  if (metres == null || !isFinite(metres)) return '—'
+  return `${Math.round(metres)}\u00a0m`
 }
 
 // Metres, as the cockpit says them: whole metres below a kilometre, kilometres above, where the
@@ -63,6 +72,6 @@ export function formatSplit(seconds) {
 // a unit.
 export function formatDistance(metres) {
   if (metres == null || !isFinite(metres)) return '—'
-  if (metres < 1000) return `${Math.round(metres)}\u00a0m`
+  if (metres < 1000) return formatMetres(metres)
   return `${(metres / 1000).toFixed(2)}\u00a0km`
 }
