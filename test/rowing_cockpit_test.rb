@@ -4,9 +4,12 @@ require_relative 'test_helper'
 # so the cockpit is not a comfort but the entire feedback loop. What it has to get right is that
 # split and target split are the same computation applied to two wattages, and that the gap between
 # them is legible.
+#
+# All of it is asserted against a `connect_rower` — an erg present and saying nothing — so that the
+# numbers under test are the numbers the test wrote rather than whichever ones arrived last.
 class RowingCockpitTest < CapybaraTestBase
   def test_connecting_a_pm5_switches_the_app_to_rowing
-    row
+    connect_rower
 
     assert_equal 'rower', app_state('ergometer.kind')
     refute app_state('ergometer.controlsPower'), 'a Concept2 accepts no power target'
@@ -14,7 +17,7 @@ class RowingCockpitTest < CapybaraTestBase
 
   def test_the_cockpit_reads_in_split_and_strokes_per_minute
     page.driver.resize(*PHONE)
-    row
+    connect_rower
 
     # Uppercased by the stylesheet, like every label in the cockpit.
     within '.cockpit-metrics' do
@@ -26,7 +29,7 @@ class RowingCockpitTest < CapybaraTestBase
   end
 
   def test_the_wide_table_gains_split_and_distance
-    row
+    connect_rower
 
     within 'table.workout-data' do
       assert_text 'Split'
@@ -35,22 +38,11 @@ class RowingCockpitTest < CapybaraTestBase
     end
   end
 
-  # Every metre of this comes off the PM5. There is no aerodynamic model on a rower and no
-  # opportunity for one: the machine counts the flywheel.
-  def test_distance_is_the_erg_s_own_count
-    row
-
-    # The capture is a 100 m piece, replayed at twenty times its own clock.
-    wait_until(15) { app_state('distance').to_f >= 100 }
-
-    assert_equal 100.0, app_state('distance')
-  end
-
   # 213 W is 1:58 /500 m by w = 2.80 / pace³ — the identity the probe confirmed on the machine.
   # Both numbers go through it, which is the point: on target, the gap is exactly zero rather than
   # the residue of two different estimators.
   def test_split_and_target_are_the_same_conversion_of_two_wattages
-    row
+    connect_rower
 
     set_app_state(power: 213, targetWatts: 213)
 
@@ -61,7 +53,7 @@ class RowingCockpitTest < CapybaraTestBase
   end
 
   def test_being_behind_the_target_reads_as_a_positive_gap
-    row
+    connect_rower
 
     # 213 W asks for 1:58.0; 180 W is 2:04.8, so nearly seven seconds per 500 m down.
     set_app_state(power: 180, targetWatts: 213)
@@ -72,7 +64,7 @@ class RowingCockpitTest < CapybaraTestBase
   end
 
   def test_being_ahead_of_the_target_fills_the_bar_to_the_left
-    row
+    connect_rower
 
     set_app_state(power: 260, targetWatts: 213)
 
@@ -87,7 +79,7 @@ class RowingCockpitTest < CapybaraTestBase
   # Ten seconds per 500 m is a different piece, not a deviation. Past that the bar pins rather than
   # running off the end of its track.
   def test_the_deviation_bar_pins_rather_than_overflowing
-    row
+    connect_rower
 
     set_app_state(power: 60, targetWatts: 300)
 
@@ -98,33 +90,49 @@ class RowingCockpitTest < CapybaraTestBase
   # appended its own "m" printed "6.00 km m" for any session past a kilometre, which is most of
   # the Concept2 archive.
   def test_distance_names_its_own_unit
-    row
+    connect_rower
 
     set_app_state(distance: 850)
 
-    assert_equal '850 m', app_state('distanceLabel')
+    assert_equal "850\u00a0m", app_state('distanceLabel')
 
     set_app_state(distance: 6000)
 
-    assert_equal '6.00 km', app_state('distanceLabel')
-  end
-
-  # 1:59.6 used to print as "1:60": the minute was taken out first and the remainder rounded
-  # after. The cockpit re-reads this on every power packet, so it was a matter of time.
-  def test_a_split_never_prints_sixty_seconds
-    row
-
-    split = in_page_module({ rowing: '/js/rowing.js' }, 'return rowing.formatSplit(args[0])', 119.6)
-
-    assert_equal '2:00', split
+    assert_equal "6.00\u00a0km", app_state('distanceLabel')
   end
 
   def test_no_target_means_no_gap_to_show
-    row
+    connect_rower
 
     set_app_state(power: 200, targetWatts: nil)
 
     assert_equal '', app_state('splitDeltaLabel')
     assert_equal '--from: 50%; --width: 0%', app_state('splitDeviationStyle')
+  end
+end
+
+# The one test here that is rowed rather than driven. Every metre of this comes off the PM5: there
+# is no aerodynamic model on a rower and no opportunity for one, the machine counts the flywheel.
+class RowedDistanceTest < CapybaraTestBase
+  def test_distance_is_the_erg_s_own_count
+    row
+
+    # The capture is a 100 m piece. It is held until Start, so nothing was rowed before the session
+    # began and the erg's counter and the session's are the same number.
+    wait_until(15) { app_state('distance').to_f >= 100 }
+
+    assert_equal 100.0, app_state('distance')
+    assert_equal app_state('ergDistance'), app_state('distance')
+  end
+end
+
+# 1:59.6 used to print as "1:60": the minute was taken out first and the remainder rounded after.
+# The cockpit re-reads this on every power packet, so it was a matter of time. The subject is
+# rowing.js and nothing above it, so there is no erg to connect.
+class SplitFormatTest < ModuleTestBase
+  def test_a_split_never_prints_sixty_seconds
+    split = in_page_module({ rowing: '/js/rowing.js' }, 'return rowing.formatSplit(args[0])', 119.6)
+
+    assert_equal '2:00', split
   end
 end

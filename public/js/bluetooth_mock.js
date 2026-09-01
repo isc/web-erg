@@ -9,13 +9,14 @@
  * really produced rather than against our idea of what it produces. There is no erg here and there
  * will not be one; this is the only thing that makes the port verifiable.
  *
- * Two liberties are taken with the replay, both visible from the test that sets them:
+ * Three liberties are taken with the replay:
  *
- *  - Time is compressed by `mockPm5Speed` (20× by default), so a seventy-three second piece takes
- *    under four seconds. The order and the spacing are the capture's; only the clock is faster.
+ *  - Time is compressed twentyfold, so a seventy-three second piece takes under four seconds. The
+ *    order and the spacing are the capture's; only the clock is faster.
  *  - When the frames run out, the 1 Hz status characteristics keep repeating their last packet and
  *    the stroke ones fall silent. That is not an invention: it is exactly what the machine did for
  *    the ten seconds after the final stroke of the captured piece.
+ *  - Nothing is sent until the page dispatches `mock-pm5-go`. See `replay()` below.
  */
 
 import { bytesFrom } from './ergometers/frame.js'
@@ -50,8 +51,10 @@ const BIKE_SERVICES = [FITNESS_MACHINE_SERVICE, CYCLING_POWER]
 // It matters because their carrying on is what tells the adapter that the rowing has stopped.
 const PERIODIC = new Set([GENERAL_STATUS, ADDITIONAL_STATUS_1])
 
-const DEFAULT_SPEED = 20
-const DEFAULT_SESSION = 'fixed-100m'
+// Twenty times the capture's own clock, which is what turns a seventy-three second piece into a
+// test that finishes.
+const SPEED = 20
+const CAPTURE = 'fixed-100m'
 
 // Keyed by the characteristic UUID the caller asks for, the way a real GATT server is: dispatching
 // on the service instead meant a service could only ever hand back one characteristic shape.
@@ -135,24 +138,34 @@ function heartRate() {
  * status frames that close the piece arrive before the strokes that earn them.
  */
 function pm5Device(captures) {
-  const session = captures[setting('mockPm5Session', DEFAULT_SESSION)]
-  const speed = Number(setting('mockPm5Speed', DEFAULT_SPEED))
+  const session = captures[CAPTURE]
   const listeners = new Map()
   let started = false
 
   const deliver = frame => listeners.get(frame.uuid)?.({ target: { value: bytesFrom(frame.hex) } })
 
-  function replay() {
-    if (started) return
-    started = true
+  function run() {
     for (const frame of session.frames)
-      setTimeout(() => deliver(frame), frame.at / speed)
-    const ends = session.frames[session.frames.length - 1].at / speed
+      setTimeout(() => deliver(frame), frame.at / SPEED)
+    const ends = session.frames[session.frames.length - 1].at / SPEED
     // The last packet each periodic characteristic sent, repeated at the rate it was sending them.
     const held = [...PERIODIC]
       .map(uuid => session.frames.filter(frame => frame.uuid === uuid).pop())
       .filter(Boolean)
     setTimeout(() => setInterval(() => held.forEach(deliver), 1000), ends)
+  }
+
+  // Subscribing is not rowing. If the capture started the moment the app subscribed — which is when
+  // the erg connects — the piece would be running while the form was still being filled in, and how
+  // many metres were on the monitor at Start would be decided by how fast the browser was that
+  // afternoon. So the capture waits on the shelf until the page says go, which puts every stroke
+  // after Start. A page that never says go has a PM5 that is connected and silent, which is a real
+  // enough state — an erg with nobody on it — and the one a test about what the cockpit *computes*
+  // wants, since nothing then overwrites a reading it wrote itself.
+  function replay() {
+    if (started) return
+    started = true
+    window.addEventListener('mock-pm5-go', run, { once: true })
   }
 
   function characteristic(uuid) {

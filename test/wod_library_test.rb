@@ -3,8 +3,9 @@ require_relative 'test_helper'
 # No machine-readable rowing workout library exists. What does exist is Concept2's Workout of the
 # Day newsletter, addressable by date and in the clear, which scripts/import_c2_wod.rb turns into
 # .zwo files committed beside the Zwift ones. These tests are about what shipped, not about the
-# fetching: the corpus is in the repo and nothing depends on that server at run time.
-class WodLibraryTest < CapybaraTestBase
+# fetching: the corpus is in the repo and nothing depends on that server at run time — nor on a
+# browser, which is why this one reads the files straight off disk.
+class WodCorpusTest < Minitest::Test
   CORPUS = JSON.parse(
     File.read(File.expand_path('../public/rowing_workouts.json', __dir__))
   )['Concept2 Workout of the Day'].freeze
@@ -36,6 +37,20 @@ class WodLibraryTest < CapybaraTestBase
     assert_includes zwo, '<SteadyState Distance="2000" Power="1.0"/>'
   end
 
+  private
+
+  def workout(name)
+    File.read(File.expand_path("../public/rowing_workouts/#{name}", __dir__))
+  end
+
+  def hardest(name)
+    workout(name).scan(/Power="([\d.]+)"/).flatten.map(&:to_f).max
+  end
+end
+
+# And that the corpus reached the library the rides are chosen from — the one thing about it that
+# needs the app open.
+class WodLibraryTest < CapybaraTestBase
   def test_a_wod_is_choosable_from_the_same_library_as_the_rides
     click_on 'Choose from Library'
     fill_in 'Search for a workout...', with: '8 x 500m'
@@ -64,15 +79,5 @@ class WodLibraryTest < CapybaraTestBase
 
     assert_text 'Concept2 Workout of the Day'
     assert_text 'Athlete Inspired'
-  end
-
-  private
-
-  def workout(name)
-    File.read(File.expand_path("../public/rowing_workouts/#{name}", __dir__))
-  end
-
-  def hardest(name)
-    workout(name).scan(/Power="([\d.]+)"/).flatten.map(&:to_f).max
   end
 end

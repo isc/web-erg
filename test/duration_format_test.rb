@@ -2,7 +2,7 @@ require_relative 'test_helper'
 
 # Durations are stored as decimal minutes, which is fine for the library's filters and unreadable on
 # screen: a workout announced itself as "50.83 minutes".
-class DurationFormatTest < CapybaraTestBase
+class DurationFormatTest < ModuleTestBase
   def format(minutes)
     in_page_module({ utils: '/js/utils.js' }, 'return utils.formatDuration(args[0])', minutes)
   end

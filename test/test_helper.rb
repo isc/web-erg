@@ -1,3 +1,12 @@
+require 'etc'
+
+# One browser per lane, one lane per test thread. Almost the whole of this suite is spent waiting on
+# a browser, which is time Ruby spends outside the GVL, so lanes buy close to their number back —
+# up to the point where the Chromes start competing for cores, which on this hardware is about
+# eight. Set through Minitest's own knob rather than beside it, so there is one number and one name
+# for it; `MT_CPU=1` still runs the suite in a single browser.
+ENV['MT_CPU'] ||= [Etc.nprocessors, 8].min.to_s
+
 require 'capybara'
 require 'capybara/dsl'
 require 'capybara/minitest'
@@ -6,13 +15,60 @@ require 'rack'
 require 'capybara/cuprite'
 require_relative '../app'
 
-Capybara.app = App
+# Every class in this suite runs in parallel — there is no shared state left between tests that a
+# lane's own browser does not hold — so it is said once here rather than remembered per class.
+Minitest::Test.parallelize_me!
+LANES = Minitest.parallel_executor.size
+
+# Every session gets its own driver, its own browser and its own cookie jar, and each of them is
+# reached from a different thread. Without this, `Capybara.session_name` is one global and all the
+# threads share one browser.
+Capybara.threadsafe = true
+
+# A page with nothing on it, for the tests whose subject is a module rather than the app. Loading
+# the app for those costs the whole ES module graph, Alpine, the CDN stylesheet and the workout
+# library JSON — about six hundred milliseconds each, for a document none of them look at. Wrapped
+# around the app here rather than added to it as a route: it is scaffolding for the suite, and the
+# app should not carry a page that only the suite ever opens.
+BLANK_PAGE = lambda do |_env|
+  [200, { 'content-type' => 'text/html; charset=utf-8' },
+   ['<!doctype html><html lang="en"><head><title>blank</title></head><body></body></html>']]
+end
+
+Capybara.app = Rack::Builder.new do
+  map('/__blank') { run BLANK_PAGE }
+  run App
+end.to_app
+
+# One Puma serves every lane. Four threads was Capybara's default and is one per two browsers once
+# the suite runs wide, which turns the server into the queue everything waits in.
+Capybara.server = :puma, { Silent: true, Threads: '0:32' }
 
 Capybara.register_driver(:cuprite) do |app|
-  options = { headless: !ENV['DISABLE_HEADLESS'] }
+  browser_options = {
+    # A container's /dev/shm is 64 MB by default, which one Chrome can live with and eight cannot.
+    'disable-dev-shm-usage' => nil,
+    # A headless window is never the foreground one, and Chrome clamps timers in windows it thinks
+    # nobody is looking at — to one tick a second, which is slower than the capture replays. The
+    # suite's clocks have to be the suite's.
+    'disable-background-timer-throttling' => nil,
+    'disable-backgrounding-occluded-windows' => nil,
+    'disable-renderer-backgrounding' => nil
+  }
   # CI runners have no usable Chrome sandbox; asking for one there aborts the browser at launch.
-  options[:browser_options] = { 'no-sandbox' => nil } if ENV['CI']
-  Capybara::Cuprite::Driver.new(app, **options)
+  browser_options['no-sandbox'] = nil if ENV['CI']
+  Capybara::Cuprite::Driver.new(
+    app,
+    headless: !ENV['DISABLE_HEADLESS'],
+    browser_options:,
+    # How long a single CDP round trip may take, and how long a browser may take to come up.
+    # Ferrum's defaults are 5 s and 10 s, which are generous for one browser and thin for eight on a
+    # machine that is also doing something else: a `click_on` failed twice in twenty runs with
+    # "timed out waiting for response", which is the protocol giving up, not the app being wrong.
+    # Raising a ceiling nothing reaches when the machine is idle is not the same as retrying.
+    timeout: 30,
+    process_timeout: 30
+  )
 end
 Capybara.default_driver = :cuprite
 Capybara.enable_aria_label = true
@@ -21,13 +77,33 @@ Capybara.enable_aria_label = true
 # sample is waiting on two clocks that do not line up. On a loaded CI runner that is a coin toss.
 Capybara.default_max_wait_time = 5
 
-class CapybaraTestBase < Minitest::Test
-  include Capybara::DSL
-  include Capybara::Minitest::Assertions
+# Capybara's session pool is a plain Hash filled by a default proc, so a lane arriving first would
+# be writing to it while another reads. Every session a run can use is therefore created here, on
+# one thread, before any test starts. Creating one costs nothing: the browser behind it is not
+# launched until something visits a page, so lanes a short run never reaches never start a Chrome.
+# One more than there are threads, because a suite run with a filter that matches one test runs it
+# on the main one.
+LANE_QUEUE = Thread::Queue.new
+(0..LANES).each do |index|
+  Capybara.session_name = :"lane-#{index}"
+  Capybara.current_session
+  LANE_QUEUE << :"lane-#{index}"
+end
 
-  def setup
-    page.driver.set_cookie('test-env', 'true')
-    visit '/'
+# A lane's browser, and the state that outlives a page load in it. Included rather than inherited:
+# the two bases below differ only in which page they open, and neither is a kind of the other.
+module BrowserTest
+  def self.included(base)
+    base.include Capybara::DSL
+    base.include Capybara::Minitest::Assertions
+  end
+
+  # `Capybara.session_name` is already a thread variable, so it is the lane: claimed on this
+  # thread's first test and still set on its last. Threads are the executor's and there is one lane
+  # for each, so the queue can never be empty — `pop(true)` says so out loud rather than hanging the
+  # run if that stops being true.
+  def claim_lane
+    Capybara.session_name = LANE_QUEUE.pop(true) if Capybara.session_name == :default
   end
 
   # localStorage outlives a test: the browser is reused, and the app keeps FTP, the fake trainer's
@@ -37,6 +113,44 @@ class CapybaraTestBase < Minitest::Test
     page.execute_script('localStorage.clear()')
     # A test that shrank the window to a phone would otherwise hand the next one a phone.
     page.driver.resize(1024, 768)
+  end
+end
+
+# For tests whose subject is a module: `in_page_module` needs a document to import into and an
+# origin to import from, and nothing more than that.
+class ModuleTestBase < Minitest::Test
+  include BrowserTest
+
+  def setup
+    claim_lane
+    visit '/__blank'
+  end
+
+  # Calls into the app's own ES modules from the page under test. `body` is JavaScript whose value
+  # is returned; it sees the imported modules under the names given in `modules`, and the arguments
+  # passed here as `args[0]`, `args[1]`, ...
+  def in_page_module(modules, body, *)
+    names = modules.keys.join(', ')
+    paths = modules.values.map { |path| "import('#{path}')" }.join(', ')
+    evaluate_async_script(<<~JS, *)
+      const done = arguments[arguments.length - 1]
+      const args = Array.from(arguments).slice(0, -1)
+      Promise.all([#{paths}]).then(([#{names}]) => { done((() => { #{body} })()) })
+    JS
+  end
+end
+
+# For tests whose subject is the app: the page, the Alpine component behind it, and a ride or a row
+# through it.
+class CapybaraTestBase < Minitest::Test
+  include BrowserTest
+
+  def setup
+    claim_lane
+    # The cookie decides whether bluetooth.js swaps in the mock, and it is read as the module graph
+    # loads, so it has to be set before the page that loads it.
+    page.driver.set_cookie('test-env', 'true')
+    visit '/'
   end
 
   PHONE = [390, 844].freeze
@@ -48,13 +162,27 @@ class CapybaraTestBase < Minitest::Test
     start_session(fixture, 'FTP (watts)', ftp, heart_rate:)
   end
 
-  # The same, on a Concept2. The mock then replays pm5-capture.js — the frames the real machine
-  # sent — instead of inventing a power packet, so the erg starts the workout by being rowed.
-  # `speed` compresses the capture's own clock; the default replays a 73-second piece in four.
-  def row(fixture: 'Rowing_Intervals.zwo', ftp: nil, heart_rate: false, session: 'fixed-100m',
-          speed: nil)
-    mock_settings(mockErgometer: 'pm5', mockPm5Session: session, mockPm5Speed: speed)
+  # A Concept2 connected, a workout started, and nobody on the erg. The mock holds its capture until
+  # `start_rowing`, so this is a machine that is present and saying nothing — which is what a test
+  # about what the cockpit *computes* wants, since a reading it writes itself then stays written.
+  # Before the capture was held back, `splitDelta` came back once as 234 seconds, the split of eight
+  # watts, and passed on the rerun.
+  def connect_rower(fixture: 'Rowing_Intervals.zwo', ftp: nil, heart_rate: false)
+    page.execute_script("localStorage.setItem('mockErgometer', 'pm5')")
     start_session(fixture, 'Rowing FTP (watts)', ftp, heart_rate:)
+  end
+
+  # And then someone starts rowing. The mock replays pm5-capture.js — the frames the real machine
+  # sent, at twenty times its own clock — rather than inventing a power packet, so the workout is
+  # started by being rowed. Every metre lands after Start, so the session's distance baseline is the
+  # erg's own zero.
+  def row(...)
+    connect_rower(...)
+    start_rowing
+  end
+
+  def start_rowing
+    page.execute_script("window.dispatchEvent(new Event('mock-pm5-go'))")
   end
 
   # Connect, choose a workout, start. All that differs between the two machines is what the mock
@@ -65,12 +193,6 @@ class CapybaraTestBase < Minitest::Test
     fill_in ftp_field, with: ftp.to_s if ftp
     attach_file('workoutFile', File.expand_path(fixture, __dir__), visible: false)
     click_on 'Start'
-  end
-
-  def mock_settings(**settings)
-    settings.compact.each do |key, value|
-      page.execute_script("localStorage.setItem('#{key}', '#{value}')")
-    end
   end
 
   # Capybara's own waiting covers the page; this covers the app's state behind it. The default is
@@ -100,18 +222,5 @@ class CapybaraTestBase < Minitest::Test
   def ride_until_samples_exist(**)
     ride(**)
     wait_until { app_state('workoutSamples.length').positive? }
-  end
-
-  # Calls into the app's own ES modules from the page under test. `body` is JavaScript whose value
-  # is returned; it sees the imported modules under the names given in `modules`, and the arguments
-  # passed here as `args[0]`, `args[1]`, ...
-  def in_page_module(modules, body, *)
-    names = modules.keys.join(', ')
-    paths = modules.values.map { |path| "import('#{path}')" }.join(', ')
-    evaluate_async_script(<<~JS, *)
-      const done = arguments[arguments.length - 1]
-      const args = Array.from(arguments).slice(0, -1)
-      Promise.all([#{paths}]).then(([#{names}]) => { done((() => { #{body} })()) })
-    JS
   end
 end

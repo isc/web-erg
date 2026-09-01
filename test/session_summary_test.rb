@@ -4,7 +4,7 @@ require_relative 'test_helper'
 # Average power, normalised power, average heart rate and time in zone were all already in
 # `workoutSamples`. They only ever left the app inside a .tcx file: the rider finished a session and
 # was told nothing about it.
-class SessionSummaryTest < CapybaraTestBase
+class SessionSummaryTest < ModuleTestBase
   MODULES = { summary: '/js/session-summary.js' }.freeze
   START = Time.utc(2026, 8, 31, 10, 0, 0)
 
@@ -95,7 +95,11 @@ class SessionSummaryTest < CapybaraTestBase
     assert_nil summarise([])
     assert_nil summarise(samples([{ heartRate: 140 }, { heartRate: 141 }]))
   end
+end
 
+# And the two that ride: what the summary is *for* is the panel at the end of a session, and only a
+# real ride proves the numbers reach it and that they belong to the ride that produced them.
+class SessionSummaryPanelTest < CapybaraTestBase
   def test_finishing_a_ride_shows_what_it_was
     ride_until_samples_exist(heart_rate: true)
     # The strap reports a second after the trainer does, and the first sample is created before it

@@ -4,7 +4,7 @@ require_relative 'test_helper'
 # A rower measures its distance; a trainer has it modelled from watts. That difference reaches the
 # exported file, and so does the sport — the TCX schema has only Running, Biking and Other, so a
 # rowing session goes out as Other and gets corrected in Strava after import.
-class RowingExportTest < CapybaraTestBase
+class RowingExportTest < ModuleTestBase
   MODULES = { tcx: '/js/tcx-export.js', summary: '/js/session-summary.js' }.freeze
   START = Time.utc(2026, 8, 31, 22, 48, 0)
 
@@ -71,21 +71,6 @@ class RowingExportTest < CapybaraTestBase
     assert_equal 1, laps(ROWED).length
   end
 
-  # The three tests above inject phaseIndex into a fixture, which is exactly how the field being
-  # absent from the real samples went unnoticed: the exporter read `phase.phaseIndex`, publishPhase
-  # publishes `number` and `count` and never a `phaseIndex`, so every sample was stamped undefined
-  # and the lap split never fired in the app while the suite stayed green. This asserts the contract
-  # between the two — that what the recorder stamps is a phase the exporter can tell apart — against
-  # a session the app actually recorded.
-  def test_recorded_samples_carry_the_phase_the_exporter_splits_on
-    ride_until_samples_exist
-
-    stamped = app_state('workoutSamples.map(s => s.phaseIndex)')
-
-    refute_empty stamped
-    assert(stamped.none?(&:nil?), "every sample needs a phase to be exported as its own lap, got #{stamped.inspect}")
-  end
-
   # Work is work however the distance was arrived at, so the same wattage over the same seconds must
   # cost the same calories on either machine.
   def test_calories_do_not_depend_on_how_the_distance_was_found
@@ -130,5 +115,23 @@ class RowingExportTest < CapybaraTestBase
 
   def test_a_ride_summary_has_no_distance_to_report
     assert_nil summarise(RIDDEN)['distance']
+  end
+end
+
+# The tests above inject phaseIndex into a fixture, which is exactly how the field being absent from
+# the real samples went unnoticed: the exporter read `phase.phaseIndex`, publishPhase publishes
+# `number` and `count` and never a `phaseIndex`, so every sample was stamped undefined and the lap
+# split never fired in the app while the suite stayed green. This asserts the contract between the
+# two — that what the recorder stamps is a phase the exporter can tell apart — against a session the
+# app actually recorded, which is why it is the one test here that rides.
+class RecordedPhaseStampTest < CapybaraTestBase
+  def test_recorded_samples_carry_the_phase_the_exporter_splits_on
+    ride_until_samples_exist
+
+    stamped = app_state('workoutSamples.map(s => s.phaseIndex)')
+
+    refute_empty stamped
+    assert(stamped.none?(&:nil?),
+           "every sample needs a phase to be exported as its own lap, got #{stamped.inspect}")
   end
 end

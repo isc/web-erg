@@ -2,7 +2,7 @@ require_relative 'test_helper'
 
 # The runner and the SVG each used to expand phases their own way, and disagreed about which tags
 # exist: 40 of the workouts shipped in public/ contain a tag the runner dropped on the floor.
-class PhasesTest < CapybaraTestBase
+class PhasesTest < ModuleTestBase
   MODULES = {
     phases: '/js/phases.js',
     workout: '/js/workout.js',

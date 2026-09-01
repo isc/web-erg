@@ -3,7 +3,7 @@ require_relative 'test_helper'
 
 # Samples are created whenever more than 1.5 s has elapsed, never one per second, and the export
 # used to assume otherwise — every ride reached Strava short on both duration and distance.
-class TcxExportTest < CapybaraTestBase
+class TcxExportTest < ModuleTestBase
   SAMPLES = (0..5).map do |i|
     {
       'time' => (Time.utc(2026, 1, 1) + (i * 2)).strftime('%Y-%m-%dT%H:%M:%S.000Z'),

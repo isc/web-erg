@@ -2,7 +2,7 @@ require_relative 'test_helper'
 
 # Nothing was written anywhere until "Export activity" was clicked, at the very end: a tab closed at
 # minute 45 destroyed the ride.
-class SessionRecoveryTest < CapybaraTestBase
+class SessionRecoveryTest < ModuleTestBase
   STORE = { store: '/js/session-store.js' }.freeze
 
   def store_call(body, *)
@@ -24,7 +24,11 @@ class SessionRecoveryTest < CapybaraTestBase
     page.execute_script("localStorage.setItem('web-erg:session', 'not json')")
     assert_nil store_call('return store.loadSession()')
   end
+end
 
+# And what the rider is shown on the next load. The store above is where it is kept; this is the
+# offer, which only a session that was really interrupted can produce.
+class InterruptedSessionTest < CapybaraTestBase
   def test_an_interrupted_ride_is_offered_on_the_next_load
     ride_until_samples_exist
     page.execute_script("Alpine.$data(document.querySelector('[x-data]')).persistSession()")

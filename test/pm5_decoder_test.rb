@@ -5,7 +5,7 @@ require_relative 'test_helper'
 # machine produced, and most of them are cross-checked against a second field carrying the same
 # quantity in different units. That is the whole reason the capture exists — without an erg, an
 # agreement between two of the erg's own characteristics is the strongest evidence available.
-class Pm5DecoderTest < CapybaraTestBase
+class Pm5DecoderTest < ModuleTestBase
   MODULES = {
     pm5: '/js/ergometers/concept2-pm5.js',
     bytes: '/js/ergometers/frame.js',

@@ -1,0 +1,17 @@
+# The image the suite runs in on the Charras server, which has no Ruby and no Chrome of its own.
+# Recorded here rather than living only in that machine's docker daemon: an image nobody can rebuild
+# is a machine nobody can replace.
+#
+#   docker build -f Dockerfile.test -t web-erg-test .
+#   docker run --rm -v "$PWD":/app -w /app -e BUNDLE_PATH=/app/vendor/bundle -e CI=true \
+#     web-erg-test bash -lc "bundle exec rake test"
+#
+# CI=true is what passes --no-sandbox to Chrome; without it Chromium refuses to start as root.
+FROM ruby:3.4
+
+# Debian's chromium, not Google Chrome: Ferrum only needs a CDP endpoint, and this one is packaged
+# for the same distribution the ruby image is built on. fonts-liberation because a browser with no
+# fonts lays text out at the wrong width, and the suite asserts on what a phone-sized screen shows.
+RUN apt-get update \
+  && apt-get install -y --no-install-recommends chromium fonts-liberation ca-certificates \
+  && rm -rf /var/lib/apt/lists/*

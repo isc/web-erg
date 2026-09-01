@@ -2,7 +2,7 @@ require_relative 'test_helper'
 
 # A browser left to choose its own freshness lifetime per file will happily pair a fresh module with
 # a stale one, and an ES module graph that fails to link renders nothing at all.
-class CachingTest < CapybaraTestBase
+class CachingTest < ModuleTestBase
   def header_for(path)
     page.evaluate_async_script(<<~JS, path)
       const done = arguments[arguments.length - 1]
