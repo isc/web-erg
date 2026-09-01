@@ -52,7 +52,7 @@ class RowingExportTest < CapybaraTestBase
     end
 
     assert_equal 2, laps(phased).length
-    assert_equal %w[Work Rest], laps(phased).map { |l| l.elements['Notes']&.text }
+    assert_equal(%w[Work Rest], laps(phased).map { |l| l.elements['Notes']&.text })
   end
 
   # A lap's DistanceMeters is its own, while a trackpoint's is measured from the start of the

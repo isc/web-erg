@@ -102,11 +102,11 @@ class RowingCockpitTest < CapybaraTestBase
 
     set_app_state(distance: 850)
 
-    assert_equal "850 m", app_state('distanceLabel')
+    assert_equal '850 m', app_state('distanceLabel')
 
     set_app_state(distance: 6000)
 
-    assert_equal "6.00 km", app_state('distanceLabel')
+    assert_equal '6.00 km', app_state('distanceLabel')
   end
 
   # 1:59.6 used to print as "1:60": the minute was taken out first and the remainder rounded
