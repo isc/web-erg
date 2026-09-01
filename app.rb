@@ -1,3 +1,5 @@
+require 'digest'
+require 'rack/deflater'
 require 'fileutils'
 require 'json'
 require 'sinatra'
@@ -40,9 +42,72 @@ class App < Sinatra::Base
     }
   }.freeze
 
+  PUBLIC_DIR = File.expand_path('public', __dir__)
+
+  # The app, as a set of files.
+  #
+  # Everything the service worker must hold for the app to run with no network: the page, the
+  # stylesheet, every module, the vendored libraries, the icons and the two catalogues. Read off
+  # disk rather than listed by hand, because a module added and not listed is exactly the
+  # half-cached app the worker exists to prevent, and a list nobody remembers to edit is worse than
+  # no list. test/pwa_test.rb checks it against what a browser actually loads.
+  #
+  # What is deliberately not here: twelve megabytes of .zwo files and eight of recorded coaching.
+  # Those are content rather than the app, and the worker keeps whichever of them the rider opened.
+  APP_FILE_GLOBS = %w[
+    main.css
+    js/**/*.js
+    vendor/*
+    icons/*
+    manifest.webmanifest
+    rowing_workouts.json
+    zwift_workouts.json
+  ].freeze
+
+  def self.app_files
+    APP_FILE_GLOBS.flat_map { |glob| Dir[File.join(PUBLIC_DIR, glob)] }.select { |p| File.file?(p) }
+  end
+
+  # Relative, never rooted at /: see the note in index.erb about the sub-path this is served under.
+  def self.precache_paths
+    ['./', *app_files.map { |path| path.delete_prefix("#{PUBLIC_DIR}/") }.sort]
+  end
+
+  # Every file whose bytes decide what the app is: the assets above, the templates — the worker's
+  # own body is one of them — and the code that renders them. Any change to any of them is a
+  # different version, and a different version is a different cache, filled whole or not opened.
+  def self.app_version_inputs
+    app_files + Dir[File.join(__dir__, 'views', '*.erb')] + [File.join(__dir__, 'app.rb')]
+  end
+
+  def self.app_version(paths = app_version_inputs)
+    paths.sort.inject(Digest::SHA256.new) do |digest, path|
+      digest << path.delete_prefix("#{__dir__}/") << "\0" << Digest::SHA256.file(path).hexdigest
+    end.hexdigest[0, 16]
+  end
+
+  # One snapshot of the disk, taken once, because the container is restarted by deploy.sh and a boot
+  # is a deploy. Both halves have to come from the same instant: deploy.sh pulls and then restarts,
+  # so a list read per request could pair the version hashed at the last boot with files pulled
+  # since — an install that adds new files to the live cache under the old name, which is a cache
+  # holding two builds and exactly what none of this is allowed to produce.
+  VERSION = app_version.freeze
+  PRECACHE = precache_paths.freeze
+
   enable :sessions
   set :views, 'views'
-  set :public_folder, 'public'
+  set :public_folder, PUBLIC_DIR
+
+  # The extension is not in Rack's table, and a manifest served as octet-stream is a manifest some
+  # browsers decline to read.
+  mime_type :webmanifest, 'application/manifest+json'
+
+  # 1.3 MB of app, 321 kB of it compressed, and the worker re-downloads the whole set on every
+  # deploy — over a home Wi-Fi, to a phone. Only what compresses: an mp3 or a PNG gains nothing and
+  # a range request for audio would rather not be re-encoded on the way past.
+  use Rack::Deflater, if: lambda { |_env, _status, headers, _body|
+    headers['Content-Type'].to_s.match?(%r{\A(text/|image/svg|application/(javascript|json|xml|manifest))})
+  }
   set :session_secret, ENV['SESSION_SECRET'] || SecureRandom.hex(64)
 
   post '/llm_coach' do
@@ -165,6 +230,17 @@ class App < Sinatra::Base
 
   get '/' do
     erb :index
+  end
+
+  # The worker. A template rather than a static file, because the two things it cannot know about
+  # itself — which version this is, and which files that version consists of — are the whole design.
+  # The browser re-fetches this script on every navigation and compares it byte for byte; a deploy
+  # that changes any asset changes the digest, which changes these bytes, which is what makes the
+  # browser install the new version. `cache_control :no_cache` on it — the before filter below — is
+  # what keeps that check honest.
+  get '/sw.js' do
+    content_type 'text/javascript'
+    erb :'service_worker.js', layout: false
   end
 
   # A one-off instrument for the Concept2 port: everything in ROWING.md about the PM5's Bluetooth

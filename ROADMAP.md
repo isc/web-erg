@@ -205,3 +205,56 @@ here so they are not lost.
 - **The camera as an input** — the device is already sitting in front of a rider with nothing to do
   with their hands. "Give me a V" at the end of a hard interval, or a smile the coach reacts to, is a
   different kind of feedback than a number going up.
+
+## What is still unverified, and what it would take
+
+Written at the end of the session that made the suite fast and made the app installable. Everything
+below was built and tested on a server with no ergometer, no phone and no rowing machine attached,
+which puts a hard edge on what "green" means here.
+
+**The suite proves** that 116 tests pass in about twenty-two seconds, twenty runs in a row on
+twenty different seeds; that the service worker precaches every file the app loads and no others; that with
+the network taken away from the page *and* from the worker the app still loads, links its modules,
+starts a workout and records samples; that a version changes when any file's bytes change; and that
+a new version arriving mid-session shows a banner rather than reloading.
+
+**It cannot prove any of this**, and none of it is checkable without hardware in a room:
+
+- **That it installs on Ivan's phone.** Chrome's install prompt has its own rules and reads the
+  manifest itself. The manifest is valid and complete by the letter of the spec — name, `start_url`,
+  `display: standalone`, 192 and 512 px icons, one of them maskable — but "valid" and "Chrome offers
+  to install it" are different sentences. **Needs:** open the Funnel URL on the phone, check that
+  the browser offers to add it, add it, and see the icon on the home screen at the size the launcher
+  actually draws.
+- **That the installed app behaves like an app.** `display: standalone` should mean no address bar;
+  `apple-mobile-web-app-capable` should mean the same on iOS, which reads none of the manifest.
+  Safari has no Web Bluetooth, so an iPhone install is a display, not a trainer. **Needs:** the
+  phone, installed, launched from the home screen.
+- **That it survives a real session on a real Wi-Fi.** What was tested is the network removed
+  cleanly, at once, by a debugger. A home Wi-Fi does not fail that way: it goes slow, it drops for
+  four seconds, DNS answers and TCP does not. The worker is cache-first for everything it holds, so
+  the app should not notice — but the LLM coach posts to `/llm_coach` every few seconds and the
+  Bluetooth stack is not the worker's business at all. **Needs:** a 40-minute session with the
+  router switched off partway through, and the .tcx checked afterwards for holes.
+- **That a deploy lands the way the design says it does.** The whole freshness argument — new
+  digest, new `sw.js` bytes, install whole, activate, reload if not riding — has been reasoned
+  through and unit-tested at every seam, and never once watched end to end against a real deploy.
+  **Needs:** open the app on the phone, run `./deploy.sh` on the server, and watch the tab: it
+  should reload itself within a navigation or two. Then do it again with a workout running, and
+  check that the banner appears and the ride does not stop.
+- **That the icon reads on a home screen.** It was drawn and inspected at 512, 192 and 48 px on a
+  screen, not on a phone next to eleven other icons.
+- **That the bike still works.** Every rowing path is exercised against a capture of real PM5
+  frames; the cycling path is exercised against a mock that invents a power packet. That was already
+  true before this session and is unchanged by it, but it is the standing gap: **needs** one ride on
+  the actual trainer to confirm nothing in the vendoring, the worker or the update banner disturbed
+  ERG mode.
+
+Two smaller things a human might want to decide rather than verify:
+
+- **The `no-cache` header is now belt and braces.** Every response still carries it, which is right
+  while the worker is new, and is doing nothing for a client the worker controls. Leave it.
+- **The deviation arithmetic is still trapped in Alpine.** `splitDelta`, `splitStatus`,
+  `splitDeviationStyle` and the countdown formatting are pure functions of two numbers stranded as
+  component getters, which is why nine tests boot a browser and connect a fake erg to reach them.
+  Moving them into `rowing.js` would delete most of that scaffolding.

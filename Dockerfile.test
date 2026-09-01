@@ -12,6 +12,12 @@ FROM ruby:3.4
 # Debian's chromium, not Google Chrome: Ferrum only needs a CDP endpoint, and this one is packaged
 # for the same distribution the ruby image is built on. fonts-liberation because a browser with no
 # fonts lays text out at the wrong width, and the suite asserts on what a phone-sized screen shows.
+#
+# librsvg2-bin is not for the suite: it is what scripts/generate_icons.sh needs, because the
+# ImageMagick this image already carries renders SVG through its own reader and returns a picture
+# that is not the drawing. The icons are committed, so only whoever changes them needs it — on a
+# machine that has no Ruby either, which is why it is recorded here rather than installed by hand.
 RUN apt-get update \
-  && apt-get install -y --no-install-recommends chromium fonts-liberation ca-certificates \
+  && apt-get install -y --no-install-recommends \
+    chromium fonts-liberation ca-certificates librsvg2-bin \
   && rm -rf /var/lib/apt/lists/*

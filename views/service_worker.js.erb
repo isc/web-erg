@@ -1,0 +1,111 @@
+/**
+ * The offline half of the app — and, deliberately, a stricter answer to the problem `no-cache` was
+ * put there to solve.
+ *
+ * A template, served as `/sw.js`, and it lives in views/ rather than public/js/ for two reasons:
+ * nothing should be able to fetch it as it stands, and a change to it has to be a change to the
+ * app. Both fall out of where it is — the version below hashes every template, and no static route
+ * reaches it. The two constants are the only thing app.rb tells it, and it invents neither:
+ * `VERSION` is a digest of every file whose bytes decide what the app is, `ASSETS` is that list.
+ *
+ * ## Why a cache is safe here when per-file caching was not
+ *
+ * Commit 2117d78 exists because a deploy once left a browser holding a fresh main.js next to a
+ * stale bluetooth.js. The ES module graph failed to link, `workoutApp` was never defined, and the
+ * page rendered black on a phone in a dark room with nothing on screen to say why. `no-cache` fixed
+ * it by making the browser revalidate every file — which guarantees each file is current, and does
+ * not guarantee that any two of them are from the same build.
+ *
+ * A version installs whole or not at all. `cache.addAll` is a single promise over the entire asset
+ * list: if one file 404s, the cache is never opened and the old version keeps serving. The new
+ * cache is only made the live one in `activate`, and the old ones are deleted in the same breath.
+ * So a document is always built from one build, end to end — which is more than the header ever
+ * promised.
+ *
+ * ## Why that does not make deploys slower to land
+ *
+ * The browser re-fetches this script on every navigation in scope and compares it byte for byte,
+ * bypassing the HTTP cache. A deploy changes an asset, which changes VERSION, which changes these
+ * bytes: the new worker installs at once. `skipWaiting` then makes it the live one without waiting
+ * for every tab to close, and `activate` tells the pages so. A page that is not mid-workout reloads
+ * itself — sooner than `no-cache` managed, which needed the rider to press reload. A page that is
+ * mid-workout keeps the build it started with, which is the only correct thing to do to a session
+ * in progress, and says so on screen. See app-update.js.
+ */
+
+const VERSION = '<%= App::VERSION %>'
+const ASSETS = <%= App::PRECACHE.to_json %>
+
+const CACHE = `web-erg-${VERSION}`
+
+// What is worth keeping on the way past. A workout is a few kilobytes and is what the rider will
+// want again when they reopen the app on a bad connection; the coaching audio is eight megabytes of
+// library plus a stream of one-shot synthesised lines that are never asked for twice, and it is the
+// one thing here that already degrades quietly when it is missing.
+const WORTH_KEEPING = /\.zwo$/
+
+self.addEventListener('install', event => {
+  event.waitUntil(
+    caches
+      .open(CACHE)
+      // `reload` so the version is built from what the server has now, rather than from whatever
+      // the HTTP cache happens to be holding from the version before it.
+      .then(cache => cache.addAll(ASSETS.map(asset => new Request(asset, { cache: 'reload' }))))
+      .then(() => self.skipWaiting())
+  )
+})
+
+self.addEventListener('activate', event => {
+  event.waitUntil(
+    caches
+      .keys()
+      .then(names =>
+        Promise.all(names.filter(name => name !== CACHE).map(name => caches.delete(name)))
+      )
+      .then(() => self.clients.claim())
+  )
+})
+
+self.addEventListener('fetch', event => {
+  const request = event.request
+  // POSTs are the coach asking for a line. There is nothing to cache and nothing to replay.
+  if (request.method !== 'GET') return
+  if (new URL(request.url).origin !== self.location.origin) return
+  event.respondWith(serve(event))
+})
+
+// Opened once rather than per request: every fetch the page makes goes through here.
+const opened = caches.open(CACHE)
+
+/**
+ * Cache first, and the cache is one build.
+ *
+ * Anything the version was built with is answered from it without touching the network, which is
+ * what lets a session survive the Wi-Fi going. A workout the rider picks is fetched and then kept,
+ * in the same versioned cache, so the next deploy throws it out along with everything else rather
+ * than leaving a file from an older library beside a newer app. Offline with nothing to answer
+ * with, an in-scope navigation still gets the app shell.
+ *
+ * The keeping happens after the response has been handed back, not before it: a page waiting on a
+ * workout should not also be waiting on a disk write.
+ */
+async function serve(event) {
+  const request = event.request
+  const cache = await opened
+  const cached = await cache.match(request, { ignoreSearch: true })
+  if (cached) return cached
+
+  try {
+    const response = await fetch(request)
+    // 200 and nothing else. A 206 is half a file, and Cache.put refuses one.
+    if (response.status === 200 && WORTH_KEEPING.test(new URL(request.url).pathname))
+      event.waitUntil(cache.put(request, response.clone()))
+    return response
+  } catch (error) {
+    if (request.mode === 'navigate') {
+      const shell = await cache.match('./')
+      if (shell) return shell
+    }
+    throw error
+  }
+}

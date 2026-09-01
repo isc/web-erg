@@ -30,6 +30,7 @@ import { formatDistance, formatMetres, formatSplit, splitFromPower } from './row
 import { renderWorkoutSvg } from './workout-rendering.js'
 import { getZoneColor } from './zones.js'
 import { metric, summariseSession, zoneShare } from './session-summary.js'
+import { registerServiceWorker } from './app-update.js'
 
 window.workoutApp = function () {
   return {
@@ -83,6 +84,9 @@ window.workoutApp = function () {
     deviceError: null,
     deviceLog: [],
     recoveredSession: null,
+    // A newer build is installed and this tab is still running the old one. Only ever true during
+    // a session: outside one the page reloads itself instead of asking.
+    updateReady: false,
     persistInterval: null,
     summary: null,
     // What the connected machine can do — the adapter's own descriptor, which before anything is
@@ -660,7 +664,22 @@ window.workoutApp = function () {
       }
       return ''
     },
+    // A ride is on screen and has not ended. Two things ask: the wake lock, which is only worth
+    // re-taking while there is something to watch, and the update below.
+    get sessionInProgress() {
+      return this.showWorkout && !this.workoutFinished
+    },
+
+    // The service worker has swapped the app underneath this tab. Mid-session that has to wait: the
+    // samples are in memory and the rider is on the erg, and swapping the code out from under a
+    // session to save it one page load is a bad trade. Outside one there is nothing to wait for.
+    onAppUpdated() {
+      if (this.sessionInProgress) this.updateReady = true
+      else location.reload()
+    },
+
     init() {
+      registerServiceWorker(() => this.onAppUpdated())
       setOnLog(message => {
         // Bounded: a long session with a flapping device would otherwise grow without end.
         this.deviceLog = [
@@ -674,11 +693,7 @@ window.workoutApp = function () {
       // on its own. One glance at another window and the screen is free to sleep for the rest of
       // the session — taking any AirPlay mirror with it.
       document.addEventListener('visibilitychange', () => {
-        if (
-          document.visibilityState === 'visible' &&
-          this.showWorkout &&
-          !this.workoutFinished
-        )
+        if (document.visibilityState === 'visible' && this.sessionInProgress)
           this.requestWakeLock()
       })
       const savedFtp = localStorage.getItem('ftp')

@@ -45,18 +45,8 @@ end.to_app
 Capybara.server = :puma, { Silent: true, Threads: '0:32' }
 
 Capybara.register_driver(:cuprite) do |app|
-  browser_options = {
-    # A container's /dev/shm is 64 MB by default, which one Chrome can live with and eight cannot.
-    'disable-dev-shm-usage' => nil,
-    # A headless window is never the foreground one, and Chrome clamps timers in windows it thinks
-    # nobody is looking at — to one tick a second, which is slower than the capture replays. The
-    # suite's clocks have to be the suite's.
-    'disable-background-timer-throttling' => nil,
-    'disable-backgrounding-occluded-windows' => nil,
-    'disable-renderer-backgrounding' => nil
-  }
   # CI runners have no usable Chrome sandbox; asking for one there aborts the browser at launch.
-  browser_options['no-sandbox'] = nil if ENV['CI']
+  browser_options = ENV['CI'] ? { 'no-sandbox' => nil } : {}
   Capybara::Cuprite::Driver.new(
     app,
     headless: !ENV['DISABLE_HEADLESS'],
@@ -90,6 +80,13 @@ LANE_QUEUE = Thread::Queue.new
   LANE_QUEUE << :"lane-#{index}"
 end
 
+# Every target Ferrum attached to and did not adopt, per lane, and the lanes whose network has been
+# taken away. The first is written from Ferrum's own reader thread as well as from the test's, so
+# every lane's entry is created here, on one thread; what happens to it afterwards is one lane's
+# own business and one lane is one thread.
+OWN_NETWORK = LANE_QUEUE.size.times.to_h { |index| [:"lane-#{index}", []] }.freeze
+OFFLINE = Set.new
+
 # A lane's browser, and the state that outlives a page load in it. Included rather than inherited:
 # the two bases below differ only in which page they open, and neither is a kind of the other.
 module BrowserTest
@@ -103,7 +100,55 @@ module BrowserTest
   # for each, so the queue can never be empty — `pop(true)` says so out loud rather than hanging the
   # run if that stops being true.
   def claim_lane
-    Capybara.session_name = LANE_QUEUE.pop(true) if Capybara.session_name == :default
+    return unless Capybara.session_name == :default
+
+    Capybara.session_name = LANE_QUEUE.pop(true)
+    resume_paused_targets
+  end
+
+  # Ferrum attaches to every target Chrome opens with `waitForDebuggerOnStart`, and then resumes
+  # only the ones it recognises — `page` and `iframe` (ferrum/contexts.rb, ALLOWED_TARGET_TYPES).
+  # A service worker is neither, so it starts paused and is never let go: the browser fetches
+  # sw.js, creates the worker, and `register()` returns a promise that settles never. Forty seconds
+  # of that looks exactly like a bug in the worker, and is not one.
+  #
+  # Subscribed once per lane, on the lane's own browser, and only for the targets Ferrum walked
+  # past — its own handler still runs for pages. What it walked past is kept, because a worker is
+  # its own target and CDP emulates network conditions per target: taking the network away from the
+  # page leaves the worker with a network of its own. See `network`.
+  def resume_paused_targets
+    lane = Capybara.session_name
+    client = page.driver.browser.client
+    client.on('Target.attachedToTarget') do |params|
+      next if %w[page iframe].include?(params.dig('targetInfo', 'type'))
+
+      session = client.session(params['sessionId'])
+      OWN_NETWORK[lane] << session
+      emulate(session, offline: true) if OFFLINE.include?(lane)
+      session.command('Runtime.runIfWaitingForDebugger', async: true) if params['waitingForDebugger']
+    end
+  end
+
+  # The network, given to or taken from the page and every worker behind it — including a worker
+  # that starts later, since Chrome stops an idle one and attaches a fresh target when it is needed
+  # again. Both halves are the lane's, so a test that ends offline hands the next one a browser that
+  # is not.
+  def network(offline:)
+    lane = Capybara.session_name
+    offline ? OFFLINE << lane : OFFLINE.delete(lane)
+    page.driver.browser.network.emulate_network_conditions(offline:)
+    OWN_NETWORK[lane].delete_if { |session| !emulate(session, offline:) }
+  end
+
+  # False for a worker Chrome has already discarded, which is also how the list is pruned: there is
+  # nothing left to connect or disconnect.
+  def emulate(session, offline:)
+    session.command('Network.enable')
+    session.command('Network.emulateNetworkConditions', offline:, latency: 0,
+                                                        downloadThroughput: 0, uploadThroughput: 0)
+    true
+  rescue StandardError
+    false
   end
 
   # localStorage outlives a test: the browser is reused, and the app keeps FTP, the fake trainer's
@@ -215,6 +260,17 @@ class CapybaraTestBase < Minitest::Test
         "Alpine.$data(document.querySelector('[x-data]')).#{key} = #{value.to_json}"
       )
     end
+  end
+
+  # Pick a workout out of the library dialog by name.
+  #
+  # The button beside its name, never the first one inside its collection. The list re-renders on
+  # every keystroke of the search box, and a `Select` found by position can belong to a different
+  # workout by the time it is clicked: asking for "8 x 500m, 2 minutes rest" once started
+  # "4 x 1500m / 2 min easy" instead, one run in twenty. A workout's heading and its button are
+  # siblings, which is true whatever the filter is doing.
+  def select_workout(name)
+    find('h6', text: name).sibling('button', text: 'Select').click
   end
 
   # The runner only starts once power arrives, and the first sample lands a moment after that.

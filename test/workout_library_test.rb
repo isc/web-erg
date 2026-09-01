@@ -11,9 +11,7 @@ class WorkoutLibraryTest < CapybaraTestBase
   def test_open_and_pick_workout_from_library
     click_on 'Choose from Library'
     find('summary', text: 'Athlete Inspired').click
-    within(find('details', text: 'Anna Meares - Team Sprint')) do
-      click_on 'Select', match: :first
-    end
+    select_workout 'Anna Meares - Team Sprint'
     assert_no_text 'Workout Library'
     assert_text 'Selected: Anna Meares - Team Sprint (32 min 15 s)'
   end

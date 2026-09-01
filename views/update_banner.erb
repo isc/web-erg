@@ -1,0 +1,8 @@
+<%# A deploy landed while this tab was mid-session. The worker has the new build ready and every
+    later page load will be it; reloading now would take the ride down with it, so the rider is
+    told and left to choose. Outside the workout display for the same reason as the warning above:
+    the session it is about is the one still running. %>
+<article x-show="updateReady" class="update-ready" role="status">
+  <span>A new version of the app is ready. It will load next time you open it.</span>
+  <button class="outline" @click="location.reload()">Reload now</button>
+</article>

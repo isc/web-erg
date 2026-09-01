@@ -1,0 +1,19 @@
+<!--
+  The source the PNGs in this directory are rasterised from; see scripts/generate_icons.sh.
+
+  An erg seen from the side: the flywheel, the chain, the handle. Nothing here is text, because the
+  icon is read at 48 px on a home screen next to eleven others.
+
+  The background is a solid #13171f, so the maskable variant is made simply by flattening this onto
+  the same colour — the rounded corners disappear into it and the square is full-bleed. That is why
+  there is one drawing here and not two.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="96" fill="#13171f"/>
+  <g fill="none" stroke="#01aecc" stroke-linecap="round">
+    <circle cx="196" cy="256" r="92" stroke-width="34"/>
+    <path d="M288 256 H384" stroke-width="26"/>
+  </g>
+  <circle cx="196" cy="256" r="20" fill="#01aecc"/>
+  <path d="M408 178 V334" stroke="#8fe3f2" stroke-width="34" stroke-linecap="round" fill="none"/>
+</svg>

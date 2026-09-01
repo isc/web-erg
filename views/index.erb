@@ -14,15 +14,30 @@
       }
     </script>
     <title>Web ERG Trainer</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.cyan.min.css"
-    />
+    <%# Relative, like every other asset on this page and for the same reason as the redirect above.
+        The manifest's own start_url and icons are relative to the manifest, so the whole app
+        installs under whatever path it is being served from. %>
+    <link rel="manifest" href="manifest.webmanifest" />
+    <%# Pico follows the system scheme, so the browser chrome around it has to as well: one colour
+        would be a dark status bar over a white page for half the day. %>
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#13171f" media="(prefers-color-scheme: dark)" />
+    <%# iOS reads none of the manifest. It wants these two, and a square opaque icon it masks
+        itself. %>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Web ERG" />
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+    <link rel="icon" href="icons/icon.svg" type="image/svg+xml" />
+    <%# Vendored rather than fetched from jsdelivr and cdnjs. An app that needs two CDNs to render
+        is not an app that survives a home Wi-Fi dropping, whatever its service worker holds — and
+        the versions are now pinned by the files themselves rather than by a range in a URL. %>
+    <link rel="stylesheet" href="vendor/pico.cyan.min.css" />
     <link rel="stylesheet" href="main.css" />
   </head>
   <body>
     <main class="container" x-data="workoutApp()">
       <%= erb :connection_warning %>
+      <%= erb :update_banner %>
       <%= erb :workout_form %>
       <%= erb :workout_display %>
       <%= erb :workout_library_dialog %>
@@ -32,10 +47,7 @@
       <%= erb :device_log %>
     </main>
     <script type="module" src="js/main.js"></script>
-    <script
-      defer
-      src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"
-    ></script>
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" integrity="sha512-BNaRQnYJYiPSqHHDb58B0yaPfCu+Wgds8Gp/gU33kqBtgNS4tSPHuGibyoeqMV/TJlSKda6FXzoEyYGjTe+vXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="vendor/alpine.min.js"></script>
+    <script defer src="vendor/html2canvas.min.js"></script>
   </body>
 </html>

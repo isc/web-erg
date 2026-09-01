@@ -54,9 +54,7 @@ class WodLibraryTest < CapybaraTestBase
   def test_a_wod_is_choosable_from_the_same_library_as_the_rides
     click_on 'Choose from Library'
     fill_in 'Search for a workout...', with: '8 x 500m'
-    within(find('details', text: '8 x 500m, 2 minutes rest')) do
-      click_on 'Select', match: :first
-    end
+    select_workout '8 x 500m, 2 minutes rest'
 
     assert_no_text 'Workout Library'
     assert_text 'Selected: 8 x 500m, 2 minutes rest'
@@ -65,9 +63,7 @@ class WodLibraryTest < CapybaraTestBase
   def test_a_chosen_wod_loads_its_phases
     click_on 'Choose from Library'
     fill_in 'Search for a workout...', with: '8 x 500m'
-    within(find('details', text: '8 x 500m, 2 minutes rest')) do
-      click_on 'Select', match: :first
-    end
+    select_workout '8 x 500m, 2 minutes rest'
     wait_until { app_state('workoutRunner') }
 
     # Eight 500 m pieces and the paddle after each.
