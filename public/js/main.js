@@ -27,15 +27,15 @@ import { downloadTcx, generateTcx } from './tcx-export.js'
 
 import {
   countdownUnit,
-  deviationStatus,
-  deviationStyle,
   formatDistance,
-  formatMetres,
   formatPhaseCountdown,
+  formatPhaseLength,
   formatPhaseRemaining,
   formatSplit,
   formatSplitDelta,
   splitDelta,
+  splitDeltaStatus,
+  splitDeltaStyle,
   splitFromPower
 } from './rowing.js'
 import { renderWorkoutSvg } from './workout-rendering.js'
@@ -76,7 +76,7 @@ window.workoutApp = function () {
     intensity: 100,
     weight: 70,
     phaseProgress: 0,
-    // Seconds or metres, whichever the current phase is written in. `phaseIsDistance` says which.
+    // Seconds or metres, whichever the current phase is written in.
     phaseRemaining: 0,
     wakeLock: null,
     isPaused: false,
@@ -119,6 +119,9 @@ window.workoutApp = function () {
     },
 
     formatDuration,
+    // "500 m" or "4 min", for the phase the template is drawing: handed to it as it is, the way
+    // formatDuration is.
+    phaseLength: formatPhaseLength,
     metric,
     zoneShare,
 
@@ -379,26 +382,16 @@ window.workoutApp = function () {
     get phaseZone() {
       return getZoneColor(this.phase?.relative ?? 0)
     },
-    // Which of the rower's two units this phase is counted in; rowing.js says what each one reads
-    // like.
-    get phaseIsDistance() {
-      return !!this.phase?.distance
-    },
+    // What is left of the phase, in the unit the phase was written in; rowing.js decides which that
+    // is, from the phase itself.
     get phaseCountdown() {
-      return formatPhaseCountdown(this.phaseRemaining, this.phaseIsDistance)
+      return formatPhaseCountdown(this.phase, this.phaseRemaining)
     },
     get phaseCountdownUnit() {
-      return countdownUnit(this.phaseRemaining, this.phaseIsDistance)
-    },
-    // "500 m" or "4 min", whichever the phase was written in.
-    phaseLength(phase) {
-      if (!phase) return ''
-      return phase.distance
-        ? formatMetres(phase.distance)
-        : formatDuration((phase.duration || 0) / 60)
+      return countdownUnit(this.phase, this.phaseRemaining)
     },
     get phaseRemainingLabel() {
-      return formatPhaseRemaining(this.phaseRemaining, this.phaseIsDistance)
+      return formatPhaseRemaining(this.phase, this.phaseRemaining)
     },
     get sessionProgress() {
       // The same elapsed count the timer prints beside it, rather than a second tally of its own.
@@ -476,10 +469,10 @@ window.workoutApp = function () {
       return formatSplitDelta(this.splitDelta)
     },
     get splitStatus() {
-      return deviationStatus(this.splitDelta)
+      return splitDeltaStatus(this.splitDelta)
     },
     get splitDeviationStyle() {
-      return deviationStyle(this.splitDelta)
+      return splitDeltaStyle(this.splitDelta)
     },
     stopTimerUI() {
       if (this.timerInterval) clearInterval(this.timerInterval)

@@ -1,7 +1,7 @@
-import { formatCountdown, formatForTimer } from './utils.js'
+import { formatCountdown, formatDuration, formatForTimer } from './utils.js'
 
 /**
- * The rower's units, and the one conversion between them.
+ * The rower's units, the one conversion between them, and how a reading in either one is read.
  *
  * A rower reads split — the time to cover 500 m at the current effort — where a cyclist reads
  * watts. Concept2 defines the two as the same measurement: watts = 2.80 / pace³, with pace in
@@ -14,6 +14,10 @@ import { formatCountdown, formatForTimer } from './utils.js'
  * Everything the cockpit shows in split therefore comes through here, from watts — including the
  * target. Target and actual are then the same computation applied to two numbers, so the deviation
  * between them is a real difference in effort rather than the gap between two estimators.
+ *
+ * The deviation between the two, and the phase readings below it, are here for the same reason:
+ * they are arithmetic on those units, and they were getters on the Alpine component until reaching
+ * them meant booting a browser and connecting an erg.
  */
 
 // Concept2's published constant. Pace is seconds per metre throughout; only the display divides by
@@ -84,7 +88,9 @@ export function formatDistance(metres) {
  * the difference is a real difference in effort and not the gap between two estimators.
  *
  * Null when either side is missing: a free ride has no target, and an erg nobody is pulling has no
- * split, and neither is a deviation of zero.
+ * split, and neither is a deviation of zero. The three readings below say the same by being empty,
+ * which is why they return '' and not the em dash a missing split prints — there is no gap to
+ * quote, so there is no line to write.
  */
 export function splitDelta(currentSplit, targetSplit) {
   if (currentSplit == null || targetSplit == null) return null
@@ -99,21 +105,19 @@ export function formatSplitDelta(delta) {
 
 // Two seconds per 500 m is about what a good rower holds; past five the piece is a different piece.
 // The same two thresholds colour the bar and the number, so they cannot disagree.
-export function deviationStatus(delta) {
+export function splitDeltaStatus(delta) {
   if (delta == null) return ''
-  if (Math.abs(delta) <= 2) return 'split-good'
-  return Math.abs(delta) <= 5 ? 'split-close' : 'split-warning'
+  const gap = Math.abs(delta)
+  if (gap <= 2) return 'split-good'
+  return gap <= 5 ? 'split-close' : 'split-warning'
 }
 
 /**
  * The deviation bar, as an inline style: a fill that grows from the centre towards whichever side
- * the rower is on. Ten seconds per 500 m pins it — past that the exact size of the error has
- * stopped being the useful information.
- *
- * Whichever side it is on, the fill is anchored to the centre: that is what makes the bar readable
- * without reading the number beside it.
+ * the rower is on, and is anchored to it whichever side that is. Ten seconds per 500 m pins it —
+ * past that the exact size of the error has stopped being the useful information.
  */
-export function deviationStyle(delta) {
+export function splitDeltaStyle(delta) {
   if (delta == null) return '--from: 50%; --width: 0%'
   const offset = Math.max(-50, Math.min(50, (delta / 10) * 50))
   const from = offset >= 0 ? 50 : 50 + offset
@@ -121,26 +125,40 @@ export function deviationStyle(delta) {
 }
 
 /**
- * What is left of the phase, in the unit the phase was written in.
+ * A phase, and what is left of it, read in the unit it was written in.
  *
  * A phase written in metres counts down in metres: its duration is only an estimate, and a
  * countdown that reached zero with two hundred metres still to row would be worse than none. That
- * choice is rowing's — no ride is measured this way — so the three readings it decides live here,
- * beside the other conversion between the rower's two units.
+ * choice is rowing's — no ride is measured this way — so the readings it decides live here, beside
+ * the other conversion between the rower's two units. Each takes the phase and asks it, rather than
+ * being told which unit to use: which one a phase is written in is the phase's own business.
  */
-export function formatPhaseCountdown(remaining, inMetres) {
-  return inMetres
-    ? String(Math.max(0, Math.round(Number(remaining) || 0)))
-    : formatCountdown(remaining)
+export function formatPhaseCountdown(phase, remaining) {
+  // Rounded once, and by the same rule for both units, so the number and the unit under it cannot
+  // disagree: 59.7 s reads "1:00" and must not be labelled "seconds".
+  const value = whole(remaining)
+  return phase?.distance ? String(value) : formatCountdown(value)
 }
 
-export function countdownUnit(remaining, inMetres) {
-  if (inMetres) return 'metres to go'
-  return remaining < 60 ? 'seconds' : 'remaining'
+export function countdownUnit(phase, remaining) {
+  if (phase?.distance) return 'metres to go'
+  return whole(remaining) < 60 ? 'seconds' : 'remaining'
 }
 
 // The wide layout's own line under the graph. It used to be seconds and only seconds, so a
 // thousand-metre piece showed 0:00 from its first second to its last.
-export function formatPhaseRemaining(remaining, inMetres) {
-  return inMetres ? formatMetres(remaining) : formatForTimer(remaining)
+export function formatPhaseRemaining(phase, remaining) {
+  return phase?.distance ? formatMetres(remaining) : formatForTimer(whole(remaining))
+}
+
+// "500 m" or "4 min", whichever the phase was written in — the whole of it, not what is left.
+export function formatPhaseLength(phase) {
+  if (!phase) return ''
+  return phase.distance
+    ? formatMetres(phase.distance)
+    : formatDuration((phase.duration || 0) / 60)
+}
+
+function whole(seconds) {
+  return Math.max(0, Math.round(Number(seconds) || 0))
 }

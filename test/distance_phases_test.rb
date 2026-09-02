@@ -103,7 +103,7 @@ class DistanceRunnerTest < CapybaraTestBase
     assert_operator app_state('distance').to_f, :>=, 60
   end
 
-  # That the hero is wired to the metres, not what metres read like — `RowingUnitsTest` has the
+  # That the hero is wired to the metres, not what metres read like — `RowingTest` has the
   # formatting itself, without a browser. Driven directly rather than rowed to: the assertion is
   # about what the hero says, and the runner has its own tests above. The erg is connected and
   # silent, because a phase written from the test survives only until the runner publishes the real
