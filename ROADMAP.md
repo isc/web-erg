@@ -250,11 +250,7 @@ a new version arriving mid-session shows a banner rather than reloading.
   the actual trainer to confirm nothing in the vendoring, the worker or the update banner disturbed
   ERG mode.
 
-Two smaller things a human might want to decide rather than verify:
+One smaller thing a human might want to decide rather than verify:
 
 - **The `no-cache` header is now belt and braces.** Every response still carries it, which is right
   while the worker is new, and is doing nothing for a client the worker controls. Leave it.
-- **The deviation arithmetic is still trapped in Alpine.** `splitDelta`, `splitStatus`,
-  `splitDeviationStyle` and the countdown formatting are pure functions of two numbers stranded as
-  component getters, which is why nine tests boot a browser and connect a fake erg to reach them.
-  Moving them into `rowing.js` would delete most of that scaffolding.
