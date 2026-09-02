@@ -17,7 +17,6 @@ import { expandPhases } from './phases.js'
 import { clearSession, loadSession, saveSession } from './session-store.js'
 import {
   downloadDataUrl,
-  formatCountdown,
   formatDuration,
   formatForTimer,
   isTestEnv,
@@ -26,7 +25,19 @@ import {
 } from './utils.js'
 import { downloadTcx, generateTcx } from './tcx-export.js'
 
-import { formatDistance, formatMetres, formatSplit, splitFromPower } from './rowing.js'
+import {
+  countdownUnit,
+  deviationStatus,
+  deviationStyle,
+  formatDistance,
+  formatMetres,
+  formatPhaseCountdown,
+  formatPhaseRemaining,
+  formatSplit,
+  formatSplitDelta,
+  splitDelta,
+  splitFromPower
+} from './rowing.js'
 import { renderWorkoutSvg } from './workout-rendering.js'
 import { getZoneColor } from './zones.js'
 import { metric, summariseSession, zoneShare } from './session-summary.js'
@@ -368,19 +379,16 @@ window.workoutApp = function () {
     get phaseZone() {
       return getZoneColor(this.phase?.relative ?? 0)
     },
-    // A phase written in metres counts down in metres. Its duration is only an estimate, and a
-    // countdown that reached zero with two hundred metres still to row would be worse than none.
+    // Which of the rower's two units this phase is counted in; rowing.js says what each one reads
+    // like.
     get phaseIsDistance() {
       return !!this.phase?.distance
     },
     get phaseCountdown() {
-      return this.phaseIsDistance
-        ? String(this.phaseRemaining)
-        : formatCountdown(this.phaseRemaining)
+      return formatPhaseCountdown(this.phaseRemaining, this.phaseIsDistance)
     },
     get phaseCountdownUnit() {
-      if (this.phaseIsDistance) return 'metres to go'
-      return this.phaseRemaining < 60 ? 'seconds' : 'remaining'
+      return countdownUnit(this.phaseRemaining, this.phaseIsDistance)
     },
     // "500 m" or "4 min", whichever the phase was written in.
     phaseLength(phase) {
@@ -389,12 +397,8 @@ window.workoutApp = function () {
         ? formatMetres(phase.distance)
         : formatDuration((phase.duration || 0) / 60)
     },
-    // The wide layout's own line under the graph. It used to be seconds and only seconds, so a
-    // thousand-metre piece showed 0:00 from its first second to its last.
     get phaseRemainingLabel() {
-      return this.phaseIsDistance
-        ? formatMetres(this.phaseRemaining)
-        : formatForTimer(this.phaseRemaining)
+      return formatPhaseRemaining(this.phaseRemaining, this.phaseIsDistance)
     },
     get sessionProgress() {
       // The same elapsed count the timer prints beside it, rather than a second tally of its own.
@@ -466,37 +470,16 @@ window.workoutApp = function () {
       return this.rowing ? 'Other' : 'Biking'
     },
     get splitDelta() {
-      const { currentSplit, targetSplit } = this
-      if (currentSplit == null || targetSplit == null) return null
-      return currentSplit - targetSplit
+      return splitDelta(this.currentSplit, this.targetSplit)
     },
-    // Negative is faster, because a smaller split is a better one — so the sign here reads the way
-    // a rower expects rather than the way a subtraction does.
     get splitDeltaLabel() {
-      const delta = this.splitDelta
-      if (delta == null) return ''
-      const sign = delta > 0 ? '+' : delta < 0 ? '−' : '±'
-      return `${sign}${Math.abs(delta).toFixed(1)} s /500 m`
+      return formatSplitDelta(this.splitDelta)
     },
-    // Two seconds per 500 m is about what a good rower holds; past five the piece is a different
-    // piece. The same two thresholds colour the bar and the number, so they cannot disagree.
     get splitStatus() {
-      const delta = this.splitDelta
-      if (delta == null) return ''
-      if (Math.abs(delta) <= 2) return 'split-good'
-      return Math.abs(delta) <= 5 ? 'split-close' : 'split-warning'
+      return deviationStatus(this.splitDelta)
     },
-    /**
-     * The deviation bar, as an inline style: a fill that grows from the centre towards whichever
-     * side the rower is on. Ten seconds per 500 m pins it — past that the exact size of the error
-     * has stopped being the useful information.
-     */
     get splitDeviationStyle() {
-      const delta = this.splitDelta
-      if (delta == null) return '--from: 50%; --width: 0%'
-      const offset = Math.max(-50, Math.min(50, (delta / 10) * 50))
-      const from = offset >= 0 ? 50 : 50 + offset
-      return `--from: ${from}%; --width: ${Math.abs(offset)}%`
+      return deviationStyle(this.splitDelta)
     },
     stopTimerUI() {
       if (this.timerInterval) clearInterval(this.timerInterval)

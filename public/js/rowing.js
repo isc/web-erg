@@ -1,4 +1,4 @@
-import { formatForTimer } from './utils.js'
+import { formatCountdown, formatForTimer } from './utils.js'
 
 /**
  * The rower's units, and the one conversion between them.
@@ -74,4 +74,73 @@ export function formatDistance(metres) {
   if (metres == null || !isFinite(metres)) return '—'
   if (metres < 1000) return formatMetres(metres)
   return `${(metres / 1000).toFixed(2)}\u00a0km`
+}
+
+/**
+ * The gap between the split being rowed and the split the workout is asking for.
+ *
+ * Negative is faster, because a smaller split is a better one — so the sign reads the way a rower
+ * expects rather than the way a subtraction does. Both arguments come out of `splitFromPower`, so
+ * the difference is a real difference in effort and not the gap between two estimators.
+ *
+ * Null when either side is missing: a free ride has no target, and an erg nobody is pulling has no
+ * split, and neither is a deviation of zero.
+ */
+export function splitDelta(currentSplit, targetSplit) {
+  if (currentSplit == null || targetSplit == null) return null
+  return currentSplit - targetSplit
+}
+
+export function formatSplitDelta(delta) {
+  if (delta == null) return ''
+  const sign = delta > 0 ? '+' : delta < 0 ? '−' : '±'
+  return `${sign}${Math.abs(delta).toFixed(1)} s /500 m`
+}
+
+// Two seconds per 500 m is about what a good rower holds; past five the piece is a different piece.
+// The same two thresholds colour the bar and the number, so they cannot disagree.
+export function deviationStatus(delta) {
+  if (delta == null) return ''
+  if (Math.abs(delta) <= 2) return 'split-good'
+  return Math.abs(delta) <= 5 ? 'split-close' : 'split-warning'
+}
+
+/**
+ * The deviation bar, as an inline style: a fill that grows from the centre towards whichever side
+ * the rower is on. Ten seconds per 500 m pins it — past that the exact size of the error has
+ * stopped being the useful information.
+ *
+ * Whichever side it is on, the fill is anchored to the centre: that is what makes the bar readable
+ * without reading the number beside it.
+ */
+export function deviationStyle(delta) {
+  if (delta == null) return '--from: 50%; --width: 0%'
+  const offset = Math.max(-50, Math.min(50, (delta / 10) * 50))
+  const from = offset >= 0 ? 50 : 50 + offset
+  return `--from: ${from}%; --width: ${Math.abs(offset)}%`
+}
+
+/**
+ * What is left of the phase, in the unit the phase was written in.
+ *
+ * A phase written in metres counts down in metres: its duration is only an estimate, and a
+ * countdown that reached zero with two hundred metres still to row would be worse than none. That
+ * choice is rowing's — no ride is measured this way — so the three readings it decides live here,
+ * beside the other conversion between the rower's two units.
+ */
+export function formatPhaseCountdown(remaining, inMetres) {
+  return inMetres
+    ? String(Math.max(0, Math.round(Number(remaining) || 0)))
+    : formatCountdown(remaining)
+}
+
+export function countdownUnit(remaining, inMetres) {
+  if (inMetres) return 'metres to go'
+  return remaining < 60 ? 'seconds' : 'remaining'
+}
+
+// The wide layout's own line under the graph. It used to be seconds and only seconds, so a
+// thousand-metre piece showed 0:00 from its first second to its last.
+export function formatPhaseRemaining(remaining, inMetres) {
+  return inMetres ? formatMetres(remaining) : formatForTimer(remaining)
 }

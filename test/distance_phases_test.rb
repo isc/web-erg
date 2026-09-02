@@ -103,35 +103,19 @@ class DistanceRunnerTest < CapybaraTestBase
     assert_operator app_state('distance').to_f, :>=, 60
   end
 
-  # The countdown formatting, given a phase written in metres. Driven directly rather than rowed to:
-  # the assertion is about what the hero says, and the runner has its own tests above. The erg is
-  # connected and silent, because a phase written from the test survives only until the runner
-  # publishes the real one a second later.
+  # That the hero is wired to the metres, not what metres read like — `RowingUnitsTest` has the
+  # formatting itself, without a browser. Driven directly rather than rowed to: the assertion is
+  # about what the hero says, and the runner has its own tests above. The erg is connected and
+  # silent, because a phase written from the test survives only until the runner publishes the real
+  # one a second later.
   def test_the_countdown_is_in_metres_while_the_phase_is
     page.driver.resize(*PHONE)
     connect_rower(fixture: 'Rowing_Distance.zwo')
     set_app_state(phase: { distance: 500, label: 'Steady' }, phaseRemaining: 320)
 
-    assert_equal '320', app_state('phaseCountdown')
-    assert_equal 'metres to go', app_state('phaseCountdownUnit')
     assert_selector '.cockpit-countdown', text: '320'
-  end
-
-  def test_a_phase_written_in_time_still_counts_down_in_seconds
-    connect_rower(fixture: 'Rowing_Distance.zwo')
-    set_app_state(phase: { duration: 60, label: 'Steady' }, phaseRemaining: 45)
-
-    assert_equal '45', app_state('phaseCountdown')
-    assert_equal 'seconds', app_state('phaseCountdownUnit')
-  end
-
-  # The wide layout's own line under the graph used to be seconds and only seconds, so a thousand
-  # metre piece read 0:00 from its first second to its last while the bar beside it filled normally.
-  def test_the_wide_layout_line_says_metres_too
-    connect_rower(fixture: 'Rowing_Distance.zwo')
-    set_app_state(phase: { distance: 500, label: 'Steady' }, phaseRemaining: 320)
-
-    assert_equal '320 m', app_state('phaseRemainingLabel')
+    # Uppercased by the stylesheet, like every label in the cockpit.
+    assert_selector '.cockpit-unit', text: 'METRES TO GO'
   end
 
   # The next piece opens at the boundary, not at wherever the rower was when the reading arrived.
