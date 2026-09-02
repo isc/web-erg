@@ -31,7 +31,7 @@ end
 class InterruptedSessionTest < CapybaraTestBase
   def test_an_interrupted_ride_is_offered_on_the_next_load
     ride_until_samples_exist
-    page.execute_script("Alpine.$data(document.querySelector('[x-data]')).persistSession()")
+    app_state('persistSession()')
 
     visit '/'
     assert_text 'An interrupted session was found'
@@ -41,7 +41,7 @@ class InterruptedSessionTest < CapybaraTestBase
 
   def test_discarding_forgets_it_for_good
     ride_until_samples_exist
-    page.execute_script("Alpine.$data(document.querySelector('[x-data]')).persistSession()")
+    app_state('persistSession()')
 
     visit '/'
     click_on 'Discard'

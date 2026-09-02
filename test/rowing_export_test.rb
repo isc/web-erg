@@ -36,7 +36,7 @@ class RowingExportTest < ModuleTestBase
   end
 
   def lap(samples, sport = 'Other')
-    REXML::Document.new(generate(samples, sport)).elements['//Lap']
+    laps(samples, sport).first
   end
 
   def laps(samples, sport = 'Other')
@@ -76,10 +76,6 @@ class RowingExportTest < ModuleTestBase
   def test_calories_do_not_depend_on_how_the_distance_was_found
     assert_equal lap(RIDDEN, nil).elements['Calories'].text,
                  lap(ROWED).elements['Calories'].text
-  end
-
-  def test_a_rowing_session_is_exported_as_other
-    assert_equal 'Other', sport_of(ROWED, 'Other')
   end
 
   def test_a_ride_still_goes_out_as_biking_by_default

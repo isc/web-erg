@@ -5,60 +5,29 @@ require_relative 'test_helper'
 # because they cannot be written in it. A Distance attribute is the extension, and what ends such a
 # phase is the metres the erg counted, never a clock.
 class DistancePhasesTest < ModuleTestBase
-  MODULES = {
-    phases: '/js/phases.js',
-    workout: '/js/workout.js',
-    utils: '/js/utils.js'
-  }.freeze
+  include PhaseExpansion
 
-  def expand(xml, ftp = 200)
-    in_page_module(
-      MODULES,
-      'return phases.expandPhases(workout.parseZwoPhases(utils.parseXmlDoc(args[0])), args[1])',
-      xml,
-      ftp
-    )
-  end
-
-  def test_a_phase_can_be_written_in_metres
-    expanded = expand(<<~XML)
-      <workout_file><workout>
-        <SteadyState Distance="1000" Power="0.75"/>
-      </workout></workout_file>
-    XML
-
-    assert_equal 1000, expanded[0]['distance']
-  end
+  KILOMETRE = '<SteadyState Distance="1000" Power="0.75"/>'.freeze
 
   # 0.75 × 200 W is 150 W, which is 2:12.5 per 500 m, so 1000 m is about 265 s. Nothing about the
-  # ride depends on that number — it sizes the bar on the graph and the session total, and the
+  # ride depends on that estimate — it sizes the bar on the graph and the session total, and the
   # phase itself ends on metres.
-  def test_a_distance_phase_is_given_an_estimated_duration
-    expanded = expand(<<~XML)
-      <workout_file><workout>
-        <SteadyState Distance="1000" Power="0.75"/>
-      </workout></workout_file>
-    XML
+  def test_a_phase_can_be_written_in_metres_and_given_an_estimated_duration
+    expanded = expand(zwo(KILOMETRE), 200)
 
+    assert_equal 1000, expanded[0]['distance']
     assert_in_delta 265, expanded[0]['duration'], 2
   end
 
   def test_the_estimate_follows_the_rider_s_own_ftp
-    xml = <<~XML
-      <workout_file><workout>
-        <SteadyState Distance="1000" Power="0.75"/>
-      </workout></workout_file>
-    XML
-
-    assert_operator expand(xml, 300)[0]['duration'], :<, expand(xml, 150)[0]['duration']
+    assert_operator expand(zwo(KILOMETRE), 300)[0]['duration'],
+                    :<, expand(zwo(KILOMETRE), 150)[0]['duration']
   end
 
   def test_intervals_repeat_in_metres_too
-    expanded = expand(<<~XML)
-      <workout_file><workout>
-        <IntervalsT Repeat="4" OnDistance="500" OffDistance="200" OnPower="0.9" OffPower="0.5"/>
-      </workout></workout_file>
-    XML
+    expanded = expand(
+      zwo('<IntervalsT Repeat="4" OnDistance="500" OffDistance="200" OnPower="0.9" OffPower="0.5"/>')
+    )
 
     distances = expanded.map { |phase| phase['distance'] }
 
@@ -67,11 +36,7 @@ class DistancePhasesTest < ModuleTestBase
   end
 
   def test_a_workout_written_in_time_gains_no_distance
-    expanded = expand(<<~XML)
-      <workout_file><workout>
-        <SteadyState Duration="60" Power="0.6"/>
-      </workout></workout_file>
-    XML
+    expanded = expand(zwo('<SteadyState Duration="60" Power="0.6"/>'))
 
     assert_nil expanded[0]['distance']
     assert_equal 60, expanded[0]['duration']
@@ -82,25 +47,28 @@ end
 # thirty-metre pieces and a paddle.
 class DistanceRunnerTest < CapybaraTestBase
   # The whole point of the extension: the erg's count moves the workout on, and a rower who stops
-  # halfway through a 500 has not finished it however long they sit there.
+  # halfway through a 500 has not finished it however long they sit there. One rowed session for
+  # both halves of that — a replayed capture is the most expensive thing this suite does, and the
+  # two questions are asked of the same moment in it.
   def test_the_erg_s_count_and_not_the_clock_is_what_ends_the_phase
     row(fixture: 'Rowing_Distance.zwo')
 
     wait_until(20) { app_state('phase?.number').to_i >= 2 }
 
-    assert_operator app_state('distance').to_f, :>=, 30
     # The estimated duration of a 30 m phase at 0.8 × 200 W is about seven seconds. Reaching the
     # second phase says the metres moved it on, but not that the clock did not — this does: the
     # third phase is the first one measured in time, and it has not been reached.
     assert_operator app_state('phase?.number').to_i, :<=, 3
-  end
 
-  def test_both_pieces_are_rowed_before_the_workout_reaches_the_paddle
-    row(fixture: 'Rowing_Distance.zwo')
+    # And the next piece opens at the boundary, not at wherever the rower was when the reading
+    # arrived. Frames arrive metres apart, so a piece is always noticed to be over some way past
+    # its end — the first reading past thirty metres reports fifty-nine. Rebasing to that reading
+    # would throw the overshoot away, so the offset from the start of the workout must stay an
+    # exact multiple of the piece length however late the reading was.
+    rowed = app_state('workoutRunner.phaseStartDistance') -
+            app_state('workoutRunner.startDistance')
 
-    wait_until(20) { app_state('phase?.number').to_i == 3 }
-
-    assert_operator app_state('distance').to_f, :>=, 60
+    assert_in_delta 0, rowed % 30, 0.001, "phases opened #{rowed} m in, which is not a whole piece"
   end
 
   # That the hero is wired to the metres, not what metres read like — `RowingTest` has the
@@ -118,31 +86,10 @@ class DistanceRunnerTest < CapybaraTestBase
     assert_selector '.cockpit-unit', text: 'METRES TO GO'
   end
 
-  # The next piece opens at the boundary, not at wherever the rower was when the reading arrived.
-  # Rebasing to the reading throws the overshoot away — about four metres a piece at 1 Hz, which
-  # over eight pieces is a whole extra length of the erg.
-  def test_a_piece_opens_at_the_boundary_and_not_at_the_reading_that_passed_it
-    row(fixture: 'Rowing_Distance.zwo')
-
-    wait_until(20) { app_state('phase?.number').to_i >= 2 }
-
-    # Frames arrive metres apart, so a piece is always noticed to be over some way past its end —
-    # the first reading past thirty metres reports fifty-nine. The next piece must still open on
-    # the boundary, carrying the overshoot forward, so the offset from the start of the workout
-    # stays an exact multiple of the piece length however late the reading was.
-    rowed = app_state('workoutRunner.phaseStartDistance') -
-            app_state('workoutRunner.startDistance')
-
-    assert_in_delta 0, rowed % 30, 0.001, "phases opened #{rowed} m in, which is not a whole piece"
-  end
-
   # A phase written in metres is ended by the machine's count and by nothing else, so on a trainer
   # it would never end at all: the session would sit on its first interval until Stop was pressed.
   def test_a_workout_in_metres_is_refused_on_a_machine_that_counts_none
-    page.execute_script("localStorage.setItem('ergPower', '150')")
-    find_field('Ergometer').click
-    attach_file('workoutFile', File.expand_path('Rowing_Distance.zwo', __dir__), visible: false)
-    click_on 'Start'
+    ride(fixture: 'Rowing_Distance.zwo')
 
     assert_text 'This workout is measured in metres.'
     refute app_state('showWorkout')

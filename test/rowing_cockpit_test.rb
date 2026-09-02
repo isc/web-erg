@@ -40,38 +40,42 @@ class RowingCockpitTest < CapybaraTestBase
   end
 
   # Both splits off the same conversion, through the component: 213 W reads 1:58 whether it is the
-  # erg reporting it or the phase asking for it.
+  # erg reporting it or the phase asking for it. Then the gap between two different wattages, on the
+  # element itself — the half `RowingTest` cannot see: the colour, the fill and the number are bound
+  # to those getters and reach the page. 180 W against a 213 W target is nearly seven seconds per
+  # 500 m down.
   #
   # The target is the one reading a test cannot hold — the runner republishes it every second — so
   # everything here is read straight after it is written and never waited for.
-  def test_the_cockpit_reads_both_splits_off_the_same_conversion
+  def test_the_cockpit_reads_the_gap_and_shows_it
+    page.driver.resize(*PHONE)
     connect_rower
     set_app_state(power: 213, targetWatts: 213)
 
     assert_equal '1:58', app_state('splitLabel')
     assert_equal '1:58', app_state('targetSplitLabel')
+    # Only Running, Biking and Other exist in the TCX schema, and this is where the choice is made.
+    assert_equal 'Other', app_state('activitySport')
+
+    set_app_state(power: 180, targetWatts: 213)
+    class_name, style, label = rendered_bar
+
+    assert_equal 'split-deviation-fill split-warning', class_name
+    assert_match(/--from: 50%; --width: 34\.05\d*%/, style)
+    assert_equal '+6.8 s /500 m', label
   end
 
-  # And the half `RowingTest` cannot see: the colour, the fill and the number reach the element.
-  # 180 W against a 213 W target is nearly seven seconds per 500 m down — a warning, a bar filled
-  # right of centre, and a signed label, none of which is the empty default.
-  def test_the_deviation_bar_is_bound_to_the_gap
-    connect_rower
-    set_app_state(power: 180, targetWatts: 213)
-
-    # One script, so the three readings are one snapshot: a re-render between them would otherwise
-    # be a re-render between two assertions about the same stroke.
-    class_name, style, label = page.evaluate_script(<<~JS)
+  # One script, so the three readings are one snapshot: a re-render between them would otherwise be
+  # a re-render between two assertions about the same stroke. Capybara's own finders would wait,
+  # and a reading this test wrote is gone by the time a retry would run.
+  def rendered_bar
+    page.evaluate_script(<<~JS)
       (() => {
         const fill = document.querySelector('.split-deviation-fill')
         return [fill.className, fill.getAttribute('style'),
                 document.querySelector('.split-deviation-label').textContent]
       })()
     JS
-
-    assert_equal 'split-deviation-fill split-warning', class_name
-    assert_match(/--from: 50%; --width: 34\.05\d*%/, style)
-    assert_equal '+6.8 s /500 m', label
   end
 end
 

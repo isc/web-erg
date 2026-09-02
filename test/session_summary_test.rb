@@ -107,7 +107,7 @@ class SessionSummaryPanelTest < CapybaraTestBase
     # two clocks are 1 s and 1.5 s apart and neither is aligned to the other, so how long this takes
     # depends on where in the cycle the ride started — up to about four seconds, on a slow runner.
     wait_until(15) { app_state('workoutSamples.some(sample => Number(sample.heartRate) > 0)') }
-    page.execute_script("Alpine.$data(document.querySelector('[x-data]')).stopWorkout()")
+    app_state('stopWorkout()')
 
     within '.session-summary' do
       # Uppercased by the stylesheet, like every label the app puts above a number.
@@ -122,7 +122,7 @@ class SessionSummaryPanelTest < CapybaraTestBase
 
   def test_the_summary_belongs_to_the_ride_that_produced_it
     ride_until_samples_exist
-    page.execute_script("Alpine.$data(document.querySelector('[x-data]')).stopWorkout()")
+    app_state('stopWorkout()')
     assert_selector '.session-summary'
 
     attach_file('workoutFile', File.expand_path('The_Famous_40_20_s.zwo', __dir__), visible: false)

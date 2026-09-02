@@ -151,23 +151,20 @@ class ServiceWorkerTest < CapybaraTestBase
   def teardown
     network(offline: false)
     visit '/'
-    page.evaluate_async_script(<<~JS)
-      const done = arguments[arguments.length - 1]
-      navigator.serviceWorker.getRegistrations()
+    await_script(<<~JS)
+      return navigator.serviceWorker.getRegistrations()
         .then(regs => Promise.all(regs.map(reg => reg.unregister())))
         .then(() => caches.keys())
         .then(names => Promise.all(names.map(name => caches.delete(name))))
-        .then(() => done(true))
     JS
     super
   end
 
   def cached_paths
-    page.evaluate_async_script(<<~JS, App::VERSION)
-      const done = arguments[arguments.length - 1]
-      caches.open('web-erg-' + arguments[0])
+    await_script(<<~JS, App::VERSION)
+      return caches.open('web-erg-' + args[0])
         .then(cache => cache.keys())
-        .then(keys => done(keys.map(request => new URL(request.url).pathname)))
+        .then(keys => keys.map(request => new URL(request.url).pathname))
     JS
   end
 
@@ -178,25 +175,20 @@ class ServiceWorkerTest < CapybaraTestBase
     assert_equal request_paths.sort, cached_paths.sort
   end
 
-  # The point of the exercise. The network goes, the page is reloaded, and the app is still an app.
-  def test_the_app_still_loads_with_no_network
+  # The point of the exercise. The network goes, the page is reloaded, and the app is still an app:
+  # a workout is chosen, started and ridden, so the library, the .zwo and every module behind them
+  # came out of the cache. Registration and the wait for a controller cost more than everything
+  # asserted here, which is why the ride is not a second test after a plainer one.
+  def test_a_workout_can_still_be_ridden_with_no_network
     network(offline: true)
 
     visit '/'
 
     assert_selector 'form', visible: true
-    assert_text 'Choose from Library'
-    # And it is not merely that the browser kept the page: the modules linked and Alpine is running
-    # the component, which is exactly what a half-cached app fails to do.
+    # Not merely that the browser kept the page: the modules linked and Alpine is running the
+    # component, which is exactly what a half-cached app fails to do.
     assert_equal 150, app_state('ftp')
-  end
 
-  # A workout can still be started and ridden — the library, the .zwo and every module behind them
-  # come out of the cache.
-  def test_a_workout_can_still_be_ridden_with_no_network
-    network(offline: true)
-
-    visit '/'
     ride_until_samples_exist
 
     assert_selector '[x-ref="workoutSvg"]', visible: true
@@ -208,9 +200,8 @@ class ServiceWorkerTest < CapybaraTestBase
   def test_offline_really_is_offline
     network(offline: true)
 
-    reachable = page.evaluate_async_script(<<~JS)
-      const done = arguments[arguments.length - 1]
-      fetch('never-fetched-before.txt').then(() => done(true), () => done(false))
+    reachable = await_script(<<~JS)
+      return fetch('never-fetched-before.txt').then(() => true, () => false)
     JS
 
     refute reachable, 'the network answered while it was meant to be gone'

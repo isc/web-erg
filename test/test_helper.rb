@@ -151,6 +151,17 @@ module BrowserTest
     false
   end
 
+  # A promise, awaited in the page. Ferrum passes the callback in as the last argument, and every
+  # caller had written the same two-line bridge to it; here the body just returns its promise and
+  # sees whatever was passed here as `args[0]`, `args[1]`, … — the same shape as `in_page_module`.
+  def await_script(body, *)
+    page.evaluate_async_script(<<~JS, *)
+      const done = arguments[arguments.length - 1]
+      const args = Array.from(arguments).slice(0, -1)
+      ;(() => { #{body} })().then(done)
+    JS
+  end
+
   # localStorage outlives a test: the browser is reused, and the app keeps FTP, the fake trainer's
   # wattage, an unfinished session and the mock's failure switch there. One test arming any of them
   # would otherwise decide the outcome of the next.
@@ -278,5 +289,31 @@ class CapybaraTestBase < Minitest::Test
   def ride_until_samples_exist(**)
     ride(**)
     wait_until { app_state('workoutSamples.length').positive? }
+  end
+end
+
+# Phases, as the runner and the graph get them: a .zwo body expanded into the flat timeline. Two
+# suites drive it — the tags it accepts, and the metres extension — and they had a byte-identical
+# `MODULES` and expander each.
+module PhaseExpansion
+  MODULES = {
+    phases: '/js/phases.js',
+    workout: '/js/workout.js',
+    utils: '/js/utils.js'
+  }.freeze
+
+  def expand(xml, ftp = nil)
+    in_page_module(
+      MODULES,
+      'return phases.expandPhases(workout.parseZwoPhases(utils.parseXmlDoc(args[0])), ' \
+      'args[1] ?? undefined)',
+      xml,
+      ftp
+    )
+  end
+
+  # The wrapper every one of these fixtures needs and none of them is about.
+  def zwo(body)
+    "<workout_file><workout>#{body}</workout></workout_file>"
   end
 end

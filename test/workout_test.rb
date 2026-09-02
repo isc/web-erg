@@ -1,11 +1,6 @@
 require_relative 'test_helper'
 
 class WorkoutTest < CapybaraTestBase
-  def test_workout_full_flow
-    ride(fixture: 'The_Famous_40_20_s.zwo', heart_rate: true)
-    assert_selector '[x-ref="workoutSvg"]', visible: true
-  end
-
   def test_heart_rate_button_shows_the_live_rate
     # Before this, nothing listened to the belt until the workout started, so there was no way to
     # check on the setup screen that the watch was actually broadcasting.
@@ -55,10 +50,7 @@ class WorkoutTest < CapybaraTestBase
   def test_a_device_warning_shows_before_the_workout_starts
     # The banner used to live inside the workout display, hidden until Start — invisible exactly
     # when the rider is connecting devices and needs to know one has dropped.
-    page.execute_script(
-      "Alpine.$data(document.querySelector('[x-data]'))" \
-      ".connectionWarning = 'Heart rate monitor lost. Check it, then reconnect it.'"
-    )
+    set_app_state(connectionWarning: 'Heart rate monitor lost. Check it, then reconnect it.')
     assert_text 'Heart rate monitor lost.'
   end
 

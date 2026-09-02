@@ -51,22 +51,17 @@ end
 # And that the corpus reached the library the rides are chosen from — the one thing about it that
 # needs the app open.
 class WodLibraryTest < CapybaraTestBase
-  def test_a_wod_is_choosable_from_the_same_library_as_the_rides
+  def test_a_wod_is_choosable_and_arrives_with_its_phases
     click_on 'Choose from Library'
     fill_in 'Search for a workout...', with: '8 x 500m'
     select_workout '8 x 500m, 2 minutes rest'
 
     assert_no_text 'Workout Library'
     assert_text 'Selected: 8 x 500m, 2 minutes rest'
-  end
-
-  def test_a_chosen_wod_loads_its_phases
-    click_on 'Choose from Library'
-    fill_in 'Search for a workout...', with: '8 x 500m'
-    select_workout '8 x 500m, 2 minutes rest'
     wait_until { app_state('workoutRunner') }
 
-    # Eight 500 m pieces and the paddle after each.
+    # Eight 500 m pieces and the paddle after each — the corpus reached the runner, not just the
+    # list.
     assert_equal 16, app_state('workoutRunner.expandedPhases.length')
   end
 
