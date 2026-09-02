@@ -19,3 +19,28 @@ jobs:
       # ubuntu-latest ships Chrome; Ferrum finds it on PATH.
       - run: bundle exec rake test
       - run: bundle exec rubocop
+
+  # Continuous deployment. The box is not reachable from the internet on any port a runner could
+  # dial, so the runner joins the tailnet for the length of the job and arrives the way a human
+  # does: Tailscale SSH, tailnet identity, nothing in `authorized_keys`.
+  deploy:
+    needs: test
+    # Never on a pull request: a fork's workflow gets no secrets, so this job would fail rather than
+    # deploy, and a green PR must not mean the box has moved.
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    # Two pushes a minute apart must not run `git pull` and `docker restart` over each other.
+    concurrency:
+      group: deploy-charras
+      cancel-in-progress: false
+    steps:
+      - uses: tailscale/github-action@v3
+        with:
+          oauth-client-id: ${{ secrets.TS_OAUTH_CLIENT_ID }}
+          oauth-secret: ${{ secrets.TS_OAUTH_SECRET }}
+          tags: tag:ci
+      # Tailscale SSH mints a fresh host key per node, so there is nothing stable to pin in
+      # known_hosts; the tailnet is what authenticates both sides here.
+      - run: >
+          ssh -o StrictHostKeyChecking=accept-new -o BatchMode=yes -o ConnectTimeout=20
+          ivan@charras-server /opt/web-erg/deploy.sh
