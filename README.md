@@ -168,11 +168,18 @@ is the image that has both:
 
 ```bash
 docker build -f Dockerfile.test -t web-erg-test .
-docker run --rm -v "$PWD":/app -w /app -e BUNDLE_PATH=/app/vendor/bundle -e CI=true \
+docker run --rm --user "$(id -u):$(id -g)" -e HOME=/tmp \
+  -v "$PWD":/app -w /app -e BUNDLE_PATH=/app/vendor/bundle -e CI=true \
   web-erg-test bash -lc "bundle exec rake test"
 ```
 
-`CI=true` is what passes `--no-sandbox`; without it Chrome will not start as root in a container.
+`--user` matters because the repo is bind-mounted: as root the container leaves root-owned files in
+your own working tree — `vendor/bundle`, `tmp/*.png` — that the host then cannot delete or overwrite,
+and the failure surfaces later somewhere unrelated. `HOME` has to point somewhere writable, since
+that uid has no `passwd` entry inside the image.
+
+`CI=true` is what passes `--no-sandbox`. The container has no usable Chrome sandbox whoever it runs
+as, so this is needed with `--user` just as it was without.
 
 ### Code Formatting
 
